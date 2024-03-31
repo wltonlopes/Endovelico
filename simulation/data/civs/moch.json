@@ -1,0 +1,114 @@
+{	"Code": "moch",
+	"Culture": "Andeanea",
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Celtica.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harsh_Lands_Rugged_People.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
+		{
+			"Name": "",
+			"Description": "",
+			"Technologies": [
+				{
+					"Name": "",
+					"History": ".",
+					"Description": "."
+				}
+			],
+			"Heroes": [
+				{
+					"Name": "",
+					"Class": "",
+					"Armament": "", 
+					"Emblem": "",
+					"History": "wiki"
+				},
+				{
+					"Name": "",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "wiki"
+				},
+				{
+					"Name": " ()",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "wiki"
+				}
+			]
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "",
+			"History": ".",
+			"Description": "wiki"
+		}
+	],
+	"TeamBonuses": [
+		{
+			"Name": "",
+			"History": ".",
+			"Description": "."
+		}
+	],
+	"Structures": [
+		{
+			"Name": "",
+			"Class": "",
+			"Emblem": "",
+			"History": "'.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/moch/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/moch/civil_centre",
+			"Count": 1
+		},
+		{
+			"Template": "units/moch/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/moch/infantry_maceman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/moch/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/moch/cavalry_swordsman_b"
+	    }
+	 ],
+	"AINames": [
+		"Tacaynamo",
+		"Guacricaur",
+		"Ñancempinco"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_melee_b": "units/moch/infantry_maceman_b",
+		"skirmish/structures/default_house_5": "structures/{civ}/house",
+		"skirmish/units/default_cavalry": "units/moch/cavalry_swordsman_b"
+	},
+	"SelectableInGameSetup": true
+}

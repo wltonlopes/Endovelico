@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Head 1">
+      <mesh>props/new/head_longhair.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Face 01">
+      <textures><texture file="props/head/mochica_runner_01.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Face 02">
+      <textures><texture file="props/head/mochica_runner_02.png" name="baseTex"/></textures>
+	  </variant>
+    <variant frequency="1" name="Face 03">
+      <textures><texture file="props/head/mochica_runner_03.png" name="baseTex"/></textures>
+	  </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+    </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

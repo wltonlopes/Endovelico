@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>    
+  <group>
+    <variant frequency="1" name="1">
+      <mesh>props/shield/shield_moch_round_wood.dae</mesh>
+    </variant>
+  </group>
+   <group>
+    <variant frequency="1" name="1">
+      <textures>
+        <texture file="props/shield/moch_shield_r_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="2">
+      <textures>
+	    <texture file="props/shield/moch_shield_r_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    	<variant frequency="1" name="3">
+      <textures>
+	    <texture file="props/shield/moch_shield_r_3.png" name="baseTex"/>
+      </textures>
+    </variant>
+      <variant frequency="1" name="4">
+      <textures>
+	    <texture file="props/shield/moch_shield_r_4.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

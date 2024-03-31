@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Head 1">
+      <mesh>props/new/head_longhair.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="mayan Face a">
+      <textures><texture file="props/head/chimu_b.png" name="baseTex"/></textures>
+    </variant>
+	 <variant frequency="1" name="texture b">
+      <textures><texture file="props/head/chimu_a.png" name="baseTex"/></textures>
+	  </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

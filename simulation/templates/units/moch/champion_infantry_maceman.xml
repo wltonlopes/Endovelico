@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_maceman">
+  <Identity>
+    <Civ>moch</Civ>
+    <GenericName>Warrior</GenericName>
+    <SpecificName>Yōddha</SpecificName>
+    <SelectionGroupName>units/moch/champion_infantry</SelectionGroupName>
+    <Icon>units/moch/champion_maceman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mochicas/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

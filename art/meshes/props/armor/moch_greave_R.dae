@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.91.2 commit date:2021-01-19, commit time:16:15, hash:5be9ef417703</authoring_tool>
+    </contributor>
+    <created>2024-03-17T08:06:10</created>
+    <modified>2024-03-17T08:06:10</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Materiais-effect">
+      <profile_COMMON>
+        <newparam sid="moch_props_png-surface">
+          <surface type="2D">
+            <init_from>moch_props_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="moch_props_png-sampler">
+          <sampler2D>
+            <source>moch_props_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="moch_props_png-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="moch_props_png" name="moch_props_png">
+      <init_from>/media/milena/0c870e61-5200-459e-8c72-034b7dfbbc73/home/ton/0ad/binaries/data/mods/mochicas_mod/art/textures/skins/props/moch_props.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Materiais-material" name="Materiais">
+      <instance_effect url="#Materiais-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plano_033-mesh" name="Plano.033">
+      <mesh>
+        <source id="Plano_033-mesh-positions">
+          <float_array id="Plano_033-mesh-positions-array" count="84">-0.2046216 -0.1382129 -0.4834744 0.08499687 -0.1382129 -0.5180667 -0.08499687 -0.2690699 0.5180667 0.2046216 -0.2690699 0.4834744 -0.08827549 -0.2036414 0.01054364 0.09217691 -0.2036414 -0.01100963 0.1394636 -0.2363556 0.2372996 -0.07669377 -0.2363556 0.2631176 -0.1365061 -0.1709271 -0.2376528 0.07965123 -0.1709271 -0.2634708 -0.194121 -0.15457 -0.3577499 0.1051633 -0.15457 -0.3934967 0.1948818 -0.2527128 0.3576591 -0.1044025 -0.2527128 0.3934058 -8.43248e-5 -0.1310165 -0.563218 0.1325678 -0.2762662 0.547394 0.03838819 -0.2036414 -0.004585087 0.07503205 -0.2363556 0.2449954 0.01521968 -0.1709271 -0.2557751 0.01595354 -0.15457 -0.3828414 0.105672 -0.2527128 0.3683144 0.01743334 -0.2762662 0.5611458 -0.02494359 -0.2036414 0.002979278 -8.3087e-4 -0.2363556 0.2540565 -0.06064319 -0.1709271 -0.2467139 -0.08908373 -0.15457 -0.3702957 6.34778e-4 -0.2527128 0.3808601 -0.1152188 -0.1310165 -0.5494663</float_array>
+          <technique_common>
+            <accessor source="#Plano_033-mesh-positions-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_033-mesh-normals">
+          <float_array id="Plano_033-mesh-normals-array" count="108">-0.01470327 -0.9916372 -0.1282169 -0.01525819 -0.9916894 -0.1277474 -0.01525825 -0.9916893 -0.1277475 -0.01525813 -0.9916893 -0.1277475 -0.0159083 -0.9916372 -0.1280728 -0.01525813 -0.9916895 -0.1277474 -0.01525837 -0.9916894 -0.1277472 -0.01530355 -0.9916397 -0.1281269 -0.01525825 -0.9916895 -0.1277474 -0.01525819 -0.9916894 -0.1277475 -0.01525825 -0.9916894 -0.1277474 -0.01530355 -0.9916396 -0.1281273 -0.01525819 -0.9916895 -0.1277474 -0.01525819 -0.9916894 -0.1277474 -0.01525819 -0.9916895 -0.127747 -0.01525831 -0.9916895 -0.1277475 -0.01525825 -0.9916895 -0.1277473 -0.01525825 -0.9916895 -0.1277473 -0.01525819 -0.9916895 -0.127747 -0.01525813 -0.9916895 -0.1277474 -0.01525819 -0.9916895 -0.1277474 -0.01525819 -0.9916895 -0.1277472 -0.01525819 -0.9916895 -0.1277473 -0.01525819 -0.9916893 -0.1277476 -0.01525813 -0.9916894 -0.127747 -0.01530355 -0.9916397 -0.128127 -0.01525813 -0.9916894 -0.1277474 -0.01525819 -0.9916895 -0.1277474 -0.01525819 -0.9916894 -0.1277473 -0.01530355 -0.9916398 -0.1281266 -0.0158016 -0.991638 -0.1280801 -0.01525819 -0.9916894 -0.1277475 -0.01525819 -0.9916894 -0.1277477 -0.01525819 -0.9916895 -0.1277474 -0.01480847 -0.991638 -0.1281988 -0.01525819 -0.9916894 -0.1277475</float_array>
+          <technique_common>
+            <accessor source="#Plano_033-mesh-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_033-mesh-map-0">
+          <float_array id="Plano_033-mesh-map-0-array" count="216">0.5106051 0.8566053 0.5315129 0.8736257 0.5106051 0.8736257 0.5106051 0.7715033 0.5315129 0.8055441 0.5106051 0.8055441 0.5315129 0.8055441 0.5106051 0.839585 0.5106051 0.8055441 0.5106051 0.754483 0.5315129 0.7715033 0.5106051 0.7715033 0.5315129 0.7374626 0.5106051 0.754483 0.5106051 0.7374626 0.5315129 0.839585 0.5106051 0.8566053 0.5106051 0.839585 0.5106051 0.839585 0.4859879 0.8566053 0.4859879 0.839585 0.4859879 0.7374626 0.5106051 0.754483 0.4859879 0.754483 0.4859879 0.754483 0.5106051 0.7715033 0.4859879 0.7715033 0.5106051 0.8055441 0.4859879 0.839585 0.4859879 0.8055441 0.4859879 0.7715033 0.5106051 0.8055441 0.4859879 0.8055441 0.5106051 0.8566053 0.4859879 0.8736257 0.4859879 0.8566053 0.4859879 0.8566053 0.4613705 0.8736257 0.4613705 0.8566053 0.4859879 0.7715033 0.4613705 0.8055441 0.4613705 0.7715033 0.4613705 0.8055441 0.4859879 0.839585 0.4613705 0.839585 0.4859879 0.754483 0.4613705 0.7715033 0.4613705 0.754483 0.4613705 0.7374626 0.4859879 0.754483 0.4613705 0.754483 0.4613705 0.839585 0.4859879 0.8566053 0.4613705 0.8566053 0.5106051 0.8566053 0.5315129 0.8566053 0.5315129 0.8736257 0.5106051 0.7715033 0.5315129 0.7715033 0.5315129 0.8055441 0.5315129 0.8055441 0.5315129 0.839585 0.5106051 0.839585 0.5106051 0.754483 0.5315129 0.754483 0.5315129 0.7715033 0.5315129 0.7374626 0.5315129 0.754483 0.5106051 0.754483 0.5315129 0.839585 0.5315129 0.8566053 0.5106051 0.8566053 0.5106051 0.839585 0.5106051 0.8566053 0.4859879 0.8566053 0.4859879 0.7374626 0.5106051 0.7374626 0.5106051 0.754483 0.4859879 0.754483 0.5106051 0.754483 0.5106051 0.7715033 0.5106051 0.8055441 0.5106051 0.839585 0.4859879 0.839585 0.4859879 0.7715033 0.5106051 0.7715033 0.5106051 0.8055441 0.5106051 0.8566053 0.5106051 0.8736257 0.4859879 0.8736257 0.4859879 0.8566053 0.4859879 0.8736257 0.4613705 0.8736257 0.4859879 0.7715033 0.4859879 0.8055441 0.4613705 0.8055441 0.4613705 0.8055441 0.4859879 0.8055441 0.4859879 0.839585 0.4859879 0.754483 0.4859879 0.7715033 0.4613705 0.7715033 0.4613705 0.7374626 0.4859879 0.7374626 0.4859879 0.754483 0.4613705 0.839585 0.4859879 0.839585 0.4859879 0.8566053</float_array>
+          <technique_common>
+            <accessor source="#Plano_033-mesh-map-0-array" count="108" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plano_033-mesh-vertices">
+          <input semantic="POSITION" source="#Plano_033-mesh-positions"/>
+        </vertices>
+        <triangles material="Materiais-material" count="36">
+          <input semantic="VERTEX" source="#Plano_033-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plano_033-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plano_033-mesh-map-0" offset="2" set="0"/>
+          <p>20 0 0 3 0 1 15 0 2 18 1 3 5 1 4 16 1 5 5 2 6 17 2 7 16 2 8 19 3 9 9 3 10 18 3 11 1 4 12 19 4 13 14 4 14 6 5 15 20 5 16 17 5 17 17 6 18 26 6 19 23 6 20 27 7 21 19 7 22 25 7 23 25 8 24 18 8 25 24 8 26 16 9 27 23 9 28 22 9 29 24 10 30 16 10 31 22 10 32 20 11 33 21 11 34 26 11 35 26 12 36 2 12 37 13 12 38 24 13 39 4 13 40 8 13 41 4 14 42 23 14 43 7 14 44 25 15 45 8 15 46 10 15 47 0 16 48 25 16 49 10 16 50 7 17 51 26 17 52 13 17 53 20 18 54 12 18 55 3 18 56 18 19 57 9 19 58 5 19 59 5 20 60 6 20 61 17 20 62 19 21 63 11 21 64 9 21 65 1 22 66 11 22 67 19 22 68 6 23 69 12 23 70 20 23 71 17 24 72 20 24 73 26 24 74 27 25 75 14 25 76 19 25 77 25 26 78 19 26 79 18 26 80 16 27 81 17 27 82 23 27 83 24 28 84 18 28 85 16 28 86 20 29 87 15 29 88 21 29 89 26 30 90 21 30 91 2 30 92 24 31 93 22 31 94 4 31 95 4 32 96 22 32 97 23 32 98 25 33 99 24 33 100 8 33 101 0 34 102 27 34 103 25 34 104 7 35 105 23 35 106 26 35 107</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="moch_greave_R" name="moch_greave_R" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Plano_033-mesh" name="moch_greave_R">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiais-material" target="#Materiais-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

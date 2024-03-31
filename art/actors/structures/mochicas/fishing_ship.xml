@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant name=" Fishing Ship">
+      <mesh>structural/mochicas/ship_fishing.dae</mesh>
+      <textures>
+        <texture file="structural/moch_struct.png" name="baseTex"/>
+        <texture file="structural/moch_struct_spec.png" name="specTex"/>
+        <texture file="structural/moch_struct_norm.png" name="normTex"/>
+      </textures>
+      <props>
+        <prop actor="units/mochicas/fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="props/structures/ptolemies/fishing_boat_basket.xml" attachpoint="basket"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="1" name="walk"/>
+    <variant frequency="1" name="run"/>
+    <variant frequency="1" name="gather_fish">
+      <props>
+        <prop actor="props/units/row.xml" attachpoint="row"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="carry_fish">
+      <props>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="carry_idle">
+      <props>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

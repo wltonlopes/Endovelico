@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>moch</Civ>
+    <SelectionGroupName>units/moch/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Bamboo Spearman</GenericName>
+    <SpecificName>Kauntika</SpecificName>
+    <Icon>units/moch/infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/moch/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mochicas/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

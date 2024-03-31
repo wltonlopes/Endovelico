@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+      <Civ>moch</Civ>
+    <GenericName>High priest</GenericName>
+    <SpecificName>High priest</SpecificName>
+    <Icon>units/moch/hero_high_priest.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mochicas/hero_infantry_maceman.xml</Actor>
+  </VisualActor>
+</Entity>

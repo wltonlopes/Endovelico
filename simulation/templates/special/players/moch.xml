@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>moch</Civ>
+    <GenericName>Mochicas</GenericName>
+    <History>The Moche civilization, the Moche culture or the Early, Pre- or Proto-Chimú 
+      flourished in northern Peru with its capital near present-day Moche, Trujillo, Peru
+      from about 100 to 700 AD during the Regional Development Epoch.
+      While this issue is the subject of some debate, many scholars contend that the Moche were not politically
+      organized as a monolithic empire or state. Rather, they were likely a group of autonomous polities that
+      shared a common culture, as seen in the rich
+      iconography and monumental architecture that survives today.
+</History>
+    <Icon>emblems/emblem_moch.png</Icon>
+  </Identity>
+</Entity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+      <variant>
+        <mesh>props/armor/moch_greave_R.dae</mesh>
+        <textures>
+          <texture file="props/moch_props.png" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <material>player_trans.xml</material>
+  </actor>

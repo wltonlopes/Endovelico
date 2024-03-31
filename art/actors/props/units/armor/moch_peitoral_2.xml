@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="props/moch_props.png" name="baseTex"/>
+          <!-- <texture file="props/moch_props_norm.png" name="normTex"/>
+          <texture file="props/moch_props_spec.png" name="specTex"/> -->
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Base_1">
+      <mesh>props/armor/moch_peitoral_2.dae</mesh>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
