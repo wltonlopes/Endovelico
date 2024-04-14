@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <GenericName>Bireme</GenericName>
-    <SpecificName>Du-Mašōt</SpecificName>
-    <Icon>units/cart_ship_bireme.png</Icon>
+    <SpecificName></SpecificName>
+    <Icon>units/moch/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/mochicas/bireme.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>moch</Civ>
     <SpecificName>Ploîon Halieutikón</SpecificName>
-    <Icon>units/hele_ship_fishing.png</Icon>
+    <Icon>units/moch/ship_canoe.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/mochicas/fishing_ship.xml</Actor>

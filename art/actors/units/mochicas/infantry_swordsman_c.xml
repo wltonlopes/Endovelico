@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_andean_north_coast_warrior_runner.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/helmet_moch_champ_axe.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/moch_shield_s.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/moch_shield_champ.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/moch_mace_champ.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/armor/moch_greave_01_bronze_r.xml" attachpoint="leg_R"/>
         <prop actor="props/units/armor/moch_greave_01_bronze_l.xml" attachpoint="leg_L"/>

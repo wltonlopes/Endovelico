@@ -7,6 +7,6 @@
     <Icon>units/moch/hero_high_priest.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mochicas/hero_infantry_maceman.xml</Actor>
+    <Actor>units/mochicas/hero_infantry_hearler.xml</Actor>
   </VisualActor>
 </Entity>

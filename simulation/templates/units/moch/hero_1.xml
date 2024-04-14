@@ -7,6 +7,6 @@
     <Icon>units/moch/hero_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mochicas/hero_infantry_spearman.xml</Actor>
+    <Actor>units/mochicas/hero_infantry_maceman.xml</Actor>
   </VisualActor>
 </Entity>

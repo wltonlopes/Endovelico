@@ -8,7 +8,9 @@
     <SpecificName>tzhae kaem</SpecificName>
     <Icon>units/moch/infantry_scout.png</Icon>
   </Identity>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/moch/infantry_javelineer_a</Entity>
+  </Promotion>
   <Selectable>
     <Overlay>
       <Texture>

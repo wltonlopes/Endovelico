@@ -26,11 +26,6 @@
         <texture file="skeletal/moch/tunic_moch_fisher_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="tunic_01_03">
-      <textures>
-        <texture file="skeletal/moch/tunic_moch_fisher_03.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant file="biped/fisher/base_ptol.xml"/>

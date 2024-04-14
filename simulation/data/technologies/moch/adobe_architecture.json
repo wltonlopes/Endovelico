@@ -1,0 +1,23 @@
+{
+	"genericName": "Adobe Architecture",
+	"description": "T.",
+	"cost": {
+		"metal": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{ "civ": "moch" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in ",
+	"icon": "bull.png",
+	"researchTime": 40,
+	"tooltip": "Structures ",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.10 },
+		{ "value": "Health/Max", "multiply": 1.50, "affects": "Wonder" }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

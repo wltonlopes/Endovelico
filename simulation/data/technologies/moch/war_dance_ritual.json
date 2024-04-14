@@ -1,0 +1,23 @@
+{
+	"genericName": "Ritual War Dance",
+	"description": "Ancient war ritaul dance.",
+	"cost": {
+		"food": 150,
+		"metal": 150
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" }, 
+			{ "civ": "moch" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "skull_swords.png",
+	"researchTime": 40,
+	"tooltip": "S.",
+	"modifications": [
+		{ "value": "Looter/Resource/metal", "add": 20 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

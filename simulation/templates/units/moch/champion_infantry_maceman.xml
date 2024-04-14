@@ -3,7 +3,7 @@
   <Identity>
     <Civ>moch</Civ>
     <GenericName>Warrior</GenericName>
-    <SpecificName>Yōddha</SpecificName>
+    <SpecificName></SpecificName>
     <SelectionGroupName>units/moch/champion_infantry</SelectionGroupName>
     <Icon>units/moch/champion_maceman.png</Icon>
     <Requirements>
