@@ -7,7 +7,6 @@
     <Requirements>
       <Techs datatype="tokens">
         phase_city
-        -phase_town
       </Techs>
     </Requirements>
   </Identity>
