@@ -5,6 +5,7 @@
     <Height>10.0</Height>
   </Footprint>
   <Identity>
+    <Civ>moch</Civ>
     <GenericName>Bireme</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/moch/ship_bireme.png</Icon>

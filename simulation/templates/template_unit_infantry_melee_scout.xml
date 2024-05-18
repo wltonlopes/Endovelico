@@ -2,10 +2,15 @@
 <Entity parent="template_unit_infantry_melee">
   <Attack>
     <Melee>
-      <AttackName>Dagger</AttackName>
+      <AttackName>Knife</AttackName>
       <Damage>
-	    <Hack>8.0</Hack>
+        <Hack>3</Hack>
+        <Crush>2</Crush>
       </Damage>
+      <MaxRange>2</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
     </Melee>
   </Attack>
   <Builder>
@@ -32,15 +37,6 @@ Strong Against: Nothing.
 Weak Against: Everything.</Tooltip>
   </Identity>
   <Promotion disable=""/>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>3</Hack>
-        <Pierce>1</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <ResourceGatherer>
     <Rates>
       <food.meat>1.2</food.meat>

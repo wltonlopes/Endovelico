@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_scout">
+  <Identity>
+    <Civ>moch</Civ>
+    <SelectionGroupName>units/mayap/heavy_infantry</SelectionGroupName>
+    <GenericName>Runner Warrior</GenericName>
+    <SpecificName>tzhae kaem</SpecificName>
+    <Icon>units/moch/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mochicas/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

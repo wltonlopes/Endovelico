@@ -3,9 +3,6 @@
   <Auras datatype="tokens">
     units/yayo_bell_bearer
   </Auras>
-  <Health>
-    <Max op="mul">2</Max>
-  </Health>
   <Identity>
     <Civ>yayo</Civ>
     <GenericName>Champion Bellringer</GenericName>
