@@ -6,15 +6,6 @@
       <mesh>structural/mochicas/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
-        <!-- <prop actor="props/structures/hellenes/blacksmith_barrel.xml" attachpoint="f_barr_1"/>
-        <prop actor="props/structures/hellenes/blacksmith_barrel.xml" attachpoint="f_barr_2"/>
-        <prop actor="props/structures/hellenes/blacksmith_barrel.xml" attachpoint="f_barr_3"/>
-        <prop actor="props/structures/romans/blacksmith_bucket.xml" attachpoint="f_buc_1"/>
-        <prop actor="props/structures/romans/blacksmith_bucket.xml" attachpoint="f_buc_2"/>
-        <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="f_spe_1"/>
-        <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="f_spe_2"/>
-        <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="f_spe_3"/>  -->
       </props>
       <textures>
         <texture file="structural/moch_struct.png" name="baseTex"/>
@@ -22,6 +13,16 @@
         <texture file="structural/ao/gara_forge_ao.png" name="aoTex"/>
         <texture file="structural/ao/mochicas/basic_AO.png" name="aoTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="researching">
+      <props>
+        <prop actor="particle/sparks_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
+      </props>
     </variant>
   </group>
   <group>

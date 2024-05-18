@@ -32,7 +32,7 @@
   <Sound>
     <SoundGroups>
       <panic>actor/fauna/animal/turkey_attack.xml</panic>
-      <select>actor/fauna/animal/turkey_select.xml</select>
+      <select>actor/faunturkey_basea/animal/turkey_select.xml</select>
       <death>actor/fauna/animal/turkey_attack.xml</death>
     </SoundGroups>
   </Sound>
@@ -44,6 +44,6 @@
     <WalkSpeed op="mul">0.25</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>fauna/turkey.xml</Actor>
+    <Actor>fauna/turkey_base.xml</Actor>
   </VisualActor>
 </Entity>

@@ -22,6 +22,16 @@
     </variant>
   </group>
   <group>
+  <variant frequency="1" name="Idle"/>
+    <variant name="researching">
+      <props>
+        <prop actor="particle/sparks_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant name="ungarrisoned" frequency="1"/>
     <variant name="garrisoned">
       <props>

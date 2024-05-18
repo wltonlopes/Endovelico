@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_herd_domestic_cattle">
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>35</food>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>gaia</Civ>
     <GenericName>Lama glama</GenericName>
     <SpecificName>Lama glama</SpecificName>
-    <Icon>gaia/fauna_zebu.png</Icon>
+    <Icon>gaia/fauna_llama.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>fauna/llama.xml</Actor>
