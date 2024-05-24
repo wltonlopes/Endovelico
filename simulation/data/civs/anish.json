@@ -1,6 +1,6 @@
 ﻿{
 	"Code": "Anishinaabe",
-	"Culture": "Japanese",
+	"Culture": "Anishinaabe",
 	"Music":[
 		{ "File": "red_dawn.ogg", "Type": "peace" },
 		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
