@@ -1,5 +1,5 @@
 ﻿{
-	"Code": "yayo",
+	"Code": "illy",
 	"Culture": "illyrians",
 	"Music":[
 		{ "File": "red_dawn.ogg", "Type": "peace" },
@@ -13,31 +13,31 @@
 	"WallSets":
 	[
 		"structures/wallset_palisade",
-		"structures/yayo/wallset_stone"
+		"structures/illy/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/yayo/civil_centre"
+			"Template": "structures/illy/civil_centre"
 		},
 		{
-			"Template":"units/yayo/support_female_citizen",
+			"Template":"units/illy/support_female_citizen",
 			"Count":5
 		},
 		{
-			"Template": "units/yayo/infantry_axeman_b",
+			"Template": "units/illy/infantry_axeman_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/yayo/infantry_archer_b",
+			"Template": "units/illy/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/yayo/cavalry_archer_b",
+			"Template": "units/illy/cavalry_archer_b",
 			"Count": 1
 		},
 		{
-			"Template": "units/yayo/champion_infantry_bellringer",
+			"Template": "units/illy/champion_infantry_bellringer",
 			"Count": 1
 		}
 	],
@@ -59,11 +59,11 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/yayo/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/yayo/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/yayo/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/yayo/champion_infantry_bellringer",
-	  "skirmish/units/default_ship_trireme":"units/yayo/ship_bireme"
+		"skirmish/units/default_cavalry": "units/illy/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/illy/infantry_axeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/illy/infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/illy/champion_infantry_bellringer",
+	  "skirmish/units/default_ship_trireme":"units/illy/ship_bireme"
 	},
 	"SelectableInGameSetup": false
 }

@@ -1,6 +1,6 @@
 ﻿{
-	"Code": "yayo",
-	"Culture": "Japanese",
+	"Code": "yaru",
+	"Culture": "Yaruma, mesoamerican",
 	"Music":[
 		{ "File": "red_dawn.ogg", "Type": "peace" },
 		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
@@ -13,31 +13,31 @@
 	"WallSets":
 	[
 		"structures/wallset_palisade",
-		"structures/yayo/wallset_stone"
+		"structures/yaru/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/yayo/civil_centre"
+			"Template": "structures/yaru/civil_centre"
 		},
 		{
-			"Template":"units/yayo/support_female_citizen",
+			"Template":"units/yaru/support_female_citizen",
 			"Count":5
 		},
 		{
-			"Template": "units/yayo/infantry_axeman_b",
+			"Template": "units/yaru/infantry_axeman_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/yayo/infantry_archer_b",
+			"Template": "units/yaru/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/yayo/cavalry_archer_b",
+			"Template": "units/yaru/cavalry_archer_b",
 			"Count": 1
 		},
 		{
-			"Template": "units/yayo/champion_infantry_bellringer",
+			"Template": "units/yaru/champion_infantry_bellringer",
 			"Count": 1
 		}
 	],
@@ -59,11 +59,11 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/yayo/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/yayo/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/yayo/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/yayo/champion_infantry_bellringer",
-	  "skirmish/units/default_ship_trireme":"units/yayo/ship_bireme"
+		"skirmish/units/default_cavalry": "units/yaru/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/yaru/infantry_axeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/yaru/infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/yaru/champion_infantry_bellringer",
+	  "skirmish/units/default_ship_trireme":"units/yaru/ship_bireme"
 	},
 	"SelectableInGameSetup": false
 }

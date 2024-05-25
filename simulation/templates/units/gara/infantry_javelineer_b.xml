@@ -3,7 +3,6 @@
   <Builder>
     <Entities datatype="tokens">
       structures/gara/camp_caravan
-
     </Entities>
   </Builder>
   <Identity>
