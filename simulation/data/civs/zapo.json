@@ -1,69 +1,93 @@
 ﻿{
 	"Code": "zapo",
-	"Culture": "Zapotecs",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+	"Culture": "meso",
+	"Region": "mesoamerica",
+	"Music": [
+		{
+			"File": "Jaws_of_the_Jaguar.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Lost_World.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forgotten_Tribe.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cloud_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Old_New_World.ogg",
+			"Type": "peace"
+		}
 	],
 	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
 	[],
 	"WallSets":
 	[
 		"structures/wallset_palisade",
-		"structures/yayo/wallset_stone"
+		"structures/zapo/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/yayo/civil_centre"
+			"Template": "structures/zapo/civil_centre"
 		},
 		{
-			"Template":"units/yayo/support_female_citizen",
-			"Count":5
+			"Template": "units/zapo/support_citizen",
+			"Count": 4
 		},
 		{
-			"Template": "units/yayo/infantry_axeman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/yayo/infantry_archer_b",
+			"Template": "units/zapo/infantry_swordsman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/yayo/cavalry_archer_b",
-			"Count": 1
+			"Template": "units/zapo/infantry_javelineer_b",
+			"Count": 2
 		},
 		{
-			"Template": "units/yayo/champion_infantry_bellringer",
+			"Template": "units/zapo/infantry_scout",
 			"Count": 1
 		}
 	],
-
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/column_open"
+	],
 	"AINames":
 	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
+		"Ozomatli",
+		"Huijatoo",
+		"Zaachila",
+		"Cosijoeza",
+		"Cocijopij"
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/yayo/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/yayo/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/yayo/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/yayo/champion_infantry_bellringer",
-	  "skirmish/units/default_ship_trireme":"units/yayo/ship_bireme"
+		"skirmish/units/default_hero_1": "",
+		"skirmish/units/default_hero_2": "",
+		"skirmish/units/default_hero_3": "",
+		"skirmish/units/default_hero_4": "",
+		"skirmish/units/default_hero_5": "",
+		"skirmish/units/default_champion_infantry_1": "units/zapo/champion_infantry",
+		"skirmish/units/default_champion_infantry_2": "units/zapo/champion_infantry",
+		"skirmish/units/default_champion_infantry_3": "units/zapo/champion_infantry",
+		"skirmish/units/default_champion_infantry_4": "units/zapo/champion_healer",
+		"skirmish/units/default_champion_cavalry_1": "",
+		"skirmish/units/default_champion_cavalry_2": "",
+		"skirmish/units/default_cavalry": "units/zapo/infantry_scout",
+		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelineer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house",
+		"skirmish/structures/special_starting_structure": "gaia/rock/temperate_large_02",
+		"skirmish/structures/default_defense_tower": "structures/{civ}/defense_tower"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }

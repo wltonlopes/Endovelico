@@ -1,15 +1,38 @@
 ﻿{
-	"Code": "epir",
-	"Culture": "Epirus",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+	"Code":"epir",
+	"Culture":[ "helle", "succ" ],
+	"Region":[ "mediterranean", "europe", "greece" ],
+	"Music": [
+		{
+			"File": "Rise_of_Macedon.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "In_the_Shadow_of_Olympus.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Expedition.ogg",
+			"Type": "peace"
+		}
 	],
 	"CivBonuses":
 	[
+		{
+			"Name":"Syntagma",
+			"History":"Based upon the Theban Oblique Order phalanx, the Syntagma was the formation that proved invincible against the armies of Hellas and the East.",
+			"Description":"Infantry pike units can use the slow and powerful Syntagma formation."
+		},
+		{
+			"Name":"Hellenization",
+			"History":"The Greeks were highly successful in Hellenizing various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
+			"Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
+		}
 	],
-	"TeamBonuses":
-	[],
 	"WallSets":
 	[
 		"structures/wallset_palisade",
@@ -21,49 +44,51 @@
 			"Template": "structures/epir/civil_centre"
 		},
 		{
-			"Template":"units/epir/support_female_citizen",
-			"Count":5
+			"Template": "units/epir/support_citizen",
+			"Count": 4
 		},
 		{
-			"Template": "units/epir/infantry_axeman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/epir/infantry_archer_b",
+			"Template": "units/epir/infantry_pikeman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/epir/cavalry_archer_b",
-			"Count": 1
+			"Template": "units/epir/infantry_javelineer_b",
+			"Count": 2
 		},
 		{
-			"Template": "units/epir/champion_infantry_bellringer",
-			"Count": 1
+			"Template": "units/epir/cavalry_scout"
 		}
 	],
-
 	"AINames":
 	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
+		"Olympias",
+		"Neoptolemos I",
+		"Aristomachos",
+		"Deidameia II",
+		"Arybbas",
+		"Admetus",
+		"Kallidike",
+		"Alkemachos",
+		"Xenarchos",
+		"Boiskos",
+		"Khaon"
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/epir/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/epir/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/epir/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/epir/champion_infantry_bellringer",
-	  "skirmish/units/default_ship_trireme":"units/epir/ship_bireme"
+		"skirmish/units/default_hero_1": "units/epir/hero_alexander_I",
+		"skirmish/units/default_hero_2": "units/epir/hero_alexander_II",
+		"skirmish/units/default_hero_3": "units/epir/hero_pyrrhos",
+		"skirmish/units/default_hero_4": "",
+		"skirmish/units/default_hero_5": "",
+		"skirmish/units/default_champion_infantry_1": "units/epir/champion_infantry_hoplite",
+		"skirmish/units/default_champion_infantry_2": "units/epir/champion_infantry_hoplite",
+		"skirmish/units/default_champion_infantry_3": "units/epir/champion_infantry_hoplite",
+		"skirmish/units/default_champion_infantry_4": "units/epir/champion_ranged_gastraphetes",
+		"skirmish/units/default_champion_cavalry_1": "units/epir/champion_cavalry",
+		"skirmish/units/default_champion_cavalry_2": "units/epir/champion_cavalry",
+		"skirmish/units/default_infantry_melee_b": "units/epir/infantry_pikeman_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house",
+		"skirmish/structures/default_defense_tower": "structures/{civ}/defense_tower"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }
