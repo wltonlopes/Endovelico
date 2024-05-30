@@ -1,6 +1,6 @@
 ﻿{
-	"Code": "araw",
-	"Culture": "Arawaks",
+	"Code": "axun",
+	"Culture": "Axunitas",
 	"Music":[
 		{ "File": "red_dawn.ogg", "Type": "peace" },
 		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
@@ -13,31 +13,31 @@
 	"WallSets":
 	[
 		"structures/wallset_palisade",
-		"structures/araw/wallset_stone"
+		"structures/axun/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/araw/civil_centre"
+			"Template": "structures/axun/civil_centre"
 		},
 		{
-			"Template":"units/araw/support_female_citizen",
+			"Template":"units/axun/support_female_citizen",
 			"Count":5
 		},
 		{
-			"Template": "units/araw/infantry_axeman_b",
+			"Template": "units/axun/infantry_axeman_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/araw/infantry_archer_b",
+			"Template": "units/axun/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/araw/cavalry_archer_b",
+			"Template": "units/axun/cavalry_archer_b",
 			"Count": 1
 		},
 		{
-			"Template": "units/araw/champion_infantry_bellringer",
+			"Template": "units/axun/champion_infantry_bellringer",
 			"Count": 1
 		}
 	],
@@ -59,11 +59,11 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/araw/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/araw/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/araw/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/araw/champion_infantry_bellringer",
-	  "skirmish/units/default_ship_trireme":"units/araw/ship_bireme"
+		"skirmish/units/default_cavalry": "units/axun/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/axun/infantry_axeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/axun/infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/axun/champion_infantry_bellringer",
+	  "skirmish/units/default_ship_trireme":"units/axun/ship_bireme"
 	},
 	"SelectableInGameSetup": false
 }

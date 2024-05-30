@@ -41,21 +41,18 @@
 			"Count": 1
 		}
 	],
-
-	"AINames":
-	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
+	"AINames": [
+		"Artas",
+		"Agron",
+		"Bardylis",
+		"Cleitus",
+		"Epulon",
+		"Gentius",
+		"Grabos",
+		"Longarus",
+		"Monunius",
+		"Opis",
+		"Scerdilaidas"
 	],
 	"SkirmishReplacements":
 	{
