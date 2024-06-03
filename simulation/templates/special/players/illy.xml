@@ -8,5 +8,10 @@
     <GenericName>Illyrians</GenericName>
     <History>The Southern Illyrian tribes.</History>
     <Icon>emblems/emblem_celts.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
   </Player>
 </Entity>
