@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.5.1 commit date:2023-04-24, commit time:18:11, hash:e1ccd9d4a1d3</authoring_tool>
+    </contributor>
+    <created>2024-06-11T13:17:33</created>
+    <modified>2024-06-11T13:17:33</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="fogo-effect">
+      <profile_COMMON>
+        <newparam sid="flame_png-surface">
+          <surface type="2D">
+            <init_from>flame_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="flame_png-sampler">
+          <sampler2D>
+            <source>flame_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="flame_png-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="fogo-material" name="fogo">
+      <instance_effect url="#fogo-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_053-mesh" name="Cubo.053">
+      <mesh>
+        <source id="Cubo_053-mesh-positions">
+          <float_array id="Cubo_053-mesh-positions-array" count="48">4.710064 -5.072627 4.653649 4.710064 -5.072627 5.59445 5.523072 -6.058925 4.653649 5.523072 -6.058925 5.59445 5.608006 -5.155415 4.653649 5.608006 -5.155415 5.59445 4.623965 -5.971155 4.653649 4.623965 -5.971155 5.59445 -4.856141 -5.072628 4.653649 -4.856141 -5.072628 5.59445 -4.043133 -6.058926 4.653649 -4.043133 -6.058926 5.59445 -3.958198 -5.155415 4.653649 -3.958198 -5.155415 5.59445 -4.942239 -5.971155 4.653649 -4.942239 -5.971155 5.59445</float_array>
+          <technique_common>
+            <accessor source="#Cubo_053-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_053-mesh-normals">
+          <float_array id="Cubo_053-mesh-normals-array" count="36">-0.7716373 -0.6360629 0 -0.7716373 -0.6360629 0 -0.7716374 -0.6360627 0 -0.6381992 0.7698713 0 -0.638199 0.7698715 0 -0.6381994 0.7698712 0 -0.6381996 0.7698709 0 -0.6381996 0.7698711 0 -0.6381996 0.7698709 0 -0.7716372 -0.6360631 0 -0.6381988 0.7698716 0 -0.6381995 0.7698711 0</float_array>
+          <technique_common>
+            <accessor source="#Cubo_053-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_053-mesh-map-0">
+          <float_array id="Cubo_053-mesh-map-0-array" count="48">0.003029704 0.9952266 0.9955535 8.50705e-4 0.001259624 4.38569e-4 1.000992 0.9952266 7.81864e-4 8.50705e-4 0.999222 4.38569e-4 0.003029704 0.9952266 0.9955535 8.50705e-4 0.001259624 4.38569e-4 1.000992 0.9952266 7.81864e-4 8.50705e-4 0.999222 4.38569e-4 0.003029704 0.9952266 0.9973238 0.9956387 0.9955535 8.50705e-4 1.000992 0.9952266 0.002552211 0.9956387 7.81864e-4 8.50705e-4 0.003029704 0.9952266 0.9973238 0.9956387 0.9955535 8.50705e-4 1.000992 0.9952266 0.002552211 0.9956387 7.81864e-4 8.50705e-4</float_array>
+          <technique_common>
+            <accessor source="#Cubo_053-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_053-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_053-mesh-positions"/>
+        </vertices>
+        <triangles material="fogo-material" count="8">
+          <input semantic="VERTEX" source="#Cubo_053-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_053-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_053-mesh-map-0" offset="2" set="1"/>
+          <p>3 0 0 0 1 1 2 2 2 7 3 3 4 4 4 6 5 5 11 0 6 8 1 7 10 2 8 15 6 9 12 7 10 14 8 11 3 0 12 1 9 13 0 1 14 7 3 15 5 10 16 4 4 17 11 0 18 9 9 19 8 1 20 15 6 21 13 11 22 12 7 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Cubo_083" name="Cubo.083" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_053-mesh" name="Cubo.083">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="fogo-material" target="#fogo-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
