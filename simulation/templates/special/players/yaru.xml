@@ -4,10 +4,10 @@
     teambonuses/cart_player_teambonus
   </Auras> -->
   <Identity>
-    <Civ>yayo</Civ>
-    <GenericName>Yamatai</GenericName>
-    <History>The Yamatai, also known as the Yayoi, are the first people identified as the ancestors of the modern Japanese, although the Jomon and Ainu preceded them. They created a highly structured society which traded freely with Korea and China.</History>
-    <Icon>emblems/emblem_yayo.png</Icon>
+    <Civ>yaru</Civ>
+    <GenericName>yaruma</GenericName>
+    <History>The yaruma.</History>
+    <Icon>emblems/emblem_yaru.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

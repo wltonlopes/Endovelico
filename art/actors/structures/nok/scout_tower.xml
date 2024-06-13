@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Sentry Tower" file="structures/defensive_building.xml">
-      <mesh>structural/yaru/wood_tower.dae</mesh>
+      <mesh>structural/nok/wood_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

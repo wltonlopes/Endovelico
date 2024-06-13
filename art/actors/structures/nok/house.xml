@@ -7,34 +7,34 @@
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/yaru_struct.png" name="baseTex"/>
-        <texture file="structural/yaru_struct_spec.png" name="specTex"/>
-        <texture file="structural/yaru_struct_norm.png" name="normTex"/>
+        <texture file="structural/nok_struct.png" name="baseTex"/>
+        <texture file="structural/nok_struct_spec.png" name="specTex"/>
+        <texture file="structural/nok_struct_norm.png" name="normTex"/>
 
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="house a">
-<mesh>structural/yaru/house_1.dae</mesh>
+<mesh>structural/nok/house_1.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/yaru/house_1_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/nok/house_1_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-<mesh>structural/yaru/house_2.dae</mesh>
+<mesh>structural/nok/house_2.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/yaru/house_2_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/nok/house_2_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-<mesh>structural/yaru/house_3.dae</mesh>
+<mesh>structural/nok/house_3.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/yaru/house_3_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/nok/house_3_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/yaru/house_4.dae</mesh>
+<mesh>structural/nok/house_4.dae</mesh>
       <textures>
                 <texture file="structural/ao/s/house_4_AO.png" name="aoTex"/>
       </textures>

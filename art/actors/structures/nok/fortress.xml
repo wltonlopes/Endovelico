@@ -3,15 +3,15 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">
-      <mesh>structural/yaru/fortress.dae</mesh>
+      <mesh>structural/nok/fortress.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/yaru_struct.png" name="baseTex"/>
-        <texture file="structural/yaru_struct_spec.png" name="specTex"/>
-        <texture file="structural/yaru_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/yaru/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/nok_struct.png" name="baseTex"/>
+        <texture file="structural/nok_struct_spec.png" name="specTex"/>
+        <texture file="structural/nok_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/nok/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
