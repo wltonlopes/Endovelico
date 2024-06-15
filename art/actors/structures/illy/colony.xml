@@ -2,16 +2,19 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Jomon Village">
-      <mesh>structural/tupiaks/barracks.dae</mesh>
+    <variant frequency="1" name="Scout_Tower">
+      <animations>
+        <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
+      </animations>
+      <mesh>structural/illy/colony.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/tupi_struct.png" name="baseTex"/>
-        <texture file="structural/tupi_struct_spec.png" name="specTex"/>
-        <texture file="structural/tupi_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/tupi/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/illy_struct.png" name="baseTex"/>
+        <texture file="structural/illy_struct_spec.png" name="specTex"/>
+        <texture file="structural/illy_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/illy/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,7 +22,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_tupi.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_illy.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Illyrian Sea Raider</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/illy/champion_infantry_swordsman.png</Icon>
+    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/illyrians/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

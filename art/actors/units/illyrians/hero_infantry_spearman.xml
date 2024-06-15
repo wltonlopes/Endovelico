@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/aspis_mace_hypaspist.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/spear_gold.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/armor/greave_01_bronze_l.xml" attachpoint="leg_L"/>
+        <prop actor="props/units/armor/greave_01_bronze_r.xml" attachpoint="leg_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Hele Bryastovets Helmet-01">
+      <props>
+        <prop actor="props/units/helmets/bryastovets_b.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Mace-Scale-04-01">
+      <textures>
+        <texture file="skeletal/mace/scale_04_01.png" name="baseTex"/>
+        <texture file="skeletal/hele/scale_04_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_shield_relax_celt_fast.xml" name="Spearman-Shield-Relax-Fast"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_cape_gaul.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

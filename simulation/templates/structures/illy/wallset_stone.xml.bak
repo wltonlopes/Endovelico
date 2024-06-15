@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>thra</Civ>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/thra/wall_tower</Tower>
+      <Gate>structures/thra/wall_gate</Gate>
+      <WallLong>structures/thra/wall_long</WallLong>
+      <WallMedium>structures/thra/wall_medium</WallMedium>
+      <WallShort>structures/thra/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

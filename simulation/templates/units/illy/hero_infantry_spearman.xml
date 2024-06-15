@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>illy</Civ>
+    <SpecificName></SpecificName>
+    <Icon>units/illy/hero_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/illyrians/hero_infantry_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

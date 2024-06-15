@@ -7,7 +7,7 @@
     <Civ>illy</Civ>
     <GenericName>Illyrians</GenericName>
     <History>The Southern Illyrian tribes.</History>
-    <Icon>emblems/emblem_celts.png</Icon>
+    <Icon>emblems/emblem_illyrians.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

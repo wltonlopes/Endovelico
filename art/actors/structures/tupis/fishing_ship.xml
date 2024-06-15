@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant name="Chinese Fishing Ship">
-      <mesh>structural/tupiaks/barracks.dae</mesh>
+      <mesh>structural/tupis/barracks.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

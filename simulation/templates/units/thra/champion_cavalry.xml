@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>thra</Civ>
+    <GenericName>Thracian Royal Cavalry</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/thra/champion_cavalry_spearman.png</Icon>
+    <SelectionGroupName>units/thra/champion_cavalry</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thracians/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>
