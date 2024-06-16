@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/guara/pyramid_large
+      structures/guara/observatory
+      structures/guara/embassy
+      structures/guara/temple_of_masks
+      structures/guara/range
+      structures/guara/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>guara</Civ>
+    <SpecificName>ixik</SpecificName>
+    <GenericName>Maya Woman</GenericName>
+    <Icon>units/guara/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/south_america/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

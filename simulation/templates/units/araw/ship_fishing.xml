@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_fishing">
+  <Footprint>
+    <Square width="4.0" depth="10.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>araw</Civ>
+    <SpecificName>Kayom</SpecificName>
+    <Icon>units/araw/ship_fishing.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/maya_protoclassic/canoe.xml</Actor>
+  </VisualActor>
+</Entity>

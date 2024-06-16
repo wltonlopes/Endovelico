@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/tupi/pyramid_large
+      structures/tupi/observatory
+      structures/tupi/embassy
+      structures/tupi/temple_of_masks
+      structures/tupi/range
+      structures/tupi/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>tupi</Civ>
+    <SpecificName>ixik</SpecificName>
+    <GenericName>Maya Woman</GenericName>
+    <Icon>units/tupi/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/south_america/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

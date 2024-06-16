@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/tupi/pyramid_large
+      structures/tupi/observatory
+      structures/tupi/embassy
+      structures/tupi/temple_of_masks
+      structures/tupi/range
+      structures/tupi/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>tupi</Civ>
+    <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
+    <GenericName>Archer</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/tupi/infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/tupi/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/south_america/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>
