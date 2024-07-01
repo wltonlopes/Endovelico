@@ -2,16 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="wall_long">
-      <mesh>structural/ural/wall_long.dae</mesh>
+    <variant frequency="1" name="Forge">
+      <mesh>structural/daci/barracks.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/ural_struct.png" name="baseTex"/>
-        <texture file="structural/ural_struct_spec.png" name="specTex"/>
-        <texture file="structural/ural_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/ural/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/daci_struct.png" name="baseTex"/>
+        <texture file="structural/daci_struct_spec.png" name="specTex"/>
+        <texture file="structural/daci_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/illy/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,7 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_ural.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_daci.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>
