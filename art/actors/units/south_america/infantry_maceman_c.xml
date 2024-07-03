@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/maya_shield_c.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/mace_maya_a.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/ari_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="a">
+      <mesh>skeletal/new/m_tunic_maya.dae</mesh>
+      <textures>
+        <texture file="skeletal/mayas/sajaloob_3.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="b">
+      <mesh>skeletal/new/m_tunic_maya.dae</mesh>
+      <textures>
+        <texture file="skeletal/mayas/sajaloob_4.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_axeman_shield_fast_ready.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

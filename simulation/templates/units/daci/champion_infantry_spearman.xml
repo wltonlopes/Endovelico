@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>daci</Civ>
+    <GenericName>Thracian Hoplite</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/thra/champion_infantry_spearman.png</Icon>
+    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thracians/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>
