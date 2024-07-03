@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/tupi/infantry_blowgunner_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/tupi/infantry_blowgunner_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/south_america/infantry_blowgunner_a.xml</Actor>
+  </VisualActor>
+</Entity>

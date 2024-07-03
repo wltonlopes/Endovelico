@@ -11,9 +11,9 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_axeman_b
+      units/{civ}/infantry_maceman_b
       units/{civ}/infantry_archer_b
-      units/{civ}/cavalry_archer_b
+      units/{civ}/infantry_blowgunner_b
     </Entities>
   </Trainer>
   <VisualActor>
