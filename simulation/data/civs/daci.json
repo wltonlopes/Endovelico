@@ -65,5 +65,5 @@
 		"skirmish/units/special_starting_unit": "units/daci/champion_infantry_bellringer",
 	  "skirmish/units/default_ship_trireme":"units/daci/ship_bireme"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }
