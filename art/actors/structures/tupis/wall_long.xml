@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="wall_long">
-      <mesh>structural/tupis/wll_long.dae</mesh>
+      <mesh>structural/tupis/wall_long.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
