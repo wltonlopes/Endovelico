@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_kush_nuba_painted.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Painted skin 4 all white">
+      <textures>
+        <texture file="skeletal/kush/painted_01_04.png" name="baseTex"/>
+        <texture file="skeletal/kush/painted_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_javelin_relax.xml" frequency="1" name="Javelinist-Relax"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/cavalry/attack_ranged_javelin.xml"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_cart.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_ranged.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
