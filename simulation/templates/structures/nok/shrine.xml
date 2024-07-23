@@ -21,7 +21,7 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>nok</Civ>
     <GenericName>Shrine</GenericName>
     <SpecificName>Jinja</SpecificName>
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
@@ -30,6 +30,6 @@
     <Static width="16" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yayoi/karakokagi.xml</Actor>
+    <Actor>structures/nok/karakokagi.xml</Actor>
   </VisualActor>
 </Entity>

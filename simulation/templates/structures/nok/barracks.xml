@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>nok</Civ>
     <GenericName>Barracks</GenericName>
     <SpecificName>Sikömi nö Nipa</SpecificName>
   </Identity>
@@ -26,7 +26,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/yayoi/barracks.xml</Actor>
+    <Actor>structures/nok/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

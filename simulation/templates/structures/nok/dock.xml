@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>nok</Civ>
     <SpecificName>Tu</SpecificName>
   </Identity>
   <Obstruction>
@@ -18,7 +18,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/yayoi/dock.xml</Actor>
+    <Actor>structures/nok/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

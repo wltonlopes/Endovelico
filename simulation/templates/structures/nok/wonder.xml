@@ -5,13 +5,13 @@
     <Height>14.0</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>nok</Civ>
     <SpecificName>Ituki nö Miya</SpecificName>
   </Identity>
   <Obstruction>
     <Static depth="48.0" width="43.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yayoi/wonder.xml</Actor>
+    <Actor>structures/nok/wonder.xml</Actor>
   </VisualActor>
 </Entity>

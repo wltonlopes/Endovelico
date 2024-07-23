@@ -5,13 +5,13 @@
     <Height>22</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>nok</Civ>
     <SpecificName>Yagura</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yayoi/defense_tower.xml</Actor>
+    <Actor>structures/nok/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

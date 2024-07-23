@@ -5,7 +5,7 @@
     <Height>12.6</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>nok</Civ>
     <SpecificName>Kaki</SpecificName>
   </Identity>
   <Obstruction>
@@ -59,6 +59,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/yayoi/wall_long.xml</Actor>
+    <Actor>structures/nok/wall_long.xml</Actor>
   </VisualActor>
 </Entity>
