@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_archer">
+<Entity parent="template_unit_cavalry_ranged_javelineer">
   <Attack>
     <Ranged>
       <Projectile>
@@ -11,7 +11,7 @@
     <Height>7.5</Height>
   </Footprint>
   <Identity>
-    <Civ>gara</Civ>
+    <Civ>nok</Civ>
     <SelectionGroupName>units/gara/cavalry_archer_merc_b</SelectionGroupName>
     <GenericName>Desert Raider</GenericName>
     <SpecificName>nhw Bulahau gml</SpecificName>
@@ -34,6 +34,7 @@
   <StatusBars>
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
+  
   <VisualActor>
     <Actor>units/subsaara/saga_javelinist_a_m.xml</Actor>
   </VisualActor>
