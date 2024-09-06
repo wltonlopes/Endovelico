@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Iti</SpecificName>
   </Identity>
   <Obstruction>
@@ -17,6 +17,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/yayoi/market.xml</Actor>
+    <Actor>structures/axum/market.xml</Actor>
   </VisualActor>
 </Entity>

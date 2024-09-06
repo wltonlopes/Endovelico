@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Wori</SpecificName>
   </Identity>
   <Obstruction>
@@ -23,7 +23,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/yayoi/corral.xml</Actor>
+    <Actor>structures/axum/corral.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

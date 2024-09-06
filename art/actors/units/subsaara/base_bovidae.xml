@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>gaia/base_bovidae.dae</mesh>
+      <props>
+        <prop actor="units/subsaara/saga_javelinist_a_r.xml" attachpoint="rider"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="P">
+      <textures>
+        <texture file="skeletal/kush/painted_01_04.png" name="baseTex"/>
+        <texture file="skeletal/kush/painted_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

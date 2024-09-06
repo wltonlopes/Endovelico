@@ -18,25 +18,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/nok/house_1.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/nok/house_1_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/nok/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/nok/house_2.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/nok/house_2_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/nok/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/nok/house_3.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/nok/house_3_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/nok/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/nok/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/s/house_4_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/nok/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -44,7 +44,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_nok.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>

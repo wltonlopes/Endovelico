@@ -5,7 +5,7 @@
     <Height>12.6</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Kaki</SpecificName>
   </Identity>
   <Obstruction>
@@ -15,6 +15,6 @@
     <HeightOffset>13.6</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/yayoi/wall_short.xml</Actor>
+    <Actor>structures/axum/wall_short.xml</Actor>
   </VisualActor>
 </Entity>

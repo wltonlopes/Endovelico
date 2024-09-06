@@ -5,14 +5,14 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>  
+    <Civ>axum</Civ>  
     <SpecificName>Kura</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yayoi/storehouse.xml</Actor>
+    <Actor>structures/axum/storehouse.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

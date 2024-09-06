@@ -5,7 +5,7 @@
     <Height>12.6</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Kado</SpecificName>
   </Identity>
   <Obstruction>
@@ -53,6 +53,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/yayoi/wall_gate.xml</Actor>
+    <Actor>structures/axum/wall_gate.xml</Actor>
   </VisualActor>
 </Entity>

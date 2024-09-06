@@ -9,7 +9,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Takumiya</SpecificName> 
   </Identity>
   <Obstruction>
@@ -30,7 +30,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/yayoi/arsenal.xml</Actor>
+    <Actor>structures/axum/arsenal.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

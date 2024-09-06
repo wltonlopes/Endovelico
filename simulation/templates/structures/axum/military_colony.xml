@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <GenericName>Ainu Village</GenericName>
     <SpecificName>Kotan</SpecificName>
     <Icon>structures/military_settlement.png</Icon>
@@ -22,7 +22,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/yayoi/jomon_village.xml</Actor>
+    <Actor>structures/axum/jomon_village.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

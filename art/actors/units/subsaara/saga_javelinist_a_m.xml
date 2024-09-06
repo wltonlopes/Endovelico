@@ -2,11 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_bovidae_wild.xml" name="Base">
+    <variant file="quadraped/base_bovidae_attack.xml" name="Base">
       <mesh>skeletal/sanga_cattle_a.dae</mesh>
       <props>
-              <prop actor="props/horse/cav_blanket_lusi_elite.xml" attachpoint="root" maxheight="-0.7" minheight="-0.7"/>
-        <prop actor="units/subsaara/saga_javelinist_a_r.xml" attachpoint="root" maxheight="3.2" minheight="3.2"/>
+        <prop actor="units/subsaara/base_bovidae.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

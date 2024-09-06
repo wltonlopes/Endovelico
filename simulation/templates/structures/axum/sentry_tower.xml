@@ -5,13 +5,13 @@
     <Height>16</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Yagura</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yayoi/scout_tower.xml</Actor>
+    <Actor>structures/axum/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

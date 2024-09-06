@@ -9,14 +9,14 @@
   </Health>
   <Identity>
     <Civ>nok</Civ>
-    <SpecificName>Miya</SpecificName>
+    <SpecificName>Ile Olorun</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24" depth="18"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      traditional_rituals
+      
     </Technologies>
   </Researcher>
   <Trainer>

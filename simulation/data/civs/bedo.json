@@ -1,0 +1,69 @@
+﻿{
+	"Code": "bedo",
+	"Culture": "bedoinos",
+	"Music":[
+		{ "File": "red_dawn.ogg", "Type": "peace" },
+		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/bedo/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/bedo/civil_centre"
+		},
+		{
+			"Template":"units/bedo/support_female_citizen",
+			"Count":5
+		},
+		{
+			"Template": "units/bedo/infantry_axeman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/bedo/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/bedo/cavalry_archer_b",
+			"Count": 1
+		},
+		{
+			"Template": "units/bedo/champion_infantry_bellringer",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+
+    "Jimmu",	
+    "Suizei",
+    "Annei",
+		"Itoku",
+		"Kosho",
+		"Koan",
+		"Korei",
+		"Kogen",
+		"Kaika",
+		"Suijin",
+		"Suinin"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/bedo/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/bedo/infantry_axeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/bedo/infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/bedo/champion_infantry_bellringer",
+	  "skirmish/units/default_ship_trireme":"units/bedo/ship_bireme"
+	},
+	"SelectableInGameSetup": false
+}

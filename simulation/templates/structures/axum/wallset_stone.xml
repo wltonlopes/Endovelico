@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_wallset">
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Yōng</SpecificName>
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/yayo/wall_tower</Tower>
-      <Gate>structures/yayo/wall_gate</Gate>
-      <WallLong>structures/yayo/wall_long</WallLong>
-      <WallMedium>structures/yayo/wall_medium</WallMedium>
-      <WallShort>structures/yayo/wall_short</WallShort>
+      <Tower>structures/axum/wall_tower</Tower>
+      <Gate>structures/axum/wall_gate</Gate>
+      <WallLong>structures/axum/wall_long</WallLong>
+      <WallMedium>structures/axum/wall_medium</WallMedium>
+      <WallShort>structures/axum/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

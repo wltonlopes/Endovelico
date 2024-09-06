@@ -5,15 +5,109 @@
       <author>Blender User</author>
       <authoring_tool>Blender 3.5.1 commit date:2023-04-24, commit time:18:11, hash:e1ccd9d4a1d3</authoring_tool>
     </contributor>
-    <created>2024-06-13T22:29:43</created>
-    <modified>2024-06-13T22:29:43</modified>
+    <created>2024-08-31T21:23:14</created>
+    <modified>2024-08-31T21:23:14</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
-  <library_effects/>
-  <library_images/>
+  <library_effects>
+    <effect id="mandioca__hoja_de_mangrove_1_-effect">
+      <profile_COMMON>
+        <newparam sid="mangrove_1_png_43608c502112b77b15ce07d3db77a61a_png-surface">
+          <surface type="2D">
+            <init_from>mangrove_1_png_43608c502112b77b15ce07d3db77a61a_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mangrove_1_png_43608c502112b77b15ce07d3db77a61a_png-sampler">
+          <sampler2D>
+            <source>mangrove_1_png_43608c502112b77b15ce07d3db77a61a_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="mangrove_1_png_43608c502112b77b15ce07d3db77a61a_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="mangrove_1_png_43608c502112b77b15ce07d3db77a61a_png" name="mangrove_1_png_43608c502112b77b15ce07d3db77a61a_png">
+      <init_from>/C:/Users/welto/OneDrive/Documentos/arquitetura-civs/Blender%20e%20Texturas/guara/mangrove_1.png.43608c502112b77b15ce07d3db77a61a.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="mandioca__hoja_de_mangrove_1_-material" name="mandioca (hoja de mangrove 1)">
+      <instance_effect url="#mandioca__hoja_de_mangrove_1_-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_001-mesh" name="Cube.001">
+      <mesh>
+        <source id="Cube_001-mesh-positions">
+          <float_array id="Cube_001-mesh-positions-array" count="48">2.316065 1.555977 3.279247 2.316065 1.555977 0.03575944 -2.216596 -1.558604 3.279247 -2.216596 -1.558604 0.03575944 -2.167473 1.629247 3.279247 -2.167473 1.629247 0.03575944 2.068004 -1.626616 3.279247 2.068004 -1.626616 0.03575944 2.316065 1.580322 3.279247 2.316065 1.580322 0.03575944 -2.216596 -1.534259 3.279247 -2.216596 -1.534259 0.03575944 -2.167473 1.581883 3.279247 -2.167473 1.581883 0.03575944 2.068004 -1.67398 3.279247 2.068004 -1.67398 0.03575944</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_001-mesh-normals">
+          <float_array id="Cube_001-mesh-normals-array" count="18">0.5663284 -0.8241797 0 0.6094526 0.7928226 0 0.6094525 0.7928226 0 -0.5663284 0.8241797 0 -0.6094526 -0.7928226 0 -0.6094525 -0.7928226 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_001-mesh-map-0">
+          <float_array id="Cube_001-mesh-map-0-array" count="48">0.9984335 1.000071 0.001161694 6.92369e-4 1.000765 0.001214265 0.9984335 1.000071 5.39125e-4 0.9995493 0.001161694 6.92369e-4 0.9984335 1.000071 0.001161694 6.92369e-4 1.000765 0.001214265 0.9984335 1.000071 5.39125e-4 0.9995493 0.001161694 6.92369e-4 0.9984335 1.000071 1.000765 0.001214265 0.001161694 6.92369e-4 0.9984335 1.000071 0.001161694 6.92369e-4 5.39125e-4 0.9995493 0.9984335 1.000071 1.000765 0.001214265 0.001161694 6.92369e-4 0.9984335 1.000071 0.001161694 6.92369e-4 5.39125e-4 0.9995493</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_001-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_001-mesh-positions"/>
+        </vertices>
+        <triangles material="mandioca__hoja_de_mangrove_1_-material" count="8">
+          <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_001-mesh-map-0" offset="2" set="1"/>
+          <p>0 0 0 3 0 1 1 0 2 0 0 3 2 0 4 3 0 5 4 1 6 7 1 7 5 1 8 4 2 9 6 2 10 7 2 11 8 3 12 9 3 13 11 3 14 8 3 15 11 3 16 10 3 17 12 4 18 13 4 19 15 4 20 12 5 21 15 5 22 14 5 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
   <library_visual_scenes>
-    <visual_scene id="Scene" name="Scene"/>
+    <visual_scene id="Scene" name="Scene">
+      <node id="mandioca" name="mandioca" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_001-mesh" name="mandioca">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mandioca__hoja_de_mangrove_1_-material" target="#mandioca__hoja_de_mangrove_1_-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
   </library_visual_scenes>
   <scene>
     <instance_visual_scene url="#Scene"/>

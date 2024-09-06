@@ -8,14 +8,14 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Kömëgura</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12.0" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yayoi/farmstead.xml</Actor>
+    <Actor>structures/axum/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

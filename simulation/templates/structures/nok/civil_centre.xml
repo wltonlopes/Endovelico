@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>nok</Civ>
-    <SpecificName>Nezirö</SpecificName>
+    <SpecificName>Aafin</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

@@ -22,6 +22,13 @@
       upgrade_rank_elite_infantry_ranged
     </Technologies>
   </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_blowgunner_b
+      units/{civ}/infantry_archer_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/tupis/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

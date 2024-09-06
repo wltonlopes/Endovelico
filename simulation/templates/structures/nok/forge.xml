@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>nok</Civ>
-    <SpecificName>Kanutiya</SpecificName>
+    <SpecificName>Ayederu</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

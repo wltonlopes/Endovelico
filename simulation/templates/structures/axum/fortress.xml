@@ -5,14 +5,14 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <SpecificName>Kï</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yayoi/fortress.xml</Actor>
+    <Actor>structures/axum/fortress.xml</Actor>
   </VisualActor>
   <Trainer>
     <Entities datatype="tokens">

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="Base" frequency="1">
+    <animations>
+        <animation file="quadraped/bovidae_idle_a.dae" event="0.80" name="attack_ranged" id="Attack1" load="0.20" speed="110"/>
+        <animation file="quadraped/bovidae_idle_a.dae" event="0.80" name="attack_ranged" id="Attack2" load="0.20" speed="110"/>
+        <animation file="quadraped/bovidae_idle_a.dae" event="0.5" name="attack_slaughter" id="attack1" speed="60"/>
+        <animation file="quadraped/bovidae_idle_a.dae" event="0.5" name="attack_slaughter" id="attack2" speed="60"/>
+        <animation file="quadraped/bovidae_idle_a.dae" name="gather_meat" speed="80"/>
+        <animation file="quadraped/bovidae_idle_a.dae" name="attack_capture" speed="80"/>
+        <animation file="quadraped/bovidae_idle_a.dae" name="promotion" speed="117"/>
+
+        <animation file="quadraped/bovidae_idle_a.dae" name="Idle" id="idle1" speed="80"/>
+        <animation file="quadraped/bovidae_idle_b.dae" name="Idle" id="idle2" speed="80"/>
+        <animation file="quadraped/bovidae_idle_c.dae" name="Idle" id="idle3" speed="80"/>
+        <animation file="quadraped/bovidae_idle_d.dae" name="Idle" id="idle4" speed="80"/>
+        <animation file="quadraped/bovidae_walk.dae" name="Walk" speed="15"/>
+        <animation file="quadraped/bovidae_run.dae" name="Run" speed="8"/>
+    </animations>
+</variant>

@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>yayo</Civ>
+    <Civ>axum</Civ>
     <GenericName>Range</GenericName>
     <SpecificName>Ikusa nö Nipa</SpecificName>
   </Identity>
@@ -23,7 +23,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/yayoi/range.xml</Actor>
+    <Actor>structures/axum/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
