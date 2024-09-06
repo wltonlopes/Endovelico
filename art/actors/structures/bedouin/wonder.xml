@@ -6,6 +6,8 @@
       <mesh>structural/bedouin/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="structures/bedouin/wonder_f.xml" attachpoint="root"/>
+        <prop actor="structures/bedouin/wonder_f2.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/bedo_struct.png" name="baseTex"/>
