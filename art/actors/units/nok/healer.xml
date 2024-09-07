@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_healer_male.xml">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_healer.xml" attachpoint="head"/>
+        <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="healer-robe-1">
+      <props>
+        <prop actor="props/units/heads/hele_hood_priest.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Gara-Linothorax-Noble-Medium-01-01">
+    <props>
+        <prop actor="props/units/heads/new/head_numid_elite.xml" attachpoint="head"/>
+    </props>
+      <textures>
+        <texture file="skeletal/gara/linothorax_noble_medium_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-Tunic-Dark-01-01">
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="skeletal/gara/linothorax_dark_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-Tunic-Dark-01-02">
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="skeletal/gara/linothorax_dark_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-Tunic-Dark-01-03">
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="skeletal/gara/linothorax_dark_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

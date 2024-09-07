@@ -1,6 +1,6 @@
 ﻿{
 	"Code": "nok",
-	"Culture": "Noks",
+	"Culture": "Nok",
 	"Music":[
 		{ "File": "red_dawn.ogg", "Type": "peace" },
 		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
@@ -45,17 +45,9 @@
 	"AINames":
 	[
 
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
+    "Oma Idoko",	
+    "Oduduwa",
+	"Shango"
 	],
 	"SkirmishReplacements":
 	{
