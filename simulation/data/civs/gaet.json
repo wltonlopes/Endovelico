@@ -25,7 +25,7 @@
 			"Count":5
 		},
 		{
-			"Template": "units/gaet/infantry_axeman_b",
+			"Template": "units/gaet/infantry_spearman_b",
 			"Count": 3
 		},
 		{
@@ -34,10 +34,6 @@
 		},
 		{
 			"Template": "units/gaet/cavalry_archer_b",
-			"Count": 1
-		},
-		{
-			"Template": "units/gaet/champion_infantry_bellringer",
 			"Count": 1
 		}
 	],
@@ -60,10 +56,9 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_cavalry": "units/gaet/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/gaet/infantry_axeman_b",
+		"skirmish/units/default_infantry_melee_b": "units/gaet/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/gaet/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/gaet/champion_infantry_bellringer",
 	  "skirmish/units/default_ship_trireme":"units/gaet/ship_bireme"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }
