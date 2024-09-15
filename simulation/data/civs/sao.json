@@ -1,0 +1,56 @@
+﻿{
+	"Code": "sao",
+	"Culture": "sao",
+	"Music":[
+		{ "File": "red_dawn.ogg", "Type": "peace" },
+		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/sao/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/sao/civil_centre"
+		},
+		{
+			"Template":"units/sao/support_female_citizen",
+			"Count":5
+		},
+		{
+			"Template": "units/sao/infantry_axeman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/sao/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/sao/cavalry_javelineer_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+
+    "Oma Idoko",	
+    "Oduduwa",
+	"Shango"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/sao/cavalry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/sao/infantry_axeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/sao/infantry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/sao/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

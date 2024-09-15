@@ -3,9 +3,9 @@
   <Identity>
     <Civ>nok</Civ>
     <SpecificName>Nora</SpecificName>
-    <GenericName>Rice Paddy</GenericName>
+    <GenericName></GenericName>
   </Identity>
   <VisualActor>
-    <Actor>structures/kush/field.xml</Actor>
+    <Actor>structures/plot_field_medit.xml</Actor>
   </VisualActor>
 </Entity>

@@ -18,7 +18,6 @@
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_maceman_b
-      units/{civ}/champion_infantry_maceman
     </Entities>
   </Trainer>
   <VisualActor>

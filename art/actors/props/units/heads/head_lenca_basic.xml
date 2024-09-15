@@ -8,9 +8,6 @@
     <variant frequency="1" name="Headl2">
       <mesh>props/heads/head_lenca_2.dae</mesh>
     </variant>
-     <variant frequency="1" name="Head2">
-      <mesh>props/heads/maya_head_b.dae</mesh>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="mayan Face a">

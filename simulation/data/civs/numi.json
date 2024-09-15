@@ -25,7 +25,7 @@
 			"Count":5
 		},
 		{
-			"Template": "units/numi/infantry_axeman_b",
+			"Template": "units/numi/infantry_swordsman_b",
 			"Count": 3
 		},
 		{
@@ -37,7 +37,7 @@
 			"Count": 1
 		},
 		{
-			"Template": "units/numi/champion_infantry_bellringer",
+			"Template": "units/numi/cavalry_javelineer_b",
 			"Count": 1
 		}
 	],
@@ -45,25 +45,23 @@
 	"AINames":
 	[
 
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
+    "Juba I",	
+    "Juba II",
+	"Madghis",	
+    "Capussa",
+	"Gala",	
+	"Massinissa II",  
+    "Zelalsen",
+    "Masinissa",
+	"Hiempsal II"
 	],
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_cavalry": "units/numi/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/numi/infantry_axeman_b",
+		"skirmish/units/default_infantry_melee_b": "units/numi/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/numi/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/numi/champion_infantry_bellringer",
+		"skirmish/units/special_starting_unit": "units/numi/cavalry_javelineer_b",
 	  "skirmish/units/default_ship_trireme":"units/numi/ship_bireme"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }

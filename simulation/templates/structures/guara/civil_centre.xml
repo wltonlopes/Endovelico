@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>guara</Civ>
-    <SpecificName>Nezirö</SpecificName>
+    <SpecificName>Tekoá</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

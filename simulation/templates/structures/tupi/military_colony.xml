@@ -22,7 +22,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/tupis/jomon_village.xml</Actor>
+    <Actor>structures/tupis/colony.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

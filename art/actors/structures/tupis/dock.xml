@@ -8,7 +8,6 @@
       </animations>
       <mesh>structural/tupis/dock.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/tupi_struct.png" name="baseTex"/>

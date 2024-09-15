@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_statue">
+  <BuildRestrictions>
+    <Category>BallCourt</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>150</BuildTime>
+    <Resources>
+      <stone>400</stone>
+      <metal>400</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="42.0" depth="52.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Civ>zapo</Civ>
+    <SpecificName>Ball Court</SpecificName>
+  </Identity>
+  <Loot>
+    <xp>500</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>40</stone>
+    <metal>40</metal>
+    <glory>500</glory>
+  </Loot>
+  <Obstruction>
+    <Static width="40.0" depth="48.0"/>
+  </Obstruction>
+  <ResourceSupply>
+    <MaxGatherers>20</MaxGatherers>
+  </ResourceSupply>
+  <ResourceTrickle>
+    <Interval>500</Interval>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_tholos.xml</select>
+      <constructed>interface/complete/building/complete_tholos.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>52</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/zapotecs/ball_court.xml</Actor>
+    <FoundationActor>structures/fndn_10x12.xml</FoundationActor>
+  </VisualActor>
+</Entity>

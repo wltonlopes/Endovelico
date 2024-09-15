@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <BuildRestrictions>
+    <Territory>own neutral ally</Territory>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="18" depth="14"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>numi</Civ>
+    <GenericName>Stable</GenericName>
+    <SpecificName></SpecificName>
+    <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="16" depth="12"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/numi/stable.xml</Actor>
+  </VisualActor>
+</Entity>

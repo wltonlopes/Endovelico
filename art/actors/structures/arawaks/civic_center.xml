@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
-      <mesh>structural/arawaks/cc.dae</mesh>
+      <mesh>structural/arawaks/civic_center.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
@@ -19,7 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="root" minheight="18" maxheight="18"/>
+        <prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="root" minheight="10" maxheight="10"/>
       </props>
     </variant>
   </group>

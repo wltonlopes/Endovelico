@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="shrine|template_structure_civic_temple">
-  <BuildRestrictions>
-    <Territory>own neutral ally</Territory>
-  </BuildRestrictions>
-  <Footprint>
-    <Square width="18" depth="14"/>
-    <Height>12.0</Height>
-  </Footprint>
+<Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Shrine</GenericName>
     <SpecificName>Durosinsin</SpecificName>
-    <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
+    <Tooltip>.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="16" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/nok/karakokagi.xml</Actor>
+    <Actor>structures/nok/stable.xml</Actor>
   </VisualActor>
 </Entity>

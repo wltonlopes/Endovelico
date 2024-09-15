@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="shrine|template_structure_civic_temple">
-  <BuildRestrictions>
-    <Territory>own neutral ally</Territory>
-  </BuildRestrictions>
-  <Footprint>
-    <Square width="18" depth="14"/>
-    <Height>12.0</Height>
-  </Footprint>
-  <Health>
-    <Max>2000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
-    <DamageVariants>
-      <lightdamage>0.85</lightdamage>
-      <mediumdamage>0.65</mediumdamage>
-      <heavydamage>0.35</heavydamage>
-    </DamageVariants>
-    <DeathType>corpse</DeathType>
-    <RegenRate>0</RegenRate>
-    <IdleRegenRate>0</IdleRegenRate>
-    <Unhealable>true</Unhealable>
-  </Health>
+<Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>numi</Civ>
     <GenericName>Shrine</GenericName>
@@ -30,6 +10,6 @@
     <Static width="16" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/numi/karakokagi.xml</Actor>
+    <Actor>structures/numi/stable.xml</Actor>
   </VisualActor>
 </Entity>

@@ -2,41 +2,36 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_slinger_ready.xml">
+    <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/headband_color.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/slingrock.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="a">
+      <mesh>skeletal/new/m_tunic_maya_variant_short.dae</mesh>
       <textures>
-        <texture file="skeletal/maya_a_1.png" name="baseTex"/>
+        <texture file="skeletal/mayas/maya_b_1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="b">
+      <mesh>skeletal/new/m_tunic_maya.dae</mesh>
       <textures>
-      <texture file="skeletal/maya_a_2.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-      <variant frequency="1" name="c">
-      <textures>
-      <texture file="skeletal/maya_a_3.png" name="baseTex"/>
+        <texture file="skeletal/mayas/maya_b_2.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_slinger_ready.xml"/>
+    <variant file="biped/base_skirmisher_fast.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>

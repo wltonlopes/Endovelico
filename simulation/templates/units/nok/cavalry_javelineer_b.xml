@@ -33,6 +33,6 @@
   </StatusBars>
   
   <VisualActor>
-    <Actor>units/subsaara/saga_javelinist_a_m.xml</Actor>
+    <Actor>units/nok/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

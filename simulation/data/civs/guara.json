@@ -25,7 +25,7 @@
 			"Count":5
 		},
 		{
-			"Template": "units/guara/infantry_axeman_b",
+			"Template": "units/guara/infantry_spearman_b",
 			"Count": 3
 		},
 		{
@@ -33,11 +33,11 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/guara/cavalry_archer_b",
+			"Template": "units/guara/cavalry_spearman_b",
 			"Count": 1
 		},
 		{
-			"Template": "units/guara/champion_infantry_bellringer",
+			"Template": "units/guara/cavalry_spearman_b",
 			"Count": 1
 		}
 	],
@@ -45,24 +45,18 @@
 	"AINames":
 	[
 
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
+    "Marangatu",	
+    "Tumé Arandú",
+    "Kerana",
+		"Japeusá",
+		"Porâsý"
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/guara/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/guara/infantry_axeman_b",
+		"skirmish/units/default_cavalry": "units/guara/cavalry_spearman_b",
+		"skirmish/units/default_infantry_melee_b": "units/guara/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/guara/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/guara/champion_infantry_bellringer",
+		"skirmish/units/special_starting_unit": "units/guara/cavalry_spearman_b",
 	  "skirmish/units/default_ship_trireme":"units/guara/ship_bireme"
 	},
 	"SelectableInGameSetup": true

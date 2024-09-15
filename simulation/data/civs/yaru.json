@@ -25,11 +25,11 @@
 			"Count":5
 		},
 		{
-			"Template": "units/yaru/infantry_axeman_b",
+			"Template": "units/yaru/infantry_spearman_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/yaru/infantry_archer_b",
+			"Template": "units/yaru/infantry_javelineer_b",
 			"Count": 2
 		},
 		{
@@ -37,7 +37,7 @@
 			"Count": 1
 		},
 		{
-			"Template": "units/yaru/champion_infantry_bellringer",
+			"Template": "units/yaru/cavalry_archer_b",
 			"Count": 1
 		}
 	],
@@ -60,10 +60,10 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_cavalry": "units/yaru/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/yaru/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/yaru/infantry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/yaru/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/yaru/infantry_javelineer_b",
 		"skirmish/units/special_starting_unit": "units/yaru/champion_infantry_bellringer",
 	  "skirmish/units/default_ship_trireme":"units/yaru/ship_bireme"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }

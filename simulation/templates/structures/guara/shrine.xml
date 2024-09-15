@@ -30,6 +30,6 @@
     <Static width="16" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/guaranis/karakokagi.xml</Actor>
+    <Actor>structures/guaranis/monticulo.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName>Macuahuitl</AttackName>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>zapo</Civ>
+    <SpecificName>Champion Macuahuitl Warrior</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/zapo/champion_swordsman.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zapotecs/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

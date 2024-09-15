@@ -5,7 +5,7 @@
     <variant frequency="1" name="Storehouse">
       <mesh>structural/nok/storehouse.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/nok_struct.png" name="baseTex"/>

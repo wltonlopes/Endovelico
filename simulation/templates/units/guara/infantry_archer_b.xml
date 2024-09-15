@@ -2,12 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
-      structures/guara/pyramid_large
-      structures/guara/observatory
-      structures/guara/embassy
-      structures/guara/temple_of_masks
-      structures/guara/range
-      structures/guara/palace
+      structures/guara/shrine
     </Entities>
   </Builder>
   <Identity>

@@ -5,6 +5,6 @@
     <SpecificName>Nora</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/plot_field_tropic_maize.xml</Actor>
+    <Actor>structures/plot_field_tropic_mandioca.xml</Actor>
   </VisualActor>
 </Entity>

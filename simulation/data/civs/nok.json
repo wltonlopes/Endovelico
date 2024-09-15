@@ -25,7 +25,7 @@
 			"Count":5
 		},
 		{
-			"Template": "units/nok/infantry_swordsman_b",
+			"Template": "units/nok/infantry_axeman_b",
 			"Count": 3
 		},
 		{
@@ -33,7 +33,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/nok/cavalry_javelineer_b",
+			"Template": "units/nok/cavalry_maceman_b",
 			"Count": 1
 		},
 		{
@@ -51,10 +51,10 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/nok/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/nok/infantry_swordsman_b",
+		"skirmish/units/default_cavalry": "units/nok/cavalry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/nok/infantry_axeman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/nok/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/nok/cavalry_javelineer_b",
+		"skirmish/units/special_starting_unit": "units/numi/cavalry_maceman_b",
 	  "skirmish/units/default_ship_trireme":"units/nok/ship_bireme"
 	},
 	"SelectableInGameSetup": true

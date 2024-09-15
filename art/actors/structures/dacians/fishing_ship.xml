@@ -6,7 +6,6 @@
     <variant name="Chinese Fishing Ship">
       <mesh>structural/daci/barracks.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/daci_struct.png" name="baseTex"/>

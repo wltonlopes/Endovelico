@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Identity>
+    <Civ>thra</Civ>
+    <GenericName>Stable</GenericName>
+    <SpecificName></SpecificName>
+    <Tooltip>.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/gaet/stable.xml</Actor>
+  </VisualActor>
+</Entity>

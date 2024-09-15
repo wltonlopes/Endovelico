@@ -4,6 +4,6 @@
     <animation event="0.50" file="biped/attack_bee_grenade.dae" load="0.75" name="Attack_ranged" speed="50"/>
   </animations>
   <props>
-    <prop actor="props/units/weapons/bee_grenade.xml" attachpoint="weapon_R"/>
+    <prop actor="props/units/weapons/rock.xml" attachpoint="weapon_R"/>
   </props>
 </variant>

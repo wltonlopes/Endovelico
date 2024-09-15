@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelineer">
+  <Attack>
+    <Ranged>
+      <Projectile>
+        <LaunchPoint y="5"/>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <Footprint>
+    <Height>7.5</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sao</Civ>
+    <SelectionGroupName>units/sao/cavalry_javelineer_b</SelectionGroupName>
+    <GenericName>Desert Raider</GenericName>
+    <SpecificName>nhw Bulahau gml</SpecificName>
+    <VisibleClasses datatype="tokens">Camel</VisibleClasses>
+    <Icon>units/sao/cavalry_javelineer_b.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/sao/cavalry_javelineer_a</Entity>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/camel.xml</select>
+      <order_walk>actor/fauna/movement/camel_order.xml</order_walk>
+      <death>actor/fauna/death/death_camel.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.5</HeightOffset>
+  </StatusBars>
+  
+  <VisualActor>
+    <Actor>units/sao/cavalry_javelinist_b_m.xml</Actor>
+  </VisualActor>
+</Entity>
