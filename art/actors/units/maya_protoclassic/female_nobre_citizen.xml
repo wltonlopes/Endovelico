@@ -20,7 +20,7 @@
       <textures>
         <texture file="skeletal/mayas/q1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_fem_spec.png" name="specTex"/>
+        <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="2">
@@ -28,7 +28,7 @@
       <textures>
         <texture file="skeletal/mayas/q1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_fem_spec.png" name="specTex"/>
+        <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="3">
@@ -36,7 +36,7 @@
       <textures>
         <texture file="skeletal/mayas/q1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_fem_spec.png" name="specTex"/>
+        <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="4">
@@ -44,7 +44,7 @@
       <textures>
         <texture file="skeletal/mayas/q1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_fem_spec.png" name="specTex"/>
+        <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

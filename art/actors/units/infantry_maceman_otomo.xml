@@ -15,21 +15,21 @@
       <textures>
         <texture file="skeletal/maya_isl_a_1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
 	<variant frequency="1" name="2">
       <textures>
 	    <texture file="skeletal/maya_isl_a_2.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     	<variant frequency="1" name="3">
       <textures>
 	    <texture file="skeletal/maya_isl_a_3.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

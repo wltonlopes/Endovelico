@@ -9,6 +9,8 @@
        <mesh>structural/anish/temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="root" maxheight="11" minheight="-11"/>
+        <prop actor="particle/flame.xml" attachpoint="root" maxheight="11" minheight="-11"/>
       </props>
       <textures>
         <texture file="structural/anish_struct.png" name="baseTex"/>

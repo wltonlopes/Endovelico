@@ -1,0 +1,97 @@
+{
+	"Description": {
+		"Title": "Amazon",
+		"Description": "Explore the mysterious tropics. An extremely green, but also extremely humid environment awaits. The tall Toona trees look on disapprovingly at this invasion of their privacy and ferocious tigers are determined to defend their territory at all costs."
+	},
+	"Environment": {
+		"SunColor": { "r": 1.03162, "g": 0.99521, "b": 0.865752, "a": 0 },
+		"SunElevation": 1.95,
+		"SunRotation": 0.0,
+		"AmbientColor": { "r": 0.364706, "g": 0.376471, "b": 0.419608 },
+		"Water": {
+			"WaterBody": {
+				"Color": { "r": 0.584, "g": 0.824, "b": 0.929 },
+				"Tint": { "r": 0.569, "g": 0.965, "b": 0.945 },
+				"Murkiness": 0.45,
+				"Waviness": 1.5
+			}
+		},
+		"Fog": {
+			"FogThickness": 0.0,
+			"FogFactor": 0.0040,
+			"FogColor": { "r": 0.87451, "g": 0.87451, "b": 0.87451 }
+		},
+		"Postproc": {
+			"PostprocEffect": "hdr",
+			"Contrast": 1,
+			"Saturation": 1,
+			"Bloom": 0.16
+		}
+	},
+	"Terrains": {
+		"mainTerrain": [
+			"india_grass_01",
+			"india_grass_02",
+			"india_grass_dirt_01",
+			"india_grass_dirt_02"
+		],
+		"forestFloor1": "india_forestfloor_01",
+		"forestFloor2": "india_forestfloor_02",
+		"cliff": [
+			"india_cliff_02",
+			"india_cliff_03"
+		],
+		"tier1Terrain": "india_grass_02",
+		"tier2Terrain": "india_mud_01",
+		"tier3Terrain": "india_grass_dirt_01",
+		"tier4Terrain": "india_grass_dirt_02",
+		"hill": [
+			"india_dirt_01",
+			"india_dirt_02"
+		],
+		"dirt": [
+			"india_dirt_01",
+			"india_dirt_02",
+			"india_dirt_03"
+		],
+		"road": "india_paving_02",
+		"roadWild": "india_paving_02",
+		"shoreBlend": "india_grass_dirt_01",
+		"shore": "india_sand_01",
+		"water": "india_mud_01"
+	},
+	"Gaia": {
+		"tree1": "gaia/tree/banyan",
+		"tree2": "gaia/tree/strangler",
+		"tree3": "gaia/tree/teak",
+		"tree4": "gaia/tree/palm_palmyra",
+		"tree5": "gaia/tree/palm_tropical",
+		"fruitBush": "gaia/fruit/date",
+		"startingAnimal": "gaia/fauna_turkey",
+		"mainHuntableAnimal": "gaia/fauna_turkey",
+		"fish": "gaia/fish/generic",
+		"secondaryHuntableAnimal": "gaia/fauna_tapir",
+		"stoneLarge": "gaia/rock/temperate_large_02",
+		"stoneSmall": "gaia/rock/tropical_small",
+		"metalLarge": "gaia/ore/india_01",
+		"metalSmall": "gaia/ore/alpine_small"
+	},
+	"Decoratives": {
+		"grass": "actor|props/flora/grass_tropic_field.xml",
+		"grassShort": "actor|props/flora/plant_tropic_a.xml",
+		"reeds": "actor|flora/trees/palm_nipa.xml",
+		"lillies": "actor|props/flora/water_lillies.xml",
+		"rockLarge": "actor|geology/stone_india_small.xml",
+		"rockMedium": "actor|geology/stone_india_small.xml",
+		"bushMedium": "actor|flora/trees/tropic_bush_biome.xml",
+		"bushSmall": "actor|props/flora/plant_tropic_large.xml",
+		"tree": "actor|flora/trees/palm_nipa.xml"
+	},
+	"ResourceCounts": {
+		"trees": {
+			"min": 1000,
+			"max": 6000,
+			"forestProbability": 0.8
+		}
+	}
+}

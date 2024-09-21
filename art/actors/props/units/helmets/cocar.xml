@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="a1">
+      <mesh>props/helmet/cocar_1.dae</mesh>
+      <textures>
+        <texture file="props/helmet/cocar.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="b2">
+      <mesh>props/helmet/cocar_1.dae</mesh>
+      <textures>
+        <texture file="props/helmet/cocar.png" name="baseTex"/>
+      </textures>
+    </variant>
+     <variant frequency="100" name="c3">
+      <mesh>props/helmet/cocar_1.dae</mesh>
+      <textures>
+        <texture file="props/helmet/cocar.png" name="baseTex"/>
+      </textures>
+    </variant>
+     <variant frequency="100" name="c4">
+      <mesh>props/helmet/cocar_1.dae</mesh>
+      <textures>
+        <texture file="props/helmet/cocar.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

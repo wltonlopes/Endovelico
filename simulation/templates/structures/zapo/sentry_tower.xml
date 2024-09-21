@@ -4,6 +4,6 @@
     <Civ>zapo</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/zapotecs/wooden_tower.xml</Actor>
+    <Actor>structures/zapotecs/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

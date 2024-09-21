@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="stone_tower|structures/zapo/defense_tower">
-  <VisualActor>
-    <FoundationActor>structures/carthaginians/fndn_defense_tower.xml</FoundationActor>
-    <Actor>structures/zapotecs/scout_tower.xml</Actor>
-  </VisualActor>
-</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/bedo/cavalry_spearman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/bedo/cavalry_spearman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/bedouin/camelry_spearman_m.xml</Actor>
+  </VisualActor>
+</Entity>

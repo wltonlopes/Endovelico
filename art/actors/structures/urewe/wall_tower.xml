@@ -5,7 +5,6 @@
     <variant frequency="100" name="Base" file="structures/defensive_building.xml">
       <mesh>structural/urewe/wall_tower.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/urewe_struct.png" name="baseTex"/>

@@ -17,7 +17,7 @@
       <textures>
         <texture file="skeletal/mayas/lenca_a_1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="b">
@@ -25,7 +25,7 @@
       <textures>
       <texture file="skeletal/mayas/lenca_a_2.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c">
@@ -33,7 +33,7 @@
       <textures>
       <texture file="skeletal/mayas/lenca_a_3.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maya_isl_a_spec.png" name="specTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

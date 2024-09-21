@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+    <Builder>
+    <Entities datatype="tokens">
+      structures/bedo/camp_caravan
+
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>bedo</Civ>
+    <SelectionGroupName>units/bedo/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Garamantian Spearman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/gara/infantry_spearman_desert.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/bedo/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/bedouin/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

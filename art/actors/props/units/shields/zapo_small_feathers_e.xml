@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>    
+  <group>
+    <variant frequency="1" name="shield_elite">
+      <mesh>props/shield/shield_zapo_wood.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/zapo_shield_dec.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+	  </textures>
+    </variant>
+  </group>
+   <group>
+    <variant frequency="1" name="shield_a">
+      <textures>
+        <texture file="props/shield/zapo_shield_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="shield_b">
+      <textures>
+	    <texture file="props/shield/zapo_shield_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    	<variant frequency="1" name="shield_c">
+      <textures>
+	    <texture file="props/shield/zapo_shield_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

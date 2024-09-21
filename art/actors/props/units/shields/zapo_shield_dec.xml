@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>    
+  <group>
+    <variant frequency="1" name="1">
+      <mesh>props/shield/shield_zapo_dec.dae</mesh>
+      <textures>
+        <texture file="structural/zapo_struct.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
