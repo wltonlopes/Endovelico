@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/bedo/camp_caravan
+
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>bedo</Civ>
+    <SelectionGroupName>units/bedo/infantry_archer_b</SelectionGroupName>
+    <GenericName>Libyan Archer</GenericName>
+    <SpecificName>Pdty Nhsyw</SpecificName>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+    <Icon>units/gara/infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/bedo/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/bedouin/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

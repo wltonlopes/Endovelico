@@ -19,7 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="root" minheight="10" maxheight="10"/>
+        <prop actor="props/special/common/garrison_flag_araw.xml" attachpoint="root" minheight="10" maxheight="10"/>
       </props>
     </variant>
   </group>

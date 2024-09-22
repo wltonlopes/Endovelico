@@ -5,7 +5,7 @@
     <variant name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
+       <prop actor="props/units/heads/head_lenca_elite.xml" attachpoint="head"/>
         <prop actor="props/units/shields/maya_shield_c.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/mace_maya_a.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/helmets/ari_helmet.xml" attachpoint="helmet"/>

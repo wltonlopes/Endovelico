@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_bolas_ready.xml">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_andean_north_coast_warrior_runner.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_moch_balls.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/moch_shield_champ.xml" attachpoint="shield"/>
+        <prop actor="props/units/armor/moch_greave_01_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/moch_greave_01_bronze_l.xml" attachpoint="leg_L"/>
+        <prop actor="props/units/weapons/moch_bolas.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="tunic_02_01">
+      <textures>
+        <texture file="skeletal/moch/scale_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="tunic_02_02">
+      <textures>
+        <texture file="skeletal/moch/scale_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="tunic_02_03">
+      <textures>
+        <texture file="skeletal/moch/scale_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="tunic_02_04">
+      <textures>
+        <texture file="skeletal/moch/scale_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant file="biped/attack_ranged_bolas.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

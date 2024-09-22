@@ -1,0 +1,7 @@
+{
+	"applierTooltip": "This unit causes slowness.",
+	"code": "Slowness",
+	"icon": "poisoned",
+	"statusName": "slowness",
+	"receiverTooltip": "This unit is slowness."
+}

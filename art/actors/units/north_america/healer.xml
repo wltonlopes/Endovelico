@@ -10,8 +10,8 @@
         <texture file="null_black.dds" name="specTex"/>
       </textures>
       <props>
-        <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
-		<prop actor="props/units/helmets/h_helmet.xml" attachpoint="helmet"/>
+       <prop actor="props/units/heads/head_lenca_elite.xml" attachpoint="head"/>
+		    <prop actor="props/units/helmets/h_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
 	  </props>
     </variant>

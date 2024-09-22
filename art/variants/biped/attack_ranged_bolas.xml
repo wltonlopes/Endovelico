@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_ranged">
+  <animations>
+    <animation event="2.50" sound="0.1" file="biped/infantry/slinger/attack_ranged.dae" load="2.75" name="attack_ranged" id="attack_ranged_01" speed="50"/>
+  </animations>
+  <props>
+    <prop actor="props/units/weapons/moch_bolas.xml" attachpoint="weapon_R"/>
+    <prop actor="props/units/weapons/moch_bolas.xml" attachpoint="projectile"/>
+  </props>
+</variant>

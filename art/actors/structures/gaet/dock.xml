@@ -9,6 +9,7 @@
       <mesh>structural/gaet/dock.dae</mesh>
       <props>
         <prop actor="structures/gaet/dock_f.xml" attachpoint="root"/>
+        <prop actor="structures/gaet/dock_s.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/gaet_struct.png" name="baseTex"/>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/anish/pyramid_large
+      structures/anish/observatory
+      structures/anish/embassy
+      structures/anish/temple_of_masks
+      structures/anish/range
+      structures/anish/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>anish</Civ>
+    <SpecificName>ixik</SpecificName>
+    <GenericName>Woman</GenericName>
+    <Icon>units/anish/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/north_america/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/north_america/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

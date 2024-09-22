@@ -23,6 +23,6 @@
     <Icon>units/iber/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/lusitanians/female_citizen.xml</Actor>
+    <Actor>units/bedouin/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>
