@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_stone">
+  <Identity>
+    <Civ>sueb</Civ>
+    <SpecificName>Warīnīz Staupilaz</SpecificName>
+    <SelectionGroupName>structures/sueb/defense_tower</SelectionGroupName>
+  </Identity>
+  <Upgrade>
+    <Tower>
+      <Requirements replace="">
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+    </Tower>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/suebians/defense_tower.xml</Actor>
+  </VisualActor>
+</Entity>

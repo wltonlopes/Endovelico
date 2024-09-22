@@ -27,7 +27,6 @@
     <wood>0</wood>
     <stone>40</stone>
     <metal>40</metal>
-    <glory>500</glory>
   </Loot>
   <Obstruction>
     <Static width="40.0" depth="48.0"/>

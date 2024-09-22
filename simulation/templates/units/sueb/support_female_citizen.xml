@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>sueb</Civ>
+    <SpecificName>Aštāh</SpecificName>
+    <GenericName>Carthaginian Woman</GenericName>
+    <Icon>units/cart/support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/suebians/citizen_female.xml</Actor>
+  </VisualActor>
+</Entity>
