@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_maceman">
   <Identity>
     <Civ>nok</Civ>
-    <SelectionGroupName>units/nok/cavalry_axeman_b</SelectionGroupName>
+    <SelectionGroupName>units/nok/cavalry_maceman_b</SelectionGroupName>
     <GenericName>Nok Maceman Cavalry</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/pers/cavalry_axeman.png</Icon>

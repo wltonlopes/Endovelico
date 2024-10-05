@@ -19,7 +19,7 @@
     <Static width="12.0" depth="8.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/germans/wall_short.xml</Actor>
+    <Actor>structures/suebians/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>11.6</Length>

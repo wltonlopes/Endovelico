@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 3.5.1 commit date:2023-04-24, commit time:18:11, hash:e1ccd9d4a1d3</authoring_tool>
     </contributor>
-    <created>2024-06-08T21:18:35</created>
-    <modified>2024-06-08T21:18:35</modified>
+    <created>2024-09-29T09:38:42</created>
+    <modified>2024-09-29T09:38:42</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -101,9 +101,9 @@
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="prop_saugee" name="prop_saugee" type="NODE">
+      <node id="saugee_f" name="saugee_f" type="NODE">
         <matrix sid="transform">0.9306098 0 0 0 0 0.9306098 0 0 0 0 0.9306098 0 0 0 0 1</matrix>
-        <instance_geometry url="#Cubo_392-mesh" name="prop_saugee">
+        <instance_geometry url="#Cubo_392-mesh" name="saugee_f">
           <bind_material>
             <technique_common>
               <instance_material symbol="pasto_-material" target="#pasto_-material">

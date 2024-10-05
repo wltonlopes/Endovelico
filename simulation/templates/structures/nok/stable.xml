@@ -9,6 +9,11 @@
   <Obstruction>
     <Static width="16" depth="12"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/cavalry_maceman_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/nok/stable.xml</Actor>
   </VisualActor>

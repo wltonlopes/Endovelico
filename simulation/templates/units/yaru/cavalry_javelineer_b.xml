@@ -30,9 +30,6 @@
     <Icon>units/yaru/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
-    <Requirements>
-      <Techs datatype="tokens">phase_town</Techs>
-    </Requirements>
   </Identity>
   <Promotion disable=""/>
   <Selectable>
@@ -71,6 +68,6 @@
   </Sound>
 
   <VisualActor>
-    <Actor>units/maya_protoclassic/infantry_guardian_nobre.xml</Actor>
+    <Actor>units/yaru/infantry_lenca_lenca_nobre.xml</Actor>
   </VisualActor>
 </Entity>
