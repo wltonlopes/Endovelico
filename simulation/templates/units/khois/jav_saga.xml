@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Identity>
+    <Civ>khois</Civ>
+    <GenericName>w</GenericName>
+    <SpecificName></SpecificName>
+      <Icon>structures/sentry_tower.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/subsaara/saga_javelinist_a_r.xml</Actor>
+  </VisualActor>
+</Entity>

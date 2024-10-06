@@ -5,9 +5,9 @@
   </Auras> -->
   <Identity>
     <Civ>khois</Civ>
-    <GenericName>Khois</GenericName>
-    <History>Th.</History>
-    <Icon>emblems/emblem_yayo.png</Icon>
+    <GenericName>Khoisan</GenericName>
+    <History>.</History>
+    <Icon>emblems/emblem_sao.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

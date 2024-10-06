@@ -5,9 +5,9 @@
   </Auras> -->
   <Identity>
     <Civ>urewe</Civ>
-    <GenericName>urewe</GenericName>
+    <GenericName>Urewe</GenericName>
     <History>.</History>
-    <Icon>emblems/emblem_yayo.png</Icon>
+    <Icon>emblems/emblem_urewe.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">
