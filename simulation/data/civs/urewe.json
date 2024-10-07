@@ -61,12 +61,15 @@
 		{
 			"Template": "units/urewe/cavalry_javelineer_b",
 			"Count": 1
+		},
+		{
+			"Template": "gaia/fauna_cattle_cow_trainable",
+			"Count": 1
 		}
 	],
 
 	"AINames":
 	[
-
     "Oma Idoko",	
     "Oduduwa",
 	"Shango"
@@ -76,7 +79,8 @@
 		"skirmish/units/default_cavalry": "units/urewe/cavalry_javelineer_b",
 		"skirmish/units/default_infantry_melee_b": "units/urewe/infantry_axeman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/urewe/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/urewe/ship_bireme"
+		"skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
+	    "skirmish/units/default_ship_trireme":"units/urewe/ship_bireme"
 	},
 	"SelectableInGameSetup": true
 }
