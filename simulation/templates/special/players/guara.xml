@@ -7,7 +7,7 @@
     <Civ>guara</Civ>
     <GenericName>Guaranis</GenericName>
     <History>The Guaranis.</History>
-    <Icon>emblems/emblem_yayo.png</Icon>
+    <Icon>emblems/emblem_guara.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">
