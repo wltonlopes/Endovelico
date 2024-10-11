@@ -6,7 +6,7 @@
 	"description": "Increases wood gathering rates for trees.",
 	"cost": {
 		"wood": 400,
-		"metal": 200
+		"metal": 50
 	},
 	"requirements": { "tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",

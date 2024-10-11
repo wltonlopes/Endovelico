@@ -12,6 +12,6 @@
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/kushites/female_citizen.xml</Actor>
+    <Actor>units/subsaara/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

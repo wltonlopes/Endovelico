@@ -7,8 +7,7 @@
 	},
 	"requirements": {
 		"all": [
-			{ "tech": "phase_village" },
-			{ "civ": "mayap" }
+			{ "tech": "phase_village" }
 		]
 	},
 	"requirementsTooltip": "Unlocked in Village Fase.",

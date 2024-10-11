@@ -1,0 +1,28 @@
+{
+	"genericName": "Beekeeping",
+	"specificName": {
+		"guara": "Matte"
+	},
+	"description": "The Maya were beekeepers who harvested honey from the log nests of stingless bees native to tropical forests. They were experts of beekeeping and used honey as a sweetener, as an antibiotic, as an ingredient in the Mayan version of mead, and as a commercial currency. ",
+	"cost": {
+		"wood": 200,
+		"food": 10
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village" },
+			{
+				"civ": "guara"
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "apicultura.png",
+	"researchTime": 50,
+	"tooltip": "Workers +10% grain gather rate.",
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/food", "add": 10.0 }
+	],
+	"affects": ["Corral"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

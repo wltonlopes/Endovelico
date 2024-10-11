@@ -16,6 +16,7 @@
       -gather_farming_plows
       mayap/gather_farming_annual
       mayap/gather_irrigation_canals
+      mayap/handling_with_fire
     </Technologies>
   </Researcher>
   <VisualActor>

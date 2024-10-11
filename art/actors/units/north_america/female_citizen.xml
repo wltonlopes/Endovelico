@@ -6,7 +6,6 @@
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
          <prop actor="props/units/heads/head_maya_f.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/fem_maya_h1.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

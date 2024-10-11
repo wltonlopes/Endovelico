@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="akinakes_scyth_sword_long">
+      <mesh>props/weapons/sword/akinakes_scyth_sword_long.dae</mesh>
+      <textures>
+        <texture file="props/prop_weap.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="props/prop_weap.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>
