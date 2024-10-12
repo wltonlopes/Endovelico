@@ -11,6 +11,12 @@
   <Obstruction>
     <Static width="27.0" depth="28.0"/>
   </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+     support_wood
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_axeman_b

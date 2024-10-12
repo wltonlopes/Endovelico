@@ -1,0 +1,17 @@
+{
+    "genericName": "Wood Bonus",
+    "description": "Grants 1000 wood to the player.",
+    "icon": "wood_bonus.png",
+    "researchTime": 1,
+    "cost": {
+        "food": 20
+    },
+    "modifications": [
+        {
+            "value": "Player/Resource/wood",
+            "multiply": 1.1
+        }
+    ],
+    "affects": ["Player"],
+    "soundComplete": "interface/alarm/alarm_phase.xml"
+}
