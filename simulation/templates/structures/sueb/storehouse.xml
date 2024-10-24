@@ -11,16 +11,6 @@
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-
-    </Technologies>
-  </Researcher>
-  <Trainer>
-    <Entities datatype="tokens">
-
-    </Entities>
-  </Trainer>
   <VisualActor>
     <Actor>structures/suebians/storehouse.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

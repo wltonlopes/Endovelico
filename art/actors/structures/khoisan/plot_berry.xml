@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+      <variant frequency="1" name="berries">
+        <mesh>structural/rice_paddy.dae</mesh>
+        <props>
+          <prop actor="props/structures/decals/field_tropic_4x4.xml" attachpoint="root"/>
+        </props>
+        <textures>
+          <texture file="null_white.dds" name="baseTex"/>
+          <texture file="default_norm.png" name="normTex"/>
+          <texture file="null_black.dds" name="specTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="v1">
+        <props>
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_01" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_05" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_10" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_15" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_20" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_25" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_30" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_35" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_40" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_50" maxheight="20" minheight="-20"/>
+  
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_55" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_60" maxheight="20" minheight="-20"/>
+    
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_65" maxheight="20" minheight="-20"/>
+      
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_70" maxheight="20" minheight="-20"/>
+
+          <prop actor="structures/khoisan/field_wall.xml" attachpoint="root"/>
+          <prop actor="props/structures/decals/field_tropic_4x4.xml" attachpoint="root"/>
+        </props>
+      </variant>
+      <variant frequency="1" name="v2">
+        <props>
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_70" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_05" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_10" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_15" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_20" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_25" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_30" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_45" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_40" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_50" maxheight="20" minheight="-20"/>
+  
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_55" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_60" maxheight="20" minheight="-20"/>
+    
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_65" maxheight="20" minheight="-20"/>
+      
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_01" maxheight="20" minheight="-20"/>
+
+          <prop actor="structures/khoisan/field_wall.xml" attachpoint="root"/>
+          <prop actor="props/structures/decals/field_tropic_4x4.xml" attachpoint="root"/>
+        </props>
+      </variant>
+      <variant frequency="1" name="v3">
+        <props>
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_01" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_04" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_10" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_14" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_20" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_24" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_30" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_34" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_40" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_50" maxheight="20" minheight="-20"/>
+  
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_54" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_70" maxheight="20" minheight="-20"/>
+    
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_64" maxheight="20" minheight="-20"/>
+      
+          <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_60" maxheight="20" minheight="-20"/>
+
+          <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
+          <prop actor="structures/khoisan/field_wall.xml" attachpoint="root"/>
+          <prop actor="props/structures/decals/field_tropic_4x4.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

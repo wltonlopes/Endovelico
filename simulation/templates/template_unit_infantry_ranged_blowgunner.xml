@@ -6,7 +6,7 @@
         <Poisoned>
           <Interval>2000</Interval>
           <Damage>
-            <Poison>1</Poison>
+            <Poison>2</Poison>
           </Damage>
           <Stackability>Stack</Stackability>
           <Duration>10000</Duration>
@@ -17,7 +17,7 @@
         <Pierce>7.0</Pierce>
         <Crush>1.1</Crush>
       </Damage>
-      <MaxRange>30</MaxRange>
+      <MaxRange>25</MaxRange>
       <PrepareTime>950</PrepareTime>
       <RepeatTime>1650</RepeatTime>
       <Projectile>

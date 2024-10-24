@@ -128,20 +128,19 @@
 		}
 	],
 	"AINames": [
-		"White Owl Jaguar",
 		"Yax Ehb Xook",
 		"Ch'a Ruler I",
 		"U-K'ix-Chan",
 		"7 chuen 19 Pop",
 		"10 Imix 14 Yaxkin",
-		"Yax Mutul  Ajaw",
+		"Yax Mutul Ajaw",
 		"Ox te’ Tuun Ajaw",
 		"Oxwitik Ajaw ",
 		"Siaan Ka’an  Ajaw",
-		" Lakanhá Ajaw",
+		"Lakanhá Ajaw",
 		"Saqkiih Ajaw",
 		"Óox k'iin took' Ajaw",
-		" Chiih-Witz Ajaw",
+		"Chiih-Witz Ajaw",
 		"Yax Mutul  ix Ajaw",
 		"Ox te’ Tuun ix Ajaw",
 		"xwitik ix Ajaw",
@@ -149,7 +148,7 @@
 		" Lakanhá ix Ajaw",
 		"Saqkiih ix Ajaw",
 		"Óox k'iin took' ix Ajaw",
-		" Chiih-Witz  ix Ajaw"
+		"Chiih-Witz ix Ajaw"
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_cavalry": "units/mayap/cavalry_javelineer_b",

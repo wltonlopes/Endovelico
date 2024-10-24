@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}/civil_centre
+      structures/{civ}/crannog
+      structures/{civ}/military_colony
+      structures/{civ}/house
+      structures/{civ}/ice_house
+      structures/{civ}/pyramid_small
+      structures/{civ}/apartment
+      structures/{civ}/storehouse
+      structures/{civ}/farmstead
+      structures/{civ}/field
+      structures/{civ}/corral
+      structures/{civ}/dock
+      structures/{civ}/kennel
+      structures/{civ}/barracks
+      structures/{civ}/stable
+      structures/{civ}/elephant_stable
+      structures/{civ}/forge
+      structures/{civ}/temple
+      structures/{civ}/market
+      structures/{civ}/ministry
+      structures/{civ}/outpost
+      structures/{civ}/sentry_tower
+      structures/{civ}/defense_tower
+      structures/{civ}/arsenal
+      structures/{civ}/academy
+      structures/{civ}/fortress
+      structures/wallset_palisade
+      structures/{civ}/wallset_palisade
+      structures/{civ}/wallset_siege
+      structures/{civ}/wallset_stone
+      structures/{civ}/theater
+      structures/{civ}/tachara
+      structures/{civ}/wonder
+
+      structures/{civ}/big_forge
+      structures/{civ}/statue
+      structures/{civ}/ovoo
+      structures/{civ}/elephant_bull
+      structures/{civ}/elephant_camel
+      structures/{civ}/shrine
+      structures/{civ}/merc_camp
+      structures/{civ}/mercenary_camp
+      structures/{civ}/sauna
+      structures/{civ}/military_colony
+      structures/{civ}/berry_bushes
+      structures/{civ}/ball_court
+      structures/{civ}/castro
+    </Entities>
+  </Builder>
+  <Identity>
+    <VisibleClasses datatype="tokens">Builder</VisibleClasses>
+  </Identity>
+</Entity>

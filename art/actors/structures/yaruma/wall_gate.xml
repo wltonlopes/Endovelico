@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/yaru/barracks.dae</mesh>
+      <mesh>structural/yaru/wall_gate.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

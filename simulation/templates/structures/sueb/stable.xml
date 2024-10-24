@@ -14,12 +14,7 @@
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </Researcher>
   <VisualActor>
-    <Actor>structures/xiongnu/corral.xml</Actor>
-    <FoundationActor>structures/xiongnu/corral_foundation.xml</FoundationActor>
+    <Actor>structures/suebians/corral.xml</Actor>
   </VisualActor>
 </Entity>

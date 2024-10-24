@@ -12,7 +12,8 @@
 	[],
 	"WallSets":
 	[
-		"structures/wallset_palisade"
+		"structures/wallset_palisade",
+		"structures/batw/wallset_stone"
 	],
 	"StartEntities":
 	[
@@ -46,15 +47,7 @@
 
     "Jimmu",	
     "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
+    "Annei"
 	],
 	"SkirmishReplacements":
 	{

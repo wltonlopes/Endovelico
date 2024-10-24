@@ -20,7 +20,7 @@
       <textures>
         <texture file="skeletal/mayas/king1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-	    <texture file="skeletal/maya_padded_spec.png" name="specTex"/>
+	    <texture file="skeletal/mayas/maya_padded_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

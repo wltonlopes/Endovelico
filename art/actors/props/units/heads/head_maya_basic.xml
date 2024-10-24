@@ -3,14 +3,17 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Head1">
-      <mesh>props/heads/maya_head_a.dae</mesh>
+      <mesh>props/new/dude_head.dae</mesh>
     </variant>
-     <variant frequency="1" name="Head2">
-      <mesh>props/heads/maya_head_b.dae</mesh>
+  </group>
+  <group>
+    <variant frequency="50" name="1">
+      <props>
+         <prop actor="props/units/hairs/maya_hair_1.xml" attachpoint="root"/>
+      </props>
     </variant>
-     <variant frequency="1" name="Head3">
-      <mesh>props/heads/maya_head_c.dae</mesh>
-    </variant>
+	 <variant frequency="1" name="2">
+	  </variant>
   </group>
   <group>
     <variant frequency="1" name="mayan Face a">
@@ -18,9 +21,6 @@
     </variant>
 	 <variant frequency="1" name="texture b">
       <textures><texture file="props/head/maya_new_02.png" name="baseTex"/></textures>
-	  </variant>
-            <variant frequency="1" name="texture c">
-      <textures><texture file="props/head/maya_new_01.png" name="baseTex"/></textures>
 	  </variant>
   </group>
   <material>objectcolor.xml</material>

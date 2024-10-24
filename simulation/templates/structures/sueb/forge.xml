@@ -11,11 +11,6 @@
   <Obstruction>
     <Static width="15.0" depth="15.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/suebians/blacksmith.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

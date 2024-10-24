@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/xion/champion_cavalry">
+  <Identity>
+    <Requirements>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_units_xion
+      </Techs>
+    </Requirements>
+  </Identity>
+</Entity>

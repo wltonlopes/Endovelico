@@ -2,8 +2,8 @@
 	"Code": "daci",
 	"Culture": "Dacians",
 	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
+		{ "File": "Sunrise.ogg", "Type": "peace" }
 	],
 	"CivBonuses":
 	[

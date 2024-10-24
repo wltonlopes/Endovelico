@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_not_selectable">
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>rain</SpecificName>
+    <GenericName>rain</GenericName>
+  </Identity>
+  <RallyPoint disable=""/>
+  <VisualActor>
+    <Actor>particle/rain_shower_diagonal.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -3,13 +3,56 @@
   <castshadow/>    
   <group>
     <variant frequency="1" name="1">
-      <mesh>props/shield/maya_s_cs1.dae</mesh>
+      <mesh>props/shield/maya_shield_c.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/props/shield_meso_deco.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
    <group>
     <variant frequency="1" name="1">
       <textures>
-        <texture file="structural/maya_struct.png" name="baseTex"/>
+        <texture file="props/shield/maya_shield_c_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="2">
+      <textures>
+	    <texture file="props/shield/maya_shield_c_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    	<variant frequency="1" name="3">
+      <textures>
+	    <texture file="props/shield/maya_shield_c_3.png" name="baseTex"/>
+      </textures>
+    </variant>
+      <variant frequency="1" name="4">
+      <textures>
+	    <texture file="props/shield/maya_shield_c_4.png" name="baseTex"/>
+      </textures>
+    </variant>
+          <variant frequency="1" name="5">
+      <textures>
+	    <texture file="props/shield/maya_shield_c_5.png" name="baseTex"/>
+      </textures>
+    </variant>
+          <variant frequency="1" name="6">
+      <textures>
+	    <texture file="props/shield/maya_shield_c_6.png" name="baseTex"/>
+      </textures>
+    </variant>
+          <variant frequency="1" name="7">
+      <textures>
+	    <texture file="props/shield/maya_shield_c_7.png" name="baseTex"/>
+      </textures>
+    </variant>
+          <variant frequency="1" name="8">
+      <textures>
+	    <texture file="props/shield/maya_shield_c_8.png" name="baseTex"/>
+      </textures>
+    </variant>
+          <variant frequency="1" name="9">
+      <textures>
+	    <texture file="props/shield/maya_shield_c_9.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -7,6 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/kush_beja_rhino.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>
@@ -24,7 +25,7 @@
       </props>
       <textures>
         <texture file="skeletal/kush/tunic_basic_02_02.png" name="baseTex"/>
-        <texture file="skeletal/kush/tunic_basic_02_spec.png" name="specTex"/>
+ u       <texture file="skeletal/kush/tunic_basic_02_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>

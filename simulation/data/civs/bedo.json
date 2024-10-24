@@ -1,15 +1,64 @@
 ﻿{
 	"Code": "bedo",
-	"Culture": "bedoinos",
+	"Culture": "Arab",
 	"Music":[
 		{ "File": "red_dawn.ogg", "Type": "peace" },
 		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
 	],
-	"CivBonuses":
-	[
+	"Factions": [
+		{
+			"Name": "Bedouin kingdoms",
+			"Description": "",
+			"Technologies": [
+				{
+					"Name": "",
+					"History": "."
+				},
+				{
+					"Name": " ",
+					"History": "",
+					"Description": "."
+				}
+			],
+			"Heroes": [
+				{
+					"Name": "Hudad",
+					"Class": "Infantry Hero",
+					"Armament": "Sword",
+					"Emblem": "",
+					"History": "Nomadic Leader: Hudad, regarded as a legendary ancestor of various Bedouin tribes, could have abilities to boost troop movement speed and improve resistance in arid and desert terrains.Caravan Master: He could also enhance the efficiency of trade routes, representing the Bedouins’ expertise in crossing and controlling desert trade paths.."
+				},
+				{
+					"Name": "Aretas I",
+					"Class": "Cavalary Hero",
+					"Armament": "Obsidian spear",
+					"Emblem": "",
+					"History": "Desert Guardian: Aretas I was the first widely recognized Nabataean king, a Bedouin tribe that ruled parts of the Arabian desert. He could have an ability to protect caravans and fortify desert territories, improving defenses in hard-to-reach areas.Diplomatic Leader: Aretas could provide a diplomatic bonus, making negotiations with other factions or civilizations easier due to his skill in maintaining trade and political relations.."
+				},
+				{
+					"Name": "Obodas I",
+					"Class": "Cavalary Hero",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Victorious General: Obodas I is remembered for his victory against the Seleucids, defending Nabataean territory. He could grant a combat bonus to Bedouin troops, especially in difficult terrain like mountains and deserts. Popular Leader: His popularity among the tribes could boost troop morale and ally loyalty, reflecting the unity of the Bedouin tribes under his leadership."
+				}
+			]
+		}
 	],
-	"TeamBonuses":
-	[],
+	"CivBonuses": [
+		{
+			"Name": "CivBonuses.",
+			"History": "CivBonuses.",
+			"Description": "CivBonuses."
+		}
+	],
+	"TeamBonuses": [
+		{
+			"Name": "TeamBonuses.",
+			"History": "TeamBonuses.",
+			"Description": "TeamBonuses."
+		}
+	],
 	"WallSets":
 	[
 		"structures/wallset_palisade",
@@ -41,9 +90,9 @@
 	"AINames":
 	[
 
-    "Jimmu",	
-    "Suizei",
-    "Annei",
+    " Obodas I",	
+    "Aretas I ",
+    "Hudad",
 		"Itoku",
 		"Kosho",
 		"Koan",

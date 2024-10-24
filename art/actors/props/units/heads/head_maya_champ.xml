@@ -6,16 +6,16 @@
       <mesh>props/new/head_longhair.dae</mesh>
     </variant>
    <variant frequency="1" name="Head 2">
-      <mesh>props/heads/head_mayan.dae</mesh>
+      <mesh>props/new/dude_head.dae</mesh>
      </variant>
 	<variant frequency="1" name="Head 3">
-      <mesh>props/heads/head_mayan_b.dae</mesh>
+      <mesh>props/new/dude_head.dae</mesh>
      </variant>
      <variant frequency="1" name="Head 4">
-      <mesh>props/heads/head_mayan_2.dae</mesh>
+      <mesh>props/new/dude_head.dae</mesh>
      </variant>
     <variant frequency="1" name="Head 5">
-      <mesh>props/heads/head_mayan_3.dae</mesh>
+      <mesh>props/new/dude_head.dae</mesh>
     </variant>
   </group>
   <group>

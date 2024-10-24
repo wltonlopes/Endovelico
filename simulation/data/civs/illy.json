@@ -2,8 +2,8 @@
 	"Code": "illy",
 	"Culture": "illyrians",
 	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
+		{ "File": "Sunrise.ogg", "Type": "peace" }
 	],
 	"CivBonuses":
 	[
@@ -11,6 +11,7 @@
 	"TeamBonuses":
 	[],
 	"WallSets": [
+				"structures/wallset_palisade",
 		"structures/illy/wallset_stone"
 	],
 	"StartEntities": [

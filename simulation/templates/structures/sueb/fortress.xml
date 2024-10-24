@@ -11,11 +11,6 @@
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-
-    </Technologies>
-  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_axeman

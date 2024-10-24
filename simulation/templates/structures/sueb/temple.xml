@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
-  <Cost>
-    <Resources>
-      <stone>0</stone>
-      <wood>300</wood>
-    </Resources>
-  </Cost>
   <Footprint>
     <Square width="26" depth="18"/>
   </Footprint>
@@ -19,14 +13,6 @@
   <Obstruction>
     <Static width="24" depth="16"/>
   </Obstruction>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>auras/temple/celtic/1024x1024.png</MainTexture>
-        <MainTextureMask>auras/temple/celtic/1024x1024_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>structures/suebians/temple.xml</Actor>
     <FoundationActor>structures/fndn_6x4.xml</FoundationActor>

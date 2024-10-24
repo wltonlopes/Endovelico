@@ -2,27 +2,72 @@
 	"Name": "Mayas Ajaw Ascession",
 	"Description": "A campaign about Mayas",
 	"Interface": "default_menu",
+	"Image": "session/icons/mappreview/campaign/maya_img.png",
 	"Levels": {
 		"Mayas_1": {
-			"Name": "Novo Ajaw (50 BC)",
-			"Map": "scenarios/Mayas_c1.xml",
-			"MapType": "scenario"
+			"Name":  "Nascimento de Sangue (K'i'ik' Sijil)",
+			"Map": "scenarios/mayas_1.xml",
+			"MapType": "scenario",
+			"Description": "Defend the village from invaders while the inhabitants prepare for farming. Build defenses and organize the warriors.",
+			"Preview": "session/icons/mappreview/campaign/maya_1.png"
 		},
 		"Mayas_2": {
-			"Map": "scenarios/Mayas_c2.xml",
+			"Name": "Montain Temple (Witz Nah)",
+			"Map": "scenarios/mayas_2.xml",
 			"MapType": "scenario",
+			"Description": "Explore the dense forest, facing creatures and rival tribes seeking the same sacred resources.",
+			"Preview": "session/icons/mappreview/campaign/maya_2.png",
 			"Requires": "Mayas_1"
 		},
 		"Mayas_3": {
-			"Map": "scenarios/Mayas_c3.xml",
+			"Name": "Passaro vermelho (Chi’ik Tz'ik’in)",
+			"Map": "scenarios/mayas_1.xml",
 			"MapType": "scenario",
+			"Description": "Navigate the rivers while facing pirates and protecting trade routes. Gather resources to keep your civilization thriving.",
+			"Preview": "session/icons/mappreview/campaign/maya_2.png",
 			"Requires": "Mayas_2"
+		},
+		"Mayas_4": {
+			"Name": "Cervo Selvagem (Tz’ul T’ul)",
+			"Map": "scenarios/mayas_1.xml",
+			"MapType": "scenario",
+			"Description": "Face enemies that dominate the mountains and uncover ancestral relics. Use the terrain to your advantage in ambushes.",
+			"Preview": "session/icons/mappreview/campaign/maya_4.png",
+			"Requires": "Mayas_3"
+		},
+		"Mayas_5": {
+			"Name": "Senhor Cão (Ajawil Tz’i)",
+			"Map": "scenarios/mayas_1.xml",
+			"MapType": "scenario",
+			"Description": "Defend the temple from invaders seeking to steal sacred knowledge. Engage in tactical battles to protect the site.",
+			"Preview": "session/icons/mappreview/campaign/maya_5.png",
+			"Requires": "Mayas_4"
+		},
+		"Mayas_6": {
+			"Name": "Dentes de Sangue (K’i’ik’ Nib’)",
+			"Map": "scenarios/mayas_1.xml",
+			"MapType": "scenario",
+			"Description": "Confront rivals on a path filled with traps. Train your warriors and prepare for decisive battles.",
+			"Preview": "session/icons/mappreview/campaign/maya_6.png",
+			"Requires": "Mayas_5"
+		},
+		"Mayas_7": {
+			"Name": "Sacrificio de Sangue (Nahbal K’i’ik’)",
+			"Map": "scenarios/mayas_1.xml",
+			"MapType": "scenario",
+			"Description": "Engage in a grand battle at a sacred site, where the gods watch. Win to gain blessings and special resources.",
+			"Preview": "session/icons/mappreview/campaign/maya_7.png",
+			"Requires": "Mayas_6"
 		}
 	},
 	"Order": [
 		"Mayas_1",
 		"Mayas_2",
-		"Mayas_3"
+		"Mayas_3",
+		"Mayas_4",
+		"Mayas_5",
+		"Mayas_6",
+		"Mayas_7"
 	],
 	"ShowUnavailable": true
 }

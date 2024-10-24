@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_slinger_ready.xml">
+    <variant file="biped/base_blowgunner_ready.xml">
       <props>
         <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/zarabatana_a.xml" attachpoint="weapon_R"/>

@@ -31,11 +31,60 @@
 			"Type": "peace"
 		}
 	],
-	"CivBonuses":
-	[
+	"Factions": [
+		{
+			"Name": "Empire Axum",
+			"Description": "",
+			"Technologies": [
+				{
+					"Name": "",
+					"History": "."
+				},
+				{
+					"Name": " ",
+					"History": "",
+					"Description": "."
+				}
+			],
+			"Heroes": [
+				{
+					"Name": "Zoskales",
+					"Class": "Infantry Hero",
+					"Armament": "Sword",
+					"Emblem": "",
+					"History": "An ancestor of the Tikal dynasty, probably a real character from the pre-classical age who was later mythologized."
+				},
+				{
+					"Name": "Sembrouthes",
+					"Class": "Cavalary Hero",
+					"Armament": "Obsidian spear",
+					"Emblem": "",
+					"History": "Territorial Expansion: As an Axumite king who ruled around the 1st century, Sembrouthes could be a hero who provides benefits to villages and cities, efficiently expanding territorial borders. Monument Builder:Under his leadership, monumental buildings would be constructed faster and more cheaply, reflecting Axum's architectural development."
+				},
+				{
+					"Name": "Endubis",
+					"Class": "Cavalary Hero",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Coinage Pioneer: Endubis was one of the first Axumite rulers to mint gold, silver, and bronze coins. He could have an economic bonus, increasing gold production and generating passive income by controlling trade areas.Monetary Influence: His presence on the battlefield boosts troop loyalty and stabilizes local economies, representing trust in the central government and the monetary system.."
+				}
+			]
+		}
 	],
-	"TeamBonuses":
-	[],
+	"CivBonuses": [
+		{
+			"Name": "CivBonuses.",
+			"History": "CivBonuses.",
+			"Description": "CivBonuses."
+		}
+	],
+	"TeamBonuses": [
+		{
+			"Name": "TeamBonuses.",
+			"History": "TeamBonuses.",
+			"Description": "TeamBonuses."
+		}
+	],
 	"WallSets":
 	[
 		"structures/wallset_palisade",
@@ -70,10 +119,9 @@
 
 	"AINames":
 	[
-
-    "Zoskales",	
-    "[Za] Hakli",
-    "Kulu Seyon ",
+		"Zoskales",	
+		"[Za] Hakli",
+		"Kulu Seyon ",
 		"Serada",
 		"Senfa Asgad",
 		"Senfa Arad",
@@ -81,7 +129,7 @@
 		"Za Besi",
 		"Ramhay",
 		"Hande",
-		"Safelya"
+		"Safelya" 
 	],
 	"SkirmishReplacements":
 	{

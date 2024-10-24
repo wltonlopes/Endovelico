@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
      <variant frequency="1" name="base">
-      <mesh>props/heads/maya_head_c.dae</mesh>
+      <mesh>props/new/dude_head.dae</mesh>
     </variant>
   </group>
   <group>

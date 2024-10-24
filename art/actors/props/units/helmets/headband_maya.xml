@@ -5,9 +5,9 @@
     <variant frequency="100" name="a">
       <mesh>props/helmet/new/headband_maya.dae</mesh>
       <textures>
-        <texture file="props/helmet/old/mace_a2.dds" name="baseTex"/>
+        <texture file="props/mayans_weapons.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <material>player_trans.xml</material>
-</actor>
+</actor> 

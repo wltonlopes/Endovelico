@@ -2,8 +2,20 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="maple_1">
-      <mesh>gaia/tree_cacao.dae</mesh>
+    <variant frequency="1" name="tree_cacao_1">
+      <mesh>gaia/tree_cacao_1.dae</mesh>
+      <props>
+        <prop actor="props/special/eyecandy/ground_tree_decal_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="tree_cacao_2">
+      <mesh>gaia/tree_cacao_2.dae</mesh>
+      <props>
+        <prop actor="props/special/eyecandy/ground_tree_decal_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="tree_cacao_3">
+      <mesh>gaia/tree_cacao_3.dae</mesh>
       <props>
         <prop actor="props/special/eyecandy/ground_tree_decal_01.xml" attachpoint="root"/>
       </props>

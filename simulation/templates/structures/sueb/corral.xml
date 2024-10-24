@@ -23,7 +23,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/sao/corral.xml</Actor>
+    <Actor>structures/suebians/corral.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

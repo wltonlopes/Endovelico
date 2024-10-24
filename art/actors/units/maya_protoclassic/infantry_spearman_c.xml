@@ -33,15 +33,15 @@
     <variant frequency="1" name="1">
       <textures>
         <texture file="skeletal/mayas/general_1.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-	    <texture file="skeletal/maya_padded_spec.png" name="specTex"/>
+        <texture file="default_no rm.png" name="normTex"/>
+	    <texture file="skeletal/mayas/maya_padded_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="2">
       <textures>
         <texture file="skeletal/mayas/general_2.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-	    <texture file="skeletal/maya_padded_spec.png" name="specTex"/>
+	    <texture file="skeletal/mayas/maya_padded_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

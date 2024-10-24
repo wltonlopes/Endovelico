@@ -18,7 +18,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/sao/dock.xml</Actor>
+    <Actor>structures/suebians/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

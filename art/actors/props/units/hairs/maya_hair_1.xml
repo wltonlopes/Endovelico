@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+     <variant frequency="1" name="a1">
+      <mesh>props/hair/hair_maya_1.dae</mesh>
+    </variant>
+         <variant frequency="2" name="a2">
+      <mesh>props/hair/hair_maya_2.dae</mesh>
+    </variant>
+         <variant frequency="3" name="a3">
+      <mesh>props/hair/hair_maya_3.dae</mesh>
+    </variant>
+         <variant frequency="4" name="a4">
+      <mesh>props/hair/hair_maya_4.dae</mesh>
+    </variant>
+         <variant frequency="5" name="a5">
+      <mesh>props/hair/hair_maya_5.dae</mesh>
+    </variant>
+         <variant frequency="6" name="a6">
+      <mesh>props/hair/hair_maya_6.dae</mesh>
+    </variant>
+         <variant frequency="7" name="a7">
+      <mesh>props/hair/hair_maya_7.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="face1a">
+      <textures><texture file="props/head/maya_new_01.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-dark brown">
+      <color>75 61 38</color>
+    </variant>
+    <variant frequency="1" name="hair-brown">
+      <color>99 82 53</color>
+    </variant>
+    <variant frequency="1" name="hair-medium brown">
+      <color>138 110 61</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

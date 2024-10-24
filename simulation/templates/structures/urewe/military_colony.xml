@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>urewe</Civ>
-    <GenericName>Ainu Village</GenericName>
+    <GenericName>Colony</GenericName>
     <SpecificName>Kotan</SpecificName>
     <Icon>structures/military_settlement.png</Icon>
   </Identity>
@@ -18,11 +18,10 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman_b
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/urewe/jomon_village.xml</Actor>
+    <Actor>structures/urewe/colony.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

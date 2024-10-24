@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>30</wood>
+    </Resources>
+  </Cost>   
+  <Identity>
+    <Civ>khois</Civ>
+    <Icon>gaia/flora_tree_generic.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>800</Max>
+    <Type>food.fruit</Type>
+    <MaxGatherers>5</MaxGatherers>
+    <DiminishingReturns>0.80</DiminishingReturns>
+    <Change>
+      <Regrowth>
+        <Value>5</Value>
+        <Interval>6000</Interval>
+      </Regrowth>
+    </Change>
+  </ResourceSupply>
+  <VisualActor>
+    <Actor>structures/khoisan/plot_berry.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -3,4 +3,7 @@
   <animations>
     <animation event="0.50" file="biped/blowgunner_attack.dae" load="0.75" name="Attack_ranged" speed="100"/>
   </animations>
+  <props>
+    <prop actor="props/units/weapons/zarabatana_a.xml" attachpoint="weapon_R"/>
+  </props>
 </variant>

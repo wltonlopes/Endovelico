@@ -6,6 +6,6 @@
     <GenericName></GenericName>
   </Identity>
   <VisualActor>
-    <Actor>structures/plot_field_medit.xml</Actor>
+    <Actor>structures/plot_field_tropic_millet.xml</Actor>
   </VisualActor>
 </Entity>

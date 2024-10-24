@@ -4,11 +4,6 @@
     <Civ>sueb</Civ>
     <SpecificName>Skeuotheke</SpecificName>
   </Identity>
-  <Researcher>
-    <Technologies datatype="tokens">
-
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/suebians/workshop.xml</Actor>
   </VisualActor>

@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 3.5.1 commit date:2023-04-24, commit time:18:11, hash:e1ccd9d4a1d3</authoring_tool>
     </contributor>
-    <created>2024-10-06T20:36:03</created>
-    <modified>2024-10-06T20:36:03</modified>
+    <created>2024-10-13T18:37:40</created>
+    <modified>2024-10-13T18:37:40</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
     <effect id="textura_escita_nova-effect">
       <profile_COMMON>
-        <newparam sid="_687619529_texturasescinovo_thumb_png_24460d4eeaf28e3418cc838fd-surface">
+        <newparam sid="scyth_struct_png-surface">
           <surface type="2D">
-            <init_from>_687619529_texturasescinovo_thumb_png_24460d4eeaf28e3418cc838fd</init_from>
+            <init_from>scyth_struct_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="_687619529_texturasescinovo_thumb_png_24460d4eeaf28e3418cc838fd-sampler">
+        <newparam sid="scyth_struct_png-sampler">
           <sampler2D>
-            <source>_687619529_texturasescinovo_thumb_png_24460d4eeaf28e3418cc838fd-surface</source>
+            <source>scyth_struct_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="_687619529_texturasescinovo_thumb_png_24460d4eeaf28e3418cc838fd-sampler" texcoord="MapaUV"/>
+              <texture texture="scyth_struct_png-sampler" texcoord="MapaUV"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -39,11 +39,7 @@
       </profile_COMMON>
     </effect>
   </library_effects>
-  <library_images>
-    <image id="_687619529_texturasescinovo_thumb_png_24460d4eeaf28e3418cc838fd" name="_687619529_texturasescinovo_thumb_png_24460d4eeaf28e3418cc838fd">
-      <init_from>1687619529_texturasescinovo.thumb.png.24460d4eeaf28e3418cc838fd.png</init_from>
-    </image>
-  </library_images>
+  <library_images/>
   <library_materials>
     <material id="textura_escita_nova-material" name="textura escita nova">
       <instance_effect url="#textura_escita_nova-effect"/>
