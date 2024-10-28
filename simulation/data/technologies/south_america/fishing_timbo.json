@@ -1,0 +1,25 @@
+{
+	"genericName": "fishing with timbo",
+	"specificName": {
+		"guara": "Timbó"
+	},
+	"description": "Timbó fishing, using plant toxins to stun fish, is an ancient Amazonian Indigenous technique allowing efficient, temporary fish harvesting without harming ecosystems. ",
+	"cost": {
+		"wood": 200,
+		"food": 10
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Village Phase.”",
+	"icon": "fish.png",
+	"researchTime": 50,
+	"tooltip": "Fishing Boats +50% fish gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/food.fish", "multiply": 1.5}
+	],
+	"affects": ["FishingBoat"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

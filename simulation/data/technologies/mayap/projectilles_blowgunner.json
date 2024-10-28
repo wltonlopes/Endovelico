@@ -1,0 +1,24 @@
+{
+	"genericName": "Poison Arrows",
+	"description": "Julob Kix",
+	"cost": {
+		"food": 120,
+		"stone": 120
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Village Fase.",
+	"icon": "heavy_sho.png",
+	"researchTime": 10,
+	"tooltip": "Os projéteis de barro cozido utilizados pelos maias em zarabatanas eram pequenos e aerodinâmicos, projetados para serem disparados com precisão. A zarabatana era uma ferramenta popular para caça de pequenos animais e pássaros na antiga Mesoamérica, e os maias aproveitaram esse método de caça silenciosa usando projéteis de barro endurecidos ao fogo.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 2.00 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 2.00 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 2.00 }
+	],
+	"affects": ["Hunterblowgunner"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

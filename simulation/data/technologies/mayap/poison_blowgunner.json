@@ -13,10 +13,10 @@
 	"requirementsTooltip": "Unlocked in Village Fase.",
 	"icon": "snake_venom.png",
 	"researchTime": 10,
-	"tooltip": "Poison-dealing Soldiers +200% poison attack damage.",
+	"tooltip": "Poison-dealing Hunter blowgunner +200% poison attack damage.",
 	"modifications": [
 		{ "value": "Attack/Ranged/ApplyStatus/Poisoned/Damage/Poison", "multiply": 3.0 }
 	],
-	"affects": ["Soldier"],
+	"affects": ["Hunterblowgunner"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

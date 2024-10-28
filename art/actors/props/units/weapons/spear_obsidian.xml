@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Texture">
+      <textures>
+        <texture file="props/spear_obsidian.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="props/spear_obsidian.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="2" name="Bamboo Spear">
+      <mesh>props/spear_bamboo.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Bamboo Spear Blood">
+      <mesh>props/spear_bamboo_blood.dae</mesh>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

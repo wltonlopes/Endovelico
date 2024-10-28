@@ -3,10 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-      <animations>
-        <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
-      </animations>
-      <mesh>structural/south_america/island_colony.dae</mesh>
+      <mesh>structural/south_america/Islan_col.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

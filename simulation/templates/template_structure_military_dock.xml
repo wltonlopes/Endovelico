@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Territory>own ally neutral</Territory>
+    <PlacementType>shore</PlacementType>
+    <Category>Dock</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>150</BuildTime>
+    <Resources>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="18.0" depth="18.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max>2500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Dock</GenericName>
+    <SelectionGroupName>template_structure_military_dock</SelectionGroupName>
+    <Tooltip>Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Economic Naval Trade Village Dock</VisibleClasses>
+    <Icon>structures/dock.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>40</wood>
+  </Loot>
+  <Market>
+    <TradeType>land naval</TradeType>
+    <InternationalBonus>0.2</InternationalBonus>
+  </Market>
+  <Obstruction>
+    <Static width="18.0" depth="18.0"/>
+  </Obstruction>
+  <Position>
+    <Floating>true</Floating>
+    <FloatDepth>0.0</FloatDepth>
+  </Position>
+  <ProductionQueue/>
+  <RallyPointRenderer>
+    <LinePassabilityClass>ship</LinePassabilityClass>
+  </RallyPointRenderer>
+  <Researcher>
+    <Technologies datatype="tokens">
+      fishing_boat_gather_rate
+      fishing_boat_gather_capacity
+      dock_efficiency
+      arsenal_philon
+      juggernauts
+      ship_vision
+      exploration
+      ship_health
+      warship_arrow_attack
+      warship_ramming_speed
+      warship_ramming_attack
+      warship_resistance
+      warship_health
+      warship_fireship_attack
+      warship_siege_attack
+      warship_ranged_attack
+      equine_transports
+      iphicratean_reforms
+    </Technologies>
+  </Researcher>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_dock.xml</select>
+      <constructed>interface/complete/building/complete_dock.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/ship_fishing
+      units/{civ}/ship_merchant
+      units/{civ}/ship_scout
+      units/{civ}/ship_arrow
+      units/{civ}/ship_ram
+      units/{civ}/ship_fire
+      units/{civ}/ship_siege
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

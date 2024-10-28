@@ -1,0 +1,18 @@
+{
+	"genericName": "Caballitos de totora",
+	"description": "Caballitos de totora -50% ships cost",
+	"cost": {
+		"food": 200,
+		"wood": 200
+	},
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "calipers.png",
+	"researchTime": 60,
+	"tooltip": "Ships −20% construction time.",
+	"modifications": [
+		{ "value": "Cost", "multiply": 0.5 }
+	],
+	"affects": ["Ship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

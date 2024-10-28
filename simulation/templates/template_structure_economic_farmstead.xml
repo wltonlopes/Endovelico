@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  <AlertRaiser>
+    <List datatype="tokens">FemaleCitizen</List>
+    <RaiseAlertRange>50</RaiseAlertRange>
+    <EndOfAlertRange>100</EndOfAlertRange>
+    <SearchRange>100</SearchRange>
+  </AlertRaiser>
+  <Capturable>
+    <CapturePoints>300</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>45</BuildTime>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>900</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Farmstead</GenericName>
+    <SelectionGroupName>template_structure_economic_farmstead</SelectionGroupName>
+    <Tooltip>Research food gathering technologies.</Tooltip>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <VisibleClasses datatype="tokens">Village Farmstead</VisibleClasses>
+    <Icon>structures/farmstead.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <wood>20</wood>
+  </Loot>
+  <ProductionQueue/>
+  <RallyPoint disable=""/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      pair_gather_food_maur
+      gather_wicker_baskets
+      gather_farming_plows
+      gather_farming_training
+      gather_farming_training_ptol
+      gather_farming_fertilizer
+      gather_farming_fertilizer_ptol
+      gather_farming_seed_drill
+      gather_farming_water_weeding
+      gather_farming_chain_pump
+      gather_farming_harvester
+    </Technologies>
+  </Researcher>
+  <ResourceDropsite>
+    <Types>food</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_farmstead.xml</select>
+      <constructed>interface/complete/building/complete_farmstead.xml</constructed>
+      <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
+      <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>20</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

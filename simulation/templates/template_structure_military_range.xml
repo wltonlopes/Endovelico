@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square depth="25.0" width="25.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <List datatype="tokens">Infantry</List>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Practice Range</GenericName>
+    <SelectionGroupName>template_structure_military_range</SelectionGroupName>
+    <Tooltip>Train Ranged Infantry and research technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Range</VisibleClasses>
+    <Icon>structures/range.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <wood>40</wood>
+  </Loot>
+  <Obstruction>
+    <Static depth="24.0" width="24.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_range.xml</constructed>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_slinger_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/infantry_crossbowman_b
+      units/{civ}/champion_infantry_javelineer
+      units/{civ}/champion_infantry_slinger
+      units/{civ}/champion_infantry_archer
+      units/{civ}/champion_infantry_crossbowman
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

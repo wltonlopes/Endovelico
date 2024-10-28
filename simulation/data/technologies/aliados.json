@@ -1,0 +1,19 @@
+{
+    "genericName": "Summon Allies",
+    "description": "Researching this technology brings five allied warriors to assist.",
+    "cost": { "food": 50, "metal": 30 },
+    "researchTime": 3,
+    "requirements": { "civ": "mayap" },
+	"icon": "female_succession.png",
+    "modifications": [
+        {
+            "value": "Trainer/SpawnUnits",
+            "tokens": ["units/mayap/infantry_axeman_b", "units/mayap/infantry_javelineer_e"],
+            "affects": "Player",
+            "add": true,
+            "quantity": 5
+        }
+    ],
+    "tooltip": "Researching this technology grants you five allied units for assistance in battle.",
+    "soundComplete": "interface/alarm/alarm_tech.json"
+}

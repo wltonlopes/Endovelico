@@ -5,7 +5,7 @@
     <variant name="base">
       <mesh>structural/bedouin/stable.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="structures/bedouin/stable_f.xml" attachpoint="root"/>       
       </props>
       <textures>
