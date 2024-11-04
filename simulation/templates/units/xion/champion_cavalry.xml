@@ -7,7 +7,6 @@
     <Icon>units/xion/champion_cavalry.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
-        -phase_city
         unlock_champion_units_xion
       </Techs>
     </Requirements>

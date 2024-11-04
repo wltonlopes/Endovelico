@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="civ/yayo|template_unit_support_female_citizen">
+<Entity parent="template_unit_support_female_citizen">
   <Identity>
+    <Civ>zapo</Civ>
     <SpecificName>Womina</SpecificName>
     <Icon>units/yayo/support_female_citizen.png</Icon>
   </Identity>

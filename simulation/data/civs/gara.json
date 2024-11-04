@@ -48,10 +48,10 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/structures/default_house_5": "structures/{civ}/house",
-        "skirmish/units/special_starting_unit": "units/gara/chariot_javelineer_b",
+    "skirmish/units/special_starting_unit": "units/gara/chariot_javelineer_b",
 		"skirmish/units/default_infantry_ranged_b": "units/gara/infantry_javelineer_b",
 		"skirmish/units/default_infantry_melee_b": "units/gara/infantry_spearman_b",
-	    "skirmish/units/default_ship_trireme":"units/{civ}/ship_bireme"
+	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_arrow"
 	},
 	"SelectableInGameSetup": true
 }

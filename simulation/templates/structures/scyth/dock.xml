@@ -15,13 +15,6 @@
   <Obstruction>
     <Static width="10.0" depth="22.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      -ship_cost_time
-      -ship_health
-      -ship_movement_speed
-    </Technologies>
-  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
     </Entities>

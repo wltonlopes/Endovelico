@@ -8,7 +8,6 @@
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">
-        -phase_city
         unlock_mercenary_infantry
       </Techs>
     </Requirements>

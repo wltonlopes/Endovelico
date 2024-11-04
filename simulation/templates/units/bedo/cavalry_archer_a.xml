@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/bedo/cavalry_archer_merc_b">
+<Entity parent="units/bedo/cavalry_archer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/bedouin/cavalry_archer_merc_e</Entity>
+    <Entity>units/bedouin/cavalry_archer_e</Entity>
   </Promotion>
 </Entity>

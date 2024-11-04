@@ -26,10 +26,6 @@
     <Entities datatype="tokens">
       units/{civ}/ship_fishing
       units/{civ}/ship_merchant
-      -units/{civ}/ship_bireme
-      -units/{civ}/ship_trireme
-      -units/{civ}/ship_quinquereme
-      -units/{civ}/ship_fire
     </Entities>
   </Trainer>
   <VisualActor>
