@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="1" name="dock">
+      <mesh>structural/maya_protoclassic/canoe_war_b.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="units/maya_protoclassic/canoe_navigator.xml" attachpoint="c_1"/>
+        <prop actor="units/maya_protoclassic/canoe_navigator.xml" attachpoint="c_2"/>
+        <prop actor="units/maya_protoclassic/canoe_javalinist.xml" attachpoint="w1"/>  
+        <prop actor="units/maya_protoclassic/canoe_javalinist.xml" attachpoint="w3"/>  
+        <prop actor="units/maya_protoclassic/canoe_javalinist.xml" attachpoint="w2"/>
+        <prop actor="units/maya_protoclassic/canoe_javalinist.xml" attachpoint="w4"/>   
+      </props>
+      <textures >
+        <texture file="structural/maya_canoe.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+	 </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death"/>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

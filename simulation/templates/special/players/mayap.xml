@@ -10,8 +10,8 @@
     <Icon>emblems/emblem_mayap.png</Icon>
   </Identity>
   <Player>
-    <!-- <Formations datatype="tokens">
-      special/formations/phalanx
-    </Formations> -->
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
   </Player>
 </Entity>

@@ -7,8 +7,7 @@
 	"icon": "female_succession.png",
     "modifications": [
         {
-            "value": "Trainer/SpawnUnits",
-            "tokens": ["units/mayap/infantry_axeman_b", "units/mayap/infantry_javelineer_e"],
+            "value": "Builder/entitties/units/mayap/infantry_axeman_b",
             "affects": "Player",
             "add": true,
             "quantity": 5

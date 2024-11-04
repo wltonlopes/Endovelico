@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint replace="">
+    <Square width="54" depth="72"/>
+    <Height>24</Height>
+  </Footprint>
+  <Health disable=""/>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Noj witz</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="52" depth="70"/>
+  </Obstruction>
+  <Resistance replace=""/>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <FoundationActor>structures/fndn_stonehenge.xml</FoundationActor>
+    <Actor>structures/mesoamerica/wonder_ruins.xml</Actor>
+  </VisualActor>
+</Entity>

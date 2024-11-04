@@ -2,11 +2,6 @@
 <Entity parent="template_unit_support_female_citizen">
   <Builder>
     <Entities datatype="tokens">
-      structures/tupi/pyramid_large
-      structures/tupi/observatory
-      structures/tupi/embassy
-      structures/tupi/temple_of_masks
-      structures/tupi/range
       structures/tupi/palace
     </Entities>
   </Builder>

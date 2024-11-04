@@ -5,13 +5,12 @@
       <variant frequency="50" name="hemet_s">
       <props>
         <prop actor="props/units/heads/head_maya_f.xml" attachpoint="head"/>
-
       </props>
     </variant>
     <variant frequency="50" name="hemet_n">
       <props>
         <prop actor="props/units/heads/head_maya_f_short_hair.xml" attachpoint="head"/>
-
+        <prop actor="props/units/hairs/zapo_hair_f_1.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -27,7 +26,7 @@
     <variant frequency="1" name="2">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/south_america/female_naked_01_01.png" name="baseTex"/>
+        <texture file="skeletal/south_america/female_naked_01_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
       </textures>
@@ -35,7 +34,7 @@
         <variant frequency="1" name="3">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/south_america/female_naked_01_01.png" name="baseTex"/>
+        <texture file="skeletal/south_america/female_naked_01_03.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
       </textures>
@@ -43,7 +42,7 @@
             <variant frequency="1" name="4">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/south_america/female_naked_01_01.png" name="baseTex"/>
+        <texture file="skeletal/south_america/female_naked_01_04.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
       </textures>

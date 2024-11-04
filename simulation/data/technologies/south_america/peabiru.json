@@ -1,28 +1,30 @@
 {
-	"genericName": "Beekeeping",
+	"genericName": "Peaberu",
 	"specificName": {
-		"guara": "Matte"
+		"guara": "Apé",
+		"araw": "Apé",
+		"tupi": "Apé"
 	},
-	"description": "The Maya were beekeepers who harvested honey from the log nests of stingless bees native to tropical forests. They were experts of beekeeping and used honey as a sweetener, as an antibiotic, as an ingredient in the Mayan version of mead, and as a commercial currency. ",
+	"description": "Trails created over long distances to connect allied tribes, migrations and exchanges.",
 	"cost": {
 		"wood": 200,
-		"food": 10
+		"stone": 100
 	},
 	"requirements": {
 		"all": [
-			{ "tech": "phase_village" },
+			{ "tech": "phase_town" },
 			{
-				"civ": "guara"
+				"civ": "tupi"
 			}
 		]
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "apicultura.png",
-	"researchTime": 50,
-	"tooltip": "Workers +10% grain gather rate.",
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "Soldiers, Siege Engines, and Ships +20% speed.",
 	"modifications": [
-		{ "value": "ResourceTrickle/Rates/food", "add": 10.0 }
-	],
-	"affects": ["Corral"],
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
+ 	],
+	"affects": ["Siege", "Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

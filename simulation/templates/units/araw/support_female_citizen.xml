@@ -1,15 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/araw/pyramid_large
-      structures/araw/observatory
-      structures/araw/embassy
-      structures/araw/temple_of_masks
-      structures/araw/range
-      structures/araw/palace
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>araw</Civ>
     <SpecificName>ixik</SpecificName>

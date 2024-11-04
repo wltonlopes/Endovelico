@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_formation">
+  <Formation>
+    <RequiredMemberCount>10</RequiredMemberCount>
+    <DisabledTooltip>10 melee infantry units required</DisabledTooltip>
+    <UnitSeparationWidthMultiplier>0.5</UnitSeparationWidthMultiplier>
+    <UnitSeparationDepthMultiplier>0.7</UnitSeparationDepthMultiplier>
+    <WidthDepthRatio>5</WidthDepthRatio>
+    <ShiftRows>true</ShiftRows>
+    <MinColumns>5</MinColumns>
+    <MaxColumns>20</MaxColumns>
+    <MaxRows>2</MaxRows>
+    <AnimationVariants>
+      1..-1,1..-1: testudo_front;
+      1..-1,1..-1: testudo_front
+    </AnimationVariants>
+  </Formation>
+  <FormationAttack>
+    <CanAttackAsFormation>true</CanAttackAsFormation>
+  </FormationAttack>
+  <Identity>
+    <GenericName>Shieldwall</GenericName>
+    <Icon>formations/shieldwall.png</Icon>
+    <Tooltip>Compact formation of Melee Infantry creating a shield shell.</Tooltip>
+  </Identity>
+</Entity>
