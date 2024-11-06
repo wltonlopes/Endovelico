@@ -4,7 +4,7 @@
   <group>
     <variant file="biped/base_spearman_relax.xml">
       <props>
-        <prop actor="props/units/heads/head_lenca_elite.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_basic.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/cocar.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/tacape_tupi.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>

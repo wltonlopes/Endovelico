@@ -37,6 +37,7 @@
       structures/{civ}/tachara
       structures/{civ}/wonder
 
+      structures/{civ}/palace
       structures/{civ}/big_forge
       structures/{civ}/statue
       structures/{civ}/ovoo
@@ -50,6 +51,7 @@
       structures/{civ}/berry_bushes
       structures/{civ}/ball_court
       structures/{civ}/castro
+      structures/{civ}/embassy
     </Entities>
   </Builder>
   <Identity>

@@ -12,6 +12,11 @@
     <GenericName>Barracks</GenericName>
     <SpecificName>Sikömi nö Nipa</SpecificName>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      south_america/peabiru
+    </Technologies>
+  </Researcher>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
   </Obstruction>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy">
+  <Cost>
+    <Resources>
+      <wood>400</wood>
+      <stone>200</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>mayap</Civ>
+    <Tooltip>Train Mercenaries.</Tooltip>
+    <Icon>structures/mayap/plaza.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>80</wood>
+    <stone>40</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="26.0" depth="26.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordsman_merc_b
+      units/{civ}/infantry_archer_lenca_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/axum/afar.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+  </VisualActor>
+</Entity>

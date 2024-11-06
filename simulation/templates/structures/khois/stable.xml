@@ -15,6 +15,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/khoisan/stable.xml</Actor>
+    <Actor>structures/khoisan/stable_bull.xml</Actor>
   </VisualActor>
 </Entity>

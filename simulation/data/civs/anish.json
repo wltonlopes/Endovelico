@@ -37,7 +37,7 @@
 			"Count": 1
 		},
 		{
-			"Template": "units/anish/champion_infantry_bellringer",
+			"Template": "units/anish/infantry_axeman_b",
 			"Count": 1
 		}
 	],
@@ -62,7 +62,7 @@
 		"skirmish/units/default_cavalry": "units/anish/cavalry_archer_b",
 		"skirmish/units/default_infantry_melee_b": "units/anish/infantry_axeman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/anish/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/anish/champion_infantry_bellringer",
+		"skirmish/units/special_starting_unit": "units/anish/infantry_axeman_b",
 	  "skirmish/units/default_ship_trireme":"units/anish/ship_bireme"
 	},
 	"SelectableInGameSetup": true

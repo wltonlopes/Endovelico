@@ -5,7 +5,7 @@
     <variant file="biped/base_spearman_relax.xml">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_lenca_elite.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_basic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_lenca.xml" attachpoint="weapon_R"/>
       </props>
     </variant>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>yayo</Civ>
     <SpecificName>Tukikömi</SpecificName>
-    <Icon>units/mace_siege_ram.png</Icon>
+    <Icon>units/mace/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/yayoi/siege_ram.xml</Actor>

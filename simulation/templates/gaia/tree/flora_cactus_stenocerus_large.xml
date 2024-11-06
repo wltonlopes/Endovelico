@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_tree">
+  <Footprint>
+    <Circle radius="3.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <SpecificName>Stenocerus Dumortieri</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>200</Max>
+  </ResourceSupply>
+  <VisualActor>
+    <Actor>flora/trees/cactus_stenocerus_large.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -100,7 +100,7 @@
 			"Count":5
 		},
 		{
-			"Template": "units/axum/infantry_axeman_b",
+			"Template": "units/axum/infantry_swordsman_b",
 			"Count": 3
 		},
 		{
@@ -134,7 +134,7 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_cavalry": "units/axum/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/axum/infantry_axeman_b",
+		"skirmish/units/default_infantry_melee_b": "units/axum/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/axum/infantry_archer_b",
 		"skirmish/units/special_starting_unit": "units/axum/cavalry_javelineer_b",
 	  "skirmish/units/default_ship_trireme":"units/axum/ship_bireme"
