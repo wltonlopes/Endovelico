@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_maceman">
+  <Attack>
+    <Melee>
+      <AttackName>Club</AttackName>
+      <Damage>
+        <Crush>5</Crush>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">!Ship</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <wood>20</wood>
+      <stone>10</stone>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Infantry Clubman</GenericName>
+    <VisibleClasses datatype="tokens">Clubman</VisibleClasses>
+  </Identity>
+  <Loot>
+    <stone>5</stone>
+  </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>4</Hack>
+        <Pierce>5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+</Entity>

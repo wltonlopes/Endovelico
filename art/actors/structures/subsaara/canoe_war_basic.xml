@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="1" name="dock">
+      <mesh>structural/south_america/canoe_war_basic.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
+        <prop actor="units/subsaara/canoe_navigator.xml" attachpoint="nav1"/>
+        <prop actor="units/subsaara/canoe_navigator.xml" attachpoint="nav2"/>
+        <prop actor="units/subsaara/canoe_archer.xml" attachpoint="archer4"/>  
+        <prop actor="units/subsaara/canoe_archer.xml" attachpoint="archer3"/>  
+        <prop actor="units/subsaara/canoe_archer.xml" attachpoint="archer2"/>
+        <prop actor="units/subsaara/canoe_archer.xml" attachpoint="archer1"/>  
+      </props>
+      <textures>
+        <texture file="structural/maya_canoe.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+	 </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death"/>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

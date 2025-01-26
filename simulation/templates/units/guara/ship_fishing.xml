@@ -6,10 +6,10 @@
   </Footprint>
   <Identity>
     <Civ>guara</Civ>
-    <SpecificName>Kayom</SpecificName>
+    <SpecificName>Ygara</SpecificName>
     <Icon>units/guara/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/maya_protoclassic/canoe.xml</Actor>
+    <Actor>structures/south_america/canoe.xml</Actor>
   </VisualActor>
 </Entity>

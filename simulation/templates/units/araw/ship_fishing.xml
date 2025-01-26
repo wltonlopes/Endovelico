@@ -6,10 +6,10 @@
   </Footprint>
   <Identity>
     <Civ>araw</Civ>
-    <SpecificName>Kayom</SpecificName>
-    <Icon>units/araw/ship_fishing.png</Icon>
+    <SpecificName>Ygara</SpecificName>
+    <Icon>units/athen/fisher.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/maya_protoclassic/canoe.xml</Actor>
+    <Actor>structures/south_america/canoe.xml</Actor>
   </VisualActor>
 </Entity>

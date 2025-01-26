@@ -14,7 +14,7 @@
     <Civ>tupi</Civ>
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Petym-abá</SpecificName>
     <Icon>units/tupi/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

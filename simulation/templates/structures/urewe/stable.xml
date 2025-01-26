@@ -15,6 +15,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/urewe/stable.xml</Actor>
+    <Actor>structures/urewe/stable_bull.xml</Actor>
   </VisualActor>
 </Entity>

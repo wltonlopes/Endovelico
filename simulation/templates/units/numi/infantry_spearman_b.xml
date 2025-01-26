@@ -2,23 +2,23 @@
 <Entity parent="hoplite|template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart/super_dock
-      structures/cart/embassy_celtic
-      structures/cart/embassy_iberian
-      structures/cart/embassy_italic
+      structures/numi/super_dock
+      structures/numi/embassy_celtic
+      structures/numi/embassy_iberian
+      structures/numi/embassy_italic
     </Entities>
   </Builder>
   <Identity>
-    <Civ>cart</Civ>
-    <SelectionGroupName>units/cart/infantry_spearman_b</SelectionGroupName>
+    <Civ>numi</Civ>
+    <SelectionGroupName>units/numi/infantry_spearman_b</SelectionGroupName>
     <GenericName>Libyan Spearman</GenericName>
     <SpecificName>Sǝḫīr Ḥanīt</SpecificName>
-    <Icon>units/cart/infantry_spearman.png</Icon>
+    <Icon>units/numi/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/cart/infantry_spearman_a</Entity>
+    <Entity>units/numi/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/carthaginians/infantry_spearman_b.xml</Actor>
+    <Actor>units/numidia/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -27,6 +27,9 @@ Trigger.prototype.IntroductionMessage = function(data)
 var disabledTemplates = (civ) => [
 	// Expansions
 	"structures/" + civ + "/civil_centre",
+	"structures/" + civ + "/corral",
+	"structures/" + civ + "/farmstead",
+	"structures/" + civ + "/field",
 	"structures/" + civ + "/military_colony"
 ];
 

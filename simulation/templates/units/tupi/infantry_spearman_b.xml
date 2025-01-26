@@ -13,7 +13,7 @@
   <Identity>
     <Civ>tupi</Civ>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
-    <SpecificName>Taj Lom Bate</SpecificName>
+    <SpecificName>Tairu-abá</SpecificName>
     <Icon>units/tupi/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

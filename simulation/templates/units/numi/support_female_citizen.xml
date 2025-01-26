@@ -2,19 +2,19 @@
 <Entity parent="template_unit_support_female_citizen">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart/super_dock
-      structures/cart/embassy_celtic
-      structures/cart/embassy_iberian
-      structures/cart/embassy_italic
+      structures/numi/super_dock
+      structures/numi/embassy_celtic
+      structures/numi/embassy_iberian
+      structures/numi/embassy_italic
     </Entities>
   </Builder>
   <Identity>
-    <Civ>cart</Civ>
+    <Civ>numi</Civ>
     <SpecificName>Aštāh</SpecificName>
-    <GenericName>Carthaginian Woman</GenericName>
-    <Icon>units/cart/support_female_citizen.png</Icon>
+    <GenericName>numihaginian Woman</GenericName>
+    <Icon>units/numi/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/carthaginians/female_citizen.xml</Actor>
+    <Actor>units/numidia/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

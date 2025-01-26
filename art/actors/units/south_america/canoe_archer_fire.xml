@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_lenca_elite.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bow_long_indian.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
+        <prop actor="props/units/helmets/lenca_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="a">
+      <textures>
+        <texture file="skeletal/south_america/naked_01_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="b">
+      <textures>
+        <texture file="skeletal/south_america/naked_01_03.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c">
+      <textures>
+        <texture file="skeletal/south_america/naked_01_02.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/fisher/base_hele.xml"/>
+    <variant file="biped/fisher/carry_hele.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_archer_fire.xml"/>
+    <variant file="biped/fisher/gather_fish.xml"/>
+    <variant file="biped/fisher/walk.xml">
+      <props>
+        <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/row.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

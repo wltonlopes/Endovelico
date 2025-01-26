@@ -11,7 +11,7 @@
     <Entities datatype="tokens">
       units/{civ}/infantry_javelineer_b
       units/{civ}/infantry_scout
-	  units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_clubman_b
     	units/{civ}/hero_1
     	units/{civ}/hero_3
    	  units/{civ}/hero_2

@@ -3,13 +3,6 @@
   <Auras datatype="tokens">
     structures/iber_monument
   </Auras>
-  <BuildRestrictions>
-    <Category>Monument</Category>
-    <Distance>
-      <FromClass>Monument</FromClass>
-      <MinDistance>150</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Capturable disable=""/>
   <Cost>
     <BuildTime>120</BuildTime>
@@ -51,6 +44,13 @@
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+    	units/{civ}/hero_1
+    	units/{civ}/hero_3
+   	  units/{civ}/hero_2
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/mochicas/masoleu.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
