@@ -6,10 +6,10 @@
     <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
     <GenericName>Blowgun hunter</GenericName>
     <SpecificName>Taquara-okaî-abá</SpecificName>
-    <Icon>units/tupi/infantry_blowgunner.png</Icon>
+    <Icon>units/south_america/infantry_blowgunner.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/southameric/infantry_blowgunner_a</Entity>
+    <Entity>units/tupi/infantry_blowgunner_a</Entity>
   </Promotion>
   <TrainingRestrictions>
     <Category>Hunterblowgunner</Category>

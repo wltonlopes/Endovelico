@@ -10,7 +10,7 @@
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
     <GenericName>Lenca Mercenary Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/guara/infantry_archer.png</Icon>
+    <Icon>units/south_america/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/guara/infantry_archer_a</Entity>

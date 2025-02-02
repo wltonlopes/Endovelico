@@ -9,7 +9,7 @@
     <Civ>guara</Civ>
     <SpecificName>ixik</SpecificName>
     <GenericName>Maya Woman</GenericName>
-    <Icon>units/guara/support_female_citizen.png</Icon>
+    <Icon>units/south_america/support_female_citizen.png</Icon>
     <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

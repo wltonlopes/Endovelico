@@ -5,8 +5,10 @@
     <GenericName>Illyrian Hoplite</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/illy/champion_infantry_spearman.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
   <VisualActor>
     <Actor>units/illyrians/infantry_spearman_c.xml</Actor>
   </VisualActor>

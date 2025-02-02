@@ -47,13 +47,13 @@
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
     <Tooltip>siege</Tooltip>
-    <Icon>units/tupi/infantry_fireman.png</Icon>
+    <Icon>units/south_america/infantry_fireman.png</Icon>
   </Identity>
   <Health>
     <Max>150</Max>
   </Health>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/south_america/infantry_incendiary.xml</Actor>
+    <Actor>units/south_america/infantry_incendiary_arr.xml</Actor>
   </VisualActor>
 </Entity>

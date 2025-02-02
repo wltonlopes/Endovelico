@@ -8,7 +8,7 @@
     <Civ>araw</Civ>
     <GenericName>Bireme</GenericName>
     <SpecificName>ygaraíba</SpecificName>
-    <Icon>units/southameric/ship_bireme.png</Icon>
+    <Icon>units/south_america/ship_bireme.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

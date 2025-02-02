@@ -13,7 +13,7 @@
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Mayan Maceman</GenericName>
     <SpecificName>ibirá-pembé-abá</SpecificName>
-    <Icon>units/southameric/infantry_maceman.png</Icon>
+    <Icon>units/south_america/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/tupi/infantry_maceman_a</Entity>

@@ -9,7 +9,7 @@
     <Civ>guara</Civ>
     <SelectionGroupName>Heavy Spearman</SelectionGroupName>
     <SpecificName></SpecificName>
-    <Icon>units/guara/infantry_spearman.png</Icon>
+    <Icon>units/south_america/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -5,8 +5,10 @@
     <GenericName>Triballi Tribesmen</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra/champion_infantry_swordsman.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
   <VisualActor>
     <Actor>units/thracians/infantry_swordsman_c.xml</Actor>
   </VisualActor>

@@ -25,9 +25,6 @@
       units/{civ}/champion_infantry_nobre
       units/{civ}/infantry_spearman_b
       units/{civ}/mechanical_siege_ram
-      -units/{civ}/infantry_javelineer_b
-      -units/{civ}/infantry_archer_b
-      -units/{civ}/infantry_slinger_b
     </Entities>
   </Trainer>
   <VisualActor>

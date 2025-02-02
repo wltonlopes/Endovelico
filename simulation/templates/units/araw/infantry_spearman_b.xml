@@ -14,7 +14,7 @@
     <Civ>araw</Civ>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Taj Lom Bate</SpecificName>
-    <Icon>units/southameric/infantry_spearman.png</Icon>
+    <Icon>units/south_america/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

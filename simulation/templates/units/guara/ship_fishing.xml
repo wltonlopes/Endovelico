@@ -7,7 +7,7 @@
   <Identity>
     <Civ>guara</Civ>
     <SpecificName>Ygara</SpecificName>
-    <Icon>units/guara/ship_fishing.png</Icon>
+    <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/south_america/canoe.xml</Actor>

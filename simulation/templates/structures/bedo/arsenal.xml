@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/bedouin/arsenal.xml</Actor>
+    <Actor>structures/persians/workshop.xml</Actor>
   </VisualActor>
 </Entity>

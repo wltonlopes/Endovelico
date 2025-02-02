@@ -17,10 +17,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_javelineer_b
       units/{civ}/infantry_pikeman_b
-      units/{civ}/infantry_archer_b
-      units/{civ}/infantry_slinger_b
       units/{civ}/champion_infantry_swordsman
       units/{civ}/champion_infantry_axeman
     </Entities>

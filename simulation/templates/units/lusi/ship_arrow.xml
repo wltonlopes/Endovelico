@@ -8,7 +8,7 @@
     <Civ>lusi</Civ>
     <GenericName>Phoenician Trireme</GenericName>
     <SpecificName>Tlat-Mašōt</SpecificName>
-    <Icon>units/pers_ship_trireme.png</Icon>
+    <Icon>units/pers/ship_trireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/trireme.xml</Actor>

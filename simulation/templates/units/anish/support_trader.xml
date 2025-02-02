@@ -3,7 +3,7 @@
   <Identity>
     <Civ>anish</Civ>
     <SpecificName>Aj Kon</SpecificName>
-    <Icon>units/anish/support_trader.png</Icon>
+    <Icon>units/south_america/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/north_america/trader.xml</Actor>

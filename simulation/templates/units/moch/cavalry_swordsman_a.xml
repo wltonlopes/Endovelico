@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/yayo/cavalry_archer_e</Entity>
+    <Entity>units/moch/cavalry_swordsman_e</Entity>
   </Promotion>
 </Entity>
