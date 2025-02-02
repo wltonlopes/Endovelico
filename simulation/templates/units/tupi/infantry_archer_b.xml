@@ -15,7 +15,7 @@
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
     <SpecificName>Petym-abá</SpecificName>
-    <Icon>units/tupi/infantry_archer.png</Icon>
+    <Icon>units/southameric/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/tupi/infantry_archer_a</Entity>

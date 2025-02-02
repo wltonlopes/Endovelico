@@ -27,7 +27,7 @@
     <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
     <GenericName>Noble Guardian</GenericName>
     <SpecificName>Kokhom B'ate</SpecificName>
-    <Icon>units/mayap/cavalry_javelineer.png</Icon>
+    <Icon>units/southameric/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
     <Requirements>

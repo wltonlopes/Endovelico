@@ -15,7 +15,7 @@
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/araw/infantry_archer.png</Icon>
+    <Icon>units/southameric/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/araw/infantry_archer_a</Entity>

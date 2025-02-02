@@ -4,5 +4,5 @@
 	"label": "0 A.D. Endovelico",
 	"url": "",
 	"description": "New civs.",
-	"dependencies": ["0ad=0.0.27"]
+	"dependencies": ["0ad"]
 }

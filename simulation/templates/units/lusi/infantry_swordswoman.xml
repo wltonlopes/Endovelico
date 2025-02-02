@@ -15,7 +15,7 @@
     <VisibleClasses datatype="tokens">Lusitaniswordswomen</VisibleClasses>
     <SelectionGroupName>units/lusi/swordswoman</SelectionGroupName>
     <SpecificName>Petanim Cori</SpecificName>
-    <Icon>units/lusi_swordwoman.png</Icon>
+    <Icon>units/lusi/swordwoman.png</Icon>
   </Identity>
   <Promotion disable=""/>
 <!--    <TrainingRestrictions>

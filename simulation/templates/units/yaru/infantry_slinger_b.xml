@@ -15,7 +15,7 @@
     <SelectionGroupName>units/maya_infantry_slinger_b</SelectionGroupName>
     <GenericName>Lenca Slinger</GenericName>
     <SpecificName>Yum'Tun Bate</SpecificName>
-    <Icon>units/yaru/infantry_slinger.png</Icon>
+    <Icon>units/mesoamerican/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/yaru/infantry_slinger_a</Entity>

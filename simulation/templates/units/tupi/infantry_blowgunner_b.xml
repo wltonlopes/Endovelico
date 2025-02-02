@@ -9,7 +9,7 @@
     <Icon>units/tupi/infantry_blowgunner.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/tupi/infantry_blowgunner_a</Entity>
+    <Entity>units/southameric/infantry_blowgunner_a</Entity>
   </Promotion>
   <TrainingRestrictions>
     <Category>Hunterblowgunner</Category>

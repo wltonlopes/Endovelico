@@ -9,7 +9,7 @@
     <Civ>tupi</Civ>
     <SpecificName>ixik</SpecificName>
     <GenericName>Maya Woman</GenericName>
-    <Icon>units/tupi/support_female_citizen.png</Icon>
+    <Icon>units/southameric/support_female_citizen.png</Icon>
     <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

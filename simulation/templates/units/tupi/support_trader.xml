@@ -3,7 +3,7 @@
   <Identity>
     <Civ>tupi</Civ>
     <SpecificName>Aj Kon</SpecificName>
-    <Icon>units/tupi/support_trader.png</Icon>
+    <Icon>units/southameric/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/south_america/trader.xml</Actor>
