@@ -6,9 +6,6 @@
     <SpecificName></SpecificName>
     <Icon>units/illy/champion_infantry_swordsman.png</Icon>
   </Identity>
-    <Requirements>
-      <Techs datatype="tokens">unlock_champion_infantry</Techs>
-    </Requirements>
   <VisualActor>
     <Actor>units/illyrians/infantry_swordsman_c.xml</Actor>
   </VisualActor>
