@@ -16,7 +16,7 @@
     <GenericName>Desert Raider</GenericName>
     <SpecificName>nhw Bulahau gml</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <Icon>units/sao/cavalry_javelineer_b.png</Icon>
+    <Icon>units/subsaara/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sao/cavalry_javelineer_a</Entity>

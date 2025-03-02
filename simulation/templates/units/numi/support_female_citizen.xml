@@ -12,9 +12,9 @@
     <Civ>numi</Civ>
     <SpecificName>Aštāh</SpecificName>
     <GenericName>numihaginian Woman</GenericName>
-    <Icon>units/numi/support_female_citizen.png</Icon>
+    <Icon>units/cart/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/numidia/female_citizen.xml</Actor>
+    <Actor>units/carthaginians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

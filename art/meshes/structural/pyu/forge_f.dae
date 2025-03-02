@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-03-01T08:20:51</created>
+    <modified>2025-03-01T08:20:51</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="PLANTAS_trepaderas-effect">
+      <profile_COMMON>
+        <newparam sid="structs_nature_png_002-surface">
+          <surface type="2D">
+            <init_from>structs_nature_png_002</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="structs_nature_png_002-sampler">
+          <sampler2D>
+            <source>structs_nature_png_002-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="structs_nature_png_002-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="PLANTAS_trepaderas-material" name="PLANTAS trepaderas">
+      <instance_effect url="#PLANTAS_trepaderas-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_185-mesh" name="Cubo.185">
+      <mesh>
+        <source id="Cubo_185-mesh-positions">
+          <float_array id="Cubo_185-mesh-positions-array" count="138">0.7930088 0.6792156 3.688154 0.2075691 1.32948 3.688154 0.7930088 0.6792156 2.483018 0.2075691 1.32948 2.483018 0.2075691 0.6791869 3.688154 0.2075691 0.6791869 2.483018 -2.740396 -2.926846 1.143869 -3.325836 -2.276584 1.143869 -2.740396 -2.926846 -0.06126666 -3.325836 -2.276584 -0.06126666 -3.325836 -2.926875 1.143869 -3.325836 -2.926875 -0.06126666 0.2004203 0.6726753 2.01286 0.2004203 2.567668 2.01286 0.2004203 0.6726753 0.8077238 0.2004203 2.567668 0.8077238 -3.052456 -3.247191 1.14387 -3.637896 -2.596927 1.14387 -3.052456 -3.247191 -0.06126666 -3.637896 -2.596927 -0.06126666 -3.637896 -3.24722 1.14387 -3.637896 -3.24722 -0.06126666 2.164791 0.2219096 1.363894 2.164791 2.116904 1.363894 2.164791 0.2219096 0.1587574 2.164791 2.116904 0.1587574 0.2397575 2.635241 1.406632 2.13475 2.636691 1.406632 0.2397575 2.635241 0.2014961 2.13475 2.636691 0.2014961 1.566719 2.638116 3.688155 2.150671 1.986516 3.688155 1.566719 2.638116 2.483018 2.150671 1.986516 2.483018 2.152157 2.636807 3.688155 2.152157 2.636807 2.483018 2.164791 -2.532151 1.363894 2.164791 -0.6371564 1.363894 2.164791 -2.532151 0.1587574 2.164791 -0.6371564 0.1587574 0.7930107 -2.897483 2.984313 0.207571 -2.247218 2.984313 0.7930107 -2.897483 1.779176 0.207571 -2.247218 1.779176 0.207571 -2.897511 2.984313 0.207571 -2.897511 1.779176</float_array>
+          <technique_common>
+            <accessor source="#Cubo_185-mesh-positions-array" count="46" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_185-mesh-normals">
+          <float_array id="Cubo_185-mesh-normals-array" count="33">-0.7070915 -0.707122 0 -1 0 0 3.05185e-5 -1 0 0.7070915 0.707122 0 1 0 0 -3.05194e-5 1 0 -3.05185e-5 1 0 -7.62986e-4 0.9999998 0 0.7087073 0.7055028 0 0.9999975 -0.002258419 0 0.002227902 0.9999976 0</float_array>
+          <technique_common>
+            <accessor source="#Cubo_185-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_185-mesh-map-0">
+          <float_array id="Cubo_185-mesh-map-0-array" count="168">0.2415332 0.9932196 0.006401538 0.6863337 0.2415412 0.6863026 0.4766556 0.9932333 0.2415412 0.6863026 0.476681 0.6862714 0.2415332 0.9932196 0.2415412 0.6863026 0.006401538 0.6863337 0.4766556 0.9932333 0.476681 0.6862714 0.2415412 0.6863026 0.4766556 0.9932333 0.006401538 0.6863337 0.476681 0.6862714 0.2415332 0.9932196 0.006401538 0.6863337 0.2415412 0.6863026 0.4766556 0.9932333 0.2415412 0.6863026 0.476681 0.6862714 0.4766556 0.9932333 0.476681 0.6862714 0.006401538 0.6863337 0.4766556 0.9932333 0.006401538 0.6863337 0.476681 0.6862714 0.2415332 0.9932196 0.006401538 0.6863337 0.2415412 0.6863026 0.4766556 0.9932333 0.2415412 0.6863026 0.476681 0.6862714 0.4766556 0.9932333 0.476681 0.6862714 0.006401538 0.6863337 0.2415332 0.9932196 0.006401538 0.6863337 0.2415412 0.6863026 0.4766556 0.9932333 0.2415412 0.6863026 0.476681 0.6862714 0.2415332 0.9932196 0.006410896 0.9932058 0.006401538 0.6863337 0.4766556 0.9932333 0.2415332 0.9932196 0.2415412 0.6863026 0.2415332 0.9932196 0.006401538 0.6863337 0.006410896 0.9932058 0.4766556 0.9932333 0.2415412 0.6863026 0.2415332 0.9932196 0.4766556 0.9932333 0.006410896 0.9932058 0.006401538 0.6863337 0.2415332 0.9932196 0.006410896 0.9932058 0.006401538 0.6863337 0.4766556 0.9932333 0.2415332 0.9932196 0.2415412 0.6863026 0.4766556 0.9932333 0.006401538 0.6863337 0.006410896 0.9932058 0.4766556 0.9932333 0.006410896 0.9932058 0.006401538 0.6863337 0.2415332 0.9932196 0.006410896 0.9932058 0.006401538 0.6863337 0.4766556 0.9932333 0.2415332 0.9932196 0.2415412 0.6863026 0.4766556 0.9932333 0.006401538 0.6863337 0.006410896 0.9932058 0.2415332 0.9932196 0.006410896 0.9932058 0.006401538 0.6863337 0.4766556 0.9932333 0.2415332 0.9932196 0.2415412 0.6863026</float_array>
+          <technique_common>
+            <accessor source="#Cubo_185-mesh-map-0-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_185-mesh-map-1">
+          <float_array id="Cubo_185-mesh-map-1-array" count="168">0.2415332 0.9932196 0.006401538 0.6863337 0.2415412 0.6863026 0.4766556 0.9932333 0.2415412 0.6863026 0.476681 0.6862714 0.2415332 0.9932196 0.2415412 0.6863026 0.006401538 0.6863337 0.4766556 0.9932333 0.476681 0.6862714 0.2415412 0.6863026 0.4766556 0.9932333 0.006401538 0.6863337 0.476681 0.6862714 0.2415332 0.9932196 0.006401538 0.6863337 0.2415412 0.6863026 0.4766556 0.9932333 0.2415412 0.6863026 0.476681 0.6862714 0.4766556 0.9932333 0.476681 0.6862714 0.006401538 0.6863337 0.4766556 0.9932333 0.006401538 0.6863337 0.476681 0.6862714 0.2415332 0.9932196 0.006401538 0.6863337 0.2415412 0.6863026 0.4766556 0.9932333 0.2415412 0.6863026 0.476681 0.6862714 0.4766556 0.9932333 0.476681 0.6862714 0.006401538 0.6863337 0.2415332 0.9932196 0.006401538 0.6863337 0.2415412 0.6863026 0.4766556 0.9932333 0.2415412 0.6863026 0.476681 0.6862714 0.2415332 0.9932196 0.006410896 0.9932058 0.006401538 0.6863337 0.4766556 0.9932333 0.2415332 0.9932196 0.2415412 0.6863026 0.2415332 0.9932196 0.006401538 0.6863337 0.006410896 0.9932058 0.4766556 0.9932333 0.2415412 0.6863026 0.2415332 0.9932196 0.4766556 0.9932333 0.006410896 0.9932058 0.006401538 0.6863337 0.2415332 0.9932196 0.006410896 0.9932058 0.006401538 0.6863337 0.4766556 0.9932333 0.2415332 0.9932196 0.2415412 0.6863026 0.4766556 0.9932333 0.006401538 0.6863337 0.006410896 0.9932058 0.4766556 0.9932333 0.006410896 0.9932058 0.006401538 0.6863337 0.2415332 0.9932196 0.006410896 0.9932058 0.006401538 0.6863337 0.4766556 0.9932333 0.2415332 0.9932196 0.2415412 0.6863026 0.4766556 0.9932333 0.006401538 0.6863337 0.006410896 0.9932058 0.2415332 0.9932196 0.006410896 0.9932058 0.006401538 0.6863337 0.4766556 0.9932333 0.2415332 0.9932196 0.2415412 0.6863026</float_array>
+          <technique_common>
+            <accessor source="#Cubo_185-mesh-map-1-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_185-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_185-mesh-positions"/>
+        </vertices>
+        <triangles material="PLANTAS_trepaderas-material" count="28">
+          <input semantic="VERTEX" source="#Cubo_185-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_185-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_185-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Cubo_185-mesh-map-1" offset="2" set="1"/>
+          <p>4 0 0 3 1 1 5 0 2 0 2 3 5 0 4 2 2 5 10 3 6 11 3 7 9 4 8 6 5 9 8 6 10 11 3 11 12 1 12 15 1 13 14 1 14 20 0 15 19 1 16 21 0 17 16 2 18 21 0 19 18 2 20 22 4 21 24 4 22 25 4 23 26 7 24 29 7 25 28 7 26 34 8 27 33 9 28 35 8 29 30 10 30 35 8 31 32 10 32 36 4 33 38 4 34 39 4 35 44 0 36 43 1 37 45 0 38 40 2 39 45 0 40 42 2 41 4 0 42 1 1 43 3 1 44 0 2 45 4 0 46 5 0 47 10 3 48 9 4 49 7 4 50 6 5 51 11 3 52 10 3 53 12 1 54 13 1 55 15 1 56 20 0 57 17 1 58 19 1 59 16 2 60 20 0 61 21 0 62 22 4 63 25 4 64 23 4 65 26 7 66 27 7 67 29 7 68 34 8 69 31 9 70 33 9 71 30 10 72 34 8 73 35 8 74 36 4 75 39 4 76 37 4 77 44 0 78 41 1 79 43 1 80 40 2 81 44 0 82 45 0 83</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="forge_f" name="forge_f" type="NODE">
+        <matrix sid="transform">3.1 0 0 0 0 3.1 0 0 0 0 3.1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_185-mesh" name="forge_f">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PLANTAS_trepaderas-material" target="#PLANTAS_trepaderas-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
