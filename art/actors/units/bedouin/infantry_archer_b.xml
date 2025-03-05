@@ -7,10 +7,9 @@
       <props>
         <prop actor="props/units/helmets/umay_coif_archer_ready_e.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/pers_pilos_crested.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
-        <prop actor="props/units/quivers/byza_quiver_hip.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>

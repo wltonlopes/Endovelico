@@ -14,14 +14,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="scale-chainmail1e">
+    <variant frequency="1" name="scale-chainmail1a">
       <textures>
-        <texture file="skeletal/umay/elite/scale-chainmail1e.png" name="baseTex"/>
+        <texture file="skeletal/arab/chainmail_04_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-chainmail1f">
+    <variant frequency="1" name="scale-chainmail1b">
       <textures>
-        <texture file="skeletal/umay/elite/scale-chainmail1f.png" name="baseTex"/>
+        <texture file="skeletal/arab/chainmail_04_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-chainmail1c">
+      <textures>
+        <texture file="skeletal/arab/chainmail_04_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

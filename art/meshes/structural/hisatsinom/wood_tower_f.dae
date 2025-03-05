@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-03-03T10:32:12</created>
-    <modified>2025-03-03T10:32:12</modified>
+    <created>2025-03-03T15:25:04</created>
+    <modified>2025-03-03T15:25:04</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -105,9 +105,9 @@
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="woode_tower_f" name="woode_tower_f" type="NODE">
+      <node id="wood_tower_f" name="wood_tower_f" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#bush_dese_a_1-Geometry_004-mesh" name="woode_tower_f">
+        <instance_geometry url="#bush_dese_a_1-Geometry_004-mesh" name="wood_tower_f">
           <bind_material>
             <technique_common>
               <instance_material symbol="arbusto_MESAVERDE-material" target="#arbusto_MESAVERDE-material">

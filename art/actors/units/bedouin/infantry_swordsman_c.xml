@@ -5,6 +5,7 @@
     <variant frequency="1" name="Helmet-coif">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
+        <prop actor="props/units/helmets/pers_pilos_crested.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/arab_round_01.xml" attachpoint="shield"/>
@@ -13,7 +14,7 @@
     <variant frequency="1" name="Helmet">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/byza_helmet_basic.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/pers_pilos_crested.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/arab_round_01.xml" attachpoint="shield"/>
@@ -35,17 +36,17 @@
   <group>
     <variant frequency="1" name="scale-chainmail1a">
       <textures>
-        <texture file="skeletal/umay/champion/scale-chainmail1a.png" name="baseTex"/>
+        <texture file="skeletal/arab/chainmail_04_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scale-chainmail1b">
       <textures>
-        <texture file="skeletal/umay/champion/scale-chainmail1b.png" name="baseTex"/>
+        <texture file="skeletal/arab/chainmail_04_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scale-chainmail1c">
       <textures>
-        <texture file="skeletal/umay/champion/scale-chainmail1c.png" name="baseTex"/>
+        <texture file="skeletal/arab/chainmail_04_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
