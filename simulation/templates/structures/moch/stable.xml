@@ -5,6 +5,7 @@
   </Identity>
     <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/cavalry_slinger_b
     </Entities>
   </Trainer>
   <VisualActor>
