@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-03-01T12:28:05</created>
-    <modified>2025-03-01T12:28:05</modified>
+    <created>2025-03-09T11:20:09</created>
+    <modified>2025-03-09T11:20:09</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -39,11 +39,7 @@
       </profile_COMMON>
     </effect>
   </library_effects>
-  <library_images>
-    <image id="_494376215_texturasVietFINAIS_thumb_png_028743eb68bbb9cd92a7_pn" name="_494376215_texturasVietFINAIS_thumb_png_028743eb68bbb9cd92a7_pn">
-      <init_from>1494376215_texturasVietFINAIS.thumb.png.028743eb68bbb9cd92a7.pn.png</init_from>
-    </image>
-  </library_images>
+  <library_images/>
   <library_materials>
     <material id="texturas_VIET__provas-material" name="texturas VIET  provas">
       <instance_effect url="#texturas_VIET__provas-effect"/>

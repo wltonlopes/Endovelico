@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-03-15T23:47:47</created>
+    <modified>2025-03-15T23:47:47</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="arbusto_desertico-effect">
+      <profile_COMMON>
+        <newparam sid="giantcane_png_5d09e14b3aedb46ac59e3c799e6d0abf_png-surface">
+          <surface type="2D">
+            <init_from>giantcane_png_5d09e14b3aedb46ac59e3c799e6d0abf_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="giantcane_png_5d09e14b3aedb46ac59e3c799e6d0abf_png-sampler">
+          <sampler2D>
+            <source>giantcane_png_5d09e14b3aedb46ac59e3c799e6d0abf_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="giantcane_png_5d09e14b3aedb46ac59e3c799e6d0abf_png-sampler" texcoord="bush_dese_a_1-Geometry-UV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="giantcane_png_5d09e14b3aedb46ac59e3c799e6d0abf_png" name="giantcane_png_5d09e14b3aedb46ac59e3c799e6d0abf_png">
+      <init_from>giantcane.png.5d09e14b3aedb46ac59e3c799e6d0abf.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="arbusto_desertico-material" name="arbusto desertico">
+      <instance_effect url="#arbusto_desertico-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="bush_dese_a_1-Geometry_003-mesh" name="bush_dese_a_1-Geometry.003">
+      <mesh>
+        <source id="bush_dese_a_1-Geometry_003-mesh-positions">
+          <float_array id="bush_dese_a_1-Geometry_003-mesh-positions-array" count="120">7.23075 -6.766623 0.2745532 9.007822 -8.560239 2.408329 9.024366 -4.989552 2.408329 5.453679 -4.973008 2.408329 5.437135 -8.543696 2.408329 7.230755 -6.766623 -0.2020787 7.060944 -4.716303 1.062812 5.180433 -6.936436 1.062812 7.400567 -8.816946 1.062812 9.281077 -6.596813 1.062812 -7.967039 6.840847 0.2745532 -6.189969 5.04723 2.408329 -6.173425 8.617918 2.408329 -9.744112 8.634461 2.408329 -9.760655 5.063775 2.408329 -7.967035 6.840845 -0.2020787 -8.136846 8.891166 1.062812 -10.01736 6.671033 1.062812 -7.797223 4.790525 1.062812 -5.916713 7.010657 1.062812 7.23075 -6.766623 0.3228614 8.99106 -8.543322 2.43651 9.007449 -5.006315 2.43651 5.470441 -4.989926 2.43651 5.454053 -8.526933 2.43651 7.230755 -6.766623 -0.1609993 7.062456 -4.734569 1.092623 5.198699 -6.934924 1.092623 7.399055 -8.79868 1.092623 9.262811 -6.598325 1.092623 -7.967039 6.840847 0.3228613 -6.206731 5.064148 2.43651 -6.190343 8.601156 2.43651 -9.727349 8.617544 2.43651 -9.743738 5.080537 2.43651 -7.967035 6.840845 -0.1609992 -8.135334 8.8729 1.092623 -9.999092 6.672546 1.092623 -7.798736 4.808791 1.092623 -5.934979 7.009144 1.092623</float_array>
+          <technique_common>
+            <accessor source="#bush_dese_a_1-Geometry_003-mesh-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bush_dese_a_1-Geometry_003-mesh-normals">
+          <float_array id="bush_dese_a_1-Geometry_003-mesh-normals-array" count="81">0 0 -1 0.7088494 0.7023183 -0.06543409 0.7023183 -0.7088494 -0.06543409 -0.7023183 0.7088494 -0.06543409 -0.7088494 -0.7023183 -0.06543409 -0.9799248 -0.08114916 -0.182105 -0.08114916 0.9799248 -0.182105 0.08114916 -0.9799248 -0.182105 0.9799248 0.08114916 -0.182105 0.7088647 0.7023031 -0.06543272 -0.7023168 0.708848 -0.06546449 -0.708848 -0.7023168 -0.06546449 -0.08114963 0.9799303 -0.1820755 0 0 1 0.2687791 -0.2713122 0.9242011 0.2713122 0.2687791 0.9242011 -0.2687791 0.2713122 0.9242011 -0.2712839 -0.2687813 0.9242087 -0.04068207 0.4912979 0.870041 -0.4912979 -0.04068207 0.870041 0.04068207 -0.4912979 0.870041 0.4912979 0.04068207 0.870041 0.2687813 -0.2712839 0.9242087 0.2712839 0.2687813 0.9242087 -0.2713122 -0.2687791 0.9242011 -0.0406816 0.4912617 0.8700615 0.4912748 0.04068267 0.8700541</float_array>
+          <technique_common>
+            <accessor source="#bush_dese_a_1-Geometry_003-mesh-normals-array" count="27" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bush_dese_a_1-Geometry_003-mesh-map-0">
+          <float_array id="bush_dese_a_1-Geometry_003-mesh-map-0-array" count="384">0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0 0 0 1 0 0 0 1 1 1 0 1 1 1 0 1 0 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 0 0 0 1 0 0 0 1 0 1 0 1 0 0 0 1 0 0 0 1 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 1 0 1</float_array>
+          <technique_common>
+            <accessor source="#bush_dese_a_1-Geometry_003-mesh-map-0-array" count="192" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="bush_dese_a_1-Geometry_003-mesh-vertices">
+          <input semantic="POSITION" source="#bush_dese_a_1-Geometry_003-mesh-positions"/>
+        </vertices>
+        <triangles material="arbusto_desertico-material" count="64">
+          <input semantic="VERTEX" source="#bush_dese_a_1-Geometry_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#bush_dese_a_1-Geometry_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#bush_dese_a_1-Geometry_003-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 2 1 1 1 2 2 0 0 3 3 3 4 2 1 5 0 0 6 4 4 7 3 3 8 0 0 9 1 2 10 4 4 11 5 0 12 7 5 13 6 6 14 5 0 15 8 7 16 7 5 17 5 0 18 9 8 19 8 7 20 5 0 21 6 6 22 9 8 23 10 0 24 12 9 25 11 2 26 10 0 27 13 10 28 12 9 29 10 0 30 14 11 31 13 10 32 10 0 33 11 2 34 14 11 35 15 0 36 17 5 37 16 12 38 15 0 39 18 7 40 17 5 41 15 0 42 19 8 43 18 7 44 15 0 45 16 12 46 19 8 47 20 13 48 21 14 49 22 15 50 20 13 51 22 15 52 23 16 53 20 13 54 23 16 55 24 17 56 20 13 57 24 17 58 21 14 59 25 13 60 26 18 61 27 19 62 25 13 63 27 19 64 28 20 65 25 13 66 28 20 67 29 21 68 25 13 69 29 21 70 26 18 71 30 13 72 31 22 73 32 23 74 30 13 75 32 23 76 33 16 77 30 13 78 33 16 79 34 24 80 30 13 81 34 24 82 31 22 83 35 13 84 36 25 85 37 19 86 35 13 87 37 19 88 38 20 89 35 13 90 38 20 91 39 26 92 35 13 93 39 26 94 36 25 95 17 5 96 38 20 97 37 19 98 3 3 99 24 17 100 23 16 101 9 8 102 28 20 103 8 7 104 4 4 105 21 14 106 24 17 107 13 10 108 34 24 109 33 16 110 6 6 111 29 21 112 9 8 113 18 7 114 39 26 115 38 20 116 14 11 117 31 22 118 34 24 119 16 12 120 39 26 121 19 8 122 1 2 123 22 15 124 21 14 125 7 5 126 26 18 127 6 6 128 11 2 129 32 23 130 31 22 131 17 5 132 36 25 133 16 12 134 2 1 135 23 16 136 22 15 137 8 7 138 27 19 139 7 5 140 12 9 141 33 16 142 32 23 143 17 5 144 18 7 145 38 20 146 3 3 147 4 4 148 24 17 149 9 8 150 29 21 151 28 20 152 4 4 153 1 2 154 21 14 155 13 10 156 14 11 157 34 24 158 6 6 159 26 18 160 29 21 161 18 7 162 19 8 163 39 26 164 14 11 165 11 2 166 31 22 167 16 12 168 36 25 169 39 26 170 1 2 171 2 1 172 22 15 173 7 5 174 27 19 175 26 18 176 11 2 177 12 9 178 32 23 179 17 5 180 37 19 181 36 25 182 2 1 183 3 3 184 23 16 185 8 7 186 28 20 187 27 19 188 12 9 189 13 10 190 33 16 191</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="house_1_d" name="house_1_d" type="NODE">
+        <matrix sid="transform">1.003933 0 0 0 0 1.003933 0 0 0 0 1.003933 0 0 0 0 1</matrix>
+        <instance_geometry url="#bush_dese_a_1-Geometry_003-mesh" name="house_1_d">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="arbusto_desertico-material" target="#arbusto_desertico-material">
+                <bind_vertex_input semantic="bush_dese_a_1-Geometry-UV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

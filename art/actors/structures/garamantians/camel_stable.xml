@@ -7,9 +7,9 @@
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/hele_corral_mud.xml" attachpoint="root"/>
-        <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse_3" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse_1" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse_2" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/camel.xml" attachpoint="horse_3" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/camel.xml" attachpoint="horse_1" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/camel.xml" attachpoint="horse_2" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/gara_struct.png" name="baseTex"/>
@@ -44,5 +44,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>

@@ -11,7 +11,7 @@
         <texture file="structural/illy_struct.png" name="baseTex"/>
         <texture file="structural/illy_struct_spec.png" name="specTex"/>
         <texture file="structural/illy_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/illy/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

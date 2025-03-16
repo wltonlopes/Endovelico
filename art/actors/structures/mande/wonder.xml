@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="wonder">
-      <mesh>structural/mande/especial_temple.dae</mesh>
+      <mesh>structural/mande/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
@@ -11,7 +11,7 @@
         <texture file="structural/mande_struct.png" name="baseTex"/>
         <texture file="structural/mande_struct_spec.png" name="specTex"/>
         <texture file="structural/mande_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/mande/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -17,25 +17,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/bosf/house_1.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/bosf/barracks_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/bosf/house_2.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/bosf/barracks_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/bosf/house_3.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/bosf/barracks_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/bosf/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/bosf/barracks_AO.png" name="aoTex"/>
+                <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

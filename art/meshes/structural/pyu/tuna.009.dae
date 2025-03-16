@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-03-01T08:20:52</created>
-    <modified>2025-03-01T08:20:52</modified>
+    <created>2025-03-15T16:41:03</created>
+    <modified>2025-03-15T16:41:03</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
     <effect id="texturasPyu_PROVAS-effect">
       <profile_COMMON>
-        <newparam sid="pyu_png-surface">
+        <newparam sid="pyu_struct_png-surface">
           <surface type="2D">
-            <init_from>pyu_png</init_from>
+            <init_from>pyu_struct_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="pyu_png-sampler">
+        <newparam sid="pyu_struct_png-sampler">
           <sampler2D>
-            <source>pyu_png-surface</source>
+            <source>pyu_struct_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="pyu_png-sampler" texcoord="UVMap"/>
+              <texture texture="pyu_struct_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -40,8 +40,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="pyu_png" name="pyu_png">
-      <init_from>pyu.png</init_from>
+    <image id="pyu_struct_png" name="pyu_struct_png">
+      <init_from>pyu_struct.png</init_from>
     </image>
   </library_images>
   <library_materials>
