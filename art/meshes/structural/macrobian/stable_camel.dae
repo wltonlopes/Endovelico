@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-03-16T11:21:06</created>
-    <modified>2025-03-16T11:21:06</modified>
+    <created>2025-03-17T23:25:19</created>
+    <modified>2025-03-17T23:25:19</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -39,11 +39,7 @@
       </profile_COMMON>
     </effect>
   </library_effects>
-  <library_images>
-    <image id="macrob_struct_png" name="macrob_struct_png">
-      <init_from>macrob_struct.png</init_from>
-    </image>
-  </library_images>
+  <library_images/>
   <library_materials>
     <material id="texturas_Macrobianos_PROVAS-material" name="texturas Macrobianos PROVAS">
       <instance_effect url="#texturas_Macrobianos_PROVAS-effect"/>
@@ -106,7 +102,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="stable_camel" name="stable_camel" type="NODE">
-        <matrix sid="transform">3.1 0 0 0 0 3.1 0 0 0 0 3.1 0 0 0 0 1</matrix>
+        <matrix sid="transform">3.034842 0 0 0 0 3.034842 0 0 0 0 3.034842 0 0 0 0 1</matrix>
         <instance_geometry url="#Cubo_573-mesh" name="stable_camel">
           <bind_material>
             <technique_common>
