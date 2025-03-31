@@ -53,6 +53,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/numi/wall_gate.xml</Actor>
+    <Actor>structures/numidians/wall_gate.xml</Actor>
   </VisualActor>
 </Entity>

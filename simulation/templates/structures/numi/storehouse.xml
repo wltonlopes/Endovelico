@@ -12,7 +12,7 @@
     <Static width="17.0" depth="17.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/numi/storehouse.xml</Actor>
+    <Actor>structures/numidians/storehouse.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -25,7 +25,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/numi/temple.xml</Actor>
+    <Actor>structures/numidians/temple.xml</Actor>
     <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

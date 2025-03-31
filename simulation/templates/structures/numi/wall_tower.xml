@@ -15,7 +15,7 @@
     <HeightOffset>16.7</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/numi/wall_tower.xml</Actor>
+    <Actor>structures/numidians/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>8</Length>

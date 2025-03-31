@@ -17,6 +17,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/numi/market.xml</Actor>
+    <Actor>structures/numidians/market.xml</Actor>
   </VisualActor>
 </Entity>

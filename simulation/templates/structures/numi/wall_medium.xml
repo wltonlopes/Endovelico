@@ -39,6 +39,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/numi/wall_med.xml</Actor>
+    <Actor>structures/numidians/wall_med.xml</Actor>
   </VisualActor>
 </Entity>

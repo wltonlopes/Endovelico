@@ -7,6 +7,6 @@
     <Entity>units/numi/infantry_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/numidia/infantry_archer_a.xml</Actor>
+    <Actor>units/numidians/infantry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

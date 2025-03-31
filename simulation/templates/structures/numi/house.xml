@@ -8,6 +8,6 @@
     <Static width="13.0" depth="13.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/numi/house.xml</Actor>
+    <Actor>structures/numidians/house.xml</Actor>
   </VisualActor>
 </Entity>

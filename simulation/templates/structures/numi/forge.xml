@@ -10,6 +10,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/numi/forge.xml</Actor>
+    <Actor>structures/numidians/forge.xml</Actor>
   </VisualActor>
 </Entity>

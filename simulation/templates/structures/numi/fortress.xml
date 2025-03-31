@@ -12,7 +12,7 @@
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/numi/fortress.xml</Actor>
+    <Actor>structures/numidians/fortress.xml</Actor>
   </VisualActor>
   <Trainer>
     <Entities datatype="tokens">

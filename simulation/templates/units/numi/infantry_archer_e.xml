@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/numidia/infantry_archer_e.xml</Actor>
+    <Actor>units/numidians/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

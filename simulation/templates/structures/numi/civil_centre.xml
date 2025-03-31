@@ -17,6 +17,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/numi/civic_center.xml</Actor>
+    <Actor>structures/numidians/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

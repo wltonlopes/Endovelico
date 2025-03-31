@@ -10,6 +10,6 @@
     <Static width="16" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/numi/mausoleu.xml</Actor>
+    <Actor>structures/numidians/mausoleu.xml</Actor>
   </VisualActor>
 </Entity>

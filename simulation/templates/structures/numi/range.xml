@@ -23,7 +23,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/numi/range.xml</Actor>
+    <Actor>structures/numidians/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
