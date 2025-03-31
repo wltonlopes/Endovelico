@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Temple"],
+	"modifications": [
+		{ "value": "Cost/Resources/wood", "multiply": 0.5 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.5 },
+		{ "value": "Cost/BuildTime", "multiply": 0.5}
+	],
+	"auraName": "Temple Architecture",
+	"auraDescription": "Temples cost half price and half the build time"
+}

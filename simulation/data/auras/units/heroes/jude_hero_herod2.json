@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Support"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 0.04 }
+	],
+	"auraName": "Murder of the innocents",
+	"auraDescription": "All enemy support units are made fragile"
+}

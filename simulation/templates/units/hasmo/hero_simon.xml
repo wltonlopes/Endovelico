@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_healer">
+  <Auras datatype="tokens">
+    units/heroes/jude_hero_simon1
+    units/heroes/maur_hero_chanakya_2
+  </Auras>
+  <Identity>
+    <Civ>jude</Civ>
+    <GenericName>Simon</GenericName>
+    <SpecificName>Simon</SpecificName>
+    <Icon>units/jude_hero_simon.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hasmonean/hero_simon.xml</Actor>
+  </VisualActor>
+</Entity>

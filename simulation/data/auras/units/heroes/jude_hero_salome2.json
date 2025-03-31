@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Worker"],
+	"modifications": [
+		{"value": "ResourceGatherer/Rates", "multiply": 1.25}
+	],
+	"auraName": "Ecobonus",
+	"auraDescription": "All human units gather 25% faster"
+
+}

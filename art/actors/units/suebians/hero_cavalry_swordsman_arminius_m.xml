@@ -20,5 +20,5 @@
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
   </group>
-  <material>no_trans_parallax_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

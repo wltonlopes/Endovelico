@@ -15,25 +15,25 @@
   </group>
   <group>
     <variant frequency="1" name="house a">
-<mesh>structural/armenia/house_1.dae</mesh>
+<mesh>structural/syracuse/house_1.dae</mesh>
       <textures>
       	        <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-<mesh>structural/armenia/house_2.dae</mesh>
+<mesh>structural/syracuse/house_2.dae</mesh>
       <textures>
       	        <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-<mesh>structural/armenia/house_3.dae</mesh>
+<mesh>structural/syracuse/house_3.dae</mesh>
       <textures>
       	        <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/armenia/house_2.dae</mesh>
+<mesh>structural/syracuse/house_4.dae</mesh>
       <textures>
                 <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
       </textures>

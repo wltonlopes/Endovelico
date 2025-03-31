@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_a.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="skeletal/iber/healer_01.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+   <variant file="biped/base_skirmisher.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
+    <variant file="biped/base_healer_male.xml"/>
+    <variant file="biped/attack_ranged_archer_hip.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
+      <Damage>
+        <Hack>7</Hack>
+        <Pierce>2.5</Pierce>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>375</PrepareTime>
+      <RepeatTime>750</RepeatTime>
+      <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>jude</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/jude/infantry_swordsman_merc_b</SelectionGroupName>
+    <GenericName>Mercenary Rhomphaiaphoros</GenericName>
+    <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
+    <Icon>units/sele_infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/hasmo/infantry_swordsman_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

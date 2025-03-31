@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Square width="14.0" depth="7.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>hasmo</Civ>
+    <SelectionGroupName>structures/jude_wallset_stone</SelectionGroupName>
+    <SpecificName></SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="6.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/seleucids/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>10.9</Length>
+  </WallPiece>
+</Entity>

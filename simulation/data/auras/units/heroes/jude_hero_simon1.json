@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Wall"],
+	"modifications": [
+		{ "value": "Cost/Resources/stone", "multiply": 0.5 },
+		{ "value": "Cost/BuildTime", "multiply": 0.5},
+		{ "value": "Health/Max", "multiply": 2}
+	],
+	"auraName": "Great walls",
+	"auraDescription": "Walls cost half price but double the durability"
+}
