@@ -14,7 +14,7 @@
     <Static width="16.0" depth="11.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/koreans/farmstead_special.xml</Actor>
+    <Actor>structures/koreans/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
   </VisualActor>
 </Entity>
