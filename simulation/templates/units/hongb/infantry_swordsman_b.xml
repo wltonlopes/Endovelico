@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Identity>
+    <Civ>hongb</Civ>
+    <SelectionGroupName>units/yayo/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Militia Axeman</GenericName>
+    <SpecificName>Wonomöti</SpecificName>
+    <Icon>units/yayo/infantry_axeman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/gojo/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/gojoseon/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>
