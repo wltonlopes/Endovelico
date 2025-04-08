@@ -4,7 +4,7 @@
     <Civ>hasmo</Civ>
     <GenericName>Hasmonean</GenericName>
     <History>Leader of the Maccabbean Revolt against the Seleucid Empire.</History>
-    <Icon>emblems/hasmo.png</Icon>
+    <Icon>emblems/emblem_hasmo.png</Icon>
   </Identity>
     <Player>
     <Formations datatype="tokens">

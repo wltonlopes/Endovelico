@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-03-24T21:24:29</created>
-    <modified>2025-03-24T21:24:29</modified>
+    <created>2025-04-06T21:51:19</created>
+    <modified>2025-04-06T21:51:19</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
     <effect id="texturas_Xiong_REMODELADAS-effect">
       <profile_COMMON>
-        <newparam sid="_223063271_texturasXiongFINAIS_thumb_png_65971e84652ecc6332a_pn-surface">
+        <newparam sid="xion_struct_png-surface">
           <surface type="2D">
-            <init_from>_223063271_texturasXiongFINAIS_thumb_png_65971e84652ecc6332a_pn</init_from>
+            <init_from>xion_struct_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="_223063271_texturasXiongFINAIS_thumb_png_65971e84652ecc6332a_pn-sampler">
+        <newparam sid="xion_struct_png-sampler">
           <sampler2D>
-            <source>_223063271_texturasXiongFINAIS_thumb_png_65971e84652ecc6332a_pn-surface</source>
+            <source>xion_struct_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="_223063271_texturasXiongFINAIS_thumb_png_65971e84652ecc6332a_pn-sampler" texcoord="MapaUV"/>
+              <texture texture="xion_struct_png-sampler" texcoord="MapaUV"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -40,8 +40,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="_223063271_texturasXiongFINAIS_thumb_png_65971e84652ecc6332a_pn" name="_223063271_texturasXiongFINAIS_thumb_png_65971e84652ecc6332a_pn">
-      <init_from>1223063271_texturasXiongFINAIS.thumb.png.65971e84652ecc6332a.pn.png</init_from>
+    <image id="xion_struct_png" name="xion_struct_png">
+      <init_from>xion_struct.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -106,7 +106,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="fortress_palace" name="fortress_palace" type="NODE">
-        <matrix sid="transform">3.1 0 0 0 0 3.1 0 0 0 0 3.1 0 0 0 0 1</matrix>
+        <matrix sid="transform">3.037836 0 0 0 0 3.037836 0 0 0 0 3.037836 0 0 0 0 1</matrix>
         <instance_geometry url="#Cubo_292-mesh" name="fortress_palace">
           <bind_material>
             <technique_common>

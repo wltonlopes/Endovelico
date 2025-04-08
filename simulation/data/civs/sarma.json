@@ -1,0 +1,87 @@
+{
+	"Code": "sarma",
+	"Culture":[ "nomadic" ],
+	"Region":[ "asia", "steppes" ],
+	"Music":[
+		{
+			"File":"As_Seasons_Change.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Bandit_Country.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Cradle_of_Civilization.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Mirage.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Solstice_Festival.ogg", 
+			"Type":"peace"
+		},
+		{
+			"File":"Upstart_King.ogg", 
+			"Type":"peace"
+		}
+	],
+	"CivBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/sarma/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/sarma/civil_centre" 
+		},
+		{
+			"Template": "units/sarma/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/sarma/cavalry_archer_b",
+			"Count": 2 
+		},		
+		{
+			"Template": "units/sarma/cavalry_axeman_b",
+			"Count": 2 
+		},		
+		{
+			"Template": "units/sarma/support_wagon"
+		}
+	],
+	"AINames":
+	[
+		"Akrosas",
+		"Anacharsis",
+		"Arimaz",
+		"Orix",
+		"Gnur",
+		"Idantemis",
+		"Kanites",
+		"Carthasis",
+		"Kobos",
+		"Lipoksai",
+		"Madius",
+		"Oktomasad",
+		"Satrakis"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/sarma/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/sarma/cavalry_axeman_b",
+		"skirmish/units/default_cavalry": "units/sarma/cavalry_archer_b",
+		"skirmish/units/special_starting_unit": "units/sarma/support_wagon",
+		"skirmish/structures/default_corral": "structures/sarma/stable",
+		"skirmish/structures/default_farmstead": "structures/sarma/storehouse",
+		"skirmish/structures/default_defense_tower": "structures/sarma/outpost",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

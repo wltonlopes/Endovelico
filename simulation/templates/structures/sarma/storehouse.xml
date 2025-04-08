@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <BuildRestrictions>
+    <Territory>own neutral ally enemy</Territory>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="8"/>
+    <Height>10</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sarma</Civ>
+    <Tooltip>Dropsite for ALL resources. Upgrade to a Resource Wagon to move this Storehouse across the map.</Tooltip>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      nomads/gather_wicker_baskets
+	  nomads/gather_hunting_dogs
+      gather_farming_plows
+      gather_farming_training
+      -gather_mining_servants
+      -gather_mining_serfs
+      -gather_mining_slaves
+      -gather_capacity_basket
+      -gather_capacity_wheelbarrow
+      -gather_capacity_carts
+    </Technologies>
+  </Researcher>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+  </ResourceDropsite>
+  <StatusBars>
+    <HeightOffset>9</HeightOffset>
+  </StatusBars>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Upgrade>
+    <Pack>
+      <Entity>units/scyth/support_wagon</Entity>
+      <Time>10</Time>
+    </Pack>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/sarmatians/storehouse.xml</Actor>
+    <FoundationActor>structures/scythians/storehouse_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>

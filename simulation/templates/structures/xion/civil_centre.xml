@@ -45,7 +45,7 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xiongnu/royal_yurt_charioth_unpacked.xml</Actor>
+    <Actor>structures/xiongnu/civic_center.xml</Actor>
     <FoundationActor>structures/xiongnu/civic_centre_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>
