@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <BuildRestrictions>
+    <Territory>own ally neutral enemy</Territory>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>yuez</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Upgrade>
+    <Unpack>
+      <Entity>structures/xion/temple_packed</Entity>
+      <Time>45</Time>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
+    </Unpack>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/yuezhi/temple.xml</Actor>
+    <FoundationActor>structures/xiongnu/temple_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>

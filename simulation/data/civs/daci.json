@@ -35,10 +35,6 @@
 		{
 			"Template": "units/daci/cavalry_archer_b",
 			"Count": 1
-		},
-		{
-			"Template": "units/daci/champion_infantry_bellringer",
-			"Count": 1
 		}
 	],
 

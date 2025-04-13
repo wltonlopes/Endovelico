@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>yuez</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/support_wagon
+      units/{civ}/siege_ram
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <BlacksmithPacked>
+      <Entity>structures/xion/blacksmith_packed</Entity>
+      <Time>45</Time>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
+    </BlacksmithPacked>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/yuezhi/blacksmith.xml</Actor>
+    <FoundationActor>structures/xiongnu/blacksmith_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>

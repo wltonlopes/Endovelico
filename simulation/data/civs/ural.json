@@ -35,10 +35,6 @@
 		{
 			"Template": "units/ural/cavalry_archer_b",
 			"Count": 1
-		},
-		{
-			"Template": "units/ural/champion_infantry_bellringer",
-			"Count": 1
 		}
 	],
 

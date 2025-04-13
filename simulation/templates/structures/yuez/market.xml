@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>45</BuildTime>
+    <Resources>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="11.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>yuez</Civ>
+    <GenericName>Food deposit</GenericName>
+    <VisibleClasses datatype="tokens">-Town Village Farmstead</VisibleClasses>
+<Requirements>
+      <Techs datatype="tokens">phase_village</Techs></Requirements>
+    <Icon>structures/farmstead.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="13.0"/>
+  </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      nomads/gather_wicker_baskets
+	  nomads/gather_hunting_dogs
+      gather_farming_plows
+      gather_farming_training
+    </Technologies>
+  </Researcher>
+  <ResourceDropsite>
+    <Types>food</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <TerritoryDecay disable=""/>
+  <Upgrade>
+    <Pack>
+      <Entity>structures/xion/market_packed</Entity>
+      <Time>25</Time>
+      <Requirements>
+          <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
+    </Pack>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/yuezhi/food_deposit.xml</Actor>
+    <FoundationActor>structures/xiongnu/food_deposit_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>
