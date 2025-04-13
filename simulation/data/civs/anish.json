@@ -33,10 +33,6 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/anish/cavalry_archer_b",
-			"Count": 1
-		},
-		{
 			"Template": "units/anish/infantry_axeman_b",
 			"Count": 1
 		}

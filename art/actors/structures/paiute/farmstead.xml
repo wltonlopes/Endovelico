@@ -4,8 +4,8 @@
   <group>
     <variant frequency="1" name="base">
       <mesh>structural/paiute/farmstead.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+      <props>   
+        <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/paiu_struct.png" name="baseTex"/>

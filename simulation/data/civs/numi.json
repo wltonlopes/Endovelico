@@ -33,12 +33,8 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/numi/cavalry_archer_b",
-			"Count": 1
-		},
-		{
 			"Template": "units/numi/cavalry_javelineer_b",
-			"Count": 1
+			"Count": 2
 		}
 	],
 
@@ -57,7 +53,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/numi/cavalry_archer_b",
+		"skirmish/units/default_cavalry": "units/numi/cavalry_javelineer_b",
 		"skirmish/units/default_infantry_melee_b": "units/numi/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/numi/infantry_archer_b",
 		"skirmish/units/special_starting_unit": "units/numi/cavalry_javelineer_b",
