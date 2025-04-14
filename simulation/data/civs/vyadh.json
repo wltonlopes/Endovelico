@@ -1,0 +1,58 @@
+﻿{
+	"Code": "vyadh",
+	"Culture": "vyadhapura",
+	"Music":[
+		{ "File": "red_dawn.ogg", "Type": "peace" },
+		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/vyadh/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/vyadh/civil_centre"
+		},
+		{
+			"Template":"units/vyadh/support_female_citizen",
+			"Count":5
+		},
+		{
+			"Template": "units/vyadh/infantry_swordsman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/vyadh/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/vyadh/cavalry_archer_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+
+    "Wuzhu",	
+    "Ying",
+    "Chou",
+	"Yushan",
+	"Jugu"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/vyadh/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/vyadh/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/vyadh/infantry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/vyadh/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

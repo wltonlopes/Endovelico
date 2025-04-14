@@ -5,7 +5,7 @@
     <variant frequency="1" name="base">
       <mesh>structural/hisatsinom/farmstead.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/hisat_struct.png" name="baseTex"/>
@@ -13,14 +13,6 @@
         <texture file="structural/hisat_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/hisatsinom/barracks_AO.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_tupi.xml" attachpoint="garrisoned"/>
-      </props>
     </variant>
   </group>
   <group>
