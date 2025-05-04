@@ -36,6 +36,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xiongnu/blacksmith.xml</Actor>
-    <FoundationActor>structures/xiongnu/blacksmith_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

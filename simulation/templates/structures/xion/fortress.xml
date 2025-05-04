@@ -33,7 +33,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/scythians/fortress.xml</Actor>
+    <Actor>structures/xiongnu/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.5</Length>

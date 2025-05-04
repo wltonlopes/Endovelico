@@ -57,6 +57,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xiongnu/food_deposit.xml</Actor>
-    <FoundationActor>structures/xiongnu/food_deposit_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -35,6 +35,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xiongnu/storehouse.xml</Actor>
-    <FoundationActor>structures/xiongnu/storehouse_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

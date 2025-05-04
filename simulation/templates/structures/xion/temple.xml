@@ -30,6 +30,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xiongnu/temple.xml</Actor>
-    <FoundationActor>structures/xiongnu/temple_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

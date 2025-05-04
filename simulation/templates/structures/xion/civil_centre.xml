@@ -46,6 +46,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xiongnu/civic_center.xml</Actor>
-    <FoundationActor>structures/xiongnu/civic_centre_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

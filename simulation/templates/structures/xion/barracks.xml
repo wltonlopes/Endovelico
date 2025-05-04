@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="structures/xion/barracks">
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
@@ -24,19 +24,32 @@
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
   <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -barracks_batch_training
+    </Technologies>
+  </Researcher>
   <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/{civ}/infantry_spearman_b
+      -units/{civ}/infantry_pikeman_b
+      -units/{civ}/infantry_swordsman_b
+      -units/{civ}/infantry_slinger_b
+      -units/{civ}/infantry_archer_b
+    </Entities>
+  </Trainer>
   <Upgrade>
-    <BarracksPacked>
-      <Entity>structures/xion/barracks_packed</Entity>
-      <Time>45</Time>
-      <Requirements>
-          <Techs datatype="tokens">nomadism</Techs>
-      </Requirements>
-    </BarracksPacked>
+    <BarracksReconstructed>
+      <Entity>structures/xion/barracks</Entity>
+      <Cost>
+        <wood>100</wood>
+      </Cost>
+      <Time>25</Time>
+    </BarracksReconstructed>
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xiongnu/barracks.xml</Actor>
-    <FoundationActor>structures/xiongnu/barracks_foundation.xml</FoundationActor>
+    <Actor>structures/xiongnu/barracks_empty.xml</Actor>
   </VisualActor>
 </Entity>

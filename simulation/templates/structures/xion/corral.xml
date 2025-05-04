@@ -58,6 +58,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xiongnu/corral.xml</Actor>
-    <FoundationActor>structures/xiongnu/corral_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>
