@@ -17,19 +17,19 @@
     <variant frequency="1" name="house a">
 <mesh>structural/pyu/house_1.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
+         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/pyu/house_2.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
+         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/pyu/house_3.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
+         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">

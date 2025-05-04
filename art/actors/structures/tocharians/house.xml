@@ -33,7 +33,7 @@
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/tocharians/house_2.dae</mesh>
+<mesh>structural/tocharians/house_4.dae</mesh>
       <textures>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>

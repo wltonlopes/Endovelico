@@ -18,25 +18,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/thra/house_1.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/thra/house_1_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/thra/house_2.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/thra/house_2_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/thra/house_3.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/thra/house_3_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/thra/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/s/house_4_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
