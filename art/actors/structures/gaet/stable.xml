@@ -3,9 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-      <animations>
-        <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
-      </animations>
+
       <mesh>structural/gaet/stable.dae</mesh>
       <props>
         <prop actor="structures/gaet/stable_f.xml" attachpoint="root"/>

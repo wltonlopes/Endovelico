@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-05-01T18:21:05</created>
+    <modified>2025-05-01T18:21:05</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="TEXTURA__MAPUCHE-effect">
+      <profile_COMMON>
+        <newparam sid="_956094851_texturasMapucFINAIS-_thumb_png_782ea73577458a5860a60-surface">
+          <surface type="2D">
+            <init_from>_956094851_texturasMapucFINAIS-_thumb_png_782ea73577458a5860a60</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_956094851_texturasMapucFINAIS-_thumb_png_782ea73577458a5860a60-sampler">
+          <sampler2D>
+            <source>_956094851_texturasMapucFINAIS-_thumb_png_782ea73577458a5860a60-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="_956094851_texturasMapucFINAIS-_thumb_png_782ea73577458a5860a60-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="_956094851_texturasMapucFINAIS-_thumb_png_782ea73577458a5860a60" name="_956094851_texturasMapucFINAIS-_thumb_png_782ea73577458a5860a60">
+      <init_from>1956094851_texturasMapucFINAIS-.thumb.png.782ea73577458a5860a60.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="TEXTURA__MAPUCHE-material" name="TEXTURA  MAPUCHE">
+      <instance_effect url="#TEXTURA__MAPUCHE-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plano_012-mesh" name="Plano.012">
+      <mesh>
+        <source id="Plano_012-mesh-positions">
+          <float_array id="Plano_012-mesh-positions-array" count="0"/>
+          <technique_common>
+            <accessor source="#Plano_012-mesh-positions-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_012-mesh-normals">
+          <float_array id="Plano_012-mesh-normals-array" count="0"/>
+          <technique_common>
+            <accessor source="#Plano_012-mesh-normals-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_012-mesh-map-0">
+          <float_array id="Plano_012-mesh-map-0-array" count="0"/>
+          <technique_common>
+            <accessor source="#Plano_012-mesh-map-0-array" count="0" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_012-mesh-map-1">
+          <float_array id="Plano_012-mesh-map-1-array" count="0"/>
+          <technique_common>
+            <accessor source="#Plano_012-mesh-map-1-array" count="0" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_012-mesh-map-2">
+          <float_array id="Plano_012-mesh-map-2-array" count="0"/>
+          <technique_common>
+            <accessor source="#Plano_012-mesh-map-2-array" count="0" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plano_012-mesh-vertices">
+          <input semantic="POSITION" source="#Plano_012-mesh-positions"/>
+        </vertices>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="forge" name="forge" type="NODE">
+        <matrix sid="transform">3 0 0 0 0 3 0 0 0 0 3 0 0 0 0 1</matrix>
+        <instance_geometry url="#Plano_012-mesh" name="forge">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="TEXTURA__MAPUCHE-material" target="#TEXTURA__MAPUCHE-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Cube_043-mesh-map-0" input_semantic="TEXCOORD" input_set="1"/>
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="2"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
