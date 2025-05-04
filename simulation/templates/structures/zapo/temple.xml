@@ -14,17 +14,6 @@
   <Obstruction>
     <Static width="21" depth="22"/>
   </Obstruction>
-  <Selectable replace="">
-    <Overlay>
-      <Shape>
-        <Circle radius="40.0"/>
-      </Shape>
-      <Texture>
-        <MainTexture>auras/temple/mesoamerican/1024x1024.png</MainTexture>
-        <MainTextureMask>auras/temple/mesoamerican/1024x1024_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <VisualActor>
     <Actor>structures/zapotecs/temple.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

@@ -7,29 +7,36 @@
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/mapu_struct.png" name="baseTex"/>
-        <texture file="structural/mapu_struct_spec.png" name="specTex"/>
-        <texture file="structural/mapu_struct_norm.png" name="normTex"/>
+        <texture file="structural/chibc_struct.png" name="baseTex"/>
+        <texture file="structural/chibc_struct_spec.png" name="specTex"/>
+        <texture file="structural/chibc_struct_norm.png" name="normTex"/>
+
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="house a">
-<mesh>structural/mapuche/house_1.dae</mesh>
+<mesh>structural/chibchas/house_1.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-<mesh>structural/mapuche/house_2.dae</mesh>
+<mesh>structural/chibchas/house_2.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-<mesh>structural/mapuche/house_3.dae</mesh>
+<mesh>structural/chibchas/house_3.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house d">
+<mesh>structural/chibchas/house_4.dae</mesh>
+      <textures>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

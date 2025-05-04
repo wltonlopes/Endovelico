@@ -76,5 +76,5 @@
 		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelineer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }

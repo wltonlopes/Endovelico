@@ -3,33 +3,15 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
+      <mesh>structural/chibchas/corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/mapu_struct.png" name="baseTex"/>
-        <texture file="structural/mapu_struct_spec.png" name="specTex"/>
-        <texture file="structural/mapu_struct_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="house a">
-<mesh>structural/mapuche/house_1.dae</mesh>
-      <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="house b">
-<mesh>structural/mapuche/house_2.dae</mesh>
-      <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="house c">
-<mesh>structural/mapuche/house_3.dae</mesh>
-      <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/chibc_struct.png" name="baseTex"/>
+        <texture file="structural/chibc_struct_spec.png" name="specTex"/>
+        <texture file="structural/chibc_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -37,7 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_araw.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>

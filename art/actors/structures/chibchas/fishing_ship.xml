@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
+  <float/>
   <group>
-    <variant frequency="1" name="base">
+    <variant name="Chinese Fishing Ship">
+      <mesh>structural/chibchas/barracks.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/zapo_struct.png" name="baseTex"/>
-        <texture file="structural/zapo_struct_spec.png" name="specTex"/>
-        <texture file="structural/zapo_struct_norm.png" name="normTex"/>
+        <texture file="structural/chibc_struct.png" name="baseTex"/>
+        <texture file="structural/chibc_struct_spec.png" name="specTex"/>
+        <texture file="structural/chibc_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="farmstead">
-<mesh>structural/zapotecs/farmstead.dae</mesh>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_zapo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_araw.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>

@@ -10,14 +10,6 @@
     <Civ>zapo</Civ>
     <SpecificName>ch’ayal ch’ich’</SpecificName>
   </Identity>
-  <Researcher>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </Researcher>
-  <Trainer>
-    <Entities datatype="tokens">
-    </Entities>
-  </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/blacksmith.xml</Actor>
   </VisualActor>

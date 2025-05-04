@@ -3,11 +3,6 @@
   <Identity>
     <Civ>zapo</Civ>
   </Identity>
-  <Researcher>
-    <Technologies datatype="tokens">
-      -
-    </Technologies>
-  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
     </Entities>
