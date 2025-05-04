@@ -26,7 +26,7 @@
   </Trainer>
   <Upgrade>
     <BlacksmithPacked>
-      <Entity>structures/xion/blacksmith_packed</Entity>
+      <Entity>structures/xion/forge_packed</Entity>
       <Time>45</Time>
       <Requirements>
           <Techs datatype="tokens">nomadism</Techs>
@@ -35,6 +35,6 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xiongnu/blacksmith.xml</Actor>
+    <Actor>structures/xiongnu/forge.xml</Actor>
   </VisualActor>
 </Entity>

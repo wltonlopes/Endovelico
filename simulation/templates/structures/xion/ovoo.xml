@@ -58,6 +58,6 @@
   <TerritoryInfluence disable=""/>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/scythians/ovoo_stone.xml</Actor>
+    <Actor>structures/xiongnu/ovoo_stone.xml</Actor>
   </VisualActor>
 </Entity>

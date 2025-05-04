@@ -47,6 +47,6 @@
   </Trainer>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/scythians/corral.xml</Actor>
+    <Actor>structures/scythians/stable.xml</Actor>
   </VisualActor>
 </Entity>

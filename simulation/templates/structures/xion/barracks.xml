@@ -41,7 +41,7 @@
   </Trainer>
   <Upgrade>
     <BarracksReconstructed>
-      <Entity>structures/xion/barracks</Entity>
+      <Entity>structures/xion/barracks_packed</Entity>
       <Cost>
         <wood>100</wood>
       </Cost>
@@ -50,6 +50,6 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xiongnu/barracks_empty.xml</Actor>
+    <Actor>structures/xiongnu/barracks.xml</Actor>
   </VisualActor>
 </Entity>

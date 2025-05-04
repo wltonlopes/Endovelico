@@ -88,6 +88,6 @@
   <VisualActor>
     <SilhouetteDisplay>false</SilhouetteDisplay>
     <SilhouetteOccluder>true</SilhouetteOccluder>
-    <Actor>structures/xiongnu/royal_yurt_charioth_pivot.xml</Actor>
+    <Actor>structures/xiongnu/xion_wagon_barracks.xml</Actor>
   </VisualActor>
 </Entity>

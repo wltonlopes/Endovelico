@@ -56,6 +56,6 @@
   </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/xiongnu/food_deposit.xml</Actor>
+    <Actor>structures/xiongnu/market.xml</Actor>
   </VisualActor>
 </Entity>

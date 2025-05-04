@@ -19,7 +19,7 @@
   </StatusBars>
   <Trainer disable=""/>
   <VisualActor>
-    <Actor>structures/britons/uffington_horse.xml</Actor>
+    <Actor>structures/xiongnu/wonder.xml</Actor>
     <SelectionShape>
       <Footprint/>
     </SelectionShape>
