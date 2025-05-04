@@ -3,12 +3,11 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
-      <mesh>structural/suvarnabhumi/dock.dae</mesh>
+      <mesh>structural/swcreek/dock.dae</mesh>
       <textures>
-        <texture file="structural/suvar_struct.png" name="baseTex"/>
-        <texture file="structural/suvar_struct_spec.png" name="specTex"/>
-        <texture file="structural/suvar_struct_norm.png" name="normTex"/>
+        <texture file="structural/swcr_struct.png" name="baseTex"/>
+        <texture file="structural/swcr_struct_spec.png" name="specTex"/>
+        <texture file="structural/swcr_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
