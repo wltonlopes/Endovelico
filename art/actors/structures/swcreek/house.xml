@@ -15,27 +15,27 @@
   </group>
   <group>
     <variant frequency="1" name="house a">
-<mesh>structural/adena/house_1.dae</mesh>
+<mesh>structural/swcreek/house_1.dae</mesh>
       <textures>
          <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-<mesh>structural/adena/house_2.dae</mesh>
+<mesh>structural/swcreek/house_2.dae</mesh>
       <textures>
          <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-<mesh>structural/adena/house_3.dae</mesh>
+<mesh>structural/swcreek/house_3.dae</mesh>
       <textures>
          <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/adena/house_2.dae</mesh>
+<mesh>structural/swcreek/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -51,7 +51,7 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop attachpoint="garrisoned"/>
+        <prop attachpoint="root"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>

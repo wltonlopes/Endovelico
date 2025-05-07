@@ -17,7 +17,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_tupi.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="root" maxheight="15" minheight="14"/>
+
       </props>
     </variant>
   </group>
@@ -25,7 +26,7 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop attachpoint="garrisoned"/>
+        <prop attachpoint="root"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
