@@ -4,6 +4,6 @@
     <Civ>gojo</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/koreans/sentry_tower.xml</Actor>
+    <Actor>structures/koreans/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>
