@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/gaet/scout_tower.xml</Actor>
+    <Actor>structures/gaet/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>
