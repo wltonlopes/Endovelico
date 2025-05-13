@@ -3,23 +3,22 @@
   <BuildRestrictions>
     <Territory>own neutral ally</Territory>
   </BuildRestrictions>
-  <Cost>
-    <Resources>
-      <stone>1000</stone>
-    </Resources>
-  </Cost>
+  <Footprint>
+    <Square width="30.0" depth="30.0"/>
+    <Height>12.0</Height>
+  </Footprint>
   <Identity>
     <Civ>yuez</Civ>
-    <SpecificName>Didā</SpecificName>
-    <VisibleClasses datatype="tokens">
-	  SiegeWorkshop
-	</VisibleClasses>
-    <Tooltip>Train Champion Cavalry units and Construct Siege Rams.</Tooltip>
+    <GenericName>Captured Chinese Fortress</GenericName>
+    <SpecificName>Bǎolěi</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="28.0" depth="28.0"/>
+  </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-	  <!-- range_defensive_loopholes
-	  range_defensive_murderholes
+      <!-- range_defensive_loopholes
+      range_defensive_murderholes
       attack_capture_siege_ladders -->
     </Technologies>
   </Researcher>
@@ -27,16 +26,15 @@
   <TerritoryInfluence disable=""/>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_laoshang
-      units/{civ}/hero_modu
-      units/{civ}/hero_touman
+      units/{civ}/champion_cavalry
+      units/{civ}/siege_ram
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/scythians/fortress.xml</Actor>
+    <Actor>structures/yuezhi/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>24.5</Length>
-    <Indent>7.6</Indent>
+    <Length>28.0</Length>
+    <Indent>6.4</Indent>
   </WallPiece>
 </Entity>

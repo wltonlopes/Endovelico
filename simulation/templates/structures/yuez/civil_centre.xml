@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
-  <Attack disable=""/>
+  <Auras disable=""/>
+  <!-- <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{native}/royal_yurt
+    </Entities>
+  </Builder> -->
+  <BuildRestrictions>
+    <Territory>own neutral ally</Territory>
+    <Distance>
+      <MinDistance>80</MinDistance>
+    </Distance>
+  </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="16.0"/>
     <Height>8.0</Height>
@@ -10,6 +22,7 @@
   </Health>
   <Identity>
     <Civ>yuez</Civ>
+    <Lang>mandarin</Lang>
     <SpecificName>Chanyu's Hall</SpecificName>
   </Identity>
   <Obstruction>
@@ -19,33 +32,17 @@
     <Anchor>pitch</Anchor>
     <TurnRate>0.0001</TurnRate>
   </Position>
-  <ProductionQueue/>
-  <Researcher>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-    </Technologies>
-  </Researcher>
   <TerritoryDecay disable=""/>
+  <TerritoryInfluence>
+    <Radius>80</Radius>
+  </TerritoryInfluence>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_archer_b
-      units/{civ}/infantry_spearman_b
-      units/{civ}/cavalry_spearman_b
+      units/{native}/support_citizen_female
     </Entities>
   </Trainer>
-  <Upgrade>
-    <Unpack>
-      <Entity>structures/xion/civil_centre_packed</Entity>
-      <Time>45</Time>
-      <CheckPlacementRestrictions/>
-      <Requirements>
-          <Techs datatype="tokens">nomadism</Techs>
-      </Requirements>
-    </Unpack>
-  </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/yuezhi/civic_center.xml</Actor>
-    <FoundationActor>structures/xiongnu/civic_centre_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

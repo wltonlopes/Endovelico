@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Auras disable=""/>
+  <!-- <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{native}/royal_yurt
+    </Entities>
+  </Builder> -->
   <BuildRestrictions>
     <Territory>own neutral ally</Territory>
     <Distance>
@@ -16,6 +22,7 @@
   </Health>
   <Identity>
     <Civ>scyth</Civ>
+    <Lang>mandarin</Lang>
     <SpecificName>Chanyu's Hall</SpecificName>
   </Identity>
   <Obstruction>
@@ -25,29 +32,15 @@
     <Anchor>pitch</Anchor>
     <TurnRate>0.0001</TurnRate>
   </Position>
-  <Researcher>
-    <Technologies datatype="tokens">
-	  <!-- successors/health_heroes -->
-    </Technologies>
-  </Researcher>
   <TerritoryDecay disable=""/>
-<!--   <TerritoryInfluence disable=""/> -->
+  <TerritoryInfluence>
+    <Radius>80</Radius>
+  </TerritoryInfluence>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_archer_b
-      units/{civ}/cavalry_archer_b
-	  units/scyth/support_wagon
+      units/{native}/support_citizen_female
     </Entities>
   </Trainer>
-  <Upgrade>
-    <Unpack>
-      <Entity>structures/scyth/civil_centre_packed</Entity>
-      <Time>30</Time>
-      <Requirements>
-          <Techs datatype="tokens">nomadism</Techs>
-      </Requirements>
-    </Unpack>
-  </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/scythians/civic_center.xml</Actor>

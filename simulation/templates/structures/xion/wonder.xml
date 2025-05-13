@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
+  <BuildRestrictions>
+    <Territory>own neutral ally enemy</Territory>
+  </BuildRestrictions>
   <Footprint>
     <Square width="60.0" depth="30.0"/>
     <Height>10.0</Height>
@@ -13,12 +16,17 @@
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>
+  <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
+  <Researcher disable=""/>
   <StatusBars>
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
   <Trainer disable=""/>
   <VisualActor>
+    <FoundationActor>structures/fndn_stonehenge.xml</FoundationActor>
     <Actor>structures/xiongnu/wonder.xml</Actor>
     <SelectionShape>
       <Footprint/>

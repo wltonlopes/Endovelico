@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_house_big">
+<Entity parent="autobuild|template_structure_civic_house">
   <BuildRestrictions>
-    <Territory>own neutral ally enemy</Territory>
-    <Distance>
-      <FromClass>House</FromClass>
-      <MinDistance>12</MinDistance>
-    </Distance>
+    <Territory>own neutral ally</Territory>
   </BuildRestrictions>
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
   <Footprint replace="">
     <Circle radius="10.0"/>
     <Height>10.0</Height>
   </Footprint>
-  <Health>
-    <Max>800</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
-  </Health>
   <Identity>
     <Civ>sarma</Civ>
     <SpecificName>Yurt</SpecificName>
-    <VisibleClasses datatype="tokens">Yurt</VisibleClasses>
+    <VisibleClasses datatype="tokens">Village House Yurt</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      -pop_house_01
-      -pop_house_02
     </Technologies>
   </Researcher>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <Upgrade>
     <PackStorehouse>
-      <Entity>units/scyth/support_wagon</Entity>
+      <Entity>units/sarma/support_wagon</Entity>
       <Time>10</Time>
     </PackStorehouse>
   </Upgrade>

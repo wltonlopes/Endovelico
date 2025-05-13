@@ -2,18 +2,19 @@
 <Entity parent="template_unit_support_wagon">
   <Identity>
     <Civ>xion</Civ>
+    <Lang>mandarin</Lang>
   </Identity>
   <Upgrade>
     <UnPackStorehouse>
       <Entity>structures/xion/storehouse</Entity>
-      <Tooltip>Storehouses can train Slaves and research Technologies, while the Resource Wagon cannot.</Tooltip>
+      <Tooltip>Storehouses can train Slaves, while the Resource Wagon cannot.</Tooltip>
       <Time>10</Time>
-      <CheckPlacementRestrictions/>
+
     </UnPackStorehouse>
     <UnPackHouse>
       <Entity>structures/xion/house</Entity>
       <Time>10</Time>
-      <CheckPlacementRestrictions/>
+
     </UnPackHouse>
   </Upgrade>
 </Entity>

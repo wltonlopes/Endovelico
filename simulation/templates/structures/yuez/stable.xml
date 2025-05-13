@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_stable">
-<!--   <Auras datatype="tokens">
+<Entity parent="autobuild|template_structure_military_stable">
+  <!-- <Auras datatype="tokens">
     structures/corral_garrison
-	structures/slaughterhouse
+    structures/slaughterhouse
   </Auras> -->
   <BuildRestrictions>
     <Territory>own neutral ally enemy</Territory>
@@ -11,43 +11,43 @@
     <Circle radius="15.0"/>
     <Height>8.0</Height>
   </Footprint>
-<!--   <GarrisonHolder>
+  <GarrisonHolder>
     <List datatype="tokens">
       Domestic
     </List>
-  </GarrisonHolder> -->
+  </GarrisonHolder>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>yuez</Civ>
     <VisibleClasses datatype="tokens">Corral</VisibleClasses>
-    <Tooltip>Train Cavalry Soldiers. Raise herd Animals for food. Research improvements for Cavalry and ranching. </Tooltip>
+    <Tooltip>Train cavalry soldiers. Raise herd animals for food. Research improvements for cavalry and ranching. </Tooltip>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      unlock_champion_units_xion
-      gather_animals_stockbreeding
-      gather_animals_nomadic_pastoralism
+      <!-- nomads/range_cavalry_archers_parthian_tactics
+      training_animals_husbandry
+      training_animals_husbandry_2
+      gather_draft_animals
+      training_animals_stockbreeding -->
     </Technologies>
   </Researcher>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
-  <Trainer>
+  <!-- <Trainer>
     <Entities datatype="tokens">
-      -units/{civ}/champion_cavalry_archer
       gaia/fauna_pig_trainable
       gaia/fauna_sheep_trainable
       gaia/fauna_cattle_cow_trainable
-  	</Entities>
-  </Trainer>
+    </Entities>
+  </Trainer> -->
   <VisualActor>
     <ConstructionPreview disable=""/>
-    <Actor>structures/scythians/corral.xml</Actor>
-    <FoundationActor>structures/scythians/corral_foundation.xml</FoundationActor>
+    <Actor>structures/yuezhi/stable.xml</Actor>
+    <FoundationActor>structures/xiongnu/corral_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

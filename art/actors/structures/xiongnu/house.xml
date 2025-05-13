@@ -32,12 +32,12 @@
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house d">
+    <!-- <variant frequency="1" name="house d">
 <mesh>structural/xiongnu/house_4.dae</mesh>
       <textures>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
-    </variant>
+    </variant> -->
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>

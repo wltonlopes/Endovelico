@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="autobuild|template_structure_military_barracks">
   <BuildRestrictions>
     <Territory>own neutral ally</Territory>
   </BuildRestrictions>
+  <Cost>
+    <Resources>
+      <wood>200</wood>
+      <stone>100</stone>
+    </Resources>
+  </Cost>
   <Footprint replace="">
     <Circle radius="21.0"/>
     <Height>8.0</Height>
@@ -14,27 +20,26 @@
     <Civ>scyth</Civ>
     <GenericName>Training Grounds</GenericName>
     <VisibleClasses datatype="tokens">
-	  Range
-	</VisibleClasses>
-    <Tooltip>Train melee and ranged infantry. Research training improvements for infantry.</Tooltip>
+      Range
+    </VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      archer_attack_spread
-      unlock_champion_infantry
-      unlock_mercenary_infantry
+      <!-- -training_levy_infantry_barracks
+      training_levy_infantry_ranged
+      tradition_archery
+      upgrade_rank_advanced_infantry_archer
+      upgrade_rank_elite_infantry_archer -->
     </Technologies>
   </Researcher>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <Trainer>
     <Entities datatype="tokens">
-      units/scyth/merc_infantry_1
-      units/scyth/merc_infantry_2
-      units/{civ}/maiden_infantry_archer
+      units/scyth/infantry_archer_b
     </Entities>
   </Trainer>
   <VisualActor>
