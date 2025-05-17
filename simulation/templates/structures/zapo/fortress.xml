@@ -13,7 +13,7 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      attack_capture_siege_ladders
+    
       unlock_spies
       spy_counter
     </Technologies>
