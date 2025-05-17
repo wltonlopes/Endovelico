@@ -17,6 +17,6 @@
     <Icon>units/yayo/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/yayoi/bireme.xml</Actor>
+    <Actor>structures/han/trireme.xml</Actor>
   </VisualActor>
 </Entity>

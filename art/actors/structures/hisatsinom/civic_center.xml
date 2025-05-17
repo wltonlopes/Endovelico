@@ -6,6 +6,7 @@
       <mesh>structural/hisatsinom/cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="structures/hisatsinom/cc_f.xml" attachpoint="root"/>    
       </props>
       <textures>
         <texture file="structural/hisat_struct.png" name="baseTex"/>

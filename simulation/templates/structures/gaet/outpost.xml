@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/gaet/outpost.xml</Actor>
+    <Actor>structures/hellenes/outpost.xml</Actor>
   </VisualActor>
 </Entity>

@@ -6,6 +6,7 @@
       <mesh>structural/hisatsinom/stone_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
+        <prop actor="structures/hisatsinom/defense_tower_f.xml" attachpoint="root"/>    
       </props>
       <textures>
         <texture file="structural/hisat_struct.png" name="baseTex"/>
