@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-05-01T08:26:47</created>
-    <modified>2025-05-01T08:26:47</modified>
+    <created>2025-05-18T16:03:17</created>
+    <modified>2025-05-18T16:03:17</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -39,11 +39,7 @@
       </profile_COMMON>
     </effect>
   </library_effects>
-  <library_images>
-    <image id="_38058432_texturasAnurFINAIS_thumb_png_828cd4f6c40dd29938784127" name="_38058432_texturasAnurFINAIS_thumb_png_828cd4f6c40dd29938784127">
-      <init_from>138058432_texturasAnurFINAIS.thumb.png.828cd4f6c40dd29938784127.png</init_from>
-    </image>
-  </library_images>
+  <library_images/>
   <library_materials>
     <material id="textura__ANURADHAPURA-material" name="textura  ANURADHAPURA">
       <instance_effect url="#textura__ANURADHAPURA-effect"/>
