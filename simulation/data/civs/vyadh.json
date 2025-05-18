@@ -1,9 +1,27 @@
 ﻿{
 	"Code": "vyadh",
 	"Culture": "vyadhapura",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Eastern_Dreams.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Karmic_Confluence.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Beyond_The_Indus.ogg",
+			"Type": "peace"
+		}
 	],
 	"CivBonuses":
 	[

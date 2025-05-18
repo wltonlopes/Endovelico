@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      structures/{civ}/shrine
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>anura</Civ>
+  </Identity>
+</Entity>

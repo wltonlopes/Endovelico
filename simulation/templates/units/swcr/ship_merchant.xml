@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_merchant">
+  <Footprint>
+    <Square width="12.0" depth="16.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>swcr</Civ>
+    <GenericName>Trading Boat</GenericName>
+    <SpecificName>ygaraapé</SpecificName>
+    <Icon>units/south_america/ship_merchant.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/south_america/canoe_merchant.xml</Actor>
+  </VisualActor>
+</Entity>
