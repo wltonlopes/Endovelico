@@ -6,7 +6,7 @@
     <SelectionGroupName>units/jude/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Judean Light Cavalry</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude_cavalry_javelinist.png</Icon>
+    <Icon>units/jude/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/hasmo/cavalry_javelineer_a</Entity>

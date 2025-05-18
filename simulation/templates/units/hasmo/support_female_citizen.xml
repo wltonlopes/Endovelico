@@ -5,7 +5,7 @@
     <Lang>greek</Lang>
     <SpecificName></SpecificName>
     <GenericName>Judean Woman</GenericName>
-    <Icon>units/jude_support_female.png</Icon>
+    <Icon>units/jude/support_female.png</Icon>
     <SelectionGroupName>units/jude/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

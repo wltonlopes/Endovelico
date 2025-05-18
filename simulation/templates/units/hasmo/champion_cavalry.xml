@@ -5,7 +5,7 @@
     <Lang>latin</Lang>
     <SpecificName>Champion Cavalry</SpecificName>
     <GenericName>Cavalry Swordsman</GenericName>
-    <Icon>units/pers_champion_cavalry.png</Icon>
+    <Icon>units/pers/champion_cavalry.png</Icon>
     <SelectionGroupName>units/jude/champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>

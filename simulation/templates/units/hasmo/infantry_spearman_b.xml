@@ -10,7 +10,7 @@
     <SelectionGroupName>units/jude/infantry_spearman_b</SelectionGroupName>
     <GenericName>Judean Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude_infantry_spearman.png</Icon>
+    <Icon>units/jude/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/hasmo/infantry_spearman_a</Entity>

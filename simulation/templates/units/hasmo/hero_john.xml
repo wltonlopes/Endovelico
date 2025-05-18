@@ -8,7 +8,7 @@
     <Lang>greek</Lang>
     <GenericName>John Hyrcanus</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude_hero_john.png</Icon>
+    <Icon>units/jude/hero_john.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hasmonean/hero_john.xml</Actor>

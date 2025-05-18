@@ -10,7 +10,7 @@
     <SelectionGroupName>units/jude/infantry_archer_b</SelectionGroupName>
     <GenericName>Judean Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude_infantry_archer.png</Icon>
+    <Icon>units/jude/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/hasmo/infantry_archer_a</Entity>

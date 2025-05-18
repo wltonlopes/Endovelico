@@ -21,7 +21,7 @@
     <Civ>jude</Civ>
     <GenericName>Salome Alexandra</GenericName>
     <SpecificName>Salome Alexandra</SpecificName>
-    <Icon>units/jude_hero_salome.png</Icon>
+    <Icon>units/jude/hero_salome.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hasmonean/hero_salome.xml</Actor>

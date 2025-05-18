@@ -10,7 +10,7 @@
     <SelectionGroupName>units/jude/infantry_slinger_b</SelectionGroupName>
     <GenericName>Judean Slinger</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude_infantry_slinger.png</Icon>
+    <Icon>units/jude/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/hasmo/infantry_slinger_a</Entity>

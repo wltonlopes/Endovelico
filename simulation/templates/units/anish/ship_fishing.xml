@@ -7,7 +7,7 @@
   <Identity>
     <Civ>anish</Civ>
     <SpecificName>Kayom</SpecificName>
-    <Icon>units/southameric/ship_fishing.png</Icon>
+    <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/maya_protoclassic/canoe.xml</Actor>

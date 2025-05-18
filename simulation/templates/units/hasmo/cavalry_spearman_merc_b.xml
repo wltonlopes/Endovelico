@@ -6,7 +6,7 @@
     <SelectionGroupName>units/jude/cavalry_spearman_merc_b</SelectionGroupName>
     <GenericName>Mercenary Cavalry</GenericName>
     <SpecificName>Cavalry spearman</SpecificName>
-    <Icon>units/mace_cavalry_spearman_merc.png</Icon>
+    <Icon>units/mace/cavalry_spearman_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

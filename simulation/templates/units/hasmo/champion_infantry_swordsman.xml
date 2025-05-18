@@ -5,7 +5,7 @@
     <Lang>greek</Lang>
     <GenericName>Judean Royal Guard</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude_champion_swordsman.png</Icon>
+    <Icon>units/jude/champion_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">unlock_champion_infantry</Techs>
     </Requirements>
