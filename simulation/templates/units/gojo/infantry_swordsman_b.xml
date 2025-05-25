@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>gojo</Civ>
-    <SelectionGroupName>units/yayo/infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/gojo/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Militia Axeman</GenericName>
     <SpecificName>Wonomöti</SpecificName>
     <Icon>units/yayo/infantry_axeman.png</Icon>
