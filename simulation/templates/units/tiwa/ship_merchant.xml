@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_merchant">
+  <Footprint>
+    <Square width="8.0" depth="24.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>tiwa</Civ>
+    <SpecificName>Seḥer</SpecificName>
+    <Tooltip>Trade between docks. Garrison a Trader aboard for additional profit (+20% for each garrisoned). Gather profitable aquatic treasures. Carthaginians have +25% sea trading bonus.</Tooltip>
+    <Icon>units/moch/ship_merchant.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mochicas/merchant_ship.xml</Actor>
+  </VisualActor>
+</Entity>

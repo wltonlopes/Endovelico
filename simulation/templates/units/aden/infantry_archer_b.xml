@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
-      structures/araw/pyramid_large
-      structures/araw/observatory
-      structures/araw/embassy
-      structures/araw/temple_of_masks
-      structures/araw/range
-      structures/araw/palace
+      structures/aden/pyramid_large
+      structures/aden/observatory
+      structures/aden/embassy
+      structures/aden/temple_of_masks
+      structures/aden/range
+      structures/aden/palace
     </Entities>
   </Builder>
   <Identity>
@@ -18,7 +18,7 @@
     <Icon>units/south_america/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/araw/infantry_archer_a</Entity>
+    <Entity>units/aden/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/south_america/infantry_archer_b.xml</Actor>

@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structures/araw/pyramid_large
-      structures/araw/observatory
-      structures/araw/embassy
-      structures/araw/temple_of_masks
-      structures/araw/range
-      structures/araw/palace
+      structures/aden/pyramid_large
+      structures/aden/observatory
+      structures/aden/embassy
+      structures/aden/temple_of_masks
+      structures/aden/range
+      structures/aden/palace
     </Entities>
   </Builder>
   <Identity>
@@ -20,7 +20,7 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/araw/infantry_spearman_a</Entity>
+    <Entity>units/aden/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/south_america/infantry_spearman_b.xml</Actor>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="civ/yayo|template_unit_infantry_melee_spearman">
+<Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
+    <Civ>anura</Civ>
     <SelectionGroupName>units/yayo/infantry_spearman_b</SelectionGroupName>
     <GenericName>Infantry Spearman</GenericName>
     <SpecificName>Pokömöti</SpecificName>

@@ -15,7 +15,7 @@
     <Icon>units/scyth/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/scyth/infantry_axeman_a</Entity>
+    <Entity>units/sarma/infantry_axeman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/scythians/infantry_axeman_b.xml</Actor>

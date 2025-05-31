@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Identity>
+    <Civ>tiwa</Civ>
+    <SpecificName>Asklēpieîon</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/tiwanaku/temple.xml</Actor>
+    <!-- <FoundationActor>props/special/eyecandy/greek_temple_unfinished.xml</FoundationActor> -->
+  </VisualActor>
+</Entity>

@@ -14,7 +14,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>mayap</Civ>
+    <Civ>axum</Civ>
     <Tooltip>Train Mercenaries.</Tooltip>
     <Icon>structures/mayap/plaza.png</Icon>
   </Identity>

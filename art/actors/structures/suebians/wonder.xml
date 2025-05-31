@@ -3,14 +3,17 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>structural/garamantians/wonder.dae</mesh>
+      <mesh>structural/suebians/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="structures/suebians/wonder_tree.xml" attachpoint="root" />
+        <prop actor="structures/suebians/wonder_grass.xml" attachpoint="root" />
+        <prop actor="structures/suebians/wonder_water.xml" attachpoint="root" />
       </props>
       <textures>
-        <texture file="structural/gara_struct.png" name="baseTex"/>
-        <texture file="structural/gara_struct_spec.png" name="specTex"/>
-        <texture file="structural/gara_struct_norm.png" name="normTex"/>
+        <texture file="structural/sueb_wonder_struct.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
         <texture file="structural/ao/gara_wonder_ao.png" name="aoTex"/>
       </textures>
     </variant>

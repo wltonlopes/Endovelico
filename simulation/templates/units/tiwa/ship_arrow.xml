@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_warship_arrow">
+  <Footprint>
+    <Square width="8.0" depth="31.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>tiwa</Civ>
+    <GenericName>Bireme</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/moch/ship_bireme.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mochicas/bireme.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
-    <Civ>xion</Civ>
+    <Civ>yuez</Civ>
     <GenericName>Xiongnu Warlord</GenericName>
     <SelectionGroupName>units/xion_champion_cavalry</SelectionGroupName>
     <Icon>units/xion/champion_cavalry.png</Icon>
@@ -13,7 +13,7 @@
   </Identity>
   <Upgrade>
     <Ranged>
-      <Entity>units/xion/champion_cavalry_archer</Entity>
+      <Entity>units/yuez/champion_cavalry_archer</Entity>
       <Time>10</Time>
       <Tooltip>Switch Weapon.</Tooltip>
     </Ranged>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>tiwa</Civ>
+    <GenericName>Tiwanaku</GenericName>
+    <History>The Moches or Mochicas (150 BCE-800 CE) were a powerful culture that succeeded the Chavín civilization. Divided into "North" and "South" like ancient Egypt, it was composed of different semi-independent cities and led by an elite of priests and fierce warriors. They were skilled farmers who converted the deserts and valleys of Peru's northern coast into fertile lands. Additionally, they made great advancements in pottery, goldsmithing, and naval technology, with the use of Huaco Portraits, Tumbaga, and Totora Reed Horses, respectively. After their peak (100 CE-650 CE), they collapsed due to natural disasters.
+</History>
+    <Icon>emblems/emblem_moch.png</Icon>
+  </Identity>
+</Entity>

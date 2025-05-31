@@ -5,10 +5,10 @@
     <Height>3.0</Height>
   </Footprint>
   <Identity>
-    <Civ>jude</Civ>
+    <Civ>hasmo</Civ>
     <Lang>greek</Lang>
     <SpecificName></SpecificName>
-    <Icon>units/hele_support_trader.png</Icon>
+    <Icon>units/hele/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hellenes/trader.xml</Actor>

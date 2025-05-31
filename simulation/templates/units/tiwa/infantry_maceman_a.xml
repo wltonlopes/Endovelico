@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/tiwa/infantry_maceman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/tiwa/infantry_maceman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mochicas/infantry_maceman_a.xml</Actor>
+  </VisualActor>
+</Entity>

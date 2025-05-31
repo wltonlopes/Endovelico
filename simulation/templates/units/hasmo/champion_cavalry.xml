@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_swordsman">
   <Identity>
-    <Civ>jude</Civ>
+    <Civ>hasmo</Civ>
     <Lang>latin</Lang>
     <SpecificName>Champion Cavalry</SpecificName>
     <GenericName>Cavalry Swordsman</GenericName>

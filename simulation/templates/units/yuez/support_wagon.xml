@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_wagon">
   <Identity>
-    <Civ>xion</Civ>
+    <Civ>yuez</Civ>
   </Identity>
   <Upgrade>
     <UnPackStorehouse>

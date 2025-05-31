@@ -8,7 +8,7 @@
     <Icon>units/yayo/support_healer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/yayo/support_healer_a</Entity>
+    <Entity>units/hongb/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/yayoi/female_healer.xml</Actor>

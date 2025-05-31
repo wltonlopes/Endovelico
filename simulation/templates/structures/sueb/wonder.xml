@@ -23,7 +23,7 @@
   <Trainer disable=""/>
   <VisualActor>
     <FoundationActor>structures/fndn_stonehenge.xml</FoundationActor>
-    <Actor>structures/britons/wonder.xml</Actor>
+    <Actor>structures/suebians/wonder.xml</Actor>
     <SelectionShape>
       <Footprint/>
     </SelectionShape>

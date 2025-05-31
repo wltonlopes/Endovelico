@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_healer">
   <Identity>
-    <Civ>jude</Civ>
+    <Civ>hasmo</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/jude/support_healer_b</SelectionGroupName>
     <SpecificName></SpecificName>

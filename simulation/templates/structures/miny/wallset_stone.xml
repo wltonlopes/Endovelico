@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/gara/wall_tower</Tower>
-      <Gate>structures/gara/wall_gate</Gate>
-      <WallLong>structures/gara/wall_long</WallLong>
-      <WallMedium>structures/gara/wall_medium</WallMedium>
-      <WallShort>structures/gara/wall_short</WallShort>
+      <Tower>structures/miny/wall_tower</Tower>
+      <Gate>structures/miny/wall_gate</Gate>
+      <WallLong>structures/miny/wall_long</WallLong>
+      <WallMedium>structures/miny/wall_medium</WallMedium>
+      <WallShort>structures/miny/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

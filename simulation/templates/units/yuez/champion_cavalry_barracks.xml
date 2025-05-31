@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/xion/champion_cavalry">
+<Entity parent="units/yuez/champion_cavalry">
   <Identity>
     <Requirements>
       <Techs datatype="tokens">

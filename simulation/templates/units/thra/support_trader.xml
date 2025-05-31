@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>thra</Civ>
-    <Icon>units/celt_support_trader.png</Icon>
+    <Icon>units/celt/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/celts/trader.xml</Actor>

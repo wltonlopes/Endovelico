@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/araw/support_healer_e</Entity>
+    <Entity>units/aden/support_healer_e</Entity>
   </Promotion>
 </Entity>

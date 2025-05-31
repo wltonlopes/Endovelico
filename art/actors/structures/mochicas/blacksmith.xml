@@ -9,8 +9,8 @@
       </props>
       <textures>
         <texture file="structural/moch_struct.png" name="baseTex"/>
+        <texture file="structural/moch_struct_spec.png" name="specTex"/>
         <texture file="structural/moch_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/gara_forge_ao.png" name="aoTex"/>
         <texture file="structural/ao/mochicas/basic_AO.png" name="aoTex"/>
       </textures>
     </variant>

@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/araw/infantry_spearman_e</Entity>
+    <Entity>units/aden/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/south_america/infantry_spearman_a.xml</Actor>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelineer">
+  <Attack>
+    <Ranged>
+      <AttackName>Bolas</AttackName>
+       <ApplyStatus>
+        <Slowness>
+          <Interval>2000</Interval>
+          <Damage>
+            <Poison>1</Poison>
+          </Damage>
+          <Stackability>Extend</Stackability>
+          <Duration>10000</Duration>
+        </Slowness>
+      </ApplyStatus>
+      <Damage>
+        <Pierce>11.5</Pierce>
+        <Crush>1.1</Crush>
+      </Damage>
+      <MaxRange>25</MaxRange>
+      <PrepareTime>400</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      <Projectile>
+        <Speed>80</Speed>
+        <Spread>3</Spread>
+        <Gravity>45</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Resistance>
+    <Entity>
+    </Entity>
+  </Resistance>
+  <Cost>
+    <Resources>
+      <stone op="add">10</stone>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>tiwa</Civ>
+    <SpecificName>Warrior Bolas</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/moch/champion_infantry_swordsman.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/mochicas/infantry_bolas.xml</Actor>
+  </VisualActor>
+</Entity>

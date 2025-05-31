@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/moch/infantry_maceman_merc_e</Entity>
+    <Entity>units/moch/infantry_maceman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/mochicas/infantry_maceman_a.xml</Actor>

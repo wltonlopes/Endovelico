@@ -16,7 +16,6 @@
       mayap/ship_trade_mesoamerican_cabotage
       mayap/ship_trade_shells
       -ship_health
-      -ship_speed
     </Technologies>
   </Researcher>
   <Trainer>
