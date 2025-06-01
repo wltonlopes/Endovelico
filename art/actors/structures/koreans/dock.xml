@@ -6,7 +6,6 @@
 
       <mesh>structural/koreans/dock.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/kore_struct.png" name="baseTex"/>

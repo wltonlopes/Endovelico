@@ -1,0 +1,73 @@
+﻿{
+	"Code": "pyu",
+	"Culture": "Pyu",
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Eastern_Dreams.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Karmic_Confluence.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Beyond_The_Indus.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/pyu/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/pyu/civil_centre"
+		},
+		{
+			"Template":"units/pyu/support_female_citizen",
+			"Count":5
+		},
+		{
+			"Template": "units/pyu/infantry_swordsman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/pyu/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/pyu/cavalry_javelineer_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+    "King of Kedah Tua",
+    "King of Sungai batu",
+    "King of Gangga Negara"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/pyu/cavalry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/pyu/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/pyu/infantry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/pyu/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

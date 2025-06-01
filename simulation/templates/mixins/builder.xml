@@ -53,6 +53,8 @@
       structures/{civ}/ball_court
       structures/{civ}/castro
       structures/{civ}/embassy
+      structures/{civ}/stupa
+      structures/{civ}/vihara    
     </Entities>
   </Builder>
   <Identity>

@@ -17,4 +17,7 @@
       <CheckPlacementRestrictions/>
     </UnPackHouse>
   </Upgrade>
+  <VisualActor>
+    <Actor>units/nomads/horse_wagon.xml</Actor>
+  </VisualActor> 
 </Entity>

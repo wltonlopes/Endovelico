@@ -82,6 +82,10 @@
 			"Count": 2
 		},
 		{
+			"Template": "units/bedo/support_wagon",
+			"Count": 1
+		},
+		{
 			"Template": "units/bedo/cavalry_spearman_b",
 			"Count": 1
 		}
@@ -107,6 +111,7 @@
 		"skirmish/units/default_cavalry": "units/bedo/cavalry_spearman_b",
 		"skirmish/units/default_infantry_melee_b": "units/bedo/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/bedo/infantry_javelineer_b",
+		"skirmish/units/special_starting_unit": "units/bedo/support_wagon",
 	  "skirmish/units/default_ship_trireme":"units/bedo/ship_bireme"
 	},
 	"SelectableInGameSetup": true

@@ -10,7 +10,6 @@
         <texture file="structural/ural_struct.png" name="baseTex"/>
         <texture file="structural/ural_struct_spec.png" name="specTex"/>
         <texture file="structural/ural_struct_norm.png" name="normTex"/>
-
       </textures>
     </variant>
   </group>
@@ -29,12 +28,6 @@
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/ural/house_3.dae</mesh>
-      <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="house d">
-<mesh>structural/ural/house_4.dae</mesh>
       <textures>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>

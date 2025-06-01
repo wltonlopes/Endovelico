@@ -4,6 +4,6 @@
     <Civ>malay</Civ>
   </Identity>
   <VisualActor>
-       <Actor>structures/malaydwipa/stable_elephant.xml</Actor>
+    <Actor>structures/malaydwipa/stable_elephant.xml</Actor>
   </VisualActor>
 </Entity>

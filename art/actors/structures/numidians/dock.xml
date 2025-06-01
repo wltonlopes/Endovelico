@@ -5,7 +5,6 @@
     <variant frequency="1" name="Scout_Tower">
       <mesh>structural/numidians/dock.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/numi_struct.png" name="baseTex"/>

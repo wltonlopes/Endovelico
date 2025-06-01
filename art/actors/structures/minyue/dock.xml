@@ -6,7 +6,6 @@
 
       <mesh>structural/minyue/dock.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/miny_struct.png" name="baseTex"/>
