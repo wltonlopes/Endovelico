@@ -12,8 +12,7 @@
 	[],
 	"WallSets":
 	[
-		"structures/wallset_palisade",
-		"structures/dalm/wallset_stone"
+		"structures/wallset_palisade"
 	],
 	"StartEntities":
 	[

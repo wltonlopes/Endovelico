@@ -35,7 +35,7 @@
     <variant frequency="1" name="house d">
 <mesh>structural/suvarnabhumi/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/pyudians/barracks_AO.png" name="aoTex"/>
+                <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -7,7 +7,6 @@
       <props>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/head_lusi_basic.xml" attachpoint="shield"/>
         <prop actor="props/units/helmets/lusi_helmet_couro.xml" attachpoint="helmet"/>
       </props>
     </variant>

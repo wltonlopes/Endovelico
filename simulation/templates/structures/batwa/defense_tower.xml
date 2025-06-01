@@ -5,13 +5,13 @@
     <Height>22</Height>
   </Footprint>
   <Identity>
-    <Civ>urewe</Civ>
+    <Civ>batwa</Civ>
     <SpecificName>Ile Iso Okuta</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/urewe/defense_tower.xml</Actor>
+    <Actor>structures/batwa/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

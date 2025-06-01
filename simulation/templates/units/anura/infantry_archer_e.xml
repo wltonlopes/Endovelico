@@ -2,9 +2,9 @@
 <Entity parent="units/anura/infantry_archer_a">
   <Identity>
     <Rank>Elite</Rank>
-	</Identity>
+  </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/yayoi/infantry_archer_e.xml</Actor>
+    <Actor>units/mauryas/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

@@ -52,6 +52,6 @@
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/urewe/big_forge.xml</Actor>
+    <Actor>structures/batwa/big_forge.xml</Actor>
   </VisualActor>
 </Entity>

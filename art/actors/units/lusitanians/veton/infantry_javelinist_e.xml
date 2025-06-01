@@ -27,12 +27,12 @@
   <group>
     <variant frequency="1" name="Celtic Berru Helmet-02">
       <props>
-        <prop actor="props/units/helmets/lusi_helmet_berru_02.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/old/lusi_helmet_berru_02.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="Celtic Montefortino Helmet-01">
       <props>
-        <prop actor="props/units/helmets/lusi_helmet_montefortino_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/old/lusi_helmet_montefortino_01.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

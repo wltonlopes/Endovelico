@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
-    <Civ>urewe</Civ>
+    <Civ>batwa</Civ>
     <SpecificName>Aafin</SpecificName>
   </Identity>
   <Researcher>
@@ -17,6 +17,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/urewe/civic_center.xml</Actor>
+    <Actor>structures/batwa/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

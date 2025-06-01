@@ -8,14 +8,14 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>urewe</Civ>
+    <Civ>batwa</Civ>
     <SpecificName>Oko Oko</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12.0" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/urewe/farmstead.xml</Actor>
+    <Actor>structures/batwa/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

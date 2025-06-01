@@ -51,23 +51,20 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/malay/cavalry_archer_b",
+			"Template": "units/malay/cavalry_javelineer_b",
 			"Count": 1
 		}
 	],
 
 	"AINames":
 	[
-
-    "Wuzhu",	
-    "Ying",
-    "Chou",
-	"Yushan",
-	"Jugu"
+    "King of Kedah Tua",
+    "King of Sungai batu",
+    "King of Gangga Negara"
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/malay/cavalry_archer_b",
+		"skirmish/units/default_cavalry": "units/malay/cavalry_javelineer_b",
 		"skirmish/units/default_infantry_melee_b": "units/malay/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/malay/infantry_archer_b",
 	  "skirmish/units/default_ship_trireme":"units/malay/ship_bireme"

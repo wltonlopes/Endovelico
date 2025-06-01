@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>urewe</Civ>
+    <Civ>batwa</Civ>
     <SpecificName>Wori</SpecificName>
   </Identity>
   <Obstruction>
@@ -23,7 +23,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/urewe/corral.xml</Actor>
+    <Actor>structures/batwa/corral.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

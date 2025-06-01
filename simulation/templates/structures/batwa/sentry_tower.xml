@@ -5,13 +5,13 @@
     <Height>16</Height>
   </Footprint>
   <Identity>
-    <Civ>urewe</Civ>
+    <Civ>batwa</Civ>
     <SpecificName>Tafatafa Eso</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/urewe/scout_tower.xml</Actor>
+    <Actor>structures/batwa/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

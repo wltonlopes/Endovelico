@@ -6,10 +6,9 @@
   </Footprint>
   <Identity>
     <Civ>anura</Civ>
-    <SpecificName>Tukikömi</SpecificName>
-    <Icon>units/mace/siege_ram.png</Icon>
+    <Icon>units/maur/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/yayoi/siege_ram.xml</Actor>
+    <Actor>structures/mauryas/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

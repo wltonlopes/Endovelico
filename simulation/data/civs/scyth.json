@@ -32,8 +32,7 @@
 	[],
 	"WallSets":
 	[
-		"structures/wallset_palisade",
-		"structures/scyth/wallset_stone"
+		"structures/wallset_palisade"
 	],
 	"StartEntities":
 	[

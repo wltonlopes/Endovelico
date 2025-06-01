@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>urewe</Civ>
+    <Civ>batwa</Civ>
     <SpecificName>Oja</SpecificName>
   </Identity>
   <Obstruction>
@@ -17,6 +17,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/urewe/market.xml</Actor>
+    <Actor>structures/batwa/market.xml</Actor>
   </VisualActor>
 </Entity>

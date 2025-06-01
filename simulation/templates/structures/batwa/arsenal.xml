@@ -9,7 +9,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>urewe</Civ>
+    <Civ>batwa</Civ>
     <SpecificName>Ile Idoti</SpecificName> 
   </Identity>
   <Obstruction>
@@ -30,7 +30,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/urewe/arsenal.xml</Actor>
+    <Actor>structures/batwa/arsenal.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>
