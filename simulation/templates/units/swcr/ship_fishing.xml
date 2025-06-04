@@ -7,7 +7,7 @@
   <Identity>
     <Civ>swcr</Civ>
     <SpecificName>Ygara</SpecificName>
-    <Icon>units/athen/fisher.png</Icon>
+    <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/south_america/canoe.xml</Actor>

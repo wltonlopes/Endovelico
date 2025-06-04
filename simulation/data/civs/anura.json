@@ -1,96 +1,86 @@
 ﻿{
-	"Code": "anura",
-	"Culture": "Anuradhapura",
-	"Music": [
-		{
-			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Land_between_the_two_Seas.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Eastern_Dreams.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Karmic_Confluence.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Beyond_The_Indus.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/anura/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/anura/civil_centre"
-		},
-		{
-			"Template":"units/anura/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/anura/infantry_swordsman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/anura/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/anura/cavalry_archer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Devanampiya Tissa",	
-    "Dutugamunu",
-    "Saddha Tissa",
-	"Khallata Naga",
-	"Lanja Tissa",
-    "Pandukabhaya",
-    "Mutasiva",
-    "Uttiya ",
-    "Mahasiva",
-    "Suratissa",
-	"Saddha Tissa",
-	" Khallata Naga",
-	" Vattagamani Abhaya",
-	" Vattagamani Abhaya",
-	" Mahakuli Mahatissa", 
-	" Chora Naga",
-	" Kuda Tissa",
-	" Siva I",
-	" Vatuka",
-	" Darubhatika Tissa",
-	" Niliya",
-	" Anula",
-	" Kutakanna Tissa",
-	" Bhatikabhaya Abhaya"
-
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/anura/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/anura/infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/anura/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/anura/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "anura",
+    "Culture": "Anuradhapura",
+    "Music": [
+        {
+            "File": "An_old_Warhorse_goes_to_Pasture.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Eastern_Dreams.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Karmic_Confluence.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Beyond_The_Indus.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/anura/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/anura/civil_centre"
+        },
+        {
+            "Template": "units/anura/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/anura/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/anura/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/anura/cavalry_javelineer_b",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Devanampiya Tissa",
+        "Dutugamunu",
+        "Saddha Tissa",
+        "Khallata Naga",
+        "Lanja Tissa",
+        "Pandukabhaya",
+        "Mutasiva",
+        "Uttiya ",
+        "Mahasiva",
+        "Suratissa",
+        "Saddha Tissa",
+        "Khallata Naga",
+        "Vattagamani Abhaya",
+        "Vattagamani Abhaya",
+        "Mahakuli Mahatissa",
+        "Chora Naga",
+        "Kuda Tissa",
+        "Siva I",
+        "Vatuka",
+        "Darubhatika Tissa",
+        "Niliya",
+        "Anula",
+        "Kutakanna Tissa",
+        "Bhatikabhaya Abhaya"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/anura/cavalry_javelineer_b",
+        "skirmish/units/default_infantry_melee_b": "units/anura/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/anura/infantry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/anura/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

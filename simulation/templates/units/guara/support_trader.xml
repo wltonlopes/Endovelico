@@ -3,7 +3,7 @@
   <Identity>
     <Civ>guara</Civ>
     <SpecificName>Aj Kon</SpecificName>
-    <Icon>units/guara/support_trader.png</Icon>
+    <Icon>units/south_america/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/south_america/trader.xml</Actor>

@@ -6,18 +6,18 @@
   </Identity>
   <Upgrade>
     <UnPackStorehouse>
-      <Entity>structures/scyth/storehouse</Entity>
+      <Entity>structures/sarma/storehouse</Entity>
       <Tooltip>Storehouses can train Slaves and research Technologies, while the Resource Wagon cannot.</Tooltip>
       <Time>10</Time>
       <CheckPlacementRestrictions/>
     </UnPackStorehouse>
     <UnPackHouse>
-      <Entity>structures/scyth/house</Entity>
+      <Entity>structures/sarma/house</Entity>
       <Time>10</Time>
       <CheckPlacementRestrictions/>
     </UnPackHouse>
   </Upgrade>
   <VisualActor>
     <Actor>units/nomads/horse_wagon.xml</Actor>
-  </VisualActor> 
+  </VisualActor>
 </Entity>

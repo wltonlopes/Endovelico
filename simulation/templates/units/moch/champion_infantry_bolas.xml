@@ -3,7 +3,7 @@
   <Attack>
     <Ranged>
       <AttackName>Bolas</AttackName>
-       <ApplyStatus>
+      <ApplyStatus>
         <Slowness>
           <Interval>2000</Interval>
           <Damage>
@@ -43,7 +43,7 @@
     <Civ>moch</Civ>
     <SpecificName>Warrior Bolas</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <Icon>units/moch/champion_infantry_swordsman.png</Icon>
+    <Icon>units/moch/champion_infantry_javelineer.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>
