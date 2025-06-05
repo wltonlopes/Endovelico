@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>arme</Civ>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/illy/wall_tower</Tower>
+      <Gate>structures/illy/wall_gate</Gate>
+      <WallLong>structures/illy/wall_long</WallLong>
+      <WallMedium>structures/illy/wall_medium</WallMedium>
+      <WallShort>structures/illy/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>
