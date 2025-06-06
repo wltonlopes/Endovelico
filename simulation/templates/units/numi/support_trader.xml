@@ -5,7 +5,7 @@
     <Height>6</Height>
   </Footprint>
   <Identity>
-    <Civ>cart</Civ>
+    <Civ>numi</Civ>
     <SpecificName>Mekir</SpecificName>
     <Icon>units/cart/support_trader.png</Icon>
   </Identity>

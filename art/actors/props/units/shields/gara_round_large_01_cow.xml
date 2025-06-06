@@ -4,9 +4,6 @@
   <group>
     <variant frequency="100" name="Base">
       <mesh>props/shield/round_large_boss.dae</mesh>
-      <textures>
-        <texture file="skeletal/no_spec.png" name="specTex"/>
-      </textures>
     </variant>
   </group>
   <group>

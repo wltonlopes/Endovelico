@@ -17,7 +17,7 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/batwa/infantry_spearman_a</Entity>
+    <Entity>units/batw/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/kushites/infantry_spearman_b.xml</Actor>

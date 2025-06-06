@@ -67,6 +67,7 @@
       units/{civ}/champion_infantry_maceman
       units/{civ}/champion_infantry_axeman
       units/{civ}/champion_infantry_swordsman
+      units/{civ}/infantry_scout
     </Entities>
   </Trainer>
   <Vision>
