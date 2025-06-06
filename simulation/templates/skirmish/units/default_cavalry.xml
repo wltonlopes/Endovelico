@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_scout">
+  <Identity>
+    <Civ>skirm</Civ>
+    <Icon>units/athen/cavalry_scout.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <SkirmishReplacer>
+    <general>units/{civ}/cavalry_scout</general>
+  </SkirmishReplacer>
+  <VisualActor>
+    <Actor>units/hellenes/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

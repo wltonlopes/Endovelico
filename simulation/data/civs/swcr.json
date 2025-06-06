@@ -34,8 +34,7 @@
             "Count": 2
         },
         {
-            "Template": "units/swcr/support_female_citizen",
-            "Count": 1
+            "Template": "units/swcr/infantry_scout"
         }
     ],
     "AINames": [
@@ -52,6 +51,7 @@
         "Suinin"
     ],
     "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/swcr/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/swcr/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/swcr/infantry_archer_b",
         "skirmish/units/special_starting_unit": "units/swcr/support_female_citizen",

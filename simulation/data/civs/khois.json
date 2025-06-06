@@ -1,91 +1,86 @@
 ﻿{
-	"Code": "khois",
-	"Culture": "khoisan",
-	"Music": [
-		{
-			"File": "Sands_of_Time.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Land_between_the_two_Seas.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Valley_of_the_Nile.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Bandit_Country.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Mirage.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Point_of_No_Return.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/khois/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/khois/civil_centre"
-		},
-		{
-			"Template":"units/khois/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/khois/infantry_spearman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/khois/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/khois/cavalry_javelineer_b",
-			"Count": 1
-		},
-		{
-			"Template": "gaia/fauna_cattle_cow_trainable",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/khois/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/khois/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/khois/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
-	  "skirmish/units/default_ship_trireme":"units/khois/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "khois",
+    "Culture": "khoisan",
+    "Music": [
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Point_of_No_Return.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/khois/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/khois/civil_centre"
+        },
+        {
+            "Template": "units/khois/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/khois/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/khois/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/khois/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "gaia/fauna_cattle_cow_trainable",
+            "Count": 1
+        },
+        {
+            "Template": "units/khois/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Jimmu",
+        "Suizei",
+        "Annei",
+        "Itoku",
+        "Kosho",
+        "Koan",
+        "Korei",
+        "Kogen",
+        "Kaika",
+        "Suijin",
+        "Suinin"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/khois/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/khois/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/khois/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
+        "skirmish/units/default_ship_trireme": "units/khois/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

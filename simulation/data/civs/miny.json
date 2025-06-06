@@ -1,63 +1,63 @@
 ﻿{
-	"Code": "miny",
-	"Culture": "chinese",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/miny/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/miny/civil_centre"
-		},
-		{
-			"Template":"units/miny/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/miny/infantry_swordsman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/miny/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/miny/cavalry_archer_b",
-			"Count": 1
-		},
-		{
-			"Template": "units/miny/champion_infantry_bellringer",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Wuzhu",	
-    "Zou Ying",
-    "Chou",
-	"Yushan",
-	"Zou Yushan"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/miny/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/miny/infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/miny/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/miny/champion_infantry_bellringer",
-	  "skirmish/units/default_ship_trireme":"units/miny/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "miny",
+    "Culture": "chinese",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/miny/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/miny/civil_centre"
+        },
+        {
+            "Template": "units/miny/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/miny/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/miny/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/miny/cavalry_archer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/miny/champion_infantry_bellringer",
+            "Count": 1
+        },
+        {
+            "Template": "units/miny/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Wuzhu",
+        "Zou Ying",
+        "Chou",
+        "Yushan",
+        "Zou Yushan"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/miny/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/miny/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/miny/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/miny/champion_infantry_bellringer",
+        "skirmish/units/default_ship_trireme": "units/miny/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

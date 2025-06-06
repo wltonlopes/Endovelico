@@ -1,61 +1,61 @@
 ﻿{
-	"Code": "daci",
-	"Culture": "Dacians",
-	"Music":[
-		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
-		{ "File": "Sunrise.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/daci/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/daci/civil_centre"
-		},
-		{
-			"Template":"units/daci/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/daci/infantry_spearman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/daci/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/daci/cavalry_javelineer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Teres I",	
-    "Seuthes III",
-    "Sitalces",
-	"Kotys I",
-	"Zyraxes",
-	"Burebista",
-	"Decebalus"
-
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/daci/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/daci/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/daci/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/daci/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "daci",
+    "Culture": "Dacians",
+    "Music": [
+        {
+            "File": "Harvest_Festival.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sunrise.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/daci/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/daci/civil_centre"
+        },
+        {
+            "Template": "units/daci/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/daci/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/daci/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/daci/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/daci/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Teres I",
+        "Seuthes III",
+        "Sitalces",
+        "Kotys I",
+        "Zyraxes",
+        "Burebista",
+        "Decebalus"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/daci/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/daci/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/daci/infantry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/daci/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

@@ -1,70 +1,73 @@
 {
-	"Code": "yuez",
-	"Culture": "yuez",
-	"Music": [
-		{
-			"File": "Hill_of_Sorrows.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Red_Dawn.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses": [],
-	"TeamBonuses": [],
-	"Structures": [],
-	"StartEntities": [
-		{
-			"Template": "structures/yuez/civil_centre"
-		},
-		{
-			"Template": "units/yuez/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/yuez/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/yuez/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/yuez/cavalry_archer_b"
-		},
-		{
-			"Template": "units/yuez/support_wagon"
-		}
-	],
-	"AINames": [
-		"Mòdú",
-		"Tóumàn",
-		"Lǎoshàng"
-	],
-	"SkirmishReplacements": {
-		"skirmish/units/default_support_female_citizen": "units/yuez/support_female_citizen",
-		"skirmish/units/default_cavalry": "units/yuez/cavalry_archer_b",
-		"skirmish/units/default_infantry_ranged_b": "units/yuez/infantry_archer_b",
-		"skirmish/structures/default_corral": "structures/yuez/corral",
-		"skirmish/structures/default_defense_tower": "",
-		"skirmish/structures/default_fortress": "",
-		"skirmish/structures/default_house_5": "structures/yuez/house_unpacked",
-		"skirmish/structures/default_house_10": "",
-		"skirmish/structures/default_wall_tower": "",
-		"skirmish/structures/default_wall_gate": "",
-		"skirmish/structures/default_wall_short": "",
-		"skirmish/structures/default_wall_medium": "",
-		"skirmish/structures/default_wall_long": "",
-		"skirmish/structures/default_field": "",
-		"skirmish/structures/default_farmstead": "structures/yuez/market",
-		"skirmish/structures/default_market": "structures/yuez/market",
-		"skirmish/structures/default_storehouse": "structures/yuez/storehouse",
-		"skirmish/structures/default_dock": "",
-		"skirmish/units/special_starting_unit": "units/yuez/support_wagon",
-		"skirmish/structures/default_civil_centre": "structures/yuez/civil_centre",
-		"skirmish/structures/default_barracks": "structures/yuez/corral",
-		"skirmish/structures/default_temple": "structures/yuez/temple"
-	},
-	"SelectableInGameSetup": true
+    "Code": "yuez",
+    "Culture": "yuez",
+    "Music": [
+        {
+            "File": "Hill_of_Sorrows.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Red_Dawn.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "Structures": [],
+    "StartEntities": [
+        {
+            "Template": "structures/yuez/civil_centre"
+        },
+        {
+            "Template": "units/yuez/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/yuez/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/yuez/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/yuez/cavalry_archer_b"
+        },
+        {
+            "Template": "units/yuez/support_wagon"
+        },
+        {
+            "Template": "units/yuez/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Mòdú",
+        "Tóumàn",
+        "Lǎoshàng"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_support_female_citizen": "units/yuez/support_female_citizen",
+        "skirmish/units/default_cavalry": "units/yuez/cavalry_scout",
+        "skirmish/units/default_infantry_ranged_b": "units/yuez/infantry_archer_b",
+        "skirmish/structures/default_corral": "structures/yuez/corral",
+        "skirmish/structures/default_defense_tower": "",
+        "skirmish/structures/default_fortress": "",
+        "skirmish/structures/default_house_5": "structures/yuez/house_unpacked",
+        "skirmish/structures/default_house_10": "",
+        "skirmish/structures/default_wall_tower": "",
+        "skirmish/structures/default_wall_gate": "",
+        "skirmish/structures/default_wall_short": "",
+        "skirmish/structures/default_wall_medium": "",
+        "skirmish/structures/default_wall_long": "",
+        "skirmish/structures/default_field": "",
+        "skirmish/structures/default_farmstead": "structures/yuez/market",
+        "skirmish/structures/default_market": "structures/yuez/market",
+        "skirmish/structures/default_storehouse": "structures/yuez/storehouse",
+        "skirmish/structures/default_dock": "",
+        "skirmish/units/special_starting_unit": "units/yuez/support_wagon",
+        "skirmish/structures/default_civil_centre": "structures/yuez/civil_centre",
+        "skirmish/structures/default_barracks": "structures/yuez/corral",
+        "skirmish/structures/default_temple": "structures/yuez/temple"
+    },
+    "SelectableInGameSetup": true
 }

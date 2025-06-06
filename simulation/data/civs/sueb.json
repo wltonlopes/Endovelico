@@ -1,92 +1,94 @@
 {
-	"Code": "sueb",
-	"Culture":[ "germ" ],
-	"Region":[ "europe" ],
-	"Music":[
-		{
-			"File": "Northern_Frontier.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Tale_of_Warriors.ogg",
-			"Type": "peace"
-		},
-		{
-			"File":"Whistler.ogg", 
-			"Type":"peace"
-		},
-		{
-			"File":"Bandit_Country.ogg", 
-			"Type":"peace"
-		}
-	],
-	"CivBonuses":
-	[],
-	"CivChoices":
-	[
-		"civ_choices/sueb/ariovistus",
-		"civ_choices/sueb/arminius",
-		"civ_choices/sueb/maroboduus",
-		"civ_choices/sueb/ballomar"
-	],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/sueb/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/sueb/civil_centre" 
-		},
-		{
-			"Template": "units/sueb/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/sueb/infantry_spearman_b",
-			"Count": 2 
-		},
-		{
-			"Template": "units/sueb/infantry_javelineer_b",
-			"Count": 2 
-		},
-		{
-			"Template": "units/sueb/champion_infantry_axeman"
-		}
-	],
-	"AINames":
-	[
-		"Divico",
-		"Ambiorix",
-		"Ariovistus",
-		"Cassivellaunus",
-		"Liscus",
-		"Valetiacos",
-		"Asterix",
-		"Acichorius",
-		"Cerethrius",
-		"Bolgios",
-		"Deiotarus"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_hero_1": "",
-		"skirmish/units/default_hero_2": "",
-		"skirmish/units/default_hero_3": "",
-		"skirmish/units/default_hero_4": "",
-		"skirmish/units/default_hero_5": "",
-		"skirmish/units/default_champion_infantry_1": "units/sueb/champion_infantry",
-		"skirmish/units/default_champion_infantry_2": "units/sueb/champion_infantry_axeman",
-		"skirmish/units/default_champion_infantry_3": "",
-		"skirmish/units/default_champion_infantry_4": "",
-		"skirmish/units/default_champion_cavalry_1": "units/sueb/champion_cavalry",
-		"skirmish/units/default_champion_cavalry_2": "units/sueb/champion_cavalry",
-		"skirmish/units/default_infantry_melee_b": "units/sueb/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/sueb/infantry_javelineer_b",
-		"skirmish/units/special_starting_unit": "units/sueb/champion_infantry_axeman",
-		"skirmish/structures/default_house_10": "structures/sueb/house",
-		"skirmish/structures/default_defense_tower": "structures/{civ}/defense_tower"
-	},
-	"SelectableInGameSetup": true
+    "Code": "sueb",
+    "Culture": [
+        "germ"
+    ],
+    "Region": [
+        "europe"
+    ],
+    "Music": [
+        {
+            "File": "Northern_Frontier.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Tale_of_Warriors.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Whistler.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "CivChoices": [
+        "civ_choices/sueb/ariovistus",
+        "civ_choices/sueb/arminius",
+        "civ_choices/sueb/maroboduus",
+        "civ_choices/sueb/ballomar"
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/sueb/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/sueb/civil_centre"
+        },
+        {
+            "Template": "units/sueb/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/sueb/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/sueb/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/sueb/champion_infantry_axeman"
+        },
+        {
+            "Template": "units/sueb/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Divico",
+        "Ambiorix",
+        "Ariovistus",
+        "Cassivellaunus",
+        "Liscus",
+        "Valetiacos",
+        "Asterix",
+        "Acichorius",
+        "Cerethrius",
+        "Bolgios",
+        "Deiotarus"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/sueb/cavalry_scout",
+        "skirmish/units/default_hero_1": "",
+        "skirmish/units/default_hero_2": "",
+        "skirmish/units/default_hero_3": "",
+        "skirmish/units/default_hero_4": "",
+        "skirmish/units/default_hero_5": "",
+        "skirmish/units/default_champion_infantry_1": "units/sueb/champion_infantry",
+        "skirmish/units/default_champion_infantry_2": "units/sueb/champion_infantry_axeman",
+        "skirmish/units/default_champion_infantry_3": "",
+        "skirmish/units/default_champion_infantry_4": "",
+        "skirmish/units/default_champion_cavalry_1": "units/sueb/champion_cavalry",
+        "skirmish/units/default_champion_cavalry_2": "units/sueb/champion_cavalry",
+        "skirmish/units/default_infantry_melee_b": "units/sueb/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/sueb/infantry_javelineer_b",
+        "skirmish/units/special_starting_unit": "units/sueb/champion_infantry_axeman",
+        "skirmish/structures/default_house_10": "structures/sueb/house",
+        "skirmish/structures/default_defense_tower": "structures/{civ}/defense_tower"
+    },
+    "SelectableInGameSetup": true
 }

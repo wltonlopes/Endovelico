@@ -36,6 +36,10 @@
         {
             "Template": "units/guara/support_healer_b",
             "Count": 1
+        },
+        {
+            "Template": "units/guara/infantry_scout",
+            "Count": 1
         }
     ],
     "AINames": [
@@ -47,6 +51,7 @@
         "Porâsý"
     ],
     "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/guara/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/guara/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/guara/infantry_archer_b",
         "skirmish/units/special_starting_unit": "units/guara/support_healer_b",

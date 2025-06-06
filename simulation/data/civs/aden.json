@@ -36,6 +36,9 @@
         {
             "Template": "units/aden/support_female_citizen",
             "Count": 1
+        },
+        {
+            "Template": "units/aden/infantry_scout"
         }
     ],
     "AINames": [
@@ -52,6 +55,7 @@
         "Suinin"
     ],
     "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/aden/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/aden/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/aden/infantry_archer_b",
         "skirmish/units/special_starting_unit": "units/aden/support_female_citizen",

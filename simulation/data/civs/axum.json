@@ -1,143 +1,141 @@
 ﻿{
-	"Code": "axum",
-	"Culture": "axumitas",
-	"Music": [
-		{
-			"File": "Ammon-Ra.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Sands_of_Time.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Land_between_the_two_Seas.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Valley_of_the_Nile.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Bandit_Country.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Mirage.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Point_of_No_Return.ogg",
-			"Type": "peace"
-		}
-	],
-	"Factions": [
-		{
-			"Name": "Empire Axum",
-			"Description": "",
-			"Technologies": [
-				{
-					"Name": "",
-					"History": "."
-				},
-				{
-					"Name": " ",
-					"History": "",
-					"Description": "."
-				}
-			],
-			"Heroes": [
-				{
-					"Name": "Zoskales",
-					"Class": "Infantry Hero",
-					"Armament": "Sword",
-					"Emblem": "",
-					"History": "An ancestor of the Tikal dynasty, probably a real character from the pre-classical age who was later mythologized."
-				},
-				{
-					"Name": "Sembrouthes",
-					"Class": "Cavalary Hero",
-					"Armament": "Obsidian spear",
-					"Emblem": "",
-					"History": "Territorial Expansion: As an Axumite king who ruled around the 1st century, Sembrouthes could be a hero who provides benefits to villages and cities, efficiently expanding territorial borders. Monument Builder:Under his leadership, monumental buildings would be constructed faster and more cheaply, reflecting Axum's architectural development."
-				},
-				{
-					"Name": "Endubis",
-					"Class": "Cavalary Hero",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Coinage Pioneer: Endubis was one of the first Axumite rulers to mint gold, silver, and bronze coins. He could have an economic bonus, increasing gold production and generating passive income by controlling trade areas.Monetary Influence: His presence on the battlefield boosts troop loyalty and stabilizes local economies, representing trust in the central government and the monetary system.."
-				}
-			]
-		}
-	],
-	"CivBonuses": [
-		{
-			"Name": "CivBonuses.",
-			"History": "CivBonuses.",
-			"Description": "CivBonuses."
-		}
-	],
-	"TeamBonuses": [
-		{
-			"Name": "TeamBonuses.",
-			"History": "TeamBonuses.",
-			"Description": "TeamBonuses."
-		}
-	],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/axum/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/axum/civil_centre"
-		},
-		{
-			"Template":"units/axum/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/axum/infantry_swordsman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/axum/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/axum/cavalry_javelineer_b",
-			"Count": 1
-		},
-		{
-			"Template": "units/axum/cavalry_javelineer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-		"Zoskales",	
-		"[Za] Hakli",
-		"Kulu Seyon ",
-		"Serada",
-		"Senfa Asgad",
-		"Senfa Arad",
-		"Nalke",
-		"Za Besi",
-		"Ramhay",
-		"Hande",
-		"Safelya" 
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/axum/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/axum/infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/axum/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/axum/cavalry_javelineer_b",
-	  "skirmish/units/default_ship_trireme":"units/axum/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "axum",
+    "Culture": "axumitas",
+    "Music": [
+        {
+            "File": "Ammon-Ra.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Point_of_No_Return.ogg",
+            "Type": "peace"
+        }
+    ],
+    "Factions": [
+        {
+            "Name": "Empire Axum",
+            "Description": "",
+            "Technologies": [
+                {
+                    "Name": "",
+                    "History": "."
+                },
+                {
+                    "Name": " ",
+                    "History": "",
+                    "Description": "."
+                }
+            ],
+            "Heroes": [
+                {
+                    "Name": "Zoskales",
+                    "Class": "Infantry Hero",
+                    "Armament": "Sword",
+                    "Emblem": "",
+                    "History": "An ancestor of the Tikal dynasty, probably a real character from the pre-classical age who was later mythologized."
+                },
+                {
+                    "Name": "Sembrouthes",
+                    "Class": "Cavalary Hero",
+                    "Armament": "Obsidian spear",
+                    "Emblem": "",
+                    "History": "Territorial Expansion: As an Axumite king who ruled around the 1st century, Sembrouthes could be a hero who provides benefits to villages and cities, efficiently expanding territorial borders. Monument Builder:Under his leadership, monumental buildings would be constructed faster and more cheaply, reflecting Axum's architectural development."
+                },
+                {
+                    "Name": "Endubis",
+                    "Class": "Cavalary Hero",
+                    "Armament": "",
+                    "Emblem": "",
+                    "History": "Coinage Pioneer: Endubis was one of the first Axumite rulers to mint gold, silver, and bronze coins. He could have an economic bonus, increasing gold production and generating passive income by controlling trade areas.Monetary Influence: His presence on the battlefield boosts troop loyalty and stabilizes local economies, representing trust in the central government and the monetary system.."
+                }
+            ]
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "CivBonuses.",
+            "History": "CivBonuses.",
+            "Description": "CivBonuses."
+        }
+    ],
+    "TeamBonuses": [
+        {
+            "Name": "TeamBonuses.",
+            "History": "TeamBonuses.",
+            "Description": "TeamBonuses."
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/axum/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/axum/civil_centre"
+        },
+        {
+            "Template": "units/axum/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/axum/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/axum/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/axum/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/axum/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/axum/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Zoskales",
+        "[Za] Hakli",
+        "Kulu Seyon ",
+        "Serada",
+        "Senfa Asgad",
+        "Senfa Arad",
+        "Nalke",
+        "Za Besi",
+        "Ramhay",
+        "Hande",
+        "Safelya"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/axum/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/axum/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/axum/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/axum/cavalry_javelineer_b",
+        "skirmish/units/default_ship_trireme": "units/axum/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

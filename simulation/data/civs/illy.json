@@ -1,54 +1,61 @@
 ﻿{
-	"Code": "illy",
-	"Culture": "illyrians",
-	"Music":[
-		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
-		{ "File": "Sunrise.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets": [
-				"structures/wallset_palisade",
-		"structures/illy/wallset_stone"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/illy/civil_centre"
-		},
-		{
-			"Template": "units/illy/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/illy/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/illy/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/illy/cavalry_spearman_b"
-		}
-	],
-	"AINames": [
-		"Artas",
-		"Agron",
-		"Bardylis",
-		"Cleitus",
-		"Epulon",
-		"Gentius",
-		"Grabos",
-		"Longarus",
-		"Monunius",
-		"Opis",
-		"Scerdilaidas"
-	],
-	"SkirmishReplacements": {
-		"skirmish/structures/default_house_5": "structures/{civ}/house"
-	},
-	"SelectableInGameSetup": true
+    "Code": "illy",
+    "Culture": "illyrians",
+    "Music": [
+        {
+            "File": "Harvest_Festival.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sunrise.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/illy/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/illy/civil_centre"
+        },
+        {
+            "Template": "units/illy/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/illy/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/illy/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/illy/cavalry_spearman_b"
+        },
+        {
+            "Template": "units/illy/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Artas",
+        "Agron",
+        "Bardylis",
+        "Cleitus",
+        "Epulon",
+        "Gentius",
+        "Grabos",
+        "Longarus",
+        "Monunius",
+        "Opis",
+        "Scerdilaidas"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/illy/cavalry_scout",
+        "skirmish/structures/default_house_5": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
 }

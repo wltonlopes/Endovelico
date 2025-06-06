@@ -36,6 +36,10 @@
         {
             "Template": "units/gaet/cavalry_javelineer_b",
             "Count": 1
+        },
+        {
+            "Template": "units/gaet/cavalry_scout",
+            "Count": 1
         }
     ],
     "AINames": [
@@ -45,7 +49,7 @@
         "Tacfarinas (Musulamii)"
     ],
     "SkirmishReplacements": {
-        "skirmish/units/default_cavalry": "units/gaet/cavalry_javelineer_b",
+        "skirmish/units/default_cavalry": "units/gaet/cavalry_scout",
         "skirmish/units/default_infantry_melee_b": "units/gaet/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/gaet/infantry_archer_b",
         "skirmish/units/default_ship_trireme": "units/gaet/ship_bireme"

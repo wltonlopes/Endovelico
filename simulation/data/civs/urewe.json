@@ -1,86 +1,81 @@
 ﻿{
-	"Code": "urewe",
-	"Culture": "urewe",
-	"Music": [
-		{
-			"File": "Ammon-Ra.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Sands_of_Time.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Land_between_the_two_Seas.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Valley_of_the_Nile.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Bandit_Country.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Mirage.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Point_of_No_Return.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/urewe/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/urewe/civil_centre"
-		},
-		{
-			"Template":"units/urewe/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/urewe/infantry_axeman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/urewe/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/urewe/cavalry_javelineer_b",
-			"Count": 1
-		},
-		{
-			"Template": "gaia/fauna_cattle_cow_trainable",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-    "Oma Idoko",	
-    "Oduduwa",
-	"Shango"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/urewe/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/urewe/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/urewe/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
-	    "skirmish/units/default_ship_trireme":"units/urewe/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "urewe",
+    "Culture": "urewe",
+    "Music": [
+        {
+            "File": "Ammon-Ra.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Point_of_No_Return.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/urewe/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/urewe/civil_centre"
+        },
+        {
+            "Template": "units/urewe/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/urewe/infantry_axeman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/urewe/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/urewe/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "gaia/fauna_cattle_cow_trainable",
+            "Count": 1
+        },
+        {
+            "Template": "units/urewe/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Oma Idoko",
+        "Oduduwa",
+        "Shango"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/urewe/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/urewe/infantry_axeman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/urewe/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
+        "skirmish/units/default_ship_trireme": "units/urewe/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

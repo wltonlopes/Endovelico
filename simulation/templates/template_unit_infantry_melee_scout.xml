@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="unit_scout">
+  <Identity>
+    <VisibleClasses datatype="tokens">Dagger</VisibleClasses>
+    <GenericName>Scout Infantry</GenericName>
+  </Identity>
+</Entity>

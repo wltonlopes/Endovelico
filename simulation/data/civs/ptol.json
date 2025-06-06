@@ -1,0 +1,95 @@
+{
+    "Code": "ptol",
+    "Culture": "ptol",
+    "Music": [
+        {
+            "File": "Ammon-Ra.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Epitaph.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Along_the_Nile.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "Polybolos",
+            "History": "",
+            "Description": "Bolt Shooters −45% attack damage and −50% attack time."
+        },
+        {
+            "Name": "Nile Delta",
+            "History": "The Nile Delta is a region where the Nile River divides into several branches to flow into the Mediterranean Sea, in northern Egypt.",
+            "Description": "The three farming technologies are available in Village Phase."
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/ptol/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/ptol/civil_centre"
+        },
+        {
+            "Template": "units/ptol/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/ptol/infantry_pikeman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/ptol/infantry_slinger_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/ptol/cavalry_archer_b"
+        },
+        {
+            "Template": "units/ptol/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Ptolemy Philadelphus",
+        "Ptolemy Epigone",
+        "Ptolemy Eurgetes",
+        "Ptolemy Epiphanes",
+        "Ptolemy Philometor",
+        "Ptolemy Eupator",
+        "Ptolemy Alexander",
+        "Ptolemy Neos Dionysos",
+        "Ptolemy Neos Philopater",
+        "Berenice Philopater",
+        "Cleopatra Tryphaena",
+        "Berenice Epiphaneia",
+        "Cleopatra Philopater",
+        "Cleopatra Selene",
+        "Cleopatra II Philometora Soteira",
+        "Arsinoe IV",
+        "Arsinoe II"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_infantry_melee_b": "units/ptol/infantry_pikeman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/ptol/infantry_slinger_b",
+        "skirmish/units/default_cavalry": "units/ptol/cavalry_scout",
+        "skirmish/structures/default_house_5": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
+}

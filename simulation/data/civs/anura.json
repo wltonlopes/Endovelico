@@ -48,6 +48,10 @@
         {
             "Template": "units/anura/cavalry_javelineer_b",
             "Count": 1
+        },
+        {
+            "Template": "units/anura/cavalry_scout",
+            "Count": 1
         }
     ],
     "AINames": [
@@ -77,7 +81,7 @@
         "Bhatikabhaya Abhaya"
     ],
     "SkirmishReplacements": {
-        "skirmish/units/default_cavalry": "units/anura/cavalry_javelineer_b",
+        "skirmish/units/default_cavalry": "units/anura/cavalry_scout",
         "skirmish/units/default_infantry_melee_b": "units/anura/infantry_swordsman_b",
         "skirmish/units/default_infantry_ranged_b": "units/anura/infantry_archer_b",
         "skirmish/units/default_ship_trireme": "units/anura/ship_bireme"

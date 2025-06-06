@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_axeman">
+  <Identity>
+    <Civ>aden</Civ>
+    <SpecificName>Adenas Scout</SpecificName>
+    <Icon>units/zapo/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/adena/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

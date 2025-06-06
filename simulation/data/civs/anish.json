@@ -1,65 +1,66 @@
 ﻿{
-	"Code": "anish",
-	"Culture": "Anishinaabe",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/anish/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/anish/civil_centre"
-		},
-		{
-			"Template":"units/anish/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/anish/infantry_axeman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/anish/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/anish/support_wagon",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/anish/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/anish/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/anish/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/anish/support_wagon",
-	  "skirmish/units/default_ship_trireme":"units/anish/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "anish",
+    "Culture": "Anishinaabe",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/anish/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/anish/civil_centre"
+        },
+        {
+            "Template": "units/anish/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/anish/infantry_axeman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/anish/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/anish/support_wagon",
+            "Count": 1
+        },
+        {
+            "Template": "units/anish/infantry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Jimmu",
+        "Suizei",
+        "Annei",
+        "Itoku",
+        "Kosho",
+        "Koan",
+        "Korei",
+        "Kogen",
+        "Kaika",
+        "Suijin",
+        "Suinin"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/anish/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/anish/infantry_axeman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/anish/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/anish/support_wagon",
+        "skirmish/units/default_ship_trireme": "units/anish/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }
