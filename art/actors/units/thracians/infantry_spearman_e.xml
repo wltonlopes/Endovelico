@@ -11,9 +11,6 @@
         <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/capes/cape_long_player.xml" attachpoint="root"/>
       </props>
-      <textures>
-        <texture file="skeletal/no_spec.png" name="specTex"/>
-      </textures>
     </variant>
   </group>
   <group>
@@ -52,16 +49,19 @@
     <variant frequency="1" name="Mace-Tunic-Hellenistic-Sleeveless-Boots-01-01">
       <textures>
         <texture file="skeletal/mace/tunic_hellenistic_sleeveless_boots_01_01.png" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Mace-Tunic-Hellenistic-Sleeveless-Boots-01-02">
       <textures>
         <texture file="skeletal/mace/tunic_hellenistic_sleeveless_boots_01_02.png" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Mace-Tunic-Hellenistic-Sleeveless-Boots-01-03">
       <textures>
         <texture file="skeletal/mace/tunic_hellenistic_sleeveless_boots_01_03.png" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Mace-Linothorax-01-08">
@@ -123,5 +123,12 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_cape_long.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

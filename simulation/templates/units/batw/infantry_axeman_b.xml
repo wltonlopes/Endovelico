@@ -19,7 +19,7 @@
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/batwa/infantry_axeman_a</Entity>
+    <Entity>units/batw/infantry_axeman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/sao/infantry_axeman_b.xml</Actor>

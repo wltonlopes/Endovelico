@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/batwa/cavalry_javelineer_b">
+<Entity parent="units/batw/cavalry_javelineer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/batwa/cavalry_javelineer_e</Entity>
+    <Entity>units/batw/cavalry_javelineer_e</Entity>
   </Promotion>
 </Entity>

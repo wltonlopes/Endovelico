@@ -12,20 +12,18 @@
   </Footprint>
   <Identity>
     <Civ>batwa</Civ>
-    <SelectionGroupName>units/urewe/cavalry_javelineer_b</SelectionGroupName>
+    <SelectionGroupName>units/batw/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Desert Raider</GenericName>
     <SpecificName>nhw Bulahau gml</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/batwa/cavalry_javelineer_a</Entity>
+    <Entity>units/batw/cavalry_javelineer_a</Entity>
   </Promotion>
-
   <StatusBars>
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
-  
   <VisualActor>
     <Actor>units/subsaara/saga_javelinist_a_m.xml</Actor>
   </VisualActor>
