@@ -4,9 +4,6 @@
   <group>
     <variant frequency="1" name="base">
       <mesh>structural/himyar/wall_long.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="structural/himya_struct.png" name="baseTex"/>
         <texture file="structural/himya_struct_spec.png" name="specTex"/>

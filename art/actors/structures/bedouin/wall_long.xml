@@ -4,9 +4,6 @@
   <group>
     <variant frequency="1" name="wall_long">
       <mesh>structural/bedouin/wall_long.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="structural/bedo_struct.png" name="baseTex"/>
         <texture file="structural/bedo_struct_spec.png" name="specTex"/>

@@ -2,11 +2,9 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
-
-      <mesh>structural/vietnam/palace.dae</mesh>
+    <variant frequency="1" name="stupa">
+      <mesh>structural/vietnam/stupa.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/viet_struct.png" name="baseTex"/>

@@ -4,9 +4,6 @@
   <group>
     <variant frequency="1" name="gate">
       <mesh>structural/thra/wall_gate.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="structural/thra_struct.png" name="baseTex"/>
         <texture file="structural/thra_struct_spec.png" name="specTex"/>
