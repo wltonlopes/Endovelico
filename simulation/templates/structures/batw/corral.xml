@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>batwa</Civ>
+    <Civ>batw</Civ>
     <SpecificName>Wori</SpecificName>
   </Identity>
   <Obstruction>

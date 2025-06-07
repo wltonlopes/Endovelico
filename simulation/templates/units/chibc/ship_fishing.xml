@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_fishing">
+  <Footprint>
+    <Square width="4.0" depth="10.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>chibc</Civ>
+    <SpecificName>Ygara</SpecificName>
+    <Icon>units/athen/fisher.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/south_america/canoe.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -8,7 +8,7 @@
   <Identity>
     <Civ>khois</Civ>
     <Lang>napatan</Lang>
-    <SelectionGroupName>units/urewe/infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/khois/infantry_spearman_b</SelectionGroupName>
     <GenericName>Nubian Spearman</GenericName>
     <SpecificName>iry-rdwy Nhsyw</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>

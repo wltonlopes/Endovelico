@@ -4,9 +4,6 @@
   <group>
     <variant frequency="1" name="wall_long">
       <mesh>structural/yaru/wall_long.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="structural/yaru_struct.png" name="baseTex"/>
         <texture file="structural/yaru_struct_spec.png" name="specTex"/>

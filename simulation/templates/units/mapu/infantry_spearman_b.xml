@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/aden/pyramid_large
+      structures/aden/observatory
+      structures/aden/embassy
+      structures/aden/temple_of_masks
+      structures/aden/range
+      structures/aden/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>mapu</Civ>
+    <SelectionGroupName>Levy Spearman</SelectionGroupName>
+    <SpecificName>Taj Lom Bate</SpecificName>
+    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/mapu/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/south_america/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>
+
+

@@ -5,9 +5,9 @@
     </Entities>
   </Builder>
   <Identity>
-    <Civ>batwa</Civ>
+    <Civ>batw</Civ>
     <Lang>napatan</Lang>
-    <SelectionGroupName>units/urewe/infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/batw/infantry_archer_b</SelectionGroupName>
     <GenericName>Nubian Archer</GenericName>
     <SpecificName>Pdty Nhsyw</SpecificName>
     <Icon>units/kush/infantry_archer.png</Icon>
@@ -19,6 +19,6 @@
     <Entity>units/batw/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/kushites/infantry_archer_b.xml</Actor>
+    <Actor>units/subsaara/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

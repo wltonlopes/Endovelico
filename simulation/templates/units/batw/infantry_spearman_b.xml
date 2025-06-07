@@ -6,9 +6,9 @@
     </Entities>
   </Builder>
   <Identity>
-    <Civ>batwa</Civ>
+    <Civ>batw</Civ>
     <Lang>napatan</Lang>
-    <SelectionGroupName>units/urewe/infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/batw/infantry_spearman_b</SelectionGroupName>
     <GenericName>Nubian Spearman</GenericName>
     <SpecificName>iry-rdwy Nhsyw</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
@@ -20,6 +20,6 @@
     <Entity>units/batw/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/kushites/infantry_spearman_b.xml</Actor>
+    <Actor>units/subsaara/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>
