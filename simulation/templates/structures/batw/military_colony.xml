@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>batwa</Civ>
+    <Civ>batw</Civ>
     <GenericName>Colony</GenericName>
     <SpecificName>Kotan</SpecificName>
     <Icon>structures/military_settlement.png</Icon>

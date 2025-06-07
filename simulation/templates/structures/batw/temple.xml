@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>batwa</Civ>
+    <Civ>batw</Civ>
     <SpecificName>Ile Olorun</SpecificName>
   </Identity>
   <Obstruction>

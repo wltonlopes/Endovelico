@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
-    <Civ>batwa</Civ>
+    <Civ>batw</Civ>
     <SpecificName>Aafin</SpecificName>
   </Identity>
   <Researcher>

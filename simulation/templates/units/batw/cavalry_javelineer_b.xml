@@ -11,7 +11,7 @@
     <Height>7.5</Height>
   </Footprint>
   <Identity>
-    <Civ>batwa</Civ>
+    <Civ>batw</Civ>
     <SelectionGroupName>units/batw/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Desert Raider</GenericName>
     <SpecificName>nhw Bulahau gml</SpecificName>
