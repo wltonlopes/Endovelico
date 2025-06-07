@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="builder|template_unit_cavalry_melee_axeman">
+<Entity parent="culture/nomad|builder|template_unit_cavalry_melee_axeman">
   <Builder>
     <Rate>0.75</Rate>
     <Entities datatype="tokens">

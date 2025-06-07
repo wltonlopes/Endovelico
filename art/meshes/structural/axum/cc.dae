@@ -11,7 +11,7 @@
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
-    <effect id="textura__Axum_finais-effect">
+    <effect id="textura__axum/finais-effect">
       <profile_COMMON>
         <newparam sid="axun_struct_png-surface">
           <surface type="2D">
@@ -45,8 +45,8 @@
     </image>
   </library_images>
   <library_materials>
-    <material id="textura__Axum_finais-material" name="textura  Axum finais">
-      <instance_effect url="#textura__Axum_finais-effect"/>
+    <material id="textura__axum/finais-material" name="textura  Axum finais">
+      <instance_effect url="#textura__axum/finais-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -93,7 +93,7 @@
         <vertices id="Cubo_643-mesh-vertices">
           <input semantic="POSITION" source="#Cubo_643-mesh-positions"/>
         </vertices>
-        <triangles material="textura__Axum_finais-material" count="5606">
+        <triangles material="textura__axum/finais-material" count="5606">
           <input semantic="VERTEX" source="#Cubo_643-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cubo_643-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cubo_643-mesh-map-0" offset="2" set="0"/>
@@ -110,7 +110,7 @@
         <instance_geometry url="#Cubo_643-mesh" name="cc">
           <bind_material>
             <technique_common>
-              <instance_material symbol="textura__Axum_finais-material" target="#textura__Axum_finais-material">
+              <instance_material symbol="textura__axum/finais-material" target="#textura__axum/finais-material">
                 <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
                 <bind_vertex_input semantic="Cube-mesh-map-0" input_semantic="TEXCOORD" input_set="1"/>
               </instance_material>

@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/hasmonean/forge.xml</Actor>
+    <Actor>structures/hasmoneans/forge.xml</Actor>
   </VisualActor>
 </Entity>

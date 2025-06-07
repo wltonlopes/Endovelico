@@ -20,8 +20,10 @@
     <Lang>persian</Lang>
     <SelectionGroupName>units/scyth/cavalry_archer</SelectionGroupName>
     <SpecificName>Royal Maiden Headhunter</SpecificName>
-	<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
-	<Phenotype>female</Phenotype>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Phenotype>female</Phenotype>
     <Icon>units/scyth/maiden_cavalry.png</Icon>
   </Identity>
   <Promotion disable=""/>

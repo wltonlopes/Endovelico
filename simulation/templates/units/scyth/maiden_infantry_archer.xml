@@ -20,8 +20,10 @@
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
     <SpecificName>Maiden Archer</SpecificName>
-	<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
-	<Phenotype>female</Phenotype>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Phenotype>female</Phenotype>
     <Icon>units/scyth/maiden_archer.png</Icon>
   </Identity>
   <Promotion disable=""/>

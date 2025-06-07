@@ -3,16 +3,16 @@
   <BuildRestrictions>
     <Territory>own neutral ally enemy</Territory>
   </BuildRestrictions>
-  <Footprint>
-    <Square width="60.0" depth="30.0"/>
-    <Height>10.0</Height>
+  <Footprint replace="">
+    <Circle radius="24.0"/>
+    <Height>8.0</Height>
   </Footprint>
   <Identity>
     <Civ>scyth</Civ>
     <SpecificName>Cosmic Horse</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="40.0" depth="20.0"/>
+    <Static width="48.0" depth="48.0"/>
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>

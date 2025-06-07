@@ -12,7 +12,7 @@
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/hasmonean/palace.xml</Actor>
+    <Actor>structures/hasmoneans/palace.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

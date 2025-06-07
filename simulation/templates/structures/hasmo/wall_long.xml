@@ -6,60 +6,97 @@
   </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-    <SelectionGroupName>structures/jude_wallset_stone</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SelectionGroupName>structures/hasmo/wallset_stone</SelectionGroupName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="34.0" depth="6.0"/>
+    <Static width="36.0" depth="8.0"/>
   </Obstruction>
   <TurretHolder>
     <TurretPoints>
       <One>
         <X>1.5</X>
-        <Y>7.8</Y>
-        <Z>0</Z>
+        <Y>11.5</Y>
+        <Z>1</Z>
       </One>
       <Two>
         <X>-1.5</X>
-        <Y>7.8</Y>
-        <Z>0</Z>
+        <Y>11.5</Y>
+        <Z>1</Z>
       </Two>
       <Three>
         <X>4.5</X>
-        <Y>7.8</Y>
-        <Z>0</Z>
+        <Y>11.5</Y>
+        <Z>1</Z>
       </Three>
       <Four>
         <X>-4.5</X>
-        <Y>7.8</Y>
-        <Z>0</Z>
+        <Y>11.5</Y>
+        <Z>1</Z>
       </Four>
       <Five>
         <X>7.5</X>
-        <Y>7.8</Y>
-        <Z>0</Z>
+        <Y>11.5</Y>
+        <Z>1</Z>
       </Five>
       <Six>
         <X>-7.5</X>
-        <Y>7.8</Y>
-        <Z>0</Z>
+        <Y>11.5</Y>
+        <Z>1</Z>
       </Six>
       <Seven>
         <X>10.5</X>
-        <Y>7.8</Y>
-        <Z>0</Z>
+        <Y>11.5</Y>
+        <Z>1</Z>
       </Seven>
       <Eight>
         <X>-10.5</X>
-        <Y>7.8</Y>
-        <Z>0</Z>
+        <Y>11.5</Y>
+        <Z>1</Z>
       </Eight>
+      <Nine>
+        <X>1.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Nine>
+      <Ten>
+        <X>-1.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Ten>
+      <Eleven>
+        <X>4.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Eleven>
+      <Twelve>
+        <X>-4.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Twelve>
+      <Thirteen>
+        <X>7.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Thirteen>
+      <Fourteen>
+        <X>-7.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Fourteen>
+      <Fifteen>
+        <X>10.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Fifteen>
+      <Sixteen>
+        <X>-10.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Sixteen>
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/seleucids/wall_long.xml</Actor>
+    <Actor>structures/hasmoneans/wall_long.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>33.2</Length>
-  </WallPiece>
 </Entity>

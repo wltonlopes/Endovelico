@@ -7,15 +7,15 @@
   <Identity>
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/jude/infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/hasmo/infantry_slinger_b</SelectionGroupName>
     <GenericName>Judean Slinger</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude/infantry_slinger.png</Icon>
+    <Icon>units/hasmo/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/hasmo/infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/hasmonean/infantry_slinger_b.xml</Actor>
+    <Actor>units/hasmoneans/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>

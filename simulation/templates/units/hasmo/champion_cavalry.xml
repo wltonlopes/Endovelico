@@ -6,7 +6,7 @@
     <SpecificName>Champion Cavalry</SpecificName>
     <GenericName>Cavalry Swordsman</GenericName>
     <Icon>units/pers/champion_cavalry.png</Icon>
-    <SelectionGroupName>units/jude/champion_cavalry</SelectionGroupName>
+    <SelectionGroupName>units/hasmo/champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/romans/cavalry_swordsman_c_m.xml</Actor>

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
+  <Footprint>
+    <Square width="12.5" depth="19.0"/>
+  </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
+  <Obstruction>
+    <Static width="12.0" depth="18.5"/>
+  </Obstruction>
   <VisualActor>
-    <Actor>structures/hasmonean/corral.xml</Actor>
+    <Actor>structures/hasmoneans/corral.xml</Actor>
+    <FoundationActor>structures/fndn_3x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

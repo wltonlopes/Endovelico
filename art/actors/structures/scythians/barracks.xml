@@ -2,17 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
-
+    <variant frequency="1" name="Scythians Barracks">
       <mesh>structural/scythians/barracks.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
       <textures>
-        <texture file="structural/scyth_struct.png" name="baseTex"/>
-        <texture file="structural/scyth_struct_spec.png" name="specTex"/>
-        <texture file="structural/scyth_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/scyth/struct.png" name="baseTex"/>
+        <texture file="structural/scyth/struct_spec.png" name="specTex"/>
+        <texture file="structural/scyth/struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/scyth/barracks_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -20,8 +16,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_scyth.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

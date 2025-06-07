@@ -2,9 +2,9 @@
 <Entity parent="template_structure_defensive_tower_sentry">
   <Identity>
     <Civ>bedo</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <VisualActor>
-    <Actor>structures/bedouin/scout_tower.xml</Actor>
+    <Actor>structures/bedouin/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,10 +5,10 @@
     <Lang>greek</Lang>
     <SpecificName></SpecificName>
     <GenericName>Judean Woman</GenericName>
-    <Icon>units/jude/support_female.png</Icon>
-    <SelectionGroupName>units/jude/support_female_citizen</SelectionGroupName>
+    <Icon>units/hasmo/support_female.png</Icon>
+    <SelectionGroupName>units/hasmo/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/hasmonean/female_citizen.xml</Actor>
+    <Actor>units/hasmoneans/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

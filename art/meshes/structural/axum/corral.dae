@@ -11,7 +11,7 @@
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
-    <effect id="textura__Axum_finais-effect">
+    <effect id="textura__axum/finais-effect">
       <profile_COMMON>
         <newparam sid="axun_struct_png-surface">
           <surface type="2D">
@@ -41,8 +41,8 @@
   </library_effects>
   <library_images/>
   <library_materials>
-    <material id="textura__Axum_finais-material" name="textura  Axum finais">
-      <instance_effect url="#textura__Axum_finais-effect"/>
+    <material id="textura__axum/finais-material" name="textura  Axum finais">
+      <instance_effect url="#textura__axum/finais-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -89,7 +89,7 @@
         <vertices id="Cubo_18737-mesh-vertices">
           <input semantic="POSITION" source="#Cubo_18737-mesh-positions"/>
         </vertices>
-        <triangles material="textura__Axum_finais-material" count="2230">
+        <triangles material="textura__axum/finais-material" count="2230">
           <input semantic="VERTEX" source="#Cubo_18737-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cubo_18737-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cubo_18737-mesh-map-0" offset="2" set="1"/>
@@ -106,19 +106,18 @@
         <instance_geometry url="#Cubo_18737-mesh" name="corral">
           <bind_material>
             <technique_common>
-              <instance_material symbol="textura__Axum_finais-material" target="#textura__Axum_finais-material">
+              <instance_material symbol="textura__axum/finais-material" target="#textura__axum/finais-material">
                 <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
                 <bind_vertex_input semantic="Mapa UV" input_semantic="TEXCOORD" input_set="1"/>
               </instance_material>
             </technique_common>
           </bind_material>
         </instance_geometry>
-
-<node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033843 0 0 0.7829416 9.013988 0 0 0 1</matrix>
+        <node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
+          <matrix sid="transform">-0.8853757 1.33688e-7 0 0 -1.33688e-7 -0.8853757 0 -0.1422124 0 0 0.8853757 12.78033 0 0 0 1</matrix>
         </node>
         <node id="prop_projectile" name="prop_projectile" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033842 0 0 0.7829416 9.013988 0 0 0 1</matrix>
+          <matrix sid="transform">-0.7829417 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829417 0 0 0 0 0.7829417 10.52408 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

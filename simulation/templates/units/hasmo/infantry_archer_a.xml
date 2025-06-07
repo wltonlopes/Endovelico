@@ -7,6 +7,6 @@
     <Entity>units/hasmo/infantry_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/hasmonean/infantry_archer_a.xml</Actor>
+    <Actor>units/hasmoneans/infantry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

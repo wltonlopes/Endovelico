@@ -8,9 +8,9 @@
     <Lang>greek</Lang>
     <GenericName>Judah Maccabbee</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude/hero_judah.png</Icon>
+    <Icon>units/hasmo/hero_judah.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/hasmonean/hero_infantry_swordsman_judah.xml</Actor>
+    <Actor>units/hasmoneans/hero_infantry_swordsman_judah.xml</Actor>
   </VisualActor>
 </Entity>

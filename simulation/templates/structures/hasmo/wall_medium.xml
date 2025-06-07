@@ -6,16 +6,57 @@
   </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-    <SelectionGroupName>structures/jude_wallset_stone</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SelectionGroupName>structures/hasmo/wallset_stone</SelectionGroupName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="6.0"/>
+    <Static width="27.0" depth="8.0"/>
   </Obstruction>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>11.5</Y>
+        <Z>1</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>11.5</Y>
+        <Z>1</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>11.5</Y>
+        <Z>1</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>11.5</Y>
+        <Z>1</Z>
+      </Four>
+      <Five>
+        <X>1.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Five>
+      <Six>
+        <X>-1.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Six>
+      <Seven>
+        <X>4.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Seven>
+      <Eight>
+        <X>-4.5</X>
+        <Y>11.5</Y>
+        <Z>-1</Z>
+      </Eight>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
-    <Actor>structures/seleucids/wall_medium.xml</Actor>
+    <Actor>structures/hasmoneans/wall_medium.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>21.1</Length>
-  </WallPiece>
 </Entity>

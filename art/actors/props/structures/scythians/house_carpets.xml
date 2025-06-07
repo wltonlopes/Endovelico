@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="2" name="Scythians House Carpets">
+      <textures>
+        <texture file="structural/scyth/struct.png" name="baseTex"/>
+        <texture file="structural/scyth/struct_norm.png" name="normTex"/>
+        <texture file="structural/scyth/struct_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="2" name="House 01">
+      <mesh>props/structural/scythians/house_01_carpets_01.dae</mesh>
+    </variant>
+    <variant frequency="2" name="House 01">
+      <mesh>props/structural/scythians/house_01_carpets_02.dae</mesh>
+    </variant>
+    <variant frequency="2" name="House 01">
+      <mesh>props/structural/scythians/house_01_carpets_03.dae</mesh>
+    </variant>
+    <variant frequency="2" name="House 02">
+      <mesh>props/structural/scythians/house_02_carpets_01.dae</mesh>
+    </variant>
+    <variant frequency="2" name="House 02">
+      <mesh>props/structural/scythians/house_02_carpets_02.dae</mesh>
+    </variant>
+    <variant frequency="2" name="House 02">
+      <mesh>props/structural/scythians/house_02_carpets_03.dae</mesh>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

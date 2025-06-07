@@ -11,22 +11,27 @@
     </variant>
   </group>
   <group>
+    <variant name="arme">
+      <textures>
+        <texture file="props/banner_arme.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant name="yayo">
       <textures>
         <texture file="props/banner_yayo.png" name="baseTex"/>
       </textures>
     </variant>
-        <variant name="mayap">
+    <variant name="mayap">
       <textures>
         <texture file="props/banner_mayap.png" name="baseTex"/>
       </textures>
     </variant>
-      <variant name="lusi">
+    <variant name="lusi">
       <textures>
         <texture file="props/banner_lusi.png" name="baseTex"/>
       </textures>
     </variant>
-      <variant name="gara">
+    <variant name="gara">
       <textures>
         <texture file="props/banner_gara.png" name="baseTex"/>
       </textures>

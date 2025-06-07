@@ -9,7 +9,15 @@
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      upgrade_rank_advanced_infantry_archer
+      upgrade_rank_advanced_infantry_slinger
+      upgrade_rank_elite_infantry_archer
+      upgrade_rank_elite_infantry_slinger
+    </Technologies>
+  </Researcher>
   <VisualActor>
-    <Actor>structures/seleucids/range.xml</Actor>
+    <Actor>structures/hasmoneans/range.xml</Actor>
   </VisualActor>
 </Entity>

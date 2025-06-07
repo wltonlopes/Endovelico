@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-05-29T15:44:04</created>
+    <modified>2025-05-29T15:44:04</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Hasmo_Gate_Door_012-mesh" name="Hasmo Gate Door.012">
+      <mesh>
+        <source id="Hasmo_Gate_Door_012-mesh-positions">
+          <float_array id="Hasmo_Gate_Door_012-mesh-positions-array" count="180">6.665152 -0.3525314 0.01312232 7.263639 -0.3525314 0.01316905 7.263634 -0.3527304 9.309519 6.66515 -0.3527304 9.309473 6.665152 0.2636168 0.01312685 7.263639 0.2636168 0.01317358 6.66515 0.2634178 9.309477 7.263634 0.2634178 9.309521 -7.260916 -0.3525314 0.01312232 -6.662426 -0.3525314 0.01316905 -6.662435 -0.3527304 9.309519 -7.260918 -0.3527304 9.309473 -7.260916 0.2636168 0.01312685 -6.662426 0.2636168 0.01317358 -7.260918 0.2634178 9.309477 -6.662435 0.2634178 9.309521 -0.5798354 0.03962755 9.051062 -0.5798616 0.2455508 9.051062 -6.585196 0.2455688 9.051062 -6.585173 0.03964555 9.051062 -0.5798354 0.03962755 -0.01462996 -0.5798616 0.2455508 -0.01462841 -6.585173 0.03964555 -0.01462841 -6.585196 0.2455688 -0.01462841 -0.5797901 -0.3210054 9.051062 -0.5797901 -0.3210054 -0.01462996 -0.02603036 -0.3208944 -0.01462996 -0.02603036 -0.3208944 9.051062 -0.0260756 0.03973758 9.051062 -0.0260756 0.03973758 -0.01462996 -0.02610141 0.245661 -0.01462841 -0.02610141 0.245661 9.051062 -0.5798616 0.2455508 9.305443 -0.02610141 0.245661 9.305443 -0.0260756 0.03973758 9.305443 -0.5798354 0.03962755 9.305443 -0.5797901 -0.3210054 9.305443 -0.02603036 -0.3208944 9.305443 0.5788467 0.03962755 9.051062 0.5788726 0.2455508 9.051062 6.584208 0.2455688 9.051062 6.584182 0.03964555 9.051062 0.5788467 0.03962755 -0.01462996 0.5788726 0.2455508 -0.01462841 6.584182 0.03964555 -0.01462841 6.584208 0.2455688 -0.01462841 0.5788014 -0.3210054 9.051062 0.5788014 -0.3210054 -0.01462996 0.02504158 -0.3208944 -0.01462996 0.02504158 -0.3208944 9.051062 0.02508682 0.03973758 9.051062 0.02508682 0.03973758 -0.01462996 0.02511245 0.245661 -0.01462841 0.02511245 0.245661 9.051062 0.5788726 0.2455508 9.305443 0.02511245 0.245661 9.305443 0.02508682 0.03973758 9.305443 0.5788467 0.03962755 9.305443 0.5788014 -0.3210054 9.305443 0.02504158 -0.3208944 9.305443</float_array>
+          <technique_common>
+            <accessor source="#Hasmo_Gate_Door_012-mesh-positions-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Hasmo_Gate_Door_012-mesh-normals">
+          <float_array id="Hasmo_Gate_Door_012-mesh-normals-array" count="279">1 0 9.74566e-7 7.80803e-5 7.35223e-6 -1 -7.5e-5 -3.09574e-6 1 -1 1.33196e-6 -2.56465e-7 -7.49998e-5 -3.09574e-6 1 1 1.83069e-6 5.1293e-7 -1 0 -2.56465e-7 0 1 2.13993e-5 0 -1 -2.14077e-5 0 1 2.14046e-5 7.80807e-5 7.35211e-6 -1 0 -1 -2.14077e-5 1 0 9.74566e-7 7.80803e-5 7.35191e-6 -1 -7.24137e-5 -6.19118e-6 1 -1 4.46008e-7 -2.56465e-7 -7.24136e-5 -6.19108e-6 1 1 0 5.12929e-7 -1 -9.8443e-7 -2.56465e-7 0 1 2.14084e-5 0 -1 -2.14047e-5 0 1 2.1409e-5 7.80807e-5 7.35202e-6 -1 0 -1 -2.13995e-5 -1.99019e-4 1 0 -1 -1.10344e-4 0 0 0 1 1 1.2535e-4 0 2.99744e-6 1 0 -2.99743e-6 -1 0 -1 -1.26872e-4 0 -1 -1.25722e-4 0 -1.9902e-4 1 0 1 1.2544e-4 0 -2.47058e-7 0 1 0 0 -1 0 7.52571e-6 -1 1 1.25448e-4 0 -2.38773e-6 0 1 2.00473e-4 -1 0 1 1.25342e-4 0 -1 -1.25722e-4 0 2.00473e-4 -1 0 1.99019e-4 1 0 1 -1.22604e-4 0 0 0 1 -1 1.24456e-4 0 -2.99744e-6 1 0 2.99744e-6 -1 0 1 -1.25734e-4 0 1 -1.25397e-4 0 1.9902e-4 1 0 -1 1.25449e-4 0 0 0 -1 0 7.52572e-6 -1 -1 1.25448e-4 0 1.2848e-6 0 1 -2.00473e-4 -1 0 -1 1.24453e-4 0 1 -1.25722e-4 0 0 0 -1 -2.00473e-4 -1 0 -1.99019e-4 1 0 -1 -1.10344e-4 0 1 1.25334e-4 0 -2.99743e-6 -1 0 -1 -1.27441e-4 0 -1 -1.25397e-4 0 1 1.25449e-4 0 0 0 -1 0 7.52572e-6 -1 1 1.25448e-4 0 3.66086e-7 0 1 2.00473e-4 -1 0 1 1.25325e-4 0 -2.57935e-7 7.52569e-6 -1 2.00473e-4 -1 0 1.99019e-4 1 0 1 -1.30778e-4 0 0 0 1 -1 1.24456e-4 0 -2.99743e-6 1 0 1 -1.26303e-4 0 1 -1.25722e-4 0 1.9902e-4 1 0 -1 1.25449e-4 0 -1.5926e-7 0 1 0 7.52571e-6 -1 -1 1.25448e-4 0 -1 1.24472e-4 0 1 -1.2543e-4 0 2.5794e-7 7.52569e-6 -1 -2.00473e-4 -1 0</float_array>
+          <technique_common>
+            <accessor source="#Hasmo_Gate_Door_012-mesh-normals-array" count="93" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Hasmo_Gate_Door_012-mesh-map-0">
+          <float_array id="Hasmo_Gate_Door_012-mesh-map-0-array" count="624">0.2094079 0.0858727 0.1530148 0.01453346 0.1531811 0.08593428 0.4584431 0.1897907 0.4375439 0.2328242 0.4584531 0.2326188 0.437544 0.2328236 0.4584431 0.1897907 0.4375466 0.1897583 0.2093667 0.01456511 0.1233674 0.08593267 0.2094079 0.08587116 0.437544 0.2328236 0.4584431 0.1897907 0.4375466 0.1897583 0.2094079 0.0858727 0.1530148 0.01453346 0.1531811 0.08593428 0.2093667 0.01456511 0.1233674 0.08593267 0.2094079 0.08587116 0.2093659 0.01437062 0.1219628 0.08547705 0.1220095 0.01457715 0.209496 0.0855019 0.1234627 0.01517534 0.1234506 0.08559542 0.2093659 0.01437062 0.1219628 0.08547705 0.1220095 0.01457715 0.4584431 0.1897907 0.4375439 0.2328242 0.4584531 0.2326188 0.209496 0.0855019 0.1234627 0.01517534 0.1234506 0.08559542 0.2094079 0.0858727 0.2093667 0.01456511 0.1530148 0.01453346 0.4584431 0.1897907 0.4375466 0.1897583 0.4375439 0.2328242 0.437544 0.2328236 0.4584532 0.2326181 0.4584431 0.1897907 0.2093667 0.01456511 0.1233783 0.01453346 0.1233674 0.08593267 0.437544 0.2328236 0.4584532 0.2326181 0.4584431 0.1897907 0.2094079 0.0858727 0.2093667 0.01456511 0.1530148 0.01453346 0.2093667 0.01456511 0.1233783 0.01453346 0.1233674 0.08593267 0.2093659 0.01437062 0.2094079 0.0858727 0.1219628 0.08547705 0.209496 0.0855019 0.2094506 0.01522392 0.1234627 0.01517534 0.2093659 0.01437062 0.2094079 0.0858727 0.1219628 0.08547705 0.4584431 0.1897907 0.4375466 0.1897583 0.4375439 0.2328242 0.209496 0.0855019 0.2094506 0.01522392 0.1234627 0.01517534 0.1275233 0.08474284 0.2106847 0.009942591 0.2106847 0.08474284 0.999495 0.4336852 0.9141976 0.5906759 0.9995089 0.5906357 0.9140868 0.5893932 0.9994072 0.4330621 0.9140577 0.43314 0.2065843 0.04296875 0.1031991 0.03297317 0.2065844 0.03297317 0.9141881 0.5352638 0.9994972 0.43371 0.9141691 0.4337515 0.9995029 0.587043 0.9141691 0.4337506 0.914195 0.5870829 0.1031991 0.05296385 0.1002982 0.04296875 0.1031991 0.04296875 0.1031991 0.07046824 0.1002982 0.05296385 0.1031991 0.05296385 0.1275233 0.08474284 0.1251899 0.00994265 0.1275233 0.00994265 0.1031991 0.03297317 0.2065844 0.01546919 0.2065844 0.03297317 0.1474258 0.05459696 0.1807101 0.07515329 0.1474246 0.07515329 0.2260593 0.02301311 0.2260593 0.02301311 0.2260593 0.02301311 0.2260593 0.02301311 0.2260574 0.02300447 0.2260593 0.02301311 0.1031991 0.03297317 0.1002982 0.01546925 0.1031991 0.01546925 0.1474258 0.05459696 0.1807134 0.01859647 0.1807114 0.05459696 0.2106847 0.009942591 0.1275233 0.08474284 0.1275233 0.00994265 0.1031991 0.04296875 0.1002982 0.03297317 0.1031991 0.03297317 0.2065844 0.05296385 0.1031991 0.07046824 0.1031991 0.05296385 0.999495 0.4336856 0.999495 0.4336852 0.9995089 0.5906357 0.1275233 0.08474284 0.1251899 0.00994265 0.1275233 0.00994265 0.2143374 0.08036881 0.1154804 0.005568683 0.2143374 0.005568504 0.9141976 0.5906759 0.999495 0.4336852 0.9995089 0.5906357 0.9140868 0.5893932 0.9994072 0.4330621 0.999421 0.5893165 0.999495 0.4336856 0.9141976 0.590672 0.9141682 0.4337263 0.9994972 0.43371 0.9141881 0.5352638 0.9141691 0.4337515 0.9995029 0.587043 0.9141691 0.4337506 0.9994968 0.4337099 0.1137413 0.07726943 0.1164649 0.05517441 0.1164649 0.07726943 0.1137413 0.05517441 0.1164649 0.01648068 0.1164649 0.05517441 0.1127066 0.08036881 0.1154804 0.005568683 0.1154804 0.08036881 0.9995089 0.5906322 0.9141976 0.590672 0.9995089 0.5906322 0.1893703 0.02160847 0.1465775 0.04281497 0.1465761 0.02160847 0.9994968 0.4337099 0.9994968 0.4337099 0.9994968 0.4337099 0.9994968 0.4337099 0.999495 0.4336856 0.999495 0.4336856 0.9141976 0.590672 0.9141976 0.590672 0.9141976 0.590672 0.1893744 0.07995396 0.1465775 0.04281497 0.1893718 0.04281497 0.1154804 0.005568683 0.2143374 0.08036881 0.1154804 0.08036881 0.9141976 0.590672 0.9141682 0.4337263 0.9141976 0.590672 0.1164649 0.01648068 0.213528 0.05517441 0.1164649 0.05517441 0.999495 0.4336852 0.999495 0.4336856 0.9995089 0.5906357 0.1127066 0.08036887 0.1154804 0.005568683 0.1154804 0.08036881 0.1275233 0.08474284 0.1275233 0.00994265 0.2106847 0.009942591 0.999495 0.4336852 0.9141682 0.4337255 0.9141976 0.5906759 0.9140868 0.5893932 0.999421 0.5893165 0.9994072 0.4330621 0.2065843 0.04296875 0.1031991 0.04296875 0.1031991 0.03297317 0.9141881 0.5352638 0.9995063 0.535224 0.9994972 0.43371 0.9995029 0.587043 0.9994968 0.4337099 0.9141691 0.4337506 0.1031991 0.05296385 0.1002982 0.05296385 0.1002982 0.04296875 0.1031991 0.07046824 0.1002982 0.07046824 0.1002982 0.05296385 0.1275233 0.08474284 0.1251899 0.08474284 0.1251899 0.00994265 0.1031991 0.03297317 0.1031991 0.01546925 0.2065844 0.01546919 0.1474258 0.05459696 0.1807114 0.05459696 0.1807101 0.07515329 0.2260593 0.02301311 0.2260593 0.02301311 0.2260593 0.02301311 0.2260593 0.02301311 0.2260574 0.02300447 0.2260574 0.02300447 0.1031991 0.03297317 0.1002982 0.03297317 0.1002982 0.01546925 0.1474258 0.05459696 0.1474277 0.01859647 0.1807134 0.01859647 0.2106847 0.009942591 0.2106847 0.08474284 0.1275233 0.08474284 0.1031991 0.04296875 0.1002982 0.04296875 0.1002982 0.03297317 0.2065844 0.05296385 0.2065844 0.07046824 0.1031991 0.07046824 0.999495 0.4336856 0.9994968 0.4337099 0.999495 0.4336852 0.1275233 0.08474284 0.1251899 0.08474284 0.1251899 0.00994265 0.2143374 0.08036881 0.1154804 0.08036881 0.1154804 0.005568683 0.9141976 0.5906759 0.9141682 0.4337255 0.999495 0.4336852 0.9140868 0.5893932 0.9140577 0.43314 0.9994072 0.4330621 0.999495 0.4336856 0.9995089 0.5906322 0.9141976 0.590672 0.9994972 0.43371 0.9995063 0.535224 0.9141881 0.5352638 0.9995029 0.587043 0.914195 0.5870829 0.9141691 0.4337506 0.1137413 0.07726943 0.1137413 0.05517441 0.1164649 0.05517441 0.1137413 0.05517441 0.1137413 0.01648068 0.1164649 0.01648068 0.1127066 0.08036881 0.1127066 0.005568683 0.1154804 0.005568683 0.9995089 0.5906322 0.9141976 0.590672 0.9141976 0.590672 0.1893703 0.02160847 0.1893718 0.04281497 0.1465775 0.04281497 0.9994968 0.4337099 0.9994968 0.4337099 0.9994968 0.4337099 0.9994968 0.4337099 0.9994968 0.4337099 0.999495 0.4336856 0.9141976 0.590672 0.9141976 0.590672 0.9141976 0.590672 0.1893744 0.07995396 0.1465802 0.07995396 0.1465775 0.04281497 0.1154804 0.005568683 0.2143374 0.005568504 0.2143374 0.08036881 0.9141976 0.590672 0.9141682 0.4337263 0.9141682 0.4337263 0.1164649 0.01648068 0.213528 0.01648056 0.213528 0.05517441 0.999495 0.4336852 0.9994968 0.4337099 0.999495 0.4336856 0.1127066 0.08036887 0.1127066 0.005568683 0.1154804 0.005568683</float_array>
+          <technique_common>
+            <accessor source="#Hasmo_Gate_Door_012-mesh-map-0-array" count="312" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Hasmo_Gate_Door_012-mesh-map-1">
+          <float_array id="Hasmo_Gate_Door_012-mesh-map-1-array" count="624">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#Hasmo_Gate_Door_012-mesh-map-1-array" count="312" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Hasmo_Gate_Door_012-mesh-vertices">
+          <input semantic="POSITION" source="#Hasmo_Gate_Door_012-mesh-positions"/>
+        </vertices>
+        <triangles count="104">
+          <input semantic="VERTEX" source="#Hasmo_Gate_Door_012-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Hasmo_Gate_Door_012-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Hasmo_Gate_Door_012-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Hasmo_Gate_Door_012-mesh-map-1" offset="2" set="1"/>
+          <p>15 0 0 9 0 1 13 0 2 9 1 3 12 1 4 13 1 5 15 2 6 11 2 7 10 2 8 0 3 9 6 3 10 4 3 11 7 4 12 3 4 13 2 4 14 7 5 15 1 5 16 5 5 17 8 6 18 14 6 19 12 6 20 6 7 21 5 7 22 4 7 23 1 8 24 3 8 25 0 8 26 14 9 27 13 9 28 12 9 29 1 10 30 4 10 31 5 10 32 9 11 33 11 11 34 8 11 35 15 12 36 10 12 37 9 12 38 9 13 39 8 13 40 12 13 41 15 14 42 14 14 43 11 14 44 0 15 45 3 15 46 6 15 47 7 16 48 6 16 49 3 16 50 7 17 51 2 17 52 1 17 53 8 18 54 11 18 55 14 18 56 6 19 57 7 19 58 5 19 59 1 20 60 2 20 61 3 20 62 14 21 63 15 21 64 13 21 65 1 22 66 0 22 67 4 22 68 9 23 69 10 23 70 11 23 71 17 24 72 30 24 73 21 24 74 22 25 75 18 25 76 23 25 77 19 26 78 17 26 79 18 26 80 30 27 81 28 27 82 29 27 83 17 28 84 23 28 85 18 28 86 22 29 87 16 29 88 19 29 89 16 30 90 32 30 91 17 30 92 24 31 93 35 31 94 16 31 95 17 32 96 33 32 97 31 32 98 28 33 99 26 33 100 29 33 101 35 34 102 33 34 103 32 34 104 29 35 105 25 35 106 20 35 107 20 36 108 30 36 109 29 36 110 28 37 111 37 37 112 27 37 113 35 38 114 37 38 115 34 38 116 25 39 117 27 39 118 24 39 119 31 40 120 34 40 121 28 40 122 20 41 123 24 41 124 16 41 125 21 35 126 22 35 127 23 35 128 27 42 129 36 42 130 24 42 131 52 43 132 39 43 133 43 43 134 40 44 135 44 44 136 45 44 137 41 45 138 39 45 139 38 45 140 52 46 141 50 46 142 53 46 143 45 47 144 39 47 145 40 47 146 44 48 147 38 48 148 42 48 149 54 49 150 38 49 151 39 49 152 57 50 153 46 50 154 38 50 155 55 51 156 39 51 157 53 51 158 48 52 159 50 52 160 51 52 161 55 45 162 57 45 163 54 45 164 47 53 165 51 53 166 42 53 167 42 54 168 52 54 169 43 54 170 59 55 171 50 55 172 49 55 173 59 56 174 57 56 175 56 56 176 49 57 177 47 57 178 46 57 179 56 58 180 53 58 181 50 58 182 46 59 183 42 59 184 38 59 185 44 60 186 43 60 187 45 60 188 58 61 189 49 61 190 46 61 191 17 62 192 31 62 193 30 62 194 22 63 195 19 63 196 18 63 197 19 45 198 16 45 199 17 45 200 30 64 201 31 64 202 28 64 203 17 28 204 21 28 205 23 28 206 22 65 207 20 65 208 16 65 209 16 66 210 35 66 211 32 66 212 24 67 213 36 67 214 35 67 215 17 32 216 32 32 217 33 32 218 28 68 219 27 68 220 26 68 221 35 45 222 34 45 223 33 45 224 29 69 225 26 69 226 25 69 227 20 70 228 21 70 229 30 70 230 28 71 231 34 71 232 37 71 233 35 72 234 36 72 235 37 72 236 25 73 237 26 73 238 27 73 239 31 74 240 33 74 241 34 74 242 20 41 243 25 41 244 24 41 245 21 75 246 20 75 247 22 75 248 27 76 249 37 76 250 36 76 251 52 77 252 53 77 253 39 77 254 40 78 255 41 78 256 44 78 257 41 79 258 40 79 259 39 79 260 52 80 261 51 80 262 50 80 263 45 81 264 43 81 265 39 81 266 44 48 267 41 48 268 38 48 269 54 82 270 57 82 271 38 82 272 57 83 273 58 83 274 46 83 275 55 84 276 54 84 277 39 84 278 48 85 279 49 85 280 50 85 281 55 86 282 56 86 283 57 86 284 47 35 285 48 35 286 51 35 287 42 87 288 51 87 289 52 87 290 59 88 291 56 88 292 50 88 293 59 45 294 58 45 295 57 45 296 49 57 297 48 57 298 47 57 299 56 89 300 55 89 301 53 89 302 46 90 303 47 90 304 42 90 305 44 91 306 42 91 307 43 91 308 58 92 309 59 92 310 49 92 311</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="HasmoGateArmature_gate-skin" name="HasmoGateArmature">
+      <skin source="#Hasmo_Gate_Door_012-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="HasmoGateArmature_gate-skin-joints">
+          <Name_array id="HasmoGateArmature_gate-skin-joints-array" count="3">origin door_right door_left</Name_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_gate-skin-joints-array" count="3" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_gate-skin-bind_poses">
+          <float_array id="HasmoGateArmature_gate-skin-bind_poses-array" count="48">1 0 0 0 0 0 1 0 0 -1 0 0.6209258 0 0 0 1 1 0 0 -6.630645 0 0.9953062 0.09677594 -0.3024508 0 -0.096776 0.9953062 -4.018805 0 0 0 1 1 0 0 6.63352 0 0.9953062 0.09677594 -0.3024508 0 -0.096776 0.9953062 -4.018805 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_gate-skin-bind_poses-array" count="3" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_gate-skin-weights">
+          <float_array id="HasmoGateArmature_gate-skin-weights-array" count="60">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_gate-skin-weights-array" count="60" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#HasmoGateArmature_gate-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#HasmoGateArmature_gate-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="60">
+          <input semantic="JOINT" source="#HasmoGateArmature_gate-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#HasmoGateArmature_gate-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15 2 16 2 17 2 18 2 19 2 20 2 21 2 22 2 23 2 24 2 25 2 26 2 27 2 28 2 29 2 30 2 31 2 32 2 33 2 34 2 35 2 36 2 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_animations>
+    <animation id="action_container-HasmoGateArmature" name="HasmoGateArmature">
+      <animation id="HasmoGateArmature_action_closed_transform" name="HasmoGateArmature">
+        <source id="HasmoGateArmature_action_closed_transform-input">
+          <float_array id="HasmoGateArmature_action_closed_transform-input-array" count="2">0 1.25</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_transform-input-array" count="2" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_action_closed_transform-output">
+          <float_array id="HasmoGateArmature_action_closed_transform-output-array" count="32">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_transform-output-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_action_closed_transform-interpolation">
+          <Name_array id="HasmoGateArmature_action_closed_transform-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_transform-interpolation-array" count="2" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="HasmoGateArmature_action_closed_transform-sampler">
+          <input semantic="INPUT" source="#HasmoGateArmature_action_closed_transform-input"/>
+          <input semantic="OUTPUT" source="#HasmoGateArmature_action_closed_transform-output"/>
+          <input semantic="INTERPOLATION" source="#HasmoGateArmature_action_closed_transform-interpolation"/>
+        </sampler>
+        <channel source="#HasmoGateArmature_action_closed_transform-sampler" target="HasmoGateArmature/transform"/>
+      </animation>
+      <animation id="HasmoGateArmature_action_closed_origin_pose_matrix" name="HasmoGateArmature">
+        <source id="HasmoGateArmature_action_closed_origin_pose_matrix-input">
+          <float_array id="HasmoGateArmature_action_closed_origin_pose_matrix-input-array" count="2">0 1.25</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_origin_pose_matrix-input-array" count="2" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_action_closed_origin_pose_matrix-output">
+          <float_array id="HasmoGateArmature_action_closed_origin_pose_matrix-output-array" count="32">1 0 0 0 0 0 -1 0.6209258 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0.6209258 0 1 0 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_origin_pose_matrix-output-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_action_closed_origin_pose_matrix-interpolation">
+          <Name_array id="HasmoGateArmature_action_closed_origin_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_origin_pose_matrix-interpolation-array" count="2" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="HasmoGateArmature_action_closed_origin_pose_matrix-sampler">
+          <input semantic="INPUT" source="#HasmoGateArmature_action_closed_origin_pose_matrix-input"/>
+          <input semantic="OUTPUT" source="#HasmoGateArmature_action_closed_origin_pose_matrix-output"/>
+          <input semantic="INTERPOLATION" source="#HasmoGateArmature_action_closed_origin_pose_matrix-interpolation"/>
+        </sampler>
+        <channel source="#HasmoGateArmature_action_closed_origin_pose_matrix-sampler" target="HasmoGateArmature_origin/transform"/>
+      </animation>
+      <animation id="HasmoGateArmature_action_closed_door_right_pose_matrix" name="HasmoGateArmature">
+        <source id="HasmoGateArmature_action_closed_door_right_pose_matrix-input">
+          <float_array id="HasmoGateArmature_action_closed_door_right_pose_matrix-input-array" count="2">0 1.25</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_door_right_pose_matrix-input-array" count="2" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_action_closed_door_right_pose_matrix-output">
+          <float_array id="HasmoGateArmature_action_closed_door_right_pose_matrix-output-array" count="32">1 0 0 6.630645 0 0.09677606 0.9953062 4.029212 0 -0.9953062 0.09677599 0.7088183 0 0 0 1 1 0 0 6.630645 0 0.09677606 0.9953062 4.029212 0 -0.9953062 0.09677599 0.7088183 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_door_right_pose_matrix-output-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_action_closed_door_right_pose_matrix-interpolation">
+          <Name_array id="HasmoGateArmature_action_closed_door_right_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_door_right_pose_matrix-interpolation-array" count="2" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="HasmoGateArmature_action_closed_door_right_pose_matrix-sampler">
+          <input semantic="INPUT" source="#HasmoGateArmature_action_closed_door_right_pose_matrix-input"/>
+          <input semantic="OUTPUT" source="#HasmoGateArmature_action_closed_door_right_pose_matrix-output"/>
+          <input semantic="INTERPOLATION" source="#HasmoGateArmature_action_closed_door_right_pose_matrix-interpolation"/>
+        </sampler>
+        <channel source="#HasmoGateArmature_action_closed_door_right_pose_matrix-sampler" target="HasmoGateArmature_door_right/transform"/>
+      </animation>
+      <animation id="HasmoGateArmature_action_closed_door_left_pose_matrix" name="HasmoGateArmature">
+        <source id="HasmoGateArmature_action_closed_door_left_pose_matrix-input">
+          <float_array id="HasmoGateArmature_action_closed_door_left_pose_matrix-input-array" count="2">0 1.25</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_door_left_pose_matrix-input-array" count="2" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_action_closed_door_left_pose_matrix-output">
+          <float_array id="HasmoGateArmature_action_closed_door_left_pose_matrix-output-array" count="32">1 0 0 -6.63352 0 0.09677606 0.9953062 4.029212 0 -0.9953062 0.09677599 0.7088183 0 0 0 1 1 0 0 -6.63352 0 0.09677606 0.9953062 4.029212 0 -0.9953062 0.09677599 0.7088183 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_door_left_pose_matrix-output-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HasmoGateArmature_action_closed_door_left_pose_matrix-interpolation">
+          <Name_array id="HasmoGateArmature_action_closed_door_left_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#HasmoGateArmature_action_closed_door_left_pose_matrix-interpolation-array" count="2" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="HasmoGateArmature_action_closed_door_left_pose_matrix-sampler">
+          <input semantic="INPUT" source="#HasmoGateArmature_action_closed_door_left_pose_matrix-input"/>
+          <input semantic="OUTPUT" source="#HasmoGateArmature_action_closed_door_left_pose_matrix-output"/>
+          <input semantic="INTERPOLATION" source="#HasmoGateArmature_action_closed_door_left_pose_matrix-interpolation"/>
+        </sampler>
+        <channel source="#HasmoGateArmature_action_closed_door_left_pose_matrix-sampler" target="HasmoGateArmature_door_left/transform"/>
+      </animation>
+    </animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="HasmoGateArmature" name="HasmoGateArmature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="HasmoGateArmature_origin" name="origin" sid="origin" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 0 -1 0.6209258 0 1 0 0 0 0 0 1</matrix>
+          <node id="HasmoGateArmature_door_right" name="door_right" sid="door_right" type="JOINT">
+            <matrix sid="transform">1 0 0 6.630645 0 0.09677602 0.9953062 4.029212 0 -0.9953062 0.09677595 0.7088183 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <collections type="string">Bones</collections>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">0.9953061</tip_y>
+                <tip_z sid="tip_z" type="float">0.096776</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <node id="HasmoGateArmature_door_left" name="door_left" sid="door_left" type="JOINT">
+            <matrix sid="transform">1 0 0 -6.63352 0 0.09677602 0.9953062 4.029212 0 -0.9953062 0.09677595 0.7088183 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <collections type="string">Bones</collections>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">0.9953061</tip_y>
+                <tip_z sid="tip_z" type="float">0.096776</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <collections type="string">Bones</collections>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">0</tip_y>
+              <tip_z sid="tip_z" type="float">1</tip_z>
+            </technique>
+          </extra>
+        </node>
+        <node id="gate" name="gate" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#HasmoGateArmature_gate-skin">
+            <skeleton>#HasmoGateArmature_origin</skeleton>
+          </instance_controller>
+        </node>
+        <extra>
+          <technique profile="blender">
+            <collections sid="collections" type="string">Bones</collections>
+            <visible_collections sid="visible_collections" type="string">Bones</visible_collections>
+            <active_collection sid="active_collection" type="string">Bones</active_collection>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
