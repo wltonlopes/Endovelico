@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+    structures/athen_prytaneion_hero_heal
+  </Auras>
+  <BuildRestrictions>
+    <Category>Council</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <stone>100</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Big forge</GenericName>
+    <SpecificName> </SpecificName>
+    <Tooltip>Research technologies.</Tooltip>
+    <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Council</VisibleClasses>
+    <Icon>structures/tholos.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>20</stone>
+    <metal>40</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="24.0" depth="30.0"/>
+  </Obstruction>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_tholos.xml</select>
+      <constructed>interface/complete/building/complete_tholos.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>38</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/mande/big_forge.xml</Actor>
+  </VisualActor>
+</Entity>

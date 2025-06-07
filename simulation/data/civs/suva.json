@@ -1,0 +1,76 @@
+﻿{
+	"Code": "suva",
+	"Culture": "suvaapura",
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Eastern_Dreams.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Karmic_Confluence.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Beyond_The_Indus.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/suva/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/suva/civil_centre"
+		},
+		{
+			"Template":"units/suva/support_female_citizen",
+			"Count":5
+		},
+		{
+			"Template": "units/suva/infantry_swordsman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/suva/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/suva/cavalry_archer_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+
+    "Wuzhu",	
+    "Ying",
+    "Chou",
+	"Yushan",
+	"Jugu"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/suva/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/suva/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/suva/infantry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/suva/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

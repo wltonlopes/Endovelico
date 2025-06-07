@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_outpost">
+  <Identity>
+    <Civ>mande</Civ>
+    <SpecificName>Ile Iso</SpecificName>
+  </Identity>
+  <RallyPoint disable=""/>
+  <VisualActor>
+    <Actor>structures/hellenes/outpost.xml</Actor>
+  </VisualActor>
+</Entity>
