@@ -53,6 +53,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/adena/wall_gate.xml</Actor>
+    <Actor>structures/pampidos/wall_gate.xml</Actor>
   </VisualActor>
 </Entity>

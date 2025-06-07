@@ -15,6 +15,6 @@
     <HeightOffset>13.6</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/adena/wall_short.xml</Actor>
+    <Actor>structures/pampidos/wall_short.xml</Actor>
   </VisualActor>
 </Entity>

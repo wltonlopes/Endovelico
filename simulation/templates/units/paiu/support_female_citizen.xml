@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>paiu</Civ>
+    <SpecificName>ixik</SpecificName>
+    <GenericName>Woman</GenericName>
+    <Icon>units/south_america/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/south_america/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

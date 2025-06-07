@@ -17,6 +17,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/adena/market.xml</Actor>
+    <Actor>structures/pampidos/market.xml</Actor>
   </VisualActor>
 </Entity>

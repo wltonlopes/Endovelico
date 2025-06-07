@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
-      <mesh>structural/chibchas/civic_center.dae</mesh>
+      <mesh>structural/chibchas/cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

@@ -23,7 +23,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/adena/range.xml</Actor>
+    <Actor>structures/pampidos/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

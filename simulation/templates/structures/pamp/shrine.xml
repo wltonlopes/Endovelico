@@ -30,6 +30,6 @@
     <Static width="16" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/adena/karakokagi.xml</Actor>
+    <Actor>structures/pampidos/karakokagi.xml</Actor>
   </VisualActor>
 </Entity>

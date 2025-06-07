@@ -15,7 +15,7 @@
     <HeightOffset>16.7</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/adena/wall_tower.xml</Actor>
+    <Actor>structures/pampidos/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>8</Length>

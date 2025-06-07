@@ -2,12 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
-
-      <mesh>structural/mapuche/palace.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
+    <variant frequency="1" name="lepun">
+      <mesh>structural/mapuche/lepun.dae</mesh>
       <textures>
         <texture file="structural/mapu_struct.png" name="baseTex"/>
         <texture file="structural/mapu_struct_spec.png" name="specTex"/>

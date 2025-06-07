@@ -30,7 +30,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/adena/arsenal.xml</Actor>
+    <Actor>structures/pampidos/arsenal.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

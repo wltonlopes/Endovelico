@@ -12,6 +12,6 @@
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/adena/defense_tower.xml</Actor>
+    <Actor>structures/pampidos/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

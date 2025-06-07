@@ -24,7 +24,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/adena/corral.xml</Actor>
+    <Actor>structures/pampidos/corral.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>
