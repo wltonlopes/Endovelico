@@ -33,10 +33,6 @@
             "Count": 2
         },
         {
-            "Template": "units/batw/cavalry_archer_b",
-            "Count": 1
-        },
-        {
             "Template": "units/batw/infantry_scout"
         }
     ],
@@ -51,5 +47,5 @@
         "skirmish/units/default_infantry_ranged_b": "units/batw/infantry_archer_b",
         "skirmish/units/default_ship_trireme": "units/batw/ship_bireme"
     },
-    "SelectableInGameSetup": false
+    "SelectableInGameSetup": true
 }

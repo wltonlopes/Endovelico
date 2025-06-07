@@ -12,8 +12,8 @@
   <Researcher>
     <Technologies datatype="tokens">
       archer_attack_spread
-      upgrade_rank_advanced_infantry_archer
-      upgrade_rank_elite_infantry_archer
+      <!--upgrade_rank_advanced_infantry_archer
+      upgrade_rank_elite_infantry_archer-->
     </Technologies>
   </Researcher>
   <Trainer>

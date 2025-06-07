@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/hele_thracian_cap_leather.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/akinakes_scythian_short.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/akinakes_scythian_long.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

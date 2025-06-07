@@ -8,7 +8,7 @@
     <Civ>paiu</Civ>
     <GenericName>Bireme</GenericName>
     <SpecificName>ygaraíba</SpecificName>
-    <Icon>units/south_america/ship_bireme.png</Icon>
+    <Icon>units/south_america/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

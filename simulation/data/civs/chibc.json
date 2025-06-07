@@ -1,69 +1,65 @@
 ﻿{
-	"Code": "chibc",
-	"Culture": "chibchas",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/chibc/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/chibc/civil_centre"
-		},
-		{
-			"Template":"units/chibc/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/chibc/infantry_spearman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/chibc/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/chibc/cavalry_archer_b",
-			"Count": 1
-		},
-		{
-			"Template": "units/chibc/support_female_citizen",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/chibc/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/chibc/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/chibc/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/chibc/support_female_citizen",
-	  "skirmish/units/default_ship_trireme":"units/chibc/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "chibc",
+    "Culture": "Chibchas",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/chibc/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/chibc/civil_centre"
+        },
+        {
+            "Template": "units/chibc/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/chibc/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/chibc/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/chibc/support_female_citizen",
+            "Count": 1
+        },
+        {
+            "Template": "units/chibc/infantry_scout"
+        }
+    ],
+    "AINames": [
+        "Jimmu",
+        "Suizei",
+        "Annei",
+        "Itoku",
+        "Kosho",
+        "Koan",
+        "Korei",
+        "Kogen",
+        "Kaika",
+        "Suijin",
+        "Suinin"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/chibc/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/chibc/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/chibc/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/chibc/support_female_citizen",
+        "skirmish/units/default_ship_trireme": "units/chibc/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

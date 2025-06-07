@@ -19,12 +19,12 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      upgrade_rank_advanced_cavalry_spearman
+      <!--upgrade_rank_advanced_cavalry_spearman
       upgrade_rank_elite_cavalry_spearman
       upgrade_rank_advanced_cavalry_archer
       upgrade_rank_elite_cavalry_archer
       upgrade_rank_advanced_cavalry_axeman
-      upgrade_rank_elite_cavalry_axeman
+      upgrade_rank_elite_cavalry_axeman-->
     </Technologies>
   </Researcher>
   <Trainer>

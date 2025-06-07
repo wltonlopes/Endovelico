@@ -26,11 +26,11 @@
   <Researcher>
     <Technologies datatype="tokens">
       -unlock_champion_infantry
-      unlock_mercenary_infantry
+      <!--unlock_mercenary_infantry
       upgrade_rank_advanced_infantry_spearman
       upgrade_rank_elite_infantry_spearman
       upgrade_rank_advanced_infantry_axeman
-      upgrade_rank_elite_infantry_axeman
+      upgrade_rank_elite_infantry_axeman-->
     </Technologies>
   </Researcher>
   <TerritoryDecay disable=""/>

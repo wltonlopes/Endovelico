@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_scout">
+<Entity parent="scout_cavalry_swordsman">
   <Identity>
     <Civ>iber</Civ>
-	<SpecificName>Iberian Scout</SpecificName>
+    <SpecificName>Iberian Scout</SpecificName>
     <Icon>units/iber/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

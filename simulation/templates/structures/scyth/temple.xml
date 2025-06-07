@@ -16,14 +16,14 @@
   <Obstruction>
     <Static width="26.0" depth="27.0"/>
   </Obstruction>
-  <Selectable>
+  <!--<Selectable>
     <Overlay>
       <Texture>
         <MainTexture>auras/temple/nomadic/1024x1024.png</MainTexture>
         <MainTextureMask>auras/temple/nomadic/1024x1024_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
-  </Selectable>
+  </Selectable>-->
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <VisualActor>

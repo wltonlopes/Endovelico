@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_lusi_basic_hair.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/dagger.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>

@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Entity parent="template_unit_cavalry_melee_scout">
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_cavalry_swordsman">
   <Identity>
     <Civ>sueb</Civ>
-	<SpecificName>German Scout</SpecificName>
+    <SpecificName>German Scout</SpecificName>
     <Icon>units/sueb/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
