@@ -5,6 +5,7 @@
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/khoisan/cc.dae</mesh>
       <props>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
