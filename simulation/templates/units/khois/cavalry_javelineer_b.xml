@@ -12,7 +12,7 @@
   </Footprint>
   <Identity>
     <Civ>khois</Civ>
-    <SelectionGroupName>units/urewe/cavalry_javelineer_b</SelectionGroupName>
+    <SelectionGroupName>units/khois/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Desert Raider</GenericName>
     <SpecificName>nhw Bulahau gml</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>

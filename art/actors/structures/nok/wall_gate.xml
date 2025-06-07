@@ -3,10 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/nok/barracks.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
+      <mesh>structural/nok/wall_gate.dae</mesh>
       <textures>
         <texture file="structural/nok_struct.png" name="baseTex"/>
         <texture file="structural/nok_struct_spec.png" name="specTex"/>

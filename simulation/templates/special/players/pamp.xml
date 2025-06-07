@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>pamp</Civ>
+    <GenericName>Pampidos</GenericName>
+    <History>The Arawaks were an indigenous people of the Caribbean and South America. Known for their agricultural society, peaceful nature, and seafaring skills, they were among the first to encounter Europeans, significantly shaping early colonial interactions.</History>
+    <Icon>emblems/emblem_araw.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

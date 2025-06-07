@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/urewe/cavalry_javelineer_a">
+<Entity parent="units/khois/cavalry_javelineer_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>

@@ -4,9 +4,6 @@
   <group>
     <variant frequency="1" name="wall_long">
       <mesh>structural/koreans/wall_long.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="structural/kore_struct.png" name="baseTex"/>
         <texture file="structural/kore_struct_spec.png" name="specTex"/>

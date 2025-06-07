@@ -4,9 +4,6 @@
   <group>
     <variant frequency="100" name="Base" file="structures/defensive_building.xml">
       <mesh>structural/anuradhapura/wall_tower.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="structural/anura_struct.png" name="baseTex"/>
         <texture file="structural/anura_struct_spec.png" name="specTex"/>

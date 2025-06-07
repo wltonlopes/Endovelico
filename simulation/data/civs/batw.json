@@ -56,5 +56,5 @@
 		"skirmish/units/special_starting_unit": "units/batw/champion_infantry_bellringer",
 	  "skirmish/units/default_ship_trireme":"units/batw/ship_bireme"
 	},
-	"SelectableInGameSetup": false
+	"SelectableInGameSetup": true
 }

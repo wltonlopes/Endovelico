@@ -6,6 +6,8 @@
 
       <mesh>structural/bosf/dock.dae</mesh>
       <props>
+        <prop actor="props/structures/hellenes/dock_warship.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/dock.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/bosf_struct.png" name="baseTex"/>
