@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>mande</Civ>
+    <SpecificName>Yōng</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/mande/wall_tower</Tower>
+      <Gate>structures/mande/wall_gate</Gate>
+      <WallLong>structures/mande/wall_long</WallLong>
+      <WallMedium>structures/mande/wall_medium</WallMedium>
+      <WallShort>structures/mande/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>
