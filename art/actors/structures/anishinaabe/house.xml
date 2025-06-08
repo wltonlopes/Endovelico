@@ -18,19 +18,19 @@
     <variant frequency="1" name="house a">
 <mesh>structural/anish/house_1.dae</mesh>
       <textures>
-        <texture file="structural/ao/anish/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/anish/house_2.dae</mesh>
       <textures>
-        <texture file="structural/ao/anish/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/anish/house_3.dae</mesh>
       <textures>
-        <texture file="structural/ao/anish/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
