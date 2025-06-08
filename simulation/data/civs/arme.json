@@ -1,61 +1,85 @@
 ﻿{
-	"Code": "arme",
-	"Culture": "Armenians",
-	"Music":[
-		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
-		{ "File": "Sunrise.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/arme/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/arme/civil_centre"
-		},
-		{
-			"Template":"units/arme/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/arme/infantry_spearman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/arme/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/arme/cavalry_javelineer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Teres I",	
-    "Seuthes III",
-    "Sitalces",
-	"Kotys I",
-	"Zyraxes",
-	"Burebista",
-	"Decebalus"
-
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/arme/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/arme/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/arme/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/arme/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "arme",
+    "Culture": "Armenians",
+    "Music": [
+        {
+            "File": "Harvest_Festival.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sunrise.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/arme/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/arme/civil_centre"
+        },
+        {
+            "Template": "units/arme/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/arme/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/arme/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/arme/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/arme/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Orontes I",
+        "Orontes II",
+        "Orontes III",
+        "Artaxias I",
+        "Artavasdes I",
+        "Tigranes I",
+        "Artavasdes II",
+        "Artaxias II",
+        "Tigranes II",
+        "Tigranes III",
+        "Tigranes IV",
+        "Erato",
+        "Tigranes V",
+        "Zeno-Artaxias",
+        "Vonones I",
+        "Orodes",
+        "Arsaces I",
+        "Sanatruk",
+        "Axidares",
+        "Parthamasiris",
+        "Mithridates I",
+        "Sanatruces II",
+        "Vologases I",
+        "Sohaemus",
+        "Aurelius Pacorus",
+        "Vologases II",
+        "Chosroes I",
+        "Tiridates I",
+        "Khosrov I",
+        "Tiridates II",
+        "Khosrov II",
+        "Tiridates III"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/arme/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/arme/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/arme/infantry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/arme/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

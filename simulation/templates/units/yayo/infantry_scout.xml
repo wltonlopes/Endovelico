@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="scout_archer">
+<Entity parent="scout_infantry_archer">
   <Identity>
     <Civ>yayo</Civ>
     <SpecificName>Yamatai Scout</SpecificName>

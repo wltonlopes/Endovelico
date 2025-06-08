@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Slave"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.8},
+		{ "value": "Cost/Resources/food", "multiply": 0.8 }
+	],
+	"auraName": "Slave Traders",
+	"auraDescription": "Female Citizens -20% train time and cost."
+}

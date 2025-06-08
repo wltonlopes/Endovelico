@@ -49,24 +49,19 @@
         }
     ],
     "AINames": [
-        "Judah",
-        "John",
-        "Jonathan",
-        "Simon",
-        "Mattathias",
+        "Simon Thassi",
+        "John Hyrcanus",
+        "Aristobulus I",
+        "Alexander Jannaeus",
         "Salome Alexandra",
-        "Herod",
-        "Jesus",
-        "David",
-        "Mary",
-        "Joseph",
-        "Magdalene"
+        "Hyrcanus II",
+        "Aristobulus II",
+        "Antigonus II Mattathias"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/hasmo/cavalry_scout",
         "skirmish/structures/default_house_5": "structures/{civ}/house",
-        "skirmish/units/special_starting_unit": "units/hasmo/chariot_javelineer_b",
-        "skirmish/units/default_infantry_ranged_b": "units/hasmo/infantry_javelineer_b",
+        "skirmish/units/default_infantry_ranged_b": "units/hasmo/infantry_slinger_b",
         "skirmish/units/default_infantry_melee_b": "units/hasmo/infantry_spearman_b",
         "skirmish/units/default_ship_trireme": "units/{civ}/ship_arrow"
     },

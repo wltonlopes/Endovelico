@@ -27,10 +27,10 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      upgrade_rank_advanced_infantry_spearman
+      <!--      upgrade_rank_advanced_infantry_spearman
       upgrade_rank_advanced_infantry_swordsman
       upgrade_rank_elite_infantry_spearman
-      upgrade_rank_elite_infantry_swordsman
+      upgrade_rank_elite_infantry_swordsman-->
     </Technologies>
   </Researcher>
   <VisualActor>

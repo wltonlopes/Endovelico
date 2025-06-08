@@ -37,7 +37,7 @@
             "Template": "units/xion/support_wagon"
         },
         {
-            "Template": "units/xion/cavalry_scout"
+            "Template": "units/xion/camelry_scout"
         }
     ],
     "AINames": [
@@ -47,7 +47,7 @@
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_support_female_citizen": "units/xion/support_female_citizen",
-        "skirmish/units/default_cavalry": "units/xion/cavalry_scout",
+        "skirmish/units/default_cavalry": "units/xion/camelry_scout",
         "skirmish/units/default_infantry_ranged_b": "units/xion/infantry_archer_b",
         "skirmish/structures/default_corral": "structures/xion/corral",
         "skirmish/structures/default_defense_tower": "",

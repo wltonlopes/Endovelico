@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_cavalry_swordsman">
+  <Identity>
+    <Civ>arme</Civ>
+    <GenericName>Armenian Scout</GenericName>
+    <Icon>units/arme/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/armenia/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

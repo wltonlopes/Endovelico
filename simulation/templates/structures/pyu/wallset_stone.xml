@@ -2,15 +2,15 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>pyu</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/malay/wall_tower</Tower>
-      <Gate>structures/malay/wall_gate</Gate>
-      <WallLong>structures/malay/wall_long</WallLong>
-      <WallMedium>structures/malay/wall_medium</WallMedium>
-      <WallShort>structures/malay/wall_short</WallShort>
+      <Tower>structures/pyu/wall_tower</Tower>
+      <Gate>structures/pyu/wall_gate</Gate>
+      <WallLong>structures/pyu/wall_long</WallLong>
+      <WallMedium>structures/pyu/wall_medium</WallMedium>
+      <WallShort>structures/pyu/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

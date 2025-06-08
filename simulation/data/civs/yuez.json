@@ -37,7 +37,7 @@
             "Template": "units/yuez/support_wagon"
         },
         {
-            "Template": "units/yuez/cavalry_scout"
+            "Template": "units/yuez/camelry_scout"
         }
     ],
     "AINames": [
@@ -47,7 +47,7 @@
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_support_female_citizen": "units/yuez/support_female_citizen",
-        "skirmish/units/default_cavalry": "units/yuez/cavalry_scout",
+        "skirmish/units/default_cavalry": "units/yuez/camelry_scout",
         "skirmish/units/default_infantry_ranged_b": "units/yuez/infantry_archer_b",
         "skirmish/structures/default_corral": "structures/yuez/corral",
         "skirmish/structures/default_defense_tower": "",

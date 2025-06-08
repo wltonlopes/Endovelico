@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_infantry">
+	<Attack>
+		<Ranged>
+			<AttackName>Javelin</AttackName>
+			<Damage>
+				<Pierce>11.2</Pierce>
+			</Damage>
+			<MaxRange>30</MaxRange>
+			<PrepareTime>400</PrepareTime>
+			<RepeatTime>1500</RepeatTime>
+			<Projectile>
+				<Speed>70</Speed>
+				<Spread>4</Spread>
+				<Gravity>35</Gravity>
+				<FriendlyFire>false</FriendlyFire>
+				<LaunchPoint y="3"/>
+			</Projectile>
+			<Bonuses>
+				<Bonus1>
+					<Classes>Animal</Classes>
+					<Multiplier>2</Multiplier>
+				</Bonus1>
+			</Bonuses>
+			<PreferredClasses datatype="tokens">Human</PreferredClasses>
+		</Ranged>
+	</Attack>
+	<Resistance>
+		<Entity>
+			<Damage>
+				<Hack>1</Hack>
+				<Pierce>1</Pierce>
+				<Crush>10</Crush>
+			</Damage>
+		</Entity>
+	</Resistance>
+	<Identity>
+		<VisibleClasses datatype="tokens">Ranged Javelineer</VisibleClasses>
+		<GenericName>Scout Archer</GenericName>
+	</Identity>
+	<Sound>
+		<SoundGroups>
+			<attack_ranged>attack/weapon/javelin_attack.xml</attack_ranged>
+			<attack_impact_ranged>attack/impact/javelin_impact.xml</attack_impact_ranged>
+		</SoundGroups>
+	</Sound>
+</Entity>

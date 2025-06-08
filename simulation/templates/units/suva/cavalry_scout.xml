@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_cavalry_swordsman">
+  <Identity>
+    <Civ>suva</Civ>
+    <SpecificName>Suvarnabhumi Scout</SpecificName>
+    <Icon>units/han/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/han/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -14,8 +14,8 @@
   </Trainer>
   <Researcher>
     <Technologies datatype="tokens">
-      upgrade_rank_advanced_cavalry_javelineer
-      upgrade_rank_elite_cavalry_javelineer
+      <!--upgrade_rank_advanced_cavalry_javelineer
+      upgrade_rank_elite_cavalry_javelineer-->
     </Technologies>
   </Researcher>
   <Obstruction>

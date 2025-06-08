@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity parent="scout_slinger">
+<Entity parent="scout_infantry_slinger">
   <Identity>
     <Civ>moch</Civ>
     <SpecificName>Moch Scout</SpecificName>

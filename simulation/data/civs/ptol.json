@@ -63,7 +63,7 @@
             "Template": "units/ptol/cavalry_archer_b"
         },
         {
-            "Template": "units/ptol/cavalry_scout"
+            "Template": "units/ptol/camelry_scout"
         }
     ],
     "AINames": [
@@ -86,9 +86,9 @@
         "Arsinoe II"
     ],
     "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/ptol/camelry_scout",
         "skirmish/units/default_infantry_melee_b": "units/ptol/infantry_pikeman_b",
         "skirmish/units/default_infantry_ranged_b": "units/ptol/infantry_slinger_b",
-        "skirmish/units/default_cavalry": "units/ptol/cavalry_scout",
         "skirmish/structures/default_house_5": "structures/{civ}/house"
     },
     "SelectableInGameSetup": true

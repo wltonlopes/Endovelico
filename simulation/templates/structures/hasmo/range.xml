@@ -11,10 +11,10 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      upgrade_rank_advanced_infantry_archer
+      <!--upgrade_rank_advanced_infantry_archer
       upgrade_rank_advanced_infantry_slinger
       upgrade_rank_elite_infantry_archer
-      upgrade_rank_elite_infantry_slinger
+      upgrade_rank_elite_infantry_slinger-->
     </Technologies>
   </Researcher>
   <VisualActor>
