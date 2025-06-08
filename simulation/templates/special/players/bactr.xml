@@ -4,9 +4,9 @@
     teambonuses/cart_player_teambonus
   </Auras> -->
   <Identity>
-    <Civ>bosf</Civ>
-    <GenericName>Bosporan Kingdom</GenericName>
-    <History>Also known as the Kingdom of the Cimmerian Bosporus.</History>
+    <Civ>bactr</Civ>
+    <GenericName>Greco-Bactrian Kingdom</GenericName>
+    <History>Greco-Bactrian Kingdom.</History>
     <Icon>emblems/emblem_bactr.png</Icon>
   </Identity>
   <Player>

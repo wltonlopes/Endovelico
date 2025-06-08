@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>bactr</Civ>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/bactr/wall_tower</Tower>
+      <Gate>structures/bactr/wall_gate</Gate>
+      <WallLong>structures/bactr/wall_long</WallLong>
+      <WallMedium>structures/bactr/wall_medium</WallMedium>
+      <WallShort>structures/bactr/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>
