@@ -3,8 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
-      <mesh>structural/bosfaks/range.dae</mesh>
+      <mesh>structural/bosf/range.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
