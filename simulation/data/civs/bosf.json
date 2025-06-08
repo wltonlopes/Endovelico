@@ -13,7 +13,10 @@
   ],
   "CivBonuses": [],
   "TeamBonuses": [],
-  "WallSets": ["structures/wallset_palisade", "structures/bosf/wallset_stone"],
+  "WallSets": [
+    "structures/wallset_palisade",
+    "structures/bosf/wallset_stone"
+  ],
   "StartEntities": [
     {
       "Template": "structures/bosf/civil_centre"
@@ -23,11 +26,11 @@
       "Count": 5
     },
     {
-      "Template": "units/bosf/infantry_axeman_b",
+      "Template": "units/bosf/infantry_spearman_b",
       "Count": 3
     },
     {
-      "Template": "units/bosf/infantry_archer_b",
+      "Template": "units/bosf/infantry_javelineer_b",
       "Count": 2
     },
     {
@@ -35,8 +38,7 @@
       "Count": 1
     },
     {
-      "Template": "units/bosf/cavalry_scout",
-      "Count": 1
+      "Template": "units/bosf/cavalry_scout"
     }
   ],
   "AINames": [
@@ -84,9 +86,9 @@
   ],
   "SkirmishReplacements": {
     "skirmish/units/default_cavalry": "units/bosf/cavalry_scout",
-    "skirmish/units/default_infantry_melee_b": "units/bosf/infantry_axeman_b",
-    "skirmish/units/default_infantry_ranged_b": "units/bosf/infantry_archer_b",
-    "skirmish/units/special_starting_unit": "units/bosf/champion_infantry_bellringer",
+    "skirmish/units/default_infantry_melee_b": "units/bosf/infantry_spearman_b",
+    "skirmish/units/default_infantry_ranged_b": "units/bosf/infantry_javelineer_b",
+    "skirmish/units/default_cavalry_ranged_b": "units/bosf/cavalry_archer_b",
     "skirmish/units/default_ship_trireme": "units/bosf/ship_bireme"
   },
   "SelectableInGameSetup": true
