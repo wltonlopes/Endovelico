@@ -4,10 +4,10 @@
     teambonuses/cart_player_teambonus
   </Auras> -->
   <Identity>
-    <Civ>yawa</Civ>
-    <GenericName>Yawadwipa</GenericName>
+    <Civ>tami</Civ>
+    <GenericName>Tamiles</GenericName>
     <History>.</History>
-    <Icon>emblems/emblem_vyadh.png</Icon>
+    <Icon>emblems/emblem_araw.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">
