@@ -26,11 +26,11 @@
   <Promotion>
     <Entity>units/gara/chariot_javelineer_a</Entity>
   </Promotion>
-  <!--<ResourceGatherer>
+  <ResourceGatherer>
     <Rates>
-      <food.meat  disable=""/>
+      <food.meat disable=""/>
     </Rates>
-  </ResourceGatherer>-->
+  </ResourceGatherer>
   <VisualActor>
     <Actor>units/garamantians/chariot_javelinist_b_m.xml</Actor>
   </VisualActor>

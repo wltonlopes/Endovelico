@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_cavalry_javelineer">
+  <Footprint replace="">
+    <Square width="5.0" depth="10.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>gara</Civ>
+    <SpecificName>Garamantian Scout</SpecificName>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <Icon>units/gara/chariot_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/chariot_scout_m.xml</Actor>
+  </VisualActor>
+</Entity>

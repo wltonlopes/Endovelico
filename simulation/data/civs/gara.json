@@ -49,7 +49,7 @@
             "Template": "units/gara/cavalry_javelineer_b"
         },
         {
-            "Template": "units/gara/cavalry_scout"
+            "Template": "units/gara/chariot_scout"
         }
     ],
     "AINames": [
@@ -60,7 +60,7 @@
         "Iaremaban"
     ],
     "SkirmishReplacements": {
-        "skirmish/units/default_cavalry": "units/gara/cavalry_scout",
+        "skirmish/units/default_cavalry": "units/gara/chariot_scout",
         "skirmish/structures/default_house_5": "structures/{civ}/house",
         "skirmish/units/special_starting_unit": "units/gara/chariot_javelineer_b",
         "skirmish/units/default_infantry_ranged_b": "units/gara/infantry_javelineer_b",

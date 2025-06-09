@@ -4,6 +4,6 @@
 		<animation file="mechanical/chariot_gather_meat.dae" name="gather_meat" speed="80"/>
 	</animations>
 	<props>
-		<prop actor="" attachpoint="rider"/>
+		<prop actor="" attachpoint="rider3"/>
 	</props>
 </variant>

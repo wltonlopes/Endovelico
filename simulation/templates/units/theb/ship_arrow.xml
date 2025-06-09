@@ -16,7 +16,7 @@
       knots (14.6 km/h). The Trireme could accelerate much faster than a Bireme or Penteconter, and
       was much more maneuverable. This gave the Trireme an advantage in combat, where higher speed
       and manoeuvrability meant a better chance of victory.</History>
-    <Icon>units/hele_ship_trireme.png</Icon>
+    <Icon>units/hele/ship_arrow.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>
