@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_elephant_stable">
+  <Identity>
+    <Civ>macrob</Civ>
+    <SpecificName></SpecificName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">-City Town</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/macrobians/stable_elephant.xml</Actor>
+  </VisualActor>
+</Entity>

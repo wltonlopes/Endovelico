@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="big_forge">
-      <mesh>structural/macrobian/big_forge.dae</mesh>
+    <variant frequency="1" name="stable">
+
+      <mesh>structural/macrobian/stable.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/macrob_struct.png" name="baseTex"/>
@@ -19,7 +19,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_urewe.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
+
       </props>
     </variant>
   </group>
