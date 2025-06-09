@@ -33,10 +33,6 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/chibc/cavalry_archer_b",
-			"Count": 1
-		},
-		{
 			"Template": "units/chibc/support_female_citizen",
 			"Count": 1
 		}
@@ -59,7 +55,6 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/chibc/cavalry_archer_b",
 		"skirmish/units/default_infantry_melee_b": "units/chibc/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/chibc/infantry_archer_b",
 		"skirmish/units/special_starting_unit": "units/chibc/support_female_citizen",

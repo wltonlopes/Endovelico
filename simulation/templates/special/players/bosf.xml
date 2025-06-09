@@ -7,7 +7,7 @@
     <Civ>bosf</Civ>
     <GenericName>Bosporan Kingdom</GenericName>
     <History>Also known as the Kingdom of the Cimmerian Bosporus.</History>
-    <Icon>emblems/emblem_yayo.png</Icon>
+    <Icon>emblems/emblem_bactr.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">
