@@ -11,7 +11,7 @@
 	"TeamBonuses":
 	[],
 	"WallSets": [
-				"structures/wallset_palisade",
+		"structures/wallset_palisade",
 		"structures/illy/wallset_stone"
 	],
 	"StartEntities": [
@@ -48,6 +48,7 @@
 		"Scerdilaidas"
 	],
 	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/illy/cavalry_spearman_b",
 		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
