@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+    <Builder>
+    <Entities datatype="tokens">
+      structures/gara/camp_caravan
+
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>liby</Civ>
+    <SpecificName>Gýnē Athēnaía</SpecificName>
+    <GenericName>gara Woman</GenericName>
+    <Icon>units/gara/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/gara/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

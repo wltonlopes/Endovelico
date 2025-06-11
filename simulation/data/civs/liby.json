@@ -1,0 +1,57 @@
+{
+	"Code": "liby",
+	"Name": "Libyans",
+	"Culture": "Saara",
+	"Music":[
+		{ "File": "Mediterranean_Waves.ogg", "Type": "peace" },
+		{ "File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace" },
+		{ "File": "Ammon-Ra.ogg", "Type": "peace" },
+		{ "File": "Sands_of_Time.ogg", "Type": "peace" },
+		{ "File": "Land_between_the_two_Seas.ogg", "Type": "peace" }
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets": [
+		"structures/liby/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/liby/civil_centre"
+		},
+		{
+			"Template": "units/liby/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/liby/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/liby/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/liby/cavalry_javelineer_b"
+		}
+	],
+	"AINames":
+	[
+		"Djalla",
+		"Gildo",
+		"Iddibal",
+		"Iassuchtan",
+		"Iaremaban"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}/house",
+    "skirmish/units/special_starting_unit": "units/liby/chariot_javelineer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/liby/infantry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/liby/infantry_spearman_b",
+	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_arrow"
+	},
+	"SelectableInGameSetup": true
+}

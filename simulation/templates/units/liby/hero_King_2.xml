@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>liby</Civ>
+    <GenericName>King</GenericName>
+    <Icon>units/pers_hero_cyrus.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/hero_infantry_swordsman.xml</Actor>
+  </VisualActor>
+</Entity>

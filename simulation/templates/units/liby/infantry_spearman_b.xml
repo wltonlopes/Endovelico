@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+    <Builder>
+    <Entities datatype="tokens">
+      structures/gara/camp_caravan
+
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>liby</Civ>
+    <SelectionGroupName>units/gara/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Garamantian Spearman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/gara/infantry_spearman_desert.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/liby/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/garamantians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>
