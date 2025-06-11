@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sprites>
-	<sprite name="bg_suevo">
+	<sprite name="bg_arawaks">
 		<image
-			texture="pregame/backgrounds/bg_suevo.png"
+			texture="pregame/backgrounds/bg_arawaks.png"
 			fixed_h_aspect_ratio="2"
 			round_coordinates="false"
 		/>
