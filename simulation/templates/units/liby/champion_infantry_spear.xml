@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>liby</Civ>
+    <GenericName>Garamantian Hoplite</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/gara/champion_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

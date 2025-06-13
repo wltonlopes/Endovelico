@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Identity>
+    <Civ>himya</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/himyar/market.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -4,13 +4,14 @@
     <Territory>own neutral ally enemy</Territory>
   </BuildRestrictions>
   <Footprint replace="">
-    <Circle radius="8"/>
+    <Circle radius="8" />
     <Height>10</Height>
   </Footprint>
   <Identity>
     <Civ>yuez</Civ>
     <Lang>mandarin</Lang>
-    <Tooltip>Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this Storehouse across the map.</Tooltip>
+    <Tooltip>Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this
+      Storehouse across the map.</Tooltip>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens" replace="">
@@ -31,8 +32,8 @@
   <StatusBars>
     <HeightOffset>9</HeightOffset>
   </StatusBars>
-  <TerritoryDecay disable=""/>
-  <TerritoryInfluence disable=""/>
+  <TerritoryDecay disable="" />
+  <TerritoryInfluence disable="" />
   <Upgrade>
     <Pack>
       <Entity>units/yuez/support_wagon</Entity>
@@ -40,7 +41,7 @@
     </Pack>
   </Upgrade>
   <VisualActor>
-    <ConstructionPreview disable=""/>
+    <ConstructionPreview disable="" />
     <Actor>structures/yuezhi/storehouse.xml</Actor>
     <FoundationActor>structures/scythians/storehouse_foundation.xml</FoundationActor>
   </VisualActor>
