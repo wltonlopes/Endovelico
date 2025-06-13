@@ -5,7 +5,7 @@
     <Height>10.0</Height>
   </Footprint>
   <Identity>
-  <Civ>aden</Civ>
+    <Civ>chibc</Civ>
     <SpecificName>ygaraíba</SpecificName>
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>
