@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="Base" frequency="1">
+	<animations>
+		<animation file="quadraped/camel_bactrian_idle_01.dae" name="idle" id="idle1" speed="80"/>
+		<animation file="quadraped/camel_bactrian_idle_02.dae" name="idle" id="idle2" speed="80"/>
+		<animation file="quadraped/camel_bactrian_idle_03.dae" name="idle" id="idle3" speed="80"/>
+		<animation file="quadraped/camel_bactrian_idle_01.dae" name="idle" id="idle4" speed="80"/>
+		<animation file="quadraped/camel_bactrian_death.dae" name="death" speed="120"/>
+		<animation file="quadraped/camel_bactrian_walk.dae" name="walk" speed="15"/>
+		<animation file="quadraped/camel_bactrian_trot.dae" name="run" speed="5"/>
+	</animations>
+</variant>

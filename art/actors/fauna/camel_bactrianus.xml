@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/camel_bactrianus.dae</mesh>
+      <props>
+        <prop actor="props/camel/teeths.xml" attachpoint="mouth_bot"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="Dark Brown">
+      <textures>
+        <texture file="skeletal/camel_bactrianus.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/base_camel_bactrianus_mount.xml"/>
+    <variant file="quadraped/base_camel_bactrianus_run.xml"/>
+    <variant file="quadraped/base_camel_bactrianus_build.xml"/>
+    <variant file="quadraped/base_camel_bactrianus_gather_meat.xml"/>
+    <variant file="quadraped/base_camel_bactrianus_death.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

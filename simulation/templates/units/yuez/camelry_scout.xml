@@ -2,10 +2,22 @@
 <Entity parent="scout_cavalry_javelineer">
   <Identity>
     <Civ>yuez</Civ>
+    <SpecificName>Yuezhi Camelry Scout</SpecificName>
     <SpecificName>Yuezhi Scout</SpecificName>
     <Icon>units/xion/camelry_scout.png</Icon>
+    <VisibleClasses datatype="tokens">-Cavalry Camel</VisibleClasses>
   </Identity>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/camel_select.xml</select>
+      <order_walk>actor/fauna/movement/camel_order.xml</order_walk>
+      <death>actor/fauna/death/death_camel.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.5</HeightOffset>
+  </StatusBars>
   <VisualActor>
-    <Actor>units/xiongnu/camelry_scout.xml</Actor>
+    <Actor>units/yuezhi/camelry_scout_m.xml</Actor>
   </VisualActor>
 </Entity>

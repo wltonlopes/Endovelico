@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_hunt_skittish">
+	<Auras datatype="tokens">
+    structures/corral_garrison_medium
+  </Auras>
+	<Footprint>
+		<Square width="2.5" depth="5.0"/>
+		<Height>5.5</Height>
+	</Footprint>
+	<Health>
+		<Max>50</Max>
+	</Health>
+	<Identity>
+		<GenericName>Camelus Bactrian</GenericName>
+		<SpecificName>Camelus Bactrian</SpecificName>
+		<Icon>gaia/fauna_camel.png</Icon>
+	</Identity>
+	<Loot>
+		<xp>10</xp>
+	</Loot>
+	<ResourceSupply>
+		<Max>200</Max>
+	</ResourceSupply>
+	<Sound>
+		<SoundGroups>
+			<select>actor/fauna/animal/camel_select.xml</select>
+			<order_walk>actor/fauna/movement/camel_order.xml</order_walk>
+			<death>actor/fauna/death/death_camel.xml</death>
+		</SoundGroups>
+	</Sound>
+	<StatusBars>
+		<HeightOffset>6.5</HeightOffset>
+	</StatusBars>
+	<UnitMotion>
+		<WalkSpeed op="mul">0.45</WalkSpeed>
+		<Acceleration op="mul">0.45</Acceleration>
+	</UnitMotion>
+	<VisualActor>
+		<Actor>fauna/camel_bactrian.xml</Actor>
+	</VisualActor>
+</Entity>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skeletons>
+  <standard_skeleton title="Armature Camel Bactrianus" id="Armature_Camel_Bactrianus">
+    <bone name="root">
+      <bone name="non_spine_front">
+        <bone name="non_head">
+          <bone name="bactrianus_head"/>
+        </bone>
+        <bone name="bactrianus_spine">
+          <bone name="bactrianus_neck_03">
+            <bone name="bactrianus_neck_02">
+              <bone name="bactrianus_neck_01">
+                <bone name="bactrianus_neck">
+                  <bone name="bactrianus_head_01">
+                    <bone name="bactrianus_bot_jaw_01">
+                      <bone name="bactrianus_bot_jaw_02"/>
+                    </bone>
+                    <bone name="bactrianus_top_jaw">
+                      <bone name="bactrianus_top_jaw_r"/>
+                      <bone name="bactrianus_top_jaw_l"/>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+              <bone name="non_gloitre">
+                <bone name="bactrianus_goitre"/>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="bactrianus_shoulder_r">
+          <bone name="bactrianus_upperarm_r">
+            <bone name="bactrianus_arm_r">
+              <bone name="bactrianus_forearm_r">
+                <bone name="bactrianus_front_foot_r">
+                  <bone name="bactrianus_front_hoof_r"/>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="bactrianus_shoulder_l">
+          <bone name="bactrianus_upperarm_l">
+            <bone name="bactrianus_arm_l">
+              <bone name="bactrianus_forearm_l">
+                <bone name="bactrianus_front_foot_l">
+                  <bone name="bactrianus_front_hoof_l"/>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="non_spine_stretch">
+          <bone name="bactrianus_belly"/>
+          <bone name="bactrianus_ctrl_belly"/>
+        </bone>
+      </bone>
+      <bone name="non_bactrianus_spine_back">
+        <bone name="bactrianus_pelvis">
+          <bone name="bactrianus_tail_root">
+            <bone name="bactrianus_tail">
+              <bone name="bactrianus_tail_01">
+                <bone name="bactrianus_tail_02">
+                  <bone name="bactrianus_tail_03"/>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="bactrianus_femur_r">
+            <bone name="bactrianus_back_leg_r">
+              <bone name="bactrianus_foreleg_r">
+                <bone name="bactrianus_shin_r">
+                  <bone name="bactrianus_foot_r">
+                    <bone name="bactrianus_hoof_back_r"/>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="bactrianus_femur_l">
+            <bone name="bactrianus_back_leg_l">
+              <bone name="bactrianus_foreleg_l">
+                <bone name="bactrianus_shin_l">
+                  <bone name="bactrianus_foot_l">
+                    <bone name="bactrianus_hoof_back_l"/>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="bactrianus_spine_02">
+          <bone name="bactrianus_spine_01"/>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="non_root">
+      <bone name="Ctrl_knee_F.R"/>
+      <bone name="Ctrl_knee_B.R"/>
+      <bone name="Ctrl_knee_F.L"/>
+      <bone name="Ctrl_knee_B.L"/>
+      <bone name="bactrianus_rein"/>
+    </bone>
+    <bone name="non_target"/>
+    <bone name="Camel_Bactrianus"/>
+  </standard_skeleton>
+  <skeleton title="Armature Camel Bactrianus" target="Armature_Camel_Bactrianus">
+    <identifier>
+      <root>root</root>
+    </identifier>
+    <bone name="root">
+      <target>root</target>
+      <bone name="non_spine_front">
+        <target>non_spine_front</target>
+        <bone name="non_head">
+          <target>non_head</target>
+          <bone name="bactrianus_head">
+            <target>bactrianus_head</target>
+          </bone>
+        </bone>
+        <bone name="bactrianus_spine">
+          <target>bactrianus_spine</target>
+          <bone name="bactrianus_neck_03">
+            <target>bactrianus_neck_03</target>
+            <bone name="bactrianus_neck_02">
+              <target>bactrianus_neck_02</target>
+              <bone name="bactrianus_neck_01">
+                <target>bactrianus_neck_01</target>
+                <bone name="bactrianus_neck">
+                  <target>bactrianus_neck</target>
+                  <bone name="bactrianus_head_01">
+                    <target>bactrianus_head_01</target>
+                    <bone name="bactrianus_bot_jaw_01">
+                      <target>bactrianus_bot_jaw_01</target>
+                      <bone name="bactrianus_bot_jaw_02">
+                        <target>bactrianus_bot_jaw_02</target>
+                      </bone>
+                    </bone>
+                    <bone name="bactrianus_top_jaw">
+                      <target>bactrianus_top_jaw</target>
+                      <bone name="bactrianus_top_jaw_r">
+                        <target>bactrianus_top_jaw_r</target>
+                      </bone>
+                      <bone name="bactrianus_top_jaw_l">
+                        <target>bactrianus_top_jaw_l</target>
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+              <bone name="non_gloitre">
+                <target>non_gloitre</target>
+                <bone name="bactrianus_goitre">
+                  <target>bactrianus_goitre</target>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="bactrianus_shoulder_r">
+          <target>bactrianus_shoulder_r</target>
+          <bone name="bactrianus_upperarm_r">
+            <target>bactrianus_upperarm_r</target>
+            <bone name="bactrianus_arm_r">
+              <target>bactrianus_arm_r</target>
+              <bone name="bactrianus_forearm_r">
+                <target>bactrianus_forearm_r</target>
+                <bone name="bactrianus_front_foot_r">
+                  <target>bactrianus_front_foot_r</target>
+                  <bone name="bactrianus_front_hoof_r">
+                    <target>bactrianus_front_hoof_r</target>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="bactrianus_shoulder_l">
+          <target>bactrianus_shoulder_l</target>
+          <bone name="bactrianus_upperarm_l">
+            <target>bactrianus_upperarm_l</target>
+            <bone name="bactrianus_arm_l">
+              <target>bactrianus_arm_l</target>
+              <bone name="bactrianus_forearm_l">
+                <target>bactrianus_forearm_l</target>
+                <bone name="bactrianus_front_foot_l">
+                  <target>bactrianus_front_foot_l</target>
+                  <bone name="bactrianus_front_hoof_l">
+                    <target>bactrianus_front_hoof_l</target>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="non_spine_stretch">
+          <target>non_spine_stretch</target>
+          <bone name="bactrianus_belly">
+            <target>bactrianus_belly</target>
+          </bone>
+          <bone name="bactrianus_ctrl_belly">
+            <target>bactrianus_ctrl_belly</target>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="non_bactrianus_spine_back">
+        <target>non_bactrianus_spine_back</target>
+        <bone name="bactrianus_pelvis">
+          <target>bactrianus_pelvis</target>
+          <bone name="bactrianus_tail_root">
+            <target>bactrianus_tail_root</target>
+            <bone name="bactrianus_tail">
+              <target>bactrianus_tail</target>
+              <bone name="bactrianus_tail_01">
+                <target>bactrianus_tail_01</target>
+                <bone name="bactrianus_tail_02">
+                  <target>bactrianus_tail_02</target>
+                  <bone name="bactrianus_tail_03">
+                    <target>bactrianus_tail_03</target>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="bactrianus_femur_r">
+            <target>bactrianus_femur_r</target>
+            <bone name="bactrianus_back_leg_r">
+              <target>bactrianus_back_leg_r</target>
+              <bone name="bactrianus_foreleg_r">
+                <target>bactrianus_foreleg_r</target>
+                <bone name="bactrianus_shin_r">
+                  <target>bactrianus_shin_r</target>
+                  <bone name="bactrianus_foot_r">
+                    <target>bactrianus_foot_r</target>
+                    <bone name="bactrianus_hoof_back_r">
+                      <target>bactrianus_hoof_back_r</target>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="bactrianus_femur_l">
+            <target>bactrianus_femur_l</target>
+            <bone name="bactrianus_back_leg_l">
+              <target>bactrianus_back_leg_l</target>
+              <bone name="bactrianus_foreleg_l">
+                <target>bactrianus_foreleg_l</target>
+                <bone name="bactrianus_shin_l">
+                  <target>bactrianus_shin_l</target>
+                  <bone name="bactrianus_foot_l">
+                    <target>bactrianus_foot_l</target>
+                    <bone name="bactrianus_hoof_back_l">
+                      <target>bactrianus_hoof_back_l</target>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="bactrianus_spine_02">
+          <target>bactrianus_spine_02</target>
+          <bone name="bactrianus_spine_01">
+            <target>bactrianus_spine_01</target>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="non_root">
+      <target>non_root</target>
+      <bone name="Ctrl_knee_F.R">
+        <target>Ctrl_knee_F.R</target>
+      </bone>
+      <bone name="Ctrl_knee_B.R">
+        <target>Ctrl_knee_B.R</target>
+      </bone>
+      <bone name="Ctrl_knee_F.L">
+        <target>Ctrl_knee_F.L</target>
+      </bone>
+      <bone name="Ctrl_knee_B.L">
+        <target>Ctrl_knee_B.L</target>
+      </bone>
+      <bone name="bactrianus_rein">
+        <target>bactrianus_rein</target>
+      </bone>
+    </bone>
+    <bone name="non_target">
+      <target>non_target</target>
+    </bone>
+    <bone name="Camel_Bactrianus">
+      <target>Camel_Bactrianus</target>
+    </bone>
+  </skeleton>
+</skeletons>

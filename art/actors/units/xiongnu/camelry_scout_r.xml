@@ -28,9 +28,8 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/camelry/promotion.xml"/>
     <variant file="biped/rider/camelry/attack_ranged_javelinist_bag.xml"/>
-    <variant file="biped/rider/camelry/attack_slaughter.xml"/>
+    <variant file="biped/rider/attack_slaughter.xml"/>
     <variant file="biped/rider/camelry/gather_meat.xml"/>
     <variant file="biped/build.xml"/>
   </group>
