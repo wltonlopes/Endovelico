@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Attack>
+    <Ranged>
+      <ApplyStatus>
+        <Poisoned>
+          <Interval>2000</Interval>
+          <Damage>
+            <Poison>1</Poison>
+          </Damage>
+          <Stackability>Extend</Stackability>
+          <Duration>10000</Duration>
+        </Poisoned>
+      </ApplyStatus>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>himya</Civ>
+    <Phenotype>female</Phenotype>
+    <GenericName>Maiden Guard Archer</GenericName>
+    <SpecificName>Visha Kanya</SpecificName>
+    <Icon>units/maur/champion_maiden_archer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryas/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

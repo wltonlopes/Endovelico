@@ -3,7 +3,7 @@
 	<sprite name="bg_suevo">
 		<image
 			texture="pregame/backgrounds/bg_suevo.png"
-			fixed_h_aspect_ratio="0"
+			fixed_h_aspect_ratio="2"
 			round_coordinates="false"
 		/>
 	</sprite>

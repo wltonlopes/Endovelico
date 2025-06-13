@@ -2,7 +2,7 @@
 <sprites>
 	<sprite name="bg_mayas">
 		<image
-			texture="pregame/backgrounds/bg_tamil.png"
+			texture="pregame/backgrounds/bg_mayas.png"
 			fixed_h_aspect_ratio="2"
 			round_coordinates="false"
 		/>

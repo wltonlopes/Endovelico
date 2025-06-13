@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Identity>
+    <Civ>himya</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/himyar/arsenal.xml</Actor>
+  </VisualActor>
+</Entity>

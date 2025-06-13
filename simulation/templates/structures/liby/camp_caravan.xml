@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Category>CampCaravan</Category>
+    <Distance>
+      <FromClass>CampCaravan</FromClass>
+      <MinDistance>230</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="29.0" depth="29.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>liby</Civ>
+    <GenericName>Caravan Camp</GenericName>
+    <Tooltip>Train desert units</Tooltip>
+    <Classes datatype="tokens">CampCaravan</Classes>
+     <VisibleClasses datatype="tokens">Trade Town Market</VisibleClasses>
+    <Icon>structures/mercenary_camp.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>20</wood>
+    <metal>20</metal>
+  </Loot>
+  <Market>
+    <TradeType>land</TradeType>
+    <InternationalBonus>0.2</InternationalBonus>
+  </Market>
+  <Obstruction>
+    <Static width="29.0" depth="29.0"/>
+  </Obstruction>
+   <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{native}/cavalry_javelineer_merc_b
+      units/{civ}/support_female_citizen_desert
+      units/{civ}/support_trader    
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/mercenaries/camp_blemmye.xml</Actor>
+    <FoundationActor>structures/fndn_8x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

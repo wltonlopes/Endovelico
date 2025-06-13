@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="26.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>himya</Civ>
+    <SpecificName></SpecificName>
+    <Tooltip>Build siege engines and train Champions. Garrison soldiers inside for stout defense.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="24.0" depth="26.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_judah
+      units/{civ}/hero_herod
+      units/{civ}/hero_simon
+      units/{civ}/hero_salome
+      units/{civ}/hero_john
+	 </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/himyar/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>23</Length>
+    <Indent>7.8</Indent>
+  </WallPiece>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>himya</Civ>
+    <Phenotype>female</Phenotype>
+    <GenericName>Maiden Guard</GenericName>
+    <SpecificName>Visha Kanya</SpecificName>
+    <SelectionGroupName>units/himya/champion_maiden</SelectionGroupName>
+    <Icon>units/maur/champion_maiden.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryas/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

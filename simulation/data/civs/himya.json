@@ -1,0 +1,74 @@
+{
+	"Code": "himya",
+	"Name": "Himyarite",
+	"Culture": "Arab",
+	"Music": [
+		{
+			"File": "Helen_Leaves_Sparta.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Peaks_of_Atlas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets": [
+		"structures/himya/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/himya/civil_centre"
+		},
+		{
+			"Template": "units/himya/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/himya/infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/himya/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/himya/cavalry_javelineer_b"
+		}
+	],
+	"AINames": [
+		"Judah",
+		"John",
+		"Jonathan",
+		"Simon",
+		"Mattathias",
+		"Salome Alexandra",
+		"Herod",
+		"Jesus",
+		"David",
+		"Mary",
+		"Joseph",
+		"Magdalene"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}/house",
+    "skirmish/units/special_starting_unit": "units/himya/chariot_javelineer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/himya/infantry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/himya/infantry_spearman_b",
+	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_arrow"
+	},
+	"SelectableInGameSetup": true
+}
