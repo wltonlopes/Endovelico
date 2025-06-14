@@ -8,7 +8,7 @@
     <Icon>units/thra/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/thra/infantry_spearman_a</Entity>
+    <Entity>units/arme/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thracians/infantry_spearman_b.xml</Actor>

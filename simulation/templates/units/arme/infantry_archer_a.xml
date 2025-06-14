@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/daci/infantry_archer_b">
+<Entity parent="units/arme/infantry_archer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/thra/infantry_archer_e</Entity>
+    <Entity>units/arme/infantry_archer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thracians/infantry_archer_a.xml</Actor>
