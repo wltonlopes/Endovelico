@@ -15,25 +15,25 @@
   </group>
   <group>
     <variant frequency="1" name="house a">
-<mesh>structural/armenia/house_1.dae</mesh>
+<mesh>structural/kartli/house_1.dae</mesh>
       <textures>
          <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-<mesh>structural/armenia/house_2.dae</mesh>
+<mesh>structural/kartli/house_2.dae</mesh>
       <textures>
          <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-<mesh>structural/armenia/house_3.dae</mesh>
+<mesh>structural/kartli/house_3.dae</mesh>
       <textures>
          <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/armenia/house_2.dae</mesh>
+<mesh>structural/kartli/house_2.dae</mesh>
       <textures>
                 <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>

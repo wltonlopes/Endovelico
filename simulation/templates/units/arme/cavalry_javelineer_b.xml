@@ -8,7 +8,7 @@
     <Icon>units/thra/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/thra/cavalry_javelineer_a</Entity>
+    <Entity>units/arme/cavalry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thracians/cavalry_javelinist_b_m.xml</Actor>
