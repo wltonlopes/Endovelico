@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="scout_cavalry_swordsman">
   <Identity>
-    <Civ>han</Civ>
+    <Civ>vyadh</Civ>
     <SpecificName>Vyadhapuran Scout</SpecificName>
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>

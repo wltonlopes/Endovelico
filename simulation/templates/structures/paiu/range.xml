@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
+    <Civ>paiu</Civ>
     <GenericName>Range</GenericName>
     <SpecificName>Ikusa nö Nipa</SpecificName>
   </Identity>

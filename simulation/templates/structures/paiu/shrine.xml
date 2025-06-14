@@ -21,7 +21,7 @@
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
+    <Civ>paiu</Civ>
     <GenericName>Shrine</GenericName>
     <SpecificName>Jinja</SpecificName>
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>

@@ -21,7 +21,7 @@
     <Max>1000</Max>
   </Health>
   <Identity>
-    <Civ>athen</Civ>
+    <Civ>urewe</Civ>
     <GenericName>Big forge</GenericName>
     <SpecificName> </SpecificName>
     <Tooltip>Research technologies.</Tooltip>
@@ -36,7 +36,6 @@
   <Obstruction>
     <Static width="24.0" depth="30.0"/>
   </Obstruction>
-
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_tholos.xml</select>

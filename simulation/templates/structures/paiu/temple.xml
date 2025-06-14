@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
+    <Civ>paiu</Civ>
     <SpecificName>Miya</SpecificName>
   </Identity>
   <Obstruction>

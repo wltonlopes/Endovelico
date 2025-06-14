@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_arsenal">
   <Footprint>
-    <Square width="26.0" depth="26.0"/>
+    <Square width="26.0" depth="26.0" />
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -9,11 +9,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
-    <SpecificName>Takumiya</SpecificName> 
+    <Civ>paiu</Civ>
+    <SpecificName>Takumiya</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="24.0"/>
+    <Static width="24.0" depth="24.0" />
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">

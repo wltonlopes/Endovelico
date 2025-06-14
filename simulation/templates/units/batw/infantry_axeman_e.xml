@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/yawa/infantry_swordsman_a">
+<Entity parent="units/batw/infantry_axeman_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/gojoseon/infantry_swordsman_e.xml</Actor>
+    <Actor>units/urewe/infantry_axeman_e.xml</Actor>
   </VisualActor>
 </Entity>
