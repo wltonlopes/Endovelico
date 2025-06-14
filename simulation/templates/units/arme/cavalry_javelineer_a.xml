@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/daci/cavalry_javelineer_b">
+<Entity parent="units/arme/cavalry_javelineer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/thra/cavalry_javelineer_e</Entity>
+    <Entity>units/arme/cavalry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thracians/cavalry_javelinist_a_m.xml</Actor>

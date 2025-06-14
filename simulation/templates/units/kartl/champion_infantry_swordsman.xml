@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>kartl</Civ>
+    <GenericName>Triballi Tribesmen</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/thra/champion_infantry_swordsman.png</Icon>
+  </Identity>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
+  <VisualActor>
+    <Actor>units/thracians/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

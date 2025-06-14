@@ -1,0 +1,61 @@
+﻿{
+	"Code": "kartl",
+	"Culture": "kartli",
+	"Music":[
+		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
+		{ "File": "Sunrise.ogg", "Type": "peace" }
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/kartl/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/kartl/civil_centre"
+		},
+		{
+			"Template":"units/kartl/support_female_citizen",
+			"Count":5
+		},
+		{
+			"Template": "units/kartl/infantry_spearman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/kartl/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/kartl/cavalry_javelineer_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+
+    "Teres I",	
+    "Seuthes III",
+    "Sitalces",
+	"Kotys I",
+	"Zyraxes",
+	"Burebista",
+	"Decebalus"
+
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/kartl/cavalry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/kartl/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/kartl/infantry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/kartl/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}
