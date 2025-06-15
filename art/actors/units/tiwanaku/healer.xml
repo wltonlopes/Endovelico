@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_healer_female.xml">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/iber_healer_staff.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/capes/cape_long_gaul.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="skeletal/moch/h_f_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+    </group>  
+  <group>
+    <variant frequency="80" name="h_s">
+      <props>
+              <prop actor="props/units/helmets/helmet_sarc_moch.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_andean_north_coast_fem.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="20" name="h_n">
+      <props>
+              <prop actor="props/units/helmets/helmet_sarc_moch.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_andean_north_coast_fem.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Idle" frequency="1"/>
+    <variant file="biped/female_death.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
