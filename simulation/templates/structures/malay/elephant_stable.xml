@@ -2,6 +2,9 @@
 <Entity parent="template_structure_military_elephant_stable">
   <Identity>
     <Civ>malay</Civ>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_town</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>structures/malaydwipa/stable_elephant.xml</Actor>

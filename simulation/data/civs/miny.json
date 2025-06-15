@@ -38,10 +38,6 @@
             "Count": 1
         },
         {
-            "Template": "units/miny/champion_infantry_bellringer",
-            "Count": 1
-        },
-        {
             "Template": "units/miny/cavalry_scout"
         }
     ],
@@ -56,7 +52,7 @@
         "skirmish/units/default_cavalry": "units/miny/cavalry_scout",
         "skirmish/units/default_infantry_melee_b": "units/miny/infantry_swordsman_b",
         "skirmish/units/default_infantry_ranged_b": "units/miny/infantry_archer_b",
-        "skirmish/units/special_starting_unit": "units/miny/champion_infantry_bellringer",
+        "skirmish/units/default_cavalry_ranged_b": "units/miny/cavalry_archer_b",
         "skirmish/units/default_ship_trireme": "units/miny/ship_bireme"
     },
     "SelectableInGameSetup": true

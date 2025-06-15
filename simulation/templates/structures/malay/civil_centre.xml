@@ -11,7 +11,7 @@
     <Entities datatype="tokens">
       units/{civ}/infantry_archer_b
       units/{civ}/cavalry_javelineer_b
-	  units/{civ}/infantry_spearman_b
+	    units/{civ}/infantry_spearman_b
     </Entities>
   </Trainer>
   <VisualActor>

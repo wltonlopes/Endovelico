@@ -9,8 +9,8 @@
   </Footprint>
   <Identity>
     <Civ>malay</Civ>
-    <GenericName>Ashoka the Great</GenericName>
-    <SpecificName>Aśoka Devānāmpriya</SpecificName>
+    <GenericName>Sungai batu</GenericName>
+    <SpecificName>Sungai batu</SpecificName>
     <Classes datatype="tokens">Ashoka</Classes>
     <Icon>units/maur/hero_ashoka.png</Icon>
   </Identity>

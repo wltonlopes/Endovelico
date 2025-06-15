@@ -38,10 +38,6 @@
             "Count": 1
         },
         {
-            "Template": "units/yayo/champion_infantry_bellringer",
-            "Count": 1
-        },
-        {
             "Template": "units/yayo/infantry_scout"
         }
     ],
@@ -62,7 +58,7 @@
         "skirmish/units/default_cavalry": "units/yayo/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/yayo/infantry_axeman_b",
         "skirmish/units/default_infantry_ranged_b": "units/yayo/infantry_archer_b",
-        "skirmish/units/special_starting_unit": "units/yayo/champion_infantry_bellringer",
+        "skirmish/units/default_cavalry_ranged_b": "units/yayo/cavalry_archer_b",
         "skirmish/units/default_ship_trireme": "units/yayo/ship_bireme"
     },
     "SelectableInGameSetup": true
