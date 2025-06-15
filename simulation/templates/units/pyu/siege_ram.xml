@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>pyu</Civ>
-    <Icon>units/maur/siege_ram.png</Icon>
+    <Icon>units/pyu/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/mauryas/siege_ram.xml</Actor>

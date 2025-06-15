@@ -34,10 +34,6 @@
 		{
 			"Template": "units/batw/cavalry_archer_b",
 			"Count": 1
-		},
-		{
-			"Template": "units/batw/champion_infantry_bellringer",
-			"Count": 1
 		}
 	],
 
@@ -53,7 +49,6 @@
 		"skirmish/units/default_cavalry": "units/batw/cavalry_archer_b",
 		"skirmish/units/default_infantry_melee_b": "units/batw/infantry_axeman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/batw/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/batw/champion_infantry_bellringer",
 	  "skirmish/units/default_ship_trireme":"units/batw/ship_bireme"
 	},
 	"SelectableInGameSetup": true
