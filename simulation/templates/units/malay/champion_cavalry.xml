@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_javelineer">
+  <Identity>
+    <Civ>malay</Civ>
+    <SelectionGroupName>units/malay/champion_cavalry</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/iber/champion_cavalry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/malaydwipa/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>
