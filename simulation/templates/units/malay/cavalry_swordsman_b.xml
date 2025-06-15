@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_swordsman">
+<Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>malay</Civ>
-    <SelectionGroupName>units/maur/cavalry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/malay/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Indian Raiding Cavalry</GenericName>
     <SpecificName>Aśvārohagaṇaḥ</SpecificName>
     <Icon>units/maur/cavalry_swordsman.png</Icon>

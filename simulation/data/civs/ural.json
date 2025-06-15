@@ -58,7 +58,6 @@
 		"skirmish/units/default_cavalry": "units/ural/cavalry_archer_b",
 		"skirmish/units/default_infantry_melee_b": "units/ural/infantry_axeman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/ural/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/ural/champion_infantry_bellringer",
 	  "skirmish/units/default_ship_trireme":"units/ural/ship_bireme"
 	},
 	"SelectableInGameSetup": false

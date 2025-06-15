@@ -7,6 +7,6 @@
     <Icon>units/iber/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/malaydwipa/cavalry_spearman_c_m.xml</Actor>
+    <Actor>units/malaydwipa/cavalry_javalineer_c_m.xml</Actor>
   </VisualActor>
 </Entity>
