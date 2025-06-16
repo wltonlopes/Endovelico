@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/moch_support_healer_e</Entity>
+    <Entity>units/tiwa/support_healer_e</Entity>
   </Promotion>
 </Entity>
