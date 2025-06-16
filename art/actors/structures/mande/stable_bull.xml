@@ -2,9 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="stable_bull">
-
-      <mesh>structural/mande/stable_bull.dae</mesh>
+    <variant frequency="1" name="Mande Stable Bull">
+      <mesh>structural/mande/stable.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
@@ -20,8 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_mande.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

@@ -28,18 +28,18 @@
   <ResourceSupply>
     <Max>70</Max>
     <MaxGatherers>2</MaxGatherers>
-  </ResourceSupply> 
+  </ResourceSupply>
   <Sound>
     <SoundGroups>
       <panic>actor/fauna/animal/turkey_attack.xml</panic>
-      <select>actor/faunturkey_basea/animal/turkey_select.xml</select>
+      <select>actor/fauna/animal/turkey_select.xml</select>
       <death>actor/fauna/animal/turkey_attack.xml</death>
+      <move>actor/fauna/animal/turkey_move.xml</move>
     </SoundGroups>
   </Sound>
   <StatusBars>
     <HeightOffset>4.5</HeightOffset>
   </StatusBars>
-
   <UnitMotion>
     <WalkSpeed op="mul">0.25</WalkSpeed>
   </UnitMotion>
