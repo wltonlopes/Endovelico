@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Attack>
     <Ranged>
@@ -12,7 +11,7 @@
   </Footprint>
   <Identity>
     <Civ>batw</Civ>
-    <SelectionGroupName>units/urewe/cavalry_javelineer_b</SelectionGroupName>
+    <SelectionGroupName>units/batw/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Desert Raider</GenericName>
     <SpecificName>nhw Bulahau gml</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>

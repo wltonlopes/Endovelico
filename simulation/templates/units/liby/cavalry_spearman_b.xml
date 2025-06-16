@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>liby</Civ>
-    <SelectionGroupName>units/gara/cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/liby/cavalry_spearman_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <GenericName>Garamantian Heavy Camel</GenericName>
     <SpecificName>Htr</SpecificName>

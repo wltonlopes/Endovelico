@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_maceman">
   <Identity>
     <Civ>tiwa</Civ>
-    <SelectionGroupName>units/moch/infantry_maceman_b</SelectionGroupName>
+    <SelectionGroupName>units/tiwa/infantry_maceman_b</SelectionGroupName>
     <GenericName>Maceman</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName/>
     <Icon>units/moch/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
     <Builder>
     <Entities datatype="tokens">
@@ -8,9 +7,9 @@
   </Builder>
   <Identity>
     <Civ>liby</Civ>
-    <SelectionGroupName>units/gara/infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/liby/infantry_spearman_b</SelectionGroupName>
     <GenericName>Garamantian Spearman</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName/>
     <Icon>units/gara/infantry_spearman_desert.png</Icon>
   </Identity>
   <Promotion>

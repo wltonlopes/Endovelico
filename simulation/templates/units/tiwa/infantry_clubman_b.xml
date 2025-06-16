@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_clubman">
   <Identity>
     <Civ>tiwa</Civ>
-    <SelectionGroupName>units/moch/infantry_clubman_b</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SelectionGroupName>units/tiwa/infantry_clubman_b</SelectionGroupName>
+    <SpecificName/>
     <Icon>units/moch/infantry_clubman.png</Icon>
   </Identity>
   <Promotion>

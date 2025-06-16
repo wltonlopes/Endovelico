@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Cost>
     <Population>2</Population>
@@ -19,7 +18,7 @@
     <Civ>liby</Civ>
     <GenericName>Garamantian Chariot</GenericName>
     <SpecificName>Essedon</SpecificName>
-    <SelectionGroupName>units/gara/chariot_javelineer_b</SelectionGroupName>
+    <SelectionGroupName>units/liby/chariot_javelineer_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/cavaly_chariot_javelineer.png</Icon>
   </Identity>
@@ -28,7 +27,7 @@
   </Promotion>
    <ResourceGatherer>
     <Rates>
-      <food.meat  disable=""/>
+      <food.meat disable=""/>
     </Rates>
   </ResourceGatherer>
   <VisualActor>

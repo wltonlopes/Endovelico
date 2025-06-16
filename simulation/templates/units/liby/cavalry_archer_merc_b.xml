@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Attack>
     <Ranged>
@@ -12,7 +11,7 @@
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
-    <SelectionGroupName>units/gara/cavalry_archer_merc_b</SelectionGroupName>
+    <SelectionGroupName>units/liby/cavalry_archer_merc_b</SelectionGroupName>
     <GenericName>Desert Raider</GenericName>
     <SpecificName>nhw Bulahau gml</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>

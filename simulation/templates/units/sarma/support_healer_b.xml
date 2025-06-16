@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/sarma/support_healer_b</SelectionGroupName>
     <SpecificName>Enaree Shaman</SpecificName>
     <Icon>units/scyth/support_healer.png</Icon>
   </Identity>

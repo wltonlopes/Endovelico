@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_archer">
   <Footprint replace="">
     <Square width="5.0" depth="10.0"/>
@@ -8,7 +7,7 @@
     <Civ>liby</Civ>
     <GenericName>Garamantians Chariot</GenericName>
     <SpecificName>Essedon</SpecificName>
-    <SelectionGroupName>units/gara/champion_chariot</SelectionGroupName>
+    <SelectionGroupName>units/liby/champion_chariot</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/champion_chariot.png</Icon>
   </Identity>

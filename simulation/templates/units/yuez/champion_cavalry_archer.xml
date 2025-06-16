@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_archer">
   <Identity>
     <Civ>yuez</Civ>
     <GenericName>Xiongnu Warlord</GenericName>
-    <SelectionGroupName>units/xion/champion_cavalry</SelectionGroupName>
+    <SelectionGroupName>units/yuez/champion_cavalry_archer</SelectionGroupName>
     <Icon>units/xion/champion_cavalry.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

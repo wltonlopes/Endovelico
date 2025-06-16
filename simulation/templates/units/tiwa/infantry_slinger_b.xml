@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Builder>
     <Entities datatype="tokens">
@@ -6,7 +5,7 @@
   </Builder>
   <Identity>
     <Civ>tiwa</Civ>
-    <SelectionGroupName>units/moch/infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/tiwa/infantry_slinger_b</SelectionGroupName>
     <SpecificName>Talmoris</SpecificName>
     <Icon>units/moch/infantry_slinger.png</Icon>
     <Requirements>
