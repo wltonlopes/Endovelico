@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="tunic-basic-1a">
+      <textures>
+        <texture file="skeletal/pers/tunic_basic_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-basic-1b">
+      <textures>
+        <texture file="skeletal/pers/tunic_basic_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-basic-1c">
+      <textures>
+        <texture file="skeletal/pers/tunic_basic_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-basic-1d">
+      <textures>
+        <texture file="skeletal/pers/tunic_basic_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-basic-1e">
+      <textures>
+        <texture file="skeletal/pers/tunic_basic_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-basic-1f">
+      <textures>
+        <texture file="skeletal/pers/tunic_basic_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-basic-1g">
+      <textures>
+        <texture file="skeletal/pers/tunic_basic_01_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-basic-1h">
+      <textures>
+        <texture file="skeletal/pers/tunic_basic_01_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/fisher/base_pers.xml"/>
+    <variant file="biped/fisher/carry_pers.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/fisher/gather_fish.xml"/>
+    <variant file="biped/fisher/walk.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
