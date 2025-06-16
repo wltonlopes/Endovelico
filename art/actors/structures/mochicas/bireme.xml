@@ -3,16 +3,34 @@
   <castshadow/>
   <float/>
   <group>
-    <variant frequency="1" file="others/ships/moch_oars.xml" name="Mochica War Ship">
-	<mesh>structural/mochicas/ship_bireme.dae</mesh>
+    <variant frequency="1" file="others/ships/moch_oars.xml" name="base">
+	    <mesh>structural/mochicas/ship_arrow_1.dae</mesh>
       <props>
+        <prop actor="structures/mochicas/bireme_c1.xml" attachpoint="root"/>
         <prop actor="props/units/siege_artillery/bolt_projectile_med.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="structural/moch_struct.png" name="baseTex"/>
+        <texture file="structural/ship_moch.png" name="baseTex"/>
         <texture file="structural/moch_struct_spec.png" name="specTex"/>
         <texture file="structural/moch_struct_norm.png" name="normTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="50" name="c1">
+      <props>
+        <prop actor="structures/mochicas/bireme_c1.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="50" name="c2">
+      <props>
+        <prop actor="structures/mochicas/bireme_c2.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="50" name="p1">
+      <props>
+        <prop actor="structures/mochicas/bireme_p1.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
   <material>player_trans_parallax_spec.xml</material>

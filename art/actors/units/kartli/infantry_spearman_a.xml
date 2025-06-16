@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/pers_kidaris_loose_all.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/pers_tower_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/spear_ball.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="pers_isp_a_linothorax_1a">
+      <textures>
+        <texture file="skeletal/pers/linothorax_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_linothorax_1b">
+      <textures>
+        <texture file="skeletal/pers/linothorax_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_linothorax_1c">
+      <textures>
+        <texture file="skeletal/pers/linothorax_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_linothorax_1d">
+      <textures>
+        <texture file="skeletal/pers/linothorax_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_linothorax_1e">
+      <textures>
+        <texture file="skeletal/pers/linothorax_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_linothorax_1f">
+      <textures>
+        <texture file="skeletal/pers/linothorax_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1a">
+      <textures>
+        <texture file="skeletal/pers/padded_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1b">
+      <textures>
+        <texture file="skeletal/pers/padded_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1c">
+      <textures>
+        <texture file="skeletal/pers/padded_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1d">
+      <textures>
+        <texture file="skeletal/pers/padded_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1e">
+      <textures>
+        <texture file="skeletal/pers/padded_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1f">
+      <textures>
+        <texture file="skeletal/pers/padded_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1g">
+      <textures>
+        <texture file="skeletal/pers/padded_01_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1h">
+      <textures>
+        <texture file="skeletal/pers/padded_01_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="pers_isp_a_padded_1i">
+      <textures>
+        <texture file="skeletal/pers/padded_01_09.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_relax.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
