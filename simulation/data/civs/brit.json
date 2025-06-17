@@ -1,0 +1,97 @@
+{
+    "Code": "brit",
+    "Culture": "celt",
+    "Music": [
+        {
+            "File": "The_Fledgling_Kingdom.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Solstice_Festival.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Whistler.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "As_Seasons_Change.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Highland_Mist.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Celtica.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mountain_Idyll.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Albian_Nocturne.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "Deas Celtica",
+            "History": "Celtic religion and druidry inspired their warlike mindset.",
+            "Description": "Druids increase attack rates of soldiers near them by 5%."
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/brit/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/brit/civil_centre"
+        },
+        {
+            "Template": "units/brit/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/brit/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/brit/infantry_slinger_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/brit/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/brit/war_dog"
+        },
+        {
+            "Template": "units/brit/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Adminius",
+        "Cassivellaunus",
+        "Cogidubnus",
+        "Commius",
+        "Comux",
+        "Dubnovellaunus",
+        "Imanuentius",
+        "Mandubracius",
+        "Prasutagus",
+        "Venutius",
+        "Vosenius"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/brit/cavalry_scout",
+        "skirmish/units/default_infantry_ranged_b": "units/brit/infantry_slinger_b",
+        "skirmish/units/special_starting_unit": "units/brit/war_dog",
+        "skirmish/structures/default_house_5": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
+}

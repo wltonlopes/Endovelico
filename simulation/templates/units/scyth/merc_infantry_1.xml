@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="merc_inf|hoplite|template_unit_champion_infantry_spearman">
+<Entity parent="culture/nomad|merc_inf|hoplite|template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
-	<Lang>greek</Lang>
+    <Lang>greek</Lang>
     <SpecificName>Bosporan Hoplite</SpecificName>
     <Requirements>
       <Techs datatype="tokens">
+        -phase_city
         unlock_mercenary_infantry
       </Techs>
     </Requirements>

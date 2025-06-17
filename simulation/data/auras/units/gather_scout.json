@@ -1,0 +1,17 @@
+{
+    "type": "range",
+    "radius": 20,
+    "affects": [
+        "Worker"
+    ],
+    "modifications": [
+        {
+            "value": "ResourceGatherer/BaseSpeed",
+            "multiply": 1.05
+        }
+    ],
+    "auraName": "Scout over the Masses",
+    "auraDescription": "Gatherers +5% gathering rate for every nearby Scout.",
+    "overlayIcon": "art/textures/ui/session/auras/buildgather_bonus.png",
+    "stackable": true
+}

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_warship_scout">
   <Footprint>
-    <Square width="8.0" depth="33.0"/>
+    <Square width="8.0" depth="33.0" />
     <Height>10.0</Height>
   </Footprint>
   <Identity>
-  <Civ>aden</Civ>
+    <Civ>hisat</Civ>
     <SpecificName>ygaraíba</SpecificName>
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>

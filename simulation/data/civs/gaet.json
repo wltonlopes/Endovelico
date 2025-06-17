@@ -1,57 +1,59 @@
 ﻿{
-	"Code": "gaet",
-	"Culture": "Gaetuli",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/gaet/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/gaet/civil_centre"
-		},
-		{
-			"Template":"units/gaet/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/gaet/infantry_spearman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/gaet/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/gaet/cavalry_archer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Iarbas",	
-    "Suizei",
-    "Annei",
-	"Tacfarinas (Musulamii)"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/gaet/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/gaet/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/gaet/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/gaet/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "gaet",
+    "Culture": "Gaetuli",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/gaet/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/gaet/civil_centre"
+        },
+        {
+            "Template": "units/gaet/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/gaet/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/gaet/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/gaet/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/gaet/chariot_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Iarbas",
+        "Suizei",
+        "Annei",
+        "Tacfarinas (Musulamii)"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/gaet/chariot_scout",
+        "skirmish/units/default_infantry_melee_b": "units/gaet/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/gaet/infantry_archer_b",
+        "skirmish/units/default_cavalry_ranged_b": "units/gaet/cavalry_javelineer_b",
+        "skirmish/units/default_ship_trireme": "units/gaet/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

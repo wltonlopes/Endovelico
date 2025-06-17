@@ -10,9 +10,6 @@
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
-      <textures>
-        <texture file="skeletal/no_spec.png" name="specTex"/>
-      </textures>
     </variant>
   </group>
   <group>
@@ -46,16 +43,19 @@
     <variant frequency="1" name="Mace-Tunic-Hellenistic-Sleeveless-Boots-01-01">
       <textures>
         <texture file="skeletal/mace/tunic_hellenistic_sleeveless_boots_01_01.png" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Mace-Tunic-Hellenistic-Sleeveless-Boots-01-02">
       <textures>
         <texture file="skeletal/mace/tunic_hellenistic_sleeveless_boots_01_02.png" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Mace-Tunic-Hellenistic-Sleeveless-Boots-01-03">
       <textures>
         <texture file="skeletal/mace/tunic_hellenistic_sleeveless_boots_01_03.png" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Hele-Scale-01-01">

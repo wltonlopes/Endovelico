@@ -1,57 +1,71 @@
 {
-	"Code": "gara",
-	"Name": "Garamantians",
-	"Culture": "Saara",
-	"Music":[
-		{ "File": "Mediterranean_Waves.ogg", "Type": "peace" },
-		{ "File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace" },
-		{ "File": "Ammon-Ra.ogg", "Type": "peace" },
-		{ "File": "Sands_of_Time.ogg", "Type": "peace" },
-		{ "File": "Land_between_the_two_Seas.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets": [
-		"structures/gara/wallset_stone"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/gara/civil_centre"
-		},
-		{
-			"Template": "units/gara/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/gara/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/gara/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/gara/cavalry_javelineer_b"
-		}
-	],
-	"AINames":
-	[
-		"Djalla",
-		"Gildo",
-		"Iddibal",
-		"Iassuchtan",
-		"Iaremaban"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/structures/default_house_5": "structures/{civ}/house",
-    "skirmish/units/special_starting_unit": "units/gara/chariot_javelineer_b",
-		"skirmish/units/default_infantry_ranged_b": "units/gara/infantry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/gara/infantry_spearman_b",
-	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_arrow"
-	},
-	"SelectableInGameSetup": true
+    "Code": "gara",
+    "Name": "Garamantians",
+    "Culture": "Saara",
+    "Music": [
+        {
+            "File": "Mediterranean_Waves.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Harsh_Lands_Rugged_People.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Ammon-Ra.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/gara/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/gara/civil_centre"
+        },
+        {
+            "Template": "units/gara/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/gara/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/gara/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/gara/cavalry_javelineer_b"
+        },
+        {
+            "Template": "units/gara/chariot_scout"
+        }
+    ],
+    "AINames": [
+        "Djalla",
+        "Gildo",
+        "Iddibal",
+        "Iassuchtan",
+        "Iaremaban"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/gara/chariot_scout",
+        "skirmish/structures/default_house_5": "structures/{civ}/house",
+        "skirmish/units/special_starting_unit": "units/gara/chariot_javelineer_b",
+        "skirmish/units/default_infantry_ranged_b": "units/gara/infantry_javelineer_b",
+        "skirmish/units/default_infantry_melee_b": "units/gara/infantry_spearman_b",
+        "skirmish/units/default_ship_trireme": "units/{civ}/ship_arrow"
+    },
+    "SelectableInGameSetup": true
 }

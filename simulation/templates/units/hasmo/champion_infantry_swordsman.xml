@@ -4,13 +4,16 @@
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
     <GenericName>Judean Royal Guard</GenericName>
-    <SpecificName></SpecificName>
-    <Icon>units/jude/champion_swordsman.png</Icon>
+    <SpecificName/>
+    <Icon>units/hasmo/champion_swordsman.png</Icon>
     <Requirements>
-      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/hasmonean/infantry_swordsman_c.xml</Actor>
+    <Actor>units/hasmoneans/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

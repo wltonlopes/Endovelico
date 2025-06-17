@@ -71,7 +71,7 @@
     <variant frequency="1" name="Thrac-Scale-01-01">
       <textures>
         <texture file="skeletal/thrac/scale_01_01.png" name="baseTex"/>
-        <texture file="skeletal/no_spec.png" name="specTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -88,5 +88,12 @@
     <variant file="biped/formations/phalanx_mid.xml"/>
     <variant file="biped/formations/phalanx_back.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -24,6 +24,6 @@
     </Pack>
   </Upgrade>
   <VisualActor>
-    <Actor>structures/yuezhi/storehouse.xml</Actor>
+    <Actor>structures/yuezhi/farmstead.xml</Actor>
   </VisualActor>
 </Entity>

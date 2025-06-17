@@ -1,69 +1,66 @@
 ﻿{
-	"Code": "araw",
-	"Culture": "Arawaks",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/araw/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/araw/civil_centre"
-		},
-		{
-			"Template":"units/araw/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/araw/infantry_spearman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/araw/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/araw/cavalry_archer_b",
-			"Count": 1
-		},
-		{
-			"Template": "units/araw/support_female_citizen",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/araw/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/araw/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/araw/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/araw/support_female_citizen",
-	  "skirmish/units/default_ship_trireme":"units/araw/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "araw",
+    "Culture": "Arawaks",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/araw/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/araw/civil_centre"
+        },
+        {
+            "Template": "units/araw/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/araw/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/araw/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/araw/support_female_citizen",
+            "Count": 1
+        },
+        {
+            "Template": "units/araw/infantry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Jimmu",
+        "Suizei",
+        "Annei",
+        "Itoku",
+        "Kosho",
+        "Koan",
+        "Korei",
+        "Kogen",
+        "Kaika",
+        "Suijin",
+        "Suinin"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/araw/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/araw/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/araw/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/araw/support_female_citizen",
+        "skirmish/units/default_ship_trireme": "units/araw/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

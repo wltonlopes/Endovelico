@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+	<actor version="1" quality="low"/>
+	<actor quality="medium" inline=""/>
+	<actor inline=""/>
+	<inline version="1">
+		<castshadow minquality="high"/>
+		<group>
+			<variant>
+				<mesh>props/camel/rein_camel_bactrianus.dae</mesh>
+				<textures>
+					<texture file="null_brown.png" name="baseTex"/>
+					<texture file="default_norm.png" name="normTex"/>
+					<texture file="null_black.dds" name="specTex"/>
+				</textures>
+			</variant>
+		</group>
+		<group>
+			<variant file="quadraped/base_camel_bactrianus_mount.xml"/>
+		</group>
+		<material>no_trans_norm_spec.xml</material>
+	</inline>
+</qualitylevels>

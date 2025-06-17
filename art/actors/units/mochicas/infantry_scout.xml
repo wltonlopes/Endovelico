@@ -6,9 +6,9 @@
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_andean_north_coast_warrior_runner.xml" attachpoint="head"/>
-
         <prop actor="props/units/helmets/helmet_moch_runner.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/dagger.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -39,22 +39,16 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_shieldarm_fast.xml"/>
-    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/base_slinger_ready.xml"/>
     <variant file="biped/carry_meat.xml"/>
-    <variant file="biped/carry_wood.xml"/>
-    <variant file="biped/carry_stone.xml"/>
-    <variant file="biped/carry_metal.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_melee_female.xml"/>
-    <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/attack_ranged_slinger.xml"/>
     <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>

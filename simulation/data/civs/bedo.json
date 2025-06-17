@@ -1,118 +1,122 @@
 ﻿{
-	"Code": "bedo",
-	"Culture": "Arab",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"Factions": [
-		{
-			"Name": "Bedouin kingdoms",
-			"Description": "",
-			"Technologies": [
-				{
-					"Name": "",
-					"History": "."
-				},
-				{
-					"Name": " ",
-					"History": "",
-					"Description": "."
-				}
-			],
-			"Heroes": [
-				{
-					"Name": "Hudad",
-					"Class": "Infantry Hero",
-					"Armament": "Sword",
-					"Emblem": "",
-					"History": "Nomadic Leader: Hudad, regarded as a legendary ancestor of various Bedouin tribes, could have abilities to boost troop movement speed and improve resistance in arid and desert terrains.Caravan Master: He could also enhance the efficiency of trade routes, representing the Bedouins’ expertise in crossing and controlling desert trade paths.."
-				},
-				{
-					"Name": "Aretas I",
-					"Class": "Cavalary Hero",
-					"Armament": "Obsidian spear",
-					"Emblem": "",
-					"History": "Desert Guardian: Aretas I was the first widely recognized Nabataean king, a Bedouin tribe that ruled parts of the Arabian desert. He could have an ability to protect caravans and fortify desert territories, improving defenses in hard-to-reach areas.Diplomatic Leader: Aretas could provide a diplomatic bonus, making negotiations with other factions or civilizations easier due to his skill in maintaining trade and political relations.."
-				},
-				{
-					"Name": "Obodas I",
-					"Class": "Cavalary Hero",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Victorious General: Obodas I is remembered for his victory against the Seleucids, defending Nabataean territory. He could grant a combat bonus to Bedouin troops, especially in difficult terrain like mountains and deserts. Popular Leader: His popularity among the tribes could boost troop morale and ally loyalty, reflecting the unity of the Bedouin tribes under his leadership."
-				}
-			]
-		}
-	],
-	"CivBonuses": [
-		{
-			"Name": "CivBonuses.",
-			"History": "CivBonuses.",
-			"Description": "CivBonuses."
-		}
-	],
-	"TeamBonuses": [
-		{
-			"Name": "TeamBonuses.",
-			"History": "TeamBonuses.",
-			"Description": "TeamBonuses."
-		}
-	],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/bedo/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/bedo/civil_centre"
-		},
-		{
-			"Template":"units/bedo/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/bedo/infantry_spearman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/bedo/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/bedo/support_wagon",
-			"Count": 1
-		},
-		{
-			"Template": "units/bedo/cavalry_spearman_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    " Obodas I",	
-    "Aretas I ",
-    "Hudad",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/bedo/cavalry_spearman_b",
-		"skirmish/units/default_infantry_melee_b": "units/bedo/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/bedo/infantry_javelineer_b",
-		"skirmish/units/special_starting_unit": "units/bedo/support_wagon",
-	  "skirmish/units/default_ship_trireme":"units/bedo/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "bedo",
+    "Culture": "Arab",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "Factions": [
+        {
+            "Name": "Bedouin kingdoms",
+            "Description": "",
+            "Technologies": [
+                {
+                    "Name": "",
+                    "History": "."
+                },
+                {
+                    "Name": " ",
+                    "History": "",
+                    "Description": "."
+                }
+            ],
+            "Heroes": [
+                {
+                    "Name": "Hudad",
+                    "Class": "Infantry Hero",
+                    "Armament": "Sword",
+                    "Emblem": "",
+                    "History": "Nomadic Leader: Hudad, regarded as a legendary ancestor of various Bedouin tribes, could have abilities to boost troop movement speed and improve resistance in arid and desert terrains.Caravan Master: He could also enhance the efficiency of trade routes, representing the Bedouins’ expertise in crossing and controlling desert trade paths.."
+                },
+                {
+                    "Name": "Aretas I",
+                    "Class": "Cavalary Hero",
+                    "Armament": "Obsidian spear",
+                    "Emblem": "",
+                    "History": "Desert Guardian: Aretas I was the first widely recognized Nabataean king, a Bedouin tribe that ruled parts of the Arabian desert. He could have an ability to protect caravans and fortify desert territories, improving defenses in hard-to-reach areas.Diplomatic Leader: Aretas could provide a diplomatic bonus, making negotiations with other factions or civilizations easier due to his skill in maintaining trade and political relations.."
+                },
+                {
+                    "Name": "Obodas I",
+                    "Class": "Cavalary Hero",
+                    "Armament": "",
+                    "Emblem": "",
+                    "History": "Victorious General: Obodas I is remembered for his victory against the Seleucids, defending Nabataean territory. He could grant a combat bonus to Bedouin troops, especially in difficult terrain like mountains and deserts. Popular Leader: His popularity among the tribes could boost troop morale and ally loyalty, reflecting the unity of the Bedouin tribes under his leadership."
+                }
+            ]
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "CivBonuses.",
+            "History": "CivBonuses.",
+            "Description": "CivBonuses."
+        }
+    ],
+    "TeamBonuses": [
+        {
+            "Name": "TeamBonuses.",
+            "History": "TeamBonuses.",
+            "Description": "TeamBonuses."
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/bedo/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/bedo/civil_centre"
+        },
+        {
+            "Template": "units/bedo/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/bedo/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/bedo/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/bedo/support_wagon",
+            "Count": 1
+        },
+        {
+            "Template": "units/bedo/cavalry_spearman_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/bedo/camelry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        " Obodas I",
+        "Aretas I ",
+        "Hudad",
+        "Itoku",
+        "Kosho",
+        "Koan",
+        "Korei",
+        "Kogen",
+        "Kaika",
+        "Suijin",
+        "Suinin"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/bedo/camelry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/bedo/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/bedo/infantry_javelineer_b",
+        "skirmish/units/special_starting_unit": "units/bedo/support_wagon",
+        "skirmish/units/default_ship_trireme": "units/bedo/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

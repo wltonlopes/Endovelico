@@ -22,7 +22,7 @@
 	 </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/hasmonean/fortress.xml</Actor>
+    <Actor>structures/hasmoneans/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>23</Length>

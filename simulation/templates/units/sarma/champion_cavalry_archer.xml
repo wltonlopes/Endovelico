@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_archer">
   <Cost>
     <Resources>
@@ -12,7 +11,7 @@
     <Lang>persian</Lang>
     <SpecificName>Royal Cavalry Archer</SpecificName>
     <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
-    <SelectionGroupName>units/scyth/champion_cavalry_archer</SelectionGroupName>
+    <SelectionGroupName>units/sarma/champion_cavalry_archer</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_archer.png</Icon>
   </Identity>
   <Resistance>

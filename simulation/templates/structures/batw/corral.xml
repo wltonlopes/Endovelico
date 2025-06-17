@@ -14,12 +14,11 @@
   <Obstruction>
     <Static width="14.0" depth="16.0"/>
   </Obstruction>
-  <Trainer>
+   <Trainer>
     <Entities datatype="tokens">
-      gaia/fauna_turkey_trainable
       -gaia/fauna_goat_trainable
       -gaia/fauna_sheep_trainable
-      -gaia/fauna_pig_trainable
+      gaia/fauna_pig_trainable
       -gaia/fauna_cattle_cow_trainable
     </Entities>
   </Trainer>

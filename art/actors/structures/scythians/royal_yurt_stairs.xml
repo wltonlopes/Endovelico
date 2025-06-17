@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Scythians Royal Yurt Stairs">
+      <mesh>props/xion_royal_yurt_stairs.dae</mesh>
+      <textures>
+        <texture file="structural/scyth/struct.png" name="baseTex"/>
+        <texture file="structural/scyth/struct_norm.png" name="normTex"/>
+        <texture file="structural/scyth/struct_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

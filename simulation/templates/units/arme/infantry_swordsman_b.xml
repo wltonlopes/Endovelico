@@ -2,9 +2,8 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>arme</Civ>
-    <SelectionGroupName>units/thra/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Thracian Swordsman</GenericName>
-    <SpecificName></SpecificName>
+    <SelectionGroupName>units/arme/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Armenian Swordsman</GenericName>
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

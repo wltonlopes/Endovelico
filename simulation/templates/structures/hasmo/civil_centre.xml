@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="27.0" depth="27.0"/>
+    <Height>8.0</Height>
+  </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
@@ -11,7 +15,10 @@
       units/{civ}/cavalry_javelineer_b
     </Entities>
   </Trainer>
+  <Obstruction>
+    <Static width="27.0" depth="27.0"/>
+  </Obstruction>
   <VisualActor>
-    <Actor>structures/hasmonean/civic_center.xml</Actor>
+    <Actor>structures/hasmoneans/civic_centre.xml</Actor>
   </VisualActor>
 </Entity>

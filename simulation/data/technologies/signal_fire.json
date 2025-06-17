@@ -1,0 +1,27 @@
+{
+	"genericName": "Signal Fires",
+	"specificName": {
+		"rome": "Signum Ignis",
+		"spart": "Photiá Síma",
+		"athen": "Photiá Síma",
+		"sele": "Photiá Síma",
+		"ptol": "Photiá Síma",
+		"hele": "Photiá Síma",
+		"brit": "Arwydd tân"
+	},
+	"description": "Outposts gain longer vision for scouting.",
+	"cost": {
+		"wood": 100
+	},
+	"requirements": {"tech": "phase_village"},
+	"icon": "signal_fires.png",
+	"researchTime": 40,
+	"tooltip": "Outposts +33% Vision Range.",
+	"modifications": [
+		{
+			"value": "Vision/Range", "multiply": 1.33
+		}
+	],
+	"affects": ["Outpost"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -12,7 +12,7 @@
     <Square width="5.0" depth="10.0"/>
     <Height>6.0</Height>
   </Footprint>
-   <Health>
+  <Health>
     <Max>140</Max>
   </Health>
   <Identity>
@@ -23,12 +23,12 @@
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/cavaly_chariot_javelineer.png</Icon>
   </Identity>
-    <Promotion>
+  <Promotion>
     <Entity>units/gara/chariot_javelineer_a</Entity>
   </Promotion>
-   <ResourceGatherer>
+  <ResourceGatherer>
     <Rates>
-      <food.meat  disable=""/>
+      <food.meat disable=""/>
     </Rates>
   </ResourceGatherer>
   <VisualActor>

@@ -9,7 +9,7 @@
     <SelectionGroupName>units/gaet/infantry_spearman_b</SelectionGroupName>
     <GenericName>Libyan Spearman</GenericName>
     <SpecificName>Sǝḫīr Ḥanīt</SpecificName>
-    <Icon>units/gaet/infantry_spearman.png</Icon>
+    <Icon>units/cart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gaet/infantry_spearman_a</Entity>

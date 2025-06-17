@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>75</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="13.0" depth="13.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>3</Max>
+    <BuffHeal>0</BuffHeal>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support+!Elephant</List>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>800</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>House</GenericName>
+    <SelectionGroupName>template_structure_civic_house</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Village House</VisibleClasses>
+    <Icon>structures/house.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <wood>15</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="11.0" depth="11.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      health_females_01
+      pop_house_01
+      pop_house_02
+      unlock_females_house
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_house.xml</select>
+      <constructed>interface/complete/building/complete_house.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>16</Radius>
+    <Weight>65535</Weight>
+  </TerritoryInfluence>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/support_female_citizen_house
+      units/{civ}/infantry_scout
+      units/{civ}/cavalry_scout
+      units/{civ}/camelry_scout
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

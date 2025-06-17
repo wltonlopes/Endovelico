@@ -1,73 +1,69 @@
 ﻿{
-	"Code": "malay",
-	"Culture": "malayapura",
-	"Music": [
-		{
-			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Land_between_the_two_Seas.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Eastern_Dreams.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Karmic_Confluence.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Beyond_The_Indus.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/malay/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/malay/civil_centre"
-		},
-		{
-			"Template":"units/malay/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/malay/infantry_swordsman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/malay/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/malay/cavalry_javelineer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-    "King of Kedah Tua",
-    "King of Sungai batu",
-    "King of Gangga Negara"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/malay/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/malay/infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/malay/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/malay/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "malay",
+    "Culture": "malayapura",
+    "Music": [
+        {
+            "File": "An_old_Warhorse_goes_to_Pasture.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Eastern_Dreams.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Karmic_Confluence.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Beyond_The_Indus.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/malay/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/malay/civil_centre"
+        },
+        {
+            "Template": "units/malay/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/malay/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/malay/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/malay/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/malay/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "King of Kedah Tua",
+        "King of Sungai batu",
+        "King of Gangga Negara"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/malay/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/malay/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/malay/infantry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/malay/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

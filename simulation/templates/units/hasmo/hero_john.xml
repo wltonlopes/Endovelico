@@ -8,9 +8,9 @@
     <Lang>greek</Lang>
     <GenericName>John Hyrcanus</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/jude/hero_john.png</Icon>
+    <Icon>units/hasmo/hero_john.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/hasmonean/hero_john.xml</Actor>
+    <Actor>units/hasmoneans/hero_john.xml</Actor>
   </VisualActor>
 </Entity>

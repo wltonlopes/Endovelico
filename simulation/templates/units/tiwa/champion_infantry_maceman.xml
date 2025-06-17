@@ -5,7 +5,7 @@
     <GenericName>Warrior</GenericName>
     <SpecificName></SpecificName>
     <SelectionGroupName>units/moch/champion_infantry</SelectionGroupName>
-    <Icon>units/moch/champion_maceman.png</Icon>
+    <Icon>units/moch/champion_infantry_maceman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
     </Requirements>

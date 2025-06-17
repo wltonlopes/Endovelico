@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+	<Auras datatype="tokens">
+		units/gather_scout
+	</Auras>
+	<Builder>
+		<Rate>1.0</Rate>
+		<Entities datatype="tokens">
+			structures/{civ}/outpost
+			structures/wallset_palisade
+			structures/{civ}/wallset_palisade
+		</Entities>
+	</Builder>
+	<Cost>
+		<Population>1</Population>
+		<BuildTime>15</BuildTime>
+		<Resources>
+			<food>100</food>
+			<wood>50</wood>
+		</Resources>
+	</Cost>
+	<Health>
+		<Max>100</Max>
+	</Health>
+	<Identity>
+		<Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
+		<VisibleClasses datatype="tokens">Citizen Soldier Scout</VisibleClasses>
+		<GenericName>Scout</GenericName>
+		<Rank>Basic</Rank>
+		<Tooltip>Traits: Scout, Good Hunter, Fast Speed, Builds Outpost and Palisade.
+Strong Against: Nothing.
+Weak Against: Everything.
+Counters: 2.0× vs Animals.</Tooltip>
+	</Identity>
+	<Position>
+		<Anchor>upright</Anchor>
+	</Position>
+	<Promotion disable=""/>
+	<ResourceGatherer>
+		<MaxDistance>2.0</MaxDistance>
+		<BaseSpeed>1.0</BaseSpeed>
+		<Rates>
+			<food.fruit disable=""/>
+			<food.grain disable=""/>
+			<food.meat>2.5</food.meat>
+			<wood.tree disable=""/>
+			<wood.ruins disable=""/>
+			<stone.rock disable=""/>
+			<stone.ruins disable=""/>
+			<metal.ore disable=""/>
+		</Rates>
+		<Capacities>
+			<food>40</food>
+		</Capacities>
+	</ResourceGatherer>
+	<TrainingRestrictions>
+		<Category>Scout</Category>
+	</TrainingRestrictions>
+	<StatusBars>
+		<HeightOffset>7.0</HeightOffset>
+	</StatusBars>
+	<UnitMotion>
+		<WalkSpeed>15</WalkSpeed>
+	</UnitMotion>
+	<Vision>
+		<Range>100</Range>
+	</Vision>
+</Entity>

@@ -1,0 +1,93 @@
+{
+    "Code": "kush",
+    "Culture": "egyptian",
+    "Music": [
+        {
+            "File": "Ammon-Ra.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Point_of_No_Return.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "Large Rams",
+            "History": "",
+            "Description": "Battering Rams +20% attack damage and +2 garrison capacity."
+        }
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/kush/civil_centre"
+        },
+        {
+            "Template": "units/kush/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/kush/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/kush/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/kush/cavalry_javelineer_b"
+        },
+        {
+            "Template": "units/kush/support_healer_b"
+        },
+        {
+            "Template": "units/kush/cavalry_scout"
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/kush/wallset_stone"
+    ],
+    "AINames": [
+        "Kashta",
+        "Alara",
+        "Pebatjma",
+        "Shabaka",
+        "Shebitku",
+        "Qalhata",
+        "Takahatenamun",
+        "Tantamani",
+        "Atlanersa",
+        "Nasalsa",
+        "Malewiebamani",
+        "Shanakdakhete",
+        "Amanishakheto"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/kush/cavalry_scout",
+        "skirmish/units/default_infantry_ranged_b": "units/kush/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/kush/support_healer_b",
+        "skirmish/structures/default_house_10": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
+}

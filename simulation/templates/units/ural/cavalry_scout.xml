@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="template_unit_cavalry_melee_scout">
+  <Identity>
+    <Civ>ural</Civ>
+    <SpecificName>Uralic Scout</SpecificName>
+    <Icon>units/scyth/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/scythians/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

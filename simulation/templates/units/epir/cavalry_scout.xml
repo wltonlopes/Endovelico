@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_cavalry_swordsman">
+  <Identity>
+    <Civ>epir</Civ>
+    <SpecificName>Epirote Scout</SpecificName>
+    <Icon>units/athen/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hellenes/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

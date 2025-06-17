@@ -1,162 +1,166 @@
 ﻿{
-	"Code": "mayap",
-	"Culture": "mayap",
-	"Music": [
-		{
-			"File": "Old New World.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Cloud_People.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Tradition.ogg",
-			"Type": "peace"
-		}
-	],
-	"Factions": [
-		{
-			"Name": "Maya civilization",
-			"Description": "",
-			"Technologies": [
-				{
-					"Name": "",
-					"History": "."
-				},
-				{
-					"Name": " ",
-					"History": "",
-					"Description": "."
-				}
-			],
-			"Heroes": [
-				{
-					"Name": "Yax Ehb' Xok",
-					"Class": "Infantry Hero",
-					"Armament": "Obsidian spear",
-					"Emblem": "",
-					"History": "An ancestor of the Tikal dynasty, probably a real character from the pre-classical age who was later mythologized."
-				},
-				{
-					"Name": "Hu'un B'alam",
-					"Class": "Infantry Hero",
-					"Armament": "Obsidian spear",
-					"Emblem": "",
-					"History": "Mythical ruler of El Mirador from the pre-classical period."
-				},
-				{
-					"Name": "Ix Muluc",
-					"Class": "Hero Queen",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Mythic ruler of Kaminaljyú in pre-classical period."
-				}
-			]
-		}
-	],
-	"CivBonuses": [
-		{
-			"Name": "Monumental Constructions.",
-			"History": "The Maya created great structures of stone and lime of great resistance.",
-			"Description": "Structures +10% health, +20 time and +5% capture points."
-		}
-	],
-	"TeamBonuses": [
-		{
-			"Name": "Sacbe.",
-			"History": "A sacbe, plural sacbeob (Yucatec Maya: singular sakbej, plural sakbejo'ob), or white way, is a raised paved road built by the Maya civilization of pre-Columbian Mesoamerica.Most connect temples, plazas, and groups of structures within ceremonial centers or cities, but some longer roads between cities are also known. The term sacbe is Yucatec Maya for white road; white perhaps because there is evidence that they were originally coated with limestone stucco or plaster, which was over a stone and rubble fill.",
-			"Description": "Allied Land Traders +10% trade gain."
-		}
-	],
-	"Structures": [
-		{
-			"Name": "Ball Court",
-			"Class": "SB",
-			"Emblem": "",
-			"History": ".",
-			"Requirements": ".",
-			"Phase": "Town",
-			"Special": "."
-		},
-		{
-			"Name": "Observatory grup E",
-			"Class": "SB",
-			"Emblem": "",
-			"History": ".",
-			"Requirements": ".",
-			"Phase": "Town",
-			"Special": "."
-		},
-		{
-			"Name": "Big temple of masks",
-			"Class": "SB",
-			"Emblem": "",
-			"History": ".",
-			"Requirements": ".",
-			"Phase": "City",
-			"Special": "."
-		}
-	],
-	"WallSets": [
-		"other/wallset_palisade",
-		"structures/mayap/wallset_stone"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/mayap/civil_centre"
-		},
-		{
-			"Template": "units/mayap/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/mayap/infantry_axeman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/mayap/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/mayap/cavalry_javelineer_b",
-			"Count": 1
-		},
-		{
-			"Template": "units/mayap/infantry_blowgunner_b",
-			"Count": 1
-		}
-	],
-	"AINames": [
-		"Yax Ehb Xook",
-		"Ch'a Ruler I",
-		"U-K'ix-Chan",
-		"7 chuen 19 Pop",
-		"10 Imix 14 Yaxkin",
-		"Yax Mutul Ajaw",
-		"Ox te’ Tuun Ajaw",
-		"Oxwitik Ajaw ",
-		"Siaan Ka’an  Ajaw",
-		"Lakanhá Ajaw",
-		"Saqkiih Ajaw",
-		"Óox k'iin took' Ajaw",
-		"Chiih-Witz Ajaw",
-		"Yax Mutul  ix Ajaw",
-		"Ox te’ Tuun ix Ajaw",
-		"xwitik ix Ajaw",
-		"Siaan Ka’an ix  Ajaw",
-		" Lakanhá ix Ajaw",
-		"Saqkiih ix Ajaw",
-		"Óox k'iin took' ix Ajaw",
-		"Chiih-Witz ix Ajaw"
-	],
-	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/mayap/cavalry_javelineer_b",
-		"skirmish/units/special_starting_unit": "units/mayap/infantry_blowgunner_b",
-		"skirmish/units/default_infantry_ranged_b": "units/mayap/infantry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/mayap/infantry_axeman_b",
-		"skirmish/structures/default_house_10": "structures/{civ}/house",
-		"skirmish/units/default_ship_trireme": "units/mayap/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "mayap",
+    "Culture": "mayap",
+    "Music": [
+        {
+            "File": "Old New World.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Cloud_People.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Tradition.ogg",
+            "Type": "peace"
+        }
+    ],
+    "Factions": [
+        {
+            "Name": "Maya civilization",
+            "Description": "",
+            "Technologies": [
+                {
+                    "Name": "",
+                    "History": "."
+                },
+                {
+                    "Name": " ",
+                    "History": "",
+                    "Description": "."
+                }
+            ],
+            "Heroes": [
+                {
+                    "Name": "Yax Ehb' Xok",
+                    "Class": "Infantry Hero",
+                    "Armament": "Obsidian spear",
+                    "Emblem": "",
+                    "History": "An ancestor of the Tikal dynasty, probably a real character from the pre-classical age who was later mythologized."
+                },
+                {
+                    "Name": "Hu'un B'alam",
+                    "Class": "Infantry Hero",
+                    "Armament": "Obsidian spear",
+                    "Emblem": "",
+                    "History": "Mythical ruler of El Mirador from the pre-classical period."
+                },
+                {
+                    "Name": "Ix Muluc",
+                    "Class": "Hero Queen",
+                    "Armament": "",
+                    "Emblem": "",
+                    "History": "Mythic ruler of Kaminaljyú in pre-classical period."
+                }
+            ]
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "Monumental Constructions.",
+            "History": "The Maya created great structures of stone and lime of great resistance.",
+            "Description": "Structures +10% health, +20 time and +5% capture points."
+        }
+    ],
+    "TeamBonuses": [
+        {
+            "Name": "Sacbe.",
+            "History": "A sacbe, plural sacbeob (Yucatec Maya: singular sakbej, plural sakbejo'ob), or white way, is a raised paved road built by the Maya civilization of pre-Columbian Mesoamerica.Most connect temples, plazas, and groups of structures within ceremonial centers or cities, but some longer roads between cities are also known. The term sacbe is Yucatec Maya for white road; white perhaps because there is evidence that they were originally coated with limestone stucco or plaster, which was over a stone and rubble fill.",
+            "Description": "Allied Land Traders +10% trade gain."
+        }
+    ],
+    "Structures": [
+        {
+            "Name": "Ball Court",
+            "Class": "SB",
+            "Emblem": "",
+            "History": ".",
+            "Requirements": ".",
+            "Phase": "Town",
+            "Special": "."
+        },
+        {
+            "Name": "Observatory grup E",
+            "Class": "SB",
+            "Emblem": "",
+            "History": ".",
+            "Requirements": ".",
+            "Phase": "Town",
+            "Special": "."
+        },
+        {
+            "Name": "Big temple of masks",
+            "Class": "SB",
+            "Emblem": "",
+            "History": ".",
+            "Requirements": ".",
+            "Phase": "City",
+            "Special": "."
+        }
+    ],
+    "WallSets": [
+        "other/wallset_palisade",
+        "structures/mayap/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/mayap/civil_centre"
+        },
+        {
+            "Template": "units/mayap/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/mayap/infantry_axeman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/mayap/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/mayap/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/mayap/infantry_blowgunner_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/mayap/infantry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Yax Ehb Xook",
+        "Ch'a Ruler I",
+        "U-K'ix-Chan",
+        "7 chuen 19 Pop",
+        "10 Imix 14 Yaxkin",
+        "Yax Mutul Ajaw",
+        "Ox te’ Tuun Ajaw",
+        "Oxwitik Ajaw ",
+        "Siaan Ka’an  Ajaw",
+        "Lakanhá Ajaw",
+        "Saqkiih Ajaw",
+        "Óox k'iin took' Ajaw",
+        "Chiih-Witz Ajaw",
+        "Yax Mutul  ix Ajaw",
+        "Ox te’ Tuun ix Ajaw",
+        "xwitik ix Ajaw",
+        "Siaan Ka’an ix  Ajaw",
+        " Lakanhá ix Ajaw",
+        "Saqkiih ix Ajaw",
+        "Óox k'iin took' ix Ajaw",
+        "Chiih-Witz ix Ajaw"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/mayap/infantry_scout",
+        "skirmish/units/special_starting_unit": "units/mayap/infantry_blowgunner_b",
+        "skirmish/units/default_infantry_ranged_b": "units/mayap/infantry_javelineer_b",
+        "skirmish/units/default_infantry_melee_b": "units/mayap/infantry_axeman_b",
+        "skirmish/structures/default_house_10": "structures/{civ}/house",
+        "skirmish/units/default_ship_trireme": "units/mayap/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

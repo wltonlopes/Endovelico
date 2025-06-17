@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
@@ -7,7 +6,7 @@
   <Identity>
     <Civ>batw</Civ>
     <Lang>napatan</Lang>
-    <SelectionGroupName>units/urewe/infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/batw/infantry_archer_b</SelectionGroupName>
     <GenericName>Nubian Archer</GenericName>
     <SpecificName>Pdty Nhsyw</SpecificName>
     <Icon>units/kush/infantry_archer.png</Icon>
@@ -16,7 +15,7 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/batwa/infantry_archer_a</Entity>
+    <Entity>units/batw/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/kushites/infantry_archer_b.xml</Actor>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="autobuild|template_structure_economic_market">
+<Entity parent="template_structure_economic_market">
   <BuildRestrictions>
     <Territory>own neutral ally enemy</Territory>
   </BuildRestrictions>
-  <Footprint replace="">
-    <Circle radius="11.0"/>
+  <Footprint>
+    <Square width="26.5" depth="27.5"/>
     <Height>8.0</Height>
   </Footprint>
-  <GarrisonHolder disable=""/>
   <Health>
     <Max>1600</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
@@ -23,7 +22,7 @@
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <Obstruction>
-    <Static width="13.0" depth="13.0"/>
+    <Static width="26.0" depth="27.0"/>
   </Obstruction>
   <VisualActor>
     <ConstructionPreview disable=""/>

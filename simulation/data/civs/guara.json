@@ -1,64 +1,61 @@
 ﻿{
-	"Code": "guara",
-	"Culture": "Guaranis",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonusess":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/guara/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/guara/civil_centre"
-		},
-		{
-			"Template":"units/guara/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/guara/infantry_spearman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/guara/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/guara/cavalry_archer_b",
-			"Count": 1
-		},
-		{
-			"Template": "units/guara/support_healer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Marangatu",
-	"Nhanderequeí",	
-    "Tumé Arandú",
-    "Kerana",
-		"Japeusá",
-		"Porâsý"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/guara/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/guara/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/guara/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/guara/support_healer_b",
-	  "skirmish/units/default_ship_trireme":"units/guara/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "guara",
+    "Culture": "Guaranis",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonusess": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/guara/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/guara/civil_centre"
+        },
+        {
+            "Template": "units/guara/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/guara/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/guara/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/guara/support_healer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/guara/infantry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Marangatu",
+        "Nhanderequeí",
+        "Tumé Arandú",
+        "Kerana",
+        "Japeusá",
+        "Porâsý"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/guara/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/guara/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/guara/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/guara/support_healer_b",
+        "skirmish/units/default_ship_trireme": "units/guara/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

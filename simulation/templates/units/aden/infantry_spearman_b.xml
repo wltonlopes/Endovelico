@@ -12,7 +12,7 @@
   </Builder>
   <Identity>
     <Civ>aden</Civ>
-    <SelectionGroupName>Levy Spearman</SelectionGroupName>
+    <SelectionGroupName>units/aden/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Taj Lom Bate</SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>
     <Requirements>
@@ -26,5 +26,3 @@
     <Actor>units/south_america/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>
-
-

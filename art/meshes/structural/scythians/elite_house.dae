@@ -13,14 +13,14 @@
   <library_effects>
     <effect id="textura_escita_nova-effect">
       <profile_COMMON>
-        <newparam sid="scyth_struct_png-surface">
+        <newparam sid="scyth/struct_png-surface">
           <surface type="2D">
-            <init_from>scyth_struct_png</init_from>
+            <init_from>scyth/struct_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="scyth_struct_png-sampler">
+        <newparam sid="scyth/struct_png-sampler">
           <sampler2D>
-            <source>scyth_struct_png-surface</source>
+            <source>scyth/struct_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="scyth_struct_png-sampler" texcoord="house_2_celtMesh_005-mesh-map-0"/>
+              <texture texture="scyth/struct_png-sampler" texcoord="house_2_celtMesh_005-mesh-map-0"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -113,12 +113,11 @@
             </technique_common>
           </bind_material>
         </instance_geometry>
-
-<node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033843 0 0 0.7829416 9.013988 0 0 0 1</matrix>
+        <node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
+          <matrix sid="transform">-0.8853757 1.33688e-7 0 0 -1.33688e-7 -0.8853757 0 -0.1422124 0 0 0.8853757 12.78033 0 0 0 1</matrix>
         </node>
         <node id="prop_projectile" name="prop_projectile" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033842 0 0 0.7829416 9.013988 0 0 0 1</matrix>
+          <matrix sid="transform">-0.7829417 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829417 0 0 0 0 0.7829417 10.52408 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

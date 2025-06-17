@@ -21,9 +21,9 @@
     <Civ>hasmo</Civ>
     <GenericName>Salome Alexandra</GenericName>
     <SpecificName>Salome Alexandra</SpecificName>
-    <Icon>units/jude/hero_salome.png</Icon>
+    <Icon>units/hasmo/hero_salome.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/hasmonean/hero_salome.xml</Actor>
+    <Actor>units/hasmoneans/hero_salome.xml</Actor>
   </VisualActor>
 </Entity>

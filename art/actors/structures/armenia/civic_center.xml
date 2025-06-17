@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
+    <variant frequency="1" name="Armenian Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/armenia/cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
@@ -19,8 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_arme.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

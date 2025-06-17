@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <Entity parent="template_unit_champion_cavalry_archer">
   <Identity>
     <Civ>ural</Civ>
-    <GenericName>Xiongnu Warlord</GenericName>
-    <SelectionGroupName>units/xion/champion_cavalry</SelectionGroupName>
+    <GenericName>Uralic Warlord</GenericName>
+    <SelectionGroupName>units/ural/champion_cavalry</SelectionGroupName>
     <Icon>units/xion/champion_cavalry.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

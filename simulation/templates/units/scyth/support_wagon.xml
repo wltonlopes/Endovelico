@@ -6,7 +6,7 @@
   </Identity>
   <Upgrade>
     <UnPackStorehouse>
-      <Entity>structures/scyth/storehouse</Entity>
+      <Entity>structures/scyth/granary</Entity>
       <Tooltip>Storehouses can train Slaves and research Technologies, while the Resource Wagon cannot.</Tooltip>
       <Time>10</Time>
       <CheckPlacementRestrictions/>

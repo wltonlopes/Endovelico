@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName>Macuahuitl</AttackName>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>yaru</Civ>
+    <SpecificName>Lenca Scout</SpecificName>
+    <Icon>units/zapo/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/zapotecs/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,55 @@
+{
+    "genericName": "Murder Holes",
+    "description": "Murder Holes allow defenders to fire or drop projectiles upon enemy units huddled along the base of the defenders' wall.",
+    "cost": {
+        "wood": 300,
+        "stone": 200
+    },
+    "requirements": {
+        "all": [
+            {
+                "tech": "phase_city"
+            },
+            {
+                "any": [
+                    {
+                        "civ": "huns"
+                    },
+                    {
+                        "civ": "scyth"
+                    },
+                    {
+                        "civ": "xion"
+                    },
+                    {
+                        "civ": "parth"
+                    },
+                    {
+                        "civ": "pers"
+                    },
+                    {
+                        "civ": "sass"
+                    },
+                    {
+                        "civ": "step"
+                    }
+                ]
+            }
+        ]
+    },
+    "requirementsTooltip": "Unlocked in City Phase.",
+    "icon": "murder_holes.png",
+    "researchTime": 40,
+    "tooltip": "Stone Towers and Fortresses no longer have a minimum attack range.",
+    "modifications": [
+        {
+            "value": "Attack/Ranged/MinRange",
+            "replace": 0
+        }
+    ],
+    "affects": [
+        "Stone Tower",
+        "Fortress"
+    ],
+    "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

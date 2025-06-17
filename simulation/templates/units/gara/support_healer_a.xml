@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/gara_support_healer_e</Entity>
+    <Entity>units/gara/support_healer_e</Entity>
   </Promotion>
 </Entity>

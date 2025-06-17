@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
   <Attack>
     <Ranged>
@@ -30,7 +29,7 @@
     <Civ>yuez</Civ>
     <GenericName>Xiongnu Woman</GenericName>
     <Icon>units/xion/support_citizen_female.png</Icon>
-    <SelectionGroupName>units/xion/support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/yuez/support_female_citizen</SelectionGroupName>
     <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>

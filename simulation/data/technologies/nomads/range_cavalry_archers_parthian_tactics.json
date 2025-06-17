@@ -1,0 +1,59 @@
+{
+    "genericName": "Parthian Tactics",
+    "description": "This tactic was used by most nomads of the Eurasian steppe, including the Scythians, Huns, Turks, Magyars, and Mongols, as well as armies from elsewhere such as the Sassanid clibanarii and cataphracts.",
+    "cost": {
+        "metal": 300
+    },
+    "requirements": {
+        "all": [
+            {
+                "tech": "phase_city"
+            },
+            {
+                "tech": "archery_tradition"
+            },
+            {
+                "tech": "upgrade_rank_advanced_cavalry"
+            },
+            {
+                "any": [
+                    {
+                        "civ": "huns"
+                    },
+                    {
+                        "civ": "scyth"
+                    },
+                    {
+                        "civ": "xion"
+                    },
+                    {
+                        "civ": "parth"
+                    },
+                    {
+                        "civ": "pers"
+                    },
+                    {
+                        "civ": "sass"
+                    },
+                    {
+                        "civ": "step"
+                    }
+                ]
+            }
+        ]
+    },
+    "requirementsTooltip": "Unlocked in City Phase. Requires \"Archery Tradition\" and \"Advanced Cavalry.\"",
+    "icon": "bow_recurved.png",
+    "researchTime": 40,
+    "tooltip": "Cavalry Archers will kite away from approaching targets if the enemy targets get within 15 meters.",
+    "modifications": [
+        {
+            "value": "Attack/Ranged/MinRange",
+            "replace": 15
+        }
+    ],
+    "affects": [
+        "Cavalry Archer"
+    ],
+    "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

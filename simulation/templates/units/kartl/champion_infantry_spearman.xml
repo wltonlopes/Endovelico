@@ -3,9 +3,14 @@
   <Identity>
     <Civ>kartl</Civ>
     <GenericName>Thracian Hoplite</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName/>
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/thracians/infantry_spearman_c.xml</Actor>

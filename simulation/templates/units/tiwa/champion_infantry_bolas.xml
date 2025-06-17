@@ -43,7 +43,7 @@
     <Civ>tiwa</Civ>
     <SpecificName>Warrior Bolas</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <Icon>units/moch/champion_infantry_swordsman.png</Icon>
+    <Icon>units/moch/champion_infantry_javelineer.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

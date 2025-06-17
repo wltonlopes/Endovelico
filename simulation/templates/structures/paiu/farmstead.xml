@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_farmstead">
   <Footprint>
-    <Square width="14" depth="14"/>
+    <Square width="14" depth="14" />
     <Height>6.0</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
+    <Civ>paiu</Civ>
     <SpecificName>Kömëgura</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="12.0" depth="12"/>
+    <Static width="12.0" depth="12" />
   </Obstruction>
   <VisualActor>
     <Actor>structures/paiute/farmstead.xml</Actor>

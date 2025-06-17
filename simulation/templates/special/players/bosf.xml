@@ -6,8 +6,12 @@
   <Identity>
     <Civ>bosf</Civ>
     <GenericName>Bosporan Kingdom</GenericName>
-    <History>Also known as the Kingdom of the Cimmerian Bosporus.</History>
-    <Icon>emblems/emblem_bactr.png</Icon>
+    <History> Bosporan Kingdom: This was an ancient Greco-Scythian state located on the Crimean
+      Peninsula and the Taman Peninsula, centered around the Cimmerian Bosphorus (present-day Strait
+      of Kerch). It was one of the first Hellenistic states, adopting Greek language and
+      civilization under aristocratic leadership. The kingdom played a significant role in the
+      region's history and briefly became a Roman client state.</History>
+    <Icon>emblems/emblem_yayo.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

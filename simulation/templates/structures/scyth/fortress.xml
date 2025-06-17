@@ -4,7 +4,7 @@
     <Territory>own neutral ally</Territory>
   </BuildRestrictions>
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
+    <Square width="28.0" depth="28.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Identity>
@@ -13,20 +13,14 @@
     <SpecificName>Bǎolěi</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="27.5" depth="27.5"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      <!-- range_defensive_loopholes
-      range_defensive_murderholes
-      attack_capture_siege_ladders -->
-    </Technologies>
-  </Researcher>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_cavalry
+      units/{civ}/champion_cavalry_archer
       units/{civ}/siege_ram
     </Entities>
   </Trainer>

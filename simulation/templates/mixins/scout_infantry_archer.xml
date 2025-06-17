@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_infantry">
+	<Attack>
+		<Ranged>
+			<AttackName>Bow</AttackName>
+			<Damage>
+				<Pierce>5</Pierce>
+			</Damage>
+			<MaxRange>60</MaxRange>
+			<PrepareTime>800</PrepareTime>
+			<RepeatTime>1250</RepeatTime>
+			<Projectile>
+				<Speed>100</Speed>
+				<Spread>2.25</Spread>
+				<Gravity>50</Gravity>
+				<FriendlyFire>false</FriendlyFire>
+				<LaunchPoint y="3"/>
+			</Projectile>
+			<PreferredClasses datatype="tokens">Human</PreferredClasses>
+			<Bonuses>
+				<Bonus1>
+					<Classes>Animal</Classes>
+					<Multiplier>2</Multiplier>
+				</Bonus1>
+			</Bonuses>
+		</Ranged>
+	</Attack>
+	<Resistance>
+		<Entity>
+			<Damage>
+				<Hack>1</Hack>
+				<Pierce>1</Pierce>
+				<Crush>10</Crush>
+			</Damage>
+		</Entity>
+	</Resistance>
+	<Identity>
+		<VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
+		<GenericName>Scout Archer</GenericName>
+	</Identity>
+	<Sound>
+		<SoundGroups>
+			<attack_impact_ranged>attack/impact/arrow_impact.xml</attack_impact_ranged>
+			<attack_ranged>attack/weapon/bow_attack.xml</attack_ranged>
+		</SoundGroups>
+	</Sound>
+</Entity>

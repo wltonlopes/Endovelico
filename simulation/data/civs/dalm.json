@@ -1,63 +1,64 @@
 ﻿{
-	"Code": "dalm",
-	"Culture": "Dalmatae",
-	"Music":[
-		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
-		{ "File": "Sunrise.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/dalm/civil_centre"
-		},
-		{
-			"Template":"units/dalm/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/dalm/infantry_axeman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/dalm/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/dalm/cavalry_archer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/dalm/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/dalm/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/dalm/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/dalm/ship_bireme"
-	},
-	"SelectableInGameSetup": false
+    "Code": "dalm",
+    "Culture": "Dalmatae",
+    "Music": [
+        {
+            "File": "Harvest_Festival.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sunrise.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/dalm/civil_centre"
+        },
+        {
+            "Template": "units/dalm/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/dalm/infantry_axeman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/dalm/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/dalm/cavalry_archer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/dalm/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Jimmu",
+        "Suizei",
+        "Annei",
+        "Itoku",
+        "Kosho",
+        "Koan",
+        "Korei",
+        "Kogen",
+        "Kaika",
+        "Suijin",
+        "Suinin"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/dalm/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/dalm/infantry_axeman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/dalm/infantry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/dalm/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

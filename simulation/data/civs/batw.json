@@ -1,55 +1,56 @@
 ﻿{
-	"Code": "batw",
-	"Culture": "Batwa",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/batw/civil_centre"
-		},
-		{
-			"Template":"units/batw/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/batw/infantry_axeman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/batw/infantry_archer_b",
-			"Count": 2
-		},
-		{
+    "Code": "batw",
+    "Culture": "Batwa",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/batw/civil_centre"
+        },
+        {
+            "Template": "units/batw/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/batw/infantry_axeman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/batw/infantry_archer_b",
+            "Count": 2
+        },
+        {
 			"Template": "units/batw/cavalry_archer_b",
 			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Jimmu",	
-    "Suizei",
-    "Annei"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/batw/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/batw/infantry_axeman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/batw/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/batw/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+		},
+        {
+            "Template": "units/batw/infantry_scout"
+        }
+    ],
+    "AINames": [
+        "Jimmu",
+        "Suizei",
+        "Annei"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/batw/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/batw/infantry_axeman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/batw/infantry_archer_b",
+        "skirmish/units/default_cavalry_ranged_b": "units/batw/cavalry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/batw/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

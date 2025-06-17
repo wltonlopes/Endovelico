@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="mesh-helmet-bell-01">
+      <mesh>props/helmet/east_bell_01.dae</mesh>
+      <textures>
+        <texture file="props/helmet/east_bell_helmet_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

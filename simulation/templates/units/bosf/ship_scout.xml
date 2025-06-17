@@ -2,11 +2,13 @@
 <Entity parent="template_unit_ship_warship_scout">
   <Identity>
     <Civ>bosf</Civ>
-	<Lang>greek</Lang>
+    <Lang>greek</Lang>
     <GenericName>Monoreme</GenericName>
     <SpecificName>Pentēkónteros</SpecificName>
-    <History>Penteconters were employed from 800 BC, mostly as a light support unit in the Greek navy. After 600 BC, they were only seen in battle in very limited numbers. They were still in use by small states which could not afford a sufficient number of triremes for their navy.</History>
-    <Icon>units/hele_ship_bireme.png</Icon>
+    <History>Penteconters were employed from 800 BC, mostly as a light support unit in the Greek
+      navy. After 600 BC, they were only seen in battle in very limited numbers. They were still in
+      use by small states which could not afford a sufficient number of triremes for their navy.</History>
+    <Icon>units/hele/ship_scout.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>

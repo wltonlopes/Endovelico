@@ -10,22 +10,27 @@
         </variant>
     </group>
     <group>
+        <variant name="waypoint_arme">
+            <textures>
+                <texture file="props/banner_arme.png" name="baseTex"/>
+            </textures>
+        </variant>
         <variant name="waypoint_yayo">
             <textures>
                 <texture file="props/banner_yayo.png" name="baseTex"/>
             </textures>
         </variant>
-            <variant name="waypoint_mayap">
+        <variant name="waypoint_mayap">
             <textures>
                 <texture file="props/banner_mayap.png" name="baseTex"/>
             </textures>
         </variant>
-            <variant name="waypoint_lusi">
+        <variant name="waypoint_lusi">
             <textures>
                 <texture file="props/banner_lusi.png" name="baseTex"/>
             </textures>
         </variant>
-            <variant name="waypoint_gara">
+        <variant name="waypoint_gara">
             <textures>
                 <texture file="props/banner_gara.png" name="baseTex"/>
             </textures>

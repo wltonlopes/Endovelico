@@ -1,61 +1,64 @@
 ﻿{
-	"Code": "thra",
-	"Culture": "thra",
-	"Music": [
-		{
-			"File": "Rise_of_Macedon.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "In_the_Shadow_of_Olympus.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Elysian_Fields.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "The_Hellespont.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses": [],
-	"WallSets": [
-		"structures/wallset_palisade",
-		"structures/mace/wallset_stone"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/thra/civil_centre"
-		},
-		{
-			"Template": "units/thra/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/thra/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/thra/infantry_javelineer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/thra/cavalry_javelineer_b"
-		}
-	],
-	"AINames": [
-		"Orpheus",
-		"Sitalces",
-		"Amadocus",
-		"Teres I",
-		"Decebalus",
-		"Burebista"
-	],
-	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/thra/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/thra/infantry_spearman_b",
-		"skirmish/structures/default_house_5": "structures/{civ}/house"
-	},
-	"SelectableInGameSetup": true
+    "Code": "thra",
+    "Culture": "thra",
+    "Music": [
+        {
+            "File": "Rise_of_Macedon.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "In_the_Shadow_of_Olympus.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Elysian_Fields.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Hellespont.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/mace/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/thra/civil_centre"
+        },
+        {
+            "Template": "units/thra/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/thra/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/thra/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/thra/cavalry_javelineer_b"
+        },
+        {
+            "Template": "units/thra/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Orpheus",
+        "Sitalces",
+        "Amadocus",
+        "Teres I",
+        "Decebalus",
+        "Burebista"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/thra/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/thra/infantry_spearman_b",
+        "skirmish/structures/default_house_5": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
 }

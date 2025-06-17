@@ -1,74 +1,69 @@
 {
-	"Code": "hasmo",
-	"Name": "hasmonean",
-	"Culture": "Judeans",
-	"Music": [
-		{
-			"File": "Helen_Leaves_Sparta.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Peaks_of_Atlas.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Forging_a_City-State.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "The_Hellespont.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets": [
-		"structures/hasmo/wallset_stone"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/hasmo/civil_centre"
-		},
-		{
-			"Template": "units/hasmo/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/hasmo/infantry_slinger_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/hasmo/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/hasmo/cavalry_javelineer_b"
-		}
-	],
-	"AINames": [
-		"Judah",
-		"John",
-		"Jonathan",
-		"Simon",
-		"Mattathias",
-		"Salome Alexandra",
-		"Herod",
-		"Jesus",
-		"David",
-		"Mary",
-		"Joseph",
-		"Magdalene"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/structures/default_house_5": "structures/{civ}/house",
-    "skirmish/units/special_starting_unit": "units/hasmo/chariot_javelineer_b",
-		"skirmish/units/default_infantry_ranged_b": "units/hasmo/infantry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/hasmo/infantry_spearman_b",
-	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_arrow"
-	},
-	"SelectableInGameSetup": true
+    "Code": "hasmo",
+    "Name": "hasmonean",
+    "Culture": "Judeans",
+    "Music": [
+        {
+            "File": "Helen_Leaves_Sparta.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Peaks_of_Atlas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Forging_a_City-State.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Hellespont.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/hasmo/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/hasmo/civil_centre"
+        },
+        {
+            "Template": "units/hasmo/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/hasmo/infantry_slinger_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/hasmo/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/hasmo/cavalry_javelineer_b"
+        },
+        {
+            "Template": "units/hasmo/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Simon Thassi",
+        "John Hyrcanus",
+        "Aristobulus I",
+        "Alexander Jannaeus",
+        "Salome Alexandra",
+        "Hyrcanus II",
+        "Aristobulus II",
+        "Antigonus II Mattathias"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/hasmo/cavalry_scout",
+        "skirmish/structures/default_house_5": "structures/{civ}/house",
+        "skirmish/units/default_infantry_ranged_b": "units/hasmo/infantry_slinger_b",
+        "skirmish/units/default_infantry_melee_b": "units/hasmo/infantry_spearman_b",
+        "skirmish/units/default_ship_trireme": "units/{civ}/ship_arrow"
+    },
+    "SelectableInGameSetup": true
 }

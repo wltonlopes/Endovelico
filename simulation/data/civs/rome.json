@@ -1,0 +1,95 @@
+{
+    "Code": "rome",
+    "Culture": "rome",
+    "Music": [
+        {
+            "File": "Juno_Protect_You.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mediterranean_Waves.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Elysian_Fields.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Governor.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Alba_Longa_Burns.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Roman_Ingenuity.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "Fertility",
+            "History": "Rome was one of the most populous cities in the ancient world.",
+            "Description": "Women train from houses without the need to research Fertility Festival."
+        },
+        {
+            "Name": "Testudo Formation",
+            "History": "The Romans commonly used the Testudo or 'turtle' formation for defense: Legionaries were formed into hollow squares with twelve men on each side, standing so close together that their shields overlapped like fish scales.",
+            "Description": "Roman Legionaries can form a Testudo."
+        },
+        {
+            "Name": "Centurions",
+            "History": "Centurions were the officers responsible for a centuria, a group of 100 soldiers.",
+            "Description": "Promote Elite Rank Spearmen or Swordsmen to Champion Centurions."
+        }
+    ],
+    "WallSets": [
+        "structures/rome/wallset_stone",
+        "structures/rome/wallset_siege"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/rome/civil_centre"
+        },
+        {
+            "Template": "units/rome/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/rome/infantry_swordsman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/rome/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/rome/cavalry_spearman_b"
+        },
+        {
+            "Template": "units/rome/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Lucius Junius Brutus",
+        "Lucius Tarquinius Collatinus",
+        "Gaius Julius Caesar Octavianus",
+        "Marcus Vipsanius Agrippa",
+        "Gaius Iulius Iullus",
+        "Gaius Servilius Structus Ahala",
+        "Publius Cornelius Rufinus",
+        "Lucius Papirius Cursor",
+        "Aulus Manlius Capitolinus",
+        "Publius Sempronius Tuditanus",
+        "Marcus Cornelius Cethegus",
+        "Quintus Caecilius Metellus Pius",
+        "Marcus Licinius Crassus"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/rome/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/rome/infantry_swordsman_b",
+        "skirmish/structures/default_house_10": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
+}

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
     <Obstructions>
@@ -15,10 +15,54 @@
       <Door width="13" depth="6.5" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Four>
+      <Five>
+        <X>7.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Five>
+      <Six>
+        <X>-7.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Six>
+      <Seven>
+        <X>10.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Seven>
+      <Eight>
+        <X>-10.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Eight>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
-    <Actor>structures/seleucids/wall_gate.xml</Actor>
+    <Actor>structures/hasmoneans/wall_gate_door.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>33.0</Length>
+    <Length>30</Length>
   </WallPiece>
 </Entity>

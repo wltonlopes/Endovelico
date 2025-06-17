@@ -6,13 +6,13 @@
   </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
     <Static width="7.5" depth="7.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/seleucids/wall_tower.xml</Actor>
+    <Actor>structures/hasmoneans/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>7.5</Length>

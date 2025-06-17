@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_slinger">
+  <Identity>
+    <Civ>pamp</Civ>
+    <SpecificName>Pámpido Scout</SpecificName>
+    <Icon>units/zapo/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/tiwanaku/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

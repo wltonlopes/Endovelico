@@ -1,58 +1,59 @@
 ﻿{
-	"Code": "hongb",
-	"Culture": " Hồng Bàng",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/hongb/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/hongb/civil_centre"
-		},
-		{
-			"Template":"units/hongb/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/hongb/infantry_swordsman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/hongb/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/hongb/cavalry_archer_b",
-			"Count": 1
-		}
-	],
-
-	"AINames":
-	[
-
-    "Wuzhu",	
-    "Ying",
-    "Chou",
-	"Yushan",
-	"Jugu"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/hongb/cavalry_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/hongb/infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/hongb/infantry_archer_b",
-	  "skirmish/units/default_ship_trireme":"units/hongb/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "hongb",
+    "Culture": " Hồng Bàng",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/hongb/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/hongb/civil_centre"
+        },
+        {
+            "Template": "units/hongb/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/hongb/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/hongb/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/hongb/cavalry_archer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/hongb/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Wuzhu",
+        "Ying",
+        "Chou",
+        "Yushan",
+        "Jugu"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/hongb/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/hongb/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/hongb/infantry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/hongb/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

@@ -7,6 +7,6 @@
     <Entity>units/hasmo/cavalry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/hasmonean/cavalry_javelineer_a_m.xml</Actor>
+    <Actor>units/hasmoneans/cavalry_javelineer_a_m.xml</Actor>
   </VisualActor>
 </Entity>

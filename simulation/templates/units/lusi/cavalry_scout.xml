@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_cavalry_swordsman">
+  <Identity>
+    <Civ>lusi</Civ>
+    <SpecificName>Lusitanians Scout</SpecificName>
+    <Icon>units/lusi/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/lusitanians/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

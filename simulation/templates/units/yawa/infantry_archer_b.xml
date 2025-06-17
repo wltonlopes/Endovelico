@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>yawa</Civ>
-    <SelectionGroupName>units/yayo/infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/yawa/infantry_archer_b</SelectionGroupName>
     <GenericName>Infantry Archer</GenericName>
-    <SpecificName>Yumitöri</SpecificName>
+    <SpecificName>Yumit&#246;ri</SpecificName>
     <Icon>units/yayo/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

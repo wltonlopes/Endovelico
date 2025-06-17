@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
     <Builder>
     <Entities datatype="tokens">
@@ -8,10 +7,10 @@
   </Builder>
   <Identity>
     <Civ>liby</Civ>
-    <SpecificName>Gýnē Athēnaía</SpecificName>
+    <SpecificName>G&#253;n&#275; Ath&#275;na&#237;a</SpecificName>
     <GenericName>gara Woman</GenericName>
     <Icon>units/gara/support_female_citizen.png</Icon>
-    <SelectionGroupName>units/gara/support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/liby/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/garamantians/female_citizen.xml</Actor>

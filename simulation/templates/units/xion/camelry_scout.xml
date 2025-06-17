@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_cavalry_javelineer">
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Xiongnu Scout</SpecificName>
+    <Icon>units/xion/camelry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/xiongnu/camelry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

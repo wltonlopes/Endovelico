@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_outpost">
   <Identity>
     <Civ>batw</Civ>
-    <SpecificName>Mipari</SpecificName>
+    <SpecificName>Ile Iso</SpecificName>
   </Identity>
   <RallyPoint disable=""/>
   <VisualActor>

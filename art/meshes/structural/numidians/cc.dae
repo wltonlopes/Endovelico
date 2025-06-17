@@ -13,14 +13,14 @@
   <library_effects>
     <effect id="edificios_numidas-effect">
       <profile_COMMON>
-        <newparam sid="numi_struct_png-surface">
+        <newparam sid="numi/struct_png-surface">
           <surface type="2D">
-            <init_from>numi_struct_png</init_from>
+            <init_from>numi/struct_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="numi_struct_png-sampler">
+        <newparam sid="numi/struct_png-sampler">
           <sampler2D>
-            <source>numi_struct_png-surface</source>
+            <source>numi/struct_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="numi_struct_png-sampler" texcoord="Mapa UV"/>
+              <texture texture="numi/struct_png-sampler" texcoord="Mapa UV"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -40,8 +40,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="numi_struct_png" name="numi_struct_png">
-      <init_from>/home/milena/Documentos/arquitetura-civs/Blender%20e%20Texturas/numi/numi_struct.png</init_from>
+    <image id="numi/struct_png" name="numi/struct_png">
+      <init_from>/home/milena/Documentos/arquitetura-civs/Blender%20e%20Texturas/numi/numi/struct.png</init_from>
     </image>
   </library_images>
   <library_materials>

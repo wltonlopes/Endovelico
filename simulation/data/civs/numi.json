@@ -1,63 +1,63 @@
 ﻿{
-	"Code": "numi",
-	"Culture": "Numidians",
-	"Music":[
-		{ "File": "red_dawn.ogg", "Type": "peace" },
-		{ "File": "hill_of_sorrows.ogg", "Type": "peace" }
-	],
-	"CivBonuses":
-	[
-	],
-	"TeamBonuses":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/numi/wallset_stone"
-	],
-	"StartEntities":
-	[
-		{
-			"Template": "structures/numi/civil_centre"
-		},
-		{
-			"Template":"units/numi/support_female_citizen",
-			"Count":5
-		},
-		{
-			"Template": "units/numi/infantry_swordsman_b",
-			"Count": 3
-		},
-		{
-			"Template": "units/numi/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/numi/cavalry_javelineer_b",
-			"Count": 2
-		}
-	],
-
-	"AINames":
-	[
-
-    "Juba I",	
-    "Juba II",
-	"Madghis",	
-    "Capussa",
-	"Gala",	
-	"Massinissa II",  
-    "Zelalsen",
-    "Masinissa",
-	"Hiempsal II"
-	],
-	"SkirmishReplacements":
-	{
-		"skirmish/units/default_cavalry": "units/numi/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/numi/infantry_swordsman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/numi/infantry_archer_b",
-		"skirmish/units/special_starting_unit": "units/numi/cavalry_javelineer_b",
-	  "skirmish/units/default_ship_trireme":"units/numi/ship_bireme"
-	},
-	"SelectableInGameSetup": true
+    "Code": "numi",
+    "Culture": "Numidians",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/numi/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/numi/civil_centre"
+        },
+        {
+            "Template": "units/numi/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/numi/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/numi/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/numi/cavalry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/numi/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Juba I",
+        "Juba II",
+        "Madghis",
+        "Capussa",
+        "Gala",
+        "Massinissa II",
+        "Zelalsen",
+        "Masinissa",
+        "Hiempsal II"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/numi/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/numi/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/numi/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/numi/cavalry_javelineer_b",
+        "skirmish/units/default_ship_trireme": "units/numi/ship_bireme"
+    },
+    "SelectableInGameSetup": true
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_blowgunner">
+  <Identity>
+    <Civ>tupi</Civ>
+    <SpecificName>Tupi Scout</SpecificName>
+    <Icon>units/zapo/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/south_america/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

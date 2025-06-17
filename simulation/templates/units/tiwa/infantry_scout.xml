@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_scout">
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_slinger">
   <Identity>
     <Civ>tiwa</Civ>
-    <SelectionGroupName>units/tiwa/heavy_infantry</SelectionGroupName>
-    <GenericName>Runner Warrior</GenericName>
-    <SpecificName>tzhae kaem</SpecificName>
-    <Icon>units/moch/infantry_scout.png</Icon>
+    <SpecificName>Tiwanaku Scout</SpecificName>
+    <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mochicas/infantry_scout.xml</Actor>
+    <Actor>units/tiwanaku/infantry_scout.xml</Actor>
   </VisualActor>
 </Entity>

@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/bedouin/cavalry_archer_e</Entity>
+    <Entity>units/bedo/cavalry_archer_e</Entity>
   </Promotion>
 </Entity>

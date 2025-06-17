@@ -2,11 +2,11 @@
 <Entity parent="template_player">
   <Identity>
     <Civ>hasmo</Civ>
-    <GenericName>Hasmonean</GenericName>
-    <History>Leader of the Maccabbean Revolt against the Seleucid Empire.</History>
+    <GenericName>Hasmoneans</GenericName>
+    <History>The Hasmoneans were a Jewish priestly family who led the Maccabean Revolt against the Seleucid Empire, eventually establishing an independent Jewish state in Judea. They held the High Priesthood and later became kings, combining religious and political authority. Their reign lasted from 165 BCE to 37 BCE, with their greatest extent being from 142 BCE to 63 BCE.</History>
     <Icon>emblems/emblem_hasmo.png</Icon>
   </Identity>
-    <Player>
+  <Player>
     <Formations datatype="tokens">
       special/formations/null
       special/formations/box

@@ -2,7 +2,7 @@
 <Entity parent="merc_inf|template_unit_infantry_melee_swordsman">
   <Attack>
     <Melee>
-      <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
+      <AttackName context="Name of an attack using a rhomphaia (ῥομφαία), a Thracian two-handed weapon capable of both thrusting and slashing.">Rhomphaia</AttackName>
       <Damage>
         <Hack>7</Hack>
         <Pierce>2.5</Pierce>
@@ -16,10 +16,10 @@
   <Identity>
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/jude/infantry_swordsman_merc_b</SelectionGroupName>
+    <SelectionGroupName>units/hasmo/infantry_swordsman_merc_b</SelectionGroupName>
     <GenericName>Mercenary Rhomphaiaphoros</GenericName>
     <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
-    <Icon>units/sele_infantry_swordsman.png</Icon>
+    <Icon>units/sele/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

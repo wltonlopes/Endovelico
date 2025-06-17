@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
     <Builder>
     <Entities datatype="tokens">
@@ -10,7 +9,7 @@
     <SpecificName>Mecherraec</SpecificName>
     <GenericName>Woman</GenericName>
     <Icon>units/moch/support_female_citizen.png</Icon>
-    <SelectionGroupName>units/moch/support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/tiwa/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/mochicas/citizen_female.xml</Actor>

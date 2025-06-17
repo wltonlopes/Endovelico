@@ -5,9 +5,9 @@
   </Auras> -->
   <Identity>
     <Civ>arme</Civ>
-    <GenericName>Armenians</GenericName>
-    <History>.</History>
-    <Icon>emblems/emblem_dacians.png</Icon>
+    <GenericName>Kingdom of Armenian</GenericName>
+    <History>The Kingdom of Armenia, also known as Greater Armenia, was a historic Armenian kingdom in the Ancient Near East, existing from 331 BC to 428 AD. It was divided into three dynasties: Orontid (331–200 BC), Artaxiad (189 BC – 12 AD), and Arsacid (52–428 AD). The kingdom's history was characterized by its location at the crossroads of the east and west, often caught between powerful empires like Rome and Parthia.</History>
+    <Icon>emblems/emblem_arme.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

@@ -24,7 +24,6 @@
       structures/{civ}/temple
       structures/{civ}/market
       structures/{civ}/ministry
-      structures/{civ}/outpost
       structures/{civ}/sentry_tower
       structures/{civ}/defense_tower
       structures/{civ}/arsenal
@@ -37,7 +36,6 @@
       structures/{civ}/theater
       structures/{civ}/tachara
       structures/{civ}/wonder
-
       structures/{civ}/palace
       structures/{civ}/big_forge
       structures/{civ}/statue

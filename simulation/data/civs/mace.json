@@ -1,0 +1,81 @@
+{
+    "Code": "mace",
+    "Culture": "hele",
+    "Music": [
+        {
+            "File": "Rise_of_Macedon.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "In_the_Shadow_of_Olympus.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Elysian_Fields.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Hellespont.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Northern_Frontier.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Upstart_King.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Epitaph.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/mace/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/mace/civil_centre"
+        },
+        {
+            "Template": "units/mace/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/mace/infantry_pikeman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/mace/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/mace/cavalry_spearman_b"
+        },
+        {
+            "Template": "units/mace/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Antipater",
+        "Philip IV",
+        "Lysander",
+        "Lysimachus",
+        "Pyrrhus of Epirus",
+        "Antigonus II Gonatas",
+        "Demetrius II Aetolicus",
+        "Philip V",
+        "Perseus",
+        "Craterus",
+        "Meleager"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/mace/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/mace/infantry_pikeman_b",
+        "skirmish/structures/default_house_10": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
+}

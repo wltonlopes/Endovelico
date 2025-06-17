@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant>
+			<mesh>skeletal/camel_bactrianus.dae</mesh>
+			<props>
+				<prop actor="units/xiongnu/camelry_scout_r.xml" attachpoint="rider"/>
+				<prop actor="props/camel/camel_bactrianus_blanket.xml" attachpoint="root"/>
+				<prop actor="props/camel/camel_bactrianus_rein.xml" attachpoint="root"/>
+				<!-- 				<prop actor="props/camel/teeths.xml" attachpoint="mouth_bot"/> -->
+				<!-- 				<prop actor="props/units/quiver_cavalry_right.xml" attachpoint="quiver_R"/> -->
+			</props>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="3" name="01">
+			<textures>
+				<texture file="skeletal/camel_bactrianus_01.png" name="baseTex"/>
+				<texture file="skeletal/camel_bactrianus_norm.png" name="normTex"/>
+				<texture file="null_black.dds" name="specTex"/>
+			</textures>
+		</variant>
+		<variant frequency="3" name="02">
+			<textures>
+				<texture file="skeletal/camel_bactrianus_02.png" name="baseTex"/>
+				<texture file="skeletal/camel_bactrianus_norm.png" name="normTex"/>
+				<texture file="null_black.dds" name="specTex"/>
+			</textures>
+		</variant>
+		<variant frequency="3" name="03">
+			<textures>
+				<texture file="skeletal/camel_bactrianus_03.png" name="baseTex"/>
+				<texture file="skeletal/camel_bactrianus_norm.png" name="normTex"/>
+				<texture file="null_black.dds" name="specTex"/>
+			</textures>
+		</variant>
+		<variant frequency="3" name="04">
+			<textures>
+				<texture file="skeletal/camel_bactrianus_04.png" name="baseTex"/>
+				<texture file="skeletal/camel_bactrianus_norm.png" name="normTex"/>
+				<texture file="null_black.dds" name="specTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant file="quadraped/base_camel_bactrianus_mount.xml"/>
+		<variant file="quadraped/base_camel_bactrianus_run.xml"/>
+		<variant file="quadraped/base_camel_bactrianus_death.xml"/>
+		<variant file="quadraped/base_camel_bactrianus_gather_meat.xml" name="gather_meat">
+			<props>
+				<prop actor="units/xiongnu/camelry_scout_r.xml" attachpoint="rider_L"/>
+			</props>
+		</variant>
+		<variant file="quadraped/base_camel_bactrianus_build.xml" name="build">
+			<props>
+				<prop actor="units/xiongnu/camelry_scout_r.xml" attachpoint="rider_L"/>
+			</props>
+		</variant>
+	</group>
+	<material>no_trans_norm_spec.xml</material>
+</actor>

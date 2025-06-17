@@ -1,0 +1,97 @@
+{
+    "Code": "spart",
+    "Culture": "hele",
+    "Music": [
+        {
+            "File": "Helen_Leaves_Sparta.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Peaks_of_Atlas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Forging_a_City-State.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Hellespont.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Only_300_Stood.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "Spartan Women",
+            "History": "",
+            "Description": "Female Citizens +40% health and +50% melee attack hack damage."
+        },
+        {
+            "Name": "Laws of Lycurgus",
+            "History": "Under the constitution written by the mythical lawgiver Lycurgus, society was shaped around the training and development of superior warriors in defense of the Spartan state.",
+            "Description": "Champion Hoplites are available in village phase, and can promote to highly experienced Olympic Champions."
+        },
+        {
+            "Name": "Agoge",
+            "History": "The institution of the Agoge was established to rigorously train Spartan boys from the age of 6 to be fearsome warriors.",
+            "Description": "Champion Hoplites -10% attack time."
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/spart/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/spart/civil_centre"
+        },
+        {
+            "Template": "units/spart/support_female_citizen",
+            "Count": 4
+        },
+        {
+            "Template": "units/spart/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/spart/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/spart/cavalry_javelineer_b"
+        },
+        {
+            "Template": "units/spart/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Agesilaus",
+        "Agesipolis",
+        "Agis II",
+        "Anaxandridas",
+        "Archidamus",
+        "Cleomenes",
+        "Dienekes",
+        "Echestratus",
+        "Eucleidas",
+        "Eurybiades",
+        "Eurycrates",
+        "Gylippus",
+        "Leotychidas",
+        "Lysander",
+        "Pausanias"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/spart/cavalry_scout",
+        "skirmish/structures/default_house_10": "structures/{civ}/house",
+        "skirmish/structures/default_wall_tower": "",
+        "skirmish/structures/default_wall_gate": "",
+        "skirmish/structures/default_wall_short": "",
+        "skirmish/structures/default_wall_medium": "",
+        "skirmish/structures/default_wall_long": ""
+    },
+    "SelectableInGameSetup": true
+}
