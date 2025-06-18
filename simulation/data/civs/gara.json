@@ -53,11 +53,10 @@
         }
     ],
     "AINames": [
-        "Djalla",
-        "Gildo",
-        "Iddibal",
-        "Iassuchtan",
-        "Iaremaban"
+        "Takfarinas",
+        "Malmacê",
+        "Jerma II",
+        "Massiva"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/gara/chariot_scout",
