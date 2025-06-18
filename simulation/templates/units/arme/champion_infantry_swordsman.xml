@@ -2,13 +2,16 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>arme</Civ>
-    <GenericName>Triballi Tribesmen</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Champion Swordsman</GenericName>
+    <SpecificName/>
     <Icon>units/thra/champion_infantry_swordsman.png</Icon>
-  </Identity>
     <Requirements>
-      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
     </Requirements>
+  </Identity>
   <VisualActor>
     <Actor>units/thracians/infantry_swordsman_c.xml</Actor>
   </VisualActor>
