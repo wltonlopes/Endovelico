@@ -27,27 +27,27 @@
 	"WallSets":
 	[
 		"structures/wallset_palisade",
-		"structures/bosf/wallset_stone"
+		"structures/cyre/wallset_stone"
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/bosf/civil_centre"
+			"Template": "structures/cyre/civil_centre"
 		},
 		{
-			"Template":"units/bosf/support_female_citizen",
+			"Template":"units/cyre/support_female_citizen",
 			"Count":5
 		},
 		{
-			"Template": "units/bosf/infantry_spearman_b",
+			"Template": "units/cyre/infantry_spearman_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/bosf/infantry_javelineer_b",
+			"Template": "units/cyre/infantry_javelineer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/bosf/cavalry_spearman_b",
+			"Template": "units/cyre/cavalry_spearman_b",
 			"Count": 1
 		}
 	],
@@ -55,24 +55,19 @@
 	"AINames":
 	[
 
-    "Jimmu",	
-    "Suizei",
-    "Annei",
-		"Itoku",
-		"Kosho",
-		"Koan",
-		"Korei",
-		"Kogen",
-		"Kaika",
-		"Suijin",
-		"Suinin"
+    "Bato IV",	
+    "Bato II",
+    "Ancesilau II",
+	"Ligdamis",	
+    "Ascesilau IV",
+    "Magas"
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/bosf/cavalry_spearman_b",
-		"skirmish/units/default_infantry_melee_b": "units/bosf/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/bosf/infantry_javelineer_b",
-	  "skirmish/units/default_ship_trireme":"units/bosf/ship_bireme"
+		"skirmish/units/default_cavalry": "units/cyre/cavalry_spearman_b",
+		"skirmish/units/default_infantry_melee_b": "units/cyre/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/cyre/infantry_javelineer_b",
+	  "skirmish/units/default_ship_trireme":"units/cyre/ship_bireme"
 	},
 	"SelectableInGameSetup": true
 }
