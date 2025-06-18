@@ -2,14 +2,14 @@
 <Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>batw</Civ>
-    <GenericName>Shrine</GenericName>
+    <GenericName>Stable</GenericName>
     <SpecificName>Durosinsin</SpecificName>
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="16" depth="12"/>
   </Obstruction>
-    <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_elephant
     </Entities>

@@ -2,9 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Adena House">
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>
       <textures>
         <texture file="structural/aden_struct.png" name="baseTex"/>
@@ -14,28 +16,22 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="house a">
-<mesh>structural/adena/house_1.dae</mesh>
+    <variant frequency="1" name="House 01">
+      <mesh>structural/adena/house_01.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/aden/house_01.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house b">
-<mesh>structural/adena/house_2.dae</mesh>
+    <variant frequency="1" name="House 02">
+      <mesh>structural/adena/house_02.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/aden/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house c">
-<mesh>structural/adena/house_3.dae</mesh>
+    <variant frequency="1" name="House 03">
+      <mesh>structural/adena/house_03.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="house d">
-<mesh>structural/adena/house_2.dae</mesh>
-      <textures>
-                <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -43,7 +39,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_aden.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>
