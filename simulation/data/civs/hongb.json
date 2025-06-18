@@ -43,11 +43,10 @@
         }
     ],
     "AINames": [
-        "Wuzhu",
-        "Ying",
-        "Chou",
-        "Yushan",
-        "Jugu"
+        "Thuc Phàn",
+        "Có Loa",
+        "Trung Trác",
+        "Trung Nhi"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/hongb/cavalry_scout",
