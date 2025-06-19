@@ -4,6 +4,7 @@
     <Civ>arme</Civ>
     <GenericName>Armenian Scout</GenericName>
     <Icon>units/arme/cavalry_scout.png</Icon>
+    <Tooltip>Research technologies.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/armenia/cavalry_scout.xml</Actor>

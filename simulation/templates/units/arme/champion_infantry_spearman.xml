@@ -5,7 +5,10 @@
     <GenericName>Thracian Hoplite</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Tooltip>Train Champions and research technologies.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/thracians/infantry_spearman_c.xml</Actor>

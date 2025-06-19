@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-05-25T20:26:39</created>
-    <modified>2025-05-25T20:26:39</modified>
+    <created>2025-06-19T08:58:33</created>
+    <modified>2025-06-19T08:58:33</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -41,7 +41,7 @@
   </library_effects>
   <library_images>
     <image id="_626671618_texturasTiahuaFINAIS_thumb_png_49adf43d502645cc26f74" name="_626671618_texturasTiahuaFINAIS_thumb_png_49adf43d502645cc26f74">
-      <init_from>/home/welton/Documentos/arquitetura-civs/Blender%20e%20Texturas/tihuanako/1626671618_texturasTiahuaFINAIS.thumb.png.49adf43d502645cc26f74b8944830625.png</init_from>
+      <init_from>1626671618_texturasTiahuaFINAIS.thumb.png.49adf43d502645cc26f74.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -117,12 +117,6 @@
             </technique_common>
           </bind_material>
         </instance_geometry>
-        <node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033843 0 0 0.7829416 9.013988 0 0 0 1</matrix>
-        </node>
-        <node id="prop_projectile" name="prop_projectile" type="NODE">
-          <matrix sid="transform">-0.7829417 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829417 0 0 0 0 0.7829417 10.52408 0 0 0 1</matrix>
-        </node>
       </node>
     </visual_scene>
   </library_visual_scenes>
