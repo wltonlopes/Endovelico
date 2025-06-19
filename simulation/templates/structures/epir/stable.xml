@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Identity>
+    <Civ>epir</Civ>
+    <GenericName>Stable</GenericName>
+    <SpecificName></SpecificName>
+    <Tooltip>.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/epiro/stable.xml</Actor>
+  </VisualActor>
+</Entity>
