@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_axeman">
+<Entity parent="template_unit_infantry_melee_maceman">
   <Cost>
     <Resources>
       <stone>10</stone>
@@ -9,12 +9,12 @@
   <Identity>
     <Civ>anish</Civ>
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
-    <GenericName>Axeman Warrior</GenericName>
-    <SpecificName>B'aat Bate</SpecificName>
+    <GenericName>Maceman Wolf clan</GenericName>
+    <SpecificName>Ma'iingan</SpecificName>
     <Icon>units/south_america/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/anish/infantry_axeman_a</Entity>
+    <Entity>units/anish/infantry_maceman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/maya_protoclassic/infantry_axeman_b.xml</Actor>

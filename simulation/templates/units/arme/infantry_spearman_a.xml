@@ -7,6 +7,6 @@
     <Entity>units/arme/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/thracians/infantry_spearman_a.xml</Actor>
+    <Actor>units/armenian/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>
