@@ -3,15 +3,18 @@
   <castshadow/>
   <group> 
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
-      <mesh>structural/delmatae/cc.dae</mesh>
+      <mesh>structural/dalmatae/cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="flora/trees/cypress_med_branches.xml" attachpoint="cc_f_1"/>
+        <prop actor="flora/trees/cypress_med_branches.xml" attachpoint="cc_f_2"/>
+        <prop actor="flora/trees/cypress_med_branches.xml" attachpoint="cc_f_3"/>
+        <prop actor="flora/trees/cypress_med_branches.xml" attachpoint="cc_f_4"/>
       </props>
       <textures>
-        <texture file="structural/delma_struct.png" name="baseTex"/>
-        <texture file="structural/delma_struct_spec.png" name="specTex"/>
-        <texture file="structural/delma_struct_norm.png" name="normTex"/>
+        <texture file="structural/dalm_struct.png" name="baseTex"/>
+        <texture file="structural/dalm_struct_spec.png" name="specTex"/>
+        <texture file="structural/dalm_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
