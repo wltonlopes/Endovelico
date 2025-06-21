@@ -4,11 +4,6 @@
     <Civ>yaru</Civ>
     <SpecificName>Nezirö</SpecificName>
   </Identity>
-  <Researcher>
-    <Technologies datatype="tokens">
-      unlock_mercenary_cavalry
-    </Technologies>
-  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_axeman_b

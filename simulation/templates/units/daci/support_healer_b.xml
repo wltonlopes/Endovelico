@@ -5,7 +5,7 @@
     <Icon>units/hele/support_healer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/thra/support_healer_a</Entity>
+    <Entity>units/daci/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/spartans/healer.xml</Actor>

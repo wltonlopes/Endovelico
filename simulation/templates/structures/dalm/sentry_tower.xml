@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/bosporan/scout_tower.xml</Actor>
+    <Actor>structures/delmatae/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-  <group>
+  <group> 
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/delmatae/cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="flora/trees/cypress_med_branches.xml" attachpoint="cc_f_1"/>
       </props>
       <textures>
         <texture file="structural/delma_struct.png" name="baseTex"/>

@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/bosporan/arsenal.xml</Actor>
+    <Actor>structures/delmatae/arsenal.xml</Actor>
   </VisualActor>
 </Entity>

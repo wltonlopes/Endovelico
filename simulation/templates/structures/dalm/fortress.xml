@@ -11,7 +11,7 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/bosporan/fortress.xml</Actor>
+    <Actor>structures/delmatae/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>16.8</Length>
