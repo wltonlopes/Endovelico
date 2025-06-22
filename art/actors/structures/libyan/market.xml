@@ -6,6 +6,8 @@
       <mesh>structural/libyan/market.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/market_d.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/market_f.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>

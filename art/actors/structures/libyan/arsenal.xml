@@ -2,12 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/libyan/range.dae</mesh>
+    <variant name="base">
+      <mesh>structural/libyan/arsenal.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="structures/libyan/range_d.xml" attachpoint="root"/>
-        <prop actor="structures/libyan/range_f.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/arsenal_d.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/arsenal_f.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>
