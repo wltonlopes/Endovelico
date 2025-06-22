@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/bosporan/outpost.xml</Actor>
+    <Actor>structures/delmatae/outpost.xml</Actor>
   </VisualActor>
 </Entity>

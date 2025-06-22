@@ -7,7 +7,7 @@
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/thra/infantry_swordsman_a</Entity>
+    <Entity>units/daci/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thracians/infantry_swordsman_b.xml</Actor>

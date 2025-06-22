@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_crossbowman">
+  <Identity>
+    <Civ>epir</Civ>
+    <SpecificName>Molossian Belly Bowman</SpecificName>
+    <Icon>units/epir/champion_infantry_ranged_gastraphetes.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/epirotes/infantry_crossbowman_c.xml</Actor>
+  </VisualActor>
+</Entity>

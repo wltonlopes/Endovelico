@@ -15,7 +15,7 @@
     <Static width="10.0" depth="22.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/bosporan/dock.xml</Actor>
+    <Actor>structures/delmatae/dock.xml</Actor>
     <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

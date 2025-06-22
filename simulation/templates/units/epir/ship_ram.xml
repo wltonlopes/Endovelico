@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_warship_ram">
+  <Identity>
+    <Civ>epir</Civ>
+    <Lang>greek</Lang>
+    <SpecificName>Triērēs</SpecificName>
+    <Icon>units/mace/ship_ram.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/macedonians/trireme_ram.xml</Actor>
+  </VisualActor>
+</Entity>

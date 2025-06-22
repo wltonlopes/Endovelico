@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/thra/infantry_spearman_e</Entity>
+    <Entity>units/daci/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thracians/infantry_spearman_a.xml</Actor>

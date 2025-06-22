@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>epir</Civ>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/cyre/wall_tower</Tower>
+      <Gate>structures/cyre/wall_gate</Gate>
+      <WallLong>structures/cyre/wall_long</WallLong>
+      <WallMedium>structures/cyre/wall_medium</WallMedium>
+      <WallShort>structures/cyre/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

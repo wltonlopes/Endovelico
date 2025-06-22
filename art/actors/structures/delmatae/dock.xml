@@ -4,14 +4,14 @@
   <group>
     <variant frequency="1" name="Scout_Tower">
 
-      <mesh>structural/delmatae/dock.dae</mesh>
+      <mesh>structural/dalmatae/dock.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/delma_struct.png" name="baseTex"/>
-        <texture file="structural/delma_struct_spec.png" name="specTex"/>
-        <texture file="structural/delma_struct_norm.png" name="normTex"/>
+        <texture file="structural/dalm_struct.png" name="baseTex"/>
+        <texture file="structural/dalm_struct_spec.png" name="specTex"/>
+        <texture file="structural/dalm_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>

@@ -9,7 +9,8 @@
   <Identity>
     <Civ>anish</Civ>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
-    <SpecificName>Taj Lom Bate</SpecificName>
+    <GenericName>Spearman Turtle clan</GenericName>
+    <SpecificName>Mikinaak</SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

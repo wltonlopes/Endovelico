@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/epir/champion_cavalry">
+  <Cost>
+    <BuildTime op="add">10</BuildTime>
+  </Cost>
+  <Identity>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city unlock_champion_units</Techs>
+    </Requirements>
+  </Identity>
+</Entity>

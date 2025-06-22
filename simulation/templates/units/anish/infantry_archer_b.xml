@@ -2,19 +2,14 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Builder>
     <Entities datatype="tokens">
-      structures/anish/pyramid_large
-      structures/anish/observatory
       structures/anish/embassy
-      structures/anish/temple_of_masks
-      structures/anish/range
-      structures/anish/palace
     </Entities>
   </Builder>
   <Identity>
     <Civ>anish</Civ>
-    <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
-    <GenericName>Archer</GenericName>
-    <SpecificName></SpecificName>
+    <SelectionGroupName>units/anish/infantry_archer_b</SelectionGroupName>
+    <GenericName>Archer Bear clan</GenericName>
+    <SpecificName>Makwa</SpecificName>
     <Icon>units/south_america/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

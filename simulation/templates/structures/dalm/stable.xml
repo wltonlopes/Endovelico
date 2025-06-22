@@ -7,6 +7,6 @@
     <Tooltip>.</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>structures/bosporan/stable.xml</Actor>
+    <Actor>structures/delmatae/stable.xml</Actor>
   </VisualActor>
 </Entity>

@@ -17,6 +17,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/bosporan/civic_center.xml</Actor>
+    <Actor>structures/delmatae/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

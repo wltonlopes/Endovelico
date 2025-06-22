@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/bosporan/market.xml</Actor>
+    <Actor>structures/delmatae/market.xml</Actor>
   </VisualActor>
 </Entity>

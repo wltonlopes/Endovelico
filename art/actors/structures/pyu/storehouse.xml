@@ -5,6 +5,7 @@
     <variant frequency="1" name="Storehouse">
       <mesh>structural/pyu/storehouse.dae</mesh>
       <props>
+        <prop actor="structures/pyu/storehouse_f.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>

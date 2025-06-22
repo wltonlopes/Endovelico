@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/thra/support_healer_e</Entity>
+    <Entity>units/daci/support_healer_e</Entity>
   </Promotion>
 </Entity>

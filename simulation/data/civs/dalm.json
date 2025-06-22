@@ -16,49 +16,41 @@
     "WallSets": [
         "structures/wallset_palisade"
     ],
-    "StartEntities": [
+  "StartEntities": [
         {
             "Template": "structures/dalm/civil_centre"
         },
         {
             "Template": "units/dalm/support_female_citizen",
-            "Count": 5
+            "Count": 4
         },
         {
-            "Template": "units/dalm/infantry_axeman_b",
-            "Count": 3
-        },
-        {
-            "Template": "units/dalm/infantry_archer_b",
+            "Template": "units/dalm/infantry_spearman_b",
             "Count": 2
         },
         {
-            "Template": "units/dalm/cavalry_archer_b",
-            "Count": 1
+            "Template": "units/dalm/infantry_javelineer_b",
+            "Count": 2
         },
         {
-            "Template": "units/dalm/cavalry_scout",
-            "Count": 1
+            "Template": "units/dalm/cavalry_javelineer_b"
+        },
+        {
+            "Template": "units/dalm/cavalry_scout"
         }
     ],
     "AINames": [
-        "Jimmu",
-        "Suizei",
-        "Annei",
-        "Itoku",
-        "Kosho",
-        "Koan",
-        "Korei",
-        "Kogen",
-        "Kaika",
-        "Suijin",
-        "Suinin"
+        "Orpheus",
+        "Sitalces",
+        "Amadocus",
+        "Teres I",
+        "Decebalus",
+        "Burebista"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/dalm/cavalry_scout",
-        "skirmish/units/default_infantry_melee_b": "units/dalm/infantry_axeman_b",
-        "skirmish/units/default_infantry_ranged_b": "units/dalm/infantry_archer_b",
-        "skirmish/units/default_ship_trireme": "units/dalm/ship_bireme"
+        "skirmish/units/default_infantry_melee_b": "units/dalm/infantry_spearman_b",
+        "skirmish/structures/default_house_5": "structures/{civ}/house"
     },
     "SelectableInGameSetup": true
 }
