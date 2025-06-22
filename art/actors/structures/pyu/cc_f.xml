@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="cc">
-      <mesh>structural/hisatsinom/cc_f.dae</mesh>
+      <mesh>structural/pyu/cc_f.dae</mesh>
       <textures>
         <texture file="structural/struct_nature.png" name="baseTex"/>
         <texture file="structural/struct_nature_norm.png" name="normTex"/>

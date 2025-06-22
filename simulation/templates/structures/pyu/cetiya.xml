@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="shrine|template_structure_civic_temple">
+  <Footprint replace="">
+    <Square depth="10" width="10"/>
+    <Height>20</Height>
+  </Footprint>
+  <Identity>
+    <Civ>pyu</Civ>
+    <SpecificName>Cetiya</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static depth="7.5" width="7.5"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>20</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/pyu/cetiya.xml</Actor>
+  </VisualActor>
+</Entity>

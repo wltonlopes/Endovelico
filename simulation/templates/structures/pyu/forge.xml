@@ -5,6 +5,6 @@
     <SpecificName>Khalkeṓn</SpecificName>
   </Identity>
   <VisualActor>
-       <Actor>structures/pyu/blacksmith.xml</Actor>
+       <Actor>structures/pyu/forge.xml</Actor>
   </VisualActor>
 </Entity>

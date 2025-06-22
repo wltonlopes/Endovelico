@@ -5,6 +5,8 @@
     <variant frequency="1" name="Forge">
       <mesh>structural/pyu/forge.dae</mesh>
       <props>
+        <prop actor="structures/pyu/forge_f.xml" attachpoint="root"/>
+        <prop actor="particle/smoke.xml" attachpoint="smoke_1"/>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>

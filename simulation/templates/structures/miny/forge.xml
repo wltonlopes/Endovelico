@@ -5,6 +5,6 @@
     <SpecificName>Khalkeṓn</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/minyue/blacksmith.xml</Actor>
+    <Actor>structures/minyue/forge.xml</Actor>
   </VisualActor>
 </Entity>

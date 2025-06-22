@@ -5,6 +5,7 @@
     <variant frequency="1" name="base">
       <mesh>structural/pyu/corral.dae</mesh>
       <props>
+        <prop actor="structures/pyu/corral_f.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>

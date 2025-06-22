@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="corral">
-      <mesh>structural/hisatsinom/corral_f.dae</mesh>
+      <mesh>structural/pyu/corral_f.dae</mesh>
       <textures>
         <texture file="structural/struct_nature.png" name="baseTex"/>
         <texture file="structural/struct_nature_norm.png" name="normTex"/>

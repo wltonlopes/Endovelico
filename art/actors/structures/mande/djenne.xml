@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="big_forge">
-      <mesh>structural/mande/big_forge.dae</mesh>
+    <variant frequency="1" name="djenne">
+      <mesh>structural/mande/djenne.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

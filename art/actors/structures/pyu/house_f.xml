@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="house_1_f">
-      <mesh>structural/hisatsinom/house_1_f.dae</mesh>
+      <mesh>structural/pyu/house_1_f.dae</mesh>
       <textures>
         <texture file="structural/struct_nature.png" name="baseTex"/>
         <texture file="structural/struct_nature_norm.png" name="normTex"/>
@@ -11,7 +11,7 @@
       </textures>
     </variant>
     <variant frequency="1" name="house_2_f">
-      <mesh>structural/hisatsinom/house_2_f.dae</mesh>
+      <mesh>structural/pyu/house_2_f.dae</mesh>
       <textures>
         <texture file="structural/struct_nature.png" name="baseTex"/>
         <texture file="structural/struct_nature_norm.png" name="normTex"/>
@@ -19,7 +19,7 @@
       </textures>
     </variant>
     <variant frequency="1" name="house_3_f">
-      <mesh>structural/hisatsinom/house_3_f.dae</mesh>
+      <mesh>structural/pyu/house_3_f.dae</mesh>
       <textures>
         <texture file="structural/struct_nature.png" name="baseTex"/>
         <texture file="structural/struct_nature_norm.png" name="normTex"/>

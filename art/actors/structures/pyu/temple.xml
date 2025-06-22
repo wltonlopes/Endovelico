@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
       <mesh>structural/pyu/temple.dae</mesh>
       <props>
+        <prop actor="structures/pyu/temple_f.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
