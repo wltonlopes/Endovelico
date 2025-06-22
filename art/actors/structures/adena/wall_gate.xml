@@ -2,23 +2,20 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Adena Wall Gate">
+      <animations>
+        <animation file="mechanical/aden_wall_gate_closed.dae" name="gate_closed" speed="65"/>
+        <animation file="mechanical/aden_wall_gate_opening.dae" name="gate_opening" speed="65"/>
+        <animation file="mechanical/aden_wall_gate_open.dae" name="gate_open" speed="65"/>
+        <animation file="mechanical/aden_wall_gate_closing.dae" name="gate_closing" speed="65"/>
+      </animations>
       <mesh>structural/adena/wall_gate.dae</mesh>
       <textures>
         <texture file="structural/aden_struct.png" name="baseTex"/>
         <texture file="structural/aden_struct_spec.png" name="specTex"/>
         <texture file="structural/aden_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/aden/wall_gate_ao.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
-      </props>
     </variant>
   </group>
   <group>

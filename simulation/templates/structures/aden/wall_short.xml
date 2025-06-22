@@ -14,6 +14,9 @@
   <StatusBars>
     <HeightOffset>13.6</HeightOffset>
   </StatusBars>
+  <WallPiece>
+    <Length>8.6</Length>
+  </WallPiece>
   <VisualActor>
     <Actor>structures/adena/wall_short.xml</Actor>
   </VisualActor>

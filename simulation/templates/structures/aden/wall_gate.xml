@@ -52,6 +52,9 @@
       </Six>
     </TurretPoints>
   </TurretHolder>
+  <!--<WallPiece>
+    <Length>26</Length>
+  </WallPiece>-->
   <VisualActor>
     <Actor>structures/adena/wall_gate.xml</Actor>
   </VisualActor>

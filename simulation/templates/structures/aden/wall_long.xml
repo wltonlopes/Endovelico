@@ -58,6 +58,9 @@
       </Eight>
     </TurretPoints>
   </TurretHolder>
+  <WallPiece>
+    <Length>28</Length>
+  </WallPiece>
   <VisualActor>
     <Actor>structures/adena/wall_long.xml</Actor>
   </VisualActor>
