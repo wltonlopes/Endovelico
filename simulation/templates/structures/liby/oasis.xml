@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="rotary_mill|template_structure_economic_farmstead">
+  <Identity>
+    <Civ>liby</Civ>
+    <SpecificName>Oasis</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/libyan/oasis.xml</Actor>
+  </VisualActor>
+</Entity>

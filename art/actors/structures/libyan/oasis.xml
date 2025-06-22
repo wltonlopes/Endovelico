@@ -2,8 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="gate">
-      <mesh>structural/libyan/wall_gate.dae</mesh>
+    <variant frequency="1" name="oasis">
+      <mesh>structural/libyan/oasis.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/oasis_d.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/oasis_f.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/oasis_f2.xml" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>
         <texture file="structural/liby_struct_spec.png" name="specTex"/>

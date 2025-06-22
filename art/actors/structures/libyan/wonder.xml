@@ -6,6 +6,7 @@
       <mesh>structural/libyan/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/wonder_d.xml" attachpoint="root"/>
         <prop actor="structures/libyan/wonder_f.xml" attachpoint="root"/>
         <prop actor="structures/libyan/wonder_f2.xml" attachpoint="root"/>
       </props>

@@ -5,6 +5,6 @@
     <SpecificName>Pr-ỉwn n ms</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/libyan/workshop.xml</Actor>
+    <Actor>structures/libyan/arsenal.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/libyan/cc_f.dae</mesh>
+      <mesh>structural/libyan/market_f.dae</mesh>
       <textures>
         <texture file="gaia/palm_areca.png" name="baseTex"/>
         <texture file="gaia/palm_areca_norm.png" name="normTex"/>

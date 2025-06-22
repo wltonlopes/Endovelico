@@ -6,7 +6,8 @@
       <mesh>structural/libyan/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="structures/libyan/forge_c.xml" attachpoint="root"/>       
+        <prop actor="structures/libyan/forge_d.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/forge_f.xml" attachpoint="root"/> 
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>

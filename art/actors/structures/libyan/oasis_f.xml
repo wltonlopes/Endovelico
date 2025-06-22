@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/libyan/market_f.dae</mesh>
+    <variant frequency="1" name="oasis_f">
+      <mesh>structural/libyan/oasis_f.dae</mesh>
       <textures>
         <texture file="gaia/bush_dese_dry_a.dds" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>

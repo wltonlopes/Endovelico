@@ -6,7 +6,8 @@
       <mesh>structural/libyan/corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="structures/libyan/corral_c.xml" attachpoint="root"/>       
+        <prop actor="structures/libyan/corral_d.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/corral_f.xml" attachpoint="root"/>      
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>

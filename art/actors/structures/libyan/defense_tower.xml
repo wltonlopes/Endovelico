@@ -6,6 +6,7 @@
       <mesh>structural/libyan/stone_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/defense_tower_f.xml" attachpoint="root"/>     
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>

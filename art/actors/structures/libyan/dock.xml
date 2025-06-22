@@ -2,12 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">
-      <mesh>structural/libyan/fortress.dae</mesh>
+    <variant frequency="1" name="base">
+      <mesh>structural/libyan/dock.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="structures/libyan/fortress_d.xml" attachpoint="root"/>
-        <prop actor="structures/libyan/fortress_f.xml" attachpoint="root"/> 
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="structures/libyan/dock_d.xml" attachpoint="root"/>       
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>
