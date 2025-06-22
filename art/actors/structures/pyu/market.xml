@@ -5,6 +5,7 @@
     <variant frequency="1" name="Yayoi Market">
       <mesh>structural/pyu/market.dae</mesh>
       <props>
+        <prop actor="structures/pyu/market_f.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>

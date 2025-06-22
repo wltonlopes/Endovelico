@@ -5,6 +5,9 @@
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/pyu/cc.dae</mesh>
       <props>
+        <prop actor="structures/pyu/cc_f.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_small_light.xml" attachpoint="smoke_1"/>
+        <prop actor="particle/smoke_small_light.xml" attachpoint="smoke_2"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>

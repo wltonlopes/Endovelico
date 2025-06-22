@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
       <mesh>structural/pyu/dock.dae</mesh>
       <props>
+        <prop actor="structures/pyu/dock_f.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/pyu_struct.png" name="baseTex"/>

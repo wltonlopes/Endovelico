@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="defense_tower_f">
-      <mesh>structural/pyu/stone_tower_f.dae</mesh>
+    <variant frequency="1" name="corral">
+      <mesh>structural/pyu/vihara_f.dae</mesh>
       <textures>
         <texture file="structural/struct_nature.png" name="baseTex"/>
         <texture file="structural/struct_nature_norm.png" name="normTex"/>

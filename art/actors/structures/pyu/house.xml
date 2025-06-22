@@ -32,12 +32,6 @@
          <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house d">
-<mesh>structural/pyu/house_2.dae</mesh>
-      <textures>
-                <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
