@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
       <mesh>structural/libyan/stable_camel_f.dae</mesh>
       <textures>
         <texture file="gaia/bush_dese_dry_a.dds" name="baseTex"/>

@@ -5,11 +5,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/bosf/wall_tower</Tower>
-      <Gate>structures/bosf/wall_gate</Gate>
-      <WallLong>structures/bosf/wall_long</WallLong>
-      <WallMedium>structures/bosf/wall_medium</WallMedium>
-      <WallShort>structures/bosf/wall_short</WallShort>
+      <Tower>structures/dalm/wall_tower</Tower>
+      <Gate>structures/dalm/wall_gate</Gate>
+      <WallLong>structures/dalm/wall_long</WallLong>
+      <WallMedium>structures/dalm/wall_medium</WallMedium>
+      <WallShort>structures/dalm/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.80</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
