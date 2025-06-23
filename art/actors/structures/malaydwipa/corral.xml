@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/malaydwipa/corral.dae</mesh>
+      <mesh>structural/malaydwipa/arsenal.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>

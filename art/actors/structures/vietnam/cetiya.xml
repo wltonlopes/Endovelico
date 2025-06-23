@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="cetiya">
-
       <mesh>structural/vietnam/cetiya.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>

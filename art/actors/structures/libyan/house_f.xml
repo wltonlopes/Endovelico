@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="gaia/bush_dese_dry_a.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="house a">
+   <mesh>structural/libyan/house_1_d.dae</mesh>
+      <textures>
+      	<texture file="structural/ao/bedouin/barracks_AO.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house b">
+    <mesh>structural/libyan/house_2_d.dae</mesh>
+      <textures>
+      	<texture file="structural/ao/bedouin/barracks_AO.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house c">
+    <mesh>structural/libyan/house_3_d.dae</mesh>
+      <textures>
+      	<texture file="structural/ao/bedouin/barracks_AO.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_ao_parallax_spec.xml</material>
+</actor>

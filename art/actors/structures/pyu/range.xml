@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
       <mesh>structural/pyu/range.dae</mesh>
       <props>
         <prop actor="structures/pyu/range_f.xml" attachpoint="root"/>

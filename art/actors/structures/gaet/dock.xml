@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
       <mesh>structural/gaet/dock.dae</mesh>
       <props>
         <prop actor="structures/gaet/dock_f.xml" attachpoint="root"/>

@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
       <mesh>structural/bedouin/stable_camel_f.dae</mesh>
       <textures>
         <texture file="gaia/palm_areca.png" name="baseTex"/>

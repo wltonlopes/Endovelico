@@ -1,0 +1,71 @@
+﻿{
+	"Code": "toca",
+	"Culture": "tocharians",
+	"Music": [
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Highland_Mist.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/toca/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/toca/civil_centre"
+		},
+		{
+			"Template":"units/toca/support_female_citizen",
+			"Count":5
+		},
+		{
+			"Template": "units/toca/infantry_spearman_b",
+			"Count": 3
+		},
+        {
+            "Template": "units/scyth/cavalry_archer_b",
+            "Count": 2
+        },
+		{
+			"Template": "units/toca/cavalry_spearman_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+
+    "Jimmu",	
+    "Suizei",
+    "Annei",
+    "Suinin"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/toca/cavalry_spearman_b",
+		"skirmish/units/default_infantry_melee_b": "units/toca/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/toca/cavalry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/toca/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

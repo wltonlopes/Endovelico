@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
       <mesh>structural/dalmatae/dock.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>

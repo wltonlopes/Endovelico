@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="stable_elephant">
-
       <mesh>structural/macrobian/stable_elephant.dae</mesh>
       <props>
       </props>

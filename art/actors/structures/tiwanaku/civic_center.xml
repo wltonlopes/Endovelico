@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
       <mesh>structural/tiwanaku/cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
