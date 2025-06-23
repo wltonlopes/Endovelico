@@ -2,16 +2,18 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">
+    <variant frequency="1" name="Libyan Fortress" file="structures/defensive_building.xml">
       <mesh>structural/libyan/fortress.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/libyan/fortress_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/libyan/fortress_roof.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>
         <texture file="structural/liby_struct_spec.png" name="specTex"/>
         <texture file="structural/liby_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/liby/fortress_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,7 +21,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_bedo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_bedo.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

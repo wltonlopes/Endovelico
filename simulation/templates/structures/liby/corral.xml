@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
   <Footprint>
-    <Square width="8.0" depth="16.0"/>
+    <Square width="18.0" depth="18.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -9,13 +9,13 @@
   </Health>
   <Identity>
     <Civ>liby</Civ>
-  <GenericName>Corral</GenericName>
+    <GenericName>Corral</GenericName>
   </Identity>
   <Obstruction>
-    <Static width="8.0" depth="14.0"/>
+    <Static width="17.5" depth="17.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/libyan/corral.xml</Actor>
-    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

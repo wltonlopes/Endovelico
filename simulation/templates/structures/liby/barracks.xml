@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Footprint>
-    <Square width="22.0" depth="22.0"/>
+    <Square width="26.0" depth="26.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
@@ -11,9 +11,9 @@
     <Civ>liby</Civ>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
- <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/cavalry_javelinist_b
       units/{civ}/champion_infantry_spear

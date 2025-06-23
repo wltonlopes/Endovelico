@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Libyan Stable Camel Struct">
+      <mesh>props/structural/libyan/stable_camel_struct.dae</mesh>
+      <textures>
+        <texture file="structural/kush_nuba_camp.png" name="baseTex"/>
+        <texture file="structural/kush_nuba_camp_norm.png" name="normTex"/>
+        <texture file="structural/kush_nuba_camp_spec.png" name="specTex"/>
+        <texture file="structural/ao/liby/stable_camel_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_ao_parallax_spec.xml</material>
+</actor>

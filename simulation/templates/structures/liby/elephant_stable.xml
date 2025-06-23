@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_elephant_stable">
+  <Footprint>
+    <Square width="27.0" depth="27.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <Identity>
     <Civ>liby</Civ>
   </Identity>
+  <Obstruction>
+    <Static width="26.5" depth="26.5"/>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/libyan/stable_elephant.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
