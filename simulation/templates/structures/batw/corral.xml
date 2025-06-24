@@ -19,7 +19,7 @@
       -gaia/fauna_goat_trainable
       -gaia/fauna_sheep_trainable
       gaia/fauna_pig_trainable
-      -gaia/fauna_cattle_cow_trainable
+      gaia/fauna_cattle_cow_trainable
     </Entities>
   </Trainer>
   <VisualActor>

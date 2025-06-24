@@ -11,11 +11,6 @@
   <Obstruction>
     <Static width="28" depth="30"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      trade_copper_bells
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/batwa/market.xml</Actor>
   </VisualActor>
