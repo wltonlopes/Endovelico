@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="rotary_mill|template_structure_economic_farmstead">
+  <Footprint replace="">
+    <Square width="30.0" depth="30.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <RegenRate>1.0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <DeathType>corpse</DeathType>
+    <Unhealable>true</Unhealable>
+  </Health>
   <Identity>
     <Civ>liby</Civ>
     <SpecificName>Oasis</SpecificName>
+    <VisibleClasses datatype="tokens">Town</VisibleClasses>
+    <Classes datatype="tokens">RotaryMill Town</Classes>
+    <Requirements>
+      <Techs datatype="tokens">
+        -phase_village
+        phase_town
+      </Techs>
+    </Requirements>
   </Identity>
+  <Obstruction>
+    <Static width="29.5" depth="29.5"/>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/libyan/oasis.xml</Actor>
   </VisualActor>

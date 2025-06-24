@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>liby</Civ>
-    <SelectionGroupName>units/kush/infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/liby/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Libyan Swordsman</GenericName>
     <SpecificName>knw hps</SpecificName>
     <Icon>units/gara/infantry_swordsman_desert.png</Icon>

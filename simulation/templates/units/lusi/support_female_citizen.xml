@@ -3,13 +3,13 @@
   <Builder>
     <Entities datatype="tokens">
       structures/lusi/castro
-      structures/lusi/merc_camp
+      structures/lusi/mercenary_camp
       structures/lusi/dock_merc
       structures/lusi/sauna
       structures/lusi/wallset_stone_stone
     </Entities>
   </Builder>
-    <Attack>
+  <Attack>
     <Melee>
       <Damage>
         <Hack op="mul">1.5</Hack>
@@ -26,11 +26,13 @@
     <GenericName>lusitanian Woman</GenericName>
     <Icon>units/iber/support_female_citizen.png</Icon>
   </Identity>
-    <Upgrade>
-     <SwitchToSword>
+  <Upgrade>
+    <SwitchToSword>
       <Entity>units/lusi/infantry_swordswoman</Entity>
       <Tooltip>Switch weapon sword (melee).</Tooltip>
-    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
       <Cost>
         <metal>5</metal>
       </Cost>

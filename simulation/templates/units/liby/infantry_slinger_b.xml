@@ -1,8 +1,9 @@
+<?xml version="1.0"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Identity>
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Garamantian Slinger</GenericName>
+    <GenericName>Libyan Slinger</GenericName>
     <SpecificName/>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>

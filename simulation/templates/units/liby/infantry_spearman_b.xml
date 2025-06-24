@@ -1,14 +1,9 @@
+<?xml version="1.0"?>
 <Entity parent="template_unit_infantry_melee_spearman">
-    <Builder>
-    <Entities datatype="tokens">
-      structures/gara/camp_caravan
-
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Garamantian Spearman</GenericName>
+    <GenericName>Libyan Spearman</GenericName>
     <SpecificName/>
     <Icon>units/gara/infantry_spearman_desert.png</Icon>
   </Identity>

@@ -23,6 +23,7 @@
       structures/{civ}/forge
       structures/{civ}/temple
       structures/{civ}/market
+      structures/{civ}/oasis
       structures/{civ}/ministry
       structures/{civ}/sentry_tower
       structures/{civ}/defense_tower
@@ -43,7 +44,7 @@
       structures/{civ}/bull_stable
       structures/{civ}/camel_stable
       structures/{civ}/shrine
-      structures/{civ}/merc_camp
+      structures/{civ}/caravan_camp
       structures/{civ}/mercenary_camp
       structures/{civ}/sauna
       structures/{civ}/military_colony

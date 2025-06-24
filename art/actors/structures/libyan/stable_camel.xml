@@ -2,18 +2,21 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="base">
+    <variant name="Libyan Stable Camel">
       <mesh>structural/libyan/stable_camel.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="structures/libyan/stable_camel_d.xml" attachpoint="root"/>
-        <prop actor="structures/libyan/stable_camel_f.xml" attachpoint="root"/>
+        <prop actor="props/structures/libyan/stable_camel_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/libyan/stable_camel_bush.xml" attachpoint="root"/>
+        <prop actor="props/structures/libyan/stable_camel_palm.xml" attachpoint="root"/>
+        <prop actor="props/structures/libyan/camel_01.xml" attachpoint="camel_01"/>
+        <prop actor="props/structures/libyan/camel_02.xml" attachpoint="camel_02"/>
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>
         <texture file="structural/liby_struct_spec.png" name="specTex"/>
         <texture file="structural/liby_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/liby/stable_camel_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -21,7 +24,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_bedo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_bedo.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

@@ -3,7 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/lusi/castro
-      structures/lusi/merc_camp
+      structures/lusi/mercenary_camp
       structures/lusi/dock_merc
       structures/lusi/sauna
       structures/lusi/wallset_stone_stone

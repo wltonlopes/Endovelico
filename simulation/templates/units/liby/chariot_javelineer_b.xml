@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Cost>
     <Population>2</Population>
@@ -11,21 +12,21 @@
     <Square width="5.0" depth="10.0"/>
     <Height>6.0</Height>
   </Footprint>
-   <Health>
+  <Health>
     <Max>140</Max>
   </Health>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>Garamantian Chariot</GenericName>
+    <GenericName>Libyan Chariot</GenericName>
     <SpecificName>Essedon</SpecificName>
     <SelectionGroupName>units/liby/chariot_javelineer_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/cavaly_chariot_javelineer.png</Icon>
   </Identity>
-    <Promotion>
+  <Promotion>
     <Entity>units/liby/chariot_javelineer_a</Entity>
   </Promotion>
-   <ResourceGatherer>
+  <ResourceGatherer>
     <Rates>
       <food.meat disable=""/>
     </Rates>

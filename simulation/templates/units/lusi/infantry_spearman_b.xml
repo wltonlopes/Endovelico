@@ -3,7 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/lusi/castro
-      structures/lusi/merc_camp
+      structures/lusi/mercenary_camp
       structures/lusi/dock_merc
       structures/lusi/sauna
       structures/lusi/wallset_stone_stone
@@ -14,7 +14,9 @@
     <SelectionGroupName>units/lusi/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Scortamareva</SpecificName>
     <Icon>units/iber/infantry_spearman.png</Icon>
-    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/lusi/infantry_spearman_a</Entity>

@@ -6,12 +6,15 @@
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
-    <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SelectionGroupName>structures/liby/wallset_stone</SelectionGroupName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="6.0"/>
   </Obstruction>
+  <WallPiece>
+    <Length>12.0</Length>
+  </WallPiece>
   <VisualActor>
     <Actor>structures/libyan/wall_short.xml</Actor>
   </VisualActor>

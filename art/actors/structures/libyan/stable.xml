@@ -8,6 +8,9 @@
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/libyan/stable_struct.xml" attachpoint="root"/>
         <prop actor="props/structures/libyan/stable_bush.xml" attachpoint="root"/>
+        <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse_01"/>
+        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse_02"/>
+        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse_03"/>
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex"/>

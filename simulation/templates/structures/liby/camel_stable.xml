@@ -4,7 +4,7 @@
     <Civ>liby</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/libyan/stable.xml</Actor>
+    <Actor>structures/libyan/stable_camel.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

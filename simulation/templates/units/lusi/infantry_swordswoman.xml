@@ -3,7 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/lusi/castro
-      structures/lusi/merc_camp
+      structures/lusi/mercenary_camp
       structures/lusi/sauna
       structures/lusi/dock_merc
     </Entities>
@@ -17,15 +17,17 @@
     <SpecificName>Petanim Cori</SpecificName>
     <Icon>units/lusi/swordwoman.png</Icon>
   </Identity>
-  <Promotion disable=""/>
-<!--    <TrainingRestrictions>
+  <Promotion disable="" />
+  <!--    <TrainingRestrictions>
     <Category>Lusitaniswordswomen</Category>
   </TrainingRestrictions> -->
-   <Upgrade>
-     <SwitchToSword>
+  <Upgrade>
+    <SwitchToSword>
       <Entity>units/lusi/support_female_citizen</Entity>
       <Tooltip>Switch back to female citizens</Tooltip>
-    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
       <Cost>
         <food>10</food>
       </Cost>

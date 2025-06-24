@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="Base">
+	<animations>
+		<animation file="quadraped/camel_idle_01.dae" name="Idle" id="idle" frequency="10" speed="80"/>
+		<animation file="quadraped/camel_death.dae" name="death" id="death" speed="120"/>
+	</animations>
+</variant>

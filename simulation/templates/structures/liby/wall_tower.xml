@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
     <Static width="7.5" depth="7.5"/>
@@ -14,7 +14,7 @@
   <VisualActor>
     <Actor>structures/libyan/wall_tower.xml</Actor>
   </VisualActor>
-    <WallPiece>
-    <Length>11</Length>
+  <WallPiece>
+    <Length>10</Length>
   </WallPiece>
 </Entity>
