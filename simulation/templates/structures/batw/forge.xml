@@ -4,11 +4,6 @@
     <Civ>batw</Civ>
     <SpecificName>Ayederu</SpecificName>
   </Identity>
-  <Researcher>
-    <Technologies datatype="tokens">
-      -archer_attack_spread
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/batwa/forge.xml</Actor>
   </VisualActor>

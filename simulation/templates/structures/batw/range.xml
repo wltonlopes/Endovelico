@@ -15,13 +15,6 @@
   <Obstruction>
     <Static width="24.0" depth="23.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      archer_attack_spread
-      upgrade_rank_advanced_infantry_ranged
-      upgrade_rank_elite_infantry_ranged
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/batwa/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
