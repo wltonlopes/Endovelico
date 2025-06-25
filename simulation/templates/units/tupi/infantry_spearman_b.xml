@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/tupi/pyramid_large
-      structures/tupi/observatory
-      structures/tupi/embassy
-      structures/tupi/temple_of_masks
-      structures/tupi/range
-      structures/tupi/palace
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>tupi</Civ>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
