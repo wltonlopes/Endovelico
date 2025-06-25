@@ -1,0 +1,23 @@
+{
+	"Title": "Mod Endovelico",
+	"Content": [
+		{
+			"Title": "Creative design, Main creator Art 2D/3D",
+			"List": [
+				{ "nick": "Duileoga", "name": "Duileoga" }
+			]
+		},
+		{
+			"Title": "Creative design, programming and Suport Art 2D/3D",
+			"List": [
+				{ "nick": "Lopess", "name": "Welton Lopes" }
+			]
+		},
+		{
+			"Title": "Finalization of 2D/3D art, programming, testing of design and gameplay",
+			"List": [
+			{ "nick": "Alisson Fabrini", "name": "Alisson Fabrini" }
+			]              		
+		}
+	]
+}
