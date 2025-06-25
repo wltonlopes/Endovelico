@@ -2,16 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="Axumite Palace">
       <mesh>structural/axum/palace.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/axum/struct.png" name="baseTex"/>
-        <texture file="structural/axum/struct_spec.png" name="specTex"/>
-        <texture file="structural/axum/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/axum_struct.png" name="baseTex"/>
+        <texture file="structural/axum_struct_spec.png" name="specTex"/>
+        <texture file="structural/axum_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/axum/palace_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,8 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_axum.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

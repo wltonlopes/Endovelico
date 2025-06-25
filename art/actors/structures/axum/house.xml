@@ -2,40 +2,40 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Axumite House">
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/axum/struct.png" name="baseTex"/>
-        <texture file="structural/axum/struct_spec.png" name="specTex"/>
-        <texture file="structural/axum/struct_norm.png" name="normTex"/>
+        <texture file="structural/axum_struct.png" name="baseTex"/>
+        <texture file="structural/axum_struct_spec.png" name="specTex"/>
+        <texture file="structural/axum_struct_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="house a">
-<mesh>structural/axum/house_1.dae</mesh>
+    <variant frequency="1" name="House 01">
+      <mesh>structural/axum/house_01.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/axumdians/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/axum/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house b">
-<mesh>structural/axum/house_2.dae</mesh>
+    <variant frequency="1" name="House 02">
+      <mesh>structural/axum/house_02.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/axumdians/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/axum/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house c">
-<mesh>structural/axum/house_3.dae</mesh>
+    <variant frequency="1" name="House 03">
+      <mesh>structural/axum/house_03.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/axumdians/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/axum/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house d">
-<mesh>structural/axum/house_2.dae</mesh>
+    <variant frequency="1" name="House 04">
+      <mesh>structural/axum/house_04.dae</mesh>
       <textures>
-                <texture file="structural/ao/axumdians/barracks_AO.png" name="aoTex"/>
+        <texture file="structural/ao/axum/house_04_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -43,7 +43,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_axum.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>
