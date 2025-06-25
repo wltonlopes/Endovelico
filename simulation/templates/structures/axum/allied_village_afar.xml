@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy_allied_village">
+  <Identity>
+    <Civ>axum</Civ>
+    <GenericName>Afar Village</GenericName>
+    <SpecificName>Afar</SpecificName>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{native}/infantry_pikeman_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/axum/afar.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

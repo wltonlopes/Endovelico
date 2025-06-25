@@ -6,15 +6,15 @@
     <variant file="biped/base_swordsman_shield_relax.xml" frequency="1" name="relax"/>
   </group>
   <group>
-    <variant frequency="1" name="head_pers_b">
+    <variant frequency="1" name="head_thrace">
       <props>
-        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/xion_axe.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
-    <variant frequency="1" name="head_pers_a">
+    <variant frequency="1" name="head_thrace">
       <props>
-        <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/xion_axe.xml" attachpoint="weapon_R"/>
       </props>
     </variant>

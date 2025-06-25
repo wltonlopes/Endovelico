@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/thracians/infantry_spearman_e.xml</Actor>
+    <Actor>units/kartli/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

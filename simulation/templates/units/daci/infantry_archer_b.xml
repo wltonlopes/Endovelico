@@ -2,7 +2,7 @@
   <Identity>
     <Civ>daci</Civ>
     <SelectionGroupName>units/daci/infantry_archer_b</SelectionGroupName>
-    <GenericName>Thracian Archer</GenericName>
+    <GenericName>Dacian Archer</GenericName>
     <SpecificName/>
     <Icon>units/thra/infantry_archer.png</Icon>
   </Identity>
