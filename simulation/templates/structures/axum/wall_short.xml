@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
-    <Square width="13" depth="6"/>
+    <Square width="12" depth="6"/>
     <Height>12.6</Height>
   </Footprint>
   <Identity>
@@ -9,12 +9,15 @@
     <SpecificName>Kaki</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="12" depth="5"/>
+    <Static width="11" depth="5"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>13.6</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/axum/wall_short.xml</Actor>
+    <Actor>structures/axumites/wall_short.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>12</Length>
+  </WallPiece>
 </Entity>

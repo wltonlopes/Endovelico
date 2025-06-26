@@ -2,6 +2,9 @@
 <Entity parent="template_unit_support_female_citizen">
   <Builder>
     <Entities datatype="tokens">
+      structures/axum/allied_village_afar
+      structures/axum/allied_village_beja
+      structures/axum/allied_village_oromo
     </Entities>
   </Builder>
   <Identity>

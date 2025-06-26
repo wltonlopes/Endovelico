@@ -2,25 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Axumite Afar">
-      <mesh>structural/axum/afar.dae</mesh>
+    <variant frequency="1" name="Axumites Dock">
+      <mesh>structural/axum/dock.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/afar_struct.png" name="baseTex"/>
-        <texture file="structural/afar_struct_spec.png" name="specTex"/>
-        <texture file="structural/afar_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/axum/afar_ao.png" name="aoTex"/>
+        <texture file="structural/axum_struct.png" name="baseTex"/>
+        <texture file="structural/axum_struct_spec.png" name="specTex"/>
+        <texture file="structural/axum_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/axum/dock_ao.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_axum.xml" attachpoint="garrisoned" selectable="false"/>
-      </props>
     </variant>
   </group>
   <group>

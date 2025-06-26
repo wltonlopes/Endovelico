@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Footprint>
-    <Square width="26" depth="20"/>
+    <Square width="20" depth="28"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -12,7 +12,7 @@
     <SpecificName>Miya</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24" depth="18"/>
+    <Static width="19.5" depth="27.5"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
@@ -21,11 +21,11 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry_bellringer
+      
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/axum/temple.xml</Actor>
-    <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
+    <Actor>structures/axumites/temple.xml</Actor>
+    <FoundationActor>structures/fndn_5x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

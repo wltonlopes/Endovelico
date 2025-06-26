@@ -2,7 +2,9 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-
+      structures/axum/allied_village_afar
+      structures/axum/allied_village_beja
+      structures/axum/allied_village_oromo
     </Entities>
   </Builder>
   <Identity>

@@ -8,7 +8,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
+    <Square width="26.0" depth="26.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
@@ -28,7 +28,7 @@
     <metal>40</metal>
   </Loot>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
   <Sound>
     <SoundGroups>
@@ -53,7 +53,7 @@
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/axum/palace.xml</Actor>
-    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+    <Actor>structures/axumites/palace.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

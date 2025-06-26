@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_embassy_allied_village">
+  <Footprint>
+    <Square width="23" depth="23"/>
+    <Height>12.0</Height>
+  </Footprint>
   <Identity>
     <Civ>axum</Civ>
     <GenericName>Beja Village</GenericName>
     <SpecificName>Beja</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="22.5" depth="22.5"/>
+  </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
       units/{native}/infantry_pikeman_b
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/axum/beja.xml</Actor>
-    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+    <Actor>structures/axumites/camp_beja.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

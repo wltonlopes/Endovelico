@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_embassy_allied_village">
+  <Footprint>
+    <Square width="22" depth="22"/>
+    <Height>12.0</Height>
+  </Footprint>
   <Identity>
     <Civ>axum</Civ>
     <GenericName>Oromo Village</GenericName>
     <SpecificName>Oromo</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="21.5" depth="21.5"/>
+  </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
       units/{native}/infantry_pikeman_b
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/axum/oromo.xml</Actor>
-    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+    <Actor>structures/axumites/camp_oromo.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>
