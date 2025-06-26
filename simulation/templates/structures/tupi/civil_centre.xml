@@ -9,7 +9,6 @@
       units/{civ}/infantry_maceman_b
       units/{civ}/infantry_archer_b
       units/{civ}/infantry_blowgunner_b
-      units/{civ}/siege_incediary_archer_packed
     </Entities>
   </Trainer>
   <VisualActor>

@@ -17,7 +17,7 @@
     <variant frequency="1" name="a">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <textures>
-        <texture file="skeletal/south_america/naked_02_01.png" name="baseTex"/>
+        <texture file="skeletal/south_america/naked_c_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
@@ -25,7 +25,7 @@
     <variant frequency="1" name="b">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <textures>
-        <texture file="skeletal/south_america/naked_02_02.png" name="baseTex"/>
+      <texture file="skeletal/south_america/naked_c_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
