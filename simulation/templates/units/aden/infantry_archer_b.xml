@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/aden/pyramid_large
-      structures/aden/observatory
-      structures/aden/embassy
-      structures/aden/temple_of_masks
-      structures/aden/range
-      structures/aden/palace
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>aden</Civ>
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>

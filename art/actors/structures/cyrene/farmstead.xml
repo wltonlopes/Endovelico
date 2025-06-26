@@ -5,7 +5,7 @@
     <variant frequency="1" name="base">
       <mesh>structural/cyrene/farmstead.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/cyre_struct.png" name="baseTex"/>

@@ -5,7 +5,7 @@
     <variant frequency="1" name="Hasmoneans Farmstead">
       <mesh>structural/hasmoneans/farmstead.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/farmstead_struct.xml" attachpoint="root"/>
       </props>
       <textures>
