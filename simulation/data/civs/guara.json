@@ -23,11 +23,11 @@
         },
         {
             "Template": "units/guara/support_female_citizen",
-            "Count": 5
+            "Count": 4
         },
         {
             "Template": "units/guara/infantry_spearman_b",
-            "Count": 3
+            "Count": 2
         },
         {
             "Template": "units/guara/infantry_archer_b",
