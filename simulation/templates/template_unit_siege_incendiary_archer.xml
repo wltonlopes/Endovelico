@@ -100,7 +100,6 @@
   </UnitAI>
   <UnitMotion>
     <WalkSpeed>12</WalkSpeed>
-    <Acceleration>0.75</Acceleration>
   </UnitMotion>
   <Vision>
     <Range>80</Range>

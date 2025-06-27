@@ -14,11 +14,6 @@
   <Obstruction>
     <Static width="12.5" depth="12.5"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      traditional_rituals
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/adena/temple.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
