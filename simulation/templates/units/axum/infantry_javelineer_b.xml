@@ -1,0 +1,15 @@
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Identity>
+    <Civ>axum</Civ>
+    <SelectionGroupName>units/axum/infantry_javelineer_b</SelectionGroupName>
+    <GenericName>Thracian Skirmisher</GenericName>
+    <SpecificName/>
+    <Icon>units/thra/infantry_javelineer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/axum/infantry_javelineer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/axum/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>
