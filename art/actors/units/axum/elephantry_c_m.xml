@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="quadraped/base_elephant_african.xml">
+      <mesh>skeletal/elephant_african_forest.dae</mesh>
+      <props>
+        <prop actor="units/subsaara/elephantry_c_d.xml" attachpoint="rider"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="default-cloth">
+      <textures>
+        <texture file="skeletal/cart/elephant_01.png" name="baseTex"/>
+        <texture file="skeletal/cart/elephant_01_spec.png" name="specTex"/>
+        <texture file="skeletal/cart/elephant_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="Run">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>
