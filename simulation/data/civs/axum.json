@@ -118,17 +118,12 @@
         }
     ],
     "AINames": [
-        "Zoskales",
-        "[Za] Hakli",
-        "Kulu Seyon ",
-        "Serada",
-        "Senfa Asgad",
-        "Senfa Arad",
-        "Nalke",
-        "Za Besi",
-        "Ramhay",
-        "Hande",
-        "Safelya"
+        "Rbḥ",
+        "Wʿrn Ḥywt",
+        "Lmn",
+        "DBH",
+        "GDR",
+        "Zoskales"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/axum/cavalry_scout",
