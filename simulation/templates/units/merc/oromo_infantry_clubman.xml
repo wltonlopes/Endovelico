@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_maceman">
+  <Identity>
+    <Civ>axum</Civ>
+    <SelectionGroupName>Oromo Clubman</SelectionGroupName>
+    <SpecificName>Oromo Clubman</SpecificName>
+    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/mercenaries/oromo_infantry_clubman.xml</Actor>
+  </VisualActor>
+</Entity>

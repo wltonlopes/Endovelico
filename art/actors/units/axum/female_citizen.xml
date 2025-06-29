@@ -2,39 +2,6 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="2" name="Skirt Light Skin">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_light.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/kush/skirt_female_01_light.png" name="baseTex"/>
-        <texture file="skeletal/kush/skirt_female_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="5" name="Skirt Medium Skin">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_medium.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/kush/skirt_female_01_medium.png" name="baseTex"/>
-        <texture file="skeletal/kush/skirt_female_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="3" name="Skirt Dark Skin">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_dark.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/kush/skirt_female_01_dark.png" name="baseTex"/>
-        <texture file="skeletal/kush/skirt_female_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
     <variant frequency="2" name="White Dress Light Skin">
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
@@ -98,17 +65,6 @@
       <textures>
         <texture file="skeletal/kush/dress_female_02_dark.png" name="baseTex"/>
         <texture file="skeletal/kush/dress_female_02_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="Nuba Woman 01">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_dark_nuba.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/kush/skirt_female_noba_01.png" name="baseTex"/>
-        <texture file="skeletal/kush/skirt_female_noba_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
