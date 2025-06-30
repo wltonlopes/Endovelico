@@ -3,7 +3,7 @@
   <Identity>
     <Civ>batw</Civ>
     <SpecificName>Batwa Scout</SpecificName>
-    <Icon>units/athen/cavalry_scout.png</Icon>
+    <Icon>units/batw/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/batwa/infantry_scout.xml</Actor>

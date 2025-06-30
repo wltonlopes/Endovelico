@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
   <Footprint>
-    <Square width="30" depth="32"/>
+    <Square width="26" depth="26"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
@@ -9,9 +9,10 @@
     <SpecificName>Oja</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="28" depth="30"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/batwa/market.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

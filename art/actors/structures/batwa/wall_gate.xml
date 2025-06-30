@@ -4,20 +4,16 @@
   <group>
     <variant frequency="1" name="base">
       <mesh>structural/batwa/wall_gate.dae</mesh>
-      <textures>
-        <texture file="structural/batwa_struct.png" name="baseTex"/>
-        <texture file="structural/batwa_struct_spec.png" name="specTex"/>
-        <texture file="structural/batwa_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_batw.xml" attachpoint="garrisoned"/>
+        <prop actor="props/structures/batwa/wall_gate_roof.xml" attachpoint="root"/>
+        <prop actor="structures/batwa/wall_gate_door.xml" attachpoint="root"/>
       </props>
+      <textures>
+        <texture file="structural/batw_struct.png" name="baseTex"/>
+        <texture file="structural/batw_struct_spec.png" name="specTex"/>
+        <texture file="structural/batw_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/batw/wall_gate_ao.png" name="aoTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -32,5 +28,5 @@
       </props>
     </variant>
   </group>
-  <material>basic_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

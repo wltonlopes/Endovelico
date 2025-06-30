@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
-    <Square width="13" depth="6"/>
+    <Square width="6.4" depth="6"/>
     <Height>12.6</Height>
   </Footprint>
   <Identity>
@@ -9,7 +9,7 @@
     <SpecificName>Okuta Odi</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="12" depth="5"/>
+    <Static width="6.86" depth="6.4"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>13.6</HeightOffset>
@@ -17,4 +17,7 @@
   <VisualActor>
     <Actor>structures/batwa/wall_short.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>6.4</Length>
+  </WallPiece>
 </Entity>

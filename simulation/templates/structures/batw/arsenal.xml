@@ -10,10 +10,10 @@
   </Health>
   <Identity>
     <Civ>batw</Civ>
-    <SpecificName>Ile Idoti</SpecificName> 
+    <SpecificName>Ile Idoti</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="24.0"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
@@ -31,6 +31,6 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/batwa/arsenal.xml</Actor>
-    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

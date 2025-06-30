@@ -2,16 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Batwa Corral">
       <mesh>structural/batwa/corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/batwa/corral_roof.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/batwa_struct.png" name="baseTex"/>
-        <texture file="structural/batwa_struct_spec.png" name="specTex"/>
-        <texture file="structural/batwa_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/batw_struct.png" name="baseTex"/>
+        <texture file="structural/batw_struct_spec.png" name="specTex"/>
+        <texture file="structural/batw_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/batw/corral_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -35,5 +36,5 @@
       </props>
     </variant>
   </group>
-  <material>basic_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

@@ -9,15 +9,15 @@
     <SpecificName>Yagura</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="8" depth="8"/>
+    <Static width="8.84" depth="8.81"/>
   </Obstruction>
-  <StatusBars>  
+  <StatusBars>
     <HeightOffset>16.7</HeightOffset>
   </StatusBars>
   <VisualActor>
     <Actor>structures/batwa/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>8</Length>
+    <Length>8.8</Length>
   </WallPiece>
 </Entity>

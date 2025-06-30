@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
-  <Footprint>
-    <Square depth="50.0" width="45.0"/>
-    <Height>14.0</Height>
+  <Footprint replace="">
+    <Circle radius="22.0"/>
+    <Height>10.0</Height>
   </Footprint>
   <Identity>
     <Civ>batw</Civ>
     <SpecificName>Ituki nö Miya</SpecificName>
   </Identity>
   <Obstruction>
-    <Static depth="48.0" width="43.0"/>
+    <Static depth="43.5" width="43.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/batwa/wonder.xml</Actor>

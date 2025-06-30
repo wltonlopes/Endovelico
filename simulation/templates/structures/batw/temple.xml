@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
-  <Footprint>
-    <Square width="26" depth="20"/>
-    <Height>12.0</Height>
+  <Footprint replace="">
+    <Circle radius="13.0"/>
+    <Height>10.0</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
@@ -12,7 +12,7 @@
     <SpecificName>Ile Olorun</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24" depth="18"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
@@ -21,11 +21,11 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry_bellringer
+      
     </Entities>
   </Trainer>
   <VisualActor>
     <Actor>structures/batwa/temple.xml</Actor>
-    <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

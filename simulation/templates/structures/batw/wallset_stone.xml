@@ -12,7 +12,7 @@
       <WallMedium>structures/batw/wall_medium</WallMedium>
       <WallShort>structures/batw/wall_short</WallShort>
     </Templates>
-    <MaxTowerOverlap>0.90</MaxTowerOverlap>
-    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <MaxTowerOverlap>0.50</MaxTowerOverlap>
+    <MinTowerOverlap>0.01</MinTowerOverlap>
   </WallSet>
 </Entity>
