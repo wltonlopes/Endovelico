@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant>
+      <mesh>structural/south_america/iberena.dae</mesh>
+      <props>
+        <prop actor="units/zapotecs/canoe_navigator.xml" attachpoint="nav1"/>	   
+      </props>
+      <textures>
+        <texture file="structural/tupi_struct.png" name="baseTex"/>
+        <texture file="structural/tupi_struct_spec.png" name="specTex"/>
+        <texture file="structural/tupi_struct_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="1" name="walk"/>
+    <variant frequency="1" name="run"/>
+    <variant frequency="1" name="gather_fish">
+      <props>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="carry_fish">
+      <props>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="carry_idle">
+      <props>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
+        <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

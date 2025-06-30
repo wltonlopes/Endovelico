@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege">
+  <Attack>
+    <Melee>
+      <AttackName>Ram</AttackName>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>80.0</Crush>
+      </Damage>
+      <MaxRange>7.0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Bonuses>
+        <BonusGates>
+          <Classes>Gates</Classes>
+          <Multiplier>1.5</Multiplier>
+        </BonusGates>
+      </Bonuses>
+      <RestrictedClasses datatype="tokens">
+        Organic
+        Field
+        Permanent
+      </RestrictedClasses>
+      <PreferredClasses datatype="tokens">
+        Structure
+        !Permanent
+      </PreferredClasses>
+    </Melee>
+  </Attack>
+  <Capturable disable=""/>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>4</Population>
+    <Resources>
+      <wood>150</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="6.75" depth="9.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <GenericName>Battering Ram</GenericName>
+    <SpecificName>Battering Ram</SpecificName>
+    <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
+    <Tooltip>
+Traits: Slow Speed, Medium Armor.
+Strong Against: Buildings, Gates (1.5x).
+Weak Against: Melee Cavalry, Melee Infantry.</Tooltip>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>20</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{phenotype}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{phenotype}_attack.xml</order_attack>
+      <order_garrison>voice/{lang}/civ/civ_{phenotype}_garrison.xml</order_garrison>
+      <trained>attack/siege/ram_trained.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+      <run>actor/human/movement/run.xml</run>
+      <death>actor/human/death/{phenotype}_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarWidth>4.0</BarWidth>
+    <BarHeight>0.5</BarHeight>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>6</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+</Entity>

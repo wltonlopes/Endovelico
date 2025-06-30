@@ -14,7 +14,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{native}/infantry_pikeman_b
+      units/merc/beja_camelry_javelliner
     </Entities>
   </Trainer>
   <VisualActor>

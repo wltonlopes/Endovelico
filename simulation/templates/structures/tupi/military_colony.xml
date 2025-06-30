@@ -16,11 +16,6 @@
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
   </Obstruction>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman_b
-    </Entities>
-  </Trainer>
   <VisualActor>
     <Actor>structures/tupis/colony.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>

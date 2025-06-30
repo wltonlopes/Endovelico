@@ -68,7 +68,7 @@
       units/{civ}/siege_ballista_packed
       units/{civ}/siege_ram
       units/{civ}/siege_tower
-      units/{civ}/siege_archer_packed
+      units/{civ}/siege_incediary_archer_packed
     </Entities>
   </Trainer>
   <Vision>

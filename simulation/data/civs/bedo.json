@@ -99,17 +99,13 @@
         }
     ],
     "AINames": [
-        "Obodas I",
-        "Aretas I ",
-        "Hudad",
-        "Itoku",
-        "Kosho",
-        "Koan",
-        "Korei",
-        "Kogen",
-        "Kaika",
-        "Suijin",
-        "Suinin"
+        "Hujir Aquil Almurar",
+        "Máliku II",
+        "Shahr I",
+        "Aretas II ",
+        "Aretas III",
+        "Aretas",
+        "Kabriel"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/bedo/camelry_scout",
