@@ -54,11 +54,8 @@
         }
     ],
     "AINames": [
-        "Wuzhu",
-        "Ying",
-        "Chou",
-        "Yushan",
-        "Jugu"
+        "Sirimashoka",
+        "Duttabaung"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/suva/cavalry_scout",

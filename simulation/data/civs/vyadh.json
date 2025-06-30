@@ -54,11 +54,10 @@
         }
     ],
     "AINames": [
-        "Wuzhu",
-        "Ying",
-        "Chou",
-        "Yushan",
-        "Jugu"
+        "Kaundinya I",
+        "Hun Pan-huang",
+        "Fan Shiman",
+        "Soma"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/vyadh/cavalry_scout",
