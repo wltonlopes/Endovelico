@@ -2,7 +2,7 @@
   <Identity>
     <Civ>kartl</Civ>
     <SelectionGroupName>units/kartl/infantry_axeman_b</SelectionGroupName>
-    <GenericName>Thracian Swordsman</GenericName>
+    <GenericName>Kartli Axeman</GenericName>
     <SpecificName/>
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>

@@ -2,7 +2,7 @@
   <Identity>
     <Civ>kartl</Civ>
     <SelectionGroupName>units/kartl/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Thracian Spearman</GenericName>
+    <GenericName>Iberian Spearman</GenericName>
     <SpecificName/>
     <Icon>units/thra/infantry_spearman.png</Icon>
   </Identity>

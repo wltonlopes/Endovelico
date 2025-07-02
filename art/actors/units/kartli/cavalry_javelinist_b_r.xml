@@ -30,45 +30,30 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic-basic-1a">
+    <variant frequency="1" name="tunic_coat_01_01">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_01.png" name="baseTex"/>
-      </textures>
+	    <texture file="skeletal/pers/tunic_coat_01_01.png" name="baseTex"/>
+	  </textures>
     </variant>
-    <variant frequency="1" name="tunic-basic-1b">
+    <variant frequency="1" name="tunic_coat_01_02">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_02.png" name="baseTex"/>
-      </textures>
+	    <texture file="skeletal/pers/tunic_coat_01_02.png" name="baseTex"/>
+	  </textures>
     </variant>
-    <variant frequency="1" name="tunic-basic-1c">
+    <variant frequency="1" name="tunic_coat_01_03">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_03.png" name="baseTex"/>
-      </textures>
+	    <texture file="skeletal/pers/tunic_coat_01_03.png" name="baseTex"/>
+	  </textures>
     </variant>
-    <variant frequency="1" name="tunic-basic-1d">
+    <variant frequency="1" name="tunic_coat_01_04">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_04.png" name="baseTex"/>
-      </textures>
+	    <texture file="skeletal/pers/tunic_coat_01_04.png" name="baseTex"/>
+	  </textures>
     </variant>
-    <variant frequency="1" name="tunic-basic-1e">
+    <variant frequency="1" name="tunic_coat_01_05">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_05.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-basic-1f">
-      <textures>
-        <texture file="skeletal/pers/tunic_basic_01_06.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-basic-1g">
-      <textures>
-        <texture file="skeletal/pers/tunic_basic_01_07.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-basic-1h">
-      <textures>
-        <texture file="skeletal/pers/tunic_basic_01_08.png" name="baseTex"/>
-      </textures>
+	    <texture file="skeletal/pers/tunic_coat_01_05.png" name="baseTex"/>
+	  </textures>
     </variant>
   </group>
   <group>
