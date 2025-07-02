@@ -7,9 +7,13 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/xion/clothes_a.xml"/>
-    <variant file="clothes/xion/clothes_b.xml"/>
-    <variant file="clothes/xion/clothes_c.xml"/>
+    <variant frequency="1" name="clothes-a">
+      <textures>
+        <texture file="props/helmet/xion_hide_iron.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

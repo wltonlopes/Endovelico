@@ -10,6 +10,6 @@
     <Entity>units/kartl/infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/kartli/infantry_slinge_b.xml</Actor>
+    <Actor>units/kartli/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>

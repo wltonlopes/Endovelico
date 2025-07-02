@@ -15,7 +15,7 @@
   <group>
     <variant frequency="1" name="quilted-helmet">
       <props>
-        <prop actor="props/units/helmets/xion_hide_iron.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/hat_cauc.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
