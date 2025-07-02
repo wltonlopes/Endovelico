@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="base">
+      <mesh>props/helmet/hat_cauc.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant file="clothes/xion/clothes_a.xml"/>
+    <variant file="clothes/xion/clothes_b.xml"/>
+    <variant file="clothes/xion/clothes_c.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
