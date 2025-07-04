@@ -14,7 +14,7 @@
     </Resources>
   </Cost>
   <Footprint replace="">
-    <Circle radius="16.0"/>
+    <Circle radius="16.0" />
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -34,7 +34,7 @@
     <metal>40</metal>
   </Loot>
   <Obstruction>
-    <Static width="24.0" depth="30.0"/>
+    <Static width="24.0" depth="30.0" />
   </Obstruction>
   <Sound>
     <SoundGroups>
@@ -51,6 +51,6 @@
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/shona/big_forge.xml</Actor>
+    <Actor>structures/shonas/big_forge.xml</Actor>
   </VisualActor>
 </Entity>

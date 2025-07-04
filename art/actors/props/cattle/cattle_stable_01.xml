@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant file="quadraped/base_cattle_stable.xml" name="Base">
+			<mesh>skeletal/sanga_cattle_a.dae</mesh>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="1" name="01">
+			<textures>
+				<texture file="skeletal/animal_zebu.png" name="baseTex"/>
+			</textures>
+		</variant>
+		<variant frequency="1" name="02">
+			<textures>
+				<texture file="skeletal/animal_zebu_black.png" name="baseTex"/>
+			</textures>
+		</variant>
+		<variant frequency="1" name="03">
+			<textures>
+				<texture file="skeletal/animal_zebu_brown.png" name="baseTex"/>
+			</textures>
+		</variant>
+		<variant frequency="1" name="04">
+			<textures>
+				<texture file="skeletal/animal_zebu_black_and_white.png" name="baseTex"/>
+			</textures>
+		</variant>
+		<variant frequency="1" name="05">
+			<textures>
+				<texture file="skeletal/animal_zebu_black_and_brown.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="100" name="Idle"/>
+		<variant file="quadraped/base_bovidae_death.xml" name="death"/>
+	</group>
+	<group>
+		<variant>
+			<textures>
+				<texture file="default_norm.png" name="normTex"/>
+				<texture file="null_black.dds" name="specTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>no_trans_norm_spec.xml</material>
+</actor>

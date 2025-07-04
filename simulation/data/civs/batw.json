@@ -33,9 +33,9 @@
             "Count": 2
         },
         {
-			"Template": "units/batw/cavalry_archer_b",
-			"Count": 1
-		},
+            "Template": "units/batw/cavalry_javelineer_b",
+            "Count": 1
+        },
         {
             "Template": "units/batw/infantry_scout"
         }
@@ -49,7 +49,7 @@
         "skirmish/units/default_cavalry": "units/batw/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/batw/infantry_axeman_b",
         "skirmish/units/default_infantry_ranged_b": "units/batw/infantry_archer_b",
-        "skirmish/units/default_cavalry_ranged_b": "units/batw/cavalry_archer_b",
+        "skirmish/units/default_cavalry_ranged_b": "units/batw/cavalry_javelineer_b",
         "skirmish/units/default_ship_trireme": "units/batw/ship_bireme"
     },
     "SelectableInGameSetup": true

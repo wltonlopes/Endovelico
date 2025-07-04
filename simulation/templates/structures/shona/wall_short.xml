@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
-    <Square width="13" depth="6"/>
+    <Square width="10.5" depth="8"/>
     <Height>12.6</Height>
   </Footprint>
   <Identity>
@@ -9,12 +9,15 @@
     <SpecificName>Okuta Odi</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="12" depth="5"/>
+    <Static width="9.97" depth="6.93"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>13.6</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/shona/wall_short.xml</Actor>
+    <Actor>structures/shonas/wall_short.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>9.97</Length>
+  </WallPiece>
 </Entity>

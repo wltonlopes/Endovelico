@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
-  <Footprint>
-    <Square width="9" depth="9"/>
+  <Footprint replace="">
+    <Circle radius="5"/>
     <Height>23.0</Height>
   </Footprint>
   <Identity>
@@ -9,15 +9,15 @@
     <SpecificName>Yagura</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="8" depth="8"/>
+    <Static width="9.72" depth="9.72"/>
   </Obstruction>
-  <StatusBars>  
+  <StatusBars>
     <HeightOffset>16.7</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/shona/wall_tower.xml</Actor>
+    <Actor>structures/shonas/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>8</Length>
+    <Length>9.72</Length>
   </WallPiece>
 </Entity>

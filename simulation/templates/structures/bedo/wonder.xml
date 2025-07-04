@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint>
-    <Square depth="50.0" width="45.0"/>
+    <Square depth="50.0" width="46.0"/>
     <Height>14.0</Height>
   </Footprint>
   <Identity>
     <Civ>bedo</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static depth="48.0" width="43.0"/>
+    <Static depth="49.5" width="45.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/bedouin/wonder.xml</Actor>

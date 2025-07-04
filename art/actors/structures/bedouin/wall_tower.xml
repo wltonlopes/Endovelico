@@ -4,13 +4,10 @@
   <group>
     <variant frequency="100" name="Bedouin Wall Tower" file="structures/defensive_building.xml">
       <mesh>structural/bedouin/wall_tower.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
       <textures>
-        <texture file="structural/bedo/struct.png" name="baseTex"/>
-        <texture file="structural/bedo/struct_spec.png" name="specTex"/>
-        <texture file="structural/bedo/struct_norm.png" name="normTex"/>
+        <texture file="structural/bedo_struct.png" name="baseTex"/>
+        <texture file="structural/bedo_struct_spec.png" name="specTex"/>
+        <texture file="structural/bedo_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/bedo/wall_tower_ao.png" name="aoTex"/>
       </textures>
     </variant>
@@ -19,7 +16,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_bedo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_bedo.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

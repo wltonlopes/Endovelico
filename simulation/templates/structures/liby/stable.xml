@@ -3,13 +3,13 @@
   <Identity>
     <Civ>liby</Civ>
   </Identity>
-    <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/chariot_javelineer_b   
+      units/{civ}/chariot_javelineer_b
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/libyan/stable.xml</Actor>
+    <Actor>structures/libyans/stable.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

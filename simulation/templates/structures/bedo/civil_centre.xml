@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="30.0" depth="30.0"/>
+  </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>bedo</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
+  <Obstruction>
+    <Static width="29.5" depth="29.5"/>
+  </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/hero_infantry_spearman
@@ -18,5 +24,6 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/bedouin/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

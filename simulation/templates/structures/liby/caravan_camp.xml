@@ -15,7 +15,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="29.0" depth="29.0"/>
+    <Square width="29.0" depth="29.0" />
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -39,23 +39,23 @@
     <InternationalBonus>0.2</InternationalBonus>
   </Market>
   <Obstruction>
-    <Static width="29.0" depth="29.0"/>
+    <Static width="29.0" depth="29.0" />
   </Obstruction>
   <ResourceDropsite>
     <Types>food wood stone metal</Types>
     <Sharable>true</Sharable>
   </ResourceDropsite>
-  <TerritoryDecay disable=""/>
-  <TerritoryInfluence disable=""/>
+  <TerritoryDecay disable="" />
+  <TerritoryInfluence disable="" />
   <Trainer>
     <Entities datatype="tokens">
       units/{native}/cavalry_javelineer_merc_b
       units/{civ}/support_female_citizen_desert
-      units/{civ}/support_trader    
+      units/{civ}/support_trader
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/libyan/camp.xml</Actor>
+    <Actor>structures/libyans/camp.xml</Actor>
     <FoundationActor>structures/fndn_8x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

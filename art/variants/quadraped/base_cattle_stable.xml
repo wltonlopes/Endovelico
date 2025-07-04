@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="Base">
+	<animations>
+		<animation file="quadraped/bovidae_idle_a.dae" name="Idle" id="idle1" frequency="10" speed="80"/>
+		<animation file="quadraped/bovidae_idle_b.dae" name="Idle" id="idle2" frequency="10" speed="80"/>
+	</animations>
+</variant>

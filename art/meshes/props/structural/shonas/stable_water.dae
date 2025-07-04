@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-04T06:25:21</created>
+    <modified>2025-07-04T06:25:21</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Shona_Stable_Water-mesh" name="Shona Stable Water">
+      <mesh>
+        <source id="Shona_Stable_Water-mesh-positions">
+          <float_array id="Shona_Stable_Water-mesh-positions-array" count="54">-1.265172 -6.222881 0.8432506 -1.226604 -6.712867 0.8432506 -0.9165671 -6.370079 0.8432506 -1.554018 -6.386641 0.8432506 -1.694127 -6.732763 0.8432506 -1.536634 -7.05565 0.8432506 -1.199931 -7.166438 0.8432506 -0.8991895 -7.039087 0.8432506 -0.7685759 -6.689785 0.8432506 7.890164 -4.534029 0.8432506 7.928735 -5.024018 0.8432506 8.238773 -4.681235 0.8432506 7.601319 -4.697796 0.8432506 7.461211 -5.04392 0.8432506 7.618704 -5.366797 0.8432506 7.955407 -5.477591 0.8432506 8.256152 -5.350244 0.8432506 8.386763 -5.000938 0.8432506</float_array>
+          <technique_common>
+            <accessor source="#Shona_Stable_Water-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Shona_Stable_Water-mesh-normals">
+          <float_array id="Shona_Stable_Water-mesh-normals-array" count="117">-8.22989e-4 0.001120388 0.9999991 0 0 1 7.79713e-4 7.79574e-4 0.9999994 -8.23335e-4 0.00112015 0.9999991 7.79725e-4 7.79561e-4 0.9999994 -8.49411e-4 7.02986e-4 0.9999994 -0.001437783 -3.0016e-5 0.999999 -0.001437783 -2.98411e-5 0.999999 -7.67249e-4 -9.2067e-4 0.9999993 8.77273e-4 -8.16617e-4 0.9999994 0.001436948 5.98491e-5 0.9999991 0 0 1 9.12275e-4 -8.4927e-4 0.9999992 6.31131e-5 -0.001388728 0.9999991 7.79467e-4 7.7972e-4 0.9999994 0 0 1 0.001436769 5.98498e-5 0.999999 0 0 1 -7.67027e-4 -9.20771e-4 0.9999993 6.13789e-5 -0.001340866 0.9999991 -8.49306e-4 7.03112e-4 0.9999994 -0.001437783 -3.00284e-5 0.999999 -0.001437783 -2.98572e-5 0.999999 -7.67245e-4 -9.20673e-4 0.9999993 8.77275e-4 -8.16614e-4 0.9999993 0.001436948 5.98528e-5 0.999999 0 0 1 9.12268e-4 -8.49278e-4 0.9999992 6.31027e-5 -0.001388728 0.9999991 8.13364e-4 8.13618e-4 0.9999994 0 0 1 0.001484692 6.18421e-5 0.999999 -1.98995e-7 0 1 -7.67625e-4 -9.20522e-4 0.9999993 6.0441e-5 -0.001340866 0.9999991 6.41596e-4 0.001233279 0.9999991 -8.49346e-4 7.03063e-4 0.9999994 6.41196e-4 0.001233458 0.9999991 -8.49463e-4 7.02923e-4 0.9999994</float_array>
+          <technique_common>
+            <accessor source="#Shona_Stable_Water-mesh-normals-array" count="39" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Shona_Stable_Water-mesh-map-0">
+          <float_array id="Shona_Stable_Water-mesh-map-0-array" count="96">0.778066 0.9187089 0.7633691 0.9187089 0.7778803 0.8589075 0.778066 0.9187089 0.7633691 0.9187089 0.7778803 0.8589075 0.7633691 0.9187089 0.7778803 0.9785103 0.7633691 0.9791463 0.7633691 0.9187089 0.7633691 0.9791463 0.7488578 0.9785103 0.7488578 0.8589075 0.7633691 0.8582712 0.7633691 0.9187089 0.7488578 0.8589075 0.7633691 0.9187089 0.748673 0.9187089 0.7778803 0.8589075 0.7633691 0.9187089 0.7633691 0.8582712 0.7633691 0.9187089 0.7488578 0.9785103 0.748673 0.9187089 0.7633691 0.9187089 0.7778803 0.9785103 0.7633691 0.9791463 0.7633691 0.9187089 0.7633691 0.9791463 0.7488578 0.9785103 0.7488578 0.8589075 0.7633691 0.8582712 0.7633691 0.9187089 0.7488578 0.8589075 0.7633691 0.9187089 0.748673 0.9187089 0.7778803 0.8589075 0.7633691 0.9187089 0.7633691 0.8582712 0.7633691 0.9187089 0.7488578 0.9785103 0.748673 0.9187089 0.778066 0.9187089 0.7778803 0.9785103 0.7633691 0.9187089 0.778066 0.9187089 0.7778803 0.9785103 0.7633691 0.9187089</float_array>
+          <technique_common>
+            <accessor source="#Shona_Stable_Water-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Shona_Stable_Water-mesh-map-1">
+          <float_array id="Shona_Stable_Water-mesh-map-1-array" count="96">0.5406252 0.7045254 0.5269904 0.7180098 0.5406252 0.7180098 0.569095 0.7045254 0.5554602 0.7180098 0.569095 0.7180098 0.4842858 0.7177098 0.4842858 0.7045254 0.4976206 0.7045254 0.4196288 0.7752479 0.4134114 0.7884324 0.4196288 0.7884324 0.3991765 0.7602633 0.4125114 0.7602633 0.4125114 0.747079 0.4347637 0.7461789 0.4409811 0.7329944 0.4409811 0.7461789 0.4489986 0.7602633 0.455216 0.747079 0.455216 0.7602633 0.4273463 0.7599633 0.4335637 0.7467789 0.4273463 0.7467789 0.5121555 0.7048254 0.5121555 0.7180098 0.4988207 0.7180098 0.4267462 0.7752479 0.4205289 0.7884324 0.4267462 0.7884324 0.4134114 0.7602633 0.4267462 0.7602633 0.4267462 0.747079 0.4335637 0.7326944 0.4273463 0.7458788 0.4273463 0.7326944 0.4489986 0.7461789 0.455216 0.7329944 0.455216 0.7461789 0.4338636 0.747079 0.4276463 0.7602633 0.4338636 0.7602633 0.5406252 0.7045254 0.5269904 0.7045254 0.5269904 0.7180098 0.569095 0.7045254 0.5554602 0.7045254 0.5554602 0.7180098</float_array>
+          <technique_common>
+            <accessor source="#Shona_Stable_Water-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Shona_Stable_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Shona_Stable_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Shona_Stable_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Shona_Stable_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Shona_Stable_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Shona_Stable_Water-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 1 1 1 2 2 2 9 3 3 10 1 4 11 4 5 1 1 6 3 5 7 4 6 8 1 1 9 4 7 10 5 8 11 7 9 12 8 10 13 1 11 14 7 12 15 1 1 16 6 13 17 2 14 18 1 15 19 8 16 20 1 17 21 5 18 22 6 19 23 10 1 24 12 20 25 13 21 26 10 1 27 13 22 28 14 23 29 16 24 30 17 25 31 10 26 32 16 27 33 10 1 34 15 28 35 11 29 36 10 30 37 17 31 38 10 32 39 14 33 40 15 34 41 0 35 42 3 36 43 1 1 44 9 37 45 12 38 46 10 1 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="shona_stable_water" name="shona_stable_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Shona_Stable_Water-mesh" name="shona_stable_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

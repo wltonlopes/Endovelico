@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_arsenal">
   <Footprint>
-    <Square width="26.0" depth="26.0"/>
+    <Square width="26.0" depth="26.0" />
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -10,10 +10,10 @@
   </Health>
   <Identity>
     <Civ>shona</Civ>
-    <SpecificName>Ile Idoti</SpecificName> 
+    <SpecificName>Ile Idoti</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="24.0"/>
+    <Static width="24.0" depth="24.0" />
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
@@ -30,7 +30,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/shona/arsenal.xml</Actor>
+    <Actor>structures/shonas/arsenal.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

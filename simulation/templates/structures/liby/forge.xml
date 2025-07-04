@@ -5,6 +5,6 @@
     <SpecificName>Khalkeṓn</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/libyan/forge.xml</Actor>
+    <Actor>structures/libyans/forge.xml</Actor>
   </VisualActor>
 </Entity>

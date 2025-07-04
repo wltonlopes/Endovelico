@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint>
-    <Square width="44.0" depth="44.0"/>
+    <Square width="44.0" depth="44.0" />
     <Height>8.0</Height>
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
   </Identity>
   <Obstruction>
-    <Static width="39.5" depth="39.5"/>
+    <Static width="39.5" depth="39.5" />
   </Obstruction>
-  <ProductionQueue/>
+  <ProductionQueue />
   <StatusBars>
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/libyan/wonder.xml</Actor>
+    <Actor>structures/libyans/wonder.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

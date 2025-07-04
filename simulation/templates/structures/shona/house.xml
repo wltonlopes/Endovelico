@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Square width="13.0" depth="13.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <Identity>
     <Civ>shona</Civ>
     <SpecificName>Ipe</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="13.0" depth="13.0"/>
+    <Static width="12.5" depth="12.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/shona/house.xml</Actor>
+    <Actor>structures/shonas/house.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

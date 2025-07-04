@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Footprint>
-    <Square width="26" depth="20"/>
+    <Square width="16" depth="24"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -12,20 +12,10 @@
     <SpecificName>Ile Olorun</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24" depth="18"/>
+    <Static width="15.5" depth="23.5"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      
-    </Technologies>
-  </Researcher>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/champion_infantry_bellringer
-    </Entities>
-  </Trainer>
   <VisualActor>
-    <Actor>structures/shona/temple.xml</Actor>
-    <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
+    <Actor>structures/shonas/temple.xml</Actor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -2,16 +2,18 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Forge">
+    <variant frequency="1" name="Numidian Forge">
       <mesh>structural/numidians/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
       </props>
       <textures>
-        <texture file="structural/numi/struct.png" name="baseTex"/>
-        <texture file="structural/numi/struct_spec.png" name="specTex"/>
-        <texture file="structural/numi/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/numi_struct.png" name="baseTex"/>
+        <texture file="structural/numi_struct_spec.png" name="specTex"/>
+        <texture file="structural/numi_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/numi/forge_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,8 +21,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_numi.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

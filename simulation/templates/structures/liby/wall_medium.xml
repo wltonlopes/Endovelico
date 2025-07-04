@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
-    <Square width="26.0" depth="7.0"/>
+    <Square width="26.0" depth="7.0" />
     <Height>9.0</Height>
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
     <SelectionGroupName>structures/liby/wallset_stone</SelectionGroupName>
-    <SpecificName/>
+    <SpecificName />
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="7.0"/>
+    <Static width="24.0" depth="7.0" />
   </Obstruction>
   <StatusBars>
     <HeightOffset>14.0</HeightOffset>
@@ -40,7 +40,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/libyan/wall_medium.xml</Actor>
+    <Actor>structures/libyans/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

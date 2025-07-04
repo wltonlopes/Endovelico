@@ -11,7 +11,7 @@
       <WallMedium>structures/bedo/wall_medium</WallMedium>
       <WallShort>structures/bedo/wall_short</WallShort>
     </Templates>
-    <MaxTowerOverlap>0.80</MaxTowerOverlap>
-    <MinTowerOverlap>0.05</MinTowerOverlap>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.01</MinTowerOverlap>
   </WallSet>
 </Entity>

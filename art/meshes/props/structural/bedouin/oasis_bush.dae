@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-01T10:25:52</created>
+    <modified>2025-07-01T10:25:52</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Bedo_Oasis_Bush-mesh" name="Bedo Oasis Bush">
+      <mesh>
+        <source id="Bedo_Oasis_Bush-mesh-positions">
+          <float_array id="Bedo_Oasis_Bush-mesh-positions-array" count="90">3.657008 10.35555 -0.894146 5.400672 8.59566 1.199515 5.416905 12.09922 1.199516 1.913344 12.11544 1.199516 1.897112 8.611891 1.199515 3.657015 10.35555 -1.361817 3.490394 12.36733 -0.1207059 1.645236 10.18894 -0.1207059 3.823633 8.343777 -0.1207058 5.668787 10.52217 -0.1207058 9.496962 -6.332709 -0.894146 11.24063 -8.092609 1.199515 11.25686 -4.589048 1.199515 7.753301 -4.572816 1.199515 7.737067 -8.076373 1.199515 9.496972 -6.332709 -1.361817 9.330345 -4.320934 -0.1207059 7.485196 -6.49933 -0.1207059 9.663589 -8.344483 -0.1207059 11.50875 -6.166095 -0.1207058 2.146185 -9.100545 -0.894146 3.88985 -10.86044 1.199515 3.906082 -7.356885 1.199515 0.4025245 -7.340659 1.199515 0.3862929 -10.8442 1.199515 2.146193 -9.100545 -1.361817 1.979575 -7.088775 -0.1207059 0.1344171 -9.267172 -0.1207059 2.312814 -11.11232 -0.1207058 4.157968 -8.933929 -0.1207059</float_array>
+          <technique_common>
+            <accessor source="#Bedo_Oasis_Bush-mesh-positions-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bedo_Oasis_Bush-mesh-normals">
+          <float_array id="Bedo_Oasis_Bush-mesh-normals-array" count="90">0 1.42458e-7 -1 0.4585273 0.4542987 -0.7637837 0.4542987 -0.4585275 -0.7637835 -0.4542992 0.4585278 -0.7637832 -0.4585277 -0.4542982 -0.7637836 1.20655e-6 2.1382e-7 -1 -0.5219596 -0.0432291 -0.8518741 -0.04322886 0.5219606 -0.8518735 0.04322946 -0.5219604 -0.8518736 0.5219616 0.04322928 -0.8518729 -7.81449e-7 6.71585e-7 -1 0.4585275 0.4542987 -0.7637835 0.4542977 -0.4585267 -0.7637846 -0.4542987 0.4585279 -0.7637832 -0.458528 -0.4542984 -0.7637834 3.51275e-7 2.59638e-7 -1 -0.5219603 -0.04323041 -0.8518736 -0.04323083 0.5219603 -0.8518736 0.04322934 -0.5219608 -0.8518733 0.5219599 0.04322898 -0.8518739 -6.98456e-7 6.71586e-7 -1 0.4585276 0.4542987 -0.7637835 0.4542979 -0.4585276 -0.7637838 -0.4542998 0.458528 -0.7637826 -0.4585282 -0.4542986 -0.7637832 0 1.45092e-6 -1 -0.5219601 -0.04323065 -0.8518737 -0.04322975 0.5219615 -0.851873 0.04323047 -0.5219596 -0.851874 0.5219606 0.04322981 -0.8518735</float_array>
+          <technique_common>
+            <accessor source="#Bedo_Oasis_Bush-mesh-normals-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bedo_Oasis_Bush-mesh-map-0">
+          <float_array id="Bedo_Oasis_Bush-mesh-map-0-array" count="144">0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1</float_array>
+          <technique_common>
+            <accessor source="#Bedo_Oasis_Bush-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Bedo_Oasis_Bush-mesh-vertices">
+          <input semantic="POSITION" source="#Bedo_Oasis_Bush-mesh-positions"/>
+        </vertices>
+        <triangles count="24">
+          <input semantic="VERTEX" source="#Bedo_Oasis_Bush-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Bedo_Oasis_Bush-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Bedo_Oasis_Bush-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 2 1 1 1 2 2 0 0 3 3 3 4 2 1 5 0 0 6 4 4 7 3 3 8 0 0 9 1 2 10 4 4 11 5 5 12 7 6 13 6 7 14 5 5 15 8 8 16 7 6 17 5 5 18 9 9 19 8 8 20 5 5 21 6 7 22 9 9 23 10 10 24 12 11 25 11 12 26 10 10 27 13 13 28 12 11 29 10 10 30 14 14 31 13 13 32 10 10 33 11 12 34 14 14 35 15 15 36 17 16 37 16 17 38 15 15 39 18 18 40 17 16 41 15 15 42 19 19 43 18 18 44 15 15 45 16 17 46 19 19 47 20 20 48 22 21 49 21 22 50 20 20 51 23 23 52 22 21 53 20 20 54 24 24 55 23 23 56 20 20 57 21 22 58 24 24 59 25 25 60 27 26 61 26 27 62 25 25 63 28 28 64 27 26 65 25 25 66 29 29 67 28 28 68 25 25 69 26 27 70 29 29 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="bedo_oasis_bush" name="bedo_oasis_bush" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Bedo_Oasis_Bush-mesh" name="bedo_oasis_bush"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

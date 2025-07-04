@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Batwa Wall Gate">
       <mesh>structural/batwa/wall_gate.dae</mesh>
       <props>
         <prop actor="props/structures/batwa/wall_gate_roof.xml" attachpoint="root"/>

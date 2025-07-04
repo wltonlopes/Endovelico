@@ -12,7 +12,7 @@
     <Static width="26.5" depth="26.5" />
   </Obstruction>
   <VisualActor>
-    <Actor>structures/libyan/arsenal.xml</Actor>
+    <Actor>structures/libyans/arsenal.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -10,6 +10,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/shona/forge.xml</Actor>
+    <Actor>structures/shonas/forge.xml</Actor>
   </VisualActor>
 </Entity>

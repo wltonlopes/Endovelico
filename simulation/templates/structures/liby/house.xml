@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
   <Footprint>
-    <Square width="21.0" depth="18.0"/>
+    <Square width="21.0" depth="18.0" />
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
     <SpecificName>Oîkos</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="20.5" depth="17.5"/>
+    <Static width="20.5" depth="17.5" />
   </Obstruction>
   <VisualActor>
-    <Actor>structures/libyan/house.xml</Actor>
+    <Actor>structures/libyans/house.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

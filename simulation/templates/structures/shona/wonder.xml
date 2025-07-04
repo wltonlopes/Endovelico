@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint>
-    <Square depth="50.0" width="45.0"/>
+    <Square depth="45.0" width="45.0"/>
     <Height>14.0</Height>
   </Footprint>
   <Identity>
@@ -9,9 +9,9 @@
     <SpecificName>Ituki nö Miya</SpecificName>
   </Identity>
   <Obstruction>
-    <Static depth="48.0" width="43.0"/>
+    <Static depth="44.5" width="44.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/shona/wonder.xml</Actor>
+    <Actor>structures/shonas/wonder.xml</Actor>
   </VisualActor>
 </Entity>

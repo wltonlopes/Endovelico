@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable_camel">
+  <Identity>
+    <Civ>numi</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/numidians/stable_camel.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

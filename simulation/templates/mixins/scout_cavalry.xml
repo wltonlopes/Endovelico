@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="unit_scout">
+	<Attack>
+		<Slaughter>
+			<AttackName>Slaughter</AttackName>
+			<Damage>
+				<Hack>1000</Hack>
+			</Damage>
+			<MaxRange>2</MaxRange>
+			<PrepareTime>900</PrepareTime>
+			<RepeatTime>1000</RepeatTime>
+			<RestrictedClasses datatype="tokens">!Domestic</RestrictedClasses>
+		</Slaughter>
+	</Attack>
 	<Footprint replace="">
 		<Square width="3.0" depth="6.0"/>
 		<Height>6.0</Height>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
   <Footprint>
-    <Square width="20.0" depth="24.0"/>
+    <Square width="20.0" depth="24.0" />
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -12,9 +12,9 @@
     <SpecificName>Limḗn</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="19.5" depth="23.5"/>
+    <Static width="19.5" depth="23.5" />
   </Obstruction>
   <VisualActor>
-    <Actor>structures/libyan/dock.xml</Actor>
+    <Actor>structures/libyans/dock.xml</Actor>
   </VisualActor>
 </Entity>
