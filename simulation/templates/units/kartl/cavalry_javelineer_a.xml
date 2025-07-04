@@ -7,6 +7,6 @@
     <Entity>units/kartl/cavalry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/thracians/cavalry_javelinist_a_m.xml</Actor>
+    <Actor>units/kartli/cavalry_javelinist_a_m.xml</Actor>
   </VisualActor>
 </Entity>

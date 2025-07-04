@@ -5,12 +5,7 @@
       <AttackName context="Name of an attack using a single-edged sword.">Sword</AttackName>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      structures/maur/palace
-      structures/maur/pillar_ashoka
-    </Entities>
-  </Builder>
+
   <Identity>
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/infantry_swordsman_b</SelectionGroupName>

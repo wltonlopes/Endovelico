@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/maur/palace
-      structures/maur/pillar_ashoka
-    </Entities>
-  </Builder>
+
   <Identity>
     <Civ>anura</Civ>
     <SelectionGroupName>units/maur/infantry_spearman_b</SelectionGroupName>

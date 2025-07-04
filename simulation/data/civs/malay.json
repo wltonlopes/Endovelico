@@ -55,9 +55,8 @@
         }
     ],
     "AINames": [
-        "King of Kedah Tua",
-        "King of Sungai batu",
-        "King of Gangga Negara"
+        "Merong Mahawangsa",
+        "Adityavarman"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/malay/cavalry_scout",

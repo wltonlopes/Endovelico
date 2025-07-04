@@ -7,7 +7,7 @@
     <Civ>mapu</Civ>
     <GenericName>Mapuches</GenericName>
     <History>Autonomous groups in south-central Chile/southwest Argentina. Developed resilient horticulture (potatoes, quinoa) and loom weaving. Fierce warriors using clubs and spears; Organized in familial clans (lof).</History>
-    <Icon>emblems/emblem_araw.png</Icon>
+    <Icon>emblems/mapuche.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">
