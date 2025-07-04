@@ -13,6 +13,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/thracians/infantry_spearman_c.xml</Actor>
+    <Actor>units/kartli/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

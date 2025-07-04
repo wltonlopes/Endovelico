@@ -7,6 +7,6 @@
     <SelectionGroupName>units/kartl/champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/thracians/cavalry_spearman_c_m.xml</Actor>
+    <Actor>units/kartli/cavalry_spearman_c_m.xml</Actor>
   </VisualActor>
 </Entity>
