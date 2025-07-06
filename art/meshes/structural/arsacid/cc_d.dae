@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-07-06T08:54:53</created>
+    <modified>2025-07-06T08:54:53</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="texturas_planta-effect">
+      <profile_COMMON>
+        <newparam sid="bush_tropic_a_dds-surface">
+          <surface type="2D">
+            <init_from>bush_tropic_a_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="bush_tropic_a_dds-sampler">
+          <sampler2D>
+            <source>bush_tropic_a_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="bush_tropic_a_dds-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="texturas_planta-material" name="texturas planta">
+      <instance_effect url="#texturas_planta-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="bush_dese_a_1-Geometry_009-mesh" name="bush_dese_a_1-Geometry.009">
+      <mesh>
+        <source id="bush_dese_a_1-Geometry_009-mesh-positions">
+          <float_array id="bush_dese_a_1-Geometry_009-mesh-positions-array" count="120">3.730931 -3.836522 0.8223567 4.010202 -4.118394 1.157685 4.012802 -3.557251 1.157685 3.45166 -3.554651 1.157685 3.449059 -4.115794 1.157685 3.730932 -3.836522 0.7474528 3.704246 -3.514309 0.9462337 3.408718 -3.863209 0.9462337 3.757618 -4.158736 0.9462337 4.053145 -3.809836 0.9462337 -3.73093 -3.836522 0.8223567 -3.451659 -4.118394 1.157685 -3.449059 -3.557251 1.157685 -4.010202 -3.554651 1.157685 -4.012802 -4.115794 1.157685 -3.730929 -3.836522 0.7474528 -3.757616 -3.514309 0.9462337 -4.053143 -3.863209 0.9462337 -3.704244 -4.158736 0.9462337 -3.408716 -3.809836 0.9462337 3.730931 -1.617848 0.8223567 4.010202 -1.899719 1.157685 4.012803 -1.338577 1.157685 3.45166 -1.335977 1.157685 3.44906 -1.897119 1.157685 3.730932 -1.617848 0.7474528 3.704246 -1.295635 0.9462337 3.408719 -1.644534 0.9462337 3.757619 -1.940061 0.9462337 4.053145 -1.591161 0.9462337 -3.73093 -1.617848 0.8223567 -3.451659 -1.899719 1.157685 -3.449059 -1.338577 1.157685 -4.010201 -1.335976 1.157685 -4.012801 -1.897119 1.157685 -3.730929 -1.617848 0.7474528 -3.757616 -1.295635 0.9462337 -4.053143 -1.644534 0.9462337 -3.704243 -1.940061 0.9462337 -3.408716 -1.591162 0.9462337</float_array>
+          <technique_common>
+            <accessor source="#bush_dese_a_1-Geometry_009-mesh-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bush_dese_a_1-Geometry_009-mesh-normals">
+          <float_array id="bush_dese_a_1-Geometry_009-mesh-normals-array" count="33">0 0 -1 0.4585234 0.4543117 -0.7637783 0.4542874 -0.4585297 -0.7637889 -0.4543117 0.4585234 -0.7637783 -0.4585297 -0.4542874 -0.7637889 -0.5219637 -0.04321467 -0.8518724 -0.04321467 0.5219637 -0.8518724 0.04321467 -0.5219637 -0.8518724 0.5219637 0.04321467 -0.8518724 0.4585297 0.4542874 -0.7637889 -0.4542874 0.4585297 -0.7637889</float_array>
+          <technique_common>
+            <accessor source="#bush_dese_a_1-Geometry_009-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bush_dese_a_1-Geometry_009-mesh-map-0">
+          <float_array id="bush_dese_a_1-Geometry_009-mesh-map-0-array" count="192">0.5 0.5000538 0.001937687 0.001823782 0.9981544 0.001823782 0.5 0.5000538 0.001937687 0.9988911 0.001937687 0.001823782 0.5 0.5000538 0.9981544 0.9988911 0.001937687 0.9988911 0.5 0.5000538 0.9981544 0.001823782 0.9981544 0.9988911 0.5 0.5000538 0.001937687 0.001823782 0.9981544 0.001823782 0.5 0.5000538 0.001937687 0.9988911 0.001937687 0.001823782 0.5 0.5000538 0.9981544 0.9988911 0.001937687 0.9988911 0.5 0.5000538 0.9981544 0.001823782 0.9981544 0.9988911 0.5 0.5000538 0.001937687 0.001823782 0.9981544 0.001823782 0.5 0.5000538 0.001937687 0.9988911 0.001937687 0.001823782 0.5 0.5000538 0.9981544 0.9988911 0.001937687 0.9988911 0.5 0.5000538 0.9981544 0.001823782 0.9981544 0.9988911 0.5 0.5000538 0.001937687 0.001823782 0.9981544 0.001823782 0.5 0.5000538 0.001937687 0.9988911 0.001937687 0.001823782 0.5 0.5000538 0.9981544 0.9988911 0.001937687 0.9988911 0.5 0.5000538 0.9981544 0.001823782 0.9981544 0.9988911 0.5 0.5000538 0.001937687 0.001823782 0.9981544 0.001823782 0.5 0.5000538 0.001937687 0.9988911 0.001937687 0.001823782 0.5 0.5000538 0.9981544 0.9988911 0.001937687 0.9988911 0.5 0.5000538 0.9981544 0.001823782 0.9981544 0.9988911 0.5 0.5000538 0.001937687 0.001823782 0.9981544 0.001823782 0.5 0.5000538 0.001937687 0.9988911 0.001937687 0.001823782 0.5 0.5000538 0.9981544 0.9988911 0.001937687 0.9988911 0.5 0.5000538 0.9981544 0.001823782 0.9981544 0.9988911 0.5 0.5000538 0.001937687 0.001823782 0.9981544 0.001823782 0.5 0.5000538 0.001937687 0.9988911 0.001937687 0.001823782 0.5 0.5000538 0.9981544 0.9988911 0.001937687 0.9988911 0.5 0.5000538 0.9981544 0.001823782 0.9981544 0.9988911 0.5 0.5000538 0.001937687 0.001823782 0.9981544 0.001823782 0.5 0.5000538 0.001937687 0.9988911 0.001937687 0.001823782 0.5 0.5000538 0.9981544 0.9988911 0.001937687 0.9988911 0.5 0.5000538 0.9981544 0.001823782 0.9981544 0.9988911</float_array>
+          <technique_common>
+            <accessor source="#bush_dese_a_1-Geometry_009-mesh-map-0-array" count="96" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="bush_dese_a_1-Geometry_009-mesh-vertices">
+          <input semantic="POSITION" source="#bush_dese_a_1-Geometry_009-mesh-positions"/>
+        </vertices>
+        <triangles material="texturas_planta-material" count="32">
+          <input semantic="VERTEX" source="#bush_dese_a_1-Geometry_009-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#bush_dese_a_1-Geometry_009-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#bush_dese_a_1-Geometry_009-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 2 1 1 1 2 2 0 0 3 3 3 4 2 1 5 0 0 6 4 4 7 3 3 8 0 0 9 1 2 10 4 4 11 5 0 12 7 5 13 6 6 14 5 0 15 8 7 16 7 5 17 5 0 18 9 8 19 8 7 20 5 0 21 6 6 22 9 8 23 10 0 24 12 9 25 11 2 26 10 0 27 13 10 28 12 9 29 10 0 30 14 4 31 13 10 32 10 0 33 11 2 34 14 4 35 15 0 36 17 5 37 16 6 38 15 0 39 18 7 40 17 5 41 15 0 42 19 8 43 18 7 44 15 0 45 16 6 46 19 8 47 20 0 48 22 9 49 21 2 50 20 0 51 23 10 52 22 9 53 20 0 54 24 4 55 23 10 56 20 0 57 21 2 58 24 4 59 25 0 60 27 5 61 26 6 62 25 0 63 28 7 64 27 5 65 25 0 66 29 8 67 28 7 68 25 0 69 26 6 70 29 8 71 30 0 72 32 9 73 31 2 74 30 0 75 33 10 76 32 9 77 30 0 78 34 4 79 33 10 80 30 0 81 31 2 82 34 4 83 35 0 84 37 5 85 36 6 86 35 0 87 38 7 88 37 5 89 35 0 90 39 8 91 38 7 92 35 0 93 36 6 94 39 8 95</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="cc_d" name="cc_d" type="NODE">
+        <matrix sid="transform">3 0 0 0 0 3 0 0 0 0 3 0 0 0 0 1</matrix>
+        <instance_geometry url="#bush_dese_a_1-Geometry_009-mesh" name="cc_d">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="texturas_planta-material" target="#texturas_planta-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
