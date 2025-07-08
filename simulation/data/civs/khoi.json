@@ -1,0 +1,85 @@
+﻿{
+    "Code": "khoi",
+    "Culture": "khoisan",
+    "Music": [
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Point_of_No_Return.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/khoi/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/khoi/civil_centre"
+        },
+        {
+            "Template": "units/khoi/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/khoi/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/khoi/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/khoi/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "gaia/fauna_cattle_cow_trainable",
+            "Count": 1
+        },
+        {
+            "Template": "units/khoi/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Autshumato",
+        "Doman",
+        "Gogosoa",
+        "Gonnema",
+        "Khoebaha",
+        "Herry",
+        "Autsumao",
+        "Namaguas",
+        "Klaas Stuurman",
+        "David Stuurman"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/khoi/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/khoi/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/khoi/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
+        "skirmish/units/default_ship_trireme": "units/khoi/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

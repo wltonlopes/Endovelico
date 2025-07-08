@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Square width="9.0" depth="9.5"/>
+    <Height>12.6</Height>
+  </Footprint>
+  <Identity>
+    <Civ>khoi</Civ>
+    <SpecificName>Okuta Odi</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="8.14" depth="9.24"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.6</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/khoisan/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>8.14</Length>
+  </WallPiece>
+</Entity>

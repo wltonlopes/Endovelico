@@ -2,26 +2,23 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Yayoi Market">
+    <variant frequency="1" name="Khoisan Market">
       <mesh>structural/khoisan/market.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_01"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_02"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_02"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_03"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_03"/>
       </props>
       <textures>
         <texture file="structural/khoi_struct.png" name="baseTex"/>
         <texture file="structural/khoi_struct_spec.png" name="specTex"/>
         <texture file="structural/khoi_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/khoi/market_ao.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
-      </props>
     </variant>
   </group>
   <group>

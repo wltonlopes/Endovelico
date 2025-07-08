@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy_allied_village">
+  <Footprint>
+    <Square width="26" depth="26"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Khoi Village</GenericName>
+    <SpecificName>Khoikhoi</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="25.5" depth="25.5"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/merc/afar_infantry_slinger
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/khoisan/village_khoi.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

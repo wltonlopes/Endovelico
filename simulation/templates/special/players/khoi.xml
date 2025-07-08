@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Khoisan</GenericName>
+    <History>The Khoisan are indigenous peoples of Southern Africa, known for their unique click
+      languages and distinct cultures. Comprising the Khoikhoi (herders) and San (hunter-gatherers),
+      they have inhabited the region for thousands of years. Their rich traditions include rock art
+      and deep spiritual connections to the land, reflecting a profound understanding of their
+      environment.</History>
+    <Icon>emblems/emblem_sao.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

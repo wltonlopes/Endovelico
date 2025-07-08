@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint>
+    <Square width="25.0" depth="25.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Shrine</GenericName>
+    <SpecificName>Durosinsin</SpecificName>
+    <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="24.5" depth="24.5"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_elephant
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/khoisan/stable.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>
