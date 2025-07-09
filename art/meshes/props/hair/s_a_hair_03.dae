@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-07-09T07:49:47</created>
+    <modified>2025-07-09T07:49:47</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="text_rostro_pamp_homme_-effect">
+      <profile_COMMON>
+        <newparam sid="_65335941_rostrotupi2_png_bfe22e0b65bdc843be9c808774370361_png-surface">
+          <surface type="2D">
+            <init_from>_65335941_rostrotupi2_png_bfe22e0b65bdc843be9c808774370361_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_65335941_rostrotupi2_png_bfe22e0b65bdc843be9c808774370361_png-sampler">
+          <sampler2D>
+            <source>_65335941_rostrotupi2_png_bfe22e0b65bdc843be9c808774370361_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="_65335941_rostrotupi2_png_bfe22e0b65bdc843be9c808774370361_png-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="_65335941_rostrotupi2_png_bfe22e0b65bdc843be9c808774370361_png" name="_65335941_rostrotupi2_png_bfe22e0b65bdc843be9c808774370361_png">
+      <init_from>/home/welton/Downloads/Bom%20dia%20ou%20tarde_arquivos/765335941_rostrotupi2.png.bfe22e0b65bdc843be9c808774370361.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="text_rostro_pamp_homme_-material" name="text rostro pamp homme ">
+      <instance_effect url="#text_rostro_pamp_homme_-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_145-mesh" name="Cubo.145">
+      <mesh>
+        <source id="Cubo_145-mesh-positions">
+          <float_array id="Cubo_145-mesh-positions-array" count="42">-0.9227324 -0.3029727 -10.5086 -0.9227324 -0.7308903 1.975797 -0.7440644 1.015509 -10.5086 -0.7440644 1.015509 1.975797 0.9227318 -0.3029727 -10.5086 0.9227318 -0.7308903 1.975797 0.7440638 1.015509 -10.5086 0.7440638 1.015509 1.975797 -2.76779e-7 1.212787 -8.29198 -2.76779e-7 1.212787 1.975797 -1.11658 0.2708411 -8.29198 -1.11658 0.2708411 1.975797 1.11658 0.2708411 -8.29198 1.11658 0.2708411 1.975797</float_array>
+          <technique_common>
+            <accessor source="#Cubo_145-mesh-positions-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_145-mesh-normals">
+          <float_array id="Cubo_145-mesh-normals-array" count="36">-0.8943397 0.4473887 0 0.256282 0.9666021 0 0.9582215 -0.2858597 -0.009798169 -0.256282 0.9666021 0 0.8943397 0.4473885 0 -0.9582215 -0.2858596 -0.009798169 -0.8943399 0.4473884 0 0.256282 0.966602 0 0.9817864 -0.1899881 0 -0.256282 0.9666021 0 0.8943397 0.4473885 0 -0.9817864 -0.1899883 0</float_array>
+          <technique_common>
+            <accessor source="#Cubo_145-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_145-mesh-map-0">
+          <float_array id="Cubo_145-mesh-map-0-array" count="72">0.2234748 0.7935526 0.3424562 0.9903697 0.3454671 0.7936734 0.4675894 0.7937942 0.3486058 0.9906111 0.3455961 0.7939149 0.2236028 0.7940356 0.1046229 0.9908525 0.1016114 0.7941564 0.3424562 0.9903697 0.467459 0.7937942 0.3454671 0.7936734 0.3486058 0.9906111 0.2236028 0.7940356 0.3455961 0.7939149 0.09847193 0.9901282 0.2234748 0.7935526 0.1014828 0.7934319 0.2234748 0.7935526 0.2204644 0.9902489 0.3424562 0.9903697 0.4675894 0.7937942 0.4706004 0.9904903 0.3486058 0.9906111 0.2236028 0.7940356 0.2266152 0.9907318 0.1046229 0.9908525 0.3424562 0.9903697 0.464448 0.9904903 0.467459 0.7937942 0.3486058 0.9906111 0.2266152 0.9907318 0.2236028 0.7940356 0.09847193 0.9901282 0.2204644 0.9902489 0.2234748 0.7935526</float_array>
+          <technique_common>
+            <accessor source="#Cubo_145-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_145-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_145-mesh-positions"/>
+        </vertices>
+        <triangles material="text_rostro_pamp_homme_-material" count="12">
+          <input semantic="VERTEX" source="#Cubo_145-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_145-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_145-mesh-map-0" offset="2" set="0"/>
+          <p>10 0 0 3 0 1 2 0 2 8 1 3 7 1 4 6 1 5 12 2 6 5 2 7 4 2 8 3 3 9 8 3 10 2 3 11 7 4 12 12 4 13 6 4 14 1 5 15 10 5 16 0 5 17 10 6 18 11 6 19 3 6 20 8 7 21 9 7 22 7 7 23 12 8 24 13 8 25 5 8 26 3 9 27 9 9 28 8 9 29 7 10 30 13 10 31 12 10 32 1 11 33 11 11 34 10 11 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="hair_03" name="hair_03" type="NODE">
+        <matrix sid="transform">0.1985248 0 0 0 0 0.2203145 0 0 0 0 0.04426807 0.2600657 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_145-mesh" name="hair_03">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="text_rostro_pamp_homme_-material" target="#text_rostro_pamp_homme_-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

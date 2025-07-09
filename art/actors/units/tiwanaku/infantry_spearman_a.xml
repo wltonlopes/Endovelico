@@ -19,17 +19,17 @@
   <group>
     <variant frequency="100" name="tunic_02_01">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/tunic_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="tunic_01_02">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_02.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/tunic_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="tunic_01_03">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_03.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/tunic_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
