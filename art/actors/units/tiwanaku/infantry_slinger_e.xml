@@ -5,8 +5,8 @@
     <variant file="biped/base_slinger_ready.xml">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_andean_north_coast.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/helmet_moch_basic_inf.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_tiwa_inf.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/moch_shield_r.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>

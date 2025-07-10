@@ -2,14 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_skirmisher.xml">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+    <variant file="biped/base_axeman_shield_fast_relax.xml">
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/pamp_h.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="weapon_L"/>
-        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/jav.xml" attachpoint="projectile"/>
+        <prop actor="props/units/shields/moch_shield_s.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/moch_club.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -17,31 +15,38 @@
       </textures>
     </variant>
   </group>
-   <group>
-    <variant frequency="100" name="01">
+  <group>
+    <variant frequency="1" name="01">
       <textures>
-        <texture file="skeletal/tiwanaku/im_01_01.png" name="baseTex"/>
+        <texture file="skeletal/pamp/im_03_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="02">
+    <variant frequency="1" name="02">
       <textures>
-        <texture file="skeletal/tiwanaku/im_01_02.png" name="baseTex"/>
+        <texture file="skeletal/pamp/im_03_02.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="03">
+    <variant frequency="1" name="03">
       <textures>
-        <texture file="skeletal/tiwanaku/im_01_03.png" name="baseTex"/>
+        <texture file="skeletal/pamp/im_03_03.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="04">
+    <variant frequency="1" name="04">
       <textures>
-        <texture file="skeletal/tiwanaku/im_01_04.png" name="baseTex"/>
+        <texture file="skeletal/pamp/im_03_04.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="biped/attack_ranged_javelinist.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_praise.xml"/>
@@ -53,12 +58,12 @@
     <variant file="biped/gather_ore.xml"/>
     <variant file="biped/gather_ruins.xml"/>
     <variant file="biped/build.xml"/>
-    <variant file="biped/death_infantry.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

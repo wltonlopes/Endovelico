@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="a1">
+      <mesh>props/hair/hair_guara_01.dae</mesh>
+    </variant>
+    <variant frequency="1" name="a2">
+      <mesh>props/hair/hair_guara_02.dae</mesh>
+    </variant>
+    <variant frequency="1" name="a3">
+      <mesh>props/hair/hair_guara_03.dae</mesh>
+    </variant>
+    <variant frequency="1" name="a4">
+      <mesh>props/hair/hair_guara_04.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="face1a">
+      <textures><texture file="props/head/amer_male.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-dark brown">
+      <color>75 61 38</color>
+    </variant>
+    <variant frequency="1" name="hair-brown">
+      <color>99 82 53</color>
+    </variant>
+    <variant frequency="1" name="hair-medium brown">
+      <color>138 110 61</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

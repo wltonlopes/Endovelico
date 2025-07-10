@@ -5,11 +5,8 @@
     <variant file="biped/base_bolas_ready.xml">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_andean_north_coast_warrior_runner.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/helmet_moch_balls.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/moch_shield_champ.xml" attachpoint="shield"/>
-        <prop actor="props/units/armor/moch_greave_01_bronze_r.xml" attachpoint="leg_R"/>
-        <prop actor="props/units/armor/moch_greave_01_bronze_l.xml" attachpoint="leg_L"/>
         <prop actor="props/units/weapons/moch_bolas.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
@@ -19,19 +16,32 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="tunic_02_01">
+    <variant frequency="1" name="01">
       <textures>
-        <texture file="skeletal/tiwanaku/tunic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/pamp/is_03_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="tunic_01_02">
+    <variant frequency="1" name="02">
       <textures>
-        <texture file="skeletal/tiwanaku/tunic_01_02.png" name="baseTex"/>
+        <texture file="skeletal/pamp/is_03_02.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="tunic_01_03">
+    <variant frequency="1" name="03">
       <textures>
-        <texture file="skeletal/tiwanaku/tunic_01_03.png" name="baseTex"/>
+        <texture file="skeletal/pamp/is_03_03.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="04">
+      <textures>
+        <texture file="skeletal/pamp/is_03_04.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
