@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-    <group>
-    <variant frequency="1" name="Head 1">
-      <mesh>props/new/head_longhair.dae</mesh>
+  <group>
+    <variant frequency="1" name="Headl1">
+      <mesh>props/heads/head_lenca_1.dae</mesh>
     </variant>
-   <variant frequency="1" name="Head 2">
-      <mesh>props/new/dude_head.dae</mesh>
-     </variant>
+    <variant frequency="1" name="Headl2">
+      <mesh>props/heads/head_lenca_2.dae</mesh>
+    </variant>
   </group>
   <group>
 	 <variant frequency="1" name="texture a">
