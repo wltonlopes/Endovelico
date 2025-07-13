@@ -3,10 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Headl1">
-      <mesh>props/heads/head_lenca_1.dae</mesh>
-    </variant>
-    <variant frequency="1" name="Headl2">
-      <mesh>props/heads/head_lenca_2.dae</mesh>
+      <mesh>props/heads/head_tupi_male_1.dae</mesh>
     </variant>
   </group>
   <group>

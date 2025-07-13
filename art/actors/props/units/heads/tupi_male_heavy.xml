@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Headl1">
+      <mesh>props/heads/head_lenca_1.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Headl2">
+      <mesh>props/heads/head_lenca_2.dae</mesh>
+    </variant>
+  </group>
+  <group>
+	 <variant frequency="1" name="texture a">
+      <textures>
+         <texture file="props/head/tupi_male_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+	    <variant frequency="1" name="texture b">
+      <textures>
+         <texture file="props/head/tupi_male_02.png" name="baseTex"/>
+      </textures>
+     </variant>
+	 <variant frequency="1" name="texture c">
+      <textures>
+         <texture file="props/head/tupi_male_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+	    <variant frequency="1" name="texture r">
+      <textures>
+         <texture file="props/head/tupi_male_04.png" name="baseTex"/>
+      </textures>
+     </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -7,6 +7,6 @@
     <Entity>units/tupi/infantry_blowgunner_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/south_america/infantry_blowgunner_a.xml</Actor>
+    <Actor>units/tupis/infantry_blowgunner_a.xml</Actor>
   </VisualActor>
 </Entity>

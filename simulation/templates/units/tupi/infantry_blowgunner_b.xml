@@ -15,6 +15,6 @@
     <Category>Hunterblowgunner</Category>
   </TrainingRestrictions>
   <VisualActor>
-    <Actor>units/south_america/infantry_blowgunner_b.xml</Actor>
+    <Actor>units/tupis/infantry_blowgunner_b.xml</Actor>
   </VisualActor>
 </Entity>

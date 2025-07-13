@@ -11,6 +11,6 @@
     <Entity>units/tupi/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/south_america/healer.xml</Actor>
+    <Actor>units/tupis/healer.xml</Actor>
   </VisualActor>
 </Entity>
