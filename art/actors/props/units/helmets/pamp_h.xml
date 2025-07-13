@@ -5,7 +5,7 @@
     <variant frequency="100" name="helmetA">
       <mesh>props/helmet/helmet_pamp.dae</mesh>
       <textures>
-        <texture file="skeletal/pamp/helmet.png" name="baseTex"/>
+        <texture file="skeletal/pampidos/helmet.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
