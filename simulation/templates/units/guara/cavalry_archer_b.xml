@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="infantry_cavalry|template_unit_infantry_ranged_archer">
   <Identity>
-    <Civ>tupi</Civ>
+    <Civ>guara</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/guara/fast_archer</SelectionGroupName>
     <GenericName>Female archer</GenericName>
     <SpecificName>Aimberê</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
@@ -11,9 +11,9 @@
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>
   <Promotion>
-    <Entity>units/tupi/cavalry_archer_a</Entity>
+    <Entity>units/guara/cavalry_archer_a</Entity>
   </Promotion> 
   <VisualActor>
-    <Actor>units/tupis/female_archer.xml</Actor>
+    <Actor>units/guaranis/female_archer.xml</Actor>
   </VisualActor>
 </Entity>

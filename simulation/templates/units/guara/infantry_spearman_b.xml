@@ -11,6 +11,6 @@
     <Entity>units/guara/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/south_america/infantry_archer_h.xml</Actor>
+    <Actor>units/guaranis/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

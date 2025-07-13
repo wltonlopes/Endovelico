@@ -3,13 +3,11 @@
   <castshadow/>
   <group>
     <variant file="biped/base_bolas_ready.xml">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_andean_north_coast_warrior_runner.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/helmet_moch_balls.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/moch_shield_champ.xml" attachpoint="shield"/>
-        <prop actor="props/units/armor/moch_greave_01_bronze_r.xml" attachpoint="leg_R"/>
-        <prop actor="props/units/armor/moch_greave_01_bronze_l.xml" attachpoint="leg_L"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/guara_hair_m_1.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/moch_bolas.xml" attachpoint="weapon_R"/>
       </props>
       <textures>

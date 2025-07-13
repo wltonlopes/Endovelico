@@ -7,7 +7,7 @@
     <Entity>units/guara/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/south_america/infantry_spearman_a.xml</Actor>
+    <Actor>units/guaranis/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>
 

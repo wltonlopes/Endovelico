@@ -18,22 +18,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/tupis/h_01.png" name="baseTex"/>
+        <texture file="skeletal/guaranis/h_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/tupis/h_02.png" name="baseTex"/>
+        <texture file="skeletal/guaranis/h_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/tupis/h_03.png" name="baseTex"/>
+        <texture file="skeletal/guaranis/h_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/tupis/h_04.png" name="baseTex"/>
+        <texture file="skeletal/guaranis/h_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
