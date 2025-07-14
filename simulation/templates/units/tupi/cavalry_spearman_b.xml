@@ -8,6 +8,7 @@
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
+    <Phenotype>female</Phenotype>
   </Identity>
   <Promotion>
     <Entity>units/tupi/infantry_spearman_a</Entity>
