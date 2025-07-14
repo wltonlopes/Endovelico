@@ -2,13 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_healer_male.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant file="biped/base_healer_female.xml">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/cocar.xml" attachpoint="helmet"/>
-        <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
-	  </props>
+        <prop actor="props/units/heads/tupi_female.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/scyth_drum_a.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/scyth_healer_staff.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/tools/siege_lever.xml" attachpoint="weapon_R"/>
+      </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
@@ -38,11 +39,11 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_healer_female.xml" name="Healer-Female" />
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/death_infantry.xml">
-    </variant>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

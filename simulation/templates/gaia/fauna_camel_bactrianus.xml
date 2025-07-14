@@ -36,6 +36,6 @@
 		<Acceleration op="mul">0.45</Acceleration>
 	</UnitMotion>
 	<VisualActor>
-		<Actor>fauna/camel_bactrian.xml</Actor>
+		<Actor>fauna/camel_bactrianus_fauna.xml</Actor>
 	</VisualActor>
 </Entity>
