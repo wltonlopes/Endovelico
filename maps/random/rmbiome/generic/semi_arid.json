@@ -74,7 +74,7 @@
 		"lillies": "actor|props/flora/water_lillies.xml",
 		"rockLarge": "actor|geology/stone_desert_med.xml",
 		"rockMedium": "actor|geology/stone_desert_med.xml",
-		"bushMedium": "actor|props/flora/cactus_stenocerus_small.xml",
+		"bushMedium": "actor|flora/trees/cactus_stenocerus_small.xml",
 		"bushSmall": "actor|props/flora/bush_dry_a.xml",
 		"tree": "actor|flora/trees/cactus_stenocerus_large.xml"
 	},

@@ -11,6 +11,6 @@
     <Entity>units/mapu/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/south_america/healer.xml</Actor>
+    <Actor>units/mapuches/healer.xml</Actor>
   </VisualActor>
 </Entity>

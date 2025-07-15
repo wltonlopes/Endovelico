@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/helmet/helmet_tiwa.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="01">
+      <textures>
+        <texture file="skeletal/tiwanaku/c_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="02">
+      <textures>
+        <texture file="skeletal/tiwanaku/c_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="03">
+      <textures>
+        <texture file="skeletal/tiwanaku/c_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="04">
+      <textures>
+        <texture file="skeletal/tiwanaku/c_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

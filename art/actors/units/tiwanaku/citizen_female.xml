@@ -13,12 +13,12 @@
   <group>
     <variant frequency="80" name="hemet_s">
       <props>
-        <prop actor="props/units/heads/head_andean_north_coast_fem.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_fem.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant frequency="20" name="hemet_n">
       <props>
-        <prop actor="props/units/heads/head_andean_north_coast_fem.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_fem.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

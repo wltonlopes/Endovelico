@@ -5,8 +5,8 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_andean_north_coast.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/helmet_moch_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/pamp_h.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/moch_shield_s.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
       </props>
@@ -17,19 +17,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="tunic_02_01">
+    <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/im_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="tunic_01_02">
+    <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_02.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/im_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="tunic_01_03">
+    <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_03.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/im_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="04">
+      <textures>
+        <texture file="skeletal/tiwanaku/im_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/tupi/cavalry_clubman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/tupi/cavalry_archer_e</Entity>
+  </Promotion>
+</Entity>
+

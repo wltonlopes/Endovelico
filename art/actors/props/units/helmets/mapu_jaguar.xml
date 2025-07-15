@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="helmetA">
+      <mesh>props/helmet/helmet_mapu_jaguar.dae</mesh>
+      <textures>
+        <texture file="skeletal/animal_jaguar.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="helmetB">
+      <mesh>props/helmet/helmet_mapu_jaguar.dae</mesh>
+      <textures>
+        <texture file="skeletal/animal_jaguar_n.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -7,6 +7,6 @@
     <Icon>units/mayap/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/south_america/infantry_clubman_b.xml</Actor>
+    <Actor>units/tupis/infantry_champion_clubman.xml</Actor>
   </VisualActor>
 </Entity>

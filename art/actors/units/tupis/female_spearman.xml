@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base-Female">
+      <mesh>skeletal/new/f_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/tupi_female.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures> 
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="01">
+      <textures>
+        <texture file="skeletal/tupis/i_f_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="02">
+      <textures>
+        <texture file="skeletal/tupis/i_f_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="03">
+      <textures>
+        <texture file="skeletal/tupis/i_f_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="04">
+      <textures>
+        <texture file="skeletal/tupis/i_f_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_shield_relax.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

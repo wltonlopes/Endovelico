@@ -2,16 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
+    <variant frequency="1" name="base_pikeman_relax">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_andean_north_coast_warrior_runner.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/helmet_moch_champ_axeman.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_male_old.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_tiwa.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/tiwa_hair_m_1.xml" attachpoint="helmet"/>  
         <prop actor="props/units/shields/moch_shield_s.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="weapon_L"/>
-        <prop actor="props/units/armor/moch_greave_01_bronze_r.xml" attachpoint="leg_R"/>
-        <prop actor="props/units/armor/moch_greave_01_bronze_l.xml" attachpoint="leg_L"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -20,28 +18,42 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="tunic_02_01">
+    <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/c_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="tunic_01_02">
+    <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_02.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/c_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="tunic_01_03">
+    <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/tiwa/tunic_01_03.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/c_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="04">
+      <textures>
+        <texture file="skeletal/tiwanaku/c_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_shield_ready.xml" frequency="1" name="Spearman-Shield-Ready"/>
-    <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/base_spearman_rel.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

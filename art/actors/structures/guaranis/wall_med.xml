@@ -3,10 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/guara/barracks.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
+      <mesh>structural/guara/wall_long.dae</mesh>
       <textures>
         <texture file="structural/guara_struct.png" name="baseTex"/>
         <texture file="structural/guara_struct_spec.png" name="specTex"/>
