@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/pampeanos/colony.dae</mesh>
+      <mesh>structural/pampeanos/special.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
@@ -36,5 +36,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>

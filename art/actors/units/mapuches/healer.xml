@@ -19,22 +19,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/mapuches/h_01.png" name="baseTex"/>
+        <texture file="skeletal/mapuches/f_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/mapuches/h_02.png" name="baseTex"/>
+        <texture file="skeletal/mapuches/f_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/mapuches/h_03.png" name="baseTex"/>
+        <texture file="skeletal/mapuches/f_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/mapuches/h_04.png" name="baseTex"/>
+        <texture file="skeletal/mapuches/f_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
