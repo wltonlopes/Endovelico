@@ -2,16 +2,34 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="wonder">
-      <mesh>structural/urewe/especial_temple.dae</mesh>
+    <variant frequency="1" name="Urewe Wonder">
+      <mesh>structural/urewe/wonder.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9_round.xml" attachpoint="root"/>
+        <prop actor="props/structures/urewe/wonder_carpet.xml" attachpoint="root"/>
+        <prop actor="props/structures/urewe/wonder_grain.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_01"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_02"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_02"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_03"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_03"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_04"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_04"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_05"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_05"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_06"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_06"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_07"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_07"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_08"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_08"/>
       </props>
       <textures>
-        <texture file="structural/urewe_struct.png" name="baseTex"/>
-        <texture file="structural/urewe_struct_spec.png" name="specTex"/>
-        <texture file="structural/urewe_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/urew_struct.png" name="baseTex"/>
+        <texture file="structural/urew_struct_spec.png" name="specTex"/>
+        <texture file="structural/urew_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/urew/wonder_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,7 +37,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_urewe.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_urew.xml" attachpoint="garrisoned_01" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_urew.xml" attachpoint="garrisoned_02" selectable="false"/>
       </props>
     </variant>
   </group>
@@ -35,5 +54,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>

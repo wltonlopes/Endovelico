@@ -1,0 +1,82 @@
+﻿{
+    "Code": "urew",
+    "Name": "Urewe",
+    "Culture": "urewe",
+    "Music": [
+        {
+            "File": "Ammon-Ra.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Point_of_No_Return.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/urew/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/urew/civil_centre"
+        },
+        {
+            "Template": "units/urew/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/urew/infantry_axeman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/urew/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/urew/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "gaia/fauna_cattle_cow_trainable",
+            "Count": 1
+        },
+        {
+            "Template": "units/urew/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Oma Idoko",
+        "Oduduwa",
+        "Shango"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/urew/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/urew/infantry_axeman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/urew/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
+        "skirmish/units/default_ship_trireme": "units/urew/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

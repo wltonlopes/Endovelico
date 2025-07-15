@@ -15,10 +15,11 @@
 	<!-- Ondulação mínima -->
 	<uniform name="waviness" value="0.02"/>
 	<!-- Água azul clara -->
-	<uniform name="waterTint" value="0.4 0.6 0.8"/>
-	<uniform name="reflectionTint" value="0.4 0.6 0.8"/>
+	<!-- Água azul turquesa -->
+	<uniform name="waterTint" value="0.2 0.8 0.75"/>
+	<uniform name="reflectionTint" value="0.2 0.8 0.75"/>
 	<uniform name="reflectionTintStrength" value="0.15"/>
 	<!-- Mais transparência -->
-	<uniform name="murkiness" value="0.5"/>
+	<uniform name="murkiness" value="0.2"/>
 	<!-- Reflexo suave -->
 </material>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Footprint>
+    <Square width="14.0" depth="22.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>urew</Civ>
+    <SpecificName>Igbelera</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.5" depth="21.5"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      fishing_culture
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/urewe/dock.xml</Actor>
+    <FoundationActor>structures/fndn_3x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

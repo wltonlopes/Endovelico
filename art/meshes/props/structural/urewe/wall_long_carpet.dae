@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-13T04:24:16</created>
+    <modified>2025-07-13T04:24:16</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material-effect">
+      <profile_COMMON>
+        <newparam sid="BakeAO-surface">
+          <surface type="2D">
+            <init_from>BakeAO</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="BakeAO-sampler">
+          <sampler2D>
+            <source>BakeAO-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="BakeAO-sampler" texcoord="Cubo_067-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="BakeAO" name="BakeAO">
+      <init_from>BakeAO.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material-material" name="Material">
+      <instance_effect url="#Material-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Urew_Wall_Long_Carpet-mesh" name="Urew Wall Long Carpet">
+      <mesh>
+        <source id="Urew_Wall_Long_Carpet-mesh-positions">
+          <float_array id="Urew_Wall_Long_Carpet-mesh-positions-array" count="48">5.255655 -4.151154 10.65405 5.25502 -4.734709 10.6534 9.480787 -4.150813 10.64948 5.27221 -4.151774 8.228946 9.480152 -4.734367 10.64883 9.496706 -4.734988 8.223728 5.271574 -4.735329 8.228295 9.497341 -4.151433 8.224378 -1.096158 4.067599 10.65405 -1.095258 4.651154 10.6534 -5.321289 4.069177 10.64948 -1.112713 4.068227 8.228946 -5.337843 4.069806 8.224378 -5.320389 4.652732 10.64883 -5.336942 4.65336 8.223728 -1.111812 4.651782 8.228295</float_array>
+          <technique_common>
+            <accessor source="#Urew_Wall_Long_Carpet-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Wall_Long_Carpet-mesh-normals">
+          <float_array id="Urew_Wall_Long_Carpet-mesh-normals-array" count="72">-3.73431e-4 -1 -2.56728e-4 -3.73355e-4 -1 -2.56565e-4 -3.7328e-4 -1 -2.56405e-4 -8.097e-5 1 -2.55972e-4 -8.097e-5 1 -2.56176e-4 -8.09701e-5 1 -2.56378e-4 0.001081824 -0.001115679 0.9999988 0.001081466 -0.001115679 0.9999988 0.001081466 -0.001115679 0.9999989 8.11213e-5 -1 2.56356e-4 8.10453e-5 -1 2.56574e-4 8.11959e-5 -1 2.56142e-4 -0.001081347 0.001116216 0.9999988 -0.001081407 0.001116216 0.9999988 -0.001081466 0.001116216 0.9999989 3.73168e-4 1 2.5594e-4 3.73168e-4 1 2.56113e-4 3.73168e-4 1 2.5577e-4 -3.73506e-4 -1 -2.56887e-4 -8.097e-5 1 -2.5577e-4 0.001081824 -0.001115739 0.9999989 8.09707e-5 -1 2.56788e-4 -0.001081287 0.001116216 0.9999989 3.73168e-4 1 2.56283e-4</float_array>
+          <technique_common>
+            <accessor source="#Urew_Wall_Long_Carpet-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Wall_Long_Carpet-mesh-map-0">
+          <float_array id="Urew_Wall_Long_Carpet-mesh-map-0-array" count="72">0.6417803 0.9954522 0.5304161 0.917593 0.5301733 0.9954259 0.6417803 0.9954522 0.5304161 0.917593 0.5301733 0.9954259 0.6417958 0.9972536 0.5301744 0.9851446 0.5301744 0.9972536 0.5301928 0.9183557 0.6418298 0.9955931 0.5301928 0.9955931 0.6417958 0.9972536 0.5301744 0.9851446 0.5301744 0.9972536 0.5301928 0.9183557 0.6418298 0.9955931 0.5301928 0.9955931 0.6417803 0.9954522 0.6420231 0.9181031 0.5304161 0.917593 0.6417803 0.9954522 0.6420231 0.9181031 0.5304161 0.917593 0.6417958 0.9972536 0.6417958 0.9851446 0.5301744 0.9851446 0.5301928 0.9183557 0.6418298 0.9183557 0.6418298 0.9955931 0.6417958 0.9972536 0.6417958 0.9851446 0.5301744 0.9851446 0.5301928 0.9183557 0.6418298 0.9183557 0.6418298 0.9955931</float_array>
+          <technique_common>
+            <accessor source="#Urew_Wall_Long_Carpet-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Wall_Long_Carpet-mesh-map-1">
+          <float_array id="Urew_Wall_Long_Carpet-mesh-map-1-array" count="72">0.8944373 0.6782894 0.8852106 0.5492898 0.8944373 0.5487461 0.1515634 0.9472589 0.1423359 0.8182623 0.1515634 0.8177165 0.8069148 0.8944175 0.8046783 0.7648906 0.8069148 0.7648708 0.8709557 0.5492902 0.8617286 0.6783228 0.8617284 0.5487799 0.1771796 0.9477788 0.174943 0.8182579 0.1771796 0.8182321 0.1686409 0.8161272 0.1594128 0.9451597 0.1594128 0.815617 0.8944373 0.6782894 0.8852106 0.6788331 0.8852106 0.5492898 0.1515634 0.9472589 0.1423359 0.9478047 0.1423359 0.8182623 0.8069148 0.8944175 0.8046783 0.8944373 0.8046783 0.7648906 0.8709557 0.5492902 0.8709557 0.6788331 0.8617286 0.6783228 0.1771796 0.9477788 0.174943 0.9478046 0.174943 0.8182579 0.1686409 0.8161272 0.1686409 0.94567 0.1594128 0.9451597</float_array>
+          <technique_common>
+            <accessor source="#Urew_Wall_Long_Carpet-mesh-map-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Urew_Wall_Long_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Urew_Wall_Long_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="12">
+          <input semantic="VERTEX" source="#Urew_Wall_Long_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Urew_Wall_Long_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Urew_Wall_Long_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Urew_Wall_Long_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>10 0 0 11 1 1 8 2 2 2 3 3 3 4 4 0 5 5 4 6 6 0 7 7 1 8 8 6 9 9 4 10 10 1 11 11 13 12 12 8 13 13 9 14 14 15 15 15 13 16 16 9 17 17 10 0 18 12 18 19 11 1 20 2 3 21 7 19 22 3 4 23 4 6 24 2 20 25 0 7 26 6 9 27 5 21 28 4 10 29 13 12 30 10 22 31 8 13 32 15 15 33 14 23 34 13 16 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="urew_wall_long_carpet" name="urew_wall_long_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Urew_Wall_Long_Carpet-mesh" name="urew_wall_long_carpet">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material">
+                <bind_vertex_input semantic="Cubo_067-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Cubo_067-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

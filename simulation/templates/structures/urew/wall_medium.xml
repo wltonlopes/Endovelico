@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_medium">
+  <Footprint>
+    <Square width="20" depth="10"/>
+    <Height>16.7</Height>
+  </Footprint>
+  <Identity>
+    <Civ>urew</Civ>
+    <SpecificName>Okuta Odi</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="19.1" depth="9.2"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.6</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>10.2</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>10.2</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>10.2</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>10.2</Y>
+        <Z>0</Z>
+      </Four>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/urewe/wall_medium.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>19.1</Length>
+  </WallPiece>
+</Entity>

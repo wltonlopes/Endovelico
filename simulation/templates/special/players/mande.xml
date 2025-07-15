@@ -6,8 +6,11 @@
   <Identity>
     <Civ>mande</Civ>
     <GenericName>Mande</GenericName>
-    <History>West African cultural-linguistic group (Mali/Guinea). Early ironworkers (from 250 BC) and millet/sorghum farmers. Established trade networks for gold and salt. Proto-Mande groups like the Djenné-Jeno emerged by 250 BC, forming some of Africa's earliest cities south of the Sahara</History>
-    <Icon>emblems/emblem_urewe.png</Icon>
+    <History>West African cultural-linguistic group (Mali/Guinea). Early ironworkers (from 250 BC)
+      and millet/sorghum farmers. Established trade networks for gold and salt. Proto-Mande groups
+      like the Djenné-Jeno emerged by 250 BC, forming some of Africa's earliest cities south of the
+      Sahara</History>
+    <Icon>emblems/emblem_urew.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

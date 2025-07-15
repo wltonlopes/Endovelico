@@ -6,8 +6,10 @@
   <Identity>
     <Civ>shona</Civ>
     <GenericName>Shona</GenericName>
-    <History>Bantu-speaking migrants to Zimbabwe plateau (c. 500 BC–900 AD). Early Iron Age settlers practicing millet farming and iron smelting. Ancestors of Great Zimbabwe builders; established hilltop villages and traded Indian Ocean goods.</History>
-    <Icon>emblems/emblem_urewe.png</Icon>
+    <History>Bantu-speaking migrants to Zimbabwe plateau (c. 500 BC–900 AD). Early Iron Age settlers
+      practicing millet farming and iron smelting. Ancestors of Great Zimbabwe builders; established
+      hilltop villages and traded Indian Ocean goods.</History>
+    <Icon>emblems/emblem_urew.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

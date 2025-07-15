@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Square width="18.0" depth="18.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>urew</Civ>
+    <SpecificName>Ipe</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="17.5" depth="17.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/urewe/house.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

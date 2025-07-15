@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Footprint>
+    <Square width="13" depth="13"/>
+    <Height>21.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>urew</Civ>
+    <SpecificName>Yagura</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="12" depth="12"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>16.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/urewe/wall_tower.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>12</Length>
+  </WallPiece>
+</Entity>

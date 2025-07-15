@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity parent="scout_cavalry_swordsman">
+<Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>scyth</Civ>
     <SpecificName>Scythian Scout</SpecificName>

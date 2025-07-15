@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-09T05:23:15</created>
+    <modified>2025-07-09T05:23:15</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Urew_Stable_Bull_Carpet-mesh" name="Urew Stable Bull Carpet">
+      <mesh>
+        <source id="Urew_Stable_Bull_Carpet-mesh-positions">
+          <float_array id="Urew_Stable_Bull_Carpet-mesh-positions-array" count="48">-12.4398 -5.103492 3.553795 -12.26509 -5.104167 3.553693 -12.43552 -2.519116 3.550762 -12.44099 -5.093365 1.000893 -12.43671 -2.508974 0.9978599 -12.2608 -2.519784 3.550662 -12.26201 -2.509649 0.9977568 -12.26628 -5.09404 1.000789 1.294351 -1.062788 3.377731 1.469064 -1.063455 3.377629 1.298632 1.521588 3.374697 1.293147 -1.052661 0.8248302 1.297435 1.53173 0.8217931 1.473345 1.520928 3.374594 1.472148 1.531055 0.8216939 1.467859 -1.053328 0.8247252</float_array>
+          <technique_common>
+            <accessor source="#Urew_Stable_Bull_Carpet-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Stable_Bull_Carpet-mesh-normals">
+          <float_array id="Urew_Stable_Bull_Carpet-mesh-normals-array" count="48">0.7081772 -3.45274e-4 0.7060347 -0.7050767 0.002000689 0.7091283 0.7068114 -3.40064e-4 0.7074019 -0.7083781 0.002003014 0.7058303 -0.9999986 0.00165838 4.76842e-4 0.7081617 -3.43745e-4 0.7060503 -0.7050677 0.001999258 0.7091373 0.7068198 -3.43551e-4 0.7073935 0.9999986 -0.001656115 -4.76486e-4 -0.7083959 0.002001643 0.7058125 -0.9999986 0.00165683 4.72785e-4 0.9999985 -0.001658558 -4.77049e-4 -0.9999985 0.00165981 4.75463e-4 0.9999986 -0.001651823 -4.80613e-4 -0.9999985 0.001657128 4.7279e-4 0.9999986 -0.001660108 -4.75502e-4</float_array>
+          <technique_common>
+            <accessor source="#Urew_Stable_Bull_Carpet-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Stable_Bull_Carpet-mesh-map-0">
+          <float_array id="Urew_Stable_Bull_Carpet-mesh-map-0-array" count="72">0.6390818 0.9963622 0.5278236 0.9854117 0.5278236 0.9963622 0.6390665 0.9947332 0.5280649 0.9243229 0.5278226 0.9947094 0.6390818 0.9963622 0.5278236 0.9854117 0.5278236 0.9963622 0.5278422 0.9250127 0.6391159 0.9948605 0.5278422 0.9948605 0.6390665 0.9947332 0.5280649 0.9243229 0.5278226 0.9947094 0.5278422 0.9250127 0.6391159 0.9948605 0.5278422 0.9948605 0.6390818 0.9963622 0.6390818 0.9854117 0.5278236 0.9854117 0.6390665 0.9947332 0.6393082 0.9247841 0.5280649 0.9243229 0.6390818 0.9963622 0.6390818 0.9854117 0.5278236 0.9854117 0.5278422 0.9250127 0.6391159 0.9250127 0.6391159 0.9948605 0.6390665 0.9947332 0.6393082 0.9247841 0.5280649 0.9243229 0.5278422 0.9250127 0.6391159 0.9250127 0.6391159 0.9948605</float_array>
+          <technique_common>
+            <accessor source="#Urew_Stable_Bull_Carpet-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Stable_Bull_Carpet-mesh-map-1">
+          <float_array id="Urew_Stable_Bull_Carpet-mesh-map-1-array" count="72">0.0107637 0.8057348 0.006883323 0.85107 0.0107637 0.85107 0.8460578 0.6163856 0.801001 0.6617209 0.8460578 0.6617209 0.08135193 0.8057348 0.07747155 0.85107 0.08135193 0.85107 0.798999 0.6163856 0.7539422 0.6617209 0.798999 0.6617209 0.8460578 0.5690484 0.801001 0.6143836 0.8460578 0.6143836 0.6107637 0.8057348 0.5657069 0.85107 0.6107637 0.85107 0.0107637 0.8057348 0.006883323 0.8057348 0.006883323 0.85107 0.8460578 0.6163856 0.801001 0.6163856 0.801001 0.6617209 0.08135193 0.8057348 0.07747155 0.8057348 0.07747155 0.85107 0.798999 0.6163856 0.7539422 0.6163856 0.7539422 0.6617209 0.8460578 0.5690484 0.801001 0.5690484 0.801001 0.6143836 0.6107637 0.8057348 0.5657069 0.8057348 0.5657069 0.85107</float_array>
+          <technique_common>
+            <accessor source="#Urew_Stable_Bull_Carpet-mesh-map-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Urew_Stable_Bull_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Urew_Stable_Bull_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="12">
+          <input semantic="VERTEX" source="#Urew_Stable_Bull_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Urew_Stable_Bull_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Urew_Stable_Bull_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Urew_Stable_Bull_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>13 0 0 8 1 1 9 2 2 10 3 3 11 4 4 8 1 5 5 5 6 0 6 7 1 7 8 7 8 9 5 5 10 1 7 11 2 9 12 3 10 13 0 6 14 15 11 15 13 0 16 9 2 17 13 0 18 10 3 19 8 1 20 10 3 21 12 12 22 11 4 23 5 5 24 2 9 25 0 6 26 7 8 27 6 13 28 5 5 29 2 9 30 4 14 31 3 10 32 15 11 33 14 15 34 13 0 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="urew_stable_bull_carpet" name="urew_stable_bull_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Urew_Stable_Bull_Carpet-mesh" name="urew_stable_bull_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

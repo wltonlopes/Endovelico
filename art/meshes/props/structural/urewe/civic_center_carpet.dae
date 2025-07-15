@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-08T07:23:07</created>
+    <modified>2025-07-08T07:23:07</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Urew_Civic_Center_Carpet-mesh" name="Urew Civic Center Carpet">
+      <mesh>
+        <source id="Urew_Civic_Center_Carpet-mesh-positions">
+          <float_array id="Urew_Civic_Center_Carpet-mesh-positions-array" count="72">-15.73257 0.3459792 3.377825 -16.111 0.3123165 3.377625 -15.50101 -2.228013 3.374793 -15.73045 0.336003 0.8249224 -15.49889 -2.237988 0.8218898 -15.87945 -2.261676 3.374593 -15.87732 -2.271651 0.8216898 -16.10888 0.3023406 0.8247225 12.19202 -10.43078 3.377727 11.88466 -10.0387 3.377471 10.15934 -12.02679 3.374695 12.18481 -10.43799 0.8248245 10.15213 -12.034 0.8217919 9.85198 -11.63471 3.374439 9.844767 -11.64192 0.8215355 11.87744 -10.04591 0.8245683 10.44782 13.59389 3.37785 10.63279 13.98344 3.377625 8.112298 14.70043 3.374818 10.43814 13.59713 0.8249471 8.102625 14.70366 0.8219144 8.297282 15.08997 3.374593 8.28761 15.09321 0.8216898 10.62312 13.98667 0.8247225</float_array>
+          <technique_common>
+            <accessor source="#Urew_Civic_Center_Carpet-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Civic_Center_Carpet-mesh-normals">
+          <float_array id="Urew_Civic_Center_Carpet-mesh-normals-array" count="72">0.3025786 0.6405711 0.7057725 -0.3027797 -0.6371191 0.7088045 0.3017435 0.6388184 0.707716 -0.9959781 -0.08959728 -4.79209e-4 -0.7054901 -0.06429696 0.7057972 -0.7036123 -0.06412863 0.7076845 -0.4381715 0.5567143 0.7057443 0.434993 -0.5553545 0.7087754 -0.4369409 0.5551432 0.707742 0.4281629 0.9037014 -4.76868e-4 -0.6175594 0.7865241 -4.77207e-4 -0.3039407 -0.6395807 0.7060855 -0.4281623 -0.9037018 4.77803e-4 0.7053763 0.0626257 0.7060612 0.9959778 0.08959996 4.76967e-4 0.7026056 0.06237292 0.7088407 0.4366441 -0.5574502 0.70611 0.6175598 -0.7865238 4.78428e-4 -0.9959778 -0.08959972 -4.81092e-4 0.4281644 0.9037008 -4.74965e-4 -0.6175596 0.786524 -4.77409e-4 -0.4281614 -0.9037022 4.78742e-4 0.9959777 0.0896002 4.766e-4 0.6175611 -0.7865228 4.79897e-4</float_array>
+          <technique_common>
+            <accessor source="#Urew_Civic_Center_Carpet-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Civic_Center_Carpet-mesh-map-0">
+          <float_array id="Urew_Civic_Center_Carpet-mesh-map-0-array" count="108">0.6390818 0.9963622 0.5278236 0.9854117 0.5278236 0.9963622 0.5278422 0.9250127 0.6391159 0.9948605 0.5278422 0.9948605 0.6390818 0.9963622 0.5278236 0.9854117 0.5278236 0.9963622 0.5278422 0.9250127 0.6391159 0.9948605 0.5278422 0.9948605 0.5278422 0.9250127 0.6391159 0.9948605 0.5278422 0.9948605 0.6390665 0.9947332 0.5280649 0.9243229 0.5278226 0.9947094 0.6390665 0.9947332 0.5280649 0.9243229 0.5278226 0.9947094 0.6390818 0.9963622 0.5278236 0.9854117 0.5278236 0.9963622 0.6390665 0.9947332 0.5280649 0.9243229 0.5278226 0.9947094 0.6390818 0.9963622 0.6390818 0.9854117 0.5278236 0.9854117 0.5278422 0.9250127 0.6391159 0.9250127 0.6391159 0.9948605 0.6390818 0.9963622 0.6390818 0.9854117 0.5278236 0.9854117 0.5278422 0.9250127 0.6391159 0.9250127 0.6391159 0.9948605 0.5278422 0.9250127 0.6391159 0.9250127 0.6391159 0.9948605 0.6390665 0.9947332 0.6393082 0.9247841 0.5280649 0.9243229 0.6390665 0.9947332 0.6393082 0.9247841 0.5280649 0.9243229 0.6390818 0.9963622 0.6390818 0.9854117 0.5278236 0.9854117 0.6390665 0.9947332 0.6393082 0.9247841 0.5280649 0.9243229</float_array>
+          <technique_common>
+            <accessor source="#Urew_Civic_Center_Carpet-mesh-map-0-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Civic_Center_Carpet-mesh-map-1">
+          <float_array id="Urew_Civic_Center_Carpet-mesh-map-1-array" count="108">0.7551724 0.7566407 0.7511433 0.7324987 0.7551724 0.7324951 0.7537003 0.2441607 0.7360166 0.2205103 0.7537003 0.2203074 0.7551723 0.6477074 0.750518 0.6235636 0.7551723 0.6235598 0.7478119 0.5593062 0.7250137 0.5355336 0.7478119 0.5354529 0.5842892 0.7448678 0.6079652 0.7206809 0.6079652 0.7445533 0.6933454 0.7210145 0.6702051 0.7447054 0.6702049 0.7208521 0.2031457 0.7372074 0.1847227 0.7610286 0.1847227 0.7371754 0.279088 0.7369142 0.2826376 0.7610573 0.2790881 0.7610605 0.7507561 0.1161901 0.7269042 0.09241962 0.7507561 0.09231615 0.7551724 0.7566407 0.7511433 0.7566444 0.7511433 0.7324987 0.7537003 0.2441607 0.7360166 0.2443637 0.7360166 0.2205103 0.7551723 0.6477074 0.750518 0.6477111 0.750518 0.6235636 0.7478119 0.5593062 0.7250136 0.5593869 0.7250137 0.5355336 0.5842892 0.7448678 0.5842892 0.7209953 0.6079652 0.7206809 0.6933454 0.7210145 0.6933454 0.7448678 0.6702051 0.7447054 0.2031457 0.7372074 0.2031457 0.7610606 0.1847227 0.7610286 0.279088 0.7369142 0.2826376 0.7369111 0.2826376 0.7610573 0.7507561 0.1161901 0.7269042 0.1162936 0.7269042 0.09241962</float_array>
+          <technique_common>
+            <accessor source="#Urew_Civic_Center_Carpet-mesh-map-1-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Urew_Civic_Center_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Urew_Civic_Center_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="18">
+          <input semantic="VERTEX" source="#Urew_Civic_Center_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Urew_Civic_Center_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Urew_Civic_Center_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Urew_Civic_Center_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>21 0 0 16 1 1 17 2 2 7 3 3 5 4 4 1 5 5 13 6 6 8 7 7 9 8 8 23 9 9 21 0 10 17 2 11 15 10 12 13 6 13 9 8 14 18 11 15 19 12 16 16 1 17 2 13 18 3 14 19 0 15 20 5 4 21 0 15 22 1 5 23 10 16 24 11 17 25 8 7 26 21 0 27 18 11 28 16 1 29 7 3 30 6 18 31 5 4 32 13 6 33 10 16 34 8 7 35 23 9 36 22 19 37 21 0 38 15 10 39 14 20 40 13 6 41 18 11 42 20 21 43 19 12 44 2 13 45 4 22 46 3 14 47 5 4 48 2 13 49 0 15 50 10 16 51 12 23 52 11 17 53</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="urew_civic_center_carpet" name="urew_civic_center_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Urew_Civic_Center_Carpet-mesh" name="urew_civic_center_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

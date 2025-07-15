@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>urew</Civ>
+    <SpecificName>Ayederu</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="27.5" depth="27.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -archer_attack_spread
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/urewe/forge.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

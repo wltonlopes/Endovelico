@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-13T04:52:46</created>
+    <modified>2025-07-13T04:52:46</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Urew_Wall_Medium_Carpet-mesh" name="Urew Wall Medium Carpet">
+      <mesh>
+        <source id="Urew_Wall_Medium_Carpet-mesh-positions">
+          <float_array id="Urew_Wall_Medium_Carpet-mesh-positions-array" count="48">-1.467356 -4.144914 10.65458 -1.467991 -4.728468 10.65393 2.757775 -4.144573 10.65001 -1.450802 -4.145534 8.229479 2.75714 -4.728127 10.64936 2.773694 -4.728748 8.224261 -1.451437 -4.729089 8.228827 2.774329 -4.145193 8.224911 5.980332 4.073839 10.65458 5.981233 4.657394 10.65393 1.755201 4.075417 10.65001 5.963778 4.074467 8.229479 1.738647 4.076046 8.224911 1.756102 4.658972 10.64936 1.739548 4.6596 8.224261 5.964678 4.658022 8.228827</float_array>
+          <technique_common>
+            <accessor source="#Urew_Wall_Medium_Carpet-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Wall_Medium_Carpet-mesh-normals">
+          <float_array id="Urew_Wall_Medium_Carpet-mesh-normals-array" count="72">-3.73431e-4 -1 -2.56715e-4 -3.73355e-4 -1 -2.56541e-4 -3.7328e-4 -1 -2.56369e-4 -8.097e-5 1 -2.56317e-4 -8.09701e-5 1 -2.56115e-4 -8.09701e-5 1 -2.55917e-4 0.001081645 -0.001115679 0.9999988 0.001081824 -0.001115679 0.9999988 0.001081824 -0.001115679 0.9999988 8.11213e-5 -1 2.5675e-4 8.10453e-5 -1 2.56611e-4 8.11959e-5 -1 2.56887e-4 -0.001080989 0.001116216 0.9999988 -0.001081049 0.001116216 0.9999988 -0.001081049 0.001116216 0.9999989 3.73168e-4 1 2.56416e-4 3.73168e-4 1 2.56695e-4 3.73168e-4 1 2.56142e-4 -3.73506e-4 -1 -2.56887e-4 -8.097e-5 1 -2.56515e-4 0.001081585 -0.001115679 0.9999989 8.09706e-5 -1 2.56474e-4 -0.001080989 0.001116216 0.9999989 3.73168e-4 1 2.56969e-4</float_array>
+          <technique_common>
+            <accessor source="#Urew_Wall_Medium_Carpet-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Wall_Medium_Carpet-mesh-map-0">
+          <float_array id="Urew_Wall_Medium_Carpet-mesh-map-0-array" count="72">0.6417803 0.9954522 0.5304161 0.917593 0.5301733 0.9954259 0.6417803 0.9954522 0.5304161 0.917593 0.5301733 0.9954259 0.6417958 0.9972536 0.5301744 0.9851446 0.5301744 0.9972536 0.5301928 0.9183557 0.6418298 0.9955931 0.5301928 0.9955931 0.6417958 0.9972536 0.5301744 0.9851446 0.5301744 0.9972536 0.5301928 0.9183557 0.6418298 0.9955931 0.5301928 0.9955931 0.6417803 0.9954522 0.6420231 0.9181031 0.5304161 0.917593 0.6417803 0.9954522 0.6420231 0.9181031 0.5304161 0.917593 0.6417958 0.9972536 0.6417958 0.9851446 0.5301744 0.9851446 0.5301928 0.9183557 0.6418298 0.9183557 0.6418298 0.9955931 0.6417958 0.9972536 0.6417958 0.9851446 0.5301744 0.9851446 0.5301928 0.9183557 0.6418298 0.9183557 0.6418298 0.9955931</float_array>
+          <technique_common>
+            <accessor source="#Urew_Wall_Medium_Carpet-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Wall_Medium_Carpet-mesh-map-1">
+          <float_array id="Urew_Wall_Medium_Carpet-mesh-map-1-array" count="72">0.9323323 0.9616546 0.8676677 0.9304616 0.8676677 0.9616546 0.9656656 0.8640716 0.9343343 0.9284596 0.9656656 0.9284596 0.9323323 0.9948496 0.8676677 0.9885529 0.8676677 0.9948496 0.9823324 0.3309492 0.951001 0.2665612 0.951001 0.3309492 0.998999 0.9948496 0.9343343 0.9885529 0.9343343 0.9948496 0.9823324 0.3973392 0.951001 0.3329512 0.951001 0.3973392 0.9323323 0.9616546 0.9323323 0.9304616 0.8676677 0.9304616 0.9656656 0.8640716 0.9343343 0.8640716 0.9343343 0.9284596 0.9323323 0.9948496 0.9323323 0.9885529 0.8676677 0.9885529 0.9823324 0.3309492 0.9823324 0.2665612 0.951001 0.2665612 0.998999 0.9948496 0.998999 0.9885529 0.9343343 0.9885529 0.9823324 0.3973392 0.9823324 0.3329512 0.951001 0.3329512</float_array>
+          <technique_common>
+            <accessor source="#Urew_Wall_Medium_Carpet-mesh-map-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Urew_Wall_Medium_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Urew_Wall_Medium_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="12">
+          <input semantic="VERTEX" source="#Urew_Wall_Medium_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Urew_Wall_Medium_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Urew_Wall_Medium_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Urew_Wall_Medium_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>10 0 0 11 1 1 8 2 2 2 3 3 3 4 4 0 5 5 4 6 6 0 7 7 1 8 8 6 9 9 4 10 10 1 11 11 13 12 12 8 13 13 9 14 14 15 15 15 13 16 16 9 17 17 10 0 18 12 18 19 11 1 20 2 3 21 7 19 22 3 4 23 4 6 24 2 20 25 0 7 26 6 9 27 5 21 28 4 10 29 13 12 30 10 22 31 8 13 32 15 15 33 14 23 34 13 16 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="urew_wall_medium_carpet" name="urew_wall_medium_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Urew_Wall_Medium_Carpet-mesh" name="urew_wall_medium_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

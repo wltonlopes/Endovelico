@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="scout_cavalry_swordsman">
+<Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Armenian Scout</GenericName>

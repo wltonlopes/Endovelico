@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-09T05:22:05</created>
+    <modified>2025-07-09T05:22:05</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Urew_Stable_Bull_Water-mesh" name="Urew Stable Bull Water">
+      <mesh>
+        <source id="Urew_Stable_Bull_Water-mesh-positions">
+          <float_array id="Urew_Stable_Bull_Water-mesh-positions-array" count="54">-5.210855 -7.697795 2.414635 -5.188752 -6.947313 2.414636 -4.5573 -6.539282 2.414637 -3.805107 -6.567515 2.414636 -3.403206 -7.200647 2.414635 -3.425317 -7.951137 2.414635 -4.056761 -8.359184 2.414636 -4.808946 -8.330944 2.414637 -4.307026 -7.449232 2.414635 1.652277 -5.31315 2.414635 1.674379 -4.562668 2.414636 2.305831 -4.15463 2.414637 3.058009 -4.182862 2.414636 3.459917 -4.816009 2.414637 3.437807 -5.566492 2.414635 2.80637 -5.974529 2.414636 2.054185 -5.94629 2.414637 2.556089 -5.064572 2.414633</float_array>
+          <technique_common>
+            <accessor source="#Urew_Stable_Bull_Water-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Stable_Bull_Water-mesh-normals">
+          <float_array id="Urew_Stable_Bull_Water-mesh-normals-array" count="54">1.23636e-6 -1.6135e-6 1 4.95436e-7 -1.65354e-7 1 1.77402e-7 -6.41359e-7 1 -1.50263e-6 -2.44615e-6 1 -2.05499e-7 -3.1694e-7 1 -4.16597e-6 -1.78472e-6 1 -2.11825e-6 1.47733e-7 1 -2.65443e-7 -1.86439e-6 1 7.03217e-7 -2.19277e-6 1 1.50092e-6 -2.78896e-6 1 1.05619e-6 -4.14165e-6 1 8.38773e-7 2.18992e-6 1 1.18787e-6 1.37097e-6 1 1.31365e-6 3.82089e-6 1 9.56399e-7 3.31979e-6 1 1.76846e-7 6.23708e-7 1 0 8.02596e-7 1 1.32881e-6 1.3417e-6 1</float_array>
+          <technique_common>
+            <accessor source="#Urew_Stable_Bull_Water-mesh-normals-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Stable_Bull_Water-mesh-map-0">
+          <float_array id="Urew_Stable_Bull_Water-mesh-map-0-array" count="96">0.7450498 0.8743141 0.7607115 0.9188972 0.738292 0.9188973 0.7450498 0.8743141 0.7607115 0.9188972 0.738292 0.9188973 0.7607115 0.9188972 0.7450498 0.9634805 0.738292 0.9188973 0.7763733 0.8743141 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.8743141 0.7607115 0.9188972 0.7607092 0.8661766 0.7607115 0.9188972 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7450498 0.9634805 0.738292 0.9188973 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.7607115 0.9188972 0.760831 0.9724975 0.7450498 0.9634805 0.7763733 0.8743141 0.7831311 0.9188973 0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7607115 0.9188972 0.7607115 0.9188972 0.7831311 0.9188973 0.7763733 0.9634805 0.7607115 0.9188972 0.7831311 0.9188973 0.7763733 0.9634805 0.7607115 0.9188972 0.760831 0.9724975 0.7450498 0.9634805</float_array>
+          <technique_common>
+            <accessor source="#Urew_Stable_Bull_Water-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Urew_Stable_Bull_Water-mesh-map-1">
+          <float_array id="Urew_Stable_Bull_Water-mesh-map-1-array" count="96">0.9754696 0.9714152 0.9657069 0.9812476 0.9754696 0.9812476 0.7284108 0.8057348 0.7186481 0.815567 0.7284108 0.815567 0.7068834 0.8057348 0.7166461 0.815567 0.7166461 0.8057348 0.7421775 0.8057348 0.7519402 0.815567 0.7519402 0.8057348 0.7186481 0.8412377 0.7284108 0.85107 0.7284108 0.8412377 0.7284108 0.8294034 0.7186481 0.8392357 0.7284108 0.8392357 0.7519402 0.8412377 0.7421775 0.85107 0.7519402 0.85107 0.7421775 0.8294034 0.7519402 0.8392357 0.7519402 0.8294034 0.9754696 0.9714152 0.9657069 0.9714152 0.9657069 0.9812476 0.7284108 0.8057348 0.7186481 0.8057348 0.7186481 0.815567 0.7068834 0.8057348 0.7068834 0.815567 0.7166461 0.815567 0.7421775 0.8057348 0.7421775 0.815567 0.7519402 0.815567 0.7186481 0.8412377 0.7186481 0.85107 0.7284108 0.85107 0.7284108 0.8294034 0.7186481 0.8294034 0.7186481 0.8392357 0.7519402 0.8412377 0.7421775 0.8412377 0.7421775 0.85107 0.7421775 0.8294034 0.7421775 0.8392357 0.7519402 0.8392357</float_array>
+          <technique_common>
+            <accessor source="#Urew_Stable_Bull_Water-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Urew_Stable_Bull_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Urew_Stable_Bull_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Urew_Stable_Bull_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Urew_Stable_Bull_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Urew_Stable_Bull_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Urew_Stable_Bull_Water-mesh-map-1" offset="2" set="1"/>
+          <p>3 0 0 8 1 1 4 2 2 12 3 3 17 4 4 13 5 5 17 4 6 14 6 7 13 5 8 1 7 9 8 1 10 2 8 11 10 9 12 17 4 13 11 10 14 8 1 15 7 11 16 6 12 17 17 4 18 16 13 19 15 14 20 8 1 21 5 15 22 4 2 23 3 0 24 2 8 25 8 1 26 12 3 27 11 10 28 17 4 29 17 4 30 15 14 31 14 6 32 1 7 33 0 16 34 8 1 35 10 9 36 9 17 37 17 4 38 8 1 39 0 16 40 7 11 41 17 4 42 9 17 43 16 13 44 8 1 45 6 12 46 5 15 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="urew_stable_bull_water" name="urew_stable_bull_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Urew_Stable_Bull_Water-mesh" name="urew_stable_bull_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -2,41 +2,43 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Urewe House">
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/urewe/house_carpet.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>
       <textures>
-        <texture file="structural/urewe_struct.png" name="baseTex"/>
-        <texture file="structural/urewe_struct_spec.png" name="specTex"/>
-        <texture file="structural/urewe_struct_norm.png" name="normTex"/>
-
+        <texture file="structural/urew_struct.png" name="baseTex"/>
+        <texture file="structural/urew_struct_spec.png" name="specTex"/>
+        <texture file="structural/urew_struct_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="house a">
-<mesh>structural/urewe/house_1.dae</mesh>
+    <variant frequency="1" name="House 01">
+      <mesh>structural/urewe/house_01.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/urew/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house b">
-<mesh>structural/urewe/house_2.dae</mesh>
+    <variant frequency="1" name="House 02">
+      <mesh>structural/urewe/house_02.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/urew/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house c">
-<mesh>structural/urewe/house_3.dae</mesh>
+    <variant frequency="1" name="House 03">
+      <mesh>structural/urewe/house_03.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/urew/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house d">
-<mesh>structural/urewe/house_4.dae</mesh>
+    <variant frequency="1" name="House 04">
+      <mesh>structural/urewe/house_04.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/urew/house_04_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -44,7 +46,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_urewe.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_urew.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

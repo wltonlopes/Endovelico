@@ -5,13 +5,17 @@
     <variant frequency="1" name="Forge">
       <mesh>structural/urewe/forge.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
+        <prop actor="props/structures/urewe/forge_carpet.xml" attachpoint="root"/>
+        <prop actor="props/structures/urewe/forge_water.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>
       <textures>
-        <texture file="structural/urewe_struct.png" name="baseTex"/>
-        <texture file="structural/urewe_struct_spec.png" name="specTex"/>
-        <texture file="structural/urewe_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/urew_struct.png" name="baseTex"/>
+        <texture file="structural/urew_struct_spec.png" name="specTex"/>
+        <texture file="structural/urew_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/urew/forge_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,7 +23,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_urewe.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_urew.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

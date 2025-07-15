@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity parent="scout_cavalry_javelineer">
+<Entity parent="scout_mount_javelineer">
   <Identity>
     <Civ>sarma</Civ>
     <SpecificName>Sarmatian Scout</SpecificName>

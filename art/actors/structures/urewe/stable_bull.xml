@@ -2,16 +2,20 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="stable_bull">
+    <variant frequency="1" name="Urewe Stable Bull">
       <mesh>structural/urewe/stable_bull.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="props/structures/urewe/stable_bull_carpet.xml" attachpoint="root"/>
+        <prop actor="props/structures/urewe/stable_bull_water.xml" attachpoint="root"/>
+        <prop actor="props/cattle/cattle_stable_01.xml" attachpoint="sanga_01"/>
+        <prop actor="props/cattle/cattle_stable_02.xml" attachpoint="sanga_02"/>
       </props>
       <textures>
-        <texture file="structural/urewe_struct.png" name="baseTex"/>
-        <texture file="structural/urewe_struct_spec.png" name="specTex"/>
-        <texture file="structural/urewe_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/urew_struct.png" name="baseTex"/>
+        <texture file="structural/urew_struct_spec.png" name="specTex"/>
+        <texture file="structural/urew_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/urew/stable_bull_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,8 +23,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_urew.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

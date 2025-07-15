@@ -19,7 +19,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/shonas/stable.xml</Actor>
+    <Actor>structures/shonas/stable_bull.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>
