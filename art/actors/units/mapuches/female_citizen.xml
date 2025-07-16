@@ -6,11 +6,13 @@
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/tupi_female.xml" attachpoint="head"/>
+        <prop actor="props/units/cloak/cloak_native_fem_01.xml" attachpoint="bevor"/>
+        <!-- prop_backplate, quiver_back, neck_guard, bevor-->
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
-      </textures> 
+      </textures>  
     </variant>
   </group>
   <group>
