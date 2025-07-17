@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/pamp/infantry_clubman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/pamp/infantry_clubman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/pampidos/infantry_clubman_a.xml</Actor>
+  </VisualActor>
+</Entity>

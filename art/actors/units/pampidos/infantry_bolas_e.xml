@@ -5,7 +5,7 @@
     <variant file="biped/base_bolas_ready.xml">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/moch_bolas.xml" attachpoint="weapon_R"/>
       </props>
       <textures>

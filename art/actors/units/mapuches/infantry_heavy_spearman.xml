@@ -2,20 +2,20 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_relax.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/mapu_plume.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/pamp_h.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/tacape_tupi.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/cloak/cloak_native_male_01.xml" attachpoint="shoulderpad_L"/>
+        <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
-      </textures> 
-    </variant>
+      </textures>
+    </variant>                                                                                                                                                                                                                                                                                                 
   </group>
   <group>
     <variant frequency="100" name="01">
@@ -40,7 +40,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_2hand_relax.xml"/>
+    <variant file="biped/base_spearman_relax.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
