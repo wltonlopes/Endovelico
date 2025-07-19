@@ -5,8 +5,9 @@
     <variant file="biped/base_spearman_relax.xml">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/tupi_male.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/mapu_plume.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/pamp_h.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/tacape_tupi.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
       </props>

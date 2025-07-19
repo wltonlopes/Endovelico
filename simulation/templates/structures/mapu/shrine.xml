@@ -30,6 +30,6 @@
     <Static width="16" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/mapuches/karakokagi.xml</Actor>
+    <Actor>structures/mapuches/shrine.xml</Actor>
   </VisualActor>
 </Entity>

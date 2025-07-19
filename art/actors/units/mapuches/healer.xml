@@ -7,6 +7,7 @@
       <props>
         <prop actor="props/units/heads/tupi_female.xml" attachpoint="head"/>
         <prop actor="props/units/shields/scyth_drum_a.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/cloak/cloak_native_fem_01.xml" attachpoint="bevor"/>
         <prop actor="props/units/weapons/scyth_healer_staff.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/tools/siege_lever.xml" attachpoint="weapon_R"/>
       </props>
@@ -19,22 +20,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/mapuches/h_01.png" name="baseTex"/>
+        <texture file="skeletal/mapuches/f_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/mapuches/h_02.png" name="baseTex"/>
+        <texture file="skeletal/mapuches/f_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/mapuches/h_03.png" name="baseTex"/>
+        <texture file="skeletal/mapuches/f_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/mapuches/h_04.png" name="baseTex"/>
+        <texture file="skeletal/mapuches/f_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

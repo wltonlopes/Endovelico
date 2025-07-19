@@ -1,44 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-  <castshadow/>
+   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_relax.xml">
+    <variant>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_basic.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/cocar.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/tacape_tupi.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/otomi_shield.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/moch_club.xml" attachpoint="weapon_R"/>
       </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Armor-Cotton-01">
       <textures>
+        <texture file="skeletal/moch/recuay_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-   <group>
-    <variant frequency="100" name="01">
-      <textures>
-        <texture file="skeletal/pampidos/im_03_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="02">
-      <textures>
-        <texture file="skeletal/pampidos/im_03_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="03">
-      <textures>
-        <texture file="skeletal/pampidos/im_03_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="04">
-      <textures>
-        <texture file="skeletal/pampidos/im_03_04.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
   <group>
-    <variant file="biped/base_swordsman_2hand_relax.xml"/>
+    <variant file="biped/base_spearman_shield_relax_fast.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
