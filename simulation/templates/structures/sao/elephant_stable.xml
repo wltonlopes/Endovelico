@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_elephant_stable">
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sao</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="27.5" depth="27.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/sao/stable_elephant.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

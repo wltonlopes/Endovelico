@@ -8,7 +8,7 @@
         <texture file="props/range_arrow.png" name="baseTex"/>
         <texture file="props/range_arrow_norm.png" name="normTex"/>
         <texture file="props/range_arrow_spec.png" name="specTex"/>
-        <texture file="structural/ao/urew/corral_ao.png" name="aoTex"/>
+        <texture file="structural/ao/urew/range_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

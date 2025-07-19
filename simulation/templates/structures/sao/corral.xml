@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
   <Footprint>
-    <Square width="16.0" depth="18.0"/>
+    <Square width="12.0" depth="18.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -12,9 +12,9 @@
     <SpecificName>Wori</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="14.0" depth="16.0"/>
+    <Static width="11.5" depth="17.5"/>
   </Obstruction>
-   <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
       -gaia/fauna_goat_trainable
       -gaia/fauna_sheep_trainable
@@ -24,6 +24,6 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/sao/corral.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <FoundationActor>structures/fndn_3x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -2,13 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
-      <mesh>structural/sao/wall_long.dae</mesh>
+    <variant frequency="1" name="Sao Sentry Tower" file="structures/defensive_building.xml">
+      <mesh>structural/sao/sentry_tower.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_3x3_round.xml" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="structural/sao_struct.png" name="baseTex"/>
         <texture file="structural/sao_struct_spec.png" name="specTex"/>
         <texture file="structural/sao_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/sao/sentry_tower_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -16,7 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_sao.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_sao.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

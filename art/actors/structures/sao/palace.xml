@@ -2,16 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="palace">
+    <variant frequency="1" name="Sao Palace">
       <mesh>structural/sao/palace.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/sao_struct.png" name="baseTex"/>
         <texture file="structural/sao_struct_spec.png" name="specTex"/>
         <texture file="structural/sao_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/sao/palace_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,7 +19,10 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_sao.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_sao.xml" attachpoint="garrisoned_01" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_sao.xml" attachpoint="garrisoned_02" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_sao.xml" attachpoint="garrisoned_03" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_sao.xml" attachpoint="garrisoned_04" selectable="false"/>
       </props>
     </variant>
   </group>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.0 commit date:2025-07-14, commit time:17:45, hash:8cb6b388974a</authoring_tool>
+    </contributor>
+    <created>2025-07-17T20:05:12</created>
+    <modified>2025-07-17T20:05:12</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Sao_Stable_Elephant_Water-mesh" name="Sao Stable Elephant Water">
+      <mesh>
+        <source id="Sao_Stable_Elephant_Water-mesh-positions">
+          <float_array id="Sao_Stable_Elephant_Water-mesh-positions-array" count="81">-5.478311 -1.043135 1.925785 -5.547227 -0.4483023 1.925785 -5.095846 -0.05362129 1.925785 -4.49897 0.0106554 1.925785 -4.793618 -0.7429543 1.925785 -4.108926 -0.4427695 1.925785 -4.491392 -1.432287 1.925785 -5.088269 -1.496559 1.925785 -4.04001 -1.037602 1.925785 0.8184671 -1.043135 1.925785 0.7495513 -0.4483023 1.925785 1.200934 -0.05362129 1.925785 1.797808 0.0106554 1.925785 1.50316 -0.7429543 1.925785 2.187851 -0.4427695 1.925785 1.805387 -1.432287 1.925785 1.20851 -1.496559 1.925785 2.256766 -1.037602 1.925785 8.178606 -1.043135 1.925785 8.109692 -0.4483023 1.925785 8.561074 -0.05362129 1.925785 9.157949 0.0106554 1.925785 8.863301 -0.7429543 1.925785 9.547993 -0.4427695 1.925785 9.165527 -1.432287 1.925785 8.56865 -1.496559 1.925785 9.616907 -1.037602 1.925785</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Elephant_Water-mesh-positions-array" count="27" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Elephant_Water-mesh-normals">
+          <float_array id="Sao_Stable_Elephant_Water-mesh-normals-array" count="30">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Elephant_Water-mesh-normals-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Elephant_Water-mesh-map-0">
+          <float_array id="Sao_Stable_Elephant_Water-mesh-map-0-array" count="144">0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7763733 0.9634805 0.7607115 0.9188972 0.7831311 0.9188973 0.7607115 0.9188972 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7450498 0.9634805 0.7607115 0.9188972 0.760831 0.9724975 0.7763733 0.9634805 0.7607115 0.9188972 0.7831311 0.9188973 0.7607115 0.9188972 0.7450498 0.8743141 0.7607092 0.8661766 0.7450498 0.9634805 0.7607115 0.9188972 0.760831 0.9724975 0.7450498 0.9634805 0.7607115 0.9188972 0.760831 0.9724975 0.7607115 0.9188972 0.7450498 0.8743141 0.7607092 0.8661766 0.7763733 0.9634805 0.7607115 0.9188972 0.7831311 0.9188973 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.8743141 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7607115 0.9188972 0.738292 0.9188973 0.7450498 0.8743141 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.8743141 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.8743141 0.7450498 0.9634805 0.738292 0.9188973 0.7607115 0.9188972 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7607115 0.9188972 0.738292 0.9188973 0.7450498 0.8743141 0.7450498 0.9634805 0.738292 0.9188973 0.7607115 0.9188972 0.7450498 0.9634805 0.738292 0.9188973 0.7607115 0.9188972 0.7607115 0.9188972 0.738292 0.9188973 0.7450498 0.8743141 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Elephant_Water-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Elephant_Water-mesh-map-1">
+          <float_array id="Sao_Stable_Elephant_Water-mesh-map-1-array" count="144">0.8880303 0.3203287 0.8943965 0.3267301 0.8943965 0.3203287 0.7437689 0.580833 0.7374027 0.5872343 0.7437689 0.5872343 0.7437689 0.5724296 0.7374027 0.578831 0.7437689 0.578831 0.7625073 0.580833 0.7688735 0.5872343 0.7688735 0.580833 0.7625073 0.5724296 0.7688735 0.578831 0.7688735 0.5724296 0.7457709 0.5976397 0.7521371 0.604041 0.7521371 0.5976397 0.7437689 0.5976397 0.7374027 0.604041 0.7437689 0.604041 0.7437689 0.5892363 0.7374027 0.5956377 0.7437689 0.5956377 0.7625073 0.5976397 0.7688735 0.604041 0.7688735 0.5976397 0.7541391 0.5976397 0.7605053 0.604041 0.7605053 0.5976397 0.7605053 0.5892363 0.7541391 0.5956377 0.7605053 0.5956377 0.7772417 0.5472195 0.7708755 0.5536209 0.7772417 0.5536209 0.8880303 0.3203287 0.8880303 0.3267301 0.8943965 0.3267301 0.7437689 0.580833 0.7374027 0.580833 0.7374027 0.5872343 0.7437689 0.5724296 0.7374027 0.5724296 0.7374027 0.578831 0.7625073 0.580833 0.7625073 0.5872343 0.7688735 0.5872343 0.7625073 0.5724296 0.7625073 0.578831 0.7688735 0.578831 0.7457709 0.5976397 0.7457709 0.604041 0.7521371 0.604041 0.7437689 0.5976397 0.7374027 0.5976397 0.7374027 0.604041 0.7437689 0.5892363 0.7374027 0.5892363 0.7374027 0.5956377 0.7625073 0.5976397 0.7625073 0.604041 0.7688735 0.604041 0.7541391 0.5976397 0.7541391 0.604041 0.7605053 0.604041 0.7605053 0.5892363 0.7541391 0.5892363 0.7541391 0.5956377 0.7772417 0.5472195 0.7708755 0.5472195 0.7708755 0.5536209</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Elephant_Water-mesh-map-1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Sao_Stable_Elephant_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Sao_Stable_Elephant_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="24">
+          <input semantic="VERTEX" source="#Sao_Stable_Elephant_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Sao_Stable_Elephant_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Sao_Stable_Elephant_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Sao_Stable_Elephant_Water-mesh-map-1" offset="2" set="1"/>
+          <p>4 0 0 1 1 1 0 1 2 7 1 3 4 0 4 0 1 5 13 2 6 12 3 7 11 4 8 13 2 9 10 1 10 9 1 11 22 5 12 19 1 13 18 1 14 17 1 15 13 2 16 15 1 17 25 1 18 22 5 19 18 1 20 22 5 21 21 6 22 20 7 23 26 1 24 22 5 25 24 1 26 8 1 27 4 0 28 6 1 29 4 0 30 3 8 31 2 9 32 16 1 33 13 2 34 9 1 35 4 0 36 2 9 37 1 1 38 7 1 39 6 1 40 4 0 41 13 2 42 14 1 43 12 3 44 13 2 45 11 4 46 10 1 47 22 5 48 20 7 49 19 1 50 17 1 51 14 1 52 13 2 53 25 1 54 24 1 55 22 5 56 22 5 57 23 1 58 21 6 59 26 1 60 23 1 61 22 5 62 8 1 63 5 1 64 4 0 65 4 0 66 5 1 67 3 8 68 16 1 69 15 1 70 13 2 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="sao_stable_elephant_water" name="sao_stable_elephant_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Sao_Stable_Elephant_Water-mesh" name="sao_stable_elephant_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

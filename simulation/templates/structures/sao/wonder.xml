@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint>
-    <Square depth="50.0" width="45.0"/>
+    <Square depth="44.0" width="48.0"/>
     <Height>14.0</Height>
   </Footprint>
   <Identity>
@@ -9,7 +9,7 @@
     <SpecificName>Ituki nö Miya</SpecificName>
   </Identity>
   <Obstruction>
-    <Static depth="48.0" width="43.0"/>
+    <Static depth="43.5" width="47.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/sao/wonder.xml</Actor>

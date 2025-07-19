@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-15T09:56:17</created>
+    <modified>2025-07-15T09:56:17</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Sao_Stable_Water-mesh" name="Sao Stable Water">
+      <mesh>
+        <source id="Sao_Stable_Water-mesh-positions">
+          <float_array id="Sao_Stable_Water-mesh-positions-array" count="54">-8.494505 -3.846016 1.925786 -8.884543 -3.392601 1.925784 -8.953457 -2.797764 1.925786 -8.199847 -3.092411 1.925785 -7.897625 -3.781745 1.925786 -7.446253 -3.387069 1.925786 -8.502081 -2.403076 1.925784 -7.905211 -2.338811 1.925787 -7.515167 -2.792226 1.925785 2.601834 -3.846022 1.925784 2.21179 -3.392595 1.925784 2.142875 -2.797764 1.925785 2.896486 -3.092411 1.925786 3.198708 -3.781751 1.925784 3.650091 -3.387057 1.925786 2.594265 -2.403076 1.925786 3.191133 -2.338805 1.925785 3.581176 -2.792232 1.925786</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Water-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Water-mesh-normals">
+          <float_array id="Sao_Stable_Water-mesh-normals-array" count="54">-8.34072e-7 -1.78092e-6 1 -8.35043e-7 -1.04231e-6 1 -5.19861e-7 -3.17777e-6 1 -5.8564e-7 2.14155e-7 1 -1.64814e-6 -2.00304e-6 1 -1.08724e-6 8.27222e-7 1 2.42768e-7 1.23365e-6 1 0 0 1 -1.94338e-6 -1.30057e-6 1 -2.50797e-6 -1.85046e-6 1 -5.55501e-7 1.41962e-6 1 -2.77025e-7 1.30562e-6 1 -7.9898e-7 -2.32976e-6 1 1.25112e-6 -4.75079e-7 1 -1.39449e-6 -5.09429e-7 1 -1.38921e-6 1.9293e-6 1 -2.78894e-7 8.59302e-7 1 4.18778e-7 -7.65138e-7 1</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Water-mesh-normals-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Water-mesh-map-0">
+          <float_array id="Sao_Stable_Water-mesh-map-0-array" count="96">0.7450498 0.9634805 0.7607115 0.9188972 0.760831 0.9724975 0.7607115 0.9188972 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7450498 0.9634805 0.7607115 0.9188972 0.760831 0.9724975 0.7607115 0.9188972 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7607115 0.9188972 0.7763733 0.9634805 0.760831 0.9724975 0.7450498 0.9634805 0.738292 0.9188973 0.7607115 0.9188972 0.7607115 0.9188972 0.738292 0.9188973 0.7450498 0.8743141 0.7607115 0.9188972 0.738292 0.9188973 0.7450498 0.8743141 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.8743141 0.7450498 0.9634805 0.738292 0.9188973 0.7607115 0.9188972 0.7607115 0.9188972 0.7831311 0.9188973 0.7763733 0.9634805 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.8743141 0.7607115 0.9188972 0.7831311 0.9188973 0.7763733 0.9634805</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Water-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Water-mesh-map-1">
+          <float_array id="Sao_Stable_Water-mesh-map-1-array" count="96">0.7707381 0.06586587 0.7618706 0.07467466 0.7707381 0.07467466 0.6966532 0.05505502 0.7055208 0.06386387 0.7055208 0.05505502 0.6966532 0.04424422 0.7055208 0.05305302 0.7055208 0.04424422 0.7381294 0.04424422 0.7292619 0.05305302 0.7381294 0.05305302 0.7055208 0.07667666 0.6966532 0.08548545 0.7055208 0.08548545 0.7075228 0.06586587 0.7163903 0.07467466 0.7163903 0.06586587 0.748999 0.01181179 0.7401314 0.02062058 0.748999 0.02062058 0.7727401 0.001001 0.7816077 0.009809792 0.7816077 0.001001 0.7707381 0.06586587 0.7618706 0.06586587 0.7618706 0.07467466 0.6966532 0.05505502 0.6966532 0.06386387 0.7055208 0.06386387 0.6966532 0.04424422 0.6966532 0.05305302 0.7055208 0.05305302 0.7381294 0.04424422 0.7292619 0.04424422 0.7292619 0.05305302 0.7055208 0.07667666 0.6966532 0.07667666 0.6966532 0.08548545 0.7075228 0.06586587 0.7075228 0.07467466 0.7163903 0.07467466 0.748999 0.01181179 0.7401314 0.01181179 0.7401314 0.02062058 0.7727401 0.001001 0.7727401 0.009809792 0.7816077 0.009809792</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Water-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Sao_Stable_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Sao_Stable_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Sao_Stable_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Sao_Stable_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Sao_Stable_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Sao_Stable_Water-mesh-map-1" offset="2" set="1"/>
+          <p>14 0 0 12 1 1 13 2 2 3 3 3 7 4 4 6 5 5 12 1 6 16 6 7 15 7 8 12 1 9 11 8 10 10 9 11 5 10 12 3 3 13 4 11 14 12 1 15 9 12 16 13 2 17 3 3 18 2 13 19 1 14 20 3 3 21 0 15 22 4 11 23 14 0 24 17 16 25 12 1 26 3 3 27 8 17 28 7 4 29 12 1 30 17 16 31 16 6 32 12 1 33 15 7 34 11 8 35 5 10 36 8 17 37 3 3 38 12 1 39 10 9 40 9 12 41 3 3 42 6 5 43 2 13 44 3 3 45 1 14 46 0 15 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="sao_stable_water" name="sao_stable_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Sao_Stable_Water-mesh" name="sao_stable_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

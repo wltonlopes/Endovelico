@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.0 commit date:2025-07-14, commit time:17:45, hash:8cb6b388974a</authoring_tool>
+    </contributor>
+    <created>2025-07-17T19:17:00</created>
+    <modified>2025-07-17T19:17:00</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Sao_Stable_Camel_Water-mesh" name="Sao Stable Camel Water">
+      <mesh>
+        <source id="Sao_Stable_Camel_Water-mesh-positions">
+          <float_array id="Sao_Stable_Camel_Water-mesh-positions-array" count="81">-4.776963 -0.02721971 1.925785 -4.298099 0.3336253 1.925785 -3.698132 0.3543686 1.925785 -4.046753 -0.3758433 1.925785 -3.342062 -0.1261945 1.925785 -4.751445 -0.625487 1.925785 -3.795406 -1.085312 1.925785 -4.395375 -1.10605 1.925785 -3.316544 -0.724462 1.925785 2.977816 -0.02722424 1.925785 3.456679 0.3336207 1.925785 4.056646 0.3543642 1.925785 3.708026 -0.3758479 1.925785 4.412717 -0.1261993 1.925785 3.003333 -0.6254916 1.925785 3.959373 -1.085316 1.925785 3.359404 -1.106055 1.925785 4.438234 -0.7244667 1.925785 -1.005351 -0.6254817 1.925785 -1.030869 -0.02721434 1.925785 -0.5520053 0.3336305 1.925785 0.047962 0.3543739 1.925785 0.4040328 -0.1261893 1.925785 0.4295504 -0.7244567 1.925785 -0.04931104 -1.085307 1.925785 -0.6492803 -1.106045 1.925785 -0.3006581 -0.3758381 1.925785</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Camel_Water-mesh-positions-array" count="27" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Camel_Water-mesh-normals">
+          <float_array id="Sao_Stable_Camel_Water-mesh-normals-array" count="63">0 0 1 2.77837e-7 0 1 -2.77019e-7 0 1 0 0 1 1.39013e-7 0 1 1.39447e-7 0 1 0 0 1 2.78895e-7 0 1 1.38918e-7 0 1 0 0 1 0 0 1 -4.1676e-7 0 1 0 0 1 0 0 1 -2.78027e-7 0 1 0 0 1 0 0 1 -4.18135e-7 0 1 2.51621e-7 0 1 2.76601e-7 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Camel_Water-mesh-normals-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Camel_Water-mesh-map-0">
+          <float_array id="Sao_Stable_Camel_Water-mesh-map-0-array" count="144">0.7607115 0.9188972 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.7450498 0.9634805 0.738292 0.9188973 0.7607115 0.9188972 0.7450498 0.9634805 0.738292 0.9188973 0.7450498 0.8743141 0.7607115 0.9188972 0.738292 0.9188973 0.7763733 0.8743141 0.7607115 0.9188972 0.7607092 0.8661766 0.7607115 0.9188972 0.7450498 0.9634805 0.738292 0.9188973 0.7763733 0.8743141 0.7607115 0.9188972 0.7607092 0.8661766 0.7607115 0.9188972 0.7763733 0.9634805 0.760831 0.9724975 0.7763733 0.8743141 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.9634805 0.7607115 0.9188972 0.7831311 0.9188973 0.7763733 0.9634805 0.7607115 0.9188972 0.7831311 0.9188973 0.7607115 0.9188972 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.738292 0.9188973 0.7450498 0.8743141 0.7607115 0.9188972 0.760831 0.9724975 0.7450498 0.9634805 0.7607115 0.9188972 0.760831 0.9724975 0.7450498 0.9634805 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7607115 0.9188972 0.7607115 0.9188972 0.760831 0.9724975 0.7450498 0.9634805 0.7763733 0.8743141 0.7831311 0.9188973 0.7607115 0.9188972 0.7607115 0.9188972 0.7831311 0.9188973 0.7763733 0.9634805 0.7763733 0.8743141 0.7831311 0.9188973 0.7607115 0.9188972 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7607115 0.9188972 0.738292 0.9188973 0.7450498 0.8743141</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Camel_Water-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Stable_Camel_Water-mesh-map-1">
+          <float_array id="Sao_Stable_Camel_Water-mesh-map-1-array" count="144">0.7468251 0.3488271 0.7401314 0.3555207 0.7468251 0.3555207 0.3642164 0.7140445 0.3575227 0.7207381 0.3642164 0.7207381 0.3816077 0.7227401 0.3749141 0.7294338 0.3816077 0.7294338 0.3729121 0.7227401 0.3662184 0.7294338 0.3729121 0.7294338 0.3207381 0.7401314 0.3140445 0.7468251 0.3207381 0.7468251 0.3207381 0.7314358 0.3140445 0.7381294 0.3207381 0.7381294 0.3033468 0.7053489 0.2966532 0.7120425 0.3033468 0.7120425 0.3120425 0.6966532 0.3053488 0.7033469 0.3120425 0.7033469 0.2946512 0.7227401 0.2879575 0.7294338 0.2946512 0.7294338 0.3120425 0.7227401 0.3053488 0.7294338 0.3120425 0.7294338 0.3033468 0.7227401 0.2966532 0.7294338 0.3033468 0.7294338 0.3120425 0.7140445 0.3053488 0.7207381 0.3120425 0.7207381 0.7468251 0.3488271 0.7401314 0.3488271 0.7401314 0.3555207 0.3642164 0.7140445 0.3575227 0.7140445 0.3575227 0.7207381 0.3816077 0.7227401 0.3749141 0.7227401 0.3749141 0.7294338 0.3729121 0.7227401 0.3662184 0.7227401 0.3662184 0.7294338 0.3207381 0.7401314 0.3140445 0.7401314 0.3140445 0.7468251 0.3207381 0.7314358 0.3140445 0.7314358 0.3140445 0.7381294 0.3033468 0.7053489 0.2966532 0.7053489 0.2966532 0.7120425 0.3120425 0.6966532 0.3053488 0.6966532 0.3053488 0.7033469 0.2946512 0.7227401 0.2879575 0.7227401 0.2879575 0.7294338 0.3120425 0.7227401 0.3053488 0.7227401 0.3053488 0.7294338 0.3033468 0.7227401 0.2966532 0.7227401 0.2966532 0.7294338 0.3120425 0.7140445 0.3053488 0.7140445 0.3053488 0.7207381</float_array>
+          <technique_common>
+            <accessor source="#Sao_Stable_Camel_Water-mesh-map-1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Sao_Stable_Camel_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Sao_Stable_Camel_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="24">
+          <input semantic="VERTEX" source="#Sao_Stable_Camel_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Sao_Stable_Camel_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Sao_Stable_Camel_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Sao_Stable_Camel_Water-mesh-map-1" offset="2" set="1"/>
+          <p>3 0 0 2 1 1 1 2 2 26 3 3 23 4 4 22 5 5 3 0 6 8 6 7 4 7 8 21 8 9 26 3 10 22 5 11 19 9 12 26 3 13 20 6 14 12 10 15 17 6 16 13 6 17 0 11 18 3 0 19 1 2 20 26 3 21 25 12 22 24 13 23 9 14 24 12 10 25 10 15 26 16 6 27 12 10 28 14 6 29 7 16 30 3 0 31 5 17 32 12 10 33 11 18 34 10 15 35 3 0 36 4 7 37 2 1 38 26 3 39 24 13 40 23 4 41 3 0 42 6 19 43 8 6 44 21 8 45 20 6 46 26 3 47 19 9 48 18 20 49 26 3 50 12 10 51 15 6 52 17 6 53 0 11 54 5 17 55 3 0 56 26 3 57 18 20 58 25 12 59 9 14 60 14 6 61 12 10 62 16 6 63 15 6 64 12 10 65 7 16 66 6 19 67 3 0 68 12 10 69 13 6 70 11 18 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="sao_stable_camel_water" name="sao_stable_camel_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Sao_Stable_Camel_Water-mesh" name="sao_stable_camel_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

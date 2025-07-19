@@ -11,9 +11,6 @@
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
-  <VisualActor>
-    <Actor>structures/sao/fortress.xml</Actor>
-  </VisualActor>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/hero_himiko
@@ -21,6 +18,10 @@
       units/{civ}/hero_wousu
     </Entities>
   </Trainer>
+  <VisualActor>
+    <Actor>structures/sao/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
   <WallPiece>
     <Length>23</Length>
     <Indent>7.8</Indent>

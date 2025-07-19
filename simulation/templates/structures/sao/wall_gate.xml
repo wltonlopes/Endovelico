@@ -21,33 +21,33 @@
   <TurretHolder>
     <TurretPoints>
       <One>
-        <X>10</X>
-        <Y>11.6</Y>
-        <Z>3</Z>
+        <X>1.5</X>
+        <Y>10</Y>
+        <Z>0</Z>
       </One>
       <Two>
-        <X>-10</X>
-        <Y>11.6</Y>
-        <Z>3</Z>
+        <X>-1.5</X>
+        <Y>10</Y>
+        <Z>0</Z>
       </Two>
       <Three>
-        <X>10</X>
-        <Y>11.6</Y>
-        <Z>-3</Z>
+        <X>4.5</X>
+        <Y>10</Y>
+        <Z>0</Z>
       </Three>
       <Four>
-        <X>-10</X>
-        <Y>11.6</Y>
-        <Z>-3</Z>
+        <X>-4.5</X>
+        <Y>10</Y>
+        <Z>0</Z>
       </Four>
       <Five>
-        <X>10</X>
-        <Y>11.6</Y>
+        <X>7.5</X>
+        <Y>10</Y>
         <Z>0</Z>
       </Five>
       <Six>
-        <X>-10</X>
-        <Y>11.6</Y>
+        <X>-7.5</X>
+        <Y>10</Y>
         <Z>0</Z>
       </Six>
     </TurretPoints>

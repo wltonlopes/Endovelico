@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.4.3 commit date:2025-04-29, commit time:14:09, hash:802179c51ccc</authoring_tool>
+    </contributor>
+    <created>2025-07-15T15:12:27</created>
+    <modified>2025-07-15T15:12:27</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Sao_Forge_Water-mesh" name="Sao Forge Water">
+      <mesh>
+        <source id="Sao_Forge_Water-mesh-positions">
+          <float_array id="Sao_Forge_Water-mesh-positions-array" count="54">-0.6262871 -7.153046 1.925784 -1.01633 -6.699623 1.925784 -1.085245 -6.10479 1.925784 -0.3316365 -6.399442 1.925784 0.353055 -6.099256 1.925784 -0.6338632 -5.710108 1.925784 -0.02941006 -7.088774 1.925784 -0.03698819 -5.645832 1.925784 0.4219699 -6.694087 1.925784 8.996736 8.057359 1.925784 8.606695 8.510784 1.925784 8.537777 9.105616 1.925784 9.291388 8.810965 1.925784 9.976078 9.111149 1.925784 8.98916 9.500297 1.925784 9.593613 8.121632 1.925784 9.586035 9.564575 1.925784 10.04499 8.516317 1.925784</float_array>
+          <technique_common>
+            <accessor source="#Sao_Forge_Water-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Forge_Water-mesh-normals">
+          <float_array id="Sao_Forge_Water-mesh-normals-array" count="36">0 0 1 1.39014e-7 0 1 1.39447e-7 0 1 0 0 1 0 0 1 -2.78481e-7 0 1 -1.38453e-7 0 1 -1.3873e-7 0 1 1.39014e-7 0 1 1.3851e-7 0 1 1.38509e-7 0 1 -1.38091e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Sao_Forge_Water-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Forge_Water-mesh-map-0">
+          <float_array id="Sao_Forge_Water-mesh-map-0-array" count="96">0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7763733 0.9634805 0.7607115 0.9188972 0.7831311 0.9188973 0.7607115 0.9188972 0.7450498 0.9634805 0.738292 0.9188973 0.7450498 0.8743141 0.7607115 0.9188972 0.738292 0.9188973 0.7607115 0.9188972 0.7763733 0.8743141 0.7831311 0.9188973 0.7763733 0.9634805 0.7607115 0.9188972 0.7831311 0.9188973 0.7607115 0.9188972 0.7450498 0.9634805 0.738292 0.9188973 0.7450498 0.8743141 0.7607115 0.9188972 0.738292 0.9188973 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.8743141 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7607115 0.9188972 0.760831 0.9724975 0.7450498 0.9634805 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972 0.7607115 0.9188972 0.7607092 0.8661766 0.7763733 0.8743141 0.7763733 0.9634805 0.760831 0.9724975 0.7607115 0.9188972 0.7607115 0.9188972 0.760831 0.9724975 0.7450498 0.9634805 0.7450498 0.8743141 0.7607092 0.8661766 0.7607115 0.9188972</float_array>
+          <technique_common>
+            <accessor source="#Sao_Forge_Water-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sao_Forge_Water-mesh-map-1">
+          <float_array id="Sao_Forge_Water-mesh-map-1-array" count="96">0.498999 0.7021504 0.4896374 0.7116427 0.498999 0.7116427 0.4762717 0.7251389 0.4669101 0.7346312 0.4762717 0.7346312 0.4876354 0.7251389 0.4782737 0.7346312 0.4876354 0.7346312 0.498999 0.7136447 0.4896374 0.7231369 0.498999 0.7231369 0.4876354 0.7136447 0.4782737 0.7231369 0.4876354 0.7231369 0.4649081 0.6676677 0.4555464 0.6771599 0.4649081 0.6771599 0.4308172 0.7021504 0.4214555 0.7116427 0.4308172 0.7116427 0.4194535 0.7021504 0.4100919 0.7116427 0.4194535 0.7116427 0.498999 0.7021504 0.4896374 0.7021504 0.4896374 0.7116427 0.4762717 0.7251389 0.4669101 0.7251389 0.4669101 0.7346312 0.4876354 0.7251389 0.4782737 0.7251389 0.4782737 0.7346312 0.498999 0.7136447 0.4896374 0.7136447 0.4896374 0.7231369 0.4876354 0.7136447 0.4782737 0.7136447 0.4782737 0.7231369 0.4649081 0.6676677 0.4555464 0.6676677 0.4555464 0.6771599 0.4308172 0.7021504 0.4214555 0.7021504 0.4214555 0.7116427 0.4194535 0.7021504 0.4100919 0.7021504 0.4100919 0.7116427</float_array>
+          <technique_common>
+            <accessor source="#Sao_Forge_Water-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Sao_Forge_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Sao_Forge_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Sao_Forge_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Sao_Forge_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Sao_Forge_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Sao_Forge_Water-mesh-map-1" offset="2" set="1"/>
+          <p>12 0 0 11 1 1 10 2 2 0 3 3 3 4 4 1 5 5 3 4 6 8 3 7 4 3 8 7 3 9 3 4 10 4 3 11 3 4 12 2 6 13 1 5 14 9 7 15 12 0 16 10 2 17 12 0 18 17 8 19 13 3 20 16 3 21 12 0 22 13 3 23 12 0 24 14 9 25 11 1 26 0 3 27 6 3 28 3 4 29 3 4 30 6 3 31 8 3 32 7 3 33 5 10 34 3 4 35 3 4 36 5 10 37 2 6 38 9 7 39 15 11 40 12 0 41 12 0 42 15 11 43 17 8 44 16 3 45 14 9 46 12 0 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="sao_forge_water" name="sao_forge_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Sao_Forge_Water-mesh" name="sao_forge_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
