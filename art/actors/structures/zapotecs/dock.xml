@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
+  <float/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
-
-<mesh>structural/zapotecs/dock.dae</mesh>
+    <variant frequency="1" name="dock">
+      <mesh>structural/zapotecs/dock.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
@@ -12,7 +12,7 @@
         <texture file="structural/zapo_struct.png" name="baseTex"/>
         <texture file="structural/zapo_struct_spec.png" name="specTex"/>
         <texture file="structural/zapo_struct_norm.png" name="normTex"/>
-         <texture file="structural/ao/zapo/dock_AO.png" name="aoTex"/>
+        <texture file="structural/ao/zapo/dock_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -20,7 +20,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_zapo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_kart.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>
@@ -28,7 +28,7 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop attachpoint="root"/>
+        <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>

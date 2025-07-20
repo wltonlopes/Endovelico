@@ -2,10 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="wall_long">
-<mesh>structural/zapotecs/wall_long.dae</mesh>
-      <props>
-      </props>
+    <variant frequency="1" name="base">
       <textures>
         <texture file="structural/zapo_struct.png" name="baseTex"/>
         <texture file="structural/zapo_struct_spec.png" name="specTex"/>
@@ -14,12 +11,11 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant name="upgrading">
-      <props>
-        <prop actor="props/structures/construction/scaf_9x3_wall.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
-      </props>
+    <variant frequency="1" name="wall_long">
+      <mesh>structural/zapotecs/wall_long.dae</mesh>
+      <textures>
+        <texture file="structural/ao/zapo/wall_long_AO.png" name="aoTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -30,7 +26,7 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop attachpoint="root"/>
+        <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
@@ -38,5 +34,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

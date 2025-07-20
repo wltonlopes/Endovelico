@@ -3,8 +3,8 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-       <props>
-        <prop actor="props/structures/decals/dirt_3x6.xml" attachpoint="root"/>
+      <props>
+        <prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
         <prop actor="props/special/palisade_rocks_gate.xml" attachpoint="root"/>
       </props>
       <textures>
@@ -16,14 +16,17 @@
   </group>
   <group>
     <variant frequency="1" name="wall_long">
-<mesh>structural/zapotecs/wall_gate.dae</mesh>
+      <mesh>structural/zapotecs/wall_gate.dae</mesh>
+      <textures>
+        <texture file="structural/ao/zapo/wall_gate_AO.png" name="aoTex"/>
+      </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-            <prop actor="props/special/common/garrison_flag_zapo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_kart.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>
@@ -31,13 +34,13 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop attachpoint="root"/>
+        <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
-        <prop actor="props/special/palisade_rocks_gate.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

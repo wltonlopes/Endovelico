@@ -4,26 +4,28 @@
   <group>
     <variant frequency="1" name="base">
       <props>
-        <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/rome_corral_mud.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/zapo_struct.png" name="baseTex"/>
         <texture file="structural/zapo_struct_spec.png" name="specTex"/>
         <texture file="structural/zapo_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="farmstead">
-<mesh>structural/zapotecs/farmstead.dae</mesh>
+      <mesh>structural/zapotecs/farmstead.dae</mesh>
+      <textures>
+        <texture file="structural/ao/zapo/farmstead_AO.png" name="aoTex"/>
+      </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_zapo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_kart.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>
@@ -31,7 +33,7 @@
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
-        <prop attachpoint="root"/>
+        <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>

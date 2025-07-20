@@ -2,10 +2,9 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="gate">
-<mesh>structural/zapotecs/gate.dae</mesh>
+    <variant frequency="1" name="base">
       <props>
-        <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
+
       </props>
       <textures>
         <texture file="structural/zapo_struct.png" name="baseTex"/>
@@ -15,12 +14,13 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_zapo.xml" attachpoint="garrisoned"/>
-      </props>
+    <variant frequency="1" name="wall_med">
+<mesh>structural/zapotecs/wall_med.dae</mesh>
     </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned"/>
   </group>
   <group>
     <variant frequency="1" name="alive"/>
