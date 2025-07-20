@@ -6,6 +6,7 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/cloak/cloak_native_fem_01.xml" attachpoint="bevor"/>
         <prop actor="props/units/helmets/mapu_plume.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/pamp_h.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/meso_mace.xml" attachpoint="weapon_R"/>
