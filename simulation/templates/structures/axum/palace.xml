@@ -44,9 +44,9 @@
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/hero_huun_balam
-      units/{civ}/hero_ix_muluc
-      units/{civ}/hero_yax_ehb'xok
+      units/{civ}/hero_nicotnis_kandake_v
+      units/{civ}/hero_luzay
+      units/{civ}/hero_nalke
     </Entities>
   </Trainer>
   <Vision>

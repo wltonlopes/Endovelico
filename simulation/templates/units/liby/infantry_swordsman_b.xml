@@ -14,6 +14,6 @@
     <Entity>units/liby/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/garamantians/infantry_swordsman_b.xml</Actor>
+    <Actor>units/libyan/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

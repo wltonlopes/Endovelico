@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+  <Auras datatype="tokens">
+    units/heroes/zapo_hero_jaguar_1
+  </Auras>
+  <Identity>
+    <Civ>tupi</Civ>
+    <GenericName></GenericName>
+    <SpecificName></SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
+    <Icon>units/zapo/hero_rain_lord.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/tupis/infantry_hero_maceman.xml</Actor>
+  </VisualActor>
+</Entity>

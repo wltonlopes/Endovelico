@@ -41,6 +41,13 @@
     <Radius>48</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
+    </Entities>
+  </Trainer>
   <Vision>
     <Range>40</Range>
   </Vision>

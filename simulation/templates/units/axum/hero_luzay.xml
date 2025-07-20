@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/kush_hero_nastasen_1
+    units/heroes/kush_hero_nastasen_2
+  </Auras>
+  <Identity>
+    <Civ>axum</Civ>
+    <Lang>napatan</Lang>
+    <GenericName>Nastasen</GenericName>
+    <Icon>units/kush/hero_nastasen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/hero_cavalry_spearman_nastasen_m.xml</Actor>
+  </VisualActor>
+</Entity>

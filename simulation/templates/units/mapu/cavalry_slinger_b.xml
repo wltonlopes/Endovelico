@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_cavalry_ranged_javelineer">
+    <Identity>
+        <Civ>mapu</Civ>
+        <SelectionGroupName>units/mayap/heavy_infantry</SelectionGroupName>
+        <GenericName>Warrior</GenericName>
+        <SpecificName>tzhae kaem</SpecificName>
+        <Icon>units/moch/infantry_scout.png</Icon>
+    </Identity>
+    <Promotion>
+        <Entity>units/mapu/cavalry_slinger_a</Entity>
+    </Promotion>
+    <VisualActor>
+        <Actor>units/mapuches/infantry_heavy_bolas.xml</Actor>
+    </VisualActor>
+</Entity>

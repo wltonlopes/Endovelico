@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="chariot|template_unit_hero_cavalry_archer">
+  <Auras datatype="tokens">
+    units/heroes/kush_hero_amanirenas
+  </Auras>
+  <Footprint replace="">
+    <Square width="6.0" depth="14.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>axum</Civ>
+    <Lang>napatan</Lang>
+    <Phenotype>female</Phenotype>
+    <GenericName>Amanirenas</GenericName>
+    <SpecificName>Amnirense qore li kdwe li</SpecificName>
+    <Icon>units/kush/hero_amanirenas.png</Icon>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Shape>
+        <Circle radius="5.0"/>
+      </Shape>
+    </Overlay>
+  </Selectable>
+  <VisualActor>
+    <Actor>units/kushites/hero_chariot_archer_amanirenas_m.xml</Actor>
+  </VisualActor>
+</Entity>
