@@ -5,7 +5,6 @@
     <variant frequency="1" name="base">
       <mesh>structural/guara/wall_long.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/guara_struct.png" name="baseTex"/>
