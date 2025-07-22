@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_maceman">
-  <Auras datatype="tokens">
-    units/heroes/zapo_hero_jaguar_1
-  </Auras>
   <Identity>
     <Civ>tupi</Civ>
     <GenericName></GenericName>
@@ -12,6 +9,6 @@
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/tupis/infantry_hero_maceman.xml</Actor>
+    <Actor>units/tupis/infantry_hero_clubman.xml</Actor>
   </VisualActor>
 </Entity>

@@ -7,7 +7,7 @@
     <Civ>swcr</Civ>
     <GenericName>Creek</GenericName>
     <History>The Creek, or Muscogee, civilization was a confederation of Native American tribes, primarily Muskogean-speaking groups, in the southeastern United States. They formed a loose coalition of towns that existed in Georgia, Alabama, and northern Florida. The Creek civilization, historically known as the Creek Confederacy, was a dynamic entity that evolved over time, incorporating various groups and undergoing transformations, including the adoption of Euro-American practices like slavery.</History>
-    <Icon>emblems/emblem_araw.png</Icon>
+    <Icon>emblems/swift_creek.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">
