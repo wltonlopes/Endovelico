@@ -53,6 +53,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/guaranis/wall_gate.xml</Actor>
+    <Actor>props/special/palisade_rocks_gate.xml</Actor>
   </VisualActor>
 </Entity>
