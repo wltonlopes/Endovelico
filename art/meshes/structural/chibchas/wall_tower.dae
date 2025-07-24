@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-05-04T19:37:56</created>
-    <modified>2025-05-04T19:37:56</modified>
+    <created>2025-07-23T19:21:43</created>
+    <modified>2025-07-23T19:21:43</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -39,11 +39,7 @@
       </profile_COMMON>
     </effect>
   </library_effects>
-  <library_images>
-    <image id="_221974319_texturasChibcFINAIS_png_04c018eeed88d10b2dc2375b3efa" name="_221974319_texturasChibcFINAIS_png_04c018eeed88d10b2dc2375b3efa">
-      <init_from>1221974319_texturasChibcFINAIS.png.04c018eeed88d10b2dc2375b3efa.png</init_from>
-    </image>
-  </library_images>
+  <library_images/>
   <library_materials>
     <material id="textura_CHIBCHA-material" name="textura CHIBCHA">
       <instance_effect url="#textura_CHIBCHA-effect"/>
@@ -106,7 +102,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="wall_tower" name="wall_tower" type="NODE">
-        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">1.350511 0 0 0 0 1.350511 0 0 0 0 1.350511 0 0 0 0 1</matrix>
         <instance_geometry url="#Cubo_211-mesh" name="wall_tower">
           <bind_material>
             <technique_common>
@@ -117,13 +113,6 @@
             </technique_common>
           </bind_material>
         </instance_geometry>
-
-<node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033843 0 0 0.7829416 9.013988 0 0 0 1</matrix>
-        </node>
-        <node id="prop_projectile" name="prop_projectile" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033842 0 0 0.7829416 9.013988 0 0 0 1</matrix>
-        </node>
       </node>
     </visual_scene>
   </library_visual_scenes>
