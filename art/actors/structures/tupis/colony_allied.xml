@@ -2,18 +2,22 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="gate">
-      <mesh>structural/tupis/palace.dae</mesh>
+    <variant frequency="1" name="colony_allied">
+      <mesh>structural/tupis/colony_allied.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_01"/>
-        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_02"/>
+        <prop actor="particle/flame.xml" attachpoint="fire_01" />
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_01"/>
+        <prop actor="particle/flame.xml" attachpoint="fire_02" />
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_02"/>
+        <prop actor="particle/flame.xml" attachpoint="fire_03" />
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_03"/>
       </props>
       <textures>
         <texture file="structural/tupi_struct.png" name="baseTex"/>
         <texture file="structural/tupi_struct_spec.png" name="specTex"/>
         <texture file="structural/tupi_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/tupi/palace.png" name="aoTex"/>
+        <texture file="structural/ao/tupi/colony.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
