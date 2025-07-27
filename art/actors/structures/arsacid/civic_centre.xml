@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Hasmoneans Civic Centre" file="structures/defensive_building.xml">
+    <variant frequency="1" name="Civic Centre" file="structures/defensive_building.xml">
       <mesh>structural/arsacid/civic_centre.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>

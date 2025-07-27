@@ -2,11 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Hasmoneans Fortress" file="structures/defensive_building.xml">
+    <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">
       <mesh>structural/arsacid/fortress.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="props/structures/hasmoneans/fortress_struct.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/arsa/struct_3.png" name="baseTex"/>

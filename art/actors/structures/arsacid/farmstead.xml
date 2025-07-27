@@ -6,7 +6,6 @@
       <mesh>structural/arsacid/farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
-        <prop actor="props/structures/hasmoneans/farmstead_struct.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/arsa/struct_1.png" name="baseTex"/>

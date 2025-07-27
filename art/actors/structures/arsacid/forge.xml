@@ -6,12 +6,11 @@
       <mesh>structural/arsacid/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/hasmoneans/forge_struct.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/arsa/struct_1.png" name="baseTex"/>
-        <texture file="structural/arsa/struct_1_spec.png" name="specTex"/>
-        <texture file="structural/arsa/struct_1_norm.png" name="normTex"/>
+        <texture file="structural/arsa/struct_2.png" name="baseTex"/>
+        <texture file="structural/arsa/struct_2_spec.png" name="specTex"/>
+        <texture file="structural/arsa/struct_2_norm.png" name="normTex"/>
         <texture file="structural/ao/arsa/forge_ao.png" name="aoTex"/>
       </textures>
     </variant>
