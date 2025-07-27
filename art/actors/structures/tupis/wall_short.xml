@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/tupis/wall_long.dae</mesh>
+      <mesh>structural/tupis/wall_short.dae</mesh>
       <textures>
         <texture file="structural/tupi_struct.png" name="baseTex"/>
         <texture file="structural/tupi_struct_spec.png" name="specTex"/>

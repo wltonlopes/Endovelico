@@ -7,6 +7,6 @@
     <Entity>units/axum/camelry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/axum/camelry_spearman_a_m.xml</Actor>
+    <Actor>units/axum/camelry_spearman_b_m.xml</Actor>
   </VisualActor>
 </Entity>

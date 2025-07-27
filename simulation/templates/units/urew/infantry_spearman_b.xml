@@ -2,11 +2,10 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-
     </Entities>
   </Builder>
   <Identity>
-    <Civ>urewe</Civ>
+    <Civ>urew</Civ>
     <Lang>napatan</Lang>
     <SelectionGroupName>units/urew/infantry_spearman_b</SelectionGroupName>
     <GenericName>Nubian Spearman</GenericName>

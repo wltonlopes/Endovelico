@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/yayo/cavalry_archer_e</Entity>
+    <Entity>units/miny/cavalry_archer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/yayoi/cavalry_archer_a_m.xml</Actor>

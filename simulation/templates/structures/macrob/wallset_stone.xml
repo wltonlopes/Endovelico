@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/nok/wall_tower</Tower>
-      <Gate>structures/nok/wall_gate</Gate>
-      <WallLong>structures/nok/wall_long</WallLong>
-      <WallMedium>structures/nok/wall_medium</WallMedium>
-      <WallShort>structures/nok/wall_short</WallShort>
+      <Tower>structures/macrob/wall_tower</Tower>
+      <Gate>structures/macrob/wall_gate</Gate>
+      <WallLong>structures/macrob/wall_long</WallLong>
+      <WallMedium>structures/macrob/wall_medium</WallMedium>
+      <WallShort>structures/macrob/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
