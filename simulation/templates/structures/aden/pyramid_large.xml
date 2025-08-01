@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Auras datatype="tokens">
+    structures/kush_pyramids_military
+  </Auras>
+  <BuildRestrictions>
+    <Category>PyramidLarge</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <stone>450</stone>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="30.0" depth="30.0"/>
+    <Height>20.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>aden</Civ>
+    <GenericName>Large Pyramid</GenericName>
+    <SpecificName>mr ʿȝ</SpecificName>
+    <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Icon>structures/mayap/pyramid.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>90</stone>
+    <metal>30</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="28.0" depth="28.0"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <Researcher disable=""/>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_temple_10.xml</select>
+      <constructed>interface/complete/building/complete_iber_monument.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>15.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>40</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence> 
+  <Trainer disable=""/>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/adena/temple_special.xml</Actor>
+    <FoundationActor>structures/fndn_5x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>
