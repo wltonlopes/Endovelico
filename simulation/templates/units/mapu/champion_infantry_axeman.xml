@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_axeman">
+  <Identity>
+    <Civ>mapu</Civ>
+    <SpecificName></SpecificName>
+    <GenericName>Champion Axeman</GenericName>
+    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mapuche/infantry_champion_axeman.xml</Actor>
+  </VisualActor>
+</Entity>
