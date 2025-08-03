@@ -4,6 +4,6 @@
     <Civ>anura</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/anuradhapura/scout_tower.xml.xml</Actor>
+    <Actor>structures/anuradhapura/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>
