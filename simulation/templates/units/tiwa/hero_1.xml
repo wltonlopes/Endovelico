@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_spearman">
+<Entity parent="template_unit_hero_infantry_axeman">
   <Identity>
     <Civ>tiwa</Civ>
-    <GenericName>Moche Monarch</GenericName>
+    <GenericName>Monarch</GenericName>
     <SpecificName>Monarch</SpecificName>
     <Icon>units/moch/hero_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mochicas/hero_infantry_maceman.xml</Actor>
+    <Actor>units/tiwanaku/hero_infantry_axeman.xml</Actor>
   </VisualActor>
 </Entity>

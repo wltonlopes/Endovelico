@@ -12,6 +12,6 @@
     <SelectionGroupName>units/tiwa/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/mochicas/citizen_female.xml</Actor>
+    <Actor>units/tiwanaku/citizen_female.xml</Actor>
   </VisualActor>
 </Entity>

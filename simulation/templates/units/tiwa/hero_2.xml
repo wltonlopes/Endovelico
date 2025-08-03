@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_spearman">
+<Entity parent="template_unit_hero_infantry_javelineer">
   <Identity>
       <Civ>tiwa</Civ>
-    <GenericName>High priest</GenericName>
-    <SpecificName>High priest</SpecificName>
+    <GenericName> </GenericName>
+    <SpecificName> </SpecificName>
     <Icon>units/moch/hero_high_priest.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mochicas/hero_infantry_hearler.xml</Actor>
+    <Actor>units/tiwanaku/hero_infantry_javelinist.xml</Actor>
   </VisualActor>
 </Entity>
