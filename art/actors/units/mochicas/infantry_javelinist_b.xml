@@ -20,22 +20,22 @@
   <group>
     <variant frequency="100" name="tunic_01_01">
       <textures>
-        <texture file="skeletal/moch/tunic_moch_01_01.png" name="baseTex"/>
+        <texture file="skeletal/moch/tunic_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="tunic_01_02">
       <textures>
-        <texture file="skeletal/moch/tunic_moch_01_02.png" name="baseTex"/>
+        <texture file="skeletal/moch/tunic_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="tunic_01_03">
       <textures>
-        <texture file="skeletal/moch/tunic_moch_01_03.png" name="baseTex"/>
+        <texture file="skeletal/moch/tunic_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="tunic_01_04">
       <textures>
-        <texture file="skeletal/moch/tunic_moch_01_04.png" name="baseTex"/>
+        <texture file="skeletal/moch/tunic_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
