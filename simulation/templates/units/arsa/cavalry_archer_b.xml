@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <SelectionGroupName>units/arsa/cavalry_archer_b</SelectionGroupName>
+    <GenericName>Parthian Horse Archer</GenericName>
+    <SpecificName>Asabāra Parθava</SpecificName>
+    <Icon>units/arsa/cavalry_archer.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/arsa/cavalry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/cavalry_archer_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <SelectionGroupName>units/arsa/infantry_javelineer_b</SelectionGroupName>
+    <GenericName>Lydian Auxiliary</GenericName>
+    <SpecificName>Pastiš Spardiya</SpecificName>
+    <Icon>units/arsa/infantry_javelinist.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/arsa/infantry_javelineer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

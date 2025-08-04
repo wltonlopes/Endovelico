@@ -6,7 +6,6 @@
       <mesh>structural/arsacid/storehouse.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/hasmoneans/storehouse_struct.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/arsa/struct_1.png" name="baseTex"/>

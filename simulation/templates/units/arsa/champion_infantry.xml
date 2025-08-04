@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack op="mul">0.85</Hack>
+        <Pierce op="mul">0.85</Pierce>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Persian Immortal</GenericName>
+    <SpecificName>Anušiya</SpecificName>
+    <VisibleClasses datatype="tokens">Immortal</VisibleClasses>
+    <Icon>units/arsa/champion_infantry.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
+    </Requirements>
+  </Identity>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>30</wood>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">-2</Hack>
+        <Pierce op="add">-1</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Loot>
+    <food>5</food>
+    <wood>3</wood>
+    <metal>5</metal>
+  </Loot>
+  <Upgrade>
+    <Immortal_archer>
+      <Entity>units/arsa/champion_infantry_archer_upgrade</Entity>
+      <Tooltip>Switch to using the bow and arrow.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Time>6</Time>
+    </Immortal_archer>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/persians/infantry_spearman_c2.xml</Actor>
+  </VisualActor>
+</Entity>

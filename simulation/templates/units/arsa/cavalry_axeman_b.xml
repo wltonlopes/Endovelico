@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_axeman">
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <SelectionGroupName>units/arsa/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Hyrcanian Cavalry</GenericName>
+    <SpecificName>Asabāra Varkaniya</SpecificName>
+    <Icon>units/arsa/cavalry_axeman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/arsa/cavalry_axeman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/cavalry_axeman_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

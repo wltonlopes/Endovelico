@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="chariot|template_unit_champion_cavalry_archer">
+  <Footprint replace="">
+    <Square width="11.0" depth="11.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Babylonian Scythed Chariot</GenericName>
+    <SpecificName>Raθa Bābiruviya</SpecificName>
+    <Icon>units/arsa/chariot_archer.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-unlock_champion_cavalry unlock_champion_chariots</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/chariot_archer_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

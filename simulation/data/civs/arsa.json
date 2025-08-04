@@ -1,0 +1,66 @@
+﻿{
+    "Code": "arsa",
+    "Culture": "arsaaks",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/arsa/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/arsa/civil_centre"
+        },
+        {
+            "Template": "units/arsa/support_female_citizen",
+            "Count": 5
+        },
+        {
+            "Template": "units/arsa/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/arsa/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/arsa/support_female_citizen",
+            "Count": 1
+        },
+        {
+            "Template": "units/arsa/infantry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Jimmu",
+        "Suizei",
+        "Annei",
+        "Itoku",
+        "Kosho",
+        "Koan",
+        "Korei",
+        "Kogen",
+        "Kaika",
+        "Suijin",
+        "Suinin"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/arsa/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/arsa/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/arsa/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/arsa/support_female_citizen",
+        "skirmish/units/default_ship_trireme": "units/arsa/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

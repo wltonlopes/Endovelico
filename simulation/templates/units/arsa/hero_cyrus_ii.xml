@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/pers_hero_cyrus_ii
+  </Auras>
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Cyrus II The Great</GenericName>
+    <SpecificName>Kuruš</SpecificName>
+    <Icon>units/arsa/hero_cyrus.png</Icon>
+  </Identity>
+  <ProductionQueue/>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/arsa/champion_infantry
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>units/persians/hero_cavalry_spearman_cyrus_m.xml</Actor>
+  </VisualActor>
+</Entity>

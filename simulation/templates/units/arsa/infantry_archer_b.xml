@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <SelectionGroupName>units/arsa/infantry_archer_b</SelectionGroupName>
+    <GenericName>Sogdian Archer</GenericName>
+    <SpecificName>Θanuvaniya Suguda</SpecificName>
+    <Icon>units/arsa/infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/arsa/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|hoplite|template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Cardaces Hoplite</GenericName>
+    <SpecificName>Hoplites Kardakes</SpecificName>
+    <Icon>units/arsa/kardakes.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/infantry_spearman_c3.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -6,8 +6,6 @@
       <mesh>structural/arsacid/civic_centre.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="props/structures/hasmoneans/civic_centre_struct.xml" attachpoint="root"/>
-        <prop actor="props/structures/hasmoneans/civic_centre_palm.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/arsa/struct_2.png" name="baseTex"/>
