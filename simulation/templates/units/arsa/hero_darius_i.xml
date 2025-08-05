@@ -12,7 +12,7 @@
     <Lang>persian</Lang>
     <GenericName>Darius I the Great</GenericName>
     <SpecificName>Dārayavahuš</SpecificName>
-    <Icon>units/arsa/hero_darius.png</Icon>
+    <Icon>units/pers/hero_darius.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>

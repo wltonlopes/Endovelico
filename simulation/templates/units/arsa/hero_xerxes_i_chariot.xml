@@ -12,7 +12,7 @@
     <Lang>persian</Lang>
     <GenericName>Xerxes I</GenericName>
     <SpecificName>Xšayāršā</SpecificName>
-    <Icon>units/arsa/hero_xerxes.png</Icon>
+    <Icon>units/pers/hero_xerxes.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>

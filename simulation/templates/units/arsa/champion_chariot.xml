@@ -9,7 +9,7 @@
     <Lang>persian</Lang>
     <GenericName>Babylonian Scythed Chariot</GenericName>
     <SpecificName>Raθa Bābiruviya</SpecificName>
-    <Icon>units/arsa/chariot_archer.png</Icon>
+    <Icon>units/pers/chariot_archer.png</Icon>
     <Requirements>
       <Techs datatype="tokens">-unlock_champion_cavalry unlock_champion_chariots</Techs>
     </Requirements>

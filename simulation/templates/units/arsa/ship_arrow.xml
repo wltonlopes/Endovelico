@@ -8,7 +8,7 @@
     <Civ>arsa</Civ>
     <Lang>persian</Lang>
     <SpecificName>Hamaraniyanava Vazarka</SpecificName>
-    <Icon>units/arsa/ship_arrow.png</Icon>
+    <Icon>units/pers/ship_arrow.png</Icon>
   </Identity>
   <ProductionQueue/>
   <Trainer>

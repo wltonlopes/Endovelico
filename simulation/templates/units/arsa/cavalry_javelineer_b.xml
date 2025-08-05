@@ -6,7 +6,7 @@
     <SelectionGroupName>units/arsa/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Median Light Cavalry</GenericName>
     <SpecificName>Asabāra Māda</SpecificName>
-    <Icon>units/arsa/cavalry_javelinist.png</Icon>
+    <Icon>units/pers/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/arsa/cavalry_javelineer_a</Entity>

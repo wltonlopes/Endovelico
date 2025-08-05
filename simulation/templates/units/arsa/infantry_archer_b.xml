@@ -6,7 +6,7 @@
     <SelectionGroupName>units/arsa/infantry_archer_b</SelectionGroupName>
     <GenericName>Sogdian Archer</GenericName>
     <SpecificName>Θanuvaniya Suguda</SpecificName>
-    <Icon>units/arsa/infantry_archer.png</Icon>
+    <Icon>units/pers/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/arsa/infantry_archer_a</Entity>
