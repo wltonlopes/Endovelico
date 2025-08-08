@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_maceman">
-  <Auras datatype="tokens">
-    units/heroes/zapo_hero_jaguar_1
-  </Auras>
   <Identity>
     <Civ>mapu</Civ>
     <GenericName></GenericName>
