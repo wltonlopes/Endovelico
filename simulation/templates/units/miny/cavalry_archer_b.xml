@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>miny</Civ>
-    <SelectionGroupName>units/korean/cavalry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/miny/cavalry_archer_b</SelectionGroupName>
     <GenericName>Cavalry Korean</GenericName>
     <SpecificName>Umanöri Mësikakapë</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>

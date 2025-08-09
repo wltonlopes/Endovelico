@@ -1,5 +1,6 @@
-<Entity parent="civ/yayo|template_unit_infantry_melee_spearman">
+<Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
+    <Civ>miny</Civ>  
     <SelectionGroupName>units/miny/infantry_spearman_b</SelectionGroupName>
     <GenericName>Infantry Spearman</GenericName>
     <SpecificName>Pok&#246;m&#246;ti</SpecificName>

@@ -1,5 +1,6 @@
-<Entity parent="civ/yayo|template_unit_infantry_ranged_archer">
+<Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
+   <Civ>miny</Civ>
     <SelectionGroupName>units/miny/infantry_archer_b</SelectionGroupName>
     <GenericName>Infantry Archer</GenericName>
     <SpecificName>Yumit&#246;ri</SpecificName>

@@ -18,7 +18,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/cavalry_archer</SelectionGroupName>
+    <SelectionGroupName>units/tocha/cavalry_archer</SelectionGroupName>
     <SpecificName>Royal Maiden Headhunter</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

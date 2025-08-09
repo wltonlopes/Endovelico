@@ -9,7 +9,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/cavalry_swordsman</SelectionGroupName>
+    <SelectionGroupName>units/tocha/cavalry_swordsman</SelectionGroupName>
     <SpecificName>Massagetae Sagaris Cavalry</SpecificName>
     <Icon>units/scyth/cavalry_swordsman.png</Icon>
   </Identity>

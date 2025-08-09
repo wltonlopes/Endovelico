@@ -9,9 +9,9 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/cavalry_spearman</SelectionGroupName>
+    <SelectionGroupName>units/tocha/cavalry_spearman</SelectionGroupName>
     <SpecificName>Sarmatian Cavalry Lancer</SpecificName>
-    <Icon>units/xion/cavalry_spearman.png</Icon>
+    <Icon>units/theb/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/tocha/cavalry_spearman_a</Entity>

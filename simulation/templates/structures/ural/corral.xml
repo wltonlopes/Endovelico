@@ -14,6 +14,14 @@
   <Obstruction>
     <Static width="8.0" depth="14.0"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      -gaia/fauna_goat_trainable
+      -gaia/fauna_sheep_trainable
+      -gaia/fauna_pig_trainable
+      gaia/fauna_cattle_cow_trainable
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/ural/corral.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>

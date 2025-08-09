@@ -9,7 +9,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/cavalry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/tocha/cavalry_archer_b</SelectionGroupName>
     <GenericName>Saka Horse Archer</GenericName>
     <Icon>units/scyth/cavalry_archer.png</Icon>
   </Identity>
