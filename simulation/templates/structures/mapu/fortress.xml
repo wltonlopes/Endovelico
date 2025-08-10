@@ -19,6 +19,8 @@
       units/{civ}/hero_himiko
       units/{civ}/hero_keiko
       units/{civ}/hero_wousu
+      units/{civ}/champion_infantry_slinger
+      units/{civ}/champion_infantry_axeman
     </Entities>
   </Trainer>
   <WallPiece>

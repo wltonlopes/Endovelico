@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>yuez</Civ>
-    <SelectionGroupName>units/xion_cavalry_swordsman</SelectionGroupName>
+    <SelectionGroupName>units/yuez_cavalry_swordsman</SelectionGroupName>
     <Icon>units/xion/cav_swordsman.png</Icon>
   </Identity>
   <Promotion>

@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/sarmatians/stable_camel.dae</mesh>
+    <variant frequency="1" name="stable">
+      <mesh>structural/sarmatians/stable.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

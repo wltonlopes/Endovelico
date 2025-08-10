@@ -3,10 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/sarmatians/stable_elephant.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
+      <mesh>structural/sarmatians/caravana.dae</mesh>
       <textures>
         <texture file="structural/sarma_struct.png" name="baseTex"/>
         <texture file="structural/sarma_struct_spec.png" name="specTex"/>

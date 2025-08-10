@@ -4,8 +4,6 @@
   <group>
     <variant frequency="1" name="Scout_Tower">
       <mesh>structural/sarmatians/dock.dae</mesh>
-      <props>
-      </props>
       <textures>
         <texture file="structural/sarma_struct.png" name="baseTex"/>
         <texture file="structural/sarma_struct_spec.png" name="specTex"/>

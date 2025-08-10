@@ -5,13 +5,13 @@
   </Identity>
   <Upgrade>
     <UnPackStorehouse>
-      <Entity>structures/xion/storehouse</Entity>
+      <Entity>structures/yuez/storehouse</Entity>
       <Tooltip>Storehouses can train Slaves and research Technologies, while the Resource Wagon cannot.</Tooltip>
       <Time>10</Time>
       <CheckPlacementRestrictions/>
     </UnPackStorehouse>
     <UnPackHouse>
-      <Entity>structures/xion/house</Entity>
+      <Entity>structures/yuez/house</Entity>
       <Time>10</Time>
       <CheckPlacementRestrictions/>
     </UnPackHouse>
