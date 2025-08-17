@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "Pampas",
+		"Script" : "pampas.js",
+		"Description" : "Vastas planícies com vegetação rasteira, bosques esparsos e vida selvagem característica",
+		"Keywords": [],
+		"Preview" : "Peten.png",
+		"CircularMap" : true
+	}
+}
+

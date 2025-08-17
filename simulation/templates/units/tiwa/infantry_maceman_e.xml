@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/mochicas/infantry_maceman_e.xml</Actor>
+    <Actor>units/tiwanaku/infantry_clubman_e.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Anishinaab Stone Tower" file="structures/defensive_building.xml">
-      <mesh>structural/anish/stone_tower.dae</mesh>
+      <mesh>structural/anish/defense_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root" />
       </props>

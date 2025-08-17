@@ -4,9 +4,9 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/tiwa/infantry_maceman_e</Entity>
+    <Entity>units/tiwa/infantry_clubman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mochicas/infantry_maceman_a.xml</Actor>
+    <Actor>units/tiwanaku/infantry_clubman_a.xml</Actor>
   </VisualActor>
 </Entity>

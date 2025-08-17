@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="shrine|template_structure_civic_temple">
+  <BuildRestrictions>
+    <Territory>own neutral ally</Territory>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="18" depth="14"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+    <DamageVariants>
+      <lightdamage>0.85</lightdamage>
+      <mediumdamage>0.65</mediumdamage>
+      <heavydamage>0.35</heavydamage>
+    </DamageVariants>
+    <DeathType>corpse</DeathType>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+    <Civ>pamp</Civ>
+    <GenericName>academy</GenericName>
+    <SpecificName>academy</SpecificName>
+    <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="16" depth="12"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_pikeman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/infantry_slinger_b
+      units/{civ}/champion_infantry_swordsman
+      units/{civ}/champion_infantry_axeman
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/pampidos/academy.xml</Actor>
+  </VisualActor>
+</Entity>

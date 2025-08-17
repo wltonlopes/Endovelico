@@ -16,10 +16,13 @@
   </VisualActor>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/champion_infantry_slinger
+      units/{civ}/champion_infantry_axeman
+
       units/{civ}/hero_himiko
       units/{civ}/hero_keiko
       units/{civ}/hero_wousu
-    </Entities>
+    </Entities> 
   </Trainer>
   <WallPiece>
     <Length>23</Length>
