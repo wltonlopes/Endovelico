@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/horse_persian.dae</mesh>
+      <props>
+        <prop actor="units/bactrians/cavalry_spearman_bact_c_r.xml" attachpoint="rider"/>
+        <prop actor="props/horse/pers_cav_knot.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Cataphract-Armor-01">
+      <props>
+        <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_blanket_pers.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_winged_armor_02.xml" attachpoint="root"/>
+		<prop actor="props/horse/cav_armor_iber.xml" attachpoint="root"/>
+		<prop actor="props/horse/sele_crest.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/horse/maneless_brown.xml" frequency="1" name="brown"/>
+    <variant file="quadraped/horse/maneless_beige.xml" frequency="1" name="beige"/>
+    <variant file="quadraped/horse/maneless_tan.xml" frequency="1" name="tan"/>
+    <variant file="quadraped/horse/maneless_cherrybay.xml" frequency="1" name="cherrybay"/>
+    <variant file="quadraped/horse/maneless_white.xml" frequency="1" name="white"/>
+    <variant file="quadraped/horse/maneless_gray.xml" frequency="1" name="gray"/>
+    <variant file="quadraped/horse/maneless_halflinger.xml" frequency="1" name="halflinger"/>
+    <variant file="quadraped/horse/maneless_lusitano_01.xml" frequency="1" name="lusitano-01"/>
+    <variant file="quadraped/horse/maneless_lusitano_02.xml" frequency="1" name="lusitano-02"/>
+    <variant file="quadraped/horse/maneless_brown_spotted_01.xml" frequency="1" name="Brown-Spotted-01"/>
+  </group>
+  <group>
+    <variant file="quadraped/base_horse_pace.xml" name="Horse-Pace" frequency="1"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
+  </group>
+  <material>no_trans_parallax_spec.xml</material>
+</actor>

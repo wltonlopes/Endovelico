@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_a.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hele_boeotian_s2_laurel.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/xiphos.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/aspis_ptol_iv.xml" attachpoint="shield_arm"/>
+		<prop actor="props/units/armor/greave_02_silver_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_02_silver_l.xml" attachpoint="leg_L"/>
+      </props>
+      <textures>
+        <texture file="skeletal/mace/linothorax_01_02.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_ready_shield_aspis.xml" name="Swordsman-Ready-Shield-Aspis" frequency="1"/>
+    <variant file="biped/rider/death_aspis.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

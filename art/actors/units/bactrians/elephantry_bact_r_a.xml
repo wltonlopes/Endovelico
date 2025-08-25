@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/sarissa.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/cart/cuirass_1_a.png" name="baseTex"/>
+		<texture file="skeletal/hele/cuirass_2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_elephant_turret_pikeman_relax.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/rider/elephantry/asian_turret_death.xml">
+      <props>
+        <prop actor="props/units/capes/rider/elephant_driver_asian.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

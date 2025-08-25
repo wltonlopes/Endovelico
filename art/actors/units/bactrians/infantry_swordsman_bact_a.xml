@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/maur_tall_curved_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/heads/new/head_maur_tall_hair.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/maur_inf_battle_turban.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/xiphos.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/judea_scale_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+	<variant frequency="1" name="Hellenized">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/ptol_thureos_galatian_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/heads/new/head_maur_short_hair.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hele_chalcidean_b4.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/sheath_xiphos_e.xml" attachpoint="sheath_01_L"/>
+      </props>
+      <textures>
+        <texture file="skeletal/arab_padded_1_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="More Indian">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/maur_tall_curved_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/heads/new/head_maur_tall_hair.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hele_pilos.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/xiphos.xml" attachpoint="weapon_R"/>
+		<prop actor="props/units/weapons/sheath_xiphos_e.xml" attachpoint="sheath_01_L"/>
+      </props>
+      <textures>
+        <texture file="skeletal/judea_scale_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="Hellenized-2">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/maur_tall_curved_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/heads/new/head_maur_tall_hair.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/maur_inf_battle_turban.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/mace/tunic_boots_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_relax.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

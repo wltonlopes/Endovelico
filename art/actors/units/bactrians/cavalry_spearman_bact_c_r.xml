@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hele_boeotian_g3.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/sarissa.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/pers_quiver_hip.xml" attachpoint="sheath_L"/>
+		<prop actor="props/units/helmets/props/sele_mask_bronze.xml" attachpoint="head"/>
+		<prop actor="props/units/weapons/bow_recurve.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Rider-Armour-Iron">
+      <textures>
+        <texture file="skeletal/sele/hero_antiochus.png" name="baseTex"/>
+        <texture file="skeletal/sele/hero_antiochus_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="Rider-Armour-Bronze">
+      <textures>
+        <texture file="skeletal/sele/hero_antiochus.png" name="baseTex"/>
+        <texture file="skeletal/sele/hero_antiochus_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-sleeve-full-1b">
+      <textures>
+        <texture file="skeletal/pers/scale_sleeve_full_1_b.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_sleeve_full_1_spec.png" name="specTex"/>
+      </textures>
+	  <props>
+	    <prop actor="props/units/helmets/hele_thracian_s2.xml" attachpoint="helmet"/>
+	  </props>
+    </variant>
+    <variant frequency="1" name="scale-armband-full-1a">
+      <textures>
+        <texture file="skeletal/pers/scale_amband_full_01_01.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_amband_full_01_spec.png" name="specTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/armor/pers_neckguard_bronze.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="scale-armband-full-1b">
+      <textures>
+        <texture file="skeletal/pers/scale_amband_full_01_02.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_amband_full_01_spec.png" name="specTex"/>
+      </textures>
+	  <props>
+	    <prop actor="props/units/helmets/hele_boeotian_s2.xml" attachpoint="helmet"/>
+	  </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_2h_fast_relax.xml" name="Spearman-2h-Fast-Relax" frequency="1"/>
+    <variant file="biped/rider/death_2h.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
