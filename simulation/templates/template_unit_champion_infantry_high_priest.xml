@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry">
+  <Auras datatype="tokens">
+    units/heroes/zapo_priest
+  </Auras>
+  <Attack>
+    <Melee>
+      <AttackName>Club</AttackName>
+      <Damage>
+        <Crush>5</Crush>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">!Ship</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">HighPriest</VisibleClasses>
+    <GenericName>Champion HighPriest</GenericName>
+  </Identity>
+  <Turretable/>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+    </Formations>
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed op="add">0.8</WalkSpeed>
+    <Acceleration op="add">2.4</Acceleration>
+  </UnitMotion>
+</Entity>

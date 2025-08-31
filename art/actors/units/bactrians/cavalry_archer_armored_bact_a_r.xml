@@ -17,13 +17,13 @@
     <variant frequency="1" name="ital-linothorax-1a">
       <textures>
         <texture file="skeletal/ital/linothorax_01_01.png" name="baseTex"/>
-        <texture file="skeletal/hele/linothorax_1_spec.png" name="specTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ital-linothorax-1d">
       <textures>
-        <texture file="skeletal/ital_linothorax_1_d.png" name="baseTex"/>
-        <texture file="skeletal/hele/linothorax_1_spec.png" name="specTex"/>
+        <texture file="skeletal/ital_linothorax_01_04.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

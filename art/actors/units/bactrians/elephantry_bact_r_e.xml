@@ -30,12 +30,12 @@
   <group>
     <variant frequency="1" name="armor bronze">
       <textures>
-        <texture file="skeletal/spart/phalangite_officer.dds" name="baseTex"/>
+        <texture file="skeletal/spart/cuirass_phalangite_officer_01.dds" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="5" name="armor linen">
       <textures>
-        <texture file="skeletal/mace/thorakites_2.png" name="baseTex"/>
+        <texture file="skeletal/mace/compound_linothorax_02_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

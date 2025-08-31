@@ -9,8 +9,8 @@
         <prop actor="props/units/weapons/sarissa.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
-        <texture file="skeletal/cart/cuirass_1_a.png" name="baseTex"/>
-		<texture file="skeletal/hele/cuirass_2_spec.png" name="specTex"/>
+        <texture file="skeletal/cart/cuirass_01_01.png" name="baseTex"/>
+		<texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

@@ -21,7 +21,7 @@
     </variant>
     <variant frequency="1" name="scale-2c">
       <textures>
-        <texture file="skeletal/pers/scale_2_c.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_02_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scale-2g">

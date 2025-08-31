@@ -24,7 +24,7 @@
     </variant>
     <variant frequency="1" name="scyth-tunic-2b">
       <textures>
-        <texture file="skeletal/scyth/tunic_basic_1_b.png" name="baseTex"/>
+        <texture file="skeletal/scyth/tunic_basic_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scyth-tunic-2c">
