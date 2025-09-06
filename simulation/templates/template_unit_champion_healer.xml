@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <!-- <Auras datatype="tokens">
+    units/zapo_priest
+  </Auras> -->
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>300</food>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Priest</GenericName>
+    <SelectionGroupName>units/champion_healer</SelectionGroupName>
+    <Icon>units/zapo_champion_healer.png</Icon>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+</Entity>

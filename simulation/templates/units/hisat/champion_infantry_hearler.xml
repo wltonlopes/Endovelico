@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_healer">
+  <Identity>
+    <Civ>hisat</Civ>
+    <GenericName>Priests.
+    </GenericName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/zapo/champion_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/south_america/healer.xml</Actor>
+  </VisualActor>
+</Entity>

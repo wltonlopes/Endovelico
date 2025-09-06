@@ -68,6 +68,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/support_healer_b
+      units/{civ}/champion_infantry_hearler
     </Entities>
   </Trainer>
   <Vision>

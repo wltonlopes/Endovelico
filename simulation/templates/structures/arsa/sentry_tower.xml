@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/arsacid/scout_tower.xml</Actor>
+    <Actor>structures/arsacid/parthian/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>
