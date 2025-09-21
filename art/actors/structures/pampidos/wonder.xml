@@ -5,13 +5,22 @@
     <variant frequency="1" name="base">
       <mesh>structural/pampeanos/wonder.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
+        <prop actor="structures/pampidos/wonder_prop.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_01"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_01"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_02"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_03"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_04"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_05"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_06"/>
       </props>
       <textures>
         <texture file="structural/pampe_struct.png" name="baseTex"/>
         <texture file="structural/pampe_struct_spec.png" name="specTex"/>
         <texture file="structural/pampe_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/pampe/wonder.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,8 +28,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_pamp.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>
@@ -36,5 +44,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
-</actor>
+  <material>basic_trans_ao_parallax_spec.xml</material>
+</actor>                                                                                                                      
