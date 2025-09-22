@@ -3,10 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Storehouse">
-      <mesh>structural/pampeanos/storehouse.dae</mesh>
-      <props>
-         <prop actor="props/structures/pampidos/storehouse_prop.xml" attachpoint="root"/>
-      </props>
+      <mesh>structural/pampeanos/storehouse_prop.dae</mesh>
       <textures>
         <texture file="structural/pampe_struct.png" name="baseTex"/>
         <texture file="structural/pampe_struct_spec.png" name="specTex"/>
@@ -20,12 +17,8 @@
     <variant name="death">
       <props>
         <prop attachpoint="root"/>
-        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
-  <material>basic_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

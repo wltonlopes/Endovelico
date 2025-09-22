@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-09-21T20:45:59</created>
+    <modified>2025-09-21T20:45:59</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="textura_PAMPEANAS--_FINAIS-effect">
+      <profile_COMMON>
+        <newparam sid="Untitled_004-surface">
+          <surface type="2D">
+            <init_from>Untitled_004</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Untitled_004-sampler">
+          <sampler2D>
+            <source>Untitled_004-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="Untitled_004-sampler" texcoord="Esfera_218-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="Untitled_004" name="Untitled_004">
+      <init_from>/home/welton/.local/share/0ad/mods/Endovelico/art/textures/skins/structural/ao/pampe/storehouse.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="textura_PAMPEANAS--_FINAIS-material" name="textura PAMPEANAS-- FINAIS">
+      <instance_effect url="#textura_PAMPEANAS--_FINAIS-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Esfera_001-mesh" name="Esfera.001">
+      <mesh>
+        <source id="Esfera_001-mesh-positions">
+          <float_array id="Esfera_001-mesh-positions-array" count="24">-0.01182508 0.5836144 0.1094236 0.680542 0.3921137 0.1094236 -0.01182508 0.5836144 0.03008818 -0.3907914 -0.7865305 0.1094236 -0.3907914 -0.7865305 0.03008818 0.3015757 -0.9780321 0.1094236 0.3015757 -0.9780321 0.03008818 0.680542 0.3921137 0.03008818</float_array>
+          <technique_common>
+            <accessor source="#Esfera_001-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Esfera_001-mesh-normals">
+          <float_array id="Esfera_001-mesh-normals-array" count="33">0 0 1 0.2665795 0.963813 0 -0.963813 0.2665796 0 0 0 1 0.963813 -0.2665794 0 0.963813 -0.2665794 0 -0.2665807 -0.9638127 0 0 0 -1 0.2665795 0.963813 0 -0.2665807 -0.9638127 0 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Esfera_001-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Esfera_001-mesh-map-0">
+          <float_array id="Esfera_001-mesh-map-0-array" count="72">0.8299102 0.446731 0.8296341 0.2184662 0.785575 0.2185636 0.8180909 0.3654893 0.8184427 0.3028838 0.826939 0.3024251 0.8180766 0.3637623 0.8266646 0.3033422 0.8182804 0.3026772 0.8299102 0.446731 0.785575 0.2185636 0.7858512 0.4468286 0.8180766 0.3637623 0.8264611 0.3644272 0.8266646 0.3033422 0.8265871 0.3650306 0.826939 0.3024251 0.8186194 0.3018662 0.8265871 0.3650306 0.8186194 0.3018662 0.818268 0.3644713 0.818268 0.3644713 0.8186194 0.3018662 0.8273747 0.3014088 0.818268 0.3644713 0.8264578 0.3016693 0.8177027 0.302127 0.8180909 0.3654893 0.826939 0.3024251 0.8265871 0.3650306 0.818268 0.3644713 0.8273747 0.3014088 0.827023 0.3640139 0.818268 0.3644713 0.827023 0.3640139 0.8264578 0.3016693</float_array>
+          <technique_common>
+            <accessor source="#Esfera_001-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Esfera_001-mesh-map-1">
+          <float_array id="Esfera_001-mesh-map-1-array" count="72">0.7491044 0.8104619 0.7491044 0.6840269 0.8129477 0.6840201 0.5119684 0.8573998 0.5190215 0.8573951 0.5190215 0.9212091 0.9180108 0.6606645 0.9109666 0.5374097 0.9180108 0.5373287 0.7491044 0.8104619 0.8129477 0.6840201 0.8129477 0.810455 0.9180108 0.6606645 0.9109666 0.6607455 0.9109666 0.5374097 0.8644614 0.288223 0.8574077 0.2882239 0.8574077 0.163751 0.8644614 0.288223 0.8574077 0.163751 0.8644614 0.1637499 0.7794545 0.961412 0.7724009 0.9614217 0.7724008 0.8994187 0.6007362 0.615186 0.6645804 0.7416145 0.6007362 0.741621 0.5119684 0.8573998 0.5190215 0.9212091 0.5119684 0.9212139 0.7794545 0.961412 0.7724008 0.8994187 0.7794545 0.8994089 0.6007362 0.615186 0.6645804 0.6151795 0.6645804 0.7416145</float_array>
+          <technique_common>
+            <accessor source="#Esfera_001-mesh-map-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Esfera_001-mesh-vertices">
+          <input semantic="POSITION" source="#Esfera_001-mesh-positions"/>
+        </vertices>
+        <triangles material="textura_PAMPEANAS--_FINAIS-material" count="12">
+          <input semantic="VERTEX" source="#Esfera_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Esfera_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Esfera_001-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Esfera_001-mesh-map-1" offset="2" set="1"/>
+          <p>5 0 0 1 0 1 0 0 2 2 1 3 0 1 4 1 1 5 4 2 6 0 2 7 2 2 8 5 3 9 0 3 10 3 3 11 4 2 12 3 2 13 0 2 14 7 4 15 1 4 16 5 4 17 7 5 18 5 5 19 6 5 20 6 6 21 5 6 22 3 6 23 6 7 24 2 7 25 7 7 26 2 8 27 1 8 28 7 8 29 6 9 30 3 9 31 4 9 32 6 10 33 4 10 34 2 10 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="storehouse_001" name="storehouse.001" type="NODE">
+        <matrix sid="transform">3.1 0 0 0 0 3.1 0 0 0 0 3.1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Esfera_001-mesh" name="storehouse.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="textura_PAMPEANAS--_FINAIS-material" target="#textura_PAMPEANAS--_FINAIS-material">
+                <bind_vertex_input semantic="Esfera_218-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Esfera_218-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

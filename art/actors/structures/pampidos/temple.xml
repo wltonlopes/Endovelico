@@ -6,7 +6,7 @@
       <mesh>structural/pampeanos/temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
-        <prop actor="structures/pampidos/temple_prop.xml" attachpoint="root"/>
+        <prop actor="props/structures/pampidos/temple_prop.xml" attachpoint="root"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_02"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_02"/>
