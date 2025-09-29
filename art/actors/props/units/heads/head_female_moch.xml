@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="1" name="dudette head a">
+            <mesh>props/head/head_female_moch_1.dae</mesh>
+        </variant>
+        <variant frequency="1" name="dudette head b">
+            <mesh>props/head/head_female_moch_3.dae</mesh>
+        </variant>
+        <variant frequency="1" name="dudette head c">
+            <mesh>props/head/head_female_moch_4.dae</mesh>
+        </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Face-01">
+        <textures>
+          <texture file="props/head/mochica_fem_1.png" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Face-02">
+        <textures>
+          <texture file="props/head/mochica_fem_2.png" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+        <variant frequency="1" name="color-black">
+            <color>20 20 20</color>
+        </variant>
+        <variant frequency="1" name="color-black1">
+            <color>35 35 35</color>
+        </variant>
+        <variant frequency="1" name="color-black2">
+            <color>10 10 10</color>
+        </variant>
+        <variant frequency="1" name="color-black3">
+            <color>60 60 60</color>
+        </variant>
+    </group>
+    <material>objectcolor.xml</material>
+</actor>
