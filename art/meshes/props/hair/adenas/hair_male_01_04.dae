@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-10-06T17:18:37</created>
+    <modified>2025-10-06T17:18:37</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Text_Adena-effect">
+      <profile_COMMON>
+        <newparam sid="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5-surface">
+          <surface type="2D">
+            <init_from>_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5-sampler">
+          <sampler2D>
+            <source>_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5" name="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5">
+      <init_from>/home/welton/Downloads/1001342913_A-catlogounisAden-Cree-FINAIS.png.6edf886a6a1971bfe56b6bc4c40e37c9.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Text_Adena-material" name="Text Adena">
+      <instance_effect url="#Text_Adena-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_286-mesh" name="Cubo.286">
+      <mesh>
+        <source id="Cubo_286-mesh-positions">
+          <float_array id="Cubo_286-mesh-positions-array" count="60">-0.04723811 0.157009 0.2065589 -0.08726423 0.5396844 -0.2341129 -0.04723811 0.1599767 0.07792651 -0.08726423 0.349453 -0.2364368 0.04723811 0.157009 0.2065589 0.08726423 0.5396844 -0.2341129 0.04723811 0.1599767 0.07792651 0.08726423 0.349453 -0.2364368 -0.06725114 0.3757269 0.1114584 -0.06725114 0.2769599 0.008441627 0.06725114 0.2769599 0.008441627 0.06725114 0.3757269 0.1114584 -0.09595209 -0.1464706 0.4515157 -0.1831116 -0.2293614 0.5960689 -0.09595209 0.05925482 0.4504354 -0.1831116 0.1506806 0.594073 0.1097762 -0.1464706 0.4515157 0.1969357 -0.2293614 0.5960689 0.1097762 0.05925482 0.4504354 0.1969357 0.1506806 0.594073</float_array>
+          <technique_common>
+            <accessor source="#Cubo_286-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_286-mesh-normals">
+          <float_array id="Cubo_286-mesh-normals-array" count="90">-0.995954 -0.06486833 0.06219232 0 -0.9588659 -0.2838598 0.995954 -0.06486833 0.06219232 0 0.903469 0.4286537 0 -0.9997341 -0.02306509 0 0.01221537 -0.9999255 0 0.3987463 0.9170613 0.9957535 -0.09203624 -0.002123355 0 -0.5106806 -0.8597705 -0.9957534 -0.09203624 -0.002123355 -0.8556804 -0.002717554 -0.5174977 0 0.8436083 -0.5369592 0.8556804 -0.002717614 -0.5174977 0 -0.8674951 -0.4974458 0 -0.005251228 -0.9999863 0 0.005251586 0.9999863 -0.9983463 -7.0221e-4 0.05748397 0 -0.9588658 -0.2838597 0.9983463 -7.02207e-4 0.05748397 0 0.9034688 0.4286539 0 0.01221537 -0.9999255 0 0.3987463 0.9170613 0.9887899 -0.1077806 0.1033343 0 -0.5106806 -0.8597705 -0.9887899 -0.1077806 0.1033342 -0.8556802 -0.002717733 -0.517498 0 0.8436082 -0.5369592 0.8556802 -0.002717733 -0.5174979 0 -0.8674951 -0.497446 0 0.005251586 0.9999863</float_array>
+          <technique_common>
+            <accessor source="#Cubo_286-mesh-normals-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_286-mesh-map-0">
+          <float_array id="Cubo_286-mesh-map-0-array" count="192">0.102793 0.7850911 0.1043108 0.7881266 0.102793 0.7881266 0.1043108 0.7881266 0.102793 0.791162 0.102793 0.7881266 0.1043108 0.791162 0.102793 0.7941974 0.102793 0.791162 0.1043108 0.7941974 0.102793 0.797233 0.102793 0.7941974 0.1012753 0.791162 0.09823977 0.7941974 0.09823977 0.791162 0.1073462 0.791162 0.1043108 0.7941974 0.1043108 0.791162 0.102793 0.7941974 0.1012753 0.797233 0.1012753 0.7941974 0.1012753 0.791162 0.102793 0.7941974 0.1012753 0.7941974 0.102793 0.7881266 0.1012753 0.791162 0.1012753 0.7881266 0.102793 0.7850911 0.1012753 0.7881266 0.1012753 0.7850911 0.1043108 0.7850911 0.1012753 0.7881266 0.1012753 0.7850911 0.1043108 0.7881266 0.1012753 0.791162 0.1012753 0.7881266 0.1012753 0.791162 0.1043108 0.7941974 0.1012753 0.7941974 0.1043108 0.7941974 0.1012753 0.797233 0.1012753 0.7941974 0.1012753 0.791162 0.09823977 0.7941974 0.09823977 0.791162 0.1073462 0.791162 0.1043108 0.7941974 0.1043108 0.791162 0.102793 0.7850911 0.1043108 0.7850911 0.1043108 0.7881266 0.1043108 0.7881266 0.1043108 0.791162 0.102793 0.791162 0.1043108 0.791162 0.1043108 0.7941974 0.102793 0.7941974 0.1043108 0.7941974 0.1043108 0.797233 0.102793 0.797233 0.1012753 0.791162 0.1012753 0.7941974 0.09823977 0.7941974 0.1073462 0.791162 0.1073462 0.7941974 0.1043108 0.7941974 0.102793 0.7941974 0.102793 0.797233 0.1012753 0.797233 0.1012753 0.791162 0.102793 0.791162 0.102793 0.7941974 0.102793 0.7881266 0.102793 0.791162 0.1012753 0.791162 0.102793 0.7850911 0.102793 0.7881266 0.1012753 0.7881266 0.1043108 0.7850911 0.1043108 0.7881266 0.1012753 0.7881266 0.1043108 0.7881266 0.1043108 0.791162 0.1012753 0.791162 0.1012753 0.791162 0.1043108 0.791162 0.1043108 0.7941974 0.1043108 0.7941974 0.1043108 0.797233 0.1012753 0.797233 0.1012753 0.791162 0.1012753 0.7941974 0.09823977 0.7941974 0.1073462 0.791162 0.1073462 0.7941974 0.1043108 0.7941974</float_array>
+          <technique_common>
+            <accessor source="#Cubo_286-mesh-map-0-array" count="96" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_286-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_286-mesh-positions"/>
+        </vertices>
+        <triangles material="Text_Adena-material" count="32">
+          <input semantic="VERTEX" source="#Cubo_286-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_286-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_286-mesh-map-0" offset="2" set="0"/>
+          <p>8 0 0 3 0 1 9 0 2 3 1 3 10 1 4 9 1 5 7 2 6 11 2 7 10 2 8 5 3 9 8 3 10 11 3 11 6 4 12 0 4 13 2 4 14 3 5 15 5 5 16 7 5 17 11 6 18 0 6 19 4 6 20 6 7 21 11 7 22 4 7 23 9 8 24 6 8 25 2 8 26 8 9 27 2 9 28 0 9 29 13 10 30 14 10 31 12 10 32 15 11 33 18 11 34 14 11 35 18 12 36 17 12 37 16 12 38 17 13 39 12 13 40 16 13 41 18 14 42 12 14 43 14 14 44 15 15 45 17 15 46 19 15 47 8 16 48 1 16 49 3 16 50 3 17 51 7 17 52 10 17 53 7 18 54 5 18 55 11 18 56 5 19 57 1 19 58 8 19 59 6 4 60 4 4 61 0 4 62 3 20 63 1 20 64 5 20 65 11 21 66 8 21 67 0 21 68 6 22 69 10 22 70 11 22 71 9 23 72 10 23 73 6 23 74 8 24 75 9 24 76 2 24 77 13 25 78 15 25 79 14 25 80 15 26 81 19 26 82 18 26 83 18 27 84 19 27 85 17 27 86 17 28 87 13 28 88 12 28 89 18 14 90 16 14 91 12 14 92 15 29 93 13 29 94 17 29 95</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="a_hair_male_01_04" name="a_hair_male_01_04" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_286-mesh" name="a_hair_male_01_04">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Text_Adena-material" target="#Text_Adena-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

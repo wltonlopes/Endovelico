@@ -5,7 +5,8 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/adenas_hair_male_01.xml" attachpoint="head"/>   
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
@@ -17,22 +18,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/mapuches/im_03_01.png" name="baseTex"/>
+        <texture file="skeletal/adenas/im_03_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/mapuches/im_03_02.png" name="baseTex"/>
+        <texture file="skeletal/adenas/im_03_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/mapuches/im_03_03.png" name="baseTex"/>
+        <texture file="skeletal/adenas/im_03_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/mapuches/im_03_04.png" name="baseTex"/>
+        <texture file="skeletal/adenas/im_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

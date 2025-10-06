@@ -20,21 +20,16 @@
         <texture file="skeletal/adenas/f_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <!-- <variant frequency="100" name="02">
+    <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/mapuches/f_02.png" name="baseTex"/>
+        <texture file="skeletal/adenas/f_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/mapuches/f_03.png" name="baseTex"/>
+        <texture file="skeletal/adenas/f_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="04">
-      <textures>
-        <texture file="skeletal/mapuches/f_04.png" name="baseTex"/>
-      </textures>
-    </variant> -->
   </group>
   <group>
     <!-- In this group, defined overloads for "Idle", "Walk" and "Run" -->

@@ -5,7 +5,8 @@
     <variant name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/adenas_hair_male_02.xml" attachpoint="head"/>   
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/kush_quiver_hip.xml" attachpoint="sheath_L"/>
@@ -20,22 +21,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/mapuches/ij_02_01.png" name="baseTex"/>
+        <texture file="skeletal/adenas/ij_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/mapuches/ij_02_02.png" name="baseTex"/>
+        <texture file="skeletal/adenas/ij_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/mapuches/ij_02_03.png" name="baseTex"/>
+        <texture file="skeletal/adenas/ij_02_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/mapuches/ij_02_04.png" name="baseTex"/>
+        <texture file="skeletal/adenas/ij_02_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
