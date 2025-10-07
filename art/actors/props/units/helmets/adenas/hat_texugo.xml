@@ -12,7 +12,7 @@
   </group>
   <group>
     <variant frequency="100" name="Base_1">
-      <mesh>props/helmet/adenas/hat_wolf.dae</mesh>
+      <mesh>props/helmet/adenas/hat_texugo.dae</mesh>
     </variant>
   </group>
   <material>player_trans_parallax_spec.xml</material>

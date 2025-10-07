@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_ranged_javelineer">
+  <Identity>
+    <Civ>aden</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/aden/heavy_javelineer</SelectionGroupName>
+    <GenericName>Heavy Warrior with Harpoon</GenericName>
+    <SpecificName>Aimberê</SpecificName>
+    <Icon>units/south_america/cavalry_javelineer.png</Icon>
+    <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
+    <Phenotype>male</Phenotype>
+    <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/adena/infantry_heavy_javelinist_harpoon.xml</Actor>
+  </VisualActor>
+</Entity>

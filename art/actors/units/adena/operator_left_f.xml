@@ -30,11 +30,6 @@
         <texture file="skeletal/adenas/i_sieg_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="04">
-      <textures>
-        <texture file="skeletal/adenas/i_sieg_04.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

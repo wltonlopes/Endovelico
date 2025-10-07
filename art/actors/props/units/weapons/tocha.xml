@@ -13,5 +13,5 @@
       <mesh>props/weapon/tocha.dae</mesh>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>objectcolor.xml</material>
 </actor>

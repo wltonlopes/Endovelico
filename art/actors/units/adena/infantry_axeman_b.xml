@@ -2,45 +2,38 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_blowgunner_ready.xml">
-    <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant file="biped/base_spearman_relax.xml">
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/tupi_male.xml" attachpoint="head"/>   
-        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="weapon_L"/>
-        <prop actor="props/units/weapons/jav.xml" attachpoint="projectile"/>
-        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/adenas_hair_male_01.xml" attachpoint="head"/>   
+        <prop actor="props/units/weapons/tomahawk.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
-      </textures>
+      </textures> 
     </variant>
   </group>
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/adenas/ih_01.png" name="baseTex"/>
+        <texture file="skeletal/adenas/im_03_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/adenas/ih_02.png" name="baseTex"/>
+        <texture file="skeletal/adenas/im_03_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/adenas/ih_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="04">
-      <textures>
-        <texture file="skeletal/adenas/ih_04.png" name="baseTex"/>
+        <texture file="skeletal/adenas/im_03_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_skirmisher_fast.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
+    <variant file="biped/base_swordsman_2hand_relax.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -57,11 +50,6 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_blowgunner.xml">
-      <props>
-        <prop actor="props/units/weapons/zarabatana_a.xml" attachpoint="weapon_R"/>
-      </props>
-    </variant>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>

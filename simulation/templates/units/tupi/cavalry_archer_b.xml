@@ -4,7 +4,7 @@
     <Civ>tupi</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
-    <GenericName>Female archer</GenericName>
+    <GenericName>Female Archer</GenericName>
     <SpecificName>Aimberê</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_skirmisher.xml">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/adenas_hair_male_01.xml" attachpoint="head"/>   
+        <prop actor="props/units/weapons/harpoons_three.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/harpoon.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/harpoon.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="01">
+      <textures>
+        <texture file="skeletal/adenas/hi_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="02">
+      <textures>
+        <texture file="skeletal/adenas/hi_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="03">
+      <textures>
+        <texture file="skeletal/adenas/hi_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant file="biped/attack_raged_javelinist_harpoon.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

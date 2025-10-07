@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="40" name="Base-Female">
+    <variant frequency="40" name="Base-b">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/hairs/adenas_hair_female_02.xml" attachpoint="head"/>
@@ -13,9 +13,7 @@
         <texture file="null_black.dds" name="specTex"/>
       </textures>  
     </variant>
-  </group>
-  <group>
-    <variant frequency="60" name="Base-Female-2">
+    <variant frequency="60" name="Base-a-2">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/hairs/adenas_hair_female_01.xml" attachpoint="head"/>
@@ -43,17 +41,17 @@
         <texture file="skeletal/adenas/f_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="201">
+    <variant frequency="100" name="b1">
       <textures>
         <texture file="skeletal/adenas/f_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="02">
+    <variant frequency="100" name="b2">
       <textures>
         <texture file="skeletal/adenas/f_02_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="03">
+    <variant frequency="100" name="b3">
       <textures>
         <texture file="skeletal/adenas/f_02_03.png" name="baseTex"/>
       </textures>

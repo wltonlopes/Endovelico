@@ -15,5 +15,5 @@
       <mesh>props/helmet/adenas/feather_02.dae</mesh>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>

@@ -3,11 +3,12 @@
   <castshadow/>
   <group>
     <variant file="biped/base_spearman_relax.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/adenas_hair_male_01.xml" attachpoint="head"/>   
-        <prop actor="props/units/weapons/tacape_tupi.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/adenas/feather_01.xml" attachpoint="helmet"/>  
+        <prop actor="props/units/helmets/adenas/hat_texugo.xml" attachpoint="helmet"/>       
+        <prop actor="props/units/weapons/tomahawk.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -29,11 +30,6 @@
     <variant frequency="100" name="03">
       <textures>
         <texture file="skeletal/adenas/im_03_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="04">
-      <textures>
-        <texture file="skeletal/adenas/im_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
