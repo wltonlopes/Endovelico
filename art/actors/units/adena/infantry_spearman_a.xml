@@ -31,11 +31,6 @@
         <texture file="skeletal/adenas/im_03_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="04">
-      <textures>
-        <texture file="skeletal/adenas/im_03_04.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant file="biped/base_spearman_relax.xml"/>

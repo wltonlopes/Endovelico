@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-10-06T21:24:41</created>
+    <modified>2025-10-06T21:24:41</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Text_Adena-effect">
+      <profile_COMMON>
+        <newparam sid="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5-surface">
+          <surface type="2D">
+            <init_from>_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5-sampler">
+          <sampler2D>
+            <source>_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5" name="_001342913_A-catlogounisAden-Cree-FINAIS_png_6edf886a6a1971bfe5">
+      <init_from>/home/welton/Downloads/1001342913_A-catlogounisAden-Cree-FINAIS.png.6edf886a6a1971bfe56b6bc4c40e37c9.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Text_Adena-material" name="Text Adena">
+      <instance_effect url="#Text_Adena-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_081-mesh" name="Cubo.081">
+      <mesh>
+        <source id="Cubo_081-mesh-positions">
+          <float_array id="Cubo_081-mesh-positions-array" count="72">-0.1971403 -0.4911563 -0.3413264 -0.1971403 -0.3019173 0.1365865 -0.1971403 0.350934 -0.3413264 -0.1971403 0.3136189 0.1365865 0.1971403 -0.4911563 -0.3413264 0.1971403 -0.3019173 0.1365865 0.1971403 0.350934 -0.3413264 0.1971403 0.3136189 0.1365865 -0.1971403 0.005850791 0.2409113 0.1971403 0.005850791 0.2409113 -0.1971403 -0.4911563 -1.038124 0.1971403 -0.4911563 -1.038124 -0.1971403 0.3132034 -0.3442724 0.1971403 0.3132034 -0.3442724 0.1971403 0.2778311 0.1087569 -0.1971403 0.2778311 0.1087569 0.1971403 -0.4533109 -0.3485465 -0.1971403 -0.4533109 -0.3485465 -0.1971403 -0.2731787 0.1063675 0.1971403 -0.2731787 0.1063675 0.1971403 0.005850791 0.2009507 -0.1971403 0.005850791 0.2009507 0.1971403 -0.4533109 -1.038124 -0.1971403 -0.4533109 -1.038124</float_array>
+          <technique_common>
+            <accessor source="#Cubo_081-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_081-mesh-normals">
+          <float_array id="Cubo_081-mesh-normals-array" count="72">-0.6016651 0.6305367 0.4903292 0.5773524 0.6205363 -0.5306589 -0.5773524 0.6205363 -0.5306589 0.6236619 -0.5386962 0.5664383 -0.6672644 -0.7316287 0.1395627 0.6672644 -0.7316287 0.1395627 -0.6414864 0 0.7671346 0.6414864 0 0.7671346 0.6016651 0.6305367 0.4903292 0.5773503 -0.5773503 -0.5773503 0.5773524 -0.5306589 -0.6205363 -0.8541467 -0.4105166 -0.319233 -0.5773524 -0.5306589 -0.6205363 -0.7518219 0.6476888 -0.1235436 0.8149222 0.3994041 -0.419974 0.7518219 0.6476888 -0.1235436 -0.7869882 0 -0.616968 0.7869882 0 -0.616968 0.8541467 -0.4105166 -0.319233 0.5773503 0.5773503 -0.5773503 -0.5773503 -0.5773503 -0.5773503 -0.8149222 0.3994041 -0.419974 -0.6236619 -0.5386962 0.5664383 -0.5773503 0.5773503 -0.5773503</float_array>
+          <technique_common>
+            <accessor source="#Cubo_081-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_081-mesh-map-0">
+          <float_array id="Cubo_081-mesh-map-0-array" count="264">0.028108 0.38498 0.01503276 0.3980552 0.01503276 0.38498 0.028108 0.3850361 0.01503276 0.3981112 0.01503276 0.3850361 0.02156454 0.3852437 0.01488816 0.3980134 0.02155983 0.3980141 0.02823621 0.3852444 0.02155983 0.3980141 0.0282315 0.3980149 0.02810883 0.3981112 0.01503276 0.3850361 0.02810883 0.3850361 0.01503276 0.3980552 0.028108 0.38498 0.01503276 0.38498 0.01503276 0.3981112 0.028108 0.3850361 0.01503276 0.3850361 0.01488816 0.3980134 0.02156454 0.3852437 0.02155983 0.3980141 0.02155983 0.3980141 0.02823621 0.3852444 0.0282315 0.3980149 0.01503276 0.3850361 0.02810883 0.3981112 0.02810883 0.3850361 0.02155983 0.3980141 0.0282315 0.3980149 0.0282315 0.3980149 0.02156454 0.3852437 0.02823621 0.3852444 0.02156454 0.3852437 0.01503276 0.3850361 0.02810883 0.3850361 0.02810883 0.3850361 0.01503276 0.3980552 0.028108 0.3980552 0.01503276 0.3980552 0.01503276 0.38498 0.028108 0.38498 0.028108 0.38498 0.02155983 0.3980141 0.01488816 0.3980134 0.02155983 0.3980141 0.01503276 0.3981112 0.01503276 0.3850361 0.01503276 0.3850361 0.01503276 0.3980552 0.01503276 0.38498 0.01503276 0.38498 0.02156454 0.3852437 0.01489287 0.3852429 0.01489287 0.3852429 0.01503276 0.3981112 0.028108 0.3981112 0.01503276 0.3981112 0.01503276 0.3850361 0.028108 0.3850361 0.028108 0.3850361 0.01503276 0.3981112 0.02810883 0.3981112 0.01503276 0.3981112 0.028108 0.38498 0.028108 0.3980552 0.01503276 0.3980552 0.028108 0.3850361 0.028108 0.3981112 0.01503276 0.3981112 0.02156454 0.3852437 0.01489287 0.3852429 0.01488816 0.3980134 0.02823621 0.3852444 0.02156454 0.3852437 0.02155983 0.3980141 0.02810883 0.3981112 0.01503276 0.3981112 0.01503276 0.3850361 0.01503276 0.3980552 0.028108 0.3980552 0.028108 0.38498 0.01503276 0.3981112 0.028108 0.3981112 0.028108 0.3850361 0.01488816 0.3980134 0.01489287 0.3852429 0.02156454 0.3852437 0.02155983 0.3980141 0.02156454 0.3852437 0.02823621 0.3852444 0.01503276 0.3850361 0.01503276 0.3981112 0.02810883 0.3981112 0.02155983 0.3980141 0.02155983 0.3980141 0.0282315 0.3980149 0.02156454 0.3852437 0.02823621 0.3852444 0.02823621 0.3852444 0.01503276 0.3850361 0.01503276 0.3850361 0.02810883 0.3850361 0.01503276 0.3980552 0.028108 0.3980552 0.028108 0.3980552 0.01503276 0.38498 0.01503276 0.38498 0.028108 0.38498 0.02155983 0.3980141 0.01488816 0.3980134 0.01488816 0.3980134 0.01503276 0.3981112 0.01503276 0.3981112 0.01503276 0.3850361 0.01503276 0.3980552 0.01503276 0.3980552 0.01503276 0.38498 0.02156454 0.3852437 0.02156454 0.3852437 0.01489287 0.3852429 0.01503276 0.3981112 0.028108 0.3981112 0.028108 0.3981112 0.01503276 0.3850361 0.01503276 0.3850361 0.028108 0.3850361 0.01503276 0.3981112 0.02810883 0.3981112 0.02810883 0.3981112</float_array>
+          <technique_common>
+            <accessor source="#Cubo_081-mesh-map-0-array" count="132" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_081-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_081-mesh-positions"/>
+        </vertices>
+        <triangles material="Text_Adena-material" count="44">
+          <input semantic="VERTEX" source="#Cubo_081-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_081-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_081-mesh-map-0" offset="2" set="0"/>
+          <p>3 0 0 6 1 1 2 2 2 5 3 3 0 4 4 4 5 5 8 6 6 5 3 7 9 7 8 3 0 9 9 7 10 7 8 11 0 4 12 11 9 13 4 5 14 13 10 15 15 11 16 12 12 17 17 13 18 19 14 19 16 15 20 19 14 21 21 16 22 20 17 23 20 17 24 15 11 25 14 18 26 22 19 27 17 13 28 16 15 29 9 7 30 14 18 31 7 8 32 8 6 33 15 11 34 21 16 35 11 9 36 16 15 37 4 5 38 6 1 39 14 18 40 13 10 41 2 2 42 15 11 43 3 0 44 9 7 45 19 14 46 20 17 47 10 20 48 22 19 49 11 9 50 6 1 51 12 12 52 2 2 53 8 6 54 18 21 55 1 22 56 0 4 57 18 21 58 17 13 59 4 5 60 19 14 61 5 3 62 10 20 63 17 13 64 23 23 65 3 0 66 7 8 67 6 1 68 5 3 69 1 22 70 0 4 71 8 6 72 1 22 73 5 3 74 3 0 75 8 6 76 9 7 77 0 4 78 10 20 79 11 9 80 13 10 81 14 18 82 15 11 83 17 13 84 18 21 85 19 14 86 19 14 87 18 21 88 21 16 89 20 17 90 21 16 91 15 11 92 22 19 93 23 23 94 17 13 95 9 7 96 20 17 97 14 18 98 8 6 99 3 0 100 15 11 101 11 9 102 22 19 103 16 15 104 6 1 105 7 8 106 14 18 107 2 2 108 12 12 109 15 11 110 9 7 111 5 3 112 19 14 113 10 20 114 23 23 115 22 19 116 6 1 117 13 10 118 12 12 119 8 6 120 21 16 121 18 21 122 0 4 123 1 22 124 18 21 125 4 5 126 16 15 127 19 14 128 10 20 129 0 4 130 17 13 131</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Cubo_414" name="Cubo.414" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_081-mesh" name="Cubo.414">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Text_Adena-material" target="#Text_Adena-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

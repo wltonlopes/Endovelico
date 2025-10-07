@@ -24,12 +24,6 @@
     <variant frequency="1" name="hair-dark brown">
       <color>75 61 38</color>
     </variant>
-    <variant frequency="1" name="hair-brown">
-      <color>99 82 53</color>
-    </variant>
-    <variant frequency="1" name="hair-medium brown">
-      <color>138 110 61</color>
-    </variant>
   </group>
   <material>objectcolor.xml</material>
 </actor>

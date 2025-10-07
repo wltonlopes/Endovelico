@@ -9,7 +9,6 @@
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/weapons/jav.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/moch_shield_s.xml" attachpoint="shield_arm"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
