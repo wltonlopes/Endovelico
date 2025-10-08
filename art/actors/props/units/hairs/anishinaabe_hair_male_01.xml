@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="a1">
+      <mesh>props/hair/anishinaabe/hair_male_01.dae</mesh>
+    </variant>
+    <variant frequency="1" name="a2">
+      <mesh>props/hair/anishinaabe/hair_male_02.dae</mesh>
+    </variant>
+    <variant frequency="1" name="a3">
+      <mesh>props/hair/anishinaabe/hair_male_03.dae</mesh>
+    </variant>
+    <variant frequency="1" name="a4">
+      <mesh>props/hair/anishinaabe/hair_male_04.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="face1a">
+      <textures><texture file="props/anishinaabe_props.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-dark brown">
+      <color>75 61 38</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

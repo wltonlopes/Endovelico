@@ -3,14 +3,15 @@
   <castshadow/>
   <group>
     <variant name="Base">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/mapu_jaguar.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/mapu_plume.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
-        <prop actor="props/units/mace_sling_pouch.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/adenas_hair_male_01.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/adenas/feather_02.xml" attachpoint="helmet"/> 
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bow_long_indian.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
+        <prop actor="props/units/helmets/lenca_helmet.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -21,32 +22,29 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/adenas/c_s_01.png" name="baseTex"/>
+        <texture file="skeletal/adenas/c_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/adenas/c_s_02.png" name="baseTex"/>
+        <texture file="skeletal/adenas/c_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/adenas/c_s_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="04">
-      <textures>
-        <texture file="skeletal/adenas/c_s_04.png" name="baseTex"/>
+        <texture file="skeletal/adenas/c_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
- <group>
-    <variant file="biped/base_slinger_ready.xml"/>
+  <group>
+    <variant file="biped/base_archer_relax.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_slinger.xml"/>
-    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_ranged_archer_fire.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>

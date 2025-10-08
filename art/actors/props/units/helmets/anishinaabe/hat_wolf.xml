@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="props/anishinaabe_props.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="01">
+      <mesh>props/helmet/anishinaabe/wolf_01.dae</mesh>
+    </variant>
+    <variant frequency="100" name="02">
+      <mesh>props/helmet/anishinaabe/wolf_02.dae</mesh>
+    </variant>
+    <variant frequency="100" name="03">
+      <mesh>props/helmet/anishinaabe/wolf_03.dae</mesh>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>
