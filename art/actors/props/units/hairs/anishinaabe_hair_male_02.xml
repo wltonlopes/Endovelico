@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="a1">
+      <mesh>props/hair/anishinaabe/hair_male_05.dae</mesh>
+      <textures><texture file="props/anishinaabe_props.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-dark brown">
+      <color>75 61 38</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

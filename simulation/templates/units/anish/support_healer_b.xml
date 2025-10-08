@@ -11,6 +11,6 @@
     <Entity>units/anish/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/north_america/healer.xml</Actor>
+    <Actor>units/anishinaabe/healer.xml</Actor>
   </VisualActor>
 </Entity>

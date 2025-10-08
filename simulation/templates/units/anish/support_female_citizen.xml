@@ -18,6 +18,6 @@
     <SelectionGroupName>units/north_america/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/north_america/female_citizen.xml</Actor>
+    <Actor>units/anishinaabe/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,19 +5,8 @@
     <variant frequency="40" name="Base-b">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/hairs/adenas_hair_female_02.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/anishinaabe_hair_female.xml" attachpoint="head"/>
         <prop actor="props/units/heads/head_south_america_female_base.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>  
-    </variant>
-    <variant frequency="60" name="Base-a-2">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
-      <props>
-        <prop actor="props/units/hairs/adenas_hair_female_01.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/head_south_america_female_basic.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -39,21 +28,6 @@
     <variant frequency="100" name="03">
       <textures>
         <texture file="skeletal/anishinaabe/f_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="b1">
-      <textures>
-        <texture file="skeletal/anishinaabe/f_02_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="b2">
-      <textures>
-        <texture file="skeletal/anishinaabe/f_02_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="b3">
-      <textures>
-        <texture file="skeletal/anishinaabe/f_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

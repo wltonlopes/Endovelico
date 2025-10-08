@@ -6,6 +6,6 @@
     <Icon>units/south_america/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/north_america/trader.xml</Actor>
+    <Actor>units/anishinaabe/trader.xml</Actor>
   </VisualActor>
 </Entity>

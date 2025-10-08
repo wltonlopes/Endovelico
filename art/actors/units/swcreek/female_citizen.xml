@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="40" name="Base-b">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/hairs/adenas_hair_female_02.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_female_base.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>  
+    </variant>
+    <variant frequency="60" name="Base-a-2">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/hairs/adenas_hair_female_01.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_female_basic.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>  
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="01">
+      <textures>
+        <texture file="skeletal/swcreek/f_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="02">
+      <textures>
+        <texture file="skeletal/swcreek/f_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="03">
+      <textures>
+        <texture file="skeletal/swcreek/f_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="b1">
+      <textures>
+        <texture file="skeletal/swcreek/f_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="b2">
+      <textures>
+        <texture file="skeletal/swcreek/f_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="b3">
+      <textures>
+        <texture file="skeletal/swcreek/f_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/female_base_walk.xml"/>
+    <variant file="biped/female_carry_food.xml"/>
+    <variant file="biped/female_carry_meat.xml"/>
+    <variant file="biped/female_carry_wood.xml"/>
+    <variant file="biped/female_carry_stone.xml"/>
+    <variant file="biped/female_carry_metal.xml"/>
+  </group>
+  <group>
+    <variant name="Idle" frequency="1"/>
+    <variant file="biped/attack_melee_female.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/female_death.xml"/>
+    <variant file="biped/female_gather_tree.xml"/>
+    <variant file="biped/female_gather_grain.xml"/>
+    <variant file="biped/female_gather_fruit.xml"/>
+    <variant file="biped/female_gather_meat.xml"/>
+    <variant file="biped/female_gather_rock.xml"/>
+    <variant file="biped/female_gather_ore.xml"/>
+    <variant file="biped/female_gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/female_build.xml"/>
+    <variant file="biped/female_build_farm.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

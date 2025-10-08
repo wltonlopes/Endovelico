@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-10-08T18:30:23</created>
+    <modified>2025-10-08T18:30:23</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Text_creek-effect">
+      <profile_COMMON>
+        <newparam sid="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b-surface">
+          <surface type="2D">
+            <init_from>_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b-sampler">
+          <sampler2D>
+            <source>_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b" name="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b">
+      <init_from>/home/welton/Downloads/2003775551_A-catlogounisCree.png.208be3c19eaf44c35690c5f3d3265b18.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Text_creek-material" name="Text creek">
+      <instance_effect url="#Text_creek-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_562-mesh" name="Cubo.562">
+      <mesh>
+        <source id="Cubo_562-mesh-positions">
+          <float_array id="Cubo_562-mesh-positions-array" count="48">-1.430721 -1.71087 -1.751246 -1.22321 -1.857544 -1.75685 -0.8489281 -0.9237416 -2.600846 -0.3533398 -0.4194719 -0.3692682 -0.6413589 -1.070646 -2.60632 -0.03069841 -0.252705 -0.6540414 -0.2361778 -0.1030201 -0.6516622 -0.2979725 -0.4581226 -0.3710974 0.3776028 0.2903278 0.6398589 0.1730848 0.4413102 0.6407287 0.2594118 0.559844 0.5191586 0.4639358 0.4088687 0.5182757 -0.9082294 -1.011083 -0.6836157 -0.1106799 -0.3590283 -1.54127 -0.7021908 -1.159727 -0.6878821 -0.3168221 -0.2102143 -1.53707</float_array>
+          <technique_common>
+            <accessor source="#Cubo_562-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_562-mesh-normals">
+          <float_array id="Cubo_562-mesh-normals-array" count="84">0.3918336 0.5255073 0.7551878 -0.4403485 -0.6280911 0.6415566 0.4442793 0.6339936 -0.6329835 0.3918366 0.5255048 0.7551879 0.8038255 -0.594864 -0.001194834 -0.7608721 0.5745466 -0.301612 0.8031067 -0.5958317 -0.002064168 0.2012704 0.3056957 -0.9306129 0.8883805 -0.4414482 -0.1261098 -0.4838768 -0.6588693 0.5759814 0.4196745 0.5725404 -0.704323 -0.3811933 -0.5119229 -0.7698225 -0.3812167 -0.5119265 -0.7698085 -0.8030771 0.5958703 0.002441823 -0.5810277 -0.7999844 0.149773 -0.7782493 0.6253548 0.05709332 -0.4326153 -0.6351079 0.6399078 0.4362249 0.6412805 -0.6312425 0.7701061 -0.5591453 -0.3070721 -0.8037366 0.5949842 0.001153349 0.8031384 -0.5957873 -0.002537727 0.1873912 0.3125097 -0.9312477 0.8284889 -0.5582761 0.04397749 -0.4764561 -0.6632274 0.5771647 0.389223 0.5910016 -0.7065569 -0.8030453 0.5959149 0.00196737 -0.5768621 -0.8032732 0.148265 -0.6815974 0.7218571 -0.1197801</float_array>
+          <technique_common>
+            <accessor source="#Cubo_562-mesh-normals-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_562-mesh-map-0">
+          <float_array id="Cubo_562-mesh-map-0-array" count="168">0.2554803 0.9661272 0.2524392 0.9716945 0.252439 0.9661291 0.2439635 0.9908414 0.2599679 0.984534 0.2439437 0.9845856 0.2439252 0.9845744 0.2597115 0.9907745 0.2596917 0.9845225 0.2554803 0.9661272 0.2554803 0.9716845 0.2524392 0.9716945 0.2734401 0.8989083 0.2699651 0.9050323 0.2753861 0.9050872 0.2734299 0.8988175 0.2699539 0.9050393 0.2718777 0.8988627 0.2753861 0.9050872 0.2699723 0.9128655 0.2754017 0.9129204 0.2596719 0.9782706 0.2439252 0.9845744 0.2596917 0.9845225 0.2600403 0.9908403 0.2439374 0.9783144 0.2600539 0.9783661 0.2439634 0.9907988 0.2599482 0.978281 0.2599875 0.9907507 0.2439054 0.9783234 0.2597113 0.9907476 0.2439449 0.9907951 0.2554782 0.9661437 0.2554785 0.9716711 0.2524439 0.9716821 0.2554782 0.9661437 0.2524439 0.9716821 0.2524437 0.9661457 0.2753417 0.9049962 0.2699606 0.9128744 0.2699539 0.9050393 0.2439437 0.9845856 0.2599482 0.978281 0.2439239 0.9783296 0.2599875 0.9907607 0.2439054 0.9783234 0.2439449 0.990809 0.2439635 0.9908414 0.2599877 0.9907932 0.2599679 0.984534 0.2439252 0.9845744 0.243945 0.9908218 0.2597115 0.9907745 0.2734401 0.8989083 0.2718808 0.8988531 0.2699651 0.9050323 0.2734299 0.8988175 0.2753417 0.9049962 0.2699539 0.9050393 0.2753861 0.9050872 0.2699651 0.9050323 0.2699723 0.9128655 0.2596719 0.9782706 0.2439054 0.9783234 0.2439252 0.9845744 0.2600403 0.9908403 0.243974 0.9907885 0.2439374 0.9783144 0.2439634 0.9907988 0.2439239 0.9783296 0.2599482 0.978281 0.2439054 0.9783234 0.2596719 0.9782706 0.2597113 0.9907476 0.2753417 0.9049962 0.2753483 0.9128229 0.2699606 0.9128744 0.2439437 0.9845856 0.2599679 0.984534 0.2599482 0.978281 0.2599875 0.9907607 0.2599482 0.978281 0.2439054 0.9783234</float_array>
+          <technique_common>
+            <accessor source="#Cubo_562-mesh-map-0-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_562-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_562-mesh-positions"/>
+        </vertices>
+        <triangles material="Text_creek-material" count="28">
+          <input semantic="VERTEX" source="#Cubo_562-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_562-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_562-mesh-map-0" offset="2" set="0"/>
+          <p>4 0 0 0 0 1 1 0 2 2 1 3 13 1 4 15 1 5 14 2 6 0 2 7 12 2 8 4 3 9 2 3 10 0 3 11 6 4 12 12 4 13 15 4 14 5 5 15 14 5 16 7 5 17 15 6 18 0 6 19 2 6 20 3 7 21 14 7 22 12 7 23 10 8 24 3 8 25 6 8 26 10 9 27 5 9 28 11 9 29 7 10 30 9 10 31 8 10 32 8 11 33 9 11 34 10 11 35 8 12 36 10 12 37 11 12 38 13 13 39 1 13 40 14 13 41 15 14 42 5 14 43 6 14 44 11 15 45 7 15 46 8 15 47 2 16 48 4 16 49 13 16 50 14 17 51 1 17 52 0 17 53 6 18 54 3 18 55 12 18 56 5 19 57 13 19 58 14 19 59 15 20 60 12 20 61 0 20 62 3 21 63 7 21 64 14 21 65 10 22 66 9 22 67 3 22 68 10 23 69 6 23 70 5 23 71 7 24 72 3 24 73 9 24 74 13 25 75 4 25 76 1 25 77 15 26 78 13 26 79 5 26 80 11 27 81 5 27 82 7 27 83</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="a_creek_weapon_02" name="a_creek_weapon_02" type="NODE">
+        <matrix sid="transform">-0.3648489 0.2698702 0.001336749 0 0.2175206 0.2953985 -0.2671534 0 -0.1597389 -0.2141407 -0.3668428 -0.06616211 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_562-mesh" name="a_creek_weapon_02">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Text_creek-material" target="#Text_creek-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <node id="prop_f" name="prop_f" type="NODE">
+          <matrix sid="transform">-1.771572 1.0562 -0.7756334 -0.5153228 1.31039 1.434346 -1.039788 -0.6856686 0.006490687 -1.297199 -1.781254 -2.224344 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
