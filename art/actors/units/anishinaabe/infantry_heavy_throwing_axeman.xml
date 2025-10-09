@@ -3,10 +3,10 @@
   <castshadow/>
   <group>
     <variant file="biped/base_spearman_relax.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_pants.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_adena_heavy_01.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/anishinaabe/hat_bear.xml" attachpoint="helmet"/>
+       <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/anishinaabe_hair_male_01.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/tomahawk.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/tomahawk.xml" attachpoint="weapon_L"/>
       </props>
@@ -14,6 +14,19 @@
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures> 
+    </variant>
+  </group>
+  <group>
+    <variant frequency="70" name="a">
+      <props>
+        <prop actor="props/units/helmets/anishinaabe/hat_bear.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="30" name="b">
+      <mesh>skeletal/new/m_pants.dae</mesh>
+      <props>
+        <prop actor="props/units/special_decorations/anishinaabe/bear_d.xml" attachpoint="rerebrace_L"/>
+      </props>
     </variant>
   </group>
   <group>

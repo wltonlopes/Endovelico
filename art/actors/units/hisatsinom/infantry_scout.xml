@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_swordsman_shield_fast.xml">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/adenas/feather_01.xml" attachpoint="helmet"/> 
+        <prop actor="props/units/helmets/adenas/hat_deer.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/tomahawk.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="a">
+      <textures>
+        <texture file="skeletal/hisatsinom/civ_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="b">
+      <textures>
+        <texture file="skeletal/hisatsinom/civ_02.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c">
+      <textures>
+        <texture file="skeletal/hisatsinom/civ_03.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_scout_fast.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
