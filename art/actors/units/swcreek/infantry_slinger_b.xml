@@ -5,8 +5,8 @@
     <variant file="biped/base_slinger_ready.xml">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/adenas_hair_male_02.xml" attachpoint="head"/>   
+        <prop actor="props/units/heads/head_swcreek_01.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_swcreek_01.xml" attachpoint="head"/>   
         <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>

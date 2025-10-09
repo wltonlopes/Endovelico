@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-10-08T20:53:41</created>
+    <modified>2025-10-08T20:53:41</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Text_creek-effect">
+      <profile_COMMON>
+        <newparam sid="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b-surface">
+          <surface type="2D">
+            <init_from>_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b-sampler">
+          <sampler2D>
+            <source>_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b" name="_003775551_A-catlogounisCree_png_208be3c19eaf44c35690c5f3d3265b">
+      <init_from>/home/welton/Downloads/2003775551_A-catlogounisCree.png.208be3c19eaf44c35690c5f3d3265b18.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Text_creek-material" name="Text creek">
+      <instance_effect url="#Text_creek-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_078-mesh" name="Cube.078">
+      <mesh>
+        <source id="Cube_078-mesh-positions">
+          <float_array id="Cube_078-mesh-positions-array" count="24">-0.153805 -0.0609439 0.3947207 -0.3093284 -0.1003181 0.4722297 -0.1540166 0.03079986 0.3948946 -0.3097192 0.06916254 0.4725509 -0.0955525 -0.0609439 0.4655984 -0.201717 -0.1003181 0.6031638 -0.0957641 0.03079986 0.4657723 -0.2021079 0.06916254 0.6034851</float_array>
+          <technique_common>
+            <accessor source="#Cube_078-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_078-mesh-normals">
+          <float_array id="Cube_078-mesh-normals-array" count="30">-0.446185 6.67381e-4 -0.8949405 0.170446 0.9753586 -0.140085 0.7915707 6.67407e-4 0.6110772 0.1749402 -0.9740245 -0.1437785 -0.7725543 -0.002984821 0.6349418 -0.4461846 6.67198e-4 -0.8949407 0.170446 0.9753586 -0.140085 0.791571 6.67146e-4 0.611077 0.1749402 -0.9740244 -0.1437788 -0.7725543 -0.002985 0.6349418</float_array>
+          <technique_common>
+            <accessor source="#Cube_078-mesh-normals-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_078-mesh-map-0">
+          <float_array id="Cube_078-mesh-map-0-array" count="60">0.03344917 0.7808103 0.03102803 0.7720379 0.03344917 0.7720388 0.03102797 0.7808108 0.03344917 0.772037 0.03102803 0.7720379 0.03344917 0.772037 0.03570121 0.7808119 0.03570151 0.7720361 0.03570151 0.7720361 0.03344917 0.7808125 0.03344917 0.7720351 0.0356881 0.7785649 0.03344261 0.7808103 0.03344261 0.7785649 0.03344917 0.7808103 0.03102797 0.7808108 0.03102803 0.7720379 0.03102797 0.7808108 0.03344917 0.7808114 0.03344917 0.772037 0.03344917 0.772037 0.03344917 0.7808114 0.03570121 0.7808119 0.03570151 0.7720361 0.03570121 0.7808119 0.03344917 0.7808125 0.0356881 0.7785649 0.0356881 0.7808103 0.03344261 0.7808103</float_array>
+          <technique_common>
+            <accessor source="#Cube_078-mesh-map-0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_078-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_078-mesh-positions"/>
+        </vertices>
+        <triangles material="Text_creek-material" count="10">
+          <input semantic="VERTEX" source="#Cube_078-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_078-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_078-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 2 0 1 0 0 2 3 1 3 6 1 4 2 1 5 6 2 6 5 2 7 4 2 8 4 3 9 1 3 10 0 3 11 3 4 12 5 4 13 7 4 14 1 5 15 3 5 16 2 5 17 3 6 18 7 6 19 6 6 20 6 7 21 7 7 22 5 7 23 4 8 24 5 8 25 1 8 26 3 9 27 1 9 28 5 9 29</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="a_bun_02" name="a_bun_02" type="NODE">
+        <matrix sid="transform">1.029779 0 0 0 0 1.029779 0 0 0 0 1.029779 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_078-mesh" name="a_bun_02">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Text_creek-material" target="#Text_creek-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

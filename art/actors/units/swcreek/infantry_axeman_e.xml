@@ -5,9 +5,9 @@
     <variant file="biped/base_spearman_relax.xml">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/adenas/feather_01.xml" attachpoint="helmet"/>  
-        <prop actor="props/units/helmets/adenas/hat_texugo.xml" attachpoint="helmet"/>       
+        <prop actor="props/units/heads/head_swcreek_01.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_swcreek_01.xml" attachpoint="head"/>   
+        <prop actor="props/units/helmets/swcreek/feather_01.xml" attachpoint="helmet"/>     
         <prop actor="props/units/weapons/tomahawk.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
