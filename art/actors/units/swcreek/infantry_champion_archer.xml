@@ -3,15 +3,14 @@
   <castshadow/>
   <group>
     <variant name="Base">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_pants.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_swcreek_01.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/hair_swcreek_01.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/adenas/feather_02.xml" attachpoint="helmet"/> 
+        <prop actor="props/units/helmets/adena/feather_02.xml" attachpoint="helmet"/> 
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_long_indian.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
-        <prop actor="props/units/helmets/lenca_helmet.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -22,17 +21,17 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/swcreek/c_01.png" name="baseTex"/>
+        <texture file="skeletal/swcreek/c_r_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/swcreek/c_02.png" name="baseTex"/>
+        <texture file="skeletal/swcreek/c_r_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/swcreek/c_03.png" name="baseTex"/>
+        <texture file="skeletal/swcreek/c_r_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

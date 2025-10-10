@@ -13,6 +13,6 @@
     <WalkSpeed op="mul">1.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_clubman.xml</Actor>
+    <Actor>units/anishinaabe/infantry_champion_clubman.xml</Actor>
   </VisualActor>
 </Entity>

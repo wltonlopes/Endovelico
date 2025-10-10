@@ -23,7 +23,7 @@
     <Entity>units/araw/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/south_america/infantry_spearman_b.xml</Actor>
+    <Actor>units/swcreek/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>
 

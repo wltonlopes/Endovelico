@@ -5,7 +5,7 @@
     <variant file="biped/base_swordsman_shield_fast.xml">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_swcreek_01.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_swcreek_scout.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/hair_swcreek_01.xml" attachpoint="head"/>   
         <prop actor="props/units/helmets/swcreek/feather_01.xml" attachpoint="helmet"/>  
         <prop actor="props/units/weapons/tomahawk.xml" attachpoint="weapon_R"/>

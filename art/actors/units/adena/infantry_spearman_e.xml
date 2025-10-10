@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/adenas/hat_beaver.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/adena/hat_beaver.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
       </props>
       <textures>

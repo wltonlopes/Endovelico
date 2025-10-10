@@ -5,8 +5,7 @@
     <variant frequency="40" name="Base-b">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/hairs/anishinaabe_hair_female.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/head_south_america_female_base.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_female.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

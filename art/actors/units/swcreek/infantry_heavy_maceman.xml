@@ -2,12 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_relax.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant file="biped/base_axeman_shield_fast_relax.xml">
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_adena_heavy_01.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/adenas/hat_lynx.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/war_club.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/head_swcreek_01.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_swcreek_01.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/swcreek/feather_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/war_club_creek.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
       </props>
       <textures>

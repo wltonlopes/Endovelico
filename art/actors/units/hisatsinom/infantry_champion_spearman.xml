@@ -3,15 +3,11 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_pants.dae</mesh>
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_hisatsinom_male.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/anishinaabe_hair_male_01.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/special_decorations/anishinaabe/arm_r.xml" attachpoint="rerebrace_R"/>
-        <prop actor="props/units/special_decorations/anishinaabe/arm_l.xml" attachpoint="rerebrace_L"/>
-        <prop actor="props/units/special_decorations/anishinaabe/leg_r.xml" attachpoint="leg_R"/>
-        <prop actor="props/units/special_decorations/anishinaabe/leg_l.xml" attachpoint="leg_L"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -22,17 +18,17 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/hisatsinom/c_m_01.png" name="baseTex"/>
+        <texture file="skeletal/hisatsinom/c_m_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/hisatsinom/c_m_02.png" name="baseTex"/>
+        <texture file="skeletal/hisatsinom/c_m_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/hisatsinom/c_m_03.png" name="baseTex"/>
+        <texture file="skeletal/hisatsinom/c_m_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

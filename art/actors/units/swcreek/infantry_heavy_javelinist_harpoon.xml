@@ -8,7 +8,7 @@
         <prop actor="props/units/heads/head_adena_heavy_02.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/hair_swcreek_01.xml" attachpoint="head"/>   
         <prop actor="props/units/weapons/harpoons_three.xml" attachpoint="weapon_L"/>
-        <prop actor="props/units/helmets/adenas/feather_02.xml" attachpoint="helmet"/>  
+        <prop actor="props/units/helmets/adena/hat_bear.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/harpoon.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/harpoon.xml" attachpoint="weapon_R"/>
       </props>
@@ -21,17 +21,17 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/swcreek/hi_01.png" name="baseTex"/>
+        <texture file="skeletal/swcreek/hir_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/swcreek/hi_02.png" name="baseTex"/>
+        <texture file="skeletal/swcreek/hir_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/swcreek/hi_03.png" name="baseTex"/>
+        <texture file="skeletal/swcreek/hir_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

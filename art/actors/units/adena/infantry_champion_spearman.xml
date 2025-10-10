@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/adenas_hair_male_01.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/adenas/feather_02.xml" attachpoint="helmet"/>  
+        <prop actor="props/units/helmets/adena/feather_02.xml" attachpoint="helmet"/>  
         <prop actor="props/units/cloak/cloak_native_male_01.xml" attachpoint="shoulderpad_L"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
       </props>

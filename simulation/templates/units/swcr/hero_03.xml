@@ -10,6 +10,6 @@
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_clubman.xml</Actor>
+    <Actor>units/swcreek/hero_03.xml</Actor>
   </VisualActor>
 </Entity>

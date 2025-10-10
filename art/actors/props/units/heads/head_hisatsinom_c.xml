@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Head 1">
+      <mesh>props/head/head_male_long_hair.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="01">
+      <textures><texture file="props/head/hisatsinom/head_c_01.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

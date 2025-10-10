@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+   <castshadow/>
+    <group>
+    <variant frequency="1" name="Base">
+      <textures>
+        <texture file="props/hisatsinom_props.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+    </group>
+    <group>
+        <variant name="1">
+            <mesh>props/weapon/throwing_stick.dae</mesh>
+        </variant>
+    </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

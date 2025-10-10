@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Head 1">
+      <mesh>props/new/dude_head.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="mayan Face a">
+      <textures><texture file="props/head/swcreek/head_him_01.png" name="baseTex"/></textures>
+    </variant>
+	 <variant frequency="1" name="texture b">
+      <textures><texture file="props/head/swcreek/head_him_02.png" name="baseTex"/></textures>
+	  </variant>
+	 <variant frequency="1" name="texture c">
+      <textures><texture file="props/head/swcreek/head_him_03.png" name="baseTex"/></textures>
+	  </variant>
+	 <variant frequency="1" name="texture d">
+      <textures><texture file="props/head/swcreek/head_him_04.png" name="baseTex"/></textures>
+	  </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

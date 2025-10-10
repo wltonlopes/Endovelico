@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="<infantry_cavalry|template_unit_infantry_ranged_javelineer">
+<Entity parent="<infantry_cavalry|template_unit_infantry_ranged_javelineer>">
   <Attack>
     <Ranged>
       <ApplyStatus>
@@ -36,6 +36,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/maya_protoclassic/infantry_guardian_nobre.xml</Actor>
+    <Actor>units/maya_protoclassic/infantry_guardian_noble.xml</Actor>
   </VisualActor>
 </Entity>
