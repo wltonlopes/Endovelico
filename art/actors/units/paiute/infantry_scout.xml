@@ -5,32 +5,30 @@
     <variant file="biped/base_spearman_relax.xml">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/paiute/helmet_rabbit.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_lenca.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="a">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/mayas/lenca_b_1.png" name="baseTex"/>
+        <texture file="skeletal/paiute/civ_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="b">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/mayas/lenca_b_2.png" name="baseTex"/>
+        <texture file="skeletal/paiute/civ_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/mayas/lenca_b_3.png" name="baseTex"/>
+        <texture file="skeletal/paiute/civ_03.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>

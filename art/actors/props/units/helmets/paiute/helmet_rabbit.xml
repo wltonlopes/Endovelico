@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Grey 1" frequency="100">
+      <textures>
+        <texture file="skeletal/animal_rabbit_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Grey 2" frequency="100">
+      <textures>
+        <texture file="skeletal/animal_rabbit_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="White" frequency="1">
+      <textures>
+        <texture file="skeletal/animal_rabbit_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Red" frequency="100">
+      <textures>
+        <texture file="skeletal/animal_rabbit_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Red 2" frequency="100">
+      <textures>
+        <texture file="skeletal/animal_rabbit_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Base_1">
+      <mesh>props/helmet/paiute/helmet_rabbit.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>
