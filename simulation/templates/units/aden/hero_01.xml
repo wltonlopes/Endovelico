@@ -12,6 +12,6 @@
     <WalkSpeed op="mul">1.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_clubman.xml</Actor>
+    <Actor>units/adena/hero_01.xml</Actor>
   </VisualActor>
 </Entity>

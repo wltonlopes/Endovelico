@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Auras datatype="tokens">
+    units/carnyx
+  </Auras>
+  <Heal>
+    <Range>18</Range>
+    <Health>6</Health>
+  </Heal>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <Civ>swcr</Civ>
+    <GenericName>Mayan High Priest</GenericName>
+    <SpecificName>Aj K'in</SpecificName>
+    <Icon>units/mayap/champion_healer.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/swcreek/champion_support_healer_male.xml</Actor>
+  </VisualActor>
+</Entity>

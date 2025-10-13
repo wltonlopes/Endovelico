@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>swcr</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/mayap/heavy_infantry</SelectionGroupName>
+    <GenericName>Eagle Warrior</GenericName>
+    <SpecificName>Aj witz mo B'ate</SpecificName>
+    <Icon>units/mayap/cavalry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/swcreek/infantry_heavy_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

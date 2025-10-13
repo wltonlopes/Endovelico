@@ -1,0 +1,9 @@
+<Entity parent="units/paiu/infantry_axeman_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/paiute/infantry_axeman_e.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -8,6 +8,6 @@
     <Icon>units/zapo/champion_spearman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/south_america/healer.xml</Actor>
+    <Actor>units/hisatsinom/healer.xml</Actor>
   </VisualActor>
 </Entity>

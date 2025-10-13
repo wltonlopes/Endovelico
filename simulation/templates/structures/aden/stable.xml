@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic">
+<Entity parent="template_structure_military_stable">
   <Auras datatype="tokens">
     structures/kush_pyramids_military
   </Auras>
@@ -24,12 +24,9 @@
   <Identity>
     <Civ>aden</Civ>
     <GenericName>Large Pyramid</GenericName>
-    <SpecificName>mr ʿȝ</SpecificName>
+    <SpecificName></SpecificName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
-    <Requirements>
-      <Techs datatype="tokens">phase_town</Techs>
-    </Requirements>
     <Icon>structures/mayap/pyramid.png</Icon>
   </Identity>
   <Loot>
@@ -39,8 +36,6 @@
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
-  <ProductionQueue disable=""/>
-  <Researcher disable=""/>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_temple_10.xml</select>
@@ -55,7 +50,6 @@
     <Radius>40</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence> 
-  <Trainer disable=""/>
   <Vision>
     <Range>40</Range>
   </Vision>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_cavalry_range_ throwing">
+  <Identity>
+    <Civ>aden</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/mayap/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Jaguar Warrior</GenericName>
+    <SpecificName>Aj Balam B'ate</SpecificName>
+    <Icon>units/mayap/cavalry_axeman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/adena/infantry_heavy_throwing_axeman.xml</Actor>
+  </VisualActor>
+</Entity>

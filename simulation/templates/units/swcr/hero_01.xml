@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_spearman">
 
   <Identity>
-    <Civ>mapu</Civ>
+    <Civ>swcr</Civ>
     <GenericName></GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>

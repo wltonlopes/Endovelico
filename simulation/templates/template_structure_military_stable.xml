@@ -67,6 +67,7 @@
       units/{civ}/cavalry_javelineer_b
       units/{civ}/cavalry_archer_b
       units/{civ}/cavalry_crossbowman_b
+      units/{civ}/cavalry_throwing_b
       units/{civ}/champion_cavalry
       units/{civ}/champion_cavalry_spearman
       units/{civ}/champion_cavalry_swordsman

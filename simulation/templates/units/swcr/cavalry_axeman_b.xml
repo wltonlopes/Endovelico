@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_axeman">
+  <Identity>
+    <Civ>swcr</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/mayap/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Jaguar Warrior</GenericName>
+    <SpecificName>Aj Balam B'ate</SpecificName>
+    <Icon>units/mayap/cavalry_axeman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/swcreek/infantry_heavy_maceman.xml</Actor>
+  </VisualActor>
+</Entity>
