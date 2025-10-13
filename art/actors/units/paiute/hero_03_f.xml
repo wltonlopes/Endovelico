@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/hairs/anishinaabe_hair_female.xml" attachpoint="head"/>
         <prop actor="props/units/heads/head_south_america_female_base.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/anishinaabe/hero_headress.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/paiute/helmet_wood.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
       </props>
       <textures>

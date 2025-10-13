@@ -2,51 +2,47 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_pants.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
-        <prop actor="props/units/helmet/paiute/headdress.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/paiute/headdress.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/special_decorations/anishinaabe/arm_r.xml" attachpoint="rerebrace_R"/>
-        <prop actor="props/units/special_decorations/anishinaabe/arm_l.xml" attachpoint="rerebrace_L"/>
-        <prop actor="props/units/special_decorations/anishinaabe/leg_r.xml" attachpoint="leg_R"/>
-        <prop actor="props/units/special_decorations/anishinaabe/leg_l.xml" attachpoint="leg_L"/>
+        <prop actor="props/units/capes/cape_long_gaul.xml" attachpoint="root"/>
       </props>
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>                                                                                                                                                                                                                                                                                                 
+    </variant>
   </group>
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/paiute/c_m_01.png" name="baseTex"/>
+        <texture file="skeletal/paiute/c_m_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/paiute/c_m_02.png" name="baseTex"/>
+        <texture file="skeletal/paiute/c_m_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/paiute/c_m_03.png" name="baseTex"/>
+        <texture file="skeletal/paiute/c_m_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_relax.xml"/>
-    <variant file="biped/approach_praise.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_spearman_shield_relax_celt_fast.xml" name="Spearman-Shield-Relax-Fast"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_cape_gaul.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

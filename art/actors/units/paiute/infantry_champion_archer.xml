@@ -2,20 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Base">
-      <mesh>skeletal/new/m_armor_pants.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
-        <prop actor="props/units/helmet/pauite/headdress.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/paiute/headdress.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_long_indian.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
-        <prop actor="props/units/helmets/lenca_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/capes/cape_med_player_archer_hip.xml" attachpoint="root"/>
       </props>
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
     </variant>
   </group>
   <group>
@@ -36,17 +33,24 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_archer_relax.xml"/>
-    <variant file="biped/approach_ruins.xml"/>
-    <variant file="biped/approach_praise.xml"/>
+    <variant file="biped/base_archer_relax.xml" frequency="1" name="Archer-Relax"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/attack_ranged_archer_hip.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/capes/cape_med_player.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_archer_fire.xml"/>
-    <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

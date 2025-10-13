@@ -31,6 +31,10 @@
   <group>
     <variant frequency="100" name="Base_1">
       <mesh>props/helmet/paiute/helmet_rabbit.dae</mesh>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <material>basic_trans_parallax_spec.xml</material>
