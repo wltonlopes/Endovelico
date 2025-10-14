@@ -75,7 +75,7 @@
       units/{civ}/champion_cavalry_archer
       units/{civ}/champion_cavalry_crossbowman
       units/{civ}/champion_chariot
-      units/{civ}/war_dog
+      units/{civ}/war_dog_b
     </Entities>
   </Trainer>
   <Vision>

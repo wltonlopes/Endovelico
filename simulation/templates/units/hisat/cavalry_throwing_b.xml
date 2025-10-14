@@ -13,6 +13,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/hisatsinom/infantry_heavy_throwing_axeman.xml</Actor>
+    <Actor>units/hisatsinom/infantry_heavy_boomerang.xml</Actor>
   </VisualActor>
 </Entity>

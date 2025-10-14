@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_dog">
+  <Identity>
+    <Civ>paiu</Civ>
+    <SelectionGroupName>units/pauite/war_dog_b</SelectionGroupName>
+    <SpecificName>Dog</SpecificName>
+    <Icon>units/brit/war_dog.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <TrainingRestrictions>
+    <Category>Dog</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/paiute/dog_b.xml</Actor>
+  </VisualActor>
+</Entity>

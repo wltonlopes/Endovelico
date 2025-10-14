@@ -2,8 +2,7 @@
 <Entity parent="template_unit_champion_healer">
   <Identity>
     <Civ>hisat</Civ>
-    <GenericName>Priests.
-    </GenericName>
+    <GenericName>Priests</GenericName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/champion_spearman.png</Icon>
   </Identity>

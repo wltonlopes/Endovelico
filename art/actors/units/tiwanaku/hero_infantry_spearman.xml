@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base_pikeman_relax">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america_male_old.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/helmet_tiwa.xml" attachpoint="head"/>

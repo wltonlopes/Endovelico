@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant file="biped/base_axeman_shield_fast_relax.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/helmet_tiwa.xml" attachpoint="head"/>

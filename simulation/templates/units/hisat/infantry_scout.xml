@@ -6,6 +6,6 @@
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/paiutes/infantry_scout.xml</Actor>
+    <Actor>units/hisatsinom/infantry_scout.xml</Actor>
   </VisualActor>
 </Entity>

@@ -6,7 +6,7 @@
     <variant>
       <mesh>structural/south_america/iberena.dae</mesh>
       <props>
-        <prop actor="units/zapotecs/canoe_navigator.xml" attachpoint="nav1"/>	   
+        <prop actor="units/south_america/raft_navigator.xml" attachpoint="nav1"/>	   
       </props>
       <textures>
         <texture file="structural/tupi_struct.png" name="baseTex"/>

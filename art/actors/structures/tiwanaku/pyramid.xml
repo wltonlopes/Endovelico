@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/tiwanaku/piramyd.dae</mesh>
+      <mesh>structural/tiwanaku/pyramid.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
       </props>

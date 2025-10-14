@@ -9,9 +9,9 @@
     <Icon>units/south_america/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/aden/infantry_archer_a</Entity>
+    <Entity>units/hisat/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/south_america/infantry_archer_b.xml</Actor>
+    <Actor>units/hisatsinom/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -8,9 +8,9 @@
     <Icon>units/south_america/support_healer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/aden/support_healer_a</Entity>
+    <Entity>units/hisat/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/south_america/healer.xml</Actor>
+    <Actor>units/hisatsinom/healer.xml</Actor>
   </VisualActor>
 </Entity>

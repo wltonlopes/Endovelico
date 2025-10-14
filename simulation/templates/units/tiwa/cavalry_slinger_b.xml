@@ -45,6 +45,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>units/mochicas/infantry_bolas.xml</Actor>
+    <Actor>units/mochicas/infantry_heavy_bolas.xml</Actor>
   </VisualActor>
 </Entity>
