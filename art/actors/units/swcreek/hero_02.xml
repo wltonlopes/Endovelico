@@ -7,9 +7,7 @@
       <props>
         <prop actor="props/units/hairs/head_swcreek_hero.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/heads/head_swcreek_hero.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/adena/hero_headdress.xml" attachpoint="helmet"/>
-        <prop actor="props/units/hairs/hair_swcreek_01.xml" attachpoint="head"/>   
+        <prop actor="props/units/helmets/adena/hero_headress.xml" attachpoint="helmet"/>  
       </props>
       <textures>
         <texture file="skeletal/swcreek/hero_02.png" name="baseTex"/>

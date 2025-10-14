@@ -3,11 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/mayap/pyramid_large
-      structures/mayap/observatory
-      structures/mayap/embassy
       structures/mayap/temple_of_masks
-      structures/mayap/range
-      structures/mayap/palace
     </Entities>
   </Builder>
   <Cost>

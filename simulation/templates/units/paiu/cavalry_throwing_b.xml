@@ -3,9 +3,9 @@
   <Identity>
     <Civ>paiu</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/cavalry_axeman_b</SelectionGroupName>
-    <GenericName>Jaguar Warrior</GenericName>
-    <SpecificName>Aj Balam B'ate</SpecificName>
+    <SelectionGroupName>units/paiute/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Throwing warrior</GenericName>
+    <SpecificName>Throwing Wabbit stick</SpecificName>
     <Icon>units/mayap/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
@@ -13,6 +13,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/paiute/infantry_heavy_throwing_axeman.xml</Actor>
+    <Actor>units/paiute/infantry_heavy_boomerang.xml</Actor>
   </VisualActor>
 </Entity>
