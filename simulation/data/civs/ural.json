@@ -61,5 +61,5 @@
         "skirmish/units/default_cavalry_ranged_b": "units/ural/cavalry_archer_b",
         "skirmish/units/default_ship_trireme": "units/ural/ship_bireme"
     },
-    "SelectableInGameSetup": false
+    "SelectableInGameSetup": true
 }

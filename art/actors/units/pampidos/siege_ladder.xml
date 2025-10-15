@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant>
+      <mesh>props/ladder.dae</mesh>
+      <props>
+        <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_1"/>	
+        <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_2"/>  
+      </props>
+      <textures>
+        <texture file="props/paiute_props.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="Death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

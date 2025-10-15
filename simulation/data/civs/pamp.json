@@ -42,8 +42,8 @@
         }
     ],
     "AINames": [
-        "Jimmu",
-        "Suinin"
+        "01",
+        "02"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/pamp/infantry_scout",

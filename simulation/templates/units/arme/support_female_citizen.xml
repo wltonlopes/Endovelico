@@ -7,6 +7,6 @@
     <Icon>units/thra/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/thracians/female_citizen.xml</Actor>
+    <Actor>units/persian/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

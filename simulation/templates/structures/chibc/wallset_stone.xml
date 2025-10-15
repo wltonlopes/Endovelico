@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/aden/wall_tower</Tower>
-      <Gate>structures/aden/wall_gate</Gate>
-      <WallLong>structures/aden/wall_long</WallLong>
-      <WallMedium>structures/aden/wall_medium</WallMedium>
-      <WallShort>structures/aden/wall_short</WallShort>
+      <Tower>structures/chibc/wall_tower</Tower>
+      <Gate>structures/chibc/wall_gate</Gate>
+      <WallLong>structures/chibc/wall_long</WallLong>
+      <WallMedium>structures/chibc/wall_medium</WallMedium>
+      <WallShort>structures/chibc/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
