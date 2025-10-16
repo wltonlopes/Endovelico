@@ -49,6 +49,6 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/scythians/royal_yurt_chariot_unpacked.xml</Actor>
-    <FoundationActor>structures/scythians/civic_centre_foundation.xml</FoundationActor>
+    <FoundationActor>structures/fndn_7x7_round.xml</FoundationActor>
   </VisualActor>
 </Entity>

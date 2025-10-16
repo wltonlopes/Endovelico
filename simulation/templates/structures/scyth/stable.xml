@@ -37,6 +37,6 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/scythians/stable.xml</Actor>
-    <FoundationActor>structures/scythians/corral_foundation.xml</FoundationActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

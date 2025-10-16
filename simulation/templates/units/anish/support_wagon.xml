@@ -17,6 +17,6 @@
     </UnPackHouse>
   </Upgrade> -->
   <VisualActor>
-    <Actor>units/anishinaabe/trader.xml</Actor>
+    <Actor>units/anishinaabe/trader_h.xml</Actor>
   </VisualActor>
 </Entity>

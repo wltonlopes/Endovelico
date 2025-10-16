@@ -2,10 +2,10 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Aj Kon</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/anishinaabe/trader.xml</Actor>
+    <Actor>units/anishinaabe/trader_h.xml</Actor>
   </VisualActor>
 </Entity>

@@ -4,10 +4,10 @@
   <float/>
   <group>
     <variant>
-      <mesh>props/ladder_siege.dae</mesh>
+      <mesh>props/ladder.dae</mesh>
       <props>
-        <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_1"/>	
-        <prop actor="units/maya_protoclassic/infantry_carregador.xml" attachpoint="c_2"/>  
+        <prop actor="units/paiute/infantry_operador_ladder.xml" attachpoint="c_1"/>	
+        <prop actor="units/paiute/infantry_operador_ladder.xml" attachpoint="c_2"/>  
       </props>
       <textures>
         <texture file="props/paiute_props.png" name="baseTex"/>

@@ -9,20 +9,15 @@
   </Health>
   <Identity>
     <Civ>anish</Civ>
-    <GenericName>Ainu Village</GenericName>
-    <SpecificName>Kotan</SpecificName>
+    <GenericName>embassy</GenericName>
+    <SpecificName>sawgee</SpecificName>
     <Icon>structures/military_settlement.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
   </Obstruction>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman_b
-    </Entities>
-  </Trainer>
   <VisualActor>
-    <Actor>structures/anishinaabe/embassy.xml</Actor>
+    <Actor>structures/anishinaabe/sawgee.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>
