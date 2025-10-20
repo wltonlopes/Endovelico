@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy">
+	<Footprint>
+		<Square width="24.0" depth="24.0"/>
+		<Height>12.0</Height>
+	</Footprint>
+	<Identity>
+		<Civ>araw</Civ>
+		<GenericName>Kariphuna Bohío</GenericName>
+		<Tooltip>Train Blemmye Mercenaries.</Tooltip>
+		<Classes datatype="tokens">CivSpecific</Classes>
+		<Icon>structures/mercenary_camp.png</Icon>
+	</Identity>
+	<Trainer>
+		<Entities datatype="tokens">
+			units/{native}/cavalry_javelineer_merc_b
+		</Entities>
+	</Trainer>
+	<VisualActor>
+		<Actor>structures/arawaks/karipona.xml</Actor>
+		<FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+	</VisualActor>
+</Entity>

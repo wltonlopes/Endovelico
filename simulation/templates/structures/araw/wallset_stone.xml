@@ -2,7 +2,7 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>araw</Civ>
-    <SpecificName>Yōng</SpecificName>
+    <SpecificName>Huma Abá</SpecificName>
   </Identity>
   <WallSet>
     <Templates>

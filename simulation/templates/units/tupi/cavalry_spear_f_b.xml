@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>tupi</Civ>
+    <SelectionGroupName>Levy Spearman</SelectionGroupName>
+    <SpecificName>Tairu-abá</SpecificName>
+    <Icon>units/south_america/support_female_citizen.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Phenotype>female</Phenotype>
+  </Identity>
+    <Promotion disable=""/>
+  <Upgrade>
+    <spear>
+      <Entity>units/tupi/cavalry_archer_b</Entity>
+      <Tooltip>Switch to using a archer.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Time>5</Time>
+    </spear>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/tupis/female_spear.xml</Actor>
+  </VisualActor>
+</Entity>
+
+

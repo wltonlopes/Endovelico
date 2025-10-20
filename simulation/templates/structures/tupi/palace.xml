@@ -16,8 +16,8 @@
   </Health>
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName>Palace</GenericName>
-    <SpecificName>Otooch</SpecificName>
+    <GenericName>Cheaf House</GenericName>
+    <SpecificName>Oka-Ubusu</SpecificName>
     <Tooltip>Territory root. Train Maiden Guards and Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>

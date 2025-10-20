@@ -27,7 +27,10 @@
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PreferredClasses datatype="tokens">
+        Structure
+        !Permanent
+      </PreferredClasses>
       <RangeOverlay>
         <LineTexture>outline_border.png</LineTexture>
         <LineTextureMask>outline_border_mask.png</LineTextureMask>
@@ -97,6 +100,7 @@
   </UnitAI>
   <UnitMotion>
     <WalkSpeed>12</WalkSpeed>
+    <Acceleration op="mul">1</Acceleration>
   </UnitMotion>
   <Vision>
     <Range>80</Range>

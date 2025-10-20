@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/hisatsinom/barracks.dae</mesh>
+      <mesh>structural/hisatsinom/arsenal.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="structures/hisatsinom/barracks_f.xml" attachpoint="root"/>    

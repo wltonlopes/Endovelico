@@ -69,7 +69,7 @@
       units/{civ}/siege_ram
       units/{civ}/siege_tower
       units/{civ}/siege_incediary_archer_packed
-      units/{civ}/infantry_incendiary
+      units/{civ}/siege_infantry_incendiary
       units/{civ}/siege_ladder
     </Entities>
   </Trainer>

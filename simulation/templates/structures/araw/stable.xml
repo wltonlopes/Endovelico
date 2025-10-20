@@ -3,7 +3,7 @@
   <Identity>
     <Civ>araw</Civ>
     <GenericName>Stable</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Sicári Bohío Abá</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/arawaks/war_house.xml</Actor>

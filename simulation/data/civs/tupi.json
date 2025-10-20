@@ -34,10 +34,6 @@
             "Count": 2
         },
         {
-            "Template": "units/tupi/cavalry_archer_b",
-            "Count": 1
-        },
-        {
             "Template": "units/tupi/infantry_scout",
             "Count": 1
         }
@@ -52,7 +48,6 @@
         "skirmish/units/default_cavalry": "units/tupi/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/tupi/infantry_maceman_b",
         "skirmish/units/default_infantry_ranged_b": "units/tupi/infantry_archer_b",
-        "skirmish/units/special_starting_unit": "units/tupi/cavalry_archer_b",
         "skirmish/units/default_ship_trireme": "units/tupi/ship_bireme"
     },
     "SelectableInGameSetup": true

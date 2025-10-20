@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>araw</Civ>
-    <SpecificName>Nezirö</SpecificName>
+    <SpecificName>Bohío Abá</SpecificName>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

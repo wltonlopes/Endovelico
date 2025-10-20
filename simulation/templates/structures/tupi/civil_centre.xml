@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>tupi</Civ>
-    <SpecificName>Nezirö</SpecificName>
+    <SpecificName>Taba-etá</SpecificName>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

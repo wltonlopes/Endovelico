@@ -6,14 +6,20 @@
     <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
     <GenericName>Female Archer</GenericName>
     <SpecificName>Aimberê</SpecificName>
-    <Icon>units/south_america/cavalry_javelineer.png</Icon>
+    <Icon>units/south_america/support_female_citizen.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <Phenotype>female</Phenotype>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>
-  <Promotion>
-    <Entity>units/tupi/cavalry_archer_a</Entity>
-  </Promotion> 
+    <Promotion disable=""/>
+  <Upgrade>
+    <spear>
+      <Entity>units/tupi/cavalry_spear_f_b</Entity>
+      <Tooltip>Switch to using a spear.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Time>5</Time>
+    </spear>
+  </Upgrade>
   <VisualActor>
     <Actor>units/tupis/female_archer.xml</Actor>
   </VisualActor>

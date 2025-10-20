@@ -5,7 +5,7 @@
     <variant frequency="1" name="kiva">
       <mesh>structural/hisatsinom/kiva.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/hisat_struct.png" name="baseTex"/>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>tupi</Civ>
-    <SpecificName>Kanutiya</SpecificName>
+    <SpecificName>Itá-mbo-oka</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

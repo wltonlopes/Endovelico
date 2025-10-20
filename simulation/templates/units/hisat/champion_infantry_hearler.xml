@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_healer">
+<Entity parent="template_unit_champion_infantry_high_priest">
   <Identity>
     <Civ>hisat</Civ>
     <GenericName>Priests</GenericName>

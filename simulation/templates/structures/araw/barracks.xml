@@ -10,22 +10,17 @@
   <Identity>
     <Civ>araw</Civ>
     <GenericName>Barracks</GenericName>
-    <SpecificName>Sikömi nö Nipa</SpecificName>
+    <SpecificName>Sicári Caye</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      south_america/peabiru
     </Technologies>
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_javelineer_b
-      units/{civ}/infantry_pikeman_b
-      units/{civ}/infantry_archer_b
-      units/{civ}/infantry_slinger_b
       units/{civ}/champion_infantry_swordsman
       units/{civ}/champion_infantry_axeman
     </Entities>
