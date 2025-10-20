@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>toqui</GenericName>
+    <SpecificName>toqui</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>

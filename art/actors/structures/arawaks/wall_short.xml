@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/arawaks/wall_long.dae</mesh>
+      <mesh>structural/arawaks/wall_short.dae</mesh>
       <textures>
         <texture file="structural/araw_struct.png" name="baseTex"/>
         <texture file="structural/araw_struct_spec.png" name="specTex"/>

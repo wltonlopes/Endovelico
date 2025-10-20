@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+  <Identity>
+    <Civ>araw</Civ>
+    <GenericName>Chief</GenericName>
+    <SpecificName>Kasike</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
+    <Icon>units/zapo/hero_rain_lord.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/arawaks/infantry_hero_clubman.xml</Actor>
+  </VisualActor>
+</Entity>

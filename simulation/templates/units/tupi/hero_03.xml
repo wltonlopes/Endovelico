@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Great Warrior Chief</GenericName>
+    <SpecificName>Morubixaba</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

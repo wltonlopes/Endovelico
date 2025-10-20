@@ -7,14 +7,14 @@
         <Pierce>18</Pierce>
       </Damage>
       <MaxRange>12</MaxRange>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
+      <PrepareTime>5000</PrepareTime>
+      <RepeatTime>5000</RepeatTime>
       <Projectile>
         <Speed>20</Speed>
         <Spread>4</Spread>
         <Gravity>35</Gravity>
         <FriendlyFire>false</FriendlyFire>
-        <LaunchPoint y="5"/>
+        <LaunchPoint y="3"/>
       </Projectile>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>

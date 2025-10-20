@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Great Warrior Chief</GenericName>
+    <SpecificName>Morubixaba</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>

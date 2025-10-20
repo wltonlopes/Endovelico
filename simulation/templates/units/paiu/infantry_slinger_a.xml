@@ -6,7 +6,4 @@
   <Promotion>
     <Entity>units/paiu/infantry_slinger_e</Entity>
   </Promotion>
-  <VisualActor>
-    <Actor>units/paiute/infantry_slinger_a.xml</Actor>
-  </VisualActor>
 </Entity>

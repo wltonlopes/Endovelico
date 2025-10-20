@@ -44,13 +44,21 @@
     ],
     "AINames": [
         "Bu Hae",
-        "Jun Wang",
-        "Suro Geoseogan",
-        "Hae Mosu",
-        "Ari Daero",
+        "Bu",
+        "Chun",
+        "Wi Man Seong",
+        "Ugeo",
         "Yeon Ta-bal",
-        "Gamul Wang ",
-        "Hogong Hae"
+        "Haemosu",
+        "Geumwa",
+        "Daeso",
+        "Dongmyeong",
+        "Yuri",
+        "Onjo",
+        "Hyeokgeose Geoseogan",
+        "Ijinasi de Daegaya",
+        "Ari Daero",
+        "Choe Ri"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/gojo/cavalry_scout",

@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>ulmenes</GenericName>
+    <SpecificName>ulmenes</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/mapu/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>

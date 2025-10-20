@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege">
+  <Attack>
+    <Ranged>
+      <AttackName>Bow</AttackName>
+      <Damage>
+        <Pierce>10</Pierce>
+        <Crush>2.5</Crush>
+      </Damage>
+      <MaxRange>5</MaxRange>
+      <Origin>
+        <X>0</X>
+        <Y>10</Y>
+        <Z>0</Z>
+      </Origin>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2500</RepeatTime>
+      <Projectile>
+        <Speed>100</Speed>
+        <Spread>2</Spread>
+        <Gravity>50</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <RestrictedClasses datatype="tokens">
+        Organic
+        Field
+        Permanent
+      </RestrictedClasses>
+      <PreferredClasses datatype="tokens">
+        Structure
+        !Permanent
+      </PreferredClasses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <wood>200</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="5.0" depth="5.0"/>
+    <Height>30.0</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Ranged SiegeTower</VisibleClasses>
+    <GenericName>Siege Ladder</GenericName>
+    <Tooltip>.</Tooltip>
+  </Identity>
+  <Loot>
+    <xp>250</xp>
+    <wood>100</wood>
+    <metal>60</metal>
+  </Loot>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>256x256/rounded_rectangle.png</MainTexture>
+        <MainTextureMask>256x256/rounded_rectangle_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <select>attack/siege/siege_select.xml</select>
+      <order_attack>attack/siege/ram_move.xml</order_attack>
+      <order_walk>attack/siege/ram_move.xml</order_walk>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <trained>attack/siege/ram_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>30</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.7</WalkSpeed>
+    <Acceleration op="mul">0.7</Acceleration>
+  </UnitMotion>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+</Entity>

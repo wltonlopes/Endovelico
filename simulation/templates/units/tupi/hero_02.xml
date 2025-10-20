@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Great Warrior Chief</GenericName>
+    <SpecificName>Morubixaba</SpecificName>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>
   </Identity>

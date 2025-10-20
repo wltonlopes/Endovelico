@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_ladder">
+  <Footprint replace="">
+    <Square width="8.0" depth="12.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>paiu</Civ>
+    <SpecificName>Tukikömi</SpecificName>
+    <Icon>units/hele/siege_tower.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/paiute/siege_ladder.xml</Actor>
+  </VisualActor>
+</Entity>

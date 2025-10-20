@@ -43,11 +43,17 @@
         }
     ],
     "AINames": [
-        "Thuc Phàn",
-        "Trong Thuy",
-        "Có Loa",
-        "Trung Trác",
-        "Trung Nhi"
+        "Hùng Nghị Vương",
+        "Thục Chế",
+        "Hùng Duệ Vương",
+        "An Dương Vương",
+        "Vũ Đế",
+        "Văn Đế",
+        "Minh Vương",
+        "Ai Vương",
+        "Thuật Dương Vương",
+        "Trưng Trắc",
+        "Trưng Nhị"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/hongb/cavalry_scout",

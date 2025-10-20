@@ -35,6 +35,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_javelinist.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
