@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+    structures/iber_monument
+  </Auras>
+  <Capturable disable=""/>
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <stone>100</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="8.0" depth="8.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>yaru</Civ>
+    <GenericName>Palace</GenericName>
+    <SpecificName></SpecificName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Monument</VisibleClasses>
+    <Icon>structures/iberian_bull.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>20</stone>
+    <metal>20</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="6.0" depth="6.0"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <RallyPoint disable=""/>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_iber_monument.xml</select>
+      <constructed>interface/complete/building/complete_iber_monument.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+    	units/{civ}/hero_1
+    	units/{civ}/hero_3
+   	  units/{civ}/hero_2
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/yaruma/palace_pyramid.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

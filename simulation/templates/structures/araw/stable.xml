@@ -5,6 +5,13 @@
     <GenericName>Stable</GenericName>
     <SpecificName>Sicári Bohío Abá</SpecificName>
   </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/arawaks/war_house.xml</Actor>
   </VisualActor>
