@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_incendiary">
+  <Identity>
+    <Civ>moch</Civ>
+    <Classes datatype="tokens">Siege</Classes>
+    <GenericName>Fire Warrior</GenericName>
+    <SpecificName>Tilo'm Bate</SpecificName>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Tooltip>siege</Tooltip>
+    <Icon>units/mayap/infantry_fireman.png</Icon>
+  </Identity>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/mochicas/infantry_incendiary_runner.xml</Actor>
+  </VisualActor>
+</Entity>

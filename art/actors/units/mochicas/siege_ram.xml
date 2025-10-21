@@ -4,11 +4,11 @@
     <variant>
       <mesh>structural/trunk_ram_pivot.dae</mesh>
       <props>
-        <prop actor="units/maya_protoclassic/operator_left_f.xml" attachpoint="operator_a"/>
-        <prop actor="units/maya_protoclassic/operator_left_b.xml" attachpoint="operator_b"/>
-        <prop actor="units/maya_protoclassic/operator_right_f.xml" attachpoint="operator_c"/>
-        <prop actor="units/maya_protoclassic/operator_right_b.xml" attachpoint="operator_d"/>
-        <prop actor="structures/maya_protoclassic/siege_ram.xml" attachpoint="root"/>
+        <prop actor="units/mochicas/operator_left_f.xml" attachpoint="operator_a"/>
+        <prop actor="units/mochicas/operator_left_b.xml" attachpoint="operator_b"/>
+        <prop actor="units/mochicas/operator_right_f.xml" attachpoint="operator_c"/>
+        <prop actor="units/mochicas/operator_right_b.xml" attachpoint="operator_d"/>
+        <prop actor="units/siege_ram.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/hele_siege.dds" name="baseTex"/>

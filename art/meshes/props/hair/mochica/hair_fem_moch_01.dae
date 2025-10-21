@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-10-20T22:01:17</created>
+    <modified>2025-10-20T22:01:17</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="rostro_mujer_moche_1-effect">
+      <profile_COMMON>
+        <newparam sid="textura_rostro_mujer_moche_1_png_001-surface">
+          <surface type="2D">
+            <init_from>textura_rostro_mujer_moche_1_png_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="textura_rostro_mujer_moche_1_png_001-sampler">
+          <sampler2D>
+            <source>textura_rostro_mujer_moche_1_png_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="textura_rostro_mujer_moche_1_png_001-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="rostro_mujer_moche_1-material" name="rostro mujer moche 1">
+      <instance_effect url="#rostro_mujer_moche_1-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_207-mesh" name="Cubo.207">
+      <mesh>
+        <source id="Cubo_207-mesh-positions">
+          <float_array id="Cubo_207-mesh-positions-array" count="72">-4.185298 -0.8269838 -83.62962 -4.185298 -0.8269838 -81.62962 -3.767306 0.4936477 -75.25815 -4.185298 0.3554908 -73.25815 -2.185298 -0.8269838 -83.62962 -2.185298 -0.8269838 -81.62962 -2.185298 0.5742692 -72.91284 -3.000485 0.5031829 -69.25504 -5.054902 -0.2290609 -81.25062 -5.054902 -0.2290609 -79.25062 -2.940431 -0.2290609 -81.25062 -2.940431 -0.2290609 -79.25062 2.185299 -0.8269838 -83.62962 2.185299 -0.8269838 -81.62962 2.185299 0.5742693 -72.91284 3.000481 0.503183 -69.25504 4.185299 -0.8269838 -83.62962 4.185299 -0.8269838 -81.62962 3.767309 0.4936478 -75.25815 4.185299 0.3554909 -73.25815 2.940429 -0.2290609 -81.25062 2.940429 -0.2290609 -79.25062 5.054902 -0.2290609 -81.25062 5.054902 -0.2290609 -79.25062</float_array>
+          <technique_common>
+            <accessor source="#Cubo_207-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_207-mesh-normals">
+          <float_array id="Cubo_207-mesh-normals-array" count="72">-0.9477525 -0.2045111 0.2448274 -0.1640701 0.9849702 -0.05398809 -0.9238305 0.2834573 -0.2572723 -0.9423741 0.005127191 0.3345218 0.9518035 0.2514175 0.1756687 0.3122118 0.9435022 -0.111029 0.9228952 -0.3468487 0.1672137 0.6076634 -0.090092 -0.7890682 -0.4496444 -0.1159743 -0.8856466 0.4194262 -0.9016305 0.1055661 -0.2618526 -0.9618656 0.07904404 0.02093619 0.03024458 0.9993234 -0.4194262 -0.9016305 0.1055661 -0.9518035 0.2514175 0.1756687 -0.3122118 0.9435022 -0.111029 0.9423741 0.005127191 0.3345218 0.1640701 0.9849702 -0.05398809 0.9238305 0.2834573 -0.2572723 0.2618526 -0.9618656 0.07904404 0.4496444 -0.1159743 -0.8856466 -0.6076634 -0.090092 -0.7890682 0.9477525 -0.2045111 0.2448274 -0.9228952 -0.3468487 0.1672137 -0.02093619 0.03024458 0.9993234</float_array>
+          <technique_common>
+            <accessor source="#Cubo_207-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_207-mesh-map-0">
+          <float_array id="Cubo_207-mesh-map-0-array" count="240">0.7925047 0.559986 0.7231203 0.5946782 0.7231203 0.559986 0.7925047 0.5946782 0.7231203 0.6640625 0.7231203 0.5946782 0.7231203 0.6987547 0.7925047 0.7334468 0.7231203 0.7334468 0.7925047 0.7334468 0.7231203 0.8028311 0.7231203 0.7334468 0.7231203 0.6987547 0.6537359 0.7334468 0.6537359 0.6987547 0.7925047 0.6987547 0.8618891 0.7334468 0.7925047 0.7334468 0.8618891 0.6640625 0.7925047 0.6987547 0.7925047 0.6640625 0.6537359 0.6640625 0.7231203 0.6987547 0.6537359 0.6987547 0.7231203 0.6640625 0.7925047 0.6987547 0.7231203 0.6987547 0.7925047 0.5252939 0.7231203 0.559986 0.7231203 0.5252939 0.7925047 0.559986 0.7231203 0.5946782 0.7231203 0.559986 0.7231203 0.5946782 0.7925047 0.6640625 0.7231203 0.6640625 0.7231203 0.6987547 0.7925047 0.7334468 0.7231203 0.7334468 0.7925047 0.7334468 0.7231203 0.8028311 0.7231203 0.7334468 0.6537359 0.6987547 0.7231203 0.7334468 0.6537359 0.7334468 0.8618891 0.6987547 0.7925047 0.7334468 0.7925047 0.6987547 0.7925047 0.6640625 0.8618891 0.6987547 0.7925047 0.6987547 0.7231203 0.6640625 0.6537359 0.6987547 0.6537359 0.6640625 0.7231203 0.6640625 0.7925047 0.6987547 0.7231203 0.6987547 0.7925047 0.5252939 0.7231203 0.559986 0.7231203 0.5252939 0.7925047 0.559986 0.7925047 0.5946782 0.7231203 0.5946782 0.7925047 0.5946782 0.7925047 0.6640625 0.7231203 0.6640625 0.7231203 0.6987547 0.7925047 0.6987547 0.7925047 0.7334468 0.7925047 0.7334468 0.7925047 0.8028311 0.7231203 0.8028311 0.7231203 0.6987547 0.7231203 0.7334468 0.6537359 0.7334468 0.7925047 0.6987547 0.8618891 0.6987547 0.8618891 0.7334468 0.8618891 0.6640625 0.8618891 0.6987547 0.7925047 0.6987547 0.6537359 0.6640625 0.7231203 0.6640625 0.7231203 0.6987547 0.7231203 0.6640625 0.7925047 0.6640625 0.7925047 0.6987547 0.7925047 0.5252939 0.7925047 0.559986 0.7231203 0.559986 0.7925047 0.559986 0.7925047 0.5946782 0.7231203 0.5946782 0.7231203 0.5946782 0.7925047 0.5946782 0.7925047 0.6640625 0.7231203 0.6987547 0.7925047 0.6987547 0.7925047 0.7334468 0.7925047 0.7334468 0.7925047 0.8028311 0.7231203 0.8028311 0.6537359 0.6987547 0.7231203 0.6987547 0.7231203 0.7334468 0.8618891 0.6987547 0.8618891 0.7334468 0.7925047 0.7334468 0.7925047 0.6640625 0.8618891 0.6640625 0.8618891 0.6987547 0.7231203 0.6640625 0.7231203 0.6987547 0.6537359 0.6987547 0.7231203 0.6640625 0.7925047 0.6640625 0.7925047 0.6987547 0.7925047 0.5252939 0.7925047 0.559986 0.7231203 0.559986</float_array>
+          <technique_common>
+            <accessor source="#Cubo_207-mesh-map-0-array" count="120" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_207-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_207-mesh-positions"/>
+        </vertices>
+        <triangles material="rostro_mujer_moche_1-material" count="40">
+          <input semantic="VERTEX" source="#Cubo_207-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_207-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_207-mesh-map-0" offset="2" set="0"/>
+          <p>9 0 0 2 1 1 8 2 2 3 3 3 6 4 4 2 1 5 10 5 6 5 6 7 4 7 8 5 6 9 0 8 10 4 7 11 10 5 12 0 8 13 8 2 14 11 9 15 1 10 16 5 6 17 3 3 18 11 9 19 7 11 20 2 1 21 10 5 22 8 2 23 6 4 24 11 9 25 10 5 26 1 10 27 8 2 28 0 8 29 21 12 30 14 13 31 20 14 32 14 13 33 19 15 34 18 16 35 22 17 36 17 18 37 16 19 38 17 18 39 12 20 40 16 19 41 20 14 42 16 19 43 12 20 44 21 12 45 17 18 46 23 21 47 19 15 48 21 12 49 23 21 50 18 16 51 20 14 52 14 13 53 18 16 54 23 21 55 22 17 56 13 22 57 20 14 58 12 20 59 9 0 60 3 3 61 2 1 62 3 3 63 7 11 64 6 4 65 10 5 66 11 9 67 5 6 68 5 6 69 1 10 70 0 8 71 10 5 72 4 7 73 0 8 74 11 9 75 9 0 76 1 10 77 3 3 78 9 0 79 11 9 80 2 1 81 6 4 82 10 5 83 6 4 84 7 11 85 11 9 86 1 10 87 9 0 88 8 2 89 21 12 90 15 23 91 14 13 92 14 13 93 15 23 94 19 15 95 22 17 96 23 21 97 17 18 98 17 18 99 13 22 100 12 20 101 20 14 102 22 17 103 16 19 104 21 12 105 13 22 106 17 18 107 19 15 108 15 23 109 21 12 110 18 16 111 22 17 112 20 14 113 18 16 114 19 15 115 23 21 116 13 22 117 21 12 118 20 14 119</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="a-hair_fem_moch_01" name="a-hair_fem_moch_01" type="NODE">
+        <matrix sid="transform">0.05252346 0 0 0 0 0.3170725 0 0 0 0 0.05252346 3.875256 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_207-mesh" name="a-hair_fem_moch_01">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="rostro_mujer_moche_1-material" target="#rostro_mujer_moche_1-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_maceman">
-
   <Identity>
-    <Civ>yaru</Civ>
-    <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <Civ>paiu</Civ>
+    <GenericName>Great Warrior Chief</GenericName>
+    <SpecificName>Morubixaba</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_clubman.xml</Actor>
+    <Actor>units/paiute/hero_03_f.xml</Actor>
   </VisualActor>
 </Entity>
