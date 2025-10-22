@@ -6,7 +6,7 @@
         <Burning>
           <Interval>3000</Interval>
           <Damage>
-            <Fire>2</Fire>
+            <Fire>4</Fire>
           </Damage>
           <Stackability>Stack</Stackability>
           <Duration>9000</Duration>
@@ -14,10 +14,10 @@
       </ApplyStatus>
       <AttackName>Fire</AttackName>
       <Damage>
-        <Pierce>20</Pierce>
+        <Pierce>25</Pierce>
       </Damage>
       <MaxRange>15</MaxRange>
-      <MinRange>10</MinRange>
+      <MinRange>7</MinRange>
       <PrepareTime>2000</PrepareTime>
       <RepeatTime>6000</RepeatTime>
       <Projectile>

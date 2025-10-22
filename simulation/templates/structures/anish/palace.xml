@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <stone>200</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_maur_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>anish</Civ>
+    <GenericName>sawgee</GenericName>
+    <SpecificName/>
+    <Classes datatype="tokens">
+      ConquestCritical
+      CivSpecific
+    </Classes>
+    <VisibleClasses datatype="tokens">
+	  Palace
+	</VisibleClasses>
+    <Icon>structures/stoa.png</Icon>
+    <Tooltip/>
+  </Identity>
+  <Loot>
+    <stone>40</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="21.5" depth="21.5"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      unlock_spies
+      spy_counter
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>38</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/anishinaabe/special.xml</Actor>
+  </VisualActor>
+</Entity>

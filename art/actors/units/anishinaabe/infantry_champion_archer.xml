@@ -42,7 +42,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_archer_fire.xml"/>
+    <variant file="biped/attack_ranged_archer.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>

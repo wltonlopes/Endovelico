@@ -4,7 +4,7 @@
     <Civ>anish</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/anishinaabe/special.xml</Actor>
+    <Actor>structures/anishinaabe/sawgee.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Covas">
+      <mesh>structural/arawaks/covas.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="particle/flame.xml" attachpoint="fire_01" />
+        <prop actor="particle/smoke.xml" attachpoint="fire_01" />
+        <prop actor="particle/flame.xml" attachpoint="fire_02" />
+        <prop actor="particle/smoke.xml" attachpoint="fire_02" />
+        <prop actor="props/flora/bush_tropic_b.xml" attachpoint="b_01"/>
+        <prop actor="props/flora/bush_tropic_b.xml" attachpoint="b_02"/>
+        <prop actor="props/flora/grass_field_flowering_tall.xml" attachpoint="b_03"/>
+        <prop actor="props/flora/bush_tropic_b.xml" attachpoint="b_04"/>
+        <prop actor="props/flora/grass_field_flowering_tall.xml" attachpoint="b_05"/>
+        <prop actor="props/flora/grass_field_flowering_tall.xml" attachpoint="b_06"/>
+      </props>
+      <textures>
+        <texture file="structural/araw_struct.png" name="baseTex"/>
+        <texture file="structural/araw_struct_spec.png" name="specTex"/>
+        <texture file="structural/araw_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/araw/covas.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_araw.xml" attachpoint="root" minheight="10" maxheight="10"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>
