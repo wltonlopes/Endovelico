@@ -40,7 +40,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_healer_female.xml" name="Healer-Female" />
+    <variant file="biped/base_healer_female.xml" name="Healer-Female"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_praise.xml"/>

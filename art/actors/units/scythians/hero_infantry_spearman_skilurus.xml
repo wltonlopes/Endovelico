@@ -28,7 +28,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_shield_relax_rome.xml" frequency="1" />
+    <variant file="biped/base_spearman_shield_relax_rome.xml" frequency="1"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_praise.xml"/>

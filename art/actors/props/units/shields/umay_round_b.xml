@@ -9,20 +9,20 @@
   <group>
     <variant frequency="1" name="wicker-dark">
       <textures>
-        <texture file="props/shield/umay/wicker-dark.png" name="baseTex" />
+        <texture file="props/shield/umay/wicker-dark.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="wicker-light">
       <textures>
-        <texture file="props/shield/umay/wicker-light.png" name="baseTex" />
+        <texture file="props/shield/umay/wicker-light.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant>
       <textures>
-        <texture file="default_norm.png" name="normTex" />
-        <texture file="null_black.dds" name="specTex" />
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

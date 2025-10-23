@@ -111,14 +111,6 @@
             </technique_common>
           </bind_material>
         </instance_geometry>
-
-<node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033843 0 0 0.7829416 9.013988 0 0 0 1</matrix>
-        </node>
-        <node id="prop_projectile" name="prop_projectile" type="NODE">
-          <matrix sid="transform">-0.7829416 1.18221e-7 0 5.35037e-14 -1.18221e-7 -0.7829416 0 5.033842 0 0 0.7829416 9.013988 0 0 0 1</matrix>
-        </node>
-      </node>
       </node>
     </visual_scene>
   </library_visual_scenes>

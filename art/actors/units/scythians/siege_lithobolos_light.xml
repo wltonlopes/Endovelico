@@ -10,9 +10,9 @@
         <texture file="props/siege_artillery_01_spec.png" name="specTex"/>
       </textures>
       <animations>
-        <animation file="mechanical/siege_artillery/lithobolos_light_idle_01.dae" name="Idle" speed="100" />
+        <animation file="mechanical/siege_artillery/lithobolos_light_idle_01.dae" name="Idle" speed="100"/>
         <animation event="0.96" load="0.38" file="mechanical/siege_artillery/lithobolos_light_attack_ranged_01.dae" name="attack_ranged" speed="120"/>
-        <animation file="mechanical/siege_artillery/lithobolos_light_death_01.dae" name="Death" speed="100" />
+        <animation file="mechanical/siege_artillery/lithobolos_light_death_01.dae" name="Death" speed="100"/>
       </animations>
       <props>
         <prop actor="units/scythians/lithobolos_light_infantry_a.xml" attachpoint="operator_L"/>

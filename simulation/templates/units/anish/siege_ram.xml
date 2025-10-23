@@ -33,6 +33,6 @@
     <WalkSpeed>4</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>structures/maya_protoclassic/siege_ram_pivot.xml</Actor>
+    <Actor>units/anishinaabe/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

@@ -39,7 +39,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/camelry/base_spearman_relax.xml" />
+    <variant file="biped/rider/camelry/base_spearman_relax.xml"/>
     <variant file="biped/rider/camelry/promotion.xml" name="promotion"/>
     <variant file="biped/rider/camelry/attack_slaughter.xml"/>
     <variant file="biped/rider/camelry/gather_meat.xml"/>

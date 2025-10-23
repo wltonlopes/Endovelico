@@ -3,21 +3,18 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/yaru/wall_gate.dae</mesh>
+      <mesh>structural/gate_and_towers.dae</mesh>
+      <props>
+        <prop actor="structures/adena/wall_gate.xml" attachpoint="root"/>
+        <prop actor="structures/yaruma/wall_tower.xml" attachpoint="tower_01"/>
+        <prop actor="structures/yaruma/wall_tower.xml" attachpoint="tower_02"/>
+      </props>
       <textures>
-        <texture file="structural/yaru_struct.png" name="baseTex"/>
-        <texture file="structural/yaru_struct_spec.png" name="specTex"/>
-        <texture file="structural/yaru_struct_norm.png" name="normTex"/>
+        <texture file="structural/tupi_struct.png" name="baseTex"/>
+        <texture file="structural/tupi_struct_spec.png" name="specTex"/>
+        <texture file="structural/tupi_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_araw.xml" attachpoint="garrisoned"/>
-      </props>
     </variant>
   </group>
   <group>
@@ -25,9 +22,6 @@
     <variant name="death">
       <props>
         <prop attachpoint="root"/>
-        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
       </props>
     </variant>

@@ -5,40 +5,40 @@
     <variant>
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/sarissa.xml" attachpoint="weapon_R" />
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head" />
-        <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet" />
-        <prop actor="props/units/shields/gara_shield.xml" attachpoint="shield" />
+        <prop actor="props/units/weapons/sarissa.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/gara_shield.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Gara-Tunic-01-01">
       <textures>
-        <texture file="skeletal/gara/tunic_light_gara_02_01.png" name="baseTex" />
+        <texture file="skeletal/gara/tunic_light_gara_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Gara-Tunic-01-02">
       <textures>
-        <texture file="skeletal/gara/tunic_light_gara_02_02.png" name="baseTex" />
+        <texture file="skeletal/gara/tunic_light_gara_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Gara-Tunic-01-03">
       <textures>
-        <texture file="skeletal/gara/tunic_light_gara_02_03.png" name="baseTex" />
+        <texture file="skeletal/gara/tunic_light_gara_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_elephant_turret_pikeman_relax.xml" />
-    <variant file="biped/attack_capture.xml" />
-    <variant file="biped/rider/elephantry/african_turret_death.xml" />
+    <variant file="biped/base_elephant_turret_pikeman_relax.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/rider/elephantry/african_turret_death.xml"/>
   </group>
   <group>
     <variant>
       <textures>
-        <texture file="default_norm.png" name="normTex" />
-        <texture file="null_black.dds" name="specTex" />
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

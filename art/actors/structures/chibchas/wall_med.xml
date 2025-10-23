@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/chibchas/wall_long.dae</mesh>
+      <mesh>structural/chibchas/wall_med.dae</mesh>
       <textures>
         <texture file="structural/chibc_struct.png" name="baseTex"/>
         <texture file="structural/chibc_struct_spec.png" name="specTex"/>
         <texture file="structural/chibc_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/chibchas/wall_med.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -23,7 +23,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/promotion_shield.xml" />
+    <variant file="biped/rider/promotion_shield.xml"/>
     <variant file="biped/rider/attack_slaughter_shield_pers.xml"/>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death_shield.xml"/>

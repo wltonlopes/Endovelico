@@ -10,9 +10,7 @@
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>
-  <Promotion>
-    <Entity>units/tupi/cavalry_archer_a</Entity>
-  </Promotion> 
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/tupis/infantry_heavy_javelinist.xml</Actor>
   </VisualActor>

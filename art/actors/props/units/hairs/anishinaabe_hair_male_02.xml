@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="a1">
-      <mesh>props/hair/anishinaabe/hair_male_05.dae</mesh>
+      <mesh>props/hair/anishinaabe/hair_male_03.dae</mesh>
       <textures><texture file="props/anishinaabe_props.png" name="baseTex"/></textures>
     </variant>
   </group>

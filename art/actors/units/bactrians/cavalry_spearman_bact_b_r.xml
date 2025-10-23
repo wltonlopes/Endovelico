@@ -34,7 +34,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/promotion.xml" />
+    <variant file="biped/rider/promotion.xml"/>
     <variant file="biped/rider/attack_slaughter_pers.xml"/>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death.xml"/>

@@ -5,11 +5,11 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head" />
-        <prop actor="props/units/heads/kush_nubian_ostrich_feathers_e.xml" attachpoint="head" />
-        <prop actor="props/units/heads/libian_dread_hair.xml" attachpoint="head" />
-        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R" />
-        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo" />
+        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/kush_nubian_ostrich_feathers_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/libian_dread_hair.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
       </props>
     </variant>
   </group>
@@ -33,47 +33,47 @@
   <group>
     <variant frequency="1" name="beja-shield">
       <props>
-        <prop actor="props/units/shields/kush_beja_rhino.xml" attachpoint="shield" />
+        <prop actor="props/units/shields/kush_beja_rhino.xml" attachpoint="shield"/>
       </props>
     </variant>
     <variant frequency="1" name="numidian-shield">
       <props>
-        <prop actor="props/units/shields/gara_round_large_01_cow.xml" attachpoint="shield" />
+        <prop actor="props/units/shields/gara_round_large_01_cow.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>
   <group>
     <variant>
       <textures>
-        <texture file="default_norm.png" name="normTex" />
-        <texture file="null_black.dds" name="specTex" />
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_skirmisher.xml" />
-    <variant file="biped/carry_food.xml" />
-    <variant file="biped/carry_meat.xml" />
-    <variant file="biped/carry_wood.xml" />
-    <variant file="biped/carry_stone.xml" />
-    <variant file="biped/carry_metal.xml" />
+    <variant file="biped/base_skirmisher.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle" />
-    <variant file="biped/attack_ranged_javelinist.xml" />
-    <variant file="biped/attack_capture.xml" />
-    <variant file="biped/attack_slaughter.xml" />
-    <variant file="biped/gather_tree.xml" />
-    <variant file="biped/gather_grain.xml" />
-    <variant file="biped/gather_fruit.xml" />
-    <variant file="biped/gather_meat.xml" />
-    <variant file="biped/gather_rock.xml" />
-    <variant file="biped/gather_ore.xml" />
-    <variant file="biped/gather_ruins.xml" />
-    <variant file="biped/gather_praise.xml" />
-    <variant file="biped/build.xml" />
-    <variant file="biped/build_farm.xml" />
-    <variant file="biped/death_infantry.xml" />
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_javelinist.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

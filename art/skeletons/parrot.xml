@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <skeletons>
   <standard_skeleton title="parrot" id="parrot">
-    <bone name="head" />
+    <bone name="head"/>
     <bone name="chest">
       <bone name="tale1">
-        <bone name="tale2" />
+        <bone name="tale2"/>
       </bone>
     </bone>
     <bone name="rwing1">
       <bone name="rwing2">
-        <bone name="rwing3" />
+        <bone name="rwing3"/>
       </bone>
     </bone>
-    <bone name="rctrl" />
-    <bone name="bone.ik" />
-    <bone name="bone.pole" />
+    <bone name="rctrl"/>
+    <bone name="bone.ik"/>
+    <bone name="bone.pole"/>
     <bone name="lwing1">
       <bone name="lwing2">
-        <bone name="lwing3" />
+        <bone name="lwing3"/>
       </bone>
     </bone>
-    <bone name="lctrl" />
-    <bone name="bone.ik.001" />
-    <bone name="bone.pole.001" />
-    <bone name="Cylinder" />
+    <bone name="lctrl"/>
+    <bone name="bone.ik.001"/>
+    <bone name="bone.pole.001"/>
+    <bone name="Cylinder"/>
   </standard_skeleton>
   <skeleton title="parrot" target="parrot">
     <identifier>

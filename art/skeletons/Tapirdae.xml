@@ -4,36 +4,36 @@
     <bone name=" tapirdae_coluna1">
       <bone name=" tapirdae_coluna2">
         <bone name=" tapirdae_coluna3">
-          <bone name=" tapirdae_004" />
+          <bone name=" tapirdae_004"/>
         </bone>
       </bone>
     </bone>
     <bone name="tapirdae_cabeca">
-      <bone name=" tapirdae_nariz" />
-      <bone name=" tapirdae_Bone.001" />
+      <bone name=" tapirdae_nariz"/>
+      <bone name=" tapirdae_Bone.001"/>
     </bone>
-    <bone name=" tapirdae_orelhad" />
+    <bone name=" tapirdae_orelhad"/>
     <bone name=" tapirdae_ tapirdae_orelhae">
-      <bone name=" tapirdae_Bone" />
+      <bone name=" tapirdae_Bone"/>
     </bone>
     <bone name="tapirdae_pernae1">
       <bone name=" tapirdae_pernae2">
-        <bone name=" tapirdae_pernae3" />
+        <bone name=" tapirdae_pernae3"/>
       </bone>
     </bone>
     <bone name=" tapirdae_pernad1">
       <bone name=" tapirdae_pernad2">
-        <bone name=" tapirdae_pernad3" />
+        <bone name=" tapirdae_pernad3"/>
       </bone>
     </bone>
     <bone name=" tapirdae_pernae1.001">
       <bone name=" tapirdae_pernae2.001">
-        <bone name=" tapirdae_pernae3.001" />
+        <bone name=" tapirdae_pernae3.001"/>
       </bone>
     </bone>
     <bone name=" tapirdae_pernad1.001">
       <bone name=" tapirdae_pernad2.001">
-        <bone name=" tapirdae_pernad3.001" />
+        <bone name=" tapirdae_pernad3.001"/>
       </bone>
     </bone>
   </standard_skeleton>

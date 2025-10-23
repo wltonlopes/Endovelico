@@ -7,49 +7,49 @@
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/pamp_h.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R" />
-        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile" />
+        <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="default_norm.png" name="normTex" />
-        <texture file="null_black.dds" name="specTex" />
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="100" name="painted_01_01">
       <textures>
-        <texture file="skeletal/tiwanaku/civ_01.png" name="baseTex" />
+        <texture file="skeletal/tiwanaku/civ_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="painted_01_02">
       <textures>
-        <texture file="skeletal/tiwanaku/civ_02.png" name="baseTex" />
+        <texture file="skeletal/tiwanaku/civ_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="painted_01_03">
       <textures>
-        <texture file="skeletal/tiwanaku/civ_03.png" name="baseTex" />
+        <texture file="skeletal/tiwanaku/civ_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="painted_01_04">
       <textures>
-        <texture file="skeletal/tiwanaku/civ_04.png" name="baseTex" />
+        <texture file="skeletal/tiwanaku/civ_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_slinger_ready.xml" />
-    <variant file="biped/carry_meat.xml" />
+    <variant file="biped/base_slinger_ready.xml"/>
+    <variant file="biped/carry_meat.xml"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle" />
-    <variant file="biped/attack_capture.xml" />
-    <variant file="biped/attack_slaughter.xml" />
-    <variant file="biped/attack_ranged_slinger.xml" />
-    <variant file="biped/gather_meat.xml" />
-    <variant file="biped/build.xml" />
-    <variant file="biped/death_infantry.xml" />
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/attack_ranged_slinger.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

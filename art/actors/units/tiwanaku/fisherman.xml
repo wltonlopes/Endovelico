@@ -18,22 +18,22 @@
   <group>
     <variant frequency="100" name="painted_01_01">
       <textures>
-        <texture file="skeletal/tiwanaku/civ_01.png" name="baseTex" />
+        <texture file="skeletal/tiwanaku/civ_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="painted_01_02">
       <textures>
-        <texture file="skeletal/tiwanaku/civ_02.png" name="baseTex" />
+        <texture file="skeletal/tiwanaku/civ_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="painted_01_03">
       <textures>
-        <texture file="skeletal/tiwanaku/civ_03.png" name="baseTex" />
+        <texture file="skeletal/tiwanaku/civ_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="painted_01_04">
       <textures>
-        <texture file="skeletal/tiwanaku/civ_04.png" name="baseTex" />
+        <texture file="skeletal/tiwanaku/civ_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/chibchas/wall_long.dae</mesh>
+      <mesh>structural/chibchas/wall_short.dae</mesh>
       <textures>
         <texture file="structural/chibc_struct.png" name="baseTex"/>
         <texture file="structural/chibc_struct_spec.png" name="specTex"/>

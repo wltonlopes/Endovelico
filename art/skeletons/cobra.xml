@@ -14,7 +14,7 @@
                         <bone name="s_n_2">
                           <bone name="s_n_3">
                             <bone name="s_n_4">
-                              <bone name="s_n_5" />
+                              <bone name="s_n_5"/>
                             </bone>
                           </bone>
                         </bone>
@@ -42,7 +42,7 @@
                               <bone name="s_k_4">
                                 <bone name="s_k_5">
                                   <bone name="s_k_6">
-                                    <bone name="s_k_7" />
+                                    <bone name="s_k_7"/>
                                   </bone>
                                 </bone>
                               </bone>
@@ -59,7 +59,7 @@
         </bone>
       </bone>
     </bone>
-    <bone name="Cobra" />
+    <bone name="Cobra"/>
   </standard_skeleton>
   <skeleton title="cobra" target="cobra">
     <identifier>

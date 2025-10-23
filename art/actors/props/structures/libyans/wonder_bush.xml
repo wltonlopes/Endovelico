@@ -5,10 +5,10 @@
     <variant frequency="1" name="Libyan Wonder Bush">
       <mesh>props/structural/libyans/wonder_bush.dae</mesh>
       <textures>
-        <texture file="gaia/bush_dese_dry_a.dds" name="baseTex" />
-        <texture file="default_norm.png" name="normTex" />
-        <texture file="null_black.dds" name="specTex" />
-        <texture file="structural/ao/liby/wonder_ao.png" name="aoTex" />
+        <texture file="gaia/bush_dese_dry_a.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+        <texture file="structural/ao/liby/wonder_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
