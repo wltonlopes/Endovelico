@@ -5,7 +5,7 @@
     <variant frequency="1" name="02">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/hairs/head_swcreek_hero.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_swcreek_hero.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/helmets/adena/hero_headress.xml" attachpoint="helmet"/>  
       </props>
