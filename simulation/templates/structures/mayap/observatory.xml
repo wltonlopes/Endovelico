@@ -23,7 +23,7 @@
     <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>observatory</GenericName>
     <SpecificName>K'inob</SpecificName>
-    <Tooltip>Avance sua tecnologia.</Tooltip>
+    <Tooltip>Advance your technology.</Tooltip>
     <Icon>structures/mayap/observatory.png</Icon>
     <Requirements>
       <Techs datatype="tokens">-phase_city phase_town</Techs>

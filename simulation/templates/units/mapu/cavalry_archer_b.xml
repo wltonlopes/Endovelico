@@ -8,7 +8,6 @@
     <SpecificName>Aimberê</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
-    <Phenotype>female</Phenotype>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>
   <Promotion disable=""/>

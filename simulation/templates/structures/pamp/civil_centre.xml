@@ -4,6 +4,12 @@
     <Civ>pamp</Civ>
     <SpecificName>Nezirö</SpecificName>
   </Identity>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      pamp/semi-nomad
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_axeman_b

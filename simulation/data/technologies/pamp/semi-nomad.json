@@ -1,0 +1,37 @@
+{
+	"genericName": "Semi-nomadic lifestyle",
+	"description": ".",
+	"cost": {
+		"wood": 200,
+		"stone": 100
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{
+				"civ": "pamp"
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "Unlock all structures and +50% Health, +50% build time.",
+	"modifications": [
+		{
+			"value": "Health/Max",
+			"multiply": 1.5
+		},
+		{
+			"value": "Capturable/CapturePoints",
+			"multiply": 1.5
+		},
+		{
+			"value": "Cost/BuildTime",
+			"multiply": 1.5
+		}
+	],
+	"affects": [
+		"Structure"
+	]
+}

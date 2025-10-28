@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/mapuches/infantry_javelineer_e.xml</Actor>
+    <Actor>units/mapuches/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

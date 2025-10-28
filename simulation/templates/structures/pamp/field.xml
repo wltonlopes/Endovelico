@@ -3,6 +3,10 @@
   <Identity>
     <Civ>pamp</Civ>
     <SpecificName>Nora</SpecificName>
+    <Tooltip>Structure needs Semi-Nomad Lifestyle technology.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">pamp/semi-nomad</Techs>
+    </Requirements>  
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_tropic_mandioca.xml</Actor>

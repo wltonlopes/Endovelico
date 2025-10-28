@@ -1,0 +1,17 @@
+{
+	"genericName": "Runing Hunters",
+	"autoResearch": true,
+	"description": "Peoples of the Pampas are known for their speed as hunters.",
+	"requirements": {
+		"any": [
+			{ "civ": "pamp" }
+		]
+	},
+	"icon": "wheel.png",
+	"tooltip": "All Land Units +5% movement speed.",
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.05 }
+	],
+	"affects": ["Unit !Ship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -10,6 +10,7 @@
         <prop actor="props/units/helmets/pamp_h.xml" attachpoint="helmet"/>
         <prop actor="props/units/cloak/cloak_native_male_01.xml" attachpoint="shoulderpad_L"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/mapu_shield_01.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

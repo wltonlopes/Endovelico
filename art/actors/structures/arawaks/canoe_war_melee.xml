@@ -7,12 +7,12 @@
       <mesh>structural/south_america/canoe_war_basic.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
-        <prop actor="units/south_america/canoe_navigator.xml" attachpoint="nav1"/>
+        <prop actor="units/arawaks/canoe_melee.xml" attachpoint="nav1"/>
         <prop actor="units/south_america/canoe_navigator.xml" attachpoint="nav2"/>
         <prop actor="units/arawaks/canoe_melee.xml" attachpoint="archer4"/>  
-        <prop actor="units/arawaks/canoe_melee.xml" attachpoint="archer3"/>  
-        <prop actor="units/arawaks/canoe_melee.xml" attachpoint="archer2"/>
-        <prop actor="units/arawaks/canoe_melee.xml" attachpoint="archer1"/>  
+        <prop actor="units/south_america/canoe_navigator.xml" attachpoint="archer3"/>  
+        <prop actor="units/south_america/canoe_navigator.xml" attachpoint="archer2"/>
+        <prop actor="units/south_america/canoe_navigator.xml" attachpoint="archer1"/>  
       </props>
       <textures>
         <texture file="structural/maya_canoe.png" name="baseTex"/>

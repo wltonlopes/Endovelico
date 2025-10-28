@@ -4,6 +4,9 @@
   <group>
     <variant frequency="1" name="1">
       <mesh>props/shield/shield_moch_square.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/props/shield_mapu_deco.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
    <group>

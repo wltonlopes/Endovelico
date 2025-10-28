@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Macá</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/mapu/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>

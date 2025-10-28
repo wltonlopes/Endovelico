@@ -12,6 +12,6 @@
     <Entity>units/mapu/infantry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mapuches/infantry_javelineer_b.xml</Actor>
+    <Actor>units/mapuches/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="infantry_cavalry|template_unit_infantry_melee_clubman">
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>pamp</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
-    <GenericName>Experienced archer</GenericName>
-    <SpecificName>Aimberê</SpecificName>
+    <GenericName>Great Spearman</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>
-  <Promotion>
-    <Entity>units/pamp/cavalry_archer_a</Entity>
-  </Promotion> 
+  <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/pampidos/infantry_heavy_clubman.xml</Actor>
+    <Actor>units/pampidos/infantry_heavy_spearman.xml</Actor>
   </VisualActor>
 </Entity>

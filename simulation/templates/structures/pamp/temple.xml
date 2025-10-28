@@ -10,18 +10,20 @@
   <Identity>
     <Civ>pamp</Civ>
     <SpecificName>Miya</SpecificName>
+    <Tooltip>Structure needs Semi-Nomad Lifestyle technology.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">pamp/semi-nomad</Techs>
+    </Requirements>  
   </Identity>
   <Obstruction>
     <Static width="24" depth="18"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      traditional_rituals
     </Technologies>
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry_bellringer
     </Entities>
   </Trainer>
   <VisualActor>

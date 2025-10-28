@@ -16,9 +16,9 @@
   </VisualActor>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_himiko
-      units/{civ}/hero_keiko
-      units/{civ}/hero_wousu
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
       units/{civ}/champion_infantry_slinger
       units/{civ}/champion_infantry_axeman
     </Entities>
