@@ -2,11 +2,11 @@
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
     <Civ>arme</Civ>
-    <GenericName>Thracian Woman</GenericName>
+    <GenericName>Armenia Woman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/persian/female_citizen.xml</Actor>
+    <Actor>units/armenia/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

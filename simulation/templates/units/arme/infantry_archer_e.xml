@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/armenian/infantry_archer_e.xml</Actor>
+    <Actor>units/armenia/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

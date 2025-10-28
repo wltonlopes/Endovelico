@@ -7,6 +7,6 @@
     <Entity>units/arme/infantry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/armenian/infantry_javelinist_a.xml</Actor>
+    <Actor>units/armenia/infantry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>
