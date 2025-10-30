@@ -15,7 +15,7 @@
   <group>
     <variant frequency="100" name="tunic_01_01">
       <textures>
-        <texture file="skeletal/moch/tunic_mercant.png" name="baseTex"/>
+        <texture file="skeletal/moch/tunic_moch_mercant.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

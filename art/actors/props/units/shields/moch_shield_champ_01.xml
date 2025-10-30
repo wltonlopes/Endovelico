@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>    
+  <group>
+    <variant frequency="1" name="1">
+      <mesh>props/shield/shield_moch_champ_01.dae</mesh>
+    </variant>
+  </group>
+   <group>
+    <variant frequency="1" name="1">
+      <textures>
+        <texture file="props/shield/mochica/shield_champ_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

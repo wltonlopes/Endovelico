@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_andean_north_coast_warrior_runner.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/helmet_moch_champ_axeman.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_moch_champ_spearman.xml" attachpoint="head"/>
         <prop actor="props/units/shields/moch_shield_s.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="weapon_L"/>
@@ -42,7 +42,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_shield_ready.xml" frequency="1" name="Spearman-Shield-Ready"/>
+    <variant file="biped/base_spearman_shield_relax.xml" frequency="1" name="Spearman-Shield-Ready"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_praise.xml"/>
