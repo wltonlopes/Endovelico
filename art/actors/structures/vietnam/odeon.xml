@@ -5,7 +5,7 @@
     <variant frequency="1" name="Scout_Tower">
       <mesh>structural/vietnam/odeon.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/viet_struct.png" name="baseTex"/>

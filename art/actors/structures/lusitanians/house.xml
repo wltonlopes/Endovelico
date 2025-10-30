@@ -11,7 +11,7 @@
         <texture file="structural/lusi_struct_new.png" name="baseTex"/>
         <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
         <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
-       <texture file="structural/ao/lusi_new_house_1_AO.png" name="aoTex"/>
+       <texture file="structural/ao/lusi/new_house_1_AO.png" name="aoTex"/>
       </textures>
     </variant>    <variant frequency="1" name="house_2">
       <mesh>structural/lusi/new_house_2.dae</mesh>
@@ -22,7 +22,7 @@
         <texture file="structural/lusi_struct_new.png" name="baseTex"/>
         <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
         <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
-        <texture file="structural/ao/lusi_new_house_2_AO.png" name="aoTex"/>
+        <texture file="structural/ao/lusi/new_house_2_AO.png" name="aoTex"/>
       </textures>
     </variant>
         <variant frequency="1" name="house_3">
@@ -34,7 +34,7 @@
         <texture file="structural/lusi_struct_new.png" name="baseTex"/>
         <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
         <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
-        <texture file="structural/ao/lusi_new_house_3_AO.png" name="aoTex"/>
+        <texture file="structural/ao/lusi/new_house_3_AO.png" name="aoTex"/>
       </textures>
     </variant>
         <!-- <variant frequency="1" name="house_4">
@@ -46,7 +46,7 @@
         <texture file="structural/lusi_struct_new.png" name="baseTex"/>
         <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
         <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
-        <texture file="structural/ao/lusi_house_4_ao.png" name="aoTex"/>
+        <texture file="structural/ao/lusi/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant> -->
 

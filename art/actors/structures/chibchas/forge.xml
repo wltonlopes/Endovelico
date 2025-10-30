@@ -5,7 +5,8 @@
     <variant frequency="1" name="Forge">
       <mesh>structural/chibchas/forge.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="particle/flame.xml" attachpoint="fire" />
+        <prop actor="particle/smoke.xml" attachpoint="fire" />
       </props>
       <textures>
         <texture file="structural/chibc_struct.png" name="baseTex"/>

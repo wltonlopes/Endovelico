@@ -11,7 +11,7 @@
         <texture file="structural/lusi_struct_new.png" name="baseTex"/>
         <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
         <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
-        <texture file="structural/ao/lusi_new_arsenal_AO.png" name="aoTex"/>
+        <texture file="structural/ao/lusi/new_arsenal_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

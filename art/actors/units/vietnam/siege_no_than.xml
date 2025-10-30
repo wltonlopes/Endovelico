@@ -10,9 +10,9 @@
         <animation file="mechanical/han_shoushe_death.dae" name="death" speed="80"/>
       </animations>
       <props>
-        <prop actor="props/units/siege_artillery/bolt_front_med.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/siege_artillery/bolt_projectile_med.xml" attachpoint="projectile"/>
-        <prop actor="props/units/siege_artillery/bolt_projectile_med.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/proj_no_than.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/siege_artillery/proj_no_than.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/proj_no_than.xml" attachpoint="projectile"/>
         <prop actor="props/units/han/shoushe_infantry_b.xml" attachpoint="operator_L"/>
       </props>
       <textures>

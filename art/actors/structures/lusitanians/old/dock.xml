@@ -9,7 +9,7 @@
       </props>
       <textures>
         <texture file="structural/lusi_dock.png" name="baseTex"/>
-        <texture file="structural/ao/lusi_dock_ao.png" name="aoTex"/>
+        <texture file="structural/ao/lusi/dock_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

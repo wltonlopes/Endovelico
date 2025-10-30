@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>hongb</Civ>
+    <SpecificName>Doanh Trại</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>

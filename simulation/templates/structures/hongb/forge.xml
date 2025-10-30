@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>hongb</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
+    <SpecificName>Lò Rèn</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/vietnam/blacksmith.xml</Actor>

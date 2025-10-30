@@ -2,6 +2,7 @@
 <Entity parent="template_structure_defensive_outpost">
   <Identity>
     <Civ>hongb</Civ>
+    <SpecificName>Tháp Tiền Tiêu</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/outpost.xml</Actor>

@@ -5,7 +5,7 @@
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/vietnam/cc.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="structures/vietnam/cc_f.xml" attachpoint="root"/>       
       </props>
       <textures>

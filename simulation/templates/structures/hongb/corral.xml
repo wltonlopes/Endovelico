@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>hongb</Civ>
-  <GenericName>Corral</GenericName>
+  <SpecificName>Trại Súc Vật</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="8.0" depth="14.0"/>

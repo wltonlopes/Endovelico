@@ -2,6 +2,7 @@
 <Entity parent="template_structure_military_elephant_stable">
   <Identity>
     <Civ>hongb</Civ>
+    <SpecificName>Trại Voi</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/vietnam/stable_elephant.xml</Actor>
