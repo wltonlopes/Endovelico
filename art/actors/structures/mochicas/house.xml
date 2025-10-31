@@ -8,7 +8,7 @@
 	    <texture file="structural/moch_struct.png" name="baseTex"/>
 	    <texture file="structural/moch_struct_norm.png" name="normTex"/>
 	    <texture file="structural/moch_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mochicas/basic_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mochicas/house_01.png" name="aoTex"/>
 	  </textures>
     </variant>
     <variant frequency="1" name="celt house b">
@@ -17,7 +17,7 @@
 	    <texture file="structural/moch_struct.png" name="baseTex"/>
 	    <texture file="structural/moch_struct_norm.png" name="normTex"/>
 	    <texture file="structural/moch_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mochicas/basic_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mochicas/house_02.png" name="aoTex"/>
 	  </textures>
     </variant>
     <variant frequency="1" name="celt house c">
@@ -26,7 +26,7 @@
 	    <texture file="structural/moch_struct.png" name="baseTex"/>
 	    <texture file="structural/moch_struct_norm.png" name="normTex"/>
 	    <texture file="structural/moch_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mochicas/basic_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mochicas/house_03.png" name="aoTex"/>
 	  </textures>
     </variant>
      <variant frequency="1" name="celt house d">
@@ -35,7 +35,7 @@
 	    <texture file="structural/moch_struct.png" name="baseTex"/>
 	    <texture file="structural/moch_struct_norm.png" name="normTex"/>
 	    <texture file="structural/moch_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mochicas/basic_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mochicas/house_04.png" name="aoTex"/>
 	  </textures>
     </variant>
   </group>
