@@ -6,6 +6,10 @@
       <mesh>structural/arawaks/civic_center.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_01"/>
+        <prop actor="particle/flame.xml" attachpoint="fire_01"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_02"/>
+        <prop actor="particle/flame.xml" attachpoint="fire_02"/>
       </props>
       <textures>
         <texture file="structural/araw_struct.png" name="baseTex"/>

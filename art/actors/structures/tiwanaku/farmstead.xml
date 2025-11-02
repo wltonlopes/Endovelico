@@ -6,12 +6,16 @@
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
+        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="m_01" maxheight="20" minheight="-20"/>
+        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="m_02" maxheight="20" minheight="-20"/>
+        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="m_03" maxheight="20" minheight="-20"/>
+        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="m_04" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/tihua_struct.png" name="baseTex"/>
         <texture file="structural/tihua_struct_spec.png" name="specTex"/>
         <texture file="structural/tihua_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/mochicas/basic_AO.png" name="aoTex"/>
+        <texture file="structural/ao/tiwanaku/farmstead.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
