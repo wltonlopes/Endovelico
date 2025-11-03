@@ -5,12 +5,11 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-10-23T11:31:48</created>
-    <modified>2025-10-23T11:31:48</modified>
+    <created>2025-11-03T09:50:45</created>
+    <modified>2025-11-03T09:50:45</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
-  <library_effects/>
   <library_images/>
   <library_geometries>
     <geometry id="Aden_Wall_Tower_001-mesh" name="Aden Wall Tower.001">
@@ -84,10 +83,10 @@
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Aden_Wall_Tower_001-mesh" name="gate_and_towers"/>
         <node id="prop_tower_01" name="prop_tower_01" type="NODE">
-          <matrix sid="transform">1 0 0 -15.82894 0 1 0 0 0 0 1 -0.06 0 0 0 1</matrix>
+          <matrix sid="transform">1 0 0 -15 0 1 0 0 0 0 1 -0.06 0 0 0 1</matrix>
         </node>
         <node id="prop_tower_02" name="prop_tower_02" type="NODE">
-          <matrix sid="transform">1 0 0 15.8289 0 1 0 0 0 0 1 -0.06 0 0 0 1</matrix>
+          <matrix sid="transform">1 0 0 15 0 1 0 0 0 0 1 -0.06 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

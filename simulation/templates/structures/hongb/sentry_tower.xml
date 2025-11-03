@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_tower_sentry">
   <Identity>
     <Civ>hongb</Civ>
-    <pecificName>Tháp Nhỏ</SpecificName>
+    <SpecificName>Tháp Nhỏ</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/vietnam/sentry_tower.xml</Actor>
