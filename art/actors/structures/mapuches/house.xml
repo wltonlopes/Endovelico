@@ -16,13 +16,22 @@
   <group>
     <variant frequency="1" name="house a">
 <mesh>structural/mapuche/house_1.dae</mesh>
+<textures>
+        <texture file="structural/ao/mapuche/house_01.png" name="aoTex"/>
+      </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/mapuche/house_2.dae</mesh>
+<textures>
+        <texture file="structural/ao/mapuche/house_02.png" name="aoTex"/>
+      </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/mapuche/house_3.dae</mesh>
-    </variant>
+<textures>
+        <texture file="structural/ao/mapuche/house_03.png" name="aoTex"/>
+      </textures>
+</variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
@@ -44,5 +53,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

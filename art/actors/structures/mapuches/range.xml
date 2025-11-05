@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="range">
       <mesh>structural/mapuche/range.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
@@ -11,7 +11,7 @@
         <texture file="structural/mapu_struct.png" name="baseTex"/>
         <texture file="structural/mapu_struct_spec.png" name="specTex"/>
         <texture file="structural/mapu_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mapuche/range.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
