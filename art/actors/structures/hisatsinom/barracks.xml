@@ -2,17 +2,21 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="barracks">
       <mesh>structural/hisatsinom/barracks.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="structures/hisatsinom/barracks_f.xml" attachpoint="root"/>    
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_04"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_05"/>
       </props>
       <textures>
         <texture file="structural/hisat_struct.png" name="baseTex"/>
         <texture file="structural/hisat_struct_spec.png" name="specTex"/>
         <texture file="structural/hisat_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/hisatsinom/barracks.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
