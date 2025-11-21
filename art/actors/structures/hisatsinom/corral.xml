@@ -6,7 +6,11 @@
       <mesh>structural/hisatsinom/corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="structures/hisatsinom/corral_f.xml" attachpoint="root"/>    
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_04"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_05"/>   
       </props>
       <textures>
         <texture file="structural/hisat_struct.png" name="baseTex"/>

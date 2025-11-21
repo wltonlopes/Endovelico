@@ -2,7 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="wall_long">      <mesh>structural/swcreek/wall_long.dae</mesh>
+    <variant frequency="1" name="wall_long">
+      <mesh>structural/swcreek/wall_long.dae</mesh>
       <textures>
         <texture file="structural/swcr_struct.png" name="baseTex"/>
         <texture file="structural/swcr_struct_spec.png" name="specTex"/>

@@ -15,7 +15,7 @@
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_chariot
-      units/{civ}/hero_djalla
+      units/{civ}/siege_no_than
     </Entities>
   </Trainer>
   <VisualActor>
