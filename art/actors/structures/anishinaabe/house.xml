@@ -15,19 +15,19 @@
   </group>
   <group>
     <variant frequency="1" name="house a">
-      <mesh>structural/anish/house_1.dae</mesh>
+      <mesh>structural/anish/house_01.dae</mesh>
       <textures>
         <texture file="structural/ao/anish/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-      <mesh>structural/anish/house_2.dae</mesh>
+      <mesh>structural/anish/house_02.dae</mesh>
       <textures>
         <texture file="structural/ao/anish/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-      <mesh>structural/anish/house_3.dae</mesh>
+      <mesh>structural/anish/house_03.dae</mesh>
       <textures>
         <texture file="structural/ao/anish/house_03_ao.png" name="aoTex"/>
       </textures>
