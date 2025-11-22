@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/hasmo/wall_tower</Tower>
-      <Gate>structures/hasmo/wall_gate</Gate>
-      <WallLong>structures/hasmo/wall_long</WallLong>
-      <WallMedium>structures/hasmo/wall_medium</WallMedium>
-      <WallShort>structures/hasmo/wall_short</WallShort>
+      <Tower>structures/himya/wall_tower</Tower>
+      <Gate>structures/himya/wall_gate</Gate>
+      <WallLong>structures/himya/wall_long</WallLong>
+      <WallMedium>structures/himya/wall_medium</WallMedium>
+      <WallShort>structures/himya/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
   </WallSet>
