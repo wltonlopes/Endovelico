@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>skeletal/new/m_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/arab_coif_camelry_spearman_b.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="robes_04_01">
+      <textures>
+        <texture file="skeletal/arab/robes_04_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_02">
+      <textures>
+        <texture file="skeletal/arab/robes_04_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_03">
+      <textures>
+        <texture file="skeletal/arab/robes_04_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_04">
+      <textures>
+        <texture file="skeletal/arab/robes_04_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_05">
+      <textures>
+        <texture file="skeletal/arab/robes_04_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_06">
+      <textures>
+        <texture file="skeletal/arab/robes_04_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_07">
+      <textures>
+        <texture file="skeletal/arab/robes_04_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_08">
+      <textures>
+        <texture file="skeletal/arab/robes_04_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/camelry/base_spearman_relax.xml"/>
+    <variant file="biped/rider/camelry/promotion.xml" name="promotion"/>
+    <variant file="biped/rider/camelry/attack_slaughter.xml"/>
+    <variant file="biped/rider/camelry/gather_meat.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

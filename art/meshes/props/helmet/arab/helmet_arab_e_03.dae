@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
+    </contributor>
+    <created>2025-12-05T13:04:58</created>
+    <modified>2025-12-05T13:04:58</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="textura_Bedu_General-effect">
+      <profile_COMMON>
+        <newparam sid="_54588823_A-catlogounisbedu-FINAIS_png_5beb577b1c2fcb49e45e7e7b-surface">
+          <surface type="2D">
+            <init_from>_54588823_A-catlogounisbedu-FINAIS_png_5beb577b1c2fcb49e45e7e7b</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_54588823_A-catlogounisbedu-FINAIS_png_5beb577b1c2fcb49e45e7e7b-sampler">
+          <sampler2D>
+            <source>_54588823_A-catlogounisbedu-FINAIS_png_5beb577b1c2fcb49e45e7e7b-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="_54588823_A-catlogounisbedu-FINAIS_png_5beb577b1c2fcb49e45e7e7b-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="_54588823_A-catlogounisbedu-FINAIS_png_5beb577b1c2fcb49e45e7e7b" name="_54588823_A-catlogounisbedu-FINAIS_png_5beb577b1c2fcb49e45e7e7b">
+      <init_from>/home/welton/Downloads/954588823_A-catlogounisbedu-FINAIS.png.5beb577b1c2fcb49e45e7e7bd6140a20.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="textura_Bedu_General-material" name="textura Bedu General">
+      <instance_effect url="#textura_Bedu_General-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_028-mesh" name="Cubo.028">
+      <mesh>
+        <source id="Cubo_028-mesh-positions">
+          <float_array id="Cubo_028-mesh-positions-array" count="84">-0.2007061 -0.3136748 -0.07665765 -0.2095637 -0.2046421 0.3236786 0.2007061 -0.3136748 -0.07665765 0.2095637 -0.2046421 0.3236786 -0.2178376 -0.1096802 -0.1607528 -0.2273845 0.003628194 0.3236786 0.2178375 -0.1096802 -0.1607528 0.2273845 0.003628194 0.3236786 -0.08201241 -0.3927329 -0.2188473 0.08201235 -0.3927329 -0.2188473 -0.09924155 -0.2682721 -0.357859 0.09924155 -0.2682721 -0.357859 -0.2086696 -0.2113776 0.3147993 -0.2525069 0.01292753 0.3147993 -0.2086696 -0.2113776 0.4561704 0 -0.3382284 0.3147993 0.2086696 -0.2113776 0.3147993 0 -0.3382284 0.4561704 0.2086696 -0.2113776 0.4561704 0.2525069 0.01292753 0.4561704 0.168265 0.2133648 0.4561704 0.2525069 0.01292753 0.3147993 0.168265 0.2133648 0.3147993 0 0.2664651 0.3147993 -0.168265 0.2133648 0.3147993 0 0.2664651 0.4561704 -0.168265 0.2133648 0.4561704 -0.2525069 0.01292753 0.4561704</float_array>
+          <technique_common>
+            <accessor source="#Cubo_028-mesh-positions-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_028-mesh-normals">
+          <float_array id="Cubo_028-mesh-normals-array" count="60">0.9722864 -0.1543059 -0.175639 0.9963994 -0.08478301 3.66234e-4 0.9575144 -0.2171757 -0.1897388 -0.9963994 -0.08478301 3.66234e-4 -0.9722864 -0.1543059 -0.175639 -0.9575144 -0.2171757 -0.1897388 0.4882799 -0.6391068 -0.5942433 -0.4882799 -0.6391068 -0.5942433 -0.4459425 -0.6936035 -0.5657293 -0.8203488 -0.5718637 0 -0.99476 0.1022379 0 0 -1 0 0.8203488 -0.5718637 0 0.99476 0.1022379 0 0.6737764 0.7389353 0 0 1 0 -0.6737764 0.7389353 0 0.9963605 -0.08524012 2.74673e-4 -0.9963605 -0.08524012 2.74673e-4 0.4459425 -0.6936035 -0.5657293</float_array>
+          <technique_common>
+            <accessor source="#Cubo_028-mesh-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_028-mesh-map-0">
+          <float_array id="Cubo_028-mesh-map-0-array" count="156">0.1509137 0.1054254 0.1473512 0.1367416 0.147261 0.1054447 0.1692172 0.1366264 0.1655242 0.1053487 0.1692268 0.1053295 0.147261 0.1054447 0.1509137 0.1054254 0.1509137 0.1054254 0.1692268 0.1053295 0.1655242 0.1053487 0.1692268 0.1053295 0.1509137 0.1054254 0.1692268 0.1053295 0.1655242 0.1053487 0.152961 0.1387172 0.1585631 0.1493089 0.1529605 0.1493156 0.1473683 0.1386718 0.1529609 0.1492635 0.1473758 0.14927 0.1641811 0.1386783 0.1698349 0.14927 0.1641981 0.1492766 0.1585662 0.1386847 0.1641981 0.1492766 0.1585593 0.1492829 0.1529675 0.1386909 0.1585593 0.1492829 0.152972 0.1492898 0.1473851 0.1386978 0.152972 0.1492898 0.1473923 0.149296 0.1641952 0.1387041 0.1698067 0.149296 0.1642128 0.1493024 0.1585704 0.1387107 0.1642128 0.1493024 0.1585631 0.1493089 0.1509137 0.1054254 0.1510037 0.1367224 0.1473512 0.1367416 0.1692172 0.1366264 0.1656144 0.1366457 0.1655242 0.1053487 0.147261 0.1054447 0.147261 0.1054447 0.1509137 0.1054254 0.1692268 0.1053295 0.1655242 0.1053487 0.1655242 0.1053487 0.1509137 0.1054254 0.147261 0.1054447 0.1692268 0.1053295 0.152961 0.1387172 0.1585704 0.1387107 0.1585631 0.1493089 0.1473683 0.1386718 0.1529611 0.1386651 0.1529609 0.1492635 0.1641811 0.1386783 0.1698471 0.1386718 0.1698349 0.14927 0.1585662 0.1386847 0.1641811 0.1386783 0.1641981 0.1492766 0.1529675 0.1386909 0.1585662 0.1386847 0.1585593 0.1492829 0.1473851 0.1386978 0.1529675 0.1386909 0.152972 0.1492898 0.1641952 0.1387041 0.1698194 0.1386978 0.1698067 0.149296 0.1585704 0.1387107 0.1641952 0.1387041 0.1642128 0.1493024</float_array>
+          <technique_common>
+            <accessor source="#Cubo_028-mesh-map-0-array" count="78" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_028-mesh-map-1">
+          <float_array id="Cubo_028-mesh-map-1-array" count="156">0.1509137 0.1054254 0.1473512 0.1367416 0.147261 0.1054447 0.1692172 0.1366264 0.1655242 0.1053487 0.1692268 0.1053295 0.147261 0.1054447 0.1509137 0.1054254 0.1509137 0.1054254 0.1692268 0.1053295 0.1655242 0.1053487 0.1692268 0.1053295 0.1509137 0.1054254 0.1692268 0.1053295 0.1655242 0.1053487 0.152961 0.1387172 0.1585631 0.1493089 0.1529605 0.1493156 0.1473683 0.1386718 0.1529609 0.1492635 0.1473758 0.14927 0.1641811 0.1386783 0.1698349 0.14927 0.1641981 0.1492766 0.1585662 0.1386847 0.1641981 0.1492766 0.1585593 0.1492829 0.1529675 0.1386909 0.1585593 0.1492829 0.152972 0.1492898 0.1473851 0.1386978 0.152972 0.1492898 0.1473923 0.149296 0.1641952 0.1387041 0.1698067 0.149296 0.1642128 0.1493024 0.1585704 0.1387107 0.1642128 0.1493024 0.1585631 0.1493089 0.1509137 0.1054254 0.1510037 0.1367224 0.1473512 0.1367416 0.1692172 0.1366264 0.1656144 0.1366457 0.1655242 0.1053487 0.147261 0.1054447 0.147261 0.1054447 0.1509137 0.1054254 0.1692268 0.1053295 0.1655242 0.1053487 0.1655242 0.1053487 0.1509137 0.1054254 0.147261 0.1054447 0.1692268 0.1053295 0.152961 0.1387172 0.1585704 0.1387107 0.1585631 0.1493089 0.1473683 0.1386718 0.1529611 0.1386651 0.1529609 0.1492635 0.1641811 0.1386783 0.1698471 0.1386718 0.1698349 0.14927 0.1585662 0.1386847 0.1641811 0.1386783 0.1641981 0.1492766 0.1529675 0.1386909 0.1585662 0.1386847 0.1585593 0.1492829 0.1473851 0.1386978 0.1529675 0.1386909 0.152972 0.1492898 0.1641952 0.1387041 0.1698194 0.1386978 0.1698067 0.149296 0.1585704 0.1387107 0.1641952 0.1387041 0.1642128 0.1493024</float_array>
+          <technique_common>
+            <accessor source="#Cubo_028-mesh-map-1-array" count="78" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_028-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_028-mesh-positions"/>
+        </vertices>
+        <triangles material="textura_Bedu_General-material" count="26">
+          <input semantic="VERTEX" source="#Cubo_028-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_028-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_028-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Cubo_028-mesh-map-1" offset="2" set="1"/>
+          <p>6 0 0 3 1 1 2 2 2 1 3 3 4 4 4 0 5 5 2 2 6 11 6 7 6 0 8 0 5 9 10 7 10 8 8 11 11 6 12 8 8 13 10 7 14 14 9 15 13 10 16 12 9 17 17 11 18 12 9 19 15 11 20 18 12 21 15 11 22 16 12 23 19 13 24 16 12 25 21 13 26 20 14 27 21 13 28 22 14 29 25 15 30 22 14 31 23 15 32 26 16 33 23 15 34 24 16 35 27 10 36 24 16 37 13 10 38 6 0 39 7 17 40 3 1 41 1 3 42 5 18 43 4 4 44 2 2 45 9 19 46 11 6 47 0 5 48 4 4 49 10 7 50 11 6 51 9 19 52 8 8 53 14 9 54 27 10 55 13 10 56 17 11 57 14 9 58 12 9 59 18 12 60 17 11 61 15 11 62 19 13 63 18 12 64 16 12 65 20 14 66 19 13 67 21 13 68 25 15 69 20 14 70 22 14 71 26 16 72 25 15 73 23 15 74 27 10 75 26 16 76 24 16 77</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="a_helmet_arab_e_03" name="a_helmet_arab_e_03" type="NODE">
+        <matrix sid="transform">0.9584063 0 0 0 0 0.9584063 0 0 0 0 0.9584063 0.0429835 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_028-mesh" name="a_helmet_arab_e_03">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="textura_Bedu_General-material" target="#textura_Bedu_General-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
