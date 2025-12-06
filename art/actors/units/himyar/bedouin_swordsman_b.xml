@@ -81,9 +81,7 @@
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml">
-      <props>
-        <prop actor="props/units/helmets/arab_coif_swordsman_ready.xml" attachpoint="root"/>
-      </props>
+
     </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>

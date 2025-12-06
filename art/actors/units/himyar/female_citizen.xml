@@ -11,14 +11,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="body-cloth">
+    <variant frequency="1" name="f_01_01">
       <textures>
-        <texture file="skeletal/arab/cloth.png" name="baseTex"/>
+        <texture file="skeletal/arab/f_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="body-cloth2">
+    <variant frequency="1" name="f_01_02">
       <textures>
-        <texture file="skeletal/arab/cloth2.png" name="baseTex"/>
+        <texture file="skeletal/arab/f_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="f_01_03">
+      <textures>
+        <texture file="skeletal/arab/f_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="f_01_04">
+      <textures>
+        <texture file="skeletal/arab/f_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -2,14 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant>
-      <mesh>skeletal/new/m_dress.dae</mesh>
+    <variant frequency="1" name="Helmet">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_arab_01.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/arab_oval_01.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/sheath_xiphos.xml" attachpoint="sheath_02_L"/>
-        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+        <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/arab_round_01.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -18,29 +16,29 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="ir_01_01">
+    <variant frequency="1" name="robes_04_01">
       <textures>
-        <texture file="skeletal/arab/ir_01_01.png" name="baseTex"/>
+        <texture file="skeletal/arab/im_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="ir_01_02">
+    <variant frequency="1" name="im_01_02">
       <textures>
-        <texture file="skeletal/arab/ir_01_02.png" name="baseTex"/>
+        <texture file="skeletal/arab/im_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="ir_01_03">
+    <variant frequency="1" name="im_01_03">
       <textures>
-        <texture file="skeletal/arab/ir_01_03.png" name="baseTex"/>
+        <texture file="skeletal/arab/im_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="ir_01_04">
+    <variant frequency="1" name="im_01_04">
       <textures>
-        <texture file="skeletal/arab/ir_01_04.png" name="baseTex"/>
+        <texture file="skeletal/arab/im_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_skirmisher.xml"/>
+    <variant file="biped/base_swordsman_shield_ready.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -49,7 +47,6 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_javelinist.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
@@ -63,7 +60,6 @@
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml">
-
     </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>

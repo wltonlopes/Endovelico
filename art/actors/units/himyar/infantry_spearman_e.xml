@@ -2,51 +2,59 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="3" name="Coif">
+    <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_dress.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/umay_coif_archer_ready_e.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
-        <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/heads/head_arab_01.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/arabs/helmet_arab_e.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/pers_tower_e.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/spear_ball.xml" attachpoint="weapon_R"/>
       </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="robes_01_01">
       <textures>
-        <texture file="skeletal/arab/robes_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_01_02">
-      <textures>
-        <texture file="skeletal/arab/robes_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_02_01">
-      <textures>
-        <texture file="skeletal/arab/robes_02_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_02_02">
-      <textures>
-        <texture file="skeletal/arab/robes_02_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_02_03">
-      <textures>
-        <texture file="skeletal/arab/robes_02_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_02_04">
-      <textures>
-        <texture file="skeletal/arab/robes_02_04.png" name="baseTex"/>
+        <texture file="skeletal/pers/scale_02_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_archer_ready.xml"/>
+    <variant frequency="1" name="scale-2a">
+      <textures>
+        <texture file="skeletal/pers/scale_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-2b">
+      <textures>
+        <texture file="skeletal/pers/scale_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-2c">
+      <textures>
+        <texture file="skeletal/pers/scale_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-2d">
+      <textures>
+        <texture file="skeletal/pers/scale_02_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-2e">
+      <textures>
+        <texture file="skeletal/pers/scale_02_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-2f">
+      <textures>
+        <texture file="skeletal/pers/scale_02_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="scale-2g">
+      <textures>
+        <texture file="skeletal/pers/scale_02_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_relax.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -63,16 +71,11 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_archer_hip.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
     <variant file="biped/gather_grain.xml"/>
-    <variant file="biped/gather_fruit.xml">
-      <props>
-        <prop actor="props/units/helmets/umay_coif_archer_ready_b.xml" attachpoint="root"/>
-      </props>
-    </variant>
+    <variant file="biped/gather_fruit.xml"/>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/gather_rock.xml"/>
     <variant file="biped/gather_ore.xml"/>
@@ -80,11 +83,7 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml">
-      <props>
-        <prop actor="props/units/helmets/umay_coif_archer_ready_b.xml" attachpoint="root"/>
-      </props>
-    </variant>
+    <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

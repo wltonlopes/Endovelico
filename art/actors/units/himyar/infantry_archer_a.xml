@@ -3,10 +3,10 @@
   <castshadow/>
   <group>
     <variant name="Coif">
-      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/umay_coif_archer_ready_e.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_arab_01.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/arabs/helmet_arab_a.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
@@ -14,34 +14,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="robes_01_01">
+    <variant frequency="1" name="ir_02_01">
       <textures>
-        <texture file="skeletal/arab/robes_01_01.png" name="baseTex"/>
+        <texture file="skeletal/arab/ir_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="robes_01_02">
+    <variant frequency="1" name="ir_02_02">
       <textures>
-        <texture file="skeletal/arab/robes_01_02.png" name="baseTex"/>
+        <texture file="skeletal/arab/ir_02_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="robes_02_01">
+    <variant frequency="1" name="ir_02_03">
       <textures>
-        <texture file="skeletal/arab/robes_02_01.png" name="baseTex"/>
+        <texture file="skeletal/arab/ir_02_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="robes_02_02">
+    <variant frequency="1" name="ir_02_04">
       <textures>
-        <texture file="skeletal/arab/robes_02_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_02_03">
-      <textures>
-        <texture file="skeletal/arab/robes_02_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_02_04">
-      <textures>
-        <texture file="skeletal/arab/robes_02_04.png" name="baseTex"/>
+        <texture file="skeletal/arab/ir_02_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -69,9 +59,6 @@
     <variant file="biped/gather_tree.xml"/>
     <variant file="biped/gather_grain.xml"/>
     <variant file="biped/gather_fruit.xml">
-      <props>
-        <prop actor="props/units/helmets/umay_coif_archer_ready_e.xml" attachpoint="root"/>
-      </props>
     </variant>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/gather_rock.xml"/>
@@ -81,9 +68,6 @@
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml">
-      <props>
-        <prop actor="props/units/helmets/umay_coif_archer_ready_e.xml" attachpoint="root"/>
-      </props>
     </variant>
   </group>
   <material>player_trans.xml</material>

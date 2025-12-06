@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Ptolemies Thureos Basic">
+      <mesh>props/shield/ptol_thureos_curved.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Thureos galatian a">
+      <textures>
+        <texture file="props/shield/arab/arab_thureos_c.png" name="baseTex"/>
+        <texture file="props/shield/ptol_thureos_a_wood_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
