@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_arab_01.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/arab_round_01.xml" attachpoint="shield"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="robes_04_01">
+      <textures>
+        <texture file="skeletal/arab/im_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_02_02">
+      <textures>
+        <texture file="skeletal/arab/im_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_02_03">
+      <textures>
+        <texture file="skeletal/arab/im_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_02_04">
+      <textures>
+        <texture file="skeletal/arab/im_02_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/camelry/base_spearman_relax.xml"/>
+    <variant file="biped/rider/camelry/promotion.xml" name="promotion"/>
+    <variant file="biped/rider/camelry/attack_slaughter.xml"/>
+    <variant file="biped/rider/camelry/gather_meat.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

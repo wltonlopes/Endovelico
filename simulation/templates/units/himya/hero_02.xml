@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/kush_hero_nastasen_1
+    units/heroes/kush_hero_nastasen_2
+  </Auras>
+  <Identity>
+    <Civ>himya</Civ>
+    <GenericName>Nālkē of axum</GenericName>
+    <Icon>units/kush/hero_nastasen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/himyar/hero_cavalry_swordsman_m.xml</Actor>
+  </VisualActor>
+</Entity>
