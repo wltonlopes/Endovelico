@@ -11,40 +11,25 @@
       </props>
     </variant>
   </group>
-  <group>
-    <variant frequency="1" name="adv-body-cloth1a">
+ <group>
+    <variant frequency="1" name="robes_04_01">
       <textures>
-        <texture file="skeletal/umay/advanced/cloth1a.png" name="baseTex"/>
+        <texture file="skeletal/arab/im_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="adv-body-cloth1b">
+    <variant frequency="1" name="im_01_02">
       <textures>
-        <texture file="skeletal/umay/advanced/cloth1b.png" name="baseTex"/>
+        <texture file="skeletal/arab/im_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="adv-body-cloth1c">
+    <variant frequency="1" name="im_01_03">
       <textures>
-        <texture file="skeletal/umay/advanced/cloth1c.png" name="baseTex"/>
+        <texture file="skeletal/arab/im_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="adv-body-cloth1d">
+    <variant frequency="1" name="im_01_04">
       <textures>
-        <texture file="skeletal/umay/advanced/cloth1d.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="adv-body-cloth1e">
-      <textures>
-        <texture file="skeletal/umay/advanced/cloth1e.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="adv-body-cloth1f">
-      <textures>
-        <texture file="skeletal/umay/advanced/cloth1f.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="adv-body-cloth1g">
-      <textures>
-        <texture file="skeletal/umay/advanced/cloth1g.png" name="baseTex"/>
+        <texture file="skeletal/arab/im_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

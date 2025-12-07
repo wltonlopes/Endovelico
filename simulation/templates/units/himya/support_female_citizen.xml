@@ -4,10 +4,10 @@
   <Identity>
     <Civ>himya</Civ>
     <SpecificName>Naari</SpecificName>
-    <GenericName>Indian Woman</GenericName>
+    <GenericName>Himyar Woman</GenericName>
     <Icon>units/maur/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mauryas/female_citizen.xml</Actor>
+    <Actor>units/himyar/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

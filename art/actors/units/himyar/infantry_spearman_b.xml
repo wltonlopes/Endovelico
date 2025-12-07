@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_arab_01.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/pers_tower_e.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/arab_thureos_basic.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear_ball.xml" attachpoint="weapon_R"/>
       </props>
       <textures>

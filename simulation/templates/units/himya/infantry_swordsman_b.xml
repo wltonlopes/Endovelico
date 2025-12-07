@@ -5,11 +5,10 @@
       <AttackName context="Name of an attack using a single-edged sword.">Sword</AttackName>
     </Melee>
   </Attack>
-
   <Identity>
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Indian Swordsman</GenericName>
+    <GenericName>Himyar Swordsman</GenericName>
     <SpecificName>Khadagdhari</SpecificName>
     <Icon>units/maur/infantry_swordsman.png</Icon>
     <Requirements>
@@ -20,6 +19,6 @@
     <Entity>units/himya/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mauryas/infantry_swordsman_b.xml</Actor>
+    <Actor>units/himyar/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

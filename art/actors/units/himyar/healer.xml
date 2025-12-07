@@ -5,7 +5,7 @@
     <variant file="biped/base_healer_male.xml">
       <mesh>skeletal/new/m_armor_dress.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/arabs/helmet_arab_h.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/arabs/helmet_arab_h.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_arab_old.xml" attachpoint="head"/>
         <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
       </props>

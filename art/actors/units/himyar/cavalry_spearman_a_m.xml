@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/horse_persian.dae</mesh>
       <props>
-        <prop actor="units/bedouin/cavalry_spearman_a_r.xml" attachpoint="rider"/>
+        <prop actor="units/himyar/cavalry_spearman_a_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_sele.xml" attachpoint="root"/>
       </props>
@@ -26,7 +26,7 @@
     <variant file="quadraped/base_horse_run.xml"/>
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="units/bedouin/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
+        <prop actor="units/himyar/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>

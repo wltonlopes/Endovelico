@@ -3,7 +3,7 @@
   <Identity>
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Indian Light Cavalry</GenericName>
+    <GenericName>Himyar Light Cavalry</GenericName>
     <SpecificName>Ashwarohi</SpecificName>
     <Icon>units/maur/cavalry_javelinist.png</Icon>
   </Identity>
@@ -11,6 +11,6 @@
     <Entity>units/himya/cavalry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mauryas/cavalry_javelinist_b_m.xml</Actor>
+    <Actor>units/himyar/cavalry_javelineer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

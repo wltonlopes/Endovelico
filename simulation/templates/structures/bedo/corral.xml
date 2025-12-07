@@ -10,6 +10,12 @@
   <Obstruction>
     <Static width="17.5" depth="21.5"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      -gaia/fauna_pig_trainable
+      -gaia/fauna_cattle_cow_trainable
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/bedouin/corral.xml</Actor>
     <FoundationActor>structures/fndn_5x6.xml</FoundationActor>

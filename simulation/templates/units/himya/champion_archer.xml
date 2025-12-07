@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Identity>
+    <Civ>himya</Civ>
+    <GenericName>Royal Guard Archer</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/persian/champion_archer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/himyar/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

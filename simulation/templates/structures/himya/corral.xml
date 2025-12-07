@@ -4,6 +4,12 @@
     <Civ>himya</Civ>
     <SpecificName></SpecificName>
   </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      -gaia/fauna_pig_trainable
+      -gaia/fauna_cattle_cow_trainable
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/himyar/corral.xml</Actor>
   </VisualActor>

@@ -6,6 +6,6 @@
     <Entity>units/himya/infantry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mauryas/infantry_swordsman_a.xml</Actor>
+    <Actor>units/himyar/infantry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

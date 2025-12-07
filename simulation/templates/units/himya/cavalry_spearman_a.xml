@@ -1,0 +1,11 @@
+<Entity parent="units/himya/cavalry_spearman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/himya/cavalry_spearman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/himyar/cavalry_spearman_a_m.xml</Actor>
+  </VisualActor>
+</Entity>
