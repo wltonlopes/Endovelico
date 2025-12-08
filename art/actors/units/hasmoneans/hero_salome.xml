@@ -5,8 +5,8 @@
     <variant>
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_kart_priestess.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/kart_healer_staff.xml" attachpoint="back"/>
+        <prop actor="props/units/heads/head_hasmoneans_female.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hasmoneans/helmet_hero_01_female.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="skeletal/hele/dress_female_04.dds" name="baseTex"/>

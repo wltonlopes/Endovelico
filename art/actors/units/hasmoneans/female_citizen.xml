@@ -5,7 +5,8 @@
     <variant>
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_pers_tiara_mouth.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_hasmoneans_female.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hasmoneans/hood.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
