@@ -10,6 +10,6 @@
     <Icon>units/mace/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/macedonians/trireme.xml</Actor>
+    <Actor>structures/persians/bireme.xml</Actor>
   </VisualActor>
 </Entity>

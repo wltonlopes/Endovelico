@@ -10,6 +10,6 @@
     <Icon>units/hele/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/macedonians/pentekonter.xml</Actor>
+    <Actor>structures/persians/bireme_scout.xml</Actor>
   </VisualActor>
 </Entity>

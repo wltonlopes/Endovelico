@@ -4,8 +4,8 @@
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Himyar Raiding Cavalry</GenericName>
-    <SpecificName>Aśvārohagaṇaḥ</SpecificName>
-    <Icon>units/maur/cavalry_spearman.png</Icon>
+    <SpecificName></SpecificName>
+    <Icon>units/pers/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
