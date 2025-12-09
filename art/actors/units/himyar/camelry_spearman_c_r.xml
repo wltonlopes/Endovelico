@@ -6,6 +6,8 @@
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_arab_01.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/arabs/helmet_arab_e.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/arabs/helmet_arab_metal.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/arab_round_01.xml" attachpoint="shield"/>
       </props>
@@ -16,24 +18,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="robes_04_01">
+    <variant frequency="1" name="c_01">
       <textures>
-        <texture file="skeletal/arab/im_01_01.png" name="baseTex"/>
+        <texture file="skeletal/arab/c_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_01_02">
+    <variant frequency="1" name="c_02">
       <textures>
-        <texture file="skeletal/arab/im_01_02.png" name="baseTex"/>
+        <texture file="skeletal/arab/c_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_01_03">
+    <variant frequency="1" name="c_03">
       <textures>
-        <texture file="skeletal/arab/im_01_03.png" name="baseTex"/>
+        <texture file="skeletal/arab/c_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_01_04">
+    <variant frequency="1" name="c_04">
       <textures>
-        <texture file="skeletal/arab/im_01_04.png" name="baseTex"/>
+        <texture file="skeletal/arab/c_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

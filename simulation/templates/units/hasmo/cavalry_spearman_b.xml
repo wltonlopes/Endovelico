@@ -2,7 +2,6 @@
 <Entity parent="merc_cav|template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>hasmo</Civ>
-    <Lang>greek</Lang>
     <SelectionGroupName>units/hasmo/cavalry_spearman_merc_b</SelectionGroupName>
     <GenericName>Mercenary Cavalry</GenericName>
     <SpecificName>Cavalry spearman</SpecificName>
@@ -12,7 +11,7 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/hasmo/cavalry_spearman_merc_a</Entity>
+    <Entity>units/hasmo/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/hasmoneans/cavalry_spearman_b_m.xml</Actor>

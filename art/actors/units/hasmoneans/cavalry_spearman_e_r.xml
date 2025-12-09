@@ -9,8 +9,27 @@
         <prop actor="props/units/shields/ptol_thureos_elite.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear_long_iron.xml" attachpoint="weapon_R"/>
       </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="im_03_01">
       <textures>
-        <texture file="skeletal/spart_phalangite_officer.dds" name="baseTex"/>
+        <texture file="skeletal/hasmoneans/ir_03_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_03_02">
+      <textures>
+        <texture file="skeletal/hasmoneans/ir_03_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_03_03">
+      <textures>
+        <texture file="skeletal/hasmoneans/ir_03_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_03_04">
+      <textures>
+        <texture file="skeletal/hasmoneans/ir_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

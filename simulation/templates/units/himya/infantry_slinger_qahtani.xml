@@ -9,6 +9,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/garamantians/infantry_slinger_merc.xml</Actor>
+    <Actor>units/himyar/infantry_slinger_merc.xml</Actor>
   </VisualActor>
 </Entity>

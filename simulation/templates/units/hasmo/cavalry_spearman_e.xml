@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/hasmo/infantry_swordsman_merc_a">
+<Entity parent="units/hasmo/cavalry_spearman_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/seleucids/infantry_swordsman_e.xml</Actor>
+    <Actor>units/hasmoneans/cavalry_spearman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

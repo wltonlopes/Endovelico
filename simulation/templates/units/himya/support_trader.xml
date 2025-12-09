@@ -10,6 +10,6 @@
     <Icon>units/maur/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/himyar/trader.xml</Actor>
+    <Actor>units/persians/trader.xml</Actor>
   </VisualActor>
 </Entity>

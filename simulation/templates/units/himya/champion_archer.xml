@@ -7,6 +7,6 @@
     <Icon>units/persian/champion_archer.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/himyar/infantry_archer_c.xml</Actor>
+    <Actor>units/himyar/infantry_champion_archer.xml</Actor>
   </VisualActor>
 </Entity>
