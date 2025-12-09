@@ -35,7 +35,9 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/support_trader    
+      units/{civ}/infantry_axeman_ma_in
+      units/{civ}/infantry_slinger_qahtani
+      units/{civ}/infantry_swordsman_saba
     </Entities>
   </Trainer>
   <VisualActor>

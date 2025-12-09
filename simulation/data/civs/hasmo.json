@@ -49,14 +49,22 @@
         }
     ],
     "AINames": [
-        "Simon Thassi",
-        "John Hyrcanus",
-        "Aristobulus I",
-        "Alexander Jannaeus",
-        "Salome Alexandra",
-        "Hyrcanus II",
-        "Aristobulus II",
-        "Antigonus II Mattathias"
+    "ethnarkhēs Jonatán Macabeo",
+    "ethnarkhēs Simón Macabeo",
+    "ethnarkhēs Juan Hircano",
+    "ethnarkhēs Hircano II",
+    "Aristóbulo I",
+    "Alejandro Janneo",
+    "Salomé Alejandra ",
+    "Aristóbulo II",
+    "Antígono Matatías ",
+    "Matatías ben Johanan",
+    "Judas macabeo ",
+    "Yohanan Macabeo",
+    "Eleazar Macabeo",
+    "Jonatán Macabeo",
+    "Simón Macabeo"
+
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/hasmo/cavalry_scout",

@@ -24,7 +24,7 @@
   </Health>
   <Identity>
     <GenericName>Stable</GenericName>
-    <SelectionGroupName>template_structure_military_stable</SelectionGroupName>
+    <SelectionGroupName>template_structure_military_stable_camel</SelectionGroupName>
     <Tooltip>Train Camelry and research Camelry technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Village Stable</VisibleClasses>
     <Icon>structures/camel_stable.png</Icon>
@@ -73,7 +73,6 @@
       units/{civ}/champion_camelry_javelineer
       units/{civ}/champion_camelry_archer
       units/{civ}/champion_camelry_crossbowman
-      units/{civ}/champion_chariot
       units/{civ}/war_dog
     </Entities>
   </Trainer>
