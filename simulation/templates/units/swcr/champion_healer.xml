@@ -12,8 +12,8 @@
   </Health>
   <Identity>
     <Civ>swcr</Civ>
-    <GenericName>Mayan High Priest</GenericName>
-    <SpecificName>Aj K'in</SpecificName>
+    <GenericName>Creek High Priest</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/mayap/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>

@@ -5,7 +5,7 @@
     <Lang>napatan</Lang>
     <SelectionGroupName>units/axum/cavalry_javelineer_b</SelectionGroupName>
     <SpecificName>iry hr ssmwtt</SpecificName>
-    <GenericName>Napatan Light Cavalry</GenericName>
+    <GenericName>Axum Light Cavalry</GenericName>
     <Icon>units/kush/cavalry_javelinist.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

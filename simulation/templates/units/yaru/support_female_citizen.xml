@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
-  <Builder>
-    <Entities datatype="tokens">
-
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>yaru</Civ>
-    <SpecificName>ixik</SpecificName>
-    <GenericName>Maya Woman</GenericName>
+    <SpecificName></SpecificName>
+    <GenericName>Lenca Woman</GenericName>
     <Icon>units/mesoamerican/support_female_citizen.png</Icon>
     <SelectionGroupName>units/maya_protoclassic/support_female_citizen</SelectionGroupName>
   </Identity>

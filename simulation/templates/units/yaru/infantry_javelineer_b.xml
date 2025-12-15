@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_javelineer">
-  <Builder>
-    <Entities datatype="tokens">
-
-    </Entities>
-  </Builder>
   <Cost>
     <Resources>
       <food>45</food>
@@ -17,7 +12,7 @@
     <Civ>yaru</Civ>
     <SelectionGroupName>units/maya_infantry_javelineer_b</SelectionGroupName>
     <GenericName>Javalineer warrior</GenericName>
-    <SpecificName>Hul'che Bate</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/mesoamerican/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

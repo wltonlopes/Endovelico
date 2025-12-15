@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>axum</Civ>
-    <SelectionGroupName>units/xion_cavalry_spearman</SelectionGroupName>
+    <SelectionGroupName>units/axum/cavalry_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>
   <Promotion>

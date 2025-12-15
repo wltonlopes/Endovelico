@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>yaru</Civ>
-    <SpecificName>Aj Kon</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/mesoamerican/support_trader.png</Icon>
   </Identity>
   <VisualActor>

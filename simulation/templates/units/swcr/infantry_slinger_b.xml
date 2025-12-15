@@ -3,8 +3,8 @@
   <Identity>
     <Civ>swcr</Civ>
     <SelectionGroupName>units/adena_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Slinger</GenericName>
-    <SpecificName>Yum'Tun Bate</SpecificName>
+    <GenericName>Levy Slinger</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/mayap/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

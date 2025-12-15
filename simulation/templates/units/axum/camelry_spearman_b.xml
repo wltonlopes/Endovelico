@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>axum</Civ>
+    <GenericName>Spearman Camelry </GenericName>
     <SelectionGroupName>units/xion_cavalry_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>
