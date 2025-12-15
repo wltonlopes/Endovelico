@@ -53,7 +53,11 @@
         "Ai Vương",
         "Thuật Dương Vương",
         "Trưng Trắc",
-        "Trưng Nhị"
+        "Trưng Nhị",
+        "Mỵ Nương Tiên Dung",
+        "Mỵ Nương Ngọc Hoa" ,
+        "Mỵ Nương Ngọc Nương",
+        "Mỵ Châu"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/hongb/cavalry_scout",

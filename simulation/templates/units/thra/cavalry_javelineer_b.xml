@@ -4,7 +4,7 @@
     <Civ>thra</Civ>
     <GenericName>Thracian Cavalry Skirmisher</GenericName>
     <SelectionGroupName>units/thra/cavalry_javelineer_b</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SpecificName>Khōra  Skálmēsinas mezēnai</SpecificName>
     <Icon>units/thra/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>

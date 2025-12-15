@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="hoplite|template_unit_infantry_melee_spearman">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/numi/super_dock
-      structures/numi/embassy_celtic
-      structures/numi/embassy_iberian
-      structures/numi/embassy_italic
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>numi</Civ>
     <SelectionGroupName>units/numi/infantry_spearman_b</SelectionGroupName>
     <GenericName>Libyan Spearman</GenericName>
-    <SpecificName>Sǝḫīr Ḥanīt</SpecificName>
+    <SpecificName>Aanatim Mookdamim</SpecificName>
     <Icon>units/cart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
