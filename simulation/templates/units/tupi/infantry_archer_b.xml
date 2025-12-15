@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>tupi</Civ>
-    <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/tupi/infantry_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
     <SpecificName>Petym-abá</SpecificName>
     <Icon>units/south_america/infantry_archer.png</Icon>

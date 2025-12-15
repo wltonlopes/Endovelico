@@ -5,7 +5,7 @@
     <GenericName>Great Warrior Chief</GenericName>
     <SpecificName>Morubixaba</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
+    <SelectionGroupName>units/tupi/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>

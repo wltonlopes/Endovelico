@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_axeman">
   <Identity>
     <Civ>tupi</Civ>
-    <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
+    <SelectionGroupName>units/tupi/infantry_axeman_b</SelectionGroupName>
     <GenericName>Mayan Maceman</GenericName>
     <SpecificName>ibirá-pembé-abá</SpecificName>
     <Icon>units/south_america/infantry_maceman.png</Icon>
