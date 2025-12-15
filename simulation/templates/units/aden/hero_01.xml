@@ -5,7 +5,7 @@
     <GenericName></GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <SelectionGroupName>units/mapu/hero_jaguar_king</SelectionGroupName>
+    <SelectionGroupName>units/aden/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>
   </Identity>
   <UnitMotion>

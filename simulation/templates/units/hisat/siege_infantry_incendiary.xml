@@ -4,7 +4,7 @@
     <Civ>hisat</Civ>
     <Classes datatype="tokens">Siege</Classes>
     <GenericName>Fire Warrior</GenericName>
-    <SpecificName>Tilo'm Bate</SpecificName>
+    <SpecificName></SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

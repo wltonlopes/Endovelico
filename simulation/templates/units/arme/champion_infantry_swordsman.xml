@@ -3,7 +3,7 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Champion Swordsman</GenericName>
-    <SpecificName />
+    <SpecificName> <SpecificName/>
     <Icon>units/thra/champion_infantry_swordsman.png</Icon>
     <Tooltip>Train Champions and research technologies.</Tooltip>
     <Requirements>

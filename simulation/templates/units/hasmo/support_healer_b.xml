@@ -2,7 +2,6 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>hasmo</Civ>
-    <Lang>greek</Lang>
     <SelectionGroupName>units/hasmo/support_healer_b</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/hele/support_healer.png</Icon>

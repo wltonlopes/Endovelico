@@ -1,0 +1,8 @@
+<Entity parent="units/bedo/support_healer_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/bedo/support_healer_e</Entity>
+  </Promotion>
+</Entity>

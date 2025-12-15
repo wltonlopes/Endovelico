@@ -5,7 +5,7 @@
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/mayap/cavalry_axeman_b</SelectionGroupName>
     <GenericName>Jaguar Warrior</GenericName>
-    <SpecificName>Aj Balam B'ate</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/mayap/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

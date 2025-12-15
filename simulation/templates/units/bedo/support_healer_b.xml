@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_healer">
   <Identity>
-    <Civ>himya</Civ>
-    <GenericName>Shams Priest</GenericName>
+    <Civ>bedo</Civ>
+    <GenericName>Dhū Samāwī Priest</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/maur/support_healer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/himya/support_healer_a</Entity>
+    <Entity>units/bedo/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/himyar/healer.xml</Actor>
+    <Actor>units/bedouin/healer.xml</Actor>
   </VisualActor>
 </Entity>

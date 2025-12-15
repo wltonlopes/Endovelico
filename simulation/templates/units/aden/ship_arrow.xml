@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>aden</Civ>
-    <GenericName>Bireme</GenericName>
-    <SpecificName>ygaraíba</SpecificName>
+    <GenericName>War canoe with archers</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

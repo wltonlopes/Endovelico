@@ -3,7 +3,7 @@
   <Identity>
     <Civ>paiu</Civ>
     <SelectionGroupName>units/maya_protoclassic/support_healer_b</SelectionGroupName>
-    <GenericName>Maya Priest</GenericName>
+    <GenericName>Paiute Priest</GenericName>
     <SpecificName> Aj K'in</SpecificName>
     <Icon>units/south_america/support_healer.png</Icon>
   </Identity>

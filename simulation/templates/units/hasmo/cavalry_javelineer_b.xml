@@ -2,7 +2,6 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>hasmo</Civ>
-    <Lang>greek</Lang>
     <SelectionGroupName>units/hasmo/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Judean Light Cavalry</GenericName>
     <SpecificName></SpecificName>

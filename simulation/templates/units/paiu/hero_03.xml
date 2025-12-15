@@ -3,7 +3,7 @@
   <Identity>
     <Civ>paiu</Civ>
     <GenericName>Great Warrior Chief</GenericName>
-    <SpecificName>Morubixaba</SpecificName>
+    <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>pamp</Civ>
-    <GenericName>Trading Boat</GenericName>
-    <SpecificName>ygaraapé</SpecificName>
+    <GenericName>Trading Canoe</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>

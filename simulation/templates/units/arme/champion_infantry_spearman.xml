@@ -3,7 +3,7 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Champion Spearman</GenericName>
-    <SpecificName>Champion Spearman</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

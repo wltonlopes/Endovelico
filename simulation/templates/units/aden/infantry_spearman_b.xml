@@ -4,7 +4,7 @@
   <Identity>
     <Civ>aden</Civ>
     <SelectionGroupName>units/aden/infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Taj Lom Bate</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

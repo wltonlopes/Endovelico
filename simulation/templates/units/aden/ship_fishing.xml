@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>aden</Civ>
-    <SpecificName>Ygara</SpecificName>
+    <GenericName>Fishing Canoe</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

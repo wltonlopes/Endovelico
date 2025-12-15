@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_axeman">
   <Identity>
     <Civ>aden</Civ>
-    <SpecificName>Adenas Scout</SpecificName>
+    <SpecificName>Scout</SpecificName>
     <Icon>units/aden/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

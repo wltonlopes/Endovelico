@@ -3,7 +3,7 @@
   <Identity>
     <Civ>paiu</Civ>
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
-    <GenericName>Archer</GenericName>
+    <GenericName>Levy Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_archer.png</Icon>
   </Identity>

@@ -6,7 +6,7 @@
     <GenericName>Matriarch</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
+    <SelectionGroupName>units/aden/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>
   </Identity>
   <UnitMotion>

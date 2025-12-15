@@ -3,13 +3,12 @@
   <Builder>
     <Entities datatype="tokens">
       structures/bedo/camp_caravan
-
     </Entities>
   </Builder>
   <Identity>
     <Civ>bedo</Civ>
     <SelectionGroupName>units/bedo/infantry_archer_b</SelectionGroupName>
-    <GenericName>Libyan Archer</GenericName>
+    <GenericName>Bedouin Archer</GenericName>
     <SpecificName>Pdty Nhsyw</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
