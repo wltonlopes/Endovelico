@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_javelineer">
-
   <Identity>
     <Civ>mapu</Civ>
     <SelectionGroupName>units/cart/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>javelineer</GenericName>
+    <GenericName>Mapuche Tribal Hunters</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_javelineer.png</Icon>
   </Identity>

@@ -3,9 +3,9 @@
   <Identity>
     <Civ>mapu</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
-    <GenericName>archer</GenericName>
-    <SpecificName>Aimberê</SpecificName>
+    <SelectionGroupName>units/mapu/heavy_javelineer</SelectionGroupName>
+    <GenericName>Mapuche Archer</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>

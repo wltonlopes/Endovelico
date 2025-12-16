@@ -4,7 +4,7 @@
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/hasmo/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Judean Slinger</GenericName>
+    <GenericName>Levy Judean Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/hasmo/infantry_slinger.png</Icon>
   </Identity>

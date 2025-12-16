@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>toqui</GenericName>
+    <GenericName>War Chief</GenericName>
     <SpecificName>toqui</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>

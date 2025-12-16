@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Footprint replace="">
+    <Square width="5.0" depth="10.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>numi</Civ>
+    <GenericName>Numidian Chariot</GenericName>
+    <SpecificName></SpecificName>
+    <SelectionGroupName>units/numi/champion_chariot</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <Icon>units/gara/champion_chariot.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/chariot_javelinist_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

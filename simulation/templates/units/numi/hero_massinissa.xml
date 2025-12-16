@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>numi</Civ>
+    <GenericName>Massinissa</GenericName>
+    <SpecificName>Massinissa</SpecificName>
+    <Icon>units/gara/hero_1.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/chariot_djalla_m.xml</Actor>
+  </VisualActor>
+</Entity>

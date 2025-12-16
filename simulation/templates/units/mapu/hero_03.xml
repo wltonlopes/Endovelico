@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>lonko</GenericName>
+    <GenericName>Tribal Chief</GenericName>
     <SpecificName>lonko</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>

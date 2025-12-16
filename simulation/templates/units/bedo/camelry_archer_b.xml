@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_archer">
+<Entity parent="camelry|template_unit_cavalry_ranged_archer">
   <Attack>
     <Ranged>
       <Projectile>
@@ -22,7 +22,7 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/bedo/cavalry_archer_a</Entity>
+    <Entity>units/bedo/camelry_archer_a</Entity>
   </Promotion>
   <Sound>
     <SoundGroups>

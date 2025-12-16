@@ -3,8 +3,8 @@
   <Identity>
     <Civ>bosf</Civ>
 	<Lang>greek</Lang>
-    <SpecificName>Gýnē Thebaïkós</SpecificName>
-    <GenericName>Theban Woman</GenericName>
+    <SpecificName>Gýnē Bosporanas</SpecificName>
+    <GenericName>Bosporan Woman</GenericName>
     <Icon>units/theb/support_female_citizen.png</Icon>
 	<SelectionGroupName>units/theb/support_female_citizen</SelectionGroupName>
   </Identity>
