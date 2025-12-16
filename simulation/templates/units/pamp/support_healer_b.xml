@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>pamp</Civ>
-    <SelectionGroupName>units/maya_protoclassic/support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/pamp/support_healer_b</SelectionGroupName>
     <GenericName>Shaman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/support_healer.png</Icon>

@@ -1,4 +1,5 @@
-<Entity parent="template_unit_cavalry_ranged_javelineer">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_ranged_javelineer">
   <Attack>
     <Ranged>
       <Projectile>
@@ -12,9 +13,8 @@
   <Identity>
     <Civ>batw</Civ>
     <SelectionGroupName>units/batw/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Desert Raider</GenericName>
-    <SpecificName>nhw Bulahau gml</SpecificName>
-    <VisibleClasses datatype="tokens">Camel</VisibleClasses>
+    <GenericName>Batwa Raider</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>
   <Promotion>
@@ -24,6 +24,7 @@
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>units/subsaara/saga_javelinist_a_m.xml</Actor>
+  
+    <Actor>units/sao/infantry_axeman_b.xml</Actor>
   </VisualActor>
 </Entity>

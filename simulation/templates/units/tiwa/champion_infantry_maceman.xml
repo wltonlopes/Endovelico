@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_maceman">
   <Identity>
     <Civ>tiwa</Civ>
-    <GenericName>Warrior</GenericName>
+    <GenericName>Nobre Maceman</GenericName>
     <SpecificName></SpecificName>
     <SelectionGroupName>units/moch/champion_infantry</SelectionGroupName>
     <Icon>units/moch/champion_infantry_maceman.png</Icon>

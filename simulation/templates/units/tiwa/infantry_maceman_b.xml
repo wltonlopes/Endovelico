@@ -2,7 +2,7 @@
   <Identity>
     <Civ>tiwa</Civ>
     <SelectionGroupName>units/tiwa/infantry_maceman_b</SelectionGroupName>
-    <GenericName>Maceman</GenericName>
+    <GenericName>Levy Maceman</GenericName>
     <SpecificName/>
     <Icon>units/moch/infantry_maceman.png</Icon>
   </Identity>

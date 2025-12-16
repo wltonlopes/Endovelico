@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_fishing">
   <Identity>
     <Civ>tiwa</Civ>
-    <SpecificName>Ploîon Halieutikón</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/moch/ship_canoe.png</Icon>
   </Identity>
   <VisualActor>

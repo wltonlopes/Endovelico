@@ -6,7 +6,7 @@
   </Builder>
   <Identity>
     <Civ>tiwa</Civ>
-    <SpecificName>Mecherraec</SpecificName>
+    <SpecificName></SpecificName>
     <GenericName>Woman</GenericName>
     <Icon>units/moch/support_female_citizen.png</Icon>
     <SelectionGroupName>units/tiwa/support_female_citizen</SelectionGroupName>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/pamp/heavy_javelineer</SelectionGroupName>
     <GenericName>Female archer</GenericName>
     <SpecificName>Aimberê</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
