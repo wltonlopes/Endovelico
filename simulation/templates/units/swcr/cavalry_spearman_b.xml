@@ -3,10 +3,9 @@
   <Identity>
     <Civ>swcr</Civ>
     <Rank>Advanced</Rank>
-<<<<<<< HEAD
     <SelectionGroupName>units/swcr/heavy_infantry</SelectionGroupName>
     <GenericName>Heavy Warrior Spearman</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName/>
     <Icon>units/mayap/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

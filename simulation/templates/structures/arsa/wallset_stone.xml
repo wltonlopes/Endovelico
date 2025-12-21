@@ -5,11 +5,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/arme/wall_tower</Tower>
-      <Gate>structures/arme/wall_gate</Gate>
-      <WallLong>structures/arme/wall_long</WallLong>
-      <WallMedium>structures/arme/wall_medium</WallMedium>
-      <WallShort>structures/arme/wall_short</WallShort>
+      <Tower>structures/arsa/wall_tower</Tower>
+      <Gate>structures/arsa/wall_gate</Gate>
+      <WallLong>structures/arsa/wall_long</WallLong>
+      <WallMedium>structures/arsa/wall_medium</WallMedium>
+      <WallShort>structures/arsa/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.80</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

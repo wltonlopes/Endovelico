@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_player">
-  <!-- <Auras datatype="tokens">
-    teambonuses/cart_player_teambonus
-  </Auras> -->
+  <Auras datatype="tokens">
+    teambonuses/epir_player_teambonus
+  </Auras>
+  <EntityLimits>
+    <Limits>
+      <MolossianDog>0</MolossianDog>
+    </Limits>
+    <LimitChangers>
+      <MolossianDog>
+        <House>1</House>
+      </MolossianDog>
+    </LimitChangers>
+  </EntityLimits>
   <Identity>
     <Civ>epir</Civ>
     <GenericName>Epirotes</GenericName>
-    <History>.</History>
+    <History>Epirus was an ancient Greek kingdom, and later republic, located in the geographical region of Epirus, in parts of north-western Greece and southern Albania. Home to the ancient Epirotes, the state was bordered by the Aetolian League to the south, Ancient Thessaly and Ancient Macedonia to the east, and Illyrian tribes to the north. The Greek king Pyrrhus is known to have made Epirus a powerful state in the Greek realm (during 280–275 BC) that was comparable to the likes of Ancient Macedonia and Ancient Rome. Pyrrhus' armies also attempted an assault against the state of Ancient Rome during their unsuccessful campaign in what is now modern-day Italy.</History>
     <Icon>emblems/epirotes.png</Icon>
   </Identity>
   <Player>
