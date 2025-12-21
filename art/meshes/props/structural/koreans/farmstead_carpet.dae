@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.5 LTS commit date:2025-11-17, commit time:16:03, hash:836beaaf597a</authoring_tool>
+    </contributor>
+    <created>2025-11-22T00:04:33</created>
+    <modified>2025-11-22T00:04:33</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Gojo_Farmstead_Carpet-mesh" name="Gojo Farmstead Carpet">
+      <mesh>
+        <source id="Gojo_Farmstead_Carpet-mesh-positions">
+          <float_array id="Gojo_Farmstead_Carpet-mesh-positions-array" count="60">0.4375733 -4.35422 2.301467 -0.8272975 -4.383747 2.324138 0.4328933 -4.201384 1.974132 -0.8319776 -4.230911 1.996802 0.4405238 -4.528642 1.97158 -0.8243473 -4.558166 1.99425 0.4328933 -4.201384 0.8293381 -0.8319776 -4.230911 0.8520078 0.4405238 -4.528642 0.8267856 -0.8243473 -4.558166 0.8494562 3.462701 4.394911 2.301467 2.197826 4.365383 2.324138 3.458017 4.547747 1.974132 2.193146 4.518219 1.996802 3.465646 4.220492 1.97158 2.200777 4.190961 1.99425 3.458017 4.547747 0.8293381 2.193146 4.518219 0.8520078 3.465646 4.220492 0.8267856 2.200777 4.190961 0.8494562</float_array>
+          <technique_common>
+            <accessor source="#Gojo_Farmstead_Carpet-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gojo_Farmstead_Carpet-mesh-normals">
+          <float_array id="Gojo_Farmstead_Carpet-mesh-normals-array" count="60">0.01732403 0.0252915 0.9995301 -0.01885056 0.9755681 0.2188876 0.01732987 0.0249722 0.999538 0.02693408 -0.9707854 0.2384335 0.02333539 -0.9997277 0 0.02333539 -0.9997277 0 -0.01894956 0.9765179 0.2146013 -0.02333766 0.9997277 0 0.01732409 0.02528858 0.9995301 -0.01885092 0.975568 0.2188872 0.0173335 0.024975 0.9995378 0.02693718 -0.9707856 0.238432 0.02334034 -0.9997277 0 0.02334034 -0.9997277 0 -0.01894986 0.9765178 0.2146022 -0.02333801 0.9997277 0 0.02699053 -0.9696123 0.2431533 -0.02333766 0.9997277 0 0.02699536 -0.9696114 0.2431569 -0.02333801 0.9997277 0</float_array>
+          <technique_common>
+            <accessor source="#Gojo_Farmstead_Carpet-mesh-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gojo_Farmstead_Carpet-mesh-map-0">
+          <float_array id="Gojo_Farmstead_Carpet-mesh-map-0-array" count="96">0.5175901 0.1180571 0.5343488 0.01853287 0.517493 0.01860582 0.5021227 0.1181527 0.4764964 0.01871228 0.4763627 0.1182214 0.5175021 0.01857519 0.5021271 0.1181527 0.5175996 0.1179825 0.5344159 0.1179632 0.5596045 0.01846557 0.5343492 0.01853287 0.5175901 0.1180571 0.5343488 0.01853287 0.517493 0.01860582 0.5021227 0.1181527 0.4764964 0.01871228 0.4763627 0.1182214 0.5175021 0.01857519 0.5021271 0.1181527 0.5175996 0.1179825 0.5344159 0.1179632 0.5596045 0.01846557 0.5343492 0.01853287 0.5175901 0.1180571 0.5344253 0.1179631 0.5343488 0.01853287 0.5021227 0.1181527 0.5020689 0.01864415 0.4764964 0.01871228 0.5175021 0.01857519 0.5020377 0.01864409 0.5021271 0.1181527 0.5344159 0.1179632 0.5594506 0.1178966 0.5596045 0.01846557 0.5175901 0.1180571 0.5344253 0.1179631 0.5343488 0.01853287 0.5021227 0.1181527 0.5020689 0.01864415 0.4764964 0.01871228 0.5175021 0.01857519 0.5020377 0.01864409 0.5021271 0.1181527 0.5344159 0.1179632 0.5594506 0.1178966 0.5596045 0.01846557</float_array>
+          <technique_common>
+            <accessor source="#Gojo_Farmstead_Carpet-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gojo_Farmstead_Carpet-mesh-map-1">
+          <float_array id="Gojo_Farmstead_Carpet-mesh-map-1-array" count="96">0.2210761 0.242691 0.2191842 0.2140487 0.2210761 0.2141463 0.1976095 0.03700274 0.2040703 0.008493065 0.2040703 0.03710365 0.195681 0.008256673 0.1976095 0.03700274 0.195681 0.03686726 0.2191842 0.2425934 0.2127333 0.2141752 0.2191842 0.2140487 0.3710369 0.3833761 0.3691452 0.3547333 0.3710369 0.3548309 0.2316213 0.9104856 0.238082 0.8819763 0.238082 0.9105865 0.2296926 0.8817399 0.2316213 0.9104856 0.2296926 0.9103502 0.3691452 0.3832783 0.3626942 0.3548598 0.3691452 0.3547333 0.2210761 0.242691 0.2191842 0.2425934 0.2191842 0.2140487 0.1976095 0.03700274 0.1976095 0.008392155 0.2040703 0.008493065 0.195681 0.008256673 0.1976095 0.008392155 0.1976095 0.03700274 0.2191842 0.2425934 0.2127333 0.24272 0.2127333 0.2141752 0.3710369 0.3833761 0.3691452 0.3832783 0.3691452 0.3547333 0.2316213 0.9104856 0.2316213 0.8818753 0.238082 0.8819763 0.2296926 0.8817399 0.2316213 0.8818753 0.2316213 0.9104856 0.3691452 0.3832783 0.3626942 0.3834049 0.3626942 0.3548598</float_array>
+          <technique_common>
+            <accessor source="#Gojo_Farmstead_Carpet-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Gojo_Farmstead_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Gojo_Farmstead_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Gojo_Farmstead_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Gojo_Farmstead_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Gojo_Farmstead_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Gojo_Farmstead_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 3 1 1 1 2 2 4 3 3 9 4 4 8 5 5 1 2 6 4 3 7 0 0 8 2 6 9 7 7 10 3 1 11 10 8 12 13 9 13 11 10 14 14 11 15 19 12 16 18 13 17 11 10 18 14 11 19 10 8 20 12 14 21 17 15 22 13 9 23 0 0 24 2 6 25 3 1 26 4 3 27 5 16 28 9 4 29 1 2 30 5 16 31 4 3 32 2 6 33 6 17 34 7 7 35 10 8 36 12 14 37 13 9 38 14 11 39 15 18 40 19 12 41 11 10 42 15 18 43 14 11 44 12 14 45 16 19 46 17 15 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="gojo_farmstead_carpet" name="gojo_farmstead_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Gojo_Farmstead_Carpet-mesh" name="gojo_farmstead_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

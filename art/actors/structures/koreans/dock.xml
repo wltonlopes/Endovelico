@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="Gosejean Dock">
       <mesh>structural/koreans/dock.dae</mesh>
       <props>
       </props>
@@ -10,17 +10,8 @@
         <texture file="structural/kore_struct.png" name="baseTex"/>
         <texture file="structural/kore_struct_spec.png" name="specTex"/>
         <texture file="structural/kore_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/gojo/dock_ao.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
-      </props>
     </variant>
   </group>
   <group>
