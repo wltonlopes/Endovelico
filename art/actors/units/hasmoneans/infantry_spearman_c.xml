@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/cart_helmet_b.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_hasmoneans_01.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/hasmo_shield_01.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath_xiphos.xml" attachpoint="sheath_02_L"/>
+        <prop actor="props/units/armor/greave_03_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_03_bronze_l.xml" attachpoint="leg_L"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="sele-cuirass-1a">
+      <textures>
+        <texture file="skeletal/sele/cuirass_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="sele-cuirass-1b">
+      <textures>
+        <texture file="skeletal/sele/cuirass_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="sele-cuirass-1c">
+      <textures>
+        <texture file="skeletal/sele/cuirass_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="sele-cuirass-1d">
+      <textures>
+        <texture file="skeletal/sele/cuirass_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="hele-cuirass-2a">
+      <textures>
+        <texture file="skeletal/hele/cuirass_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="mace-cuirass-1a">
+      <textures>
+        <texture file="skeletal/mace/cuirass_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="mace-cuirass-1b">
+      <textures>
+        <texture file="skeletal/mace/cuirass_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="mace-cuirass-1c">
+      <textures>
+        <texture file="skeletal/mace/cuirass_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+<group>
+    <variant file="biped/base_hoplite.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

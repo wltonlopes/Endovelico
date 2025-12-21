@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>numi</Civ>
+    <GenericName>Yugurta</GenericName>
+    <Icon>units/pers_hero_cyrus.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/chariot_djalla_m.xml</Actor>
+  </VisualActor>
+</Entity>

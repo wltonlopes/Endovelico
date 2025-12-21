@@ -18,7 +18,7 @@
     <Civ>mayap</Civ>
     <GenericName>Palace</GenericName>
     <SpecificName>Otooch</SpecificName>
-    <Tooltip>Territory root. Train Maiden Guards and Heroes.</Tooltip>
+    <Tooltip>Territory root. Train Heroes and researcher technologies.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
     <Icon>structures/mayap/palace.png</Icon>

@@ -2,7 +2,7 @@
   <Identity>
     <Civ>tiwa</Civ>
     <SelectionGroupName>units/tiwa/infantry_clubman_b</SelectionGroupName>
-    <SpecificName/>
+    <SpecificName>Levy Clubman</SpecificName>
     <Icon>units/moch/infantry_clubman.png</Icon>
   </Identity>
   <Promotion>

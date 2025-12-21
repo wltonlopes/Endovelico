@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>aden</Civ>
-    <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/aden/infantry_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_archer.png</Icon>

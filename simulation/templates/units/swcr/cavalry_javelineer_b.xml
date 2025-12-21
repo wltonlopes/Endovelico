@@ -3,7 +3,7 @@
   <Identity>
     <Civ>swcr</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/aden/heavy_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/swcr/heavy_javelineer</SelectionGroupName>
     <GenericName>Heavy Warrior with Harpoon</GenericName>
     <SpecificName>Aimberê</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>

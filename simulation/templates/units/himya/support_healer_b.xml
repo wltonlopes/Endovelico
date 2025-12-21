@@ -2,14 +2,14 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>himya</Civ>
-    <GenericName>Brahmin Priest</GenericName>
-    <SpecificName>Brāhmaṇa Pujari</SpecificName>
+    <GenericName>Shams Priest</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/maur/support_healer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/himya/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mauryas/healer.xml</Actor>
+    <Actor>units/himyar/healer.xml</Actor>
   </VisualActor>
 </Entity>

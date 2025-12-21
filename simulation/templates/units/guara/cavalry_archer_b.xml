@@ -2,7 +2,6 @@
 <Entity parent="infantry_cavalry|template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>guara</Civ>
-    <Rank>Advanced</Rank>
     <SelectionGroupName>units/guara/fast_archer</SelectionGroupName>
     <GenericName>Female archer</GenericName>
     <SpecificName>Aimberê</SpecificName>

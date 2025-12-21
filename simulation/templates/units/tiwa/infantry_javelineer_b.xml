@@ -6,7 +6,7 @@
   <Identity>
     <Civ>tiwa</Civ>
     <SelectionGroupName>units/tiwa/infantry_javelineer_b</SelectionGroupName>
-    <SpecificName>Adretos</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/moch/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

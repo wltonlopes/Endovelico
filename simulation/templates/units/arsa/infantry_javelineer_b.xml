@@ -4,8 +4,8 @@
     <Civ>arsa</Civ>
     <Lang>persian</Lang>
     <SelectionGroupName>units/arsa/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>Lydian Auxiliary</GenericName>
-    <SpecificName>Pastiš Spardiya</SpecificName>
+    <GenericName>Dahae javelinists</GenericName>
+    <SpecificName>seldār gund pahlawīg</SpecificName>
     <Icon>units/pers/infantry_javelinist.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

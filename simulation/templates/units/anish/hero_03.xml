@@ -2,11 +2,11 @@
 <Entity parent="template_unit_hero_infantry_maceman">
 
   <Identity>
-    <Civ>mapu</Civ>
+    <Civ>anish</Civ>
     <GenericName></GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
+    <SelectionGroupName>units/anish/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>

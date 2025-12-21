@@ -10,8 +10,7 @@
   <Identity>
     <Civ>axum</Civ>
     <SelectionGroupName>units/axum/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>Thracian Skirmisher</GenericName>
-    <SpecificName/>
+    <GenericName>Tribal Levy Skirmisher</GenericName>
     <Icon>units/thra/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

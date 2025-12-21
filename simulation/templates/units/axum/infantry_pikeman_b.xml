@@ -10,7 +10,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <SelectionGroupName>units/axum/infantry_pikeman_b</SelectionGroupName>
-    <GenericName>Long spear</GenericName>
+    <GenericName>Axumite Long Spearman</GenericName>
     <SpecificName/>
     <Icon>units/yayo/infantry_longspear_merc.png</Icon>
   </Identity>

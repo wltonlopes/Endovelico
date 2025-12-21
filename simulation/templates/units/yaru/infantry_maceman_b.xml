@@ -11,8 +11,8 @@
   <Identity>
     <Civ>yaru</Civ>
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
-    <GenericName>Mayan Maceman</GenericName>
-    <SpecificName>Xet'el Che' Bate</SpecificName>
+    <GenericName>Levy Maceman</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/mesoamerican/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>

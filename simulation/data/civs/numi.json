@@ -50,7 +50,12 @@
         "Massinissa II",
         "Zelalsen",
         "Masinissa",
-        "Hiempsal II"
+        "Hiempsal II",
+        "Sifax",
+        "Vermina",
+        "Aderbal",
+        "Bomilcar",
+        "Gauda"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/numi/cavalry_scout",

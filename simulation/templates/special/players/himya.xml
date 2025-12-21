@@ -4,7 +4,7 @@
     <Civ>himya</Civ>
     <GenericName>Himyarite Kingdom</GenericName>
     <History>The Himyarites were a powerful kingdom in ancient Yemen, known for their advanced agriculture, trade, and military. They controlled the incense trade routes and had a strong navy.</History>
-    <Icon>emblems/nabateans.png</Icon>
+    <Icon>emblems/emblem_himya.png</Icon>
   </Identity>
     <Player>
     <Formations datatype="tokens">

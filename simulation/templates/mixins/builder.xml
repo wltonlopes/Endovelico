@@ -19,6 +19,7 @@
       structures/{civ}/barracks
       structures/{civ}/range
       structures/{civ}/stable
+      structures/{civ}/stable_camel
       structures/{civ}/elephant_stable
       structures/{civ}/forge
       structures/{civ}/temple

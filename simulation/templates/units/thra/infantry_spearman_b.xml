@@ -4,7 +4,7 @@
     <Civ>thra</Civ>
     <SelectionGroupName>units/thra/infantry_spearman_b</SelectionGroupName>
     <GenericName>Thracian Spearman</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Khōra Taruthin</SpecificName>
     <Icon>units/thra/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

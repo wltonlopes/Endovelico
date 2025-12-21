@@ -3,9 +3,9 @@
   <Identity>
     <Civ>pamp</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/pamp/heavy_javelineer</SelectionGroupName>
     <GenericName>Great maceman</GenericName>
-    <SpecificName>Aimberê</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>

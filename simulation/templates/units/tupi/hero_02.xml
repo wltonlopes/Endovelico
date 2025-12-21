@@ -4,7 +4,7 @@
     <Civ>tupi</Civ>
     <GenericName>Great Warrior Chief</GenericName>
     <SpecificName>Morubixaba</SpecificName>
-    <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
+    <SelectionGroupName>units/tupi/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>
   </Identity>
   <UnitMotion>

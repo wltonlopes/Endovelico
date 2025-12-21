@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>thra</Civ>
+    <SpecificName>Paraoris</SpecificName>
     <Icon>units/celt/support_trader.png</Icon>
   </Identity>
   <VisualActor>

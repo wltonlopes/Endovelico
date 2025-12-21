@@ -2,7 +2,7 @@
   <Identity>
     <Civ>arme</Civ>
     <SelectionGroupName>units/arme/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>Thracian Skirmisher</GenericName>
+    <GenericName>Armenia Skirmisher</GenericName>
     <SpecificName/>
     <Icon>units/thra/infantry_javelineer.png</Icon>
   </Identity>

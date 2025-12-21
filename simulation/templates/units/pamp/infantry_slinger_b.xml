@@ -7,6 +7,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <SelectionGroupName>units/pamp/infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Talmoris</SpecificName>
     <Icon>units/moch/infantry_slinger.png</Icon>
     <Requirements>

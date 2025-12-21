@@ -41,7 +41,7 @@
   </Cost>
   <Identity>
     <Civ>tiwa</Civ>
-    <SpecificName>Warrior Bolas</SpecificName>
+    <SpecificName>Headhunter Warrior</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/moch/champion_infantry_javelineer.png</Icon>
   </Identity>

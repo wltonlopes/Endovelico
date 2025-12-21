@@ -27,7 +27,7 @@
   </Health>
   <Identity>
     <Civ>yuez</Civ>
-    <GenericName>Xiongnu Woman</GenericName>
+    <GenericName>Yuezhi Woman</GenericName>
     <Icon>units/xion/support_citizen_female.png</Icon>
     <SelectionGroupName>units/yuez/support_female_citizen</SelectionGroupName>
     <Phenotype>female</Phenotype>

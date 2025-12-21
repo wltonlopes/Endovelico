@@ -4,7 +4,7 @@
     <Civ>thra</Civ>
     <SelectionGroupName>units/thra/infantry_archer_b</SelectionGroupName>
     <GenericName>Thracian Archer</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Khōra Romfeai</SpecificName>
     <Icon>units/thra/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_blowgunner">
   <Identity>
     <Civ>guara</Civ>
-    <SelectionGroupName>units/tupi/blowgunner</SelectionGroupName>
+    <SelectionGroupName>units/guara/blowgunner</SelectionGroupName>
     <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
     <GenericName>Blowgun hunter</GenericName>
     <SpecificName>Taquara-okaî-abá</SpecificName>

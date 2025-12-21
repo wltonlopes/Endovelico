@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>tupi</Civ>
-    <SelectionGroupName>units/maya_protoclassic/support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/tupi/support_healer_b</SelectionGroupName>
     <GenericName>Maya Priest</GenericName>
     <SpecificName> Aj K'in</SpecificName>
     <Icon>units/south_america/support_healer.png</Icon>

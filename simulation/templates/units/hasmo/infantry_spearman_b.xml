@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
-  <Builder>
-    <Entities datatype="tokens">
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/hasmo/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Judean Spearman</GenericName>
+    <GenericName>Levy Judean Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/hasmo/infantry_spearman.png</Icon>
   </Identity>

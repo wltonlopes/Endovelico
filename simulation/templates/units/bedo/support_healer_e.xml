@@ -1,0 +1,6 @@
+<Entity parent="units/bedo/support_healer_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+</Entity>

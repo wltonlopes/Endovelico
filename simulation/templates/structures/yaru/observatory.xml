@@ -19,7 +19,7 @@
     <Max>2000</Max>
   </Health>
   <Identity>
-    <Civ>mayap</Civ>
+    <Civ>yaru</Civ>
     <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>observatory</GenericName>
     <SpecificName>K'inob</SpecificName>

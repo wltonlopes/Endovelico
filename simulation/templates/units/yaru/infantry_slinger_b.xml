@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/yaru/pyramid_large
-      structures/yaru/observatory
-      structures/yaru/embassy
-      structures/yaru/temple_of_masks
-      structures/yaru/range
-      structures/yaru/palace
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>yaru</Civ>
     <SelectionGroupName>units/maya_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Lenca Slinger</GenericName>
-    <SpecificName>Yum'Tun Bate</SpecificName>
+    <GenericName>Levy Slinger</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/mesoamerican/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

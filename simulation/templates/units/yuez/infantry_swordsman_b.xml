@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>yuez</Civ>
-    <GenericName>Xiongnu Axeman</GenericName>
+    <GenericName>Yuezhi Levy Axeman</GenericName>
     <SelectionGroupName>units/xion_infantry_swordsman</SelectionGroupName>
     <Icon>units/xion/infantry_swordsman.png</Icon>
   </Identity>

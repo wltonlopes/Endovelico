@@ -6,12 +6,19 @@
       <mesh>structural/hisatsinom/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_04"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_05"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01" />
+        <prop actor="particle/smoke_light.xml" attachpoint="fire_01"/>
       </props>
       <textures>
         <texture file="structural/hisat_struct.png" name="baseTex"/>
         <texture file="structural/hisat_struct_spec.png" name="specTex"/>
         <texture file="structural/hisat_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/hisatsinom/forge.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

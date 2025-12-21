@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy">
+  <!-- <Cost>
+    <Resources>
+      <wood>100</wood>
+      <metal>200</metal>
+    </Resources>
+  </Cost> -->
+  <Footprint>
+    <Square width="29.0" depth="29.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>himya</Civ>
+    <GenericName>emporium</GenericName>
+    <Tooltip>Train mercenaries units and market center</Tooltip>
+    <Classes datatype="tokens">CampCaravan</Classes>
+     <VisibleClasses datatype="tokens">Trade Town Market</VisibleClasses>
+    <Icon>structures/mercenary_camp.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>20</wood>
+    <metal>20</metal>
+  </Loot>
+  <Market>
+    <TradeType>land</TradeType>
+    <InternationalBonus>0.2</InternationalBonus>
+  </Market>
+  <Obstruction>
+    <Static width="29.0" depth="29.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_axeman_ma_in
+      units/{civ}/infantry_slinger_qahtani
+      units/{civ}/infantry_swordsman_saba
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/mercenaries/camp_blemmye.xml</Actor>
+    <FoundationActor>structures/fndn_8x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

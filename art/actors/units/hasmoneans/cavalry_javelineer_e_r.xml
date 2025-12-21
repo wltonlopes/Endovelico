@@ -44,7 +44,7 @@
     </variant>
   </group>
   <group>
-    <variant file="quadraped/base_horse_stable.xml"/>
+    <variant file="biped/rider/cavalry/base_javelin_relax.xml" frequency="1" name="Javelinist-Relax"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
@@ -53,7 +53,7 @@
     <variant file="biped/rider/promotion_shield.xml"/>
     <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
     <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/death_med_cape.xml"/>
+    <variant file="biped/death_cape_pelt.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

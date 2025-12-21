@@ -10,6 +10,6 @@
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/seleucids/range.xml</Actor>
+    <Actor>structures/himyar/range.xml</Actor>
   </VisualActor>
 </Entity>

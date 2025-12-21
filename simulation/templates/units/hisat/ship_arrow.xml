@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <GenericName>Bireme</GenericName>
-    <SpecificName>ygaraíba</SpecificName>
+    <GenericName>War Canoe</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

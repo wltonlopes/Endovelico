@@ -2,24 +2,24 @@
 	"Code": "himya",
 	"Name": "Himyarite",
 	"Culture": "Arab",
-	"Music": [
-		{
-			"File": "Helen_Leaves_Sparta.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Peaks_of_Atlas.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Forging_a_City-State.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "The_Hellespont.ogg",
-			"Type": "peace"
-		}
-	],
+    "Music": [
+        {
+            "File": "Helen_Leaves_Sparta.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Peaks_of_Atlas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Forging_a_City-State.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Hellespont.ogg",
+            "Type": "peace"
+        }
+    ],
 	"CivBonuses":
 	[
 	],
@@ -37,7 +37,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/himya/infantry_slinger_b",
+			"Template": "units/himya/infantry_archer_b",
 			"Count": 2
 		},
 		{
@@ -53,13 +53,22 @@
 		"Yatha'amar Watar I",
 		"Karib'il Watar II",
 		"Yada'ab I ",
-		"hammar Yuhar'ish "
+		"Haris ar-Raish",
+		"hammar Yuhar'ish",
+		"Shammar Yuhar'ish I",
+		"Yitha'amar Bayyin II",
+		"Zu-l-Adjar",
+		"Yasser yahsaqaq",
+		"Nuh Ifriqis",
+		"Africis",
+		"Nuh Ifriqis"
+
 	],
 	"SkirmishReplacements":
 	{
 		"skirmish/structures/default_house_5": "structures/{civ}/house",
-    "skirmish/units/special_starting_unit": "units/himya/chariot_javelineer_b",
-		"skirmish/units/default_infantry_ranged_b": "units/himya/infantry_javelineer_b",
+    "skirmish/units/special_starting_unit": "units/himya/cavalry_javelineer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/himya/infantry_archer_b",
 		"skirmish/units/default_infantry_melee_b": "units/himya/infantry_spearman_b",
 	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_arrow"
 	},

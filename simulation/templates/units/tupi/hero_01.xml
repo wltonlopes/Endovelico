@@ -5,7 +5,7 @@
     <GenericName>Great Warrior Chief</GenericName>
     <SpecificName>Morubixaba</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
+    <SelectionGroupName>units/tupi/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>
   </Identity>
   <UnitMotion>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
-
   <Identity>
     <Civ>hisat</Civ>
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
-    <GenericName>Archer</GenericName>
+    <GenericName>Levy Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_archer.png</Icon>
   </Identity>

@@ -3,7 +3,7 @@
     <Civ>bedo</Civ>
     <SelectionGroupName>units/bedo/cavalry_spearman_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <GenericName>Garamantian Heavy Camel</GenericName>
+    <GenericName>Bedouin Spearman Camel</GenericName>
     <SpecificName>Htr</SpecificName>
     <Icon>units/gara/cavalry_spearman.png</Icon>
     <Requirements>

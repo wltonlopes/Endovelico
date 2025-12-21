@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="hoplite|template_unit_hero_infantry_spearman">
+  <Attack>
+    <Melee>
+	  <Bonuses>
+		<BonusSpartans>
+		  <Civ>spart</Civ>
+		  <Classes></Classes>
+		  <Multiplier>1.25</Multiplier>
+		</BonusSpartans>
+	  </Bonuses>
+    </Melee>
+  </Attack>
+  <Auras datatype="tokens">
+    units/heroes/theb_hero_epaminondas
+  </Auras>
+  <Identity>
+    <Civ>bosf</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Espártoco I</GenericName>
+    <SpecificName>Espártoco I</SpecificName>
+	<History>Espártoco I  ( 438–432).</History>
+    <Tooltip>Traits:.</Tooltip>
+    <Icon>units/theb/hero_epaminondas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thebans/hero_epaminondas.xml</Actor>
+  </VisualActor>
+</Entity>

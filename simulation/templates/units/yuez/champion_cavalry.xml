@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>yuez</Civ>
-    <GenericName>Xiongnu Warlord</GenericName>
+    <GenericName>Yuezhi Warlord</GenericName>
     <SelectionGroupName>units/xion_champion_cavalry</SelectionGroupName>
     <Icon>units/xion/champion_cavalry.png</Icon>
     <Requirements>

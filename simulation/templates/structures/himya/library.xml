@@ -6,13 +6,14 @@
   </Footprint>
   <Identity>
     <Civ>himya</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>Royal Court</GenericName>
+    <SpecificName>Royal Court</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/himyar/palace.xml</Actor>
+    <Actor>structures/himyar/royal_court.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

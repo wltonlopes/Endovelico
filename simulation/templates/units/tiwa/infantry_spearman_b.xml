@@ -6,8 +6,8 @@
   <Identity>
     <Civ>tiwa</Civ>
     <SelectionGroupName>units/tiwa/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Bamboo Spearman</GenericName>
-    <SpecificName>Kauntika</SpecificName>
+    <GenericName>Levy Spearman</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/moch/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

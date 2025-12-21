@@ -2,7 +2,7 @@
   <Identity>
     <Civ>arme</Civ>
     <SelectionGroupName>units/arme/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Thracian Spearman</GenericName>
+    <GenericName>Armenia Spearman</GenericName>
     <SpecificName/>
     <Icon>units/thra/infantry_spearman.png</Icon>
   </Identity>

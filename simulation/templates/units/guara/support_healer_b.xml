@@ -4,7 +4,7 @@
     <Civ>guara</Civ>
     <SelectionGroupName>units/guarani/support_healer</SelectionGroupName>
     <GenericName>Guarani Priest</GenericName>
-    <SpecificName>tekoaruvixa</SpecificName>
+    <SpecificName>Tekoaruvixa</SpecificName>
     <Icon>units/south_america/support_healer.png</Icon>
   </Identity>
   <Promotion>

@@ -9,7 +9,7 @@
   <Identity>
     <Civ>bedo</Civ>
     <SelectionGroupName>units/bedo/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Garamantian Spearman</GenericName>
+    <GenericName>Bedouin Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/gara/infantry_spearman_desert.png</Icon>
   </Identity>

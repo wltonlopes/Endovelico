@@ -1,9 +1,0 @@
-<Entity parent="units/himya/elephant_archer_a">
-  <Identity>
-    <Rank>Elite</Rank>
-  </Identity>
-  <Promotion disable=""/>
-  <VisualActor>
-    <Actor>units/mauryas/elephantry_archer_e_m.xml</Actor>
-  </VisualActor>
-</Entity>

@@ -2,7 +2,7 @@
   <Identity>
     <Civ>arme</Civ>
     <SelectionGroupName>units/arme/infantry_archer_b</SelectionGroupName>
-    <GenericName>Thracian Archer</GenericName>
+    <GenericName>Armenia Archer</GenericName>
     <SpecificName/>
     <Icon>units/thra/infantry_archer.png</Icon>
   </Identity>

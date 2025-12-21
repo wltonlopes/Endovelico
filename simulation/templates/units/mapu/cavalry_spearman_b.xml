@@ -5,7 +5,7 @@
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
     <GenericName>Experienced spearman</GenericName>
-    <SpecificName>Aimberê</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>

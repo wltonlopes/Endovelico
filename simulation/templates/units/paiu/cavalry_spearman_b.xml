@@ -5,7 +5,7 @@
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/mayap/heavy_infantry</SelectionGroupName>
     <GenericName>Eagle Warrior</GenericName>
-    <SpecificName>Aj witz mo B'ate</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/mayap/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

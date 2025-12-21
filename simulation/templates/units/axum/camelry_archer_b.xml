@@ -3,7 +3,7 @@
   <Identity>
     <Civ>axum</Civ>
     <SelectionGroupName>units/axum/camelry_archer_b</SelectionGroupName>
-    <GenericName>Camelry</GenericName>
+    <GenericName>Archer Camelry</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>

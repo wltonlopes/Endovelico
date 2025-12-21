@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_hasmoneans_01.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
         <prop actor="props/units/mace_sling_pouch.xml" attachpoint="sheath_L"/>
@@ -15,7 +15,7 @@
   <group>
     <variant frequency="1" name="quilted-helmet">
       <props>
-        <prop actor="props/units/helmets/ptol_quilted_b.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

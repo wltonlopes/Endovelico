@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_arab_01.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/arabs/helmet_arab_e.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/arabs/helmet_arab_metal.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="c_01">
+      <textures>
+        <texture file="skeletal/arab/c_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_02">
+      <textures>
+        <texture file="skeletal/arab/c_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_03">
+      <textures>
+        <texture file="skeletal/arab/c_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_04">
+      <textures>
+        <texture file="skeletal/arab/c_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/camelry/base_archer_relax.xml"/>
+    <variant file="biped/rider/camelry/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/camelry/promotion.xml"/>
+    <variant file="biped/rider/camelry/attack_ranged_archer_right.xml"/>
+    <variant file="biped/rider/camelry/attack_slaughter.xml"/>
+    <variant file="biped/rider/camelry/gather_meat.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

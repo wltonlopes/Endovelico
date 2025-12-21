@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mapu</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/mapu/heavy_javelineer</SelectionGroupName>
     <GenericName>Experienced clubman</GenericName>
     <SpecificName>Aimberê</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>

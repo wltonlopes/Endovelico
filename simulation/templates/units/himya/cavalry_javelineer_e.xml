@@ -4,6 +4,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/mauryas/cavalry_javelinist_e_m.xml</Actor>
+    <Actor>units/himyar/cavalry_javelineer_e_m.xml</Actor>
   </VisualActor>
 </Entity>

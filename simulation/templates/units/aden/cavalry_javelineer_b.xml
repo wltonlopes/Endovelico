@@ -5,7 +5,7 @@
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/aden/heavy_javelineer</SelectionGroupName>
     <GenericName>Heavy Warrior with Harpoon</GenericName>
-    <SpecificName>Aimberê</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <Phenotype>male</Phenotype>

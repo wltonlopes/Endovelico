@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_melee_axeman">
+  <Attack>
+    <Melee>
+      <AttackName>Axe</AttackName>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>himya</Civ>
+    <SelectionGroupName>units/himya/infantry_axeman_merc</SelectionGroupName>
+    <GenericName>Ma'in Axeman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/maur/infantry_maceman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/himyar/infantry_axeman_merc.xml</Actor>
+  </VisualActor>
+</Entity>

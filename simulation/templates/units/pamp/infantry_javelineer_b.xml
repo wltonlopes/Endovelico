@@ -7,7 +7,8 @@
   <Identity>
     <Civ>pamp</Civ>
     <SelectionGroupName>units/pamp/infantry_javelineer_b</SelectionGroupName>
-    <SpecificName>Adretos</SpecificName>
+    <SelectionGroupName>Hunters</SelectionGroupName>
+    <SpecificName></SpecificName>
     <Icon>units/moch/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

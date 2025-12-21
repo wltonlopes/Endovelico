@@ -5,17 +5,11 @@
     <variant file="biped/base_swordsman_shield_relax.xml">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_hasmoneans_01.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hasmoneans/helmet_hero_02.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/kart_csw_round_b.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spartan_sword.xml" attachpoint="weapon_R"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="headband">
-      <props>
-        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
-      </props>
+      </props>    
     </variant>
   </group>
   <group>

@@ -3,7 +3,7 @@
 
   <Identity>
     <Civ>chibc</Civ>
-    <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/chibc/infantry_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_archer.png</Icon>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>paiu</Civ>
     <SelectionGroupName>units/pauite/war_dog_b</SelectionGroupName>
-    <SpecificName>Dog</SpecificName>
+    <SpecificName>Hunting Dog</SpecificName>
     <Icon>units/brit/war_dog.png</Icon>
   </Identity>
   <Promotion disable=""/>

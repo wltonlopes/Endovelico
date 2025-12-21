@@ -3,7 +3,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <SelectionGroupName>units/pauite/war_dog_b</SelectionGroupName>
-    <SpecificName>Dog</SpecificName>
+    <SpecificName>Hunting dog</SpecificName>
     <Icon>units/brit/war_dog.png</Icon>
   </Identity>
   <Promotion disable=""/>
