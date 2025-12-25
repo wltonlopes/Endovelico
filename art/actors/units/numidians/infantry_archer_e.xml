@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/kart_straw.xml" attachpoint="helmet"/>
@@ -13,9 +13,30 @@
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
       <textures>
-        <texture file="skeletal/cart/chainmail_02.dds" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ir_03_01">
+      <textures>
+        <texture file="skeletal/numidians/ir_03_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_03_02">
+      <textures>
+        <texture file="skeletal/numidians/ir_03_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_03_03">
+      <textures>
+        <texture file="skeletal/numidians/ir_03_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_03_04">
+      <textures>
+        <texture file="skeletal/numidians/ir_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/numi/super_dock
-      structures/numi/embassy_celtic
-      structures/numi/embassy_iberian
-      structures/numi/embassy_italic
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>numi</Civ>
     <SpecificName>Aštāh</SpecificName>
@@ -15,6 +7,6 @@
     <Icon>units/cart/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/carthaginians/female_citizen.xml</Actor>
+    <Actor>units/numidians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

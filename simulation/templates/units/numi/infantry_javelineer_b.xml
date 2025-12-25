@@ -11,6 +11,6 @@
     <Entity>units/numi/infantry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/libyan/infantry_javelinist_b.xml</Actor>
+    <Actor>units/numidians/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

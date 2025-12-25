@@ -21,6 +21,6 @@
   </Loot>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/garamantians/infantry_swordsman_c.xml</Actor>
+    <Actor>units/numidians/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

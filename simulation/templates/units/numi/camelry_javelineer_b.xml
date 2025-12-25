@@ -11,6 +11,6 @@
     <Entity>units/numi/camelry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/himyar/camelry_javelineer_b_m.xml</Actor>
+    <Actor>units/numidians/camelry_javelineer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

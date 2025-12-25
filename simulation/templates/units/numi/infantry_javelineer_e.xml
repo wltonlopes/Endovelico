@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/libyan/infantry_javelinist_e.xml</Actor>
+    <Actor>units/numidians/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

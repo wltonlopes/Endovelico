@@ -7,6 +7,6 @@
     <Entity>units/numi/infantry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/libyan/infantry_javelinist_a.xml</Actor>
+    <Actor>units/numidians/infantry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>

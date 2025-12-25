@@ -69,28 +69,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Cuirass-1a">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="im_03_01">
       <textures>
-        <texture file="skeletal/cart/cuirass_01_01.png" name="baseTex"/>
-        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/numidians/im_03_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Lamellar-1a">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="im_03_02">
       <textures>
-        <texture file="skeletal/cart/lamellar_01_01.png" name="baseTex"/>
-        <texture file="skeletal/hele/lamellar_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/numidians/im_03_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Scale-1a">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="im_03_03">
       <textures>
-        <texture file="skeletal/cart/scale_01_01.png" name="baseTex"/>
-        <texture file="skeletal/cart/scale_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/numidians/im_03_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_03_04">
+      <textures>
+        <texture file="skeletal/numidians/im_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -132,6 +128,14 @@
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

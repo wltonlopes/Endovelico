@@ -25,34 +25,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Arab-Padded-1a">
+    <variant frequency="1" name="irj_03_01">
       <textures>
-        <texture file="skeletal/arab/padded_01_01.png" name="baseTex"/>
+        <texture file="skeletal/numidians/irj_03_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Arab-Padded-1b">
+    <variant frequency="1" name="irj_03_02">
       <textures>
-        <texture file="skeletal/arab/padded_01_02.png" name="baseTex"/>
+        <texture file="skeletal/numidians/irj_03_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Arab-Padded-1c">
+    <variant frequency="1" name="irj_03_03">
       <textures>
-        <texture file="skeletal/arab/padded_01_03.png" name="baseTex"/>
+        <texture file="skeletal/numidians/irj_03_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Cart-Padded-1a">
+    <variant frequency="1" name="irj_03_04">
       <textures>
-        <texture file="skeletal/cart/padded_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Cart-Padded-1b">
-      <textures>
-        <texture file="skeletal/cart/padded_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Cart-Padded-1c">
-      <textures>
-        <texture file="skeletal/cart/padded_01_03.png" name="baseTex"/>
+        <texture file="skeletal/numidians/irj_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

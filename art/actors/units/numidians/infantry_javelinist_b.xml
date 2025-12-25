@@ -13,19 +13,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic_sleeveless_01_01">
+    <variant frequency="1" name="irj_01_01">
       <textures>
-        <texture file="skeletal/cart/tunic_sleeveless_01_01.png" name="baseTex"/>
+        <texture file="skeletal/numidians/irj_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_sleeveless_01_02">
+    <variant frequency="1" name="irj_01_02">
       <textures>
-        <texture file="skeletal/cart/tunic_sleeveless_01_02.png" name="baseTex"/>
+        <texture file="skeletal/numidians/irj_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_sleeveless_01_03">
+    <variant frequency="1" name="irj_01_03">
       <textures>
-        <texture file="skeletal/cart/tunic_sleeveless_01_03.png" name="baseTex"/>
+        <texture file="skeletal/numidians/irj_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="irj_01_04">
+      <textures>
+        <texture file="skeletal/numidians/irj_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

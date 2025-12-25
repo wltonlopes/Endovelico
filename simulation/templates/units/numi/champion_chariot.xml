@@ -13,6 +13,6 @@
     <Icon>units/gara/champion_chariot.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/garamantians/chariot_javelinist_c_m.xml</Actor>
+    <Actor>units/numidians/chariot_archer_c_m.xml</Actor>
   </VisualActor>
 </Entity>

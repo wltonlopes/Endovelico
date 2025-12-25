@@ -5,31 +5,32 @@
     <variant file="biped/base_slinger_ready.xml">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_numid_new.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
         <prop actor="props/units/shields/gara_shield.xml" attachpoint="shield"/>
-        <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Garama Elite Swordsman 01">
+    <variant frequency="1" name="irs_02_01">
       <textures>
-         <texture file="skeletal/gara/tunic_light_gara_01_01.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
+        <texture file="skeletal/numidians/irs_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Garama Elite Swordsman 02">
+    <variant frequency="1" name="irs_02_02">
       <textures>
-         <texture file="skeletal/gara/tunic_light_gara_01_02.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
+        <texture file="skeletal/numidians/irs_02_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Garama Elite Swordsman 03">
+    <variant frequency="1" name="irs_02_03">
       <textures>
-         <texture file="skeletal/gara/tunic_light_gara_01_03.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
+        <texture file="skeletal/numidians/irs_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="irs_02_04">
+      <textures>
+        <texture file="skeletal/numidians/irs_02_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

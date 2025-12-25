@@ -48,39 +48,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="padded_01_01">
+    <variant frequency="1" name="im_02_01">
       <textures>
-        <texture file="skeletal/cart/padded_01_01.png" name="baseTex"/>
+        <texture file="skeletal/numidians/im_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="padded_01_02">
+    <variant frequency="1" name="im_02_02">
       <textures>
-        <texture file="skeletal/cart/padded_01_02.png" name="baseTex"/>
+        <texture file="skeletal/numidians/im_02_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="padded_01_03">
+    <variant frequency="1" name="im_02_03">
       <textures>
-        <texture file="skeletal/cart/padded_01_03.png" name="baseTex"/>
+        <texture file="skeletal/numidians/im_02_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="linothorax_01_01">
+    <variant frequency="1" name="im_02_04">
       <textures>
-        <texture file="skeletal/cart/linothorax_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="linothorax_01_02">
-      <textures>
-        <texture file="skeletal/cart/linothorax_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="linothorax_01_03">
-      <textures>
-        <texture file="skeletal/cart/linothorax_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="linothorax_02_01">
-      <textures>
-        <texture file="skeletal/cart/linothorax_02_01.png" name="baseTex"/>
+        <texture file="skeletal/numidians/im_02_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

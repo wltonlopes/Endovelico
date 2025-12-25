@@ -9,6 +9,6 @@
     <Icon>units/gara/hero_1.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/garamantians/chariot_djalla_m.xml</Actor>
+    <Actor>units/numidians/chariot_djalla_m.xml</Actor>
   </VisualActor>
 </Entity>

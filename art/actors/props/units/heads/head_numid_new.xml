@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="numidian-face-trimbeard-longhair">
+      <mesh>props/new/head_longhair.dae</mesh>
+      <textures>
+        <texture file="props/head/numid_face_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="numidian-face-goatee-longhair">
+      <mesh>props/new/head_longhair.dae</mesh>
+      <textures>
+        <texture file="props/head/numid_face_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="numidian-face-goatee">
+      <mesh>props/new/head_goatee.dae</mesh>
+      <textures>
+        <texture file="props/head/numid_face_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="numidian-face-beard-wide">
+      <mesh>props/new/head_beard_wide.dae</mesh>
+      <textures>
+        <texture file="props/head/numid_face_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>
