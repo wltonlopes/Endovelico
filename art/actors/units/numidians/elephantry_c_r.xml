@@ -13,19 +13,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-01-01">
+    <variant frequency="1" name="ir_01_01">
       <textures>
-        <texture file="skeletal/gara/tunic_light_gara_02_01.png" name="baseTex"/>
+        <texture file="skeletal/numidians/ir_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-01-02">
+    <variant frequency="1" name="ir_01_02">
       <textures>
-        <texture file="skeletal/gara/tunic_light_gara_02_02.png" name="baseTex"/>
+        <texture file="skeletal/numidians/ir_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-01-03">
+    <variant frequency="1" name="ir_01_03">
       <textures>
-        <texture file="skeletal/gara/tunic_light_gara_02_03.png" name="baseTex"/>
+        <texture file="skeletal/numidians/ir_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_04">
+      <textures>
+        <texture file="skeletal/numidians/ir_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

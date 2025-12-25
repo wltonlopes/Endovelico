@@ -5,25 +5,25 @@
     <variant frequency="1" name="numidian-face-trimbeard-longhair">
       <mesh>props/new/head_longhair.dae</mesh>
       <textures>
-        <texture file="props/head/numidians/male_01_01.png" name="baseTex"/>
+        <texture file="props/head/numidians/male_healer_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="numidian-face-goatee-longhair">
       <mesh>props/new/head_longhair.dae</mesh>
       <textures>
-        <texture file="props/head/numidians/male_01_03.png" name="baseTex"/>
+        <texture file="props/head/numidians/male_healer_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="numidian-face-goatee">
       <mesh>props/new/head_goatee.dae</mesh>
       <textures>
-        <texture file="props/head/numidians/male_01_01.png" name="baseTex"/>
-      </textures>
+        <texture file="props/head/numidians/male_healer_01.png" name="baseTex"/>
+      </textures> 
     </variant>
     <variant frequency="1" name="numidian-face-beard-wide">
       <mesh>props/new/head_beard_wide.dae</mesh>
       <textures>
-        <texture file="props/head/numidians/male_01_02.png" name="baseTex"/>
+        <texture file="props/head/numidians/male_healer_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

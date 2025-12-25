@@ -7,8 +7,19 @@
       <props>
         <prop actor="props/units/weapons/gara_sword.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/pers_conical_b1.xml" attachpoint="helmet"/>
-        <prop actor="props/units/shields/kush_nubian_thureos.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/numi_shield.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="helmet-persian-conical-plume">
+      <props>
+        <prop actor="props/units/helmets/nortafric_conical_a1.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="helmet-persian-conical-no-plume">
+      <props>
+        <prop actor="props/units/helmets/nortafric_conical_b1.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
@@ -45,7 +56,7 @@
     <variant>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
