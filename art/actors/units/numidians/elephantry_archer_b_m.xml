@@ -6,6 +6,7 @@
       <mesh>skeletal/elephant_african_forest.dae</mesh>
       <props>
         <prop actor="units/numidians/elephantry_c_d.xml" attachpoint="rider"/>
+        <prop actor="units/numidians/elephantry_archer_r.xml" attachpoint="rider2"/>
       </props>
     </variant>
   </group>
