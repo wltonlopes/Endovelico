@@ -20,13 +20,6 @@
         <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Hide-Gray">
-      <textures>
-        <texture file="skeletal/numidians/ele_02_02.png" name="baseTex"/>
-        <texture file="skeletal/ptol/elephant_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
     <variant frequency="1" name="Hide-Gray03">
       <textures>
         <texture file="skeletal/numidians/ele_02_03.png" name="baseTex"/>

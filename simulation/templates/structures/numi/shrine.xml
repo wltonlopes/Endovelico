@@ -9,6 +9,13 @@
   <Obstruction>
     <Static width="16" depth="12"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_massinissa
+      units/{civ}/hero_yugurta
+      units/{civ}/hero_micipsa
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/numidians/mausoleu.xml</Actor>
   </VisualActor>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+      <mesh>props/helmet/numidians/helmet_01.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Iron_01">
+      <textures>
+        <texture file="props/helmet/lusi_h_metal_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="Iron_02">
+      <textures>
+        <texture file="props/helmet/lusi_h_metal_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="Iron_03">
+      <textures>
+        <texture file="props/helmet/lusi_h_metal_3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="Iron_04">
+      <textures>
+        <texture file="props/helmet/lusi_h_metal_4.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>
