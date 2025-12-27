@@ -2,8 +2,12 @@
 <actor version="1">
   <castshadow/>    
   <group>
-    <variant frequency="1" name="base">
-      <mesh>props/shield/shield_gara_m.dae</mesh>
+    <variant name="Base">
+      <mesh>props/shield/aspis_01_front.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/props/aspis_back_bronze_01.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/props/aspis_handgrip_bronze_01.xml" attachpoint="handgrip"/>
+      </props>
     </variant>
   </group>
    <group>

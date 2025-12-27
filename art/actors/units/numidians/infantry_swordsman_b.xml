@@ -37,7 +37,7 @@
   <group>
     <variant frequency="1" name="Scutum-00">
       <props>
-        <prop actor="props/units/shields/numi_shield.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/shield_round_iron_medium.xml" attachpoint="shield"/>
       </props>
     </variant>  
   </group>

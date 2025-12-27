@@ -8,6 +8,7 @@
         <prop actor="props/units/heads/new/head_athen_pericles.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/sheath_xiphos.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/units/shields/hasmo_shield_01.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/capes/cape_long_player.xml" attachpoint="root"/>
         <prop actor="props/units/armor/greave_12_bronze_r.xml" attachpoint="leg_R"/>
         <prop actor="props/units/armor/greave_12_bronze_l.xml" attachpoint="leg_L"/>

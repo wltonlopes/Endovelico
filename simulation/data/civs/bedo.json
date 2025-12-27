@@ -99,13 +99,19 @@
         }
     ],
     "AINames": [
-        "Hujir Aquil Almurar",
-        "Máliku II",
-        "Shahr I",
-        "Aretas II ",
-        "Aretas III",
-        "Aretas",
-        "Kabriel"
+        "Han'as ibn Tilmi (Kingdom Lihyan)",
+        "Ghanam ibn Shahru (Kingdom Lihyan)",
+        "Abd Samīʿ (Kingdom Lihyan)",
+        "Obodas I (Nabateus Kingdom)",
+        "Obodas II (Nabateus Kingdom)",
+        "Máliku II (Nabateus Kingdom)",
+        "Aretas II (Nabateus Kingdom)",
+        "Aretas III (Nabateus Kingdom)",
+        "Hanas ibn Tilmi(Kingdom Emesa)",
+        "Ghanam ibn Shahru(Kingdom Emesa)",
+        "Abd Samī(Kingdom Emesa)",
+        "Abgar I (Kingdom Osroene)",
+        "Alchaudonios (Harran)"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/bedo/camelry_scout",
