@@ -3,43 +3,48 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_lusi_fem_1.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/lusitanians_buckler_basic.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/sheath_falcata_e.xml" attachpoint="sheath_01_L"/>
+        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/ptol_thureos_galatian_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
-        <texture file="skeletal/spart/female_01_spec.png" name="specTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
-      </textures> 
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="tunic-1a">
-      <textures>
-        <texture file="skeletal/units/lusi_swordswoman_1.png" name="baseTex"/>
-      </textures>
-    </variant>
-        <variant frequency="1" name="tunic-4a">
-      <textures>
-        <texture file="skeletal/units/lusi_swordswoman_4.png" name="baseTex"/>
-      </textures>
-    </variant>
-        <variant frequency="1" name="tunic-2a">
-      <textures>
-        <texture file="skeletal/units/lusi_swordswoman_2.png" name="baseTex"/>
-      </textures>
-    </variant>
-        <variant frequency="1" name="tunic-3a">
-      <textures>
-        <texture file="skeletal/units/lusi_swordswoman_3.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_shield_fast.xml"/>
+    <variant frequency="1" name="c_mer_02_01">
+      <textures>
+        <texture file="skeletal/illy/c_mer_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_mer_02_02">
+      <textures>
+        <texture file="skeletal/illy/c_mer_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_mer_02_03">
+      <textures>
+        <texture file="skeletal/illy/c_mer_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_mer_02_04">
+      <textures>
+        <texture file="skeletal/illy/c_mer_02_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_mer_02_05">
+      <textures>
+        <texture file="skeletal/illy/c_mer_02_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_skirmisher_fast.xml" frequency="1" name="Skirmisher-Shield-Fast"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -56,6 +61,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_javelinist.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
@@ -70,5 +76,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

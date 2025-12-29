@@ -41,16 +41,35 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Mace-Cuirass-01-01">
+    <variant frequency="1" name="c_01_01">
       <textures>
-        <texture file="skeletal/mace/cuirass_01_01.png" name="baseTex"/>
-        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/illy/c_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Hele-Scale-01-01">
+    <variant frequency="1" name="c_01_02">
       <textures>
-        <texture file="skeletal/hele/scale_01_01.png" name="baseTex"/>
+        <texture file="skeletal/illy/c_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_01_03">
+      <textures>
+        <texture file="skeletal/illy/c_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_01_04">
+      <textures>
+        <texture file="skeletal/illy/c_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_01_05">
+      <textures>
+        <texture file="skeletal/illy/c_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Spearman-Spec-01">
+      <textures>
         <texture file="skeletal/hele/scale_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
