@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/illy_head_male_02.xml" attachpoint="head"/>
         <prop actor="props/units/shields/illy_shield_spear_oval_h.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
@@ -14,19 +14,34 @@
   <group>
     <variant frequency="3" name="Helmet Phrygian Illyrian-01">
       <props>
-        <prop actor="props/units/helmets/hele_illyrian_b1_crested.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/hele_illyrian_b1.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Illy-Tunic-Basic-02-01">
+    <variant frequency="1" name="im_02_01">
       <textures>
-        <texture file="skeletal/illy/tunic_basic_02_01.png" name="baseTex"/>
+        <texture file="skeletal/illy/im_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Illy-Tunic-Basic-02-02">
+    <variant frequency="1" name="im_02_02">
       <textures>
-        <texture file="skeletal/illy/tunic_basic_02_02.png" name="baseTex"/>
+        <texture file="skeletal/illy/im_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_02_03">
+      <textures>
+        <texture file="skeletal/illy/im_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_02_04">
+      <textures>
+        <texture file="skeletal/illy/im_02_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_02_05">
+      <textures>
+        <texture file="skeletal/illy/im_02_05.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

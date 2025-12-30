@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/illy_head_male_02.xml" attachpoint="head"/>
         <prop actor="props/units/shields/aspis_mace_hypaspist.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/armor/greave_01_bronze_l.xml" attachpoint="leg_L"/>

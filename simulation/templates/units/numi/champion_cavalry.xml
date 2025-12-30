@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>numi</Civ>
+    <SpecificName>Cavalry Banner Stands</SpecificName>
+    <GenericName>Cavalry Banner Stands</GenericName>
+    <Icon>units/rome/champion_cavalry.png</Icon>
+    <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/numidians/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

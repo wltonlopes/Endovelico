@@ -5,9 +5,10 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/illy_head_male_02.xml" attachpoint="head"/>
         <prop actor="props/units/shields/gaul_shield_spear_oval_b_03.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/hele_illyrian_i1.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
@@ -43,7 +44,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_shield_relax_celt.xml"/>
+    <variant file="biped/base_swordsman_shield_ready_celt.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>

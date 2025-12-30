@@ -13,6 +13,6 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/adena/hero_02_f.xml</Actor>
+    <Actor>units/illyrians/hero_infantry_swordswoman.xml</Actor>
   </VisualActor>
 </Entity>

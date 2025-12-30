@@ -1,0 +1,9 @@
+<Entity parent="units/illy/cavalry_javelineer_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/illyrians/cavalry_javelinist_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

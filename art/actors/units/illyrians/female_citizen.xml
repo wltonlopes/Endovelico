@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <mesh>skeletal/new/f_armor_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/illyrians/hairband_female.xml" attachpoint="head"/>

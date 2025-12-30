@@ -3,10 +3,11 @@
   <castshadow/>
   <group>
     <variant file="biped/base_healer_female.xml">
-      <mesh>skeletal/new/f_dress.dae</mesh>
+      <mesh>skeletal/new/f_armor_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/illyrians/hairband_healer.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/hele_hood_priest.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/iber_healer_staff.xml" attachpoint="weapon_L"/>
       </props>
       <textures>

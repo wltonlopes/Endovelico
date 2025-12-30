@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/illy/cavalry_spearman_a">
+<Entity parent="units/illy/cavalry_axeman_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/illyrians/cavalry_spearman_e_m.xml</Actor>
+    <Actor>units/illyrians/cavalry_axeman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

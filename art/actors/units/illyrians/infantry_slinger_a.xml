@@ -5,7 +5,8 @@
     <variant file="biped/base_slinger_ready.xml">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_hisatsinom_male.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/illy_head_male_02.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/illyrians/pilos_felt.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
       </props>
@@ -18,17 +19,17 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/hisatsinom/ir_02_01.png" name="baseTex"/>
+        <texture file="skeletal/illy/ir_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/hisatsinom/ir_02_02.png" name="baseTex"/>
+        <texture file="skeletal/illy/ir_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/hisatsinom/ir_02_03.png" name="baseTex"/>
+        <texture file="skeletal/illy/ir_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

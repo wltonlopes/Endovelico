@@ -5,8 +5,8 @@
     <variant>
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/illy_head_male_02.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/illy_axe.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/capes/rider/cape_long_player.xml" attachpoint="root"/>
       </props>
     </variant>
@@ -31,7 +31,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" frequency="1" name="Spearman-Relax-Shield-01"/>
+    <variant file="biped/rider/cavalry/base_swordsman_fast_relax.xml" frequency="1" name="Spearman-Relax-Shield-01"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
