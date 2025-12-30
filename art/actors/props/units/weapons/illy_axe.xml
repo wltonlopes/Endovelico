@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Texture">
+      <textures>
+        <texture file="props/maur_props_1.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="2" name="axe">
+      <mesh>props/weapon/axe_illy_01.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

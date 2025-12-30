@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>illy</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>Agron I</GenericName>
+    <SpecificName>Agron I</SpecificName>
     <Icon>units/illy/hero_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>

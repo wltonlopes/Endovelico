@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_axeman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Bardilis I</GenericName>
+    <SpecificName>Bardilis I</SpecificName>
+    <Icon>units/illy/hero_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/illyrians/hero_infantry_swordsman.xml</Actor>
+  </VisualActor>
+</Entity>

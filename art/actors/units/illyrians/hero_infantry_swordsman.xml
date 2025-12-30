@@ -16,7 +16,7 @@
   <group>
     <variant name="Hele Bryastovets Helmet-01">
       <props>
-        <prop actor="props/units/helmets/illyrian_hero_crested.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/illyrians/illy_hero_crested.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
