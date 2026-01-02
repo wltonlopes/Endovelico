@@ -19,17 +19,17 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/illy/ir_02_01.png" name="baseTex"/>
+        <texture file="skeletal/illy/irs_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/illy/ir_02_02.png" name="baseTex"/>
+        <texture file="skeletal/illy/irs_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/illy/ir_02_03.png" name="baseTex"/>
+        <texture file="skeletal/illy/irs_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -9,6 +9,6 @@
     <SelectionGroupName>units/illy/champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/illyrians/cavalry_swordsman_c_m.xml</Actor>
+    <Actor>units/illyrians/cavalry_spearman_c_m.xml</Actor>
   </VisualActor>
 </Entity>

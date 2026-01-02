@@ -16,22 +16,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/arawaks/f_01.png" name="baseTex"/>
+        <texture file="skeletal/araw/f_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/arawaks/f_02.png" name="baseTex"/>
+        <texture file="skeletal/araw/f_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/arawaks/f_03.png" name="baseTex"/>
+        <texture file="skeletal/araw/f_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/arawaks/f_04.png" name="baseTex"/>
+        <texture file="skeletal/araw/f_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

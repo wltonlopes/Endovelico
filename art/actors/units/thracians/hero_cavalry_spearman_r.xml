@@ -21,9 +21,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Ptol-Armor-Vergina-Gold-01">
+    <variant frequency="1" name="KotysI-01">
       <textures>
-        <texture file="skeletal/ptol/cuirass_gold_01.png" name="baseTex"/>
+        <texture file="skeletal/thrac/hero_01.png" name="baseTex"/>
         <texture file="skeletal/mace/cuirass_vergina_01_spec.png" name="specTex"/>
       </textures>
     </variant>

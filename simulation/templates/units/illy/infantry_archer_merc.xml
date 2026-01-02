@@ -2,15 +2,17 @@
 <Entity parent="merc_inf|template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>illy</Civ>
+    <Rank>Advanced</Rank>
     <SelectionGroupName>units/illy/infantry_javelinist</SelectionGroupName>
     <GenericName>Illyrian Allied Pirate</GenericName>
-        <Icon>units/mayap/mercenary_spearman.png</Icon>
+    <SpecificName>Pirate Yapigio</SpecificName>
+    <Icon>units/mayap/mercenary_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/illyrians/infantry_javelinist_mer_c.xml</Actor>
+    <Actor>units/illyrians/infantry_archer_merc.xml</Actor>
   </VisualActor>
 </Entity>

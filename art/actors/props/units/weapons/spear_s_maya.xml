@@ -14,12 +14,12 @@
     </variant>
         <variant frequency="1" name="texture_w2">
       <textures>
-        <texture file="props/weapons_maya_2.png" name="baseTex"/>
+        <texture file="props/weapons_maya_1.png" name="baseTex"/>
       </textures>
     </variant>
         <variant frequency="1" name="texture_w3">
       <textures>
-        <texture file="props/weapons_maya_3.png" name="baseTex"/>
+        <texture file="props/weapons_maya_1.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

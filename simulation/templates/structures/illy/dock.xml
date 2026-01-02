@@ -14,6 +14,13 @@
   <Obstruction>
     <Static width="10.0" depth="22.0"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordsman_merc
+      units/{civ}/infantry_archer_merc
+    </Entities>
+  </Trainer>
+  
   <VisualActor>
     <Actor>structures/illy/dock.xml</Actor>
     <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
