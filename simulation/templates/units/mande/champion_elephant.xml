@@ -7,6 +7,6 @@
     <Icon>units/cart/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/subsaara/elephantry_c_m.xml</Actor>
+    <Actor>units/mande/elephantry_c_m.xml</Actor>
   </VisualActor>
 </Entity>

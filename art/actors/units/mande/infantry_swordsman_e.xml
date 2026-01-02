@@ -13,30 +13,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-01">
-      <props>
-        <prop actor="props/units/heads/new/head_numid_elite.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/gara/tunic_medium_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-02">
-      <props>
-        <prop actor="props/units/heads/new/head_numid_elite.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/gara/tunic_medium_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-03">
-      <props>
-        <prop actor="props/units/heads/new/head_numid_elite.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/gara/tunic_medium_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="1" name="Gara-Tunic-Dark-01-01">
       <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>

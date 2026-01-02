@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/camel.dae</mesh>
       <props>
-        <prop actor="units/garamantians/camelry_spearman_r.xml" attachpoint="rider"/>
+        <prop actor="units/mande/camelry_spearman_r.xml" attachpoint="rider"/>
         <prop actor="props/camel/camel_rein.xml" attachpoint="root"/>
         <prop actor="props/camel/camel_blanket.xml" attachpoint="root"/>
         <prop actor="props/camel/teeths.xml" attachpoint="mouth_bot"/>

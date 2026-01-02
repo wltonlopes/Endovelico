@@ -51,7 +51,7 @@
 			"Count":5
 		},
 		{
-			"Template": "units/mande/infantry_axeman_b",
+			"Template": "units/mande/infantry_swordsman_b",
 			"Count": 3
 		},
 		{
@@ -74,7 +74,7 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_cavalry": "units/mande/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/mande/infantry_axeman_b",
+		"skirmish/units/default_infantry_melee_b": "units/mande/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/mande/infantry_archer_b",
 	  "skirmish/units/default_ship_trireme":"units/mande/ship_bireme"
 	},

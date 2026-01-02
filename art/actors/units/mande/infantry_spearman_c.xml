@@ -13,14 +13,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Linothorax-Noble-Medium-01-01">
-      <props>
-        <prop actor="props/units/heads/new/head_numid_elite.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/gara/linothorax_noble_medium_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="1" name="Gara-Linothorax-Noble-Dark-01-01">
       <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
