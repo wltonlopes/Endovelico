@@ -2,21 +2,19 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Base">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant file="biped/base_blowgunner_ready.xml">
       <props>
-        <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/maya_shield_c_basic.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/mace_maya_a.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/helmets/maya_band.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/lencas/helmet_lenca_snake_c.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/zarabatana_a.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="a">
-      <mesh>skeletal/new/m_tunic_maya_variant_short.dae</mesh>
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <textures>
-        <texture file="skeletal/mayas/maya_maceman_e_1.png" name="baseTex"/>
+        <texture file="skeletal/lencas/h_01_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
@@ -24,14 +22,14 @@
     <variant frequency="1" name="b">
       <mesh>skeletal/new/m_tunic_maya.dae</mesh>
       <textures>
-        <texture file="skeletal/mayas/maya_maceman_e_2.png" name="baseTex"/>
+        <texture file="skeletal/lencas/h_01_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_axeman_shield_fast_relax.xml"/>
+    <variant file="biped/base_skirmisher_fast.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -48,6 +46,11 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_blowgunner.xml">
+      <props>
+        <prop actor="props/units/weapons/zarabatana_a.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>

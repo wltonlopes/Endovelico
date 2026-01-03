@@ -2,53 +2,32 @@
 <actor version="1">
   <castshadow/>
   <group>
-      <variant frequency="50" name="hemet_s">
-      <props>
-        <prop actor="props/units/heads/head_maya_f.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/fem_maya_h1.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="50" name="hemet_n">
-      <props>
-        <prop actor="props/units/heads/head_maya_f_short_hair.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/fem_maya_h2.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-  </group>
-  <group>
     <variant frequency="1" name="1">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_south_america_female.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
+      </props>
       <textures>
-        <texture file="skeletal/mayas/maya_woman_1.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="2">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
-      <textures>
-        <texture file="skeletal/mayas/maya_woman_2.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-        <variant frequency="1" name="3">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
-      <textures>
-        <texture file="skeletal/mayas/maya_woman_3.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-            <variant frequency="1" name="4">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
-      <textures>
-        <texture file="skeletal/mayas/maya_woman_4.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/mayas/maya_fem_spec.png" name="specTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
+   <group>
+    <variant frequency="1" name="a">
+      <textures><texture file="skeletal/lencas/f_01.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="b">
+      <textures><texture file="skeletal/lencas/f_02.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="c">
+      <textures><texture file="skeletal/lencas/f_03.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="d">
+      <textures><texture file="skeletal/lencas/f_04.png" name="baseTex"/></textures>
+    </variant>
+  </group> 
   <group>
     <!-- In this group, defined overloads for "Idle", "Walk" and "Run" -->
     <variant file="biped/female_base_walk.xml"/>
