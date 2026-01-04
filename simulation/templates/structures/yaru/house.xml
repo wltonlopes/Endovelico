@@ -8,6 +8,6 @@
     <Static width="13.0" depth="13.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yaruma/house.xml</Actor>
+    <Actor>structures/lencas/house.xml</Actor>
   </VisualActor>
 </Entity>

@@ -14,18 +14,8 @@
   <Obstruction>
     <Static width="24" depth="18"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      traditional_rituals
-    </Technologies>
-  </Researcher>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/champion_infantry_bellringer
-    </Entities>
-  </Trainer>
   <VisualActor>
-    <Actor>structures/yaruma/temple.xml</Actor>
+    <Actor>structures/lencas/temple.xml</Actor>
     <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/maya_protoclassic/infantry_spearman_lenca_e.xml</Actor>
+    <Actor>units/lencas/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

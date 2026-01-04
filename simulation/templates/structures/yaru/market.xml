@@ -17,6 +17,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/yaruma/market.xml</Actor>
+    <Actor>structures/lencas/market.xml</Actor>
   </VisualActor>
 </Entity>

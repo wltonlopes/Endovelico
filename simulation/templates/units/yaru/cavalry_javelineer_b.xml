@@ -8,6 +8,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/maya_protoclassic/infantry_archer_lenca_b.xml</Actor>
+    <Actor>units/lencas/infantry_archer_lenca_b.xml</Actor>
   </VisualActor>
 </Entity>

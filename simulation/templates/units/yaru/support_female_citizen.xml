@@ -8,6 +8,6 @@
     <SelectionGroupName>units/maya_protoclassic/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/mesoamerican/female_citizen.xml</Actor>
+    <Actor>units/lencas/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

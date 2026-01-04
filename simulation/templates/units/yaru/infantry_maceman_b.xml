@@ -19,6 +19,6 @@
     <Entity>units/yaru/infantry_maceman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mesoamerican/infantry_maceman_b.xml</Actor>
+    <Actor>units/lencas/infantry_maceman_b.xml</Actor>
   </VisualActor>
 </Entity>

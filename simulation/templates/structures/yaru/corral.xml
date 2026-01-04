@@ -24,7 +24,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/yaruma/corral.xml</Actor>
+    <Actor>structures/lencas/corral.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -6,6 +6,6 @@
     <Icon>units/mesoamerican/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mesoamerican/trader.xml</Actor>
+    <Actor>units/lencas/trader.xml</Actor>
   </VisualActor>
 </Entity>
