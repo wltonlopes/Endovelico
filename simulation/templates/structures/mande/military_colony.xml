@@ -21,7 +21,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/mande/colony.xml</Actor>
+    <Actor>structures/mande/djenne.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>
