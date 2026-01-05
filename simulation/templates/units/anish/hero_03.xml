@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_maceman">
-
   <Identity>
     <Civ>anish</Civ>
-    <GenericName></GenericName>
+	  <Phenotype>female</Phenotype>
+    <GenericName>Matriarch</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/anish/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/anishinaabe/infantry_champion_clubman.xml</Actor>
+    <Actor>units/anishinaabe/hero_03_f.xml</Actor>
   </VisualActor>
 </Entity>

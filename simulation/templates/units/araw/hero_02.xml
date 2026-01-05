@@ -8,6 +8,6 @@
     <Icon>units/zapo/hero_night_king.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/arawaks/infantry_hero_archer.xml</Actor>
+    <Actor>units/arawaks/hero_infantry_archer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>hisat</Civ>
-    <GenericName></GenericName>
+    <GenericName>Elder Chief</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/hisat/hero_night_king</SelectionGroupName>

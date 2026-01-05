@@ -11,6 +11,6 @@
     <Entity>units/araw/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/araw/healer.xml</Actor>
+    <Actor>units/arawaks/healer.xml</Actor>
   </VisualActor>
 </Entity>

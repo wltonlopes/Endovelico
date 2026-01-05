@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_spearman">
-
+<Entity parent="template_unit_hero_infantry_axeman">
   <Identity>
     <Civ>anish</Civ>
-    <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>War Chief</GenericName>
+    <SpecificName>Nanabozho</SpecificName>
+    <Tooltip>Hero Unit: War Chief Nanabozho Nanabozho, also known as Nanabush, is a spirit in Anishinaabe aadizookaan , particularly among the Ojibwe of North America. Nanabozho figures prominently in their storytelling, including the story of the world's creation. Nanabozho is the Ojibwe trickster figure and culture hero (these two archetypes are often combined into a single figure in First Nations mythologies, among others). </Tooltip>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/anish/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>
@@ -13,6 +13,6 @@
     <WalkSpeed op="mul">1.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/anishinaabe/infantry_champion_clubman.xml</Actor>
+    <Actor>units/anishinaabe/hero_01.xml</Actor>
   </VisualActor>
 </Entity>

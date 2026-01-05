@@ -9,6 +9,6 @@
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/arawaks/infantry_hero_clubman.xml</Actor>
+    <Actor>units/arawaks/hero_infantry_blowgunner.xml</Actor>
   </VisualActor>
 </Entity>
