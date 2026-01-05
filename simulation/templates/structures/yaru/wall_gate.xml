@@ -53,6 +53,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/yaruma/wall_gate.xml</Actor>
+    <Actor>structures/lencas/wall_gate.xml</Actor>
   </VisualActor>
 </Entity>

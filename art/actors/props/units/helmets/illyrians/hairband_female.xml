@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="base-hairband-female">
+      <textures>
+        <texture file="props/helmet/illyrian_01_gold.png" name="baseTex"/>
+        <texture file="props/helmet/hele_illyrian_03_norm.png" name="normTex"/>
+        <texture file="props/helmet/hele_illyrian_03_bronze_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="tipo-01">
+      <mesh>props/helmet/illyrians/hairband_01.dae</mesh>
+    </variant>
+    <variant frequency="1" name="tipo-02">
+      <mesh>props/helmet/illyrians/hairband_02.dae</mesh>
+    </variant>
+    <variant frequency="1" name="tipo-03">
+      <mesh>props/helmet/illyrians/hairband_03.dae</mesh>
+    </variant>
+    <variant frequency="1" name="tipo-04">
+      <mesh>props/helmet/illyrians/hairband_04.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

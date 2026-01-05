@@ -6,8 +6,20 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/kush_nubian_thureos.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/shield_round_iron_medium.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="helmet-persian-conical-plume">
+      <props>
+        <prop actor="props/units/helmets/nortafric_conical_a1.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="helmet-persian-conical-no-plume">
+      <props>
+        <prop actor="props/units/helmets/nortafric_conical_b1.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
@@ -32,65 +44,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Carthaginian-Bronze-01">
-      <props>
-        <prop actor="props/units/helmets/cart_helmet_a.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Carthaginian-Bronze-02">
-      <props>
-        <prop actor="props/units/helmets/cart_helmet_b.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Thracian-Bronze-Black">
-      <props>
-        <prop actor="props/units/helmets/hele_thracian_br.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Thracian-Bronze-01">
-      <props>
-        <prop actor="props/units/helmets/hele_thracian_b6.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Thracian-Bronze-02">
-      <props>
-        <prop actor="props/units/helmets/hele_thracian_b9.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Phrygian-Bronze">
-      <props>
-        <prop actor="props/units/helmets/hele_phrygian_b10.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Persian-Conical">
-      <props>
-        <prop actor="props/units/helmets/pers_conical_a1.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Cuirass-1a">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="im_03_01">
       <textures>
-        <texture file="skeletal/cart/cuirass_01_01.png" name="baseTex"/>
-        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/numidians/im_03_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Lamellar-1a">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="im_03_02">
       <textures>
-        <texture file="skeletal/cart/lamellar_01_01.png" name="baseTex"/>
-        <texture file="skeletal/hele/lamellar_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/numidians/im_03_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Scale-1a">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+    <variant frequency="1" name="im_03_03">
       <textures>
-        <texture file="skeletal/cart/scale_01_01.png" name="baseTex"/>
-        <texture file="skeletal/cart/scale_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/numidians/im_03_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_03_04">
+      <textures>
+        <texture file="skeletal/numidians/im_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -132,6 +103,14 @@
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

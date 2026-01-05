@@ -10,7 +10,7 @@
   <Identity>
     <Civ>yaru</Civ>
     <GenericName>Barracks</GenericName>
-    <SpecificName>Sikömi nö Nipa</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
@@ -19,14 +19,12 @@
     <Entities datatype="tokens">
       units/{civ}/infantry_javelineer_b
       units/{civ}/infantry_pikeman_b
-      units/{civ}/infantry_archer_b
-      units/{civ}/infantry_slinger_b
       units/{civ}/champion_infantry_swordsman
       units/{civ}/champion_infantry_axeman
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/yaruma/barracks.xml</Actor>
+    <Actor>structures/lencas/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

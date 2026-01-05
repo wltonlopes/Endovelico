@@ -7,6 +7,6 @@
       <Icon>structures/sentry_tower.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/subsaara/saga_javelinist_a_r.xml</Actor>
+    <Actor>units/mande/saga_javelinist_a_r.xml</Actor>
   </VisualActor>
 </Entity>

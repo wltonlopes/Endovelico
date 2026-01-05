@@ -15,6 +15,6 @@
     <HeightOffset>13.6</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/yaruma/wall_short.xml</Actor>
+    <Actor>structures/lencas/wall_short.xml</Actor>
   </VisualActor>
 </Entity>

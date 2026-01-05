@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_philip.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/capes/rider/cape_med_player.xml" attachpoint="root"/>
+        <prop actor="props/units/armor/greave_02_silver_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_02_silver_l.xml" attachpoint="leg_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Hele Bryastovets Helmet-01">
+      <props>
+        <prop actor="props/units/helmets/bryastovets_b.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Siltaces-01">
+      <textures>
+        <texture file="skeletal/thrac/hero_03.png" name="baseTex"/>
+        <texture file="skeletal/mace/cuirass_vergina_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_ready.xml" frequency="1" name="Spearman-Ready"/>
+    <variant file="biped/rider/death.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

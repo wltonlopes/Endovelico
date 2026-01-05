@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_cavalry_archer">
+<Entity parent="template_unit_hero_cavalry_spearman">
   <Auras datatype="tokens">
   </Auras>
   <Identity>
@@ -8,6 +8,6 @@
     <Icon>units/pers_hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/garamantians/chariot_djalla_m.xml</Actor>
+    <Actor>units/numidians/hero_cavalry_spearman_m.xml</Actor>
   </VisualActor>
 </Entity>

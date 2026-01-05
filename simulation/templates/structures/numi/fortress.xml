@@ -14,13 +14,6 @@
   <VisualActor>
     <Actor>structures/numidians/fortress.xml</Actor>
   </VisualActor>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/hero_himiko
-      units/{civ}/hero_keiko
-      units/{civ}/hero_wousu
-    </Entities>
-  </Trainer>
   <WallPiece>
     <Length>23</Length>
     <Indent>7.8</Indent>

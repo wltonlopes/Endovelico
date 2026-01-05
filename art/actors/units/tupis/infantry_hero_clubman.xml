@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/tupi_male.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_tupi_cocar_hero.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/tacape_tupi.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
       </props>

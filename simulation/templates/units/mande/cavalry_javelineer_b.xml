@@ -27,6 +27,6 @@
   </StatusBars>
   
   <VisualActor>
-    <Actor>units/subsaara/saga_javelinist_a_m.xml</Actor>
+    <Actor>units/mande/cavalry_javelinist_a_m.xml</Actor>
   </VisualActor>
 </Entity>

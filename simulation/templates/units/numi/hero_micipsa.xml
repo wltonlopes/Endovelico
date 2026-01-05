@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_swordsman">
+<Entity parent="template_unit_hero_elephant_melee">
   <Auras datatype="tokens">
   </Auras>
   <Identity>
@@ -8,6 +8,6 @@
     <Icon>units/pers_hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/garamantians/hero_infantry_swordsman.xml</Actor>
+    <Actor>units/numidians/hero_elephantry_m.xml</Actor>
   </VisualActor>
 </Entity>

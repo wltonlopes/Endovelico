@@ -10,9 +10,9 @@
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>
-        <texture file="structural/moch_struct.png" name="baseTex"/>
-        <texture file="structural/moch_struct_spec.png" name="specTex"/>
-        <texture file="structural/moch_struct_norm.png" name="normTex"/>
+        <texture file="structural/moch/moch_struct.png" name="baseTex"/>
+        <texture file="structural/moch/moch_struct_spec.png" name="specTex"/>
+        <texture file="structural/moch/moch_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/mochicas/cc.png" name="aoTex"/>
       </textures>
     </variant>

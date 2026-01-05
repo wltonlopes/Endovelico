@@ -20,7 +20,7 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/arawaks/h_01.png" name="baseTex"/>
+        <texture file="skeletal/araw/h_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

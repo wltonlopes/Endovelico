@@ -54,6 +54,7 @@
       structures/{civ}/embassy
       structures/{civ}/stupa
       structures/{civ}/vihara
+      structures/{civ}/mausoleum
     </Entities>
   </Builder>
   <Identity>

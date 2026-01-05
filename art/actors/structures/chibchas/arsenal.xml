@@ -8,9 +8,9 @@
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/chibc_struct.png" name="baseTex"/>
-        <texture file="structural/chibc_struct_spec.png" name="specTex"/>
-        <texture file="structural/chibc_struct_norm.png" name="normTex"/>
+        <texture file="structural/chibc/chibc_struct.png" name="baseTex"/>
+        <texture file="structural/chibc/chibc_struct_spec.png" name="specTex"/>
+        <texture file="structural/chibc/chibc_struct_norm.png" name="normTex"/>
         <texture file="structural/ao/chibchas/arsenal.png" name="aoTex"/>
       </textures>
     </variant>

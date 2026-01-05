@@ -3,16 +3,37 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/f_dress.dae</mesh>
+      <mesh>skeletal/new/f_armor_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/illyrians/hairband_female.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="celt-female-2c">
+    <variant frequency="1" name="illy-female-01">
       <textures>
-        <texture file="skeletal/celt/dress_female_02_03.png" name="baseTex"/>
+        <texture file="skeletal/illy/f_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="illy-female-02">
+      <textures>
+        <texture file="skeletal/illy/f_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="illy-female-03">
+      <textures>
+        <texture file="skeletal/illy/f_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="illy-female-04">
+      <textures>
+        <texture file="skeletal/illy/f_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="illy-female-05"> 
+      <textures>
+        <texture file="skeletal/illy/f_01_05.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

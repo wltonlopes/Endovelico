@@ -59,6 +59,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/yaruma/wall_long.xml</Actor>
+    <Actor>structures/lencas/wall_long.xml</Actor>
   </VisualActor>
 </Entity>

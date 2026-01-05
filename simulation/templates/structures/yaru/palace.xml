@@ -52,7 +52,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/yaruma/palace_pyramid.xml</Actor>
+    <Actor>structures/lencas/palace_pyramid.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

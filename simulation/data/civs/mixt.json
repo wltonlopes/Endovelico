@@ -1,0 +1,79 @@
+﻿{
+	"Code": "mixt",
+	"Culture": "meso",
+	"Region": "mesoamerica",
+	"Music": [
+		{
+			"File": "Jaws_of_the_Jaguar.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Lost_World.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forgotten_Tribe.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cloud_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Old_New_World.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/mixt/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/mixt/civil_centre"
+		},
+		{
+			"Template": "units/mixt/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/mixt/infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/mixt/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/mixt/infantry_scout",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/column_open"
+	],
+	"AINames":
+	[
+		"Yya Tnoo Dzahui",
+		"Yya Dzahui Tnu'u",
+		"Yya Cohyo Ñuhu",
+		"Yya Ndaya Dzahui"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/mixt/infantry_scout",
+		"skirmish/units/default_infantry_ranged_b": "units/mixt/infantry_javelineer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

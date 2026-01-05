@@ -10,6 +10,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/yaruma/forge.xml</Actor>
+    <Actor>structures/lencas/forge.xml</Actor>
   </VisualActor>
 </Entity>

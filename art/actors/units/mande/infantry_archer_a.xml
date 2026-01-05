@@ -43,13 +43,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="numidian-shield">
-      <props>
-        <prop actor="props/units/shields/gara_round_large_01_cow.xml" attachpoint="shield"/>
-      </props>
-    </variant>
-  </group>
-  <group>
     <variant>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

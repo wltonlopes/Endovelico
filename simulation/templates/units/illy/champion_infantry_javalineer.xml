@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelineer">
+  <Identity>
+    <Civ>illy</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/illy/heavy_javelineer</SelectionGroupName>
+    <GenericName>Female Illyrian Javelineer</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/south_america/support_female_citizen.png</Icon>
+    <Phenotype>female</Phenotype>
+  </Identity>
+    <Promotion disable=""/>
+  <Upgrade>
+    <spear>
+      <Entity>units/illy/champion_infantry_axe</Entity>
+      <Tooltip>Switch to using a axe.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Time>5</Time>
+    </spear>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/illyrians/infantry_javelinist_woman.xml</Actor>
+  </VisualActor>
+</Entity>

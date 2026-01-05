@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_swordsman">
+  <Identity>
+    <Civ>illy</Civ>
+    <Rank>Advanced</Rank>
+    <GenericName>Illyrian Allied Pirate</GenericName>
+    <SpecificName>Pirate Mesapio</SpecificName>
+    <SelectionGroupName>units/illy/infantry_clubman_merc_b</SelectionGroupName>
+    <Icon>units/mayap/mercenary_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/illyrians/infantry_swordsman_merc.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -10,6 +10,6 @@
     <Icon>units/celt/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/subsaara/siege_ram.xml</Actor>
+    <Actor>units/mande/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

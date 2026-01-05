@@ -12,6 +12,6 @@
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/yaruma/scout_tower.xml</Actor>
+    <Actor>structures/lencas/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/kush_hero_amanirenas
+  </Auras>
+  <Footprint replace="">
+    <Square width="6.0" depth="14.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>bedo</Civ>
+    <GenericName>Obodas I</GenericName>
+    <SpecificName>Obodas I</SpecificName>
+    <Icon>units/kush/hero_amanirenas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/himyar/hero_cavalry_swordsman_m.xml</Actor>
+  </VisualActor>
+</Entity>

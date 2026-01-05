@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+  <variant file="shields/celt_shield_base.xml" name="Player-Color-01">
+      <mesh>props/shield/oval_02.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/props/shield_oval_b_b.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/props/celt_orle_oval_b.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/props/celt_manipula.xml" attachpoint="handle"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="shield-a">
+      <textures><texture file="props/shield/celt_shield_09.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Spina-a">
+      <props> 
+        <prop actor="props/units/shields/props/shield_spina_boss_a_03.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spina-b">
+      <props>
+        <prop actor="props/units/shields/props/shield_spina_boss_b_03.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spina-c">
+      <props>
+        <prop actor="props/units/shields/props/shield_spina_boss_c_03.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spina-d">
+      <props>
+        <prop actor="props/units/shields/props/shield_spina_boss_d_03.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spina-e">
+      <props>
+        <prop actor="props/units/shields/props/shield_spina_boss_e_03.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spina-f">
+      <props>
+        <prop actor="props/units/shields/props/shield_spina_boss_f_03.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spina-g">
+      <props>
+        <prop actor="props/units/shields/props/shield_spina_boss_g_03.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spina-h">
+      <props>
+        <prop actor="props/units/shields/props/shield_spina_boss_h_02.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spina-r">
+      <props>
+        <prop actor="props/units/shields/props/shield_boss_r.xml" attachpoint="spina"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

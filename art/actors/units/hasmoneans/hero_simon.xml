@@ -1,30 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_healer_male.xml" name="Hasmodeans Hero Simon">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_hele_a.xml" attachpoint="head"/>
-        <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="healer-robe-1">
-      <props>
+        <prop actor="props/units/heads/new/head_athen_pericles.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/hasmoneans/helmet_hero_03.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/hasmo_shield_01.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath_xiphos.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/units/capes/cape_long_player.xml" attachpoint="root"/>
+        <prop actor="props/units/armor/greave_12_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_12_bronze_l.xml" attachpoint="leg_L"/>
       </props>
       <textures>
-        <texture file="skeletal/athen/linothorax_01_01.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="skeletal/hasmoneans/hero_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/base_healer_male.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/base_hoplite.xml" frequency="1" name="Hoplite-Relax"/>
+    <variant file="biped/attack_capture.xml">
+      <props>
+        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_cape_long.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

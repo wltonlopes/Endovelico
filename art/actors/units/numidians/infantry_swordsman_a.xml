@@ -19,29 +19,29 @@
   <group>
     <variant frequency="1" name="Scutum-00">
       <props>
-        <prop actor="props/units/shields/samn_scutum_basic.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/shield_round_iron_medium.xml" attachpoint="shield"/>
       </props>
-    </variant>
-    <variant frequency="1" name="Scutum-01">
-      <props>
-        <prop actor="props/units/shields/samn_scutum_adv.xml" attachpoint="shield"/>
-      </props>
-    </variant>
+    </variant>  
   </group>
   <group>
-    <variant frequency="1" name="tunic_01_01">
+    <variant frequency="1" name="ims_02_01">
       <textures>
-        <texture file="skeletal/cart/tunic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/numidians/ims_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_01_02">
+    <variant frequency="1" name="ims_02_02">
       <textures>
-        <texture file="skeletal/cart/tunic_01_02.png" name="baseTex"/>
+        <texture file="skeletal/numidians/ims_02_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_01_03">
+    <variant frequency="1" name="ims_02_03">
       <textures>
-        <texture file="skeletal/cart/tunic_01_03.png" name="baseTex"/>
+        <texture file="skeletal/numidians/ims_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ims_02_04">
+      <textures>
+        <texture file="skeletal/numidians/ims_02_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

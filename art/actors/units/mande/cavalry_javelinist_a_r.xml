@@ -5,7 +5,6 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
         <prop actor="props/units/shields/gara_round_large_01_cow.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
         <prop actor="props/units/heads/libian_dread_hair.xml" attachpoint="head"/>
@@ -13,19 +12,28 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic_01_01">
+    <variant frequency="1" name="Gara-Tunic-Dark-01-01">
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+      </props>
       <textures>
-        <texture file="skeletal/cart/tunic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/gara/linothorax_dark_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_01_02">
+    <variant frequency="1" name="Gara-Tunic-Dark-01-02">
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+      </props>
       <textures>
-        <texture file="skeletal/cart/tunic_01_02.png" name="baseTex"/>
+        <texture file="skeletal/gara/linothorax_dark_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_01_03">
+    <variant frequency="1" name="Gara-Tunic-Dark-01-03">
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+      </props>
       <textures>
-        <texture file="skeletal/cart/tunic_01_03.png" name="baseTex"/>
+        <texture file="skeletal/gara/linothorax_dark_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

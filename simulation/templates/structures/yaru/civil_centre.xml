@@ -12,6 +12,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/yaruma/civic_center.xml</Actor>
+    <Actor>structures/lencas/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

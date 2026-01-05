@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/illy_head_male_02.xml" attachpoint="head"/>
         <prop actor="props/units/shields/aspis_mace_hypaspist.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/armor/greave_01_bronze_l.xml" attachpoint="leg_L"/>
@@ -16,15 +16,14 @@
   <group>
     <variant name="Hele Bryastovets Helmet-01">
       <props>
-        <prop actor="props/units/helmets/bryastovets_b.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/illyrians/illy_hero_crested.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Mace-Linothorax-01-08">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+    <variant frequency="1" name="Linothorax-01-08">
       <textures>
-        <texture file="skeletal/mace/linothorax_01_08.png" name="baseTex"/>
+        <texture file="skeletal/illy/hero_03.png" name="baseTex"/>
         <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>

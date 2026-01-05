@@ -22,9 +22,9 @@
     </variant>
   </group>
   <group>
-    <variant name="Thrac-Scale-01-02">
+    <variant name="Teres-02">
       <textures>
-        <texture file="skeletal/thrac/scale_01_02.png" name="baseTex"/>
+        <texture file="skeletal/thrac/hero_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
