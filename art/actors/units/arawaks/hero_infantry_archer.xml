@@ -5,11 +5,12 @@
     <variant name="Base">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/araw_hair.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/kush_quiver_hip.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/helmets/lenca_helmet.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -20,7 +21,7 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/araw/h_01.png" name="baseTex"/>
+        <texture file="skeletal/araw/hero_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

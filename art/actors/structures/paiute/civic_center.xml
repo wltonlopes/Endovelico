@@ -6,7 +6,7 @@
       <mesh>structural/paiute/cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="particle/flame.xml" attachpoint="fire" />
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire" />
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>
       <textures>  

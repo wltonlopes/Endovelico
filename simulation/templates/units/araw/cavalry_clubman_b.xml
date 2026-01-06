@@ -3,15 +3,15 @@
   <Identity>
     <Civ>araw</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
-    <GenericName>Experienced archer</GenericName>
-    <SpecificName>Aimberê</SpecificName>
+    <SelectionGroupName>units/araw/heavy_javelineer</SelectionGroupName>
+    <GenericName>Experienced clubman</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/tupis/infantry_heavy_clubman.xml</Actor>
+    <Actor>units/arawaks/infantry_heavy_clubman.xml</Actor>
   </VisualActor>
 </Entity>

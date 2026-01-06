@@ -13,6 +13,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/paiute/infantry_heavy_spearman.xml</Actor>
+    <Actor>units/paiute/infantry_heavy_clubman.xml</Actor>
   </VisualActor>
 </Entity>
