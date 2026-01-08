@@ -5,8 +5,9 @@
     <variant file="biped/base_spearman_relax.xml">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_araw_heavy_01.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/araw_hair.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/macana_02.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
       </props>
@@ -19,22 +20,7 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/araw/h_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="02">
-      <textures>
-        <texture file="skeletal/araw/h_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="03">
-      <textures>
-        <texture file="skeletal/araw/h_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="04">
-      <textures>
-        <texture file="skeletal/araw/h_04.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/hero_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

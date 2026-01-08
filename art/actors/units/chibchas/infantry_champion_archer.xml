@@ -5,11 +5,11 @@
     <variant name="Base">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/araw_hair.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_araw_champ_01.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/bow_long_indian.xml" attachpoint="weapon_bow"/>
-        <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/kush_quiver_hip.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -20,22 +20,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/araw/c_01.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/c_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/araw/c_02.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/c_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/araw/c_03.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/c_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/araw/c_04.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/c_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -44,8 +44,11 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_archer_fire.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_ranged_archer.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>

@@ -7,11 +7,11 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="mayan Face a">
-      <textures><texture file="props/head/araw/head_male_02_01.png" name="baseTex"/></textures>
-    </variant>
     <variant frequency="1" name="mayan Face b">
-      <textures><texture file="props/head/araw/head_male_02_02.png" name="baseTex"/></textures>
+      <textures><texture file="props/head/araw/head_01_02.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="mayan Face c">
+      <textures><texture file="props/head/araw/head_01_03.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>objectcolor.xml</material>

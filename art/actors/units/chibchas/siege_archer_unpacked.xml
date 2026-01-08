@@ -20,22 +20,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/araw/c_01.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/c_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/araw/c_02.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/c_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/araw/c_03.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/c_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/araw/c_04.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/c_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
