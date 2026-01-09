@@ -2,19 +2,19 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Base">
+    <variant file="biped/base_spearman_relax.xml">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_araw_champ_01.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="weapon_bow"/>
-        <prop actor="props/units/kush_quiver_hip.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/base_feather.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/chibchas/feather_chibchas_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
-      </textures>
+      </textures> 
     </variant>
   </group>
   <group>
@@ -40,15 +40,12 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_archer_relax.xml"/>
+    <variant file="biped/base_spearman_relax.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/attack_ranged_archer.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>

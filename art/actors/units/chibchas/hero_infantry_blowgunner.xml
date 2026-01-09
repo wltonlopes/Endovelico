@@ -5,9 +5,9 @@
     <variant file="biped/base_blowgunner_ready.xml">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/araw_hair.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/base_feather.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/chibchas/feather_chibchas_02.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/zarabatana_a.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
       </props>

@@ -5,9 +5,8 @@
     <variant file="biped/base_blowgunner_ready.xml">
     <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/araw_hair.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/zarabatana_a.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/zarabatana_b.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -18,22 +17,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/chibchas/im_02_01.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/i_aux_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/chibchas/im_02_02.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/i_aux_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/chibchas/im_02_03.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/i_aux_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/chibchas/im_02_04.png" name="baseTex"/>
+        <texture file="skeletal/chibchas/i_aux_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
