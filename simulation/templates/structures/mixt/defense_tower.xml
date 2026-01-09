@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_stone">
+  <Footprint>
+    <Square width="10.0" depth="10.5"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>mixt</Civ>
+    <SpecificName>Áantaj kiaqte’</SpecificName>
+    <SelectionGroupName>structures/zapo/defense_tower</SelectionGroupName>
+  </Identity>
+  <Obstruction>
+    <Static width="7.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/zapotecs/defense_tower.xml</Actor>
+  </VisualActor>
+</Entity>

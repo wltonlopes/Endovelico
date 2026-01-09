@@ -12,6 +12,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/tupis/infantry_heavy_clubman.xml</Actor>
+    <Actor>units/chibchas/infantry_heavy_clubman.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+
+  <Identity>
+    <Civ>mixt</Civ>
+    <GenericName>Lord Jaguar</GenericName>
+    <SpecificName>Gayo’ Betzao</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
+    <Icon>units/zapo/hero_lord_jaguar.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zapotecs/hero_infantry_spearman_lord_jaguar.xml</Actor>
+  </VisualActor>
+</Entity>

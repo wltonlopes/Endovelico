@@ -7,6 +7,6 @@
     <Icon>units/mayap/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_archer.xml</Actor>
+    <Actor>units/chibchas/infantry_champion_archer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base-Female">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <mesh>skeletal/new/f_armor_dress.dae</mesh>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>

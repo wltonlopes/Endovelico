@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_javelineer">
+
+  <Identity>
+    <Civ>mixt</Civ>
+    <GenericName>Rain Lord</GenericName>
+    <SpecificName>Chizino Yejo</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
+    <Icon>units/zapo/hero_rain_lord.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/zapotecs/hero_infantry_javelineer_11_rain.xml</Actor>
+  </VisualActor>
+</Entity>
