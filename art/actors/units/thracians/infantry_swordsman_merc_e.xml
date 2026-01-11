@@ -40,7 +40,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_rhomphaia_shield_fast.xml" frequency="1" name="Swordsman-Rhomphaia-Fast"/>
+    <variant file="biped/base_swordsman_shield_ready.xml" frequency="1" name="Swordsman-Rhomphaia-Fast"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
