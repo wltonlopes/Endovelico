@@ -2,9 +2,9 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Hasmoneans House">
+    <variant frequency="1" name="Parthian House">
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/arsa/struct_1.png" name="baseTex"/>
@@ -15,36 +15,28 @@
   </group>
   <group>
     <variant frequency="1" name="House 01">
-      <mesh>structural/arsacid/arsacid_parthian/house_01.dae</mesh>
+      <mesh>structural/arsacid/parthian/house_01.dae</mesh>
       <textures>
-        <texture file="structural/ao/arsa/house_01_ao.png" name="aoTex"/>
+        <texture file="structural/ao/arsa/parthian/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="House 02">
-      <mesh>structural/arsacid/arsacid_parthian/house_02.dae</mesh>
+      <mesh>structural/arsacid/parthian/house_02.dae</mesh>
       <textures>
-        <texture file="structural/ao/arsa/house_02_ao.png" name="aoTex"/>
+        <texture file="structural/ao/arsa/parthian/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="House 03">
-      <mesh>structural/arsacid/arsacid_parthian/house_03.dae</mesh>
+      <mesh>structural/arsacid/parthian/house_03.dae</mesh>
       <textures>
-        <texture file="structural/ao/arsa/house_03_ao.png" name="aoTex"/>
+        <texture file="structural/ao/arsa/parthian/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="House 04">
-      <mesh>structural/arsacid/arsacid_parthian/house_04.dae</mesh>
+      <mesh>structural/arsacid/parthian/house_04.dae</mesh>
       <textures>
-        <texture file="structural/ao/arsa/house_04_ao.png" name="aoTex"/>
+        <texture file="structural/ao/arsa/parthian/house_04_ao.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
-      </props>
     </variant>
   </group>
   <group>

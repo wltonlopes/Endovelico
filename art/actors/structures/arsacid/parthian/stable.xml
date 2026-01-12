@@ -2,20 +2,19 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Hasmoneans Stable">
-      <mesh>structural/arsacid/arsacid_parthian/stable.dae</mesh>
+    <variant frequency="1" name="Parthian Stable">
+      <mesh>structural/arsacid/parthian/stable.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse_01" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse_02" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse_03" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse_04" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/arsa/struct_1.png" name="baseTex"/>
         <texture file="structural/arsa/struct_1_spec.png" name="specTex"/>
         <texture file="structural/arsa/struct_1_norm.png" name="normTex"/>
-        <texture file="structural/ao/arsa/stable_ao.png" name="aoTex"/>
+        <texture file="structural/ao/arsa/parthian/stable_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>arsa</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
     <Static width="7.0" depth="8.0"/>
@@ -16,5 +16,6 @@
   </StatusBars>
   <VisualActor>
     <Actor>structures/arsacid/defense_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

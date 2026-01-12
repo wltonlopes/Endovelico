@@ -15,6 +15,6 @@
     <Actor>structures/arsacid/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>37.0</Length>
+    <Length>36.0</Length>
   </WallPiece>
 </Entity>

@@ -6,7 +6,7 @@
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <VisualActor>
-    <Actor>structures/arsacid/anfitheater.xml</Actor>
+    <Actor>structures/arsacid/casavesar.xml</Actor>
     <FoundationActor>structures/fndn_theater.xml</FoundationActor>
   </VisualActor>
 </Entity>

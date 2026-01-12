@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Arsacid Civic Centre Struct">
+      <mesh>props/structural/arsacid/civic_centre_struct.dae</mesh>
+      <textures>
+        <texture file="structural/arsa/struct_1.png" name="baseTex"/>
+        <texture file="structural/arsa/struct_1_norm.png" name="normTex"/>
+        <texture file="structural/arsa/struct_1_spec.png" name="specTex"/>
+        <texture file="structural/ao/arsa/civic_centre_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_ao_parallax_spec.xml</material>
+</actor>

@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower_sentry">
+  <Footprint>
+    <Square width="10.0" depth="10.5"/>
+    <Height>15.0</Height>
+  </Footprint>
   <Identity>
     <Civ>arsa</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
+  <Obstruction>
+    <Static width="7.0" depth="8.0"/>
+  </Obstruction>
   <VisualActor>
-    <Actor>structures/arsacid/parthian/scout_tower.xml</Actor>
+    <Actor>structures/arsacid/sentry_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

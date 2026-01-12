@@ -11,7 +11,7 @@
       <WallMedium>structures/arsa/wall_medium</WallMedium>
       <WallShort>structures/arsa/wall_short</WallShort>
     </Templates>
-    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MaxTowerOverlap>0.75</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
   </WallSet>
 </Entity>

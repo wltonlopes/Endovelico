@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
   <Footprint>
-    <Square width="12.0" depth="21.0"/>
+    <Square width="14.0" depth="19.0"/>
   </Footprint>
   <Identity>
     <Civ>arsa</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="10.0" depth="19.0"/>
+    <Static width="13.5" depth="18.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/arsacid/corral.xml</Actor>
-    <FoundationActor>structures/fndn_3x6.xml</FoundationActor>
+    <FoundationActor>structures/fndn_3x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

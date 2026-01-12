@@ -2,16 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Hasmoneans Defense Tower" file="structures/defensive_building.xml">
-      <mesh>structural/arsacid/arsacid_parthian/defense_tower.dae</mesh>
+    <variant frequency="1" name="Parthian Defense Tower" file="structures/defensive_building.xml">
+      <mesh>structural/arsacid/parthian/defense_tower.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/arsa/struct_1.png" name="baseTex"/>
         <texture file="structural/arsa/struct_1_spec.png" name="specTex"/>
         <texture file="structural/arsa/struct_1_norm.png" name="normTex"/>
-        <texture file="structural/ao/arsa/defense_tower_ao.png" name="aoTex"/>
+        <texture file="structural/ao/arsa/parthian/defense_tower_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
