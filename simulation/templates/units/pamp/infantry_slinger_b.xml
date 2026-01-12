@@ -9,6 +9,7 @@
     <SelectionGroupName>units/pamp/infantry_slinger_b</SelectionGroupName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Talmoris</SpecificName>
+    <Tooltip>Levy Slinger</Tooltip>
     <Icon>units/moch/infantry_slinger.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

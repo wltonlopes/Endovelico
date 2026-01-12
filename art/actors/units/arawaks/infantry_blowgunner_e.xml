@@ -2,10 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_blowgunner_ready.xml">
+    <variant file="biped/base_blowgunner_relax.xml">
     <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/araw_hair.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/zarabatana_a.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
@@ -37,7 +38,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_skirmisher_fast.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
+    <variant file="biped/base_blowgunner_relax.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>

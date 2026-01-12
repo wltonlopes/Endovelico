@@ -12,6 +12,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/tupis/infantry_heavy_javelinist.xml</Actor>
+    <Actor>units/tuchibchaspis/infantry_heavy_javelinist.xml</Actor>
   </VisualActor>
 </Entity>

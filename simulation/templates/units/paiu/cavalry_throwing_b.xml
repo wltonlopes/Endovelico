@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="infantry_cavalry|template_unit_cavalry_range_ throwing">
+<Entity parent="infantry_cavalry|template_unit_cavalry_range_throwing">
   <Identity>
     <Civ>paiu</Civ>
     <Rank>Advanced</Rank>

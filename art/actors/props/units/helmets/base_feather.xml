@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="helmetA">
+      <mesh>props/helmet/base_feather.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="texture01">
+      <textures>
+        <texture file="props/helmet/base_feather_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="texture02">
+      <textures>
+        <texture file="props/helmet/base_feather_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="texture03">
+      <textures>
+        <texture file="props/helmet/base_feather_01_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="texture04">
+      <textures>
+        <texture file="props/helmet/base_feather_01_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

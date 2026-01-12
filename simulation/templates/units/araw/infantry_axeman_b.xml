@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_axeman">
+  <Cost>
+    <Resources>
+      <stone>10</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>araw</Civ>
+    <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
+    <GenericName>Axeman Warrior</GenericName>
+    <SpecificName>B'aat Bate</SpecificName>
+    <Icon>units/mayap/infantry_axeman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/araw/infantry_axeman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/arawaks/infantry_axeman_b.xml</Actor>
+  </VisualActor>
+</Entity>

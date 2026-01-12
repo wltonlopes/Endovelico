@@ -8,7 +8,7 @@
         <prop actor="props/units/heads/head_anishinaabe_male_old.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/anishinaabe_hair_male_old.xml" attachpoint="head"/> 
         <prop actor="props/units/helmets/anishinaabe/hero_headress.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/stone_knife_na.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>araw</Civ>
-    <SelectionGroupName>units/maya_protoclassic/support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/araw/support_healer_b</SelectionGroupName>
     <GenericName>Maya Priest</GenericName>
     <SpecificName> Aj K'in</SpecificName>
     <Icon>units/south_america/support_healer.png</Icon>
@@ -11,6 +11,6 @@
     <Entity>units/araw/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/araw/healer.xml</Actor>
+    <Actor>units/arawaks/healer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -6,6 +6,6 @@
     <Icon>units/south_america/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/araw/trader.xml</Actor>
+    <Actor>units/arawaks/trader.xml</Actor>
   </VisualActor>
 </Entity>

@@ -15,21 +15,21 @@
   </group>
   <group>
     <variant frequency="1" name="house a">
-<mesh>structural/paiute/house_1.dae</mesh>
+      <mesh>structural/paiute/house_1.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/paiute/house_01.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-<mesh>structural/paiute/house_2.dae</mesh>
+      <mesh>structural/paiute/house_2.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/paiute/house_02.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-<mesh>structural/paiute/house_3.dae</mesh>
+      <mesh>structural/paiute/house_3.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/paiute/house_03.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

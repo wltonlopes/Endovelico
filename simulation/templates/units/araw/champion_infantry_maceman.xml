@@ -4,7 +4,7 @@
   <Civ>araw</Civ>
     <GenericName>Gread Warrior</GenericName>
     <SpecificName>Porang-abá</SpecificName>
-    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+    <Icon>units/araw/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/tupis/infantry_champion_clubman.xml</Actor>

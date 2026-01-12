@@ -11,6 +11,6 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/tupis/infantry_hero_archer.xml</Actor>
+    <Actor>units/tupis/hero_infantry_archer.xml</Actor>
   </VisualActor>
 </Entity>

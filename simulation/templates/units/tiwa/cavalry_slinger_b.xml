@@ -11,6 +11,6 @@
     <Entity>units/tiwa/cavalry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mochicas/infantry_heavy_bolas.xml</Actor>
+    <Actor>units/tiwanaku/infantry_heavy_bolas.xml</Actor>
   </VisualActor>
 </Entity>

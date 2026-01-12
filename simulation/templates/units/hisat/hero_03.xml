@@ -2,13 +2,13 @@
 <Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>hisat</Civ>
-    <GenericName></GenericName>
+    <Phenotype>female</Phenotype>  
+    <GenericName>Matriarch</GenericName>
     <SpecificName></SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/hisat/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/hisatsinom/hero_03.xml</Actor>
+    <Actor>units/hisatsinom/hero_03_f.xml</Actor>
   </VisualActor>
 </Entity>

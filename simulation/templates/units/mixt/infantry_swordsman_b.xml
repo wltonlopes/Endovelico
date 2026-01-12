@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName>Macuahuitl</AttackName>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>mixt</Civ>
+    <SelectionGroupName>units/zapo/infantry_swordsman_b</SelectionGroupName>
+    <SpecificName>Macuahuitl Infantry</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/zapo/infantry_swordsman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/mixt/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/zapotecs/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

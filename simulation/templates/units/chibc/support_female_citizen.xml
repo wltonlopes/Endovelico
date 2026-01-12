@@ -8,6 +8,6 @@
     <SelectionGroupName>units/chibc/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/south_america/female_citizen.xml</Actor>
+    <Actor>units/chibchas/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

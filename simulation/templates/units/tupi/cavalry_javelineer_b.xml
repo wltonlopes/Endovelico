@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="infantry_cavalry|template_unit_infantry_melee_clubman">
+<Entity parent="infantry_cavalry|template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>tupi</Civ>
     <Rank>Advanced</Rank>

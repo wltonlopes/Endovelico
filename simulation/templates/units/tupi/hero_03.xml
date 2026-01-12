@@ -9,6 +9,6 @@
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/tupis/infantry_hero_clubman.xml</Actor>
+    <Actor>units/tupis/hero_infantry_clubman.xml</Actor>
   </VisualActor>
 </Entity>

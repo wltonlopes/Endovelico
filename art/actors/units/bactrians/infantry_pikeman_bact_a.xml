@@ -11,6 +11,7 @@
       </props>
       <textures>
         <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
@@ -74,14 +75,39 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Armour-Linen-Linothorax">
+    <variant frequency="1" name="mace-linothorax-1a">
       <textures>
-        <texture file="skeletal/hele/pezhetairoi_3.dds" name="baseTex"/>
+        <texture file="skeletal/mace/linothorax_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Armour-Reinforced Linothorax">
+    <variant frequency="1" name="mace-linothorax-1b">
       <textures>
-        <texture file="skeletal/hele/pezhetairoi.dds" name="baseTex"/>
+        <texture file="skeletal/mace/linothorax_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="mace-linothorax-1c">
+      <textures>
+        <texture file="skeletal/mace/linothorax_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="mace-linothorax-1d">
+      <textures>
+        <texture file="skeletal/mace/linothorax_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="mace-linothorax-1e">
+      <textures>
+        <texture file="skeletal/mace/linothorax_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="mace-linothorax-1f">
+      <textures>
+        <texture file="skeletal/mace/linothorax_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="mace-linothorax-1g">
+      <textures>
+        <texture file="skeletal/mace/linothorax_01_07.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -123,5 +149,6 @@
   <group>
     <variant name="Idle"/>
   </group>
+
   <material>player_trans_norm_spec.xml</material>
 </actor>

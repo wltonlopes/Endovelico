@@ -4,9 +4,9 @@
   <group>
     <variant frequency="100" name="Texture">
       <textures>
-        <texture file="props/maur_props_1.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="props/weapon/axe_nomad_b.png" name="baseTex"/>
+        <texture file="props/weapon/axe_nomad_norm.png" name="normTex"/>
+        <texture file="props/weapon/axe_nomad_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -18,5 +18,5 @@
       <mesh>props/weapon/sica_02.dae</mesh>
     </variant>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>

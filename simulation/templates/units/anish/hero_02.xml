@@ -3,7 +3,7 @@
 
   <Identity>
     <Civ>anish</Civ>
-    <GenericName></GenericName>
+    <GenericName>Elder Chief</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/anish/hero_night_king</SelectionGroupName>
@@ -13,6 +13,6 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/anishinaabe/infantry_champion_archer.xml</Actor>
+    <Actor>units/anishinaabe/hero_02.xml</Actor>
   </VisualActor>
 </Entity>

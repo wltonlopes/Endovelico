@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>tiwa</Civ>
+    <GenericName>Nobre Spearman</GenericName>
+    <SpecificName></SpecificName>
+    <SelectionGroupName>units/moch/champion_infantry</SelectionGroupName>
+    <Icon>units/moch/champion_infantry_maceman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/tiwanaku/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

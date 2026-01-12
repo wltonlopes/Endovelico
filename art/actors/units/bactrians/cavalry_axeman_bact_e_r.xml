@@ -11,6 +11,10 @@
         <prop actor="props/units/shields/pers_back_curved_iron.xml" attachpoint="back"/>
         <prop actor="props/units/shields/pers_buckler_1.xml" attachpoint="shield_arm"/>
       </props>
+      <textures>
+        <texture file="per"
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
