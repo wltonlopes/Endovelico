@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Arsacid Forge Water">
-      <mesh>props/structural/arsacid/forge_water.dae</mesh>
+    <variant frequency="1" name="Parthian Forge Water">
+      <mesh>props/structural/arsacid/parthian/forge_water.dae</mesh>
       <textures>
-        <texture file="structural/arsa/struct_1.png" name="baseTex"/>
+        <texture file="structural/arsa/struct.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

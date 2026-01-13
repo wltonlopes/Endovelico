@@ -2,8 +2,8 @@
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="1" name="Arsacid Temple Grass">
-            <mesh>props/structural/arsacid/temple_grass.dae</mesh>
+        <variant frequency="1" name="Parthian Temple Grass">
+            <mesh>props/structural/arsacid/parthian/temple_grass.dae</mesh>
         </variant>
     </group>
     <group>
