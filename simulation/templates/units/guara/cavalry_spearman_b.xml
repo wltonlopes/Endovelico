@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/guara/shrine
-    </Entities>
-  </Builder>
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_maceman">
   <Identity>
     <Civ>guara</Civ>
-    <SelectionGroupName>Heavy Spearman</SelectionGroupName>
+    <SelectionGroupName>Heavy Maceman</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
   </Identity>
-  <Promotion>
-    <Entity>units/guara/infantry_spearman_a</Entity>
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/south_america/infantry_spearman_b.xml</Actor>
+    <Actor>units/guaranis/infantry_heavy_maceman.xml</Actor>
   </VisualActor>
 </Entity>
 

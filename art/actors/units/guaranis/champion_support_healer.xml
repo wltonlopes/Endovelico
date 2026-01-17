@@ -8,6 +8,7 @@
         <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/cocar.xml" attachpoint="helmet"/>
         <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/stone_knife_na.xml" attachpoint="weapon_L"/>
 	  </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -18,22 +19,22 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/guaranis/civil_01.png" name="baseTex"/>
+        <texture file="skeletal/guaranis/h_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/guaranis/civil_02.png" name="baseTex"/>
+        <texture file="skeletal/guaranis/h_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/guaranis/civil_03.png" name="baseTex"/>
+        <texture file="skeletal/guaranis/h_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="04">
       <textures>
-        <texture file="skeletal/guaranis/civil_04.png" name="baseTex"/>
+        <texture file="skeletal/guaranis/h_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -41,7 +42,7 @@
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/deatcivil_infantry.xml">
+    <variant file="biped/death_infantry.xml">
     </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>

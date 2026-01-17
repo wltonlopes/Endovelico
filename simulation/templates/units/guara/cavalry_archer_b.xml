@@ -9,9 +9,7 @@
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>
-  <Promotion>
-    <Entity>units/guara/cavalry_archer_a</Entity>
-  </Promotion> 
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/guaranis/female_archer.xml</Actor>
   </VisualActor>
