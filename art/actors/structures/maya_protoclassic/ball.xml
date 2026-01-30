@@ -15,13 +15,13 @@
   </group>
   <group>
     <variant frequency="1" name="1">
-      <mesh>structural/maya_protoclassic/ball_1.dae</mesh>
+      <mesh>structural/mayas/ball_1.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/ball_1.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="2">
-      <mesh>structural/maya_protoclassic/ball_2.dae</mesh>
+      <mesh>structural/mayas/ball_2.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/ball_2.png" name="aoTex"/>
       </textures>

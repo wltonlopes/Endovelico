@@ -15,13 +15,13 @@
   </group>
    <group>
     <variant frequency="1" name="Shrine-1">
-      <mesh>structural/maya_protoclassic/templo_1.dae</mesh>
+      <mesh>structural/mayas/templo_1.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/templo_1.png" name="aoTex"/>
       </textures>
     </variant>
       <variant frequency="1" name="Shrine-2">
-      <mesh>structural/maya_protoclassic/templo_2.dae</mesh>
+      <mesh>structural/mayas/templo_2.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/templo_2.png" name="aoTex"/>
       </textures>

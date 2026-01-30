@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/maya_protoclassic/wall_long.dae</mesh>
+      <mesh>structural/mayas/wall_long.dae</mesh>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
         <texture file="structural/maya_protoclassic_struct_norm.png" name="normTex"/>

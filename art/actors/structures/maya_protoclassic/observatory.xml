@@ -3,15 +3,9 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="observatory_1">
-      <mesh>structural/maya_protoclassic/observatorio_1.dae</mesh>
+      <mesh>structural/mayas/observatory.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/observatorio_1.png" name="aoTex"/>
-      </textures>
-    </variant>
-      <variant frequency="1" name="observatory_2">
-      <mesh>structural/maya_protoclassic/observatorio_2.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayap/observatorio_2.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="1">
-      <mesh>structural/maya_protoclassic/forge_1.dae</mesh>
+      <mesh>structural/mayas/forge.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/forge_1.png" name="aoTex"/>
       </textures>

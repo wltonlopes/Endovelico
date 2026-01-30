@@ -15,27 +15,27 @@
   </group>
    <group>
     <variant frequency="1" name="1">
-      <mesh>structural/maya_protoclassic/piramide_1.dae</mesh>
+      <mesh>structural/mayas/pyramid_01.dae</mesh>
     <textures>
-        <texture file="structural/ao/mayap/piramide_1.png" name="aoTex"/>
+        <texture file="structural/ao/mayap/pyramid_01.png" name="aoTex"/>
       </textures>
     </variant>
       <variant frequency="1" name="2">
-      <mesh>structural/maya_protoclassic/piramide_2.dae</mesh>
+      <mesh>structural/mayas/pyramid_02.dae</mesh>
     <textures>
-        <texture file="structural/ao/mayap/piramide_2.png" name="aoTex"/>
+        <texture file="structural/ao/mayap/pyramid_02.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="3">
-      <mesh>structural/maya_protoclassic/piramide_3.dae</mesh>
+      <mesh>structural/mayas/pyramid_03.dae</mesh>
     <textures>
-        <texture file="structural/ao/mayap/piramide_3.png" name="aoTex"/>
+        <texture file="structural/ao/mayap/pyramid_03.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="4">
-      <mesh>structural/maya_protoclassic/piramide_4.dae</mesh>
+      <mesh>structural/mayas/pyramid_04.dae</mesh>
     <textures>
-        <texture file="structural/ao/mayap/piramide_4.png" name="aoTex"/>
+        <texture file="structural/ao/mayap/pyramid_04.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

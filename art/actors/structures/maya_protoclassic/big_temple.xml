@@ -15,15 +15,9 @@
   </group>
   <group>
     <variant frequency="1" name="1">
-      <mesh>structural/maya_protoclassic/templomaior_1.dae</mesh>
+      <mesh>structural/mayas/temple_big.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/templomaior_1.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="2">
-      <mesh>structural/maya_protoclassic/templomaior_2.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayap/templomaior_2.png" name="aoTex"/>
+        <texture file="structural/ao/mayap/temple_big.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

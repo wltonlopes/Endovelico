@@ -22,7 +22,7 @@
   </group>
   <group>
     <variant frequency="1" name="1">
-      <mesh>structural/maya_protoclassic/farmstead_1.dae</mesh>
+      <mesh>structural/mayas/farmstead.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/farmstead_1.png" name="aoTex"/>
       </textures>

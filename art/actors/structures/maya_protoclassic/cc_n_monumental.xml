@@ -15,7 +15,7 @@
   </group>
   <group>
     <variant frequency="1" name="1">
-      <mesh>structural/maya_protoclassic/cc_menor_1.dae</mesh>
+      <mesh>structural/mayas/cc_menor.dae</mesh>
       <textures>
         <texture file="structural/ao/mayap/cc_menor_1.png" name="aoTex"/>
       </textures>

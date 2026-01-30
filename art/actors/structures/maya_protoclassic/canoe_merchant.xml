@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant frequency="1" name="dock">
-      <mesh>structural/maya_protoclassic/canoe_merc.dae</mesh>
+      <mesh>structural/mayas/canoe_merc.dae</mesh>
       <props>
         <prop actor="units/maya_protoclassic/canoe_navigator.xml" attachpoint="c1"/>  
       </props>

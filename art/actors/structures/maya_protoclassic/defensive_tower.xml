@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base" file="structures/defensive_building.xml">
-      <mesh>structural/maya_protoclassic/defense_tower.dae</mesh>
+      <mesh>structural/mayas/defense_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
       </props>

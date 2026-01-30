@@ -7,11 +7,7 @@
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="props/special/eyecandy/stone_pile_red.xml" attachpoint="1" maxheight="-1" minheight="-20"/>
         <prop actor="props/special/eyecandy/wood_pile_1_c.xml" attachpoint="2" maxheight="-1" minheight="-20"/>
-        <!-- <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="3"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="4"/>
-        <prop actor="props/special/eyecandy/wood_pile_1_c.xml" attachpoint="5"/> -->
         <prop actor="props/special/eyecandy/wood_pile_1_c.xml" attachpoint="6" maxheight="-1" minheight="-20"/>
-        <!-- <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="7"/>                -->
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
@@ -22,9 +18,9 @@
   </group>
    <group>
     <variant frequency="1" name="1">
-      <mesh>structural/maya_protoclassic/storehouse_1_new.dae</mesh>
+      <mesh>structural/mayas/storehouse.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/maya_storehouse_new_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayap/maya_storehouse_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

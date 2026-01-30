@@ -15,10 +15,10 @@
   </group>
   <group>
     <variant frequency="1" name="plaza_1">
-      <mesh>structural/maya_protoclassic/plaza_e1.dae</mesh>
+      <mesh>structural/mayas/plaza_e1.dae</mesh>
     </variant>
     <variant frequency="1" name="plaza_2">
-      <mesh>structural/maya_protoclassic/plaza_e2.dae</mesh>
+      <mesh>structural/mayas/plaza_e2.dae</mesh>
     </variant>
   </group>
   <group>

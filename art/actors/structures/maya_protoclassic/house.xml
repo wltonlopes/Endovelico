@@ -2,36 +2,45 @@
 <actor version="1">
   <castshadow/>
   <group>
+    <variant frequency="100" name="roof_01">
+      <props>
+        <prop actor="props/structures/maya_protoclassic/roof_house_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="100" name="roof_02">
+      <props>
+        <prop actor="props/structures/maya_protoclassic/roof_house_02.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="1">
-      <mesh>structural/maya_protoclassic/house_1.dae</mesh>
+      <mesh>structural/mayas/house_01.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/house_1_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/house_01.png" name="aoTex"/>
       </textures>
     </variant>
       <variant frequency="1" name="2">
-      <mesh>structural/maya_protoclassic/house_2.dae</mesh>
+      <mesh>structural/mayas/house_02.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/house_2_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/house_02.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="3">
-      <mesh>structural/maya_protoclassic/house_3.dae</mesh>
+      <mesh>structural/mayas/house_03.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/house_3_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/house_03.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="4">
-      <mesh>structural/maya_protoclassic/house_4.dae</mesh>
+      <mesh>structural/mayas/house_04.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/house_4_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/house_04.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="100" name="Base">
-      <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
         <texture file="structural/maya_protoclassic_struct_norm.png" name="normTex"/>
@@ -49,5 +58,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

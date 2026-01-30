@@ -15,10 +15,10 @@
   </group>
    <group>
     <variant frequency="1" name="pyramid_1">
-      <mesh>structural/maya_protoclassic/piramide_tri_1.dae</mesh>
+      <mesh>structural/mayas/piramide_tri_1.dae</mesh>
     </variant>
       <variant frequency="1" name="pyramid_2">
-      <mesh>structural/maya_protoclassic/piramide_tri_2.dae</mesh>
+      <mesh>structural/mayas/piramide_tri_2.dae</mesh>
     </variant>
   </group>
   <group>

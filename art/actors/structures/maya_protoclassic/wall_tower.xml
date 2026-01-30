@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base" file="structures/defensive_building.xml">
-      <mesh>structural/maya_protoclassic/wall_tower.dae</mesh>
+      <mesh>structural/mayas/wall_tower.dae</mesh>
       <props>
       </props>
       <textures>
