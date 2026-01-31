@@ -6,21 +6,12 @@
       <mesh>structural/mayas/palace.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="props/structures/maya_protoclassic/palace_masks.xml" attachpoint="root" />
-        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st1"/>
-        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st2"/>
-        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st3"/>
-        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st4"/>
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s1" maxheight="10" minheight="-20"/>
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s2" maxheight="10" minheight="-20"/>
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s3" maxheight="10" minheight="-20"/>
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s4" maxheight="10" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
         <texture file="structural/maya_protoclassic_struct_norm.png" name="normTex"/>
         <texture file="structural/maya_protoclassic_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mayap/palacio.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/palace.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

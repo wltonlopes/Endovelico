@@ -4,11 +4,8 @@
   <group>
     <variant frequency="100" name="Base">
       <props>
-        <prop actor="props/structures/decals/celt_corral_mud.xml" attachpoint="root"/>
-        <prop actor="props/special/eyecandy/hay_small.xml" attachpoint="1" maxheight="-1" minheight="-20"/>
-        <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="2" maxheight="-1" minheight="-20"/>
-        <prop actor="props/special/eyecandy/basket_hele_a.xml" attachpoint="4" maxheight="-1" minheight="-20"/>
-        <prop actor="props/special/eyecandy/food_sack.xml" attachpoint="3" maxheight="-1" minheight="-20"/>          
+        <prop actor="props/structures/decals/celt_corral_mud.xml" attachpoint="root"/> 
+        <prop actor="props/structures/maya_protoclassic/roof_corral.xml" attachpoint="root"/>      
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
@@ -21,7 +18,7 @@
     <variant frequency="1" name="1">
       <mesh>structural/mayas/corral.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/corral_1.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/corral.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

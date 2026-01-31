@@ -6,14 +6,12 @@
       <mesh>structural/mayas/barracks.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
-        <prop actor="props/structures/maya_protoclassic/barracks_masks_2.xml" attachpoint="root" />
-        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="st_1"/>
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
         <texture file="structural/maya_protoclassic_struct_norm.png" name="normTex"/>
         <texture file="structural/maya_protoclassic_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mayap/barracks_2.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/barracks.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

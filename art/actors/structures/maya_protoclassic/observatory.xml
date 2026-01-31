@@ -5,7 +5,7 @@
     <variant frequency="1" name="observatory_1">
       <mesh>structural/mayas/observatory.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/observatorio_1.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/observatorio.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

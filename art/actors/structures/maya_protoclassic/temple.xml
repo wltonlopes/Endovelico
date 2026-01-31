@@ -19,7 +19,7 @@
     <variant frequency="1" name="1">
       <mesh>structural/mayas/temple.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/templomaior_1.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/temple.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
