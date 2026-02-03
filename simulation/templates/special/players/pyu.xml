@@ -7,7 +7,7 @@
     <Civ>pyu</Civ>
     <GenericName>Pyu</GenericName>
     <History>The Pyu city-states were a group of city-states that existed from about the 2nd century BCE to the mid-11th century in present-day Upper Myanmar. The city-states were founded as part of the southward migration by the Tibeto-Burman-speaking Pyu people, the earliest inhabitants of Burma of whom records are extant. The thousand-year period, often referred to as the Pyu millennium, linked the Bronze Age to the beginning of the classical states period when the Pagan Kingdom emerged in the late 9th century.</History>
-    <Icon>emblems/emblem_vyadh.png</Icon>
+    <Icon>emblems/pyu.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

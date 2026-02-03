@@ -7,7 +7,7 @@
     <Civ>malay</Civ>
     <GenericName>Malaydwipa</GenericName>
     <History>Indianized kingdoms in Malay Peninsula/Sumatra. Engaged in maritime spice trade by 200 BC. Adopted Sanskrit and Hinduism; early entrepôts like Langkasuka emerged. Supplied gold and forest products to India and China.</History>
-    <Icon>emblems/emblem_vyadh.png</Icon>
+    <Icon>emblems/pyu.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

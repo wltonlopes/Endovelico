@@ -5,8 +5,8 @@
     <variant frequency="100" name="Base">
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="particle/smoke_small_light.xml"  attachpoint="smoke_1"/>
-        <prop actor="particle/smoke_small_light.xml"  attachpoint="smoke_2"/>
+        <prop actor="particle/smoke_small_light.xml"  attachpoint="fire_01"/>
+        <prop actor="particle/smoke_small_light.xml"  attachpoint="fire_02"/>
       </props>
       <textures>
         <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>

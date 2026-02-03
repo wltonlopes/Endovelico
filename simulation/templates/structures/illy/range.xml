@@ -15,7 +15,7 @@
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/illyrians/range.xml</Actor>
+    <Actor>structures/illy/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
