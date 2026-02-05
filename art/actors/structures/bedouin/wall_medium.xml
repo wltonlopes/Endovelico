@@ -3,10 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Bedouin Wall Medium">
-      <mesh>structural/bedouin/wall_medium.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root" />
-      </props>
+      <mesh>structural/bedouin/wall_medium.dae</me
       <textures>
         <texture file="structural/bedo_struct.png" name="baseTex" />
         <texture file="structural/bedo_struct_spec.png" name="specTex" />

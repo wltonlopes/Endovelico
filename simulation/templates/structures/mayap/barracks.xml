@@ -28,7 +28,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/maya_protoclassic/barracks_2.xml</Actor>
+    <Actor>structures/maya_protoclassic/barracks_02.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
