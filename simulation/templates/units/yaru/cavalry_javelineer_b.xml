@@ -8,6 +8,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/lencas/infantry_archer_lenca_b.xml</Actor>
+    <Actor>units/lencas/hero_infantry_heavy_spearman.xml</Actor>
   </VisualActor>
 </Entity>

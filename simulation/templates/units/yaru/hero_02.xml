@@ -13,6 +13,6 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/lencas/infantry_champion_archer.xml</Actor>
+    <Actor>units/lencas/hero_infantry_blowgunner.xml</Actor>
   </VisualActor>
 </Entity>

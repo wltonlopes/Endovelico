@@ -17,7 +17,7 @@
     <variant frequency="1" name="1">
       <mesh>structural/mayas/stable.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/stable.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/stable.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

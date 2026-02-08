@@ -20,7 +20,6 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
       </props>
     </variant>
   </group>
@@ -36,5 +35,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>
