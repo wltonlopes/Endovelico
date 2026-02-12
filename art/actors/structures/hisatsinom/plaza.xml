@@ -6,6 +6,8 @@
       <mesh>structural/hisatsinom/plaza.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="root" />
+        <prop actor="particle/smoke_light.xml" attachpoint="root"/>   
       </props>
       <textures>
         <texture file="structural/hisat_struct.png" name="baseTex"/>

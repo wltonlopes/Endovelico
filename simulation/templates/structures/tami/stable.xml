@@ -3,11 +3,6 @@
   <Identity>
     <Civ>tami</Civ>
   </Identity>
-    <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/chariot_javelineer_b   
-    </Entities>
-  </Trainer>
   <VisualActor>
        <Actor>structures/tamiles/stable.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

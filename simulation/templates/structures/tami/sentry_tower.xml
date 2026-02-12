@@ -4,6 +4,6 @@
     <Civ>tami</Civ>
   </Identity>
   <VisualActor>
-       <Actor>structures/tamiles/sentry_tower.xml</Actor>
+       <Actor>structures/tamiles/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

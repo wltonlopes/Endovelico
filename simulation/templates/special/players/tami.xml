@@ -7,7 +7,7 @@
     <Civ>tami</Civ>
     <GenericName>Tamil</GenericName>
     <History>Sangam Age civilization in South India/Sri Lanka (300 BC–300 AD). Ruled by Chera, Chola, Pandya dynasties. Maritime traders with Rome (pepper, pearls). Produced classical Tamil literature; worshipped Murugan and practiced Jainism.</History>
-    <Icon>emblems/anuradhapura.png</Icon>
+    <Icon>emblems/tamil.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

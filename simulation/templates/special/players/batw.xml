@@ -7,7 +7,7 @@
     <Civ>batw</Civ>
     <GenericName>Batwa</GenericName>
     <History>Indigenous hunter-gatherers of Central Africa's rainforests (modern Rwanda/Uganda). Lived in small mobile bands, utilizing forest resources. Ancestral to Pygmy groups; avoided state formation. Traded honey/meat with Bantu farmers while maintaining cultural isolation.</History>
-    <Icon>emblems/emblem_yayo.png</Icon>
+    <Icon>emblems/batwa.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

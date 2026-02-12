@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/yawa/wall_tower</Tower>
-      <Gate>structures/yawa/wall_gate</Gate>
-      <WallLong>structures/yawa/wall_long</WallLong>
-      <WallMedium>structures/yawa/wall_medium</WallMedium>
-      <WallShort>structures/yawa/wall_short</WallShort>
+      <Tower>structures/tami/wall_tower</Tower>
+      <Gate>structures/tami/wall_gate</Gate>
+      <WallLong>structures/tami/wall_long</WallLong>
+      <WallMedium>structures/tami/wall_medium</WallMedium>
+      <WallShort>structures/tami/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>
