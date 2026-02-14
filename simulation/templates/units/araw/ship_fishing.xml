@@ -10,6 +10,6 @@
     <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe.xml</Actor>
+    <Actor>structures/arawaks/canoe.xml</Actor>
   </VisualActor>
 </Entity>

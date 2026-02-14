@@ -7,11 +7,7 @@
       <mesh>structural/arawaks/canoe_medium.dae</mesh>
       <props>
         <prop actor="units/maya_protoclassic/canoe_navigator.xml" attachpoint="01"/>  
-        <prop actor="structures/arawaks/prop_canoe_merchant.xml" attachpoint=""/>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
-        <prop actor="units/south_america/canoe_archer_fire.xml" attachpoint="02"/>  
-        <prop actor="units/south_america/canoe_archer_fire.xml" attachpoint="03"/>  
-        <prop actor="units/south_america/canoe_archer_fire.xml" attachpoint="04"/> 
+        <prop actor="structures/arawaks/prop_canoe_merchant.xml" attachpoint="02"/>
       </props>
       <textures>
         <texture file="props/arawaks_props.png" name="baseTex"/>

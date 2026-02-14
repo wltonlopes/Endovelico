@@ -10,6 +10,6 @@
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe_war.xml</Actor>
+    <Actor>structures/arawaks/canoe_scout.xml</Actor>
   </VisualActor>
 </Entity>
