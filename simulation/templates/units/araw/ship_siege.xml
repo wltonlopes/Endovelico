@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="canoe_warship|template_unit_ship_warship_siege">
+  <Identity>
+    <Civ>araw</Civ>
+    <SpecificName>Octērēs</SpecificName>
+    <Icon>units/ptol/ship_siege.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/arawaks/canoe_war_archer_fire.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship">
+  <Attack>
+    <Ranged>
+      <AttackName>Arrow</AttackName>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>5</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>25</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <Projectile>
+        <Speed>60</Speed>
+        <Spread>2</Spread>
+        <Gravity>50</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="2"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">
+        Ship
+        Human
+      </PreferredClasses>
+    </Ranged>
+  </Attack>
+  <GarrisonHolder>
+    <Max>3</Max>
+    <List datatype="tokens">Support Soldier</List>
+    <EjectHealth>0.5</EjectHealth>
+    <LoadingRange>10</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>150</Max>
+    <RegenRate>0</RegenRate>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Canoe</GenericName>
+    <SpecificName>Fishing Canoe</SpecificName>
+    <Classes datatype="tokens">Ship Civilian</Classes>
+    <VisibleClasses datatype="tokens">Ship Civilian</VisibleClasses>
+    <Icon>units/ship.png</Icon>
+    <Tooltip>Simple fishing vessel. Can carry up to 3 units.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>10</wood>
+    <food>5</food>
+  </Loot>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x512/cartouche.png</MainTexture>
+        <MainTextureMask>128x512/cartouche_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+    <Acceleration op="mul">1.5</Acceleration>
+    <PassabilityClass>ship</PassabilityClass>
+  </UnitMotion>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
+</Entity>

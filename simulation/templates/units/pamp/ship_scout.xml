@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_warship_scout">
+<Entity parent="canoe_warship|template_unit_ship_warship_scout">
   <Footprint>
     <Square width="8.0" depth="33.0" />
     <Height>10.0</Height>
@@ -10,6 +10,6 @@
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe_war.xml</Actor>
+    <Actor>structures/pampidos/canoe_scout.xml</Actor>
   </VisualActor>
 </Entity>

@@ -10,6 +10,6 @@
     <Icon>units/athen/fisher.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe.xml</Actor>
+    <Actor>structures/pampidos/canoe.xml</Actor>
   </VisualActor>
 </Entity>

@@ -11,6 +11,6 @@
     <Icon>units/south_america/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe_merchant.xml</Actor>
+    <Actor>structures/mapuches/canoe_merchant.xml</Actor>
   </VisualActor>
 </Entity>
