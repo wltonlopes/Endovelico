@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>ural</Civ>
-  <GenericName>Corral</GenericName>
   </Identity>
   <Obstruction>
     <Static width="8.0" depth="14.0"/>

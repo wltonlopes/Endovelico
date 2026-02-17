@@ -1,7 +1,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>ural</Civ>
-    <SpecificName>Tengrist Shaman</SpecificName>
+    <SpecificName>Shaman</SpecificName>
     <SelectionGroupName>units/ural/support_healer_b</SelectionGroupName>
     <Icon>units/scyth/support_healer.png</Icon>
   </Identity>

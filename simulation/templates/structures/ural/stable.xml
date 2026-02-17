@@ -3,13 +3,12 @@
   <Identity>
     <Civ>ural</Civ>
   </Identity>
-    <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/chariot_javelineer_b   
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/ural/stable.xml</Actor>
+    <Actor>structures/ural/stable_reindeer.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

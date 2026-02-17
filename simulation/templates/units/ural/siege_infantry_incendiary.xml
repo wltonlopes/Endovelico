@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_incendiary">
   <Identity>
-    <Civ>aden</Civ>
+    <Civ>ural</Civ>
     <Classes datatype="tokens">Siege</Classes>
     <GenericName>Fire Warrior</GenericName>
-    <SpecificName>Tilo'm Bate</SpecificName>
+    <SpecificName></SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-  <float/>
   <group>
-    <variant name="Chinese Fishing Ship">
-      <mesh>structural/ural/barracks.dae</mesh>
+    <variant frequency="1" name="Jomon Village">
+      <mesh>structural/ural/stable_reindeer.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

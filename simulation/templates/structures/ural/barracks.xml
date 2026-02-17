@@ -13,12 +13,6 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      peabiru
-    </Technologies>
-  </Researcher>
-
  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/cavalry_javelinist_b

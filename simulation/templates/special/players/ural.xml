@@ -7,7 +7,7 @@
     <Civ>ural</Civ>
     <GenericName>Uralics</GenericName>
     <History>The Uralic peoples are a group of indigenous populations in Northern Europe and Siberia, known for their linguistic diversity. They include Finns, Hungarians, and Samis, and traditionally practiced hunting, fishing, and reindeer herding in harsh climates.</History>
-    <Icon>emblems/emblem_yayo.png</Icon>
+    <Icon>emblems/uralics.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

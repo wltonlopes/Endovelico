@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>ural</Civ>
-    <SelectionGroupName>units/xion_cavalry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/ural/cavalry_archer_b</SelectionGroupName>
     <Icon>units/xion/cav_archer.png</Icon>
   </Identity>
   <Promotion>

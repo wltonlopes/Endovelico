@@ -27,7 +27,7 @@
   </Health>
   <Identity>
     <Civ>ural</Civ>
-    <GenericName>Xiongnu Woman</GenericName>
+    <GenericName>Uralic Woman</GenericName>
     <Icon>units/xion/support_citizen_female.png</Icon>
     <SelectionGroupName>units/ural/support_female_citizen</SelectionGroupName>
     <Phenotype>female</Phenotype>
