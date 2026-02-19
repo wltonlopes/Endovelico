@@ -29,7 +29,7 @@
             "Template": "structures/thra/civil_centre"
         },
         {
-            "Template": "units/thra/support_female_citizen",
+            "Template": "units/thra/support_civilian",
             "Count": 4
         },
         {

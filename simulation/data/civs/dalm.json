@@ -21,7 +21,7 @@
             "Template": "structures/dalm/civil_centre"
         },
         {
-            "Template": "units/dalm/support_female_citizen",
+            "Template": "units/dalm/support_civilian",
             "Count": 4
         },
         {

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Tu</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="24.0"/>
@@ -14,7 +14,6 @@
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      fishing_culture
     </Technologies>
   </Researcher>
   <VisualActor>

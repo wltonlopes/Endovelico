@@ -9,20 +9,12 @@
   </Health>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Miya</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24" depth="18"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      traditional_rituals
-    </Technologies>
-  </Researcher>
   <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/champion_infantry_bellringer
-    </Entities>
   </Trainer>
   <VisualActor>
     <Actor>structures/hisatsinom/temple.xml</Actor>

@@ -31,7 +31,7 @@
             "Template": "structures/arme/civil_centre"
         },
         {
-            "Template": "units/arme/support_female_citizen",
+            "Template": "units/arme/support_civilian",
             "Count": 4
         },
         {

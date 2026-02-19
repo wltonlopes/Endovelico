@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+
+  <Identity>
+    <Civ>pyu</Civ>
+    <SpecificName>Naari</SpecificName>
+    <GenericName>Indian Woman</GenericName>
+    <Icon>units/maur/support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/malaydwipa/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

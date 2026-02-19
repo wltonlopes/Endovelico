@@ -34,7 +34,7 @@
             "Template": "structures/vyadh/civil_centre"
         },
         {
-            "Template": "units/vyadh/support_female_citizen",
+            "Template": "units/vyadh/support_civilian",
             "Count": 4
         },
         {

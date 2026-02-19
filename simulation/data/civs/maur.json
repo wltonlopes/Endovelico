@@ -33,7 +33,7 @@
             "Template": "structures/maur/civil_centre"
         },
         {
-            "Template": "units/maur/support_female_citizen",
+            "Template": "units/maur/support_civilian",
             "Count": 4
         },
         {

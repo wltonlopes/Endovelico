@@ -34,7 +34,7 @@
             "Template": "structures/anura/civil_centre"
         },
         {
-            "Template": "units/anura/support_female_citizen",
+            "Template": "units/anura/support_civilian",
             "Count": 4
         },
         {

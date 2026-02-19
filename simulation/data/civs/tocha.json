@@ -35,7 +35,7 @@
 			"Template": "structures/tocha/civil_centre"
 		},
 		{
-			"Template":"units/tocha/support_female_citizen",
+			"Template":"units/tocha/support_civilian",
 			"Count":5
 		},
 		{

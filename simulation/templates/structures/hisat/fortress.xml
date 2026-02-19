@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Kï</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
@@ -15,11 +15,6 @@
     <Actor>structures/hisatsinom/fortress.xml</Actor>
   </VisualActor>
   <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/hero_himiko
-      units/{civ}/hero_keiko
-      units/{civ}/hero_wousu
-    </Entities>
   </Trainer>
   <WallPiece>
     <Length>23</Length>

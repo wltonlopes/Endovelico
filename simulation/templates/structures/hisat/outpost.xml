@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_outpost">
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Mipari</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <RallyPoint disable=""/>
   <VisualActor>

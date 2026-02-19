@@ -6,14 +6,13 @@
   </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Iti</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="28" depth="30"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      trade_copper_bells
     </Technologies>
   </Researcher>
   <VisualActor>

@@ -22,7 +22,7 @@
             "Template": "structures/swcr/civil_centre"
         },
         {
-            "Template": "units/swcr/support_female_citizen",
+            "Template": "units/swcr/support_civilian",
             "Count": 4
         },
         {
@@ -54,7 +54,7 @@
         "skirmish/units/default_cavalry": "units/swcr/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/swcr/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/swcr/infantry_archer_b",
-        "skirmish/units/special_starting_unit": "units/swcr/support_female_citizen",
+        "skirmish/units/special_starting_unit": "units/swcr/support_civilian",
         "skirmish/units/default_ship_trireme": "units/swcr/ship_bireme"
     },
     "SelectableInGameSetup": true

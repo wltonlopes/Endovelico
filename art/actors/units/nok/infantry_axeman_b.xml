@@ -9,7 +9,6 @@
         <prop actor="props/units/weapons/axe_double.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/kush_nubian_a.xml" attachpoint="shield"/>
         <prop actor="props/units/hairs/hair_nok_m.xml" attachpoint="head"/> 
-
       </props>
     </variant>
   </group>

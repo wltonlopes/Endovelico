@@ -47,7 +47,7 @@
 			"Template": "structures/macrob/civil_centre"
 		},
 		{
-			"Template":"units/macrob/support_female_citizen",
+			"Template":"units/macrob/support_civilian",
 			"Count":5
 		},
 		{

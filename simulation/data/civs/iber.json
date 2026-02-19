@@ -44,7 +44,7 @@
             "Template": "structures/iber/civil_centre"
         },
         {
-            "Template": "units/iber/support_female_citizen",
+            "Template": "units/iber/support_civilian",
             "Count": 4
         },
         {

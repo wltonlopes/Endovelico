@@ -42,7 +42,7 @@
             "Template": "structures/sao/civil_centre"
         },
         {
-            "Template": "units/sao/support_female_citizen",
+            "Template": "units/sao/support_civilian",
             "Count": 4
         },
         {

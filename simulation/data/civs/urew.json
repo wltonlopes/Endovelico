@@ -43,7 +43,7 @@
             "Template": "structures/urew/civil_centre"
         },
         {
-            "Template": "units/urew/support_female_citizen",
+            "Template": "units/urew/support_civilian",
             "Count": 4
         },
         {

@@ -22,7 +22,7 @@
             "Template": "structures/hongb/civil_centre"
         },
         {
-            "Template": "units/hongb/support_female_citizen",
+            "Template": "units/hongb/support_civilian",
             "Count": 4
         },
         {

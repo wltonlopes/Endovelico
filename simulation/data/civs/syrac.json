@@ -42,7 +42,7 @@
 			"Template": "structures/syrac/civil_centre"
 		},
 		{
-			"Template": "units/syrac/support_female_citizen",
+			"Template": "units/syrac/support_civilian",
 			"Count": 4
 		},
 		{

@@ -22,7 +22,7 @@
             "Template": "structures/guara/civil_centre"
         },
         {
-            "Template": "units/guara/support_female_citizen",
+            "Template": "units/guara/support_civilian",
             "Count": 4
         },
         {

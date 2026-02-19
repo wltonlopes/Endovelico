@@ -21,7 +21,7 @@
             "Template": "structures/batw/civil_centre"
         },
         {
-            "Template": "units/batw/support_female_citizen",
+            "Template": "units/batw/support_civilian",
             "Count": 4
         },
         {

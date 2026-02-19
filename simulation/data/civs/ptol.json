@@ -48,7 +48,7 @@
             "Template": "structures/ptol/civil_centre"
         },
         {
-            "Template": "units/ptol/support_female_citizen",
+            "Template": "units/ptol/support_civilian",
             "Count": 4
         },
         {

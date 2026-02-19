@@ -22,7 +22,7 @@
             "Template": "structures/gaet/civil_centre"
         },
         {
-            "Template": "units/gaet/support_female_citizen",
+            "Template": "units/gaet/support_civilian",
             "Count": 4
         },
         {

@@ -34,7 +34,7 @@
             "Template": "structures/pyu/civil_centre"
         },
         {
-            "Template": "units/pyu/support_female_citizen",
+            "Template": "units/pyu/support_civilian",
             "Count": 4
         },
         {

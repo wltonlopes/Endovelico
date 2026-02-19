@@ -22,7 +22,7 @@
             "Template": "structures/araw/civil_centre"
         },
         {
-            "Template": "units/araw/support_female_citizen",
+            "Template": "units/araw/support_civilian",
             "Count": 4
         },
         {
@@ -34,7 +34,7 @@
             "Count": 2
         },
         {
-            "Template": "units/araw/support_female_citizen",
+            "Template": "units/araw/support_civilian",
             "Count": 1
         },
         {
@@ -59,7 +59,7 @@
         "skirmish/units/default_cavalry": "units/araw/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/araw/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/araw/infantry_archer_b",
-        "skirmish/units/special_starting_unit": "units/araw/support_female_citizen",
+        "skirmish/units/special_starting_unit": "units/araw/support_civilian",
         "skirmish/units/default_ship_trireme": "units/araw/ship_bireme"
     },
     "SelectableInGameSetup": true

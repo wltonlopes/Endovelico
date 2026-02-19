@@ -38,7 +38,7 @@
             "Template": "structures/khoi/civil_centre"
         },
         {
-            "Template": "units/khoi/support_female_citizen",
+            "Template": "units/khoi/support_civilian",
             "Count": 4
         },
         {

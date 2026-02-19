@@ -22,7 +22,7 @@
             "Template": "structures/gojo/civil_centre"
         },
         {
-            "Template": "units/gojo/support_female_citizen",
+            "Template": "units/gojo/support_civilian",
             "Count": 4
         },
         {

@@ -41,7 +41,7 @@
             "Template": "structures/cart/civil_centre"
         },
         {
-            "Template": "units/cart/support_female_citizen",
+            "Template": "units/cart/support_civilian",
             "Count": 4
         },
         {

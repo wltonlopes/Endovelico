@@ -19,7 +19,7 @@
             "Template": "structures/yuez/civil_centre"
         },
         {
-            "Template": "units/yuez/support_female_citizen",
+            "Template": "units/yuez/support_civilian",
             "Count": 4
         },
         {
@@ -46,7 +46,7 @@
         "Lǎoshàng"
     ],
     "SkirmishReplacements": {
-        "skirmish/units/default_support_female_citizen": "units/yuez/support_female_citizen",
+        "skirmish/units/default_support_female_citizen": "units/yuez/support_civilian",
         "skirmish/units/default_cavalry": "units/yuez/camelry_scout",
         "skirmish/units/default_infantry_ranged_b": "units/yuez/infantry_archer_b",
         "skirmish/structures/default_corral": "structures/yuez/corral",

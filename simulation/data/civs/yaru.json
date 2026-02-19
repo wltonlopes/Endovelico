@@ -22,7 +22,7 @@
             "Template": "structures/yaru/civil_centre"
         },
         {
-            "Template": "units/yaru/support_female_citizen",
+            "Template": "units/yaru/support_civilian",
             "Count": 4
         },
         {

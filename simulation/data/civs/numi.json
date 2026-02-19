@@ -22,7 +22,7 @@
             "Template": "structures/numi/civil_centre"
         },
         {
-            "Template": "units/numi/support_female_citizen",
+            "Template": "units/numi/support_civilian",
             "Count": 4
         },
         {

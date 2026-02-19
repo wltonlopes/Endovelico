@@ -39,7 +39,7 @@
 			"Template": "structures/yawa/civil_centre"
 		},
 		{
-			"Template":"units/yawa/support_female_citizen",
+			"Template":"units/yawa/support_civilian",
 			"Count":5
 		},
 		{

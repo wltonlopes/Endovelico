@@ -20,7 +20,7 @@
             "Template": "structures/han/civil_centre"
         },
         {
-            "Template": "units/han/support_female_citizen",
+            "Template": "units/han/support_civilian",
             "Count": 4
         },
         {

@@ -107,7 +107,7 @@
             "Template": "structures/mayap/civil_centre"
         },
         {
-            "Template": "units/mayap/support_female_citizen",
+            "Template": "units/mayap/support_civilian",
             "Count": 4
         },
         {

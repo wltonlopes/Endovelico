@@ -22,7 +22,7 @@
             "Template": "structures/ural/civil_centre"
         },
         {
-            "Template": "units/ural/support_female_citizen",
+            "Template": "units/ural/support_civilian",
             "Count": 4
         },
         {

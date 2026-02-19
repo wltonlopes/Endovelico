@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Kanutiya</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

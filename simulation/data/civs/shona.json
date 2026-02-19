@@ -47,7 +47,7 @@
 			"Template": "structures/shona/civil_centre"
 		},
 		{
-			"Template":"units/shona/support_female_citizen",
+			"Template":"units/shona/support_civilian",
 			"Count":5
 		},
 		{

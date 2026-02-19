@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Illyrian Woman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/illy/support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/illyrians/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

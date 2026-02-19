@@ -39,7 +39,7 @@
 			"Template": "structures/tami/civil_centre"
 		},
 		{
-			"Template":"units/tami/support_female_citizen",
+			"Template":"units/tami/support_civilian",
 			"Count":5
 		},
 		{

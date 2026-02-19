@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/ural/support_civilian">
+  <Identity>
+    <Requirements>
+      <Techs datatype="tokens">unlock_civilians_house_kush</Techs>
+    </Requirements>
+  </Identity>
+</Entity>

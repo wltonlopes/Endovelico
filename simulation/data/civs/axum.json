@@ -94,7 +94,7 @@
             "Template": "structures/axum/civil_centre"
         },
         {
-            "Template": "units/axum/support_female_citizen",
+            "Template": "units/axum/support_civilian",
             "Count": 4
         },
         {

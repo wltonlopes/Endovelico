@@ -47,7 +47,7 @@
 			"Template": "structures/mande/civil_centre"
 		},
 		{
-			"Template":"units/mande/support_female_citizen",
+			"Template":"units/mande/support_civilian",
 			"Count":5
 		},
 		{

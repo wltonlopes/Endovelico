@@ -22,7 +22,7 @@
             "Template": "structures/arsa/civil_centre"
         },
         {
-            "Template": "units/arsa/support_female_citizen",
+            "Template": "units/arsa/support_civilian",
             "Count": 4
         },
         {
@@ -34,7 +34,7 @@
             "Count": 2
         },
         {
-            "Template": "units/arsa/support_female_citizen",
+            "Template": "units/arsa/support_civilian",
             "Count": 1
         },
         {
@@ -59,7 +59,7 @@
         "skirmish/units/default_cavalry": "units/arsa/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/arsa/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/arsa/infantry_archer_b",
-        "skirmish/units/special_starting_unit": "units/arsa/support_female_citizen",
+        "skirmish/units/special_starting_unit": "units/arsa/support_civilian",
         "skirmish/units/default_ship_trireme": "units/arsa/ship_bireme"
     },
     "SelectableInGameSetup": true

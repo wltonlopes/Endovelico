@@ -10,7 +10,7 @@
   </Health>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Takumiya</SpecificName> 
+    <SpecificName></SpecificName> 
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>

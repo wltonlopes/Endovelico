@@ -47,7 +47,7 @@
             "Template": "structures/epir/civil_centre"
         },
         {
-            "Template": "units/epir/support_female_citizen",
+            "Template": "units/epir/support_civilian",
             "Count": 4
         },
         {

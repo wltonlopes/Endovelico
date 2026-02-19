@@ -41,7 +41,7 @@
             "Template": "structures/mace/civil_centre"
         },
         {
-            "Template": "units/mace/support_female_citizen",
+            "Template": "units/mace/support_civilian",
             "Count": 4
         },
         {

@@ -50,7 +50,7 @@
             "Template": "structures/pers/civil_centre"
         },
         {
-            "Template": "units/pers/support_female_citizen",
+            "Template": "units/pers/support_civilian",
             "Count": 4
         },
         {

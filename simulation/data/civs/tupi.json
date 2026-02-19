@@ -22,7 +22,7 @@
             "Template": "structures/tupi/civil_centre"
         },
         {
-            "Template": "units/tupi/support_female_citizen",
+            "Template": "units/tupi/support_civilian",
             "Count": 4
         },
         {

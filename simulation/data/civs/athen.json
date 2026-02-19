@@ -40,7 +40,7 @@
             "Template": "structures/athen/civil_centre"
         },
         {
-            "Template": "units/athen/support_female_citizen",
+            "Template": "units/athen/support_civilian",
             "Count": 4
         },
         {

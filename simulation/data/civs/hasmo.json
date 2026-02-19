@@ -30,7 +30,7 @@
             "Template": "structures/hasmo/civil_centre"
         },
         {
-            "Template": "units/hasmo/support_female_citizen",
+            "Template": "units/hasmo/support_civilian",
             "Count": 4
         },
         {

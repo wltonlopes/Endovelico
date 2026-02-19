@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>liby</Civ>
+    <SpecificName/>
+    <GenericName>Libyan Woman</GenericName>
+    <Icon>units/gara/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/liby/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

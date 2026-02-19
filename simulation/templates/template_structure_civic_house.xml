@@ -65,7 +65,7 @@
   </TerritoryInfluence>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/support_female_citizen_house
+      units/{native}/support_civilian_house
       units/{civ}/infantry_scout
       units/{civ}/cavalry_scout
       units/{civ}/camelry_scout

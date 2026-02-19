@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Yagura</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="12"/>

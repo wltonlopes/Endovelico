@@ -22,7 +22,7 @@
             "Template": "structures/illy/civil_centre"
         },
         {
-            "Template": "units/illy/support_female_citizen",
+            "Template": "units/illy/support_civilian",
             "Count": 4
         },
         {

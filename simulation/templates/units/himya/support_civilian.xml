@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>himya</Civ>
+    <SpecificName>Naari</SpecificName>
+    <GenericName>Himyar Woman</GenericName>
+    <Icon>units/maur/support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/himyar/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

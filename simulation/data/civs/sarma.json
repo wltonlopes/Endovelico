@@ -42,7 +42,7 @@
             "Template": "structures/sarma/civil_centre"
         },
         {
-            "Template": "units/sarma/support_female_citizen",
+            "Template": "units/sarma/support_civilian",
             "Count": 4
         },
         {

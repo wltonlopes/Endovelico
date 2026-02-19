@@ -37,7 +37,7 @@
 			"Template": "structures/zapo/civil_centre"
 		},
 		{
-			"Template": "units/zapo/support_female_citizen",
+			"Template": "units/zapo/support_civilian",
 			"Count": 4
 		},
 		{

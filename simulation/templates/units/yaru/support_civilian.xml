@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>yaru</Civ>
+    <SpecificName></SpecificName>
+    <GenericName>Lenca Woman</GenericName>
+    <Icon>units/mesoamerican/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/maya_protoclassic/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/lencas/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

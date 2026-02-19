@@ -22,7 +22,7 @@
       "Template": "structures/bosf/civil_centre"
     },
     {
-      "Template": "units/bosf/support_female_citizen",
+      "Template": "units/bosf/support_civilian",
       "Count": 5
     },
     {

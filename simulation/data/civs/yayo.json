@@ -22,7 +22,7 @@
             "Template": "structures/yayo/civil_centre"
         },
         {
-            "Template": "units/yayo/support_female_citizen",
+            "Template": "units/yayo/support_civilian",
             "Count": 4
         },
         {

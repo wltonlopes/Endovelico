@@ -43,7 +43,7 @@
             "Template": "structures/kush/civil_centre"
         },
         {
-            "Template": "units/kush/support_female_citizen",
+            "Template": "units/kush/support_civilian",
             "Count": 4
         },
         {

@@ -1,0 +1,17 @@
+<Entity parent="template_unit_support_civilian">
+    <Builder>
+    <Entities datatype="tokens">
+      structures/moch/monument
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>tiwa</Civ>
+    <SpecificName></SpecificName>
+    <GenericName>Woman</GenericName>
+    <Icon>units/moch/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/tiwa/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/tiwanaku/citizen_female.xml</Actor>
+  </VisualActor>
+</Entity>

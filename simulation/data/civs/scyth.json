@@ -42,7 +42,7 @@
             "Template": "structures/scyth/civil_centre"
         },
         {
-            "Template": "units/scyth/support_female_citizen",
+            "Template": "units/scyth/support_civilian",
             "Count": 4
         },
         {

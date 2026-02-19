@@ -49,7 +49,7 @@
             "Template": "structures/spart/civil_centre"
         },
         {
-            "Template": "units/spart/support_female_citizen",
+            "Template": "units/spart/support_civilian",
             "Count": 4
         },
         {

@@ -37,7 +37,7 @@
             "Template": "structures/sele/civil_centre"
         },
         {
-            "Template": "units/sele/support_female_citizen",
+            "Template": "units/sele/support_civilian",
             "Count": 4
         },
         {
