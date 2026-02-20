@@ -10,6 +10,6 @@
     <Icon>units/sueb/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/germans/siege_ram.xml</Actor>
+    <Actor>structures/suebians/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

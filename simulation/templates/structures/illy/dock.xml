@@ -20,7 +20,6 @@
       units/{civ}/infantry_archer_merc
     </Entities>
   </Trainer>
-  
   <VisualActor>
     <Actor>structures/illy/dock.xml</Actor>
     <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>

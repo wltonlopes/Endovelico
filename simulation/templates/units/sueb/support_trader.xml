@@ -6,6 +6,6 @@
     <Icon>units/celt/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/germans/trader.xml</Actor>
+    <Actor>units/suebians/trader.xml</Actor>
   </VisualActor>
 </Entity>

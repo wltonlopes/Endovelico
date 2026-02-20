@@ -7,6 +7,6 @@
     <Entity>units/sueb/support_healer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/germans/healer_a.xml</Actor>
+    <Actor>units/suebians/healer_a.xml</Actor>
   </VisualActor>
 </Entity>

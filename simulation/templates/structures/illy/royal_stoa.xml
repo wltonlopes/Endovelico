@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_stoa">
+  <Identity>
+    <Civ>illy</Civ>
+    <SpecificName>Stoa</SpecificName>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_infantry_axe
+      units/{civ}/champion_infantry_spearman
+      units/{civ}/champion_infantry_swordsman
+      units/{civ}/champion_infantry_javalineer
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>special/greek_stoa_great.xml</Actor>
+  </VisualActor>
+</Entity>

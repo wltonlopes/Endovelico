@@ -17,7 +17,7 @@
   <Identity>
     <Civ>himya</Civ>
     <GenericName>Palace</GenericName>
-    <SpecificName>Otooch</SpecificName>
+    <SpecificName></SpecificName>
     <Tooltip>Territory root. Train Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
