@@ -35,6 +35,12 @@
         <texture file="structural/ao/batw/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
+      <variant frequency="1" name="House 04">
+      <mesh>structural/batwa/house_04.dae</mesh>
+      <textures>
+        <texture file="structural/ao/batw/house_04_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
