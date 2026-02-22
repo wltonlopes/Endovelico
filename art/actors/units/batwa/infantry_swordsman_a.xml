@@ -6,9 +6,8 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/arabs/helmet_arab_a.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/shield_round_iron.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/kush_nubian_hex_b.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -39,7 +38,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_shield_ready.xml"/>
+    <variant file="biped/base_swordsman_shield_relax.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>

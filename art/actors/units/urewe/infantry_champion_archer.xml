@@ -9,29 +9,28 @@
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/helmets/batwa/helmet_champ.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="c_01">
       <textures>
-        <texture file="skeletal/batwa/c_01.png" name="baseTex"/>
+        <texture file="skeletal/urewe/c_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c_02">
       <textures>
-        <texture file="skeletal/batwa/c_02.png" name="baseTex"/>
+        <texture file="skeletal/urewe/c_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c_03">
       <textures>
-        <texture file="skeletal/batwa/c_03.png" name="baseTex"/>
+        <texture file="skeletal/urewe/c_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c_04">
       <textures>
-        <texture file="skeletal/batwa/c_04.png" name="baseTex"/>
+        <texture file="skeletal/urewe/c_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

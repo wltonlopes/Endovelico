@@ -2,13 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="3" name="Helmet">
+    <variant frequency="1" name="Helmet">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
-               
         <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/kush_nubian_hex_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/kush_nubian_thureos.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -17,24 +16,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="im_03_01">
+    <variant frequency="1" name="robes_04_01">
       <textures>
-        <texture file="skeletal/batwa/i_03_01.png" name="baseTex"/>
+        <texture file="skeletal/urewe/i_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_03_02">
+    <variant frequency="1" name="im_01_02">
       <textures>
-        <texture file="skeletal/batwa/i_03_02.png" name="baseTex"/>
+        <texture file="skeletal/urewe/i_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_03_03">
+    <variant frequency="1" name="im_01_03">
       <textures>
-        <texture file="skeletal/batwa/i_03_03.png" name="baseTex"/>
+        <texture file="skeletal/urewe/i_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_03_04">
+    <variant frequency="1" name="im_01_04">
       <textures>
-        <texture file="skeletal/batwa/i_03_04.png" name="baseTex"/>
+        <texture file="skeletal/urewe/i_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
