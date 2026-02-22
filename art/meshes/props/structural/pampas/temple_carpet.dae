@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.5 LTS commit date:2025-11-17, commit time:16:03, hash:836beaaf597a</authoring_tool>
+    </contributor>
+    <created>2026-01-15T08:14:21</created>
+    <modified>2026-01-15T08:14:21</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Pamp_Temple_Carpet-mesh" name="Pamp Temple Carpet">
+      <mesh>
+        <source id="Pamp_Temple_Carpet-mesh-positions">
+          <float_array id="Pamp_Temple_Carpet-mesh-positions-array" count="48">5.019288 -5.531153 0.3392128 4.343735 -7.653137 0.3392128 5.019288 -5.531153 0.09327369 0.8200318 -4.194284 0.3392128 0.8200318 -4.194284 0.09327369 0.1444787 -6.316268 0.3392128 0.1444787 -6.316268 0.09327369 4.343735 -7.653137 0.09327369 -0.619553 -4.306064 0.3392128 -0.07596123 -6.465626 0.3392128 -0.619553 -4.306064 0.09327369 -4.893164 -5.381802 0.3392128 -4.893164 -5.381802 0.09327369 -4.349573 -7.541354 0.09327369 -0.07596123 -6.465626 0.09327369 -4.349573 -7.541354 0.3392128</float_array>
+          <technique_common>
+            <accessor source="#Pamp_Temple_Carpet-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pamp_Temple_Carpet-mesh-normals">
+          <float_array id="Pamp_Temple_Carpet-mesh-normals-array" count="72">0 0 1 0.9528771 -0.3033568 0 0.3033565 0.9528771 0 0 0 1 0.3033565 0.9528771 0 -0.3033565 -0.9528771 0 -0.952877 0.3033571 0 -0.3033565 -0.9528771 0 0 0 -1 0.9528771 -0.3033568 0 0 0 -1 -0.952877 0.3033571 0 0 0 1 0.9697502 0.2440995 0 -0.2441018 0.9697496 0 -0.2441018 0.9697496 0 0 0 -1 -0.9697499 -0.2441003 0 0 0 -1 0.9697502 0.2440995 0 0.2440996 -0.9697502 0 0.2440996 -0.9697502 0 0 0 1 -0.9697499 -0.2441003 0</float_array>
+          <technique_common>
+            <accessor source="#Pamp_Temple_Carpet-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pamp_Temple_Carpet-mesh-map-0">
+          <float_array id="Pamp_Temple_Carpet-mesh-map-0-array" count="144">0.8415728 0.4475253 0.8412184 0.2137633 0.7846546 0.213863 0.8180909 0.3654893 0.8184427 0.3028838 0.826939 0.3024251 0.8180766 0.3637623 0.8266646 0.3033422 0.8182804 0.3026772 0.8415728 0.4475253 0.7846546 0.213863 0.7850092 0.4476252 0.8180766 0.3637623 0.8264611 0.3644272 0.8266646 0.3033422 0.8265871 0.3650306 0.826939 0.3024251 0.8186194 0.3018662 0.818268 0.3644713 0.8186194 0.3018662 0.8273747 0.3014088 0.8265871 0.3650306 0.8186194 0.3018662 0.818268 0.3644713 0.818268 0.3644713 0.8264578 0.3016693 0.8177027 0.302127 0.8180909 0.3654893 0.826939 0.3024251 0.8265871 0.3650306 0.818268 0.3644713 0.827023 0.3640139 0.8264578 0.3016693 0.818268 0.3644713 0.8273747 0.3014088 0.827023 0.3640139 0.8412184 0.2137633 0.7846546 0.213863 0.7850092 0.4476252 0.8180909 0.3654893 0.8184427 0.3028838 0.826939 0.3024251 0.8180766 0.3637623 0.8266646 0.3033422 0.8182804 0.3026772 0.8180766 0.3637623 0.8264611 0.3644272 0.8266646 0.3033422 0.8177027 0.302127 0.818268 0.3644713 0.827023 0.3640139 0.818268 0.3644713 0.8273747 0.3014088 0.827023 0.3640139 0.8177027 0.302127 0.827023 0.3640139 0.8264578 0.3016693 0.8180909 0.3654893 0.826939 0.3024251 0.8265871 0.3650306 0.8265871 0.3650306 0.826939 0.3024251 0.8186194 0.3018662 0.8265871 0.3650306 0.8186194 0.3018662 0.818268 0.3644713 0.8412184 0.2137633 0.7850092 0.4476252 0.8415728 0.4475253 0.818268 0.3644713 0.8186194 0.3018662 0.8273747 0.3014088</float_array>
+          <technique_common>
+            <accessor source="#Pamp_Temple_Carpet-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pamp_Temple_Carpet-mesh-map-1">
+          <float_array id="Pamp_Temple_Carpet-mesh-map-1-array" count="144">0.0190255 0.5162907 0.0190255 0.554552 0 0.5545605 0.7382012 0.6896905 0.7360994 0.6896591 0.7360994 0.6723026 0.6988899 0.2902075 0.6967871 0.2562322 0.6988899 0.2562465 0.0190255 0.5162907 0 0.5545605 0 0.5162992 0.6988899 0.2902075 0.6967871 0.2901932 0.6967871 0.2562322 0.2873254 0.6520155 0.2894242 0.6519733 0.2894242 0.6883015 0.734918 0.5687303 0.7370195 0.5687018 0.7370195 0.58672 0.2873254 0.6520155 0.2894242 0.6883015 0.2873254 0.6883437 0.1273952 0.4860352 0.146436 0.5242923 0.1273952 0.5242878 0.7382012 0.6896905 0.7360994 0.6723026 0.7382012 0.672334 0.1273952 0.4860352 0.146436 0.4860398 0.146436 0.5242923 0.734918 0.5687303 0.7370195 0.58672 0.734918 0.5867485 0.4821673 0.4878488 0.5011932 0.4878587 0.5011932 0.5261192 0.7343187 0.4334653 0.7364207 0.4334591 0.7364207 0.4527015 0.6040706 0.09146606 0.6061733 0.1296171 0.6040706 0.1296192 0.6040706 0.09146606 0.6061733 0.09146398 0.6061733 0.1296171 0.09239053 0.524106 0.09239053 0.4858471 0.111428 0.4858532 0.7365512 0.4037584 0.7344495 0.384733 0.7365512 0.3847466 0.09239053 0.524106 0.111428 0.4858532 0.1114281 0.5241123 0.7343187 0.4334653 0.7364207 0.4527015 0.7343187 0.4527078 0.6769595 0.3674227 0.6748605 0.3673923 0.6748605 0.3301748 0.6769595 0.3674227 0.6748605 0.3301748 0.6769595 0.3302053 0.4821673 0.4878488 0.5011932 0.5261192 0.4821674 0.5261092 0.7365512 0.4037584 0.7344495 0.4037448 0.7344495 0.384733</float_array>
+          <technique_common>
+            <accessor source="#Pamp_Temple_Carpet-mesh-map-1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Pamp_Temple_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Pamp_Temple_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="24">
+          <input semantic="VERTEX" source="#Pamp_Temple_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Pamp_Temple_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Pamp_Temple_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Pamp_Temple_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>5 0 0 1 0 1 0 0 2 2 1 3 0 1 4 1 1 5 4 2 6 0 2 7 2 2 8 5 3 9 0 3 10 3 3 11 4 4 12 3 4 13 0 4 14 7 5 15 1 5 16 5 5 17 6 6 18 5 6 19 3 6 20 7 7 21 5 7 22 6 7 23 6 8 24 2 8 25 7 8 26 2 9 27 1 9 28 7 9 29 6 10 30 4 10 31 2 10 32 6 11 33 3 11 34 4 11 35 9 12 36 8 12 37 11 12 38 10 13 39 8 13 40 9 13 41 12 14 42 8 14 43 10 14 44 12 15 45 11 15 46 8 15 47 14 16 48 13 16 49 12 16 50 13 17 51 11 17 52 12 17 53 14 18 54 12 18 55 10 18 56 10 19 57 9 19 58 14 19 59 14 20 60 9 20 61 15 20 62 14 21 63 15 21 64 13 21 65 9 22 66 11 22 67 15 22 68 13 23 69 15 23 70 11 23 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="pamp_temple_carpet" name="pamp_temple_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Pamp_Temple_Carpet-mesh" name="pamp_temple_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

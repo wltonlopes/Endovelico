@@ -16,6 +16,6 @@
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/pampidos/scout_tower.xml</Actor>
+    <Actor>structures/pampas/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,6 +5,6 @@
     <SpecificName>Pr-ỉwn n ms</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/vyadhapura/arsenal.xml</Actor>
+    <Actor>structures/vyadhapurans/arsenal.xml</Actor>
   </VisualActor>
 </Entity>

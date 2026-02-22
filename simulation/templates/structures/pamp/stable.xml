@@ -6,7 +6,7 @@
     <SpecificName>1</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/pampidos/special.xml</Actor>
+    <Actor>structures/pampas/special.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

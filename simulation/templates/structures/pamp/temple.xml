@@ -27,7 +27,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/pampidos/temple.xml</Actor>
+    <Actor>structures/pampas/temple.xml</Actor>
     <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

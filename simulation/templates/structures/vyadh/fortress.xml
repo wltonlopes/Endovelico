@@ -18,7 +18,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/vyadhapura/fortress.xml</Actor>
+    <Actor>structures/vyadhapurans/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

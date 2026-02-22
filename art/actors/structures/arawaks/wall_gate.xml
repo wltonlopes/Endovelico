@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Arawaks Wall Gate">
       <mesh>structural/gate_and_towers.dae</mesh>
       <props>
-        <prop actor="structures/adena/wall_gate.xml" attachpoint="root"/>
+        <prop actor="props/special/native_wall_gate.xml" attachpoint="root"/>
         <prop actor="structures/arawaks/wall_tower.xml" attachpoint="tower_01"/>
         <prop actor="structures/arawaks/wall_tower.xml" attachpoint="tower_02"/>
       </props>

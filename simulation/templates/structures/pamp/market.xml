@@ -17,6 +17,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/pampidos/market.xml</Actor>
+    <Actor>structures/pampas/market.xml</Actor>
   </VisualActor>
 </Entity>

@@ -9,12 +9,13 @@
     <SpecificName>Pyrgíon</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="7.0" depth="8.0"/>
+    <Static width="9.5" depth="10.0"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/vyadhapura/defense_tower.xml</Actor>
+    <Actor>structures/vyadhapurans/defense_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

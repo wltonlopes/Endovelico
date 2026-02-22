@@ -12,6 +12,7 @@
     <Icon>units/yayo/champion_infantry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
+        -phase_city
         unlock_champion_infantry
       </Techs>
     </Requirements>

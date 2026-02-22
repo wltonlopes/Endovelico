@@ -5,6 +5,6 @@
     <SpecificName>Khalkeṓn</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/vyadhapura/blacksmith.xml</Actor>
+    <Actor>structures/vyadhapurans/forge.xml</Actor>
   </VisualActor>
 </Entity>

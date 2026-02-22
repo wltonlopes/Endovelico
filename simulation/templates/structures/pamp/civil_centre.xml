@@ -18,6 +18,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/pampidos/civic_center.xml</Actor>
+    <Actor>structures/pampas/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

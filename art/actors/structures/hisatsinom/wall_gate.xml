@@ -5,7 +5,7 @@
     <variant frequency="1" name="base">
       <mesh>structural/gate_and_towers.dae</mesh>
       <props>
-        <prop actor="structures/adena/wall_gate.xml" attachpoint="root"/>
+        <prop actor="props/special/native_wall_gate.xml" attachpoint="root"/>
         <prop actor="structures/hisatsinom/wall_tower.xml" attachpoint="tower_01"/>
         <prop actor="structures/hisatsinom/wall_tower.xml" attachpoint="tower_02"/>
       </props>

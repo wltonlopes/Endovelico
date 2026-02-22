@@ -10,6 +10,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/pampidos/forge.xml</Actor>
+    <Actor>structures/pampas/forge.xml</Actor>
   </VisualActor>
 </Entity>

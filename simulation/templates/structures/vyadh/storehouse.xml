@@ -11,6 +11,6 @@
     <Static width="13.0" depth="14.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/vyadhapura/storehouse.xml</Actor>
+    <Actor>structures/vyadhapurans/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

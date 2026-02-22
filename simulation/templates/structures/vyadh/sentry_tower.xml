@@ -4,6 +4,7 @@
     <Civ>vyadh</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/vyadhapura/sentry_tower.xml</Actor>
+    <Actor>structures/vyadhapurans/sentry_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

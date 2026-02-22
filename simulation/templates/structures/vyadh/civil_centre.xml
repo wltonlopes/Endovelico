@@ -3,10 +3,17 @@
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
   </Health>
+  <Footprint>
+    <Square depth="28.0" width="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
   <Identity>
     <Civ>vyadh</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
+  <Obstruction>
+    <Static depth="27.5" width="27.5"/>
+  </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_javelineer_b
@@ -15,6 +22,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/vyadhapura/civic_center.xml</Actor>
+    <Actor>structures/vyadhapurans/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

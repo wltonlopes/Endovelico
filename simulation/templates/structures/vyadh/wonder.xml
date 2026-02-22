@@ -10,6 +10,6 @@
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/vyadhapura/wonder.xml</Actor>
+    <Actor>structures/vyadhapurans/wonder.xml</Actor>
   </VisualActor>
 </Entity>
