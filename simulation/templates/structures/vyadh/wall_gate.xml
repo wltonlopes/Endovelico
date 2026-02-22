@@ -22,42 +22,42 @@
     <TurretPoints>
       <One>
         <X>1.5</X>
-        <Y>15.5</Y>
+        <Y>13.8</Y>
         <Z>0</Z>
       </One>
       <Two>
         <X>-1.5</X>
-        <Y>15.5</Y>
+        <Y>13.8</Y>
         <Z>0</Z>
       </Two>
       <Three>
         <X>4.5</X>
-        <Y>15.5</Y>
+        <Y>13.8</Y>
         <Z>0</Z>
       </Three>
       <Four>
         <X>-4.5</X>
-        <Y>15.5</Y>
+        <Y>13.8</Y>
         <Z>0</Z>
       </Four>
       <Five>
         <X>7.5</X>
-        <Y>15.5</Y>
+        <Y>13.8</Y>
         <Z>0</Z>
       </Five>
       <Six>
         <X>-7.5</X>
-        <Y>15.5</Y>
+        <Y>13.8</Y>
         <Z>0</Z>
       </Six>
       <Seven>
         <X>10.5</X>
-        <Y>15.5</Y>
+        <Y>13.8</Y>
         <Z>0</Z>
       </Seven>
       <Eight>
         <X>-10.5</X>
-        <Y>15.5</Y>
+        <Y>13.8</Y>
         <Z>0</Z>
       </Eight>
     </TurretPoints>

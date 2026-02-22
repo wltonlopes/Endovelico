@@ -7,7 +7,6 @@
 			round_coordinates="false"
 		/>
 	</sprite>
-
 	<sprite name="background-bkg_01-2">
 		<image
 			texture="pregame/backgrounds/bkg_01_2.png"

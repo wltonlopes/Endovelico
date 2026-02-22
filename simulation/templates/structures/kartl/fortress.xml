@@ -11,7 +11,7 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/kartli/fortress.xml</Actor>
+    <Actor>structures/kartlians/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>16.8</Length>

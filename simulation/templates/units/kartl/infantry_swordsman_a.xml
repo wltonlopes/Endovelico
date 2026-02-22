@@ -7,6 +7,6 @@
     <Entity>units/kartl/infantry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/kartli/infantry_swordsman_a.xml</Actor>
+    <Actor>units/kartlians/infantry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

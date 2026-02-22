@@ -2,15 +2,15 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Defense_Tower" file="structures/defensive_building.xml">
-      <mesh>structural/kartli/stone_tower.dae</mesh>
+    <variant frequency="1" name="base">
+      <mesh>structural/kartlians/farmstead.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/kartl_struct.png" name="baseTex"/>
-        <texture file="structural/kartl_struct_spec.png" name="specTex"/>
-        <texture file="structural/kartl_struct_norm.png" name="normTex"/>
+        <texture file="structural/kartl/struct.png" name="baseTex"/>
+        <texture file="structural/kartl/struct_spec.png" name="specTex"/>
+        <texture file="structural/kartl/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
       </textures>
     </variant>

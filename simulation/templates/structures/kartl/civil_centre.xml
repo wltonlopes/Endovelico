@@ -14,6 +14,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/kartli/civic_center.xml</Actor>
+    <Actor>structures/kartlians/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

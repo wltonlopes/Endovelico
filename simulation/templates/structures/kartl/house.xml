@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/kartli/house.xml</Actor>
+    <Actor>structures/kartlians/house.xml</Actor>
   </VisualActor>
 </Entity>

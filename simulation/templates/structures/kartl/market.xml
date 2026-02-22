@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/kartli/market.xml</Actor>
+    <Actor>structures/kartlians/market.xml</Actor>
   </VisualActor>
 </Entity>

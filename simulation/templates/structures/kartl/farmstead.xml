@@ -11,6 +11,6 @@
     <Static width="17.0" depth="16.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/kartli/farmstead.xml</Actor>
+    <Actor>structures/kartlians/farmstead.xml</Actor>
   </VisualActor>
 </Entity>

@@ -10,7 +10,7 @@
   	</Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/kartli/stable.xml</Actor>
+    <Actor>structures/kartlians/stable.xml</Actor>
     <FoundationActor>structures/fndn_7x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

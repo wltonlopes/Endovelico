@@ -11,6 +11,6 @@
     <Static width="13.0" depth="15.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/kartli/storehouse.xml</Actor>
+    <Actor>structures/kartlians/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

@@ -15,7 +15,7 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/kartli/barracks.xml</Actor>
+    <Actor>structures/kartlians/barracks.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
