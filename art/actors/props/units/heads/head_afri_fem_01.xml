@@ -8,6 +8,7 @@
   </group>
   <group>
     <variant frequency="1" name="texture a">
+     <props><prop actor="props/units/hairs/hair_afro.xml" attachpoint="root"/></props>
       <textures><texture file="props/head/head_female_01.png" name="baseTex"/></textures>
     </variant>
 	 <variant frequency="1" name="texture b">
