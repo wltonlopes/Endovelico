@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_archer">
+  <Identity>
+    <Civ>urew</Civ>
+    <SpecificName></SpecificName>
+	<Phenotype>female</Phenotype>
+    <Icon>units/scyth/hero_tomyris.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/urewe/hero_javelinist_m.xml</Actor>
+  </VisualActor>
+</Entity>

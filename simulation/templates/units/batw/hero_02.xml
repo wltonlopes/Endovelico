@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+    <Civ>batw</Civ>
+    <GenericName></GenericName>
+    <SpecificName></SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/batw/hero_night_king</SelectionGroupName>
+    <Icon>units/zapo/hero_night_king.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/batwa/hero_infantry_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

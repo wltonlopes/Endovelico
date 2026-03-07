@@ -25,6 +25,6 @@
   </StatusBars>
   <VisualActor>
   
-    <Actor>units/sao/infantry_axeman_b.xml</Actor>
+    <Actor>units/batwa/infantry_axeman_b.xml</Actor>
   </VisualActor>
 </Entity>

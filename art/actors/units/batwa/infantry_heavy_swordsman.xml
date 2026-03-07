@@ -2,12 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
+    <variant frequency="3" name="Helmet">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/arab_thureos_c.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear_ball.xml" attachpoint="weapon_R"/>
+               
+        <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/kush_nubian_hex_b.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -16,27 +17,34 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="03">
+    <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/urewe/hero_03.png" name="baseTex"/>
+        <texture file="skeletal/batwa/h_i_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="02">
+      <textures>
+        <texture file="skeletal/batwa/h_i_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="03">
+      <textures>
+        <texture file="skeletal/batwa/h_i_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="100" name="04">
+      <textures>
+        <texture file="skeletal/batwa/h_i_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_relax.xml"/>
+    <variant file="biped/base_swordsman_shield_relax.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
-    <variant file="biped/approach_tree.xml"/>
-    <variant file="biped/approach_grain.xml"/>
-    <variant file="biped/approach_fruit.xml"/>
-    <variant file="biped/approach_meat.xml"/>
-    <variant file="biped/approach_rock.xml"/>
-    <variant file="biped/approach_ore.xml"/>
-    <variant file="biped/approach_ruins.xml"/>
-    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
@@ -52,7 +60,8 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/death_infantry.xml">
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

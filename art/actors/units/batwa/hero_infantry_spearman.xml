@@ -6,8 +6,9 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/arab_thureos_c.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear_ball.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/batwa/helmet_hero_01.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/kush_nubian_hex_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -18,7 +19,7 @@
   <group>
     <variant frequency="1" name="03">
       <textures>
-        <texture file="skeletal/batwa/hero_03.png" name="baseTex"/>
+        <texture file="skeletal/batwa/hero_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

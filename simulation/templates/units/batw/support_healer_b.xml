@@ -11,6 +11,6 @@
     <Entity>units/batw/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/kushites/healer.xml</Actor>
+    <Actor>units/batwa/healer.xml</Actor>
   </VisualActor>
 </Entity>
