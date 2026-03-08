@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/paiute/helmet_rabbit.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/spear_lenca.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/spear_stone.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>

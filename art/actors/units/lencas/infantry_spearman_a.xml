@@ -5,7 +5,7 @@
     <variant file="biped/base_spearman_relax.xml">
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spear_lenca.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/spear_stone.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/lencas/feather_lenca_01.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/mesoam_oval.xml" attachpoint="shield"/>
