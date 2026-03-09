@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_archer">
+<Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>shona</Civ>
-    <GenericName>w</GenericName>
+    <GenericName></GenericName>
     <SpecificName></SpecificName>
       <Icon>structures/sentry_tower.png</Icon>
   </Identity>

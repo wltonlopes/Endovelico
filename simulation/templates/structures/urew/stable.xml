@@ -7,7 +7,7 @@
   <Identity>
     <Civ>urew</Civ>
     <GenericName>Shrine</GenericName>
-    <SpecificName>Durosinsin</SpecificName>
+    <SpecificName></SpecificName>
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
   <Obstruction>
@@ -15,7 +15,8 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_elephant
+      units/{civ}/cavalry_scout_melee
+      units/{civ}/cavalry_scout
     </Entities>
   </Trainer>
   <VisualActor>

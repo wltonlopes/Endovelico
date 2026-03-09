@@ -17,39 +17,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="scale-2a">
+    <variant frequency="1" name="ir_01_01">
       <textures>
-        <texture file="skeletal/pers/scale_02_01.png" name="baseTex"/>
+        <texture file="skeletal/urewe/i_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-2b">
+    <variant frequency="1" name="ir_01_02">
       <textures>
-        <texture file="skeletal/pers/scale_02_02.png" name="baseTex"/>
+        <texture file="skeletal/urewe/i_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-2c">
+    <variant frequency="1" name="ir_01_03">
       <textures>
-        <texture file="skeletal/pers/scale_02_03.png" name="baseTex"/>
+        <texture file="skeletal/urewe/i_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="scale-2d">
+    <variant frequency="1" name="ir_01_04">
       <textures>
-        <texture file="skeletal/pers/scale_02_04.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="scale-2e">
-      <textures>
-        <texture file="skeletal/pers/scale_02_05.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="scale-2f">
-      <textures>
-        <texture file="skeletal/pers/scale_02_06.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="scale-2g">
-      <textures>
-        <texture file="skeletal/pers/scale_02_07.png" name="baseTex"/>
+        <texture file="skeletal/urewe/i_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

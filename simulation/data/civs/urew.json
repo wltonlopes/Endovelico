@@ -55,10 +55,6 @@
             "Count": 2
         },
         {
-            "Template": "units/urew/cavalry_javelineer_b",
-            "Count": 1
-        },
-        {
             "Template": "gaia/fauna_cattle_cow_trainable",
             "Count": 1
         },

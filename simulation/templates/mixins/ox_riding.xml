@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Entity>
+  <Identity>
+    <VisibleClasses datatype="tokens">OxRiding</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/cattle_select.xml</select>
+      <order_walk>actor/fauna/animal/cattle_order.xml</order_walk>
+      <death>actor/fauna/animal/cattle_death.xml</death>
+      <trained>actor/fauna/animal/cattle_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.5</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.8</WalkSpeed>
+    <RunMultiplier>1.1</RunMultiplier>
+    <Acceleration op="mul">0.8</Acceleration>
+  </UnitMotion>
+</Entity>

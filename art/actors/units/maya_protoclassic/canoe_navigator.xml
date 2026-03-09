@@ -10,7 +10,7 @@
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_maya_basic.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/maya_oar.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/zapo_oar.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>

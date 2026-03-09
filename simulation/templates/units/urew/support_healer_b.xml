@@ -11,6 +11,6 @@
     <Entity>units/urew/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/kushites/healer.xml</Actor>
+    <Actor>units/urewe/healer.xml</Actor>
   </VisualActor>
 </Entity>

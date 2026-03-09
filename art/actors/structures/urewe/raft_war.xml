@@ -9,6 +9,7 @@
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
         <prop actor="units/urewe/raft_navigator.xml" attachpoint="01"/>
         <prop actor="units/urewe/raft_navigator.xml" attachpoint="02"/>
+        <prop actor="units/urewe/raft_navigator.xml" attachpoint="03"/>
       </props>
       <textures>
         <texture file="props/urewe_props.png" name="baseTex"/>

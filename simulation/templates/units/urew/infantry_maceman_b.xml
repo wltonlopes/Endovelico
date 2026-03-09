@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_maceman">
+  <Cost>
+    <Resources>
+      <stone>10</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>urew</Civ>
+    <SelectionGroupName>units/infantry_maceman_b</SelectionGroupName>
+    <GenericName>Clubman</GenericName>
+    <SpecificName/>
+    <Icon>units/south_america/infantry_maceman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/urew/infantry_maceman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/urewe/infantry_maceman_b.xml</Actor>
+  </VisualActor>
+</Entity>
