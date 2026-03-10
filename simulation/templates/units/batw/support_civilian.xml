@@ -7,8 +7,8 @@
   <Identity>
     <Civ>batw</Civ>
     <Lang>napatan</Lang>
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Kushite Woman</GenericName>
+    <SpecificName></SpecificName>
+    <GenericName>Batwa Civilian</GenericName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

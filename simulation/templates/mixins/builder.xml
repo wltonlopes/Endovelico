@@ -9,6 +9,8 @@
       structures/{civ}/house
       structures/{civ}/ice_house
       structures/{civ}/pyramid_small
+      structures/{civ}/pyramid_large
+      structures/{civ}/pyramid
       structures/{civ}/apartment
       structures/{civ}/storehouse
       structures/{civ}/farmstead

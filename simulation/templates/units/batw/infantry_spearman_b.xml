@@ -3,8 +3,8 @@
     <Civ>batw</Civ>
     <Lang>napatan</Lang>
     <SelectionGroupName>units/batw/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Nubian Spearman</GenericName>
-    <SpecificName>iry-rdwy Nhsyw</SpecificName>
+    <GenericName>Village Spearman</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

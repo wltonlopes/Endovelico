@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_stable">
+<Entity parent="template_structure_civic_civil_centre_military_colony">
   <Footprint>
     <Square width="18" depth="14"/>
     <Height>12.0</Height>
   </Footprint>
   <Identity>
     <Civ>paiu</Civ>
-    <GenericName>Stable</GenericName>
+    <GenericName>Acampament</GenericName>
     <SpecificName></SpecificName>
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
@@ -16,9 +16,12 @@
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/paiute/village.xml</Actor>
+    <Actor>structures/paiute/military_camp.xml</Actor>
   </VisualActor>
 </Entity>

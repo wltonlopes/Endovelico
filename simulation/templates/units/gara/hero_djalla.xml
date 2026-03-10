@@ -4,7 +4,7 @@
   </Auras>
   <Identity>
     <Civ>gara</Civ>
-    <GenericName>King Djalla</GenericName>
+    <GenericName>King</GenericName>
     <Icon>units/gara/hero_1.png</Icon>
   </Identity>
   <VisualActor>

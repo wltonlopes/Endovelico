@@ -9,7 +9,7 @@
   <Identity>
     <Civ>anish</Civ>
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
-    <GenericName>axeman Wolf clan</GenericName>
+    <GenericName>Axeman Wolf clan</GenericName>
     <SpecificName>Ma'iingan</SpecificName>
     <Icon>units/south_america/infantry_axeman.png</Icon>
   </Identity>

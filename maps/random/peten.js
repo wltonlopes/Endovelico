@@ -16,12 +16,19 @@
  * No further changes should be applied to the image to keep it easily interchangeable.
  */
 
+
+import { addAnimals, addBerries, addDecoration, addFish, addForests, addLayeredPatches, addMetal, addStone,
+	addStragglerTrees } from "maps/random/rmgen2/gaia.js";
+import { addElements, createBases, initTileClasses } from "maps/random/rmgen2/setup.js";
+
 Engine.LoadLibrary("rmgen");
 Engine.LoadLibrary("rmgen-common");
-Engine.LoadLibrary("rmgen2");
 Engine.LoadLibrary("rmbiome");
 
-setBiome("generic/tropic");
+export function* generateMap(mapSettings)
+{
+	setBiome("generic/tropic");
+	setLandBiome();
 
 g_Terrains.mainTerrain = "new_alpine_grass_d";
 g_Terrains.forestFloor1 = "tropic_grass_d";
@@ -433,4 +440,6 @@ setPPContrast(0.67);
 setPPSaturation(0.42);
 setPPBloom(0.23);
 
-g_Map.ExportMap();
+	return g_Map;
+}
+

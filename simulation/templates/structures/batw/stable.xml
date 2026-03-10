@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Identity>
+    <Civ>cyre</Civ>
+    <GenericName>Hunters' Treehouse</GenericName>
+    <SpecificName></SpecificName>
+    <Tooltip>Here you can train experienced and fast units of specialized hunters.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/batwa/tree_house.xml</Actor>
+  </VisualActor>
+</Entity>

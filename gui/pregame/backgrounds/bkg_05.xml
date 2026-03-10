@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sprites>
-	<sprite name="background-bkg_03-1">
+	<sprite name="background-bkg_05-1">
 		<image
-			texture="pregame/backgrounds/bkg_03_1.png"
+			texture="pregame/backgrounds/bkg_05_1.png"
 			fixed_h_aspect_ratio="2"
 			round_coordinates="false"
 		/>
 	</sprite>
-	<sprite name="background-bkg_03-2">
+	<sprite name="background-bkg_05-2">
 		<image
-			texture="pregame/backgrounds/bkg_03_2.png"
+			texture="pregame/backgrounds/bkg_05_2.png"
 			fixed_h_aspect_ratio="2"
 			round_coordinates="false"
 		/>

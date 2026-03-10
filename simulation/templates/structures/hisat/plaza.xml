@@ -4,6 +4,14 @@
     <Civ>hisat</Civ>
     <SpecificName>Plaza</SpecificName>
   </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/hisatsinom/plaza.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

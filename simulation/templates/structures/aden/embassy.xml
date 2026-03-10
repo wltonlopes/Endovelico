@@ -14,13 +14,13 @@
 		<Height>12.0</Height>
 	</Footprint>
 	<Health>
-		<Max>1000</Max>
+		<Max>500</Max>
 		<SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
 	</Health>
 	<Identity>
 		<Civ>aden</Civ>
-		<GenericName>Blemmye Camp</GenericName>
-		<Tooltip>Train Blemmye Mercenaries.</Tooltip>
+		<GenericName>Allied village</GenericName>
+		<Tooltip>Train Mercenaries.</Tooltip>
 		<Classes datatype="tokens">CivSpecific</Classes>
 		<Icon>structures/mercenary_camp.png</Icon>
 	</Identity>

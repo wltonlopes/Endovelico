@@ -3,7 +3,7 @@
   <Identity>
     <Civ>bedo</Civ>
     <SpecificName>Nurim</SpecificName>
-    <GenericName>Bedouin Woman</GenericName>
+    <GenericName>Bedouin Civilian</GenericName>
     <Icon>units/iber/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
