@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_ranged_blowgunner">
+  <Identity>
+    <Civ>batw</Civ>
+    <SelectionGroupName>units/batw/blowgunner</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
+    <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
+    <Phenotype>female</Phenotype>
+    <GenericName>Blowgun hunter</GenericName>
+    <SpecificName>Taquara-okaî-abá</SpecificName>
+    <Icon>units/south_america/infantry_blowgunner.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/batwa/infantry_heavy_blowgunner.xml</Actor>
+  </VisualActor>
+</Entity>

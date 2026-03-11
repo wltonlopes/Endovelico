@@ -21,22 +21,22 @@
   <group>
     <variant frequency="1" name="ir_01_01">
       <textures>
-        <texture file="skeletal/urewe/civ_01.png" name="baseTex"/>
+        <texture file="skeletal/batwa/civ_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_01_02">
       <textures>
-        <texture file="skeletal/urewe/civ_02.png" name="baseTex"/>
+        <texture file="skeletal/batwa/civ_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_01_03">
       <textures>
-        <texture file="skeletal/urewe/civ_03.png" name="baseTex"/>
+        <texture file="skeletal/batwa/civ_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_01_04">
       <textures>
-        <texture file="skeletal/urewe/civ_04.png" name="baseTex"/>
+        <texture file="skeletal/batwa/civ_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

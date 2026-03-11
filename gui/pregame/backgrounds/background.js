@@ -28,6 +28,11 @@ export const backgrounds = {
 			"sprite": "background-kush1-3",
 			"tiling": true
 		},
+		{
+			"offset": (time, width) => 0.02 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.02 * time),
+			"sprite": "background-bkg_02-2",
+			"tiling": true
+		},
 
 	],
 		"bkg_03": [
@@ -41,7 +46,7 @@ export const backgrounds = {
 			"sprite": "background-kush1-3",
 			"tiling": true
 		},
-				{
+		{
 			"offset": (time, width) => 0.04 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.04 * time),
 			"sprite": "background-bkg_03-2",
 			"tiling": true
@@ -96,8 +101,26 @@ export const backgrounds = {
 			"tiling": true
 		},
 		{
-			"offset": (time, width) => 0.04 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.04 * time),
+			"offset": (time, width) => 0.02 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.02 * time),
 			"sprite": "background-bkg_06-2",
+			"tiling": true
+		},
+
+	],
+			"bkg_07": [
+		{
+	 		"offset": () => -0.1,
+			"sprite": "background-bkg_07-1",
+			"tiling": true,
+		},
+		{
+			"offset": (time, width) => 0.04 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.04 * time),
+			"sprite": "background-kush1-3",
+			"tiling": true
+		},
+		{
+			"offset": (time, width) => 0.02 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.02 * time),
+			"sprite": "background-bkg_07-2",
 			"tiling": true
 		},
 

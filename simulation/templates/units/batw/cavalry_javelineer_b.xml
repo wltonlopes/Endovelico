@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="infantry_cavalry|template_unit_infantry_ranged_javelineer">
-  <Attack>
-    <Ranged>
-      <Projectile>
-        <LaunchPoint y="5"/>
-      </Projectile>
-    </Ranged>
-  </Attack>
-  <Footprint>
-    <Height>7.5</Height>
-  </Footprint>
   <Identity>
     <Civ>batw</Civ>
-    <SelectionGroupName>units/batw/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Batwa Raider</GenericName>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/batw/heavy_javelineer</SelectionGroupName>
+    <GenericName>Warrior with Harpoon</GenericName>
     <SpecificName></SpecificName>
+    <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
+    <Phenotype>male</Phenotype>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>
-  <Promotion>
-    <Entity>units/batw/cavalry_javelineer_a</Entity>
-  </Promotion>
+  <Promotion disable="true"/>
   <StatusBars>
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
   <VisualActor>
-  
-    <Actor>units/batwa/infantry_axeman_b.xml</Actor>
+    <Actor>units/batwa/infantry_heavy_javelinist_harpoon.xml</Actor>
   </VisualActor>
 </Entity>
