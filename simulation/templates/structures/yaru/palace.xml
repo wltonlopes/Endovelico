@@ -45,14 +45,15 @@
   </Sound>
   <TerritoryDecay disable=""/>
   <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-    	units/{civ}/hero_1
-    	units/{civ}/hero_3
-   	  units/{civ}/hero_2
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/lencas/palace_pyramid.xml</Actor>
+    <Actor>structures/lencas/pyramid_01.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

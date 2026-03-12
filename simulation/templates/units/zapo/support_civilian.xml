@@ -6,6 +6,6 @@
     <Icon>units/yayo/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/zapotecs/citizen_female.xml</Actor>
+    <Actor>units/zapotecs/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

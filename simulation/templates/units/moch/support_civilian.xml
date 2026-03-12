@@ -8,11 +8,11 @@
   <Identity>
     <Civ>moch</Civ>
     <SpecificName>Mecherraec</SpecificName>
-    <GenericName>Woman</GenericName>
+    <GenericName>Moche farmers</GenericName>
     <Icon>units/moch/support_female_citizen.png</Icon>
     <SelectionGroupName>units/moch/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/mochicas/citizen_female.xml</Actor>
+    <Actor>units/mochicas/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

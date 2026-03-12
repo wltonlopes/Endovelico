@@ -14,24 +14,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="01">
+    <variant frequency="100" name="painted_01_01">
       <textures>
-        <texture file="skeletal/tiwanaku/im_01_01.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/civ_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="02">
+    <variant frequency="100" name="painted_01_02">
       <textures>
-        <texture file="skeletal/tiwanaku/im_01_02.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/civ_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="03">
+    <variant frequency="100" name="painted_01_03">
       <textures>
-        <texture file="skeletal/tiwanaku/im_01_03.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/civ_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="04">
+    <variant frequency="100" name="painted_01_04">
       <textures>
-        <texture file="skeletal/tiwanaku/im_01_04.png" name="baseTex"/>
+        <texture file="skeletal/tiwanaku/civ_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

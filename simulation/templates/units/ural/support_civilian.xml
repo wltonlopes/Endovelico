@@ -51,6 +51,6 @@
     </Rates>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>units/xiongnu/citizen_female.xml</Actor>
+    <Actor>units/ural/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>
