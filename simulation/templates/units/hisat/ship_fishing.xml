@@ -7,7 +7,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/athen/fisher.png</Icon>
+    <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/hisatsinom/canoe.xml</Actor>

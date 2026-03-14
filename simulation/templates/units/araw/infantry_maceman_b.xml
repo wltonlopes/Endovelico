@@ -13,7 +13,7 @@
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Mayan Maceman</GenericName>
     <SpecificName>Xet'el Che' Bate</SpecificName>
-    <Icon>units/araw/infantry_maceman.png</Icon>
+    <Icon>units/south_america/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/araw/infantry_maceman_a</Entity>

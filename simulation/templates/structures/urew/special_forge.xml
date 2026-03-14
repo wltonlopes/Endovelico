@@ -24,7 +24,7 @@
     <Civ>urew</Civ>
     <GenericName>Big forge</GenericName>
     <SpecificName> </SpecificName>
-    <Tooltip>Research technologies.</Tooltip>
+    <Tooltip>Train heroes and research technologies.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Council</VisibleClasses>
     <Icon>structures/tholos.png</Icon>
@@ -47,6 +47,13 @@
     <Radius>38</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
+    </Entities>
+  </Trainer>
   <Vision>
     <Range>40</Range>
   </Vision>

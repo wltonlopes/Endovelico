@@ -26,19 +26,6 @@
     <GenericName>lusitanian Woman</GenericName>
     <Icon>units/iber/support_female_citizen.png</Icon>
   </Identity>
-  <Upgrade>
-    <SwitchToSword>
-      <Entity>units/lusi/infantry_swordswoman</Entity>
-      <Tooltip>Switch weapon sword (melee).</Tooltip>
-      <Requirements>
-        <Techs datatype="tokens">phase_town</Techs>
-      </Requirements>
-      <Cost>
-        <metal>5</metal>
-      </Cost>
-      <Time>5</Time>
-    </SwitchToSword>
-  </Upgrade>
   <Health>
     <Max>50</Max>
   </Health>

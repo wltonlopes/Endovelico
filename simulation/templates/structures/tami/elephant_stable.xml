@@ -4,6 +4,6 @@
     <Civ>tami</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/yawadwipa/stable_elephant.xml</Actor>
+    <Actor>structures/tamiles/stable_elephant.xml</Actor>
   </VisualActor>
 </Entity>

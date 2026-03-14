@@ -21,8 +21,6 @@
       structures/{civ}/barracks
       structures/{civ}/range
       structures/{civ}/stable
-      structures/{civ}/stable_camel
-      structures/{civ}/elephant_stable
       structures/{civ}/forge
       structures/{civ}/temple
       structures/{civ}/market
@@ -57,6 +55,10 @@
       structures/{civ}/stupa
       structures/{civ}/vihara
       structures/{civ}/mausoleum
+      structures/{civ}/monument
+      structures/{civ}/plaza
+      structures/{civ}/stable_camel
+      structures/{civ}/elephant_stable
     </Entities>
   </Builder>
   <Identity>

@@ -6,6 +6,6 @@
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/tiwanaku/infantry_scout.xml</Actor>
+    <Actor>units/mochicas/infantry_scout.xml</Actor>
   </VisualActor>
 </Entity>

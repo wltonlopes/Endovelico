@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+	<sprite name="background-bkg_10-1">
+		<image
+			texture="pregame/backgrounds/bkg_10_1.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+	<sprite name="background-bkg_10-2">
+		<image
+			texture="pregame/backgrounds/bkg_10_2.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+</sprites>

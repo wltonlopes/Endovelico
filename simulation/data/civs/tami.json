@@ -51,7 +51,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/tami/cavalry_archer_b",
+			"Template": "units/tami/cavalry_scout",
 			"Count": 1
 		}
 	],
@@ -69,7 +69,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/tami/cavalry_archer_b",
+		"skirmish/units/default_cavalry": "units/tami/cavalry_scout",
 		"skirmish/units/default_infantry_melee_b": "units/tami/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/tami/infantry_archer_b",
 	  "skirmish/units/default_ship_trireme":"units/tami/ship_bireme"

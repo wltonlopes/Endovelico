@@ -8,7 +8,6 @@
       structures/lusi/dock_merc
     </Entities>
   </Builder>
-
   <Identity>
     <Civ>lusi</Civ>
     <Phenotype>female</Phenotype>
@@ -21,19 +20,6 @@
   <!--    <TrainingRestrictions>
     <Category>Lusitaniswordswomen</Category>
   </TrainingRestrictions> -->
-  <Upgrade>
-    <SwitchToSword>
-      <Entity>units/lusi/support_female_citizen</Entity>
-      <Tooltip>Switch back to female citizens</Tooltip>
-      <Requirements>
-        <Techs datatype="tokens">phase_town</Techs>
-      </Requirements>
-      <Cost>
-        <food>10</food>
-      </Cost>
-      <Time>5</Time>
-    </SwitchToSword>
-  </Upgrade>
   <VisualActor>
     <Actor>units/lusitanians/infantry_swordswoman.xml</Actor>
   </VisualActor>

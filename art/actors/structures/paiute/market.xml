@@ -6,6 +6,8 @@
       <mesh>structural/paiute/market.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/paiu_struct.png" name="baseTex"/>

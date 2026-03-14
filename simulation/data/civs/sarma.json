@@ -61,19 +61,11 @@
         }
     ],
     "AINames": [
-        "Akrosas",
-        "Anacharsis",
-        "Arimaz",
-        "Orix",
-        "Gnur",
-        "Idantemis",
-        "Kanites",
-        "Carthasis",
-        "Kobos",
-        "Lipoksai",
-        "Madius",
-        "Oktomasad",
-        "Satrakis"
+        "Gatal",
+        "Tásio",
+        "Abeaco",
+        "Espadino",
+        "Eunones"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_infantry_ranged_b": "units/sarma/cavalry_archer_b",

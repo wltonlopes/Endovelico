@@ -4,8 +4,9 @@
   </Auras>
   <Identity>
     <Civ>gara</Civ>
-    <GenericName>King</GenericName>
-    <Icon>units/pers_hero_cyrus.png</Icon>
+    <GenericName>King of Garamantes</GenericName>
+    <SpecificName>Agueklid</SpecificName>
+    <Icon>units/pers/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/garamantians/chariot_djalla_m.xml</Actor>

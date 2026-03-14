@@ -8,6 +8,11 @@
     <Civ>lusi</Civ>
     <SpecificName>Treb</SpecificName>
   </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordswoman
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/lusitanians/house.xml</Actor>
   </VisualActor>

@@ -13,7 +13,7 @@
     <SelectionGroupName>units/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Levy Swordsman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mesoamerican/infantry_swordsman.png</Icon>
+    <Icon>units/zapo/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/yaru/infantry_swordsman_a</Entity>

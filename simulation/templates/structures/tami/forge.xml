@@ -5,6 +5,6 @@
     <SpecificName>Khalkeṓn</SpecificName>
   </Identity>
   <VisualActor>
-       <Actor>structures/tamiles/blacksmith.xml</Actor>
+       <Actor>structures/tamiles/forge.xml</Actor>
   </VisualActor>
 </Entity>

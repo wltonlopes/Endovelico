@@ -5,7 +5,7 @@
   <Identity>
     <Civ>numi</Civ>
     <GenericName>Micipsa</GenericName>
-    <Icon>units/pers_hero_cyrus.png</Icon>
+    <Icon>units/pers/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/numidians/hero_elephantry_m.xml</Actor>

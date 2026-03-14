@@ -24,7 +24,7 @@
     </variant>
     <variant frequency="20" name="h_n">
       <props>
-              <prop actor="props/units/helmets/helmet_sarc_moch.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_sarc_moch.xml" attachpoint="head"/>
         <prop actor="props/units/heads/head_andean_north_coast_fem.xml" attachpoint="head"/>
       </props>
     </variant>

@@ -15,7 +15,7 @@
     <Max>500</Max>
   </Health>
   <Identity>
-    <Civ>batwa</Civ>
+    <Civ>batw</Civ>
     <GenericName>Ceremonial square</GenericName>
     <SpecificName></SpecificName>
     <Tooltip>Train Heroes and researcher technologies.</Tooltip>

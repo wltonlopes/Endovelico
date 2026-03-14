@@ -43,6 +43,14 @@
     <Radius>52</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_battle_priest
+      units/{civ}/hero_lord_jaguar
+      units/{civ}/hero_night_king
+      units/{civ}/hero_rain_lord
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/zapotecs/ball_court.xml</Actor>
     <FoundationActor>structures/fndn_10x12.xml</FoundationActor>

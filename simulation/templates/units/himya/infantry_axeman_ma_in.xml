@@ -10,7 +10,7 @@
     <SelectionGroupName>units/himya/infantry_axeman_merc</SelectionGroupName>
     <GenericName>Ma'in Axeman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maur/infantry_maceman.png</Icon>
+    <Icon>units/maur/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

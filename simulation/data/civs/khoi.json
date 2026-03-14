@@ -1,6 +1,6 @@
 ﻿{
     "Code": "khoi",
-    "Culture": "khoisan",
+    "Culture": "khoi",
     "Music": [
         {
             "File": "Sands_of_Time.ogg",
@@ -50,10 +50,6 @@
             "Count": 2
         },
         {
-            "Template": "units/khoi/cavalry_javelineer_b",
-            "Count": 1
-        },
-        {
             "Template": "gaia/fauna_cattle_cow_trainable",
             "Count": 1
         },
@@ -70,9 +66,7 @@
         "Khoebaha",
         "Herry",
         "Autsumao",
-        "Namaguas",
-        "Klaas Stuurman",
-        "David Stuurman"
+        "Namaguas"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/khoi/cavalry_scout",

@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>gara</Civ>
-    <GenericName>King</GenericName>
+    <GenericName>King of Garamantes</GenericName>
+    <SpecificName>Agueklid</SpecificName>
     <Icon>units/gara/hero_1.png</Icon>
   </Identity>
   <VisualActor>

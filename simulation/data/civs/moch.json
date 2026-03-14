@@ -98,9 +98,6 @@
             "Count": 2
         },
         {
-            "Template": "units/moch/cavalry_swordsman_b"
-        },
-        {
             "Template": "units/moch/infantry_scout"
         }
     ],
