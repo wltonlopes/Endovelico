@@ -179,5 +179,22 @@ export const backgrounds = {
 		},
 
 	],
+			"bkg_11": [
+		{
+	 		"offset": () => -0.1,
+			"sprite": "background-bkg_11-1",
+			"tiling": true,
+		},
+		{
+			"offset": (time, width) => 0.04 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.04 * time),
+			"sprite": "background-kush1-3",
+			"tiling": true
+		},
+		{
+			"offset": (time, width) => 0.02 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.02 * time),
+			"sprite": "background-bkg_11-2",
+			"tiling": true
+		},
 
+	],
 };
