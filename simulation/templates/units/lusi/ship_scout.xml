@@ -6,11 +6,11 @@
   </Footprint>
   <Identity>
     <Civ>lusi</Civ>
-    <GenericName>Phoenician Bireme</GenericName>
-    <SpecificName>Du-Mašōt</SpecificName>
+    <GenericName>Lusitanian War Boat</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/pers/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/persians/bireme.xml</Actor>
+    <Actor>structures/lusitanians/war_boat.xml</Actor>
   </VisualActor>
 </Entity>

@@ -6,7 +6,6 @@
     <variant frequency="1" name="raft_01">
       <mesh>structural/ships/raft_01_01.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
         <prop actor="units/batwa/raft_navigator.xml" attachpoint="01"/>
         <prop actor="units/batwa/raft_navigator.xml" attachpoint="02"/>
         <prop actor="units/batwa/raft_navigator.xml" attachpoint="03"/>

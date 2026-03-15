@@ -4,24 +4,12 @@
   <float/>
   <group>
     <variant frequency="100" name="lusi fishing boat a">
-      <mesh>structural/lusi/balsa_a.dae</mesh>
+      <mesh>structural/ships/boat_01_01.dae</mesh>
       <props>
-<!--         <prop actor="units/lusitanians/fisherman.xml" attachpoint="fisherman"/>
-        <prop actor="" attachpoint="fish_a"/>
-        <prop actor="" attachpoint="fish_b"/>
-        <prop actor="" attachpoint="fish_c"/> -->
-      </props>
-      <textures>
-        <texture file="structural/lusi_balsa.png" name="baseTex"/>
-      </textures>
-    </variant>
-        <variant frequency="100" name="lusi fishing boat b">
-      <mesh>structural/lusi/balsa_b.dae</mesh>
-      <props>
-<!--         <prop actor="units/lusitanians/fisherman.xml" attachpoint="fisherman"/>
-        <prop actor="" attachpoint="fish_a"/>
-        <prop actor="" attachpoint="fish_b"/>
-        <prop actor="" attachpoint="fish_c"/> -->
+        <prop actor="units/lusitanians/boat_navigator.xml" attachpoint="01"/>
+        <prop actor="units/lusitanians/boat_navigator.xml" attachpoint="02"/>
+        <prop actor="units/lusitanians/boat_navigator.xml" attachpoint="03"/>
+        <prop actor="units/lusitanians/boat_navigator.xml" attachpoint="04"/>
       </props>
       <textures>
         <texture file="structural/lusi_balsa.png" name="baseTex"/>

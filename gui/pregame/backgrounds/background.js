@@ -197,4 +197,76 @@ export const backgrounds = {
 		},
 
 	],
+			"bkg_12": [
+		{
+	 		"offset": () => -0.1,
+			"sprite": "background-bkg_12-1",
+			"tiling": true,
+		},
+		{
+			"offset": (time, width) => 0.04 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.04 * time),
+			"sprite": "background-kush1-3",
+			"tiling": true
+		},
+		{
+			"offset": (time, width) => 0.02 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.02 * time),
+			"sprite": "background-bkg_12-2",
+			"tiling": true
+		},
+
+	],
+				"bkg_13": [
+		{
+	 		"offset": () => -0.1,
+			"sprite": "background-bkg_13-1",
+			"tiling": true,
+		},
+		{
+			"offset": (time, width) => 0.04 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.04 * time),
+			"sprite": "background-kush1-3",
+			"tiling": true
+		},
+		{
+			"offset": (time, width) => 0.02 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.02 * time),
+			"sprite": "background-bkg_13-2",
+			"tiling": true
+		},
+
+	],
+				"bkg_14": [
+		{
+	 		"offset": () => -0.1,
+			"sprite": "background-bkg_14-1",
+			"tiling": true,
+		},
+		{
+			"offset": (time, width) => 0.04 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.04 * time),
+			"sprite": "background-kush1-3",
+			"tiling": true
+		},
+		{
+			"offset": (time, width) => 0.02 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.02 * time),
+			"sprite": "background-bkg_14-2",
+			"tiling": true
+		},
+
+	],
+				"bkg_15": [
+		{
+	 		"offset": () => -0.1,
+			"sprite": "background-bkg_15-1",
+			"tiling": true,
+		},
+		{
+			"offset": (time, width) => 0.04 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.04 * time),
+			"sprite": "background-kush1-3",
+			"tiling": true
+		},
+		{
+			"offset": (time, width) => 0.02 * width * Math.cos(0.1 * time) + 0.01 * width * Math.cos(0.02 * time),
+			"sprite": "background-bkg_15-2",
+			"tiling": true
+		},
+
+	],						
 };
