@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>arme</Civ>
-    <GenericName>Armenia Woman</GenericName>
+    <GenericName>Armenia Villager</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra/support_female_citizen.png</Icon>
   </Identity>

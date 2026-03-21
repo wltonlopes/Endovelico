@@ -13,6 +13,6 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/illyrians/hero_infantry_swordswoman.xml</Actor>
+    <Actor>units/illyrians/hero_infantry_swordsVillager.xml</Actor>
   </VisualActor>
 </Entity>

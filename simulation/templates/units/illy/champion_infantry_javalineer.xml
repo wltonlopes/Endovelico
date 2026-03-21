@@ -19,6 +19,6 @@
     </spear>
   </Upgrade>
   <VisualActor>
-    <Actor>units/illyrians/infantry_javelinist_woman.xml</Actor>
+    <Actor>units/illyrians/infantry_javelinist_Villager.xml</Actor>
   </VisualActor>
 </Entity>

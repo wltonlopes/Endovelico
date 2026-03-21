@@ -3,7 +3,7 @@
   <Identity>
     <Civ>hasmo</Civ>
     <SpecificName></SpecificName>
-    <GenericName>Judean Woman</GenericName>
+    <GenericName>Judean Villager</GenericName>
     <Icon>units/hasmo/support_female.png</Icon>
     <SelectionGroupName>units/hasmo/support_female_citizen</SelectionGroupName>
   </Identity>

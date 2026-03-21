@@ -4,7 +4,7 @@
     <Civ>theb</Civ>
 	<Lang>greek</Lang>
     <SpecificName>Gýnē Thebaïkós</SpecificName>
-    <GenericName>Theban Woman</GenericName>
+    <GenericName>Theban Villager</GenericName>
     <Icon>units/theb/support_female_citizen.png</Icon>
 	<SelectionGroupName>units/theb/support_female_citizen</SelectionGroupName>
   </Identity>

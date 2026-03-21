@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>daci</Civ>
-    <GenericName>Dacian Woman</GenericName>
+    <GenericName>Dacian Villager</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra/support_female_citizen.png</Icon>
   </Identity>

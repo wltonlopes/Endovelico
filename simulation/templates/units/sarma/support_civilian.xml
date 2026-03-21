@@ -25,7 +25,7 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Scythian Woman</SpecificName>
+    <SpecificName>Scythian Villager</SpecificName>
     <Icon>units/scyth/support_citizen_female.png</Icon>
     <SelectionGroupName>units/scyth/support_citizen_female</SelectionGroupName>
     <Phenotype>female</Phenotype>

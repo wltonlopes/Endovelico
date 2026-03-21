@@ -7,7 +7,7 @@
   <Identity>
     <Civ>tiwa</Civ>
     <SpecificName></SpecificName>
-    <GenericName>Woman</GenericName>
+    <GenericName>Villager</GenericName>
     <Icon>units/moch/support_female_citizen.png</Icon>
     <SelectionGroupName>units/tiwa/support_female_citizen</SelectionGroupName>
   </Identity>

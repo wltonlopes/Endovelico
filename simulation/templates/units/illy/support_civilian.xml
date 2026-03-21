@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>illy</Civ>
-    <GenericName>Illyrian Woman</GenericName>
+    <GenericName>Illyrian Villager</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/illy/support_female_citizen.png</Icon>
   </Identity>

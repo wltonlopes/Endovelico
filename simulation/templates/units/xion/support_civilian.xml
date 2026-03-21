@@ -28,7 +28,7 @@
   </Health>
   <Identity>
     <Civ>xion</Civ>
-    <GenericName>Xiongnu Woman</GenericName>
+    <GenericName>Xiongnu Villager</GenericName>
     <Icon>units/xion/support_citizen_female.png</Icon>
     <SelectionGroupName>units/xion/support_female_citizen</SelectionGroupName>
     <Phenotype>female</Phenotype>

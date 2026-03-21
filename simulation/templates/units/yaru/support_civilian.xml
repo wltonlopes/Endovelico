@@ -3,7 +3,7 @@
   <Identity>
     <Civ>yaru</Civ>
     <SpecificName></SpecificName>
-    <GenericName>Lenca Woman</GenericName>
+    <GenericName>Lenca Villager</GenericName>
     <Icon>units/mesoamerican/support_female_citizen.png</Icon>
     <SelectionGroupName>units/maya_protoclassic/support_female_citizen</SelectionGroupName>
   </Identity>

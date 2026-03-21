@@ -3,7 +3,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <SpecificName></SpecificName>
-    <GenericName>Woman</GenericName>
+    <GenericName>Villager</GenericName>
     <Icon>units/south_america/support_female_citizen.png</Icon>
     <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
   </Identity>

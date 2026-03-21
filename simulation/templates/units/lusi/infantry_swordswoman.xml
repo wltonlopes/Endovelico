@@ -12,15 +12,15 @@
     <Civ>lusi</Civ>
     <Phenotype>female</Phenotype>
     <VisibleClasses datatype="tokens">Lusitaniswordswomen</VisibleClasses>
-    <SelectionGroupName>units/lusi/swordswoman</SelectionGroupName>
+    <SelectionGroupName>units/lusi/swordsVillager</SelectionGroupName>
     <SpecificName>Petanim Cori</SpecificName>
-    <Icon>units/lusi/swordwoman.png</Icon>
+    <Icon>units/lusi/swordVillager.png</Icon>
   </Identity>
   <Promotion disable="" />
   <!--    <TrainingRestrictions>
     <Category>Lusitaniswordswomen</Category>
   </TrainingRestrictions> -->
   <VisualActor>
-    <Actor>units/lusitanians/infantry_swordswoman.xml</Actor>
+    <Actor>units/lusitanians/infantry_swordsVillager.xml</Actor>
   </VisualActor>
 </Entity>

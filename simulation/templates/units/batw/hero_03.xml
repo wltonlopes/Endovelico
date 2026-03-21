@@ -10,6 +10,6 @@
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/batwa/hero_infantry_spearwoman.xml</Actor>
+    <Actor>units/batwa/hero_infantry_spearVillager.xml</Actor>
   </VisualActor>
 </Entity>
