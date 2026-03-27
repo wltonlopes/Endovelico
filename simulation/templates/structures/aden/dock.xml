@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>aden</Civ>
-    <SpecificName>Tu</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="15.5" depth="15.5"/>

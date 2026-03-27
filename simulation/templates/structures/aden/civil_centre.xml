@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>aden</Civ>
-    <SpecificName>Nezirö</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

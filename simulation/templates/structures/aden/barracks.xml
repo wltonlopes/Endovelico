@@ -10,7 +10,7 @@
   <Identity>
     <Civ>aden</Civ>
     <GenericName>Barracks</GenericName>
-    <SpecificName>Sikömi nö Nipa</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="19.5" depth="19.5"/>
