@@ -90,10 +90,6 @@
             "Count": 1
         },
         {
-            "Template": "units/bedo/cavalry_spearman_b",
-            "Count": 1
-        },
-        {
             "Template": "units/bedo/camelry_scout",
             "Count": 1
         }

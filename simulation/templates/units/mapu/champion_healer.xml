@@ -11,14 +11,14 @@
     <Max>250</Max>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
+    <Civ>mapu</Civ>
+	  <Phenotype>female</Phenotype>
     <GenericName>High Priest</GenericName>
     <SpecificName></SpecificName>
-    
     <Icon>units/mayap/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/adena/champion_support_healer_male.xml</Actor>
+    <Actor>units/mapuches/champion_support_healer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,20 +5,9 @@
 		<variant>
 			<mesh>props/horse/cataphract_armor.dae</mesh>
 			<textures>
-				<texture file="props/horse/cataphract_armor_norm.png" name="normTex"/>
-				<texture file="props/horse/cataphract_armor_spec.png" name="specTex"/>
-			</textures>
-		</variant>
-	</group>
-	<group>
-		<variant name="leather1">
-			<textures>
-				<texture file="props/horse/cataphract_armor_leather.png" name="baseTex"/>
-			</textures>
-		</variant>
-		<variant name="leather2">
-			<textures>
-				<texture file="props/horse/cataphract_armor_leather2.png" name="baseTex"/>
+				<texture file="props/camel_blanket.png" name="baseTex"/>
+				<texture file="props/camel_blanket_norm.png" name="normTex"/>
+				<texture file="props/camel_blanket_spec.png" name="specTex"/>
 			</textures>
 		</variant>
 	</group>

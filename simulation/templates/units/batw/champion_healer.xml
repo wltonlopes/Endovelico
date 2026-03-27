@@ -11,14 +11,13 @@
     <Max>250</Max>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
-    <GenericName>High Priest</GenericName>
+    <Civ>batw</Civ>
+    <GenericName>War Priest</GenericName>
     <SpecificName></SpecificName>
-    
     <Icon>units/mayap/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/adena/champion_support_healer_male.xml</Actor>
+    <Actor>units/batwa/infantry_champion_healer.xml</Actor>
   </VisualActor>
 </Entity>

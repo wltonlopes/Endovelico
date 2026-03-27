@@ -44,9 +44,10 @@
 			"Template": "units/himya/infantry_spearman_b",
 			"Count": 2
 		},
-		{
-			"Template": "units/himya/cavalry_javelineer_b"
-		}
+        {
+            "Template": "units/himya/camelry_scout",
+            "Count": 1
+        }
 	],
 	"AINames": [
 		"Yada'il Bayyin I",

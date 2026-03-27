@@ -7,6 +7,6 @@
     <Icon>units/zapo/champion_spearman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/hisatsinom/healer.xml</Actor>
+    <Actor>units/hisatsinom/infantry_champion_support_healer_male.xml</Actor>
   </VisualActor>
 </Entity>
