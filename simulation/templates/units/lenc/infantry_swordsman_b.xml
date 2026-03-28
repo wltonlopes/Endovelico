@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_axeman">
+  <Cost>
+    <Resources>
+      <food>35</food>
+      <wood>35</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>lenc</Civ>
+    <SelectionGroupName>units/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Levy Swordsman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/zapo/infantry_swordsman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/lenc/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/lencas/infantry_macana_b.xml</Actor>
+  </VisualActor>
+</Entity>

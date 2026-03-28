@@ -7,6 +7,6 @@
     <Icon>units/zapo/infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_clubman.xml</Actor>
+    <Actor>units/arawaks/infantry_champion_clubman.xml</Actor>
   </VisualActor>
 </Entity>

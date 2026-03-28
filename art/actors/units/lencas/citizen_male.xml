@@ -16,19 +16,11 @@
   <group>
     <variant frequency="1" name="a">
       <mesh>skeletal/new/m_naked.dae</mesh>
-      <textures><texture file="skeletal/lencas/i_01_01.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/lencas/civil_01.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="b">
       <mesh>skeletal/new/m_naked.dae</mesh>
-      <textures><texture file="skeletal/lencas/i_01_02.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="c">
-      <mesh>skeletal/new/m_tunic_maya.dae</mesh>
-      <textures><texture file="skeletal/lencas/i_01_03.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="d">
-      <mesh>skeletal/new/m_tunic_maya.dae</mesh>
-      <textures><texture file="skeletal/lencas/i_01_04.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/lencas/civil_02.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

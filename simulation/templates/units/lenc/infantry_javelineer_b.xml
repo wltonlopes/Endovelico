@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Cost>
+    <Resources>
+      <food>45</food>
+      <wood>45</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>lenc</Civ>
+    <SelectionGroupName>units/maya_infantry_javelineer_b</SelectionGroupName>
+    <GenericName>Javalineer warrior</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/mesoamerican/infantry_javelineer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/lenc/infantry_javelineer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/lencas/infantry_javelineer_b.xml</Actor>
+  </VisualActor>
+</Entity>

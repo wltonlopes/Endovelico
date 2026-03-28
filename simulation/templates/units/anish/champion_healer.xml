@@ -11,17 +11,13 @@
     <Max>250</Max>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
-    <GenericName>High Priest</GenericName>
+    <Civ>anish</Civ>
+    <GenericName>War Priest</GenericName>
     <SpecificName></SpecificName>
-    <Phenotype datatype="tokens">
-      female
-      male
-    </Phenotype>
     <Icon>units/mayap/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/adena/champion_support_healer_{phenotype}.xml</Actor>
+    <Actor>units/anishinaabe/infantry_champion_support_healer_male.xml</Actor>
   </VisualActor>
 </Entity>

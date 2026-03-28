@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>lenc</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/lenc/wall_tower</Tower>
+      <Gate>structures/lenc/wall_gate</Gate>
+      <WallLong>structures/lenc/wall_long</WallLong>
+      <WallMedium>structures/lenc/wall_medium</WallMedium>
+      <WallShort>structures/lenc/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

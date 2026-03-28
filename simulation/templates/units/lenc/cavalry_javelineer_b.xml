@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_cavalry_ranged_archer">
+  <Identity>
+    <Civ>lenc</Civ>
+    <SelectionGroupName>units/yaru/heavy_javelineer</SelectionGroupName>
+    <GenericName>Noble Guardian</GenericName>
+    <SpecificName></SpecificName>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/lencas/infantry_heavy_blowgunner.xml</Actor>
+  </VisualActor>
+</Entity>

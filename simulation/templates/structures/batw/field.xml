@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>60</wood>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Square width="18.0" depth="20.0"/>
+    <Square depth="14.0" width="14.0"/>
     <Height>2.0</Height>
   </Footprint>
   <Identity>
     <Civ>batw</Civ>
-    <SpecificName>Nora</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
+  <Obstruction>
+    <Static depth="20.0" width="20.0"/>
+  </Obstruction>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>600</Max>
+    <Type>food.fruit</Type>
+    <MaxGatherers>3</MaxGatherers>
+    <Change>
+      <Regrowth>
+        <Value>1</Value>
+        <Interval>6000</Interval>
+      </Regrowth>
+    </Change>
+  </ResourceSupply>
   <VisualActor>
     <Actor>structures/batwa/field.xml</Actor>
   </VisualActor>
