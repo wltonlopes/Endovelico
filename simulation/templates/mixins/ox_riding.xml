@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Entity>
+  <Health>
+    <Max op="mul">1.25</Max>
+    <RegenRate>0</RegenRate>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">OxRiding</VisibleClasses>
   </Identity>

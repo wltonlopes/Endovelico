@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/anish/wall_long.dae</mesh>
+      <mesh>structural/anish/wall_med.dae</mesh>
       <textures>
         <texture file="structural/anish/struct.png" name="baseTex" />
         <texture file="structural/anish/struct_spec.png" name="specTex" />

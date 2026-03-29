@@ -8,7 +8,7 @@
         <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/batwa/helmet_hero_01.xml" attachpoint="head"/>
         <prop actor="props/units/shields/kush_nubian_hex_b.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/spear_stone.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
