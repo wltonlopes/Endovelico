@@ -24,7 +24,7 @@
   <Identity>
     <Civ>mayap</Civ>
     <GenericName>Large Pyramid</GenericName>
-    <SpecificName>mr ʿȝ</SpecificName>
+    <SpecificName></SpecificName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
     <Requirements>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>pamp</Civ>
-    <GenericName></GenericName>
+    <GenericName>War Chief</GenericName>
     <SpecificName>Macá</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/pamp/hero_rain_lord</SelectionGroupName>

@@ -3,7 +3,7 @@
 
   <Identity>
     <Civ>lenc</Civ>
-    <GenericName></GenericName>
+    <GenericName>King</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>

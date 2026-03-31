@@ -22,7 +22,7 @@
     <Civ>mayap</Civ>
     <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>observatory</GenericName>
-    <SpecificName>K'inob</SpecificName>
+    <SpecificName>K inob</SpecificName>
     <Tooltip>Advance your technology.</Tooltip>
     <Icon>structures/mayap/observatory.png</Icon>
     <Requirements>

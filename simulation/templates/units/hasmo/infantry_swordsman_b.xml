@@ -16,7 +16,7 @@
   <Identity>
     <Civ>hasmo</Civ>
     <SelectionGroupName>units/hasmo/infantry_swordsman_merc_b</SelectionGroupName>
-    <GenericName></GenericName>
+    <GenericName>Swordsman</GenericName>
     <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
     <Icon>units/sele/infantry_swordsman.png</Icon>
     <Requirements>

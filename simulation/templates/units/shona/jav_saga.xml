@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>shona</Civ>
-    <GenericName></GenericName>
+    <GenericName>Ox scout</GenericName>
     <SpecificName></SpecificName>
       <Icon>structures/sentry_tower.png</Icon>
   </Identity>

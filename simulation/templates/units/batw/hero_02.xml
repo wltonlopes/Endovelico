@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>batw</Civ>
-    <GenericName></GenericName>
+    <GenericName>Warrior Chief</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/batw/hero_night_king</SelectionGroupName>

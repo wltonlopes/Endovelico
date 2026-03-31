@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>aden</Civ>
-    <GenericName></GenericName>
+    <GenericName>Warrior Chief</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/aden/hero_rain_lord</SelectionGroupName>

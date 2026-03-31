@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Identity>
     <Civ>batw</Civ>
-    <GenericName></GenericName>
+    <GenericName>Warrior Chief</GenericName>
     <SpecificName></SpecificName>
     <Tooltip>Hero</Tooltip>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>

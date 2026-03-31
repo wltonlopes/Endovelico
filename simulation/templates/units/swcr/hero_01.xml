@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_spearman">
-
   <Identity>
     <Civ>swcr</Civ>
-    <GenericName></GenericName>
+    <GenericName>War Chief</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/mapu/hero_jaguar_king</SelectionGroupName>

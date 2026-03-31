@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>aden</Civ>
-    <GenericName></GenericName>
+    <GenericName>Great Chief</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/aden/hero_jaguar_king</SelectionGroupName>
