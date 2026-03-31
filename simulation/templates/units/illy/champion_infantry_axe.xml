@@ -16,7 +16,7 @@
     </spear>
   </Upgrade>
   <VisualActor>
-    <Actor>units/illyrians/infantry_swordsVillager.xml</Actor>
+    <Actor>units/illyrians/infantry_swordswoman.xml</Actor>
   </VisualActor>
 </Entity>
 

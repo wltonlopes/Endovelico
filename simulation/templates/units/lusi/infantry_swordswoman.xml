@@ -21,6 +21,6 @@
     <Category>Lusitaniswordswomen</Category>
   </TrainingRestrictions> -->
   <VisualActor>
-    <Actor>units/lusitanians/infantry_swordsVillager.xml</Actor>
+    <Actor>units/lusitanians/infantry_swordswoman.xml</Actor>
   </VisualActor>
 </Entity>

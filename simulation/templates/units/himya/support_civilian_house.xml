@@ -4,7 +4,7 @@
   </Cost>
   <Identity>
     <Requirements>
-      <Techs datatype="tokens">unlock_civilians_house_kush</Techs>
+      <Techs datatype="tokens">unlock_civilians_house_generic</Techs>
     </Requirements>
   </Identity>
 </Entity>

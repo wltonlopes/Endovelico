@@ -139,9 +139,9 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{native}/support_civilian
-      units/{civ}/infantry_scout
-      units/{civ}/cavalry_scout
-      units/{civ}/camelry_scout
+      units/{native}/infantry_scout
+      units/{native}/cavalry_scout
+      units/{native}/camelry_scout
     </Entities>
   </Trainer>
   <Vision>
