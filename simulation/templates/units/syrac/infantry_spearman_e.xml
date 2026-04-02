@@ -1,0 +1,9 @@
+<Entity parent="units/cyre/infantry_spearman_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/thebans/infantry_spearman_e.xml</Actor>
+  </VisualActor>
+</Entity>

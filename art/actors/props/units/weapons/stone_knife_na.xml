@@ -3,17 +3,18 @@
    <castshadow/>
     <group>
     <variant frequency="1" name="Base">
+      <props>
+        <prop actor="props/units/weapons/blades/knife_blade_copper.xml" attachpoint="blade"/>
+      </props>
       <textures>
-        <texture file="props/adenas_props.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+          <texture file="structural/maya_struct.png" name="baseTex"/>
       </textures>
     </variant>
     </group>
     <group>
         <variant name="1">
-            <mesh>props/weapon/stone_knife_na.dae</mesh>
+            <mesh>props/weapon/knife_base.dae</mesh>
         </variant>
     </group>
-  <material>basic_trans_parallax_spec.xml</material>
+  <material>basic_trans.xml</material>
 </actor>

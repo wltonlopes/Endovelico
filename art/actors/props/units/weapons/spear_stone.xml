@@ -2,17 +2,33 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="a">
-      <mesh>props/weapon/lenca_spear.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="texture_w1">
+    <variant frequency="1" name="Base">
+      <props>
+        <prop actor="props/units/weapons/blades/spear_blade_silex.xml" attachpoint="blade"/>
+      </props>
       <textures>
-        <texture file="props/weapons_maya_1.png" name="baseTex"/>
+        <texture file="props/prop_weap.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <group>
+    <variant frequency="1" name="spear-ball-darkgold">
+      <mesh>props/weap_shaft_wood_a.dae</mesh>
+    </variant>
+    <variant frequency="1" name="darksilver">
+      <mesh>props/weap_shaft_wood_b.dae</mesh>
+    </variant>
+    <variant frequency="1" name="lightgold">
+      <mesh>props/weap_shaft_wood_c.dae</mesh>
+    </variant>
+    <variant frequency="1" name="medsilver">
+      <mesh>props/weap_shaft_wood_d.dae</mesh>
+    </variant>
+    <variant frequency="1" name="medgold">
+      <mesh>props/weap_shaft_wood_e.dae</mesh>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
 </actor>
-

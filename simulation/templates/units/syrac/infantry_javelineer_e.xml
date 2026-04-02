@@ -1,0 +1,9 @@
+<Entity parent="units/cyre/infantry_javelineer_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/thebans/infantry_javelinist_e.xml</Actor>
+  </VisualActor>
+</Entity>

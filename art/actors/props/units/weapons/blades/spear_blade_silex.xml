@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <textures>
+        <texture file="props/weapons_maya_1.png" name="baseTex"/>
+        <texture name="specTex" file="null_white.dds"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="blade-a">
+      <mesh>props/weapon/flint_blade.dae</mesh>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

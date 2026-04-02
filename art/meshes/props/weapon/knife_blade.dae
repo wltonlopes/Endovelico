@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-04-01T21:27:22</created>
+    <modified>2026-04-01T21:27:22</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Materiais_002-effect">
+      <profile_COMMON>
+        <newparam sid="prop_copper_png-surface">
+          <surface type="2D">
+            <init_from>prop_copper_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="prop_copper_png-sampler">
+          <sampler2D>
+            <source>prop_copper_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="prop_copper_png-sampler" texcoord="Cilindro_003-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="prop_copper_png" name="prop_copper_png">
+      <init_from>/home/welton/Downloads/prop_copper.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Materiais_002-material" name="Materiais.002">
+      <instance_effect url="#Materiais_002-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cilindro_003-mesh" name="Cilindro.003">
+      <mesh>
+        <source id="Cilindro_003-mesh-positions">
+          <float_array id="Cilindro_003-mesh-positions-array" count="72">0 0.03791397 0.2294049 -0.00848037 0.01895695 0.2294049 -0.00848037 -0.01895695 0.2294049 0 -0.03791397 0.2294049 0.00848037 -0.01895695 0.2294049 0.00848037 0.01895695 0.2294049 -0.0109688 -0.01307624 -0.04393994 0.0109688 -0.01307624 -0.04393994 0 -0.02615255 -0.04393994 0 0.02615249 -0.04393994 -0.0109688 0.01307624 -0.04393994 0.0109688 0.01307624 -0.04393994 0 -0.01711767 0.4392231 0.001166462 -0.008558809 0.4392231 -0.001166462 -0.008558809 0.4392231 -0.001166462 0.008558809 0.4392231 0 0.01711767 0.4392231 0.001166462 0.008558809 0.4392231 0 -0.007369041 0.4945923 5.02157e-4 -0.00368452 0.4945923 -5.02156e-4 -0.00368452 0.4945923 -5.02157e-4 0.00368452 0.4945923 0 0.007369041 0.4945923 5.02156e-4 0.00368452 0.4945923</float_array>
+          <technique_common>
+            <accessor source="#Cilindro_003-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cilindro_003-mesh-normals">
+          <float_array id="Cilindro_003-mesh-normals-array" count="72">0.9767363 0.2137638 0.01707494 0.9972545 -0.06849437 0.02814286 0.9772334 -0.2110852 0.02140611 -0.9767363 -0.2137638 0.01707494 -0.9972545 0.06849437 0.02814286 -0.9772334 0.2110852 0.02140611 -1.89137e-7 0.9742889 0.2253028 0.002723693 0.9993291 0.03652244 0.9972544 0.06849592 0.02814304 -0.9436175 0.3309184 -0.008901894 -0.002723753 -0.9993291 0.0365225 0.9436174 -0.3309184 -0.008901834 0.9414415 0.3371742 0.001316487 -0.9414415 -0.3371742 0.001316487 -0.006757378 -0.9996004 -0.02744698 0.006757318 0.9996004 -0.02744704 2.26051e-5 -0.8323137 0.5543049 1.31574e-7 -0.9742889 0.2253028 -0.9972544 -0.06849592 0.02814304 -0.7141066 -0.04574954 0.6985405 0.7162097 -0.04587811 0.6963756 -0.7162097 0.04587811 0.6963756 -2.26498e-5 0.8323137 0.554305 0.7141066 0.04574954 0.6985405</float_array>
+          <technique_common>
+            <accessor source="#Cilindro_003-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cilindro_003-mesh-map-0">
+          <float_array id="Cilindro_003-mesh-map-0-array" count="216">0.4468178 0.5663456 0.05122178 0.8159855 0.3694966 0.479263 0.446413 0.5658897 0.05081707 0.8155296 0.3690918 0.4788071 0.3690918 0.4788071 0.03899192 0.802285 0.3301663 0.4355008 0.4468178 0.5663456 0.08655136 0.8558484 0.07479912 0.8425393 0.3301663 0.4355008 0.72772 0.1375296 0.3690918 0.4788071 0.3305711 0.4359567 0.7281249 0.1379855 0.3694966 0.479263 0.3694966 0.479263 0.8281345 0.2506209 0.4468178 0.5663456 0.3690918 0.4788071 0.8277297 0.2501651 0.446413 0.5658897 0.446413 0.5658897 0.8773922 0.3067869 0.4848089 0.6096662 0.4468178 0.5663456 0.877797 0.3072427 0.4852137 0.6101221 0.3301663 0.4355008 0.6773726 0.0815159 0.72772 0.1375296 0.3305711 0.4359567 0.6777775 0.08197176 0.7281249 0.1379855 0.3694966 0.479263 0.7281249 0.1379855 0.8281345 0.2506209 0.3690918 0.4788071 0.72772 0.1375296 0.8277297 0.2501651 0.446413 0.5658897 0.8277297 0.2501651 0.8773922 0.3067869 0.4468178 0.5663456 0.8281345 0.2506209 0.877797 0.3072427 0.05122178 0.8159855 0.03939676 0.8027409 0.03939676 0.8027409 0.07439428 0.8420834 0.08614665 0.8553926 0.07439428 0.8420834 0.07479912 0.8425393 0.05122178 0.8159855 0.05122178 0.8159855 0.07439428 0.8420834 0.05081707 0.8155296 0.05081707 0.8155296 0.446413 0.5658897 0.08614665 0.8553926 0.07439428 0.8420834 0.3694966 0.479263 0.03939676 0.8027409 0.3305711 0.4359567 0.07479912 0.8425393 0.08655136 0.8558484 0.07479912 0.8425393 0.05081707 0.8155296 0.03899192 0.802285 0.03899192 0.802285 0.4468178 0.5663456 0.07479912 0.8425393 0.05122178 0.8159855 0.446413 0.5658897 0.07439428 0.8420834 0.05081707 0.8155296 0.3690918 0.4788071 0.05081707 0.8155296 0.03899192 0.802285 0.4468178 0.5663456 0.4852137 0.6101221 0.08655136 0.8558484 0.05122178 0.8159855 0.05122178 0.8159855 0.03939676 0.8027409 0.07439428 0.8420834 0.08614665 0.8553926 0.08614665 0.8553926 0.07479912 0.8425393 0.07479912 0.8425393 0.05122178 0.8159855 0.07439428 0.8420834 0.07439428 0.8420834 0.05081707 0.8155296 0.446413 0.5658897 0.4848089 0.6096662 0.08614665 0.8553926 0.3694966 0.479263 0.05122178 0.8159855 0.03939676 0.8027409 0.07479912 0.8425393 0.08655136 0.8558484 0.08655136 0.8558484 0.05081707 0.8155296 0.05081707 0.8155296 0.03899192 0.802285</float_array>
+          <technique_common>
+            <accessor source="#Cilindro_003-mesh-map-0-array" count="108" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cilindro_003-mesh-colors-Col" name="Col">
+          <float_array id="Cilindro_003-mesh-colors-Col-array" count="432">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cilindro_003-mesh-colors-Col-array" count="108" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cilindro_003-mesh-vertices">
+          <input semantic="POSITION" source="#Cilindro_003-mesh-positions"/>
+        </vertices>
+        <triangles material="Materiais_002-material" count="36">
+          <input semantic="VERTEX" source="#Cilindro_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cilindro_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cilindro_003-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#Cilindro_003-mesh-colors-Col" offset="3" set="0"/>
+          <p>5 0 0 0 13 1 1 1 4 2 2 2 2 3 3 3 15 4 4 4 1 5 5 5 1 5 6 6 16 6 7 7 0 7 8 8 5 0 9 9 16 6 10 10 17 8 11 11 0 7 12 12 10 9 13 13 1 5 14 14 3 10 15 15 7 11 16 16 4 2 17 17 4 2 18 18 11 12 19 19 5 0 20 20 1 5 21 21 6 13 22 22 2 3 23 23 2 3 24 24 8 14 25 25 3 10 26 26 5 0 27 27 9 15 28 28 0 7 29 29 0 7 30 30 9 15 31 31 10 9 32 32 3 10 33 33 8 14 34 34 7 11 35 35 4 2 36 36 7 11 37 37 11 12 38 38 1 5 39 39 10 9 40 40 6 13 41 41 2 3 42 42 6 13 43 43 8 14 44 44 5 0 45 45 11 12 46 46 9 15 47 47 13 1 48 48 18 16 49 49 12 17 50 50 14 18 51 51 18 16 52 52 20 19 53 53 17 8 54 54 19 20 55 55 13 1 56 56 14 18 57 57 21 21 58 58 15 4 59 59 2 3 60 60 12 17 61 61 14 18 62 62 4 2 63 63 12 17 64 64 3 10 65 65 17 8 66 66 22 22 67 67 23 23 68 68 15 4 69 69 22 22 70 70 16 6 71 71 5 0 72 72 17 8 73 73 13 1 74 74 2 3 75 75 14 18 76 76 15 4 77 77 1 5 78 78 15 4 79 79 16 6 80 80 5 0 81 81 0 7 82 82 16 6 83 83 13 1 84 84 19 20 85 85 18 16 86 86 14 18 87 87 12 17 88 88 18 16 89 89 17 8 90 90 23 23 91 91 19 20 92 92 14 18 93 93 20 19 94 94 21 21 95 95 2 3 96 96 3 10 97 97 12 17 98 98 4 2 99 99 13 1 100 100 12 17 101 101 17 8 102 102 16 6 103 103 22 22 104 104 15 4 105 105 21 21 106 106 22 22 107 107</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="knife_blade" name="knife_blade" type="NODE">
+        <matrix sid="transform">-2.484987 -3.0116e-7 0 0 3.75223e-7 -1.994491 0 -0.003043383 0 0 1.45312 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cilindro_003-mesh" name="knife_blade">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiais_002-material" target="#Materiais_002-material">
+                <bind_vertex_input semantic="Cilindro_003-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
