@@ -12,9 +12,9 @@
   <group> 
     <variant frequency="100" name="Base">
       <textures>
-        <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
-        <texture file="structural/maya_protoclassic_struct_norm.png" name="normTex"/>
-        <texture file="structural/maya_protoclassic_struct_spec.png" name="specTex"/>
+        <texture file="structural/maya_protoclassic/struct.png" name="baseTex"/>
+        <texture file="structural/maya_protoclassic/struct_norm.png" name="normTex"/>
+        <texture file="structural/maya_protoclassic/struct_spec.png" name="specTex"/>
         <texture file="structural/ao/mayas/roof_dock.png" name="aoTex"/>
       </textures>
     </variant>

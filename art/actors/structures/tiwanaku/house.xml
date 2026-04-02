@@ -5,36 +5,36 @@
     <variant frequency="1" name="celt house a">
       <mesh>structural/tiwanaku/house_1.dae</mesh>
        <textures>
-        <texture file="structural/tihua_struct.png" name="baseTex"/>
-        <texture file="structural/tihua_struct_spec.png" name="specTex"/>
-        <texture file="structural/tihua_struct_norm.png" name="normTex"/>
+        <texture file="structural/tiwa/struct.png" name="baseTex"/>
+        <texture file="structural/tiwa/struct_spec.png" name="specTex"/>
+        <texture file="structural/tiwa/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/tiwanaku/house_01.png" name="aoTex"/>
 	  </textures>
     </variant>
     <variant frequency="1" name="celt house b">
       <mesh>structural/tiwanaku/house_2.dae</mesh>
       <textures>
-        <texture file="structural/tihua_struct.png" name="baseTex"/>
-        <texture file="structural/tihua_struct_spec.png" name="specTex"/>
-        <texture file="structural/tihua_struct_norm.png" name="normTex"/>
+        <texture file="structural/tiwa/struct.png" name="baseTex"/>
+        <texture file="structural/tiwa/struct_spec.png" name="specTex"/>
+        <texture file="structural/tiwa/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/tiwanaku/house_02.png" name="aoTex"/>
 	  </textures>
     </variant>
     <variant frequency="1" name="celt house c">
       <mesh>structural/tiwanaku/house_3.dae</mesh>
       <textures>
-        <texture file="structural/tihua_struct.png" name="baseTex"/>
-        <texture file="structural/tihua_struct_spec.png" name="specTex"/>
-        <texture file="structural/tihua_struct_norm.png" name="normTex"/>
+        <texture file="structural/tiwa/struct.png" name="baseTex"/>
+        <texture file="structural/tiwa/struct_spec.png" name="specTex"/>
+        <texture file="structural/tiwa/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/tiwanaku/house_03.png" name="aoTex"/>
 	  </textures>
     </variant>
      <variant frequency="1" name="celt house d">
       <mesh>structural/tiwanaku/house_4.dae</mesh>
       <textures>
-        <texture file="structural/tihua_struct.png" name="baseTex"/>
-        <texture file="structural/tihua_struct_spec.png" name="specTex"/>
-        <texture file="structural/tihua_struct_norm.png" name="normTex"/>
+        <texture file="structural/tiwa/struct.png" name="baseTex"/>
+        <texture file="structural/tiwa/struct_spec.png" name="specTex"/>
+        <texture file="structural/tiwa/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/tiwanaku/house_04.png" name="aoTex"/>
 	  </textures>
     </variant>

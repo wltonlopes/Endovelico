@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
       <Civ>tiwa</Civ>
-    <GenericName> </GenericName>
-    <SpecificName> </SpecificName>
+    <GenericName>King High Priest</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/moch/hero_general.png</Icon>
   </Identity>
   <VisualActor>

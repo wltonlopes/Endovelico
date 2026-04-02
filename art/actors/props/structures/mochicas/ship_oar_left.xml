@@ -6,7 +6,7 @@
     <variant frequency="1" name="ship_oar">
       <mesh>props/kush_oar.dae</mesh>
       <textures>
-        <texture file="structural/moch/moch_struct.png" name="baseTex"/>
+        <texture file="structural/moch/struct.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_axeman">
   <Identity>
     <Civ>tiwa</Civ>
-    <GenericName>Monarch</GenericName>
-    <SpecificName>Monarch</SpecificName>
+    <GenericName>King High Priest</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/moch/hero_lord.png</Icon>
   </Identity>
   <VisualActor>

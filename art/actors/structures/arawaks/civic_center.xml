@@ -12,9 +12,9 @@
         <prop actor="particle/flame.xml" attachpoint="fire_02"/>
       </props>
       <textures>
-        <texture file="structural/araw_struct.png" name="baseTex"/>
-        <texture file="structural/araw_struct_spec.png" name="specTex"/>
-        <texture file="structural/araw_struct_norm.png" name="normTex"/>
+        <texture file="structural/araw/struct.png" name="baseTex"/>
+        <texture file="structural/araw/struct_spec.png" name="specTex"/>
+        <texture file="structural/araw/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/araw/cc.png" name="aoTex"/>
       </textures>
     </variant>

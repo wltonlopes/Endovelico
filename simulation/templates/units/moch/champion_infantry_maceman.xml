@@ -2,8 +2,7 @@
 <Entity parent="template_unit_champion_infantry_maceman">
     <Identity>
         <Civ>moch</Civ>
-        <GenericName>Warrior</GenericName>
-        <SpecificName />
+        <GenericName>Ritual Fighters</GenericName>
         <SelectionGroupName>units/moch/champion_infantry</SelectionGroupName>
         <Icon>units/moch/champion_infantry_maceman.png</Icon>
         <Requirements>

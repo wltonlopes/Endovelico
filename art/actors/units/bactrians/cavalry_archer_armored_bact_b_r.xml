@@ -13,6 +13,7 @@
       <textures>
         <texture file="skeletal/ital/linothorax_01_01.png" name="baseTex"/>
         <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>

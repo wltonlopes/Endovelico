@@ -9,7 +9,7 @@
         <prop actor="units/mapuches/canoe_navigator.xml" attachpoint="01"/>	   
       </props>
       <textures>
-        <texture file="structural/mapu_struct.png" name="baseTex"/>
+        <texture file="structural/mapu/struct.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

@@ -7,9 +7,9 @@
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/tihua_struct.png" name="baseTex"/>
-        <texture file="structural/tihua_struct_spec.png" name="specTex"/>
-        <texture file="structural/tihua_struct_norm.png" name="normTex"/>
+        <texture file="structural/tiwa/struct.png" name="baseTex"/>
+        <texture file="structural/tiwa/struct_spec.png" name="specTex"/>
+        <texture file="structural/tiwa/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/tiwanaku/storehouse.png" name="aoTex"/>
       </textures>
     </variant>
