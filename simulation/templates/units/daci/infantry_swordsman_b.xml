@@ -3,7 +3,7 @@
     <Civ>daci</Civ>
     <SelectionGroupName>units/daci/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Dacian Swordsman</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

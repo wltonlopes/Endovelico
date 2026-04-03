@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>scyth</Civ>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static width="7.0" depth="8.0"/>

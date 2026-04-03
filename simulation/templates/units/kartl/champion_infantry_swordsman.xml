@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kartl</Civ>
     <GenericName>Triballi Tribesmen</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/champion_infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

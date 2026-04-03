@@ -3,7 +3,7 @@
     <Civ>kartl</Civ>
     <SelectionGroupName>units/kartl/infantry_slinger_b</SelectionGroupName>
     <GenericName>Highland Slinger</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

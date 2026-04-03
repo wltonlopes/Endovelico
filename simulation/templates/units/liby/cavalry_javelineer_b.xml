@@ -3,7 +3,7 @@
   <Identity>
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName/>
+
     <Icon>units/gara/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>

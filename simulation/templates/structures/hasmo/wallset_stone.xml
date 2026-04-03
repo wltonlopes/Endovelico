@@ -2,7 +2,7 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName/>
+
   </Identity>
   <WallSet>
     <Templates>

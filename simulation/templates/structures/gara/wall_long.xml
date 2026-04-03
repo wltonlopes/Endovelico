@@ -7,7 +7,7 @@
   <Identity>
     <Civ>gara</Civ>
     <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static width="36.0" depth="7.0"/>

@@ -2,7 +2,7 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Thracian Royal Cavalry</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/arme/champion_cavalry</SelectionGroupName>
   </Identity>

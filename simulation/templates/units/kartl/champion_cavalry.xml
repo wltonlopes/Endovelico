@@ -2,7 +2,7 @@
   <Identity>
     <Civ>kartl</Civ>
     <GenericName>Thracian Royal Cavalry</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/kartl/champion_cavalry</SelectionGroupName>
   </Identity>

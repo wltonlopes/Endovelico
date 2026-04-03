@@ -5,7 +5,7 @@
   </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static width="13.5" depth="13.5"/>

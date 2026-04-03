@@ -3,7 +3,7 @@
     <Civ>dalm</Civ>
     <SelectionGroupName>units/dalm/infantry_spearman_b</SelectionGroupName>
     <GenericName>Thracian Spearman</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

@@ -4,7 +4,7 @@
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_spearman_b</SelectionGroupName>
     <GenericName>Libyan Spearman</GenericName>
-    <SpecificName/>
+
     <Icon>units/gara/infantry_spearman_desert.png</Icon>
   </Identity>
   <Promotion>

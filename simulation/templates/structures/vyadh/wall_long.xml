@@ -7,7 +7,7 @@
   <Identity>
     <Civ>vyadh</Civ>
     <SelectionGroupName>structures/vyadh/wallset_stone</SelectionGroupName>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static width="41.0" depth="7.0"/>

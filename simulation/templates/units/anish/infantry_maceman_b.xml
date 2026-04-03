@@ -10,7 +10,7 @@
     <Civ>anish</Civ>
     <SelectionGroupName>units/infantry_maceman_b</SelectionGroupName>
     <GenericName>Clubman Allied</GenericName>
-    <SpecificName/>
+
     <Icon>units/south_america/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>

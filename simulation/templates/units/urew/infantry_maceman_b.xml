@@ -10,7 +10,7 @@
     <Civ>urew</Civ>
     <SelectionGroupName>units/infantry_maceman_b</SelectionGroupName>
     <GenericName>Clubman</GenericName>
-    <SpecificName/>
+
     <Icon>units/south_america/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>

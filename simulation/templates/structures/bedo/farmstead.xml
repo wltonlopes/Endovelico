@@ -5,7 +5,7 @@
   </Footprint>
   <Identity>
     <Civ>bedo</Civ>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static width="17.5" depth="21.5"/>

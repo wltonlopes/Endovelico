@@ -4,7 +4,7 @@
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
     <GenericName>Judean Royal Guard</GenericName>
-    <SpecificName/>
+
     <Icon>units/hasmo/champion_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

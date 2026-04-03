@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="Base">
-      <mesh>props/shields/shield_eight_front.dae</mesh>
+      <mesh>props/shield/shield_eight_front.dae</mesh>
       <props>
         <prop actor="props/units/shields/shield_eight_back.xml" attachpoint="root"/>
       </props>

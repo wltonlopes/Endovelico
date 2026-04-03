@@ -18,7 +18,7 @@
   <Identity>
     <Civ>anish</Civ>
     <GenericName>sawgee</GenericName>
-    <SpecificName/>
+
     <Classes datatype="tokens">
       ConquestCritical
       CivSpecific

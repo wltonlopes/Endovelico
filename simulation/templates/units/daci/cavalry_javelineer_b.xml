@@ -3,7 +3,7 @@
     <Civ>daci</Civ>
     <GenericName>Dacian Cavalry Skirmisher</GenericName>
     <SelectionGroupName>units/daci/cavalry_javelineer_b</SelectionGroupName>
-    <SpecificName/>
+
     <Icon>units/thra/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>

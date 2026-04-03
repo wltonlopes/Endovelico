@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName/>
+
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

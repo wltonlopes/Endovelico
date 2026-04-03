@@ -3,7 +3,7 @@
     <Civ>daci</Civ>
     <SelectionGroupName>units/daci/infantry_spearman_b</SelectionGroupName>
     <GenericName>Dacian Spearman</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

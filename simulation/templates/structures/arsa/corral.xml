@@ -5,7 +5,7 @@
   </Footprint>
   <Identity>
     <Civ>arsa</Civ>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static width="13.5" depth="18.5"/>

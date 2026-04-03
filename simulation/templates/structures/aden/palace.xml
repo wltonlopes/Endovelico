@@ -18,7 +18,7 @@
   <Identity>
     <Civ>aden</Civ>
     <GenericName>House of the King</GenericName>
-    <SpecificName/>
+
     <Classes datatype="tokens">
       ConquestCritical
       CivSpecific

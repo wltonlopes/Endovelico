@@ -2,7 +2,7 @@
   <Identity>
     <Civ>dalm</Civ>
     <GenericName>Thracian Royal Cavalry</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/dalm/champion_cavalry</SelectionGroupName>
   </Identity>

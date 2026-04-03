@@ -3,7 +3,7 @@
   <Identity>
     <Civ>dalm</Civ>
     <GenericName>Thracian Hoplite</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

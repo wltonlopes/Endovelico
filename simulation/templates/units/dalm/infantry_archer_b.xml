@@ -3,7 +3,7 @@
     <Civ>dalm</Civ>
     <SelectionGroupName>units/dalm/infantry_archer_b</SelectionGroupName>
     <GenericName>Thracian Archer</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

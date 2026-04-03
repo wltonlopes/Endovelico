@@ -9,7 +9,7 @@
   </Footprint>
   <Identity>
     <Civ>vyadh</Civ>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static depth="27.5" width="27.5"/>

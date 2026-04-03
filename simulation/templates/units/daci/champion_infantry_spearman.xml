@@ -3,7 +3,7 @@
   <Identity>
     <Civ>daci</Civ>
     <GenericName>Dacian Hoplite</GenericName>
-    <SpecificName/>
+
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

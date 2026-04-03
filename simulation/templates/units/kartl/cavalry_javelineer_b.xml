@@ -3,7 +3,7 @@
     <Civ>kartl</Civ>
     <GenericName>Thracian Cavalry Skirmisher</GenericName>
     <SelectionGroupName>units/kartl/cavalry_javelineer_b</SelectionGroupName>
-    <SpecificName/>
+
     <Icon>units/thra/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>

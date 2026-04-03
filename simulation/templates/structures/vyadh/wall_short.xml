@@ -7,7 +7,7 @@
   <Identity>
     <Civ>vyadh</Civ>
     <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static width="12.5" depth="7.5"/>

@@ -4,7 +4,7 @@
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_slinger_b</SelectionGroupName>
     <GenericName>Libyan Slinger</GenericName>
-    <SpecificName/>
+
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

@@ -4,7 +4,7 @@
     <Civ>guara</Civ>
     <SelectionGroupName>units/guara/infantry_spearman_b</SelectionGroupName>
     <GenericName>Guarani Spearman</GenericName>
-    <SpecificName/>
+
     <Icon>units/south_america/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

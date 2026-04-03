@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>kartl</Civ>
-    <GenericName>Thracian Hoplite</GenericName>
-    <SpecificName/>
+    <GenericName>Hoplite</GenericName>
+
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

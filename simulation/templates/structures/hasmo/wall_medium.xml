@@ -7,7 +7,7 @@
   <Identity>
     <Civ>hasmo</Civ>
     <SelectionGroupName>structures/hasmo/wallset_stone</SelectionGroupName>
-    <SpecificName/>
+
   </Identity>
   <Obstruction>
     <Static width="27.0" depth="8.0"/>
