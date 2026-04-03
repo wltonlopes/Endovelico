@@ -1,4 +1,4 @@
-<Entity parent="units/cyre/support_civilian">
+<Entity parent="units/syrac/support_civilian">
   <Cost>
     <BuildTime>30</BuildTime>
   </Cost>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
-    <Civ>cyre</Civ>
+    <Civ>syrac</Civ>
 	<Lang>greek</Lang>
     <SelectionGroupName>units/theb/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Theban Cavalry</GenericName>

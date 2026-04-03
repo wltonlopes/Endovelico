@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_healer">
   <Identity>
-    <Civ>cyre</Civ>
+    <Civ>syrac</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/theb/support_healer_b</SelectionGroupName>
     <GenericName>Priest</GenericName>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_stonethrower">
   <Identity>
-    <Civ>cyre</Civ>
+    <Civ>syrac</Civ>
     <SpecificName>Lithobólos</SpecificName>
     <Icon>units/hele/siege_lithobolos_packed.png</Icon>
   </Identity>

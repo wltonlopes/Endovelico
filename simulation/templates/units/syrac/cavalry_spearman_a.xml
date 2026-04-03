@@ -1,4 +1,4 @@
-<Entity parent="units/cyre/cavalry_spearman_b">
+<Entity parent="units/syrac/cavalry_spearman_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>

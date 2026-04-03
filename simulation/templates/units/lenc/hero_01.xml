@@ -3,7 +3,6 @@
   <Identity>
     <Civ>lenc</Civ>
     <GenericName>King</GenericName>
-    <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/mapu/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>
@@ -12,6 +11,6 @@
     <WalkSpeed op="mul">1.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>actor|units/lencas/hero_infantry_heavy_spearman.xml</Actor>
+    <Actor>units/lencas/hero_infantry_heavy_spearman.xml</Actor>
   </VisualActor>
 </Entity>

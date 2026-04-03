@@ -1,4 +1,4 @@
-<Entity parent="units/cyre/siege_lithobolos_packed">
+<Entity parent="units/syrac/siege_lithobolos_packed">
   <Identity>
     <Icon>units/hele/siege_lithobolos.png</Icon>
   </Identity>

@@ -1,4 +1,4 @@
-<Entity parent="units/cyre/siege_oxybeles_packed">
+<Entity parent="units/syrac/siege_oxybeles_packed">
   <Identity>
     <Icon>units/hele/siege_oxybeles.png</Icon>
   </Identity>

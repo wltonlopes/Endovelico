@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Identity>
-    <Civ>cyre</Civ>
+    <Civ>syrac</Civ>
 	<Lang>greek</Lang>
     <SelectionGroupName>units/theb/infantry_slinger_b</SelectionGroupName>
     <GenericName>Theban Light Militia</GenericName>

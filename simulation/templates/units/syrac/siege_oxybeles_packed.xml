@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_boltshooter">
   <Identity>
-    <Civ>cyre</Civ>
+    <Civ>syrac</Civ>
     <SpecificName>Oxybelḗs</SpecificName>
     <Icon>units/hele/siege_oxybeles_packed.png</Icon>
   </Identity>

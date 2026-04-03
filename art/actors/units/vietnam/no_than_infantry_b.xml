@@ -3,28 +3,29 @@
   <castshadow/>
   <group>
     <variant file="biped/base_operator_shoushe_02.xml">
-      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/quivers/han_bolt_quiver.xml" attachpoint="back"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/maur/skirt_01_spec.png" name="specTex"/>
+      </textures>
     </variant>
   </group>
-  <group>
-    <variant file="clothes/han/uniform_a_03.xml"/>
-    <variant file="clothes/han/uniform_a_04.xml"/>
+  <group> 
+    <variant frequency="1" name="padded_01_06">
+      <textures>
+        <texture file="skeletal/viet/im_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="cap-var">
-      <props>
+      <!-- <props>
         <prop actor="props/units/helmets/han_cap.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="open_helmet">
-      <props>
-        <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/han_advanced_melee_helmet.xml" attachpoint="helmet"/>
-      </props>
+      </props> -->
     </variant>
   </group>
   <group>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="hoplite|template_unit_champion_infantry_spearman">
   <Identity>
-    <Civ>cyre</Civ>
+    <Civ>syrac</Civ>
 	<Lang>greek</Lang>
 	<GenericName>Sacred Band Hoplite</GenericName>
     <SpecificName>Hieròs Lókhos Hoplī́tēs</SpecificName>

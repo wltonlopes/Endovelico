@@ -1,4 +1,4 @@
-<Entity parent="units/cyre/infantry_slinger_b">
+<Entity parent="units/syrac/infantry_slinger_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>

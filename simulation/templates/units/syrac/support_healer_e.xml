@@ -1,4 +1,4 @@
-<Entity parent="units/cyre/support_healer_a">
+<Entity parent="units/syrac/support_healer_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>

@@ -1,4 +1,4 @@
-<Entity parent="units/cyre/cavalry_javelineer_b">
+<Entity parent="units/syrac/cavalry_javelineer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>

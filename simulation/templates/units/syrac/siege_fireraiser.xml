@@ -31,7 +31,7 @@
     <RegenRate>-5</RegenRate>
   </Health>
   <Identity>
-    <Civ>cyre</Civ>
+    <Civ>syrac</Civ>
 	<Lang>greek</Lang>
     <GenericName>Fire Raiser</GenericName>
     <SpecificName>Pyrobolos</SpecificName>

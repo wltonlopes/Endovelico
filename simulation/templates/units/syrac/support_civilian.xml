@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_civilian">
   <Identity>
-    <Civ>cyre</Civ>
+    <Civ>syrac</Civ>
 	<Lang>greek</Lang>
     <SpecificName>Gýnē Thebaïkós</SpecificName>
     <GenericName>Theban Villager</GenericName>
