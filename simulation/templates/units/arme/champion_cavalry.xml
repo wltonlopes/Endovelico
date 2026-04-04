@@ -1,9 +1,8 @@
-<Entity parent="template_unit_champion_cavalry_spearman">
+<Entity parent="cataphract|template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>arme</Civ>
-    <GenericName>Thracian Royal Cavalry</GenericName>
-
-    <Icon>units/thra/champion_cavalry_spearman.png</Icon>
+    <GenericName>Royal Cavalry</GenericName>
+    <Icon>units/pers/champion_cavalry.png</Icon>
     <SelectionGroupName>units/arme/champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>

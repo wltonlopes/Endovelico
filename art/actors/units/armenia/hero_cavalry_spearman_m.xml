@@ -5,10 +5,16 @@
     <variant>
       <mesh>skeletal/horse_persian.dae</mesh>
       <props>
-        <prop actor="units/persians/cavalry_javelinist_a_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
+        <prop actor="units/armenia/hero_cavalry_spearman_r.xml" attachpoint="rider"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Cataphract-Armor-01">
+      <props>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_armor_iber.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -22,14 +28,9 @@
     <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
   </group>
   <group>
-    <variant file="quadraped/base_horse_javelin.xml" name="Javelinist-Horse" frequency="1"/>
+    <variant file="quadraped/base_horse_pace.xml" name="Horse-Pace" frequency="1"/>
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
-    <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
-      <props>
-        <prop actor="units/persians/cavalry_javelinist_a_r.xml" attachpoint="rider_R"/>
-      </props>
-    </variant>
   </group>
   <material>no_trans_parallax_spec.xml</material>
 </actor>

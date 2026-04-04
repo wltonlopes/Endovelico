@@ -16,12 +16,12 @@
       <mesh>structural/pers_chariot_e.dae</mesh>
       <props>
         <prop actor="props/units/pers_chariot_e_emblem.xml" attachpoint="root"/>
-        <prop actor="units/persians/chariot_archer_e_h1.xml" attachpoint="horse1"/>
-        <prop actor="units/persians/chariot_archer_e_h2.xml" attachpoint="horse2"/>
-        <prop actor="units/persians/chariot_archer_e_h3.xml" attachpoint="horse3"/>
-        <prop actor="units/persians/chariot_archer_e_h4.xml" attachpoint="horse4"/>
-        <prop actor="units/persians/chariot_archer_e_r.xml" attachpoint="rider1"/>
-        <prop actor="units/persians/chariot_archer_e_d.xml" attachpoint="driver1"/>
+        <prop actor="units/armenia/chariot_archer_e_h1.xml" attachpoint="horse1"/>
+        <prop actor="units/armenia/chariot_archer_e_h2.xml" attachpoint="horse2"/>
+        <prop actor="units/armenia/chariot_archer_e_h3.xml" attachpoint="horse3"/>
+        <prop actor="units/armenia/chariot_archer_e_h4.xml" attachpoint="horse4"/>
+        <prop actor="units/armenia/chariot_archer_e_r.xml" attachpoint="rider1"/>
+        <prop actor="units/armenia/chariot_archer_e_d.xml" attachpoint="driver1"/>
       </props>
       <textures>
         <texture file="structural/pers_chariot_e.png" name="baseTex"/>

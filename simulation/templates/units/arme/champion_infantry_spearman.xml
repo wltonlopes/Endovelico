@@ -3,7 +3,6 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Champion Spearman</GenericName>
-    <SpecificName></SpecificName>
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
@@ -13,6 +12,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/armenia/cavalry_spearman_c_m.xml</Actor>
+    <Actor>units/armenia/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

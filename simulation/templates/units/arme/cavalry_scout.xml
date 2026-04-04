@@ -3,7 +3,7 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Armenian Scout</GenericName>
-    <Icon>units/arme/cavalry_scout.png</Icon>
+    <Icon>units/pers/cavalry_scout.png</Icon>
     <Tooltip>Research technologies.</Tooltip>
   </Identity>
   <VisualActor>

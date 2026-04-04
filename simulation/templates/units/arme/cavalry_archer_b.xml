@@ -1,0 +1,14 @@
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Identity>
+    <Civ>arme</Civ>
+    <GenericName>Armenia Cavalry Skirmisher</GenericName>
+    <SelectionGroupName>units/arme/cavalry_archer_b</SelectionGroupName>
+    <Icon>units/pers/cavalry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/arme/cavalry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/armenia/cavalry_archer_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

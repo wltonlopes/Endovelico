@@ -3,8 +3,7 @@
     <Civ>arme</Civ>
     <SelectionGroupName>units/arme/infantry_spearman_b</SelectionGroupName>
     <GenericName>Armenia Spearman</GenericName>
-
-    <Icon>units/thra/infantry_spearman.png</Icon>
+   <Icon>units/thra/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/arme/infantry_spearman_a</Entity>

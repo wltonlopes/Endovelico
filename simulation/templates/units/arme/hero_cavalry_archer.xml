@@ -9,6 +9,6 @@
     <Icon>units/mace/hero_philip.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/armenia/chariot_archer_h_m.xml</Actor>
+    <Actor>units/armenia/hero_chariot_archer_m.xml</Actor>
   </VisualActor>
 </Entity>

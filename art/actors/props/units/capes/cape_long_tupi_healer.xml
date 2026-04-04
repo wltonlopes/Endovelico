@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>props/new/capes/cape_hd_long.dae</mesh>
+      <textures>
+        <texture file="props/cape_tupi.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_healer_male.xml" name="Healer-Male" frequency="1"/>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle">
+      <animations>
+        <animation file="biped/infantry/promotion.dae" name="idle" speed="100"/>
+      </animations>
+    </variant>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/cape_attack_slaughter.xml"/>
+    <variant file="biped/cape_gather_tree.xml"/>
+    <variant file="biped/cape_gather_grain.xml"/>
+    <variant file="biped/cape_gather_fruit.xml"/>
+    <variant file="biped/cape_gather_meat.xml"/>
+    <variant file="biped/cape_gather_rock.xml"/>
+    <variant file="biped/cape_gather_ore.xml"/>
+    <variant file="biped/cape_gather_ruins.xml"/>
+    <variant file="biped/cape_gather_praise.xml"/>
+    <variant file="biped/cape_build.xml"/>
+    <variant file="biped/cape_build_farm.xml"/>
+    <variant file="biped/death_cape.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

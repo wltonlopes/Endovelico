@@ -2,11 +2,11 @@
 <Entity parent="template_structure_special_theater">
   <Identity>
     <Civ>arsa</Civ>
-    <SpecificName>anfitheater</SpecificName>
+    <SpecificName>caravasar</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <VisualActor>
-    <Actor>structures/arsacid/casavesar.xml</Actor>
+    <Actor>structures/arsacid/caravasar.xml</Actor>
     <FoundationActor>structures/fndn_theater.xml</FoundationActor>
   </VisualActor>
 </Entity>

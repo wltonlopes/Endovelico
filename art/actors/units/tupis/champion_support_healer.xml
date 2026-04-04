@@ -2,13 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_healer_male.xml">
+    <variant file="biped/base_healer_male.xml" name="Healer-Male" frequency="1">
+      <animations>
+        <animation file="biped/infantry/promotion.dae" name="heal" speed="100"/>
+      </animations>
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
         <prop actor="props/units/heads/tupi_male_old.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/helmet_tupi_cocar.xml" attachpoint="head"/>
         <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/capes/cape_long_tupi.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/cape_long_tupi_healer.xml" attachpoint="root"/>
 	  </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -39,7 +42,12 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant frequency="100" name="Idle">
+      <animations>
+        <animation file="biped/infantry/promotion.dae" name="idle" speed="100"/>
+        <animation file="biped/infantry/promotion.dae" name="idle" speed="50"/>
+      </animations>
+    </variant>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/death_infantry.xml">
