@@ -10,44 +10,33 @@
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
-        <prop actor="props/units/shields/pers_pelta_e_reverse.xml" attachpoint="back"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic-1a">
+    <variant frequency="1" name="scyth-tunic-coat-01-01">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_01.png" name="baseTex"/>
+        <texture file="skeletal/scyth/tunic_coat_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-1b">
+    <variant frequency="1" name="scyth-tunic-coat-01-02">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_02.png" name="baseTex"/>
+        <texture file="skeletal/scyth/tunic_coat_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-1c">
+    <variant frequency="1" name="scyth-tunic-coat-01-03">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_03.png" name="baseTex"/>
+        <texture file="skeletal/scyth/tunic_coat_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-1d">
+    <variant frequency="3" name="tunic-basic-1g">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_04.png" name="baseTex"/>
+        <texture file="skeletal/pers/tunic_basic_01_07.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-1e">
+    <variant frequency="3" name="tunic-basic-1h">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_05.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-1f">
-      <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_06.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-1g">
-      <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_07.png" name="baseTex"/>
+        <texture file="skeletal/pers/tunic_basic_01_08.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

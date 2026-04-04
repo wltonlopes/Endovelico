@@ -9,10 +9,10 @@
   </Auras>
   <Identity>
     <Civ>arme</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Artaxias I</SpecificName>
     <Icon>units/mace/hero_demetrius.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/thracians/hero_infantry_swordsman.xml</Actor>
+    <Actor>units/armenia/hero_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

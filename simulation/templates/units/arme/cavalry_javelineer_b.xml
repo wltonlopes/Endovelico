@@ -3,7 +3,6 @@
     <Civ>arme</Civ>
     <GenericName>Armenia Cavalry Skirmisher</GenericName>
     <SelectionGroupName>units/arme/cavalry_javelineer_b</SelectionGroupName>
-
     <Icon>units/thra/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>

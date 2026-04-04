@@ -6,7 +6,6 @@
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/celt_helmet_berru_01.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/aspis_player_color.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/spear_ball.xml" attachpoint="weapon_R"/>
       </props>
@@ -16,6 +15,18 @@
       </textures>
     </variant>
   </group>
+    <group>
+      <variant frequency="1" name="h1">
+        <props>
+        <prop actor="props/units/helmets/hele_chalcidean_b4.xml" attachpoint="helmet"/>
+        </props>
+      </variant>
+      <variant frequency="1" name="h2">
+        <props>
+        <prop actor="props/units/helmets/arabs/helmet_arab_metal.xml" attachpoint="helmet"/>
+        </props>
+      </variant>
+    </group>
   <group>
     <variant frequency="1" name="tunic_advanced_02_03">
       <textures>

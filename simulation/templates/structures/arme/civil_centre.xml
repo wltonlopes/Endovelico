@@ -9,7 +9,8 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_infantry_spearman
+      units/{civ}/hero_cavalry_spearman
+      units/{civ}/hero_cavalry_archer
       units/{civ}/hero_infantry_swordsman
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_javelineer_b

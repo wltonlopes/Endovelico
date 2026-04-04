@@ -2,43 +2,29 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" file="quadraped/base_camel_trader.xml">
-      <mesh>skeletal/camel.dae</mesh>
+    <variant frequency="1" name="Trader Cart">
+      <animations>
+        <animation file="mechanical/trader_cart_idle.dae" name="Idle" id="idle1" speed="80"/>
+        <animation file="mechanical/trader_cart_idle.dae" name="Idle" id="idle2" speed="80"/>
+        <animation file="mechanical/trader_cart_idle.dae" name="Idle" id="idle3" speed="80"/>
+        <animation file="mechanical/trader_cart_move.dae" name="Walk" speed="10"/>
+        <animation file="mechanical/trader_cart_move.dae" name="Run" speed="10"/>
+        <animation file="mechanical/trader_cart_idle.dae" name="Death" id="death1" speed="80"/>
+        <animation file="mechanical/trader_cart_idle.dae" name="Death" id="death2" speed="80"/>
+      </animations>
+      <mesh>skeletal/trader_cart.dae</mesh>
       <props>
-        <prop actor="props/units/pers_camel_props.xml" attachpoint="rider"/>
-        <prop actor="props/camel/teeths.xml" attachpoint="mouth_bot"/>
+        <prop actor="units/armenia/trader_h.xml" attachpoint="horse"/>
+        <prop actor="units/armenia/trader_r.xml" attachpoint="trader"/>
+        <prop actor="props/special/eyecandy/crate_a.xml" attachpoint="goodsa"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="goodsb"/>
       </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="3" name="Dark Brown">
       <textures>
-        <texture file="skeletal/animal_camel_a_belt.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="3" name="Beige">
-      <textures>
-        <texture file="skeletal/animal_camel_b_belt.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="3" name="Light Brown">
-      <textures>
-        <texture file="skeletal/animal_camel_c_belt.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="Idle"/>
-    <variant file="quadraped/base_camel_run.xml"/>
-    <variant file="quadraped/base_camel_death.xml"/>
-  </group>
-  <group>
-    <variant>
-      <textures>
+        <texture file="structural/rome_ram.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>no_trans_norm_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

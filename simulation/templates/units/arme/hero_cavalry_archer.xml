@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="chariot|template_unit_hero_cavalry_archer">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>arme</Civ>
+    <GenericName>Hero Chariot Archer</GenericName>
+    <SpecificName>Tigranes II</SpecificName>
+    <Icon>units/mace/hero_philip.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/armenia/chariot_archer_h_m.xml</Actor>
+  </VisualActor>
+</Entity>

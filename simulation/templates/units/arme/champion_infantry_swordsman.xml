@@ -3,7 +3,6 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Champion Swordsman</GenericName>
-
     <Icon>units/thra/champion_infantry_swordsman.png</Icon>
     <Tooltip>Train Champions and research technologies.</Tooltip>
     <Requirements>
@@ -14,6 +13,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/thracians/infantry_swordsman_c.xml</Actor>
+    <Actor>units/armenia/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

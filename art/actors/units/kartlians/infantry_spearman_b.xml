@@ -13,24 +13,24 @@
   <group>
     <variant name="kida-yellow-a">
       <props>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/hat_cauc.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="kidaris-tied-yellow-b">
       <props>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
       </props>
     </variant>
     <variant name="kidaris-tied-white-a">
       <props>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/hat_cauc.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant name="kidaris-tied-white-b">
       <props>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

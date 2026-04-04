@@ -20,7 +20,7 @@
   </group>
   <group>
     <variant frequency="100" name="tunic_01_01">
-      <textures>
+      <textures>hero_infantry_spearman
         <texture file="skeletal/moch/dress_female_01.png" name="baseTex"/>
       </textures>
     </variant>

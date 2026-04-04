@@ -8,13 +8,13 @@
   <group>
     <variant frequency="1" name="head_thrace">
       <props>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/xion_axe.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
     <variant frequency="1" name="head_thrace">
       <props>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/xion_axe.xml" attachpoint="weapon_R"/>
       </props>
     </variant>

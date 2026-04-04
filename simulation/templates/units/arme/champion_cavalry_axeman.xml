@@ -1,12 +1,11 @@
-<Entity parent="template_unit_champion_cavalry_spearman">
+<Entity parent="template_unit_champion_cavalry_axeman">
   <Identity>
     <Civ>arme</Civ>
-    <GenericName>Thracian Royal Cavalry</GenericName>
-
+    <GenericName>Armenian Axeman Cavalry</GenericName>
     <Icon>units/thra/champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/arme/champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/armenia/cavalry_spearman_c_m.xml</Actor>
+    <Actor>units/armenia/cavalry_axeman_c_m.xml</Actor>
   </VisualActor>
 </Entity>
