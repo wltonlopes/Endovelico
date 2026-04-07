@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="hoplite|template_unit_hero_infantry_spearman">
+  <!-- <Attack>
+    <Melee>
+	  <Bonuses>
+		<BonusSpartans>
+		  <Civ>spart</Civ>
+		  <Classes></Classes>
+		  <Multiplier>1.25</Multiplier>
+		</BonusSpartans>
+	  </Bonuses>
+    </Melee>
+  </Attack> -->
+  <Auras datatype="tokens">
+    units/heroes/theb_hero_epaminondas
+  </Auras>
+  <Identity>
+    <Civ>cyre</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Magas of Cyrene</GenericName>
+  <SpecificName>Magas of Cyrene</SpecificName>
+	<History>Was a Greek King of Cyrenaica. Through his mother’s second marriage to Ptolemy I he became a member of the Ptolemaic dynasty. He managed to wrest independence for Cyrenaica (in modern Libya) from the Greek Ptolemaic dynasty of Ancient Egypt, and became King of Cyrenaica from 276 BC to 250 BC.</History>
+    <Tooltip>.</Tooltip>
+    <Icon>units/theb/hero_epaminondas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/cyrene/hero_cavalry_spearman_arcesilaus_iv_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="hoplite|template_unit_hero_infantry_spearman">
-  <Attack>
+  <!-- <Attack>
     <Melee>
 	  <Bonuses>
 		<BonusSpartans>
@@ -10,7 +10,7 @@
 		</BonusSpartans>
 	  </Bonuses>
     </Melee>
-  </Attack>
+  </Attack> -->
   <Auras datatype="tokens">
     units/heroes/theb_hero_epaminondas
   </Auras>

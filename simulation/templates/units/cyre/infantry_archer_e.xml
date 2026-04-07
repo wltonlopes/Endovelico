@@ -1,9 +1,9 @@
-<Entity parent="units/cyre/infantry_slinger_a">
+<Entity parent="units/cyre/infantry_archer_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/athenians/infantry_slinger_e.xml</Actor>
+    <Actor>units/athenians/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

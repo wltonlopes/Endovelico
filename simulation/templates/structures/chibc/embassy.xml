@@ -27,7 +27,7 @@
     </Entities>
   </Trainer> -->
   <VisualActor>
-    <Actor>structures/maya_protoclassic/village.xml</Actor>
+    <Actor>structures/chibchas/village.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

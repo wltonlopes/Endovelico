@@ -2,17 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Base">
+    <variant frequency="100" name="Base_1">
+      <mesh>props/sanga_merc.dae</mesh>
       <textures>
         <texture file="props/urewe_props.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="Base_1">
-      <mesh>props/sanga_merc.dae</mesh>
     </variant>
   </group>
   <material>basic_trans_parallax_spec.xml</material>

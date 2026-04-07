@@ -5,7 +5,7 @@
     <variant name="Scythians Royal Yurt">
       <mesh>structural/scythians/royal_yurt.dae</mesh>
       <props>
-        <prop actor="props/structures/scythians/pot.xml" attachpoint="pot_a"/>
+        <!-- <prop actor="props/structures/scythians/pot.xml" attachpoint="pot_a"/>
         <prop actor="props/structures/scythians/pot.xml" attachpoint="pot_b"/>
         <prop actor="props/structures/scythians/jar.xml" attachpoint="pot_c"/>
         <prop actor="props/structures/scythians/chin_chest.xml" attachpoint="chest_a"/>
@@ -18,7 +18,7 @@
         <prop actor="props/structures/scythians/barrel.xml" attachpoint="barrel_e"/>
         <prop actor="props/structures/scythians/crate_large.xml" attachpoint="crate_a"/>
         <prop actor="props/structures/scythians/crate_large.xml" attachpoint="crate_b"/>
-        <prop actor="props/structures/scythians/crate_large.xml" attachpoint="crate_c"/>
+        <prop actor="props/structures/scythians/crate_large.xml" attachpoint="crate_c"/> -->
         <prop actor="props/structures/scythians/royal_yurt_decoration.xml" attachpoint="root"/>
         <prop actor="props/structures/scythians/royal_yurt_stairs.xml" attachpoint="stairs"/>
       </props>

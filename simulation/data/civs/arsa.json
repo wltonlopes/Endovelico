@@ -1,15 +1,24 @@
 ﻿{
     "Code": "arsa",
-    "Culture": "arsaaks",
+    "Culture": "ArsacidS",
     "Music": [
-        {
-            "File": "red_dawn.ogg",
-            "Type": "peace"
-        },
-        {
-            "File": "hill_of_sorrows.ogg",
-            "Type": "peace"
-        }
+		{
+			"File": "Eastern_Dreams.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Valley_of_the_Nile.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sands_of_Time.ogg",
+			"Type": "peace"
+		}
+
     ],
     "CivBonuses": [],
     "TeamBonuses": [],
@@ -38,25 +47,31 @@
             "Count": 1
         },
         {
-            "Template": "units/arsa/infantry_scout",
+            "Template": "units/arsa/camelry_scout",
             "Count": 1
         }
     ],
     "AINames": [
-        "Jimmu",
-        "Suizei",
-        "Annei",
-        "Itoku",
-        "Kosho",
-        "Koan",
-        "Korei",
-        "Kogen",
-        "Kaika",
-        "Suijin",
-        "Suinin"
+        "Arsaces I",
+        "Tiridates I",
+        "Mithridates I",
+        "Mithridates II",
+        "Orodes II",
+        "Phraates IV",
+        "Vonones I",
+        "Vologases I",
+        "Artabanus IV",
+        "Musa",
+        "Laodice",
+        "Rhodogune",
+        "Surena",
+        "Pacorus I",
+        "Phraates V",
+        "Gotarzes II",
+        "Vardanes I"
     ],
     "SkirmishReplacements": {
-        "skirmish/units/default_cavalry": "units/arsa/infantry_scout",
+        "skirmish/units/default_cavalry": "units/arsa/camelry_scout",
         "skirmish/units/default_infantry_melee_b": "units/arsa/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/arsa/infantry_archer_b",
         "skirmish/units/special_starting_unit": "units/arsa/support_civilian",

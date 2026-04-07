@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/theb_hero_gorgidas
+  </Auras>
+  <Identity>
+    <Civ>cyre</Civ>
+    <Lang>greek</Lang>
+    <Phenotype>female</Phenotype>
+    <GenericName>Queen Eryxo</GenericName>
+    <SpecificName>Queen Eryxo</SpecificName>
+    <History></History>
+    <Icon>units/theb/hero_gorgidas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/cyrene/hero_infantry_swordswoman_eryxo.xml</Actor>
+  </VisualActor>
+</Entity>

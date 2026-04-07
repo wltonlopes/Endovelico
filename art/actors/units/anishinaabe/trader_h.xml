@@ -4,10 +4,7 @@
   <group>
     <variant frequency="1" name="Base">
       <animations>
-        <!-- <animation file="quadraped/wolfhound_idle1.dae" name="Idle" speed="100"/>
-        <animation file="quadraped/wolfhound_idle_laydown.dae" name="Idle" speed="100"/> -->
         <animation file="quadraped/wolfhound_idle_long.dae" name="Idle" speed="100"/>
-        <!-- <animation file="quadraped/wolfhound_idle_sit.dae" name="Idle" speed="100"/> -->
         <animation file="quadraped/wolfhound_walk.dae" name="Walk" speed="10"/>
         <animation file="quadraped/wolfhound_walk.dae" name="run" speed="10"/>
         <animation file="quadraped/wolfhound_death.dae" name="death" speed="100"/>

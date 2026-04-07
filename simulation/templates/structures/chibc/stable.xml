@@ -3,8 +3,7 @@
   <Identity>
     <Civ>chibc</Civ>
     <GenericName>Stable</GenericName>
-    <SpecificName></SpecificName>
-    <Tooltip>.</Tooltip>
+    <Tooltip>Train heavy infantry.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>structures/chibchas/palafitos.xml</Actor>

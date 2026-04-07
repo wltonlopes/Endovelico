@@ -13,11 +13,6 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant name="Walk">
-      <props>
-        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
-      </props>
-    </variant>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>

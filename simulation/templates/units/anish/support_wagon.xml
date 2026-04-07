@@ -2,6 +2,7 @@
 <Entity parent="template_unit_support_wagon">
   <Identity>
     <Civ>anish</Civ>
+    <GenericName>Dog Travois</GenericName>
   </Identity>
   <!-- <Upgrade>
     <UnPackStorehouse>

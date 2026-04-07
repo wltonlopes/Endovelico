@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="hoplite|template_unit_hero_infantry_spearman">
-  <Attack>
+  <!-- <Attack>
     <Melee>
 	  <Bonuses>
 		<BonusSpartans>
@@ -10,22 +10,22 @@
 		</BonusSpartans>
 	  </Bonuses>
     </Melee>
-  </Attack>
+  </Attack> -->
   <Auras datatype="tokens">
     units/heroes/theb_hero_epaminondas
   </Auras>
   <Identity>
     <Civ>cyre</Civ>
 	<Lang>greek</Lang>
-	<GenericName>Epaminondas</GenericName>
-    <SpecificName>Epameinondas</SpecificName>
+	<GenericName>Arcesilaus IV</GenericName>
+    <SpecificName>Arcesilaus IV</SpecificName>
 	<History>Leader, statesman, and general of the Boeotian city-state Thebes during its moment of ascendency during the middle decades of the 4th century BC.</History>
     <Tooltip>Traits: Medium Speed, Heavy Armor, Strong Attack, Shield Wall.
-Strong Against: All Cavalry (1.25x), Spartans (1.25x)
-Weak Against: Ranged Units, Sword Infantry.</Tooltip>
+      Strong Against: All Cavalry (1.25x), Spartans (1.25x)
+      Weak Against: Ranged Units, Sword Infantry.</Tooltip>
     <Icon>units/theb/hero_epaminondas.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/thebans/hero_epaminondas.xml</Actor>
+    <Actor>units/cyrene/hero_cavalry_spearman_arcesilaus_iv_m.xml</Actor>
   </VisualActor>
 </Entity>

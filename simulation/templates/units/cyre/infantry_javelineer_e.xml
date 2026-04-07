@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/cyre/infantry_javelineer_a">
-  <Identity>
+<Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/thebans/infantry_javelinist_e.xml</Actor>
+    <Actor>units/libyan/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

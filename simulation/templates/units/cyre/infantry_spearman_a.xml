@@ -6,6 +6,6 @@
     <Entity>units/cyre/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/thebans/infantry_spearman_a.xml</Actor>
+    <Actor>units/cyrene/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

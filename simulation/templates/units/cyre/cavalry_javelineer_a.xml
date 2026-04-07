@@ -6,6 +6,6 @@
     <Entity>units/cyre/cavalry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/cavalry_javelinist_a_m.xml</Actor>
+    <Actor>units/libyan/cavalry_javelinist_a_m.xml</Actor>
   </VisualActor>
 </Entity>

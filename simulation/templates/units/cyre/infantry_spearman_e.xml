@@ -4,6 +4,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/thebans/infantry_spearman_e.xml</Actor>
+    <Actor>units/cyrene/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

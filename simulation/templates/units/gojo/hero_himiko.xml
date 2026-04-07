@@ -2,6 +2,7 @@
 <Entity parent="template_unit_hero_healer">
   <Identity>
     <Civ>gojo</Civ>
+    <Phenotype>female</Phenotype>
     <GenericName>Himiko</GenericName>
     <SpecificName>Pimiko</SpecificName>
     <Icon>units/yayo/hero_himiko.png</Icon>

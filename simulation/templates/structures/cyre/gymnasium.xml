@@ -39,7 +39,6 @@
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      iphicratean_reforms
     </Technologies>
   </Researcher>
   <Sound>
@@ -56,9 +55,9 @@
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/champion_marine
+      units/{civ}/hero_eryxo
+      units/{civ}/hero_arcesilaus_iv
       units/{civ}/champion_infantry
-      units/{civ}/champion_ranged
     </Entities>
   </Trainer>
   <Vision>

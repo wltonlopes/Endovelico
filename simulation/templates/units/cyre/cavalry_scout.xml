@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>cyre</Civ>
-    <SpecificName>Libyan Scout</SpecificName>
+    <SpecificName>Cyrene Scout</SpecificName>
     <Icon>units/cart/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/carthaginians/cavalry_scout.xml</Actor>
+    <Actor>units/cyrene/cavalry_scout.xml</Actor>
   </VisualActor>
 </Entity>
