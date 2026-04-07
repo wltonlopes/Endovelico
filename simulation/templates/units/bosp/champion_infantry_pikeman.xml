@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_pikeman">
+  <Identity>
+    <Civ>bosp</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Bosporan Phalangite</GenericName>
+    <SpecificName>Phalangitès Bosporanos</SpecificName>
+    <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
+    <History></History>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
+    <Icon>units/theb/champion_infantry_hoplite.png</Icon>
+    <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations>
+  </Identity>
+  <VisualActor>
+    <Actor>units/bosporan/infantry_pikeman_c.xml</Actor>
+  </VisualActor>
+</Entity>

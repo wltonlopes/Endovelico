@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="hoplite|template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/theb_hero_epaminondas
+  </Auras>
+  <Identity>
+    <Civ>bosp</Civ>
+    <Lang>greek</Lang>
+    <GenericName> Spartocus I</GenericName>
+    <SpecificName> Spartocus I </SpecificName>
+    <History>Spartocus ( 438–432).</History>
+    <Tooltip>Traits:.</Tooltip>
+    <Icon>units/theb/hero_epaminondas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thebans/hero_epaminondas.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_swordsman">
-  <Auras datatype="tokens">
+  <!-- <Auras datatype="tokens">
     units/heroes/theb_hero_gorgidas
-  </Auras>
+  </Auras> -->
   <Identity>
     <Civ>cyre</Civ>
     <Lang>greek</Lang>

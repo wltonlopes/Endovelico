@@ -11,9 +11,9 @@
 	  </Bonuses>
     </Melee>
   </Attack> -->
-  <Auras datatype="tokens">
+  <!-- <Auras datatype="tokens">
     units/heroes/theb_hero_epaminondas
-  </Auras>
+  </Auras> -->
   <Identity>
     <Civ>cyre</Civ>
 	<Lang>greek</Lang>
@@ -24,6 +24,6 @@
     <Icon>units/theb/hero_epaminondas.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/cyrene/hero_cavalry_spearman_arcesilaus_iv_m.xml</Actor>
+    <Actor>units/cyrene/hero_infantry_swordsman_magas.xml</Actor>
   </VisualActor>
 </Entity>

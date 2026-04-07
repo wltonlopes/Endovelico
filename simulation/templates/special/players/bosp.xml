@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>bosp</Civ>
+    <GenericName>Bosporan Kingdom</GenericName>
+    <History>This was an ancient Greco-Scythian state located on the Crimean Peninsula and the Taman Peninsula, centered around the Cimmerian Bosphorus (present-day Strait of Kerch). It was one of the first Hellenistic states, adopting Greek language and civilization under aristocratic leadership.</History>
+    <Icon>emblems/bosporan.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>
