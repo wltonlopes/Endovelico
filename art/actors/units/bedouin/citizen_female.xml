@@ -42,13 +42,13 @@
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_melee_female.xml">
       <props>
-        <prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/arab_coif_female.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/female_death.xml">
       <props>
-        <prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/arab_coif_female.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant file="biped/female_gather_tree.xml"/>
@@ -56,7 +56,7 @@
     <variant file="biped/female_gather_fruit.xml"/>
     <variant file="biped/female_gather_meat.xml">
       <props>
-        <prop actor="props/units/helmets/umay_coif_female.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/arab_coif_female.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant file="biped/female_gather_rock.xml"/>

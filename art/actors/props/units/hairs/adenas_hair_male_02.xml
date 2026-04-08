@@ -2,9 +2,9 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="a1">
+    <!-- <variant frequency="1" name="a1">
       <mesh>props/hair/adenas/hair_male_02_01.dae</mesh>
-    </variant>
+    </variant> -->
     <variant frequency="1" name="a2">
       <mesh>props/hair/adenas/hair_male_02_02.dae</mesh>
     </variant>
