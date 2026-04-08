@@ -9,9 +9,9 @@
   <group>
     <variant frequency="1" name="Standard">
       <textures>
-        <texture file="props/helmet/byzantine_helmet.png" name="baseTex"/>
-        <texture file="props/helmet/byzantine_helmet_norm.png" name="normTex"/>
-        <texture file="props/helmet/byzantine_helmet_spec.png" name="specTex"/>
+        <texture file="props/weapon/bronze_prop.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

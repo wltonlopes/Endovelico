@@ -1,0 +1,11 @@
+<Entity parent="units/himya/infantry_archer_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/himya/infantry_archer_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/himyar/infantry_archer_a.xml</Actor>
+  </VisualActor>
+</Entity>

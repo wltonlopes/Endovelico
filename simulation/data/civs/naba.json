@@ -1,0 +1,91 @@
+﻿{
+    "Code": "naba",
+    "Culture": "Arab",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "Factions": [
+        {
+            "Name": "Nabataean kingdoms",
+            "Description": "",
+            "Technologies": [
+                {
+                    "Name": "",
+                    "History": "."
+                },
+                {
+                    "Name": " ",
+                    "History": "",
+                    "Description": "."
+                }
+            ],
+            "Heroes": [
+                {}
+            ]
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "CivBonuses.",
+            "History": "CivBonuses.",
+            "Description": "CivBonuses."
+        }
+    ],
+    "TeamBonuses": [
+        {
+            "Name": "TeamBonuses.",
+            "History": "TeamBonuses.",
+            "Description": "TeamBonuses."
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/naba/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/naba/civil_centre"
+        },
+        {
+            "Template": "units/naba/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/naba/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/naba/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/naba/support_wagon",
+            "Count": 1
+        },
+        {
+            "Template": "units/naba/camelry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Obodas I (Nabateus Kingdom)",
+        "Obodas II (Nabateus Kingdom)",
+        "Máliku II (Nabateus Kingdom)",
+        "Aretas II (Nabateus Kingdom)"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/naba/camelry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/naba/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/naba/infantry_javelineer_b",
+        "skirmish/units/special_starting_unit": "units/naba/support_wagon",
+        "skirmish/units/default_ship_trireme": "units/naba/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}
