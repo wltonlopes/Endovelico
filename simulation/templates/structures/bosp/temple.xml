@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>bosp</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>Temple of Aphrodite Urania</GenericName>
+    <SpecificName>Temple of Aphrodite Urania</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="17.5" depth="30.0"/>

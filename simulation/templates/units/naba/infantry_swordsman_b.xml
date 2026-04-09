@@ -7,18 +7,17 @@
   </Attack>
   <Identity>
     <Civ>naba</Civ>
-    <SelectionGroupName>units/himya/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Himyar Swordsman</GenericName>
-    <SpecificName>Khadagdhari</SpecificName>
+    <SelectionGroupName>units/naba/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Nabatean Swordsman</GenericName>
     <Icon>units/maur/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/himya/infantry_swordsman_a</Entity>
+    <Entity>units/naba/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/himyar/infantry_swordsman_b.xml</Actor>
+    <Actor>units/nabatean/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

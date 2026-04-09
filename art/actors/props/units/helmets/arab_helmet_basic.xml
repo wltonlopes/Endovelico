@@ -3,15 +3,25 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Helmet_A">
-      <mesh>props/helmet/byza_helmet_basic.dae</mesh>
+      <mesh>props/helmet/arab_helmet_01.dae</mesh>
+    </variant>
+      <variant frequency="1" name="Helmet_B">
+      <mesh>props/helmet/arab_helmet_02.dae</mesh>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Standard">
+    <variant frequency="1" name="m3">
       <textures>
-        <texture file="props/weapon/bronze_prop.png" name="baseTex"/>
+        <texture file="props/helmet/lusi_h_metal_3.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="m4">
+      <textures>
+        <texture file="props/helmet/lusi_h_metal_4.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_white.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
