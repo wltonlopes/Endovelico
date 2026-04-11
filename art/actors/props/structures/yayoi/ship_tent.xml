@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-      <mesh>props/structures/yayoi/ship_market_tent.dae</mesh>
+      <mesh>props/structural/yayoi/ship_market_tent.dae</mesh>
       <textures>
         <texture file="structural/yayoi_struct.png" name="baseTex"/>
         <texture file="structural/yayoi_struct_spec.png" name="specTex"/>

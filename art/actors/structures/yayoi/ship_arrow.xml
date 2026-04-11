@@ -3,10 +3,22 @@
   <castshadow/>
   <float/>
   <group>
-    <variant frequency="1" file="others/ships/kush_bireme_oars.xml" name="Kushite Trireme">
+    <variant frequency="1" name="Yamatai Ship">
       <mesh>structural/yayoi/ship_arrow.dae</mesh>
       <props>
-       <prop actor="props/structures/yayoi/ship_tent.xml" attachpoint="tent"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_001"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_002"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_003"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_004"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_005"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_001"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_002"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_003"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_004"/>
+        <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_005"/>
+        <prop actor="props/structures/yayoi/ship_tent.xml" attachpoint="tent"/>
+        <prop actor="props/structures/yayoi/merchant_sail.xml" attachpoint="root"/>
+        <prop actor="props/structures/yayoi/trireme_sail.xml" attachpoint="root"/>
         <prop actor="props/units/siege_artillery/bolt_projectile_med.xml" attachpoint="projectile"/>
       </props>
       <textures>

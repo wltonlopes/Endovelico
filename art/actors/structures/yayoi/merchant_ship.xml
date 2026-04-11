@@ -4,7 +4,10 @@
   <float/>
   <group>
     <variant name="bireme">
-<mesh>structural/yayoi/ship_merc.dae</mesh>
+      <mesh>structural/yayoi/ship_merc.dae</mesh>
+      <props>
+        <prop actor="props/structures/yayoi/ship_tent.xml" attachpoint="tent"/>
+      </props>
       <textures>
         <texture file="structural/yayoi_struct.png" name="baseTex"/>
         <texture file="structural/yayoi_struct_spec.png" name="specTex"/>
