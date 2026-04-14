@@ -12,6 +12,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/infantry_swordsman_c.xml</Actor>
+    <Actor>units/minyue/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

@@ -6,6 +6,6 @@
     <Entity>units/gojo/infantry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/gojoseon/infantry_swordsman_a.xml</Actor>
+    <Actor>units/vietnam/infantry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

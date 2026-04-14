@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>arme</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>Mercenary Arrow Ship</GenericName>
     <Icon>units/mace/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>

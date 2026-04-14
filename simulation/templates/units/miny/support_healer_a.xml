@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/yayo/support_healer_e</Entity>
+    <Entity>units/miny/support_healer_e</Entity>
   </Promotion>
 </Entity>

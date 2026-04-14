@@ -6,17 +6,11 @@
   </Footprint>
   <Identity>
     <Civ>hongb</Civ>
-    <GenericName>Japanese Warship</GenericName>
+    <GenericName>Yue Warship</GenericName>
     <SpecificName>Opobune</SpecificName>
-    <Requirements>
-      <Techs datatype="tokens">
-        -phase_town
-        yayoi/unlock_warships
-      </Techs>
-    </Requirements>
     <Icon>units/yayo/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/yayoi/bireme.xml</Actor>
+    <Actor>units/vietnam/canoe_war_dragon.xml</Actor>
   </VisualActor>
 </Entity>

@@ -2,11 +2,11 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Identity>
     <Civ>miny</Civ>
-    <GenericName>Wousu</GenericName>
-    <SpecificName>Yamatötakëru</SpecificName>
+    <GenericName>Yushan</GenericName>
+    <SpecificName>Yushan</SpecificName>
     <Icon>units/yayo/hero_wousu.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/hero_wousu_infantry_swordsman.xml</Actor>
+    <Actor>units/minyue/hero_yushan_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

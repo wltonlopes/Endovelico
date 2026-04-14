@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
-    <Civ>miny</Civ>
-    <GenericName>Keikō</GenericName>
-    <SpecificName>Opotarasipiko Osiröwakë</SpecificName>
+    <Civ>gojo</Civ>
+    <GenericName>King Jun of Gija Joseon</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/yayo/hero_keiko.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,10 +2,10 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>miny</Civ>
-    <SpecificName>Minyue Scout</SpecificName>
+    <SpecificName>Qi Bing</SpecificName>
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/han/cavalry_scout.xml</Actor>
+    <Actor>units/minyue/cavalry_scout.xml</Actor>
   </VisualActor>
 </Entity>

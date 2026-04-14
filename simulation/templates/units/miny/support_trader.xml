@@ -6,6 +6,6 @@
     <Icon>units/yayo/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/trader.xml</Actor>
+    <Actor>units/minyue/trader.xml</Actor>
   </VisualActor>
 </Entity>

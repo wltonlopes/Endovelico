@@ -2,12 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-      <variant>
-        <mesh>props/armor/moch_greave_L.dae</mesh>
-        <textures>
+    <variant>
+      <mesh>props/armor/moch_greave_L.dae</mesh>
+      <textures>
         <texture file="props/moch_props.png" name="baseTex"/>
-        </textures>
-      </variant>
-    </group>
-    <material>player_trans.xml</material>
-  </actor>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

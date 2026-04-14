@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>arme</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>Mercenary Scout Ship</GenericName>
     <Icon>units/hele/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

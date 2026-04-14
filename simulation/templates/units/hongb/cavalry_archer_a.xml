@@ -7,6 +7,6 @@
     <Entity>units/hongb/cavalry_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/yayoi/cavalry_archer_a_m.xml</Actor>
+    <Actor>units/vietnam/cavalry_archer_a_m.xml</Actor>
   </VisualActor>
 </Entity>

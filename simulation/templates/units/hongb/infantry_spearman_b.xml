@@ -10,6 +10,6 @@
     <Entity>units/hongb/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/yayoi/infantry_spearman_b.xml</Actor>
+    <Actor>units/vietnam/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

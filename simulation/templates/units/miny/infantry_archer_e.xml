@@ -5,6 +5,6 @@
 	</Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/yayoi/infantry_archer_e.xml</Actor>
+    <Actor>units/minyue/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

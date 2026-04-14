@@ -6,8 +6,8 @@
       <mesh>props/armor/armor_p.dae</mesh>
       <textures>
         <texture file="props/armor_p.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_white.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
-</actor>

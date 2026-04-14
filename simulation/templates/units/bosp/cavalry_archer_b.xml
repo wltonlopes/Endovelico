@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="merc_cav|template_unit_cavalry_ranged_archer">
   <Identity>
-    <Civ>scyth</Civ>
+    <Civ>bosp</Civ>
     <Lang>persian</Lang>
     <SelectionGroupName>units/bosp/cavalry_archer_b</SelectionGroupName>
     <GenericName>Sarmatans Horse Archer</GenericName>

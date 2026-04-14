@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="a1">
+      <mesh>props/hair/hair_guara_03.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="face1a">
+      <textures>
+        <texture file="props/head/amer_male.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>     
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-dark brown">
+      <color>75 61 38</color>
+    </variant>
+    <variant frequency="1" name="hair-brown">
+      <color>99 82 53</color>
+    </variant>
+    <variant frequency="1" name="hair-medium brown">
+      <color>138 110 61</color>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

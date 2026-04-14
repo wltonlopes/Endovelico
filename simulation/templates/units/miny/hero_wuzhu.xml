@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Identity>
-    <Civ>gojo</Civ>
-    <GenericName>Wousu</GenericName>
-    <SpecificName>Yamatötakëru</SpecificName>
+    <Civ>miny</Civ>
+    <GenericName>Wuzhu</GenericName>
+    <SpecificName>Wuzhu</SpecificName>
     <Icon>units/yayo/hero_wousu.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/hero_wousu_infantry_swordsman.xml</Actor>
+    <Actor>units/minyue/hero_wuzhu_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

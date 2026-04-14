@@ -2,10 +2,10 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>hongb</Civ>
-    <SpecificName>Hồng Bàng Scout</SpecificName>
+    <SpecificName>Kỵ Sĩ Trinh Sát</SpecificName>
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/han/cavalry_scout.xml</Actor>
+    <Actor>units/vietnam/cavalry_scout.xml</Actor>
   </VisualActor>
 </Entity>

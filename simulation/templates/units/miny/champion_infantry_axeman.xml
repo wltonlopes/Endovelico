@@ -17,6 +17,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/infantry_axeman_c.xml</Actor>
+    <Actor>units/minyue/infantry_axeman_c.xml</Actor>
   </VisualActor>
 </Entity>

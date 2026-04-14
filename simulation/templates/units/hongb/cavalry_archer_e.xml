@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/yayoi/cavalry_archer_e_m.xml</Actor>
+    <Actor>units/vietnam/cavalry_archer_e_m.xml</Actor>
   </VisualActor>
 </Entity>
