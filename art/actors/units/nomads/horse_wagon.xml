@@ -6,8 +6,8 @@
       <mesh>structural/xion_wagon.dae</mesh>
       <props>
         <prop actor="units/persians/chariot_archer_b_h1.xml" attachpoint="shield_left_front"/>
-        <prop actor="props/structures/xiongnu/xion_wagon_roof.xml" attachpoint="shield_right_mid"/>
-        <prop actor="props/structures/xiongnu/xion_storehouse_wagon_props.xml" attachpoint="shield_right_back"/>
+        <prop actor="props/structures/germans/wagon_roof_c.xml" attachpoint="shield_right_mid"/>
+        <prop actor="props/structures/germans/wagon.xml" attachpoint="shield_right_back"/>
       </props>
     </variant>
   </group>

@@ -13,6 +13,6 @@
     <Entity>units/gojo/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/gojo/cavalry_spearman_b_m.xml</Actor>
+    <Actor>units/koreans/cavalry_spearman_b_m.xml</Actor>
   </VisualActor>
 </Entity>

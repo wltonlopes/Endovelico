@@ -55,9 +55,12 @@
         }
     ],
     "AINames": [
-        "King of Kedah Tua",
-        "King of Sungai batu",
-        "King of Gangga Negara"
+        "Thuriya Wikyama (Suriya Vikrama)",
+        "Hayi Wikyama (Hari Vikrama)",
+        "Thiha Wikyama (Siha Vikrama)",
+        "Maha Thanbawa",
+        "Sula Thanbawa",
+        "Duttabaung"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/pyu/cavalry_scout",

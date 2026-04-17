@@ -54,10 +54,14 @@
         }
     ],
     "AINames": [
-        "Kaundinya I",
-        "Hun Pan-huang",
-        "Fan Shiman",
-        "Soma"
+        "Hun Tien (Kaundinya I)",
+        "Liu Ye(Soma)",
+        "Fan Shih-Man",
+        "Fan Chin-Sheng",
+        "Fan Chan",
+        "Fan Hsiun",
+        "Xun Zhan",
+        "Zhu Zhutan"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/vyadh/cavalry_scout",

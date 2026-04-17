@@ -14,7 +14,7 @@
   </Cost>
   <Identity>
     <Civ>tiwa</Civ>
-    <SpecificName>Axeman Nobre</SpecificName>
+    <SpecificName>Waqcha Runa</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/moch/champion_infantry_axeman.png</Icon>
   </Identity>

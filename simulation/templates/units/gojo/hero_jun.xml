@@ -7,6 +7,6 @@
     <Icon>units/yayo/hero_keiko.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/infantry_spearman_e.xml</Actor>
+    <Actor>units/koreans/hero_infantry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

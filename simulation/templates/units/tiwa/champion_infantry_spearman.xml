@@ -3,7 +3,7 @@
   <Identity>
     <Civ>tiwa</Civ>
     <GenericName>Nobre Spearman</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Akapana Runa</SpecificName>
     <SelectionGroupName>units/moch/champion_infantry</SelectionGroupName>
     <Icon>units/moch/champion_infantry_maceman.png</Icon>
     <Requirements>

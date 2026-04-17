@@ -3,8 +3,8 @@
   <Identity>
     <Civ>miny</Civ>
     <SelectionGroupName>units/yayo/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Militia Axeman</GenericName>
-    <SpecificName>Wonomöti</SpecificName>
+    <GenericName>Warriors Yue from Mountains</GenericName>
+    <SpecificName>Shanyue</SpecificName>
     <Icon>units/yayo/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>

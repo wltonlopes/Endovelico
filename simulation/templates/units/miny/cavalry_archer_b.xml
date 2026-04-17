@@ -3,14 +3,14 @@
   <Identity>
     <Civ>miny</Civ>
     <SelectionGroupName>units/miny/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Cavalry Korean</GenericName>
-    <SpecificName>Umanöri Mësikakapë</SpecificName>
+    <GenericName>Cavalry</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/miny/cavalry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/minyue/cavalry_archer_b_m.xml</Actor>
+    <Actor>units/minyue/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

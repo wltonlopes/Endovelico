@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/new/head_longhair.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="face-a">
+      <textures>
+        <texture file="props/head/han_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="face-b">
+      <textures>
+        <texture file="props/head/han_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="face-c">
+      <textures>
+        <texture file="props/head/han_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="face-d">
+      <textures>
+        <texture file="props/head/han_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="face-f">
+      <textures>
+        <texture file="props/head/han_f.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="face-g">
+      <textures>
+        <texture file="props/head/han_old_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-black">
+      <color>61 61 61</color>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

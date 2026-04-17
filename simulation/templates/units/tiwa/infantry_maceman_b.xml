@@ -3,7 +3,7 @@
     <Civ>tiwa</Civ>
     <SelectionGroupName>units/tiwa/infantry_maceman_b</SelectionGroupName>
     <GenericName>Levy Maceman</GenericName>
-
+    <SpecificName>Awqaq Runa</SpecificName>
     <Icon>units/moch/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>

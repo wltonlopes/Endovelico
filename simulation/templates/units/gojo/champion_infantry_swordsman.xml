@@ -3,7 +3,7 @@
   <Identity>
     <Civ>gojo</Civ>
     <GenericName>Champion Swordsman</GenericName>
-    <SpecificName>Turuki nö Tupamönö</SpecificName>
+    <SpecificName>Hwan-du Dae-do-sa</SpecificName>
     <Icon>units/yayo/champion_infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
@@ -13,6 +13,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/infantry_swordsman_c.xml</Actor>
+    <Actor>units/koreans/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

@@ -41,7 +41,8 @@
   </Cost>
   <Identity>
     <Civ>tiwa</Civ>
-    <SpecificName>Headhunter Warrior</SpecificName>
+    <GenericName>Headhunter Warrior</GenericName>
+    <SpecificName>Waqcha Runa</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/moch/champion_infantry_javelineer.png</Icon>
   </Identity>

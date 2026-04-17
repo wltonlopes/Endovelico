@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/han/infantry_crossbowman_e.xml</Actor>
+    <Actor>units/koreans/infantry_crossbowman_e.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/gojoseon/infantry_swordsman_e.xml</Actor>
+    <Actor>units/koreans/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,8 +3,8 @@
   <Identity>
     <Civ>tiwa</Civ>
     <SelectionGroupName>units/tiwa/heavy_infantry</SelectionGroupName>
-    <GenericName>Raider Slinger</GenericName>
-    <SpecificName>tzhae kaem</SpecificName>
+    <GenericName>Raider Bolas</GenericName>
+    <SpecificName>Liwiq</SpecificName>
     <Icon>units/moch/infantry_scout.png</Icon>
   </Identity>
   <Promotion>

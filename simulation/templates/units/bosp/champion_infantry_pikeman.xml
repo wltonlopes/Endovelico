@@ -2,11 +2,10 @@
 <Entity parent="template_unit_champion_infantry_pikeman">
   <Identity>
     <Civ>bosp</Civ>
-	<Lang>greek</Lang>
-	<GenericName>Bosporan Phalangite</GenericName>
+	  <Lang>greek</Lang>
+	  <GenericName>Bosporan Phalangite</GenericName>
     <SpecificName>Phalangitès Bosporanos</SpecificName>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
-    <History></History>
     <Requirements>
       <Techs datatype="tokens">unlock_champion_infantry</Techs>
     </Requirements>
