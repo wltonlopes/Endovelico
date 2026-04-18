@@ -2,8 +2,13 @@
 <Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>gojo</Civ>
-    <SpecificName>Pr-ỉwn n ms</SpecificName>
+    <SpecificName></SpecificName>
   </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/siege_shoushe
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/koreans/arsenal.xml</Actor>
   </VisualActor>

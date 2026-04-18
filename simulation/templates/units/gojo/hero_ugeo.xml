@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Identity>
+    <Civ>gojo</Civ>
+    <GenericName>King Ugeo Gojoseon</GenericName>
+    <SpecificName>Ugeo</SpecificName>
+    <History>Ugeo was the last king of Gojoseon, an ancient Korean kingdom. He ruled during a period of decline and faced invasions from the Han Dynasty of China. Ugeo's reign ended in 108 BCE when Gojoseon was conquered by the Han Dynasty, marking the end of the kingdom and the beginning of Chinese influence in the Korean Peninsula.</History>
+    <Icon>units/yayo/hero_wousu.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/koreans/hero_swordsman_m.xml</Actor>
+  </VisualActor>
+</Entity>

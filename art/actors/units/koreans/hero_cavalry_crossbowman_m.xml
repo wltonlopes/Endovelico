@@ -5,25 +5,24 @@
     <variant>
       <mesh>skeletal/horse_persian.dae</mesh>
       <props>
-        <prop actor="units/koreans/cavalry_spearman_c_r.xml" attachpoint="rider"/>
+        <prop actor="units/koreans/hero_cavalry_crossbowman_r.xml" attachpoint="rider"/>
+        <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_head_catap.xml" attachpoint="root"/>
         <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/> 
         <prop actor="props/horse/cav_armor_iber.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_peytral_han.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
-    <variant file="quadraped/horse/dark_chestnut.xml" frequency="1" name="dark_chestnut"/>
-    <variant file="quadraped/horse/fading_black.xml" frequency="1" name="fading_black"/>
+    <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
+    <variant file="quadraped/horse/white.xml" frequency="1" name="white"/>
     <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
-    <variant file="quadraped/horse/halflinger.xml" frequency="1" name="halflinger"/>
   </group>
   <group>
-    <variant file="quadraped/base_horse_pace.xml" frequency="1" name="Horse-Pace"/>
+    <variant file="quadraped/base_horse_archer.xml" frequency="1" name="Archer-Horse"/>
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
   </group>

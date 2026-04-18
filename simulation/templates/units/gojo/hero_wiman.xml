@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_crossbowman">
+  <Identity>
+    <Civ>gojo</Civ>
+    <GenericName>Wiman</GenericName>
+    <SpecificName>Wiman</SpecificName>
+    <History>Wiman was a military leader from the Kingdom of Yan who fled to the Korean Peninsula during the late Warring States period. He established the Wiman Joseon kingdom in 194 BCE, which lasted until 108 BCE when it was conquered by the Han Dynasty. Wiman's reign is often associated with the early history of Korea and is considered a significant figure in Korean history.</History>
+    <Icon>units/yayo/hero_wousu.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/koreans/hero_cavalry_crossbowman_m.xml</Actor>
+  </VisualActor>
+</Entity>

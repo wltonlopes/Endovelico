@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+    <Civ>gojo</Civ>
+    <GenericName>King Jin of Jinhan</GenericName>
+    <SpecificName>Jin</SpecificName>
+    <History>  The head of the Mahan confederacy. This unit would be less about standing armies and more about mobilizing a federation. The King of Jin commanded a diverse assembly of 54 minor states, utilizing regional lords (Shinji) and priestly figures (Cheongun) to control territory via ritual and tribute.</History>
+    <Icon>units/yayo/hero_keiko.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/koreans/hero_infantry_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

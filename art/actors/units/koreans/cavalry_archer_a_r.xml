@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/korean_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/han_cap.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/bow/han_bow.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quivers/han_quiver_hip.xml" attachpoint="sheath_L"/>
       </props>

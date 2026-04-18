@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
- <group>
-<variant frequency="1" name="base">
-  <mesh>props/horse/blanket.dae</mesh>
-    </variant>
-  </group>
   <group>
-    <variant frequency="1" name="1a">
+    <variant>
+      <mesh>props/horse/pelt_kush_head.dae</mesh>
       <textures>
-        <texture file="props/horse/blanket_lusi_hero_viriato.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="props/horse/catap_pelt.png" name="baseTex"/>
+        <texture file="props/horse/iber_armor_norm.png" name="normTex"/>
+        <texture file="props/horse/iber_armor_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -28,5 +24,5 @@
     <variant file="quadraped/base_horse_walk.xml" name="Horse-Walk" frequency="1"/>
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat"/>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>no_trans_norm_spec.xml</material>
 </actor>

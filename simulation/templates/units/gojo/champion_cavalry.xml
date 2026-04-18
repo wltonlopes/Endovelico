@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>gojo</Civ>
+    <Lang>persian</Lang>
+    <SpecificName>Spearman Cataphract</SpecificName>
+    <SelectionGroupName>units/gojo/champion_cavalry</SelectionGroupName>
+    <Icon>units/scyth/champion_cavalry_lancer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/koreans/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

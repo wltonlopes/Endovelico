@@ -5,10 +5,7 @@
     <variant>
       <mesh>skeletal/horse_persian.dae</mesh>
       <props>
-        <prop actor="units/koreans/cavalry_spearman_c_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/cav_head_catap.xml" attachpoint="root"/>
-        <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/> 
-        <prop actor="props/horse/cav_armor_iber.xml" attachpoint="root"/>
+        <prop actor="units/koreans/hero_swordsman_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_peytral_han.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
