@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/miny/cavalry_archer_b">
+<Entity parent="units/miny/cavalry_javelineer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/miny/cavalry_archer_e</Entity>
+    <Entity>units/miny/cavalry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/minyue/cavalry_archer_a_m.xml</Actor>
+    <Actor>units/minyue/cavalry_javelinist_a_m.xml</Actor>
   </VisualActor>
 </Entity>

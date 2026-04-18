@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_minyue_wushu.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/pers_crown.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/paiute/prop_feather.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/sword/han_jian_b.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="v3">
+      <textures>
+        <texture file="skeletal/minyue/armor_hero_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml" name="Swordsman-2h-Fast-Relax" frequency="1"/>
+    <variant file="biped/rider/death_2h.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

@@ -4,13 +4,8 @@
     <Civ>gojo</Civ>
     <SelectionGroupName>units/korean/cavalry_archer_b</SelectionGroupName>
     <GenericName>Cavalry Korean</GenericName>
-    <SpecificName>Umanöri Mësikakapë</SpecificName>
+    <SpecificName></SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
-    <Requirements>
-      <Techs datatype="tokens">
-        unlock_mercenary_cavalry
-      </Techs>
-    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/gojo/cavalry_archer_a</Entity>

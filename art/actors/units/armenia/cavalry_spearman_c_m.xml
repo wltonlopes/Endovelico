@@ -15,6 +15,7 @@
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_armor_iber.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_head_catap.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

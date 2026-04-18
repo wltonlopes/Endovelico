@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_swordsman">
+<Entity parent="template_unit_hero_cavalry_swordsman">
   <Identity>
     <Civ>miny</Civ>
     <GenericName>Wuzhu</GenericName>
     <SpecificName>Wuzhu</SpecificName>
+    <History>A descendant of the Yue royal family who fled after the Yue state was destroyed. He aided Liu Bang in the Chu-Han Contention (206–202 BCE). After Liu Bang's victory, he was reinstated as the king of Minyue in 202 BCE, founding the kingdom.</History>
     <Icon>units/yayo/hero_wousu.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/minyue/hero_wuzhu_infantry_swordsman.xml</Actor>
+    <Actor>units/minyue/hero_wuzhu_cavalry_swordsman_m.xml</Actor>
   </VisualActor>
 </Entity>

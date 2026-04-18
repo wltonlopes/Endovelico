@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_javelineer">
   <Identity>
-      <Civ>tiwa</Civ>
-    <GenericName>King High Priest</GenericName>
+    <Civ>tiwa</Civ>
+    <GenericName>King-High Priest Pajchiri</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/moch/hero_high_priest.png</Icon>
   </Identity>

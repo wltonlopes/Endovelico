@@ -3,7 +3,6 @@
   <Identity>
     <Civ>miny</Civ>
     <SelectionGroupName>units/miny/infantry_javelinist_b</SelectionGroupName>
-    <SpecificName>Iovanan</SpecificName>
     <Icon>units/iber/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

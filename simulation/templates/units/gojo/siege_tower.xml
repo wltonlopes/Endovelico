@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_tower">
+  <Footprint replace="">
+    <Square width="9.0" depth="9.0"/>
+    <Height>30.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>gojo</Civ>
+    <GenericName>Siege Tower</GenericName>
+    <SpecificName>Gōngchéng Tǎ</SpecificName>
+    <Icon>units/han/siege_tower.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>structures/han/siege_tower.xml</Actor>
+  </VisualActor>
+</Entity>
