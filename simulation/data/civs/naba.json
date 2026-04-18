@@ -66,10 +66,6 @@
             "Count": 2
         },
         {
-            "Template": "units/naba/support_wagon",
-            "Count": 1
-        },
-        {
             "Template": "units/naba/camelry_scout",
             "Count": 1
         }
@@ -84,7 +80,6 @@
         "skirmish/units/default_cavalry": "units/naba/camelry_scout",
         "skirmish/units/default_infantry_melee_b": "units/naba/infantry_spearman_b",
         "skirmish/units/default_infantry_ranged_b": "units/naba/infantry_javelineer_b",
-        "skirmish/units/special_starting_unit": "units/naba/support_wagon",
         "skirmish/units/default_ship_trireme": "units/naba/ship_bireme"
     },
     "SelectableInGameSetup": true

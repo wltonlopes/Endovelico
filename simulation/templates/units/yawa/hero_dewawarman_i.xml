@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>yawa</Civ>
-    <GenericName>Keikō</GenericName>
-    <SpecificName>Opotarasipiko Osiröwakë</SpecificName>
+    <GenericName>Dewawarman I</GenericName>
+    <SpecificName>Prabu Dharmalokapala Aji Raksa Gapura Sagara</SpecificName>
     <Icon>units/yayo/hero_keiko.png</Icon>
   </Identity>
   <VisualActor>

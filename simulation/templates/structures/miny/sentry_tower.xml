@@ -4,6 +4,6 @@
     <Civ>miny</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/minyue/sentry_tower.xml</Actor>
+    <Actor>structures/minyue/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>miny</Civ>
     <GenericName>Champion Swordsman</GenericName>
-    <SpecificName>Turuki nö Tupamönö</SpecificName>
+    <SpecificName></SpecificName>
      <Icon>units/yayo/champion_infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
