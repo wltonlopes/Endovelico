@@ -5,25 +5,25 @@
     <variant frequency="1" name="1">
       <mesh>structural/mayas/roof_house_01_01.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/house_1_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/roof_house_01_01.png" name="aoTex"/>
       </textures>
     </variant>
       <variant frequency="1" name="2">
       <mesh>structural/mayas/roof_house_01_02.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/house_2_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/roof_house_01_02.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="3">
       <mesh>structural/mayas/roof_house_01_03.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/house_3_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/roof_house_01_03.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="4">
       <mesh>structural/mayas/roof_house_01_04.dae</mesh>
       <textures>
-        <texture file="structural/ao/mayap/house_4_AO.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/roof_house_01_04.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
