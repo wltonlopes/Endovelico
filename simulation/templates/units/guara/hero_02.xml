@@ -3,8 +3,6 @@
   <Identity>
     <Civ>guara</Civ>
     <GenericName>Warrior Chief</GenericName>
-    <SpecificName></SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/guara/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>
   </Identity>

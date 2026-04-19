@@ -3,13 +3,11 @@
   <Identity>
     <Civ>guara</Civ>
     <GenericName>Warrior Chief</GenericName>
-    <SpecificName></SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/guara/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>
   </Identity>
   <UnitMotion>
-    <WalkSpeed op="mul">1.5</WalkSpeed>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>units/guaranis/infantry_hero_clubman.xml</Actor>

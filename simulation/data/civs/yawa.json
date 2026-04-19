@@ -51,7 +51,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/yawa/cavalry_archer_b",
+			"Template": "units/yawa/infantry_scout",
 			"Count": 1
 		}
 	],
@@ -67,7 +67,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/yawa/cavalry_archer_b",
+		"skirmish/units/default_cavalry": "units/yawa/infantry_scout",
 		"skirmish/units/default_infantry_melee_b": "units/yawa/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/yawa/infantry_archer_b",
 	  "skirmish/units/default_ship_trireme":"units/yawa/ship_bireme"

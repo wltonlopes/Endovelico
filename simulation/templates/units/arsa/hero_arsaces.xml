@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="cataphract|camelry|template_unit_hero_cavalry_spearman">
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Arsaces</GenericName>
+    <SpecificName>Aršak</SpecificName>
+    <Icon>units/pers/champion_cavalry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/himyar/camelry_spearman_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

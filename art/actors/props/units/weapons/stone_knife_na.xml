@@ -4,7 +4,7 @@
     <group>
     <variant frequency="1" name="Base">
       <props>
-        <prop actor="props/units/weapons/blades/knife_blade_copper.xml" attachpoint="blade"/>
+        <prop actor="props/units/weapons/blades/spear_blade_silex.xml" attachpoint="blade"/>
       </props>
       <textures>
           <texture file="structural/maya_struct.png" name="baseTex"/>

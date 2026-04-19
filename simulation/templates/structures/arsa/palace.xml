@@ -43,9 +43,9 @@
   </TerritoryInfluence>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_01
-      units/{civ}/hero_02
-      units/{civ}/hero_03
+      units/{civ}/hero_arsaces
+      units/{civ}/hero_mitridates
+      units/{civ}/hero_tiridates
     </Entities>
   </Trainer>
   <Vision>

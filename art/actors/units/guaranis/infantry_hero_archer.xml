@@ -16,12 +16,6 @@
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
-      </textures> 
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="01">
-      <textures>
         <texture file="skeletal/guaranis/hero_01.png" name="baseTex"/>
       </textures>
     </variant>
@@ -54,7 +48,7 @@
     <variant file="biped/gather_rock.xml"/>
     <variant file="biped/gather_ore.xml"/>
     <variant file="biped/gather_ruins.xml"/>
-    <variant file="biped/gather_praise.xml"/>x
+    <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>

@@ -18,7 +18,7 @@
     <Civ>guara</Civ>
     <GenericName>Cheaf House</GenericName>
     <SpecificName>Oka-Ubusu</SpecificName>
-    <Tooltip>Territory root. Train Maiden Guards and Heroes.</Tooltip>
+    <Tooltip>Territory root. Train Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
     <Icon>structures/mayap/palace.png</Icon>
@@ -52,7 +52,7 @@
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/tupis/war_house.xml</Actor>
+    <Actor>structures/guaranis/war_house.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>
