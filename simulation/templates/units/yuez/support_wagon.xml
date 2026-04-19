@@ -2,18 +2,20 @@
 <Entity parent="template_unit_support_wagon">
   <Identity>
     <Civ>yuez</Civ>
+    <Phenotype datatype="tokens">
+      Yurt
+    </Phenotype>
   </Identity>
   <Upgrade>
     <UnPackStorehouse>
       <Entity>structures/yuez/storehouse</Entity>
-      <Tooltip>Storehouses can train Slaves and research Technologies, while the Resource Wagon cannot.</Tooltip>
+      <Tooltip>Storehouses.</Tooltip>
       <Time>10</Time>
-      <CheckPlacementRestrictions/>
     </UnPackStorehouse>
     <UnPackHouse>
       <Entity>structures/yuez/house</Entity>
+      <Tooltip>House.</Tooltip>
       <Time>10</Time>
-      <CheckPlacementRestrictions/>
     </UnPackHouse>
   </Upgrade>
 </Entity>

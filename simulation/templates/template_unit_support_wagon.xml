@@ -18,6 +18,9 @@
     <Classes datatype="tokens">Wagon DropsiteFood DropsiteWood DropsiteMetal DropsiteStone</Classes>
     <SpecificName>Resource Wagon</SpecificName>
     <GenericName>Mobile Dropsite</GenericName>
+    <Phenotype datatype="tokens">
+      Yurt
+    </Phenotype>
     <Icon>units/xion/support_wagon.png</Icon>
     <Tooltip>Mobile dropsite for all resources.</Tooltip>
   </Identity>

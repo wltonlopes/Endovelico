@@ -4,19 +4,14 @@
     <Civ>anish</Civ>
     <GenericName>Dog Travois</GenericName>
   </Identity>
-  <!-- <Upgrade>
-    <UnPackStorehouse>
-      <Entity>structures/anish/storehouse</Entity>
-      <Tooltip>Storehouses can train Slaves and research Technologies, while the Resource Wagon cannot.</Tooltip>
-      <Time>10</Time>
-      <CheckPlacementRestrictions/>
-    </UnPackStorehouse>
+  <Upgrade>
     <UnPackHouse>
       <Entity>structures/anish/house</Entity>
       <Time>10</Time>
+      <Tooltip>Unpack this Dog Travois to set up a new house at its location.</Tooltip>
       <CheckPlacementRestrictions/>
     </UnPackHouse>
-  </Upgrade> -->
+  </Upgrade>
   <VisualActor>
     <Actor>units/anishinaabe/trader_h.xml</Actor>
   </VisualActor>

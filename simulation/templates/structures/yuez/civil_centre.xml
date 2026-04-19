@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_civil_centre">
+<Entity parent="autobuild|template_structure_civic_civil_centre">
   <Auras disable=""/>
   <!-- <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
-      structures/{native}/royal_yurt
+      structures/{civ}/royal_yurt
     </Entities>
   </Builder> -->
   <BuildRestrictions>
@@ -22,8 +22,10 @@
   </Health>
   <Identity>
     <Civ>yuez</Civ>
-    <Lang>mandarin</Lang>
     <SpecificName>Chanyu's Hall</SpecificName>
+    <Phenotype datatype="tokens">
+      Yurt
+    </Phenotype>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
@@ -34,13 +36,16 @@
   </Position>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence>
-    <Radius>80</Radius>
+    <Radius>180</Radius>
+    <Weight>5000</Weight>
   </TerritoryInfluence>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{native}/support_citizen_female
-    </Entities>
-  </Trainer>
+  <Upgrade>
+    <Unpack>
+      <Entity>structures/yuez/civil_centre_packed</Entity>
+      <Time>30</Time>
+      <Requirements><Techs datatype="tokens">phase_village</Techs></Requirements>
+    </Unpack>
+  </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/yuezhi/civic_center.xml</Actor>

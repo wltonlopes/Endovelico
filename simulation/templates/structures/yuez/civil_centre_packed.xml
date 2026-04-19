@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civil_centre_chariot">
+  <Identity>
+    <Civ>yuez</Civ>
+    <SpecificName>Chanyu's Hall</SpecificName>
+    <Classes datatype="tokens">
+      ConquestCritical
+      CivCentre
+      CivilCentre
+    </Classes>
+    <Icon>structures/civic_centre_packed.png</Icon>
+    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
+  </Identity>
+  <Upgrade>
+    <Unpack>
+      <Entity>structures/yuez/civil_centre</Entity>
+      <Time>30</Time>
+      <Requirements><Techs datatype="tokens">phase_village</Techs></Requirements>
+    </Unpack>
+  </Upgrade>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
+  <VisualActor>
+    <SilhouetteDisplay>false</SilhouetteDisplay>
+    <SilhouetteOccluder>true</SilhouetteOccluder>
+    <Actor>structures/yuezhi/civic_center_chariot_pivot.xml</Actor>
+  </VisualActor>
+</Entity>

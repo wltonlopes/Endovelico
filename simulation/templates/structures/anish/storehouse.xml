@@ -5,7 +5,10 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>anish</Civ>  
+    <Civ>anish</Civ>
+    <Phenotype datatype="tokens">
+      Tipi
+    </Phenotype>  
     <SpecificName>Kura</SpecificName>
   </Identity>
   <Obstruction>

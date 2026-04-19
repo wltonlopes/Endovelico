@@ -15,6 +15,9 @@
   <Identity>
     <Civ>yuez</Civ>
     <SpecificName>Yurt</SpecificName>
+    <Phenotype datatype="tokens">
+      Yurt
+    </Phenotype>
     <VisibleClasses datatype="tokens">Village House Yurt</VisibleClasses>
   </Identity>
   <Obstruction>

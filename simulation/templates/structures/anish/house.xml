@@ -2,11 +2,22 @@
 <Entity parent="template_structure_civic_house_big">
   <Identity>
     <Civ>anish</Civ>
+    <Phenotype datatype="tokens">
+      Tipi
+    </Phenotype>
     <SpecificName>Ipe</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="13.0"/>
   </Obstruction>
+  <Upgrade>
+    <TravoisDog>
+      <Entity>units/anish/support_wagon</Entity>
+      <Time>10</Time>
+      <Tooltip>Pack this house into a Dog Travois to move it across the map.</Tooltip>
+      <CheckPlacementRestrictions/>
+    </TravoisDog>
+  </Upgrade>
   <VisualActor>
     <Actor>structures/anishinaabe/house.xml</Actor>
   </VisualActor>

@@ -9,7 +9,9 @@
   </Footprint>
   <Identity>
     <Civ>yuez</Civ>
-    <Lang>mandarin</Lang>
+    <Phenotype datatype="tokens">
+      Yurt
+    </Phenotype>
     <Tooltip>Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this
       Storehouse across the map.</Tooltip>
   </Identity>
