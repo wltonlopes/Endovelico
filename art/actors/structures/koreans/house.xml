@@ -17,33 +17,59 @@
     <variant frequency="1" name="house a">
 <mesh>structural/koreans/house_1.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/house_01.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/koreans/house_2.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/house_02.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/koreans/house_3.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/house_03.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/koreans/house_4.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/house_04.png" name="aoTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="v1">
+      <props>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_01.xml" attachpoint="v_03" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_02.xml" attachpoint="v_04" maxheight="20" minheight="-20"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="v2">
+      <props>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_01.xml" attachpoint="v_03" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_02.xml" attachpoint="v_04" maxheight="20" minheight="-20"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="v3">
+      <props>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_01.xml" attachpoint="v_03" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_02.xml" attachpoint="v_04" maxheight="20" minheight="-20"/>
+      </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_gojo.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>
@@ -59,5 +85,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>

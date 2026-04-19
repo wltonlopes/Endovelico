@@ -23,22 +23,22 @@
   <group>
     <variant frequency="1" name="text_1">
       <textures>
-        <texture file="props/shiled_tedate_b_1.png" name="baseTex"/>
+        <texture file="props/shiled/tedate_b_1.png" name="baseTex"/>
       </textures>
     </variant>
         <variant frequency="1" name="text_2">
       <textures>
-        <texture file="props/shiled_tedate_b_2.png" name="baseTex"/>
+        <texture file="props/shiled/tedate_b_2.png" name="baseTex"/>
       </textures>
     </variant>
         <variant frequency="1" name="text_3">
       <textures>
-        <texture file="props/shiled_tedate_b_3.png" name="baseTex"/>
+        <texture file="props/shiled/tedate_b_3.png" name="baseTex"/>
       </textures>
     </variant>
         <variant frequency="1" name="text_4">
       <textures>
-        <texture file="props/shiled_tedate_b_4.png" name="baseTex"/>
+        <texture file="props/shiled/tedate_b_4.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
