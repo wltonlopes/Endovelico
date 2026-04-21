@@ -12,7 +12,7 @@
     <Static width="8.0" depth="8.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/bedouin/sentry_tower.xml</Actor>
+    <Actor>structures/bedouins/sentry_tower.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

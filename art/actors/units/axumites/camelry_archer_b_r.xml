@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="robes_04_01">
+      <textures>
+        <texture file="skeletal/arab/robes_04_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_02">
+      <textures>
+        <texture file="skeletal/arab/robes_04_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_03">
+      <textures>
+        <texture file="skeletal/arab/robes_04_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_04">
+      <textures>
+        <texture file="skeletal/arab/robes_04_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_05">
+      <textures>
+        <texture file="skeletal/arab/robes_04_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_06">
+      <textures>
+        <texture file="skeletal/arab/robes_04_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_07">
+      <textures>
+        <texture file="skeletal/arab/robes_04_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="robes_04_08">
+      <textures>
+        <texture file="skeletal/arab/robes_04_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/camelry/base_archer_relax.xml"/>
+    <variant file="biped/rider/camelry/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/camelry/promotion.xml"/>
+    <variant file="biped/rider/camelry/attack_ranged_archer_right.xml"/>
+    <variant file="biped/rider/camelry/attack_slaughter.xml"/>
+    <variant file="biped/rider/camelry/gather_meat.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

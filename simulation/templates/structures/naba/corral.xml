@@ -17,7 +17,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/bedouin/corral.xml</Actor>
+    <Actor>structures/bedouins/corral.xml</Actor>
     <FoundationActor>structures/fndn_5x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

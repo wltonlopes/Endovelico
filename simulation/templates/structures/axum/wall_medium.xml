@@ -39,7 +39,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/axumites/wall_med.xml</Actor>
+    <Actor>structures/axumites/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>19</Length>

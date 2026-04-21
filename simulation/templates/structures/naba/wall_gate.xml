@@ -15,7 +15,7 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/bedouin/wall_gate.xml</Actor>
+    <Actor>structures/bedouins/wall_gate.xml</Actor>
   </VisualActor>
   <TurretHolder>
     <TurretPoints>

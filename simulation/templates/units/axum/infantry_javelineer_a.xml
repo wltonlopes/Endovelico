@@ -7,6 +7,6 @@
     <Entity>units/axum/infantry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/axum/infantry_javelinist_a.xml</Actor>
+    <Actor>units/axumites/infantry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>

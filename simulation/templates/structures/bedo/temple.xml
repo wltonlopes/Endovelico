@@ -12,7 +12,7 @@
     <Static width="25.5" depth="25.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/bedouin/temple.xml</Actor>
+    <Actor>structures/bedouins/temple.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

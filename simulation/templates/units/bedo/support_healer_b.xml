@@ -10,6 +10,6 @@
     <Entity>units/bedo/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/bedouin/healer.xml</Actor>
+    <Actor>units/bedouins/healer.xml</Actor>
   </VisualActor>
 </Entity>

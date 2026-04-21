@@ -12,7 +12,7 @@
     <Static width="14.8" depth="6.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/bedouin/wall_medium.xml</Actor>
+    <Actor>structures/bedouins/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>14.8</Length>

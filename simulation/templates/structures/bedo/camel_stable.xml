@@ -11,7 +11,7 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/bedouin/stable_camel.xml</Actor>
+    <Actor>structures/bedouins/stable_camel.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -4,9 +4,9 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/axum/cavalry_archer_e</Entity>
+    <Entity>units/axum/camelry_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/axum/cavalry_archer_a_m.xml</Actor>
+    <Actor>units/axumites/camelry_archer_a_m.xml</Actor>
   </VisualActor>
 </Entity>

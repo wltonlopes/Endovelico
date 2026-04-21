@@ -11,6 +11,6 @@
     <Entity>units/axum/camelry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/axum/camelry_archer_b_m.xml</Actor>
+    <Actor>units/axumites/camelry_archer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

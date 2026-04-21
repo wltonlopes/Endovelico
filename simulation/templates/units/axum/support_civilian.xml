@@ -15,6 +15,6 @@
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/axum/citizen_{phenotype}.xml</Actor>
+    <Actor>units/axumites/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

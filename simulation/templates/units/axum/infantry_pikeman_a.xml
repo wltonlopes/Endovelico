@@ -7,6 +7,6 @@
     <Entity>units/axum/infantry_pikeman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/axum/infantry_pikeman_b.xml</Actor>
+    <Actor>units/axumites/infantry_pikeman_b.xml</Actor>
   </VisualActor>
 </Entity>

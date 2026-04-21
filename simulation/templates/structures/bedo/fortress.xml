@@ -18,7 +18,7 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/bedouin/fortress.xml</Actor>
+    <Actor>structures/bedouins/fortress.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
   <WallPiece>

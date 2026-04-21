@@ -12,7 +12,7 @@
     <Static width="25.7" depth="7.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/bedouin/wall_long.xml</Actor>
+    <Actor>structures/bedouins/wall_long.xml</Actor>
   </VisualActor>
   <TurretHolder>
     <TurretPoints>

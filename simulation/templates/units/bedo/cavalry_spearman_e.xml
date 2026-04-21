@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/bedouin/camelry_spearman_m.xml</Actor>
+    <Actor>units/bedouins/camelry_spearman_m.xml</Actor>
   </VisualActor>
 </Entity>

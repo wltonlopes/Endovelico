@@ -12,6 +12,6 @@
     <Static depth="49.5" width="45.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/bedouin/wonder.xml</Actor>
+    <Actor>structures/bedouins/wonder.xml</Actor>
   </VisualActor>
 </Entity>

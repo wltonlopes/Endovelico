@@ -7,6 +7,6 @@
     <Icon>units/iber/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/bedouin/citizen_{phenotype}.xml</Actor>
+    <Actor>units/bedouins/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

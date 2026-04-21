@@ -35,6 +35,6 @@
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>units/bedouin/camel_archer_b_m.xml</Actor>
+    <Actor>units/bedouins/camelry_archer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

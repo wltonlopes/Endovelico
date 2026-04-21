@@ -7,6 +7,6 @@
     <Entity>units/bedo/infantry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/bedouin/infantry_javelinist_a.xml</Actor>
+    <Actor>units/bedouins/infantry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>
