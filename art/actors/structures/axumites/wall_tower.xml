@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Axumite Wall Tower" file="structures/defensive_building.xml">
-      <mesh>structural/axum/wall_tower.dae</mesh>
+      <mesh>structural/axumites/wall_tower.dae</mesh>
       <textures>
         <texture file="structural/axum_struct.png" name="baseTex"/>
         <texture file="structural/axum_struct_spec.png" name="specTex"/>

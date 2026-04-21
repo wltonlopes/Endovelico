@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Anishinaabe Wall Gate">
-      <mesh>structural/anishinaabes/wall_gate.dae</mesh>
+      <mesh>structural/anishinaabe/wall_gate.dae</mesh>
       <props>
         <prop actor="structures/adena/wall_gate_door.xml" attachpoint="root"/>
       </props>

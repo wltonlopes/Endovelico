@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="special">
-      <mesh>structural/anishinaabes/special.dae</mesh>
+      <mesh>structural/anishinaabe/special.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root" />
       </props>

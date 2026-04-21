@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Axumite Stable Camel">
-      <mesh>structural/axum/stable_camel.dae</mesh>
+      <mesh>structural/axumites/stable_camel.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root" />
         <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_01" />

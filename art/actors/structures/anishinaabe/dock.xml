@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Anishinaab Dock">
-      <mesh>structural/anishinaabes/dock.dae</mesh>
+      <mesh>structural/anishinaabe/dock.dae</mesh>
       <textures>
         <texture file="structural/anish/struct.png" name="baseTex" />
         <texture file="structural/anish/struct_spec.png" name="specTex" />

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Anishinaabe Medium">
-      <mesh>structural/anishinaabes/wall_medium.dae</mesh>
+      <mesh>structural/anishinaabe/wall_medium.dae</mesh>
       <textures>
         <texture file="structural/anish/struct.png" name="baseTex"/>
         <texture file="structural/anish/struct_spec.png" name="specTex"/>

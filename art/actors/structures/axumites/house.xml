@@ -15,25 +15,25 @@
   </group>
   <group>
     <variant frequency="1" name="House 01">
-      <mesh>structural/axum/house_01.dae</mesh>
+      <mesh>structural/axumites/house_01.dae</mesh>
       <textures>
         <texture file="structural/ao/axum/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="House 02">
-      <mesh>structural/axum/house_02.dae</mesh>
+      <mesh>structural/axumites/house_02.dae</mesh>
       <textures>
         <texture file="structural/ao/axum/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="House 03">
-      <mesh>structural/axum/house_03.dae</mesh>
+      <mesh>structural/axumites/house_03.dae</mesh>
       <textures>
         <texture file="structural/ao/axum/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="House 04">
-      <mesh>structural/axum/house_04.dae</mesh>
+      <mesh>structural/axumites/house_04.dae</mesh>
       <textures>
         <texture file="structural/ao/axum/house_04_ao.png" name="aoTex"/>
       </textures>

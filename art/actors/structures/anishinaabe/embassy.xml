@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Anishinaabe Embassy">
-      <mesh>structural/anishinaabes/embassy.dae</mesh>
+      <mesh>structural/anishinaabe/embassy.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="particle/flame.xml" attachpoint="fire"/>

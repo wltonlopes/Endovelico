@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Axumite Fortress" file="structures/defensive_building.xml">
-      <mesh>structural/axum/fortress.dae</mesh>
+      <mesh>structural/axumites/fortress.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

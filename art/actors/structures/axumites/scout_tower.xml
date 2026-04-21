@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Axumite Sentry Tower" file="structures/defensive_building.xml">
-      <mesh>structural/axum/wood_tower.dae</mesh>
+      <mesh>structural/axumites/wood_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
       </props>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Axumite Stable Elephant">
-      <mesh>structural/axum/stable_elephant.dae</mesh>
+      <mesh>structural/axumites/stable_elephant.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="fauna/elephant_african_forest.xml" attachpoint="elephant_01" maxheight="20" minheight="-20"/>

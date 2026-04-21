@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Axumite Storehouse">
-      <mesh>structural/axum/storehouse.dae</mesh>
+      <mesh>structural/axumites/storehouse.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>

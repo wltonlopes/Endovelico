@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Anishinaab Corral">
-      <mesh>structural/anishinaabes/corral.dae</mesh>
+      <mesh>structural/anishinaabe/corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root" />
       </props>

@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Axumite Camp Beja" file="structures/defensive_building.xml">
-      <mesh>structural/axum/beja.dae</mesh>
+      <mesh>structural/axumites/beja.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root" />
         <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_01" />

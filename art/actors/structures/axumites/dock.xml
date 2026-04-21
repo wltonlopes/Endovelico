@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Axumites Dock">
-      <mesh>structural/axum/dock.dae</mesh>
+      <mesh>structural/axumites/dock.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
