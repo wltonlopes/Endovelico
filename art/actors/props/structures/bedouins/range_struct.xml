@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Bedouin Range Struct">
-      <mesh>props/structural/bedouin/range_struct.dae</mesh>
+      <mesh>props/structural/bedouins/range_struct.dae</mesh>
       <textures>
         <texture file="structural/kush_nuba_camp.png" name="baseTex"/>
         <texture file="structural/kush_nuba_camp_norm.png" name="normTex"/>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Bedouin Market Palm">
-      <mesh>props/structural/bedouin/market_palm.dae</mesh>
+      <mesh>props/structural/bedouins/market_palm.dae</mesh>
       <textures>
         <texture file="gaia/palm_areca.png" name="baseTex"/>
         <texture file="gaia/palm_areca_norm.png" name="normTex"/>

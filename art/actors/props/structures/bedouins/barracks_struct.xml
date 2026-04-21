@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Bedouin Barracks Struct">
-      <mesh>props/structural/bedouin/barracks_struct.dae</mesh>
+      <mesh>props/structural/bedouins/barracks_struct.dae</mesh>
       <textures>
         <texture file="structural/kush_nuba_camp.png" name="baseTex"/>
         <texture file="structural/kush_nuba_camp_norm.png" name="normTex"/>
