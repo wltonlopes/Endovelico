@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Yayoi Market">
-      <mesh>structural/anish/market.dae</mesh>
+      <mesh>structural/anishinaabes/market.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root" />
       </props>

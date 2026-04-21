@@ -12,7 +12,7 @@
     <Lang>persian</Lang>
     <SpecificName>Royal Cavalry Archer</SpecificName>
     <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
-    <SelectionGroupName>units/scyth/champion_cavalry_archer</SelectionGroupName>
+    <SelectionGroupName>units/tocha/champion_cavalry_archer</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_archer.png</Icon>
   </Identity>
   <Resistance>

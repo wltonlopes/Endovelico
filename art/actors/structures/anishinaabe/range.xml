@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Anishinaabe Range">
-      <mesh>structural/anish/range.dae</mesh>
+      <mesh>structural/anishinaabes/range.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root" />
       </props>

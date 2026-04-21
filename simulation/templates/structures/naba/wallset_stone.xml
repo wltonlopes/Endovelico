@@ -5,11 +5,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/bedo/wall_tower</Tower>
-      <Gate>structures/bedo/wall_gate</Gate>
-      <WallLong>structures/bedo/wall_long</WallLong>
-      <WallMedium>structures/bedo/wall_medium</WallMedium>
-      <WallShort>structures/bedo/wall_short</WallShort>
+      <Tower>structures/naba/wall_tower</Tower>
+      <Gate>structures/naba/wall_gate</Gate>
+      <WallLong>structures/naba/wall_long</WallLong>
+      <WallMedium>structures/naba/wall_medium</WallMedium>
+      <WallShort>structures/naba/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.01</MinTowerOverlap>

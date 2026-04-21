@@ -3,7 +3,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/support_healer_b</SelectionGroupName>
+    <SelectionGroupName>units/tocha/support_healer_b</SelectionGroupName>
     <SpecificName>Enaree Shaman</SpecificName>
     <Icon>units/scyth/support_healer.png</Icon>
   </Identity>

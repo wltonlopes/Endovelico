@@ -27,7 +27,7 @@
     <Lang>persian</Lang>
     <SpecificName>Scythian Villager</SpecificName>
     <Icon>units/scyth/support_citizen_female.png</Icon>
-    <SelectionGroupName>units/scyth/support_citizen_female</SelectionGroupName>
+    <SelectionGroupName>units/tocha/support_citizen_female</SelectionGroupName>
     <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>

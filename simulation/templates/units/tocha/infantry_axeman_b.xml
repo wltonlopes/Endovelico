@@ -9,7 +9,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/infantry_swordsman</SelectionGroupName>
+    <SelectionGroupName>units/tocha/infantry_swordsman</SelectionGroupName>
     <SpecificName>Saka Axeman</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

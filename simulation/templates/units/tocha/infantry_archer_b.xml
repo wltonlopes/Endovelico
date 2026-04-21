@@ -9,7 +9,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SelectionGroupName>units/scyth/infantry_archer</SelectionGroupName>
+    <SelectionGroupName>units/tocha/infantry_archer</SelectionGroupName>
     <SpecificName>Scythian Archer</SpecificName>
     <Icon>units/scyth/infantry_archer.png</Icon>
   </Identity>

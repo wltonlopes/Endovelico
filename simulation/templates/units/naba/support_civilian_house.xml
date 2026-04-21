@@ -1,4 +1,5 @@
-<Entity parent="units/himya/support_civilian">
+<?xml version="1.0"?>
+<Entity parent="units/naba/support_civilian">
   <Cost>
     <BuildTime>30</BuildTime>
   </Cost>

@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="field_w">
-      <mesh>structural/anish/field_w.dae</mesh>
+      <mesh>structural/anishinaabes/field_w.dae</mesh>
       <textures>
         <texture file="structural/anish/struct.png" name="baseTex" />
         <texture file="structural/anish/struct_spec.png" name="specTex" />

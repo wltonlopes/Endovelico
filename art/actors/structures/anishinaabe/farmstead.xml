@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Anishinaab Farmstead">
-      <mesh>structural/anish/farmstead.dae</mesh>
+      <mesh>structural/anishinaabes/farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root" />
         <prop actor="particle/smoke_small_light.xml" attachpoint="smoke" />

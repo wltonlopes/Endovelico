@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Anishinaab Forge">
-      <mesh>structural/anish/forge.dae</mesh>
+      <mesh>structural/anishinaabes/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root" />
         <prop actor="particle/sparks_blacksmith.xml" attachpoint="smoke" />
