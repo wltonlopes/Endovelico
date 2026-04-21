@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/sheath/han_jian_sheath_left_d.xml" attachpoint="sheath_L"/>
+      </props>
+      <textures>
+        <texture file="skeletal/han/lamellar_02_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="koreans-Armor-Lamellar-02-Lacqurered-01">
+      <textures>
+        <texture file="skeletal/koreans/armor_champ_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="koreans-Armor-Lamellar-02-Lacqurered-02">
+      <textures>
+        <texture file="skeletal/koreans/armor_champ_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="koreans-Armor-Lamellar-02-Lacqurered-03">
+      <textures>
+        <texture file="skeletal/koreans/armor_champ_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="open_helmet">
+      <props>
+        <prop actor="props/units/helmets/korean_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="han_ji">
+      <props>
+        <prop actor="props/units/weapons/spear/han_ji.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="han_halb">
+      <props>
+        <prop actor="props/units/weapons/spear/han_halb.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_2h_fast_relax.xml" name="Spearman-2h-Fast-Relax" frequency="1"/>
+    <variant file="biped/rider/death_2h.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/attack_slaughter_hele.xml"/>
+    <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death.xml"/>
+  </group>
+  <material>default.xml</material>
+</actor>
