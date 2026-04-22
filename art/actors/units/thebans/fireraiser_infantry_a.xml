@@ -57,50 +57,44 @@
     </variant>
   </group>
   <group>
-    <variant name="psiloi-original">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
-      <textures>
-        <texture file="skeletal/hele_iar_e.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant name="psiloi-1">
       <textures>
-        <texture file="skeletal/hele_psiloi_padded_1_a.png" name="baseTex"/>
+        <texture file="skeletal/hele/padded_psiloi_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="psiloi-2">
       <textures>
-        <texture file="skeletal/hele_psiloi_padded_1_b.png" name="baseTex"/>
+        <texture file="skeletal/hele/padded_psiloi_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="psiloi-3">
       <textures>
-        <texture file="skeletal/hele_psiloi_padded_1_c.png" name="baseTex"/>
+        <texture file="skeletal/hele/padded_psiloi_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="psiloi-4">
       <textures>
-        <texture file="skeletal/hele_psiloi_padded_1_d.png" name="baseTex"/>
+        <texture file="skeletal/hele/padded_psiloi_01_04.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="psiloi-5">
       <textures>
-        <texture file="skeletal/hele_epilektoi_7.png" name="baseTex"/>
+        <texture file="skeletal/athen/epilektos_07.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="psiloi-6">
       <textures>
-        <texture file="skeletal/hele_epilektoi_4.png" name="baseTex"/>
+        <texture file="skeletal/athen/epilektos_04.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="psiloi-7">
       <textures>
-        <texture file="skeletal/hele_epilektoi_9.png" name="baseTex"/>
+        <texture file="skeletal/athen/epilektos_09.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="psiloi-8">
       <textures>
-        <texture file="skeletal/hele_epilektoi_10.png" name="baseTex"/>
+        <texture file="skeletal/athen/epilektos_10.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

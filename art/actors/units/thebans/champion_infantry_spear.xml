@@ -138,12 +138,12 @@
     </variant>
     <variant frequency="1" name="armour-epilektoi-7">
       <textures>
-        <texture file="skeletal/hele_epilektoi_7.png" name="baseTex"/>
+        <texture file="skeletal/athen/epilektos_07.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="armour-epilektoi-10">
       <textures>
-        <texture file="skeletal/hele_epilektoi_10.png" name="baseTex"/>
+        <texture file="skeletal/athen/epilektos_10.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

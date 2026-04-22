@@ -53,22 +53,22 @@
   </group>
   <group>
     <variant frequency="1" name="Tunic-Sleeves-a">
-      <textures><texture file="skeletal/hele/tunic_3_a.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/hele/tunic_03_01.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Tunic-Sleeves-b">
-      <textures><texture file="skeletal/hele/tunic_3_b.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/hele/tunic_03_02.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Tunic-Sleeves-c">
-      <textures><texture file="skeletal/hele/tunic_3_c.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/hele/tunic_03_03.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Tunic-Sleeveless-a">
-      <textures><texture file="skeletal/hele/tunic_2_a.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/hele/tunic_02_01.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Tunic-Sleeveless-b">
-      <textures><texture file="skeletal/hele/tunic_2_b.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/hele/tunic_02_02.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Tunic-Sleeveless-c">
-      <textures><texture file="skeletal/hele/tunic_2_c.png" name="baseTex"/></textures>
+      <textures><texture file="skeletal/hele/tunic_02_03.png" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

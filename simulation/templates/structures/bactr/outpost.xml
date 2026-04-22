@@ -2,9 +2,9 @@
 <Entity parent="template_structure_defensive_outpost">
   <Identity>
     <Civ>bactr</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <VisualActor>
-    <Actor>structures/bactrian/outpost.xml</Actor>
+    <Actor>structures/hellenes/outpost.xml</Actor>
   </VisualActor>
 </Entity>
