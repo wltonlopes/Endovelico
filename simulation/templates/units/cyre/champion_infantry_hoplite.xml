@@ -11,11 +11,8 @@
       <Techs datatype="tokens">unlock_champion_infantry</Techs>
     </Requirements>
     <Icon>units/theb/champion_infantry_hoplite.png</Icon>
-    <Formations datatype="tokens">
-      special/formations/phalanx
-    </Formations>
   </Identity>
   <VisualActor>
-    <Actor>units/cyrene/champion_infantry_spear.xml</Actor>
+    <Actor>units/cyrene/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

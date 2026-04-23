@@ -5,6 +5,9 @@
     <variant frequency="1" name="base">
       <mesh>props/new/head_longhair.dae</mesh>
     </variant>
+    <variant frequency="1" name="base2">
+      <mesh>props/new/dude_head.dae</mesh>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="face-a">

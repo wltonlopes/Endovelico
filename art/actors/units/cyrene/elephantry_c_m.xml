@@ -1,84 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
     <variant file="quadraped/base_elephant_african.xml">
       <mesh>skeletal/elephant_african_forest.dae</mesh>
       <props>
-        <prop actor="units/carthaginians/elephantry_c_d.xml" attachpoint="rider"/>
+        <prop actor="units/cyrene/elephantry_c_d.xml" attachpoint="rider"/>
+        <prop actor="props/units/elephant/howdah_ptol.xml" attachpoint="turret"/>
+        <prop actor="props/units/elephant/cushion_small.xml" attachpoint="turret"/>
+        <prop actor="units/cyrene/elephantry_c_r.xml" attachpoint="turret"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="default-cloth">
+    <variant frequency="1" name="Hide-Brown">
       <textures>
-        <texture file="skeletal/cart/elephant_01.png" name="baseTex"/>
-        <texture file="skeletal/cart/elephant_01_spec.png" name="specTex"/>
-        <texture file="skeletal/cart/elephant_01_norm.png" name="normTex"/>
+        <texture file="skeletal/ptol/elephant_01.png" name="baseTex"/>
+        <texture file="skeletal/ptol/elephant_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="metal-cloth">
+    <variant frequency="1" name="Hide-Gray">
       <textures>
-        <texture file="skeletal/cart/elephant_01_armored.png" name="baseTex"/>
-        <texture file="skeletal/cart/elephant_01_armored_spec.png" name="specTex"/>
-        <texture file="skeletal/cart/elephant_01_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="cloth-02">
-      <textures>
-        <texture file="skeletal/cart/elephant_02.png" name="baseTex"/>
-        <texture file="skeletal/cart/elephant_02_spec.png" name="specTex"/>
-        <texture file="skeletal/cart/elephant_02_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="cloth-03">
-      <textures>
-        <texture file="skeletal/cart/elephant_03.png" name="baseTex"/>
-        <texture file="skeletal/cart/elephant_02_spec.png" name="specTex"/>
-        <texture file="skeletal/cart/elephant_02_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="cloth-04">
-      <textures>
-        <texture file="skeletal/cart/elephant_04.png" name="baseTex"/>
-        <texture file="skeletal/cart/elephant_02_spec.png" name="specTex"/>
-        <texture file="skeletal/cart/elephant_02_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="cloth-05">
-      <textures>
-        <texture file="skeletal/cart/elephant_05.png" name="baseTex"/>
-        <texture file="skeletal/cart/elephant_02_spec.png" name="specTex"/>
-        <texture file="skeletal/cart/elephant_02_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="cloth-06">
-      <textures>
-        <texture file="skeletal/cart/elephant_06.png" name="baseTex"/>
-        <texture file="skeletal/cart/elephant_02_spec.png" name="specTex"/>
-        <texture file="skeletal/cart/elephant_02_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="cloth-07">
-      <textures>
-        <texture file="skeletal/cart/elephant_07.png" name="baseTex"/>
-        <texture file="skeletal/cart/elephant_02_spec.png" name="specTex"/>
-        <texture file="skeletal/cart/elephant_02_norm.png" name="normTex"/>
+        <texture file="skeletal/ptol/elephant_02.png" name="baseTex"/>
+        <texture file="skeletal/ptol/elephant_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant name="Run">
-      <props>
-        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant name="death">
-      <props>
-        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
-      </props>
-    </variant>
+    <variant frequency="100" name="Idle"/>
+    <variant file="quadraped/base_elephant_death.xml"/>
+    <variant file="quadraped/base_elephant_run.xml"/>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="elephant_african|template_unit_champion_elephant_melee">
+  <Identity>
+    <Civ>cyre</Civ>
+    <GenericName>Towered War Elephant</GenericName>
+    <SpecificName>Eléphantos</SpecificName>
+    <Icon>units/ptol/champion_elephant.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/cyrene/elephantry_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

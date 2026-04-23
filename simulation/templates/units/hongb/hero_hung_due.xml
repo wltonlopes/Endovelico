@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_archer">">
+<Entity parent="template_unit_hero_elephant_melee">
   <Identity>
     <Civ>hongb</Civ>
     <GenericName>Hùng Duệ Vương </GenericName>
@@ -7,6 +7,6 @@
     <Icon>units/yayo/hero_himiko.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/hero_healer_himiko.xml</Actor>
+    <Actor>units/vietnam/hero_elephant_m.xml</Actor>
   </VisualActor>
 </Entity>

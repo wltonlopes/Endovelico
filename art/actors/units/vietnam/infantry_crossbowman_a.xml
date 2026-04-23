@@ -6,6 +6,7 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_viet.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/crossbow/han_nu.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/quivers/han_bolt_quiver.xml" attachpoint="back"/>
       </props>
@@ -16,19 +17,27 @@
     </variant>
   </group>
   <group>
+    <variant frequency="50" name="hairbun">
+      <props>
+        <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="v1">
       <textures>
-        <texture file="skeletal/minyue/tunic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/viet/tunic_03_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="v2">
       <textures>
-        <texture file="skeletal/minyue/tunic_01_02.png" name="baseTex"/>
+        <texture file="skeletal/viet/tunic_03_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="v3">
-      <textures>
-        <texture file="skeletal/minyue/tunic_01_03.png" name="baseTex"/>
+       <textures>
+        <texture file="skeletal/viet/tunic_03_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

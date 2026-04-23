@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
-  <Attack>
-    <Melee>
-      <AttackName>Axeman</AttackName>
-    </Melee>
-  </Attack>
   <Identity>
     <Civ>hongb</Civ>
-    <GenericName>Champion Axeman</GenericName>
-    <SpecificName>Wono nö Tupamönö</SpecificName>
+    <GenericName>Champion Swordsman</GenericName>
+    <SpecificName>Hùng Nghi Vương</SpecificName>
     <Icon>units/yayo/champion_infantry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
@@ -17,6 +12,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/infantry_axeman_c.xml</Actor>
+    <Actor>units/vietnam/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

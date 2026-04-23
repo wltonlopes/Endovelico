@@ -6,13 +6,23 @@
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_viet.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/south_amer_round_01.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/sword/han_sword_liu_bang.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/helmet_viet_feather_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_viet_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/viet_round_01.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/sword/han_sword_01.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="50" name="hairbun">
+      <props>
+        <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/helmet_viet_01.xml" attachpoint="helmet"/>
+      </props>
     </variant>
   </group>
   <group>
