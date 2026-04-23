@@ -3,10 +3,9 @@
   <castshadow/>
   <group>
     <variant file="biped/base_archer_ready.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_austronesian_01.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
@@ -20,17 +19,17 @@
   <group>
     <variant frequency="1" name="v1">
       <textures>
-        <texture file="skeletal/minyue/tunic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/viet/tunic_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="v2">
       <textures>
-        <texture file="skeletal/minyue/tunic_01_02.png" name="baseTex"/>
+        <texture file="skeletal/viet/tunic_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="v3">
       <textures>
-        <texture file="skeletal/minyue/tunic_01_03.png" name="baseTex"/>
+        <texture file="skeletal/viet/tunic_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

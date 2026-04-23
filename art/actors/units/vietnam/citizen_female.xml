@@ -3,10 +3,8 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_female_yayoi.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/minyue_hair_m_1.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_viet_fem.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -16,13 +14,21 @@
   </group>
   <group>
     <variant frequency="1" name="v1">
+      <mesh>skeletal/new/f_tunic_long.dae</mesh>
       <textures>
-        <texture file="skeletal/minyue/f_01_01.png" name="baseTex"/>
+        <texture file="skeletal/viet/tunic_fem_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="v2">
+      <mesh>skeletal/new/f_dress_02.dae</mesh>
       <textures>
-        <texture file="skeletal/minyue/f_01_02.png" name="baseTex"/>
+        <texture file="skeletal/viet/tunic_fem_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="v3">
+      <mesh>skeletal/new/f_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/viet/tunic_fem_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

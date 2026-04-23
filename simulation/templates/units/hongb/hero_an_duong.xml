@@ -2,11 +2,11 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Identity>
     <Civ>hongb</Civ>
-    <GenericName>Wousu</GenericName>
-    <SpecificName>Yamatötakëru</SpecificName>
+    <GenericName>An Dương Vương</GenericName>
+    <SpecificName>An Dương Vương</SpecificName>
     <Icon>units/yayo/hero_wousu.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/hero_wousu_infantry_swordsman.xml</Actor>
+    <Actor>units/vietnam/hero_an_duong_vuong_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

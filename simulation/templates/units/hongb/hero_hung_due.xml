@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_healer">
+<Entity parent="template_unit_hero_infantry_archer">">
   <Identity>
     <Civ>hongb</Civ>
-    <GenericName>Himiko</GenericName>
-    <SpecificName>Pimiko</SpecificName>
+    <GenericName>Hùng Duệ Vương </GenericName>
+    <SpecificName>Hùng Duệ Vương </SpecificName>
     <Icon>units/yayo/hero_himiko.png</Icon>
   </Identity>
   <VisualActor>

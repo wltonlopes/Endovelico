@@ -3,14 +3,30 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_viet.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/zapo/basic_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/maur/skirt_01_spec.png" name="specTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="v1">
+      <textures>
+        <texture file="skeletal/minyue/tunic_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="v2">
+      <textures>
+        <texture file="skeletal/minyue/tunic_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="v3">
+      <textures>
+        <texture file="skeletal/minyue/tunic_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

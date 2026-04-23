@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/f_dress.dae</mesh>
+      <mesh>skeletal/new/f_dress_02.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_female_yayoi.xml" attachpoint="head"/>
       </props>

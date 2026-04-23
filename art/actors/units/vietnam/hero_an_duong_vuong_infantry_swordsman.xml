@@ -3,11 +3,11 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_austronesian_01.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_viet.xml" attachpoint="head"/>
         <prop actor="props/units/shields/south_amer_round_01.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/sword/han_sword_liu_bang.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sword/han_sword_02.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -18,12 +18,7 @@
   <group>
     <variant frequency="1" name="v1">
       <textures>
-        <texture file="skeletal/minyue/tunic_02_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="v2">
-      <textures>
-        <texture file="skeletal/minyue/tunic_02_03.png" name="baseTex"/>
+        <texture file="skeletal/viet/tunic_hero_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

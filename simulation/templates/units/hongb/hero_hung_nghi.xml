@@ -2,11 +2,11 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>hongb</Civ>
-    <GenericName>Keikō</GenericName>
-    <SpecificName>Opotarasipiko Osiröwakë</SpecificName>
+    <GenericName>Hùng Nghị Vương</GenericName>
+    <SpecificName>Hùng Nghị Vương</SpecificName>
     <Icon>units/yayo/hero_keiko.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/yayoi/infantry_spearman_e.xml</Actor>
+    <Actor>units/vietnam/hero_hung_nghi.xml</Actor>
   </VisualActor>
 </Entity>
