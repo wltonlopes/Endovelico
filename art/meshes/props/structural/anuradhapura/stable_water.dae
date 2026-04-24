@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.9 LTS commit date:2026-04-20, commit time:14:24, hash:8bf95cbd38d1</authoring_tool>
+    </contributor>
+    <created>2026-04-23T02:19:25</created>
+    <modified>2026-04-23T02:19:25</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Anura_Stable_Water-mesh" name="Anura Stable Water">
+      <mesh>
+        <source id="Anura_Stable_Water-mesh-positions">
+          <float_array id="Anura_Stable_Water-mesh-positions-array" count="54">1.842922 -4.797615 1.80094 1.778475 -4.241346 1.80094 2.200595 -3.87225 1.80094 2.758775 -3.812139 1.80094 3.123531 -4.236171 1.80094 3.18798 -4.79244 1.80094 2.765862 -5.161539 1.80094 2.207679 -5.221644 1.80094 2.483228 -4.516896 1.80094 2.261219 -8.156392 1.80094 2.196771 -7.600122 1.80094 2.618891 -7.231026 1.80094 3.177072 -7.170915 1.80094 3.54183 -7.594944 1.80094 3.606276 -8.151217 1.80094 3.184158 -8.520316 1.80094 2.625977 -8.580424 1.80094 2.901525 -7.875671 1.80094</float_array>
+          <technique_common>
+            <accessor source="#Anura_Stable_Water-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Stable_Water-mesh-normals">
+          <float_array id="Anura_Stable_Water-mesh-normals-array" count="39">0 0 1 0 0 1 1.58955e-7 0 1 -1.5874e-7 0 1 0 0 1 0 0 1 -1.58955e-7 0 1 1.59451e-7 0 1 1.58846e-7 0 1 0 0 1 -1.38611e-7 0 1 -1.58635e-7 0 1 -1.59215e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Anura_Stable_Water-mesh-normals-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Stable_Water-mesh-map-0">
+          <float_array id="Anura_Stable_Water-mesh-map-0-array" count="96">0.6488031 0.1832002 0.6573205 0.207446 0.6451281 0.2074462 0.6573205 0.207446 0.6488031 0.2316921 0.6451281 0.2074462 0.6573205 0.207446 0.6658378 0.2316921 0.6573855 0.2365959 0.6573205 0.207446 0.6488031 0.2316921 0.6451281 0.2074462 0.6488031 0.1832002 0.6573205 0.207446 0.6451281 0.2074462 0.6573205 0.207446 0.6658378 0.2316921 0.6573855 0.2365959 0.6658378 0.1832002 0.6573205 0.207446 0.6573193 0.1787748 0.6658378 0.1832002 0.6573205 0.207446 0.6573193 0.1787748 0.6488031 0.1832002 0.6573193 0.1787748 0.6573205 0.207446 0.6573205 0.207446 0.6573855 0.2365959 0.6488031 0.2316921 0.6573205 0.207446 0.669513 0.2074462 0.6658378 0.2316921 0.6573205 0.207446 0.6573855 0.2365959 0.6488031 0.2316921 0.6488031 0.1832002 0.6573193 0.1787748 0.6573205 0.207446 0.6573205 0.207446 0.669513 0.2074462 0.6658378 0.2316921 0.6658378 0.1832002 0.669513 0.2074462 0.6573205 0.207446 0.6658378 0.1832002 0.669513 0.2074462 0.6573205 0.207446</float_array>
+          <technique_common>
+            <accessor source="#Anura_Stable_Water-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Stable_Water-mesh-map-1">
+          <float_array id="Anura_Stable_Water-mesh-map-1-array" count="96">0.5358411 0.6924903 0.5273168 0.7011266 0.5358411 0.7011266 0.5378431 0.6818521 0.5463674 0.6904883 0.5463674 0.6818521 0.5253148 0.7137669 0.5167905 0.7224032 0.5253148 0.7224032 0.5062642 0.7137669 0.5147885 0.7224032 0.5147885 0.7137669 0.5147885 0.7031286 0.5062642 0.7117649 0.5147885 0.7117649 0.2621569 0.7350435 0.2536326 0.7436798 0.2621569 0.7436798 0.2641589 0.7244052 0.2726832 0.7330415 0.2726832 0.7244052 0.2852115 0.7350435 0.2937358 0.7436798 0.2937358 0.7350435 0.5358411 0.6924903 0.5273168 0.6924903 0.5273168 0.7011266 0.5378431 0.6818521 0.5378431 0.6904883 0.5463674 0.6904883 0.5253148 0.7137669 0.5167905 0.7137669 0.5167905 0.7224032 0.5062642 0.7137669 0.5062642 0.7224032 0.5147885 0.7224032 0.5147885 0.7031286 0.5062642 0.7031286 0.5062642 0.7117649 0.2621569 0.7350435 0.2536326 0.7350435 0.2536326 0.7436798 0.2641589 0.7244052 0.2641589 0.7330415 0.2726832 0.7330415 0.2852115 0.7350435 0.2852115 0.7436798 0.2937358 0.7436798</float_array>
+          <technique_common>
+            <accessor source="#Anura_Stable_Water-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Anura_Stable_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Anura_Stable_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Anura_Stable_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Anura_Stable_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Anura_Stable_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Anura_Stable_Water-mesh-map-1" offset="2" set="1"/>
+          <p>3 0 0 8 1 1 4 0 2 8 1 3 5 2 4 4 0 5 8 1 6 7 3 7 6 4 8 17 5 9 14 6 10 13 7 11 12 8 12 17 5 13 13 7 14 17 5 15 16 9 16 15 10 17 1 11 18 8 1 19 2 0 20 10 0 21 17 5 22 11 0 23 3 0 24 2 0 25 8 1 26 8 1 27 6 4 28 5 2 29 8 1 30 0 12 31 7 3 32 17 5 33 15 10 34 14 6 35 12 8 36 11 0 37 17 5 38 17 5 39 9 0 40 16 9 41 1 11 42 0 12 43 8 1 44 10 0 45 9 0 46 17 5 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="anura_stable_water" name="anura_stable_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Anura_Stable_Water-mesh" name="anura_stable_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

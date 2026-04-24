@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.9 LTS commit date:2026-04-20, commit time:14:24, hash:8bf95cbd38d1</authoring_tool>
+    </contributor>
+    <created>2026-04-23T10:07:53</created>
+    <modified>2026-04-23T10:07:53</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Anura_Stable_Elephant_Water-mesh" name="Anura Stable Elephant Water">
+      <mesh>
+        <source id="Anura_Stable_Elephant_Water-mesh-positions">
+          <float_array id="Anura_Stable_Elephant_Water-mesh-positions-array" count="81">-0.4116659 -3.052078 1.80094 -0.4761134 -2.495809 1.80094 -0.0539937 -2.126715 1.80094 0.5041866 -2.066605 1.80094 0.8689442 -2.490634 1.80094 0.9333913 -3.046904 1.80094 0.5112736 -3.416002 1.80094 -0.04690873 -3.476111 1.80094 0.2286403 -2.771359 1.80094 -10.14483 -9.584284 1.80094 -10.20927 -9.028013 1.80094 -9.787154 -8.65892 1.80094 -9.228971 -8.598809 1.80094 -8.864213 -9.022841 1.80094 -8.799767 -9.57911 1.80094 -9.221885 -9.948209 1.80094 -9.780068 -10.00831 1.80094 -9.504518 -9.303565 1.80094 9.644525 -5.215211 1.80094 9.58008 -4.658942 1.80094 10.0022 -4.289846 1.80094 10.56038 -4.229738 1.80094 10.92514 -4.653767 1.80094 10.98958 -5.210036 1.80094 10.56747 -5.579135 1.80094 10.00928 -5.63924 1.80094 10.28483 -4.934492 1.80094</float_array>
+          <technique_common>
+            <accessor source="#Anura_Stable_Elephant_Water-mesh-positions-array" count="27" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Stable_Elephant_Water-mesh-normals">
+          <float_array id="Anura_Stable_Elephant_Water-mesh-normals-array" count="66">0 0 1 0 0 1 -1.38612e-7 0 1 -1.58635e-7 0 1 0 0 1 1.58847e-7 0 1 1.59451e-7 0 1 -1.58955e-7 0 1 0 0 1 0 0 1 0 0 1 1.58634e-7 0 1 1.58955e-7 0 1 0 0 1 -1.5874e-7 0 1 0 0 1 1.58846e-7 0 1 1.5945e-7 0 1 1.58955e-7 0 1 -1.59215e-7 0 1 3.18664e-7 0 1 -1.59216e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Anura_Stable_Elephant_Water-mesh-normals-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Stable_Elephant_Water-mesh-map-0">
+          <float_array id="Anura_Stable_Elephant_Water-mesh-map-0-array" count="144">0.6573205 0.207446 0.6658378 0.2316921 0.6573855 0.2365959 0.6658378 0.1832002 0.6573205 0.207446 0.6573193 0.1787748 0.6488031 0.1832002 0.6573205 0.207446 0.6451281 0.2074462 0.6573205 0.207446 0.6488031 0.2316921 0.6451281 0.2074462 0.6573205 0.207446 0.6658378 0.2316921 0.6573855 0.2365959 0.6658378 0.1832002 0.6573205 0.207446 0.6573193 0.1787748 0.6488031 0.1832002 0.6573205 0.207446 0.6451281 0.2074462 0.6573205 0.207446 0.6488031 0.2316921 0.6451281 0.2074462 0.6573205 0.207446 0.6658378 0.2316921 0.6573855 0.2365959 0.6658378 0.1832002 0.6573205 0.207446 0.6573193 0.1787748 0.6488031 0.1832002 0.6573205 0.207446 0.6451281 0.2074462 0.6573205 0.207446 0.6488031 0.2316921 0.6451281 0.2074462 0.6573205 0.207446 0.669513 0.2074462 0.6658378 0.2316921 0.6658378 0.1832002 0.669513 0.2074462 0.6573205 0.207446 0.6488031 0.1832002 0.6573193 0.1787748 0.6573205 0.207446 0.6573205 0.207446 0.6573855 0.2365959 0.6488031 0.2316921 0.6573205 0.207446 0.669513 0.2074462 0.6658378 0.2316921 0.6658378 0.1832002 0.669513 0.2074462 0.6573205 0.207446 0.6488031 0.1832002 0.6573193 0.1787748 0.6573205 0.207446 0.6573205 0.207446 0.6573855 0.2365959 0.6488031 0.2316921 0.6573205 0.207446 0.669513 0.2074462 0.6658378 0.2316921 0.6658378 0.1832002 0.669513 0.2074462 0.6573205 0.207446 0.6488031 0.1832002 0.6573193 0.1787748 0.6573205 0.207446 0.6573205 0.207446 0.6573855 0.2365959 0.6488031 0.2316921</float_array>
+          <technique_common>
+            <accessor source="#Anura_Stable_Elephant_Water-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Stable_Elephant_Water-mesh-map-1">
+          <float_array id="Anura_Stable_Elephant_Water-mesh-map-1-array" count="144">0.3063445 0.3033415 0.3109751 0.2910773 0.3063445 0.2910773 0.3186087 0.2758101 0.3139781 0.2880743 0.3139781 0.2758101 0.3073455 0.258541 0.3119761 0.2462768 0.3119761 0.258541 0.3425105 0.261544 0.3378798 0.2738081 0.3425105 0.2738081 0.3216117 0.3033415 0.3262423 0.2910773 0.3216117 0.2910773 0.3302463 0.2890753 0.3348768 0.2768111 0.3348768 0.2890753 0.3149791 0.2738081 0.3196097 0.261544 0.3196097 0.2738081 0.3654112 0.261544 0.3607806 0.2738081 0.3654112 0.2738081 0.350144 0.2462768 0.3455135 0.258541 0.350144 0.258541 0.3073455 0.2890753 0.3119761 0.2768111 0.3119761 0.2890753 0.3186087 0.2452758 0.3139781 0.25754 0.3139781 0.2452758 0.3445125 0.2728071 0.349143 0.260543 0.3445125 0.260543 0.3577776 0.261544 0.3577776 0.2738081 0.353147 0.2738081 0.3378798 0.258541 0.3425105 0.258541 0.3425105 0.2462768 0.3226127 0.2890753 0.3272433 0.2890753 0.3272433 0.2768111 0.3425105 0.2920783 0.3425105 0.3043425 0.3378798 0.3043425 0.3292453 0.25754 0.3292453 0.2452758 0.3338758 0.2452758 0.3567766 0.2452758 0.352146 0.2452758 0.352146 0.25754 0.3302463 0.3043425 0.3348768 0.3043425 0.3348768 0.2920783 0.352146 0.3033415 0.352146 0.2910773 0.3567766 0.2910773 0.3272433 0.2462768 0.3272433 0.258541 0.3226127 0.258541 0.3644102 0.2452758 0.3597796 0.2452758 0.3597796 0.25754 0.3186087 0.2910773 0.3139781 0.2910773 0.3139781 0.3033415 0.3654112 0.2920783 0.3654112 0.3043425 0.3607806 0.3043425</float_array>
+          <technique_common>
+            <accessor source="#Anura_Stable_Elephant_Water-mesh-map-1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Anura_Stable_Elephant_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Anura_Stable_Elephant_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="24">
+          <input semantic="VERTEX" source="#Anura_Stable_Elephant_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Anura_Stable_Elephant_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Anura_Stable_Elephant_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Anura_Stable_Elephant_Water-mesh-map-1" offset="2" set="1"/>
+          <p>8 0 0 7 1 1 6 2 2 1 3 3 8 0 4 2 4 5 3 5 6 8 0 7 4 6 8 8 0 9 5 7 10 4 6 11 17 8 12 16 9 13 15 10 14 10 11 15 17 8 16 11 4 17 12 4 18 17 8 19 13 4 20 17 8 21 14 12 22 13 4 23 26 13 24 25 14 25 24 15 26 19 3 27 26 13 28 20 4 29 21 16 30 26 13 31 22 17 32 26 13 33 23 18 34 22 17 35 8 0 36 0 19 37 7 1 38 1 3 39 0 19 40 8 0 41 3 5 42 2 4 43 8 0 44 8 0 45 6 2 46 5 7 47 17 8 48 9 20 49 16 9 50 10 11 51 9 20 52 17 8 53 12 4 54 11 4 55 17 8 56 17 8 57 15 10 58 14 12 59 26 13 60 18 21 61 25 14 62 19 3 63 18 21 64 26 13 65 21 16 66 20 4 67 26 13 68 26 13 69 24 15 70 23 18 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="anura_stable_elephant_water" name="anura_stable_elephant_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Anura_Stable_Elephant_Water-mesh" name="anura_stable_elephant_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

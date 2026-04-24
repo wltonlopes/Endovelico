@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Anuradhapura Dock Fishing Net">
+      <mesh>props/structural/anuradhapura/dock_fishing_net.dae</mesh>
+      <textures>
+        <texture file="structural/anura/struct.png" name="baseTex"/>
+        <texture file="structural/anura/struct_spec.png" name="specTex"/>
+        <texture file="structural/anura/struct_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

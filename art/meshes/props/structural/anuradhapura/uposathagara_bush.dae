@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.9 LTS commit date:2026-04-20, commit time:14:24, hash:8bf95cbd38d1</authoring_tool>
+    </contributor>
+    <created>2026-04-23T17:07:43</created>
+    <modified>2026-04-23T17:07:43</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="arbusto_tropical_002-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="arbusto_tropical_002-material" name="arbusto tropical.002">
+      <instance_effect url="#arbusto_tropical_002-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Anura_Uposathagara_Bush-mesh" name="Anura Uposathagara Bush">
+      <mesh>
+        <source id="Anura_Uposathagara_Bush-mesh-positions">
+          <float_array id="Anura_Uposathagara_Bush-mesh-positions-array" count="120">7.860383 -3.032415 1.226851 9.580133 -4.768171 3.291795 9.596145 -1.312666 3.291795 6.140633 -1.296657 3.291795 6.124621 -4.75216 3.291795 7.860383 -3.032415 0.7655946 7.696058 -1.048233 1.989683 5.876206 -3.196747 1.989683 8.024721 -5.016598 1.989683 9.844572 -2.868078 1.989683 -7.399741 -3.032421 1.226851 -5.680003 -4.768177 3.291795 -5.663992 -1.312672 3.291795 -9.119492 -1.296663 3.291795 -9.135503 -4.752166 3.291795 -7.399741 -3.032421 0.7655946 -7.564078 -1.048239 1.989683 -9.38393 -3.196752 1.989683 -7.235404 -5.016603 1.989683 -5.415565 -2.868084 1.989683 7.860383 -3.032415 1.235043 9.577283 -4.765303 3.296574 9.593271 -1.31551 3.296574 6.143483 -1.299528 3.296574 6.127496 -4.749315 3.296574 7.860383 -3.032415 0.7725606 7.69631 -1.051329 1.994738 5.87931 -3.196489 1.994738 8.024468 -5.013498 1.994738 9.841468 -2.868336 1.994738 -7.399741 -3.032421 1.235043 -5.682841 -4.765308 3.296574 -5.666854 -1.315515 3.296574 -9.116654 -1.299535 3.296574 -9.132628 -4.749322 3.296574 -7.399741 -3.032421 0.7725606 -7.563814 -1.051336 1.994738 -9.380827 -3.196494 1.994738 -7.235668 -5.013501 1.994738 -5.418654 -2.868343 1.994738</float_array>
+          <technique_common>
+            <accessor source="#Anura_Uposathagara_Bush-mesh-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Uposathagara_Bush-mesh-normals">
+          <float_array id="Anura_Uposathagara_Bush-mesh-normals-array" count="120">0 -4.88425e-7 -1 0.7089132 0.7022703 -0.06525844 0.7024283 -0.70876 -0.06522178 -0.7024177 0.7087773 -0.0651465 -0.7089193 -0.7022696 -0.06519877 -1.84801e-6 -1.98547e-7 -1 -0.9799215 -0.08119207 -0.1821039 -0.08097541 0.9799107 -0.1822579 0.08100521 -0.97995 -0.1820334 0.9799762 0.08119481 -0.1818082 1.52585e-6 -4.68075e-7 -1 0.7087155 0.7024288 -0.06569743 0.7022556 -0.7088922 -0.06564259 -0.7022199 0.7089364 -0.06554722 -0.7089249 -0.7022646 -0.06519144 1.03855e-6 -3.2073e-7 -1 -0.9799639 -0.08120626 -0.181869 -0.08142894 0.9798932 -0.1821504 0.08141607 -0.9799617 -0.1817869 0.9798295 0.08126056 -0.1825675 0 3.45968e-7 1 0.2682667 -0.271427 0.9243162 0.2709548 0.2687903 0.9243026 -0.2682558 0.2712677 0.9243661 -0.2709416 -0.2686895 0.9243358 1.89383e-6 5.80368e-7 1 -0.04110383 0.4913746 0.8699778 -0.4908668 -0.04055881 0.8702901 0.04106038 -0.4907029 0.8703591 0.4909366 0.04057115 0.8702501 -6.38356e-7 6.51234e-7 1 0.2691154 -0.2712983 0.9241072 0.2719015 0.2686247 0.9240728 -0.2691617 0.2711078 0.9241496 -0.2708425 -0.2687727 0.9243406 0 9.01097e-7 1 -0.04001265 0.4913643 0.8700346 -0.4909737 -0.04059147 0.8702282 0.04002249 -0.4909671 0.8702583 0.4917841 0.0405296 0.8697734</float_array>
+          <technique_common>
+            <accessor source="#Anura_Uposathagara_Bush-mesh-normals-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Uposathagara_Bush-mesh-map-0">
+          <float_array id="Anura_Uposathagara_Bush-mesh-map-0-array" count="384">0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 1 1 0 1 0 1 1 1 1 0 1 1 0 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#Anura_Uposathagara_Bush-mesh-map-0-array" count="192" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Uposathagara_Bush-mesh-map-1">
+          <float_array id="Anura_Uposathagara_Bush-mesh-map-1-array" count="384">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 0 0 0 0 0 0 1 1 0 1 0 1 1 0 1 0 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 0 1 1 1 1 0 1</float_array>
+          <technique_common>
+            <accessor source="#Anura_Uposathagara_Bush-mesh-map-1-array" count="192" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Anura_Uposathagara_Bush-mesh-map-2">
+          <float_array id="Anura_Uposathagara_Bush-mesh-map-2-array" count="384">0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0.5 0.5 0 0 1 0 0.5 0.5 0 1 0 0 0.5 0.5 1 1 0 1 0.5 0.5 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0.5 0.5 1 0 0 0 0.5 0.5 0 0 0 1 0.5 0.5 0 1 1 1 0.5 0.5 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 1 1 0 1 0 1 1 1 1 0 1 1 0 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#Anura_Uposathagara_Bush-mesh-map-2-array" count="192" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Anura_Uposathagara_Bush-mesh-vertices">
+          <input semantic="POSITION" source="#Anura_Uposathagara_Bush-mesh-positions"/>
+        </vertices>
+        <triangles material="arbusto_tropical_002-material" count="64">
+          <input semantic="VERTEX" source="#Anura_Uposathagara_Bush-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Anura_Uposathagara_Bush-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Anura_Uposathagara_Bush-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Anura_Uposathagara_Bush-mesh-map-1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#Anura_Uposathagara_Bush-mesh-map-2" offset="2" set="2"/>
+          <p>0 0 0 2 1 1 1 2 2 0 0 3 3 3 4 2 1 5 0 0 6 4 4 7 3 3 8 0 0 9 1 2 10 4 4 11 5 5 12 7 6 13 6 7 14 5 5 15 8 8 16 7 6 17 5 5 18 9 9 19 8 8 20 5 5 21 6 7 22 9 9 23 10 10 24 12 11 25 11 12 26 10 10 27 13 13 28 12 11 29 10 10 30 14 14 31 13 13 32 10 10 33 11 12 34 14 14 35 15 15 36 17 16 37 16 17 38 15 15 39 18 18 40 17 16 41 15 15 42 19 19 43 18 18 44 15 15 45 16 17 46 19 19 47 20 20 48 21 21 49 22 22 50 20 20 51 22 22 52 23 23 53 20 20 54 23 23 55 24 24 56 20 20 57 24 24 58 21 21 59 25 25 60 26 26 61 27 27 62 25 25 63 27 27 64 28 28 65 25 25 66 28 28 67 29 29 68 25 25 69 29 29 70 26 26 71 30 30 72 31 31 73 32 32 74 30 30 75 32 32 76 33 33 77 30 30 78 33 33 79 34 34 80 30 30 81 34 34 82 31 31 83 35 35 84 36 36 85 37 37 86 35 35 87 37 37 88 38 38 89 35 35 90 38 38 91 39 39 92 35 35 93 39 39 94 36 36 95 11 12 96 34 34 97 14 14 98 19 19 99 36 36 100 39 39 101 1 2 102 22 22 103 21 21 104 6 7 105 27 27 106 26 26 107 11 12 108 32 32 109 31 31 110 16 17 111 37 37 112 36 36 113 2 1 114 23 23 115 22 22 116 8 8 117 27 27 118 7 6 119 12 11 120 33 33 121 32 32 122 17 16 123 38 38 124 37 37 125 4 4 126 23 23 127 3 3 128 9 9 129 28 28 130 8 8 131 4 4 132 21 21 133 24 24 134 14 14 135 33 33 136 13 13 137 6 7 138 29 29 139 9 9 140 19 19 141 38 38 142 18 18 143 11 12 144 31 31 145 34 34 146 19 19 147 16 17 148 36 36 149 1 2 150 2 1 151 22 22 152 6 7 153 7 6 154 27 27 155 11 12 156 12 11 157 32 32 158 16 17 159 17 16 160 37 37 161 2 1 162 3 3 163 23 23 164 8 8 165 28 28 166 27 27 167 12 11 168 13 13 169 33 33 170 17 16 171 18 18 172 38 38 173 4 4 174 24 24 175 23 23 176 9 9 177 29 29 178 28 28 179 4 4 180 1 2 181 21 21 182 14 14 183 34 34 184 33 33 185 6 7 186 26 26 187 29 29 188 19 19 189 39 39 190 38 38 191</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="anura_uposathagara_bush" name="anura_uposathagara_bush" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Anura_Uposathagara_Bush-mesh" name="anura_uposathagara_bush">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="arbusto_tropical_002-material" target="#arbusto_tropical_002-material">
+                <bind_vertex_input semantic="bush_dese_a_1-Geometry_017-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="bush_dese_a_1-Geometry_017-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+                <bind_vertex_input semantic="bush_dese_a_1-Geometry_017-mesh-map-2" input_semantic="TEXCOORD" input_set="2"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
