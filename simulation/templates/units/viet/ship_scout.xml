@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>viet</Civ>
-    <SpecificName>War Canoe</SpecificName>
+    <SpecificName>Scout Canoe</SpecificName>
     <Icon>units/vietnam/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

@@ -5,7 +5,10 @@
     <variant frequency="1" name="Scout_Tower">
       <mesh>structural/vietnam/stable_elephant.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_01" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_02" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_04" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/vietnam/fortress_prop.xml" attachpoint="root"/>    
       </props>
       <textures>

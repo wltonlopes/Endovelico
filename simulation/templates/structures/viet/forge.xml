@@ -5,6 +5,6 @@
     <SpecificName>Lò Rèn</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/vietnam/blacksmith.xml</Actor>
+    <Actor>structures/vietnam/forge.xml</Actor>
   </VisualActor>
 </Entity>

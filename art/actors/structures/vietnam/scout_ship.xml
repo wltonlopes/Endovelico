@@ -21,7 +21,6 @@
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_005"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_left.xml" attachpoint="row_L_006"/>
         <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="projectile"/>
-        <prop actor="props/structures/vietnam/ship_prop.xml" attachpoint="tower"/>
         <prop actor="props/structures/vietnam/ship_prop.xml" attachpoint="projectile_01"/>
       </props>
       <textures>
