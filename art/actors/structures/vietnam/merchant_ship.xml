@@ -27,8 +27,8 @@
       </props>
       <textures>
         <texture file="structural/viet_ships.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="structural/viet_ships_norm.png" name="normTex"/>
+        <texture file="structural/viet_ships_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
