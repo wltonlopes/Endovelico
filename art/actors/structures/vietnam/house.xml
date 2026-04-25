@@ -17,25 +17,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/vietnam/house_1.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/vietdians/barracks_AO.png" name="aoTex"/>
+      	  <texture file="structural/ao/vietnam/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/vietnam/house_2.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/vietdians/barracks_AO.png" name="aoTex"/>
+      	  <texture file="structural/ao/vietnam/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/vietnam/house_3.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/vietdians/barracks_AO.png" name="aoTex"/>
+      	    <texture file="structural/ao/vietnam/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/vietnam/house_2.dae</mesh>
+<mesh>structural/vietnam/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/vietdians/barracks_AO.png" name="aoTex"/>
+            <texture file="structural/ao/vietnam/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

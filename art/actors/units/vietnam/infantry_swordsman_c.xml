@@ -9,7 +9,7 @@
         <prop actor="props/units/helmets/helmet_viet_feather.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/helmet_viet_01.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/viet_round_01.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/sword/han_sword_01.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sword_bronze_short.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/sheath/han_jian_sheath_left_d_e.xml" attachpoint="sheath_L"/>  
       </props>
       <textures>

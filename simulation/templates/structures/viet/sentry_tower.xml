@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_sentry">
+  <Identity>
+    <Civ>viet</Civ>
+    <SpecificName>Chòi Canh</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/vietnam/sentry_tower.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-04-24T16:22:03</created>
+    <modified>2026-04-24T16:22:03</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="texturas_VIET__provas_012-effect">
+      <profile_COMMON>
+        <newparam sid="viet_struct_png-surface">
+          <surface type="2D">
+            <init_from>viet_struct_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="viet_struct_png-sampler">
+          <sampler2D>
+            <source>viet_struct_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="viet_struct_png-sampler" texcoord="Cubo_045-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="viet_struct_png" name="viet_struct_png">
+      <init_from>/home/welton/snap/0ad/721/.local/share/0ad/mods/Endovelico/art/textures/skins/structural/viet_struct.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="texturas_VIET__provas_012-material" name="texturas VIET  provas.012">
+      <instance_effect url="#texturas_VIET__provas_012-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_005-mesh" name="Cubo.005">
+      <mesh>
+        <source id="Cubo_005-mesh-positions">
+          <float_array id="Cubo_005-mesh-positions-array" count="36">1.129371 3.202164 12.26432 2.815531 3.202164 12.26429 1.129365 3.736219 10.70349 2.815525 3.736219 10.70346 1.129377 3.731384 12.2596 2.815531 3.731384 12.25956 -3.325708 -2.950435 12.26436 -1.639543 -2.950434 12.26433 -3.325714 -3.484354 10.70349 -1.639555 -3.484354 10.70346 -3.325702 -3.479654 12.25959 -1.639537 -3.479654 12.25956</float_array>
+          <technique_common>
+            <accessor source="#Cubo_005-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_005-mesh-normals">
+          <float_array id="Cubo_005-mesh-normals-array" count="24">1.92363e-5 0.008919715 0.9999603 0 0.9999952 0.003107845 1.92362e-5 -0.009009778 0.9999595 0 -0.9999955 0.003020584 1.81676e-5 0.008921504 0.9999603 0 0.9999952 0.003107607 1.87326e-5 -0.009008049 0.9999595 0 -0.9999955 0.003019988</float_array>
+          <technique_common>
+            <accessor source="#Cubo_005-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_005-mesh-map-0">
+          <float_array id="Cubo_005-mesh-map-0-array" count="48">0.5596581 0.01133632 0.5306171 0.1117842 0.5306097 0.01136386 0.5044066 0.01137828 0.5306171 0.1117842 0.5044152 0.1118879 0.5306097 0.01136386 0.5306171 0.1117842 0.5596642 0.1115881 0.5044066 0.01137828 0.5044152 0.1118879 0.5306171 0.1117842 0.5596581 0.01133632 0.5596642 0.1115881 0.5306171 0.1117842 0.5044066 0.01137828 0.5306097 0.01136386 0.5306171 0.1117842 0.5306097 0.01136386 0.5596642 0.1115881 0.5596581 0.01133632 0.5044066 0.01137828 0.5306171 0.1117842 0.5306097 0.01136386</float_array>
+          <technique_common>
+            <accessor source="#Cubo_005-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_005-mesh-map-1">
+          <float_array id="Cubo_005-mesh-map-1-array" count="48">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#Cubo_005-mesh-map-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_005-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_005-mesh-positions"/>
+        </vertices>
+        <triangles material="texturas_VIET__provas_012-material" count="8">
+          <input semantic="VERTEX" source="#Cubo_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_005-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_005-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Cubo_005-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 5 0 1 4 0 2 2 1 3 5 1 4 3 1 5 10 2 6 11 2 7 7 2 8 8 3 9 9 3 10 11 3 11 0 4 12 1 4 13 5 4 14 2 5 15 4 5 16 5 5 17 10 6 18 7 6 19 6 6 20 8 7 21 11 7 22 10 7 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="stone_tower_001" name="stone_tower.001" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_005-mesh" name="stone_tower.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="texturas_VIET__provas_012-material" target="#texturas_VIET__provas_012-material">
+                <bind_vertex_input semantic="Cubo_045-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Cubo_045-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

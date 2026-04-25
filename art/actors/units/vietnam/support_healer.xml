@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_healer_male.xml" name="Healer-Male" frequency="1">
+      <animations>
+        <animation file="biped/infantry/promotion.dae" name="heal" speed="100"/>
+      </animations>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_viet.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_viet_feather_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/helmet_viet_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
+	  </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="01">
+      <textures>
+        <texture file="skeletal/viet/tunic_healer_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle">
+      <animations>
+        <animation file="biped/infantry/promotion.dae" name="idle" speed="100"/>
+        <animation file="biped/infantry/promotion.dae" name="idle" speed="50"/>
+      </animations>
+    </variant>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml">
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

@@ -1,0 +1,15 @@
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>viet</Civ>
+    <SelectionGroupName>units/hongb/infantry_archer_b</SelectionGroupName>
+    <GenericName>Infantry Archer</GenericName>
+    <SpecificName>Yumit&#246;ri</SpecificName>
+    <Icon>units/yayo/infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/viet/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/vietnam/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

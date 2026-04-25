@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Identity>
+    <Civ>viet</Civ>
+    <GenericName>Hùng Nghị Vương</GenericName>
+    <SpecificName>Hùng Nghị Vương</SpecificName>
+    <Icon>units/yayo/hero_keiko.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/vietnam/hero_hung_nghi.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_player">
-  <Identity>
-    <Civ>hongb</Civ>
-    <GenericName>Hồng Bàng</GenericName>
-    <History>The Hồng Bàng period (Vietnamese: thời kỳ Hồng Bàng), also called the Hồng Bàng dynasty, was a legendary ancient period in Vietnamese historiography, spanning from the beginning of the rule of Kinh Dương Vương over the kingdom of Văn Lang (initially called Xích Quỷ) in 2879 BC until the conquest of the state by An Dương Vương in 258 BC. Vietnamese history textbooks claim that this state was established in the 7th century BC on the basis of the Dong Son culture.</History>
-    <Icon>emblems/emblem_hongb.png</Icon>
-  </Identity>
-</Entity>

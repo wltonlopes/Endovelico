@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>viet</Civ>
+    <SpecificName>Tường Thành</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/viet/wall_tower</Tower>
+      <Gate>structures/viet/wall_gate</Gate>
+      <WallLong>structures/viet/wall_long</WallLong>
+      <WallMedium>structures/viet/wall_medium</WallMedium>
+      <WallShort>structures/viet/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

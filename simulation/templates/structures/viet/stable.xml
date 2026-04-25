@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable|template_structure_military_elephant_stable">
+  <Identity>
+    <Civ>viet</Civ>
+    <SpecificName>Trại Ngựa</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/vietnam/stable_elephant.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

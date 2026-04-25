@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>viet</Civ>
+    <GenericName>Van Lang</GenericName>
+    <History>Vietnamese civilization during the late Hong Bang dynasty up to the Trung Sisters' Rebellion.</History>
+    <Icon>emblems/emblem_hongb.png</Icon>
+  </Identity>
+</Entity>

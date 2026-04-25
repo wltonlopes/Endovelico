@@ -1,0 +1,9 @@
+<Entity parent="units/viet/infantry_swordsman_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/vietnam/infantry_swordsman_e.xml</Actor>
+  </VisualActor>
+</Entity>

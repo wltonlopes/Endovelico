@@ -1,0 +1,64 @@
+﻿{
+    "Code": "viet",
+    "Culture": "vietnamese",
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/viet/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/viet/civil_centre"
+        },
+        {
+            "Template": "units/viet/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/viet/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/viet/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/viet/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Hùng Nghị Vương",
+        "Thục Chế",
+        "Hùng Duệ Vương",
+        "An Dương Vương",
+        "Vũ Đế",
+        "Văn Đế",
+        "Minh Vương",
+        "Ai Vương",
+        "Thuật Dương Vương",
+        "Trưng Trắc",
+        "Trưng Nhị",
+        "Mỵ Nương Tiên Dung",
+        "Mỵ Nương Ngọc Hoa" ,
+        "Mỵ Nương Ngọc Nương",
+        "Mỵ Châu"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/viet/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/viet/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/viet/infantry_archer_b"
+    },
+    "SelectableInGameSetup": true
+}
