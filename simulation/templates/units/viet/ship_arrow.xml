@@ -11,6 +11,6 @@
     <Icon>units/yayo/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vietnam/canoe_war_dragon.xml</Actor>
+    <Actor>structures/vietnam/war_ship.xml</Actor>
   </VisualActor>
 </Entity>

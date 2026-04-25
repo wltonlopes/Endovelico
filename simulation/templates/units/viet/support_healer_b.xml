@@ -2,8 +2,6 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>viet</Civ>
-    <Phenotype>female</Phenotype>
-    <GenericName>Shrine Priestess</GenericName>
     <SpecificName>Miko</SpecificName>
     <Icon>units/yayo/support_healer.png</Icon>
   </Identity>
@@ -11,6 +9,6 @@
     <Entity>units/viet/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/vietnam/female_healer.xml</Actor>
+    <Actor>units/vietnam/support_healer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -40,6 +40,14 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="v1">
+      <props>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="02" maxheight="20" minheight="-20"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
