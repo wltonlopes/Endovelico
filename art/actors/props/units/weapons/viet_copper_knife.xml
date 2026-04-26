@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+   <castshadow/>
+    <group>
+    <variant frequency="1" name="Base">
+      <props>
+        <prop actor="props/units/weapons/blades/knife_blade_copper_02.xml" attachpoint="blade"/>
+      </props>
+      <textures>
+          <texture file="structural/viet_struct.png" name="baseTex"/>
+          <texture file="null_white.dds" name="specTex"/>
+          <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    </group>
+    <group>
+        <variant name="1">
+            <mesh>props/weapon/viet_copper_knife.dae</mesh>
+        </variant>
+    </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

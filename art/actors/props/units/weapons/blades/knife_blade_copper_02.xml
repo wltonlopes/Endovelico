@@ -12,7 +12,7 @@
   </group>
   <group>
     <variant frequency="1" name="blade-a">
-      <mesh>props/weapon/knife_blade.dae</mesh>
+      <mesh>props/weapon/viet_copper_knife_blade.dae</mesh>
     </variant>
   </group>
   <material>no_trans_norm_spec.xml</material>

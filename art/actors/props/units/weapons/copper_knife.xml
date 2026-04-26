@@ -14,6 +14,7 @@
     <group>
         <variant name="1">
             <mesh>props/weapon/knife_base.dae</mesh>
+            viet_copper_knife.dae
         </variant>
     </group>
   <material>basic_trans.xml</material>
