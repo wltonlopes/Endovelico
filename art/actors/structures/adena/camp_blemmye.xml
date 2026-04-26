@@ -5,7 +5,7 @@
     <variant frequency="1" name="Adena Mercenary Camp" file="structures/defensive_building.xml">
       <mesh>structural/adena/adeno.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>

@@ -4,6 +4,9 @@
   <group>
     <variant frequency="1" name="Adena Barracks">
       <mesh>structural/adena/barracks.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="structural/aden/struct.png" name="baseTex"/>
         <texture file="structural/aden/struct_spec.png" name="specTex"/>
@@ -16,7 +19,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_aden.xml" attachpoint="garrisoned" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_aden.xml" attachpoint="garrisoned_01" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_aden.xml" attachpoint="garrisoned_02" selectable="false"/>
       </props>
     </variant>
   </group>

@@ -5,7 +5,7 @@
     <variant frequency="1" name="Adena Temple">
       <mesh>structural/adena/temple.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8_round.xml" attachpoint="root"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>

@@ -5,8 +5,9 @@
     <variant frequency="1" name="Adena Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/adena/civic_center.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="particle/smoke_blacksmith.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
       </props>
       <textures>
         <texture file="structural/aden/struct.png" name="baseTex"/>

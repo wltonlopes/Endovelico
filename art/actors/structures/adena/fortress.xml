@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Aden Fortress" file="structures/defensive_building.xml">
+    <variant frequency="1" name="Adena Fortress" file="structures/defensive_building.xml">
       <mesh>structural/adena/fortress.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>

@@ -2,11 +2,15 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Anishinaabe Embassy">
+    <variant frequency="1" name="Anishinaabe Swagee">
       <mesh>structural/anishinaabe/sawgee.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="particle/flame.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_7x7_round.xml" attachpoint="root"/>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <!--<prop actor="props/flora/grass_field_flowering_tall.xml" attachpoint="bush_01"/>
+        <prop actor="props/flora/grass_field_flowering_tall.xml" attachpoint="bush_02"/>
+        <prop actor="props/flora/grass_field_flowering_tall.xml" attachpoint="bush_03"/>-->
       </props>
       <textures>
         <texture file="structural/anish/struct.png" name="baseTex"/>
@@ -20,7 +24,9 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_anish.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_anish.xml" attachpoint="garrisoned_01" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_anish.xml" attachpoint="garrisoned_02" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_anish.xml" attachpoint="garrisoned_03" selectable="false"/>
       </props>
     </variant>
   </group>

@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="Adena Range">
       <mesh>structural/adena/range.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/aden/struct.png" name="baseTex"/>
@@ -20,7 +20,6 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
       </props>
     </variant>
   </group>

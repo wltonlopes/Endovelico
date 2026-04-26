@@ -4,7 +4,7 @@
   <group>
     <variant frequency="1" name="Adena House">
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4_round.xml" attachpoint="root"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>

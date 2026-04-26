@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_embassy">
-	<Footprint>
-		<Square width="24.0" depth="24.0"/>
-		<Height>12.0</Height>
+	<Footprint replace="">
+		<Circle radius="16.0"/>
+		<Height>18.0</Height>
 	</Footprint>
 	<Identity>
 		<Civ>anish</Civ>
@@ -11,6 +11,9 @@
 		<Classes datatype="tokens">CivSpecific</Classes>
 		<Icon>structures/mercenary_camp.png</Icon>
 	</Identity>
+	<Obstruction>
+		<Static width="24.0" depth="24.0"/>
+	</Obstruction>
 	<Trainer>
 		<Entities datatype="tokens">
 			units/{native}/cavalry_javelineer_merc_b
@@ -18,6 +21,6 @@
 	</Trainer>
 	<VisualActor>
 		<Actor>structures/anishinaabe/embassy.xml</Actor>
-		<FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+		<FoundationActor>structures/fndn_7x7_round.xml</FoundationActor>
 	</VisualActor>
 </Entity>

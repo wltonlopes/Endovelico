@@ -8,7 +8,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="22.0"/>
+    <Square width="18.0" depth="20.0"/>
     <Height>10.0</Height>
   </Footprint>
   <Health>
@@ -18,7 +18,6 @@
   <Identity>
     <Civ>anish</Civ>
     <GenericName>sawgee</GenericName>
-
     <Classes datatype="tokens">
       ConquestCritical
       CivSpecific
@@ -33,7 +32,7 @@
     <stone>40</stone>
   </Loot>
   <Obstruction>
-    <Static width="21.5" depth="21.5"/>
+    <Static width="17.5" depth="19.5"/>
   </Obstruction>
   <ProductionQueue/>
   <Researcher>
@@ -64,7 +63,7 @@
     <Range>32</Range>
   </Vision>
   <VisualActor>
-    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x5.xml</FoundationActor>
     <Actor>structures/anishinaabe/special.xml</Actor>
   </VisualActor>
 </Entity>

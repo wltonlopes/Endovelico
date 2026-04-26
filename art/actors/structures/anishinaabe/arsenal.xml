@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Anishinaab Arsenal">
+    <variant frequency="1" name="Anishinaabe Arsenal">
       <mesh>structural/anishinaabe/arsenal.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_9x9_round.xml" attachpoint="root"/>

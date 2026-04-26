@@ -5,7 +5,7 @@
     <variant frequency="1" name="Adena Wonder">
       <mesh>structural/adena/wonder.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_12x14.xml" attachpoint="root"/>
         <prop actor="props/structures/adena/wonder_struct.xml" attachpoint="root"/>
       </props>
       <textures>
