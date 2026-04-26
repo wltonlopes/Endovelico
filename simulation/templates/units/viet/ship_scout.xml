@@ -7,7 +7,7 @@
   <Identity>
     <Civ>viet</Civ>
     <SpecificName>Scout Canoe</SpecificName>
-    <Icon>units/vietnam/ship_scout.png</Icon>
+    <Icon>units/zapo/ship_canoe.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/vietnam/scout_ship.xml</Actor>

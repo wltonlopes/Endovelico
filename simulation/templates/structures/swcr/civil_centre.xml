@@ -4,6 +4,11 @@
     <Civ>swcr</Civ>
     <SpecificName>Nezirö</SpecificName>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      swift_creek/ritual_engineering
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_axeman_b

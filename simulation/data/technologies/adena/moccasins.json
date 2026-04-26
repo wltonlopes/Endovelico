@@ -1,0 +1,27 @@
+{
+  "genericName": "Moccasins",
+  "description": "Improves infantry mobility.",
+  "cost": {
+    "food": 200,
+    "wood": 200,
+    "stone": 0,
+    "metal": 0
+  },
+  "requirements": {
+    "tech": "phase_city"
+  },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "[font=\"sans-bold-14\"]\u2022 +10% speed[/font]",
+  "modifications": [
+    {
+      "value": "UnitMotion/WalkSpeed",
+      "multiply": 1.1
+    }
+  ],
+  "affects": [
+    "Infantry"
+  ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

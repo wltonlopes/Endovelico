@@ -1,0 +1,22 @@
+{
+  "genericName": "Ritual Engineering",
+  "description": "Improves mound construction.",
+  "cost": {
+    "food": 200,
+    "wood": 200,
+    "stone": 0,
+    "metal": 0
+  },
+  "requirements": {
+    "tech": "phase_village"
+  },
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "[font=\"sans-bold-14\"]\u2022 -15% cost[/font]",
+  "modifications": [],
+  "affects": [
+    "Structure"
+  ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

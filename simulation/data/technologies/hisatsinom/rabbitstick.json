@@ -1,0 +1,22 @@
+{
+  "genericName": "Rabbitstick",
+  "description": "Improves infantry attack speed.",
+  "cost": {
+    "food": 200,
+    "wood": 200,
+    "stone": 0,
+    "metal": 0
+  },
+  "requirements": {
+    "tech": "phase_city"
+  },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "[font=\"sans-bold-14\"]\u2022 +15% attack speed[/font]",
+  "modifications": [],
+  "affects": [
+    "Infantry"
+  ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

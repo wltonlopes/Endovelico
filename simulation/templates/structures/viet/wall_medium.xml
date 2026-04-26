@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
-    <Square width="26.0" depth="7.0"/>
+    <Square width="18.0" depth="8.0"/>
     <Height>9.0</Height>
   </Footprint>
   <Identity>
     <Civ>viet</Civ>
-    <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SelectionGroupName>structures/viet_wallset_stone</SelectionGroupName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="7.0"/>
+    <Static width="17.5" depth="7.5"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>14.0</HeightOffset>
@@ -43,6 +43,6 @@
     <Actor>structures/vietnam/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>24.0</Length>
+    <Length>15.0</Length>
   </WallPiece>
 </Entity>

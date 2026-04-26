@@ -15,11 +15,6 @@
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      south_america/peabiru
-    </Technologies>
-  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_javelineer_b

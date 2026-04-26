@@ -1,0 +1,27 @@
+{
+  "genericName": "Water Walls_prov",
+  "description": "Build on water.",
+  "cost": {
+    "food": 200,
+    "wood": 200,
+    "stone": 0,
+    "metal": 0
+  },
+  "requirements": {
+    "tech": "phase_city"
+  },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "[font=\"sans-bold-14\"]\u2022 Construct walls on water[/font]",
+  "modifications": [
+    {
+      "value": "BuildRestrictions/Territory",
+      "replace": "own neutral"
+    }
+  ],
+  "affects": [
+    "Wall"
+  ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

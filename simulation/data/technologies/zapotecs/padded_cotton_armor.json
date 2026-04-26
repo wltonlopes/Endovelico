@@ -1,0 +1,24 @@
+{
+  "genericName": "Padded Cotton Armor",
+  "description": "Improves defense.",
+  "cost": {
+    "food": 200,
+    "wood": 200,
+    "stone": 0,
+    "metal": 0
+  },
+  "requirements": {
+    "tech": "phase_village"
+  },
+  "requirementsTooltip": "Unlocked in Village Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "[font=\"sans-bold-14\"]\u2022 +15% ranged resistance[/font]",
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "multiply": 1.10 }
+	],
+  "affects": [
+    "Unit"
+  ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
