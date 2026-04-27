@@ -6,12 +6,23 @@
       <mesh>structural/yawadwipa/stable_elephant.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_01" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_02" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_04" maxheight="20" minheight="-20"/>
+
+         <prop actor="props/special/eyecandy/hay_small.xml" attachpoint="01" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/hay_small.xml" attachpoint="02" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/hay_small.xml" attachpoint="03" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/hay_small.xml" attachpoint="04" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a_empty_01.xml" attachpoint="05" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a_empty_01.xml" attachpoint="06" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/barrel_a_empty_01.xml" attachpoint="07" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/yawad_struct.png" name="baseTex"/>
         <texture file="structural/yawad_struct_spec.png" name="specTex"/>
         <texture file="structural/yawad_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/yawadwipa/stable_elephant_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
