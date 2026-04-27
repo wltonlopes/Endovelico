@@ -6,6 +6,9 @@
       <mesh>structural/vietnam/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>
       <textures>
         <texture file="structural/viet_struct.png" name="baseTex"/>
