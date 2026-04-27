@@ -6,6 +6,8 @@
       <mesh>structural/adena/palace.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
       </props>
       <textures>
         <texture file="structural/aden/struct.png" name="baseTex"/>

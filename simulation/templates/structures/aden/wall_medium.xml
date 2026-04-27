@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
-    <Square width="25" depth="6"/>
+    <Square width="19.0" depth="7.0"/>
     <Height>12.6</Height>
   </Footprint>
   <Identity>
     <Civ>aden</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="24" depth="5"/>
+    <Static width="18.5" depth="6.5"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>13.6</HeightOffset>
@@ -18,28 +18,28 @@
     <TurretPoints>
       <One>
         <X>1.5</X>
-        <Y>7</Y>
+        <Y>9.0</Y>
         <Z>0</Z>
       </One>
       <Two>
         <X>-1.5</X>
-        <Y>7</Y>
+        <Y>9.0</Y>
         <Z>0</Z>
       </Two>
       <Three>
         <X>4.5</X>
-        <Y>7</Y>
+        <Y>9.0</Y>
         <Z>0</Z>
       </Three>
       <Four>
         <X>-4.5</X>
-        <Y>7</Y>
+        <Y>9.0</Y>
         <Z>0</Z>
       </Four>
     </TurretPoints>
   </TurretHolder>
   <WallPiece>
-    <Length>17.2</Length>
+    <Length>17.0</Length>
   </WallPiece>
   <VisualActor>
     <Actor>structures/adena/wall_med.xml</Actor>

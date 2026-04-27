@@ -3,13 +3,10 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Adena Wall Gate">
-      <animations>
-        <animation file="mechanical/aden_wall_gate_closed.dae" name="gate_closed" speed="65"/>
-        <animation file="mechanical/aden_wall_gate_opening.dae" name="gate_opening" speed="65"/>
-        <animation file="mechanical/aden_wall_gate_open.dae" name="gate_open" speed="65"/>
-        <animation file="mechanical/aden_wall_gate_closing.dae" name="gate_closing" speed="65"/>
-      </animations>
       <mesh>structural/adena/wall_gate.dae</mesh>
+      <props>
+        <prop actor="structures/adena/wall_gate_door.xml" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="structural/aden/struct.png" name="baseTex"/>
         <texture file="structural/aden/struct_spec.png" name="specTex"/>
@@ -23,9 +20,6 @@
     <variant name="death">
       <props>
         <prop attachpoint="root"/>
-        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
       </props>
     </variant>

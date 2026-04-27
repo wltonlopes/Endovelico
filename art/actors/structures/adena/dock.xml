@@ -5,6 +5,7 @@
     <variant frequency="1" name="Adena Dock">
       <mesh>structural/adena/dock.dae</mesh>
       <props>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="props/structures/adena/dock_struct.xml" attachpoint="root"/>
       </props>
       <textures>
