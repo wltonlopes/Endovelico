@@ -51,7 +51,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/mochicas/masoleu.xml</Actor>
+    <Actor>structures/minyue/palace.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>
