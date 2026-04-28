@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_house_big">
+<Entity parent="template_structure_civic_house">
   <Footprint replace="">
     <Circle radius="8.0"/>
     <Height>18.0</Height>

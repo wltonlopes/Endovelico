@@ -2,24 +2,25 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_healer_female.xml">
+    <variant name="Base"> 
+      <mesh>skeletal/new/f_robe.dae</mesh>
+    <animations>
+      <animation file="biped/citizen/healing_m.dae" id="heal1" name="Heal" speed="100"/>
+      <animation file="biped/citizen/healing_m.dae" id="heal2" name="Heal" speed="100"/>
+      <animation file="biped/citizen/idle_minister_01.dae" id="idle1" name="Idle" speed="60"/>
+      <animation file="biped/citizen/idle_minister_02.dae" id="idle2" name="Idle" speed="62"/>
+      <animation file="biped/citizen/idle_minister_03.dae" id="idle3" name="Idle" speed="64"/>
+      <animation file="biped/citizen/walk_relax_minister.dae" id="walk1" name="Walk" speed="25"/>
+      <animation file="biped/citizen/walk_relax_minister.dae" id="walk2" name="Walk" speed="23"/>
+    </animations>
       <props>
         <prop actor="props/units/heads/head_female_yayoi.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/yayo_helmet_priestess.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/adena/helmet_healer.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/sword/han_sword_01.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/korean_healer_helmet_01.xml" attachpoint="helmet"/>
       </props>
       <textures>
+        <texture file="skeletal/koreans/dress_female_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Skirt-Long_a">
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <textures>
-        <texture file="skeletal/yayoi/dress_female_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
