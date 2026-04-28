@@ -7,16 +7,16 @@
         <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/zapo/struct.png" name="baseTex"/>
+        <texture file="structural/zap_struct.png" name="baseTex"/>
         <texture file="structural/zapo/struct_spec.png" name="specTex"/>
         <texture file="structural/zapo/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/zapotecas/farmstead_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="farmstead">
-<mesh>structural/zapotecs/farmstead.dae</mesh>
+<mesh>structural/zapotecas/farmstead.dae</mesh>
     </variant>
   </group>
   <group>

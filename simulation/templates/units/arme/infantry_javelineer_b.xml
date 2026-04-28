@@ -8,6 +8,11 @@
   <Promotion>
     <Entity>units/arme/infantry_javelineer_a</Entity>
   </Promotion>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/deep_line
+    </Formations>
+  </UnitAI>
   <VisualActor>
     <Actor>units/armenia/infantry_javelinist_b.xml</Actor>
   </VisualActor>

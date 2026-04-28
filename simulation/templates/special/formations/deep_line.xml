@@ -1,0 +1,33 @@
+<Entity parent="template_formation">
+  <Identity>
+    <GenericName>Deep Line</GenericName>
+    <Icon>formations/line_closed.png</Icon>
+  </Identity>
+
+  <Formation>
+    <RequiredMemberCount>6</RequiredMemberCount>
+
+    <SortingClasses>Melee Infantry Ranged Infantry</SortingClasses>
+
+    <FormationShape>square</FormationShape>
+    <WidthDepthRatio>0.5</WidthDepthRatio>
+
+    <MinColumns>4</MinColumns>
+    <MaxColumns>4</MaxColumns>
+
+    <UnitSeparationWidthMultiplier>0.7</UnitSeparationWidthMultiplier>
+    <UnitSeparationDepthMultiplier>0.5</UnitSeparationDepthMultiplier>
+
+    <SortingOrder>fillFromTheFront</SortingOrder>
+    <MaxTurningAngle>0.5</MaxTurningAngle>
+
+    <AnimationVariants>
+      1..100,1..100: idle;
+    </AnimationVariants>
+  </Formation>
+
+  <FormationAttack>
+    <CanAttackAsFormation>true</CanAttackAsFormation>
+  </FormationAttack>
+
+</Entity>

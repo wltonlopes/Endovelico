@@ -9,6 +9,11 @@
   <Promotion>
     <Entity>units/arme/infantry_swordsman_a</Entity>
   </Promotion>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/deep_line
+    </Formations>
+  </UnitAI>
   <VisualActor>
     <Actor>units/armenia/infantry_swordsman_b.xml</Actor>
   </VisualActor>
