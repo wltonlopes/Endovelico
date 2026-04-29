@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="zapo Market">
-<mesh>structural/zapotecas/market.dae</mesh>
+      <mesh>structural/zapotecas/market.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_5x5.xml" attachpoint="root"/>
         <prop actor="structures/ptolemies/stall_big.xml" attachpoint="root"/>

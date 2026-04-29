@@ -3,16 +3,15 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Scout_Tower">
-
-<mesh>structural/zapotecs/temple.dae</mesh>
+      <mesh>structural/zapotecas/temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_5x5.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/zapo/struct.png" name="baseTex"/>
+        <texture file="structural/zap_struct.png" name="baseTex"/>
         <texture file="structural/zapo/struct_spec.png" name="specTex"/>
         <texture file="structural/zapo/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/zapo/temple_AO.png" name="aoTex"/>
+        <texture file="structural/ao/zapotecas/temple_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

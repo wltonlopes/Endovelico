@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Jomon Village">
-<mesh>structural/zapotecas/observary.dae</mesh>
+      <mesh>structural/zapotecas/observary.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_5x5.xml" attachpoint="root"/>
       </props>
