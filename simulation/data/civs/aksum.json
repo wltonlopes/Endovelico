@@ -1,6 +1,6 @@
 ﻿{
-    "Code": "axum",
-    "Culture": "axumitas",
+    "Code": "aksum",
+    "Culture": "aksumite",
     "Music": [
         {
             "File": "Ammon-Ra.ogg",
@@ -33,7 +33,7 @@
     ],
     "Factions": [
         {
-            "Name": "Empire Axum",
+            "Name": "Empire aksum",
             "Description": "",
             "Technologies": [
                 {
@@ -59,14 +59,14 @@
                     "Class": "Cavalary Hero",
                     "Armament": "Obsidian spear",
                     "Emblem": "",
-                    "History": "Territorial Expansion: As an Axumite king who ruled around the 1st century, Sembrouthes could be a hero who provides benefits to villages and cities, efficiently expanding territorial borders. Monument Builder:Under his leadership, monumental buildings would be constructed faster and more cheaply, reflecting Axum's architectural development."
+                    "History": "Territorial Expansion: As an aksumite king who ruled around the 1st century, Sembrouthes could be a hero who provides benefits to villages and cities, efficiently expanding territorial borders. Monument Builder:Under his leadership, monumental buildings would be constructed faster and more cheaply, reflecting aksum's architectural development."
                 },
                 {
                     "Name": "Endubis",
                     "Class": "Cavalary Hero",
                     "Armament": "",
                     "Emblem": "",
-                    "History": "Coinage Pioneer: Endubis was one of the first Axumite rulers to mint gold, silver, and bronze coins. He could have an economic bonus, increasing gold production and generating passive income by controlling trade areas.Monetary Influence: His presence on the battlefield boosts troop loyalty and stabilizes local economies, representing trust in the central government and the monetary system.."
+                    "History": "Coinage Pioneer: Endubis was one of the first aksumite rulers to mint gold, silver, and bronze coins. He could have an economic bonus, increasing gold production and generating passive income by controlling trade areas.Monetary Influence: His presence on the battlefield boosts troop loyalty and stabilizes local economies, representing trust in the central government and the monetary system.."
                 }
             ]
         }
@@ -87,34 +87,34 @@
     ],
     "WallSets": [
         "structures/wallset_palisade",
-        "structures/axum/wallset_stone"
+        "structures/aksum/wallset_stone"
     ],
     "StartEntities": [
         {
-            "Template": "structures/axum/civil_centre"
+            "Template": "structures/aksum/civil_centre"
         },
         {
-            "Template": "units/axum/support_civilian",
+            "Template": "units/aksum/support_civilian",
             "Count": 4
         },
         {
-            "Template": "units/axum/infantry_swordsman_b",
+            "Template": "units/aksum/infantry_swordsman_b",
             "Count": 3
         },
         {
-            "Template": "units/axum/infantry_archer_b",
+            "Template": "units/aksum/infantry_archer_b",
             "Count": 2
         },
         {
-            "Template": "units/axum/cavalry_javelineer_b",
+            "Template": "units/aksum/cavalry_javelineer_b",
             "Count": 1
         },
         {
-            "Template": "units/axum/cavalry_javelineer_b",
+            "Template": "units/aksum/cavalry_javelineer_b",
             "Count": 1
         },
         {
-            "Template": "units/axum/cavalry_scout"
+            "Template": "units/aksum/cavalry_scout"
         }
     ],
     "AINames": [
@@ -126,11 +126,11 @@
         "Zoskales"
     ],
     "SkirmishReplacements": {
-        "skirmish/units/default_cavalry": "units/axum/cavalry_scout",
-        "skirmish/units/default_infantry_melee_b": "units/axum/infantry_swordsman_b",
-        "skirmish/units/default_infantry_ranged_b": "units/axum/infantry_archer_b",
-        "skirmish/units/special_starting_unit": "units/axum/cavalry_javelineer_b",
-        "skirmish/units/default_ship_trireme": "units/axum/ship_bireme"
+        "skirmish/units/default_cavalry": "units/aksum/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/aksum/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/aksum/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/aksum/cavalry_javelineer_b",
+        "skirmish/units/default_ship_trireme": "units/aksum/ship_bireme"
     },
     "SelectableInGameSetup": true
 }
