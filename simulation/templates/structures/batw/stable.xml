@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_stable">
+<Entity parent="war_hut|template_structure_military_stable">
   <Identity>
     <Civ>batw</Civ>
     <GenericName>Hunters Treehouse</GenericName>

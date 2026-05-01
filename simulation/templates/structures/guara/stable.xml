@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_stable">
+<Entity parent="war_hut|template_structure_military_stable">
   <Footprint replace="">
     <Circle radius="15.0"/>
     <Height>8.0</Height>
@@ -9,7 +9,6 @@
   </Health>
   <Identity>
     <Civ>guara</Civ>
-    <GenericName>War Hut</GenericName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
