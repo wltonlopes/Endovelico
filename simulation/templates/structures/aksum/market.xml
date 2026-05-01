@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint>
+    <Square width="27" depth="27"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>aksum</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="26.5" depth="26.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      aksum/indo_mediterranean_trade
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/aksumite/market.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

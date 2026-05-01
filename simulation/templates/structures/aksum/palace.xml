@@ -8,40 +8,28 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="22.0"/>
-    <Height>10.0</Height>
+    <Square width="26.0" depth="26.0"/>
+    <Height>5.0</Height>
   </Footprint>
   <Health>
-    <Max>3000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_maur_cc</SpawnEntityOnDeath>
+    <Max>2000</Max>
   </Health>
   <Identity>
-    <Civ>aden</Civ>
-    <GenericName>House of the great chief</GenericName>
-    <Classes datatype="tokens">
-      ConquestCritical
-      CivSpecific
-    </Classes>
-    <VisibleClasses datatype="tokens">
-	  Palace
-	</VisibleClasses>
-    <Icon>structures/stoa.png</Icon>
-    <Tooltip/>
+    <Civ>aksum</Civ>
+    <GenericName>Palace</GenericName>
+    <SpecificName></SpecificName>
+    <Tooltip>Territory root. Train Maiden Guards and Heroes.</Tooltip>
+    <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Palace</VisibleClasses>
+    <Icon>structures/mayap/palace.png</Icon>
   </Identity>
   <Loot>
     <stone>40</stone>
     <metal>40</metal>
   </Loot>
   <Obstruction>
-    <Static width="21.5" depth="21.5"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
-  <ProductionQueue/>
-  <Researcher>
-    <Technologies datatype="tokens">
-      unlock_spies
-      spy_counter
-    </Technologies>
-  </Researcher>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_broch.xml</select>
@@ -50,22 +38,22 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>38</Radius>
+    <Radius>48</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/hero_01
-      units/{civ}/hero_02
-      units/{civ}/hero_03
+      units/{civ}/hero_nicotnis_kandake_v
+      units/{civ}/hero_luzay
+      units/{civ}/hero_nalke
     </Entities>
   </Trainer>
   <Vision>
-    <Range>32</Range>
+    <Range>40</Range>
   </Vision>
   <VisualActor>
-    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/adena/palace.xml</Actor>
+    <Actor>structures/aksumite/palace.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

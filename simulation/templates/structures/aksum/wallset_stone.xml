@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>aksum</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/aksum/wall_tower</Tower>
+      <Gate>structures/aksum/wall_gate</Gate>
+      <WallLong>structures/aksum/wall_long</WallLong>
+      <WallMedium>structures/aksum/wall_medium</WallMedium>
+      <WallShort>structures/aksum/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

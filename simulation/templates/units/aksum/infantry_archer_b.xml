@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/aksum/allied_village_afar
+      structures/aksum/allied_village_beja
+      structures/aksum/allied_village_oromo
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>aksum</Civ>
+    <Lang>napatan</Lang>
+    <SelectionGroupName>units/aksum/infantry_archer_b</SelectionGroupName>
+    <GenericName>Nubian Archer</GenericName>
+    <SpecificName>Pdty Nhsyw</SpecificName>
+    <Icon>units/kush/infantry_archer.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/aksum/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/kushites/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

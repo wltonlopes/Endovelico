@@ -2,11 +2,13 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>aden</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>Workshop</GenericName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">
       -archer_attack_spread
+      adena/moccasins
+      atlatl
     </Technologies>
   </Researcher>
   <VisualActor>

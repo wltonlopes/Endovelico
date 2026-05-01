@@ -1,0 +1,23 @@
+{
+  "genericName": "Indo-Mediterranean Trade",
+  "description": "Gain allied trade.",
+  "cost": {
+    "stone": 200,
+    "metal": 200
+  },
+  "requirements": {
+    "tech": "phase_city"
+  },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "+10% gains trade",
+	"modifications": [
+    { "value": "ResourceTrickle/Rates/food", "multiply": 1.1 },
+    { "value": "ResourceTrickle/Rates/wood", "multiply": 1.1 },
+    { "value": "ResourceTrickle/Rates/stone", "multiply": 1.1 },
+		{ "value": "ResourceTrickle/Rates/metal", "multiply": 1.1 }
+	],
+	"affects": ["Trader"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

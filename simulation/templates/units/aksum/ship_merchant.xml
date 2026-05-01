@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_merchant">
+  <Footprint>
+    <Square width="6.0" depth="25.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>aksum</Civ>
+    <GenericName>Merchant Ship</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/ptol/ship_merchant.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/kushites/warship_light.xml</Actor>
+  </VisualActor>
+</Entity>

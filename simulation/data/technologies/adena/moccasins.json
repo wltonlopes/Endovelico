@@ -3,22 +3,18 @@
   "description": "Improves infantry mobility.",
   "cost": {
     "food": 200,
-    "wood": 200,
-    "stone": 0,
-    "metal": 0
+    "wood": 200
   },
   "requirements": {
     "tech": "phase_city"
   },
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "default.png",
-  "researchTime": 40,
-  "tooltip": "[font=\"sans-bold-14\"]\u2022 +10% speed[/font]",
+  "researchTime": 30,
+  "tooltip": "+10% speed",
   "modifications": [
-    {
-      "value": "UnitMotion/WalkSpeed",
-      "multiply": 1.1
-    }
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 },
+		{ "value": "UnitMotion/Run/Speed", "multiply": 1.1 }
   ],
   "affects": [
     "Infantry"

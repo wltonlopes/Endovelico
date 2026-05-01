@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy_allied_village">
+  <Footprint>
+    <Square width="23" depth="23"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>aksum</Civ>
+    <GenericName>Beja Village</GenericName>
+    <SpecificName>Beja</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="22.5" depth="22.5"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/merc/beja_camelry_javelliner
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/aksumite/camp_beja.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

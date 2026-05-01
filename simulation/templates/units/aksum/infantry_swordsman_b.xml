@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName>Shotel</AttackName>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/aksum/allied_village_afar
+      structures/aksum/allied_village_beja
+      structures/aksum/allied_village_oromo
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>aksum</Civ>
+    <Lang>napatan</Lang>
+    <SelectionGroupName>units/aksum/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Meroitic Swordsman</GenericName>
+    <SpecificName>knw hps</SpecificName>
+    <Icon>units/kush/infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/aksum/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/kushites/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,26 @@
+{
+  "genericName": "Atlatl",
+  "description": "Improves skirmisher range.",
+  "cost": {
+    "wood": 200,
+    "stone": 100,
+    "metal": 100
+  },
+  "requirements": {
+    "tech": "phase_city"
+  },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "+10% range",
+  "modifications": [
+    {
+      "value": "Attack/Ranged/MaxRange",
+      "multiply": 1.1
+    }
+  ],
+  "affects": [
+    "Infantry Ranged"
+  ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
