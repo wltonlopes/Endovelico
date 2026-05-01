@@ -10,6 +10,7 @@
     <Icon>units/brit/war_dog.png</Icon>
   </Identity>
   <Promotion>
+    <RequiredXp>150</RequiredXp>
     <Entity>units/epir/war_dog_a</Entity>
   </Promotion>
   <TrainingRestrictions>

@@ -5,6 +5,8 @@
     <variant frequency="1" name="Vyadhapuran Wall Gate">
       <props>
         <prop actor="structures/vyadhapurans/gate.xml" attachpoint="root"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_02"/>
       </props>
       <mesh>structural/vyadhapurans/wall_gate.dae</mesh>
       <textures>

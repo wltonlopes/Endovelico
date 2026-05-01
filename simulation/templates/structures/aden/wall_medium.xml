@@ -42,6 +42,6 @@
     <Length>17.0</Length>
   </WallPiece>
   <VisualActor>
-    <Actor>structures/adena/wall_med.xml</Actor>
+    <Actor>structures/adena/wall_medium.xml</Actor>
   </VisualActor>
 </Entity>

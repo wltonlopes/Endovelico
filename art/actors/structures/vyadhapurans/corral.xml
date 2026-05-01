@@ -6,6 +6,8 @@
       <mesh>structural/vyadhapurans/corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_3x5.xml" attachpoint="root"/>
+        <prop actor="fauna/pig1.xml" attachpoint="pig"/>
+        <prop actor="fauna/goat.xml" attachpoint="goat"/>
       </props>
       <textures>
         <texture file="structural/vyadh/struct.png" name="baseTex"/>

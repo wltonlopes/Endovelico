@@ -6,6 +6,8 @@
       <mesh>structural/vyadhapurans/temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x7.xml" attachpoint="root"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_02"/>
       </props>
       <textures>
         <texture file="structural/vyadh/struct.png" name="baseTex"/>

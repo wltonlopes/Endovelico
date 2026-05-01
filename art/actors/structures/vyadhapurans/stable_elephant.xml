@@ -7,6 +7,8 @@
       <props>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/structures/vyadhapurans/stable_elephant_water.xml" attachpoint="root"/>
+        <prop actor="props/structures/flag_normal.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/flag_normal.xml" attachpoint="flag_02"/>
         <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_01" maxheight="20" minheight="-20"/>
         <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_02" maxheight="20" minheight="-20"/>
         <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_03" maxheight="20" minheight="-20"/>

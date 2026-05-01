@@ -6,6 +6,7 @@
       <mesh>structural/vyadhapurans/range.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag"/>
         <prop actor="props/structures/vyadhapurans/range_arrows.xml" attachpoint="root"/>
       </props>
       <textures>

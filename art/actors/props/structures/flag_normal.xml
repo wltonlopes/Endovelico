@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="100" name="Flag Normal">
+            <animations>
+                <animation file="mechanical/flag_normal_idle.dae" name="Idle" speed="45"/>
+            </animations>
+            <mesh>props/flag_normal.dae</mesh>
+            <textures>
+                <texture file="props/flag_player.png" name="baseTex"/>
+                <texture file="props/flag_player_norm.png" name="normTex"/>
+                <texture file="props/flag_player_spec.png" name="specTex"/>
+            </textures>
+        </variant>
+    </group>
+    <material>player_trans_norm_spec.xml</material>
+</actor>

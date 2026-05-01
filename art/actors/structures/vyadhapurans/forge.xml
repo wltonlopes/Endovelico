@@ -6,7 +6,9 @@
       <mesh>structural/vyadhapurans/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag"/>
         <prop actor="props/structures/vyadhapurans/forge_water.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
       </props>
       <textures>

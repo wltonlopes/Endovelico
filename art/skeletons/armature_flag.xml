@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skeletons>
+  <standard_skeleton title="ArmatureFlag" id="ArmatureFlag">
+    <bone name="flag_root">
+      <bone name="bone_01"/>
+      <bone name="bone_02"/>
+      <bone name="bone_03"/>
+      <bone name="bone_04"/>
+      <bone name="bone_05"/>
+      <bone name="bone_06"/>
+      <bone name="bone_07"/>
+      <bone name="bone_08"/>
+      <bone name="mast"/>
+    </bone>
+  </standard_skeleton>
+  <skeleton title="ArmatureFlag" target="ArmatureFlag">
+    <identifier>
+      <root>flag_root</root>
+    </identifier>
+    <bone name="flag_root">
+      <target>flag_root</target>
+      <bone name="bone_01">
+        <target>bone_01</target>
+      </bone>
+      <bone name="bone_02">
+        <target>bone_02</target>
+      </bone>
+      <bone name="bone_03">
+        <target>bone_03</target>
+      </bone>
+      <bone name="bone_04">
+        <target>bone_04</target>
+      </bone>
+      <bone name="bone_05">
+        <target>bone_05</target>
+      </bone>
+      <bone name="bone_06">
+        <target>bone_06</target>
+      </bone>
+      <bone name="bone_07">
+        <target>bone_07</target>
+      </bone>
+      <bone name="bone_08">
+        <target>bone_08</target>
+      </bone>
+      <bone name="mast">
+        <target>mast</target>
+      </bone>
+    </bone>
+  </skeleton>
+</skeletons>

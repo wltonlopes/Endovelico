@@ -5,7 +5,9 @@
     <variant frequency="1" name="Vyadhapuran Barracks">
       <mesh>structural/vyadhapurans/barracks.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_02"/>
       </props>
       <textures>
         <texture file="structural/vyadh/struct.png" name="baseTex"/>

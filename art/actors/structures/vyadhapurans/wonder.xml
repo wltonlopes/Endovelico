@@ -6,6 +6,10 @@
       <mesh>structural/vyadhapurans/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_12x14.xml" attachpoint="root"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_02"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_03"/>
+        <prop actor="props/structures/flag_small.xml" attachpoint="flag_04"/>
       </props>
       <textures>
         <texture file="structural/vyadh/struct.png" name="baseTex"/>

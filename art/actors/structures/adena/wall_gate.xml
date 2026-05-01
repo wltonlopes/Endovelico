@@ -5,7 +5,7 @@
     <variant frequency="1" name="Adena Wall Gate">
       <mesh>structural/adena/wall_gate.dae</mesh>
       <props>
-        <prop actor="structures/adena/wall_gate_door.xml" attachpoint="root"/>
+        <prop actor="props/special/native_gate_door.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/aden/struct.png" name="baseTex"/>
