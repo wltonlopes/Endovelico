@@ -6,6 +6,7 @@
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">
+      mapuche/irreducible_warriors
       -archer_attack_spread
     </Technologies>
   </Researcher>

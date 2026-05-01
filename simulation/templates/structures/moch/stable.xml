@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_stable">
+<Entity parent="workshop|template_structure_military_stable">
   <Identity>
     <Civ>moch</Civ>
     <GenericName>War House</GenericName>
@@ -9,6 +9,11 @@
       units/{civ}/cavalry_slinger_b
     </Entities>
   </Trainer>
+    <Researcher>
+    <Technologies datatype="tokens">
+     moch/war_dance_ritual
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/mochicas/stable.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

@@ -13,10 +13,11 @@
   "requirementsTooltip": "Unlocked in City Phase.",
   "icon": "default.png",
   "researchTime": 40,
-  "tooltip": "[font=\"sans-bold-14\"]\u2022 +70% resistance[/font]",
-  "modifications": [],
-  "affects": [
-    "Player"
-  ],
+  "tooltip": "[font=\"sans-bold-14\"]\u2022 +50% resistance[/font]",
+  	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "multiply": 1.5 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "multiply": 1.5 }
+	],
+	"affects": ["Soldier"],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

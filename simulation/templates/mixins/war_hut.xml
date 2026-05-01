@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Identity>
+    <GenericName>War Hut</GenericName>
+    <SelectionGroupName>template_structure_military_stable</SelectionGroupName>
+    <Tooltip>Train Cavalry and research Cavalry technologies.</Tooltip>
+    <Icon>structures/stable_01.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -stable_batch_training
+      -cavalry_movement_speed
+      -cavalry_health
+      -nisean_horses
+      -unlock_champion_cavalry
+      -unlock_champion_chariots
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_barracks.xml</select>
+      <constructed>interface/complete/building/complete_barracks.xml</constructed>
+    </SoundGroups>
+  </Sound>
+</Entity>
