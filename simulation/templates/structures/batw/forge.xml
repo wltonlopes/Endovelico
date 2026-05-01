@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>batw</Civ>
+    <GenericName>Workshop</GenericName>
     <SpecificName>Ayederu</SpecificName>
   </Identity>
   <Obstruction>

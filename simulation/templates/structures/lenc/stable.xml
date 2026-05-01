@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>lenc</Civ>
-    <SpecificName>ball court</SpecificName>
+    <GenericName>Ball Court</GenericName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>

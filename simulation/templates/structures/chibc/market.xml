@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>chibc</Civ>
-    <SpecificName>Iti</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="28" depth="30"/>

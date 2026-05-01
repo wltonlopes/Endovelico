@@ -2,6 +2,7 @@
 <Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>moch</Civ>
+    <GenericName>War House</GenericName>
   </Identity>
     <Trainer>
     <Entities datatype="tokens">

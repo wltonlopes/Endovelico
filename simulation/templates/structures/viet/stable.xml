@@ -2,6 +2,7 @@
 <Entity parent="template_structure_military_stable|template_structure_military_elephant_stable">
   <Identity>
     <Civ>viet</Civ>
+    <GenericName>Elephant House</GenericName>
     <SpecificName>Trại Ngựa</SpecificName>
   </Identity>
   <VisualActor>

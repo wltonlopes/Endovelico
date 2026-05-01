@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>araw</Civ>
-    <GenericName>Stable</GenericName>
+    <GenericName>War Hut</GenericName>
     <SpecificName>Sicári Bohío Abá</SpecificName>
   </Identity>
   <Trainer>

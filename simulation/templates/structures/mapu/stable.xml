@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Lepun</GenericName>
+    <GenericName>War Hut</GenericName>
     <SpecificName>Lepun</SpecificName>
   </Identity>
   <VisualActor>

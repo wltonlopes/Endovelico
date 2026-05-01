@@ -24,7 +24,6 @@
   <Identity>
     <Civ>aden</Civ>
     <GenericName>Large Pyramid</GenericName>
-    <SpecificName></SpecificName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
     <Icon>structures/mayap/pyramid.png</Icon>

@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>batw</Civ>
-    <SpecificName>Ile Iso Okuta</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="7.5" depth="7.5"/>

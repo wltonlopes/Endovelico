@@ -6,8 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>paiu</Civ>
-    <GenericName>Stable</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>War Hut</GenericName>
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
   <Obstruction>

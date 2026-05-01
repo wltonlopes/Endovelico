@@ -23,7 +23,7 @@
   </Health>
   <Identity>
     <Civ>mayap</Civ>
-    <GenericName>Ballcourt</GenericName>
+    <GenericName>Ball Court</GenericName>
     <SpecificName>Pitzil</SpecificName>
     <VisibleClasses datatype="tokens">Ballcourt</VisibleClasses>
     <Tooltip>Train Heavy infantry units.</Tooltip>

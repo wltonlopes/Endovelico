@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>lenc</Civ>
-    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static depth="48.0" width="43.0"/>

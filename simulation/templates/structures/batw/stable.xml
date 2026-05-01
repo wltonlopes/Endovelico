@@ -3,7 +3,6 @@
   <Identity>
     <Civ>batw</Civ>
     <GenericName>Hunters Treehouse</GenericName>
-    <SpecificName></SpecificName>
     <Tooltip>Here you can train experienced and fast units of specialized hunters.</Tooltip>
   </Identity>
   <VisualActor>

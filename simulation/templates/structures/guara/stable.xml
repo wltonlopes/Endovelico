@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>guara</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>War Hut</GenericName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
