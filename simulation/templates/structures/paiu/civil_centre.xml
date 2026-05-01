@@ -11,6 +11,11 @@
       units/{civ}/cavalry_archer_b
     </Entities>
   </Trainer>
+  <Researcher>
+    <Technologies datatype="tokens">
+      paiute/wikiup
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/paiute/civic_center.xml</Actor>
   </VisualActor>

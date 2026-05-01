@@ -5,7 +5,7 @@
   <group>
     <variant file="others/waypoints/base.xml" frequency="1" name="Athenian Waypoint Flag">
       <textures>
-        <texture file="props/banner_greek.png" name="baseTex"/>
+        <texture file="props/banner_guarani.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
