@@ -11,6 +11,6 @@
     <Entity>units/viet/cavalry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/vietnam/cavalry_scout.xml</Actor>
+    <Actor>units/vietnamese/cavalry_scout.xml</Actor>
   </VisualActor>
 </Entity>

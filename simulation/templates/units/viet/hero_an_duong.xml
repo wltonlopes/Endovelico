@@ -7,6 +7,6 @@
     <Icon>units/yayo/hero_wousu.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vietnam/hero_an_duong_vuong_infantry_swordsman.xml</Actor>
+    <Actor>units/vietnamese/hero_an_duong_vuong_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

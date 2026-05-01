@@ -7,6 +7,6 @@
     <Icon>units/ptol/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vietnam/elephantry_c_m.xml</Actor>
+    <Actor>units/vietnamese/elephantry_c_m.xml</Actor>
   </VisualActor>
 </Entity>

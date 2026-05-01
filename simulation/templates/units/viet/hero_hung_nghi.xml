@@ -7,6 +7,6 @@
     <Icon>units/yayo/hero_keiko.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vietnam/hero_hung_nghi.xml</Actor>
+    <Actor>units/vietnamese/hero_hung_nghi.xml</Actor>
   </VisualActor>
 </Entity>

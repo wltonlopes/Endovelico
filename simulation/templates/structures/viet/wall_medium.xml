@@ -40,7 +40,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/vietnam/wall_medium.xml</Actor>
+    <Actor>structures/vietnamese/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>15.0</Length>

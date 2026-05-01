@@ -12,6 +12,6 @@
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/vietnam/wonder.xml</Actor>
+    <Actor>structures/vietnamese/wonder.xml</Actor>
   </VisualActor>
 </Entity>

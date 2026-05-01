@@ -6,7 +6,7 @@
     <SpecificName>Trại Ngựa</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/vietnam/stable_elephant.xml</Actor>
+    <Actor>structures/vietnamese/stable_elephant.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

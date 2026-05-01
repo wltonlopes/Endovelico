@@ -12,6 +12,6 @@
     </Requirements> -->
   </Identity>
   <VisualActor>
-    <Actor>units/vietnam/infantry_swordsman_c.xml</Actor>
+    <Actor>units/vietnamese/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

@@ -6,6 +6,6 @@
     <Icon>units/yayo/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vietnam/citizen_{phenotype}.xml</Actor>
+    <Actor>units/vietnamese/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

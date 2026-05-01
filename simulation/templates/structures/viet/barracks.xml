@@ -21,7 +21,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/vietnam/barracks.xml</Actor>
+    <Actor>structures/vietnamese/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

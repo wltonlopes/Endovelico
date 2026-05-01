@@ -7,6 +7,6 @@
     <Icon>units/yayo/hero_himiko.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vietnam/hero_elephant_m.xml</Actor>
+    <Actor>units/vietnamese/hero_elephant_m.xml</Actor>
   </VisualActor>
 </Entity>

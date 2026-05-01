@@ -6,6 +6,6 @@
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vietnam/cavalry_scout.xml</Actor>
+    <Actor>units/vietnamese/cavalry_scout.xml</Actor>
   </VisualActor>
 </Entity>

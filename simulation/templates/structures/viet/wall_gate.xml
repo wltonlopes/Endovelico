@@ -60,6 +60,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/vietnam/wall_gate.xml</Actor>
+    <Actor>structures/vietnamese/wall_gate.xml</Actor>
   </VisualActor>
 </Entity>

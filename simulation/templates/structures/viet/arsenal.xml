@@ -10,6 +10,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/vietnam/arsenal.xml</Actor>
+    <Actor>structures/vietnamese/arsenal.xml</Actor>
   </VisualActor>
 </Entity>

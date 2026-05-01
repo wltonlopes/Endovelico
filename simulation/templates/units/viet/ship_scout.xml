@@ -10,6 +10,6 @@
     <Icon>units/zapo/ship_canoe.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/vietnam/scout_ship.xml</Actor>
+    <Actor>structures/vietnamese/scout_ship.xml</Actor>
   </VisualActor>
 </Entity>

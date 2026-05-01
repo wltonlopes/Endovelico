@@ -7,6 +7,6 @@
     <Entity>units/viet/infantry_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/vietnam/infantry_archer_a.xml</Actor>
+    <Actor>units/vietnamese/infantry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

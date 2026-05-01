@@ -11,6 +11,6 @@
     <Static width="13.0" depth="14.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/vietnam/storehouse.xml</Actor>
+    <Actor>structures/vietnamese/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

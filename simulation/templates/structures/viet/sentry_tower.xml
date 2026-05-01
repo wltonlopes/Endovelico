@@ -5,6 +5,6 @@
     <SpecificName>Chòi Canh</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/vietnam/sentry_tower.xml</Actor>
+    <Actor>structures/vietnamese/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>

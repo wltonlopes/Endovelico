@@ -12,7 +12,7 @@
     <Static width="9.5" depth="9.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/vietnam/wall_tower.xml</Actor>
+    <Actor>structures/vietnamese/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>11</Length>

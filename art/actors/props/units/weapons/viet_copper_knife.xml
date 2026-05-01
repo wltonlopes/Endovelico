@@ -7,7 +7,7 @@
         <prop actor="props/units/weapons/blades/knife_blade_copper_02.xml" attachpoint="blade"/>
       </props>
       <textures>
-          <texture file="structural/viet_struct.png" name="baseTex"/>
+          <texture file="structural/viet/struct.png" name="baseTex"/>
           <texture file="null_white.dds" name="specTex"/>
           <texture file="default_norm.png" name="normTex"/>
       </textures>

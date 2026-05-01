@@ -24,6 +24,6 @@
     <Acceleration op="mul">0.9</Acceleration>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/vietnam/siege_no_than.xml</Actor>
+    <Actor>units/vietnamese/siege_no_than.xml</Actor>
   </VisualActor>
 </Entity>

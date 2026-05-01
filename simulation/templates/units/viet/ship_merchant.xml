@@ -10,6 +10,6 @@
     <Icon>units/yayo/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/vietnam/merchant_ship.xml</Actor>
+    <Actor>structures/vietnamese/merchant_ship.xml</Actor>
   </VisualActor>
 </Entity>

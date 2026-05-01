@@ -15,6 +15,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/vietnam/civic_center.xml</Actor>
+    <Actor>structures/vietnamese/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

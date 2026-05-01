@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/vietnam/cavalry_scout.xml</Actor>
+    <Actor>units/vietnamese/cavalry_scout.xml</Actor>
   </VisualActor>
 </Entity>

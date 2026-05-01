@@ -7,6 +7,6 @@
     <Entity>units/viet/elephant_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/vietnam/elephantry_archer_a_m.xml</Actor>
+    <Actor>units/vietnamese/elephantry_archer_a_m.xml</Actor>
   </VisualActor>
 </Entity>
