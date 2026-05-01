@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>mixt</Civ>
-    <SpecificName>Zapotec Archery Range</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="24.0"/>
