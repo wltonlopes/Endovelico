@@ -12,7 +12,6 @@
   </Builder>
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>ixik</SpecificName>
     <GenericName>Villager</GenericName>
     <Icon>units/south_america/support_female_citizen.png</Icon>
     <SelectionGroupName>units/north_america/support_female_citizen</SelectionGroupName>

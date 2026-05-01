@@ -17,7 +17,7 @@
   </Health>
   <Identity>
     <Civ>anish</Civ>
-    <GenericName>sawgee</GenericName>
+    <GenericName>Council House</GenericName>
     <Classes datatype="tokens">
       ConquestCritical
       CivSpecific

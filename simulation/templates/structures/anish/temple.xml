@@ -9,7 +9,8 @@
   </Health>
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Miya</SpecificName>
+    <GenericName>Spirit-Working House</GenericName>
+    <SpecificName>Manidookewigamig</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>

@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Tu</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="17.5" depth="17.5"/>
@@ -14,7 +13,6 @@
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      fishing_culture
     </Technologies>
   </Researcher>
   <VisualActor>

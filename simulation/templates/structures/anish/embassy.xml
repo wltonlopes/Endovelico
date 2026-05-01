@@ -6,8 +6,8 @@
 	</Footprint>
 	<Identity>
 		<Civ>anish</Civ>
-		<GenericName>Blemmye Camp</GenericName>
-		<Tooltip>Train Blemmye Mercenaries.</Tooltip>
+		<GenericName> Camp</GenericName>
+		<Tooltip>Train Mercenaries.</Tooltip>
 		<Classes datatype="tokens">CivSpecific</Classes>
 		<Icon>structures/mercenary_camp.png</Icon>
 	</Identity>

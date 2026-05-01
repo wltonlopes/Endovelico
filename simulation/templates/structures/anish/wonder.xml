@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Ituki nö Miya</SpecificName>
+    <GenericName>The Sacred Fire Lodge</GenericName>
+    <SpecificName>Ishkode Waakaa'igan</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="35.0" depth="35.0"/>

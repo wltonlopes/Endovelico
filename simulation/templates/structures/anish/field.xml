@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Nora</SpecificName>
+    <SpecificName>Gitigaan</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_tropic_maize.xml</Actor>

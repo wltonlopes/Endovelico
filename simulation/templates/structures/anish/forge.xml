@@ -6,14 +6,14 @@
   </Footprint>
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Kanutiya</SpecificName>
+    <GenericName>Workshop</GenericName>
   </Identity>
   <Obstruction>
     <Static width="25.5" depth="25.5"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      -archer_attack_spread
+      anishinaabe/hawk_eye
     </Technologies>
   </Researcher>
   <VisualActor>

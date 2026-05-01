@@ -9,7 +9,7 @@
     <Phenotype datatype="tokens">
       Tipi
     </Phenotype>
-    <SpecificName>Ipe</SpecificName>
+    <SpecificName>Tipi</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
