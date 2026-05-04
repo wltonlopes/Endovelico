@@ -3,10 +3,7 @@
   <castshadow/>
    <group>
     <variant frequency="100" name="1">
-      <mesh>props/structural/maya_drump.dae</mesh>
-      <!-- <textures>        
-        <texture file="structural/ao/mayap/stelae_AO.png" name="aoTex"/>
-      </textures> -->
+      <mesh>props/structural/mayas/maya_drump.dae</mesh>
     </variant>
   </group>
   <group>

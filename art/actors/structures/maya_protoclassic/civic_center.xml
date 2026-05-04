@@ -11,7 +11,7 @@
         <texture file="structural/maya_protoclassic/struct.png" name="baseTex"/>
         <texture file="structural/maya_protoclassic/struct_norm.png" name="normTex"/>
         <texture file="structural/maya_protoclassic/struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mayas/civic_center.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/civic_center_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -20,6 +20,7 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="garrisoned"/>
+<prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="garrisoned_01"/>
       </props>
     </variant>
   </group>

@@ -3,10 +3,7 @@
   <castshadow/>
    <group>
     <variant frequency="100" name="1">
-      <mesh>props/structural/mayas/maya_stone_grind.dae</mesh>
-      <!-- <textures>        
-        <texture file="structural/ao/mayap/stelae_AO.png" name="aoTex"/>
-      </textures> -->
+      <mesh>props/structural/mayas/vases_01.dae</mesh>
     </variant>
   </group>
   <group>
@@ -18,5 +15,5 @@
       </textures>
     </variant>
   </group>
-  <material>basic_trans_parallax_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

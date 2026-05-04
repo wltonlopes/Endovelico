@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-  <group>
-    <variant frequency="100" name="Base">
+   <group>
+    <variant frequency="1" name="1">
+      <mesh>structural/mayas/temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="particle/smoke_small_light.xml"  attachpoint="fire_01"/>
@@ -12,14 +13,7 @@
         <texture file="structural/maya_protoclassic/struct.png" name="baseTex"/>
         <texture file="structural/maya_protoclassic/struct_norm.png" name="normTex"/>
         <texture file="structural/maya_protoclassic/struct_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
-   <group>
-    <variant frequency="1" name="1">
-      <mesh>structural/mayas/temple.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayas/temple.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/temple_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

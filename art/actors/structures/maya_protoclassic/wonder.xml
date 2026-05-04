@@ -11,7 +11,7 @@
         <texture file="structural/maya_protoclassic/struct.png" name="baseTex"/>
         <texture file="structural/maya_protoclassic/struct_norm.png" name="normTex"/>
         <texture file="structural/maya_protoclassic/struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mayas/wonder.png" name="aoTex"/>
+        <texture file="structural/ao/mayas/wonder_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
