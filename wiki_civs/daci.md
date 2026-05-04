@@ -1,0 +1,39 @@
+# Dacians
+
+## História
+The Dacians were an indigenous but Indo-European-speaking people who lived in the broad vicinity of Romania between 3000 BC and roughly AD 500.
+      They were a people closely related to the Getae, speaking the same language, sharing very similar customs and allying with each other frequently,
+      but the two, it seems, were separate political entities. At its greatest extent, Dacia was bounded by the Danube to the South, the Black Sea to the East,
+      the Dniester to the Northeast, and the Pannonian Plain to the West: that is modern Romania and Moldovia, and parts of Bulgaria, Serbia,
+      Hungary and Ukraine. The language spoken by the Dacians was Indo-European, but it had died out by the sixth century AD along with its speakers.
+      Not enough evidence has survived to reconstruct it in hydronyms, toponyms and personal names, so there is still much debate as to whether it was 
+      more closely related to Thracian or Illyrian, or whether one broad language-family was spoken across that entire area.
+
+## Estruturas
+*(Em desenvolvimento)*
+
+## Unidades
+*(Em desenvolvimento)*
+
+## Bônus da Civilização
+*(Nenhum definido)*
+
+## Bônus de Equipe
+*(Nenhum definido)*
+
+## IA Nomes
+- Oroles
+- Rhemaxos
+- Rubobostes
+- Thiamarkos
+- Guiltdacus
+- Burebista
+- Deceneus
+- Commius
+- Coson
+- Comoiscus
+- Cotiso
+- Comosicus
+
+## Tecnologias
+*(Em desenvolvimento)*
