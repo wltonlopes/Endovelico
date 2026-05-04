@@ -17,25 +17,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/koreans/house_1.dae</mesh>
       <textures>
-        <texture file="structural/ao/koreans/house_01.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/koreans/house_2.dae</mesh>
       <textures>
-        <texture file="structural/ao/koreans/house_02.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/koreans/house_3.dae</mesh>
       <textures>
-        <texture file="structural/ao/koreans/house_03.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/koreans/house_4.dae</mesh>
       <textures>
-        <texture file="structural/ao/koreans/house_04.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/house_04_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -85,5 +85,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>
