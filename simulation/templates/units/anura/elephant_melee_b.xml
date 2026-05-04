@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant_melee">
+  <Identity>
+    <Civ>anura</Civ>
+    <GenericName>Elephant Melee</GenericName>
+    <SpecificName>Vachii Gaja</SpecificName>
+    <SelectionGroupName>units/maur/elephant_melee_b</SelectionGroupName>
+    <Icon>units/maur/elephant_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/anura/elephant_melee_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/anuradaphura/elephantry_melee_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

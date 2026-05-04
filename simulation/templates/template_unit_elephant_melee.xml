@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_elephant">
+  <Attack>
+    <Capture disable=""/>
+    <Melee>
+      <AttackName>Trunk</AttackName>
+      <Damage>
+        <Hack>10</Hack>
+        <Crush>15</Crush>
+      </Damage>
+      <Splash>
+        <Shape>Circular</Shape>
+        <Range>2.5</Range>
+        <FriendlyFire>false</FriendlyFire>
+        <Damage>
+          <Hack>30</Hack>
+        </Damage>
+      </Splash>
+      <MaxRange>5</MaxRange>
+      <PrepareTime>750</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Population>2</Population>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>175</food>
+      <wood>75</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <GenericName>Elephant Melee</GenericName>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+  </Identity>
+  <Loot>
+    <food>18</food>
+    <wood>7</wood>
+  </Loot>
+</Entity>

@@ -6,6 +6,8 @@
       <mesh>structural/koreans/civic_center.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="02" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/kore_struct.png" name="baseTex"/>
@@ -20,6 +22,10 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_gojo.xml" attachpoint="garrisoned" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_gojo.xml" attachpoint="garrisoned_01" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_gojo.xml" attachpoint="garrisoned_02" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_gojo.xml" attachpoint="garrisoned_03" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_gojo.xml" attachpoint="garrisoned_04" selectable="false"/>
       </props>
     </variant>
   </group>

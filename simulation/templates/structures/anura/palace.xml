@@ -42,6 +42,9 @@
   </TerritoryInfluence>
   <Trainer>
     <Entities datatype="tokens">
+      units/anura/hero_pandukabhaya
+      units/anura/hero_dutugemunu
+      units/anura/hero_devanampiya_tissa
     </Entities>
   </Trainer>
   <Vision>
