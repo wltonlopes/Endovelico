@@ -55,12 +55,17 @@
 	"AINames":
 	[
 
-    "Bato IV",	
-    "Bato II",
-    "Ancesilau II",
-	"Ligdamis",	
-    "Ascesilau IV",
-    "Magas"
+	"Bato I",
+	"Arcesilau I",
+	"Bato II",
+	"Arcesilau II",
+	"Bato III",
+	"Arcesilau III",
+	"Bato IV",
+	"Arcesilau IV",
+	"Magas",
+	"Demetrio",
+	"Berenice II"
 	],
 	"SkirmishReplacements":
 	{

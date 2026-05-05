@@ -2,9 +2,9 @@
 <Entity parent="template_structure_civic_stoa">
   <Identity>
     <Civ>cyre</Civ>
-    <SpecificName>Sala de Banquetes</SpecificName>
+    <SpecificName>Banquet Hall</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>special/cyrene/special.xml</Actor>
+    <Actor>structures/cyrene/special.xml</Actor>
   </VisualActor>
 </Entity>

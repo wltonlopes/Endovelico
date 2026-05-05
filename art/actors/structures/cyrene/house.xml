@@ -17,25 +17,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/cyrene/house_1.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/cyrene/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/cyrene/house_2.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/cyrene/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/cyrene/house_3.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/cyrene/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/cyrene/house_2.dae</mesh>
+<mesh>structural/cyrene/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+          <texture file="structural/ao/cyrene/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -43,7 +43,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_cyre.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>
