@@ -16,17 +16,34 @@ Hellenistic state (250–130 BC) in Afghanistan/Central Asia. Founded by Diodotu
 *(Nenhum definido)*
 
 ## IA Nomes
-- Jimmu
-- Suizei
-- Annei
-- Itoku
-- Kosho
-- Koan
-- Korei
-- Kogen
-- Kaika
-- Suijin
-- Suinin
+- Diodotus I 
+- Diodotus II 
+- Euthydemus I 
+- Demetrius I 
+- Euthydemus II Pantaleon
+- Agathocles 
+- Antimachus I 
+- Antimachus II 
+- Apollodotus I 
+- Eucratides I (The Great) 
+- Eucratides II 
+- Plato 
+- Demetrius II 
+- Heliocles I
+- Menander I 
+- Strato I 
+- Lysias 
+- Antialcidas 
+- Philoxenus 
+- Diomedes 
+- Amyntas 
+- Epander 
+- Menander II
+- Nikias
+- Hermaeus
+- Hippostratus
+- Strato II
+- Strato III
 
 ## Tecnologias
 *(Em desenvolvimento)*

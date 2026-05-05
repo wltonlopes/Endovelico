@@ -25,16 +25,12 @@ The Protoclassic period in Maya history stretches from the beginning of permanen
 - Ox te’ Tuun Ajaw
 - Oxwitik Ajaw 
 - Siaan Ka’an  Ajaw
-- Lakanhá Ajaw
-- Saqkiih Ajaw
 - Óox k'iin took' Ajaw
 - Chiih-Witz Ajaw
 - Yax Mutul  ix Ajaw
 - Ox te’ Tuun ix Ajaw
 - xwitik ix Ajaw
 - Siaan Ka’an ix  Ajaw
--  Lakanhá ix Ajaw
-- Saqkiih ix Ajaw
 - Óox k'iin took' ix Ajaw
 - Chiih-Witz ix Ajaw
 

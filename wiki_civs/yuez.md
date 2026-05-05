@@ -16,9 +16,19 @@ The Yuezhi were an ancient people first described in Chinese histories as nomadi
 *(Nenhum definido)*
 
 ## IA Nomes
-- Mòdú
-- Tóumàn
-- Lǎoshàng
+- Heraios
+- Kujula Kadphises
+- Sadaṣkaṇa
+- Vima Takto
+- Soter Megas
+- Vima Kadphises
+- Kanishka I
+- Huvishka
+- Vasudeva I
+- Kanishka II
+- Vāsishka
+- Kanishka III
+- Vasudeva II
 
 ## Tecnologias
 *(Em desenvolvimento)*

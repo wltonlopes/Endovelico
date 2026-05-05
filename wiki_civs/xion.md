@@ -16,9 +16,46 @@ The Xiongnu were formidable warriors whose most fearsome weapon was the double-c
 *(Nenhum definido)*
 
 ## IA Nomes
-- Mòdú
-- Tóumàn
-- Lǎoshàng
+- Touman
+- Modu
+- Laoshang
+- Junchen
+- Yizhixie
+- Wuwei
+- Er Chanyu
+- Xulihu
+- Qiedihou
+- Hulugu
+- Huyandi
+- Xulüquanqu
+- Woyanqudi
+- Huhanye
+- Zhizhi
+- Bi
+- Mo
+- Han
+- Shi
+- Su
+- Chang
+- Xuan
+- Tuntuhe
+- Anguo
+- Shizi
+- Tan
+- Ba
+- Xiuli
+- Cheniu
+- Toulouchu
+- Jucheer
+- Tuteruoshizhujiu
+- Huzheng
+- Qiangqu
+- Yufuluo
+- Huchuquan
+- Punu
+- Youliu
+- Yuchujian
+- Fenghou
 
 ## Tecnologias
 *(Em desenvolvimento)*
