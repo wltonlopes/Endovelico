@@ -27,7 +27,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>iber</Civ>
+    <Civ>anura</Civ>
     <GenericName>Monument</GenericName>
     <SpecificName>Thuparamaya</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>

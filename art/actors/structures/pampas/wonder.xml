@@ -6,7 +6,7 @@
       <mesh>structural/pampas/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
-        <prop actor="structures/pampidos/wonder_prop.xml" attachpoint="root"/>
+        <prop actor="structures/pampas/wonder_prop.xml" attachpoint="root"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_01"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_01"/>

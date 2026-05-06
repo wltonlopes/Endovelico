@@ -4,7 +4,6 @@
   <group>
     <variant frequency="1" name="Pampas Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/pampas/civic_centre.dae</mesh>
-      
       <props>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01"/>
@@ -20,7 +19,7 @@
         <texture file="structural/pamp/struct.png" name="baseTex"/>
         <texture file="structural/pamp/struct_spec.png" name="specTex"/>
         <texture file="structural/pamp/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/pamp/civic_center.png" name="aoTex"/>
+        <texture file="structural/ao/pamp/civic_center_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

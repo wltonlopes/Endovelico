@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="ox_riding|template_unit_hero_cavalry_archer">
+<Entity parent="ox_riding|template_unit_hero_healer">
   <Identity>
     <Civ>urew</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>High Chief</GenericName>
     <Icon>units/scyth/hero_tomyris.png</Icon>
   </Identity>
   <VisualActor>

@@ -63,9 +63,11 @@
         }
     ],
     "AINames": [
-        "Oma Idoko",
-        "Oduduwa",
-        "Shango"
+        "Mwami",
+        "Ntare",
+        "Mutota",
+        "Nyaga",
+        "Gihanga"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/urew/cavalry_scout",

@@ -41,11 +41,18 @@
     <variant file="biped/fisher/carry_hele.xml"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant frequency="1" name="Idle">
+      <props>
+        <prop actor="" attachpoint="weapon_bow"/>
+        <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/row.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
     <variant file="biped/attack_ranged_archer.xml"/>
     <variant file="biped/fisher/gather_fish.xml"/>
     <variant file="biped/fisher/walk.xml">
       <props>
+        <prop actor="" attachpoint="weapon_bow"/>
         <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/row.xml" attachpoint="weapon_R"/>
       </props>
