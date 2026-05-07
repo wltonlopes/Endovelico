@@ -5,9 +5,9 @@
   </Auras> -->
   <Identity>
     <Civ>guara</Civ>
-    <GenericName>Guaranis</GenericName>
+    <GenericName>Guarani</GenericName>
     <History>The Guaraní are an indigenous people of South America, primarily in Paraguay, Brazil, Argentina, and Bolivia. Known for their agricultural society, language, and resistance to colonization, they deeply influenced the culture and history of the region.</History>
-    <Icon>emblems/guarani.png</Icon>
+    <Icon>emblems/emblem_guara.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">

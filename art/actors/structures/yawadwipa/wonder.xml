@@ -6,6 +6,7 @@
       <mesh>structural/yawadwipa/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/yawadwipa/statue_01.xml" attachpoint="statue_01"/>
       </props>
       <textures>
         <texture file="structural/yawad_struct.png" name="baseTex"/>
