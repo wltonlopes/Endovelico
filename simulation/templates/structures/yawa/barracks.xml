@@ -9,6 +9,7 @@
   </Health>
   <Identity>
     <Civ>yawa</Civ>
+    <SpecificName>Balai Yudha</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
