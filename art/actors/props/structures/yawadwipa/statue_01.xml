@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="1">
-      <mesh>structural/yawadwipa/yawa_statue_01.dae</mesh>
+      <mesh>props/structural/yawadwipa/yawa_statue_01.dae</mesh>
       <textures>
         <texture file="structural/yawad_statue.png" name="baseTex"/>
         <texture file="structural/yawad_struct_spec.png" name="specTex"/>

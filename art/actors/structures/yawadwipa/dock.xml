@@ -5,7 +5,7 @@
     <variant frequency="1" name="Scout_Tower">
       <mesh>structural/yawadwipa/dock.dae</mesh>
       <props>
-        <prop actor="structures/yawadwipa/roof_dock.xml" attachpoint="root"/>
+        <prop actor="props/structures/yawadwipa/roof_dock.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/yawad_struct.png" name="baseTex"/>

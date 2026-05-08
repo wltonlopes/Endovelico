@@ -6,7 +6,7 @@
       <mesh>structural/yawadwipa/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="structures/yawadwipa/roof_forge.xml" attachpoint="root"/>
+        <prop actor="props/structures/yawadwipa/roof_forge.xml" attachpoint="root"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
         <prop actor="particle/flame.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>

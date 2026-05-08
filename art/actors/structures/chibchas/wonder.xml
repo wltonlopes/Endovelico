@@ -7,12 +7,13 @@
       <props>
         <prop actor="particle/flame.xml" attachpoint="root" />
         <prop actor="particle/smoke.xml" attachpoint="root" />
+        <prop actor="props/structures/chibchas/roof_wonder.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/chibc/struct.png" name="baseTex"/>
         <texture file="structural/chibc/struct_spec.png" name="specTex"/>
         <texture file="structural/chibc/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/chibchas/wonder_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

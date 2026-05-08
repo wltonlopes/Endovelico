@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="misumalpa">
       <mesh>structural/chibchas/village_misumalpa.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
@@ -11,7 +11,7 @@
         <texture file="structural/chibc/misumalpa_struct.png" name="baseTex"/>
         <texture file="structural/chibc/misumalpa_struct_spec.png" name="specTex"/>
         <texture file="structural/chibc/misumalpa_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/chibchas/village_misumalpa.png" name="aoTex"/>
+        <texture file="structural/ao/chibchas/village_misumalpa_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
