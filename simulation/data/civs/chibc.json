@@ -42,17 +42,11 @@
         }
     ],
     "AINames": [
-        "Jimmu",
-        "Suizei",
-        "Annei",
-        "Itoku",
-        "Kosho",
-        "Koan",
-        "Korei",
-        "Kogen",
-        "Kaika",
-        "Suijin",
-        "Suinin"
+        "Hunzahúa",
+        "Meicuchuca",
+        "Tisquesusa",
+        "Idacansás",
+        "Bachué"    
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/chibc/infantry_scout",

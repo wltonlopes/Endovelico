@@ -43,7 +43,7 @@ from collections import defaultdict
 # CONFIG
 # =========================================================
 
-MOD_PATH = "/CAMINHO/DO/Endovelico"
+MOD_PATH = "/home/welton/.var/app/com.play0ad.zeroad/data/0ad/mods/Endovelico"
 
 TEMPLATES_PATH = os.path.join(MOD_PATH, "simulation/templates")
 
