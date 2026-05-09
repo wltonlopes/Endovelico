@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Storehouse">
+    <variant frequency="1" name="Vietnamese Storehouse">
       <mesh>structural/vietnamese/storehouse.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>

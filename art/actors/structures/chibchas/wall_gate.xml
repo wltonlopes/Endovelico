@@ -6,6 +6,8 @@
       <mesh>structural/chibchas/wall_gate.dae</mesh>
       <props>
         <prop actor="props/special/native_gate_door.xml" attachpoint="root"/>
+        <prop actor="structures/chibchas/wall_tower.xml" attachpoint="tower_01"/>
+        <prop actor="structures/chibchas/wall_tower.xml" attachpoint="tower_02"/>
       </props>
       <textures>
         <texture file="structural/chibc/struct.png" name="baseTex"/>

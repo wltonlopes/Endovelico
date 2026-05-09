@@ -2,11 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Vietnamese Wonder">
       <mesh>structural/vietnamese/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="props/structures/vietnamese/wonder_prop.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/wonder_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/wonder_palm.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>

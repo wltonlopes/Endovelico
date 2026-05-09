@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Vietnamese Wood Tower Carpet">
+      <mesh>props/structural/vietnamese/wood_tower_carpet.dae</mesh>
+      <textures>
+        <texture file="structural/viet/struct_02.png" name="baseTex"/>
+        <texture file="structural/viet/struct_02_spec.png" name="specTex"/>
+        <texture file="structural/viet/struct_02_norm.png" name="normTex"/>
+        <texture file="structural/ao/viet/wood_tower_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

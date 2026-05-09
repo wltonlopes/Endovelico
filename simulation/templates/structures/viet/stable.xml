@@ -8,6 +8,9 @@
     <Civ>viet</Civ>
     <GenericName>Elephant House</GenericName>
     <SpecificName>Trại Ngựa</SpecificName>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="27.5" depth="27.5"/>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.9 LTS commit date:2026-04-20, commit time:14:24, hash:8bf95cbd38d1</authoring_tool>
+    </contributor>
+    <created>2026-05-08T10:42:25</created>
+    <modified>2026-05-08T10:42:25</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Viet_Stable_Elephant_Water-mesh" name="Viet Stable Elephant Water">
+      <mesh>
+        <source id="Viet_Stable_Elephant_Water-mesh-positions">
+          <float_array id="Viet_Stable_Elephant_Water-mesh-positions-array" count="81">-6.952166 -2.959086 1.719458 -7.018744 -2.384274 1.719458 -6.582556 -2.002875 1.719458 -6.005776 -1.94076 1.719458 -5.628862 -2.378923 1.719458 -5.562272 -2.953741 1.719458 -5.998457 -3.335146 1.719458 -6.575249 -3.397252 1.719458 -6.290514 -2.669013 1.719458 -0.8180926 -2.959086 1.719458 -0.8846821 -2.384274 1.719458 -0.4484841 -2.002875 1.719458 0.1282896 -1.94076 1.719458 0.5052055 -2.378923 1.719458 0.5718072 -2.953741 1.719458 0.1356155 -3.335146 1.719458 -0.4411762 -3.397252 1.719458 -0.1564403 -2.669009 1.719458 5.611608 -2.959086 1.719458 5.545011 -2.384274 1.719458 5.981199 -2.002884 1.719458 6.557982 -1.940763 1.719458 6.934898 -2.37893 1.719458 7.001502 -2.953741 1.719458 6.56531 -3.335143 1.719458 5.988524 -3.397252 1.719458 6.27326 -2.669013 1.719458</float_array>
+          <technique_common>
+            <accessor source="#Viet_Stable_Elephant_Water-mesh-positions-array" count="27" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Viet_Stable_Elephant_Water-mesh-normals">
+          <float_array id="Viet_Stable_Elephant_Water-mesh-normals-array" count="69">0 0 1 0 0 1 -2.0364e-7 0 1 0 0 1 0 0 1 -1.4933e-7 0 1 0 0 1 0 0 1 -2.03646e-7 0 1 0 0 1 0 0 1 0 0 1 -1.4944e-7 0 1 1.4933e-7 0 1 0 0 1 0 0 1 1.49219e-7 0 1 0 0 1 -1.49438e-7 0 1 -2.04415e-7 0 1 0 0 1 2.96202e-7 0 1 2.96207e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Viet_Stable_Elephant_Water-mesh-normals-array" count="23" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Viet_Stable_Elephant_Water-mesh-map-0">
+          <float_array id="Viet_Stable_Elephant_Water-mesh-map-0-array" count="144">0.6661579 0.1833966 0.6573205 0.2085535 0.6573193 0.1788048 0.6573205 0.2085535 0.648483 0.2337105 0.6446699 0.2085536 0.6573205 0.2085535 0.648483 0.1833966 0.6573193 0.1788048 0.6661579 0.1833966 0.6573205 0.2085535 0.6573193 0.1788048 0.6661579 0.2337105 0.6573205 0.2085535 0.6699712 0.2085536 0.6573205 0.2085535 0.648483 0.2337105 0.6446699 0.2085536 0.6661579 0.1833966 0.6573205 0.2085535 0.6573193 0.1788048 0.6661579 0.2337105 0.6573205 0.2085535 0.6699712 0.2085536 0.6661579 0.2337105 0.6573205 0.2085535 0.6699712 0.2085536 0.6573205 0.2085535 0.648483 0.1833966 0.6573193 0.1788048 0.6573205 0.2085535 0.648483 0.2337105 0.6446699 0.2085536 0.6573205 0.2085535 0.648483 0.1833966 0.6573193 0.1788048 0.6661579 0.1833966 0.6699712 0.2085536 0.6573205 0.2085535 0.6573205 0.2085535 0.657388 0.2387986 0.648483 0.2337105 0.6573205 0.2085535 0.6446699 0.2085536 0.648483 0.1833966 0.6661579 0.1833966 0.6699712 0.2085536 0.6573205 0.2085535 0.6661579 0.2337105 0.657388 0.2387986 0.6573205 0.2085535 0.6573205 0.2085535 0.657388 0.2387986 0.648483 0.2337105 0.6661579 0.1833966 0.6699712 0.2085536 0.6573205 0.2085535 0.6661579 0.2337105 0.657388 0.2387986 0.6573205 0.2085535 0.6661579 0.2337105 0.657388 0.2387986 0.6573205 0.2085535 0.6573205 0.2085535 0.6446699 0.2085536 0.648483 0.1833966 0.6573205 0.2085535 0.657388 0.2387986 0.648483 0.2337105 0.6573205 0.2085535 0.6446699 0.2085536 0.648483 0.1833966</float_array>
+          <technique_common>
+            <accessor source="#Viet_Stable_Elephant_Water-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Viet_Stable_Elephant_Water-mesh-map-1">
+          <float_array id="Viet_Stable_Elephant_Water-mesh-map-1-array" count="144">0.6685642 0.2892106 0.6618705 0.2959422 0.6685642 0.2959422 0.6946512 0.3066778 0.6879575 0.3134095 0.6946512 0.3134095 0.6792619 0.2979442 0.6859555 0.3046758 0.6859555 0.2979442 0.6424773 0.2892106 0.6357836 0.2959422 0.6424773 0.2959422 0.627088 0.2892106 0.6337816 0.2959422 0.6337816 0.2892106 0.6511729 0.2892106 0.6444793 0.2959422 0.6511729 0.2959422 0.6511729 0.280477 0.6444793 0.2872086 0.6511729 0.2872086 0.6357836 0.3066778 0.6424773 0.3134095 0.6424773 0.3066778 0.6357836 0.2979442 0.6424773 0.3046758 0.6424773 0.2979442 0.6531749 0.2979442 0.6598685 0.3046758 0.6598685 0.2979442 0.6511729 0.2979442 0.6444793 0.3046758 0.6511729 0.3046758 0.5923054 0.3852805 0.598999 0.3920121 0.598999 0.3852805 0.6685642 0.2892106 0.6618705 0.2892106 0.6618705 0.2959422 0.6946512 0.3066778 0.6879575 0.3066778 0.6879575 0.3134095 0.6792619 0.2979442 0.6792619 0.3046758 0.6859555 0.3046758 0.6424773 0.2892106 0.6357836 0.2892106 0.6357836 0.2959422 0.627088 0.2892106 0.627088 0.2959422 0.6337816 0.2959422 0.6511729 0.2892106 0.6444793 0.2892106 0.6444793 0.2959422 0.6511729 0.280477 0.6444793 0.280477 0.6444793 0.2872086 0.6357836 0.3066778 0.6357836 0.3134095 0.6424773 0.3134095 0.6357836 0.2979442 0.6357836 0.3046758 0.6424773 0.3046758 0.6531749 0.2979442 0.6531749 0.3046758 0.6598685 0.3046758 0.6511729 0.2979442 0.6444793 0.2979442 0.6444793 0.3046758 0.5923054 0.3852805 0.5923054 0.3920121 0.598999 0.3920121</float_array>
+          <technique_common>
+            <accessor source="#Viet_Stable_Elephant_Water-mesh-map-1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Viet_Stable_Elephant_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Viet_Stable_Elephant_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="24">
+          <input semantic="VERTEX" source="#Viet_Stable_Elephant_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Viet_Stable_Elephant_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Viet_Stable_Elephant_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Viet_Stable_Elephant_Water-mesh-map-1" offset="2" set="1"/>
+          <p>19 0 0 26 1 1 20 2 2 8 3 3 5 4 4 4 5 5 17 6 6 12 7 7 11 8 8 1 9 9 8 3 10 2 10 11 7 11 12 8 3 13 0 12 14 17 6 15 14 4 16 13 13 17 10 14 18 17 6 19 11 8 20 16 15 21 17 6 22 9 16 23 25 17 24 26 1 25 18 18 26 26 1 27 21 19 28 20 2 29 26 1 30 23 4 31 22 4 32 8 3 33 3 20 34 2 10 35 19 0 36 18 18 37 26 1 38 8 3 39 6 21 40 5 4 41 17 6 42 13 13 43 12 7 44 1 9 45 0 12 46 8 3 47 7 11 48 6 21 49 8 3 50 17 6 51 15 4 52 14 4 53 10 14 54 9 16 55 17 6 56 16 15 57 15 4 58 17 6 59 25 17 60 24 22 61 26 1 62 26 1 63 22 4 64 21 19 65 26 1 66 24 22 67 23 4 68 8 3 69 4 5 70 3 20 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="viet_stable_elephant_water" name="viet_stable_elephant_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Viet_Stable_Elephant_Water-mesh" name="viet_stable_elephant_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

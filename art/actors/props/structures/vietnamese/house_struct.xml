@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Vietnamese House Struct">
+      <textures>
+        <texture file="structural/viet/struct_02.png" name="baseTex"/>
+        <texture file="structural/viet/struct_02_spec.png" name="specTex"/>
+        <texture file="structural/viet/struct_02_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="5" name="House 01">
+      <mesh>props/structural/vietnamese/house_01_struct.dae</mesh>
+      <textures>
+        <texture file="structural/ao/viet/house_01_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="5" name="House 02">
+      <mesh>props/structural/vietnamese/house_02_struct.dae</mesh>
+      <textures>
+        <texture file="structural/ao/viet/house_02_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="5" name="House 03">
+      <mesh>props/structural/vietnamese/house_03_struct.dae</mesh>
+      <textures>
+        <texture file="structural/ao/viet/house_03_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="5" name="House 04">
+      <mesh>props/structural/vietnamese/house_04_struct.dae</mesh>
+      <textures>
+        <texture file="structural/ao/viet/house_04_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

@@ -4,7 +4,7 @@
     <group>
         <variant frequency="100" name="Vietnamese Flag">
             <animations>
-                <animation file="mechanical/viet_flag_idle.dae" name="Idle" speed="45"/>
+                <animation file="mechanical/viet_flag_idle.dae" name="Idle" speed="120"/>
             </animations>
             <mesh>props/structural/vietnamese/viet_flag.dae</mesh>
             <textures>

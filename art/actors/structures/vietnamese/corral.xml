@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Vietnamese Corral">
       <mesh>structural/vietnamese/corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x6.xml" attachpoint="root"/>

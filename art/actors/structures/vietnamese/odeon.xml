@@ -2,10 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="Vietnamese Odeon">
       <mesh>structural/vietnamese/odeon.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_02"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>

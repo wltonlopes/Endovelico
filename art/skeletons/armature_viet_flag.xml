@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skeletons>
+  <standard_skeleton title="ArmatureVietFlag" id="ArmatureVietFlag">
+    <bone name="viet_flag_root">
+      <bone name="mast"/>
+      <bone name="bone_01"/>
+      <bone name="bone_02"/>
+      <bone name="bone_03"/>
+    </bone>
+  </standard_skeleton>
+  <skeleton title="ArmatureVietFlag" target="ArmatureVietFlag">
+    <identifier>
+      <root>viet_flag_root</root>
+    </identifier>
+    <bone name="viet_flag_root">
+      <target>viet_flag_root</target>
+      <bone name="mast">
+        <target>mast</target>
+      </bone>
+      <bone name="bone_01">
+        <target>bone_01</target>
+      </bone>
+      <bone name="bone_02">
+        <target>bone_02</target>
+      </bone>
+      <bone name="bone_03">
+        <target>bone_03</target>
+      </bone>
+    </bone>
+  </skeleton>
+</skeletons>

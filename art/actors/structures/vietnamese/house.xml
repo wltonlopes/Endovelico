@@ -4,7 +4,10 @@
   <group>
     <variant frequency="1" name="base">
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/house_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/carpet_easel.xml" attachpoint="easel_01"/>
+        <prop actor="props/structures/vietnamese/carpet_easel.xml" attachpoint="easel_02"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>
@@ -14,44 +17,36 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="house a">
-<mesh>structural/vietnamese/house_1.dae</mesh>
+    <variant frequency="1" name="House 01">
+      <mesh>structural/vietnamese/house_01.dae</mesh>
       <textures>
-      	  <texture file="structural/ao/viet/house_1_ao.png" name="aoTex"/>
+        <texture file="structural/ao/viet/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house b">
-<mesh>structural/vietnamese/house_2.dae</mesh>
+    <variant frequency="1" name="House 02">
+      <mesh>structural/vietnamese/house_02.dae</mesh>
       <textures>
-      	  <texture file="structural/ao/viet/house_2_ao.png" name="aoTex"/>
+        <texture file="structural/ao/viet/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house c">
-<mesh>structural/vietnamese/house_3.dae</mesh>
+    <variant frequency="1" name="House 03">
+      <mesh>structural/vietnamese/house_03.dae</mesh>
       <textures>
-      	    <texture file="structural/ao/viet/house_3_ao.png" name="aoTex"/>
+        <texture file="structural/ao/viet/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="house d">
-<mesh>structural/vietnamese/house_4.dae</mesh>
+    <variant frequency="1" name="House 04">
+      <mesh>structural/vietnamese/house_04.dae</mesh>
       <textures>
-            <texture file="structural/ao/viet/house_4_ao.png" name="aoTex"/>
+        <texture file="structural/ao/viet/house_04_ao.png" name="aoTex"/>
       </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="v1">
-      <props>
-        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="02" maxheight="20" minheight="-20"/>
-      </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

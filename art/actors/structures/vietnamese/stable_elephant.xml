@@ -2,14 +2,15 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="Vietnamese Stable Elephant">
       <mesh>structural/vietnamese/stable_elephant.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/stable_elephant_water.xml" attachpoint="root"/>
         <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_01" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_03"/>
         <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_02" maxheight="20" minheight="-20"/>
         <prop actor="fauna/elephant_asian.xml" attachpoint="elephant_04" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/vietnamese/fortress_prop.xml" attachpoint="root"/>    
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>

@@ -2,11 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="Vietnamese Range">
       <mesh>structural/vietnamese/range.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="props/structures/vietnamese/range_prop.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/range_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/range_arrows.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>

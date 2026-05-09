@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Vietnamese Carpet Easel">
+      <mesh>props/structural/vietnamese/carpet_easel.dae</mesh>
+      <textures>
+        <texture file="structural/viet/struct.png" name="baseTex"/>
+        <texture file="structural/viet/struct_spec.png" name="specTex"/>
+        <texture file="structural/viet/struct_norm.png" name="normTex"/>
+        <texture file="props/ao/viet_carpet_easel_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

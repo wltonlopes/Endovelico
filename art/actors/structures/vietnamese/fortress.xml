@@ -2,11 +2,15 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">
+    <variant frequency="1" name="Vietnamese Fortress" file="structures/defensive_building.xml">
       <mesh>structural/vietnamese/fortress.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="props/structures/vietnamese/fortress_prop.xml" attachpoint="root"/>    
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/fortress_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_02"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_03"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_04"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>

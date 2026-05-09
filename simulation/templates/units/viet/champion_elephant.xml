@@ -3,8 +3,14 @@
   <Identity>
     <Civ>viet</Civ>
     <GenericName>War Elephant</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName/>
     <Icon>units/ptol/champion_elephant.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/vietnamese/elephantry_c_m.xml</Actor>

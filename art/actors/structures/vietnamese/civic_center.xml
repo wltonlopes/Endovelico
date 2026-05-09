@@ -2,18 +2,20 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
-      <mesh>structural/vietnamese/cc.dae</mesh>
+    <variant frequency="1" name="Vietnamese Civic Center" file="structures/defensive_building.xml">
+      <mesh>structural/vietnamese/civic_center.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="props/structures/vietnamese/cc_prop.xml" attachpoint="root"/>
-        <prop actor="structures/vietnamese/cc_f.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/civic_center_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/civic_center_palm.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_02"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>
         <texture file="structural/viet/struct_spec.png" name="specTex"/>
         <texture file="structural/viet/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/viet/cc_ao.png" name="aoTex"/>
+        <texture file="structural/ao/viet/civic_center_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

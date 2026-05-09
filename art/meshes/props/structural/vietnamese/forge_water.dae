@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.9 LTS commit date:2026-04-20, commit time:14:24, hash:8bf95cbd38d1</authoring_tool>
+    </contributor>
+    <created>2026-05-05T22:39:27</created>
+    <modified>2026-05-05T22:39:27</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Viet_Forge_Water-mesh" name="Viet Forge Water">
+      <mesh>
+        <source id="Viet_Forge_Water-mesh-positions">
+          <float_array id="Viet_Forge_Water-mesh-positions-array" count="27">-9.382046 0.03400993 1.860971 -9.44864 0.6088226 1.860971 -9.012453 0.9902206 1.860971 -8.435667 1.052334 1.860971 -8.05875 0.6141703 1.860971 -7.992151 0.03935754 1.860971 -8.428341 -0.3420452 1.860971 -9.005129 -0.4041541 1.860971 -8.720396 0.3240879 1.860971</float_array>
+          <technique_common>
+            <accessor source="#Viet_Forge_Water-mesh-positions-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Viet_Forge_Water-mesh-normals">
+          <float_array id="Viet_Forge_Water-mesh-normals-array" count="15">0 0 1 0 0 1 -2.60162e-7 0 1 0 0 1 2.9773e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Viet_Forge_Water-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Viet_Forge_Water-mesh-map-0">
+          <float_array id="Viet_Forge_Water-mesh-map-0-array" count="48">0.648483 0.1833966 0.6573205 0.2085535 0.6446699 0.2085536 0.6573205 0.2085535 0.6661579 0.2337105 0.657388 0.2387986 0.6573205 0.2085535 0.648483 0.2337105 0.6446699 0.2085536 0.6661579 0.1833966 0.6573205 0.2085535 0.6573193 0.1788048 0.648483 0.1833966 0.6573193 0.1788048 0.6573205 0.2085535 0.6573205 0.2085535 0.6699712 0.2085536 0.6661579 0.2337105 0.6573205 0.2085535 0.657388 0.2387986 0.648483 0.2337105 0.6661579 0.1833966 0.6699712 0.2085536 0.6573205 0.2085535</float_array>
+          <technique_common>
+            <accessor source="#Viet_Forge_Water-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Viet_Forge_Water-mesh-map-1">
+          <float_array id="Viet_Forge_Water-mesh-map-1-array" count="48">0.7702684 0.8090917 0.7659582 0.806816 0.7702684 0.8054875 0.7659582 0.806816 0.761648 0.8045403 0.7646291 0.802482 0.7659582 0.806816 0.7682445 0.8025035 0.7702684 0.8054875 0.763672 0.8111284 0.7659582 0.806816 0.7672873 0.81115 0.7702684 0.8090917 0.7672873 0.81115 0.7659582 0.806816 0.7659582 0.806816 0.761648 0.8081445 0.761648 0.8045403 0.7659582 0.806816 0.7646291 0.802482 0.7682445 0.8025035 0.763672 0.8111284 0.761648 0.8081445 0.7659582 0.806816</float_array>
+          <technique_common>
+            <accessor source="#Viet_Forge_Water-mesh-map-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Viet_Forge_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Viet_Forge_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="8">
+          <input semantic="VERTEX" source="#Viet_Forge_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Viet_Forge_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Viet_Forge_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Viet_Forge_Water-mesh-map-1" offset="2" set="1"/>
+          <p>3 0 0 8 1 1 4 0 2 8 1 3 7 2 4 6 3 5 8 1 6 5 4 7 4 0 8 1 0 9 8 1 10 2 0 11 3 0 12 2 0 13 8 1 14 8 1 15 0 0 16 7 2 17 8 1 18 6 3 19 5 4 20 1 0 21 0 0 22 8 1 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="viet_forge_water" name="viet_forge_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Viet_Forge_Water-mesh" name="viet_forge_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
