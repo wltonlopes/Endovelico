@@ -10,7 +10,7 @@
       </animations>
       <props>
         <prop actor="props/units/weapons/zapo_oar.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/heads/head_lenca_elite.xml" attachpoint="head"/>
+       <prop actor="props/units/heads/head_paiute_hi.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

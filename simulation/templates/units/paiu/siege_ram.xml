@@ -10,6 +10,6 @@
     <Icon>units/mace/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/paiute/siege_ram.xml</Actor>
+    <Actor>units/paiute/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

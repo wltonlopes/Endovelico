@@ -42,17 +42,16 @@
         }
     ],
     "AINames": [
-        "Jimmu",
-        "Suizei",
-        "Annei",
-        "Itoku",
-        "Kosho",
-        "Koan",
-        "Korei",
-        "Kogen",
-        "Kaika",
-        "Suijin",
-        "Suinin"
+        "Tavibo",
+        "Numaga",
+        "Pahavitsi",
+        "Kai'n avi",
+        "Toi'tsina",
+        "Wünüka",
+        "Nokwitsi",
+        "Paguana",
+        "Yantuví",
+        "Togowini"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/paiu/infantry_scout",
