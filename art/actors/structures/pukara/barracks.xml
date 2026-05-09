@@ -6,12 +6,13 @@
       <mesh>structural/pukara/barracks.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/pukara/roof_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/tiwa/struct.png" name="baseTex"/>
         <texture file="structural/tiwa/struct_spec.png" name="specTex"/>
         <texture file="structural/tiwa/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/pukara/barracks.png" name="aoTex"/>
+        <texture file="structural/ao/pukara/barracks_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,7 +20,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_moch.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_moch.xml" attachpoint="garrisoned_01"/>
+        <prop actor="props/special/common/garrison_flag_moch.xml" attachpoint="garrisoned_02"/>
       </props>
     </variant>
   </group>

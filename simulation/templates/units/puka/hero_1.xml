@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_axeman">
   <Identity>
     <Civ>puka</Civ>
-    <GenericName>King-High Priest Lukurmata</GenericName>
+    <GenericName>High Priest Lord</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/moch/hero_lord.png</Icon>
   </Identity>

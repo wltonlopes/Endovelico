@@ -5,12 +5,14 @@
     <variant frequency="0" name="masoleu">
       <mesh>structural/pukara/palace.dae</mesh>
       <props>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/pukara/roof_palace.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/tiwa/struct.png" name="baseTex"/>
         <texture file="structural/tiwa/struct_spec.png" name="specTex"/>
         <texture file="structural/tiwa/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/pukara/palace.png" name="aoTex"/>
+        <texture file="structural/ao/pukara/palace_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

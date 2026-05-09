@@ -4,6 +4,11 @@
     <Civ>himya</Civ>
     <SpecificName></SpecificName>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      himyar/caravans_of_incense
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/himyar/market.xml</Actor>
   </VisualActor>

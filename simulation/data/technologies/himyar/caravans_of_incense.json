@@ -1,0 +1,23 @@
+{
+  "genericName": "Caravans of Incense",
+  "description": "Gain trade.",
+  "cost": {
+    "stone": 150,
+    "metal": 100
+  },
+  "requirements": {
+    "tech": "phase_town"
+  },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "+15% gains trade",
+	"modifications": [
+    { "value": "ResourceTrickle/Rates/food", "multiply": 1.15 },
+    { "value": "ResourceTrickle/Rates/wood", "multiply": 1.15 },
+    { "value": "ResourceTrickle/Rates/stone", "multiply": 1.15 },
+		{ "value": "ResourceTrickle/Rates/metal", "multiply": 1.15 }
+	],
+	"affects": ["Trader"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

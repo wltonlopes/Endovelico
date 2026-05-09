@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/tiwa/wall_tower</Tower>
-      <Gate>structures/tiwa/wall_gate</Gate>
-      <WallLong>structures/tiwa/wall_long</WallLong>
-      <WallMedium>structures/tiwa/wall_medium</WallMedium>
-      <WallShort>structures/tiwa/wall_short</WallShort>
+      <Tower>structures/puka/wall_tower</Tower>
+      <Gate>structures/puka/wall_gate</Gate>
+      <WallLong>structures/puka/wall_long</WallLong>
+      <WallMedium>structures/puka/wall_medium</WallMedium>
+      <WallShort>structures/puka/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

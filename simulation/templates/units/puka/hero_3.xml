@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>puka</Civ>
-    <GenericName>King-High Priest Tiwanaku</GenericName>
+    <GenericName>Great Commander Lord</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/moch/hero_general.png</Icon>
   </Identity>

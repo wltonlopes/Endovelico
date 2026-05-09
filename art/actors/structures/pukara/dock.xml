@@ -7,12 +7,13 @@
       <mesh>structural/pukara/dock.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/pukara/roof_dock.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/tiwa/struct.png" name="baseTex"/>
         <texture file="structural/tiwa/struct_spec.png" name="specTex"/>
         <texture file="structural/tiwa/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/pukara/dock.png" name="aoTex"/>
+        <texture file="structural/ao/pukara/dock_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

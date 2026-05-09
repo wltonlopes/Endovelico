@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_javelineer">
   <Identity>
     <Civ>puka</Civ>
-    <GenericName>King-High Priest Pajchiri</GenericName>
+    <GenericName>King-High Priest</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/moch/hero_high_priest.png</Icon>
   </Identity>

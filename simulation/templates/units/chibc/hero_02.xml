@@ -2,10 +2,8 @@
 <Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>chibc</Civ>
-    <GenericName>Warrior Chief</GenericName>
-    <SpecificName></SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
+    <GenericName>Chief</GenericName>
+    <SelectionGroupName>units/chibc/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>
   </Identity>
   <UnitMotion>
