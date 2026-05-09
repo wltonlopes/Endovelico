@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Identity>
+    <Civ>puka</Civ>
+    <SpecificName>Pr-ỉwn n ms</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/pukara/arsenal.xml</Actor>
+  </VisualActor>
+</Entity>

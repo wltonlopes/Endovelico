@@ -6,8 +6,8 @@
       <mesh>structural/gate_and_towers.dae</mesh>
       <props>
         <prop actor="props/special/native_gate_door.xml" attachpoint="root"/>
-        <prop actor="structures/tupis/wall_tower.xml" attachpoint="tower_01"/>
-        <prop actor="structures/tupis/wall_tower.xml" attachpoint="tower_02"/>
+        <prop actor="structures/pukara/wall_tower.xml" attachpoint="tower_01"/>
+        <prop actor="structures/pukara/wall_tower.xml" attachpoint="tower_02"/>
       </props>
       <textures>
         <texture file="structural/tupi/struct.png" name="baseTex"/>

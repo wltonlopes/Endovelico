@@ -1,0 +1,17 @@
+<Entity parent="template_unit_support_civilian">
+    <Builder>
+    <Entities datatype="tokens">
+      structures/moch/monument
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>puka</Civ>
+    <SpecificName></SpecificName>
+    <GenericName>Villager</GenericName>
+    <Icon>units/moch/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/puka/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/pukara/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,15 @@
+<Entity parent="template_unit_infantry_melee_maceman">
+  <Identity>
+    <Civ>puka</Civ>
+    <SelectionGroupName>units/puka/infantry_maceman_b</SelectionGroupName>
+    <GenericName>Levy Maceman</GenericName>
+    <SpecificName>Awqaq Runa</SpecificName>
+    <Icon>units/moch/infantry_maceman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/puka/infantry_maceman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/pukara/infantry_clubman_b.xml</Actor>
+  </VisualActor>
+</Entity>

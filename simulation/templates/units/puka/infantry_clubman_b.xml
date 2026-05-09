@@ -1,0 +1,14 @@
+<Entity parent="template_unit_infantry_melee_clubman">
+  <Identity>
+    <Civ>puka</Civ>
+    <SelectionGroupName>units/puka/infantry_clubman_b</SelectionGroupName>
+    <SpecificName>Awqaq Runa</SpecificName>
+    <Icon>units/moch/infantry_clubman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/puka/infantry_clubman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/pukara/infantry_clubman_b.xml</Actor>
+  </VisualActor>
+</Entity>

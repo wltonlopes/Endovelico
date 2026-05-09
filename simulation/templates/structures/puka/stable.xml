@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="war_hut|template_structure_military_stable">
+  <Identity>
+    <Civ>puka</Civ>
+  </Identity>
+  <VisualActor>
+       <Actor>structures/pukara/village.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>
