@@ -2,45 +2,20 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base-Female">
+    <variant>
       <mesh>skeletal/new/f_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_female_yayoi.xml" attachpoint="head"/>
+      </props>
       <textures>
+        <texture file="skeletal/yawadwipa/female_dress_01_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="80" name="hemet_s">
-      <props>
-        <prop actor="props/units/heads/head_female_moch.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/mochica_hair_female_01.xml" attachpoint="head"/>       
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="tunic_01_01">
-      <textures>
-        <texture file="skeletal/moch/dress_female_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="tunic_01_02">
-      <textures>
-        <texture file="skeletal/moch/dress_female_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="tunic_01_03">
-      <textures>
-        <texture file="skeletal/moch/dress_female_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="tunic_01_04">
-      <textures>
-        <texture file="skeletal/moch/dress_female_04.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
+    <variant file="biped/female_gather_rice.xml"/>
     <variant file="biped/female_base_walk.xml"/>
     <variant file="biped/female_carry_food.xml"/>
     <variant file="biped/female_carry_meat.xml"/>
