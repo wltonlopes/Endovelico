@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>anura</Civ>
-    <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/anura_wallset_stone</SelectionGroupName>
     <SpecificName/>
   </Identity>
   <Obstruction>

@@ -43,18 +43,21 @@
         }
     ],
     "AINames": [
-        "Oroles",
-        "Rhemaxos",
-        "Rubobostes",
-        "Thiamarkos",
-        "Guiltdacus",
         "Burebista",
-        "Deceneus",
-        "Commius",
-        "Coson",
-        "Comoiscus",
+        "Decebalus",
+        "Scorilo",
         "Cotiso",
-        "Comosicus"
+        "Comosicus",
+        "Koson",
+        "Duras",
+        "Diurpaneus",
+        "Oroles",
+        "Rubobostes",
+        "Vezina",
+        "Diegis",
+        "Pieporus",
+        "Thiamarkos",
+        "Meda"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/daci/cavalry_scout",

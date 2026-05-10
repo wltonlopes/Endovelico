@@ -40,24 +40,14 @@
         }
     ],
     "AINames": [
-        "laidus",
-        "Laedicalius",
-        "Beusas",
-        "Beusantis",
-        "Buzetius",
-        "Sarnus",
-        "Sinus",
-        "Vepus",
-        "Turus",
         "Bato",
-        "Dasas",
-        "Liccaius",
-        "Scenobarbus",
-        "Carvus",
-        "Plator",
-        "Temans",
-        "Varro",
-        "Verzo"
+        "Verzo",
+        "Testimos",
+        "Bato the Daesitiate",
+        "Bato the Breucian",
+        "Pinnes",
+        "Bircenna",
+        "Etuta"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/dalm/cavalry_scout",

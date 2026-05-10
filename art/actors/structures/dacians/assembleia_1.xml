@@ -3,19 +3,19 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="1">
-      <mesh>structural/daci/assembleia_1.dae</mesh>
+      <mesh>structural/dacians/assembleia_1.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="1" name="2">
-      <mesh>structural/daci/assembleia_2.dae</mesh>
+      <mesh>structural/dacians/assembleia_2.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="1" name="3">
-      <mesh>structural/daci/assembleia_3.dae</mesh>
+      <mesh>structural/dacians/assembleia_3.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

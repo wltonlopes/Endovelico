@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant name="Chinese Fishing Ship">
-      <mesh>structural/daci/barracks.dae</mesh>
+      <mesh>structural/dacians/barracks.dae</mesh>
       <props>
       </props>
       <textures>

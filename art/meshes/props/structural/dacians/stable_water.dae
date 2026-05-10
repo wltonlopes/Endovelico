@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-05-10T11:27:42</created>
+    <modified>2026-05-10T11:27:42</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="textura_pruebas_Daci-effect">
+      <profile_COMMON>
+        <newparam sid="daci_struct_png-surface">
+          <surface type="2D">
+            <init_from>daci_struct_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="daci_struct_png-sampler">
+          <sampler2D>
+            <source>daci_struct_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="daci_struct_png-sampler" texcoord="Cubo_009-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="daci_struct_png" name="daci_struct_png">
+      <init_from>/home/welton/.var/app/com.play0ad.zeroad/data/0ad/mods/Endovelico/art/textures/skins/structural/daci_struct.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="textura_pruebas_Daci-material" name="textura pruebas Daci">
+      <instance_effect url="#textura_pruebas_Daci-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_005-mesh" name="Cubo.005">
+      <mesh>
+        <source id="Cubo_005-mesh-positions">
+          <float_array id="Cubo_005-mesh-positions-array" count="60">-8.466979 -3.866798 1.530019 -6.872882 -3.866804 1.530019 -6.872892 -7.033232 1.530019 -8.466984 -7.033222 1.530019 7.886651 -2.829722 1.530019 9.480749 -2.829732 1.530019 9.480742 -5.996158 1.530019 7.886646 -5.996158 1.530019 -8.406779 -1.855552 1.539103 -7.661436 -1.18115 1.539103 -6.987038 -1.926491 1.539103 -7.732374 -2.60089 1.539103 -4.428977 -1.855552 1.539103 -3.683635 -1.18115 1.539103 -3.009237 -1.926491 1.539103 -3.754574 -2.60089 1.539103 0.02616202 -1.855552 1.539103 0.7715041 -1.18115 1.539103 1.445903 -1.926491 1.539103 0.700561 -2.60089 1.539103</float_array>
+          <technique_common>
+            <accessor source="#Cubo_005-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_005-mesh-normals">
+          <float_array id="Cubo_005-mesh-normals-array" count="51">0 0 1 0 0 1 0 0 1 1.88937e-7 0 1 0 0 1 0 0 1 0 0 1 2.35978e-7 0 1 -2.35976e-7 0 1 0 0 1 0 0 1 2.35978e-7 0 1 -2.35976e-7 0 1 0 0 1 0 0 1 2.35977e-7 0 1 -2.35977e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cubo_005-mesh-normals-array" count="17" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_005-mesh-map-0">
+          <float_array id="Cubo_005-mesh-map-0-array" count="60">0.4443315 0.595856 0.3977418 0.6319033 0.3977418 0.595856 0.4443315 0.595856 0.4443315 0.6319033 0.3977418 0.6319033 0.4443315 0.595856 0.3977418 0.6319033 0.3977418 0.595856 0.4443315 0.595856 0.4443315 0.6319033 0.3977418 0.6319033 0.4390463 0.5501362 0.3973841 0.5917986 0.3973841 0.5501362 0.4390463 0.5501362 0.4390463 0.5917986 0.3973841 0.5917986 0.4390463 0.5501362 0.3973841 0.5917986 0.3973841 0.5501362 0.4390463 0.5501362 0.4390463 0.5917986 0.3973841 0.5917986 0.4390463 0.5501362 0.3973841 0.5917986 0.3973841 0.5501362 0.4390463 0.5501362 0.4390463 0.5917986 0.3973841 0.5917986</float_array>
+          <technique_common>
+            <accessor source="#Cubo_005-mesh-map-0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_005-mesh-map-1">
+          <float_array id="Cubo_005-mesh-map-1-array" count="60">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#Cubo_005-mesh-map-1-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_005-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_005-mesh-positions"/>
+        </vertices>
+        <triangles material="textura_pruebas_Daci-material" count="10">
+          <input semantic="VERTEX" source="#Cubo_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_005-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_005-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Cubo_005-mesh-map-1" offset="2" set="1"/>
+          <p>1 0 0 3 1 1 2 2 2 1 0 3 0 3 4 3 1 5 5 4 6 7 4 7 6 4 8 5 4 9 4 4 10 7 4 11 9 5 12 11 6 13 10 7 14 9 5 15 8 8 16 11 6 17 13 9 18 15 10 19 14 11 20 13 9 21 12 12 22 15 10 23 17 13 24 19 14 25 18 15 26 17 13 27 16 16 28 19 14 29</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="stable_001" name="stable.001" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_005-mesh" name="stable.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="textura_pruebas_Daci-material" target="#textura_pruebas_Daci-material">
+                <bind_vertex_input semantic="Cubo_009-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Cubo_009-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

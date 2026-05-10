@@ -48,12 +48,25 @@
         }
     ],
     "AINames": [
-        "Orpheus",
         "Sitalces",
-        "Amadocus",
+        "Seuthes I",
+        "Seuthes II",
+        "Seuthes III",
         "Teres I",
-        "Decebalus",
-        "Burebista"
+        "Cersobleptes",
+        "Amadocus I",
+        "Amadocus II",
+        "Cotys I",
+        "Cotys II",
+        "Berisades",
+        "Kersebleptes",
+        "Spartacus",
+        "Mucapor",
+        "Mostis",
+        "Rhascus",
+        "Rholes",
+        "Meda",
+        "Berenice"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/thra/cavalry_scout",
