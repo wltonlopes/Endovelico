@@ -2,10 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="arsenal">
+    <variant frequency="1" name="Vietnamese Arsenal">
       <mesh>structural/vietnamese/arsenal.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/arsenal_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_02"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>

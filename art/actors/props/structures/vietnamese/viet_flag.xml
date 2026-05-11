@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="100" name="Vietnamese Flag">
+            <animations>
+                <animation file="mechanical/viet_flag_idle.dae" name="Idle" speed="45"/>
+            </animations>
+            <mesh>props/structural/vietnamese/viet_flag.dae</mesh>
+            <textures>
+                <texture file="structural/viet/struct_02.png" name="baseTex"/>
+                <texture file="structural/viet/struct_02_spec.png" name="specTex"/>
+                <texture file="structural/viet/struct_02_norm.png" name="normTex"/>
+            </textures>
+        </variant>
+    </group>
+    <material>player_trans_norm_spec.xml</material>
+</actor>

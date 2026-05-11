@@ -4,6 +4,11 @@
   <group>
     <variant frequency="1" name="base">
       <mesh>structural/vietnamese/wall_gate.dae</mesh>
+      <props>
+        <prop actor="structures/vietnamese/gate_door.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_01"/>
+        <prop actor="props/structures/vietnamese/viet_flag.xml" attachpoint="flag_02"/>
+      </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>
         <texture file="structural/viet/struct_spec.png" name="specTex"/>

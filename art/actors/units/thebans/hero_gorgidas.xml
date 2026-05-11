@@ -19,7 +19,7 @@
   <group>
     <variant frequency="1" name="thesp-linothorax-1c">
       <textures>
-        <texture file="skeletal/thesp_linothorax_1_c.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_03_black_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

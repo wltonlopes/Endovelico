@@ -12,9 +12,9 @@
     <SpecificName>Doanh</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="21.5" depth="21.5"/>
   </Obstruction>
- <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/cavalry_javelinist_b
       units/{civ}/champion_infantry_spear

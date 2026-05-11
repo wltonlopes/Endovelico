@@ -4,6 +4,9 @@
     <Civ>viet</Civ>
     <SpecificName>Lò Rèn</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="21.5" depth="21.5"/>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/vietnamese/forge.xml</Actor>
   </VisualActor>

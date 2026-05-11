@@ -10,7 +10,7 @@
     <Tooltip>Train Champions and Heroes. Garrison soldiers inside for stout defense.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="26.0"/>
+    <Static width="25.5" depth="27.5"/>
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
@@ -20,6 +20,7 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/vietnamese/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

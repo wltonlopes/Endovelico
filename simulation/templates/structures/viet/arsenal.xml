@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_arsenal">
+  <Footprint>
+    <Square width="26.0" depth="26.0"/>
+    <Height>12.0</Height>
+  </Footprint>
   <Identity>
     <Civ>viet</Civ>
     <SpecificName>Xưởng Công Thành</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="25.5" depth="25.5"/>
+  </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/siege_no_than
@@ -11,5 +18,6 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/vietnamese/arsenal.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

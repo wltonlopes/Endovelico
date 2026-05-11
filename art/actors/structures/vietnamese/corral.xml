@@ -5,7 +5,13 @@
     <variant frequency="1" name="base">
       <mesh>structural/vietnamese/corral.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/vietnamese/corral_carpet.xml" attachpoint="root"/>
+        <prop actor="fauna/pig1.xml" attachpoint="pig"/>
+        <prop actor="fauna/piglet.xml" attachpoint="piglet"/>
+        <prop actor="fauna/chicken.xml" attachpoint="chicken_01"/>
+        <prop actor="fauna/chicken.xml" attachpoint="chicken_02"/>
+        <prop actor="fauna/chicken.xml" attachpoint="chicken_03"/>
       </props>
       <textures>
         <texture file="structural/viet/struct.png" name="baseTex"/>

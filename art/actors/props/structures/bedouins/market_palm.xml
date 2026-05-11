@@ -8,9 +8,8 @@
         <texture file="gaia/palm_areca.png" name="baseTex"/>
         <texture file="gaia/palm_areca_norm.png" name="normTex"/>
         <texture file="gaia/palm_areca_spec.png" name="specTex"/>
-        <texture file="structural/ao/bedo/market_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_wind_norm_spec.xml</material>
 </actor>
