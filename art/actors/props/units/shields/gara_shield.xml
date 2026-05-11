@@ -7,12 +7,12 @@
     </variant>
   </group>
    <group>
-	 <variant frequency="1" name="2">
+	 <variant frequency="1" name="1">
       <textures>
 	    <texture file="props/shield/gara_shield_1.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="3">
+    <variant frequency="1" name="2">
       <textures>
 	    <texture file="props/shield/gara_shield_2.png" name="baseTex"/>
       </textures>
