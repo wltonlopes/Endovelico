@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cyre</Civ>
 	<Lang>greek</Lang>
-    <SpecificName></SpecificName>
+    <SpecificName>Kyrēnaïkoí</SpecificName>
     <GenericName>Cyrenaic Settler</GenericName>
     <Icon>units/theb/support_female_citizen.png</Icon>
 	<SelectionGroupName>units/cyre/support_female_citizen</SelectionGroupName>

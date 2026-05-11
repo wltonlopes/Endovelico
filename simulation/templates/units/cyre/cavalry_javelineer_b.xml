@@ -4,7 +4,8 @@
     <Civ>cyre</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/cyre/cavalry_javelineer_b</SelectionGroupName>
-	  <GenericName>Lybian Skirmish Cavalry</GenericName>
+	  <GenericName>Cyrenaica Skirmish Cavalry</GenericName>
+    <SpecificName>Hippeus Peltastēs Kyrēnaïkoí</SpecificName>
     <History>.</History>
     <Icon>units/theb/cavalry_javelineer.png</Icon>
   </Identity>
