@@ -5,7 +5,7 @@
     <variant frequency="1" name="Hasmoneans Dock">
       <mesh>structural/hasmoneans/dock.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/dock_struct.xml" attachpoint="root"/>
       </props>
       <textures>

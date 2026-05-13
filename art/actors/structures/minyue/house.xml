@@ -29,7 +29,7 @@
     <variant frequency="1" name="house c">
 <mesh>structural/minyue/house_03.dae</mesh>
       <textures>
-         <texture file="structural/ao/minyue/house_03_ao  .png" name="aoTex"/>
+         <texture file="structural/ao/minyue/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">

@@ -4,7 +4,7 @@
   <group>
     <variant frequency="1" name="Hasmoneans House">
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/house_struct.xml" attachpoint="root"/>
       </props>
       <textures>

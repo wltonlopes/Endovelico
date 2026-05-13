@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="hasmoneans Synagogue Water">
+      <mesh>props/structural/hasmoneans/synagogue_water.dae</mesh>
+      <textures>
+        <texture file="structural/celt_struct_1.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>reservoir_water.xml</material>
+</actor>

@@ -5,8 +5,9 @@
     <variant frequency="1" name="Hasmoneans Temple">
       <mesh>structural/hasmoneans/temple.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_7x8.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/temple_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/hasmoneans/temple_water.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/hasmo/struct.png" name="baseTex"/>

@@ -5,7 +5,7 @@
     <variant frequency="1" name="Hasmoneans Arsenal">
       <mesh>structural/hasmoneans/arsenal.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/arsenal_struct.xml" attachpoint="root"/>
       </props>
       <textures>

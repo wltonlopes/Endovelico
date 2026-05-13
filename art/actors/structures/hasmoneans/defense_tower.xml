@@ -2,17 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Hasmoneans Defense Tower" file="structures/defensive_building.xml">
-      <mesh>structural/hasmoneans/defense_tower.dae</mesh>
+    <variant frequency="1" name="Hasmoneans Stone Tower" file="structures/defensive_building.xml">
+      <mesh>structural/hasmoneans/stone_tower.dae</mesh>
       <props>
-        <prop actor="props/structures/hasmoneans/defense_tower_struct.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
+        <prop actor="props/structures/hasmoneans/stone_tower_struct.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/hasmo/struct.png" name="baseTex"/>
         <texture file="structural/hasmo/struct_spec.png" name="specTex"/>
         <texture file="structural/hasmo/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/hasmo/defense_tower_ao.png" name="aoTex"/>
+        <texture file="structural/ao/hasmo/stone_tower_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

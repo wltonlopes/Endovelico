@@ -5,8 +5,10 @@
     <variant frequency="1" name="Hasmoneans Forge">
       <mesh>structural/hasmoneans/forge.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/forge_struct.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
       </props>
       <textures>
         <texture file="structural/hasmo/struct.png" name="baseTex"/>

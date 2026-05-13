@@ -5,7 +5,7 @@
     <variant frequency="1" name="Hasmoneans Market">
       <mesh>structural/hasmoneans/market.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/market_struct.xml" attachpoint="root"/>
       </props>
       <textures>

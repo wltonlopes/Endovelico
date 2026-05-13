@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.9 LTS commit date:2026-04-20, commit time:14:24, hash:8bf95cbd38d1</authoring_tool>
+    </contributor>
+    <created>2026-05-12T23:20:16</created>
+    <modified>2026-05-12T23:20:16</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Hasmo_Stable_Water-mesh" name="Hasmo Stable Water">
+      <mesh>
+        <source id="Hasmo_Stable_Water-mesh-positions">
+          <float_array id="Hasmo_Stable_Water-mesh-positions-array" count="54">2.124966 -8.177556 1.860971 2.058371 -7.60274 1.860971 2.494561 -7.221344 1.860971 3.071347 -7.159229 1.860971 3.448263 -7.597393 1.860971 3.514861 -8.172207 1.860971 3.078671 -8.55361 1.860971 2.501882 -8.615718 1.860971 2.786617 -7.887475 1.860971 -7.996798 -8.177556 1.860971 -8.063395 -7.60274 1.860971 -7.627203 -7.221344 1.860971 -7.050417 -7.159229 1.860971 -6.6735 -7.597393 1.860971 -6.606906 -8.172207 1.860971 -7.043092 -8.55361 1.860971 -7.619881 -8.615718 1.860971 -7.335149 -7.887475 1.860971</float_array>
+          <technique_common>
+            <accessor source="#Hasmo_Stable_Water-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Hasmo_Stable_Water-mesh-normals">
+          <float_array id="Hasmo_Stable_Water-mesh-normals-array" count="30">2.98586e-7 0 1 0 0 1 -5.18485e-7 0 1 2.98585e-7 0 1 -5.18484e-7 0 1 2.98288e-7 0 1 2.98586e-7 0 1 2.96576e-7 0 1 2.98586e-7 0 1 2.96576e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Hasmo_Stable_Water-mesh-normals-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Hasmo_Stable_Water-mesh-map-0">
+          <float_array id="Hasmo_Stable_Water-mesh-map-0-array" count="96">0.6488031 0.1832002 0.6573205 0.207446 0.6451281 0.2074462 0.6658378 0.1832002 0.6573205 0.207446 0.6573193 0.1787748 0.6573205 0.207446 0.6658378 0.2316921 0.6573855 0.2365959 0.6573205 0.207446 0.6488031 0.2316921 0.6451281 0.2074462 0.6488031 0.1832002 0.6573205 0.207446 0.6451281 0.2074462 0.6658378 0.1832002 0.6573205 0.207446 0.6573193 0.1787748 0.6573205 0.207446 0.6658378 0.2316921 0.6573855 0.2365959 0.6573205 0.207446 0.6488031 0.2316921 0.6451281 0.2074462 0.6488031 0.1832002 0.6573193 0.1787748 0.6573205 0.207446 0.6658378 0.1832002 0.669513 0.2074462 0.6573205 0.207446 0.6573205 0.207446 0.669513 0.2074462 0.6658378 0.2316921 0.6573205 0.207446 0.6573855 0.2365959 0.6488031 0.2316921 0.6488031 0.1832002 0.6573193 0.1787748 0.6573205 0.207446 0.6658378 0.1832002 0.669513 0.2074462 0.6573205 0.207446 0.6573205 0.207446 0.669513 0.2074462 0.6658378 0.2316921 0.6573205 0.207446 0.6573855 0.2365959 0.6488031 0.2316921</float_array>
+          <technique_common>
+            <accessor source="#Hasmo_Stable_Water-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Hasmo_Stable_Water-mesh-map-1">
+          <float_array id="Hasmo_Stable_Water-mesh-map-1-array" count="96">0.4046594 0.7665513 0.3972274 0.7741186 0.4046594 0.7741186 0.3952254 0.7952594 0.3877934 0.8028268 0.3952254 0.8028268 0.3857914 0.7952594 0.3783595 0.8028268 0.3857914 0.8028268 0.3952254 0.78569 0.3877934 0.7932574 0.3952254 0.7932574 0.4140933 0.7952594 0.4066614 0.8028268 0.4140933 0.8028268 0.4046594 0.78569 0.3972274 0.7932574 0.4046594 0.7932574 0.3574895 0.8909532 0.3500576 0.8985205 0.3574895 0.8985205 0.3480556 0.8909532 0.3406236 0.8985205 0.3480556 0.8985205 0.4046594 0.7665513 0.3972274 0.7665513 0.3972274 0.7741186 0.3952254 0.7952594 0.3877934 0.7952594 0.3877934 0.8028268 0.3857914 0.7952594 0.3783595 0.7952594 0.3783595 0.8028268 0.3952254 0.78569 0.3877934 0.78569 0.3877934 0.7932574 0.4140933 0.7952594 0.4066614 0.7952594 0.4066614 0.8028268 0.4046594 0.78569 0.3972274 0.78569 0.3972274 0.7932574 0.3574895 0.8909532 0.3500576 0.8909532 0.3500576 0.8985205 0.3480556 0.8909532 0.3406236 0.8909532 0.3406236 0.8985205</float_array>
+          <technique_common>
+            <accessor source="#Hasmo_Stable_Water-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Hasmo_Stable_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Hasmo_Stable_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Hasmo_Stable_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Hasmo_Stable_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Hasmo_Stable_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Hasmo_Stable_Water-mesh-map-1" offset="2" set="1"/>
+          <p>3 0 0 8 0 1 4 0 2 1 1 3 8 1 4 2 1 5 8 2 6 7 2 7 6 2 8 8 1 9 5 1 10 4 1 11 12 3 12 17 3 13 13 3 14 10 1 15 17 1 16 11 1 17 17 4 18 16 4 19 15 4 20 17 1 21 14 1 22 13 1 23 3 1 24 2 1 25 8 1 26 1 5 27 0 5 28 8 5 29 8 6 30 0 6 31 7 6 32 8 7 33 6 7 34 5 7 35 12 1 36 11 1 37 17 1 38 10 5 39 9 5 40 17 5 41 17 8 42 9 8 43 16 8 44 17 9 45 15 9 46 14 9 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="hasmo_stable_water" name="hasmo_stable_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Hasmo_Stable_Water-mesh" name="hasmo_stable_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

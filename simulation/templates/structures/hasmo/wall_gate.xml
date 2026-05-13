@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>hasmo</Civ>
-
   </Identity>
   <Obstruction>
     <Obstructions>
@@ -60,7 +59,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/hasmoneans/wall_gate_door.xml</Actor>
+    <Actor>structures/hasmoneans/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>30</Length>
