@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant name="bireme">
-<mesh>structural/thra/ship_merc.dae</mesh>
+<mesh>structural/thracians/ship_merc.dae</mesh>
       <textures>
         <texture file="structural/thra_struct.png" name="baseTex"/>
         <texture file="structural/thra_struct_spec.png" name="specTex"/>

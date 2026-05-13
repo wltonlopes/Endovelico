@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="special">
-      <mesh>structural/thra/special.dae</mesh>
+      <mesh>structural/thracians/special.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

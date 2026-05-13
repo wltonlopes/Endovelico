@@ -2,16 +2,40 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
-      <mesh>structural/thra/wonder.dae</mesh>
+    <variant frequency="1" name="Wonder">
+      <mesh>structural/thracians/wonder.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_01"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_02"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_03"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_04"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_05"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_06"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_07"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_08"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_09"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_10"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_11"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_12"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_13"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_14"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_15"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01_16"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02_01"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02_02"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02_03"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02_04"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02_05"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02_06"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02_07"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02_08"/>
       </props>
       <textures>
         <texture file="structural/thra_struct.png" name="baseTex"/>
         <texture file="structural/thra_struct_spec.png" name="specTex"/>
         <texture file="structural/thra_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/thracians/wonder_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
