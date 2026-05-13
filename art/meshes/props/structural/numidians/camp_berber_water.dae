@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.9 LTS commit date:2026-04-20, commit time:14:24, hash:8bf95cbd38d1</authoring_tool>
+    </contributor>
+    <created>2026-05-13T19:40:25</created>
+    <modified>2026-05-13T19:40:25</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Numi_Camp_Berber_Water-mesh" name="Numi Camp Berber Water">
+      <mesh>
+        <source id="Numi_Camp_Berber_Water-mesh-positions">
+          <float_array id="Numi_Camp_Berber_Water-mesh-positions-array" count="36">1.088089 -2.597495 3.016571 1.813239 -1.890059 3.016571 0.1952964 -2.750384 3.016571 -0.6931946 -2.574208 3.016571 -1.399602 -1.848057 3.016571 -1.511344 -0.9545418 3.016571 -1.376283 -0.06425261 3.016571 -0.6511319 0.643183 3.016571 0.2411226 0.7549405 3.016571 1.13015 0.6198953 3.016571 1.836559 -0.1062549 3.016571 1.952842 -0.9998298 3.016571</float_array>
+          <technique_common>
+            <accessor source="#Numi_Camp_Berber_Water-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Numi_Camp_Berber_Water-mesh-normals">
+          <float_array id="Numi_Camp_Berber_Water-mesh-normals-array" count="33">0 0 1 4.77366e-7 0 1 -2.29063e-7 0 1 2.77188e-7 0 1 -4.31067e-7 0 1 -4.08728e-7 0 1 -2.07641e-7 0 1 -1.73381e-6 0 1 4.56051e-7 0 1 0 0 1 8.72067e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Numi_Camp_Berber_Water-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Numi_Camp_Berber_Water-mesh-map-0">
+          <float_array id="Numi_Camp_Berber_Water-mesh-map-0-array" count="60">0.9518875 0.03581446 0.9920478 0.07219672 0.9518875 0.07219672 0.9920478 0.03581446 0.9518875 0.03581446 0.9719676 0.006575286 0.9920478 0.07219672 0.9518875 0.108579 0.9518875 0.07219672 0.9518875 0.108579 0.9719676 0.1378182 0.9608347 0.1378182 0.9719676 0.1378182 0.9920476 0.1085789 0.9831005 0.1378182 0.9920478 0.03581446 0.9719676 0.006575286 0.9831005 0.006575286 0.9719676 0.006575286 0.9518875 0.03581446 0.9608347 0.006575286 0.9518875 0.108579 0.9920476 0.1085789 0.9719676 0.1378182 0.9518875 0.03581446 0.9920478 0.03581446 0.9920478 0.07219672 0.9920478 0.07219672 0.9920476 0.1085789 0.9518875 0.108579</float_array>
+          <technique_common>
+            <accessor source="#Numi_Camp_Berber_Water-mesh-map-0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Numi_Camp_Berber_Water-mesh-map-1">
+          <float_array id="Numi_Camp_Berber_Water-mesh-map-1-array" count="60">0.7032244 0.2994685 0.6958367 0.2639118 0.6958367 0.2994685 0.3953672 0.542599 0.4111436 0.5268226 0.3953672 0.5268226 0.7313933 0.2639118 0.7240057 0.2994685 0.7313933 0.2994685 0.3859775 0.6083266 0.3923642 0.60194 0.3859775 0.60194 0.3869785 0.6093276 0.3933652 0.602941 0.3933652 0.6093276 0.3765879 0.6083266 0.3829745 0.60194 0.3765879 0.60194 0.3775889 0.6093276 0.3839755 0.602941 0.3839755 0.6093276 0.3963682 0.5436 0.4121446 0.5278236 0.4121446 0.5436 0.7032244 0.2994685 0.7032244 0.2639118 0.6958367 0.2639118 0.7313933 0.2639118 0.7240057 0.2639118 0.7240057 0.2994685</float_array>
+          <technique_common>
+            <accessor source="#Numi_Camp_Berber_Water-mesh-map-1-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Numi_Camp_Berber_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Numi_Camp_Berber_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="10">
+          <input semantic="VERTEX" source="#Numi_Camp_Berber_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Numi_Camp_Berber_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Numi_Camp_Berber_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Numi_Camp_Berber_Water-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 8 1 1 2 2 2 9 3 3 0 0 4 11 4 5 8 1 6 3 5 7 2 2 8 3 5 9 5 6 10 4 7 11 5 6 12 7 8 13 6 9 14 9 3 15 11 4 16 10 9 17 11 4 18 0 0 19 1 10 20 3 5 21 7 8 22 5 6 23 0 0 24 9 3 25 8 1 26 8 1 27 7 8 28 3 5 29</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="numi_camp_berber_water" name="numi_camp_berber_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Numi_Camp_Berber_Water-mesh" name="numi_camp_berber_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
