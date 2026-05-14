@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_javelineer">
+<Entity parent="rare_units|template_unit_cavalry_ranged_javelineer">
   <Attack>
     <Ranged>
       <Projectile>
@@ -21,11 +21,9 @@
   <Promotion>
     <Entity>units/shona/cavalry_javelineer_a</Entity>
   </Promotion>
-
   <StatusBars>
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
-  
   <VisualActor>
     <Actor>units/subsaara/saga_javelinist_a_m.xml</Actor>
   </VisualActor>
