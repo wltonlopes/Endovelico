@@ -10,7 +10,6 @@
         <texture file="structural/thra_struct.png" name="baseTex"/>
         <texture file="structural/thra_struct_spec.png" name="specTex"/>
         <texture file="structural/thra_struct_norm.png" name="normTex"/>
-
       </textures>
     </variant>
   </group>
@@ -18,25 +17,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/thracians/house_1.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/thracians/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/thracians/house_2.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/thracians/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/thracians/house_3.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/thracians/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/thracians/house_4.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/thracians/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

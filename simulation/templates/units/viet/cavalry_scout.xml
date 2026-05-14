@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="scout_mount_swordsman">
+<Entity parent="rare_units|scout_mount_swordsman">
   <Identity>
     <Civ>viet</Civ>
     <SpecificName>Kỵ Sĩ Trinh Sát</SpecificName>
