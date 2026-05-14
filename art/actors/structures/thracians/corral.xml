@@ -5,7 +5,10 @@
     <variant frequency="1" name="dock">
       <mesh>structural/thracians/corral.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_2x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/celt_corral_mud.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/corral_food.xml" attachpoint="01" maxheight="20" minheight="-20"/>
+       <prop actor="props/structures/han/corral_feeding_box.xml" attachpoint="02" maxheight="20" minheight="-20"/>
+       <prop actor="props/structures/han/corral_water.xml" attachpoint="02" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/thra_struct.png" name="baseTex"/>

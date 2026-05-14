@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="stable">
       <mesh>structural/cyrene/stable.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>

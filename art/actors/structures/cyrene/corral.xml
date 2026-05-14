@@ -5,7 +5,9 @@
     <variant frequency="1" name="base">
       <mesh>structural/cyrene/corral.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/celt_corral_mud.xml" attachpoint="root"/>
+       <prop actor="props/structures/han/corral_feeding_box.xml" attachpoint="02" maxheight="20" minheight="-20"/>
+       <prop actor="props/structures/han/corral_water.xml" attachpoint="02" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/cyre/struct.png" name="baseTex"/>
