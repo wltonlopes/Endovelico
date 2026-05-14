@@ -13,7 +13,7 @@
       <props>
         <prop actor="fauna/zebu.xml" attachpoint="horseright"/>
         <prop actor="fauna/zebu.xml" attachpoint="horseleft"/>
-        <prop actor="units/vietnam/trader_r.xml" attachpoint="driver"/>
+        <prop actor="units/vietnamese/trader_r.xml" attachpoint="driver"/>
         <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="rider"/>
         <prop actor="props/units/maur_trader_rein_right.xml" attachpoint="horseleft_rein"/>
         <prop actor="props/units/maur_trader_rein_left.xml" attachpoint="horseright_rein"/>
