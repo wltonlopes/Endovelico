@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="barracks_f">
-      <mesh>structural/pyu/barracks_f.dae</mesh>
+    <variant frequency="1" name="arsenal_f">
+      <mesh>structural/pyu/arsenal_f.dae</mesh>
       <textures>
         <texture file="structural/struct_nature.png" name="baseTex"/>
         <texture file="structural/struct_nature_norm.png" name="normTex"/>
