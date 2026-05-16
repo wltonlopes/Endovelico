@@ -3,11 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/syracuse/wonder_dec.dae</mesh>
+      <mesh>props/structural/syracuse/wonder_dec.dae</mesh>
       <textures>
         <texture file="structural/syracuse/mural_struct.png" name="baseTex"/>
         <texture file="structural/syrac_struct_spec.png" name="specTex"/>
-        <texture file="structural/syrac_struct_norm.png" name="normTex"/>      </textures>
+        <texture file="structural/syrac_struct_norm.png" name="normTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -18,5 +19,5 @@
       </props>
     </variant>
   </group>
-  <material>basic_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>
