@@ -19,9 +19,9 @@
         <prop actor="props/special/eyecandy/barrel_a_empty_01.xml" attachpoint="07" maxheight="20" minheight="-20"/>
       </props>
       <textures>
-        <texture file="structural/yawad_struct.png" name="baseTex"/>
-        <texture file="structural/yawad_struct_spec.png" name="specTex"/>
-        <texture file="structural/yawad_struct_norm.png" name="normTex"/>
+        <texture file="structural/yawa/struct.png" name="baseTex"/>
+        <texture file="structural/yawa/struct_spec.png" name="specTex"/>
+        <texture file="structural/yawa/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/yawadwipa/stable_elephant_ao.png" name="aoTex"/>
       </textures>
     </variant>

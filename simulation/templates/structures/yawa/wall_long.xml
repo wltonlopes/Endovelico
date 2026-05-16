@@ -62,4 +62,7 @@
   <VisualActor>
        <Actor>structures/yawadwipa/wall_long.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>31.0</Length>
+  </WallPiece>
 </Entity>

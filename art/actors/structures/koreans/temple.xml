@@ -7,6 +7,11 @@
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="structures/koreans/temple_f.xml" attachpoint="root"/>
+        <prop actor="structures/koreans/temple_d.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="01"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="01"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="02"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="02"/>
       </props>
       <textures>
         <texture file="structural/kore_struct.png" name="baseTex"/>

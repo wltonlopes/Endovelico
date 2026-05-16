@@ -2,13 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="gate">
-      <mesh>structural/epiro/wall_gate.dae</mesh>
+    <variant frequency="1" name="theatre">
+      <mesh>structural/epiro/theatre.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="structural/epir_struct.png" name="baseTex"/>
         <texture file="structural/epir_struct_spec.png" name="specTex"/>
         <texture file="structural/epir_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/epirus/theatre_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -16,7 +19,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_epir.xml" attachpoint="garrisoned" selectable="false"/>
 
       </props>
     </variant>

@@ -8,7 +8,7 @@
       </animations>
       <mesh>props/garrison_flag.dae</mesh>
       <textures>
-        <texture file="props/garrison_flag_yayo.png" name="baseTex"/>
+        <texture file="props/garrison_hele_1.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
