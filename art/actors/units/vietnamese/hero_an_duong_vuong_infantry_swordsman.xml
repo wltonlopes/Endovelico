@@ -21,7 +21,7 @@
   <group>
     <variant frequency="1" name="v1">
       <textures>
-        <texture file="skeletal/viet/tunic_hero_01.png" name="baseTex"/>
+        <texture file="skeletal/viet/hero_armor_tunic_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

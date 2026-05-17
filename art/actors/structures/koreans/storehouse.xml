@@ -6,12 +6,13 @@
       <mesh>structural/koreans/storehouse.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/kore_struct.png" name="baseTex"/>
         <texture file="structural/kore_struct_spec.png" name="specTex"/>
         <texture file="structural/kore_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/koreans/storehouse.png" name="aoTex"/>
+        <texture file="structural/ao/koreans/storehouse_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -35,5 +36,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>

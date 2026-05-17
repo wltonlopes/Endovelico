@@ -5,8 +5,8 @@
     <variant file="quadraped/base_elephant_asian.xml">
       <mesh>skeletal/elephant_asian_armored_01.dae</mesh>
       <props>
-        <prop actor="units/vietnam/elephantry_archer_d.xml" attachpoint="rider"/>
-        <prop actor="units/vietnam/elephantry_archer_r1.xml" attachpoint="rider1"/>
+        <prop actor="units/vietnamese/elephantry_archer_d.xml" attachpoint="rider"/>
+        <prop actor="units/vietnamese/elephantry_archer_r1.xml" attachpoint="rider1"/>
       </props>
       <textures>
         <texture file="skeletal/maur/elephant_archer.png" name="baseTex"/>

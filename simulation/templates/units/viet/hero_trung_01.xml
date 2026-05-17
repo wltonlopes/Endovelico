@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_elephant_melee">
+  <Identity>
+    <Civ>viet</Civ>
+    <GenericName>Trưng Trắc</GenericName>
+    <SpecificName>Trưng Trắc</SpecificName>
+    <Icon>units/yayo/hero_himiko.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/vietnamese/hero_princess_trung_01.xml</Actor>
+  </VisualActor>
+</Entity>

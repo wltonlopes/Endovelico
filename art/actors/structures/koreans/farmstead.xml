@@ -6,7 +6,8 @@
       <mesh>structural/koreans/farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
-        <prop actor="props/structures/koreans/farmstead_carpet.xml" attachpoint="root"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="02" maxheight="20" minheight="-20"/>       
       </props>
       <textures>
         <texture file="structural/kore_struct.png" name="baseTex"/>

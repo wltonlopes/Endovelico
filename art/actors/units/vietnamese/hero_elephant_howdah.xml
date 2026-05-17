@@ -5,7 +5,7 @@
     <variant frequency="1" name="viet_hero_howdah">
       <mesh>structural/vietnamese/viet_hero_howdah.dae</mesh>
       <props>
-        <prop actor="units/vietnam/hero_elephant_r.xml" attachpoint="hero"/>
+        <prop actor="units/vietnamese/hero_elephant_r.xml" attachpoint="hero"/>
         <prop actor="props/units/parasol.xml" attachpoint="parasol"/>
       </props>
       <textures>
