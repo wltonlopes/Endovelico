@@ -6,13 +6,13 @@
   </Footprint>
   <Identity>
     <Civ>epir</Civ>
-    <SelectionGroupName>structures/illy/wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/epiro/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="7.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/gauls/wall_short.xml</Actor>
+    <Actor>structures/hellenes/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>13.0</Length>

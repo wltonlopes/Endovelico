@@ -11,7 +11,7 @@
         <texture file="structural/mapu/struct.png" name="baseTex"/>
         <texture file="structural/mapu/struct_spec.png" name="specTex"/>
         <texture file="structural/mapu/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/mapuche/arsenal.png" name="aoTex"/>
+        <texture file="structural/ao/mapuche/arsenal_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -35,5 +35,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>

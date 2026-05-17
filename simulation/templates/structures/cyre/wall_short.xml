@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>cyre</Civ>
-    <SelectionGroupName>structures/illy/wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/cyre/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="7.0"/>

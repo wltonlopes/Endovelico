@@ -40,7 +40,8 @@
         }
     ],
     "WallSets": [
-        "structures/wallset_palisade"
+        "structures/wallset_palisade",
+        "structures/epir/wallset_stone"
     ],
     "StartEntities": [
         {

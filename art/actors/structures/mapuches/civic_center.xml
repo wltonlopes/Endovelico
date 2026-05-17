@@ -6,12 +6,14 @@
       <mesh>structural/mapuche/cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="02" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/mapu/struct.png" name="baseTex"/>
         <texture file="structural/mapu/struct_spec.png" name="specTex"/>
         <texture file="structural/mapu/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/mapuche/cc.png" name="aoTex"/>
+        <texture file="structural/ao/mapuche/cc_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -35,5 +37,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>
