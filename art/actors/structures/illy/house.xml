@@ -5,12 +5,12 @@
     <variant frequency="1" name="base">
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+
       </props>
       <textures>
         <texture file="structural/illy_struct.png" name="baseTex"/>
         <texture file="structural/illy_struct_spec.png" name="specTex"/>
         <texture file="structural/illy_struct_norm.png" name="normTex"/>
-
       </textures>
     </variant>
   </group>
@@ -18,25 +18,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/illy/house_1.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/illyrians/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/illy/house_2.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/illyrians/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/illy/house_3.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/illyrians/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/illy/house_4.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/illyrians/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -44,7 +44,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_illy.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>

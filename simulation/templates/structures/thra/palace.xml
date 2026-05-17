@@ -12,7 +12,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="8.0" depth="8.0"/>
+    <Square width="21.0" depth="21.0"/>
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder disable=""/>
@@ -23,7 +23,6 @@
   <Identity>
     <Civ>thra</Civ>
     <GenericName>Palace</GenericName>
-    <SpecificName></SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Monument</VisibleClasses>
     <Icon>structures/iberian_bull.png</Icon>
@@ -33,7 +32,7 @@
     <metal>20</metal>
   </Loot>
   <Obstruction>
-    <Static width="6.0" depth="6.0"/>
+    <Static width="19.0" depth="19.0"/>
   </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>

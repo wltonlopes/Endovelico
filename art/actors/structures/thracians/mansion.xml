@@ -6,6 +6,9 @@
       <mesh>structural/thracians/mansion.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="01"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="02"/>
+        <prop actor="flora/trees/cypress_large_branches.xml" attachpoint="03"/>
       </props>
       <textures>
         <texture file="structural/thra/struct.png" name="baseTex"/>
