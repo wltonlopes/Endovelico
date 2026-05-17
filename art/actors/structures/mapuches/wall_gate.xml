@@ -3,7 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/mapuche/wall_gate.dae</mesh>
+      <mesh>structural/gate_and_towers.dae</mesh>
+      <props>
+        <prop actor="props/special/native_gate_door.xml" attachpoint="root"/>
+        <prop actor="structures/mapuches/wall_tower.xml" attachpoint="tower_01"/>
+        <prop actor="structures/mapuches/wall_tower.xml" attachpoint="tower_02"/>
+      </props>
       <textures>
         <texture file="structural/mapu/struct.png" name="baseTex"/>
         <texture file="structural/mapu/struct_spec.png" name="specTex"/>
@@ -13,21 +18,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="ungarrisoned"/>
-    <variant name="garrisoned">
-      <props>
-        <prop actor="props/special/common/garrison_flag_mapu.xml" attachpoint="garrisoned" selectable="false"/>
-      </props>
-    </variant>
-  </group>
-  <group>
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
         <prop attachpoint="root"/>
-        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
       </props>
     </variant>

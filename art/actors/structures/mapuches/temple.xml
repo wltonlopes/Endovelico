@@ -5,7 +5,9 @@
     <variant frequency="1" name="Scout_Tower">
       <mesh>structural/mapuche/temple.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="01"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="02"/>
       </props>
       <textures>
         <texture file="structural/mapu/struct.png" name="baseTex"/>

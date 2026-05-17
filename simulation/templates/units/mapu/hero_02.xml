@@ -2,16 +2,15 @@
 <Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>War Chief</GenericName>
-    <SpecificName>toqui</SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <GenericName>Great Ulmen</GenericName>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
+    <History>Great Ulmen / Administration Bonus</History>
     <Icon>units/zapo/hero_night_king.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_archer.xml</Actor>
+    <Actor>units/mapuches/hero_02.xml</Actor>
   </VisualActor>
 </Entity>

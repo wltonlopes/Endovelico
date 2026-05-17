@@ -6,8 +6,8 @@
       <mesh>structural/mapuche/barracks.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="02" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/mapu/struct.png" name="baseTex"/>
@@ -21,7 +21,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_mapu.xml" attachpoint="garrisoned" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_mapu.xml" attachpoint="garrisoned_01" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_mapu.xml" attachpoint="garrisoned_02" selectable="false"/>
       </props>
     </variant>
   </group>

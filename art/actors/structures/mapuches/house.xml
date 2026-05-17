@@ -5,7 +5,7 @@
     <variant frequency="1" name="base">
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
-        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="01"/>
       </props>
       <textures>
         <texture file="structural/mapu/struct.png" name="baseTex"/>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="lepun_prop">
+      <mesh>props/structural/mapuche/lepun_prop.dae</mesh>
+      <textures>
+        <texture file="structural/mapu/struct.png" name="baseTex"/>
+        <texture file="structural/mapu/struct_spec.png" name="specTex"/>
+        <texture file="structural/mapu/struct_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

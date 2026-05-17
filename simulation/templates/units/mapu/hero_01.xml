@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_spearman">
+<Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Nble Man</GenericName>
-    <SpecificName>Ulmenes</SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <GenericName>Great Toqui</GenericName>
+    <History>Great Toqui / Military Bonus</History>
     <SelectionGroupName>units/mapu/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>
   </Identity>
@@ -12,6 +11,6 @@
     <WalkSpeed op="mul">1.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_clubman.xml</Actor>
+    <Actor>units/mapuches/hero_01.xml</Actor>
   </VisualActor>
 </Entity>

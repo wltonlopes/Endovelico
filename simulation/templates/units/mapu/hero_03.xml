@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_maceman">
+<Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Tribal Chief</GenericName>
-    <SpecificName>lonko</SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <GenericName>War Ulmen</GenericName>
+    <History>Great Toqui / Military and Administration basic Bonus</History>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/tupis/infantry_champion_clubman.xml</Actor>
+    <Actor>units/mapuches/hero_03.xml</Actor>
   </VisualActor>
 </Entity>

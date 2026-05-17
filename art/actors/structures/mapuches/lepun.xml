@@ -4,6 +4,9 @@
   <group>
     <variant frequency="1" name="lepun">
       <mesh>structural/mapuche/lepun.dae</mesh>
+      <props>
+        <prop actor="props/structures/mapuche/lepun_prop.xml" attachpoint="root"/>
+      </props>
       <textures>
         <texture file="structural/mapu/struct.png" name="baseTex"/>
         <texture file="structural/mapu/struct_spec.png" name="specTex"/>
