@@ -16,6 +16,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/illy/civic_center.xml</Actor>
+    <Actor>structures/illyrians/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

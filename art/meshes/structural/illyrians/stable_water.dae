@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-05-18T09:33:11</created>
+    <modified>2026-05-18T09:33:11</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="texturas_ilir-effect">
+      <profile_COMMON>
+        <newparam sid="illy_struct_png-surface">
+          <surface type="2D">
+            <init_from>illy_struct_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="illy_struct_png-sampler">
+          <sampler2D>
+            <source>illy_struct_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="illy_struct_png-sampler" texcoord="Cube_1930-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="illy_struct_png" name="illy_struct_png">
+      <init_from>/home/welton/.var/app/com.play0ad.zeroad/data/0ad/mods/Endovelico/art/textures/skins/structural/illy_struct.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="texturas_ilir-material" name="texturas ilir">
+      <instance_effect url="#texturas_ilir-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_001-mesh" name="Cube.001">
+      <mesh>
+        <source id="Cube_001-mesh-positions">
+          <float_array id="Cube_001-mesh-positions-array" count="36">-7.130053 -2.305048 1.571402 -7.11189 -0.5063052 1.571402 -7.148219 -4.103791 1.571402 -8.47942 -2.291421 1.571402 -8.497587 -4.090164 1.571402 -8.461256 -0.4926785 1.571402 3.794943 -2.305048 1.571402 3.813107 -0.5063057 1.571402 3.776777 -4.103792 1.571402 2.445575 -2.291421 1.571402 2.427412 -4.090164 1.571402 2.463741 -0.4926789 1.571402</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_001-mesh-normals">
+          <float_array id="Cube_001-mesh-normals-array" count="33">0 0 1 1.81092e-7 0 1 0 0 1 0 0 1 0 0 1 0 0 1 1.81092e-7 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_001-mesh-map-0">
+          <float_array id="Cube_001-mesh-map-0-array" count="48">0.6546689 0.9985802 0.6892495 0.9981629 0.6884715 0.9675531 0.6538445 0.9989975 0.6891588 0.9985802 0.6883358 0.967971 0.6546689 0.9985802 0.6892495 0.9981629 0.6884715 0.9675531 0.6538445 0.9989975 0.6891588 0.9985802 0.6883358 0.967971 0.6546689 0.9985802 0.6884715 0.9675531 0.6538459 0.967971 0.6538445 0.9989975 0.6883358 0.967971 0.6529763 0.968389 0.6546689 0.9985802 0.6884715 0.9675531 0.6538459 0.967971 0.6538445 0.9989975 0.6883358 0.967971 0.6529763 0.968389</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_001-mesh-map-1">
+          <float_array id="Cube_001-mesh-map-1-array" count="48">0.6546689 0.9985802 0.6892495 0.9981629 0.6884715 0.9675531 0.6538445 0.9989975 0.6891588 0.9985802 0.6883358 0.967971 0.6546689 0.9985802 0.6892495 0.9981629 0.6884715 0.9675531 0.6538445 0.9989975 0.6891588 0.9985802 0.6883358 0.967971 0.6546689 0.9985802 0.6884715 0.9675531 0.6538459 0.967971 0.6538445 0.9989975 0.6883358 0.967971 0.6529763 0.968389 0.6546689 0.9985802 0.6884715 0.9675531 0.6538459 0.967971 0.6538445 0.9989975 0.6883358 0.967971 0.6529763 0.968389</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-map-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_001-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_001-mesh-positions"/>
+        </vertices>
+        <triangles material="texturas_ilir-material" count="8">
+          <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_001-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Cube_001-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 1 1 1 5 2 2 2 3 3 0 0 4 3 4 5 6 5 6 7 6 7 11 7 8 8 8 9 6 5 10 9 9 11 0 0 12 5 2 13 3 4 14 2 3 15 3 4 16 4 10 17 6 5 18 11 7 19 9 9 20 8 8 21 9 9 22 10 10 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="stable_001" name="stable.001" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_001-mesh" name="stable.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="texturas_ilir-material" target="#texturas_ilir-material">
+                <bind_vertex_input semantic="Cube_1930-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Cube_1930-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

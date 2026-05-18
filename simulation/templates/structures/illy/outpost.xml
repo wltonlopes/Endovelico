@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/illy/outpost.xml</Actor>
+    <Actor>structures/illyrians/outpost.xml</Actor>
   </VisualActor>
 </Entity>

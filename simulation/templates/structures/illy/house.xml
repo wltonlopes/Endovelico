@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/illy/house.xml</Actor>
+    <Actor>structures/illyrians/house.xml</Actor>
   </VisualActor>
 </Entity>

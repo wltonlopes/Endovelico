@@ -15,7 +15,7 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/illy/wall_gate.xml</Actor>
+    <Actor>structures/illyrians/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>25.0</Length>

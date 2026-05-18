@@ -15,7 +15,7 @@
   </Obstruction>
   <RallyPoint disable=""/>
   <VisualActor>
-    <Actor>structures/illy/wall_tower.xml</Actor>
+    <Actor>structures/illyrians/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>9.0</Length>

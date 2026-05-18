@@ -54,7 +54,7 @@
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/illy/acropolis.xml</Actor>
+    <Actor>structures/illyrians/acropolis.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

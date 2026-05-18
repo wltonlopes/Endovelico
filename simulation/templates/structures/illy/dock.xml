@@ -21,7 +21,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/illy/dock.xml</Actor>
+    <Actor>structures/illyrians/dock.xml</Actor>
     <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

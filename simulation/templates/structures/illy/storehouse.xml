@@ -11,6 +11,6 @@
     <Static width="13.0" depth="15.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/illy/storehouse.xml</Actor>
+    <Actor>structures/illyrians/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/illy/arsenal.xml</Actor>
+    <Actor>structures/illyrians/arsenal.xml</Actor>
   </VisualActor>
 </Entity>

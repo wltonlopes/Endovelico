@@ -7,6 +7,6 @@
     <Tooltip>.</Tooltip>
   </Identity>
   <VisualActor>
-    <Actor>structures/illy/stable.xml</Actor>
+    <Actor>structures/illyrians/stable.xml</Actor>
   </VisualActor>
 </Entity>

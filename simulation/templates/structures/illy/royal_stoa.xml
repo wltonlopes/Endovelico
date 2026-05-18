@@ -13,6 +13,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>special/greek_stoa_great.xml</Actor>
+    <Actor>structures/illyrians/stoa.xml</Actor>
   </VisualActor>
 </Entity>

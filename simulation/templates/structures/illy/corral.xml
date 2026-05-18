@@ -11,7 +11,7 @@
     <Static width="10.0" depth="19.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/illy/corral.xml</Actor>
+    <Actor>structures/illyrians/corral.xml</Actor>
     <FoundationActor>structures/fndn_3x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
