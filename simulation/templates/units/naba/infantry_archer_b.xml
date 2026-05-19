@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
-  <Identity>
-    <Civ>naba</Civ>
-    <SelectionGroupName>units/himya/infantry_archer_b</SelectionGroupName>
-    <GenericName>Longbowman</GenericName>
-    <SpecificName>Dhanurdhar</SpecificName>
-    <Icon>units/maur/infantry_archer.png</Icon>
-  </Identity>
+<Identity>
+<Civ>naba</Civ>
+<SelectionGroupName>units/naba_infantry_archer_merc_b</SelectionGroupName>
+<GenericName>Syrian Archer</GenericName>
+<SpecificName>Toxótēs Syrías</SpecificName>
+<VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+<History>Syrian archers mix the archery traditions of Crete with those of the East. Large numbers of Cretan colonists and mercenaries were settled within the borders of the Seleucid Empire. In return for lands, the colonists pledged themselves and their offspring to serve in the armies of the Seleucid king when called by him.</History>
+<Icon>units/hele/infantry_archer.png</Icon>
   <Promotion>
     <Entity>units/himya/infantry_archer_a</Entity>
   </Promotion>

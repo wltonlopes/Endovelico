@@ -2,10 +2,11 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>naba</Civ>
-    <SelectionGroupName>units/himya/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Himyar Light Cavalry</GenericName>
-    <SpecificName>Ashwarohi</SpecificName>
-    <Icon>units/maur/cavalry_javelinist.png</Icon>
+    <SelectionGroupName>units/naba_cavalry_javelinist_b</SelectionGroupName>
+    <GenericName>Bedouin Scouts</GenericName>
+    <SpecificName>Farasîn Bedawi</SpecificName>
+    <History>In ancient times, most people settled near rivers but the Bedouin people preferred to live in the open desert. In battle these men provide a highly skilled light cavalry contingent exceedingly capable in the roles of skirmishing, pursuit, and harassment.</History>
+    <Icon>units/pers_cavalry_javelinist.png</Icon
   </Identity>
   <Promotion>
     <Entity>units/himya/cavalry_javelineer_a</Entity>

@@ -3,9 +3,9 @@
   <Identity>
     <Civ>naba</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/naba/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>Arab Javelineer</GenericName>
-    <SpecificName>Pezakontistès Aravikós</SpecificName>
+    <GenericName>Nabataean Reformed Skirmishers</GenericName>
+    <SpecificName>Romakhaya</SpecificName>
+    <History>The Romakhaya where a type of elite skirmisher that sacrifices heavy arms and armor for mobility and range. They are armored in leather and carry a medium sized ovular shield. Their armaments consist of several javelins and a sword. This panoply makes them light and mobile, but still able to engage in melee after their javelins have been thrown.</History>
     <Icon>units/sele/infantry_javelinist.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

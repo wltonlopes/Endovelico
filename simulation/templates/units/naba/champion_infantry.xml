@@ -1,0 +1,12 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<Entity parent="template_unit_champion_infantry_swordsman">
+<Identity>
+<Civ>naba</Civ>
+<GenericName>Nabatean Elite Infantry</GenericName>
+<SpecificName>Qestûnarîn</SpecificName>
+<History>These are the veterans among the North Arabian tribes - men who have seen and lived through many wars. They rush into battle with what they can afford - axe, helmet, leather armour and leather covered wicker shields - and cut down even heavy infantry.</History>
+<Icon>units/sele_champion_swordsman.png</Icon>
+  <VisualActor>
+    <Actor>units/lusitanians/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

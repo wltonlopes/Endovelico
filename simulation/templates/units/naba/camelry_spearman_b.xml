@@ -6,7 +6,11 @@
   </Footprint>
   <Identity>
     <Civ>naba</Civ>
-    <SelectionGroupName>units/himya/cavalry_spearman</SelectionGroupName>
+    <SelectionGroupName>units/naba/cavalry_spearman_merc_b</SelectionGroupName>
+    <GenericName>Nabataean Heavy Cavalry</GenericName>
+    <SpecificName>Farasîn Khabarîn</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <History>These men build the heavy cavalry of Nabataea. They are rich enough to afford a leather armour and are equipped with spear and shield, these warriors can successfully counter the enemy's cavalry.</History>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>
   <Promotion>

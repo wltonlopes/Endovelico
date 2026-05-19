@@ -2,9 +2,10 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>naba</Civ>
-    <SpecificName>Naari</SpecificName>
-    <GenericName>Himyar Villager</GenericName>
-    <Icon>units/maur/support_female_citizen.png</Icon>
+    <SpecificName>Ni'šaia haNabatu</SpecificName>
+    <GenericName>Nabatean Woman</GenericName>
+    <History>Along with this, the Nabataeans accorded a high position to their women. Women could inherit property and dispose of it. Women were often honored, such as the queens whose pictures appeared on coins, sometimes alone and sometimes with their husbands.</History>
+    <Icon>units/sele/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/himyar/citizen_{phenotype}.xml</Actor>

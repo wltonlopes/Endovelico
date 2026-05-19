@@ -7,9 +7,10 @@
   </Attack>
   <Identity>
     <Civ>naba</Civ>
-    <SelectionGroupName>units/naba/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Nabatean Swordsman</GenericName>
-    <Icon>units/maur/infantry_swordsman.png</Icon>
+    <GenericName>Nabataean Axemen</GenericName>
+    <SpecificName>Muharûbîn Fleqā</SpecificName>
+    <History>Thracian tribesmen who wield the fearsome rhomphaia polearm weapon in combat. They were ubiquitous mercenary swordsmen and skirmishers throughout Hellenistic times, sometimes even serving in two opposing armies.</History>
+    <Icon>units/sele/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

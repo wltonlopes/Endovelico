@@ -2,10 +2,11 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>naba</Civ>
-    <SelectionGroupName>units/naba/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Nabatean Spearman</GenericName>
-    <SpecificName>Kauntika</SpecificName>
-    <Icon>units/maur/infantry_spearman.png</Icon>
+    <SelectionGroupName>units/naba_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Nabataean Levy Spearmen</GenericName>
+    <SpecificName>Istratîn</SpecificName>
+    <History>These urbanites are the core of the Nabataean military machine. Armed with sturdy spears and leather or wicker shields, these men are far more capable than their lighter counterparts in tribal levies of holding the line of battle.</History>
+    <Icon>units/sele/infantry_spearman_2.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/naba/infantry_spearman_a</Entity>

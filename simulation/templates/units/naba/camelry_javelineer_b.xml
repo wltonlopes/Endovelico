@@ -2,9 +2,9 @@
 <Entity parent="camelry|template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>naba</Civ>
-    <SelectionGroupName>units/himya/camelry_javelineer_b</SelectionGroupName>
-    <GenericName>Camelry</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Nabataean Camel Archer</GenericName>
+    <SpecificName>Mutsābiq Gamal Nabatu</SpecificName>
+    <History>These camel riders are equipped as archers, but they also carry longswords. They do not use reins or bridles; in fact, they drive the camels in the same manner as the Numidians drive their horses: with a stick and a rope wrapped around their necks. In addition, due to the repulsive smell, horses detest camels and try to avoid them in battle.</History>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>
   <Promotion>

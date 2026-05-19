@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_cavalry_swordsman">
-  <Identity>
-    <Civ>naba</Civ>
-    <SpecificName></SpecificName>
-    <GenericName>General Bodyguard</GenericName>
-    <Icon>units/rome/champion_cavalry.png</Icon>
-    <SelectionGroupName>units/himya/champion_cavalry</SelectionGroupName>
-  </Identity>
+<Entity parent="template_unit_champion_cavalry_spearman">
+<Identity>
+<Civ>naba</Civ>
+<GenericName>Nabataean Bodyguard Cavalry</GenericName>
+<SpecificName>Naṭārîn haRābb</SpecificName>
+<Icon>units/pers/champion_cavalry.png</Icon>
+<History>Every Nabataean Nobleman surrounds himself with fierce warriors who make up his personal guard. These riders are the elite, to be used in times of crisis. The men of the guard are equipped with a lance, sword, shield and leather armour. Agile and powerful, they can be used anywhere on the battlefield and against any enemy.</History>
+</Identity>
   <VisualActor>
     <Actor>units/himyar/cavalry_swordsman_c_m.xml</Actor>
   </VisualActor>
