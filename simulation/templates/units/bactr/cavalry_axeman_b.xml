@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_cav|template_unit_cavalry_melee_axeman">
+  <Health>
+    <Max>130</Max>
+  </Health>
+  <Identity>
+    <Civ>bact</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/bact/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Dahae Axe Raider</GenericName>
+    <SpecificName>Hippikon Dahae</SpecificName>
+    <Icon>units/raider_bact.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/bact/cavalry_axeman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/bactrians/cavalry_axeman_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

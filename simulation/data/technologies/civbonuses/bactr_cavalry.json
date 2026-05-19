@@ -1,0 +1,13 @@
+{
+	"genericName": "Equine Husbandry",
+	"autoResearch": true,
+	"description": "Generations of selective breeding endowed the bactrians with precious knowlodge, effectively allowing them to produce fine steeds fit for war.",
+	"requirements": { "civ": "bactr" },
+	"icon": "sword_cavalry.png",
+	"tooltip": "Cavalry -30% food and -20% metal cost.",
+	"modifications": [
+		{ "value": "Cost/Resources/food", "multiply": 0.7 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.8 }
+	],
+	"affects": ["Cavalry"]
+}

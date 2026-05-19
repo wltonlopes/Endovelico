@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Temple"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.8 },
+		{ "value": "Health/RegenRate", "add": 3 }
+	],
+	"auraDescription": "Temples −20% build time and +3 health regeneration rate.",
+	"auraName": "Buddhist Fervor",
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png"
+}

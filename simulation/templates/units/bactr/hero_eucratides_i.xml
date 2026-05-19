@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_maceman">
+  <Auras datatype="tokens">
+    units/heroes/bact_hero_eucratides_1
+	units/heroes/bact_hero_eucratides_2
+  </Auras>
+  <Attack>
+    <Melee>
+      <AttackName>Mace</AttackName>
+      <Damage>
+        <Crush>30</Crush>
+		<Hack>6</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>1500</Max>
+  </Health>
+  <Identity>
+    <Civ>bactr</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Eucratides I of Bactria</GenericName>
+    <SpecificName>Eukratides A' ho Baktria</SpecificName>
+    <Icon>units/bactr/eucratides_bact.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/bactrians/hero_cavalry_spearman_eucratides_m.xml</Actor>
+  </VisualActor>
+</Entity>

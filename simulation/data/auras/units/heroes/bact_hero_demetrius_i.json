@@ -1,0 +1,19 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Elephant"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 0.8 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 0.8 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 0.8 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 0.8 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 0.8 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 0.8 },
+		{ "value": "Resistance/Entity/Damage/Hack", "multiply": 0.9 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "multiply": 0.9 },
+		{ "value": "Resistance/Entity/Damage/Crush", "multiply": 0.9 }
+	],
+	"auraName": "Subduer of Indians",
+	"auraDescription": "Enemy elephants −20% damage and -10% armour."
+}

@@ -1,0 +1,22 @@
+{
+	"genericName": "Bactrian Camels",
+	"specificName": {
+		     "bact":"Bactrian Camels"
+    },
+	"description": "Selectively breed better camels.",
+	"cost": {
+		"food": 200,
+		"metal": 200
+	},
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "camels.png",
+	"researchTime": 35,
+	"tooltip": "Traders +20% movement speed and +20% health.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.2 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
+	],
+	"affects": ["Trader"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

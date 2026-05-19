@@ -1,0 +1,9 @@
+<Entity parent="units/bactr/infantry_axeman_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/bactrians/infantry_hillman_bact_e.xml</Actor>
+  </VisualActor>
+</Entity>

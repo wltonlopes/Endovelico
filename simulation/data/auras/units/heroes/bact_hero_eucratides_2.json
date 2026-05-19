@@ -1,0 +1,10 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Cavalry"],
+	"modifications": [
+		{ "value": "Attack/Capture/Capture", "add": 3 }
+	],
+	"auraName": "Heroic Charge",
+	"auraDescription": "Cavalry +3 capture points ."
+}

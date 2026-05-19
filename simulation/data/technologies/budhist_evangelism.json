@@ -1,0 +1,22 @@
+{
+	"genericName": "Healing Rate",
+	"specificName": {
+		     "bact":"Buddhist Evangelism"
+    },
+	"description": "Increases the healing rate of all healers.",
+	"cost": {
+		"food": 300,
+		"metal": 200,
+		"wood": 300
+	},
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "budhism_bact.png",
+	"researchTime": 40,
+	"tooltip": "Healers and temples +20% health regeneration rate.",
+	"modifications": [
+		{ "value": "Heal/Interval", "multiply": 0.8 }
+	],
+	"affects": ["Healer","Temple"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

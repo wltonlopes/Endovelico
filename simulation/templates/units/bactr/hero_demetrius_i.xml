@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/bact_hero_demetrius_i
+  </Auras>
+  <Identity>
+    <Civ>bactr</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Demetrius I the Undefeated</GenericName>
+    <SpecificName>Demetrius Aníkētos</SpecificName>
+    <Icon>unit/bactr/demetrius_bact.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/bactrians/hero_cavalry_swordsman_demetrius_I_m.xml</Actor>
+  </VisualActor>
+</Entity>

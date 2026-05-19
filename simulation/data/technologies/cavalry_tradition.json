@@ -1,0 +1,26 @@
+{
+	"genericName": "Cavalry Drills",
+	"specificName": {
+		"bact": "Cavalry Drills"
+	},
+	"description": "The expertise in mounted combat made the bactrian horseman a highly sought-after soldier .",
+	"cost": {
+		"food": 400,
+		"metal": 200
+	},
+	"supersedes": "cavalry_health",
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "cav_tradition_bact.png",
+	"researchTime": 60,
+	"tooltip": "Champion cavalry +10 movemnt speed, +15% damage but these take +20% longer to train.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 1.2 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.15 }
+	],
+	"affects": ["Champion Cavalry Spearman"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
