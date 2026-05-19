@@ -15,10 +15,10 @@
       </animations>
       <mesh>structural/kush_chariot.dae</mesh>
       <props>
-        <prop actor="units/garamantians/chariot_archer_c_h1.xml" attachpoint="horse5"/>
-        <prop actor="units/garamantians/chariot_archer_c_h1.xml" attachpoint="horse6"/>
-        <prop actor="units/garamantians/chariot_djalla_r.xml" attachpoint="rider1"/>
-        <prop actor="units/garamantians/chariot_archer_c_d.xml" attachpoint="driver1"/>
+        <prop actor="units/libyan/chariot_archer_c_h1.xml" attachpoint="horse5"/>
+        <prop actor="units/libyan/chariot_archer_c_h1.xml" attachpoint="horse6"/>
+        <prop actor="units/libyan/chariot_djalla_r.xml" attachpoint="rider1"/>
+        <prop actor="units/libyan/chariot_archer_c_d.xml" attachpoint="driver1"/>
       </props>
       <textures>
         <texture file="structural/liby_chariot.png" name="baseTex"/>

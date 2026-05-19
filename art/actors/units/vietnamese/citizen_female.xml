@@ -16,19 +16,19 @@
     <variant frequency="1" name="v1">
       <mesh>skeletal/new/f_tunic_long.dae</mesh>
       <textures>
-        <texture file="skeletal/viet/tunic_fem_01_01.png" name="baseTex"/>
+        <texture file="skeletal/viet/female_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="v2">
       <mesh>skeletal/new/f_dress_02.dae</mesh>
       <textures>
-        <texture file="skeletal/viet/tunic_fem_01_02.png" name="baseTex"/>
+        <texture file="skeletal/viet/female_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="v3">
       <mesh>skeletal/new/f_tunic_long.dae</mesh>
       <textures>
-        <texture file="skeletal/viet/tunic_fem_01_03.png" name="baseTex"/>
+        <texture file="skeletal/viet/female_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

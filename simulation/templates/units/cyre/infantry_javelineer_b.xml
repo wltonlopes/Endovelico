@@ -3,13 +3,14 @@
   <Identity>
     <Civ>cyre</Civ>
     <SelectionGroupName>units/cyre/infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Libyan Mercenary Skirmisher</GenericName>
-    <Icon>units/gara/infantry_javelineer.png</Icon>
+    <GenericName>Cyrene Peltast</GenericName>
+    <SpecificName>Peltastēs Kyrēnaïkoí</SpecificName>
+    <Icon>units/mace/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/cyre/infantry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/libyan/infantry_javelinist_b.xml</Actor>
+    <Actor>units/cyrene/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

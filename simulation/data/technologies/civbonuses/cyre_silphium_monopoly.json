@@ -1,0 +1,13 @@
+{
+	"genericName": "Silphium Monopoly",
+	"autoResearch": true,
+	"description": "Cyrene was the only region in the world to produce silphium, a medicinal plant that sold for a price equal to gold until it became extinct.",
+	"requirements": { "civ": "cyre" },
+	"icon": "wood_axe.png",
+    "tooltip": "+300% gains trade metal",
+	"modifications": [
+	{ "value": "ResourceTrickle/Rates/metal", "multiply": 3.0 }
+	],
+	"affects": ["Trader"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

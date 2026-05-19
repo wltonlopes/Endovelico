@@ -3,8 +3,8 @@
   <Identity>
   <Civ>cyre</Civ>
 	<Lang>greek</Lang>
-	<GenericName>Royal Guard</GenericName>
-    <SpecificName>Basilikoi Epilektoi Hoplítēs Kyrēnaïkoí</SpecificName>
+	<GenericName>Champions Infantry</GenericName>
+    <SpecificName>Kyrēnaïkoí Hiera Ile</SpecificName>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
     <History>.</History>
     <Requirements>
