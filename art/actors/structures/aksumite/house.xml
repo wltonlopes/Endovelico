@@ -5,6 +5,7 @@
     <variant frequency="1" name="Axumite House">
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="01"/>
       </props>
       <textures>
         <texture file="structural/axum_struct.png" name="baseTex"/>

@@ -21,6 +21,6 @@
     <WalkSpeed op="mul">0.85</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/ptolemies/camelry_scout_m.xml</Actor>
+    <Actor>units/nabataeans/camelry_javelineer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

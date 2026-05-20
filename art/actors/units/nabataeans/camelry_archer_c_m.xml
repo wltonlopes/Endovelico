@@ -2,18 +2,15 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant>
+    <variant frequency="1" name="Base">
       <mesh>skeletal/camel.dae</mesh>
       <props>
-        <prop actor="units/himyar/camelry_spearman_e_r.xml" attachpoint="rider"/>
+        <prop actor="units/nabataeans/camelry_archer_c_r.xml" attachpoint="rider"/>
         <prop actor="props/camel/camel_rein.xml" attachpoint="root"/>
         <prop actor="props/camel/camel_blanket.xml" attachpoint="root"/>
         <prop actor="props/camel/teeths.xml" attachpoint="mouth_bot"/>
+        <prop actor="props/units/jav_bag.xml" attachpoint="quiver_R"/>
       </props>
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/han/scale_01_spec.png" name="specTex"/>
-      </textures>
     </variant>
   </group>
   <group>
@@ -34,9 +31,22 @@
     </variant>
   </group>
   <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
     <variant file="quadraped/base_camel_mount.xml"/>
     <variant file="quadraped/base_camel_run.xml"/>
     <variant file="quadraped/base_camel_death.xml"/>
+    <variant file="quadraped/base_camel_gather_meat.xml" name="gather_meat">
+      <props>
+        <prop actor="units/nabataeans/camelry_archer_b_r.xml" attachpoint="rider_L"/>
+      </props>
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

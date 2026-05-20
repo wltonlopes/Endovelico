@@ -4,6 +4,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/nabateans/infantry_spearman_e.xml</Actor>
+    <Actor>units/nabataeanss/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

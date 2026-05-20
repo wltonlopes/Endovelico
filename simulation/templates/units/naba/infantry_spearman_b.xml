@@ -12,6 +12,6 @@
     <Entity>units/naba/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/nabateans/infantry_spearman_b.xml</Actor>
+    <Actor>units/nabataeanss/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

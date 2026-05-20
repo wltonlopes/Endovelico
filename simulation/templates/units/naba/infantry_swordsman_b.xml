@@ -19,6 +19,6 @@
     <Entity>units/naba/infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/nabatean/infantry_swordsman_b.xml</Actor>
+    <Actor>units/nabataeans/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

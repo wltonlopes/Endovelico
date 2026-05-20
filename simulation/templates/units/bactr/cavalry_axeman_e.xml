@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/bact/cavalry_axeman_a">
+<Entity parent="units/bactr/cavalry_axeman_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
