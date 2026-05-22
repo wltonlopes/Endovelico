@@ -1,0 +1,12 @@
+{
+	"genericName": "Aksumite assimilation",
+	"autoResearch": true,
+	"description": "Aksumite assimilation.",
+	"requirements": { "civ": "aksum" },
+	"icon": "upgrade_elite.png",
+	"tooltip": ".",
+	"modifications": [
+		{ "value": "Attack/Capture/Capture", "add": 0.15 }
+	],
+	"affects": ["Unit"]
+}

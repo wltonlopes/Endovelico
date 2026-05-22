@@ -1,0 +1,13 @@
+{
+	"genericName": "Mississippi Trade Networks",
+	"autoResearch": true,
+	"description": "The Adena maintained long-distance exchange routes across river systems and neighboring cultures, increasing the efficiency of trade and resource distribution.",
+	"requirements": { "civ": "adena" },
+	"icon": "wood_axe.png",
+    "tooltip": "+15% gains trade metal",
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 }
+	],
+	"affects": ["Trader"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

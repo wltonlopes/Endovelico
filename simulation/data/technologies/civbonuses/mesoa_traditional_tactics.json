@@ -1,0 +1,29 @@
+{
+	"genericName": "Traditional Tactics",
+	"autoResearch": true,
+	"description": "Mesoamerica warriors favored melee and did not equip themselves for ranged combat, as such warriors would wear little to no armor and be swift on the battlefield lest they be shot down.",
+	"requirements": {
+		"any": [
+			{"civ": "zapo"},
+			{"civ": "mixt"},
+			{"civ": "mayap"},
+			{"civ": "lenc"}
+		]
+	},
+	"icon": "olives.png",
+	"modifications": [
+		{
+			"value": "Armour/Pierce",
+			"add": -1.0
+		},
+		{
+			"value": "Attack/Melee/Damage/Hack",
+			"add": 1.0
+		},
+		{
+			"value": "UnitMotion/WalkSpeed",
+			"add": 1.25
+		}
+	],
+	"affects": ["Melee"]
+}

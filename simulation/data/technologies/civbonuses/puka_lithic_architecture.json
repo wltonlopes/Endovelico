@@ -1,0 +1,12 @@
+{
+	"genericName": "Andean Lithic Architecture",
+	"autoResearch": true,
+	"description": ".",
+	"requirements": { "civ": "puka" },
+	"icon": "ionic_column.png",
+	"tooltip": "Structures +10% health, +20 time and +5% capture points.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.1 }
+	],
+	"affects": ["Structure !Wonder"]
+}

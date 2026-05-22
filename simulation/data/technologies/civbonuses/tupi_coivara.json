@@ -1,0 +1,12 @@
+{
+	"genericName": "Coivara",
+	"autoResearch": true,
+	"description": "Coivara (a term of Tupi origin) is a traditional and ancestral technique of shifting cultivation (also called slash-and-burn agriculture). It consists of clearing the vegetation from an area, piling up and burning the branches, and using the ashes as natural fertilizer for the soil before planting.",
+	"requirements": { "civ": "tupi" },
+	"icon": "olives.png",
+	"tooltip": "Workers +20% grain gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.2 }
+	],
+	"affects": ["Worker"]
+}
