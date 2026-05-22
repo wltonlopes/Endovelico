@@ -11,6 +11,11 @@
     <Civ>guara</Civ>
     <SpecificName>Kömëgura</SpecificName>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      <south_america/>yerba_mate
+    </Technologies>
+  </Researcher>
   <Obstruction>
     <Static width="12.0" depth="12"/>
   </Obstruction>

@@ -1,11 +1,9 @@
 {
-  "genericName": "Irreducible Warriors_prov",
+  "genericName": "Irreducible Warriors",
   "description": "Culture loss slower.",
   "cost": {
-    "food": 200,
-    "wood": 200,
-    "stone": 0,
-    "metal": 0
+    "food": 500,
+    "wood": 500
   },
   "requirements": {
     "tech": "phase_city"
