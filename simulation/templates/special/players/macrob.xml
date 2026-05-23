@@ -5,9 +5,9 @@
   </Auras> -->
   <Identity>
     <Civ>macrob</Civ>
-    <GenericName>City-States of the Horn of Africa</GenericName>
+    <GenericName>Aromata city-states</GenericName>
     <History>Legendary Horn of Africa kingdom (Somalia/Ethiopia). Herodotus described their longevity and wealth from gold trade. Resisted Persian envoys (c. 525 BC) with symbolic gifts. Controlled incense routes to Arabia. Semi-mythical status in Greek accounts.</History>
-    <Icon>emblems/emblem_nok.png</Icon>
+    <Icon>emblems/emblem_macrob.png</Icon>
   </Identity>
   <Player>
     <!-- <Formations datatype="tokens">
