@@ -6,13 +6,15 @@
     <variant frequency="1" name="dock">
       <mesh>structural/south_america/canoe.dae</mesh>
       <props>
+        <prop actor="structures/south_america/canoe_war_basic_prop.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
         <prop actor="units/south_america/canoe_archer.xml" attachpoint="nav2"/> 
         <prop actor="units/south_america/canoe_archer.xml" attachpoint="archer2"/>
         <prop actor="units/south_america/canoe_archer.xml" attachpoint="archer1"/>  
       </props>
       <textures>
-        <texture file="structural/maya_canoe.png" name="baseTex"/>
+        <texture file="structural/south_america/canoe_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
 	 </textures>

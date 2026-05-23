@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-  <float/>
   <group>
-    <variant>
-      <mesh>structural/south_america/canoe_fisher.dae</mesh>
-      <props>
-        <prop actor="structures/south_america/canoe_fisher_prop.xml" attachpoint="root"/>
-        <prop actor="units/south_america/canoe_navigator.xml" attachpoint="fisherman"/>	   
-      </props>
+    <variant frequency="1" name="ship fisher">
+      <mesh>structural/macrobian/ship_fish.dae</mesh>
       <textures>
-        <texture file="structural/south_america/canoe_01.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="structural/ship_macrob.png" name="baseTex"/>
+        <texture file="structural/ship_macrob_spec.png" name="specTex"/>
+        <texture file="structural/ship_macrob_norm.png" name="normTex"/>
       </textures>
+      <props>
+        <prop actor="units/mauryas/fisherman.xml" attachpoint="fisherman"/>
+      </props>
     </variant>
   </group>
   <group>
@@ -42,5 +40,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>objectcolor.xml</material>
 </actor>

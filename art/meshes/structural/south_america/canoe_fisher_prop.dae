@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-05-23T09:37:32</created>
+    <modified>2026-05-23T09:37:32</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="text_armas_e_esducos_mapu_001-effect">
+      <profile_COMMON>
+        <newparam sid="canoe_01_png-surface">
+          <surface type="2D">
+            <init_from>canoe_01_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="canoe_01_png-sampler">
+          <sampler2D>
+            <source>canoe_01_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="canoe_01_png-sampler" texcoord="Cube_001-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="canoe_01_png" name="canoe_01_png">
+      <init_from>/home/welton/Downloads/canoe_01.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="text_armas_e_esducos_mapu_001-material" name="text armas e esducos mapu.001">
+      <instance_effect url="#text_armas_e_esducos_mapu_001-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_003-mesh" name="Cube.003">
+      <mesh>
+        <source id="Cube_003-mesh-positions">
+          <float_array id="Cube_003-mesh-positions-array" count="48">0.6995897 -3.504627 -0.05415147 -0.6995849 -3.504627 -0.05415147 -0.6995902 4.455936 -0.05415147 0.6995846 4.455933 -0.05415147 1.001248 -3.504628 0.5863375 -1.001244 -3.504625 0.5863375 -1.001249 4.455936 0.5863375 1.001243 4.455937 0.5863375 0.5710703 -4.37585 0.08235186 -0.5710668 -4.37585 0.08235186 0.7966803 -4.375853 0.5863378 -0.796678 -4.375851 0.5863378 0.4316355 -4.742003 0.2440487 -0.4316327 -4.742004 0.2440487 0.6398896 -4.797791 0.5863378 -0.6398877 -4.797789 0.5863378</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_003-mesh-normals">
+          <float_array id="Cube_003-mesh-normals-array" count="60">0.8890531 -0.2010577 -0.4112911 0.8611475 -0.3256362 -0.3903667 0.8870768 -0.1963187 -0.4177963 -0.9046811 -6.05047e-7 -0.4260894 -0.9046816 -4.73702e-7 -0.4260882 -0.9046811 -6.13406e-7 -0.4260896 0.9046819 5.71103e-7 -0.4260879 0.9046818 5.71103e-7 -0.426088 0.9046818 5.71103e-7 -0.4260877 0.857132 -0.2921794 -0.4242121 0.8073121 -0.395092 -0.4383487 -0.889053 -0.2010564 -0.4112922 -0.8611477 -0.3256353 -0.390367 -0.8571323 -0.2921782 -0.4242123 -0.8073128 -0.3950912 -0.438348 -0.7941471 -0.2951015 -0.5312678 -0.9046818 -4.65343e-7 -0.4260882 0.9046818 5.71103e-7 -0.426088 0.7941465 -0.2951018 -0.5312686 -0.8870766 -0.1963173 -0.4177973</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_003-mesh-map-0">
+          <float_array id="Cube_003-mesh-map-0-array" count="72">0.7907993 0.1990177 0.8707572 0.1065094 0.7907993 0.08145385 0.7907993 0.1990177 0.06020468 0.08145385 0.7907993 0.08145385 0.7907993 0.08145385 0.06020468 0.1990177 0.7907993 0.1990177 0.8707579 0.199018 0.9043616 0.1361896 0.8707572 0.1065094 0.7907993 0.1990177 0.8707572 0.1065094 0.8707572 0.199018 0.8707572 0.199018 0.9043616 0.1361896 0.9094814 0.199018 0.7907993 0.1990177 0.8707579 0.199018 0.8707572 0.1065094 0.7907993 0.1990177 0.06020468 0.1990177 0.06020468 0.08145385 0.7907993 0.08145385 0.06020504 0.08145385 0.06020468 0.1990177 0.8707579 0.199018 0.9094821 0.199018 0.9043616 0.1361896 0.7907993 0.1990177 0.7907993 0.08145385 0.8707572 0.1065094 0.8707572 0.199018 0.8707572 0.1065094 0.9043616 0.1361896</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_003-mesh-map-1">
+          <float_array id="Cube_003-mesh-map-1-array" count="72">0.3373476 0.4149978 0.4003646 0.6062805 0.3815376 0.6637911 0.3377783 0.3116796 0.5877748 0.01753902 0.5877748 0.3115747 0.01466727 0.6809795 0.2620831 0.3953118 0.2620831 0.6875643 0.3673149 0.4105108 0.4207904 0.5415848 0.4003646 0.6062805 0.3377783 0.3116796 0.5340887 0.3437151 0.3373476 0.3437938 0.6007264 0.4105109 0.5472509 0.5415848 0.5777583 0.4083378 0.3373476 0.4149978 0.3673149 0.4105108 0.4003646 0.6062805 0.3377783 0.3116796 0.3377783 0.01764374 0.5877748 0.01753902 0.01466727 0.6809795 0.01466727 0.3887271 0.2620831 0.3953118 0.3673149 0.4105108 0.3902832 0.4083378 0.4207904 0.5415848 0.3377783 0.3116796 0.5877748 0.3115747 0.5340887 0.3437151 0.6007264 0.4105109 0.5676766 0.6062805 0.5472509 0.5415848</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-map-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_003-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_003-mesh-positions"/>
+        </vertices>
+        <triangles material="text_armas_e_esducos_mapu_001-material" count="12">
+          <input semantic="VERTEX" source="#Cube_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_003-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Cube_003-mesh-map-1" offset="2" set="1"/>
+          <p>4 0 0 8 1 1 0 2 2 5 3 3 2 4 4 1 5 5 0 6 6 7 7 7 4 8 8 10 9 9 12 10 10 8 1 11 5 11 12 9 12 13 11 13 14 11 13 15 13 14 16 15 15 17 4 0 18 10 9 19 8 1 20 5 3 21 6 16 22 2 4 23 0 6 24 3 17 25 7 7 26 10 9 27 14 18 28 12 10 29 5 11 30 1 19 31 9 12 32 11 13 33 9 12 34 13 14 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="canoe_fisher_001" name="canoe_fisher.001" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1.1 0 0 0 0 1.2 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_003-mesh" name="canoe_fisher.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="text_armas_e_esducos_mapu_001-material" target="#text_armas_e_esducos_mapu_001-material">
+                <bind_vertex_input semantic="Cube_001-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Cube_001-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -6,10 +6,11 @@
     <variant>
       <mesh>structural/south_america/canoe_fisher.dae</mesh>
       <props>
+        <prop actor="structures/south_america/canoe_fisher_prop.xml" attachpoint="root"/>
         <prop actor="units/south_america/canoe_navigator.xml" attachpoint="fisherman"/>	   
       </props>
       <textures>
-        <texture file="structural/maya_canoe.png" name="baseTex"/>
+        <texture file="structural/south_america/canoe_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

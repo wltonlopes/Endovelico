@@ -2,11 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="ship scout">
-      <mesh>structural/macrobian/ship_medium.dae</mesh>
+    <variant frequency="1" name="ship merchant">
+      <mesh>structural/macrobian/ship_merc.dae</mesh>
       <props>
-      <prop actor="structures/macrobians/ship_sail.xml" attachpoint="sail"/>
-      
+        <prop actor="structures/macrobians/ship_sail.xml" attachpoint="sail"/>
+        <prop actor="structures/macrobians/merchant_ship_prop.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/ship_macrob.png" name="baseTex"/>

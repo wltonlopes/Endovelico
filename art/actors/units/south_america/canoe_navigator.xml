@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_lenca_elite.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_basic.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -33,19 +33,23 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/fisher/base_hele.xml"/>
-    <variant file="biped/fisher/carry_hele.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_archer.xml"/>
-    <variant file="biped/fisher/gather_fish.xml"/>
-    <variant file="biped/fisher/walk.xml">
+    <variant frequency="1" name="Idle">
       <props>
+        <prop actor="" attachpoint="weapon_bow"/>
         <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/row.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
+    <variant file="biped/attack_ranged_archer.xml"/>
+    <variant file="biped/fisher/gather_fish.xml"/>
+    <variant file="biped/fisher/walk.xml">
+      <props>
+        <prop actor="" attachpoint="weapon_bow"/>
+        <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/row.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>
