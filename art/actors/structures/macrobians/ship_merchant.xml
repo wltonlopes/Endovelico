@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="ship scout">
+      <mesh>structural/macrobian/ship_medium.dae</mesh>
+      <props>
+      <prop actor="structures/macrobians/ship_sail.xml" attachpoint="sail"/>
+      
+      </props>
+      <textures>
+        <texture file="structural/ship_macrob.png" name="baseTex"/>
+        <texture file="structural/ship_macrob_spec.png" name="specTex"/>
+        <texture file="structural/ship_macrob_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <!-- <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
+      </props>
+    </variant>
+  </group> -->
+  <material>objectcolor.xml</material>
+</actor>

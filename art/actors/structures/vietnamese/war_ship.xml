@@ -10,6 +10,7 @@
         <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
       </animations>
       <props>
+       <prop actor="props/special/common/garrison_flag_viet.xml" attachpoint="tower_01"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_001"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_002"/>
         <prop actor="props/structures/hellenes/ship_oar_short_middle_right.xml" attachpoint="row_R_004"/>
@@ -23,6 +24,8 @@
         <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="projectile"/>
         <prop actor="props/structures/vietnamese/ship_prop.xml" attachpoint="tower"/>
         <prop actor="props/structures/vietnamese/ship_prop.xml" attachpoint="projectile_01"/>
+        <prop actor="props/units/shields/viet_round_01.xml" attachpoint="01"/>
+        <prop actor="props/units/shields/viet_round_01.xml" attachpoint="02"/>
       </props>
       <textures>
         <texture file="structural/viet/ships.png" name="baseTex"/>
@@ -31,5 +34,5 @@
       </textures>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>
