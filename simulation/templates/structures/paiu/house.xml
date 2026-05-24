@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Square width="13.5" depth="13.5"/>
+    <Height>12.0</Height>
+  </Footprint>
   <Identity>
     <Civ>paiu</Civ>
     <SpecificName>Ipe</SpecificName>
@@ -8,6 +12,7 @@
     <Static width="13.0" depth="13.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/paiute/house.xml</Actor>
+    <Actor>structures/paiutes/house.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

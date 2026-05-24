@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+    <variant frequency="15" name="Plot Field Pumpkin 01">
+      <mesh>structural/field_propped_pumpkin_8x8_01.dae</mesh>
+      <props>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_01" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_02.xml" attachpoint="pumpkin_02" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_03.xml" attachpoint="pumpkin_03" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_04.xml" attachpoint="pumpkin_04" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_05.xml" attachpoint="pumpkin_05" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_06" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_07" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_08.xml" attachpoint="pumpkin_08" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_09" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_10" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_11" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_12" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_13" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_14" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_15" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_16" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_17" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_18" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_19" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_20" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_21" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_22" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_23" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_24" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_25" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_26" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_27" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_28" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_29" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_30" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_31" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_32" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_33" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_34" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_35" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_36" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_37" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_38" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_39" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_40" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_41" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_42" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_43" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_44" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_45" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_46" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_10.xml" attachpoint="pumpkin_47" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_48" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_08.xml" attachpoint="pumpkin_49" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_50" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_51" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_52" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_53" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_54" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_55" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_56" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/field_medit_5x5.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="30" name="Plot Field Pumpkin 02">
+      <mesh>structural/field_propped_pumpkin_8x8_02.dae</mesh>
+      <props>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_01" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_02.xml" attachpoint="pumpkin_02" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_03.xml" attachpoint="pumpkin_03" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_04.xml" attachpoint="pumpkin_04" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_05.xml" attachpoint="pumpkin_05" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_06" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_07" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_08.xml" attachpoint="pumpkin_08" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_09" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_10" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_11" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_12" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_13" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_14" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_15" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_16" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_17" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_18" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_19" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_20" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_21" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_22" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_23" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_24" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_25" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_26" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_27" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_28" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_29" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_30" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_31" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_32" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_33" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_34" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_35" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_36" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_37" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_38" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_39" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_40" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_41" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_42" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_43" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_44" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_45" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_46" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_10.xml" attachpoint="pumpkin_47" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_48" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_08.xml" attachpoint="pumpkin_49" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_50" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_51" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_52" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_53" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_54" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_55" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_56" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/field_medit_5x5.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="30" name="Plot Field Pumpkin 03">
+      <mesh>structural/field_propped_pumpkin_8x8_03.dae</mesh>
+      <props>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_01" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_02.xml" attachpoint="pumpkin_02" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_03.xml" attachpoint="pumpkin_03" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_04.xml" attachpoint="pumpkin_04" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_05.xml" attachpoint="pumpkin_05" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_06" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_07" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_08.xml" attachpoint="pumpkin_08" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_09" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_10" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_11" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_12" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_13" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_14" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_15" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_16" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_17" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_18" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_19" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_20" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_21" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_22" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_23" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_24" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_25" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_26" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_27" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_28" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_29" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_30" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_31" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_32" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_33" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_34" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_35" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_36" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_37" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_38" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_39" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_40" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_41" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_42" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_43" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_44" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_45" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_46" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_10.xml" attachpoint="pumpkin_47" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_48" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_08.xml" attachpoint="pumpkin_49" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_50" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_51" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_52" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_53" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_54" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_55" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_56" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/field_medit_5x5.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="10" name="Plot Field Pumpkin 04">
+      <mesh>structural/field_propped_pumpkin_8x8_04.dae</mesh>
+      <props>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_01" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_02.xml" attachpoint="pumpkin_02" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_03.xml" attachpoint="pumpkin_03" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_04.xml" attachpoint="pumpkin_04" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_05.xml" attachpoint="pumpkin_05" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_06" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_03.xml" attachpoint="pumpkin_07" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_08" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_09" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_10" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_11" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_12" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_13" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_14" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_15" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_16" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_17" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_18" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_19" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_20" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_21" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_22" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_23" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_24" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_25" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_26" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_27" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_02.xml" attachpoint="pumpkin_28" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_29" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_30" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_31" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_32" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_33" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_34" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_35" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_36" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_37" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_38" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_39" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_40" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_41" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_42" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_43" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_08.xml" attachpoint="pumpkin_44" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_45" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_46" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_10.xml" attachpoint="pumpkin_47" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_48" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_08.xml" attachpoint="pumpkin_49" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_50" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_02.xml" attachpoint="pumpkin_51" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_03.xml" attachpoint="pumpkin_52" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_04.xml" attachpoint="pumpkin_53" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_05.xml" attachpoint="pumpkin_54" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_55" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_56" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_57" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_58" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_59" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_60" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_61" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_62" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_63" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_64" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/field_medit_5x5.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="5" name="Plot Field Pumpkin 05">
+      <mesh>structural/field_propped_pumpkin_8x8_05.dae</mesh>
+      <props>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_01" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_02.xml" attachpoint="pumpkin_02" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_03.xml" attachpoint="pumpkin_03" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_04.xml" attachpoint="pumpkin_04" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_05.xml" attachpoint="pumpkin_05" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_06" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_03.xml" attachpoint="pumpkin_07" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_08" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_09.xml" attachpoint="pumpkin_09" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_10" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_11" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_12" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_13" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_14" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_15" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_11.xml" attachpoint="pumpkin_16" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_17" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_18" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_19" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_20" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_12.xml" attachpoint="pumpkin_21" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_22" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_23" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_05.xml" attachpoint="pumpkin_24" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_25" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_26" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_27" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_28" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_29" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_30" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_31" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_32" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_33" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_34" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_35" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_36" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_37" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_38" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_39" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_04.xml" attachpoint="pumpkin_40" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_01.xml" attachpoint="pumpkin_41" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_06.xml" attachpoint="pumpkin_42" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_01.xml" attachpoint="pumpkin_43" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_44" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_03.xml" attachpoint="pumpkin_45" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_06.xml" attachpoint="pumpkin_46" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_05.xml" attachpoint="pumpkin_47" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_02.xml" attachpoint="pumpkin_48" maxheight="20" minheight="-20"/>
+        <prop actor="structures/pumpkin_clump_center_04.xml" attachpoint="pumpkin_49" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/special/eyecandy/basket_pumpkins.xml" attachpoint="basket_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/field_medit_5x5.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="null_white.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

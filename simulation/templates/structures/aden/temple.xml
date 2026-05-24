@@ -9,10 +9,10 @@
   </Health>
   <Identity>
     <Civ>aden</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="12.5" depth="12.5"/>
+    <Static width="25.0" depth="25.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/adena/temple.xml</Actor>

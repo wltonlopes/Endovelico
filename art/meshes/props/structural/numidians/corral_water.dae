@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.9 LTS commit date:2026-04-20, commit time:14:24, hash:8bf95cbd38d1</authoring_tool>
+    </contributor>
+    <created>2026-05-14T05:58:10</created>
+    <modified>2026-05-14T05:58:10</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Numi_Corral_Water-mesh" name="Numi Corral Water">
+      <mesh>
+        <source id="Numi_Corral_Water-mesh-positions">
+          <float_array id="Numi_Corral_Water-mesh-positions-array" count="27">2.356646 1.163943 2.0467 3.190831 1.164268 2.019375 1.522461 1.163618 2.025574 2.335252 -0.07849574 2.031489 2.313858 -1.320935 2.057864 1.522945 -0.07881188 2.025574 3.147559 -0.07817965 2.030539 3.104287 -1.320627 2.041703 1.523428 -1.321242 2.025574</float_array>
+          <technique_common>
+            <accessor source="#Numi_Corral_Water-mesh-positions-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Numi_Corral_Water-mesh-normals">
+          <float_array id="Numi_Corral_Water-mesh-normals-array" count="27">-0.003018021 0.00447154 0.9999855 -0.0186659 -0.007453143 0.999798 -0.01333749 0.006819546 0.9998878 -0.004302561 0.0142883 0.9998887 -0.04081726 -1.58734e-5 0.9991667 0.01336425 0.01649528 0.9997747 0.007219493 0.001955211 0.9999721 -0.001830816 -0.005610883 0.9999826 0.03273469 0.007840275 0.9994334</float_array>
+          <technique_common>
+            <accessor source="#Numi_Corral_Water-mesh-normals-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Numi_Corral_Water-mesh-map-0">
+          <float_array id="Numi_Corral_Water-mesh-map-0-array" count="48">0.9941405 0.07833206 0.9644027 0.02085381 0.9937366 0.02058523 0.9625681 0.07806348 0.9937366 0.02058523 0.9621643 0.0203166 0.9629721 0.1358104 0.9941405 0.07833206 0.9625681 0.07806348 0.9945443 0.136079 0.9648066 0.07860064 0.9941405 0.07833206 0.9941405 0.07833206 0.9648066 0.07860064 0.9644027 0.02085381 0.9625681 0.07806348 0.9941405 0.07833206 0.9937366 0.02058523 0.9629721 0.1358104 0.9945443 0.136079 0.9941405 0.07833206 0.9945443 0.136079 0.9652104 0.1363476 0.9648066 0.07860064</float_array>
+          <technique_common>
+            <accessor source="#Numi_Corral_Water-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Numi_Corral_Water-mesh-map-1">
+          <float_array id="Numi_Corral_Water-mesh-map-1-array" count="48">0.3531656 0.6656657 0.3343343 0.626001 0.3343343 0.6656657 0.4156656 0.6656657 0.3968343 0.626001 0.3968343 0.6656657 0.3948323 0.6656657 0.376001 0.626001 0.376001 0.6656657 0.4573323 0.5406657 0.438501 0.501001 0.438501 0.5406657 0.3531656 0.6656657 0.3531656 0.626001 0.3343343 0.626001 0.4156656 0.6656657 0.4156656 0.626001 0.3968343 0.626001 0.3948323 0.6656657 0.3948323 0.626001 0.376001 0.626001 0.4573323 0.5406657 0.4573323 0.501001 0.438501 0.501001</float_array>
+          <technique_common>
+            <accessor source="#Numi_Corral_Water-mesh-map-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Numi_Corral_Water-mesh-vertices">
+          <input semantic="POSITION" source="#Numi_Corral_Water-mesh-positions"/>
+        </vertices>
+        <triangles count="8">
+          <input semantic="VERTEX" source="#Numi_Corral_Water-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Numi_Corral_Water-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Numi_Corral_Water-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Numi_Corral_Water-mesh-map-1" offset="2" set="1"/>
+          <p>3 0 0 2 1 1 5 2 2 4 3 3 5 2 4 8 4 5 7 5 6 3 0 7 4 3 8 6 6 9 0 7 10 3 0 11 3 0 12 0 7 13 2 1 14 4 3 15 3 0 16 5 2 17 7 5 18 6 6 19 3 0 20 6 6 21 1 8 22 0 7 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="numi_corral_water" name="numi_corral_water" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Numi_Corral_Water-mesh" name="numi_corral_water"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
   <Footprint>
-    <Square width="37" depth="6"/>
+    <Square width="44.0" depth="8.0"/>
     <Height>12.6</Height>
   </Footprint>
   <Identity>
@@ -9,7 +9,7 @@
     <SpecificName>Kaki</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="36" depth="5"/>
+    <Static width="43.5" depth="7.5"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>13.6</HeightOffset>
@@ -18,47 +18,50 @@
     <TurretPoints>
       <One>
         <X>1.5</X>
-        <Y>7</Y>
+        <Y>12.0</Y>
         <Z>0</Z>
       </One>
       <Two>
         <X>-1.5</X>
-        <Y>7</Y>
+        <Y>12.0</Y>
         <Z>0</Z>
       </Two>
       <Three>
         <X>4.5</X>
-        <Y>7</Y>
+        <Y>12.0</Y>
         <Z>0</Z>
       </Three>
       <Four>
         <X>-4.5</X>
-        <Y>7</Y>
+        <Y>12.0</Y>
         <Z>0</Z>
       </Four>
       <Five>
         <X>7.5</X>
-        <Y>7</Y>
+        <Y>12.0</Y>
         <Z>0</Z>
       </Five>
       <Six>
         <X>-7.5</X>
-        <Y>7</Y>
+        <Y>12.0</Y>
         <Z>0</Z>
       </Six>
       <Seven>
         <X>10.5</X>
-        <Y>7</Y>
+        <Y>12.0</Y>
         <Z>0</Z>
       </Seven>
       <Eight>
         <X>-10.5</X>
-        <Y>7</Y>
+        <Y>12.0</Y>
         <Z>0</Z>
       </Eight>
     </TurretPoints>
   </TurretHolder>
+  <WallPiece>
+    <Length>38.0</Length>
+  </WallPiece>
   <VisualActor>
-    <Actor>structures/paiute/wall_long.xml</Actor>
+    <Actor>structures/paiutes/wall_long.xml</Actor>
   </VisualActor>
 </Entity>

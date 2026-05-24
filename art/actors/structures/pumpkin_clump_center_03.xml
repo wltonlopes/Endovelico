@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="5" name="Pumpkin Clump Center 03">
+      <mesh>gaia/pumpkin.dae</mesh>
+      <textures>
+        <texture file="gaia/pumpkin.png" name="baseTex"/>
+        <texture file="gaia/pumpkin_norm.png" name="normTex"/>
+        <texture file="gaia/pumpkin_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="15" name="Pumpkin Center 03-01">
+      <props>
+        <prop actor="structures/field_pumpkin_center_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="15" name="Pumpkin Center 03-02">
+      <props>
+        <prop actor="structures/field_pumpkin_center_02.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="20" name="Pumpkin Center 03-03">
+      <props>
+        <prop actor="structures/field_pumpkin_center_03.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="5" name="Pumpkin Center 03-04">
+      <props>
+        <prop actor="structures/field_pumpkin_center_04.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="5" name="Pumpkin Center 03-05">
+      <props>
+        <prop actor="structures/field_pumpkin_center_05.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="4" name="Pumpkin Center 03-06">
+      <props>
+        <prop actor="structures/field_pumpkin_center_06.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

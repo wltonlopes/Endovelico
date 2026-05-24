@@ -2,11 +2,14 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>bactr</Civ>
-	<Lang>greek</Lang>
+    <Lang>greek</Lang>
     <GenericName>Thespian Black Cloak</GenericName>
     <SpecificName>Melanochitones</SpecificName>
     <Requirements>
-      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
     </Requirements>
     <Icon>units/theb/champion_infantry_swordsman.png</Icon>
   </Identity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Footprint>
-    <Square width="26" depth="20"/>
+    <Square width="32.0" depth="32.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -12,10 +12,10 @@
     <SpecificName>Miya</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24" depth="18"/>
+    <Static width="31.5" depth="31.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/paiute/temple.xml</Actor>
-    <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
+    <Actor>structures/paiutes/temple.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -12,6 +12,6 @@
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/paiute/scout_tower.xml</Actor>
+    <Actor>structures/paiutes/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

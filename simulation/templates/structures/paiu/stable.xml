@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="war_hut|template_structure_military_stable">
   <Footprint>
-    <Square width="18" depth="14"/>
+    <Square width="26.0" depth="26.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Identity>
@@ -9,7 +9,7 @@
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static width="16" depth="12"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
@@ -17,6 +17,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/paiute/village.xml</Actor>
+    <Actor>structures/paiutes/village.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

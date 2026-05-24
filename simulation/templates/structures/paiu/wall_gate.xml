@@ -53,6 +53,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/paiute/wall_gate.xml</Actor>
+    <Actor>structures/paiutes/wall_gate.xml</Actor>
   </VisualActor>
 </Entity>

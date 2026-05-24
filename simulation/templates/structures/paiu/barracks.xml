@@ -31,7 +31,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/paiute/barracks.xml</Actor>
+    <Actor>structures/paiutes/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

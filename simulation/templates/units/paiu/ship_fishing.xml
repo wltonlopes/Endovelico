@@ -10,6 +10,6 @@
     <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/paiute/canoe.xml</Actor>
+    <Actor>structures/paiutes/canoe.xml</Actor>
   </VisualActor>
 </Entity>

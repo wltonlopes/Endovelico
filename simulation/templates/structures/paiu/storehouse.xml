@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_storehouse">
   <Footprint>
-    <Square width="19.0" depth="19.0"/>
+    <Square width="16.0" depth="16.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>paiu</Civ>  
+    <Civ>paiu</Civ>
     <SpecificName>Kura</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="17.0" depth="17.0"/>
+    <Static width="15.5" depth="15.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/paiute/storehouse.xml</Actor>
+    <Actor>structures/paiutes/storehouse.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

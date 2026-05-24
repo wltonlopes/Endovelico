@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Field Pumpkin">
+      <mesh>gaia/pumpkins_group_11.dae</mesh>
+      <textures>
+        <texture file="gaia/pumpkin.png" name="baseTex"/>
+        <texture file="gaia/pumpkin_norm.png" name="normTex"/>
+        <texture file="gaia/pumpkin_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

@@ -254,7 +254,7 @@ Numic-speaking peoples of the Great Basin (Nevada/Utah/California). Semi-nomadic
 - -siege_pack_unpack
 - archer_attack_spread
 - fishing_culture
-- paiute/wikiup
+- paiu/wikiup
 - siege_attack
 - siege_cost_time
 - siege_health

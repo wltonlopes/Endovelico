@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="5" name="Pumpkin Clump 11">
+      <mesh>gaia/pumpkin.dae</mesh>
+      <textures>
+        <texture file="gaia/pumpkin.png" name="baseTex"/>
+        <texture file="gaia/pumpkin_norm.png" name="normTex"/>
+        <texture file="gaia/pumpkin_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="15" name="Pumpkin 11-01">
+      <props>
+        <prop actor="structures/field_pumpkin_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="15" name="Pumpkin 11-02">
+      <props>
+        <prop actor="structures/field_pumpkin_02.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="20" name="Pumpkin 11-03">
+      <props>
+        <prop actor="structures/field_pumpkin_03.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="5" name="Pumpkin 11-04">
+      <props>
+        <prop actor="structures/field_pumpkin_04.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="5" name="Pumpkin 11-05">
+      <props>
+        <prop actor="structures/field_pumpkin_05.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="4" name="Pumpkin 11-06">
+      <props>
+        <prop actor="structures/field_pumpkin_06.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="20" name="Pumpkin 11-07">
+      <props>
+        <prop actor="structures/field_pumpkin_07.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="15" name="Pumpkin 11-08">
+      <props>
+        <prop actor="structures/field_pumpkin_08.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="5" name="Pumpkin 11-09">
+      <props>
+        <prop actor="structures/field_pumpkin_09.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="10" name="Pumpkin 11-10">
+      <props>
+        <prop actor="structures/field_pumpkin_10.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="15" name="Pumpkin 11-11">
+      <props>
+        <prop actor="structures/field_pumpkin_11.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="12" name="Pumpkin 11-12">
+      <props>
+        <prop actor="structures/field_pumpkin_12.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

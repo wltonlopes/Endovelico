@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Illyrian Farmstead">
       <mesh>structural/illyrians/farmstead.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
         <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="05"/>
         <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="02"/>
         <prop actor="props/special/eyecandy/hay_cart.xml" attachpoint="01"/>
