@@ -25,14 +25,7 @@ Ancient Javanese realm referenced in Ramayana (c. 500 BC). Indian texts praised 
 
 ### Agrós
 
-### Apothḗkē
-
-### Asklēpieîon
-**Nome genérico:** Temple
-**Descrição:** Train Healers and research healing technologies.
-**Classes:** Temple, Town
-
-### Barracks
+### Balai Yudha
 **Nome genérico:** Barracks
 **Descrição:** Train Infantry and research Infantry technologies.
 **Classes:** Barracks, Village
@@ -42,7 +35,15 @@ Ancient Javanese realm referenced in Ramayana (c. 500 BC). Indian texts praised 
 - cavalry_javelinist_b
 - **Garamantian Hoplite**
 
-### Civic Center
+### Candi
+**Nome genérico:** Temple
+**Descrição:** Train Healers and research healing technologies.
+**Classes:** Temple, Town
+
+### Corral
+**Nome genérico:** Corral
+
+### Kadatwan
 **Nome genérico:** Civic Center
 **Descrição:** Build in own or neutral territory. Acquire large tracts of territory. Territory root. Train Citizens and research technologies. Garrison Soldiers for additional arrows.
 **Classes:** CivCentre, CivilCentre, Defensive
@@ -53,29 +54,18 @@ Ancient Javanese realm referenced in Ramayana (c. 500 BC). Indian texts praised 
 - **Dacian Cavalry Skirmisher**
 - **Xiongnu Spearman**
 
-### Corral
-**Nome genérico:** Corral
-
-### Empórios
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
-
 ### Khalkeṓn
 
-### Limḗn
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
+### Lumbung
 
 ### Outpost
 **Nome genérico:** Outpost
 **Descrição:** Build in own or neutral territory.
 **Classes:** Outpost
 
-### Oîkos
-**Nome genérico:** House
-**Classes:** House, Village
+### Pakan
+
+### Pelabuhan
 
 ### Pr-ỉwn n ms
 **Nome genérico:** Arsenal
@@ -86,10 +76,9 @@ Ancient Javanese realm referenced in Ramayana (c. 500 BC). Indian texts praised 
 
 ### Pýlai
 
-### Sitobólion
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
+### Wanua
+**Nome genérico:** House
+**Classes:** House, Village
 
 ### yawa/fortress
 **Descrição:** Train Champions and Heroes. Garrison soldiers inside for stout defense.
@@ -102,6 +91,8 @@ Ancient Javanese realm referenced in Ramayana (c. 500 BC). Indian texts praised 
 ### yawa/sentry_tower
 
 ### yawa/stable
+
+### yawa/storehouse
 
 ### yawa/wall_long
 

@@ -82,11 +82,6 @@ The Xiongnu were formidable warriors whose most fearsome weapon was the double-c
 
 - ship_fire
 
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this Storehouse across the map.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Market Depot
 **Nome genérico:** Market Depot
 
@@ -110,6 +105,9 @@ The Xiongnu were formidable warriors whose most fearsome weapon was the double-c
 
 ### Yurt
 **Classes:** House, Village, Yurt
+
+### xion/farmstead
+**Descrição:** Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this Storehouse across the map.
 
 ### xion/forge
 **Classes:** SiegeWorkshop

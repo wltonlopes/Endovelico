@@ -81,24 +81,9 @@ This was an ancient Greco-Scythian state located on the Crimean Peninsula and th
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -119,11 +104,17 @@ This was an ancient Greco-Scythian state located on the Crimean Peninsula and th
 
 ### bosp/defense_tower
 
+### bosp/dock
+
+### bosp/farmstead
+
 ### bosp/field
 
 ### bosp/forge
 
 ### bosp/fortress
+
+### bosp/market
 
 ### bosp/sentry_tower
 

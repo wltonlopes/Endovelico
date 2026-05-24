@@ -75,16 +75,10 @@ The Anuradhapura kingdom named for its capital city, was the second established 
 **Nome genérico:** Corral
 
 ### Empórios
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Khalkeṓn
 
 ### Limḗn
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Lovamahapaya
 **Nome genérico:** Palace
@@ -115,9 +109,6 @@ The Anuradhapura kingdom named for its capital city, was the second established 
 ### Pýlai
 
 ### Sitobólion
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Stable
 **Nome genérico:** Stable

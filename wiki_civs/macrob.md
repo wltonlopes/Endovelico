@@ -1,4 +1,4 @@
-# Macrobians
+# Aromata city-states
 
 ## História
 
@@ -57,9 +57,6 @@ Legendary Horn of Africa kingdom (Somalia/Ethiopia). Herodotus described their l
 - **Bison Warrior**
 
 ### Igbelera
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Ikusa nö Nipa
 **Nome genérico:** Range
@@ -116,14 +113,8 @@ Legendary Horn of Africa kingdom (Somalia/Ethiopia). Herodotus described their l
 - **Yamatötakëru**
 
 ### Oja
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Oko Oko
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Okuta Odi
 
@@ -204,6 +195,14 @@ Legendary Horn of Africa kingdom (Somalia/Ethiopia). Herodotus described their l
 
 ### iry-rdwy Nhsyw
 **Nome genérico:** Nubian Spearman
+
+### macrob/ship_arrow
+
+### macrob/ship_fishing
+
+### macrob/ship_merchant
+
+### macrob/ship_scout
 
 ### nhw Bulahau gml
 **Nome genérico:** Desert Raider

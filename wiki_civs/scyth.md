@@ -57,9 +57,6 @@ The Scythians are a nomadic faction which can build its buildings anywhere on th
 ### Cosmic Horse
 
 ### Counos
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 #### Unidades treináveis
 
@@ -70,15 +67,8 @@ The Scythians are a nomadic faction which can build its buildings anywhere on th
 **Descrição:** Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this Storehouse across the map.
 **Classes:** DropsiteFood, Farmstead, Storehouse, Village
 
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this Storehouse across the map.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Market Depot
 **Nome genérico:** Market Depot
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Ovoo
 **Descrição:** Generate free Stone resource and boost nearby Healers.
@@ -143,6 +133,9 @@ The Scythians are a nomadic faction which can build its buildings anywhere on th
 **Classes:** House, Village, Yurt
 
 ### scyth/defense_tower
+
+### scyth/farmstead
+**Descrição:** Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this Storehouse across the map.
 
 ### scyth/forge
 **Classes:** SiegeWorkshop

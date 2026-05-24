@@ -47,7 +47,7 @@ The Khoikhoi are indigenous peoples of Southern Africa, known for their unique c
 - **White Shield Phalangite**
 - **Xiongnu Archer**
 - **Slinger**
-- **Gajendra**
+- **Eléphantos**
 
 ### Ayederu
 
@@ -58,12 +58,9 @@ The Khoikhoi are indigenous peoples of Southern Africa, known for their unique c
 
 #### Unidades treináveis
 
-- **Gajendra**
+- **Eléphantos**
 
 ### Igbelera
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Ikusa nö Nipa
 **Nome genérico:** Range
@@ -112,14 +109,8 @@ The Khoikhoi are indigenous peoples of Southern Africa, known for their unique c
 ### Odi
 
 ### Oja
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Oko Oko
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Okuta Odi
 

@@ -15,23 +15,13 @@ Dalmatia is a historical region located in modern-day Croatia and Montenegro, on
 ## Nomes da IA
 
 - Bato
-- Beusantis
-- Beusas
-- Buzetius
-- Carvus
-- Dasas
-- Laedicalius
-- Liccaius
-- Plator
-- Sarnus
-- Scenobarbus
-- Sinus
-- Temans
-- Turus
-- Varro
-- Vepus
+- Bato the Breucian
+- Bato the Daesitiate
+- Bircenna
+- Etuta
+- Pinnes
+- Testimos
 - Verzo
-- laidus
 
 ## Estruturas
 
@@ -58,24 +48,9 @@ Dalmatia is a historical region located in modern-day Croatia and Montenegro, on
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -96,11 +71,17 @@ Dalmatia is a historical region located in modern-day Croatia and Montenegro, on
 
 ### dalm/defense_tower
 
+### dalm/dock
+
+### dalm/farmstead
+
 ### dalm/field
 
 ### dalm/forge
 
 ### dalm/fortress
+
+### dalm/market
 
 ### dalm/sentry_tower
 

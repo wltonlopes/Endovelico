@@ -15,17 +15,20 @@ The Dacians were an indigenous but Indo-European-speaking people who lived in th
 ## Nomes da IA
 
 - Burebista
-- Commius
-- Comoiscus
 - Comosicus
-- Coson
 - Cotiso
-- Deceneus
-- Guiltdacus
+- Decebalus
+- Diegis
+- Diurpaneus
+- Duras
+- Koson
+- Meda
 - Oroles
-- Rhemaxos
+- Pieporus
 - Rubobostes
+- Scorilo
 - Thiamarkos
+- Vezina
 
 ## Estruturas
 
@@ -52,29 +55,24 @@ The Dacians were an indigenous but Indo-European-speaking people who lived in th
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
 **Descrição:** Build in own or neutral territory.
 **Classes:** Outpost
+
+### Range
+**Nome genérico:** Range
+**Descrição:** Train Ranged Infantry and research technologies.
+**Classes:** Range, Village
+
+### Stable
+**Nome genérico:** Stable
+**Descrição:** .
+**Classes:** Stable, Village
 
 ### Temple
 **Nome genérico:** Temple
@@ -85,11 +83,17 @@ The Dacians were an indigenous but Indo-European-speaking people who lived in th
 
 ### daci/defense_tower
 
+### daci/dock
+
+### daci/farmstead
+
 ### daci/field
 
 ### daci/forge
 
 ### daci/fortress
+
+### daci/market
 
 ### daci/sentry_tower
 
@@ -104,9 +108,10 @@ The Dacians were an indigenous but Indo-European-speaking people who lived in th
 ### daci/wall_short
 
 ### daci/wall_tower
-**Descrição:** Does not shoot or garrison.
 
 ### daci/wallset_stone
+
+### daci/wonder
 
 
 ## Unidades

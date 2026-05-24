@@ -56,22 +56,9 @@ The Lenca people are an indigenous group residing in southwest Honduras and east
 - **Xiongnu Archer**
 - **cavalry_archer_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Ipe
 
 ### Iti
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### K'inob
 **Nome genérico:** observatory
@@ -130,6 +117,10 @@ The Lenca people are an indigenous group residing in southwest Honduras and east
 - fauna_cattle_cow_trainable
 
 ### lenc/defense_tower
+
+### lenc/dock
+
+### lenc/farmstead
 
 ### lenc/sentry_tower
 

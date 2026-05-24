@@ -49,9 +49,9 @@ The Moches or Mochicas (150 BCE-800 CE) were a powerful culture that succeeded t
 - **Peltastḗs**
 - **Hisatsinom Scout**
 - **Levy Clubman**
-- **King-High Priest Lukurmata**
-- **King-High Priest Tiwanaku**
-- **King-High Priest Pajchiri**
+- **High Priest Lord**
+- **Great Commander Lord**
+- **King-High Priest**
 
 ### Corral
 **Nome genérico:** Corral
@@ -65,16 +65,10 @@ The Moches or Mochicas (150 BCE-800 CE) were a powerful culture that succeeded t
 - fauna_cattle_cow_trainable
 
 ### Empórios
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Khalkeṓn
 
 ### Limḗn
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -91,9 +85,9 @@ The Moches or Mochicas (150 BCE-800 CE) were a powerful culture that succeeded t
 
 #### Unidades treináveis
 
-- **King-High Priest Lukurmata**
-- **King-High Priest Tiwanaku**
-- **King-High Priest Pajchiri**
+- **High Priest Lord**
+- **Great Commander Lord**
+- **King-High Priest**
 
 ### Pr-ỉwn n ms
 **Nome genérico:** Arsenal
@@ -114,9 +108,6 @@ The Moches or Mochicas (150 BCE-800 CE) were a powerful culture that succeeded t
 - **Waqcha Runa**
 
 ### Sitobólion
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### War House
 **Nome genérico:** War House

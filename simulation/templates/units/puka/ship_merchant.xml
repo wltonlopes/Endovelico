@@ -11,6 +11,6 @@
     <Icon>units/moch/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/mochicas/merchant_ship.xml</Actor>
+    <Actor>structures/pukara/ship_merchant.xml</Actor>
   </VisualActor>
 </Entity>

@@ -46,35 +46,23 @@ Epirus was an ancient Greek kingdom, and later republic, located in the geograph
 
 #### Unidades treináveis
 
-- **Agron I**
-- **hero_infantry_swordsman**
+- **Alexander I the Molossian**
+- **Alexander II of Epirus**
+- **Pyrrhus of Epirus**
 - **Xiongnu Spearman**
 - **Peltastḗs**
 - **cavalry_spearman_b**
-
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
 
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
-
 ### Outpost
 **Nome genérico:** Outpost
 **Descrição:** Build in own or neutral territory.
 **Classes:** Outpost
+
+### Palace
 
 ### Stable
 **Nome genérico:** Stable
@@ -86,15 +74,26 @@ Epirus was an ancient Greek kingdom, and later republic, located in the geograph
 **Descrição:** Train Healers and research healing technologies.
 **Classes:** Temple, Town
 
+### Theatron
+**Classes:** CivSpecific
+
 ### epir/corral
 
 ### epir/defense_tower
+
+### epir/dock
+
+### epir/elephant_stable
+
+### epir/farmstead
 
 ### epir/field
 
 ### epir/forge
 
 ### epir/fortress
+
+### epir/market
 
 ### epir/sentry_tower
 
@@ -111,6 +110,9 @@ Epirus was an ancient Greek kingdom, and later republic, located in the geograph
 ### epir/wall_tower
 **Descrição:** Does not shoot or garrison.
 
+### epir/wall_tower copy
+**Descrição:** Does not shoot or garrison.
+
 ### epir/wallset_stone
 
 ### epir/wonder
@@ -122,16 +124,6 @@ Epirus was an ancient Greek kingdom, and later republic, located in the geograph
 
 **Auras:**
 - units/heroes/epir_hero_alexander_I
-
-### Alexander I the Molossian
-
-**Auras:**
-- units/heroes/epir_hero_alexander_I
-
-### Alexander II of Epirus
-
-**Auras:**
-- units/heroes/epir_hero_alexander_II
 
 ### Alexander II of Epirus
 
@@ -188,11 +180,6 @@ Epirus was an ancient Greek kingdom, and later republic, located in the geograph
 **Auras:**
 - units/catafalques/athen_catafalque_1
 - units/catafalques/athen_catafalque_2
-
-### Pyrrhus of Epirus
-
-**Auras:**
-- units/heroes/epir_hero_pyrrhos
 
 ### Pyrrhus of Epirus
 

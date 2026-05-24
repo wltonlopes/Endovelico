@@ -14,17 +14,11 @@ Early Colombian highland societies (500 BC–200 AD) in Altiplano Cundiboyacense
 
 ## Nomes da IA
 
-- Annei
-- Itoku
-- Jimmu
-- Kaika
-- Koan
-- Kogen
-- Korei
-- Kosho
-- Suijin
-- Suinin
-- Suizei
+- Bachué
+- Hunzahúa
+- Idacansás
+- Meicuchuca
+- Tisquesusa
 
 ## Estruturas
 
@@ -54,18 +48,10 @@ Early Colombian highland societies (500 BC–200 AD) in Altiplano Cundiboyacense
 - **Yamatötakëru**
 
 ### Kömëgura
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Large Pyramid
 **Nome genérico:** Large Pyramid
 **Classes:** -ConquestCritical, City, CivSpecific, Pyramid
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Mipari
 **Nome genérico:** Outpost
@@ -126,9 +112,6 @@ Early Colombian highland societies (500 BC–200 AD) in Altiplano Cundiboyacense
 - **siege_ram**
 
 ### Tu
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Wori
 
@@ -150,6 +133,8 @@ Early Colombian highland societies (500 BC–200 AD) in Altiplano Cundiboyacense
 ### Yōng
 
 ### chibc/house
+
+### chibc/market
 
 ### chibc/sentry_tower
 
@@ -198,6 +183,9 @@ Early Colombian highland societies (500 BC–200 AD) in Altiplano Cundiboyacense
 **Auras:**
 - units/carnyx
 
+### Chief
+**Nome genérico:** Chief
+
 ### Experienced Warrior
 **Nome genérico:** Experienced Warrior
 **Classes:** -Cavalry, Citizen, CitizenSoldier, FastMoving, Human, Soldier
@@ -207,17 +195,12 @@ Early Colombian highland societies (500 BC–200 AD) in Altiplano Cundiboyacense
 
 ### Great Chief
 **Nome genérico:** Great Chief
-**Classes:** Guerilla
 
 ### Villager
 **Nome genérico:** Villager
 
 ### Villager
 **Nome genérico:** Villager
-
-### Warrior Chief
-**Nome genérico:** Warrior Chief
-**Classes:** Guerilla
 
 ### Warrior Chief
 **Nome genérico:** Warrior Chief

@@ -59,11 +59,6 @@ Indigenous hunter-gatherers of Central Africa's rainforests (modern Rwanda/Ugand
 - **Aretas I**
 - **Obodas I**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
 ### Hunters Treehouse
 **Nome genérico:** Hunters Treehouse
 **Descrição:** Here you can train experienced and fast units of specialized hunters.
@@ -99,14 +94,8 @@ Indigenous hunter-gatherers of Central Africa's rainforests (modern Rwanda/Ugand
 ### Odi
 
 ### Oja
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Oko Oko
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Okuta Odi
 
@@ -132,6 +121,8 @@ Indigenous hunter-gatherers of Central Africa's rainforests (modern Rwanda/Ugand
 ### Yōng
 
 ### batw/defense_tower
+
+### batw/dock
 
 ### batw/field
 

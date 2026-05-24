@@ -1,4 +1,4 @@
-# Mapuches
+# Proto-Mapuche
 
 ## História
 
@@ -48,9 +48,6 @@ Autonomous groups in south-central Chile/southwest Argentina. Developed resilien
 ### Ipe
 
 ### Iti
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Ituki nö Miya
 
@@ -77,9 +74,6 @@ Autonomous groups in south-central Chile/southwest Argentina. Developed resilien
 - **Champion Axeman**
 
 ### Kömëgura
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Lepun
 
@@ -120,9 +114,6 @@ Autonomous groups in south-central Chile/southwest Argentina. Developed resilien
 - **siege_ram**
 
 ### Tu
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Wori
 
@@ -167,6 +158,12 @@ Autonomous groups in south-central Chile/southwest Argentina. Developed resilien
 ### Experienced spearman
 **Nome genérico:** Experienced spearman
 **Classes:** -Cavalry, Citizen, CitizenSoldier, FastMoving, Human, Soldier
+
+### Great Toqui
+**Nome genérico:** Great Toqui
+
+### Great Ulmen
+**Nome genérico:** Great Ulmen
 
 ### High Priest
 **Nome genérico:** High Priest
@@ -236,27 +233,18 @@ Autonomous groups in south-central Chile/southwest Argentina. Developed resilien
 **Categoria:** Siege
 **Classes:** BoltShooter, Ranged, Siege
 
-### Ulmenes
-**Nome genérico:** Nble Man
-**Classes:** Guerilla
-
 ### Villager
 **Nome genérico:** Villager
 
 ### Villager
 **Nome genérico:** Villager
+
+### War Ulmen
+**Nome genérico:** War Ulmen
 
 ### Ygara
 
-### lonko
-**Nome genérico:** Tribal Chief
-**Classes:** Guerilla
-
 ### mapu/support_trader
-
-### toqui
-**Nome genérico:** War Chief
-**Classes:** Guerilla
 
 ### ygaraapé
 **Nome genérico:** Trading Boat

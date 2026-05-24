@@ -52,11 +52,6 @@ The Yuezhi were an ancient people first described in Chinese histories as nomadi
 
 - ship_fire
 
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this Storehouse across the map.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Market Depot
 **Nome genérico:** Market Depot
 
@@ -80,6 +75,9 @@ The Yuezhi were an ancient people first described in Chinese histories as nomadi
 
 ### Yurt
 **Classes:** House, Village, Yurt
+
+### yuez/farmstead
+**Descrição:** Dropsite for all resources. Train Slaves. Upgrade to a Resource Wagon to move this Storehouse across the map.
 
 ### yuez/forge
 **Classes:** SiegeWorkshop

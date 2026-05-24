@@ -19,17 +19,9 @@ Indigenous hunter-gatherers of South America Pampas grasslands. Mobile bands uti
 
 ## Estruturas
 
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Ipe
 
 ### Iti
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Ituki nö Miya
 
@@ -106,9 +98,6 @@ Indigenous hunter-gatherers of South America Pampas grasslands. Mobile bands uti
 - **siege_ram**
 
 ### Tu
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Wori
 
@@ -127,6 +116,8 @@ Indigenous hunter-gatherers of South America Pampas grasslands. Mobile bands uti
 **Descrição:** Structure needs Semi-Nomad Lifestyle technology.
 
 ### Yagura
+
+### pamp/farmstead
 
 ### pamp/forge
 

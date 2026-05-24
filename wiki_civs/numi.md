@@ -49,9 +49,6 @@ the Numidians were a North African people known for their skilled cavalry and al
 ### Ipe
 
 ### Iti
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Ituki nö Miya
 
@@ -70,9 +67,6 @@ the Numidians were a North African people known for their skilled cavalry and al
 ### Kï
 
 ### Kömëgura
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Mausoleum
 **Nome genérico:** Mausoleum
@@ -138,9 +132,6 @@ the Numidians were a North African people known for their skilled cavalry and al
 **Classes:** Stable, Village
 
 ### Tu
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Wori
 

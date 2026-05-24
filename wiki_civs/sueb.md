@@ -53,9 +53,6 @@ The Suebi (or Suebians, also spelled Suevi, Suavi) were a large group of Germani
 - infantry_clubman
 
 ### Habanō
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Hailagastadiz
 **Nome genérico:** Temple
@@ -65,14 +62,8 @@ The Suebi (or Suebians, also spelled Suevi, Suavi) were a large group of Germani
 ### Hūsą
 
 ### Kaupôsbōþlą
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Kurnahūsą
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Skattasfriþuz
 

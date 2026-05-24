@@ -44,7 +44,7 @@ The Urewe culture developed and spread in and around the Lake Victoria region of
 - **White Shield Phalangite**
 - **Xiongnu Archer**
 - **Slinger**
-- **Gajendra**
+- **Eléphantos**
 
 ### Ayederu
 
@@ -60,9 +60,6 @@ The Urewe culture developed and spread in and around the Lake Victoria region of
 - **Obodas I**
 
 ### Igbelera
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Ikusa nö Nipa
 **Nome genérico:** Range
@@ -111,14 +108,8 @@ The Urewe culture developed and spread in and around the Lake Victoria region of
 - **Yamatötakëru**
 
 ### Oja
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Oko Oko
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Okuta Odi
 

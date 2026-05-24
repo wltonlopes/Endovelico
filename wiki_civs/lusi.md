@@ -21,9 +21,6 @@ The Lusitanians were an Indo-European speaking people living in the west of the 
 ## Estruturas
 
 ### Arruga
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Arsenal
 **Nome genérico:** Arsenal
@@ -78,9 +75,6 @@ The Lusitanians were an Indo-European speaking people living in the west of the 
 ### Harotz
 
 ### Kai
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 #### Unidades treináveis
 
@@ -88,8 +82,6 @@ The Lusitanians were an Indo-European speaking people living in the west of the 
 - **Ploîon Phortēgikón**
 
 ### Kai
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
 **Classes:** Merc_Dock
 
 ### Olca
@@ -113,9 +105,6 @@ The Lusitanians were an Indo-European speaking people living in the west of the 
 - **Petanim Cori**
 
 ### Trebaharase
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Trebaovoviani
 

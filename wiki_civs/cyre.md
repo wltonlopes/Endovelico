@@ -53,16 +53,6 @@ Greek-founded colony in Libya (c. 631 BC). Thrived as a fertile agricultural hub
 - **Xiongnu Spearman**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Gymnasion
 **Nome genérico:** Gymnasium
 **Descrição:** Train Champions.
@@ -79,15 +69,15 @@ Greek-founded colony in Libya (c. 631 BC). Thrived as a fertile agricultural hub
 **Nome genérico:** House
 **Classes:** House, Village
 
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
-
 ### Outpost
 **Nome genérico:** Outpost
 **Descrição:** Build in own or neutral territory.
 **Classes:** Outpost
+
+### Range
+**Nome genérico:** Range
+**Descrição:** Train Ranged Infantry and research technologies.
+**Classes:** Range, Village
 
 ### Stable
 **Nome genérico:** Stable
@@ -106,11 +96,17 @@ Greek-founded colony in Libya (c. 631 BC). Thrived as a fertile agricultural hub
 
 ### cyre/defense_tower
 
+### cyre/dock
+
+### cyre/farmstead
+
 ### cyre/field
 
 ### cyre/forge
 
 ### cyre/fortress
+
+### cyre/market
 
 ### cyre/sentry_tower
 
@@ -137,72 +133,68 @@ Greek-founded colony in Libya (c. 631 BC). Thrived as a fertile agricultural hub
 ### Arcesilaus IV
 **Nome genérico:** Arcesilaus IV
 
-### Cyrenaic Settler
-**Nome genérico:** Cyrenaic Settler
+### Asbystae Chariot
+**Nome genérico:** Asbystae Chariot
+**Classes:** Chariot
 
-### Cyrenaic Settler
-**Nome genérico:** Cyrenaic Settler
+### Basilikoi Epilektoi Hoplítēs Kyrēnaïkoí
+**Nome genérico:** Royal Guard
+**Classes:** Hoplite
+
+### Cavalry Archer
 
 ### Cyrene Scout
 **Nome genérico:** Scout Cavalry
 **Categoria:** Cavalry
 **Classes:** Cavalry
 
-### Eléphantos
-**Nome genérico:** Towered War Elephant
+### Hiereús
+**Nome genérico:** Priest
 
-### Epilektos
-**Nome genérico:** Royal Guard
+### Hiereús
+**Nome genérico:** Priest
+
+### Hiereús
+**Nome genérico:** Priest
+
+### Hippeis Kyrenaikos
+**Nome genérico:** Cyrenaic Cavalry
+
+### Hippeis Kyrenaikos
+**Nome genérico:** Cyrenaic Cavalry
+
+### Hippeis Kyrenaikos
+**Nome genérico:** Cyrenaic Cavalry
+
+### Hippeus Peltastēs Kyrēnaïkoí
+**Nome genérico:** Cyrenaica Skirmish Cavalry
+
+### Hippeus Peltastēs Kyrēnaïkoí
+**Nome genérico:** Cyrenaica Skirmish Cavalry
+
+### Hippeus Peltastēs Kyrēnaïkoí
+**Nome genérico:** Cyrenaica Skirmish Cavalry
+
+### Hoplítēs Kyrēnaïkoí
+**Nome genérico:** Cyrenaic Hoplite
+
+### Hoplítēs Kyrēnaïkoí
+**Nome genérico:** Cyrenaic Hoplite
+
+### Hoplítēs Kyrēnaïkoí
+**Nome genérico:** Cyrenaic Hoplite
+
+### Kyrēnaïkoí
+**Nome genérico:** Cyrenaic Settler
+
+### Kyrēnaïkoí
+**Nome genérico:** Cyrenaic Settler
+
+### Kyrēnaïkoí Hiera Ile
+**Nome genérico:** Champions Infantry
 **Classes:** Hoplite
 
-### Hiereús
-**Nome genérico:** Priest
-
-### Hiereús
-**Nome genérico:** Priest
-
-### Hiereús
-**Nome genérico:** Priest
-
-### Hippeis Kyrenaikos
-**Nome genérico:** Cyrenaic Cavalry
-
-### Hippeis Kyrenaikos
-**Nome genérico:** Cyrenaic Cavalry
-
-### Hippeis Kyrenaikos
-**Nome genérico:** Cyrenaic Cavalry
-
-### Hoplī́tēs Kyrenaikos
-**Nome genérico:** Cyrenaic Hoplite
-
-### Hoplī́tēs Kyrenaikos
-**Nome genérico:** Cyrenaic Hoplite
-
-### Hoplī́tēs Kyrenaikos
-**Nome genérico:** Cyrenaic Hoplite
-
-### Libyan Mercenary Skirmisher
-**Nome genérico:** Libyan Mercenary Skirmisher
-
-### Libyan Mercenary Skirmisher
-**Nome genérico:** Libyan Mercenary Skirmisher
-
-### Libyan Mercenary Skirmisher
-**Nome genérico:** Libyan Mercenary Skirmisher
-
-### Lithobólos
-
-### Lithobólos
-
-### Lybian Skirmish Cavalry
-**Nome genérico:** Lybian Skirmish Cavalry
-
-### Lybian Skirmish Cavalry
-**Nome genérico:** Lybian Skirmish Cavalry
-
-### Lybian Skirmish Cavalry
-**Nome genérico:** Lybian Skirmish Cavalry
+### Kyrēnaïkoí Hiera Ile
 
 ### Magas of Cyrene
 **Nome genérico:** Magas of Cyrene
@@ -211,12 +203,21 @@ Greek-founded colony in Libya (c. 631 BC). Thrived as a fertile agricultural hub
 
 ### Oxybelḗs
 
+### Peltastēs Kyrēnaïkoí
+**Nome genérico:** Cyrene Peltast
+
+### Peltastēs Kyrēnaïkoí
+**Nome genérico:** Cyrene Peltast
+
+### Peltastēs Kyrēnaïkoí
+**Nome genérico:** Cyrene Peltast
+
 ### Pentēkónteros
 **Nome genérico:** Monoreme
 
 ### Ploîon Halieutikón
 
-### Ploîon Phortēgikón
+### Ploîon Ploîon Phortēgikón
 
 ### Queen Eryxo
 **Nome genérico:** Queen Eryxo

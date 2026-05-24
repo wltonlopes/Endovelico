@@ -6,6 +6,6 @@
     <Icon>units/moch/ship_canoe.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/mochicas/fishing_ship.xml</Actor>
+    <Actor>structures/pukara/ship_fishing.xml</Actor>
   </VisualActor>
 </Entity>

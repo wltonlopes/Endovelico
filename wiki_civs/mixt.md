@@ -30,18 +30,12 @@ The Mixtec civilization was an indigenous pre-Columbian civilization in Mesoamer
 **Nome genérico:** Ball Court
 
 ### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 #### Unidades treináveis
 
 - **Pentēkónteros**
 
 ### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Joonaj
 
@@ -56,9 +50,6 @@ The Mixtec civilization was an indigenous pre-Columbian civilization in Mesoamer
 - fauna_cattle_cow_trainable
 
 ### K’íiwik
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Lidxi
 

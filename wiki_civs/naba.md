@@ -6,18 +6,19 @@
 
 ## Bônus da Civilização
 
-- **CivBonuses.**: CivBonuses.
+- **Nomadic Culture**: Unknown.
+- **Rose Red City**: Nabataean buildings get +25% armor.
 
 ## Bônus de Equipe
 
-- **TeamBonuses.**: TeamBonuses.
+- **Crossroads of the World**: Better barter rates at the market for all team members.
 
 ## Nomes da IA
 
-- Aretas II (Nabateus Kingdom)
-- Máliku II (Nabateus Kingdom)
-- Obodas I (Nabateus Kingdom)
-- Obodas II (Nabateus Kingdom)
+- Aretas II
+- Máliku II
+- Obodas I
+- Obodas II
 
 ## Estruturas
 
@@ -44,16 +45,6 @@
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
@@ -64,11 +55,6 @@
 #### Unidades treináveis
 
 - **White Shield Phalangite**
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Oasis
 **Classes:** RotaryMill, Town
@@ -107,11 +93,17 @@
 
 ### naba/defense_tower
 
+### naba/dock
+
+### naba/farmstead
+
 ### naba/field
 
 ### naba/forge
 
 ### naba/fortress
+
+### naba/market
 
 ### naba/sentry_tower
 
@@ -138,9 +130,6 @@
 ### Aristocratics
 **Nome genérico:** Aristocratics
 
-### Ashwarohi
-**Nome genérico:** Himyar Light Cavalry
-
 ### Bindusara
 **Nome genérico:** Mauryan Catafalque
 
@@ -148,61 +137,63 @@
 - units/catafalques/maur_catafalque_1
 - units/catafalques/maur_catafalque_2
 
-### Camelry
-**Nome genérico:** Camelry
-
 ### Camelry Scout
 **Classes:** Camel
-
-### Cavalry Archer
 
 ### City Guardian Archer
 **Nome genérico:** City Guardian Archer
 
-### Dhanurdhar
-**Nome genérico:** Longbowman
+### Farasîn Bedawi
+**Nome genérico:** Bedouin Scouts
 
-### General Bodyguard
-**Nome genérico:** General Bodyguard
+### Farasîn Bedawi
+**Nome genérico:** Bedouin Scouts
+
+### Farasîn Bedawi
+**Nome genérico:** Bedouin Scouts
+
+### Farasîn Khabarîn
+**Nome genérico:** Nabataean Heavy Cavalry
+**Classes:** Mercenary
 
 ### Himyar Raiding Cavalry
 **Nome genérico:** Himyar Raiding Cavalry
 
-### Kauntika
-**Nome genérico:** Nabatean Spearman
+### Istratîn
+**Nome genérico:** Nabataean Levy Spearmen
 
-### Kauntika
-**Nome genérico:** Nabatean Spearman
+### Istratîn
+**Nome genérico:** Nabataean Levy Spearmen
 
-### Kauntika
-**Nome genérico:** Nabatean Spearman
+### Istratîn
+**Nome genérico:** Nabataean Levy Spearmen
 
-### Khadagdhari
-**Nome genérico:** Sabeo Swordsman
+### Muharûbîn Fleqā
+**Nome genérico:** Nabataean Axemen
 
-### Ma'in Axeman
-**Nome genérico:** Ma'in Axeman
+### Mutsābiq Gamal Nabatu
+**Nome genérico:** Nabataean Camel Archer
 
-### Naari
-**Nome genérico:** Himyar Villager
+### Naṭārîn haRābb
+**Nome genérico:** Nabataean Bodyguard Cavalry
 
-### Naari
-**Nome genérico:** Himyar Villager
+### Ni'šaia haNabatu
+**Nome genérico:** nabataeans Woman
 
-### Nabatean Swordsman
-**Nome genérico:** Nabatean Swordsman
+### Ni'šaia haNabatu
+**Nome genérico:** nabataeans Woman
 
-### Pezakontistès Aravikós
-**Nome genérico:** Arab Javelineer
+### Qestûnarîn
+**Nome genérico:** nabataeans Elite Infantry
 
-### Pezakontistès Aravikós
-**Nome genérico:** Arab Javelineer
+### Romakhaya
+**Nome genérico:** Nabataean Reformed Skirmishers
 
-### Pezakontistès Aravikós
-**Nome genérico:** Arab Javelineer
+### Romakhaya
+**Nome genérico:** Nabataean Reformed Skirmishers
 
-### Qahtaní Slinger
-**Nome genérico:** Qahtaní Slinger
+### Romakhaya
+**Nome genérico:** Nabataean Reformed Skirmishers
 
 ### Royal Guard Archer
 **Nome genérico:** Royal Guard Archer
@@ -223,6 +214,18 @@
 **Auras:**
 - units/heroes/kush_hero_amanirenas
 
+### Toxótēs Syrías
+**Nome genérico:** Syrian Archer
+**Classes:** Mercenary
+
+### Toxótēs Syrías
+**Nome genérico:** Syrian Archer
+**Classes:** Mercenary
+
+### Toxótēs Syrías
+**Nome genérico:** Syrian Archer
+**Classes:** Mercenary
+
 ### Vaishya
 
 ### Yazil Bayin
@@ -231,8 +234,6 @@
 **Auras:**
 - units/heroes/kush_hero_nastasen_1
 - units/heroes/kush_hero_nastasen_2
-
-### naba/camelry_spearman_b
 
 ### naba/ship_arrow
 

@@ -39,24 +39,9 @@ Gaetuli was the Romanised name of an ancient Berber tribe inhabiting Getulia. Th
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -82,11 +67,17 @@ Gaetuli was the Romanised name of an ancient Berber tribe inhabiting Getulia. Th
 
 ### gaet/defense_tower
 
+### gaet/dock
+
+### gaet/farmstead
+
 ### gaet/field
 
 ### gaet/forge
 
 ### gaet/fortress
+
+### gaet/market
 
 ### gaet/sentry_tower
 

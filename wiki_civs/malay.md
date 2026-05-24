@@ -53,16 +53,10 @@ Indianized kingdoms in Malay Peninsula/Sumatra. Engaged in maritime spice trade 
 **Nome genérico:** Corral
 
 ### Empórios
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Khalkeṓn
 
 ### Limḗn
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -83,9 +77,6 @@ Indianized kingdoms in Malay Peninsula/Sumatra. Engaged in maritime spice trade 
 ### Pýlai
 
 ### Sitobólion
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Stable
 **Nome genérico:** Stable

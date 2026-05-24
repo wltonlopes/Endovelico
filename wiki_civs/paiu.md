@@ -14,17 +14,16 @@ Numic-speaking peoples of the Great Basin (Nevada/Utah/California). Semi-nomadic
 
 ## Nomes da IA
 
-- Annei
-- Itoku
-- Jimmu
-- Kaika
-- Koan
-- Kogen
-- Korei
-- Kosho
-- Suijin
-- Suinin
-- Suizei
+- Kai'n avi
+- Nokwitsi
+- Numaga
+- Paguana
+- Pahavitsi
+- Tavibo
+- Togowini
+- Toi'tsina
+- Wünüka
+- Yantuví
 
 ## Estruturas
 
@@ -46,9 +45,6 @@ Numic-speaking peoples of the Great Basin (Nevada/Utah/California). Semi-nomadic
 ### Ipe
 
 ### Iti
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Ituki nö Miya
 
@@ -73,9 +69,6 @@ Numic-speaking peoples of the Great Basin (Nevada/Utah/California). Semi-nomadic
 - **Yamatötakëru**
 
 ### Kömëgura
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Mipari
 **Nome genérico:** Outpost
@@ -86,10 +79,6 @@ Numic-speaking peoples of the Great Basin (Nevada/Utah/California). Semi-nomadic
 **Nome genérico:** Temple
 **Descrição:** Train Healers and research healing technologies.
 **Classes:** Temple, Town
-
-#### Unidades treináveis
-
-- **Kanetuki**
 
 ### Nezirö
 **Nome genérico:** Civic Center
@@ -128,9 +117,6 @@ Numic-speaking peoples of the Great Basin (Nevada/Utah/California). Semi-nomadic
 - **siege_ram**
 
 ### Tu
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Wori
 
@@ -273,6 +259,5 @@ Numic-speaking peoples of the Great Basin (Nevada/Utah/California). Semi-nomadic
 - siege_cost_time
 - siege_health
 - south_america/peabiru
-- traditional_rituals
 - upgrade_rank_advanced_infantry_ranged
 - upgrade_rank_elite_infantry_ranged

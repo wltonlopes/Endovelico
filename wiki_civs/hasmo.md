@@ -57,25 +57,22 @@ The Hasmoneans were a Jewish priestly family who led the Maccabean Revolt agains
 - **Slinger**
 - **Dacian Cavalry Skirmisher**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
-
 ### Outpost
 **Nome genérico:** Outpost
 **Descrição:** Build in own or neutral territory.
 **Classes:** Outpost
+
+### Palace
+**Nome genérico:** Palace
+**Descrição:** Territory root. Train Maiden Guards and Heroes.
+**Classes:** CivSpecific, ConquestCritical, Palace
+
+#### Unidades treináveis
+
+- hero_jonh
+- **Judah Maccabbee**
+- **Salome Alexandra**
+- **Simon**
 
 ### Practice Range
 **Nome genérico:** Practice Range
@@ -100,6 +97,10 @@ The Hasmoneans were a Jewish priestly family who led the Maccabean Revolt agains
 
 ### hasmo/defense_tower
 
+### hasmo/dock
+
+### hasmo/farmstead
+
 ### hasmo/field
 
 ### hasmo/forge
@@ -118,6 +119,8 @@ The Hasmoneans were a Jewish priestly family who led the Maccabean Revolt agains
 ### hasmo/house
 
 ### hasmo/library
+
+### hasmo/market
 
 ### hasmo/sentry_tower
 

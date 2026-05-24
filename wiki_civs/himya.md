@@ -55,21 +55,6 @@ The Himyarites were a powerful kingdom in ancient Yemen, known for their advance
 - **Slinger**
 - **Dacian Cavalry Skirmisher**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
-
 ### Outpost
 **Nome genérico:** Outpost
 **Descrição:** Build in own or neutral territory.
@@ -133,6 +118,10 @@ The Himyarites were a powerful kingdom in ancient Yemen, known for their advance
 
 ### himya/defense_tower
 
+### himya/dock
+
+### himya/farmstead
+
 ### himya/field
 
 ### himya/forge
@@ -149,6 +138,8 @@ The Himyarites were a powerful kingdom in ancient Yemen, known for their advance
 - **John Hyrcanus**
 
 ### himya/house
+
+### himya/market
 
 ### himya/sentry_tower
 
@@ -173,12 +164,6 @@ The Himyarites were a powerful kingdom in ancient Yemen, known for their advance
 
 ### Aristocratics
 **Nome genérico:** Aristocratics
-
-### Ashwarohi
-**Nome genérico:** Himyar Light Cavalry
-
-### Ashwarohi
-**Nome genérico:** Himyar Light Cavalry
 
 ### Ashwarohi
 **Nome genérico:** Himyar Light Cavalry
@@ -218,12 +203,6 @@ The Himyarites were a powerful kingdom in ancient Yemen, known for their advance
 
 ### City Guardian Archer
 **Nome genérico:** City Guardian Archer
-
-### Dhanurdhar
-**Nome genérico:** Longbowman
-
-### Dhanurdhar
-**Nome genérico:** Longbowman
 
 ### Dhanurdhar
 **Nome genérico:** Longbowman
@@ -358,4 +337,4 @@ The Himyarites were a powerful kingdom in ancient Yemen, known for their advance
 
 ## Tecnologias
 
-*(Nenhuma tecnologia encontrada)*
+- himyar/caravans_of_incense

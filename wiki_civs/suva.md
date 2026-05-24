@@ -53,16 +53,10 @@ Suvarṇabhūmi is a toponym, that appears in many ancient Indian literary sourc
 **Nome genérico:** Corral
 
 ### Empórios
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Khalkeṓn
 
 ### Limḗn
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -83,9 +77,6 @@ Suvarṇabhūmi is a toponym, that appears in many ancient Indian literary sourc
 ### Pýlai
 
 ### Sitobólion
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Stable
 **Nome genérico:** Stable

@@ -2,7 +2,6 @@
 <Entity parent="workshop|template_structure_military_forge">
   <Identity>
     <Civ>puka</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/pukara/blacksmith.xml</Actor>

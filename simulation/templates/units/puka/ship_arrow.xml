@@ -11,6 +11,6 @@
     <Icon>units/moch/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/mochicas/bireme.xml</Actor>
+    <Actor>structures/pukara/ship_arrow.xml</Actor>
   </VisualActor>
 </Entity>

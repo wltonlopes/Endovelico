@@ -42,7 +42,7 @@ Bantu-speaking migrants to Zimbabwe plateau (c. 500 BC–900 AD). Early Iron Age
 - **White Shield Phalangite**
 - **Xiongnu Archer**
 - **Slinger**
-- **Gajendra**
+- **Eléphantos**
 
 ### Ayederu
 
@@ -53,12 +53,9 @@ Bantu-speaking migrants to Zimbabwe plateau (c. 500 BC–900 AD). Early Iron Age
 
 #### Unidades treináveis
 
-- **Gajendra**
+- **Eléphantos**
 
 ### Igbelera
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Ikusa nö Nipa
 **Nome genérico:** Range
@@ -107,14 +104,8 @@ Bantu-speaking migrants to Zimbabwe plateau (c. 500 BC–900 AD). Early Iron Age
 - **Yamatötakëru**
 
 ### Oja
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Oko Oko
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Okuta Odi
 

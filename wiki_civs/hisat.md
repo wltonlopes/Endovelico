@@ -58,25 +58,10 @@ Ancestral Puebloans (US Southwest, 500 BC–500 AD). Early Basketmaker II phase:
 - **Xiongnu Archer**
 - **cavalry_archer_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Kaki
 
 ### Kiva
 **Nome genérico:** War Hut
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -121,6 +106,10 @@ Ancestral Puebloans (US Southwest, 500 BC–500 AD). Early Basketmaker II phase:
 
 ### hisat/defense_tower
 
+### hisat/dock
+
+### hisat/farmstead
+
 ### hisat/field
 
 ### hisat/forge
@@ -128,6 +117,8 @@ Ancestral Puebloans (US Southwest, 500 BC–500 AD). Early Basketmaker II phase:
 ### hisat/fortress
 
 ### hisat/house
+
+### hisat/market
 
 ### hisat/sentry_tower
 

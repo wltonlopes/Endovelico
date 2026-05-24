@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="0" name="ship_fisher">
+      <mesh>structural/pukara/ship_fisher.dae</mesh>
+      <props>
+        <prop actor="units/pukara/fisherman.xml" attachpoint="01"/>
+      </props>
+      <textures>
+        <texture file="structural/puka/ship.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/> 
+      </textures>
+    </variant>
+  </group>
+  <!-- <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+      </props>
+    </variant>
+  </group> -->
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

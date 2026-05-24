@@ -68,24 +68,9 @@ Hellenistic state (250–130 BC) in Afghanistan/Central Asia. Founded by Diodotu
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -106,11 +91,17 @@ Hellenistic state (250–130 BC) in Afghanistan/Central Asia. Founded by Diodotu
 
 ### bactr/defense_tower
 
+### bactr/dock
+
+### bactr/farmstead
+
 ### bactr/field
 
 ### bactr/forge
 
 ### bactr/fortress
+
+### bactr/market
 
 ### bactr/sentry_tower
 
@@ -134,17 +125,18 @@ Hellenistic state (250–130 BC) in Afghanistan/Central Asia. Founded by Diodotu
 
 ## Unidades
 
-### Epameinondas
-**Nome genérico:** Epaminondas
+### Demetrius Aníkētos
+**Nome genérico:** Demetrius I the Undefeated
 
 **Auras:**
-- units/heroes/theb_hero_epaminondas
+- units/heroes/bact_hero_demetrius_i
 
-### Gorgidas
-**Nome genérico:** Gorgidas
+### Eukratides A' ho Baktria
+**Nome genérico:** Eucratides I of Bactria
 
 **Auras:**
-- units/heroes/theb_hero_gorgidas
+- units/heroes/bact_hero_eucratides_1
+- units/heroes/bact_hero_eucratides_2
 
 ### Gymnites Thebaïkós
 **Nome genérico:** Theban Light Militia
@@ -183,6 +175,15 @@ Hellenistic state (250–130 BC) in Afghanistan/Central Asia. Founded by Diodotu
 ### Hippeús Thebaïkós
 **Nome genérico:** Theban Cavalry
 
+### Hippikon Dahae
+**Nome genérico:** Dahae Axe Raider
+
+### Hippikon Dahae
+**Nome genérico:** Dahae Axe Raider
+
+### Hippikon Dahae
+**Nome genérico:** Dahae Axe Raider
+
 ### Hoplī́tēs Boiotías
 **Nome genérico:** Boeotian Hoplite
 
@@ -199,15 +200,16 @@ Hellenistic state (250–130 BC) in Afghanistan/Central Asia. Founded by Diodotu
 ### Melanochitones
 **Nome genérico:** Thespian Black Cloak
 
-### Oxybelḗs
-
-### Oxybelḗs
-
-### Pelopidas
-**Nome genérico:** Pelopidas
+### Ménandras Sōtḗr
+**Nome genérico:** Menander I the Savior
 
 **Auras:**
-- units/heroes/theb_hero_pelopidas
+- units/heroes/bact_hero_menander_1
+- units/heroes/bact_hero_menander_2
+
+### Oxybelḗs
+
+### Oxybelḗs
 
 ### Peltastḗs Boiotías
 **Nome genérico:** Boeotian Peltast
@@ -220,6 +222,15 @@ Hellenistic state (250–130 BC) in Afghanistan/Central Asia. Founded by Diodotu
 
 ### Pentēkónteros
 **Nome genérico:** Monoreme
+
+### Pezos Baktrías
+**Nome genérico:** Bactrian Hillman
+
+### Pezos Baktrías
+**Nome genérico:** Bactrian Hillman
+
+### Pezos Baktrías
+**Nome genérico:** Bactrian Hillman
 
 ### Ploîon Halieutikón
 

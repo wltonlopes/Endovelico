@@ -56,22 +56,7 @@ The Uralic peoples are a group of indigenous populations in Northern Europe and 
 - **Dacian Cavalry Skirmisher**
 - **Xiongnu Spearman**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Khalkeṓn
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -108,6 +93,10 @@ The Uralic peoples are a group of indigenous populations in Northern Europe and 
 
 ### ural/defense_tower
 
+### ural/dock
+
+### ural/farmstead
+
 ### ural/fortress
 **Descrição:** Train Champions and Heroes. Garrison soldiers inside for stout defense.
 
@@ -115,6 +104,8 @@ The Uralic peoples are a group of indigenous populations in Northern Europe and 
 
 - **Rath**
 - **Agueklid**
+
+### ural/market
 
 ### ural/sentry_tower
 

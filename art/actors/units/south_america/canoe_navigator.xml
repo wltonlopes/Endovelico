@@ -33,6 +33,10 @@
     </variant>
   </group>
   <group>
+    <variant file="biped/fisher/base_hele.xml"/>
+    <variant file="biped/fisher/carry_hele.xml"/>
+  </group>
+  <group>
     <variant frequency="1" name="Idle">
       <props>
         <prop actor="" attachpoint="weapon_bow"/>

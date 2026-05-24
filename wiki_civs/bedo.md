@@ -53,16 +53,6 @@ Nomadic tribes dominating Arabia's deserts. Camel pastoralists and caravan guide
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
@@ -73,11 +63,6 @@ Nomadic tribes dominating Arabia's deserts. Camel pastoralists and caravan guide
 #### Unidades treináveis
 
 - **White Shield Phalangite**
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Oasis
 **Classes:** RotaryMill, Town
@@ -116,11 +101,17 @@ Nomadic tribes dominating Arabia's deserts. Camel pastoralists and caravan guide
 
 ### bedo/defense_tower
 
+### bedo/dock
+
+### bedo/farmstead
+
 ### bedo/field
 
 ### bedo/forge
 
 ### bedo/fortress
+
+### bedo/market
 
 ### bedo/sentry_tower
 

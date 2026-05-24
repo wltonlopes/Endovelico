@@ -29,9 +29,6 @@ The Anishinaabe were an indigenous group in North America, primarily in the Grea
 ## Estruturas
 
 ### Adaawewigamig
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Arsenal
 **Nome genérico:** Arsenal
@@ -61,11 +58,6 @@ The Anishinaabe were an indigenous group in North America, primarily in the Grea
 - **Aretas I**
 - **Obodas I**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
 ### Gichi-dibendaagoziwigamig
 **Nome genérico:** Civic Center
 **Descrição:** Build in own or neutral territory. Acquire large tracts of territory. Territory root. Train Citizens and research technologies. Garrison Soldiers for additional arrows.
@@ -79,9 +71,6 @@ The Anishinaabe were an indigenous group in North America, primarily in the Grea
 ### Gitigaan
 
 ### Gitigewigamig
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Ishkode Waakaa'igan
 **Nome genérico:** The Sacred Fire Lodge
@@ -137,6 +126,8 @@ The Anishinaabe were an indigenous group in North America, primarily in the Grea
 - fauna_cattle_cow_trainable
 
 ### anish/defense_tower
+
+### anish/dock
 
 ### anish/fortress
 

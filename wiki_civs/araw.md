@@ -105,14 +105,8 @@ The Arawaks were an indigenous people of the Caribbean and South America. Known 
 - cavalry_javelineer_merc_b
 
 ### Konúko
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Makuriabo
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Mipari
 **Nome genérico:** Outpost
@@ -152,9 +146,6 @@ The Arawaks were an indigenous people of the Caribbean and South America. Known 
 - **Champion Axeman**
 
 ### Yati-bá
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Yukake
 

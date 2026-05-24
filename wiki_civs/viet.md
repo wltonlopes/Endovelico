@@ -33,9 +33,8 @@ Vietnamese civilization during the late Hong Bang dynasty up to the Trung Sister
 ## Estruturas
 
 ### Bến Thuyền
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
+
+### Cetiya
 
 ### Chuồng Trại
 
@@ -49,9 +48,6 @@ Vietnamese civilization during the late Hong Bang dynasty up to the Trung Sister
 ### Chòi Canh
 
 ### Chợ
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Doanh
 **Nome genérico:** Barracks
@@ -75,12 +71,16 @@ Vietnamese civilization during the late Hong Bang dynasty up to the Trung Sister
 
 ### Ruộng Lúa
 
+### Stupa
+**Nome genérico:** Temple
+**Descrição:** Train Healers and research healing technologies.
+**Classes:** Temple, Town
+
 ### Thành
 **Descrição:** Train Champions and Heroes. Garrison soldiers inside for stout defense.
 
 #### Unidades treináveis
 
-- **Rath**
 - **Nỏ Thần**
 
 ### Thành Cổ Loa
@@ -102,9 +102,6 @@ Vietnamese civilization during the late Hong Bang dynasty up to the Trung Sister
 **Nome genérico:** Elephant House
 
 ### Trại Nông
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Tường Thành
 
@@ -191,6 +188,12 @@ Vietnamese civilization during the late Hong Bang dynasty up to the Trung Sister
 
 ### Scout Canoe
 
+### Trưng Nhị
+**Nome genérico:** Trưng Nhị
+
+### Trưng Trắc
+**Nome genérico:** Trưng Trắc
+
 ### Tukikömi
 
 ### Turibune
@@ -203,6 +206,15 @@ Vietnamese civilization during the late Hong Bang dynasty up to the Trung Sister
 
 ### Vachii Gaja
 **Nome genérico:** Elephant Archer
+
+### Vietnamese Skirmisher
+**Classes:** Guerilla
+
+### Vietnamese Skirmisher
+**Classes:** Guerilla
+
+### Vietnamese Skirmisher
+**Classes:** Guerilla
 
 ### War Elephant
 **Nome genérico:** War Elephant

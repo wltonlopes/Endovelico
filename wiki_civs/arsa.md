@@ -76,26 +76,6 @@ The Parthian Empire, also known as the Arsacid Empire, was a major Iranian polit
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
@@ -105,16 +85,6 @@ The Parthian Empire, also known as the Arsacid Empire, was a major Iranian polit
 **Classes:** House, Village
 
 ### Ituki nö Miya
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -164,6 +134,14 @@ The Parthian Empire, also known as the Arsacid Empire, was a major Iranian polit
 
 ### arsa/defense_tower_nom
 
+### arsa/dock
+
+### arsa/dock_nom
+
+### arsa/farmstead
+
+### arsa/farmstead_nom
+
 ### arsa/field
 
 ### arsa/forge
@@ -171,6 +149,10 @@ The Parthian Empire, also known as the Arsacid Empire, was a major Iranian polit
 ### arsa/fortress
 
 ### arsa/fortress_nom
+
+### arsa/market
+
+### arsa/market_nom
 
 ### arsa/sentry_tower
 

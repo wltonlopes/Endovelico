@@ -65,16 +65,6 @@ The Adena culture was a pre-Columbian Native American culture that existed from 
 **Descrição:** Build in own or neutral territory. Acquire large tracts of territory. Territory root. Train Citizens and research technologies. Garrison Soldiers for additional arrows.
 **Classes:** CivCentre, CivilCentre, Defensive
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House of the great chief
 **Nome genérico:** House of the great chief
 **Classes:** CivSpecific, ConquestCritical, Palace
@@ -88,9 +78,6 @@ The Adena culture was a pre-Columbian Native American culture that existed from 
 ### Ipe
 
 ### Iti
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Large Pyramid
 **Nome genérico:** Large Pyramid
@@ -127,6 +114,10 @@ The Adena culture was a pre-Columbian Native American culture that existed from 
 - fauna_cattle_cow_trainable
 
 ### aden/defense_tower
+
+### aden/dock
+
+### aden/farmstead
 
 ### aden/field
 

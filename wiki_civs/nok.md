@@ -57,9 +57,6 @@ The Nok were an early West African civilization (c. 1500 BC–500 AD) in Nigeria
 - **Bison Warrior**
 
 ### Igbelera
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
 
 ### Ikusa nö Nipa
 **Nome genérico:** Range
@@ -116,14 +113,8 @@ The Nok were an early West African civilization (c. 1500 BC–500 AD) in Nigeria
 - **Yamatötakëru**
 
 ### Oja
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Oko Oko
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
 
 ### Okuta Odi
 

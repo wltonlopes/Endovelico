@@ -105,27 +105,12 @@ The Aksumites (100 AD–940 AD) were an ancient Ethiopian civilizations. The D'm
 - **Peltastḗs**
 - **Dacian Cavalry Skirmisher**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Ikusa nö Nipa
 **Nome genérico:** Range
 **Descrição:** Train Ranged Infantry and research technologies.
 **Classes:** Range, Village
 
 ### Kura
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Miya
 **Nome genérico:** Temple
@@ -176,13 +161,19 @@ The Aksumites (100 AD–940 AD) were an ancient Ethiopian civilizations. The D'm
 
 ### aksum/defense_tower
 
+### aksum/dock
+
 ### aksum/elephant_stable
+
+### aksum/farmstead
 
 ### aksum/forge
 
 ### aksum/fortress
 
 ### aksum/house
+
+### aksum/market
 
 ### aksum/sentry_tower
 

@@ -80,29 +80,9 @@ Indo-European tribes in Balkans (Albania/Montenegro). Skilled shipbuilders and p
 - **Xiongnu Archer**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-#### Unidades treináveis
-
-- **Pirate Mesapio**
-- **Pirate Yapigio**
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -133,15 +113,37 @@ Indo-European tribes in Balkans (Albania/Montenegro). Skilled shipbuilders and p
 **Descrição:** Train Healers and research healing technologies.
 **Classes:** Temple, Town
 
+### hippodrome
+**Nome genérico:** hippodrome
+**Descrição:** Territory root. Train Heroes.
+**Classes:** CivSpecific, ConquestCritical, Palace
+
+#### Unidades treináveis
+
+- **Bardilis I**
+- **Agron I**
+- **Teuta**
+
 ### illy/corral
 
 ### illy/defense_tower
+
+### illy/dock
+
+#### Unidades treináveis
+
+- **Pirate Mesapio**
+- **Pirate Yapigio**
+
+### illy/farmstead
 
 ### illy/field
 
 ### illy/forge
 
 ### illy/fortress
+
+### illy/market
 
 ### illy/sentry_tower
 

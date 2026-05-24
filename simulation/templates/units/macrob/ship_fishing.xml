@@ -10,6 +10,6 @@
     <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/macrobians/fishing_boat.xml</Actor>
+    <Actor>structures/macrobians/ship_fishing.xml</Actor>
   </VisualActor>
 </Entity>

@@ -46,24 +46,9 @@ Indo-European nomads in the Tarim Basin (Xinjiang). Settled in oasis cities like
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -84,11 +69,17 @@ Indo-European nomads in the Tarim Basin (Xinjiang). Settled in oasis cities like
 
 ### tocha/defense_tower
 
+### tocha/dock
+
+### tocha/farmstead
+
 ### tocha/field
 
 ### tocha/forge
 
 ### tocha/fortress
+
+### tocha/market
 
 ### tocha/sentry_tower
 

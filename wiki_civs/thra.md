@@ -14,11 +14,24 @@ The Thracians were an ancient Indo-European people who inhabited the Balkan regi
 
 ## Nomes da IA
 
-- Amadocus
-- Burebista
-- Decebalus
-- Orpheus
+- Amadocus I
+- Amadocus II
+- Berenice
+- Berisades
+- Cersobleptes
+- Cotys I
+- Cotys II
+- Kersebleptes
+- Meda
+- Mostis
+- Mucapor
+- Rhascus
+- Rholes
+- Seuthes I
+- Seuthes II
+- Seuthes III
 - Sitalces
+- Spartacus
 - Teres I
 
 ## Estruturas
@@ -44,24 +57,9 @@ The Thracians were an ancient Indo-European people who inhabited the Balkan regi
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Mausoleum
 **Nome genérico:** Mausoleum
@@ -79,6 +77,10 @@ The Thracians were an ancient Indo-European people who inhabited the Balkan regi
 **Descrição:** Build in own or neutral territory.
 **Classes:** Outpost
 
+### Palace
+**Nome genérico:** Palace
+**Classes:** CivSpecific, Monument
+
 ### Stable
 **Nome genérico:** Stable
 **Descrição:** .
@@ -93,11 +95,17 @@ The Thracians were an ancient Indo-European people who inhabited the Balkan regi
 
 ### thra/defense_tower
 
+### thra/dock
+
+### thra/farmstead
+
 ### thra/field
 
 ### thra/forge
 
 ### thra/fortress
+
+### thra/market
 
 ### thra/sentry_tower
 

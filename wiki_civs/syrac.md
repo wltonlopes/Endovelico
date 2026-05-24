@@ -54,16 +54,6 @@ Syracuse, founded on the coast of the island of Sicily, grew to be one of the la
 - **Peltastḗs**
 - **cavalry_spearman_b**
 
-### Dock
-**Nome genérico:** Dock
-**Descrição:** Build upon a shoreline in own, neutral, or allied territory. Establish trade routes. Construct Ships and research Ship technologies.
-**Classes:** Dock, Economic, Naval, Trade, Village
-
-### Farmstead
-**Nome genérico:** Farmstead
-**Descrição:** Research food gathering technologies.
-**Classes:** DropsiteFood, Farmstead, Village
-
 ### Gymnasion
 **Nome genérico:** Gymnasium
 **Descrição:** Train Champions.
@@ -78,11 +68,6 @@ Syracuse, founded on the coast of the island of Sicily, grew to be one of the la
 ### House
 **Nome genérico:** House
 **Classes:** House, Village
-
-### Market
-**Nome genérico:** Market
-**Descrição:** Barter resources. Establish trade routes. Train Traders and research trade and barter technologies.
-**Classes:** Barter, Market, Town, Trade
 
 ### Outpost
 **Nome genérico:** Outpost
@@ -106,11 +91,17 @@ Syracuse, founded on the coast of the island of Sicily, grew to be one of the la
 
 ### syrac/defense_tower
 
+### syrac/dock
+
+### syrac/farmstead
+
 ### syrac/field
 
 ### syrac/forge
 
 ### syrac/fortress
+
+### syrac/market
 
 ### syrac/sentry_tower
 
