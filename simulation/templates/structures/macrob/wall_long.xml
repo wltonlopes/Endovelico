@@ -1,59 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
   <Footprint>
-    <Square width="37" depth="6"/>
-    <Height>12.6</Height>
+    <Square width="34.0" depth="8.0"/>
+    <Height>9.0</Height>
   </Footprint>
   <Identity>
     <Civ>macrob</Civ>
-    <SpecificName>Okuta Odi</SpecificName>
+    <SelectionGroupName>structures/macrob_wallset_stone</SelectionGroupName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="36" depth="5"/>
+    <Static width="33.5" depth="7.5"/>
   </Obstruction>
   <StatusBars>
-    <HeightOffset>13.6</HeightOffset>
+    <HeightOffset>14.0</HeightOffset>
   </StatusBars>
   <TurretHolder>
     <TurretPoints>
       <One>
         <X>1.5</X>
-        <Y>7</Y>
+        <Y>12</Y>
         <Z>0</Z>
       </One>
       <Two>
         <X>-1.5</X>
-        <Y>7</Y>
+        <Y>12</Y>
         <Z>0</Z>
       </Two>
       <Three>
         <X>4.5</X>
-        <Y>7</Y>
+        <Y>12</Y>
         <Z>0</Z>
       </Three>
       <Four>
         <X>-4.5</X>
-        <Y>7</Y>
+        <Y>12</Y>
         <Z>0</Z>
       </Four>
       <Five>
         <X>7.5</X>
-        <Y>7</Y>
+        <Y>12</Y>
         <Z>0</Z>
       </Five>
       <Six>
         <X>-7.5</X>
-        <Y>7</Y>
+        <Y>12</Y>
         <Z>0</Z>
       </Six>
       <Seven>
         <X>10.5</X>
-        <Y>7</Y>
+        <Y>12</Y>
         <Z>0</Z>
       </Seven>
       <Eight>
         <X>-10.5</X>
-        <Y>7</Y>
+        <Y>12</Y>
         <Z>0</Z>
       </Eight>
     </TurretPoints>
@@ -61,4 +62,7 @@
   <VisualActor>
     <Actor>structures/macrobians/wall_long.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>31.0</Length>
+  </WallPiece>
 </Entity>

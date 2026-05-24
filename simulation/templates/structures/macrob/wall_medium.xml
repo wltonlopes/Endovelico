@@ -41,4 +41,7 @@
   <VisualActor>
     <Actor>structures/macrobians/wall_med.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>15.0</Length>
+  </WallPiece>
 </Entity>

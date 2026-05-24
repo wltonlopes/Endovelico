@@ -9,8 +9,7 @@
   </Health>
   <Identity>
     <Civ>macrob</Civ>
-    <GenericName>Ainu Village</GenericName>
-    <SpecificName>Kotan</SpecificName>
+    <GenericName>Cushi Village</GenericName>
     <Icon>structures/military_settlement.png</Icon>
   </Identity>
   <Obstruction>
@@ -18,11 +17,10 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman_b
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/macrobians/jomon_village.xml</Actor>
+    <Actor>structures/macrobians/cushi.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

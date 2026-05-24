@@ -4,13 +4,14 @@
   <group>
     <variant frequency="1" name="base">
       <props>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="01"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="02"/>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/macrob_struct.png" name="baseTex"/>
         <texture file="structural/macrob_struct_spec.png" name="specTex"/>
         <texture file="structural/macrob_struct_norm.png" name="normTex"/>
-
       </textures>
     </variant>
   </group>
@@ -18,25 +19,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/macrobian/house_1.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+      	<texture file="structural/ao/macrob/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/macrobian/house_2.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+      	<texture file="structural/ao/macrob/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/macrobian/house_3.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+      	<texture file="structural/ao/macrob/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/macrobian/house_4.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+      	<texture file="structural/ao/macrob/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
