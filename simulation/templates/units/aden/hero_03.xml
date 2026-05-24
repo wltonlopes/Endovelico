@@ -6,7 +6,7 @@
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/aden/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/aden/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/adena/hero_03.xml</Actor>

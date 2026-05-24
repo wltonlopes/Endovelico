@@ -21,7 +21,7 @@
     <SpecificName>Arcesilaus IV</SpecificName>
 	  <History>Arcesilaus IV of Cyrene (flourished 5th century BC) was the eighth and final king of the Battiad dynasty in Cyrene</History>
     <Tooltip>.</Tooltip>
-    <Icon>units/theb/hero_epaminondas.png</Icon>
+    <Icon>units/cyrene/hero_arcesilaus_iv.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/cyrene/hero_cavalry_spearman_arcesilaus_iv_m.xml</Actor>

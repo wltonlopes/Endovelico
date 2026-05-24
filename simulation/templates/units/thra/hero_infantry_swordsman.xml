@@ -10,7 +10,7 @@
   <Identity>
     <Civ>thra</Civ>
     <SpecificName>Teres I</SpecificName>
-    <Icon>units/mace/hero_demetrius.png</Icon>
+    <Icon>units/thra/hero_teres_i.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/thracians/hero_infantry_swordsman.xml</Actor>

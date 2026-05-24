@@ -4,7 +4,7 @@
     <Civ>puka</Civ>
     <GenericName>Great Commander Lord</GenericName>
     <History>Military ruler responsible for defending caravans, highland settlements, and expanding regional Pukará influence.</History>
-    <Icon>units/moch/hero_general.png</Icon>
+    <Icon>units/pukara/hero_puka_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pukara/hero_infantry_spearman.xml</Actor>

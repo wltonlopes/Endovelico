@@ -5,7 +5,7 @@
   <Identity>
     <Civ>thra</Civ>
     <SpecificName>Kotys I</SpecificName>
-    <Icon>units/mace/hero_philip.png</Icon>
+    <Icon>units/thra/hero_kotys_i.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/thracians/hero_cavalry_spearman_m.xml</Actor>

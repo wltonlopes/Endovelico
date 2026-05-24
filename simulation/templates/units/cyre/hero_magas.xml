@@ -21,7 +21,7 @@
   <SpecificName>Magas of Cyrene</SpecificName>
 	<History>Was a Greek King of Cyrenaica. Through his mother’s second marriage to Ptolemy I he became a member of the Ptolemaic dynasty. He managed to wrest independence for Cyrenaica (in modern Libya) from the Greek Ptolemaic dynasty of Ancient Egypt, and became King of Cyrenaica from 276 BC to 250 BC.</History>
     <Tooltip>.</Tooltip>
-    <Icon>units/theb/hero_epaminondas.png</Icon>
+    <Icon>units/cyrene/hero_magas.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/cyrene/hero_infantry_swordsman_magas.xml</Actor>
