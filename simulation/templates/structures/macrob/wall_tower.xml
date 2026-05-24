@@ -14,6 +14,6 @@
     <Actor>structures/macrobians/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>11</Length>
+    <Length>10</Length>
   </WallPiece>
 </Entity>

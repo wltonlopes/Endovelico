@@ -63,6 +63,6 @@
     <Actor>structures/macrobians/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>31.0</Length>
+    <Length>30.0</Length>
   </WallPiece>
 </Entity>
