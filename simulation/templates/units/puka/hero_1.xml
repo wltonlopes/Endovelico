@@ -4,7 +4,7 @@
     <Civ>puka</Civ>
     <GenericName>High Priest Lord</GenericName>
     <History>A ruler associated with protecting monoliths, sacred platforms, and the political-religious centers of Pukará culture.</History>
-    <Icon>units/pukara/hero_puka_01.png</Icon>
+    <Icon>units/puka/hero_axeman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pukara/hero_infantry_axeman.xml</Actor>

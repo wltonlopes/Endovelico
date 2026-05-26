@@ -2,11 +2,10 @@
 <Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>paiu</Civ>
-    <GenericName>Great Warrior Chief</GenericName>
-    <SpecificName></SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Phenotype>female</Phenotype>
+    <GenericName>Great Matriarch</GenericName>
+    <SelectionGroupName>units/paiu/hero_rain_lord</SelectionGroupName>
+    <Icon>units/paiu/hero_matriarch.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/paiute/hero_03_f.xml</Actor>

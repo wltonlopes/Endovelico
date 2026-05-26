@@ -6,7 +6,7 @@
     <Civ>illy</Civ>
     <GenericName>Agron I</GenericName>
     <SpecificName>Agron I</SpecificName>
-    <Icon>units/illy/hero_infantry_spearman.png</Icon>
+    <Icon>units/illy/hero_argon_i.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/illyrians/hero_infantry_spearman.xml</Actor>

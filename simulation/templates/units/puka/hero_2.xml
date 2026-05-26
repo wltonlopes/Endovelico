@@ -4,7 +4,7 @@
     <Civ>puka</Civ>
     <GenericName>King-High Priest</GenericName>
     <History>Supreme religious ruler of the Pukará ceremonial centers, responsible for solar rituals and spiritual authority over society.</History>
-    <Icon>units/pukara/hero_puka_03.png</Icon>
+    <Icon>units/puka/hero_javelinist.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pukara/hero_infantry_javelinist.xml</Actor>

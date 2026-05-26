@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_archer">
+<Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>hisat</Civ>
     <GenericName>Elder Chief</GenericName>
-    <SpecificName></SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/hisat/hero_night_king</SelectionGroupName>
-    <Icon>units/zapo/hero_night_king.png</Icon>
+    <Icon>units/hisat/hero_elder.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

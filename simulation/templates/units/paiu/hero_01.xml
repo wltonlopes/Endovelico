@@ -6,7 +6,7 @@
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
-    <Icon>units/zapo/hero_lord_jaguar.png</Icon>
+    <Icon>units/paiu/hero_warrior.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.5</WalkSpeed>

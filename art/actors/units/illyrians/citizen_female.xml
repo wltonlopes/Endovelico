@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/new/f_armor_dress.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_female_illy.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/illyrians/hairband_female.xml" attachpoint="head"/>
       </props>
     </variant>
