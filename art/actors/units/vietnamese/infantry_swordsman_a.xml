@@ -41,11 +41,6 @@
         <texture file="skeletal/viet/tunic_02_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="v4">
-       <textures>
-        <texture file="skeletal/viet/tunic_02_04.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
     <variant file="biped/base_swordsman_shield_relax.xml"/>

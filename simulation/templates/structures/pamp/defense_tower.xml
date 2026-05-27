@@ -7,9 +7,9 @@
   <Identity>
     <Civ>pamp</Civ>
     <Tooltip>Structure needs Semi-Nomad Lifestyle technology.</Tooltip>
-    <Requirements>
-      <Techs datatype="tokens">pamp/semi-nomad</Techs>
-    </Requirements>  
+    <!-- <Requirements>
+      <Techs datatype="tokens">pampidos/semi-nomad</Techs>
+    </Requirements> -->
   </Identity>
   <Obstruction>
     <Static width="12" depth="12"/>

@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_axeman_shield_fast_relax.xml">
+    <variant file="biped/base_skirmisher.xml">
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america.xml" attachpoint="head"/>
@@ -13,37 +13,17 @@
         <prop actor="props/units/helmets/helmet_puka_hero.xml" attachpoint="head"/>
       </props>
       <textures>
+        <texture file="skeletal/tiwanaku/hero_03.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-   <group>
-    <variant frequency="100" name="01">
-      <textures>
-        <texture file="skeletal/tiwanaku/hero_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
   <group>
-    <variant frequency="100" name="Idle"/>
     <variant file="biped/attack_ranged_javelinist.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/gather_tree.xml"/>
-    <variant file="biped/gather_grain.xml"/>
-    <variant file="biped/gather_fruit.xml"/>
-    <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/gather_rock.xml"/>
-    <variant file="biped/gather_ore.xml"/>
-    <variant file="biped/gather_ruins.xml"/>
-    <variant file="biped/build.xml"/>
     <variant file="biped/death_infantry.xml"/>
-    <variant file="biped/carry_food.xml"/>
-    <variant file="biped/carry_meat.xml"/>
-    <variant file="biped/carry_wood.xml"/>
-    <variant file="biped/carry_stone.xml"/>
-    <variant file="biped/carry_metal.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

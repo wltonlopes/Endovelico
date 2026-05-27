@@ -4,7 +4,7 @@
     <Civ>viet</Civ>
     <GenericName>Hùng Duệ Vương </GenericName>
     <SpecificName>Hùng Duệ Vương </SpecificName>
-    <Icon>units/yayo/hero_himiko.png</Icon>
+    <Icon>units/viet/hero_hung_due.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/vietnamese/hero_elephant_m.xml</Actor>

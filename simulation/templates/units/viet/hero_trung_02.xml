@@ -7,6 +7,6 @@
     <Icon>units/yayo/hero_himiko.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vietnamese/hero_princess_trung_02.xml</Actor>
+    <Actor>units/vietnamese/hero_elephant_princess_trung_02_m.xml</Actor>
   </VisualActor>
 </Entity>

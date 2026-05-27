@@ -9,11 +9,10 @@
   </Health>
   <Identity>
     <Civ>guara</Civ>
-    <SpecificName>Kömëgura</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">
-      <south_america/>yerba_mate
+      south_america/yerba_mate
     </Technologies>
   </Researcher>
   <Obstruction>

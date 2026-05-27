@@ -11,9 +11,9 @@
     <Civ>pamp</Civ>
     <SpecificName>Miya</SpecificName>
     <Tooltip>Structure needs Semi-Nomad Lifestyle technology.</Tooltip>
-    <Requirements>
-      <Techs datatype="tokens">pamp/semi-nomad</Techs>
-    </Requirements>  
+    <!-- <Requirements>
+      <Techs datatype="tokens">pampidos/semi-nomad</Techs>
+    </Requirements> -->
   </Identity>
   <Obstruction>
     <Static width="24" depth="18"/>

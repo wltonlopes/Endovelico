@@ -10,7 +10,6 @@
   <Identity>
     <Civ>guara</Civ>
     <GenericName>Barracks</GenericName>
-    <SpecificName>Sikömi nö Nipa</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">
