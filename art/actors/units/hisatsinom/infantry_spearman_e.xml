@@ -7,6 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_hisatsinom_male.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/hisat_shield_01.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
