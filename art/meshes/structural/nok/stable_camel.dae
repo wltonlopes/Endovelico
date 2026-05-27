@@ -13,14 +13,14 @@
   <library_effects>
     <effect id="texturas_nok_FINAIS-effect">
       <profile_COMMON>
-        <newparam sid="nok_struct_png-surface">
+        <newparam sid="nok/struct_png-surface">
           <surface type="2D">
-            <init_from>nok_struct_png</init_from>
+            <init_from>nok/struct_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="nok_struct_png-sampler">
+        <newparam sid="nok/struct_png-sampler">
           <sampler2D>
-            <source>nok_struct_png-surface</source>
+            <source>nok/struct_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="nok_struct_png-sampler" texcoord="Mapa UV"/>
+              <texture texture="nok/struct_png-sampler" texcoord="Mapa UV"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-05-26T05:56:43</created>
+    <modified>2026-05-26T05:56:43</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Nok_Stone_Tower_Carpet-mesh" name="Nok Stone Tower Carpet">
+      <mesh>
+        <source id="Nok_Stone_Tower_Carpet-mesh-positions">
+          <float_array id="Nok_Stone_Tower_Carpet-mesh-positions-array" count="12">0.5391877 -0.1240714 11.36582 -0.6312532 -0.1417513 11.36455 0.5486113 -3.228839 11.36563 -0.6217174 -3.246517 11.36436</float_array>
+          <technique_common>
+            <accessor source="#Nok_Stone_Tower_Carpet-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Stone_Tower_Carpet-mesh-normals">
+          <float_array id="Nok_Stone_Tower_Carpet-mesh-normals-array" count="12">-0.001085162 -6.44471e-5 0.9999994 -0.001084625 -6.44261e-5 0.9999994 -0.001084446 -6.44172e-5 0.9999994 -0.00108534 -6.44561e-5 0.9999994</float_array>
+          <technique_common>
+            <accessor source="#Nok_Stone_Tower_Carpet-mesh-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Stone_Tower_Carpet-mesh-map-0">
+          <float_array id="Nok_Stone_Tower_Carpet-mesh-map-0-array" count="12">0.1929651 0.2335329 0.1387805 0.009971201 0.1929651 0.0109837 0.1929651 0.2335329 0.1387754 0.2325203 0.1387805 0.009971201</float_array>
+          <technique_common>
+            <accessor source="#Nok_Stone_Tower_Carpet-mesh-map-0-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Stone_Tower_Carpet-mesh-map-1">
+          <float_array id="Nok_Stone_Tower_Carpet-mesh-map-1-array" count="12">0.3245286 0.8989602 0.1642663 0.9367735 0.1642663 0.8989602 0.3255296 0.8999612 0.3255296 0.9377745 0.1652673 0.9377745</float_array>
+          <technique_common>
+            <accessor source="#Nok_Stone_Tower_Carpet-mesh-map-1-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Nok_Stone_Tower_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Nok_Stone_Tower_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="2">
+          <input semantic="VERTEX" source="#Nok_Stone_Tower_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Nok_Stone_Tower_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Nok_Stone_Tower_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Nok_Stone_Tower_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 3 1 1 2 2 2 0 0 3 1 3 4 3 1 5</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="nok_stone_tower_carpet" name="nok_stone_tower_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Nok_Stone_Tower_Carpet-mesh" name="nok_stone_tower_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

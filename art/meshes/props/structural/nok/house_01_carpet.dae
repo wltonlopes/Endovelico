@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-05-25T21:00:31</created>
+    <modified>2026-05-25T21:00:31</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Nok_House_01_Carpet-mesh" name="Nok House 01 Carpet">
+      <mesh>
+        <source id="Nok_House_01_Carpet-mesh-positions">
+          <float_array id="Nok_House_01_Carpet-mesh-positions-array" count="18">-1.205598 -3.158576 0.2893041 -2.376057 -3.156463 0.288035 -1.205653 -4.381157 0.2891085 -2.376 -4.379045 0.2878397 -2.376 -4.379045 -0.9327087 -1.205653 -4.381157 -0.9364556</float_array>
+          <technique_common>
+            <accessor source="#Nok_House_01_Carpet-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_House_01_Carpet-mesh-normals">
+          <float_array id="Nok_House_01_Carpet-mesh-normals-array" count="24">-0.001084506 -1.5986e-4 0.9999994 -0.001084566 -1.5979e-4 0.9999995 -0.001084506 -1.59864e-4 0.9999994 -0.001084446 -1.59935e-4 0.9999994 -0.001804471 -0.9999985 0 -0.001804471 -0.9999984 0 -0.001804471 -0.9999984 0 -0.001804471 -0.9999985 0</float_array>
+          <technique_common>
+            <accessor source="#Nok_House_01_Carpet-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_House_01_Carpet-mesh-map-0">
+          <float_array id="Nok_House_01_Carpet-mesh-map-0-array" count="24">0.1928717 0.2320224 0.1388417 0.2319085 0.1390073 0.1221057 0.1928717 0.2320224 0.1390073 0.1221057 0.1930322 0.1222196 0.1930322 0.1222196 0.1390073 0.1221057 0.1390073 0.0124849 0.1930322 0.1222196 0.1390073 0.0124849 0.1930322 0.01214843</float_array>
+          <technique_common>
+            <accessor source="#Nok_House_01_Carpet-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_House_01_Carpet-mesh-map-1">
+          <float_array id="Nok_House_01_Carpet-mesh-map-1-array" count="24">0.5497221 0.319409 0.5133163 0.319409 0.5133163 0.356207 0.5507231 0.32041 0.5143173 0.357208 0.5507231 0.357208 0.5103133 0.319409 0.4739074 0.319409 0.4739074 0.356207 0.5113143 0.32041 0.4749084 0.357208 0.5113143 0.357208</float_array>
+          <technique_common>
+            <accessor source="#Nok_House_01_Carpet-mesh-map-1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Nok_House_01_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Nok_House_01_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="4">
+          <input semantic="VERTEX" source="#Nok_House_01_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Nok_House_01_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Nok_House_01_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Nok_House_01_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 1 1 1 3 2 2 0 0 3 3 2 4 2 3 5 2 4 6 3 5 7 4 6 8 2 4 9 4 6 10 5 7 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="nok_house_01_carpet" name="nok_house_01_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Nok_House_01_Carpet-mesh" name="nok_house_01_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

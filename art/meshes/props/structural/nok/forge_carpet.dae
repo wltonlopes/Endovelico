@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-05-25T15:10:49</created>
+    <modified>2026-05-25T15:10:49</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Nok_Forge_Carpet-mesh" name="Nok Forge Carpet">
+      <mesh>
+        <source id="Nok_Forge_Carpet-mesh-positions">
+          <float_array id="Nok_Forge_Carpet-mesh-positions-array" count="18">2.030312 -2.595571 0.2908896 2.04604 -1.425215 0.2896208 0.8078143 -2.581294 0.290694 0.8235416 -1.41105 0.2894251 0.8078143 -2.581294 -2.992786 0.8235417 -1.41105 -2.989039</float_array>
+          <technique_common>
+            <accessor source="#Nok_Forge_Carpet-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Forge_Carpet-mesh-normals">
+          <float_array id="Nok_Forge_Carpet-mesh-normals-array" count="24">-0.9999097 0.0134381 0 -0.9999097 0.01343816 0 -0.9999097 0.01343816 0 -1.47361e-4 0.001086175 0.9999994 -1.47366e-4 0.001086115 0.9999994 -1.47452e-4 0.001086056 0.9999995 -0.9999098 0.0134381 0 -1.47275e-4 0.001086235 0.9999994</float_array>
+          <technique_common>
+            <accessor source="#Nok_Forge_Carpet-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Forge_Carpet-mesh-map-0">
+          <float_array id="Nok_Forge_Carpet-mesh-map-0-array" count="24">0.1395632 0.1366198 0.1924093 0.01345205 0.1395632 0.01218301 0.1924093 0.1365377 0.1396318 0.2322478 0.1924241 0.2320885 0.1395632 0.1366198 0.1924093 0.1367303 0.1924093 0.01345205 0.1924093 0.1365377 0.1395632 0.1366471 0.1396318 0.2322478</float_array>
+          <technique_common>
+            <accessor source="#Nok_Forge_Carpet-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Forge_Carpet-mesh-map-1">
+          <float_array id="Nok_Forge_Carpet-mesh-map-1-array" count="24">0.001001 0.8551409 0.01585513 0.7867153 0.001001 0.7867153 0.2867153 0.3194265 0.3015694 0.2867153 0.2867153 0.2867153 0.002002 0.8561419 0.01685613 0.8561419 0.01685613 0.7877163 0.2877163 0.3204275 0.3025704 0.3204275 0.3025704 0.2877163</float_array>
+          <technique_common>
+            <accessor source="#Nok_Forge_Carpet-mesh-map-1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Nok_Forge_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Nok_Forge_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="4">
+          <input semantic="VERTEX" source="#Nok_Forge_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Nok_Forge_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Nok_Forge_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Nok_Forge_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>2 0 0 5 1 1 4 2 2 3 3 3 0 4 4 1 5 5 2 0 6 3 6 7 5 1 8 3 3 9 2 7 10 0 4 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="nok_forge_carpet" name="nok_forge_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Nok_Forge_Carpet-mesh" name="nok_forge_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

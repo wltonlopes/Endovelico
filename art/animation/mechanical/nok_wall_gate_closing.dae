@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-05-26T16:33:23</created>
+    <modified>2026-05-26T16:33:23</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material-effect">
+      <profile_COMMON>
+        <newparam sid="struct_png_001-surface">
+          <surface type="2D">
+            <init_from>struct_png_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="struct_png_001-sampler">
+          <sampler2D>
+            <source>struct_png_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="struct_png_001-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="struct_png_001" name="struct_png_001">
+      <init_from>/home/alisson/.local/share/0ad/mods/Endovelico/art/textures/skins/structural/nok/struct.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material-material" name="Material">
+      <instance_effect url="#Material-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Nok_Wall_Gate_Door-mesh" name="Nok Wall Gate Door">
+      <mesh>
+        <source id="Nok_Wall_Gate_Door-mesh-positions">
+          <float_array id="Nok_Wall_Gate_Door-mesh-positions-array" count="84">-7.28247 -0.2112469 0.1301412 -7.28247 0.2112472 0.1301412 0.1568852 -0.2112469 0.1301412 0.1568852 -0.2112469 8.742669 0.1568852 0.2112472 0.1301412 0.1568852 0.2112472 8.742669 -7.28247 -0.2112469 3.261969 -7.28247 0.2112472 3.261969 0.1568852 0.2112472 3.261969 0.1568852 -0.2112469 3.261969 -7.417726 -0.2112469 3.261969 -7.417726 -0.2112469 8.742669 -7.417726 0.2112472 8.742669 -7.417726 0.2112472 3.261969 7.736907 0.2112465 0.1301412 7.736907 -0.2112476 0.1301412 0.2975518 0.2112472 0.1301412 0.2975518 0.2112472 8.742669 0.2975517 -0.2112469 0.1301412 0.2975517 -0.2112469 8.742669 7.736907 0.2112465 3.261969 7.736907 -0.2112476 3.261969 0.2975517 -0.2112469 3.261969 0.2975518 0.2112472 3.261969 7.872163 0.2112465 3.261969 7.872163 0.2112465 8.742669 7.872163 -0.2112476 8.742669 7.872163 -0.2112476 3.261969</float_array>
+          <technique_common>
+            <accessor source="#Nok_Wall_Gate_Door-mesh-positions-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Wall_Gate_Door-mesh-normals">
+          <float_array id="Nok_Wall_Gate_Door-mesh-normals-array" count="144">0 0 -1 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1 0 -1 0 1 0 0 0 1 0 -1 0 0 -1 0 0 0 0 -1 0 -1 0 -1 1.41078e-7 0 0 1 0 0 0 -1 0 0 1 0 1 0 -1 1.41078e-7 0 0 -1 0 1 0 0 1 0 0 0 0 -1 0 1 0 0 1 0 1 0 0 0 -1 0 0 -1 0 0 0 -1 0 0 1 0 -1 0 1 0 0 0 1 0 -1 0 0 -1 0 0 0 0 -1 0 -1 0 0 -1 0 -1 1.41078e-7 0 0 1 0 0 1 0 0 0 -1 0 0 1 0 1 0 -1 1.41078e-7 0 0 -1 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Nok_Wall_Gate_Door-mesh-normals-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Wall_Gate_Door-mesh-map-0">
+          <float_array id="Nok_Wall_Gate_Door-mesh-map-0-array" count="288">0.4659091 0 0.4659091 0.25 0.4659091 0.25 0.5243566 0.6916577 0.5243566 0.5721919 0.5925735 0.5721919 0.5911269 0.6398537 0.5870103 0.5656958 0.5911269 0.5656958 0.5243566 0.6916577 0.5243566 0.5721919 0.5255968 0.5721919 0.585136 0.6325331 0.5342292 0.6453704 0.5342292 0.6325331 0.585136 0.6325331 0.5342292 0.6453704 0.5342292 0.6325331 0.5938137 0.5721919 0.5255968 0.5039258 0.5938137 0.5039258 0.5911269 0.5656958 0.5870103 0.5233199 0.5911269 0.5233199 0.5925735 0.5721919 0.5243566 0.5039258 0.5925735 0.5039258 0.5911269 0.6027747 0.5870103 0.5603988 0.5911269 0.5603988 0.5911269 0.6186658 0.5870103 0.5445078 0.5911269 0.5445078 0.4659091 0 0.4659091 0.25 0.4659091 0.25 0.5243566 0.6916577 0.5243566 0.5721919 0.5925735 0.5721919 0.5911269 0.6398537 0.5870103 0.5656958 0.5911269 0.5656958 0.5243566 0.6916577 0.5243566 0.5721919 0.5255969 0.5721919 0.585136 0.6325331 0.5342292 0.6453704 0.5342292 0.6325331 0.585136 0.6325331 0.5342292 0.6453704 0.5342292 0.6325331 0.5938137 0.5721919 0.5255969 0.5039258 0.5938137 0.5039258 0.5911269 0.5656958 0.5870103 0.5233199 0.5911269 0.5233199 0.5925735 0.5721919 0.5243566 0.5039258 0.5925735 0.5039258 0.5911269 0.6027747 0.5870103 0.5603988 0.5911269 0.5603988 0.5911269 0.6186658 0.5870103 0.5445078 0.5911269 0.5445078 0.4659091 0 0.4659091 0 0.4659091 0.25 0.5938137 0.5721919 0.5938137 0.6916577 0.5925735 0.5721919 0.5938137 0.6916577 0.5243566 0.6916577 0.5925735 0.5721919 0.5911269 0.6398537 0.5870103 0.6398537 0.5870103 0.5656958 0.5255968 0.5721919 0.5938137 0.5721919 0.5938137 0.6916577 0.5938137 0.6916577 0.5243566 0.6916577 0.5255968 0.5721919 0.585136 0.6325331 0.585136 0.6453704 0.5342292 0.6453704 0.585136 0.6325331 0.585136 0.6453704 0.5342292 0.6453704 0.5938137 0.5721919 0.5255968 0.5721919 0.5255968 0.5039258 0.5911269 0.5656958 0.5870103 0.5656958 0.5870103 0.5233199 0.5925735 0.5721919 0.5243566 0.5721919 0.5243566 0.5039258 0.5911269 0.6027747 0.5870103 0.6027747 0.5870103 0.5603988 0.5911269 0.6186658 0.5870103 0.6186658 0.5870103 0.5445078 0.4659091 0 0.4659091 0 0.4659091 0.25 0.5938137 0.5721919 0.5938137 0.6916577 0.5925735 0.5721919 0.5938137 0.6916577 0.5243566 0.6916577 0.5925735 0.5721919 0.5911269 0.6398537 0.5870103 0.6398537 0.5870103 0.5656958 0.5255969 0.5721919 0.5938137 0.5721919 0.5938137 0.6916577 0.5938137 0.6916577 0.5243566 0.6916577 0.5255969 0.5721919 0.585136 0.6325331 0.585136 0.6453704 0.5342292 0.6453704 0.585136 0.6325331 0.585136 0.6453704 0.5342292 0.6453704 0.5938137 0.5721919 0.5255969 0.5721919 0.5255969 0.5039258 0.5911269 0.5656958 0.5870103 0.5656958 0.5870103 0.5233199 0.5925735 0.5721919 0.5243566 0.5721919 0.5243566 0.5039258 0.5911269 0.6027747 0.5870103 0.6027747 0.5870103 0.5603988 0.5911269 0.6186658 0.5870103 0.6186658 0.5870103 0.5445078</float_array>
+          <technique_common>
+            <accessor source="#Nok_Wall_Gate_Door-mesh-map-0-array" count="144" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Nok_Wall_Gate_Door-mesh-vertices">
+          <input semantic="POSITION" source="#Nok_Wall_Gate_Door-mesh-positions"/>
+        </vertices>
+        <triangles material="Material-material" count="48">
+          <input semantic="VERTEX" source="#Nok_Wall_Gate_Door-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Nok_Wall_Gate_Door-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Nok_Wall_Gate_Door-mesh-map-0" offset="2" set="0"/>
+          <p>6 0 0 13 0 1 7 0 2 5 1 3 8 1 4 7 1 5 5 2 6 9 2 7 8 2 8 11 3 9 10 3 10 6 3 11 4 4 12 0 4 13 1 4 14 12 5 15 3 5 16 5 5 17 9 6 18 0 6 19 2 6 20 8 7 21 2 7 22 4 7 23 7 8 24 4 8 25 1 8 26 6 9 27 1 9 28 0 9 29 11 10 30 13 10 31 10 10 32 20 11 33 27 11 34 21 11 35 19 12 36 22 12 37 21 12 38 19 13 39 23 13 40 22 13 41 25 14 42 24 14 43 20 14 44 18 15 45 14 15 46 15 15 47 26 16 48 17 16 49 19 16 50 23 17 51 14 17 52 16 17 53 22 18 54 16 18 55 18 18 56 21 19 57 18 19 58 15 19 59 20 20 60 15 20 61 14 20 62 25 21 63 27 21 64 24 21 65 6 22 66 10 22 67 13 22 68 13 23 69 12 23 70 7 23 71 12 24 72 5 24 73 7 24 74 5 25 75 3 25 76 9 25 77 6 26 78 9 26 79 3 26 80 3 27 81 11 27 82 6 27 83 4 28 84 2 28 85 0 28 86 12 29 87 11 29 88 3 29 89 9 30 90 6 30 91 0 30 92 8 31 93 9 31 94 2 31 95 7 32 96 8 32 97 4 32 98 6 33 99 7 33 100 1 33 101 11 34 102 12 34 103 13 34 104 20 35 105 24 35 106 27 35 107 27 36 108 26 36 109 21 36 110 26 37 111 19 37 112 21 37 113 19 38 114 17 38 115 23 38 116 20 39 117 23 39 118 17 39 119 17 40 120 25 40 121 20 40 122 18 41 123 16 41 124 14 41 125 26 42 126 25 42 127 17 42 128 23 43 129 20 43 130 14 43 131 22 44 132 23 44 133 16 44 134 21 45 135 22 45 136 18 45 137 20 46 138 21 46 139 15 46 140 25 47 141 26 47 142 27 47 143</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_nok_wall_gate_door-skin" name="Armature">
+      <skin source="#Nok_Wall_Gate_Door-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_nok_wall_gate_door-skin-joints">
+          <Name_array id="Armature_nok_wall_gate_door-skin-joints-array" count="3">origin door_right door_left</Name_array>
+          <technique_common>
+            <accessor source="#Armature_nok_wall_gate_door-skin-joints-array" count="3" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_nok_wall_gate_door-skin-bind_poses">
+          <float_array id="Armature_nok_wall_gate_door-skin-bind_poses-array" count="48">1 0 0 -0.224722 0 0 1 -0.05104398 0 -1 0 1.377157 0 0 0 1 -0.02020436 -1.22438e-7 0.9997959 -5.318568 -0.9997959 0 -0.02020442 7.939206 0 -1 -1.24441e-7 -0.01845711 0 0 0 1 -0.01836836 8.79658e-6 -0.9998314 5.342535 0.9998314 0 -0.01836824 7.417955 0 -1 -8.79694e-6 -0.01841086 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_nok_wall_gate_door-skin-bind_poses-array" count="3" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_nok_wall_gate_door-skin-weights">
+          <float_array id="Armature_nok_wall_gate_door-skin-weights-array" count="28">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_nok_wall_gate_door-skin-weights-array" count="28" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_nok_wall_gate_door-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_nok_wall_gate_door-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="28">
+          <input semantic="JOINT" source="#Armature_nok_wall_gate_door-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_nok_wall_gate_door-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>2 0 2 1 2 2 2 3 2 4 2 5 2 6 2 7 2 8 2 9 2 10 2 11 2 12 2 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_animations>
+    <animation id="action_container-Armature" name="Armature">
+      <animation id="Armature_ActionClosing_transform" name="Armature">
+        <source id="Armature_ActionClosing_transform-input">
+          <float_array id="Armature_ActionClosing_transform-input-array" count="31">0 0.04166662 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625 0.6666667 0.7083333 0.75 0.7916667 0.8333333 0.875 0.9166667 0.9583333 1 1.041667 1.083333 1.125 1.166667 1.208333 1.25</float_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_transform-input-array" count="31" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ActionClosing_transform-output">
+          <float_array id="Armature_ActionClosing_transform-output-array" count="496">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_transform-output-array" count="31" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ActionClosing_transform-interpolation">
+          <Name_array id="Armature_ActionClosing_transform-interpolation-array" count="31">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_transform-interpolation-array" count="31" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Armature_ActionClosing_transform-sampler">
+          <input semantic="INPUT" source="#Armature_ActionClosing_transform-input"/>
+          <input semantic="OUTPUT" source="#Armature_ActionClosing_transform-output"/>
+          <input semantic="INTERPOLATION" source="#Armature_ActionClosing_transform-interpolation"/>
+        </sampler>
+        <channel source="#Armature_ActionClosing_transform-sampler" target="Armature/transform"/>
+      </animation>
+      <animation id="Armature_ActionClosing_origin_pose_matrix" name="Armature">
+        <source id="Armature_ActionClosing_origin_pose_matrix-input">
+          <float_array id="Armature_ActionClosing_origin_pose_matrix-input-array" count="31">0 0.04166662 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625 0.6666667 0.7083333 0.75 0.7916667 0.8333333 0.875 0.9166667 0.9583333 1 1.041667 1.083333 1.125 1.166667 1.208333 1.25</float_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_origin_pose_matrix-input-array" count="31" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ActionClosing_origin_pose_matrix-output">
+          <float_array id="Armature_ActionClosing_origin_pose_matrix-output-array" count="496">1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1 1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_origin_pose_matrix-output-array" count="31" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ActionClosing_origin_pose_matrix-interpolation">
+          <Name_array id="Armature_ActionClosing_origin_pose_matrix-interpolation-array" count="31">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_origin_pose_matrix-interpolation-array" count="31" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Armature_ActionClosing_origin_pose_matrix-sampler">
+          <input semantic="INPUT" source="#Armature_ActionClosing_origin_pose_matrix-input"/>
+          <input semantic="OUTPUT" source="#Armature_ActionClosing_origin_pose_matrix-output"/>
+          <input semantic="INTERPOLATION" source="#Armature_ActionClosing_origin_pose_matrix-interpolation"/>
+        </sampler>
+        <channel source="#Armature_ActionClosing_origin_pose_matrix-sampler" target="Armature_origin/transform"/>
+      </animation>
+      <animation id="Armature_ActionClosing_door_right_pose_matrix" name="Armature">
+        <source id="Armature_ActionClosing_door_right_pose_matrix-input">
+          <float_array id="Armature_ActionClosing_door_right_pose_matrix-input-array" count="31">0 0.04166662 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625 0.6666667 0.7083333 0.75 0.7916667 0.8333333 0.875 0.9166667 0.9583333 1 1.041667 1.083333 1.125 1.166667 1.208333 1.25</float_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_door_right_pose_matrix-input-array" count="31" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ActionClosing_door_right_pose_matrix-output">
+          <float_array id="Armature_ActionClosing_door_right_pose_matrix-output-array" count="496">-1.47034e-7 1.76498e-7 -1 7.605404 0.9997957 -0.02020442 -1.30385e-7 5.426846 -0.02020442 -0.9997959 -1.7347e-7 1.395615 0 0 0 1 -0.001155682 -0.0571804 -0.9983633 7.605404 0.9997957 -0.02020442 -1.30052e-7 5.426846 -0.02017134 -0.9981595 0.05719208 1.395615 0 0 0 1 -0.002333032 -0.1154406 -0.9933118 7.605404 0.9997958 -0.02020443 -1.26127e-7 5.426846 -0.02006928 -0.993109 0.1154641 1.395615 0 0 0 1 -0.003526587 -0.174502 -0.9846504 7.605404 0.9997957 -0.02020442 -1.33478e-7 5.426846 -0.01989427 -0.9844494 0.1745377 1.395615 0 0 0 1 -0.004730019 -0.2340531 -0.9722123 7.605404 0.9997957 -0.02020442 -1.29715e-7 5.426846 -0.01964296 -0.9720139 0.2341008 1.395615 0 0 0 1 -0.005936432 -0.2937517 -0.9558632 7.605404 0.9997956 -0.02020442 -1.24107e-7 5.426846 -0.01931263 -0.9556683 0.2938116 1.395615 0 0 0 1 -0.007138398 -0.3532299 -0.9355093 7.605404 0.9997958 -0.02020442 -1.24059e-7 5.426846 -0.01890138 -0.9353184 0.3533019 1.395615 0 0 0 1 -0.008328024 -0.4120975 -0.9111018 7.605404 0.9997957 -0.02020442 -1.23936e-7 5.426846 -0.01840823 -0.9109159 0.4121817 1.395615 0 0 0 1 -0.009497187 -0.4699526 -0.8826406 7.605404 0.9997958 -0.02020442 -1.23686e-7 5.426846 -0.01783318 -0.8824604 0.4700486 1.395615 0 0 0 1 -0.01063761 -0.5263854 -0.8501796 7.605404 0.9997958 -0.02020442 -1.26985e-7 5.426846 -0.01717732 -0.850006 0.5264929 1.395615 0 0 0 1 -0.01174108 -0.5809898 -0.8138262 7.605404 0.9997957 -0.02020442 -1.28193e-7 5.426846 -0.01644281 -0.8136601 0.5811084 1.395615 0 0 0 1 -0.01279962 -0.6333708 -0.7737425 7.605404 0.9997959 -0.02020442 -1.27262e-7 5.426846 -0.01563294 -0.7735847 0.6335001 1.395615 0 0 0 1 -0.01380566 -0.6831541 -0.7301438 7.605404 0.9997958 -0.02020442 -1.23214e-7 5.426846 -0.01475205 -0.7299948 0.6832936 1.395615 0 0 0 1 -0.01475223 -0.7299945 -0.6832938 7.605404 0.9997959 -0.02020442 -1.22525e-7 5.426846 -0.01380546 -0.6831543 0.7301435 1.395615 0 0 0 1 -0.01563311 -0.7735846 -0.6335002 7.605404 0.9997957 -0.02020442 -1.205e-7 5.426846 -0.01279941 -0.6333709 0.7737424 1.395615 0 0 0 1 -0.01644297 -0.8136597 -0.5811086 7.605404 0.9997959 -0.02020441 -1.26419e-7 5.426846 -0.01174086 -0.58099 0.8138259 1.395615 0 0 0 1 -0.01717746 -0.8500058 -0.5264931 7.605404 0.9997959 -0.02020441 -1.23493e-7 5.426846 -0.01063738 -0.5263857 0.8501794 1.395615 0 0 0 1 -0.01783331 -0.8824604 -0.4700486 7.605404 0.9997958 -0.02020441 -1.1915e-7 5.426846 -0.009496951 -0.4699527 0.8826405 1.395615 0 0 0 1 -0.01840834 -0.9109155 -0.4121819 7.605404 0.9997959 -0.02020441 -1.20829e-7 5.426846 -0.008327782 -0.4120978 0.9111016 1.395615 0 0 0 1 -0.01890148 -0.9353182 -0.353302 7.605404 0.9997958 -0.02020441 -1.23867e-7 5.426846 -0.007138143 -0.3532299 0.9355093 1.395615 0 0 0 1 -0.01931271 -0.9556681 -0.2938121 7.605404 0.9997958 -0.02020441 -1.24537e-7 5.426846 -0.00593618 -0.2937521 0.9558632 1.395615 0 0 0 1 -0.01964302 -0.9720138 -0.234101 7.605404 0.9997958 -0.0202044 -1.20518e-7 5.426846 -0.004729756 -0.2340533 0.9722123 1.395615 0 0 0 1 -0.01989432 -0.9844495 -0.1745377 7.605404 0.9997959 -0.0202044 -1.22997e-7 5.426846 -0.003526309 -0.1745021 0.9846505 1.395615 0 0 0 1 -0.0200693 -0.9931089 -0.1154642 7.605404 0.9997958 -0.0202044 -1.21746e-7 5.426846 -0.002332765 -0.1154407 0.9933116 1.395615 0 0 0 1 -0.02017136 -0.9981594 -0.05719233 7.605404 0.9997959 -0.0202044 -1.21095e-7 5.426846 -0.001155416 -0.05718066 0.9983632 1.395615 0 0 0 1 -0.02020442 -0.9997959 -9.78817e-8 7.605404 0.9997959 -0.0202044 -1.24325e-7 5.426846 1.22322e-7 -1.00374e-7 1 1.395615 0 0 0 1 -0.02020442 -0.9997959 -9.78793e-8 7.605404 0.9997959 -0.0202044 -1.24441e-7 5.426846 1.22438e-7 -1.00374e-7 1 1.395615 0 0 0 1 -0.02020442 -0.9997959 -9.78793e-8 7.605404 0.9997959 -0.0202044 -1.24441e-7 5.426846 1.22438e-7 -1.00374e-7 1 1.395615 0 0 0 1 -0.02020442 -0.9997959 -9.78793e-8 7.605404 0.9997959 -0.0202044 -1.24441e-7 5.426846 1.22438e-7 -1.00374e-7 1 1.395615 0 0 0 1 -0.02020442 -0.9997959 -9.78793e-8 7.605404 0.9997959 -0.0202044 -1.24441e-7 5.426846 1.22438e-7 -1.00374e-7 1 1.395615 0 0 0 1 -0.02020442 -0.9997959 -9.78793e-8 7.605404 0.9997959 -0.0202044 -1.24441e-7 5.426846 1.22438e-7 -1.00374e-7 1 1.395615 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_door_right_pose_matrix-output-array" count="31" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ActionClosing_door_right_pose_matrix-interpolation">
+          <Name_array id="Armature_ActionClosing_door_right_pose_matrix-interpolation-array" count="31">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_door_right_pose_matrix-interpolation-array" count="31" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Armature_ActionClosing_door_right_pose_matrix-sampler">
+          <input semantic="INPUT" source="#Armature_ActionClosing_door_right_pose_matrix-input"/>
+          <input semantic="OUTPUT" source="#Armature_ActionClosing_door_right_pose_matrix-output"/>
+          <input semantic="INTERPOLATION" source="#Armature_ActionClosing_door_right_pose_matrix-interpolation"/>
+        </sampler>
+        <channel source="#Armature_ActionClosing_door_right_pose_matrix-sampler" target="Armature_door_right/transform"/>
+      </animation>
+      <animation id="Armature_ActionClosing_door_left_pose_matrix" name="Armature">
+        <source id="Armature_ActionClosing_door_left_pose_matrix-input">
+          <float_array id="Armature_ActionClosing_door_left_pose_matrix-input-array" count="31">0 0.04166662 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625 0.6666667 0.7083333 0.75 0.7916667 0.8333333 0.875 0.9166667 0.9583333 1 1.041667 1.083333 1.125 1.166667 1.208333 1.25</float_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_door_left_pose_matrix-input-array" count="31" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ActionClosing_door_left_pose_matrix-output">
+          <float_array id="Armature_ActionClosing_door_left_pose_matrix-output-array" count="496">-8.66988e-6 -3.12511e-7 1 -7.543292 -0.9998313 -0.01836826 -8.79727e-6 5.426846 0.01836826 -0.9998315 -1.53192e-7 1.395615 0 0 0 1 -0.001059181 0.05718225 0.9983635 -7.543292 -0.9998313 -0.01836826 -8.80492e-6 5.426846 0.01833769 -0.9981948 0.05719208 1.395615 0 0 0 1 -0.002129494 0.1154447 0.9933118 -7.543292 -0.9998313 -0.01836826 -8.80159e-6 5.426846 0.01824439 -0.9931442 0.1154643 1.395615 0 0 0 1 -0.003214487 0.1745076 0.984651 -7.543292 -0.9998313 -0.01836826 -8.8053e-6 5.426846 0.01808478 -0.9844849 0.1745372 1.395615 0 0 0 1 -0.00430846 0.234061 0.9722126 -7.543292 -0.9998313 -0.01836826 -8.80587e-6 5.426846 0.0178558 -0.9720484 0.2341007 1.395615 0 0 0 1 -0.005405109 0.2937621 0.9558636 -7.543292 -0.9998313 -0.01836827 -8.8096e-6 5.426846 0.01755497 -0.9557021 0.2938119 1.395615 0 0 0 1 -0.006497666 0.353242 0.9355096 -7.543292 -0.9998314 -0.01836828 -8.81698e-6 5.426846 0.01718058 -0.9353515 0.3533019 1.395615 0 0 0 1 -0.007578976 0.4121121 0.9111018 -7.543292 -0.9998313 -0.01836828 -8.81527e-6 5.426846 0.01673174 -0.9109479 0.4121819 1.395615 0 0 0 1 -0.008641643 0.4699693 0.8826408 -7.543292 -0.9998313 -0.01836829 -8.81395e-6 5.426846 0.01620845 -0.8824916 0.4700488 1.395615 0 0 0 1 -0.009678146 0.5264039 0.8501797 -7.543292 -0.9998313 -0.01836829 -8.81968e-6 5.426846 0.01561171 -0.8500363 0.5264929 1.395615 0 0 0 1 -0.01068102 0.5810102 0.8138264 -7.543292 -0.9998313 -0.0183683 -8.81864e-6 5.426846 0.01494348 -0.8136892 0.5811085 1.395615 0 0 0 1 -0.01164302 0.6333932 0.7737426 -7.543292 -0.9998311 -0.0183683 -8.81666e-6 5.426846 0.01420675 -0.7736121 0.6335003 1.395615 0 0 0 1 -0.01255726 0.6831781 0.730144 -7.543292 -0.9998311 -0.01836831 -8.81976e-6 5.426846 0.01340548 -0.730021 0.6832935 1.395615 0 0 0 1 -0.01341741 0.7300204 0.6832938 -7.543292 -0.9998311 -0.01836831 -8.82025e-6 5.426845 0.01254451 -0.6831787 0.7301437 1.395615 0 0 0 1 -0.01421781 0.7736118 0.6335003 -7.543292 -0.9998313 -0.01836832 -8.82101e-6 5.426845 0.01162951 -0.6333936 0.7737425 1.395615 0 0 0 1 -0.01495362 0.8136886 0.5811087 -7.543292 -0.9998313 -0.01836832 -8.82159e-6 5.426845 0.01066682 -0.5810108 0.813826 1.395615 0 0 0 1 -0.01562089 0.850036 0.5264932 -7.543292 -0.9998313 -0.01836833 -8.82194e-6 5.426845 0.009663302 -0.5264046 0.8501794 1.395615 0 0 0 1 -0.01621665 0.8824914 0.4700489 -7.543292 -0.9998313 -0.01836833 -8.81692e-6 5.426845 0.008626234 -0.4699697 0.8826404 1.395615 0 0 0 1 -0.01673893 0.9109479 0.412182 -7.543292 -0.9998313 -0.01836834 -8.8163e-6 5.426845 0.007563068 -0.4121127 0.9111015 1.395615 0 0 0 1 -0.01718674 0.9353515 0.3533021 -7.543292 -0.9998313 -0.01836835 -8.81309e-6 5.426845 0.006481331 -0.3532427 0.9355093 1.395615 0 0 0 1 -0.01756009 0.9557019 0.2938119 -7.543292 -0.9998313 -0.01836835 -8.80867e-6 5.426845 0.005388422 -0.2937625 0.9558632 1.395615 0 0 0 1 -0.01785987 0.9720482 0.2341011 -7.543292 -0.9998313 -0.01836835 -8.8086e-6 5.426845 0.004291489 -0.2340617 0.9722123 1.395615 0 0 0 1 -0.01808782 0.9844843 0.1745377 -7.543292 -0.9998311 -0.01836836 -8.8044e-6 5.426845 0.003197303 -0.1745084 0.9846505 1.395615 0 0 0 1 -0.0182464 0.993144 0.1154642 -7.543292 -0.9998313 -0.01836836 -8.80539e-6 5.426845 0.002112144 -0.1154449 0.9933116 1.395615 0 0 0 1 -0.01833868 0.9981949 0.05719232 -7.543292 -0.9998313 -0.01836837 -8.80128e-6 5.426845 0.001041744 -0.05718284 0.9983632 1.395615 0 0 0 1 -0.01836824 0.9998313 -6.12242e-8 -7.543292 -0.9998313 -0.01836837 -8.79705e-6 5.426845 -8.79669e-6 -1.00374e-7 1 1.395615 0 0 0 1 -0.01836824 0.9998313 -6.12221e-8 -7.543292 -0.9998313 -0.01836837 -8.79694e-6 5.426845 -8.79658e-6 -1.00374e-7 1 1.395615 0 0 0 1 -0.01836824 0.9998313 -6.12221e-8 -7.543292 -0.9998313 -0.01836837 -8.79694e-6 5.426845 -8.79658e-6 -1.00374e-7 1 1.395615 0 0 0 1 -0.01836824 0.9998313 -6.12221e-8 -7.543292 -0.9998313 -0.01836837 -8.79694e-6 5.426845 -8.79658e-6 -1.00374e-7 1 1.395615 0 0 0 1 -0.01836824 0.9998313 -6.12221e-8 -7.543292 -0.9998313 -0.01836837 -8.79694e-6 5.426845 -8.79658e-6 -1.00374e-7 1 1.395615 0 0 0 1 -0.01836824 0.9998313 -6.12221e-8 -7.543292 -0.9998313 -0.01836837 -8.79694e-6 5.426845 -8.79658e-6 -1.00374e-7 1 1.395615 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_door_left_pose_matrix-output-array" count="31" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ActionClosing_door_left_pose_matrix-interpolation">
+          <Name_array id="Armature_ActionClosing_door_left_pose_matrix-interpolation-array" count="31">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#Armature_ActionClosing_door_left_pose_matrix-interpolation-array" count="31" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Armature_ActionClosing_door_left_pose_matrix-sampler">
+          <input semantic="INPUT" source="#Armature_ActionClosing_door_left_pose_matrix-input"/>
+          <input semantic="OUTPUT" source="#Armature_ActionClosing_door_left_pose_matrix-output"/>
+          <input semantic="INTERPOLATION" source="#Armature_ActionClosing_door_left_pose_matrix-interpolation"/>
+        </sampler>
+        <channel source="#Armature_ActionClosing_door_left_pose_matrix-sampler" target="Armature_door_left/transform"/>
+      </animation>
+    </animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_origin" name="origin" sid="origin" type="JOINT">
+          <matrix sid="transform">1 0 0 0.224722 0 0 -1 1.377157 0 1 0 0.05104399 0 0 0 1</matrix>
+          <node id="Armature_door_right" name="door_right" sid="door_right" type="JOINT">
+            <matrix sid="transform">-0.02020442 -0.9997959 -9.78793e-8 7.605404 0.9997959 -0.0202044 -1.24441e-7 5.426846 1.22438e-7 -1.00374e-7 1 1.395615 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <collections type="string">Bones</collections>
+                <roll sid="roll" type="float">-1.591002</roll>
+                <tip_x sid="tip_x" type="float">-2.374826</tip_x>
+                <tip_y sid="tip_y" type="float">2.38419e-7</tip_y>
+                <tip_z sid="tip_z" type="float">-0.04799175</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_door_left" name="door_left" sid="door_left" type="JOINT">
+            <matrix sid="transform">-0.01836824 0.9998313 -6.12221e-8 -7.543292 -0.9998313 -0.01836837 -8.79694e-6 5.426845 -8.79658e-6 -1.00374e-7 1 1.395615 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <collections type="string">Bones</collections>
+                <roll sid="roll" type="float">1.589174</roll>
+                <tip_x sid="tip_x" type="float">2.374911</tip_x>
+                <tip_y sid="tip_y" type="float">2.38419e-7</tip_y>
+                <tip_z sid="tip_z" type="float">-0.04363059</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <collections type="string">Bones</collections>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">0</tip_y>
+              <tip_z sid="tip_z" type="float">2.295914</tip_z>
+            </technique>
+          </extra>
+        </node>
+        <node id="nok_wall_gate_door" name="nok_wall_gate_door" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#Armature_nok_wall_gate_door-skin">
+            <skeleton>#Armature_origin</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="Material-material" target="#Material-material">
+                  <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <extra>
+          <technique profile="blender">
+            <collections sid="collections" type="string">Bones</collections>
+            <visible_collections sid="visible_collections" type="string">Bones</visible_collections>
+            <active_collection sid="active_collection" type="string">Bones</active_collection>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

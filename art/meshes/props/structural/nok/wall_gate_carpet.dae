@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-05-26T16:12:58</created>
+    <modified>2026-05-26T16:12:58</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Nok_Wall_Gate_Carpet-mesh" name="Nok Wall Gate Carpet">
+      <mesh>
+        <source id="Nok_Wall_Gate_Carpet-mesh-positions">
+          <float_array id="Nok_Wall_Gate_Carpet-mesh-positions-array" count="72">-11.01321 -1.305591 11.70911 -12.3949 -1.297443 11.70784 -11.02072 -2.528155 11.70891 -12.40227 -2.520008 11.70764 -11.02072 -2.528155 7.594247 -12.40227 -2.520008 7.597995 12.29911 -1.305591 11.70911 10.91742 -1.297443 11.70784 12.2916 -2.528155 11.70891 10.91005 -2.520007 11.70764 12.2916 -2.528155 7.594247 10.91005 -2.520008 7.597995 11.02529 1.186291 11.70911 12.40699 1.189849 11.70784 11.01836 2.408857 11.70891 12.39993 2.412415 11.70764 11.01836 2.408857 7.594247 12.39993 2.412415 7.597995 -12.28639 1.080394 11.70911 -10.90468 1.083952 11.70784 -12.29332 2.30296 11.70891 -10.91174 2.306518 11.70764 -12.29332 2.30296 7.594247 -10.91174 2.306518 7.597995</float_array>
+          <technique_common>
+            <accessor source="#Nok_Wall_Gate_Carpet-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Wall_Gate_Carpet-mesh-normals">
+          <float_array id="Nok_Wall_Gate_Carpet-mesh-normals-array" count="96">-0.005896866 -0.9999827 0 -0.005896866 -0.9999827 0 -0.005896866 -0.9999827 0 -9.19231e-4 -1.57789e-4 0.9999997 -9.19211e-4 -1.57857e-4 0.9999997 -9.19349e-4 -1.57381e-4 0.9999996 -0.005897402 -0.9999826 1.9992e-7 -0.005897045 -0.9999827 0 -0.005896866 -0.9999827 0 -9.19409e-4 -1.57791e-4 0.9999997 -9.19362e-4 -1.57861e-4 0.9999997 -9.19684e-4 -1.57381e-4 0.9999996 -0.002575218 0.9999968 0 -0.002575218 0.9999968 0 -0.002575218 0.9999967 0 9.17884e-4 1.68712e-4 0.9999997 9.17733e-4 1.68644e-4 0.9999997 9.16839e-4 1.68239e-4 0.9999996 -0.002575218 0.9999968 0 -0.002575218 0.9999968 0 -0.002575218 0.9999967 0 9.18402e-4 1.68712e-4 0.9999997 9.18338e-4 1.68643e-4 0.9999997 9.17963e-4 1.68234e-4 0.9999997 -0.005896866 -0.9999827 0 -9.19092e-4 -1.58265e-4 0.9999996 -0.005897581 -0.9999826 2.51949e-7 -9.19087e-4 -1.58271e-4 0.9999996 -0.002575218 0.9999967 0 9.18778e-4 1.69117e-4 0.9999997 -0.002575218 0.9999967 0 9.18776e-4 1.6912e-4 0.9999996</float_array>
+          <technique_common>
+            <accessor source="#Nok_Wall_Gate_Carpet-mesh-normals-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Wall_Gate_Carpet-mesh-map-0">
+          <float_array id="Nok_Wall_Gate_Carpet-mesh-map-0-array" count="96">0.1921958 0.1818022 0.1389901 0.01259148 0.1920701 0.01240473 0.1920754 0.2321348 0.1391156 0.1817824 0.1921958 0.1818022 0.1921959 0.1818022 0.13899 0.0125916 0.19207 0.01240479 0.1920756 0.2321348 0.1391158 0.1817824 0.1921959 0.1818022 0.1921957 0.1818023 0.1389902 0.01259148 0.1920701 0.01240473 0.1389902 0.232115 0.1921957 0.1818023 0.1920752 0.2321348 0.1921958 0.1818022 0.1389902 0.01259148 0.1920701 0.01240479 0.1389901 0.232115 0.1921958 0.1818022 0.1920754 0.2321348 0.1921958 0.1818022 0.1391156 0.1817824 0.1389901 0.01259148 0.1920754 0.2321348 0.1389901 0.232115 0.1391156 0.1817824 0.1921959 0.1818022 0.1391158 0.1817824 0.13899 0.0125916 0.1920756 0.2321348 0.13899 0.232115 0.1391158 0.1817824 0.1921957 0.1818023 0.1391156 0.1817824 0.1389902 0.01259148 0.1389902 0.232115 0.1391156 0.1817824 0.1921957 0.1818023 0.1921958 0.1818022 0.1391156 0.1817824 0.1389902 0.01259148 0.1389901 0.232115 0.1391156 0.1817824 0.1921958 0.1818022</float_array>
+          <technique_common>
+            <accessor source="#Nok_Wall_Gate_Carpet-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Wall_Gate_Carpet-mesh-map-1">
+          <float_array id="Nok_Wall_Gate_Carpet-mesh-map-1-array" count="96">0.376001 0.8313313 0.4146646 0.751001 0.376001 0.751001 0.3313313 0.751001 0.313501 0.7896647 0.313501 0.751001 0.4156656 0.752002 0.377002 0.8323323 0.4156656 0.8323323 0.314502 0.7906657 0.3323323 0.752002 0.3323323 0.7906657 0.3343343 0.8313313 0.372998 0.751001 0.3343343 0.751001 0.2926676 0.7896647 0.310498 0.751001 0.2926676 0.751001 0.373999 0.752002 0.3353353 0.8323323 0.373999 0.8323323 0.311499 0.752002 0.2936686 0.7906657 0.311499 0.7906657 0.497998 0.751001 0.4593343 0.751001 0.4593343 0.8313313 0.1676676 0.7896647 0.1676676 0.751001 0.1854979 0.751001 0.4603353 0.8323323 0.498999 0.8323323 0.498999 0.752002 0.1864989 0.752002 0.1864989 0.7906657 0.1686686 0.7906657 0.4563313 0.751001 0.4176676 0.751001 0.4176676 0.8313313 0.2479979 0.751001 0.2301676 0.751001 0.2301676 0.7896647 0.4186686 0.8323323 0.4573323 0.8323323 0.4573323 0.752002 0.2311686 0.7906657 0.2489989 0.7906657 0.2489989 0.752002</float_array>
+          <technique_common>
+            <accessor source="#Nok_Wall_Gate_Carpet-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Nok_Wall_Gate_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Nok_Wall_Gate_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Nok_Wall_Gate_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Nok_Wall_Gate_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Nok_Wall_Gate_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Nok_Wall_Gate_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>2 0 0 5 1 1 4 2 2 0 3 3 3 4 4 2 5 5 8 6 6 11 7 7 10 8 8 6 9 9 9 10 10 8 11 11 14 12 12 17 13 13 16 14 14 13 15 15 14 16 16 12 17 17 20 18 18 23 19 19 22 20 20 19 21 21 20 22 22 18 23 23 2 0 24 3 24 25 5 1 26 0 3 27 1 25 28 3 4 29 8 6 30 9 26 31 11 7 32 6 9 33 7 27 34 9 10 35 14 12 36 15 28 37 17 13 38 13 15 39 15 29 40 14 16 41 20 18 42 21 30 43 23 19 44 19 21 45 21 31 46 20 22 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="nok_wall_gate_carpet" name="nok_wall_gate_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Nok_Wall_Gate_Carpet-mesh" name="nok_wall_gate_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

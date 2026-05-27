@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
-    <Square width="25" depth="6"/>
+    <Square width="17.0" depth="8.0"/>
     <Height>12.6</Height>
   </Footprint>
   <Identity>
@@ -9,7 +9,7 @@
     <SpecificName>Okuta Odi</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24" depth="5"/>
+    <Static width="16.5" depth="7.5"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>13.6</HeightOffset>
@@ -38,7 +38,10 @@
       </Four>
     </TurretPoints>
   </TurretHolder>
+  <WallPiece>
+    <Length>16.0</Length>
+  </WallPiece>
   <VisualActor>
-    <Actor>structures/nok/wall_med.xml</Actor>
+    <Actor>structures/nok/wall_medium.xml</Actor>
   </VisualActor>
 </Entity>

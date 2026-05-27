@@ -75,7 +75,7 @@
         "skirmish/units/default_cavalry": "units/nok/cavalry_scout",
         "skirmish/units/default_infantry_melee_b": "units/nok/infantry_axeman_b",
         "skirmish/units/default_infantry_ranged_b": "units/nok/infantry_archer_b",
-        "skirmish/units/special_starting_unit": "units/numi/cavalry_maceman_b",
+        "skirmish/units/special_starting_unit": "units/nok/cavalry_maceman_b",
         "skirmish/units/default_ship_trireme": "units/nok/ship_bireme"
     },
     "SelectableInGameSetup": true

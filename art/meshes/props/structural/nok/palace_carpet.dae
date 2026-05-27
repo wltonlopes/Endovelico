@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-05-26T05:04:45</created>
+    <modified>2026-05-26T05:04:45</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Nok_Palace_Carpet-mesh" name="Nok Palace Carpet">
+      <mesh>
+        <source id="Nok_Palace_Carpet-mesh-positions">
+          <float_array id="Nok_Palace_Carpet-mesh-positions-array" count="54">0.5854735 5.232032 0.2893074 -0.5849853 5.234146 0.288038 0.5854183 4.009452 0.2891118 -0.5849292 4.011565 0.2878429 -0.5849292 4.011565 -0.9327043 0.5854183 4.009452 -0.936452 4.874267 -0.4428538 0.2893086 4.877287 0.7276043 0.2880386 3.651687 -0.4418508 0.2891124 3.654707 0.7284943 0.2878435 3.654707 0.7284943 -0.9327037 3.651687 -0.4418508 -0.9364502 -4.906941 -0.4474698 0.289308 -4.908146 0.7229911 0.2880386 -3.68436 -0.4483619 0.2891124 -3.685566 0.7219871 0.2878435 -3.685566 0.7219862 -0.9327049 -3.68436 -0.4483619 -0.9364514</float_array>
+          <technique_common>
+            <accessor source="#Nok_Palace_Carpet-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Palace_Carpet-mesh-normals">
+          <float_array id="Nok_Palace_Carpet-mesh-normals-array" count="72">-0.001084625 -1.59784e-4 0.9999994 -0.001084864 -1.59619e-4 0.9999995 -0.001084625 -1.59793e-4 0.9999994 -0.001084446 -1.59959e-4 0.9999994 -0.001805305 -0.9999985 0 -0.001805305 -0.9999984 0 -0.001805305 -0.9999985 0 -0.001805305 -0.9999985 0 -1.59175e-4 0.001085042 0.9999994 -1.58784e-4 0.0010854 0.9999995 -1.59197e-4 0.001084983 0.9999994 -1.59588e-4 0.001084566 0.9999994 -0.9999967 0.002580285 0 -0.9999967 0.002580344 0 -0.9999967 0.002580285 0 -0.9999967 0.002580225 0 1.60635e-4 0.001084506 0.9999994 1.60643e-4 0.001084506 0.9999995 1.60482e-4 0.001084685 0.9999995 1.60796e-4 0.001084327 0.9999994 0.9999995 0.001030266 0 0.9999995 0.001030266 0 0.9999995 0.001030087 0 0.9999995 0.001030385 0</float_array>
+          <technique_common>
+            <accessor source="#Nok_Palace_Carpet-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Palace_Carpet-mesh-map-0">
+          <float_array id="Nok_Palace_Carpet-mesh-map-0-array" count="72">0.1928848 0.2327546 0.1393642 0.2326399 0.1395283 0.1220899 0.1928848 0.2327546 0.1395283 0.1220899 0.1930438 0.1222046 0.1930438 0.1222046 0.1395283 0.1220899 0.1395283 0.01172322 0.1930438 0.1222046 0.1395283 0.01172322 0.1930438 0.0113843 0.1928848 0.2327546 0.1393642 0.2326398 0.1395283 0.1220898 0.1928848 0.2327546 0.1395283 0.1220898 0.1930438 0.1222045 0.1930438 0.1222045 0.1395283 0.1220898 0.1395283 0.01172316 0.1930438 0.1222045 0.1395283 0.01172316 0.1930438 0.01138436 0.1394928 0.2327548 0.19291 0.1222045 0.1930134 0.2327548 0.1394928 0.2327548 0.1393945 0.1222044 0.19291 0.1222045 0.1393945 0.1222044 0.1929706 0.01183784 0.19291 0.1222045 0.1393945 0.1222044 0.1394553 0.01138412 0.1929706 0.01183784</float_array>
+          <technique_common>
+            <accessor source="#Nok_Palace_Carpet-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Palace_Carpet-mesh-map-1">
+          <float_array id="Nok_Palace_Carpet-mesh-map-1-array" count="72">0.2820889 0.4441828 0.2737283 0.4441828 0.2737283 0.4525434 0.2850919 0.4411798 0.2934525 0.4328192 0.2850919 0.4328192 0.2820889 0.4328192 0.2737283 0.4328192 0.2737283 0.4411798 0.3078192 0.4525434 0.3161798 0.4441828 0.3078192 0.4441828 0.2747293 0.4535444 0.2830899 0.4535444 0.2830899 0.4451838 0.2944535 0.4338202 0.2860929 0.4421808 0.2944535 0.4421808 0.2747293 0.4421808 0.2830899 0.4421808 0.2830899 0.4338202 0.2964555 0.4525434 0.3048162 0.4441828 0.2964555 0.4441828 0.3161798 0.4328192 0.3078192 0.4411798 0.3078192 0.4328192 0.3058172 0.4451838 0.3058172 0.4535444 0.2974565 0.4535444 0.3088202 0.4421808 0.3171808 0.4338202 0.3171808 0.4421808 0.3171808 0.4451838 0.3171808 0.4535444 0.3088202 0.4535444</float_array>
+          <technique_common>
+            <accessor source="#Nok_Palace_Carpet-mesh-map-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Nok_Palace_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Nok_Palace_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="12">
+          <input semantic="VERTEX" source="#Nok_Palace_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Nok_Palace_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Nok_Palace_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Nok_Palace_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>0 0 0 1 1 1 3 2 2 0 0 3 3 2 4 2 3 5 2 4 6 3 5 7 4 6 8 2 4 9 4 6 10 5 7 11 6 8 12 7 9 13 9 10 14 6 8 15 9 10 16 8 11 17 8 12 18 9 13 19 10 14 20 8 12 21 10 14 22 11 15 23 12 16 24 15 17 25 13 18 26 12 16 27 14 19 28 15 17 29 14 20 30 16 21 31 15 22 32 14 20 33 17 23 34 16 21 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="nok_palace_carpet" name="nok_palace_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Nok_Palace_Carpet-mesh" name="nok_palace_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -14,12 +14,12 @@
   <group>
     <variant frequency="1" name="scyth-tunic-old">
       <textures>
-        <texture file="skeletal/pers/scale_01_02.png.dds" name="baseTex"/>
+        <texture file="skeletal/pers/scale_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scyth-tunic-2a">
       <textures>
-        <texture file="skeletal/scyth/tunic_basic_01_01.png" name="baseTex"/>
+        <texture file="skeletal/scyth/tunic_coat_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scyth-tunic-2b">

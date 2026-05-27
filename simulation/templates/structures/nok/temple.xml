@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Footprint>
-    <Square width="26" depth="20"/>
+    <Square width="20.0" depth="30.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -12,7 +12,7 @@
     <SpecificName>Ile Olorun</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24" depth="18"/>
+    <Static width="19.5" depth="29.5"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
@@ -26,6 +26,6 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/nok/temple.xml</Actor>
-    <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

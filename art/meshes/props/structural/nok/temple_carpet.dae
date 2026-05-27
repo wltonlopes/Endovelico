@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-05-26T07:23:48</created>
+    <modified>2026-05-26T07:23:48</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Nok_Temple_Carpet-mesh" name="Nok Temple Carpet">
+      <mesh>
+        <source id="Nok_Temple_Carpet-mesh-positions">
+          <float_array id="Nok_Temple_Carpet-mesh-positions-array" count="18">1.348908 -11.86603 0.2893038 -1.009323 -11.86391 0.2880347 1.348797 -13.08861 0.2891085 -1.009208 -13.08649 0.2878394 1.348797 -13.08861 -0.9364556 -1.009208 -13.08649 -0.9327085</float_array>
+          <technique_common>
+            <accessor source="#Nok_Temple_Carpet-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Temple_Carpet-mesh-normals">
+          <float_array id="Nok_Temple_Carpet-mesh-normals-array" count="21">-8.99072e-4 -0.9999997 0 -8.99072e-4 -0.9999996 0 -5.38343e-4 -1.59721e-4 1 -5.3833e-4 -1.5976e-4 1 -5.38353e-4 -1.59691e-4 1 -8.99072e-4 -0.9999996 0 -5.3832e-4 -1.5979e-4 1</float_array>
+          <technique_common>
+            <accessor source="#Nok_Temple_Carpet-mesh-normals-array" count="7" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Temple_Carpet-mesh-map-0">
+          <float_array id="Nok_Temple_Carpet-mesh-map-0-array" count="24">0.192669 0.121887 0.1389209 0.01174175 0.192669 0.01140397 0.1926316 0.2321009 0.1389209 0.1217726 0.192669 0.121887 0.192669 0.121887 0.1389209 0.1217726 0.1389209 0.01174175 0.1926316 0.2321009 0.1388782 0.2319865 0.1389209 0.1217726</float_array>
+          <technique_common>
+            <accessor source="#Nok_Temple_Carpet-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Temple_Carpet-mesh-map-1">
+          <float_array id="Nok_Temple_Carpet-mesh-map-1-array" count="24">0.7291808 0.2149047 0.7106784 0.2546825 0.7106784 0.2149047 0.7116794 0.2556835 0.7301818 0.2159057 0.7301818 0.2556835 0.6891731 0.2546825 0.6891731 0.2149047 0.7076754 0.2149047 0.7086764 0.2159057 0.7086764 0.2556835 0.6901741 0.2556835</float_array>
+          <technique_common>
+            <accessor source="#Nok_Temple_Carpet-mesh-map-1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Nok_Temple_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Nok_Temple_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="4">
+          <input semantic="VERTEX" source="#Nok_Temple_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Nok_Temple_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Nok_Temple_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Nok_Temple_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>2 0 0 5 0 1 4 1 2 0 2 3 3 3 4 2 4 5 2 0 6 3 5 7 5 0 8 0 2 9 1 6 10 3 3 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="nok_temple_carpert" name="nok_temple_carpert" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Nok_Temple_Carpet-mesh" name="nok_temple_carpert"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

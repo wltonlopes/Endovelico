@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_fortress">
   <Footprint>
-    <Square width="28.0" depth="28.0"/>
+    <Square width="30.0" depth="30.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
@@ -9,16 +9,14 @@
     <SpecificName>Odi</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="26.0" depth="26.0"/>
+    <Static width="29.5" depth="29.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/nok/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_himiko
-      units/{civ}/hero_keiko
-      units/{civ}/hero_wousu
     </Entities>
   </Trainer>
   <WallPiece>

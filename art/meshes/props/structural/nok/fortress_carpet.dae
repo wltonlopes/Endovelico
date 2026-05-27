@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-05-25T20:18:38</created>
+    <modified>2026-05-25T20:18:38</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Nok_Fortress_Carpet-mesh" name="Nok Fortress Carpet">
+      <mesh>
+        <source id="Nok_Fortress_Carpet-mesh-positions">
+          <float_array id="Nok_Fortress_Carpet-mesh-positions-array" count="72">-5.33919 -11.65079 10.19196 -6.448719 -11.27807 10.19069 -5.726469 -12.81041 10.19177 -6.835893 -12.43773 10.1905 -5.726469 -12.81041 6.077105 -6.835893 -12.43773 6.080853 2.087128 -11.88975 10.19196 0.9166955 -11.8816 10.19069 2.08077 -13.11231 10.19177 0.9104488 -13.10417 10.1905 2.08077 -13.11231 6.077105 0.9104487 -13.10417 6.080853 1.329048 -2.408087 14.55052 0.2789534 -1.891096 14.54925 0.7909662 -3.505891 14.55032 -0.2590277 -2.988948 14.54906 0.7909662 -3.505891 10.43566 -0.2590277 -2.988948 10.43941 8.536188 10.45392 14.40662 9.414193 9.679918 14.40658 9.343045 11.37245 14.40662 10.22097 10.59851 14.40657 9.343045 11.37245 10.43566 10.22097 10.59851 10.43941</float_array>
+          <technique_common>
+            <accessor source="#Nok_Fortress_Carpet-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Fortress_Carpet-mesh-normals">
+          <float_array id="Nok_Fortress_Carpet-mesh-normals-array" count="96">-0.0010854 -1.50036e-4 0.9999994 -0.00108546 -1.50011e-4 0.9999994 -0.001085937 -1.49583e-4 0.9999995 -0.3184356 -0.9479446 0 -0.3184354 -0.9479447 0 -0.3184354 -0.9479447 0 -0.001040399 3.32709e-4 0.9999994 -0.001040279 3.3239e-4 0.9999994 -0.001038372 3.26795e-4 0.9999994 -0.006954848 -0.9999758 -2.08314e-7 -0.006954848 -0.9999759 0 -0.006954848 -0.9999759 0 3.1991e-5 -2.21522e-5 1 3.1991e-5 -2.24954e-5 1 3.19922e-5 -2.85021e-5 1 -0.001077651 1.96097e-4 0.9999994 -0.001077711 1.96129e-4 0.9999994 -0.001078367 1.96676e-4 0.9999994 -0.4416999 -0.8971629 0 -0.4417001 -0.8971628 0 -0.4417002 -0.8971629 0 0.6612867 0.7501333 0 0.6612871 0.7501329 0 0.6612873 0.7501329 0 -0.001084923 -1.50464e-4 0.9999994 -0.3184356 -0.9479445 0 -0.001042306 3.38304e-4 0.9999994 -0.006954848 -0.9999758 -2.53014e-7 3.19898e-5 -1.61458e-5 1 -0.001076936 1.9555e-4 0.9999995 -0.4416999 -0.897163 0 0.6612867 0.7501334 0</float_array>
+          <technique_common>
+            <accessor source="#Nok_Fortress_Carpet-mesh-normals-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Fortress_Carpet-mesh-map-0">
+          <float_array id="Nok_Fortress_Carpet-mesh-map-0-array" count="96">0.1930112 0.233323 0.1384348 0.1821888 0.1931352 0.1822091 0.193135 0.182209 0.1383059 0.01037061 0.1930057 0.010181 0.1930113 0.233323 0.1384349 0.1821891 0.193135 0.182209 0.1931352 0.1822091 0.1383058 0.01037073 0.1930058 0.01018118 0.1930213 0.2303193 0.1384243 0.1792027 0.1931248 0.1792048 0.1930112 0.2333231 0.138435 0.1821887 0.193135 0.182209 0.193135 0.182209 0.1383059 0.01037085 0.1930059 0.01018112 0.1931248 0.1792048 0.1384243 0.01334172 0.1931248 0.0131849 0.1930112 0.233323 0.1383058 0.2333032 0.1384348 0.1821888 0.193135 0.182209 0.138435 0.1821887 0.1383059 0.01037061 0.1930113 0.233323 0.1383059 0.2333031 0.1384349 0.1821891 0.1931352 0.1822091 0.1384348 0.1821888 0.1383058 0.01037073 0.1930213 0.2303193 0.138316 0.2303168 0.1384243 0.1792027 0.1930112 0.2333231 0.1383059 0.2333031 0.138435 0.1821887 0.193135 0.182209 0.1384349 0.1821891 0.1383059 0.01037085 0.1931248 0.1792048 0.1384243 0.1792027 0.1384243 0.01334172</float_array>
+          <technique_common>
+            <accessor source="#Nok_Fortress_Carpet-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Nok_Fortress_Carpet-mesh-map-1">
+          <float_array id="Nok_Fortress_Carpet-mesh-map-1-array" count="96">0.598999 0.6454455 0.5898899 0.6545546 0.598999 0.6545546 0.3323323 0.5343344 0.3232232 0.5767768 0.3323323 0.5767768 0.5878879 0.6454455 0.5787788 0.6545546 0.5878879 0.6545546 0.3212212 0.5343344 0.3121121 0.5767768 0.3212212 0.5767768 0.6212213 0.6565566 0.6121121 0.6656657 0.6212213 0.6656657 0.6656657 0.501001 0.6565566 0.5101101 0.6656657 0.5101101 0.3545545 0.5343344 0.3454455 0.5767768 0.3545545 0.5767768 0.3434435 0.5343344 0.3343343 0.5767768 0.3434435 0.5767768 0.598999 0.6454455 0.5898899 0.6454455 0.5898899 0.6545546 0.3323323 0.5343344 0.3232232 0.5343344 0.3232232 0.5767768 0.5878879 0.6454455 0.5787788 0.6454455 0.5787788 0.6545546 0.3212212 0.5343344 0.3121121 0.5343344 0.3121121 0.5767768 0.6212213 0.6565566 0.6121121 0.6565566 0.6121121 0.6656657 0.6656657 0.501001 0.6565566 0.501001 0.6565566 0.5101101 0.3545545 0.5343344 0.3454455 0.5343344 0.3454455 0.5767768 0.3434435 0.5343344 0.3343343 0.5343344 0.3343343 0.5767768</float_array>
+          <technique_common>
+            <accessor source="#Nok_Fortress_Carpet-mesh-map-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Nok_Fortress_Carpet-mesh-vertices">
+          <input semantic="POSITION" source="#Nok_Fortress_Carpet-mesh-positions"/>
+        </vertices>
+        <triangles count="16">
+          <input semantic="VERTEX" source="#Nok_Fortress_Carpet-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Nok_Fortress_Carpet-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Nok_Fortress_Carpet-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Nok_Fortress_Carpet-mesh-map-1" offset="2" set="1"/>
+          <p>6 0 0 9 1 1 8 2 2 2 3 3 5 4 4 4 5 5 12 6 6 15 7 7 14 8 8 8 9 9 11 10 10 10 11 11 18 12 12 21 13 13 20 14 14 0 15 15 3 16 16 2 17 17 14 18 18 17 19 19 16 20 20 20 21 21 23 22 22 22 23 23 6 0 24 7 24 25 9 1 26 2 3 27 3 25 28 5 4 29 12 6 30 13 26 31 15 7 32 8 9 33 9 27 34 11 10 35 18 12 36 19 28 37 21 13 38 0 15 39 1 29 40 3 16 41 14 18 42 15 30 43 17 19 44 20 21 45 21 31 46 23 22 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="nok_fortress_carpet" name="nok_fortress_carpet" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Nok_Fortress_Carpet-mesh" name="nok_fortress_carpet"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

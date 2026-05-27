@@ -20,15 +20,21 @@
         <prop actor="props/units/heads/new/head_pers_tiara_y.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/pers_kidaris_tied_yellow.xml" attachpoint="helmet"/>
       </props>
-      <textures><texture file="skeletal/pers/car_b_1.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="skeletal/pers/linothorax_01_01.png" name="baseTex"/>
+      </textures>
     </variant>
     <variant frequency="1" name="Raja-Texture-1">
       <mesh>skeletal/new/m_pants.dae</mesh>
-      <textures><texture file="skeletal/pers/su2_raja_2.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="skeletal/pers/robes_royal_01.png" name="baseTex"/>
+      </textures>
     </variant>
     <variant frequency="1" name="Raja-Texture-2">
       <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
-      <textures><texture file="skeletal/pers/su2_raja_1.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="skeletal/pers/robes_royal_02.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -41,6 +47,14 @@
     <variant file="biped/rider/attack_slaughter_shield_pers.xml"/>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death_shield.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>
