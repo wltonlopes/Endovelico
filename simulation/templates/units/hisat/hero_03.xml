@@ -2,11 +2,10 @@
 <Entity parent="template_unit_hero_infantry_maceman">
   <Identity>
     <Civ>hisat</Civ>
-    <Phenotype>female</Phenotype>  
-    <GenericName>Matriarch</GenericName>
-    <SpecificName></SpecificName>
+    <Phenotype>female</Phenotype>
+    <GenericName>Great Matriarch</GenericName>
     <SelectionGroupName>units/hisat/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/hisat/hero_matriarch.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hisatsinom/hero_03_f.xml</Actor>

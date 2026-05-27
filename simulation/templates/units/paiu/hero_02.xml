@@ -4,8 +4,8 @@
     <Civ>paiu</Civ>
     <GenericName>Great Warrior Chief</GenericName>
     <SpecificName></SpecificName>
-    <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
-    <Icon>units/zapo/hero_night_king.png</Icon>
+    <SelectionGroupName>units/paiu/hero_night_king</SelectionGroupName>
+    <Icon>units/paiu/hero_elder.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

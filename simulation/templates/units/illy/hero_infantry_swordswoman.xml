@@ -5,7 +5,6 @@
     <Phenotype>female</Phenotype>
     <GenericName>Teuta</GenericName>
     <SpecificName>Teuta</SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/illy/hero_night_king</SelectionGroupName>
     <Icon>units/illy/hero_teuta.png</Icon>
   </Identity>
@@ -13,6 +12,6 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/illyrians/hero_infantry_swordsman.xml</Actor>
+    <Actor>units/illyrians/hero_infantry_swordswoman.xml</Actor>
   </VisualActor>
 </Entity>

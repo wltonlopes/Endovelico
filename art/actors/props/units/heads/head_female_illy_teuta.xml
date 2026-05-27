@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Hair-Bun">
+      <mesh>props/heads/head_fem_illy_teuta.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Face-01">
+      <textures>
+        <texture file="props/head/illy/head_female_teuta.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>objectcolor_norm_spec.xml</material>
+</actor>

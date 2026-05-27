@@ -3,10 +3,8 @@
   <Identity>
     <Civ>hisat</Civ>
     <GenericName>War Chief</GenericName>
-    <SpecificName></SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/hisat/hero_jaguar_king</SelectionGroupName>
-    <Icon>units/zapo/hero_lord_jaguar.png</Icon>
+    <Icon>units/hisat/hero_warrior.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.5</WalkSpeed>

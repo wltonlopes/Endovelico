@@ -6,7 +6,7 @@
     <Civ>illy</Civ>
     <GenericName>Bardilis I</GenericName>
     <SpecificName>Bardilis I</SpecificName>
-    <Icon>units/illy/hero_infantry_spearman.png</Icon>
+    <Icon>units/illy/hero_bardilis_i.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/illyrians/hero_infantry_swordsman.xml</Actor>

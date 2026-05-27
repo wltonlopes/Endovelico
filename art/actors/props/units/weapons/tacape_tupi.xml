@@ -12,7 +12,17 @@
   <group>
     <variant frequency="1" name="texture_w1">
       <textures>
-        <texture file="structural/tupi/struct.png" name="baseTex"/>
+        <texture file="props/weapon/tacape_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="texture_w2">
+      <textures>
+        <texture file="props/weapon/tacape_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="texture_w3"> 
+      <textures>
+        <texture file="props/weapon/tacape_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
