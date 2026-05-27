@@ -2,7 +2,6 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName></SpecificName>
     <GenericName>Villager</GenericName>
     <Icon>units/south_america/support_female_citizen.png</Icon>
     <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>

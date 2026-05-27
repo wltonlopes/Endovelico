@@ -4,7 +4,6 @@
     <Civ>pamp</Civ>
     <Classes datatype="tokens">Siege</Classes>
     <GenericName>Fire Warrior</GenericName>
-    <SpecificName></SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

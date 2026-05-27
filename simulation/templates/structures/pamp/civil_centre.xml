@@ -2,7 +2,6 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName>Nezirö</SpecificName>
   </Identity>
   <ProductionQueue/>
   <Researcher>

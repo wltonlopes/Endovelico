@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName>Yagura</SpecificName>
     <Tooltip>Structure needs Semi-Nomad Lifestyle technology.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">pamp/semi-nomad</Techs>

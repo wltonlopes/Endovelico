@@ -4,7 +4,6 @@
     <Civ>pamp</Civ>
     <SelectionGroupName>units/pamp/infantry_clubman_b</SelectionGroupName>
     <GenericName>Levy Clubman</GenericName>
-    <SpecificName></SpecificName>
     <Icon>units/moch/infantry_clubman.png</Icon>
   </Identity>
   <Promotion>

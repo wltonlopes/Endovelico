@@ -3,11 +3,6 @@
   <Identity>
     <Civ>pamp</Civ>
   </Identity>
-  <Researcher>
-    <Technologies datatype="tokens">
-      pampidos/great_runners
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/pampas/forge.xml</Actor>
   </VisualActor>

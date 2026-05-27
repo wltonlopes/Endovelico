@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName>Kaki</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="36" depth="5"/>
