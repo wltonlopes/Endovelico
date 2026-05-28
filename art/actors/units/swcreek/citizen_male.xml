@@ -13,9 +13,7 @@
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
-  </group>ir
-ir
-ir  
+  </group>
   <group>
     <variant frequency="100" name="01">
       <textures>

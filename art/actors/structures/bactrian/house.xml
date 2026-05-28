@@ -15,27 +15,27 @@
   </group>
   <group>
     <variant frequency="1" name="house a">
-<mesh>structural/bactrian/house_1.dae</mesh>
+      <mesh>structural/bactrian/house_1.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/bactrian/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-<mesh>structural/bactrian/house_2.dae</mesh>
+      <mesh>structural/bactrian/house_2.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/bactrian/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-<mesh>structural/bactrian/house_3.dae</mesh>
+      <mesh>structural/bactrian/house_3.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/bactrian/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/bactrian/house_2.dae</mesh>
+      <mesh>structural/bactrian/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/bactrian/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

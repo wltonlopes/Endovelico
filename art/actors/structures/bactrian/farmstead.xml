@@ -6,12 +6,16 @@
       <mesh>structural/bactrian/farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="01"/>
+        <prop actor="props/special/eyecandy/well_1_d.xml" attachpoint="02"/>
+        <prop actor="props/special/eyecandy/well_water.xml" attachpoint="02"/>
+        <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="03"/>  
       </props>
       <textures>
         <texture file="structural/bactr_struct.png" name="baseTex"/>
         <texture file="structural/bactr_struct_spec.png" name="specTex"/>
         <texture file="structural/bactr_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/bactrian/farmstead_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

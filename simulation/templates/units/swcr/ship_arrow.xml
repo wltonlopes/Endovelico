@@ -7,13 +7,12 @@
   <Identity>
     <Civ>swcr</Civ>
     <GenericName>War Canoe</GenericName>
-    <SpecificName></SpecificName>
     <Icon>units/south_america/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe_war_archer_fire.xml</Actor>
+    <Actor>structures/swcreek/canoe_war_archer_fire.xml</Actor>
   </VisualActor>
 </Entity>
