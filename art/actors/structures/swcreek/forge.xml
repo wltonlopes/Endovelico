@@ -8,12 +8,14 @@
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="particle/flame.xml" attachpoint="fire" />
         <prop actor="particle/smoke.xml" attachpoint="fire" />
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="01"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="02"/>
       </props>
       <textures>
         <texture file="structural/swcr/struct.png" name="baseTex"/>
         <texture file="structural/swcr/struct_spec.png" name="specTex"/>
         <texture file="structural/swcr/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/swcreek/forge.png" name="aoTex"/>
+        <texture file="structural/ao/swcreek/forge_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

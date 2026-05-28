@@ -6,6 +6,8 @@
       <mesh>structural/swcreek/arsenal.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/swcreek/arsenal_mat.xml" attachpoint="root"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="01"/>
       </props>
       <textures>
         <texture file="structural/swcr/struct.png" name="baseTex"/>
@@ -35,5 +37,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>
