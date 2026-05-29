@@ -3,9 +3,11 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base-Female">
-      <mesh>skeletal/new/f_naked.dae</mesh>
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_south_america_female.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_south_america_female_base.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/guara_hair_f_1.xml" attachpoint="head"/>     
+        <prop actor="props/units/capes/poncho_guarani_fem.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -24,7 +26,7 @@
         <texture file="skeletal/guaranis/f_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="100" name="03">
+         <!--  <variant frequency="100" name="03">
       <textures>
         <texture file="skeletal/guaranis/f_03.png" name="baseTex"/>
       </textures>
@@ -33,7 +35,7 @@
       <textures>
         <texture file="skeletal/guaranis/f_04.png" name="baseTex"/>
       </textures>
-    </variant>
+    </variant> -->
   </group>
   <group>
     <!-- In this group, defined overloads for "Idle", "Walk" and "Run" -->
