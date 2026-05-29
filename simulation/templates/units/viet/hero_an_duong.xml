@@ -4,7 +4,7 @@
     <Civ>viet</Civ>
     <GenericName>An Dương Vương</GenericName>
     <SpecificName>An Dương Vương</SpecificName>
-    <Icon>units/yayo/hero_wousu.png</Icon>
+    <Icon>units/viet/hero_an_duong.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/vietnamese/hero_an_duong_vuong_infantry_swordsman.xml</Actor>

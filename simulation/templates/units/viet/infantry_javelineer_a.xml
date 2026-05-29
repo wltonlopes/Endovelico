@@ -7,6 +7,6 @@
     <Entity>units/viet/infantry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/vietnamese/infantry_javelinist_a.xml</Actor>
+    <Actor>units/vietnamese/infantry_javelineer_a.xml</Actor>
   </VisualActor>
 </Entity>

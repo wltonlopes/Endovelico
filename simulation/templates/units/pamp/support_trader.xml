@@ -2,7 +2,6 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName></SpecificName>
     <Icon>units/south_america/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>guara</Civ>
-    <SpecificName>Kaki</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="33.5" depth="7.5"/>

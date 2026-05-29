@@ -4,11 +4,6 @@
     <Civ>chibc</Civ>
     <GenericName>Workshop</GenericName>
   </Identity>
-  <Researcher>
-    <Technologies datatype="tokens">
-      -archer_attack_spread
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/chibchas/forge.xml</Actor>
   </VisualActor>

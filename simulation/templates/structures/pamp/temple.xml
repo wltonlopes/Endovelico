@@ -11,21 +11,13 @@
     <Civ>pamp</Civ>
     <SpecificName>Miya</SpecificName>
     <Tooltip>Structure needs Semi-Nomad Lifestyle technology.</Tooltip>
-    <Requirements>
-      <Techs datatype="tokens">pamp/semi-nomad</Techs>
-    </Requirements>  
+    <!-- <Requirements>
+      <Techs datatype="tokens">pampidos/semi-nomad</Techs>
+    </Requirements> -->
   </Identity>
   <Obstruction>
     <Static width="24" depth="18"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </Researcher>
-  <Trainer>
-    <Entities datatype="tokens">
-    </Entities>
-  </Trainer>
   <VisualActor>
     <Actor>structures/pampas/temple.xml</Actor>
     <FoundationActor>structures/fndn_6x5.xml</FoundationActor>

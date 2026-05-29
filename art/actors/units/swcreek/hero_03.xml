@@ -3,11 +3,13 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="03">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+      <mesh>skeletal/new/m_tunic_kho.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_swcreek_hero.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/adena/hero_headress.xml" attachpoint="helmet"/>
+        <prop actor="props/units/hairs/hair_swcreek_01.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/tomahawk.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/north_america_shield_03.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="skeletal/swcreek/hero_03.png" name="baseTex"/>
@@ -17,15 +19,9 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_relax.xml"/>
-    <variant file="biped/approach_praise.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_axeman_shield_fast_relax.xml" frequency="1" name="03"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>

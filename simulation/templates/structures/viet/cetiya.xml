@@ -27,6 +27,13 @@
   <StatusBars>
     <HeightOffset>20</HeightOffset>
   </StatusBars>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_an_duong
+      units/{civ}/hero_hung_due
+      units/{civ}/hero_hung_nghi
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/vietnamese/cetiya.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

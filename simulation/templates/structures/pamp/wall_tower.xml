@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName>Yagura</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="8" depth="8"/>

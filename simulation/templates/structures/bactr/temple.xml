@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>bactr</Civ>
-    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
     <Static width="17.5" depth="30.0"/>

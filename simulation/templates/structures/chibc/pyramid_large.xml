@@ -24,7 +24,6 @@
   <Identity>
     <Civ>chibc</Civ>
     <GenericName>Large Pyramid</GenericName>
-    <SpecificName></SpecificName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
     <Requirements>

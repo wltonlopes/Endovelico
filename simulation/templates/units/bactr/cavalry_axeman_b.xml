@@ -9,7 +9,7 @@
     <SelectionGroupName>units/bactr/cavalry_axeman_b</SelectionGroupName>
     <GenericName>Dahae Axe Raider</GenericName>
     <SpecificName>Hippikon Dahae</SpecificName>
-    <Icon>units/raider_bact.png</Icon>
+    <Icon>units/bactr/raider.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/bactr/cavalry_axeman_a</Entity>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-05-28T09:03:20</created>
+    <modified>2026-05-28T09:03:20</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="textura_Swift_CREEK-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="textura_Swift_CREEK-material" name="textura Swift CREEK">
+      <instance_effect url="#textura_Swift_CREEK-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plano_001-mesh" name="Plano.001">
+      <mesh>
+        <source id="Plano_001-mesh-positions">
+          <float_array id="Plano_001-mesh-positions-array" count="24">-7.722486 -0.6985443 0.5731365 -4.224585 1.54412 0.5731365 -7.722486 -0.6985443 0.7203735 -6.584781 -2.473031 0.5731365 -6.584781 -2.473031 0.7203738 -3.086871 -0.2303667 0.5731362 -3.086871 -0.2303667 0.7203735 -4.224585 1.54412 0.7203735</float_array>
+          <technique_common>
+            <accessor source="#Plano_001-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_001-mesh-normals">
+          <float_array id="Plano_001-mesh-normals-array" count="36">0 0 -1 -0.5397376 0.8418333 0 -0.8418329 -0.5397383 0 0 0 -1 -0.8418331 -0.5397379 0 0.8418314 0.5397408 0 0.8418312 0.539741 0 0.5397371 -0.8418338 0 0 0 1 -0.5397379 0.8418332 0 0.5397367 -0.841834 0 0 1.57735e-7 1</float_array>
+          <technique_common>
+            <accessor source="#Plano_001-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_001-mesh-map-0">
+          <float_array id="Plano_001-mesh-map-0-array" count="72">0.4804448 0.01699799 0.5605762 0.1187532 0.4803739 0.118665 0.4788705 0.04624134 0.4993748 0.07273393 0.4788524 0.07271105 0.540438 0.04630988 0.5609604 0.04633307 0.5609422 0.07280278 0.4804448 0.01699799 0.560647 0.01708585 0.5605762 0.1187532 0.540438 0.04630988 0.5609422 0.07280278 0.5404198 0.07277983 0.499393 0.04626423 0.5198973 0.07275688 0.4993748 0.07273393 0.499393 0.04626423 0.5199155 0.046287 0.5198973 0.07275688 0.5199155 0.046287 0.5404198 0.07277983 0.5198973 0.07275688 0.4794286 0.12009 0.4795091 0.0153796 0.5611253 0.01546084 0.4788705 0.04624134 0.499393 0.04626423 0.4993748 0.07273393 0.5199155 0.046287 0.540438 0.04630988 0.5404198 0.07277983 0.4794286 0.12009 0.5611253 0.01546084 0.5610448 0.1201711</float_array>
+          <technique_common>
+            <accessor source="#Plano_001-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_001-mesh-map-1">
+          <float_array id="Plano_001-mesh-map-1-array" count="72">0.3487387 0.8524801 0.3810306 0.7888027 0.3810306 0.8524701 0.1071279 0.8882288 0.109384 0.8251259 0.109384 0.8882294 0.5570467 0.8554106 0.5570467 0.8843435 0.5547919 0.8843767 0.3487387 0.8524801 0.3487388 0.7888125 0.3810306 0.7888027 0.5570467 0.8554106 0.5547919 0.8843767 0.5547919 0.8554439 0.9252499 0.2664648 0.9275027 0.2342905 0.9275027 0.2664752 0.9252499 0.2664648 0.9252499 0.2342801 0.9275027 0.2342905 0.8143109 0.9091206 0.8120554 0.9654563 0.8120554 0.9091458 0.8200866 0.152818 0.8523836 0.1528128 0.8523835 0.2164787 0.1071279 0.8882288 0.1071279 0.8251253 0.109384 0.8251259 0.8143109 0.9091206 0.8143109 0.965431 0.8120554 0.9654563 0.8200866 0.152818 0.8523835 0.2164787 0.8200866 0.216484</float_array>
+          <technique_common>
+            <accessor source="#Plano_001-mesh-map-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plano_001-mesh-colors-Col" name="Col">
+          <float_array id="Plano_001-mesh-colors-Col-array" count="144">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Plano_001-mesh-colors-Col-array" count="36" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plano_001-mesh-vertices">
+          <input semantic="POSITION" source="#Plano_001-mesh-positions"/>
+        </vertices>
+        <triangles material="textura_Swift_CREEK-material" count="12">
+          <input semantic="VERTEX" source="#Plano_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plano_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plano_001-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Plano_001-mesh-map-1" offset="2" set="1"/>
+          <input semantic="COLOR" source="#Plano_001-mesh-colors-Col" offset="3" set="0"/>
+          <p>5 0 0 0 0 0 1 1 1 0 2 2 2 1 3 3 1 1 4 4 0 1 5 5 4 2 6 6 2 2 7 7 0 2 8 8 5 3 9 9 3 3 10 10 0 3 11 11 4 4 12 12 0 4 13 13 3 4 14 14 7 5 15 15 5 5 16 16 1 5 17 17 7 6 18 18 6 6 19 19 5 6 20 20 6 7 21 21 3 7 22 22 5 7 23 23 6 8 24 24 7 8 25 25 2 8 26 26 2 9 27 27 7 9 28 28 1 9 29 29 6 10 30 30 4 10 31 31 3 10 32 32 6 11 33 33 2 11 34 34 4 11 35 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="arsenal_001" name="arsenal.001" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Plano_001-mesh" name="arsenal.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="textura_Swift_CREEK-material" target="#textura_Swift_CREEK-material">
+                <bind_vertex_input semantic="Plano_099-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Plano_099-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

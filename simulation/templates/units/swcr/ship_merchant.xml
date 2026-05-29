@@ -7,10 +7,9 @@
   <Identity>
     <Civ>swcr</Civ>
     <GenericName>Trading Canoe</GenericName>
-    <SpecificName></SpecificName>
     <Icon>units/south_america/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe_merchant.xml</Actor>
+    <Actor>structures/swcreek/canoe_merchant.xml</Actor>
   </VisualActor>
 </Entity>

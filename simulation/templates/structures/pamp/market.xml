@@ -6,16 +6,10 @@
   </Footprint>
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName>Iti</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="28" depth="30"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      trade_copper_bells
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/pampas/market.xml</Actor>
   </VisualActor>

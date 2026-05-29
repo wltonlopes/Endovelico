@@ -13,7 +13,7 @@
   </group>
   <group>
     <variant frequency="1" name="a">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/south_america/naked_02_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
@@ -21,7 +21,7 @@
       </textures>
     </variant>
     <variant frequency="1" name="b">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/south_america/naked_02_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
