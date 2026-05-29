@@ -1,16 +1,24 @@
 ﻿{
     "Code": "gaet",
     "Culture": "Gaetuli",
-    "Music": [
-        {
-            "File": "red_dawn.ogg",
-            "Type": "peace"
-        },
-        {
-            "File": "hill_of_sorrows.ogg",
-            "Type": "peace"
-        }
-    ],
+	"Music": [
+		{
+			"File": "Mediterranean_Waves.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harsh_Lands_Rugged_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Peaks_of_Atlas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "From_Every_Corner.ogg",
+			"Type": "peace"
+		}
+	],
     "CivBonuses": [],
     "TeamBonuses": [],
     "WallSets": [
@@ -43,10 +51,17 @@
         }
     ],
     "AINames": [
+        "Isalca",
+        "Acherras",
         "Iarbas",
-        "Suizei",
-        "Annei",
-        "Tacfarinas (Musulamii)"
+        "Aco",
+        "Mazippa",
+        "Aedemon",
+        "Narravas",
+        "Muttines",
+        "Tacfarinas",
+        "Ascalis",
+        "Mazucan" 
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/gaet/chariot_scout",
