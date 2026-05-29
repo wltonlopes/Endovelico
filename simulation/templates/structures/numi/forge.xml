@@ -4,6 +4,9 @@
     <Civ>numi</Civ>
     <SpecificName>Kanutiya</SpecificName>
   </Identity>
+  <Obstruction>
+    <Static width="21.5" depth="21.5"/>
+  </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
       -archer_attack_spread

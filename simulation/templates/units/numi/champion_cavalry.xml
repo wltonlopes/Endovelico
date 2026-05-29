@@ -6,6 +6,9 @@
     <GenericName>Cavalry Banner Stands</GenericName>
     <Icon>units/rome/champion_cavalry.png</Icon>
     <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
+    <Requirements>
+      <Techs datatype="tokens">phase_city -unlock_champion_cavalry</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/numidians/cavalry_spearman_c_m.xml</Actor>

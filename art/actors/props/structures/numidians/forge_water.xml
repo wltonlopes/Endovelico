@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Numidians Forge Water">
+    <variant frequency="1" name="Numidian Forge Water">
       <mesh>props/structural/numidians/forge_water.dae</mesh>
       <textures>
         <texture file="structural/numi/struct.png" name="baseTex"/>

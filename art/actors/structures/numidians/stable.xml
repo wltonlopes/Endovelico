@@ -5,7 +5,8 @@
     <variant frequency="1" name="Numidian Stable">
       <mesh>structural/numidians/stable.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="props/structures/numidians/stable_water.xml" attachpoint="root"/>
         <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse_01"/>
         <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse_02"/>
         <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse_03"/>

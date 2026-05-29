@@ -8,7 +8,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
+    <Square width="28.0" depth="28.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
@@ -17,7 +17,7 @@
   <Identity>
     <Civ>numi</Civ>
     <GenericName>Mausoleum</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName/>
     <Tooltip>Train Heroes and researcher technologies.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
@@ -28,7 +28,7 @@
     <metal>40</metal>
   </Loot>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="27.5" depth="27.5"/>
   </Obstruction>
   <ProductionQueue/>
   <Sound>
@@ -54,7 +54,7 @@
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/numidians/mausoleu.xml</Actor>
-    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+    <Actor>structures/numidians/mausoleum.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
