@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Civilian"],
+	"modifications": [
+		{ "value": "ResourceGather/Rates/food", "multiply": 1.25 },
+		{ "value": "Cost/BuildTime", "multiply": 0.8 },
+		{ "value": "Health/RegenRate", "add": 2 }
+	],
+	"auraName": "Matriarch's Blessing",
+	"auraDescription": "Citizens +25% food gather rate. Houses −20% build time. All units +2 health regeneration."
+}

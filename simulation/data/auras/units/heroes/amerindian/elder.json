@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Health/RegenRate", "add": 1.5 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 },
+		{ "value": "Capturable/GarrisonRegen", "add": 2 }
+	],
+	"auraName": "Elder's Guidance",
+	"auraDescription": "All units +1.5 health regeneration, +10% movement speed, +2 garrison heal rate."
+}

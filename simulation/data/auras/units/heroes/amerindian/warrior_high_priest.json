@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Soldier", "Champion"],
+	"modifications": [
+		{ "value": "Attack/Melee/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 1.15 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	],
+	"auraName": "Warrior Priest's Fury",
+	"auraDescription": "Soldiers and Champions +20% hack damage, +15% pierce damage, +10% speed, −10% damage taken."
+}

@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Vision/Range", "multiply": 1.25 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.05 },
+		{ "value": "Capturable/GarrisonRegen", "add": 3 }
+	],
+	"auraName": "Diplomat Leader",
+	"auraDescription": "All units +25% vision range, +5% speed. +3 garrison heal rate. Allies gain +10% resource gather rate."
+}

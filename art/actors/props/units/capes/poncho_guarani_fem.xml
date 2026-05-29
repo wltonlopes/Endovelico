@@ -2,14 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base_L">
+    <!-- <variant frequency="1" name="Base_L">
       <mesh>props/capes/poncho_fem_L.dae</mesh>
       <textures>
         <texture file="skeletal/guaranis/poncho_fem.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
-    </variant>
+    </variant> -->
     <variant frequency="1" name="Base_R">
       <mesh>props/capes/poncho_fem_R.dae</mesh>
       <textures>
@@ -19,10 +19,8 @@
       </textures>
     </variant>
   </group>
-  <group>
-    <variant file="biped/base_healer_male.xml" name="Healer-Male" frequency="1"/>
-  </group>
-  <group>
+ <group>
+    <!-- In this group, defined overloads for "Idle", "Walk" and "Run" -->
     <variant file="biped/female_base_walk.xml"/>
     <variant file="biped/female_carry_food.xml"/>
     <variant file="biped/female_carry_meat.xml"/>
@@ -31,6 +29,7 @@
     <variant file="biped/female_carry_metal.xml"/>
   </group>
   <group>
+    <!-- In this group, define overloads for other animation types, since they presumably do not collide with each other -->
     <variant name="Idle" frequency="1"/>
     <variant file="biped/attack_melee_female.xml"/>
     <variant file="biped/attack_slaughter.xml"/>

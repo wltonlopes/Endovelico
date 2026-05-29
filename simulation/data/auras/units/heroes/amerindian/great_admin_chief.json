@@ -1,0 +1,14 @@
+{
+	"type": "global",
+	"affects": ["Structure", "Citizen", "Trader"],
+	"modifications": [
+		{ "value": "ResourceGather/Rates/food", "multiply": 1.2 },
+		{ "value": "ResourceGather/Rates/wood", "multiply": 1.2 },
+		{ "value": "ResourceGather/Rates/stone", "multiply": 1.15 },
+		{ "value": "ResourceGather/Rates/metal", "multiply": 1.15 },
+		{ "value": "Cost/BuildTime", "multiply": 0.75 },
+		{ "value": "Trader/GainMultiplier", "multiply": 1.25 }
+	],
+	"auraName": "Great Admin Chief",
+	"auraDescription": "Citizens +20% food/wood, +15% stone/metal gather. Structures −25% build time. Traders +25% gain."
+}

@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Attack/Melee/Hack", "multiply": 1.1 },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 1.10 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	],
+	"auraName": "Great War Chief",
+	"auraDescription": "Soldiers +10% hack damage, +20% pierce damage, −10% damage taken, +15% speed."
+}

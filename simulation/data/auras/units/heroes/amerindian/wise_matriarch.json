@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Structure", "Citizen"],
+	"modifications": [
+		{ "value": "Technology/ResearchTime", "multiply": 0.75 },
+		{ "value": "ResourceGather/Rates/food", "multiply": 1.2 },
+		{ "value": "ResourceGather/Rates/wood", "multiply": 1.2 }
+	],
+	"auraName": "Wisdom of the Matriarch",
+	"auraDescription": "Technologies −25% research time. Food and wood gather rates +20%."
+}	

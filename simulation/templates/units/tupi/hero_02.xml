@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_archer">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/great_war_chief
+  </Auras>
   <Identity>
     <Civ>tupi</Civ>
     <GenericName>Great Warrior Chief</GenericName>

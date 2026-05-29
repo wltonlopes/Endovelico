@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/warrior_high_priest
+  </Auras>
   <Identity>
     <Civ>tupi</Civ>
     <GenericName>Great Warrior Chief</GenericName>
