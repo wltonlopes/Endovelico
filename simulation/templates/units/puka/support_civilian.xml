@@ -6,9 +6,8 @@
   </Builder>
   <Identity>
     <Civ>puka</Civ>
-    <SpecificName></SpecificName>
     <GenericName>Villager</GenericName>
-    <Icon>units/moch/support_female_citizen.png</Icon>
+    <Icon>units/puka/citizen.png</Icon>
     <SelectionGroupName>units/puka/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

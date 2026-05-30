@@ -5,8 +5,8 @@
 	<Lang>greek</Lang>
     <SpecificName>Gýnē Bosporanas</SpecificName>
     <GenericName>Bosporan Villager</GenericName>
-    <Icon>units/theb/support_female_citizen.png</Icon>
-	<SelectionGroupName>units/theb/support_female_citizen</SelectionGroupName>
+    <Icon>units/bosp/citizen.png</Icon>
+	<SelectionGroupName>units/bosp/support_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/citizen_{phenotype}.xml</Actor>

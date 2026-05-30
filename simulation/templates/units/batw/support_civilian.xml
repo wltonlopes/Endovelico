@@ -7,9 +7,8 @@
   <Identity>
     <Civ>batw</Civ>
     <Lang>napatan</Lang>
-    <SpecificName></SpecificName>
     <GenericName>Batwa Civilian</GenericName>
-    <Icon>units/kush/support_female_citizen.png</Icon>
+    <Icon>units/batw/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/batwa/citizen_{phenotype}.xml</Actor>

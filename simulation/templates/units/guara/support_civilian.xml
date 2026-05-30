@@ -4,8 +4,8 @@
     <Civ>guara</Civ>
     <SpecificName>Kuñã</SpecificName>
     <GenericName>Guarani Villager</GenericName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
-    <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
+    <Icon>units/guara/citizen.png</Icon>
+    <SelectionGroupName>units/guara/support_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/guaranis/citizen_{phenotype}.xml</Actor>

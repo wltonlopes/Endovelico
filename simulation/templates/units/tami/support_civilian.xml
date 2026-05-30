@@ -4,7 +4,7 @@
     <Civ>tami</Civ>
     <SpecificName>Naari</SpecificName>
     <GenericName>Indian Villager</GenericName>
-    <Icon>units/maur/support_female_citizen.png</Icon>
+    <Icon>units/tami/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mauryas/citizen_{phenotype}.xml</Actor>

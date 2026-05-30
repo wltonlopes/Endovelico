@@ -9,9 +9,8 @@
   <Identity>
     <Civ>khoi</Civ>
     <Lang>napatan</Lang>
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Kushite Villager</GenericName>
-    <Icon>units/kush/support_female_citizen.png</Icon>
+    <GenericName>Khoi Villager</GenericName>
+    <Icon>units/khoi/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/subsaara/citizen_{phenotype}.xml</Actor>

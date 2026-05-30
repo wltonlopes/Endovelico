@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_robe.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_kore_wiman.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/korean_hat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/props/hele_phrygian_feathers.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/sword/han_jian_c.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath/han_jian_sheath_left_c_e.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Han-Officer-06">
+      <textures>
+        <texture file="skeletal/koreans/hero_wisam_tunic.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_fast_relax.xml" frequency="1" name="Swordsman-Fast-Relax"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/rider/attack_slaughter_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/rider/death.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

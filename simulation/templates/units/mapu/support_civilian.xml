@@ -2,10 +2,9 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>mapu</Civ>
-    <SpecificName></SpecificName>
     <GenericName>Villager</GenericName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
-    <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
+    <Icon>units/mapu/citizen.png</Icon>
+    <SelectionGroupName>units/mapu/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/mapuches/citizen_{phenotype}.xml</Actor>

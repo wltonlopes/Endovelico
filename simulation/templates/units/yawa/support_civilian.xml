@@ -2,8 +2,7 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>yawa</Civ>
-    <SpecificName>Womina</SpecificName>
-    <Icon>units/yayo/support_female_citizen.png</Icon>
+    <Icon>units/yawa/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/yayoi/citizen_{phenotype}.xml</Actor>

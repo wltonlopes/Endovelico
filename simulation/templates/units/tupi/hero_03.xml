@@ -9,7 +9,7 @@
     <SpecificName>Morubixaba</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/tupi/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/tupi/hero_clubman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/tupis/hero_infantry_clubman.xml</Actor>

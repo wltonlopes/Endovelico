@@ -3,7 +3,7 @@
   <Identity>
     <Civ>zapo</Civ>
     <SpecificName>Womina</SpecificName>
-    <Icon>units/yayo/support_female_citizen.png</Icon>
+    <Icon>units/zapo/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/zapotecs/citizen_{phenotype}.xml</Actor>

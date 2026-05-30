@@ -28,7 +28,7 @@
   <Identity>
     <Civ>yuez</Civ>
     <GenericName>Yuezhi Villager</GenericName>
-    <Icon>units/xion/support_citizen_female.png</Icon>
+    <Icon>units/yuez/citizen.png</Icon>
     <SelectionGroupName>units/yuez/support_female_citizen</SelectionGroupName>
     <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>

@@ -2,10 +2,9 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>tupi</Civ>
-    <SpecificName>ixik</SpecificName>
-    <GenericName>Maya Villager</GenericName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
-    <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
+    <GenericName>Tupi Villager</GenericName>
+    <Icon>units/tupi/citizen.png</Icon>
+    <SelectionGroupName>units/tupi/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/tupis/citizen_{phenotype}.xml</Actor>

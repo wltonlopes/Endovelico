@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_spearman">
-
+  <Auras datatype="tokens">
+      units/human_sacrifice
+  </Auras>
   <Identity>
     <Civ>mixt</Civ>
     <GenericName>Lord Jaguar</GenericName>

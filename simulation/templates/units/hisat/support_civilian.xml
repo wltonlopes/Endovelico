@@ -4,8 +4,8 @@
     <Civ>hisat</Civ>
     <SpecificName></SpecificName>
     <GenericName>Villager</GenericName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
-    <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
+    <Icon>units/hisat/citizen.png</Icon>
+    <SelectionGroupName>units/hisat/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/hisatsinom/citizen_{phenotype}.xml</Actor>

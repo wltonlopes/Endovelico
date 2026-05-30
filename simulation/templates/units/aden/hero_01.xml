@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_spearman">
+    <Auras datatype="tokens">
+      units/heroes/amerindian/great_war_chief
+    </Auras>
   <Identity>
     <Civ>aden</Civ>
     <GenericName>Great Chief</GenericName>
-    <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/aden/hero_jaguar_king</SelectionGroupName>
     <Icon>units/aden/hero_01.png</Icon>

@@ -8,7 +8,7 @@
     <GenericName>Great Warrior Chief</GenericName>
     <SpecificName>Morubixaba</SpecificName>
     <SelectionGroupName>units/tupi/hero_night_king</SelectionGroupName>
-    <Icon>units/zapo/hero_night_king.png</Icon>
+    <Icon>units/tupi/hero_archer.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

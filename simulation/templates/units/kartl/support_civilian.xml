@@ -2,9 +2,9 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>kartl</Civ>
-    <GenericName>Thracian Villager</GenericName>
+    <GenericName>Kartlian Villager</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/thra/support_female_citizen.png</Icon>
+    <Icon>units/kartl/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/kartlians/citizen_{phenotype}.xml</Actor>

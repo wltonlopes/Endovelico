@@ -14,7 +14,7 @@
     <Civ>mayap</Civ>
     <SpecificName>ixik</SpecificName>
     <GenericName>Maya Villager</GenericName>
-    <Icon>units/mayap/support_female_citizen.png</Icon>
+    <Icon>units/mayap/citizen.png</Icon>
     <SelectionGroupName>units/maya_protoclassic/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

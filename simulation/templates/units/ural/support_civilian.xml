@@ -28,8 +28,8 @@
   <Identity>
     <Civ>ural</Civ>
     <GenericName>Uralic Villager</GenericName>
-    <Icon>units/xion/support_citizen_female.png</Icon>
-    <SelectionGroupName>units/ural/support_female_citizen</SelectionGroupName>
+    <Icon>units/ural/citizen.png</Icon>
+    <SelectionGroupName>units/ural/support_citizen</SelectionGroupName>
     <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>

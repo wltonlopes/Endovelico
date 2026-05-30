@@ -3,8 +3,7 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Armenia Villager</GenericName>
-    <SpecificName></SpecificName>
-    <Icon>units/thra/support_female_citizen.png</Icon>
+    <Icon>units/arme/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/armenia/citizen_{phenotype}.xml</Actor>

@@ -9,7 +9,7 @@
     <Civ>moch</Civ>
     <SpecificName>Mecherraec</SpecificName>
     <GenericName>Moche farmers</GenericName>
-    <Icon>units/moch/support_female_citizen.png</Icon>
+    <Icon>units/moch/citizen.png</Icon>
     <SelectionGroupName>units/moch/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
