@@ -1,20 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_long">
   <Footprint>
-    <Square width="38.5" depth="8.5"/>
+    <Square width="34.0" depth="8.0"/>
     <Height>9.0</Height>
   </Footprint>
   <Identity>
     <Civ>bactr</Civ>
-    <SelectionGroupName>structures/illy/wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/bactrian_wallset_stone</SelectionGroupName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="37.0" depth="7.0"/>
+    <Static width="33.5" depth="7.5"/>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>14.0</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </Four>
+      <Five>
+        <X>7.5</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </Five>
+      <Six>
+        <X>-7.5</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </Six>
+      <Seven>
+        <X>10.5</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </Seven>
+      <Eight>
+        <X>-10.5</X>
+        <Y>12</Y>
+        <Z>0</Z>
+      </Eight>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/bactrian/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>37.0</Length>
+    <Length>31.0</Length>
   </WallPiece>
 </Entity>

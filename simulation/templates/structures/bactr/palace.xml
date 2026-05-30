@@ -41,6 +41,9 @@
   </TerritoryInfluence>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/hero_demetrius_i
+      units/{civ}/hero_eucratides_i
+      units/{civ}/hero_menander_i
     </Entities>
   </Trainer>
   <Vision>

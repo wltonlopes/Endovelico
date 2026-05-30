@@ -4,7 +4,7 @@
     <Civ>bedo</Civ>
     <SpecificName>Nurim</SpecificName>
     <GenericName>Bedouin Civilian</GenericName>
-    <Icon>units/iber/support_female_citizen.png</Icon>
+    <Icon>units/bedo/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/bedouins/citizen_{phenotype}.xml</Actor>

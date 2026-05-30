@@ -6,14 +6,17 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_a.xml" attachpoint="head"/>
+        <prop actor="props/units/capes/rider/cape_long_player.xml" attachpoint="root"/>
         <prop actor="props/units/helmets/hele_boeotian_s2_laurel.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/xiphos.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/aspis_ptol_iv.xml" attachpoint="shield_arm"/>
-		<prop actor="props/units/armor/greave_02_silver_r.xml" attachpoint="leg_R"/>
+	    	<prop actor="props/units/armor/greave_02_silver_r.xml" attachpoint="leg_R"/>
         <prop actor="props/units/armor/greave_02_silver_l.xml" attachpoint="leg_L"/>
       </props>
       <textures>
-        <texture file="skeletal/mace/linothorax_01_02.dds" name="baseTex"/>
+        <texture file="skeletal/mace/linothorax_01_02.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>

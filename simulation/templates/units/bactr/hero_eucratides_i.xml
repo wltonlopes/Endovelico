@@ -21,7 +21,7 @@
     <Lang>greek</Lang>
     <GenericName>Eucratides I of Bactria</GenericName>
     <SpecificName>Eukratides A' ho Baktria</SpecificName>
-    <Icon>units/bactr/eucratides_bact.png</Icon>
+    <Icon>units/bactr/eucratides.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/bactrians/hero_cavalry_spearman_eucratides_m.xml</Actor>

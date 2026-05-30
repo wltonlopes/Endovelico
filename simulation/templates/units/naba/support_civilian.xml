@@ -5,7 +5,7 @@
     <SpecificName>Ni'šaia haNabatu</SpecificName>
     <GenericName>nabataeans Woman</GenericName>
     <History>Along with this, the Nabataeans accorded a high position to their women. Women could inherit property and dispose of it. Women were often honored, such as the queens whose pictures appeared on coins, sometimes alone and sometimes with their husbands.</History>
-    <Icon>units/sele/support_female_citizen.png</Icon>
+    <Icon>units/naba/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/himyar/citizen_{phenotype}.xml</Actor>

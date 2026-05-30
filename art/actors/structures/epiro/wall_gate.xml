@@ -4,6 +4,7 @@
   <group>
     <variant frequency="1" name="base">
       <mesh>structural/epiro/wall_gate.dae</mesh>
+    
       <textures>
         <texture file="structural/epir_struct.png" name="baseTex"/>
         <texture file="structural/epir_struct_spec.png" name="specTex"/>
@@ -17,7 +18,6 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_epir.xml" attachpoint="garrisoned" selectable="false"/>
-
       </props>
     </variant>
   </group>

@@ -8,7 +8,7 @@
     <Lang>greek</Lang>
     <GenericName>Demetrius I the Undefeated</GenericName>
     <SpecificName>Demetrius Aníkētos</SpecificName>
-    <Icon>unit/bactr/demetrius_bact.png</Icon>
+    <Icon>units/bactr/demetrius.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/bactrians/hero_cavalry_swordsman_demetrius_I_m.xml</Actor>

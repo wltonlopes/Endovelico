@@ -9,8 +9,8 @@
         <prop actor="props/units/horse/crest_1.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_peytral_sele.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_fur.xml" attachpoint="root"/>
-		<prop actor="props/horse/cav_straps_kush.xml" attachpoint="root"/>
-		<prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
+	    	<prop actor="props/horse/cav_straps_kush.xml" attachpoint="root"/>
+		    <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

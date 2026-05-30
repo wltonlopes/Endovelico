@@ -3,7 +3,7 @@
   <Identity>
     <Civ>viet</Civ>
     <SpecificName>Womina</SpecificName>
-    <Icon>units/yayo/support_female_citizen.png</Icon>
+    <Icon>units/viet/citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/vietnamese/citizen_{phenotype}.xml</Actor>

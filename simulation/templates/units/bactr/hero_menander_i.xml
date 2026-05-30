@@ -9,7 +9,7 @@
     <Lang>greek</Lang>
     <GenericName>Menander I the Savior</GenericName>
     <SpecificName>Ménandras Sōtḗr</SpecificName>
-    <Icon>units/bactr/menander_bact.png</Icon>
+    <Icon>units/bactr/menander.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/bactrians/hero_cavalry_archer_menader_m.xml</Actor>
