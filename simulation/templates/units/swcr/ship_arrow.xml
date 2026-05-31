@@ -13,6 +13,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>structures/swcreek/canoe_war_archer_fire.xml</Actor>
+    <Actor>structures/swcreek/canoe_war_arrow.xml</Actor>
   </VisualActor>
 </Entity>
