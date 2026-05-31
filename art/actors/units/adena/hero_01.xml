@@ -12,7 +12,7 @@
         <prop actor="props/units/cloak/cloak_native_male_01.xml" attachpoint="shoulderpad_L"/>
       </props>
       <textures>
-        <texture file="skeletal/adenas/hero_01.png" name="baseTex"/>
+        <texture file="skeletal/adena/hero_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

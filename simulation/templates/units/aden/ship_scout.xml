@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_warship_scout">
   <Footprint>
-    <Square width="8.0" depth="33.0"/>
+    <Square width="8.0" depth="20.0"/>
     <Height>10.0</Height>
   </Footprint>
   <Identity>
-  <Civ>aden</Civ>
-    <SpecificName></SpecificName>
+    <Civ>aden</Civ>
+    <GenericName>Scout Canoe</GenericName>
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe_war.xml</Actor>
+    <Actor>structures/adena/canoe_war.xml</Actor>
   </VisualActor>
 </Entity>

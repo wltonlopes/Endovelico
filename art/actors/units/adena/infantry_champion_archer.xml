@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="Base">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_south_america_base.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/adenas_hair_male_01.xml" attachpoint="head"/>
@@ -12,6 +12,7 @@
         <prop actor="props/units/weapons/bow_long_indian.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
         <prop actor="props/units/helmets/lenca_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/capes/cape_archer_adena_01.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -22,31 +23,24 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/adenas/c_01.png" name="baseTex"/>
+        <texture file="skeletal/adena/c_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/adenas/c_02.png" name="baseTex"/>
+        <texture file="skeletal/adena/c_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/adenas/c_03.png" name="baseTex"/>
+        <texture file="skeletal/adena/c_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_archer_relax.xml"/>
-    <variant file="biped/approach_ruins.xml"/>
-    <variant file="biped/approach_praise.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_archer_relax.xml" name="Archer-Relax" frequency="1"/>
     <variant file="biped/attack_ranged_archer_fire.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>

@@ -26,7 +26,7 @@
             "Count": 4
         },
         {
-            "Template": "units/anish/infantry_maceman_b",
+            "Template": "units/anish/infantry_axeman_b",
             "Count": 3
         },
         {
@@ -43,21 +43,11 @@
         }
     ],
     "AINames": [
-        "Jimmu",
-        "Suizei",
-        "Annei",
-        "Itoku",
-        "Kosho",
-        "Koan",
-        "Korei",
-        "Kogen",
-        "Kaika",
-        "Suijin",
-        "Suinin"
+        "Player"
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/anish/infantry_scout",
-        "skirmish/units/default_infantry_melee_b": "units/anish/infantry_maceman_b",
+        "skirmish/units/default_infantry_melee_b": "units/anish/infantry_axeman_b",
         "skirmish/units/default_infantry_ranged_b": "units/anish/infantry_archer_b",
         "skirmish/units/special_starting_unit": "units/anish/support_wagon",
         "skirmish/units/default_ship_trireme": "units/anish/ship_bireme"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_civic_plaza">
   <Cost>
     <BuildTime>100</BuildTime>
     <Resources>
@@ -11,36 +11,13 @@
     <Square width="30.0" depth="30.0"/>
     <Height>5.0</Height>
   </Footprint>
-  <Health>
-    <Max>500</Max>
-  </Health>
   <Identity>
     <Civ>batw</Civ>
-    <GenericName>Ceremonial square</GenericName>
-    <SpecificName></SpecificName>
-    <Tooltip>Train Heroes and researcher technologies.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
-    <VisibleClasses datatype="tokens">Palace</VisibleClasses>
-    <Icon>structures/mayap/palace.png</Icon>
   </Identity>
-  <Loot>
-    <stone>40</stone>
-    <metal>40</metal>
-  </Loot>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
-  <ProductionQueue/>
-  <Researcher>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </Researcher>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_broch.xml</select>
-      <constructed>interface/complete/building/complete_broch.xml</constructed>
-    </SoundGroups>
-  </Sound>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
@@ -49,9 +26,6 @@
       units/{civ}/hero_03
     </Entities>
   </Trainer>
-  <Vision>
-    <Range>40</Range>
-  </Vision>
   <VisualActor>
     <Actor>structures/batwa/plaza.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>

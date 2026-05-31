@@ -21,17 +21,17 @@
         <prop actor="props/units/cloak/cloak_adena_healer.xml" attachpoint="shoulderpad_L"/>
       </props>
       <textures>
-        <texture file="skeletal/adenas/h_01.png" name="baseTex"/>
+        <texture file="skeletal/adena/h_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/adenas/h_02.png" name="baseTex"/>
+        <texture file="skeletal/adena/h_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/adenas/h_03.png" name="baseTex"/>
+        <texture file="skeletal/adena/h_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

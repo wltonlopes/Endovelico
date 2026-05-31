@@ -28,32 +28,32 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/adenas/f_01_01.png" name="baseTex"/>
+        <texture file="skeletal/adena/f_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/adenas/f_01_02.png" name="baseTex"/>
+        <texture file="skeletal/adena/f_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/adenas/f_01_03.png" name="baseTex"/>
+        <texture file="skeletal/adena/f_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="b1">
       <textures>
-        <texture file="skeletal/adenas/f_02_01.png" name="baseTex"/>
+        <texture file="skeletal/adena/f_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="b2">
       <textures>
-        <texture file="skeletal/adenas/f_02_02.png" name="baseTex"/>
+        <texture file="skeletal/adena/f_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="b3">
       <textures>
-        <texture file="skeletal/adenas/f_02_03.png" name="baseTex"/>
+        <texture file="skeletal/adena/f_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

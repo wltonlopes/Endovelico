@@ -22,13 +22,13 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Plaza</GenericName>
     <SelectionGroupName>template_structure_civic_temple</SelectionGroupName>
-    <Tooltip>Train heros and chief priest.</Tooltip>
+    <Tooltip>Train mercenaries and chief priest.</Tooltip>
     <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
     <Icon>structures/temple.png</Icon>
     <Requirements>
@@ -60,10 +60,10 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/support_healer_b
-      units/{civ}/hero_01
-      units/{civ}/hero_02
-      units/{civ}/hero_03
+      units/{civ}/champion_healer
+      units/{civ}/mercenary_01
+      units/{civ}/mercenary_02
+      units/{civ}/mercenary_03
     </Entities>
   </Trainer>
   <Vision>

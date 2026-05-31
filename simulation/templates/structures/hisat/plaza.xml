@@ -2,7 +2,6 @@
 <Entity parent="template_structure_civic_plaza">
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Plaza</SpecificName>
   </Identity>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>

@@ -22,6 +22,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/mochicas/champion_support_healer_{phenotype}.xml</Actor>
+    <Actor>units/mochicas/infantry_champion_support_healer_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

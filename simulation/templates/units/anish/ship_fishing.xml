@@ -6,10 +6,9 @@
   </Footprint>
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Kayom</SpecificName>
     <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/maya_protoclassic/canoe.xml</Actor>
+    <Actor>structures/anishinaabe/canoe_fishing.xml</Actor>
   </VisualActor>
 </Entity>

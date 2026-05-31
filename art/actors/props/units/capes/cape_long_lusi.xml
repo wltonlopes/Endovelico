@@ -9,17 +9,17 @@
   <group>
     <variant frequency="1" name="Celtic cape 01">
       <textures>
-        <texture file="skeletal/units/cape_lusi_01.png" name="baseTex"/>
+        <texture file="props/capes/cape_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Celtic cape 02">
       <textures>
-        <texture file="skeletal/units/cape_lusi_02.png" name="baseTex"/>
+        <texture file="props/capes/cape_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Celtic cape 03">
       <textures>
-        <texture file="skeletal/units/cape_lusi_03.png" name="baseTex"/>
+        <texture file="props/capes/cape_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -7,10 +7,9 @@
   <Identity>
     <Civ>aden</Civ>
     <GenericName>Fishing Canoe</GenericName>
-    <SpecificName></SpecificName>
     <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/south_america/canoe.xml</Actor>
+    <Actor>structures/adena/canoe_fishing.xml</Actor>
   </VisualActor>
 </Entity>

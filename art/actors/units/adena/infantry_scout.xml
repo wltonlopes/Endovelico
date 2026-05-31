@@ -15,21 +15,21 @@
   <group>
     <variant frequency="1" name="a">
       <textures>
-        <texture file="skeletal/adenas/i_scout_01.png" name="baseTex"/>
+        <texture file="skeletal/adena/i_scout_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="b">
       <textures>
-        <texture file="skeletal/adenas/i_scout_02.png" name="baseTex"/>
+        <texture file="skeletal/adena/i_scout_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c">
       <textures>
-        <texture file="skeletal/adenas/i_scout_03.png" name="baseTex"/>
+        <texture file="skeletal/adena/i_scout_03.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
       </textures>

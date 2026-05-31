@@ -21,17 +21,17 @@
   <group>
     <variant frequency="100" name="01">
       <textures>
-        <texture file="skeletal/adenas/hi_01.png" name="baseTex"/>
+        <texture file="skeletal/adena/hi_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="02">
       <textures>
-        <texture file="skeletal/adenas/hi_02.png" name="baseTex"/>
+        <texture file="skeletal/adena/hi_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="100" name="03">
       <textures>
-        <texture file="skeletal/adenas/hi_03.png" name="baseTex"/>
+        <texture file="skeletal/adena/hi_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
