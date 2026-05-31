@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="arsenal">
+    <variant frequency="1" name="Hisatsinom arsenal">
       <mesh>structural/hisatsinom/arsenal.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_light_8x8.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
@@ -16,7 +16,7 @@
         <texture file="structural/hisat/struct.png" name="baseTex"/>
         <texture file="structural/hisat/struct_spec.png" name="specTex"/>
         <texture file="structural/hisat/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/hisatsinom/arsenal.png" name="aoTex"/>
+        <texture file="structural/ao/hisat/arsenal_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -24,8 +24,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_hisat.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>
