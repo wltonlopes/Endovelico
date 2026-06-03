@@ -10,6 +10,7 @@
         <prop actor="props/units/weapons/tacape_tupi.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/guara_round_01.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/obsidian_sheath_a.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/capes/poncho_guarani_male.xml" attachpoint="root"/> 
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

@@ -15,12 +15,12 @@
     <group>
       <variant frequency="1" name="Face-01">
         <textures>
-          <texture file="props/head/mochica_fem_1.png" name="baseTex"/>
+          <texture file="props/head/mochica/fem_1.png" name="baseTex"/>
         </textures>
       </variant>
       <variant frequency="1" name="Face-02">
         <textures>
-          <texture file="props/head/mochica_fem_2.png" name="baseTex"/>
+          <texture file="props/head/mochica/fem_2.png" name="baseTex"/>
         </textures>
       </variant>
     </group>

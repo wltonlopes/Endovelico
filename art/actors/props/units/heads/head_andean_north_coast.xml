@@ -11,7 +11,7 @@
       <textures><texture file="props/head/andeans_basic_a.png" name="baseTex"/></textures>
     </variant>
 	 <variant frequency="1" name="andeans cost Face b">
-      <textures><texture file="props/head/mochica_man_base.png" name="baseTex"/></textures>
+      <textures><texture file="props/head/mochica/man_base.png" name="baseTex"/></textures>
 	  </variant>
   </group>
   <group>

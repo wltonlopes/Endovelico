@@ -8,13 +8,13 @@
   </group>
   <group>
     <variant frequency="1" name="Face 01">
-      <textures><texture file="props/head/mochica_runner_01.png" name="baseTex"/></textures>
+      <textures><texture file="props/head/mochica/runner_01.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="Face 02">
-      <textures><texture file="props/head/mochica_runner_02.png" name="baseTex"/></textures>
+      <textures><texture file="props/head/mochica/runner_02.png" name="baseTex"/></textures>
 	  </variant>
     <variant frequency="1" name="Face 03">
-      <textures><texture file="props/head/mochica_runner_03.png" name="baseTex"/></textures>
+      <textures><texture file="props/head/mochica/runner_03.png" name="baseTex"/></textures>
 	  </variant>
   </group>
   <group>
