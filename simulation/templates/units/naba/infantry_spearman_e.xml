@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <Entity parent="units/naba/infantry_spearman_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/nabataeanss/infantry_spearman_e.xml</Actor>
+    <Actor>units/nabataeans/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

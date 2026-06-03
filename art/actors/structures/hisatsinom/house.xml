@@ -5,14 +5,11 @@
     <variant frequency="1" name="Hisatsinom House">
       <props>
         <prop actor="props/structures/decals/dirt_light_4x4.xml" attachpoint="root"/>
-        <prop actor="props/structures/hisatsinom/house_embers.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_04"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_05"/>
-        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
-        <prop actor="particle/smoke_light.xml" attachpoint="smoke"/>
       </props>
       <textures>
         <texture file="structural/hisat/struct.png" name="baseTex"/>
@@ -22,24 +19,32 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="House 01">
+    <variant frequency="43" name="House 01">
       <mesh>structural/hisatsinom/house_01.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_light_4x4.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire"/>
+      </props>
       <textures>
         <texture file="structural/ao/hisat/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <!--<variant frequency="1" name="House 02">
+    <variant frequency="42" name="House 02">
       <mesh>structural/hisatsinom/house_02.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_light_4x4.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire"/>
+      </props>
       <textures>
         <texture file="structural/ao/hisat/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="House 03">
+    <variant frequency="15" name="House 03">
       <mesh>structural/hisatsinom/house_03.dae</mesh>
       <textures>
         <texture file="structural/ao/hisat/house_03_ao.png" name="aoTex"/>
       </textures>
-    </variant>-->
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="ungarrisoned"/>

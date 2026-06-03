@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_forge">
+  <Footprint>
+    <Square width="20.0" depth="20.0"/>
+    <Height>15.0</Height>
+  </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
+  <Obstruction>
+    <Static width="19.5" depth="19.5"/>
+  </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
       -archer_attack_spread
@@ -11,5 +18,6 @@
   </Researcher>
   <VisualActor>
     <Actor>structures/hisatsinom/forge.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

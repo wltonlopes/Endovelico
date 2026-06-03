@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+    <variant name="Campfire Decal Small">
+      <mesh>props/special/decal_campfire_small.dae</mesh>
+      <textures>
+        <texture file="props/decal_campfire_custom.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

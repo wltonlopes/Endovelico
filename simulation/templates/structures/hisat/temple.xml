@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Footprint>
-    <Square width="26" depth="20"/>
+    <Square width="26.0" depth="26.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -9,15 +9,15 @@
   </Health>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="24" depth="18"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
   <Trainer>
   </Trainer>
   <VisualActor>
     <Actor>structures/hisatsinom/temple.xml</Actor>
-    <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

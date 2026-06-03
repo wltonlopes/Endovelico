@@ -5,7 +5,6 @@
     <variant frequency="1" name="Hisatsinom Dock">
       <mesh>structural/hisatsinom/dock.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_light_5x5.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>

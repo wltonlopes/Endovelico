@@ -5,14 +5,13 @@
     <variant frequency="1" name="Hisatsinom Farmstead">
       <mesh>structural/hisatsinom/farmstead.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_light_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_light_4x4.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_04"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_05"/>
-        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
-        <prop actor="particle/smoke_light.xml" attachpoint="smoke"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire"/>
       </props>
       <textures>
         <texture file="structural/hisat/struct.png" name="baseTex"/>

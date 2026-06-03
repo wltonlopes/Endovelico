@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-06-01T17:27:10</created>
+    <modified>2026-06-01T17:27:10</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Decal_Campfire_Small-mesh" name="Decal Campfire Small">
+      <mesh>
+        <source id="Decal_Campfire_Small-mesh-positions">
+          <float_array id="Decal_Campfire_Small-mesh-positions-array" count="96">0 -2.146181 0.01999998 0.4186992 -2.104943 0.01999998 0.8213081 -1.982813 0.01999998 1.192354 -1.784484 0.01999998 1.517579 -1.517579 0.01999998 1.784484 -1.192354 0.01999998 1.982813 -0.8213081 0.01999998 2.104943 -0.4186992 0.01999998 2.146181 0 0.01999998 2.104943 0.4186992 0.01999998 1.982813 0.8213081 0.01999998 1.784484 1.192354 0.01999998 1.517579 1.517579 0.01999998 1.192354 1.784484 0.01999998 0.8213081 1.982813 0.01999998 0.4186992 2.104943 0.01999998 0 2.146181 0.01999998 -0.4186992 2.104943 0.01999998 -0.8213081 1.982813 0.01999998 -1.192354 1.784484 0.01999998 -1.517579 1.517579 0.01999998 -1.784484 1.192354 0.01999998 -1.982813 0.8213081 0.01999998 -2.104943 0.4186992 0.01999998 -2.146181 0 0.01999998 -2.104943 -0.4186992 0.01999998 -1.982813 -0.8213081 0.01999998 -1.784484 -1.192354 0.01999998 -1.517579 -1.517579 0.01999998 -1.192354 -1.784484 0.01999998 -0.8213081 -1.982813 0.01999998 -0.4186992 -2.104943 0.01999998</float_array>
+          <technique_common>
+            <accessor source="#Decal_Campfire_Small-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Decal_Campfire_Small-mesh-normals">
+          <float_array id="Decal_Campfire_Small-mesh-normals-array" count="90">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Decal_Campfire_Small-mesh-normals-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Decal_Campfire_Small-mesh-map-0">
+          <float_array id="Decal_Campfire_Small-mesh-map-0-array" count="180">0.7841625 0.2667941 0.8658348 0.5360318 0.1341653 0.4639683 0.8658348 0.5360318 0.8517759 0.6067103 0.8241985 0.6732879 0.8241985 0.6732879 0.7841624 0.7332063 0.733206 0.7841625 0.733206 0.7841625 0.6732876 0.8241986 0.60671 0.851776 0.60671 0.851776 0.5360315 0.8658348 0.4639683 0.8658348 0.4639683 0.8658348 0.3932899 0.8517759 0.3267121 0.8241985 0.3267121 0.8241985 0.2667939 0.7841624 0.2158375 0.733206 0.2158375 0.733206 0.1758014 0.6732877 0.1482241 0.60671 0.1482241 0.60671 0.1341652 0.5360314 0.1341653 0.4639683 0.1341653 0.4639683 0.1482241 0.3932898 0.1758015 0.3267121 0.1758015 0.3267121 0.2158377 0.2667939 0.266794 0.2158375 0.266794 0.2158375 0.3267124 0.1758013 0.3932901 0.148224 0.3932901 0.148224 0.4639686 0.1341652 0.5360317 0.1341652 0.5360317 0.1341652 0.6067102 0.1482241 0.6732879 0.1758016 0.6732879 0.1758016 0.7332062 0.2158377 0.7841625 0.2667941 0.7841625 0.2667941 0.8241987 0.3267124 0.851776 0.3932901 0.851776 0.3932901 0.8658348 0.4639686 0.8658348 0.5360318 0.8658348 0.5360318 0.8241985 0.6732879 0.733206 0.7841625 0.733206 0.7841625 0.60671 0.851776 0.4639683 0.8658348 0.4639683 0.8658348 0.3267121 0.8241985 0.2158375 0.733206 0.2158375 0.733206 0.1482241 0.60671 0.1341653 0.4639683 0.1341653 0.4639683 0.1758015 0.3267121 0.266794 0.2158375 0.266794 0.2158375 0.3932901 0.148224 0.5360317 0.1341652 0.5360317 0.1341652 0.6732879 0.1758016 0.7841625 0.2667941 0.7841625 0.2667941 0.851776 0.3932901 0.8658348 0.5360318 0.8658348 0.5360318 0.733206 0.7841625 0.4639683 0.8658348 0.4639683 0.8658348 0.2158375 0.733206 0.8658348 0.5360318 0.2158375 0.733206 0.1341653 0.4639683 0.8658348 0.5360318 0.1341653 0.4639683 0.266794 0.2158375 0.5360317 0.1341652 0.5360317 0.1341652 0.7841625 0.2667941 0.1341653 0.4639683</float_array>
+          <technique_common>
+            <accessor source="#Decal_Campfire_Small-mesh-map-0-array" count="90" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Decal_Campfire_Small-mesh-vertices">
+          <input semantic="POSITION" source="#Decal_Campfire_Small-mesh-positions"/>
+        </vertices>
+        <triangles count="30">
+          <input semantic="VERTEX" source="#Decal_Campfire_Small-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Decal_Campfire_Small-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Decal_Campfire_Small-mesh-map-0" offset="2" set="0"/>
+          <p>28 0 0 0 0 1 16 0 2 0 1 3 1 1 4 2 1 5 2 2 6 3 2 7 4 2 8 4 3 9 5 3 10 6 3 11 6 4 12 7 4 13 8 4 14 8 5 15 9 5 16 10 5 17 10 6 18 11 6 19 12 6 20 12 7 21 13 7 22 14 7 23 14 8 24 15 8 25 16 8 26 16 9 27 17 9 28 18 9 29 18 10 30 19 10 31 20 10 32 20 11 33 21 11 34 22 11 35 22 12 36 23 12 37 24 12 38 24 13 39 25 13 40 26 13 41 26 14 42 27 14 43 28 14 44 28 15 45 29 15 46 30 15 47 30 16 48 31 16 49 0 16 50 0 17 51 2 17 52 4 17 53 4 18 54 6 18 55 8 18 56 8 19 57 10 19 58 12 19 59 12 20 60 14 20 61 16 20 62 16 21 63 18 21 64 20 21 65 20 22 66 22 22 67 24 22 68 24 23 69 26 23 70 28 23 71 28 24 72 30 24 73 0 24 74 0 25 75 4 25 76 8 25 77 8 26 78 12 26 79 0 26 80 12 27 81 16 27 82 0 27 83 16 28 84 20 28 85 24 28 86 24 29 87 28 29 88 16 29 89</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="decal_campfire_small" name="decal_campfire_small" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Decal_Campfire_Small-mesh" name="decal_campfire_small"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

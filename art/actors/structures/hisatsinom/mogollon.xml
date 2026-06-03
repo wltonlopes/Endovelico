@@ -2,20 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Hisatsinom Mogollon">
+    <variant frequency="1" name="Hisatsinom Embassy Mogollon">
       <mesh>structural/hisatsinom/mogollon.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_light_7x7.xml" attachpoint="root"/>
-        <prop actor="props/structures/hisatsinom/mogollon_embers.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_04"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_05"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_06"/>
-        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_07"/>
-        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
-        <prop actor="particle/smoke_light.xml" attachpoint="smoke"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire"/>
       </props>
       <textures>
         <texture file="structural/hisat/struct.png" name="baseTex"/>

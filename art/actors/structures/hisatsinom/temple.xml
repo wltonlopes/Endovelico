@@ -2,16 +2,36 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="Hisatsinom Temple">
       <mesh>structural/hisatsinom/temple.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_light_8x8.xml" attachpoint="root"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_04"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_05"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_06"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_07"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_08"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_09"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_10"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_11"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_12"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_13"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_14"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_15"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire_01"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire_02"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire_03"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire_04"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire_05"/>
       </props>
       <textures>
         <texture file="structural/hisat/struct.png" name="baseTex"/>
         <texture file="structural/hisat/struct_spec.png" name="specTex"/>
         <texture file="structural/hisat/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/hisat/temple_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,8 +39,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_hisat.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

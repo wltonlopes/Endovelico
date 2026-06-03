@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
-    <Square width="13" depth="6"/>
+    <Square width="18.0" depth="8.0"/>
     <Height>12.6</Height>
   </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Kaki</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="12" depth="5"/>
+    <Static width="17.5" depth="7.5"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>13.6</HeightOffset>
   </StatusBars>
+  <WallPiece>
+    <Length>8.0</Length>
+  </WallPiece>
   <VisualActor>
     <Actor>structures/hisatsinom/wall_short.xml</Actor>
   </VisualActor>

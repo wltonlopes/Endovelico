@@ -2,16 +2,45 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
+    <variant frequency="1" name="Hisatsinom Wonder">
       <mesh>structural/hisatsinom/wonder.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_light_12x12.xml" attachpoint="root"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_01"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_02"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_03"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_04"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_05"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_06"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_07"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_08"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_09"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_10"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_11"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_12"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_13"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_14"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_15"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_16"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_17"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_18"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_19"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_20"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_21"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_22"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_23"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_24"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_25"/>
+        <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="bush_26"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire_01"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire_02"/>
+        <prop actor="props/special/eyecandy/campfire_tiny.xml" attachpoint="campfire_03"/>
       </props>
       <textures>
         <texture file="structural/hisat/struct.png" name="baseTex"/>
         <texture file="structural/hisat/struct_spec.png" name="specTex"/>
         <texture file="structural/hisat/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/hisat/wonder_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -19,8 +48,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned" selectable="false"/>
-
+        <prop actor="props/special/common/garrison_flag_hisat.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>

@@ -6,13 +6,14 @@
   </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName/>
   </Identity>
   <Obstruction>
-    <Static width="26.0" depth="26.0"/>
+    <Static width="27.5" depth="27.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/hisatsinom/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
   <Trainer>
   </Trainer>

@@ -2,18 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
-      <mesh>structural/gate_and_towers.dae</mesh>
+    <variant frequency="1" name="Hisatsinom Wall Gate">
+      <mesh>structural/hisatsinom/wall_gate.dae</mesh>
       <props>
         <prop actor="props/special/native_gate_door.xml" attachpoint="root"/>
-        <prop actor="structures/hisatsinom/wall_tower.xml" attachpoint="tower_01"/>
-        <prop actor="structures/hisatsinom/wall_tower.xml" attachpoint="tower_02"/>
       </props>
       <textures>
-        <texture file="structural/tupi/struct.png" name="baseTex"/>
-        <texture file="structural/tupi/struct_spec.png" name="specTex"/>
-        <texture file="structural/tupi/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/hisat/struct.png" name="baseTex"/>
+        <texture file="structural/hisat/struct_spec.png" name="specTex"/>
+        <texture file="structural/hisat/struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/hisat/wall_gate_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

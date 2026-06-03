@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <group>
+        <variant name="Embers Small">
+            <mesh>props/special/embers_small.dae</mesh>
+            <textures>
+                <texture file="gaia/embers.png" name="baseTex"/>
+                <texture file="gaia/embers_spec.png" name="specTex"/>
+                <texture file="gaia/embers_norm.png" name="normTex"/>
+            </textures>
+        </variant>
+    </group>
+    <material>basic_trans_norm_spec.xml</material>
+</actor>

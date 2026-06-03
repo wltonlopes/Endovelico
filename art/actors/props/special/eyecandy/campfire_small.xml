@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Campfire Small">
+      <props>
+        <prop actor="particle/smoke_light_delay.xml" attachpoint="root"/>
+        <prop actor="particle/flame.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/campfire_decal_small.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/embers_small.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="props/campfire.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="Campfire Small 01">
+      <mesh>props/special/campfire_small_01.dae</mesh>
+    </variant>
+    <variant name="Campfire Small 02">
+      <mesh>props/special/campfire_small_02.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>
