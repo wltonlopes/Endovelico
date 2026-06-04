@@ -8,9 +8,9 @@
         <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/miny_struct.png" name="baseTex"/>
-        <texture file="structural/miny_struct_spec.png" name="specTex"/>
-        <texture file="structural/miny_struct_norm.png" name="normTex"/>
+        <texture file="structural/miny/struct.png" name="baseTex"/>
+        <texture file="structural/miny/struct_spec.png" name="specTex"/>
+        <texture file="structural/miny/struct_norm.png" name="normTex"/>
         <texture file="structural/ao/minyue/scout_tower_ao.png" name="aoTex"/>
       </textures>
     </variant>

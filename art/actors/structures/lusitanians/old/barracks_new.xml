@@ -8,9 +8,9 @@
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/lusi_struct_new.png" name="baseTex"/>
-        <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
-        <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
+        <texture file="structural/lusi/struct_new.png" name="baseTex"/>
+        <texture file="structural/lusi/struct_new_spec.png" name="specTex"/>
+        <texture file="structural/lusi/struct_new_norm.png" name="normTex"/>
         <texture file="structural/ao/lusi/new_barracks_AO.png" name="aoTex"/>
       </textures>
     </variant>

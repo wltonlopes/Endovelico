@@ -5,9 +5,9 @@
     <variant frequency="1" name="cc">
       <mesh>structural/lusi/farmstead_new_new.dae</mesh>
       <textures>
-        <texture file="structural/lusi_struct_new.png" name="baseTex"/>
-        <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
-        <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
+        <texture file="structural/lusi/struct_new.png" name="baseTex"/>
+        <texture file="structural/lusi/struct_new_spec.png" name="specTex"/>
+        <texture file="structural/lusi/struct_new_norm.png" name="normTex"/>
         <texture file="structural/ao/lusi/farmstead_new_new_AO.png" name="aoTex"/>
       </textures>
     </variant>

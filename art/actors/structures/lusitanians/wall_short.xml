@@ -5,9 +5,9 @@
     <variant frequency="0" name="wall segment short">
       <mesh>structural/lusi/wall_short.dae</mesh>
       <textures>
-        <texture file="structural/lusi_struct_new.png" name="baseTex"/>
-        <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
-        <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
+        <texture file="structural/lusi/struct_new.png" name="baseTex"/>
+        <texture file="structural/lusi/struct_new_spec.png" name="specTex"/>
+        <texture file="structural/lusi/struct_new_norm.png" name="normTex"/>
         <texture file="structural/ao/lusi/wall_long_ao.png" name="aoTex"/>
       </textures>
     </variant>

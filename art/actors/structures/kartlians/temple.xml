@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Scout_Tower">
+    <variant frequency="1" name="Temple">
       <mesh>structural/kartlians/temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
@@ -12,7 +12,19 @@
         <texture file="structural/kartl/struct.png" name="baseTex"/>
         <texture file="structural/kartl/struct_spec.png" name="specTex"/>
         <texture file="structural/kartl/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/kartl/temple_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Temple_2">
+      <mesh>structural/kartlians/temple_2.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/kartl/struct.png" name="baseTex"/>
+        <texture file="structural/kartl/struct_spec.png" name="specTex"/>
+        <texture file="structural/kartl/struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/kartl/temple_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -21,7 +33,6 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_kartl.xml" attachpoint="garrisoned" selectable="false"/>
-
       </props>
     </variant>
   </group>

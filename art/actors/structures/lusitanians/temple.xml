@@ -16,9 +16,9 @@
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire2"/>
       </props>
       <textures>
-        <texture file="structural/lusi_struct_new.png" name="baseTex"/>
-        <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
-        <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
+        <texture file="structural/lusi/struct_new.png" name="baseTex"/>
+        <texture file="structural/lusi/struct_new_spec.png" name="specTex"/>
+        <texture file="structural/lusi/struct_new_norm.png" name="normTex"/>
         <texture file="structural/ao/lusi/new_temple_AO.png" name="aoTex"/>
       </textures>
     </variant>

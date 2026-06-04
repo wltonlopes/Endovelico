@@ -25,7 +25,7 @@
   <group>
     <variant name="texture a">
       <textures>
-        <texture file="structural/illy_charriot.png" name="baseTex"/>
+        <texture file="structural/illy/charriot.png" name="baseTex"/>
       </textures>
     </variant>
 

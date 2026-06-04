@@ -15,27 +15,27 @@
   </group>
   <group>
     <variant frequency="1" name="house a">
-<mesh>structural/kartlians/house_1.dae</mesh>
+<mesh>structural/kartlians/house_01.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/kartl/house_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
-<mesh>structural/kartlians/house_2.dae</mesh>
+<mesh>structural/kartlians/house_02.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/kartl/house_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
-<mesh>structural/kartlians/house_3.dae</mesh>
+<mesh>structural/kartlians/house_03.dae</mesh>
       <textures>
-         <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/kartl/house_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
-<mesh>structural/kartlians/house_2.dae</mesh>
+<mesh>structural/kartlians/house_04.dae</mesh>
       <textures>
-                <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+         <texture file="structural/ao/kartl/house_04_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
