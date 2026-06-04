@@ -8,6 +8,6 @@
     <Icon>units/yayo/hero_keiko.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/koreans/hero_infantry_spearman.xml</Actor>
+    <Actor>units/koreans/hero_chariot_crossbowman_jun_m.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+   <Identity>
+    <Civ>gojo</Civ>
+    <GenericName>King Onjo of Baekje</GenericName>
+    <SpecificName>Onjo</SpecificName>
+    <History>Onjo was the founder of the Baekje kingdom and is considered a legendary figure in Korean history.</History>
+    <Icon>units/yayo/hero_wousu.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/koreans/hero_archer_onjo.xml</Actor>
+  </VisualActor>
+</Entity>
