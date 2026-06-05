@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint>
+    <Square width="27.0" depth="27.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maya</Civ>
+    <GenericName>Market</GenericName>
+    <SpecificName>K íwik</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      mayap/kakaw_trade
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/mayas/market.xml</Actor>
+  </VisualActor>
+</Entity>

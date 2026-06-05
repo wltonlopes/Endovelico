@@ -4,7 +4,7 @@
   <Civ>chibc</Civ>
     <GenericName>Gread Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+    <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/chibchas/infantry_champion_spearman.xml</Actor>

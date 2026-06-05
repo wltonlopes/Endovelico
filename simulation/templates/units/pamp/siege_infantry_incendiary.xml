@@ -8,7 +8,7 @@
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
     <Tooltip>siege</Tooltip>
-    <Icon>units/mayap/infantry_fireman.png</Icon>
+    <Icon>units/maya/infantry_fireman.png</Icon>
   </Identity>
   <Health>
     <Max>150</Max>

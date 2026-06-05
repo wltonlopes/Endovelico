@@ -8,7 +8,7 @@
         <prop actor="units/pukara/operator_left_b.xml" attachpoint="operator_b"/>
         <prop actor="units/pukara/operator_right_f.xml" attachpoint="operator_c"/>
         <prop actor="units/pukara/operator_right_b.xml" attachpoint="operator_d"/>
-        <prop actor="structures/maya_protoclassic/siege_ram.xml" attachpoint="root"/>
+        <prop actor="structures/mayas/siege_ram.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/hele_siege.dds" name="baseTex"/>

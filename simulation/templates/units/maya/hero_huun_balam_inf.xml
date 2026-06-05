@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+   <Auras datatype="tokens">
+    units/mayap/heroes/yax_ehb'xok
+   </Auras>
+  <Identity>
+    <Civ>maya</Civ>
+    <SpecificName>Ajaw Huun balam</SpecificName>
+<<<<<<<< HEAD:simulation/templates/units/maya/inf_hero_huun_balam_inf.xml
+    <Icon>units/mayap/hero_huun_balam.png</Icon>
+========
+    <Icon>units/maya/hero_king_01.png</Icon>
+>>>>>>>> c3dbb833 (Atualização bake da civ maya, ajustes footprint, obstruction, foundation, position torretas, implementação wall_gate, refatoração dos diretórios, alteração do civ_code mayap -> maya etc. (WIP)):simulation/templates/units/maya/hero_huun_balam_inf.xml
+  </Identity>
+  <VisualActor>
+    <Actor>units/mayas/hero_huun_balam_infantry_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

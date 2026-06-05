@@ -24,7 +24,7 @@
     <GenericName>observatory</GenericName>
     <SpecificName>K'inob</SpecificName>
     <Tooltip>Advance your technology.</Tooltip>
-    <Icon>structures/mayap/observatory.png</Icon>
+    <Icon>structures/maya/observatory.png</Icon>
     <Requirements>
       <Techs datatype="tokens">-phase_city phase_town</Techs>
     </Requirements>

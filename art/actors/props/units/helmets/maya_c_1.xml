@@ -5,7 +5,7 @@
         <variant frequency="100" name="helmet">
       <mesh>props/helmet/maya_turbante_jaguar.dae</mesh>
       <textures>
-        <texture file="structural/maya_struct.png" name="baseTex"/>
+        <texture file="structural/maya/struct_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

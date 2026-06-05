@@ -5,7 +5,7 @@
     <SelectionGroupName>units/adena_infantry_slinger_b</SelectionGroupName>
     <GenericName>Levy Slinger</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/infantry_slinger.png</Icon>
+    <Icon>units/maya/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/swcr/infantry_slinger_a</Entity>

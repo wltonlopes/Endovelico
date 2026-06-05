@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/maya/infantry_merc_spearman_lenca_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/maya/infantry_merc_spearman_lenca_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mayas/infantry_spearman_lenca_a.xml</Actor>
+  </VisualActor>
+</Entity>

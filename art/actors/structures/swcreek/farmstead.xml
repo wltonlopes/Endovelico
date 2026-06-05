@@ -6,10 +6,10 @@
     <mesh>structural/swcreek/farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
-        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="m_01" maxheight="20" minheight="-20"/>
-        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="m_02" maxheight="20" minheight="-20"/>
-        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="m_03" maxheight="20" minheight="-20"/>
-        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="m_04" maxheight="20" minheight="-20"/>
+        <prop actor="structures/mayas/maize_clump.xml" attachpoint="m_01" maxheight="20" minheight="-20"/>
+        <prop actor="structures/mayas/maize_clump.xml" attachpoint="m_02" maxheight="20" minheight="-20"/>
+        <prop actor="structures/mayas/maize_clump.xml" attachpoint="m_03" maxheight="20" minheight="-20"/>
+        <prop actor="structures/mayas/maize_clump.xml" attachpoint="m_04" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/swcr/struct.png" name="baseTex"/>

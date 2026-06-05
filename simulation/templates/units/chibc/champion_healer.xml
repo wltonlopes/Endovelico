@@ -14,7 +14,7 @@
     <Civ>chibc</Civ>
     <GenericName>Chibcha Shaman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/champion_healer.png</Icon>
+    <Icon>units/maya/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

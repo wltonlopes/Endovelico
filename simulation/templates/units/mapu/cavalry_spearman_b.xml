@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mapu</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/maya/heavy_javelineer</SelectionGroupName>
     <GenericName>Experienced spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="roof_01">
+      <props>
+        <prop actor="props/structures/maya_protoclassic/roof_house_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="100" name="roof_02">
+      <props>
+        <prop actor="props/structures/maya_protoclassic/roof_house_02.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="1">
+      <mesh>structural/mayas/house_01.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayas/house_01_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+      <variant frequency="1" name="2">
+      <mesh>structural/mayas/house_02.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayas/house_02_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="3">
+      <mesh>structural/mayas/house_03.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayas/house_03_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="4">
+      <mesh>structural/mayas/house_04.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayas/house_04_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Base">
+      <props>
+        <prop actor="props/structures/maya_protoclassic/maya_stone_grind.xml" attachpoint="01"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="02"/>
+        <prop actor="props/structures/maya_protoclassic/vases_01.xml" attachpoint="03"/>
+      </props>
+      <textures>
+        <texture file="structural/maya/struct.png" name="baseTex"/>
+        <texture file="structural/maya/struct_norm.png" name="normTex"/>
+        <texture file="structural/maya/struct_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_medium.xml">
+      <props>
+        <prop actor="props/structures/han/barracks_weap.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

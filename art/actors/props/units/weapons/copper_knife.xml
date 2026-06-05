@@ -7,7 +7,7 @@
         <prop actor="props/units/weapons/blades/knife_blade_copper.xml" attachpoint="blade"/>
       </props>
       <textures>
-          <texture file="structural/maya_struct.png" name="baseTex"/>
+          <texture file="structural/maya/struct_02.png" name="baseTex"/>
       </textures>
     </variant>
     </group>

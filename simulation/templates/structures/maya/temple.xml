@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Square width="26" depth="30"/>
+    <Height>20.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>maya</Civ>
+    <GenericName>Temple</GenericName>
+    <SpecificName>Pib naah</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="24" depth="28"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_healer
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/mayas/temple.xml</Actor>
+    <FoundationActor>structures/fndn_4x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

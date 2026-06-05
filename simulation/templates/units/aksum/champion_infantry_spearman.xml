@@ -4,7 +4,7 @@
     <Civ>aksum</Civ>
     <GenericName>Guardian Axumite</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/champion_infantry_spearman.png</Icon>
+    <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/aksumite/infantry_pikeman_b.xml</Actor>

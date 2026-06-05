@@ -5,7 +5,7 @@
     <variant frequency="1" name="Paiute Storehouse">
       <mesh>structural/paiutes/storehouse.dae</mesh>
       <props>
-        <prop actor="structures/maya_protoclassic/maize_clump.xml" attachpoint="bush_01"/>
+        <prop actor="structures/mayas/maize_clump.xml" attachpoint="bush_01"/>
         <prop actor="props/flora/bush_desert_a.xml" attachpoint="bush_02"/>
       </props>
       <textures>

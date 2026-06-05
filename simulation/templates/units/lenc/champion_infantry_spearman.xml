@@ -4,7 +4,7 @@
     <Civ>lenc</Civ>
     <GenericName>Champion Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/champion_infantry_spearman.png</Icon>
+    <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lencas/infantry_spearman_c.xml</Actor>

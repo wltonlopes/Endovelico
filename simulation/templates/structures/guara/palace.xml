@@ -21,7 +21,7 @@
     <Tooltip>Territory root. Train Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
-    <Icon>structures/mayap/palace.png</Icon>
+    <Icon>structures/maya/palace.png</Icon>
   </Identity>
   <Loot>
     <stone>40</stone>

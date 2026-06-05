@@ -6,7 +6,7 @@
     <SelectionGroupName>units/yaru/heavy_infantry</SelectionGroupName>
     <GenericName>Nobre Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/cavalry_spearman.png</Icon>
+    <Icon>units/maya/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

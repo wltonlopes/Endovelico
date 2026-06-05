@@ -6,7 +6,7 @@
     <variant>
       <mesh>structural/arawaks/canoe_fisher.dae</mesh>
       <props>
-        <prop actor="units/maya_protoclassic/canoe_navigator.xml" attachpoint="fisherman"/>	   
+        <prop actor="units/mayas/canoe_navigator.xml" attachpoint="fisherman"/>	   
       </props>
       <textures>
         <texture file="props/arawaks_props.png" name="baseTex"/>

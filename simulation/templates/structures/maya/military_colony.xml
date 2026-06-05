@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre_military_colony">
+  <Footprint>
+    <Square width="27" depth="29"/>
+    <Height>8</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maya</Civ>
+    <SpecificName>Ol nuk naj</SpecificName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <Icon>structures/maya/colony.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="25" depth="23"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+<!--       units/{civ}/infantry_swordsman_merc_b
+      units/{civ}/infantry_archer_merc_b
+      units/{civ}/cavalry_spearman_merc_b -->
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <CivilCenter>
+      <Entity>structures/mayap/civil_centre</Entity>
+      <Tooltip>Upgrade to civil centre.</Tooltip>
+      <Cost>
+        <wood>250</wood>
+        <food>250</food>
+      </Cost>
+      <Time>60</Time>
+      <Variant>upgrading</Variant>
+    </CivilCenter>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/mayas/cc_n_monumental.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

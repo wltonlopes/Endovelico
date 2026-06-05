@@ -4,7 +4,7 @@
     <Civ>aden</Civ>
     <GenericName>Champion Spearman</GenericName>
     <SpecificName/>
-    <Icon>units/mayap/champion_infantry_spearman.png</Icon>
+    <Icon>units/maya/champion_infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
         -phase_city

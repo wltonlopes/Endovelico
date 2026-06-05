@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Footprint>
+    <Square width="16" depth="16"/>
+    <Height>8</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maya</Civ>  
+    <GenericName>Storehouse</GenericName>
+    <SpecificName>Ta ak</SpecificName>
+    <History>Resources and building materials were kept in warehouses.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="14" depth="14"/>
+  </Obstruction>
+    <Researcher>
+    <Technologies datatype="tokens">
+     -gather_lumbering_ironaxes
+     -gather_mining_silvermining
+     -gather_capacity_wheelbarrow
+     -gather_capacity_carts
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/mayas/storehouse.xml</Actor>
+  </VisualActor>
+</Entity>

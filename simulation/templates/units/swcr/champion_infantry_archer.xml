@@ -4,7 +4,7 @@
   <Civ>swcr</Civ>
     <GenericName>Gread Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+    <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/swcreek/infantry_champion_archer.xml</Actor>

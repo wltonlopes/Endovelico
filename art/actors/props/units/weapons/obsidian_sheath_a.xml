@@ -4,7 +4,7 @@
     <group>
     <variant frequency="1" name="Base">
       <textures>
-          <texture file="structural/maya_struct.png" name="baseTex"/>
+          <texture file="structural/maya/struct_02.png" name="baseTex"/>
       </textures>
     </variant>
     </group>

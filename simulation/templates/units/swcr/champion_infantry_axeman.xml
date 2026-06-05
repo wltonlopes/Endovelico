@@ -3,7 +3,7 @@
   <Identity>
   <Civ>swcr</Civ>
     <GenericName>Expert Axeman</GenericName>
-    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+    <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/swcreek/infantry_champion_axeman.xml</Actor>

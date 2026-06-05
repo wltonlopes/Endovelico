@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="civ/mayap|template_unit_champion_infantry_spearman">
+  <Identity>
+    <GenericName>Champion Spearman</GenericName>
+    <SpecificName>Aj Payal</SpecificName>
+    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mayas/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

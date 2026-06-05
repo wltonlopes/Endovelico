@@ -19,7 +19,7 @@
   <Identity>
     <Civ>anish</Civ>
     <SpecificName>Battering Ram</SpecificName>
-    <Icon>units/mayap/siege_ram.png</Icon>
+    <Icon>units/maya/siege_ram.png</Icon>
   </Identity>
   <Health>
     <Max>300</Max>

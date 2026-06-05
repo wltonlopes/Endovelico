@@ -41,7 +41,7 @@
   </library_effects>
   <library_images>
     <image id="maya_struct_png" name="maya_struct_png">
-      <init_from>/home/ton/snap/0ad/197/.local/share/0ad/mods/Mayas_preclassic-main/art/textures/skins/structural/maya_struct.png</init_from>
+      <init_from>/home/ton/snap/0ad/197/.local/share/0ad/mods/Mayas_preclassic-main/art/textures/skins/structural/maya/struct_02.png</init_from>
     </image>
   </library_images>
   <library_materials>

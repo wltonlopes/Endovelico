@@ -4,7 +4,7 @@
     <Civ>aden</Civ>
     <GenericName>Gread Archer</GenericName>
     <SpecificName/>
-    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+    <Icon>units/maya/champion_infantry_maceman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
         -phase_city

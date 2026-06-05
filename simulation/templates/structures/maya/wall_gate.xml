@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <Cost>
+    <Resources>
+      <wood>50</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="47" depth="14"/>
+    <Height>14</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maya</Civ>
+    <SpecificName>Dwara</SpecificName>
+  </Identity>
+  <Loot>
+    <wood>10</wood>
+    <stone>0</stone>
+  </Loot>
+  <Obstruction>
+    <Obstructions>
+      <Right width="14" depth="12" x="6" z="0"/>
+      <Left width="14" depth="12" x="-6" z="0"/>
+      <Door width="12" depth="7" x="0" z="0"/>
+    </Obstructions>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>23.0</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>7.8</Y>
+        <Z>0</Z>
+      </Four>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/mayas/wall_gate.xml</Actor>
+  </VisualActor>
+</Entity>

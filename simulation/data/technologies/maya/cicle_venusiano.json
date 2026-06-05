@@ -1,0 +1,18 @@
+{
+	"genericName": "Venusian Cycles",
+	"description": "Preparations for each season with the highest possible precision.",
+	"cost": {
+		"wood": 400,
+		"metal": 300
+	},
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "venusian_cycles.png",
+	"researchTime": 60,
+	"tooltip": "Workers +100% grain gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/food.grain", "multiply": 2 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

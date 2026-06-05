@@ -3,10 +3,10 @@
   <Identity>
     <Civ>aden</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/cavalry_axeman_b</SelectionGroupName>
+    <SelectionGroupName>units/maya/cavalry_axeman_b</SelectionGroupName>
     <GenericName>Tomahawk Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/cavalry_axeman.png</Icon>
+    <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

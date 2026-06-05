@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <GenericName>Champion</GenericName>
-    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+    <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pampidos/infantry_champion_slinger.xml</Actor>

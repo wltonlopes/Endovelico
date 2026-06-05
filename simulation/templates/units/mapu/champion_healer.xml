@@ -15,7 +15,7 @@
 	  <Phenotype>female</Phenotype>
     <GenericName>High Priest</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/champion_healer.png</Icon>
+    <Icon>units/maya/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

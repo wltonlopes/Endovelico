@@ -4,7 +4,7 @@
     <Civ>pamp</Civ>
     <SpecificName></SpecificName>
     <GenericName>Champion Axeman</GenericName>
-    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+    <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pampidos/infantry_champion_axeman.xml</Actor>

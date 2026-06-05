@@ -4,7 +4,7 @@
     <Civ>hisat</Civ>
     <GenericName>Mogollon Allied</GenericName>
     <SelectionGroupName>units/hisat/infantry_clubman_merc_b</SelectionGroupName>
-    <Icon>units/mayap/mercenary_swordsman.png</Icon>
+    <Icon>units/maya/mercenary_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

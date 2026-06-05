@@ -9,7 +9,7 @@
         <prop actor="particle/smoke_small_light.xml" attachpoint="1"/>
       </props>
       <textures>
-        <texture file="structural/maya_struct.png" name="baseTex"/>
+        <texture file="structural/maya/struct_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

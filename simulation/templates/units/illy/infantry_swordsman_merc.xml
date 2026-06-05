@@ -6,7 +6,7 @@
     <GenericName>Illyrian Allied Pirate</GenericName>
     <SpecificName>Pirate Mesapio</SpecificName>
     <SelectionGroupName>units/illy/infantry_clubman_merc_b</SelectionGroupName>
-    <Icon>units/mayap/mercenary_swordsman.png</Icon>
+    <Icon>units/maya/mercenary_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

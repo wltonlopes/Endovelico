@@ -2,7 +2,7 @@
 <Entity parent="infantry_cavalry|template_unit_cavalry_ranged_javelineer">
     <Identity>
         <Civ>mapu</Civ>
-        <SelectionGroupName>units/mayap/heavy_infantry</SelectionGroupName>
+        <SelectionGroupName>units/maya/heavy_infantry</SelectionGroupName>
         <GenericName>Mapuche Slinger Warrior</GenericName>
         <SpecificName></SpecificName>
         <Icon>units/moch/infantry_scout.png</Icon>

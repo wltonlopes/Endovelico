@@ -3,7 +3,7 @@
   <Identity>
     <Civ>tupi</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_javelineer</SelectionGroupName>
+    <SelectionGroupName>units/maya/heavy_javelineer</SelectionGroupName>
     <GenericName>Female Archer</GenericName>
     <SpecificName>Aimberê</SpecificName>
     <Icon>units/south_america/support_female_citizen.png</Icon>

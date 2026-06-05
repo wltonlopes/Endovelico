@@ -1,9 +1,0 @@
-<Entity parent="units/mayap/infantry_axeman_a">
-  <Identity>
-    <Rank>Elite</Rank>
-  </Identity>
-  <Promotion disable=""/>
-  <VisualActor>
-    <Actor>units/maya_protoclassic/infantry_axeman_e.xml</Actor>
-  </VisualActor>
-</Entity>

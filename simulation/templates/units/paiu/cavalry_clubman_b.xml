@@ -3,10 +3,10 @@
   <Identity>
     <Civ>paiu</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/mayap/heavy_infantry</SelectionGroupName>
+    <SelectionGroupName>units/maya/heavy_infantry</SelectionGroupName>
     <GenericName>Eagle Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/cavalry_spearman.png</Icon>
+    <Icon>units/maya/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

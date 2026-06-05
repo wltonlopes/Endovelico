@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_trader">
+  <Identity>
+    <Civ>maya</Civ>
+    <SpecificName>Aj Kon</SpecificName>
+    <Icon>units/maya/support_trader.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mayas/trader.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -4,7 +4,7 @@
   <Civ>urew</Civ>
     <GenericName>Champion Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/champion_infantry_maceman.png</Icon>
+    <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/urewe/infantry_champion_archer.xml</Actor>

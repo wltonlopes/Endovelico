@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">
+    teambonuses/maya_player_teambonus
+  </Auras>
+  <Identity>
+    <Civ>maya</Civ>
+    <GenericName>Mayas</GenericName>
+    <History>The Protoclassic period in Maya history stretches from the beginning of permanent village life c. 1000 BC until the advent of the Classic Period c. 250 AD, and is subdivided into Early (prior to 1000 BC), Middle (1000–400 BC), and Late (400 BC – 250 AD). Major archaeological sites of this period include Nakbe, Uaxactun, Seibal, San Bartolo, Cival, and El Mirador.Maya society underwent a series of profound transformations between c. 100 AD and 250 AD, which resulted in the cessation of monumental building at many Preclassic cities and the inferred collapse of their political and economic systems, often characterized as the 'Preclassic Collapse'</History>
+    <Icon>emblems/emblem_mayap.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
+  </Player>
+</Entity>

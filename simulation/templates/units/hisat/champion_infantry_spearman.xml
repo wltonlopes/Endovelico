@@ -4,7 +4,7 @@
     <Civ>hisat</Civ>
     <GenericName>Champion Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mayap/champion_infantry_spearman.png</Icon>
+    <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hisatsinom/infantry_champion_spearman.xml</Actor>

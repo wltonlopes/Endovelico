@@ -26,7 +26,7 @@
     <GenericName>Large Pyramid</GenericName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
-    <Icon>structures/mayap/pyramid.png</Icon>
+    <Icon>structures/maya/pyramid.png</Icon>
   </Identity>
   <Loot>
     <stone>90</stone>

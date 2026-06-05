@@ -16013,13 +16013,13 @@
 			<Actor seed="38997"/>
 		</Entity>
 		<Entity uid="9165">
-			<Template>actor|props/special/common/garrison_flag_maya_protoclassic.xml</Template>
+			<Template>actor|props/special/common/garrison_flag_maya.xml</Template>
 			<Position x="367.96692" z="459.21518"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54667"/>
 		</Entity>
 		<Entity uid="9166">
-			<Template>actor|props/special/common/garrison_flag_maya_protoclassic.xml</Template>
+			<Template>actor|props/special/common/garrison_flag_maya.xml</Template>
 			<Position x="378.98594" z="469.99363"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="31901"/>
@@ -16061,37 +16061,37 @@
 			<Actor seed="18832"/>
 		</Entity>
 		<Entity uid="9173">
-			<Template>actor|props/special/common/garrison_flag_maya_protoclassic.xml</Template>
+			<Template>actor|props/special/common/garrison_flag_maya.xml</Template>
 			<Position x="373.63288" z="441.30292"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38537"/>
 		</Entity>
 		<Entity uid="9174">
-			<Template>actor|props/special/common/garrison_flag_maya_protoclassic.xml</Template>
+			<Template>actor|props/special/common/garrison_flag_maya.xml</Template>
 			<Position x="379.69501" z="434.33588"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55689"/>
 		</Entity>
 		<Entity uid="9175">
-			<Template>actor|props/special/common/garrison_flag_maya_protoclassic.xml</Template>
+			<Template>actor|props/special/common/garrison_flag_maya.xml</Template>
 			<Position x="395.51291" z="467.2685"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48516"/>
 		</Entity>
 		<Entity uid="9176">
-			<Template>actor|props/special/common/garrison_flag_maya_protoclassic.xml</Template>
+			<Template>actor|props/special/common/garrison_flag_maya.xml</Template>
 			<Position x="405.35883" z="456.28452"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32064"/>
 		</Entity>
 		<Entity uid="9177">
-			<Template>actor|props/special/common/garrison_flag_maya_protoclassic.xml</Template>
+			<Template>actor|props/special/common/garrison_flag_maya.xml</Template>
 			<Position x="407.82596" z="411.26166"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23588"/>
 		</Entity>
 		<Entity uid="9178">
-			<Template>actor|props/special/common/garrison_flag_maya_protoclassic.xml</Template>
+			<Template>actor|props/special/common/garrison_flag_maya.xml</Template>
 			<Position x="426.49521" z="432.02073"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42184"/>
@@ -16937,79 +16937,79 @@
 			<Actor seed="10662"/>
 		</Entity>
 		<Entity uid="9307">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="176.12684" z="344.57306"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23514"/>
 		</Entity>
 		<Entity uid="9308">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="176.51178" z="350.48157"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35964"/>
 		</Entity>
 		<Entity uid="9309">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="177.2433" z="348.81547"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3015"/>
 		</Entity>
 		<Entity uid="9310">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="175.04886" z="348.258"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3015"/>
 		</Entity>
 		<Entity uid="9311">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="173.85807" z="347.33887"/>
 			<Orientation y="-0.12075"/>
 			<Actor seed="3015"/>
 		</Entity>
 		<Entity uid="9312">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="173.06785" z="355.09891"/>
 			<Orientation y="0.99692"/>
 			<Actor seed="10212"/>
 		</Entity>
 		<Entity uid="9313">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="176.70353" z="354.65311"/>
 			<Orientation y="-2.32148"/>
 			<Actor seed="10212"/>
 		</Entity>
 		<Entity uid="9314">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="173.93863" z="351.55573"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10212"/>
 		</Entity>
 		<Entity uid="9315">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="171.94175" z="347.79557"/>
 			<Orientation y="-2.74173"/>
 			<Actor seed="10212"/>
 		</Entity>
 		<Entity uid="9316">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="170.55152" z="343.1449"/>
 			<Orientation y="0.11887"/>
 			<Actor seed="14053"/>
 		</Entity>
 		<Entity uid="9317">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="172.26963" z="352.73893"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14053"/>
 		</Entity>
 		<Entity uid="9318">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="171.47214" z="352.2753"/>
 			<Orientation y="-0.18827"/>
 			<Actor seed="14053"/>
 		</Entity>
 		<Entity uid="9319">
-			<Template>actor|structures/maya_protoclassic/maize_clump.xml</Template>
+			<Template>actor|structures/mayas/maize_clump.xml</Template>
 			<Position x="168.8365" z="348.31449"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7127"/>

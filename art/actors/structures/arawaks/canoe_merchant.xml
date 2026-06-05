@@ -6,7 +6,7 @@
     <variant frequency="1" name="dock">
       <mesh>structural/arawaks/canoe_medium.dae</mesh>
       <props>
-        <prop actor="units/maya_protoclassic/canoe_navigator.xml" attachpoint="01"/>  
+        <prop actor="units/mayas/canoe_navigator.xml" attachpoint="01"/>  
         <prop actor="structures/arawaks/prop_canoe_merchant.xml" attachpoint="02"/>
       </props>
       <textures>
