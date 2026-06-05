@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
+    <variant file="biped/base_healer_male.xml">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_kush_nuba_painted.xml" attachpoint="head"/>
@@ -13,27 +13,14 @@
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="ir_03_01">
-      <textures>
         <texture file="skeletal/urewe/hero_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_javelin_relax.xml" name="Javelinist-Relax" frequency="1"/>
-    <variant file="biped/rider/base_carry_meat.xml"/>
-  </group>
-  <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/cavalry/attack_ranged_javelin.xml" name="Attack_Ranged"/>
-    <variant file="biped/rider/promotion_shield.xml"/>
-    <variant file="biped/rider/attack_slaughter_shield_iber.xml"/>
-    <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/rider/death_ranged.xml"/>
+    <variant file="biped/death_infantry.xml">
+    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

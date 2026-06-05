@@ -13,6 +13,6 @@
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/guaranis/infantry_hero_clubman.xml</Actor>
+    <Actor>units/guaranis/infantry_hero_spearman.xml</Actor>
   </VisualActor>
 </Entity>

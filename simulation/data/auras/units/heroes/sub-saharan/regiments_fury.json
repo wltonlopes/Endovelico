@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Soldier", "Champion"],
+	"modifications": [
+		{ "value": "Attack/Melee/Hack", "multiply": 1.25 },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 1.2 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 },
+		{ "value": "Health/Max", "multiply": 0.9 }
+	],
+	"auraName": "Impinda yoButho (Regiment's Fury)",
+	"auraDescription": "Full charge bonus: +25% hack damage, +20% pierce damage, +15% speed, but health reduced by 10% − they fight like beasts, fall like men."
+}

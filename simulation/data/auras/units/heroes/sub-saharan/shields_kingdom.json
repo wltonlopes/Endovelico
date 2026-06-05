@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Soldier", "Champion"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "multiply": 0.85 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "multiply": 0.85 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.05 }
+	],
+	"auraName": "Isihlangu seSizwe (Shield of the Kingdom)",
+	"auraDescription": "Warriors gain courage from the king's presence: −15% hack and pierce damage taken, +5% speed. A slow but unbreakable advance."
+}

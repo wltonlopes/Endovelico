@@ -16,6 +16,7 @@
       units/{civ}/infantry_axeman_b
       units/{civ}/infantry_archer_b
       units/{civ}/cavalry_archer_b
+      gaia/fauna_cattle_sanga_trainable   
     </Entities>
   </Trainer>
   <VisualActor>

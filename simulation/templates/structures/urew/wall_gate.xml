@@ -21,4 +21,7 @@
   <VisualActor>
     <Actor>structures/urewe/wall_gate.xml</Actor>
   </VisualActor>
+  <WallPiece>
+    <Length>33.4</Length>
+  </WallPiece>
 </Entity>

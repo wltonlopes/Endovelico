@@ -1,0 +1,14 @@
+{
+	"type": "global",
+	"affects": ["Soldier", "Champion"],
+	"modifications": [
+		{ "value": "Attack/Melee/Hack", "multiply": 1.15 },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Crush", "multiply": 1.25 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": -2 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": -2 }
+	],
+	"auraName": "Induna yeMambo (King's Council)",
+	"auraDescription": "Warriors near the king fight with ancestral fury. +15% hack damage, +10% pierce damage, +25% crush damage, +10% speed. However, −2 hack and pierce resistance (they trust in offense, not heavy shields)."
+}

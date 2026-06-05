@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="ox_riding|template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+      units/heroes/sub-saharan/kings_council
+  </Auras>
   <Identity>
     <Civ>urew</Civ>
-    <GenericName>Great War Chief</GenericName>
-    <Icon>units/scyth/hero_tomyris.png</Icon>
+    <GenericName>Warrior Tribal king</GenericName>
+    <Icon>units/urew/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/urewe/hero_spearman_m.xml</Actor>
