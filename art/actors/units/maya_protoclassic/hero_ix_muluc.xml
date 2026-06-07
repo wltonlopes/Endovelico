@@ -6,6 +6,7 @@
       <props>
         <prop actor="props/units/heads/head_maya_f_queen.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/queen_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/axe_maya_a.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
@@ -21,7 +22,7 @@
   </group>
   <group>
     <!-- In this group, defined overloads for "Idle", "Walk" and "Run" -->
-    <variant file="biped/female_base_walk.xml"/>
+    <variant file="biped/base_axeman_shield_fast_relax.xml"/>
   </group>
   <group>
     <!-- In this group, define overloads for other animation types, since they presumably do not collide with each other -->

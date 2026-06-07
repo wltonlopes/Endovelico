@@ -12,7 +12,7 @@
   <Identity>
     <Civ>mayap</Civ>
     <SpecificName>Huun Balam</SpecificName>
-    <Icon>units/mayap/hero_king_01.png</Icon>
+    <Icon>units/mayap/hero_huun_balam.png</Icon>
   </Identity>
   <Position>
     <Anchor>pitch-roll</Anchor>

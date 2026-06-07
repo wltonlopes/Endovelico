@@ -6,7 +6,7 @@
   <Identity>
     <Civ>mayap</Civ>
     <SpecificName>Ajaw Huun balam</SpecificName>
-    <Icon>units/mayap/hero_king_01.png</Icon>
+    <Icon>units/mayap/hero_huun_balam.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/maya_protoclassic/hero_huun_balam_infantry_spearman.xml</Actor>
