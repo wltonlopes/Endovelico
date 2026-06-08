@@ -5,6 +5,7 @@
     <variant frequency="1" name="base">
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="01" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/tami_struct.png" name="baseTex"/>
@@ -17,25 +18,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/tamiles/house_1.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/tami/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/tamiles/house_2.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/tami/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/tamiles/house_3.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/tami/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/tamiles/house_4.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/tami/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
