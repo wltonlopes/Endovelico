@@ -19,8 +19,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned_01" selectable="false"/>
-       <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned_02" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_tami.xml" attachpoint="garrisoned_01" selectable="false"/>
+       <prop actor="props/special/common/garrison_flag_tami.xml" attachpoint="garrisoned_02" selectable="false"/>
       </props>
     </variant>
   </group>
