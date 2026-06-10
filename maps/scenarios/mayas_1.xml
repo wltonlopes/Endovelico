@@ -48,7 +48,7 @@
   "PlayerData": [
     null,
     {
-      "Civ": "mayap",
+      "Civ": "maya",
       "Color": {
         "b": 42,
         "g": 42,
@@ -14835,91 +14835,91 @@
 			<Actor seed="52084"/>
 		</Entity>
 		<Entity uid="8988">
-			<Template>structures/mayap/civil_centre</Template>
+			<Template>structures/maya/civil_centre</Template>
 			<Player>1</Player>
 			<Position x="366.12058" z="472.88874"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41414"/>
 		</Entity>
 		<Entity uid="8989">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="325.59162" z="391.61478"/>
 			<Orientation y="0.81563"/>
 			<Actor seed="7223"/>
 		</Entity>
 		<Entity uid="8990">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="324.9545" z="413.57526"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29961"/>
 		</Entity>
 		<Entity uid="8991">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="432.08155" z="452.14795"/>
 			<Orientation y="2.11547"/>
 			<Actor seed="46060"/>
 		</Entity>
 		<Entity uid="8992">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="436.64133" z="439.43204"/>
 			<Orientation y="0.57697"/>
 			<Actor seed="61810"/>
 		</Entity>
 		<Entity uid="8993">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="450.29303" z="461.3632"/>
 			<Orientation y="-2.29581"/>
 			<Actor seed="18313"/>
 		</Entity>
 		<Entity uid="8994">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="458.36298" z="447.0571"/>
 			<Orientation y="-1.50564"/>
 			<Actor seed="27063"/>
 		</Entity>
 		<Entity uid="8995">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="449.56601" z="434.65885"/>
 			<Orientation y="-0.28132"/>
 			<Actor seed="61810"/>
 		</Entity>
 		<Entity uid="8996">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="441.56766" z="580.03925"/>
 			<Orientation y="-1.06257"/>
 			<Actor seed="18313"/>
 		</Entity>
 		<Entity uid="8997">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="426.87772" z="595.39814"/>
 			<Orientation y="3.34871"/>
 			<Actor seed="46060"/>
 		</Entity>
 		<Entity uid="8998">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="411.00428" z="589.44666"/>
 			<Orientation y="1.81022"/>
 			<Actor seed="61810"/>
 		</Entity>
 		<Entity uid="8999">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="430.77793" z="568.91382"/>
 			<Orientation y="-0.2724"/>
 			<Actor seed="27063"/>
 		</Entity>
 		<Entity uid="9000">
-			<Template>structures/mayap/house</Template>
+			<Template>structures/maya/house</Template>
 			<Player>1</Player>
 			<Position x="416.16596" z="573.10834"/>
 			<Orientation y="0.95192"/>
@@ -14962,14 +14962,14 @@
 			<Actor seed="37578"/>
 		</Entity>
 		<Entity uid="9007">
-			<Template>structures/mayap/temple</Template>
+			<Template>structures/maya/temple</Template>
 			<Player>1</Player>
 			<Position x="422.48874" z="416.13337"/>
 			<Orientation y="-0.78205"/>
 			<Actor seed="21325"/>
 		</Entity>
 		<Entity uid="9008">
-			<Template>structures/mayap/observatory</Template>
+			<Template>structures/maya/observatory</Template>
 			<Player>1</Player>
 			<Position x="363.24408" z="424.62452"/>
 			<Orientation y="2.35621"/>
@@ -15150,49 +15150,49 @@
 			<Actor seed="23858"/>
 		</Entity>
 		<Entity uid="9038">
-			<Template>structures/mayap/market</Template>
+			<Template>structures/maya/market</Template>
 			<Player>1</Player>
 			<Position x="410.00327" z="472.30713"/>
 			<Orientation y="-0.75399"/>
 			<Actor seed="23541"/>
 		</Entity>
 		<Entity uid="9039">
-			<Template>structures/mayap/farmstead</Template>
+			<Template>structures/maya/farmstead</Template>
 			<Player>1</Player>
 			<Position x="563.53559" z="497.37717"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57869"/>
 		</Entity>
 		<Entity uid="9040">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>1</Player>
 			<Position x="544.61036" z="481.313"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="519"/>
 		</Entity>
 		<Entity uid="9041">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>1</Player>
 			<Position x="566.90168" z="461.228"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49310"/>
 		</Entity>
 		<Entity uid="9042">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>1</Player>
 			<Position x="585.07337" z="483.25489"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16793"/>
 		</Entity>
 		<Entity uid="9043">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>1</Player>
 			<Position x="577.46772" z="513.6822"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10662"/>
 		</Entity>
 		<Entity uid="9044">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>1</Player>
 			<Position x="543.15021" z="508.07831"/>
 			<Orientation y="2.35621"/>
@@ -15227,7 +15227,7 @@
 			<Actor seed="59947"/>
 		</Entity>
 		<Entity uid="9049">
-			<Template>structures/mayap/dock</Template>
+			<Template>structures/maya/dock</Template>
 			<Player>1</Player>
 			<Position x="599.83332" z="383.93812"/>
 			<Orientation y="3.3743"/>
@@ -15600,413 +15600,413 @@
 			<Actor seed="26754"/>
 		</Entity>
 		<Entity uid="9104">
-			<Template>units/mayap/support_female_citizen_house</Template>
+			<Template>units/maya/support_female_citizen_house</Template>
 			<Player>1</Player>
 			<Position x="377.70563" z="450.73612"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23463"/>
 		</Entity>
 		<Entity uid="9105">
-			<Template>units/mayap/support_female_citizen_house</Template>
+			<Template>units/maya/support_female_citizen_house</Template>
 			<Player>1</Player>
 			<Position x="379.6413" z="448.91184"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19025"/>
 		</Entity>
 		<Entity uid="9106">
-			<Template>units/mayap/support_female_citizen_house</Template>
+			<Template>units/maya/support_female_citizen_house</Template>
 			<Player>1</Player>
 			<Position x="375.27726" z="451.13492"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50001"/>
 		</Entity>
 		<Entity uid="9107">
-			<Template>units/mayap/support_female_citizen_house</Template>
+			<Template>units/maya/support_female_citizen_house</Template>
 			<Player>1</Player>
 			<Position x="378.3491" z="447.30002"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50001"/>
 		</Entity>
 		<Entity uid="9108">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="379.90754" z="453.75446"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54089"/>
 		</Entity>
 		<Entity uid="9109">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="381.95817" z="450.53525"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63687"/>
 		</Entity>
 		<Entity uid="9110">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="381.22407" z="455.17539"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63661"/>
 		</Entity>
 		<Entity uid="9111">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="383.68769" z="452.13495"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18286"/>
 		</Entity>
 		<Entity uid="9112">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="382.89161" z="456.73774"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36776"/>
 		</Entity>
 		<Entity uid="9113">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="384.35413" z="454.849"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36776"/>
 		</Entity>
 		<Entity uid="9114">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="545.78241" z="484.60483"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="18286"/>
 		</Entity>
 		<Entity uid="9115">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="542.00226" z="486.22434"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54089"/>
 		</Entity>
 		<Entity uid="9116">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="544.05286" z="483.00513"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="63687"/>
 		</Entity>
 		<Entity uid="9117">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="543.3188" z="487.64527"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="63661"/>
 		</Entity>
 		<Entity uid="9118">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="544.98633" z="489.20762"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="36776"/>
 		</Entity>
 		<Entity uid="9119">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="546.44886" z="487.31888"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="36776"/>
 		</Entity>
 		<Entity uid="9120">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="574.4756" z="492.12598"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="18286"/>
 		</Entity>
 		<Entity uid="9121">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="570.69544" z="493.74549"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="54089"/>
 		</Entity>
 		<Entity uid="9122">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="572.7461" z="490.52628"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="63687"/>
 		</Entity>
 		<Entity uid="9123">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="572.01197" z="495.16642"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="63661"/>
 		</Entity>
 		<Entity uid="9124">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="573.67951" z="496.72876"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="36776"/>
 		</Entity>
 		<Entity uid="9125">
-			<Template>units/mayap/support_female_citizen</Template>
+			<Template>units/maya/support_female_citizen</Template>
 			<Player>1</Player>
 			<Position x="575.14203" z="494.84003"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="36776"/>
 		</Entity>
 		<Entity uid="9126">
-			<Template>units/mayap/infantry_slinger_a</Template>
+			<Template>units/maya/infantry_slinger_a</Template>
 			<Player>1</Player>
 			<Position x="390.59238" z="460.86677"/>
 			<Orientation y="-2.39599"/>
 			<Actor seed="21394"/>
 		</Entity>
 		<Entity uid="9127">
-			<Template>units/mayap/infantry_slinger_a</Template>
+			<Template>units/maya/infantry_slinger_a</Template>
 			<Player>1</Player>
 			<Position x="391.80588" z="458.83616"/>
 			<Orientation y="-2.6581"/>
 			<Actor seed="43987"/>
 		</Entity>
 		<Entity uid="9128">
-			<Template>units/mayap/infantry_slinger_a</Template>
+			<Template>units/maya/infantry_slinger_a</Template>
 			<Player>1</Player>
 			<Position x="393.42148" z="457.84867"/>
 			<Orientation y="-2.67811"/>
 			<Actor seed="43987"/>
 		</Entity>
 		<Entity uid="9129">
-			<Template>units/mayap/infantry_slinger_a</Template>
+			<Template>units/maya/infantry_slinger_a</Template>
 			<Player>1</Player>
 			<Position x="394.82538" z="457.02436"/>
 			<Orientation y="-2.64123"/>
 			<Actor seed="60844"/>
 		</Entity>
 		<Entity uid="9130">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>1</Player>
 			<Position x="384.53101" z="461.42292"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38478"/>
 		</Entity>
 		<Entity uid="9131">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>1</Player>
 			<Position x="385.63181" z="463.42258"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49423"/>
 		</Entity>
 		<Entity uid="9132">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>1</Player>
 			<Position x="387.33176" z="464.952"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12921"/>
 		</Entity>
 		<Entity uid="9133">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>1</Player>
 			<Position x="385.85093" z="459.83707"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="65370"/>
 		</Entity>
 		<Entity uid="9134">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>1</Player>
 			<Position x="386.86286" z="461.50718"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9663"/>
 		</Entity>
 		<Entity uid="9135">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>1</Player>
 			<Position x="387.9838" z="463.17286"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49086"/>
 		</Entity>
 		<Entity uid="9136">
-			<Template>units/mayap/infantry_javelineer_b</Template>
+			<Template>units/maya/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="381.35441" z="460.8024"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36888"/>
 		</Entity>
 		<Entity uid="9137">
-			<Template>units/mayap/infantry_javelineer_b</Template>
+			<Template>units/maya/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="378.9419" z="460.02543"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63705"/>
 		</Entity>
 		<Entity uid="9138">
-			<Template>units/mayap/infantry_javelineer_b</Template>
+			<Template>units/maya/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="378.54062" z="462.83152"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10371"/>
 		</Entity>
 		<Entity uid="9139">
-			<Template>units/mayap/infantry_javelineer_b</Template>
+			<Template>units/maya/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="376.74097" z="461.79447"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27813"/>
 		</Entity>
 		<Entity uid="9140">
-			<Template>units/mayap/infantry_javelineer_b</Template>
+			<Template>units/maya/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="388.14203" z="471.61231"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27813"/>
 		</Entity>
 		<Entity uid="9141">
-			<Template>units/mayap/infantry_javelineer_b</Template>
+			<Template>units/maya/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="389.56302" z="474.64579"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27496"/>
 		</Entity>
 		<Entity uid="9142">
-			<Template>units/mayap/infantry_javelineer_b</Template>
+			<Template>units/maya/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="386.7303" z="475.16895"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21583"/>
 		</Entity>
 		<Entity uid="9143">
-			<Template>units/mayap/infantry_javelineer_b</Template>
+			<Template>units/maya/infantry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="388.10706" z="478.42576"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27737"/>
 		</Entity>
 		<Entity uid="9144">
-			<Template>units/mayap/infantry_blowgunner_e</Template>
+			<Template>units/maya/infantry_blowgunner_e</Template>
 			<Player>1</Player>
 			<Position x="388.45514" z="466.09446"/>
 			<Orientation y="-2.79177"/>
 			<Actor seed="51338"/>
 		</Entity>
 		<Entity uid="9145">
-			<Template>units/mayap/infantry_blowgunner_e</Template>
+			<Template>units/maya/infantry_blowgunner_e</Template>
 			<Player>1</Player>
 			<Position x="390.69483" z="465.66047"/>
 			<Orientation y="-2.75837"/>
 			<Actor seed="51338"/>
 		</Entity>
 		<Entity uid="9146">
-			<Template>units/mayap/infantry_axeman_e</Template>
+			<Template>units/maya/infantry_axeman_e</Template>
 			<Player>1</Player>
 			<Position x="397.39655" z="455.159"/>
 			<Orientation y="-2.40368"/>
 			<Actor seed="2600"/>
 		</Entity>
 		<Entity uid="9147">
-			<Template>units/mayap/infantry_axeman_e</Template>
+			<Template>units/maya/infantry_axeman_e</Template>
 			<Player>1</Player>
 			<Position x="400.05362" z="454.26273"/>
 			<Orientation y="-2.16865"/>
 			<Actor seed="29004"/>
 		</Entity>
 		<Entity uid="9148">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="402.04505" z="450.58414"/>
 			<Orientation y="-2.60769"/>
 			<Actor seed="17112"/>
 		</Entity>
 		<Entity uid="9149">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="404.45054" z="448.85605"/>
 			<Orientation y="-2.33353"/>
 			<Actor seed="7572"/>
 		</Entity>
 		<Entity uid="9150">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="404.20823" z="451.16102"/>
 			<Orientation y="-2.38532"/>
 			<Actor seed="6988"/>
 		</Entity>
 		<Entity uid="9151">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="405.68747" z="450.19751"/>
 			<Orientation y="-2.33034"/>
 			<Actor seed="54961"/>
 		</Entity>
 		<Entity uid="9152">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="402.54584" z="448.57203"/>
 			<Orientation y="-2.23607"/>
 			<Actor seed="29514"/>
 		</Entity>
 		<Entity uid="9153">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="386.77778" z="446.31531"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60777"/>
 		</Entity>
 		<Entity uid="9154">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="388.54151" z="447.78461"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60824"/>
 		</Entity>
 		<Entity uid="9155">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="388.4575" z="444.56208"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60824"/>
 		</Entity>
 		<Entity uid="9156">
-			<Template>units/mayap/infantry_spearman_e</Template>
+			<Template>units/maya/infantry_spearman_e</Template>
 			<Player>1</Player>
 			<Position x="389.86283" z="446.24454"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28963"/>
 		</Entity>
 		<Entity uid="9157">
-			<Template>units/mayap/ship_fishing</Template>
+			<Template>units/maya/ship_fishing</Template>
 			<Player>1</Player>
 			<Position x="603.48786" z="354.25532"/>
 			<Orientation y="0.63494"/>
 			<Actor seed="21957"/>
 		</Entity>
 		<Entity uid="9159">
-			<Template>units/mayap/ship_fishing</Template>
+			<Template>units/maya/ship_fishing</Template>
 			<Player>1</Player>
 			<Position x="614.4375" z="413.83399"/>
 			<Orientation y="-3.07253"/>
 			<Actor seed="35283"/>
 		</Entity>
 		<Entity uid="9161">
-			<Template>units/mayap/support_healer_b</Template>
+			<Template>units/maya/support_healer_b</Template>
 			<Player>1</Player>
 			<Position x="388.8895" z="451.26972"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8307"/>
 		</Entity>
 		<Entity uid="9162">
-			<Template>units/mayap/support_trader</Template>
+			<Template>units/maya/support_trader</Template>
 			<Player>1</Player>
 			<Position x="415.87269" z="453.39219"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9020"/>
 		</Entity>
 		<Entity uid="9163">
-			<Template>units/mayap/support_trader</Template>
+			<Template>units/maya/support_trader</Template>
 			<Player>1</Player>
 			<Position x="419.94587" z="458.3455"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38997"/>
 		</Entity>
 		<Entity uid="9164">
-			<Template>units/mayap/support_trader</Template>
+			<Template>units/maya/support_trader</Template>
 			<Player>1</Player>
 			<Position x="423.71344" z="463.02527"/>
 			<Orientation y="2.35621"/>
@@ -16025,25 +16025,25 @@
 			<Actor seed="31901"/>
 		</Entity>
 		<Entity uid="9167">
-			<Template>actor|props/structures/maya_protoclassic/maya_drump.xml</Template>
+			<Template>actor|props/structures/maya_drump.xml</Template>
 			<Position x="368.55335" z="460.91556"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="47319"/>
 		</Entity>
 		<Entity uid="9168">
-			<Template>actor|props/structures/maya_protoclassic/maya_drump.xml</Template>
+			<Template>actor|props/structures/maya_drump.xml</Template>
 			<Position x="377.0163" z="470.05619"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23079"/>
 		</Entity>
 		<Entity uid="9169">
-			<Template>actor|props/structures/maya_protoclassic/maya_drump.xml</Template>
+			<Template>actor|props/structures/maya_drump.xml</Template>
 			<Position x="363.49036" z="457.23465"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22220"/>
 		</Entity>
 		<Entity uid="9170">
-			<Template>actor|props/structures/maya_protoclassic/maya_drump.xml</Template>
+			<Template>actor|props/structures/maya_drump.xml</Template>
 			<Position x="383.17688" z="478.28827"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19660"/>
@@ -16097,119 +16097,119 @@
 			<Actor seed="42184"/>
 		</Entity>
 		<Entity uid="9180">
-			<Template>structures/mayap/forge</Template>
+			<Template>structures/maya/forge</Template>
 			<Player>1</Player>
 			<Position x="350.10196" z="390.00864"/>
 			<Orientation y="0.68429"/>
 			<Actor seed="41764"/>
 		</Entity>
 		<Entity uid="9181">
-			<Template>structures/mayap/outpost</Template>
+			<Template>structures/maya/outpost</Template>
 			<Player>1</Player>
 			<Position x="327.4798" z="356.03626"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25270"/>
 		</Entity>
 		<Entity uid="9182">
-			<Template>structures/mayap/outpost</Template>
+			<Template>structures/maya/outpost</Template>
 			<Player>1</Player>
 			<Position x="458.75165" z="382.50956"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="30660"/>
 		</Entity>
 		<Entity uid="9183">
-			<Template>structures/mayap/outpost</Template>
+			<Template>structures/maya/outpost</Template>
 			<Player>1</Player>
 			<Position x="238.66254" z="498.507"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28243"/>
 		</Entity>
 		<Entity uid="9184">
-			<Template>structures/mayap/sentry_tower</Template>
+			<Template>structures/maya/sentry_tower</Template>
 			<Player>1</Player>
 			<Position x="515.66047" z="473.06421"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9048"/>
 		</Entity>
 		<Entity uid="9185">
-			<Template>units/mayap/cavalry_axeman_b</Template>
+			<Template>units/maya/cavalry_axeman_b</Template>
 			<Player>1</Player>
 			<Position x="386.81959" z="454.43967"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52691"/>
 		</Entity>
 		<Entity uid="9186">
-			<Template>units/mayap/cavalry_axeman_b</Template>
+			<Template>units/maya/cavalry_axeman_b</Template>
 			<Player>1</Player>
 			<Position x="390.30262" z="458.00959"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58727"/>
 		</Entity>
 		<Entity uid="9187">
-			<Template>units/mayap/cavalry_javelineer_b</Template>
+			<Template>units/maya/cavalry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="389.50168" z="453.61542"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1625"/>
 		</Entity>
 		<Entity uid="9188">
-			<Template>units/mayap/cavalry_javelineer_b</Template>
+			<Template>units/maya/cavalry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="390.6536" z="455.3137"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49025"/>
 		</Entity>
 		<Entity uid="9189">
-			<Template>units/mayap/cavalry_javelineer_b</Template>
+			<Template>units/maya/cavalry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="391.47757" z="451.9564"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48228"/>
 		</Entity>
 		<Entity uid="9190">
-			<Template>units/mayap/cavalry_javelineer_b</Template>
+			<Template>units/maya/cavalry_javelineer_b</Template>
 			<Player>1</Player>
 			<Position x="392.5547" z="453.58225"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43219"/>
 		</Entity>
 		<Entity uid="9192">
-			<Template>structures/mayap/dock</Template>
+			<Template>structures/maya/dock</Template>
 			<Player>2</Player>
 			<Position x="702.9043" z="513.44068"/>
 			<Orientation y="1.72107"/>
 			<Actor seed="62274"/>
 		</Entity>
 		<Entity uid="9193">
-			<Template>units/mayap/ship_merchant</Template>
+			<Template>units/maya/ship_merchant</Template>
 			<Player>2</Player>
 			<Position x="683.87562" z="515.27137"/>
 			<Orientation y="-2.3929"/>
 			<Actor seed="52400"/>
 		</Entity>
 		<Entity uid="9194">
-			<Template>units/mayap/ship_merchant</Template>
+			<Template>units/maya/ship_merchant</Template>
 			<Player>2</Player>
 			<Position x="684.6739" z="533.58558"/>
 			<Orientation y="-2.06107"/>
 			<Actor seed="27269"/>
 		</Entity>
 		<Entity uid="9195">
-			<Template>units/mayap/ship_merchant</Template>
+			<Template>units/maya/ship_merchant</Template>
 			<Player>3</Player>
 			<Position x="671.71644" z="203.55011"/>
 			<Orientation y="0.46976"/>
 			<Actor seed="12274"/>
 		</Entity>
 		<Entity uid="9196">
-			<Template>units/mayap/ship_merchant</Template>
+			<Template>units/maya/ship_merchant</Template>
 			<Player>3</Player>
 			<Position x="678.53815" z="194.11188"/>
 			<Orientation y="-0.6102"/>
 			<Actor seed="46687"/>
 		</Entity>
 		<Entity uid="9198">
-			<Template>structures/mayap/dock</Template>
+			<Template>structures/maya/dock</Template>
 			<Player>3</Player>
 			<Position x="703.95362" z="233.9874"/>
 			<Orientation y="-2.13398"/>
@@ -16790,14 +16790,14 @@
 			<Actor seed="45488"/>
 		</Entity>
 		<Entity uid="9281">
-			<Template>units/mayap/ship_merchant</Template>
+			<Template>units/maya/ship_merchant</Template>
 			<Player>1</Player>
 			<Position x="616.12183" z="366.02857"/>
 			<Orientation y="-2.3929"/>
 			<Actor seed="52400"/>
 		</Entity>
 		<Entity uid="9282">
-			<Template>units/mayap/ship_merchant</Template>
+			<Template>units/maya/ship_merchant</Template>
 			<Player>1</Player>
 			<Position x="616.92011" z="384.34278"/>
 			<Orientation y="-2.06107"/>
@@ -16895,42 +16895,42 @@
 			<Actor seed="14939"/>
 		</Entity>
 		<Entity uid="9301">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>0</Player>
 			<Position x="386.62989" z="231.29636"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="519"/>
 		</Entity>
 		<Entity uid="9302">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>0</Player>
 			<Position x="408.92121" z="211.21137"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="49310"/>
 		</Entity>
 		<Entity uid="9303">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>0</Player>
 			<Position x="430.06556" z="231.66709"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="16793"/>
 		</Entity>
 		<Entity uid="9304">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>0</Player>
 			<Position x="411.17951" z="250.92035"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="10662"/>
 		</Entity>
 		<Entity uid="9305">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>0</Player>
 			<Position x="371.86072" z="252.2836"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="2882"/>
 		</Entity>
 		<Entity uid="9306">
-			<Template>structures/mayap/field</Template>
+			<Template>structures/maya/field</Template>
 			<Player>0</Player>
 			<Position x="395.45173" z="269.68445"/>
 			<Orientation y="2.35622"/>

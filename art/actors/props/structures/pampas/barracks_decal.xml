@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<group>
+		<variant frequency="1" name="Pampas Decal">
+			<textures>
+				<texture file="props/decal_struct_pampas_large.png" name="baseTex"/>
+				<texture file="props/decal_struct_pampas_large_norm.png" name="normTex"/>
+				<texture file="props/decal_struct_pampas_large_spec.png" name="specTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="1" name="Pampas Barracks">
+			<decal angle="0" depth="26" offsetx="0" offsetz="0" width="26"/>
+		</variant>
+	</group>
+	<material>terrain_norm_spec.xml</material>
+</actor>

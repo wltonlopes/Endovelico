@@ -14,7 +14,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
+    <Square width="32.0" depth="32.0"/>
     <Height>20.0</Height>
   </Footprint>
   <Health>
@@ -24,7 +24,7 @@
   <Identity>
     <Civ>maya</Civ>
     <GenericName>Large Pyramid</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName/>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
     <Requirements>
@@ -37,7 +37,7 @@
     <metal>30</metal>
   </Loot>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="31.5" depth="31.5"/>
   </Obstruction>
   <ProductionQueue disable=""/>
   <Researcher disable=""/>
@@ -61,6 +61,6 @@
   </Vision>
   <VisualActor>
     <Actor>structures/mayas/pyramid.xml</Actor>
-    <FoundationActor>structures/fndn_5x7.xml</FoundationActor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

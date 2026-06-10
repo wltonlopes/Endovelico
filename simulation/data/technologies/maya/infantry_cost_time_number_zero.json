@@ -7,7 +7,7 @@
 	"requirements": {
 		"all": [
 			{ "tech": "phase_town" },
-			{ "civ": "mayap" }
+			{ "civ": "maya" }
 		]
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",

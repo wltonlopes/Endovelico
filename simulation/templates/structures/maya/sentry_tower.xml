@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower_sentry">
   <Footprint>
-    <Square width="12" depth="12"/>
+    <Square width="10.0" depth="10.0"/>
     <Height>12</Height>
   </Footprint>
   <Identity>
@@ -9,9 +9,10 @@
     <SpecificName>ichnal</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="10" depth="10"/>
+    <Static width="9.5" depth="9.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/mayas/wooden_tower.xml</Actor>
+    <Actor>structures/mayas/scout_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

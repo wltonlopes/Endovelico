@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Maya Plaza Roof">
+      <textures>
+        <texture file="structural/maya/roof_03.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Plaza 01">
+      <mesh>props/structural/mayas/plaza_01_roof.dae</mesh>
+      <textures>
+        <texture file="structural/ao/maya/plaza_01_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Plaza 02">
+      <mesh>props/structural/mayas/plaza_02_roof.dae</mesh>
+      <textures>
+        <texture file="structural/ao/maya/plaza_02_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

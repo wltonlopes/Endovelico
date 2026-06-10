@@ -71903,308 +71903,308 @@
 			<Actor seed="59051"/>
 		</Entity>
 		<Entity uid="13093">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="751.85767" z="731.38947"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38545"/>
 		</Entity>
 		<Entity uid="13094">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="756.08887" z="736.65992"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57238"/>
 		</Entity>
 		<Entity uid="13095">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="751.5691" z="735.52247"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21957"/>
 		</Entity>
 		<Entity uid="13096">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="753.03241" z="738.56928"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5675"/>
 		</Entity>
 		<Entity uid="13097">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="754.97242" z="732.02387"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57741"/>
 		</Entity>
 		<Entity uid="13098">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="746.90711" z="734.21723"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61074"/>
 		</Entity>
 		<Entity uid="13099">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="748.30457" z="739.03498"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="31008"/>
 		</Entity>
 		<Entity uid="13100">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="752.97681" z="744.63556"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48967"/>
 		</Entity>
 		<Entity uid="13101">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="750.72028" z="742.24323"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48967"/>
 		</Entity>
 		<Entity uid="13102">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="756.7071" z="742.97107"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5611"/>
 		</Entity>
 		<Entity uid="13103">
-			<Template>units/mayap/cavalry_axeman_b</Template>
+			<Template>units/maya/cavalry_axeman_b</Template>
 			<Player>0</Player>
 			<Position x="756.90876" z="735.04413"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34744"/>
 		</Entity>
 		<Entity uid="13104">
-			<Template>units/mayap/cavalry_axeman_b</Template>
+			<Template>units/maya/cavalry_axeman_b</Template>
 			<Player>0</Player>
 			<Position x="669.72187" z="755.02295"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="34744"/>
 		</Entity>
 		<Entity uid="13105">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="669.52021" z="762.9499"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="5611"/>
 		</Entity>
 		<Entity uid="13106">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="663.5334" z="762.22205"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="48967"/>
 		</Entity>
 		<Entity uid="13107">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="665.78992" z="764.61438"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="48967"/>
 		</Entity>
 		<Entity uid="13108">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="661.11768" z="759.0138"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="31008"/>
 		</Entity>
 		<Entity uid="13109">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="659.72022" z="754.19605"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="61074"/>
 		</Entity>
 		<Entity uid="13110">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="667.78553" z="752.0027"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="57741"/>
 		</Entity>
 		<Entity uid="13111">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="665.84553" z="758.5481"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="5675"/>
 		</Entity>
 		<Entity uid="13112">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="664.38221" z="755.50129"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="21957"/>
 		</Entity>
 		<Entity uid="13113">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="668.90198" z="756.63874"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="57238"/>
 		</Entity>
 		<Entity uid="13114">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="664.67078" z="751.3683"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="38545"/>
 		</Entity>
 		<Entity uid="13115">
-			<Template>units/mayap/cavalry_axeman_b</Template>
+			<Template>units/maya/cavalry_axeman_b</Template>
 			<Player>0</Player>
 			<Position x="648.22303" z="853.78528"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="34744"/>
 		</Entity>
 		<Entity uid="13116">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="648.02137" z="861.71222"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="5611"/>
 		</Entity>
 		<Entity uid="13117">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="642.03455" z="860.98438"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="48967"/>
 		</Entity>
 		<Entity uid="13118">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="644.29108" z="863.37671"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="48967"/>
 		</Entity>
 		<Entity uid="13119">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="639.61884" z="857.77613"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="31008"/>
 		</Entity>
 		<Entity uid="13120">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="638.22138" z="852.95838"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="61074"/>
 		</Entity>
 		<Entity uid="13121">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="646.28669" z="850.76502"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="57741"/>
 		</Entity>
 		<Entity uid="13122">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="644.34668" z="857.31043"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="5675"/>
 		</Entity>
 		<Entity uid="13123">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="642.88337" z="854.26362"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="21957"/>
 		</Entity>
 		<Entity uid="13124">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="647.40314" z="855.40107"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="57238"/>
 		</Entity>
 		<Entity uid="13125">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="643.17194" z="850.13062"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="38545"/>
 		</Entity>
 		<Entity uid="13126">
-			<Template>units/mayap/cavalry_axeman_b</Template>
+			<Template>units/maya/cavalry_axeman_b</Template>
 			<Player>0</Player>
 			<Position x="723.00385" z="790.40918"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="34744"/>
 		</Entity>
 		<Entity uid="13127">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="722.8022" z="798.33613"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="5611"/>
 		</Entity>
 		<Entity uid="13128">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="716.81537" z="797.60828"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="48967"/>
 		</Entity>
 		<Entity uid="13129">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="719.0719" z="800.00062"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="48967"/>
 		</Entity>
 		<Entity uid="13130">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="714.39966" z="794.40003"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="31008"/>
 		</Entity>
 		<Entity uid="13131">
-			<Template>units/mayap/infantry_javelineer_e</Template>
+			<Template>units/maya/infantry_javelineer_e</Template>
 			<Player>0</Player>
 			<Position x="713.0022" z="789.58228"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="61074"/>
 		</Entity>
 		<Entity uid="13132">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="721.06751" z="787.38892"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="57741"/>
 		</Entity>
 		<Entity uid="13133">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="719.12751" z="793.93433"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="5675"/>
 		</Entity>
 		<Entity uid="13134">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="717.66419" z="790.88752"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="21957"/>
 		</Entity>
 		<Entity uid="13135">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="722.18396" z="792.02497"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="57238"/>
 		</Entity>
 		<Entity uid="13136">
-			<Template>units/mayap/infantry_maceman_e</Template>
+			<Template>units/maya/infantry_maceman_e</Template>
 			<Player>0</Player>
 			<Position x="717.95276" z="786.75452"/>
 			<Orientation y="2.35622"/>

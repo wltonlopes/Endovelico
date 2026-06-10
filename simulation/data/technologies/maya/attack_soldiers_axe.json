@@ -1,7 +1,7 @@
 {
 	"genericName": "Drunken Soldiers",
 	"specificName": {
-		"mayap": "Borracha"
+		"maya": "Borracha"
 	},
 	"description": "The will to fight is crucial to victory. Inspire your troops with higher pay.",
 	"cost": {
@@ -11,7 +11,7 @@
 	"requirements": {
 		"all": [
 			{ "tech": "phase_city" },
-			{ "civ": "mayap" }
+			{ "civ": "maya" }
 		]
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",

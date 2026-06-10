@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_fortress">
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
+    <Square width="30.0" depth="34.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
@@ -9,7 +9,7 @@
     <SpecificName>Noj tuun atoot</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="29.5" depth="33.5"/>
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
@@ -19,6 +19,7 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/mayas/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_7x8.xml</FoundationActor>
   </VisualActor>
   <WallPiece>
     <Length>23.2</Length>

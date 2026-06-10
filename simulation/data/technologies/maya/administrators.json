@@ -1,7 +1,7 @@
 {
 	"genericName": "Administrators",
 	"specificName": {
-		"mayap": "Aj Sul"
+		"maya": "Aj Sul"
 	},
 	"description": "Local nobility were recruited to act as administrators to improve organization.",
 	"cost": {
@@ -10,7 +10,7 @@
 	},
 	"requirements": {
 		"all": [
-			{ "civ": "mayap" }
+			{ "civ": "maya" }
 		]
 	},
 	"icon": "administrators.png",

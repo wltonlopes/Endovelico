@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Builder>
     <Entities datatype="tokens">
-      structures/mayap/pyramid_large
-      structures/mayap/temple_of_masks
+      structures/maya/pyramid_large
+      structures/maya/temple_of_masks
     </Entities>
   </Builder>
   <Cost>

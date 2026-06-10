@@ -2,11 +2,11 @@
 <Entity parent="merc_inf|template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structures/mayap/pyramid_large
-      structures/mayap/observatory
-      structures/mayap/embassy
-      structures/mayap/range
-      structures/mayap/palace
+      structures/maya/pyramid_large
+      structures/maya/observatory
+      structures/maya/embassy
+      structures/maya/range
+      structures/maya/palace
     </Entities>
   </Builder>
   <Identity>

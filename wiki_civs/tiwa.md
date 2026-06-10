@@ -252,7 +252,7 @@ The Pukara civilization (c. 1400 BCE – 400 CE), based in the northern Lake Tit
 
 ## Tecnologias
 
-- mayap/calendario_haab
-- mayap/calendario_tzolkin
-- mayap/cicle_venusiano
-- mayap/mathematics
+- maya/haab_calendar
+- maya/tzolkin_calendar
+- maya/cicle_venusiano
+- maya/mathematics

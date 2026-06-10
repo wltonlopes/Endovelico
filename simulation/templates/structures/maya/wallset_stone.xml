@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/mayap/wall_tower</Tower>
-      <Gate>structures/mayap/wall_gate</Gate>
-      <WallLong>structures/mayap/wall_long</WallLong>
-      <WallMedium>structures/mayap/wall_medium</WallMedium>
-      <WallShort>structures/mayap/wall_short</WallShort>
+      <Tower>structures/maya/wall_tower</Tower>
+      <Gate>structures/maya/wall_gate</Gate>
+      <WallLong>structures/maya/wall_long</WallLong>
+      <WallMedium>structures/maya/wall_medium</WallMedium>
+      <WallShort>structures/maya/wall_short</WallShort>
     </Templates>
   </WallSet>
 </Entity>

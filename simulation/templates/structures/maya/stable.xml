@@ -11,7 +11,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="34.0" depth="34.0"/>
+    <Square width="32.0" depth="32.0"/>
     <Height>12.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -38,13 +38,13 @@
     <metal>40</metal>
   </Loot>
   <Obstruction>
-    <Static width="32.0" depth="32.0"/>
+    <Static width="31.5" depth="31.5"/>
   </Obstruction>
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      mayap/ball_players
-      mayap/poison_blowgunner
+      maya/ball_players
+      maya/poison_blowgunner
     </Technologies>
   </Researcher>
   <Sound>
@@ -71,6 +71,6 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/mayas/ball.xml</Actor>
-    <FoundationActor>structures/fndn_8x9.xml</FoundationActor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="100" name="Maya House 02 Roof">
+            <mesh>props/structural/mayas/house_02_roof.dae</mesh>
+            <textures>
+                <texture file="structural/ao/maya/house_02_ao.png" name="aoTex"/>
+            </textures>
+        </variant>
+    </group>
+    <group>
+        <variant frequency="100" name="Roof 01">
+            <textures>
+                <texture file="structural/maya/roof_01.png" name="baseTex"/>
+                <texture file="structural/maya/roof_01_norm.png" name="normTex"/>
+                <texture file="structural/maya/roof_01_spec.png" name="specTex"/>
+            </textures>
+        </variant>
+        <variant frequency="100" name="Roof 02">
+            <textures>
+                <texture file="structural/maya/roof_02.png" name="baseTex"/>
+                <texture file="structural/maya/roof_02_norm.png" name="normTex"/>
+                <texture file="structural/maya/roof_02_spec.png" name="specTex"/>
+            </textures>
+        </variant>
+    </group>
+    <material>basic_trans_ao_parallax_spec.xml</material>
+</actor>

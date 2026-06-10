@@ -282,8 +282,8 @@ The Tupi were an indigenous people of Brazil, living along the coast and rivers 
 - -siege_pack_unpack
 - archer_attack_spread
 - fishing_culture
-- mayap/handling_with_fire
-- mayap/poison_blowgunner
+- maya/handling_with_fire
+- maya/poison_blowgunner
 - siege_attack
 - siege_cost_time
 - siege_health

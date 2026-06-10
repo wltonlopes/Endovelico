@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
   <Footprint>
-    <Square width="16.0" depth="16.0"/>
+    <Square width="18.0" depth="18.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -13,22 +13,22 @@
     <SpecificName>Kúuchil</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="14.0" depth="14.0"/>
+    <Static width="17.5" depth="17.5"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
      -gather_animals_stockbreeding
-     mayap/gather_corral_apicultura
+     maya/gather_corral_apicultura
     </Technologies>
   </Researcher>
   <ResourceTrickle>
-    <Rates> 
+    <Rates>
       <food>0.0</food>
       <wood>0.0</wood>
       <stone>0.0</stone>
       <metal>0.0</metal>
-    </Rates> 
-    <Interval>60000</Interval> 
+    </Rates>
+    <Interval>60000</Interval>
   </ResourceTrickle>
   <Trainer>
     <Entities datatype="tokens">

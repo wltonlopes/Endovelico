@@ -3,11 +3,11 @@
     "description": "Researching this technology brings five allied warriors to assist.",
     "cost": { "food": 50, "metal": 30 },
     "researchTime": 3,
-    "requirements": { "civ": "mayap" },
+    "requirements": { "civ": "maya" },
 	"icon": "female_succession.png",
     "modifications": [
         {
-            "value": "Builder/entitties/units/mayap/infantry_axeman_b",
+            "value": "Builder/entitties/units/maya/infantry_axeman_b",
             "affects": "Player",
             "add": true,
             "quantity": 5

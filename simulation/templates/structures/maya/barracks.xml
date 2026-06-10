@@ -7,7 +7,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="24.0"/>
+    <Square width="26.0" depth="26.0"/>
     <Height>15.0</Height>
   </Footprint>
   <Health>
@@ -18,9 +18,9 @@
     <SpecificName>Bate nal</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="22.0"/>
+    <Static width="25.5" depth="25.5"/>
   </Obstruction>
-   <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_nobre
       units/{civ}/infantry_spearman_b
@@ -28,7 +28,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/mayas/barracks_02.xml</Actor>
+    <Actor>structures/mayas/barracks.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

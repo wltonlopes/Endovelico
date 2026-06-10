@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_javelineer">
-   <Auras datatype="tokens">
-     units/mayap/heroes/huun_balam
+  <Auras datatype="tokens">
+     units/maya/heroes/huun_balam
   </Auras>
-   <Decay>
+  <Decay>
     <SinkingAnim>true</SinkingAnim>
     <DelayTime>0.2</DelayTime>
     <SinkRate>3.0</SinkRate>
     <SinkAccel>7.0</SinkAccel>
   </Decay>
   <Identity>
-    <Civ>mayap</Civ>
+    <Civ>maya</Civ>
     <SpecificName>Huun Balam</SpecificName>
-    <Icon>units/mayap/hero_huun_balam.png</Icon>
+    <Icon>units/maya/hero_huun_balam.png</Icon>
   </Identity>
   <Position>
     <Anchor>pitch-roll</Anchor>

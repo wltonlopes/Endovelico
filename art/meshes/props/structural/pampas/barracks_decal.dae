@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.10 LTS commit date:2026-05-18, commit time:13:28, hash:6dc0b208d1b5</authoring_tool>
+    </contributor>
+    <created>2026-06-05T02:47:12</created>
+    <modified>2026-06-05T02:47:12</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Pamp_Barracks_Decal-mesh" name="Pamp Barracks Decal">
+      <mesh>
+        <source id="Pamp_Barracks_Decal-mesh-positions">
+          <float_array id="Pamp_Barracks_Decal-mesh-positions-array" count="78">10.39039 -10.31368 0.006607949 8.895103 -11.23654 0.006607949 6.023953 -10.9109 0.006607949 2.54527 -11.01637 0.006607949 11.13579 -2.795045 0.006607949 11.38564 -8.818386 0.006607949 11.38564 8.803302 0.006607949 11.13579 1.83042 0.006607949 -2.26449 11.15279 0.006607949 2.54527 11.15279 0.006607949 6.023953 10.96974 0.006607949 -11.06508 1.83042 0.006607949 -6.274276 10.96974 0.006607949 -11.06508 -2.795045 0.006607949 -2.26449 -11.16787 0.006607949 -11.31492 8.803302 0.006607949 -11.31492 -8.818386 0.006607949 -10.31968 -10.31368 0.006607949 -8.824388 -11.40095 0.006607949 -6.274276 -11.19609 0.006607949 0.2856198 -11.61886 0.006607949 -10.31968 10.2986 0.006607949 -8.824388 11.3207 0.006607949 0.2856198 11.53861 0.006607949 8.895103 11.3207 0.006607949 10.39039 10.2986 0.006607949</float_array>
+          <technique_common>
+            <accessor source="#Pamp_Barracks_Decal-mesh-positions-array" count="26" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pamp_Barracks_Decal-mesh-normals">
+          <float_array id="Pamp_Barracks_Decal-mesh-normals-array" count="66">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Pamp_Barracks_Decal-mesh-normals-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pamp_Barracks_Decal-mesh-map-0">
+          <float_array id="Pamp_Barracks_Decal-mesh-map-0-array" count="144">0.3256796 0.5601889 0.3256796 0.6985863 0.203338 0.3142009 0.009506642 0.5601889 0.005948543 0.3799661 0.07773476 0.3088234 0.005948543 0.3799661 0.02012223 0.3352258 0.07773476 0.3088234 0.02012223 0.3352258 0.04141741 0.302694 0.07773476 0.3088234 0.13484 0.3096679 0.1711573 0.2961738 0.203338 0.3142009 0.07773476 0.3088234 0.13484 0.3096679 0.009506642 0.5601889 0.009506642 0.6985861 0.009506642 0.5601889 0.13484 0.3096679 0.02012223 0.9519602 0.005948543 0.9072198 0.0777347 0.9720414 0.005948543 0.9072198 0.009506642 0.6985861 0.0777347 0.9720414 0.0777347 0.9720414 0.04141741 0.9825422 0.02012223 0.9519602 0.203338 0.9775182 0.1711573 0.9890624 0.13484 0.9775181 0.13484 0.9775181 0.0777347 0.9720414 0.009506642 0.6985861 0.13484 0.9775181 0.009506642 0.6985861 0.3256796 0.6985863 0.13484 0.3096679 0.203338 0.3142009 0.009506642 0.6985861 0.2528796 0.3173566 0.293769 0.3076131 0.3150641 0.3352258 0.203338 0.3142009 0.2528796 0.3173566 0.3256796 0.5601889 0.009506642 0.6985861 0.203338 0.3142009 0.3256796 0.6985863 0.2528796 0.9720414 0.203338 0.9775182 0.3256796 0.6985863 0.203338 0.9775182 0.13484 0.9775181 0.3256796 0.6985863 0.315064 0.9519604 0.293769 0.9825422 0.2528796 0.9720414 0.3256796 0.6985863 0.3292379 0.9072199 0.2528796 0.9720414 0.3292379 0.9072199 0.315064 0.9519604 0.2528796 0.9720414 0.3150641 0.3352258 0.3292379 0.3799661 0.2528796 0.3173566 0.3292379 0.3799661 0.3256796 0.5601889 0.2528796 0.3173566</float_array>
+          <technique_common>
+            <accessor source="#Pamp_Barracks_Decal-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pamp_Barracks_Decal-mesh-map-1">
+          <float_array id="Pamp_Barracks_Decal-mesh-map-1-array" count="144">0.4479259 0.1731904 0.4479259 0.2634525 0.276915 0.01275819 0.005974531 0.1731904 0.001001 0.05564999 0.1013448 0.009250998 0.001001 0.05564999 0.02081316 0.0264706 0.1013448 0.009250998 0.02081316 0.0264706 0.0505799 0.005253434 0.1013448 0.009250998 0.1811674 0.009801745 0.2319322 0.001001 0.276915 0.01275819 0.1013448 0.009250998 0.1811674 0.009801745 0.005974531 0.1731904 0.005974531 0.2634525 0.005974531 0.1731904 0.1811674 0.009801745 0.02081316 0.4287018 0.001001 0.3995224 0.1013448 0.4417986 0.001001 0.3995224 0.005974531 0.2634525 0.1013448 0.4417986 0.1013448 0.4417986 0.0505799 0.4486473 0.02081316 0.4287018 0.276915 0.4453706 0.2319322 0.4528997 0.1811674 0.4453706 0.1811674 0.4453706 0.1013448 0.4417986 0.005974531 0.2634525 0.1811674 0.4453706 0.005974531 0.2634525 0.4479259 0.2634525 0.1811674 0.009801745 0.276915 0.01275819 0.005974531 0.2634525 0.3461649 0.01481634 0.4033207 0.008461713 0.4330873 0.0264706 0.276915 0.01275819 0.3461649 0.01481634 0.4479259 0.1731904 0.005974531 0.2634525 0.276915 0.01275819 0.4479259 0.2634525 0.3461649 0.4417986 0.276915 0.4453706 0.4479259 0.2634525 0.276915 0.4453706 0.1811674 0.4453706 0.4479259 0.2634525 0.4330873 0.4287018 0.4033207 0.4486473 0.3461649 0.4417986 0.4479259 0.2634525 0.4528997 0.3995224 0.3461649 0.4417986 0.4528997 0.3995224 0.4330873 0.4287018 0.3461649 0.4417986 0.4330873 0.0264706 0.4528997 0.05564999 0.3461649 0.01481634 0.4528997 0.05564999 0.4479259 0.1731904 0.3461649 0.01481634</float_array>
+          <technique_common>
+            <accessor source="#Pamp_Barracks_Decal-mesh-map-1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Pamp_Barracks_Decal-mesh-vertices">
+          <input semantic="POSITION" source="#Pamp_Barracks_Decal-mesh-positions"/>
+        </vertices>
+        <triangles count="24">
+          <input semantic="VERTEX" source="#Pamp_Barracks_Decal-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Pamp_Barracks_Decal-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Pamp_Barracks_Decal-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Pamp_Barracks_Decal-mesh-map-1" offset="2" set="1"/>
+          <p>4 0 0 7 1 1 3 2 2 13 3 3 16 4 4 19 5 5 16 4 6 17 6 7 19 5 8 17 6 9 18 7 10 19 5 11 14 8 12 20 2 13 3 2 14 19 5 15 14 8 16 13 3 17 11 9 18 13 3 19 14 8 20 21 10 21 15 11 22 12 12 23 15 11 24 11 9 25 12 12 26 12 12 27 22 13 28 21 10 29 9 2 30 23 2 31 8 2 32 8 2 33 12 12 34 11 9 35 8 2 36 11 9 37 7 1 38 14 8 39 3 2 40 11 9 41 2 14 42 1 15 43 0 16 44 3 2 45 2 14 46 4 0 47 11 9 48 3 2 49 7 1 50 10 17 51 9 2 52 7 1 53 9 2 54 8 2 55 7 1 56 25 18 57 24 19 58 10 17 59 7 1 60 6 20 61 10 17 62 6 20 63 25 18 64 10 17 65 0 16 66 5 21 67 2 14 68 5 21 69 4 0 70 2 14 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="pamp_barracks_decal" name="pamp_barracks_decal" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Pamp_Barracks_Decal-mesh" name="pamp_barracks_decal"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

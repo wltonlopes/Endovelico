@@ -40,10 +40,10 @@
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      <!-- mayap/mathematics
-      mayap/calendario_tzolkin
-      mayap/calendario_haab
-      mayap/cicle_venusiano -->
+      <!-- maya/mathematics
+      maya/tzolkin_calendar
+      maya/haab_calendar
+      maya/cicle_venusiano -->
     </Technologies>
   </Researcher>
   <Sound>

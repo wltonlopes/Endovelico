@@ -5,7 +5,9 @@
     <variant frequency="1" name="Pampas Arsenal">
       <mesh>structural/pampas/arsenal.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="props/structures/pampas/arsenal_carpet.xml" attachpoint="root"/>
+        <prop actor="props/structures/pampas/barracks_decal.xml" attachpoint="root"/>
+        <!--         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/> -->
       </props>
       <textures>
         <texture file="structural/pamp/struct.png" name="baseTex"/>
@@ -35,5 +37,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>

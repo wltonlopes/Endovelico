@@ -2,22 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="observatory_1">
-      <mesh>structural/mayas/observatory.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayas/observatory.png" name="aoTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Base">
+    <variant frequency="1" name="Maya Observatory">
       <props>
-        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_10x10.xml" attachpoint="root"/>
       </props>
+      <mesh>structural/mayas/observatory.dae</mesh>
       <textures>
         <texture file="structural/maya/struct.png" name="baseTex"/>
         <texture file="structural/maya/struct_norm.png" name="normTex"/>
         <texture file="structural/maya/struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/maya/observatory_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
@@ -31,7 +25,11 @@
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant file="structures/destruction_large.xml"/>
+    <variant file="structures/destruction_large.xml">
+      <props>
+        <prop actor="props/structures/decals/dirt_10x10.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Maya Corral Water">
+      <mesh>props/structural/mayas/corral_water.dae</mesh>
+      <textures>
+        <texture file="structural/maya/struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>reservoir_water.xml</material>
+</actor>

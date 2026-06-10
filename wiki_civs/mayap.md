@@ -242,12 +242,12 @@ The Protoclassic period in Maya history stretches from the beginning of permanen
 ### Ajaw Huun balam
 
 **Auras:**
-- units/mayap/heroes/yax_ehb'xok
+- units/maya/heroes/yax_ehb'xok
 
 ### Ajaw Yax Ehb'Xok
 
 **Auras:**
-- units/mayap/heroes/yax_ehb'xok
+- units/maya/heroes/yax_ehb'xok
 
 ### B'aat Bate
 **Nome genérico:** Axeman Warrior
@@ -272,12 +272,12 @@ The Protoclassic period in Maya history stretches from the beginning of permanen
 ### Huun Balam
 
 **Auras:**
-- units/mayap/heroes/huun_balam
+- units/maya/heroes/huun_balam
 
 ### Ix Muluc
 
 **Auras:**
-- units/mayap/heroes/ix_mulu
+- units/maya/heroes/ix_mulu
 
 ### Jukuub' Konol
 **Nome genérico:** Trading Boat
@@ -368,25 +368,25 @@ The Protoclassic period in Maya history stretches from the beginning of permanen
 - -soldier_resistance_pierce_02
 - -soldier_resistance_pierce_03
 - archer_attack_spread
-- mayap/administrators
-- mayap/attack_incendiary_weapons
-- mayap/attack_soldiers_axe
-- mayap/ball_players
-- mayap/calendario_haab
-- mayap/calendario_tzolkin
-- mayap/cicle_venusiano
-- mayap/gather_corral_apicultura
-- mayap/gather_farming_annual
-- mayap/gather_irrigation_canals
-- mayap/handling_with_fire
-- mayap/health_heros
-- mayap/kakaw_trade
-- mayap/mathematics
-- mayap/poison_blowgunner
-- mayap/regent_female
-- mayap/ship_trade_mesoamerican_cabotage
-- mayap/ship_trade_shells
-- mayap/soldier_attack_melee_obsidian_weapons
+- maya/administrators
+- maya/attack_incendiary_weapons
+- maya/attack_soldiers_axe
+- maya/ball_players
+- maya/haab_calendar
+- maya/tzolkin_calendar
+- maya/cicle_venusiano
+- maya/gather_corral_apicultura
+- maya/gather_farming_annual
+- maya/gather_irrigation_canals
+- maya/handling_with_fire
+- maya/health_heros
+- maya/kakaw_trade
+- maya/mathematics
+- maya/poison_blowgunner
+- maya/regent_female
+- maya/ship_trade_mesoamerican_cabotage
+- maya/ship_trade_shells
+- maya/soldier_attack_melee_obsidian_weapons
 - siege_attack
 - siege_cost_time
 - siege_health

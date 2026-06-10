@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="civ/mayap|template_unit_infantry_melee_axeman">
+<Entity parent="civ/maya|template_unit_infantry_melee_axeman">
   <Cost>
     <Resources>
       <food>35</food>

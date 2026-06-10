@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_axeman">
-   <Auras datatype="tokens">
-    units/mayap/heroes/ix_mulu
+  <Auras datatype="tokens">
+    units/maya/heroes/ix_mulu
   </Auras>
   <Identity>
-    <Civ>mayap</Civ>
+    <Civ>maya</Civ>
     <SpecificName>Ix Muluc</SpecificName>
     <Phenotype>female</Phenotype>
-    <Icon>units/mayap/hero_ix_muluc.png</Icon>
+    <Icon>units/maya/hero_ix_muluc.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/maya_protoclassic/hero_ix_muluc.xml</Actor>

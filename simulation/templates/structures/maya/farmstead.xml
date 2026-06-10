@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_farmstead">
   <Footprint>
-    <Square width="15" depth="15"/>
+    <Square width="18.0" depth="18.0"/>
     <Height>6.0</Height>
   </Footprint>
   <Identity>
@@ -9,17 +9,18 @@
     <SpecificName>Mol nal</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="12.0" depth="12"/>
+    <Static width="17.5" depth="17.5"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
       -gather_farming_plows
-      mayap/gather_farming_annual
-      mayap/gather_irrigation_canals
-      mayap/handling_with_fire
+      maya/gather_farming_annual
+      maya/gather_irrigation_canals
+      maya/handling_with_fire
     </Technologies>
   </Researcher>
   <VisualActor>
     <Actor>structures/mayas/farmstead.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

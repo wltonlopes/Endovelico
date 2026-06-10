@@ -2,49 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="roof_01">
+    <variant frequency="100" name="Maya House">
       <props>
-        <prop actor="props/structures/maya_protoclassic/roof_house_01.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant frequency="100" name="roof_02">
-      <props>
-        <prop actor="props/structures/maya_protoclassic/roof_house_02.xml" attachpoint="root"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="1">
-      <mesh>structural/mayas/house_01.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayas/house_01_ao.png" name="aoTex"/>
-      </textures>
-    </variant>
-      <variant frequency="1" name="2">
-      <mesh>structural/mayas/house_02.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayas/house_02_ao.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="3">
-      <mesh>structural/mayas/house_03.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayas/house_03_ao.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="4">
-      <mesh>structural/mayas/house_04.dae</mesh>
-      <textures>
-        <texture file="structural/ao/mayas/house_04_ao.png" name="aoTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="Base">
-      <props>
-        <prop actor="props/structures/maya_protoclassic/maya_stone_grind.xml" attachpoint="01"/>
-        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="02"/>
-        <prop actor="props/structures/maya_protoclassic/vases_01.xml" attachpoint="03"/>
+        <prop actor="props/structures/maya_stone_grind.xml" attachpoint="stone"/>
+        <prop actor="props/structures/player_prop_carpet.xml" attachpoint="carpet"/>
+        <prop actor="props/structures/maya_vases.xml" attachpoint="vases"/>
       </props>
       <textures>
         <texture file="structural/maya/struct.png" name="baseTex"/>
@@ -54,14 +16,62 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="alive"/>
-    <variant file="structures/destruction_medium.xml">
+    <variant frequency="1" name="House 01">
+      <mesh>structural/mayas/house_01.dae</mesh>
       <props>
-        <prop actor="props/structures/han/barracks_weap.xml" attachpoint="root"/>
-        <prop actor="props/structures/han/barracks.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/mayas/house_01_roof.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/ao/maya/house_01_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="House 02">
+      <mesh>structural/mayas/house_02.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_5x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/mayas/house_02_roof.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/ao/maya/house_02_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="House 03">
+      <mesh>structural/mayas/house_03.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_5x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/mayas/house_03_roof.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/ao/maya/house_03_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="House 04">
+      <mesh>structural/mayas/house_04.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_5x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/mayas/house_04_roof.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/ao/maya/house_04_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_maya.xml" attachpoint="garrisoned" selectable="false"/>
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_medium.xml">
+      <props>
+        <prop actor="props/structures/decals/dirt_5x4.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

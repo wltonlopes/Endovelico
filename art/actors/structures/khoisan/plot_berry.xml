@@ -112,7 +112,7 @@
       
           <prop actor="props/flora/berry_bush.xml" attachpoint="rice_sprout_60" maxheight="20" minheight="-20"/>
 
-          <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
+          <prop actor="props/structures/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
           <prop actor="structures/khoisan/field_wall.xml" attachpoint="root"/>
           <prop actor="props/structures/decals/field_tropic_4x4.xml" attachpoint="root"/>
         </props>

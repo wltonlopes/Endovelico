@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Builder merge="">
+    <Entities datatype="tokens">
+      structures/maya/pyramid_large
+      structures/maya/observatory
+      structures/maya/embassy
+      structures/maya/temple_of_masks
+      structures/maya/range
+      structures/maya/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>maya</Civ>
+  </Identity>
+</Entity>

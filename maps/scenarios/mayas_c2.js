@@ -48,7 +48,7 @@ Trigger.prototype.Timer = function()// Code that creates a timer
 
 	Trigger.prototype.AttackI = function()
 {
-	let infIntruders = ["units/mayap/infantry_javelineer_b","units/mayap/infantry_spearman_b"]
+	let infIntruders = ["units/maya/infantry_javelineer_b","units/maya/infantry_spearman_b"]
 	var intruders = TriggerHelper.SpawnUnitsFromTriggerPoints(
 			pickRandom(["B"]),pickRandom(infIntruders), 10, 0);
 
@@ -80,7 +80,7 @@ Trigger.prototype.Timer = function()// Code that creates a timer
 
 Trigger.prototype.AttackII = function()
 {
-	let invShips = ["units/mayap/ship_fishing","units/mayap/ship_fishing"]
+	let invShips = ["units/maya/ship_fishing","units/maya/ship_fishing"]
 	var intruders = TriggerHelper.SpawnUnitsFromTriggerPoints(
 			pickRandom(["C"]),pickRandom(invShips), 3, 0);
 
@@ -113,9 +113,9 @@ Trigger.prototype.AttackII = function()
 Trigger.prototype.Reforces = function()
 {
 	var alieds = TriggerHelper.SpawnUnitsFromTriggerPoints(
-			pickRandom(["C"]),"units/mayap/ship_arrow",5, 1);
+			pickRandom(["C"]),"units/maya/ship_arrow",5, 1);
 	// var alieds = TriggerHelper.SpawnUnitsFromTriggerPoints(
-	// 		pickRandom(["A"]),"units/mayap/infantry_spearman_e", 5, 1);
+	// 		pickRandom(["A"]),"units/maya/infantry_spearman_e", 5, 1);
 };
 
 //Trigger.prototype.AlliedSupport = function()

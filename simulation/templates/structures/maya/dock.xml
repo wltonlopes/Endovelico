@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
   <Footprint>
-    <Square width="24.0" depth="26.0"/>
+    <Square width="24.0" depth="24.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
@@ -9,12 +9,12 @@
     <SpecificName>Kayoom nah</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="22.0" depth="24.0"/>
+    <Static width="23.5" depth="23.5"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      mayap/ship_trade_mesoamerican_cabotage
-      mayap/ship_trade_shells
+      maya/ship_trade_mesoamerican_cabotage
+      maya/ship_trade_shells
       -ship_health
     </Technologies>
   </Researcher>
@@ -25,6 +25,6 @@
   </Trainer>
   <VisualActor>
     <Actor>structures/mayas/dock.xml</Actor>
-    <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
+    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

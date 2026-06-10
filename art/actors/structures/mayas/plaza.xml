@@ -2,9 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
+    <variant frequency="1" name="Maya Plaza">
       <props>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
+        <prop actor="props/structures/mayas/plaza_roof.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/maya/struct.png" name="baseTex"/>
@@ -14,11 +15,17 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="plaza_1">
-      <mesh>structural/maya_protoclassic/plaza_e1.dae</mesh>
+    <variant frequency="1" name="Plaza 01">
+      <mesh>structural/mayas/plaza_01.dae</mesh>
+      <textures>
+        <texture file="structural/ao/maya/plaza_01_ao.png" name="aoTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="plaza_2">
-      <mesh>structural/maya_protoclassic/plaza_e2.dae</mesh>
+    <variant frequency="1" name="Plaza 02">
+      <mesh>structural/mayas/plaza_02.dae</mesh>
+      <textures>
+        <texture file="structural/ao/maya/plaza_02_ao.png" name="aoTex"/>
+      </textures>
     </variant>
   </group>
   <group>

@@ -9,7 +9,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="38.0" depth="38.0"/>
+    <Square width="40.0" depth="42.0"/>
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -37,15 +37,15 @@
     <metal>50</metal>
   </Loot>
   <Obstruction>
-    <Static width="36.0" depth="36.0"/>
+    <Static width="39.5" depth="41.5"/>
   </Obstruction>
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      mayap/mathematics
-      mayap/calendario_tzolkin
-      mayap/calendario_haab
-      mayap/cicle_venusiano
+      maya/mathematics
+      maya/tzolkin_calendar
+      maya/haab_calendar
+      maya/venusian_cycle
     </Technologies>
   </Researcher>
   <Sound>
@@ -56,6 +56,6 @@
   </Sound>
   <VisualActor>
     <Actor>structures/mayas/observatory.xml</Actor>
-    <FoundationActor>structures/fndn_8x9.xml</FoundationActor>
+    <FoundationActor>structures/fndn_9x10.xml</FoundationActor>
   </VisualActor>
 </Entity>

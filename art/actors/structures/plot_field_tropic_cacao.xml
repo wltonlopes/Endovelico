@@ -34,7 +34,7 @@
 
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_40" maxheight="20" minheight="-20"/>
 
-          <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="rice_sprout_45" maxheight="20" minheight="-20"/>
+          <prop actor="props/structures/maya_hay.xml" attachpoint="rice_sprout_45" maxheight="20" minheight="-20"/>
 
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_50" maxheight="20" minheight="-20"/>
   
@@ -46,7 +46,7 @@
       
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_70" maxheight="20" minheight="-20"/>
 
-          <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
+          <prop actor="props/structures/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
           <prop actor="props/structures/decals/field_tropic_4x4.xml" attachpoint="root"/>
         </props>
       </variant>
@@ -70,7 +70,7 @@
 
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_40" maxheight="20" minheight="-20"/>
 
-          <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="rice_sprout_35" maxheight="20" minheight="-20"/>
+          <prop actor="props/structures/maya_hay.xml" attachpoint="rice_sprout_35" maxheight="20" minheight="-20"/>
 
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_50" maxheight="20" minheight="-20"/>
   
@@ -82,7 +82,7 @@
       
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_01" maxheight="20" minheight="-20"/>
 
-          <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
+          <prop actor="props/structures/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
           <prop actor="props/structures/decals/field_tropic_4x4.xml" attachpoint="root"/>
         </props>
       </variant>
@@ -106,7 +106,7 @@
 
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_40" maxheight="20" minheight="-20"/>
 
-          <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="rice_sprout_44" maxheight="20" minheight="-20"/>
+          <prop actor="props/structures/maya_hay.xml" attachpoint="rice_sprout_44" maxheight="20" minheight="-20"/>
 
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_50" maxheight="20" minheight="-20"/>
   
@@ -118,7 +118,7 @@
       
           <prop actor="flora/trees/cacao.xml" attachpoint="rice_sprout_60" maxheight="20" minheight="-20"/>
 
-          <prop actor="props/structures/maya_protoclassic/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
+          <prop actor="props/structures/maya_hay.xml" attachpoint="rice_sprout_75" maxheight="20" minheight="-20"/>
           <prop actor="props/structures/decals/field_tropic_4x4.xml" attachpoint="root"/>
         </props>
       </variant>

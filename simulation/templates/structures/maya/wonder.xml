@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint replace="">
-    <Square width="54" depth="72"/>
+    <Square width="50.0" depth="52.0"/>
     <Height>24</Height>
   </Footprint>
   <Identity>
@@ -9,7 +9,7 @@
     <SpecificName>Noj witz</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="52" depth="70"/>
+    <Static width="49.5" depth="51.5"/>
   </Obstruction>
   <StatusBars>
     <BarWidth>6.0</BarWidth>
@@ -17,7 +17,7 @@
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <FoundationActor>structures/fndn_stonehenge.xml</FoundationActor>
     <Actor>structures/mayas/wonder.xml</Actor>
+    <FoundationActor>structures/fndn_12x12.xml</FoundationActor>
   </VisualActor>
 </Entity>

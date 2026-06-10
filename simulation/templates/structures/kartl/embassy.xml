@@ -10,7 +10,7 @@
   <Identity>
     <Civ>kartl</Civ>
     <Tooltip>Train Mercenaries.</Tooltip>
-    <Icon>structures/mayap/plaza.png</Icon>
+    <Icon>structures/maya/plaza.png</Icon>
   </Identity>
   <Loot>
     <wood>80</wood>

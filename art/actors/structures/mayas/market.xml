@@ -2,22 +2,28 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Base">
+    <variant frequency="100" name="Maya Market">
       <mesh>structural/mayas/market.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_10x10.xml" attachpoint="root"/>
+        <prop actor="props/structures/mayas/market_roof.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/maya/struct.png" name="baseTex"/>
         <texture file="structural/maya/struct_norm.png" name="normTex"/>
         <texture file="structural/maya/struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mayas/market.png" name="aoTex"/>
+        <texture file="structural/ao/maya/market_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant file="structures/destruction_medium.xml"/>
+    <variant file="structures/destruction_medium.xml">
+      <props>
+        <prop actor="props/structures/decals/dirt_10x10.xml" attachpoint="root"/>
+        <prop actor="props/structures/mayas/market_roof.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

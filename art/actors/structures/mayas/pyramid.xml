@@ -2,9 +2,9 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
+    <variant frequency="1" name="Maya Pyramid">
       <props>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/maya/struct.png" name="baseTex"/>
@@ -13,29 +13,29 @@
       </textures>
     </variant>
   </group>
-   <group>
-    <variant frequency="1" name="1">
+  <group>
+    <variant frequency="25" name="Pyramid 01">
       <mesh>structural/mayas/pyramid_01.dae</mesh>
-    <textures>
-        <texture file="structural/ao/mayas/pyramid_01.png" name="aoTex"/>
+      <textures>
+        <texture file="structural/ao/maya/pyramid_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
-      <variant frequency="1" name="2">
+    <variant frequency="25" name="Pyramid 02">
       <mesh>structural/mayas/pyramid_02.dae</mesh>
-    <textures>
-        <texture file="structural/ao/mayas/pyramid_02.png" name="aoTex"/>
+      <textures>
+        <texture file="structural/ao/maya/pyramid_02_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="3">
+    <variant frequency="25" name="Pyramid 03">
       <mesh>structural/mayas/pyramid_03.dae</mesh>
-    <textures>
-        <texture file="structural/ao/mayas/pyramid_03.png" name="aoTex"/>
+      <textures>
+        <texture file="structural/ao/maya/pyramid_03_ao.png" name="aoTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="4">
+    <variant frequency="25" name="Pyramid 04">
       <mesh>structural/mayas/pyramid_04.dae</mesh>
-    <textures>
-        <texture file="structural/ao/mayas/pyramid_04.png" name="aoTex"/>
+      <textures>
+        <texture file="structural/ao/maya/pyramid_04_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

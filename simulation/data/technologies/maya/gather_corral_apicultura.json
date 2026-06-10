@@ -1,7 +1,7 @@
 {
 	"genericName": "Beekeeping",
 	"specificName": {
-		"mayap": "Apicultura"
+		"maya": "Apicultura"
 	},
 	"description": "The Maya were beekeepers who harvested honey from the log nests of stingless bees native to tropical forests. They were experts of beekeeping and used honey as a sweetener, as an antibiotic, as an ingredient in the Mayan version of mead, and as a commercial currency. ",
 	"cost": {
@@ -13,7 +13,7 @@
 			{ "tech": "phase_village" },
 			{
 				"any": [
-					{ "civ": "mayap" }
+					{ "civ": "maya" }
 				]
 			}
 		]
