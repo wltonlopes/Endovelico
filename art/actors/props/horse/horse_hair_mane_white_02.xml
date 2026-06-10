@@ -1,27 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <actor version="1">
-  <castshadow/>
- <group>
-<variant frequency="1" name="base">
-  <mesh>props/horse/blanket.dae</mesh>
-</variant>
+  <group>
+    <variant>
+      <mesh>props/horse/hair_mane_02.dae</mesh>
+    </variant>
   </group>
   <group>
-    <variant frequency="1" name="1a">
-      <textures>
-        <texture file="props/horse/blanket_lusi_avanc_1.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="2a">
-      <textures>
-        <texture file="props/horse/blanket_lusi_avanc_2.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="3a">
-      <textures>
-        <texture file="props/horse/blanket_lusi_avanc_3.png" name="baseTex"/>
-      </textures>
-    </variant>
+    <variant file="quadraped/horse/props/hair_white.xml" frequency="1" name="white-01"/>
+    <variant file="quadraped/horse/props/hair_gray.xml" frequency="1" name="gray-01"/>
   </group>
   <group>
     <variant file="quadraped/base_horse_javelin_fast.xml" name="Javelinist-Fast-Horse" frequency="1"/>
@@ -37,5 +23,5 @@
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat"/>
       <variant file="quadraped/base_horse_build.xml" name="build"/>
     </group>
-  <material>player_trans.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

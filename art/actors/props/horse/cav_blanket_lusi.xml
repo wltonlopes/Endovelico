@@ -16,6 +16,7 @@
     <variant file="quadraped/base_horse_pace.xml" name="Horse-Pace" frequency="1"/>
     <variant file="quadraped/base_horse_walk.xml" name="Horse-Walk" frequency="1"/>
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat"/>
-  </group>
+      <variant file="quadraped/base_horse_build.xml" name="build"/>
+    </group>
   <material>player_trans.xml</material>
 </actor>
