@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="scout_mount">
+<Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>nok</Civ>
-    <SpecificName>Kushite Scout</SpecificName>
+    <SpecificName>Nok Scout</SpecificName>
     <Icon>units/kush/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/kushites/cavalry_scout.xml</Actor>
+    <Actor>units/nok/cavalry_scout.xml</Actor>
   </VisualActor>
 </Entity>

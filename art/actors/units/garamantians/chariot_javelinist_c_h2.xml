@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <actor version="1">
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/horse_lusitano.dae</mesh>
+      <mesh>skeletal/horse_barb.dae</mesh>
       <props>
         <prop actor="props/horse/cav_blanket_kart.xml" attachpoint="root"/>
       </props>
@@ -26,6 +26,8 @@
     <variant file="quadraped/base_horse_chariot.xml" name="Chariot-Horse" frequency="1"/>
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
+    <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat"/>
+    <variant file="quadraped/base_horse_build.xml" name="build"/>
   </group>
   <material>no_trans_parallax_spec.xml</material>
 </actor>
