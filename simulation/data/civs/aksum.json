@@ -1,6 +1,7 @@
 ﻿{
     "Code": "aksum",
     "Culture": "aksumite",
+    "Region":"Africa",
     "Music": [
         {
             "File": "Ammon-Ra.ogg",

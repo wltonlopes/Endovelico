@@ -1,0 +1,134 @@
+﻿{
+    "Code": "azan",
+    "Culture": "azania",
+    "Region":"Africa",
+    "Music": [
+        {
+            "File": "Ammon-Ra.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Point_of_No_Return.ogg",
+            "Type": "peace"
+        }
+    ],
+    "Factions": [
+        {
+            "Name": "Empire azan",
+            "Description": "",
+            "Technologies": [
+                {
+                    "Name": "",
+                    "History": "."
+                },
+                {
+                    "Name": " ",
+                    "History": "",
+                    "Description": "."
+                }
+            ],
+            "Heroes": [
+                {
+                    "Name": "Zoskales",
+                    "Class": "Infantry Hero",
+                    "Armament": "Sword",
+                    "Emblem": "",
+                    "History": "An ancestor of the Tikal dynasty, probably a real character from the pre-classical age who was later mythologized."
+                },
+                {
+                    "Name": "Sembrouthes",
+                    "Class": "Cavalary Hero",
+                    "Armament": "Obsidian spear",
+                    "Emblem": "",
+                    "History": "Territorial Expansion: As an azanite king who ruled around the 1st century, Sembrouthes could be a hero who provides benefits to villages and cities, efficiently expanding territorial borders. Monument Builder:Under his leadership, monumental buildings would be constructed faster and more cheaply, reflecting azan's architectural development."
+                },
+                {
+                    "Name": "Endubis",
+                    "Class": "Cavalary Hero",
+                    "Armament": "",
+                    "Emblem": "",
+                    "History": "Coinage Pioneer: Endubis was one of the first azanite rulers to mint gold, silver, and bronze coins. He could have an economic bonus, increasing gold production and generating passive income by controlling trade areas.Monetary Influence: His presence on the battlefield boosts troop loyalty and stabilizes local economies, representing trust in the central government and the monetary system.."
+                }
+            ]
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "CivBonuses.",
+            "History": "CivBonuses.",
+            "Description": "CivBonuses."
+        }
+    ],
+    "TeamBonuses": [
+        {
+            "Name": "TeamBonuses.",
+            "History": "TeamBonuses.",
+            "Description": "TeamBonuses."
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/azan/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/azan/civil_centre"
+        },
+        {
+            "Template": "units/azan/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/azan/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/azan/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/azan/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/azan/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/azan/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Elalion Taake",
+        "Horemtaku",
+        "Queen Garsemot Kandake VI"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/azan/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/azan/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/azan/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/azan/cavalry_javelineer_b",
+        "skirmish/units/default_ship_trireme": "units/azan/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

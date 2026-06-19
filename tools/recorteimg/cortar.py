@@ -2,146 +2,330 @@ import cv2
 import numpy as np
 from PIL import Image
 import os
+import math
 
-#Instalando no PIP Linux: sudo apt install python3-opencv python3-pil python3-numpy
+# =====================================================
+# CONFIGURAÇÃO
+# =====================================================
 
-# Pasta onde o próprio script está
-PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
+TAMANHO = 256
+TOLERANCIA = 25
 
-# Configurações
-INPUT = os.path.join(PASTA_SCRIPT, "imagem_grande.png")
-OUTPUT = os.path.join(PASTA_SCRIPT, "saida")
-
-os.makedirs(OUTPUT, exist_ok=True)
-
-# Abrir imagem
-img = cv2.imread(INPUT)
-
-# Verificar se carregou
-if img is None:
-    print(f"Erro: não foi possível abrir {INPUT}")
-    exit()
-
-# Converter BGR → RGB
-rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-
-# Detectar fundo branco
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
-_, thresh = cv2.threshold(
-    gray,
-    245,
-    255,
-    cv2.THRESH_BINARY_INV
+PASTA_SCRIPT = os.path.dirname(
+    os.path.abspath(__file__)
 )
 
-# Encontrar objetos
-contours, _ = cv2.findContours(
-    thresh,
-    cv2.RETR_EXTERNAL,
-    cv2.CHAIN_APPROX_SIMPLE
+INPUT = os.path.join(
+    PASTA_SCRIPT,
+    "img.png"
+)
+
+OUTPUT = os.path.join(
+    PASTA_SCRIPT,
+    "saida"
+)
+
+os.makedirs(
+    OUTPUT,
+    exist_ok=True
+)
+
+# =====================================================
+# ABRIR IMAGEM
+# =====================================================
+
+img = cv2.imread(INPUT)
+
+if img is None:
+    raise RuntimeError(
+        f"Não foi possível abrir:\n{INPUT}"
+    )
+
+rgb = cv2.cvtColor(
+    img,
+    cv2.COLOR_BGR2RGB
+)
+
+gray = cv2.cvtColor(
+    img,
+    cv2.COLOR_BGR2GRAY
+)
+
+# =====================================================
+# REMOVER FUNDO BRANCO
+# =====================================================
+
+mask = (
+    gray < 245
+).astype(np.uint8) * 255
+
+kernel = np.ones(
+    (3,3),
+    np.uint8
+)
+
+mask = cv2.morphologyEx(
+    mask,
+    cv2.MORPH_OPEN,
+    kernel
+)
+
+# =====================================================
+# COMPONENTES CONECTADOS
+# =====================================================
+
+# remover linhas pretas finas
+kernel = np.ones((5,5), np.uint8)
+
+mask = cv2.morphologyEx(
+    mask,
+    cv2.MORPH_OPEN,
+    kernel
+)
+
+mask = cv2.erode(
+    mask,
+    np.ones((3,3), np.uint8),
+    iterations=1
+)
+
+####
+num_labels, labels, stats, centroids = (
+    cv2.connectedComponentsWithStats(
+        mask,
+        connectivity=8
+    )
 )
 
 objetos = []
 
-for c in contours:
+for i in range(1, num_labels):
 
-    x, y, w, h = cv2.boundingRect(c)
+    x = stats[i, cv2.CC_STAT_LEFT]
+    y = stats[i, cv2.CC_STAT_TOP]
+    w = stats[i, cv2.CC_STAT_WIDTH]
+    h = stats[i, cv2.CC_STAT_HEIGHT]
+    area = stats[i, cv2.CC_STAT_AREA]
 
-    # Ignorar pequenos ruídos
-    if w < 20 or h < 20:
+    if area < 2000:
         continue
 
-    objetos.append((x, y, w, h))
-
-
-# Ordenar por linhas
-tolerancia_linha = 40
-
-objetos = sorted(
-    objetos,
-    key=lambda k: k[1]
-)
-
-linhas = []
-
-for obj in objetos:
-
-    x, y, w, h = obj
-
-    inserido = False
-
-    for linha in linhas:
-
-        if abs(y - linha[0][1]) < tolerancia_linha:
-
-            linha.append(obj)
-            inserido = True
-            break
-
-    if not inserido:
-        linhas.append([obj])
-
-
-# Ordenar cada linha esquerda → direita
-objetos_ordenados = []
-
-for linha in linhas:
-
-    linha = sorted(
-        linha,
-        key=lambda k: k[0]
+    objetos.append(
+        (x, y, w, h)
     )
 
-    objetos_ordenados.extend(linha)
+# =====================================================
+# ORDENAÇÃO
+# =====================================================
+
+objetos.sort(
+    key=lambda o: (
+        o[1] // 100,
+        o[0]
+    )
+)
+
+# Detecta componentes conectados
+num_labels, labels, stats, centroids = (
+    cv2.connectedComponentsWithStats(
+        mask,
+        connectivity=8
+    )
+)
+
+objetos = []
+
+for i in range(1, num_labels):
+
+    x = stats[i, cv2.CC_STAT_LEFT]
+    y = stats[i, cv2.CC_STAT_TOP]
+    w = stats[i, cv2.CC_STAT_WIDTH]
+    h = stats[i, cv2.CC_STAT_HEIGHT]
+    area = stats[i, cv2.CC_STAT_AREA]
+
+    # Ignorar textos e ruídos
+    if area < 2000:
+        continue
+
+    objetos.append(
+        (x, y, w, h)
+    )
+
+# Ordenação
+objetos.sort(
+    key=lambda o: (
+        o[1] // 100,
+        o[0]
+    )
+)
+
+# =====================================================
+# Divisão baseada em múltiplos de 256 px
+# =====================================================
+
+TAMANHO = 256
+TOLERANCIA = 25
+
+objetos_finais = []
+
+for x, y, w, h in objetos:
+
+    # Usa apenas a parte superior para inferir colunas
+    altura_util = min(h, 256)
+
+    crop_mask = mask[
+        y:y+altura_util,
+        x:x+w
+    ]
+
+    ocupacao = np.sum(
+        crop_mask > 0,
+        axis=0
+    )
+
+    ativos = np.where(
+        ocupacao > altura_util * 0.10
+    )[0]
+
+    if len(ativos) == 0:
+
+        largura_util = w
+        inicio_x = x
+        n_colunas = 1
+
+    else:
+
+        largura_util = (
+            ativos[-1]
+            - ativos[0]
+        )
+
+        inicio_x = (
+            x + ativos[0]
+        )
+
+        n_colunas = max(
+            1,
+            round(
+                largura_util
+                / TAMANHO
+            )
+        )
+
+    # Está próximo de múltiplos de 256?
+    if abs(
+        largura_util
+        - n_colunas*TAMANHO
+    ) <= TOLERANCIA * n_colunas:
+
+        largura_celula = (
+            largura_util
+            / n_colunas
+        )
+
+        for c in range(
+            n_colunas
+        ):
+
+            objetos_finais.append(
+                (
+                    int(
+                        inicio_x
+                        + c * largura_celula
+                    ),
+                    y,
+                    int(
+                        largura_celula
+                    ),
+                    h
+                )
+            )
+
+    else:
+
+        objetos_finais.append(
+            (x, y, w, h)
+        )
+
+# =====================================================
+# EXPORTAÇÃO
+# =====================================================
 
 contador = 1
 
-for x, y, w, h in objetos_ordenados:
+for x, y, w, h in objetos_finais:
 
-    crop = rgb[y:y+h, x:x+w]
+    crop = rgb[
+        y:y+h,
+        x:x+w
+    ]
 
-    pil = Image.fromarray(crop)
-    pil = pil.convert("RGBA")
+    if crop.size == 0:
+        continue
 
-    dados = np.array(pil)
+    pil = Image.fromarray(
+        crop
+    ).convert("RGBA")
 
-    # Separar canais corretamente
-    r = dados[:, :, 0]
-    g = dados[:, :, 1]
-    b = dados[:, :, 2]
-
-    # Detectar branco
-    branco = (
-        (r > 245) &
-        (g > 245) &
-        (b > 245)
+    dados = np.array(
+        pil
     )
 
-    # Tornar branco transparente
-    dados[:, :, 3] = np.where(
+    r = dados[:,:,0]
+    g = dados[:,:,1]
+    b = dados[:,:,2]
+
+    branco = (
+        (r > 240) &
+        (g > 240) &
+        (b > 240)
+    )
+
+    # Preserva transparências existentes
+    dados[:,:,3] = np.where(
         branco,
         0,
-        255
+        dados[:,:,3]
     )
 
-    pil = Image.fromarray(dados)
+    pil = Image.fromarray(
+        dados
+    )
 
-    # Redimensionar mantendo proporção
+    bbox = pil.getbbox()
+
+    if bbox is None:
+        continue
+
+    pil = pil.crop(
+        bbox
+    )
+
+    if (
+        pil.width < 32
+        or
+        pil.height < 32
+    ):
+        continue
+
     pil.thumbnail(
         (256,256),
         Image.Resampling.LANCZOS
     )
 
-    # Criar tela transparente
     final = Image.new(
         "RGBA",
         (256,256),
         (0,0,0,0)
     )
 
-    px = (256 - pil.width)//2
-    py = (256 - pil.height)//2
+    px = (
+        256 - pil.width
+    ) // 2
+
+    py = (
+        256 - pil.height
+    ) // 2
 
     final.paste(
         pil,
@@ -149,17 +333,25 @@ for x, y, w, h in objetos_ordenados:
         pil
     )
 
-    nome = f"01_{contador:03d}.png"
-
-    final.save(
-        os.path.join(
-            OUTPUT,
-            nome
-        )
+    nome = (
+        f"01_{contador:03d}.png"
     )
 
-    print(f"Salvo: {nome}")
+    caminho = os.path.join(
+        OUTPUT,
+        nome
+    )
+
+    final.save(
+        caminho
+    )
+
+    print(
+        f"Salvo: {nome}"
+    )
 
     contador += 1
 
-print("Concluído.")
+print(
+    f"\nConcluído: {contador-1} texturas exportadas."
+)

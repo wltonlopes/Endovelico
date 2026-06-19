@@ -17,19 +17,19 @@
     <variant frequency="1" name="house a">
 <mesh>structural/ural/house_1.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/ural/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/ural/house_2.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/ural/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/ural/house_3.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/ural/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

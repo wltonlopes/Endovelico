@@ -1,6 +1,7 @@
 ﻿{
     "Code": "araw",
     "Culture": "Arawaks",
+    "Region":"America",
     "Music": [
         {
             "File": "red_dawn.ogg",

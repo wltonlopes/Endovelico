@@ -1,6 +1,7 @@
 {
     "Code": "brit",
     "Culture": "celt",
+    "Region":"Europe",
     "Music": [
         {
             "File": "The_Fledgling_Kingdom.ogg",

@@ -17,25 +17,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/suvarnabhumi/house_1.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/suvar/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/suvarnabhumi/house_2.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/suvar/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/suvarnabhumi/house_3.dae</mesh>
       <textures>
-        <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+        <texture file="structural/ao/suvar/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/suvarnabhumi/house_4.dae</mesh>
       <textures>
-                <texture file="structural/ao/generic/ao_AO.png" name="aoTex"/>
+                <texture file="structural/ao/suvar/house_4_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
