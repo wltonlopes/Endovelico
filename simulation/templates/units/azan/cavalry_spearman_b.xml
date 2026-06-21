@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>azan</Civ>
+    <GenericName>Heavy Warrior Spearman</GenericName>
     <SelectionGroupName>units/azania/heavy_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>

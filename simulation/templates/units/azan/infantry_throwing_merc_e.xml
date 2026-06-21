@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/azan/infantry_throwing_a">
+<Entity parent="units/azan/infantry_throwing_merc_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>

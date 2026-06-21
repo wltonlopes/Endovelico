@@ -2,8 +2,7 @@
 <Entity parent="template_unit_champion_infantry_javelineer">
   <Identity>
     <Civ>azan</Civ>
-    <GenericName></GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Heavy Warrior Javalineer</GenericName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
