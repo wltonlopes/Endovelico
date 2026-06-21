@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spear_stone.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/kush_spear.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -17,22 +17,22 @@
   <group>
     <variant frequency="1" name="ir_01_01">
       <textures>
-        <texture file="skeletal/azania/i_01_01.png" name="baseTex"/>
+        <texture file="skeletal/azania/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_01_02">
       <textures>
-        <texture file="skeletal/azania/i_01_02.png" name="baseTex"/>
+        <texture file="skeletal/azania/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_01_03">
       <textures>
-        <texture file="skeletal/azania/i_01_03.png" name="baseTex"/>
+        <texture file="skeletal/azania/i_l_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_01_04">
       <textures>
-        <texture file="skeletal/azania/i_01_04.png" name="baseTex"/>
+        <texture file="skeletal/azania/i_l_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

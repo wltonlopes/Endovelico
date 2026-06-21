@@ -17,12 +17,12 @@
   <group>
     <variant frequency="1" name="robes_04_01">
       <textures>
-        <texture file="skeletal/axum/tunic_dark_01_01.png" name="baseTex"/>
+        <texture file="skeletal/aksum/tunic_dark_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="robes_04_02">
       <textures>
-        <texture file="skeletal/axum/tunic_dark_01_01.png" name="baseTex"/>
+        <texture file="skeletal/aksum/tunic_dark_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

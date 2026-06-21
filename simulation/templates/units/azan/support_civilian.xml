@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_civilian">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/aksum/allied_village_afar
-      structures/aksum/allied_village_beja
-      structures/aksum/allied_village_oromo
-    </Entities>
-  </Builder>
+
   <Identity>
     <Civ>azan</Civ>
-
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Aksumite Villager</GenericName>
+    <GenericName>Azania Villager</GenericName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/aksumite/citizen_{phenotype}.xml</Actor>
+    <Actor>units/azania/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

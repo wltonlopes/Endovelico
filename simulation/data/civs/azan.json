@@ -111,11 +111,7 @@
             "Count": 1
         },
         {
-            "Template": "units/azan/cavalry_javelineer_b",
-            "Count": 1
-        },
-        {
-            "Template": "units/azan/cavalry_scout"
+            "Template": "units/azan/infantry_scout"
         }
     ],
     "AINames": [
@@ -124,7 +120,7 @@
         "Queen Garsemot Kandake VI"
     ],
     "SkirmishReplacements": {
-        "skirmish/units/default_cavalry": "units/azan/cavalry_scout",
+        "skirmish/units/default_cavalry": "units/azan/infantry_scout",
         "skirmish/units/default_infantry_melee_b": "units/azan/infantry_swordsman_b",
         "skirmish/units/default_infantry_ranged_b": "units/azan/infantry_archer_b",
         "skirmish/units/special_starting_unit": "units/azan/cavalry_javelineer_b",

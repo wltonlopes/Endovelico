@@ -2,70 +2,32 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="2" name="White Dress Light Skin">
-      <mesh>skeletal/new/f_dress.dae</mesh>
+    <variant>
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_kush_fem_light.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_fem_01.xml" attachpoint="head"/>
       </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="f_01_01">
       <textures>
-        <texture file="skeletal/kush/dress_female_01_light.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/aksum/f_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="5" name="White Dress Medium Skin">
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_medium.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="f_01_02">
       <textures>
-        <texture file="skeletal/kush/dress_female_01_medium.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/aksum/f_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="3" name="White Dress Dark Skin">
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_dark.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="f_01_03">
       <textures>
-        <texture file="skeletal/kush/dress_female_01_dark.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/aksum/f_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="Striped Dress Light Skin">
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_light.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="f_01_04">
       <textures>
-        <texture file="skeletal/kush/dress_female_02_light.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_02_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="Striped Dress Medium Skin">
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_medium.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/kush/dress_female_02_medium.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_02_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="0" name="Striped Dress Dark Skin">
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_dark.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/kush/dress_female_02_dark.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_02_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/aksum/f_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -86,7 +48,7 @@
     <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
-    <variant name="Idle" frequency="1"/>
+    <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_melee_female.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/female_death.xml"/>
@@ -101,5 +63,5 @@
     <variant file="biped/female_build.xml"/>
     <variant file="biped/female_build_farm.xml"/>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/kushites/infantry_swordsman_e.xml</Actor>
+    <Actor>units/azania/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

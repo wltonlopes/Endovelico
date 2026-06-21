@@ -5,11 +5,13 @@
     <variant frequency="1" name="andean_recuay-01">
       <mesh>structural/mochicas/recuay_01.dae</mesh>
       <textures>
+        <texture file="structural/ao/mochicas/recuay_01_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="andean_recuay-02">
       <mesh>structural/mochicas/recuay_02.dae</mesh>
       <textures>
+        <texture file="structural/ao/mochicas/recuay_02_ao.png" name="aoTex"/>  
       </textures>
     </variant>
   </group>
@@ -45,5 +47,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

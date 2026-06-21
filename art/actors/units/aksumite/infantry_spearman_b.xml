@@ -2,27 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base_swordsman_2hand_relax">
+    <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/kush_nubian_thureos.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/kush_nubian_hex_b.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/xion_sword_sheath_left.xml" attachpoint="sheath_L"/>
       </props>
-    </variant>
-  </group>
-  <group>
-    <variant name="Basic 01">
-      <textures>
-        <texture file="skeletal/axum/tunic_dark_01_01.png" name="baseTex"/>
-        <texture file="skeletal/kush/naked_male_nubian_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
@@ -30,12 +16,42 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_relax.xml" name="Spearman-Shield-Relax"/>
+    <variant frequency="1" name="ir_01_01">
+      <textures>
+        <texture file="skeletal/aksum/i_l_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_02">
+      <textures>
+        <texture file="skeletal/aksum/i_l_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_03">
+      <textures>
+        <texture file="skeletal/aksum/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_04">
+      <textures>
+        <texture file="skeletal/aksum/i_l_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_relax.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
@@ -51,8 +67,7 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml">
-    </variant>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

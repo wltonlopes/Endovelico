@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/shield/azan_shield_01.dae</mesh>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="wicker-azania_elite_01">
+      <textures>
+        <texture file="props/shield/azania/azan_shield_04_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="wicker-azania_elite_02">
+      <textures>
+        <texture file="props/shield/azania/azan_shield_04_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

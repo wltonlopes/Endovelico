@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelineer">
+  <Identity>
+    <Civ>azan</Civ>
+    <GenericName></GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/azania/infantry_champion_javalineer.xml</Actor>
+  </VisualActor>
+</Entity>

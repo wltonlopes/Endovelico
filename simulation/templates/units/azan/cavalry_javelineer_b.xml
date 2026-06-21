@@ -12,6 +12,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/azania/infantry_heavy_javelinist.xml</Actor>
+    <Actor>units/azania/infantry_heavy_javelineer.xml</Actor>
   </VisualActor>
 </Entity>

@@ -6,6 +6,6 @@
     <Icon>units/kush/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/kushites/cavalry_scout.xml</Actor>
+    <Actor>units/azania/cavalry_scout.xml</Actor>
   </VisualActor>
 </Entity>

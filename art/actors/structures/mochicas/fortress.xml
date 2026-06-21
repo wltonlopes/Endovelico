@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="SpartanFortress">
+    <variant frequency="1" name="Fortress">
       <animations>
         <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
       </animations>
@@ -12,10 +12,10 @@
         <prop actor="props/structures/decals/celt_fortress.xml" attachpoint="root"/>
       </props>
       <textures>
-	    <texture file="structural/moch/struct.png" name="baseTex"/>
-	    <texture file="structural/moch/struct_norm.png" name="normTex"/>
-	    <texture file="structural/moch/struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/mochicas/basic_AO.png" name="aoTex"/>
+        <texture file="structural/moch/struct.png" name="baseTex"/>
+        <texture file="structural/moch/struct_norm.png" name="normTex"/>
+        <texture file="structural/moch/struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/mochicas/fortress_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
