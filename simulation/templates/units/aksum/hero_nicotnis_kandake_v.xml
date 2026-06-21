@@ -23,6 +23,6 @@
     </Overlay>
   </Selectable>
   <VisualActor>
-    <Actor>units/kushites/hero_chariot_archer_amanirenas_m.xml</Actor>
+    <Actor>units/aksumite/hero_chariot_archer_amanirenas_m.xml</Actor>
   </VisualActor>
 </Entity>

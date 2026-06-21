@@ -2,11 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Coif">
+    <variant frequency="1" name="Coif">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/arabs/helmet_arab_a.xml" attachpoint="helmet"/>
+
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/afro_aksum_male.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>

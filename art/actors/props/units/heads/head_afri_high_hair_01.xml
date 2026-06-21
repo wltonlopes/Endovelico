@@ -8,8 +8,11 @@
   </group>
   <group>
     <variant frequency="1" name="Face a">
-      <props><prop actor="props/units/hairs/hair_afro.xml" attachpoint="root"/></props>
       <textures><texture file="props/head/head_male_afri_01_01.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Face high">
+      <props><prop actor="props/units/hairs/hair_afro.xml" attachpoint="root"/></props>
+      <textures><texture file="props/head/head_male_afri_01_02.png" name="baseTex"/></textures>
     </variant>
 	 <variant frequency="1" name="texture b">
       <textures><texture file="props/head/head_male_afri_01_02.png" name="baseTex"/></textures>

@@ -9,7 +9,8 @@
       </animations>
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/afro_aksum_male.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/zapo_oar.xml" attachpoint="weapon_R"/>
       </props>
       <textures>

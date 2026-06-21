@@ -5,7 +5,7 @@
     <variant file="biped/base_spearman_relax.xml">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_high_hair_01.xml" attachpoint="head"/>
         <prop actor="props/units/shields/azan_round_basic.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/dagger.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/dagger.xml" attachpoint="weapon_L"/>

@@ -5,57 +5,41 @@
     <variant frequency="1" name="Helmet">
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/afro_aksum_male_long.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-coif">
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/afro_aksum_male_long.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="robes_04_01">
+    <variant frequency="1" name="ir_03_01">
       <textures>
-        <texture file="skeletal/arab/robes_04_01.png" name="baseTex"/>
+        <texture file="skeletal/aksum/i_l_03_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="robes_04_02">
+    <variant frequency="1" name="ir_03_02">
       <textures>
-        <texture file="skeletal/arab/robes_04_02.png" name="baseTex"/>
+        <texture file="skeletal/aksum/i_l_03_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="robes_04_03">
+    <variant frequency="1" name="ir_03_03">
       <textures>
-        <texture file="skeletal/arab/robes_04_03.png" name="baseTex"/>
+        <texture file="skeletal/aksum/i_l_03_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="robes_04_04">
+    <variant frequency="1" name="ir_03_04">
       <textures>
-        <texture file="skeletal/arab/robes_04_04.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_04_05">
-      <textures>
-        <texture file="skeletal/arab/robes_04_05.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_04_06">
-      <textures>
-        <texture file="skeletal/arab/robes_04_06.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_04_07">
-      <textures>
-        <texture file="skeletal/arab/robes_04_07.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="robes_04_08">
-      <textures>
-        <texture file="skeletal/arab/robes_04_08.png" name="baseTex"/>
+        <texture file="skeletal/aksum/i_l_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
