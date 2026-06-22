@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_kush_nuba_painted.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/urewe/helmet_hero_02.xml" attachpoint="helmet"/>
-        <prop actor="props/units/shields/kush_nubian_thureos.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/kush_beja_reinforced_rhino.xml" attachpoint="shield"/>
         <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
