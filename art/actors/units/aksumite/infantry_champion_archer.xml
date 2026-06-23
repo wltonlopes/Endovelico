@@ -6,8 +6,8 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/afro_aksum_male.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/urewe/helmet_champ.xml" attachpoint="helmet"/>
+        <prop actor="props/units/hairs/afro_aksum_male_all.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/aksumite/aksum_turban_champ.xml" attachpoint="head"/>  
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
@@ -15,24 +15,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="c_01">
+    <variant frequency="1" name="c_01_01">
       <textures>
-        <texture file="skeletal/aksum/c_01.png" name="baseTex"/>
+        <texture file="skeletal/aksum/c_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="c_02">
+    <variant frequency="1" name="c_01_02">
       <textures>
-        <texture file="skeletal/aksum/c_02.png" name="baseTex"/>
+        <texture file="skeletal/aksum/c_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="c_03">
+    <variant frequency="1" name="c_01_03">
       <textures>
-        <texture file="skeletal/aksum/c_03.png" name="baseTex"/>
+        <texture file="skeletal/aksum/c_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="c_04">
+    <variant frequency="1" name="c_01_04">
       <textures>
-        <texture file="skeletal/aksum/c_04.png" name="baseTex"/>
+        <texture file="skeletal/aksum/c_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

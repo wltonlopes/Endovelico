@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <mesh>skeletal/new/f_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_fem_02.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/afro_aksum_female.xml" attachpoint="head"/>

@@ -2,51 +2,33 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_bovidae_attack.xml" name="Base">
-      <mesh>skeletal/sanga_cattle_a.dae</mesh>
+    <variant>
+      <mesh>skeletal/horse_persian.dae</mesh>
       <props>
-          <prop actor="units/urewe/hero_spearman_r.xml" attachpoint="root" maxheight="3" minheight="3.2"/>
+        <prop actor="units/aksumite/hero_spearman_r.xml" attachpoint="rider"/>
+        <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Zebu">
-      <textures>
-        <texture file="skeletal/animal_zebu.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="Black Zebu">
-      <textures>
-        <texture file="skeletal/animal_zebu_black.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="Brown Zebu">
-      <textures>
-        <texture file="skeletal/animal_zebu_brown.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="Black and White Zebu">
-      <textures>
-        <texture file="skeletal/animal_zebu_black_and_white.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="100" name="Black and Brown Zebu">
-      <textures>
-        <texture file="skeletal/animal_zebu_black_and_brown.png" name="baseTex"/>
-      </textures>
-    </variant>
+    <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
+    <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
+    <variant file="quadraped/horse/beige.xml" frequency="1" name="beige"/>
+    <variant file="quadraped/horse/tan.xml" frequency="1" name="tan"/>
+    <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
+    <variant file="quadraped/horse/white.xml" frequency="1" name="white"/>
+    <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
-    <variant file="quadraped/base_bovidae_death.xml" name="death"/>
-  </group>
-  <group>
-    <variant>
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
+    <variant file="quadraped/base_horse_trot.xml" name="Horse-Trot" frequency="1"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
+    <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
+      <props>
+        <prop actor="units/aksumite/hero_spearman_r.xml" attachpoint="rider_R"/>
+      </props>
     </variant>
   </group>
-  <material>no_trans_norm_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

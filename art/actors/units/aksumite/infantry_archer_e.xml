@@ -7,6 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/afro_aksum_male.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/aksumite/aksum_turban_inf.xml" attachpoint="head"/>      
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>

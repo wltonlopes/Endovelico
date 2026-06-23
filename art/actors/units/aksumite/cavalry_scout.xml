@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/horse_barb.dae</mesh>
       <props>
-        <prop actor="units/sao/cavalry_scout_r.xml" attachpoint="rider"/>
+        <prop actor="units/aksumite/cavalry_scout_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
       </props>

@@ -8,11 +8,17 @@
      <variant frequency="1" name="a2">
       <mesh>props/hair/aksum/hair_aksum_female_02.dae</mesh>
     </variant>
-    <variant frequency="1" name="a3">
+    <variant frequency="1" name="hair_03">
       <mesh>props/hair/aksum/hair_aksum_female_03.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/aksumite/aksum_turban_female.xml" attachpoint="root"/>
+      </props>
     </variant>
-    <variant frequency="1" name="a4">
+    <variant frequency="1" name="hair_04">
       <mesh>props/hair/aksum/hair_aksum_female_04.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/aksumite/aksum_turban_female.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
   <group>

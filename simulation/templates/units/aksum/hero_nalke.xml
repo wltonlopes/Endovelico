@@ -11,6 +11,6 @@
     <Icon>units/kush/hero_nastasen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/aksumite/hero_cavalry_spearman_nastasen_m.xml</Actor>
+    <Actor>units/aksumite/hero_spearman_m.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="01">
+      <textures>
+        <texture file="props/helmet/turban_aksum_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="hair_03">
+      <mesh>props/helmet/aksum/tuban_aksum_female_03.dae</mesh>
+    </variant>
+    <variant frequency="100" name="hair_04">
+      <mesh>props/helmet/aksum/tuban_aksum_female_04.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>
+  
