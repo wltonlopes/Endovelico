@@ -8,7 +8,7 @@
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/afro_aksum_male.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/aksumite/aksum_crown.xml" attachpoint="helmet"/>
-       <prop actor="props/units/shields/kush_beja_reinforced_gold_rhino.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/shields/kush_beja_small_rhino.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>    
       </props>
       <textures>

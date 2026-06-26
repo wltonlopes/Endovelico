@@ -1,6 +1,9 @@
 {
     "Code": "yuez",
-    "Culture": "yuez",
+    "Culture":[ "yuez"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "Hill_of_Sorrows.ogg",

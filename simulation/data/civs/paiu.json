@@ -1,6 +1,9 @@
 ﻿{
     "Code": "paiu",
-    "Culture": "paiutes",
+    "Culture":[ "paiutes"],
+    "Region": [
+        "America"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

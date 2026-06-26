@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Numidian Wonder">
+    <variant frequency="1" name="Mauretania Wonder">
       <mesh>structural/mauretania/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_12x12.xml" attachpoint="root"/>

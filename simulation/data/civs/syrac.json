@@ -1,6 +1,9 @@
 {
 	"Code": "syrac",
-	"Culture": "hele",
+	"Culture":[ "hele" ],
+    "Region": [
+        "Europe"
+    ],
 	"Music": [
 		{
 			"File": "Harvest_Festival.ogg",

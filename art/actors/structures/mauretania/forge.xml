@@ -2,11 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Numidian Forge">
+    <variant frequency="1" name="Mauretania Forge">
       <mesh>structural/mauretania/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
-        <prop actor="props/structures/numidians/forge_water.xml" attachpoint="root"/>
+        <prop actor="props/structures/Mauretanias/forge_water.xml" attachpoint="root"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
       </props>

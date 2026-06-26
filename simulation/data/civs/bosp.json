@@ -1,6 +1,7 @@
 ﻿{
   "Code": "bosp",
-  "Culture": "Bosporan",
+  "Culture":[ "Bosporan"],
+  "Region":["Europe"],
   "Music": [
     {
       "File": "red_dawn.ogg",

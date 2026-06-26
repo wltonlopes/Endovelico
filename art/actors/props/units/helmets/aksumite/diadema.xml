@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base_1">
-      <mesh>props/helmet/aksum/diadema.dae</mesh>
+      <mesh>props/helmet/aksum/aksum_diadema.dae</mesh>
       <textures>
-        <texture file="props/helmet/crown_aksum.png" name="baseTex"/>
+        <texture file="props/helmet/aksum_diadema.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_white.dds" name="specTex"/>
       </textures>

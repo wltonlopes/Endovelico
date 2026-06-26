@@ -1,6 +1,10 @@
 {
     "Code": "gaul",
-    "Culture": "celt",
+    "Culture":[ "celt"],
+    "Region": [
+        "Mediterranean",
+        "Europe"
+    ],
     "Music": [
         {
             "File": "Celtic_Pride.ogg",

@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow />
   <group>
-    <variant frequency="1" name="Numidian House">
+    <variant frequency="1" name="Mauretania House">
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root" />
       </props>

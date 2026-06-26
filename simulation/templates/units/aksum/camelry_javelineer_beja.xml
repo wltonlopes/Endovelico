@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="camelry|merc_inf|template_unit_cavalry_ranged_javelineer">
+  <Identity>
+    <Civ>aksum</Civ>
+    <SelectionGroupName>units/aksum/camelry_javalineer_b</SelectionGroupName>
+    <GenericName>Beja Javalineer Camelry</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/yayo/cavalry_javalineer_merc.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/aksumite/camelry_javelineer_beja_m.xml</Actor>
+  </VisualActor>
+</Entity>

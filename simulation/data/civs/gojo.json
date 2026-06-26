@@ -1,6 +1,9 @@
 ﻿{
     "Code": "gojo",
-    "Culture": "gojoseon",
+    "Culture":[ "gojoseon"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

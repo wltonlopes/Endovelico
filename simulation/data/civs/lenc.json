@@ -1,6 +1,9 @@
 ﻿{
     "Code": "lenc",
-    "Culture": "Yarumela, mesoamerican",
+    "Culture":[ "Yarumela, mesoamerican"],
+    "Region": [
+        "America"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

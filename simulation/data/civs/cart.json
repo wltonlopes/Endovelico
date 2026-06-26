@@ -1,6 +1,7 @@
 {
     "Code": "cart",
-    "Culture": "cart",
+    "Culture":[ "cart"],
+    "Region":["Africa", "Mediterranean"],
     "Music": [
         {
             "File": "Mediterranean_Waves.ogg",

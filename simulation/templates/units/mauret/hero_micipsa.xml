@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_elephant_melee">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>mauret</Civ>
+    <GenericName>Micipsa</GenericName>
+    <Icon>units/pers/hero_cyrus.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauretania/hero_elephantry_m.xml</Actor>
+  </VisualActor>
+</Entity>

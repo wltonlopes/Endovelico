@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Square width="9.0" depth="8.0"/>
+    <Height>12.6</Height>
+  </Footprint>
+  <Identity>
+    <Civ>mauret</Civ>
+    <SpecificName>Kaki</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="8.5" depth="7.5"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.6</HeightOffset>
+  </StatusBars>
+  <WallPiece>
+    <Length>7.0</Length>
+  </WallPiece>
+  <VisualActor>
+    <Actor>structures/mauretania/wall_short.xml</Actor>
+  </VisualActor>
+</Entity>

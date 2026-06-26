@@ -1,6 +1,9 @@
 {
     "Code": "xion",
-    "Culture": "xion",
+    "Culture":[ "xion"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "Hill_of_Sorrows.ogg",

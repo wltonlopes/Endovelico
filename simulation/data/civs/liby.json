@@ -1,7 +1,10 @@
 {
 	"Code": "liby",
 	"Name": "Libyans",
-	"Culture": "Saara",
+	"Culture":[ "Berber" ],
+	"Region": [
+        "Europe"
+    ],
 	"Music":[
 		{ "File": "Mediterranean_Waves.ogg", "Type": "peace" },
 		{ "File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace" },

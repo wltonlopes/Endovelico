@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Numidian Barracks">
+    <variant frequency="1" name="Mauretania Barracks">
       <mesh>structural/mauretania/barracks.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>

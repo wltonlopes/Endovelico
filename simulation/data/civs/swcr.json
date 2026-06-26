@@ -1,6 +1,9 @@
 ﻿{
     "Code": "swcr",
-    "Culture": "Creek",
+    "Culture":[ "Creek"],
+    "Region": [
+        "America"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

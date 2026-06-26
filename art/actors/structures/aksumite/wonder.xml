@@ -6,6 +6,10 @@
       <mesh>structural/axumites/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="flora/trees/palm_date_new.xml" attachpoint="flora_01"/>
+        <prop actor="flora/trees/palm_date_new.xml" attachpoint="flora_02"/>
+        <prop actor="flora/trees/palm_date_new.xml" attachpoint="flora_03"/>
+        <prop actor="flora/trees/palm_date_new.xml" attachpoint="flora_04"/>
       </props>
       <textures>
         <texture file="structural/axum_struct.png" name="baseTex"/>

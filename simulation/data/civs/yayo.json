@@ -1,6 +1,9 @@
 ﻿{
     "Code": "yayo",
-    "Culture": "Japanese",
+    "Culture":[ "Japanese"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

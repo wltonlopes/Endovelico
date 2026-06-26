@@ -1,6 +1,10 @@
 ﻿{
     "Code": "ural",
-    "Culture": "Ugro-fineses",
+    "Culture":[ "Ugro-fineses"],
+    "Region": [
+        "Europe",
+        "Asia"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

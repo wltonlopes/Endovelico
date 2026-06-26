@@ -1,7 +1,7 @@
 ﻿{
 	"Code": "mixt",
-	"Culture": "meso",
-	"Region": "mesoamerica",
+	"Culture":[ "meso"],
+	"Region": ["Mesoamerica"],
 	"Music": [
 		{
 			"File": "Jaws_of_the_Jaguar.ogg",

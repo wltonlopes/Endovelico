@@ -1,7 +1,11 @@
 {
     "Code": "gara",
     "Name": "Garamantians",
-    "Culture": "Saara",
+    "Culture":[ "Berber"],
+    "Region": [
+        "Africa",
+        "Saara"
+    ],
     "Music": [
         {
             "File": "Mediterranean_Waves.ogg",

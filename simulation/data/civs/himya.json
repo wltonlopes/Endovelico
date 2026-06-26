@@ -1,8 +1,11 @@
 {
 	"Code": "himya",
 	"Name": "Himyarite",
-	"Culture": "Arab",
-    "Music": [
+	"Culture":[ "Arab"],
+    "Region": [
+        "Asia"
+    ],
+	"Music": [
         {
             "File": "Helen_Leaves_Sparta.ogg",
             "Type": "peace"

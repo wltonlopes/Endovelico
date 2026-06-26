@@ -1,6 +1,9 @@
 {
     "Code": "sele",
-    "Culture": "sele",
+    "Culture":[ "sele"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "Rise_of_Macedon.ogg",

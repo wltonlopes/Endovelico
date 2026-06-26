@@ -1,6 +1,6 @@
 ﻿{
     "Code": "bedo",
-    "Culture": "Arab",
+    "Culture":[ "Arab"],
     "Music": [
         {
             "File": "red_dawn.ogg",

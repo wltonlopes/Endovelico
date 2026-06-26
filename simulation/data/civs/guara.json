@@ -1,6 +1,10 @@
 ﻿{
     "Code": "guara",
-    "Culture": "Guaranis",
+    "Culture":[ "Guaranis"],
+    "Region": [
+        "America",
+        "Amazonia"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

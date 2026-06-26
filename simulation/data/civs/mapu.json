@@ -1,6 +1,9 @@
 ﻿{
     "Code": "mapu",
-    "Culture": "mapuches",
+    "Culture":[ "mapuches"],
+    "Region": [
+        "America"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

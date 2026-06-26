@@ -1,6 +1,9 @@
 {
     "Code": "mace",
-    "Culture": "hele",
+    "Culture":[ "hele"],
+    "Region": [
+        "Europe"
+    ],
     "Music": [
         {
             "File": "Rise_of_Macedon.ogg",

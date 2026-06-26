@@ -1,6 +1,9 @@
 {
     "Code": "kush",
-    "Culture": "egyptian",
+    "Culture":[ "egyptian", "kushite"],
+    "Region": [
+        "Africa"
+    ],
     "Music": [
         {
             "File": "Ammon-Ra.ogg",

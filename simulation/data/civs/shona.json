@@ -1,6 +1,9 @@
 ﻿{
 	"Code": "shona",
-	"Culture": "shona",
+	"Culture":[ "shona" ],
+	"Region": [
+        "Africa"
+    ],
 	"Music": [
 		{
 			"File": "Ammon-Ra.ogg",

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>mauret</Civ>
+    <GenericName>Mauretania</GenericName>
+    <History> the Mauretania were a North African people known for their skilled cavalry and alliances with both Rome and Carthage. Living in present-day Algeria and Tunisia, they were influential in regional politics and later became part of the Roman Empirea.</History>
+    <Icon>emblems/emblem_mauret.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

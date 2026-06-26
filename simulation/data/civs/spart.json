@@ -1,6 +1,9 @@
 {
     "Code": "spart",
-    "Culture": "hele",
+    "Culture":[ "hele"],
+    "Region": [
+        "Europe"
+    ],
     "Music": [
         {
             "File": "Helen_Leaves_Sparta.ogg",

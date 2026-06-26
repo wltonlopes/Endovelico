@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>mauret</Civ>
+    <GenericName>Barracks</GenericName>
+    <SpecificName>Sikömi nö Nipa</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="21.5" depth="21.5"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <!--<Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_infantry
+    </Technologies>
+  </Researcher>-->
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_pikeman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/infantry_slinger_b
+      units/{civ}/champion_infantry_swordsman
+      units/{civ}/champion_infantry_axeman
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/mauretania/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

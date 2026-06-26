@@ -1,7 +1,7 @@
 ﻿{
     "Code": "azan",
-    "Culture": "azania",
-    "Region":"Africa",
+    "Culture":[ "azania"],
+    "Region":["Africa"],
     "Music": [
         {
             "File": "Ammon-Ra.ogg",

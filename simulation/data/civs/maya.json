@@ -1,6 +1,9 @@
 ﻿{
     "Code": "maya",
-    "Culture": "maya",
+    "Culture":[ "maya"],
+    "Region": [
+        "America"
+    ],
     "Music": [
         {
             "File": "Old New World.ogg",

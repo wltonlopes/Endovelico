@@ -1,6 +1,9 @@
 ﻿{
 	"Code": "macrob",
-	"Culture": "cushithic",
+	"Culture":[ "cushithic" ],
+	"Region": [
+        "Africa"
+    ],
 	"Music": [
 		{
 			"File": "Ammon-Ra.ogg",

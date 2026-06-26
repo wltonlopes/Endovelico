@@ -1,6 +1,9 @@
 ﻿{
     "Code": "malay",
-    "Culture": "malayapura",
+    "Culture":[ "malayapura"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "An_old_Warhorse_goes_to_Pasture.ogg",

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_kush_nuba_painted.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/gara_sword.xml" attachpoint="weapon_R"/>

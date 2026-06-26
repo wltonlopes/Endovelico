@@ -1,6 +1,9 @@
 ﻿{
     "Code": "numi",
-    "Culture": "Numidians",
+    "Culture":[ "Numidians" ],
+    "Region": [
+        "Africa"
+    ],
 	"Music": [
 		{
 			"File": "Mediterranean_Waves.ogg",

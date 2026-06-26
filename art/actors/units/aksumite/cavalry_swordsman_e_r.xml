@@ -9,7 +9,7 @@
         <prop actor="props/units/hairs/afro_aksum_male_all.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/aksumite/aksum_turban_inf.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/sica_sword.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/kush_beja_reinforced_rhino.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/kush_beja_small_rhino.xml" attachpoint="shield_arm"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -20,22 +20,22 @@
  <group>
     <variant frequency="1" name="ir_03_01">
       <textures>
-        <texture file="skeletal/aksum/i_l_01_01.png" name="baseTex"/>
+        <texture file="skeletal/aksum/i_l_03_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_03_02">
       <textures>
-        <texture file="skeletal/aksum/i_l_01_02.png" name="baseTex"/>
+        <texture file="skeletal/aksum/i_l_03_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_03_03">
       <textures>
-        <texture file="skeletal/aksum/i_l_01_03.png" name="baseTex"/>
+        <texture file="skeletal/aksum/i_l_03_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_03_04">
       <textures>
-        <texture file="skeletal/aksum/i_l_01_04.png" name="baseTex"/>
+        <texture file="skeletal/aksum/i_l_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

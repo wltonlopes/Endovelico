@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Numidian Dock">
+    <variant frequency="1" name="Mauretania Dock">
       <mesh>structural/mauretania/dock.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_9x8.xml" attachpoint="root"/>

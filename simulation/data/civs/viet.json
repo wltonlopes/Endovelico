@@ -1,6 +1,9 @@
 ﻿{
     "Code": "viet",
-    "Culture": "vietnamese",
+    "Culture":[ "vietnamese"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

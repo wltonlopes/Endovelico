@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="ship sail">
+      <mesh>structural/macrobian/ship_sail.dae</mesh>
+      <props>
+        <prop actor="props/structures/macrobians/sail_01.xml" attachpoint="sail"/>
+      </props>
+      <textures>
+        <texture file="structural/ship_macrob.png" name="baseTex"/>
+        <texture file="structural/ship_macrob_spec.png" name="specTex"/>
+        <texture file="structural/ship_macrob_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

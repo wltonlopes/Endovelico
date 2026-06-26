@@ -1,6 +1,9 @@
 {
     "Code": "rome",
-    "Culture": "rome",
+    "Culture":[ "rome"],
+    "Region": [
+        "Europe"
+    ],
     "Music": [
         {
             "File": "Juno_Protect_You.ogg",

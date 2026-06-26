@@ -1,7 +1,7 @@
 ﻿{
 	"Code": "zapo",
-	"Culture": "meso",
-	"Region": "mesoamerica",
+	"Culture":[ "meso"],
+	"Region": ["mesoamerica","America"],
 	"Music": [
 		{
 			"File": "Jaws_of_the_Jaguar.ogg",

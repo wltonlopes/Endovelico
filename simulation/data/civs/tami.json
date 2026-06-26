@@ -1,6 +1,9 @@
 ﻿{
 	"Code": "tami",
-	"Culture": "Tamiles",
+	"Culture":[ "Tamiles" ],
+    "Region": [
+        "Asia"
+    ],
 	"Music": [
 		{
 			"File": "An_old_Warhorse_goes_to_Pasture.ogg",

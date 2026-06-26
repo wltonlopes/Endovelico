@@ -1,6 +1,9 @@
 {
     "Code": "moch",
-    "Culture": "Andeanea",
+    "Culture":[ "Andeanea"],
+    "Region": [
+        "America"
+    ],
     "Music": [
         {
             "File": "Old New World.ogg",

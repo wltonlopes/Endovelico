@@ -1,7 +1,7 @@
 ﻿{
     "Code": "aden",
-    "Culture": "Adenas",
-    "Region":"America",
+    "Culture":[ "Adenas" ],
+    "Region":["America"],
     "Music": [
         {
             "File": "red_dawn.ogg",

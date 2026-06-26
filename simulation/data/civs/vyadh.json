@@ -1,6 +1,9 @@
 ﻿{
     "Code": "vyadh",
-    "Culture": "vyadhapura",
+    "Culture":[ "vyadhapura"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "An_old_Warhorse_goes_to_Pasture.ogg",

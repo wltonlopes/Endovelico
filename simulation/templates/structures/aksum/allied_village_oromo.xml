@@ -14,7 +14,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/merc/oromo_infantry_clubman
+      units/aksum/infantry_clubman_oromo
     </Entities>
   </Trainer>
   <VisualActor>

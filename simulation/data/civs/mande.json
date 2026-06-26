@@ -1,6 +1,9 @@
 ﻿{
 	"Code": "mande",
-	"Culture": "mande",
+	"Culture":[ "mande" ],
+    "Region": [
+        "Africa"
+    ],
 	"Music": [
 		{
 			"File": "Ammon-Ra.ogg",

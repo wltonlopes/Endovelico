@@ -1,6 +1,7 @@
 ﻿{
     "Code": "chibc",
-    "Culture": "Chibchas",
+    "Culture":[ "Chibchas"],
+    "Region":["America", "Amazonia"],
     "Music": [
         {
             "File": "red_dawn.ogg",

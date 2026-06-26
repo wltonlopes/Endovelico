@@ -1,7 +1,7 @@
 ﻿{
     "Code": "arme",
-    "Culture": "Armenians",
-    "Region":"Asia",
+    "Culture":[ "Armenians"],
+    "Region":["Asia"],
     "Music": [
 		{
 			"File": "Eastern_Dreams.ogg",

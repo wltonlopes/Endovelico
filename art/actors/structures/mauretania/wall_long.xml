@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Numidian Wall Long">
+    <variant frequency="1" name="Mauretania Wall Long">
       <mesh>structural/mauretania/wall_long.dae</mesh>
       <textures>
         <texture file="structural/mauret/struct.png" name="baseTex"/>

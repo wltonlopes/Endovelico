@@ -4,14 +4,14 @@
   <float/>
   <group>
     <variant frequency="1" name="ship fisher">
-      <mesh>structural/numidians/ship_fishing.dae</mesh>
+      <mesh>structural/Mauretanias/ship_fishing.dae</mesh>
       <textures>
         <texture file="structural/numi/ship_fishing.png" name="baseTex"/>
         <!-- <texture file="structural/ship_macrob_spec.png" name="specTex"/>
         <texture file="structural/ship_macrob_norm.png" name="normTex"/> -->
       </textures>
       <props>
-        <prop actor="units/numidians/fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="units/Mauretanias/fisherman.xml" attachpoint="fisherman"/>
       </props>
     </variant>
   </group>

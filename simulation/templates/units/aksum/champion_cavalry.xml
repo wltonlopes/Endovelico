@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="cataphract|template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>aksum</Civ>
+    <GenericName>Aksumite aristocrat</GenericName>
+    <Icon>units/pers/champion_cavalry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/aksumite/cavalry_axeman_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,72 @@
+﻿{
+    "Code": "mauret",
+    "Culture":[ "Berber" ],
+    "Region": [
+        "Africa"
+    ],
+	"Music": [
+		{
+			"File": "Mediterranean_Waves.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harsh_Lands_Rugged_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Peaks_of_Atlas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "From_Every_Corner.ogg",
+			"Type": "peace"
+		}
+	],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/mauret/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/mauret/civil_centre"
+        },
+        {
+            "Template": "units/mauret/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/mauret/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/mauret/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/mauret/cavalry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/mauret/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Bogud",
+        "Juba II",
+        "Baga",
+        "Bocchus I",
+        "Bocchus II",
+        "Bocchus II",
+        "Ptolemy of Mauretania"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/mauret/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/mauret/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/mauret/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/mauret/cavalry_javelineer_b",
+        "skirmish/units/default_ship_trireme": "units/mauret/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

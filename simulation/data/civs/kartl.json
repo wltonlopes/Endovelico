@@ -1,6 +1,9 @@
 ﻿{
 	"Code": "kartl",
-	"Culture": "kartli",
+	"Culture":[ "kartli"],
+    "Region": [
+        "Europe"
+    ],
 	"Music":[
 		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
 		{ "File": "Sunrise.ogg", "Type": "peace" }

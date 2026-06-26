@@ -1,6 +1,9 @@
 ﻿{
     "Code": "gaet",
-    "Culture": "Gaetuli",
+    "Culture":[ "Berber"],
+    "Region": [
+        "Africa"
+    ],
 	"Music": [
 		{
 			"File": "Mediterranean_Waves.ogg",

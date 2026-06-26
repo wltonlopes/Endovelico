@@ -1,6 +1,6 @@
 ﻿{
 	"Code": "cyre",
-	"Culture": "hellenic",
+	"Culture":[ "hellenic"],
 	"Music": [
 		{
 			"File": "Harvest_Festival.ogg",

@@ -1,7 +1,7 @@
 ﻿{
     "Code": "anura",
-    "Culture": "Anuradhapura",
-    "Region":"Asia",
+    "Culture":[ "Anuradhapura"],
+    "Region":["Asia"],
     "Music": [
         {
             "File": "An_old_Warhorse_goes_to_Pasture.ogg",

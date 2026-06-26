@@ -1,7 +1,10 @@
 {
     "Code": "hasmo",
     "Name": "hasmonean",
-    "Culture": "Judeans",
+    "Culture":[ "Judeans"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "Helen_Leaves_Sparta.ogg",

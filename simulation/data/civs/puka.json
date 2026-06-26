@@ -1,6 +1,9 @@
 {
     "Code": "puka",
-    "Culture": "Andean",
+    "Culture":[ "Andean"],
+    "Region": [
+        "America"
+    ],
     "Music": [
         {
             "File": "Old New World.ogg",

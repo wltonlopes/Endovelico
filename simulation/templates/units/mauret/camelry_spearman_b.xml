@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="camelry|template_unit_cavalry_melee_spearman">
+  <Footprint replace="">
+    <Square width="4" depth="6"/>
+    <Height>7.5</Height>
+  </Footprint>
+  <Identity>
+    <Civ>mauret</Civ>
+    <SelectionGroupName>units/numi/cavalry_spearman</SelectionGroupName>
+   <GenericName>Mauretania  Camelry Spearman</GenericName>
+    <Icon>units/xion/cav_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/mauret/camelry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mauretania/camelry_spearman_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

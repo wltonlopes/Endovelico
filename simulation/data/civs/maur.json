@@ -1,6 +1,9 @@
 {
     "Code": "maur",
-    "Culture": "maur",
+    "Culture":[ "maur"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "An_old_Warhorse_goes_to_Pasture.ogg",

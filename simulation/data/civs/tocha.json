@@ -1,6 +1,9 @@
 ﻿{
 	"Code": "tocha",
-	"Culture": "tocharians",
+	"Culture":[ "tocharians" ],
+	"Region": [
+        "Asia"
+    ],
 	"Music": [
 		{
 			"File": "Harvest_Festival.ogg",

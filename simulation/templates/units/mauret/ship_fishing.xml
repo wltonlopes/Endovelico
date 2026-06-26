@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_fishing">
+  <Identity>
+    <Civ>mauret</Civ>
+    <SpecificName>Ploîon Halieutikón</SpecificName>
+    <Icon>units/hele/ship_fishing.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/numidians/ship_fishing.xml</Actor>
+  </VisualActor>
+</Entity>

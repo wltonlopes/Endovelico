@@ -1,7 +1,7 @@
 ﻿{
     "Code": "arsa",
-    "Culture": "ArsacidS",
-    "Region":"Asia",
+    "Culture":[ "ArsacidS"],
+    "Region":["Asia"],
     "Music": [
 		{
 			"File": "Eastern_Dreams.ogg",

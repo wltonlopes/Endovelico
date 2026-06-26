@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="Base">
-      <mesh>props/helmet/pers_conical_a.dae</mesh>
+      <mesh>props/helmet/nortafric_a.dae</mesh>
        <props>
         <prop actor="props/units/helmets/props/nortafric_prot.xml" attachpoint="root"/>
       </props>

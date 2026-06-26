@@ -1,7 +1,10 @@
 ﻿{
     "Code": "urew",
     "Name": "Urewe",
-    "Culture": "urewe",
+    "Culture":[ "urewe"],
+    "Region": [
+        "Africa"
+    ],
     "Music": [
         {
             "File": "Ammon-Ra.ogg",

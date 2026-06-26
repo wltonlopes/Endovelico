@@ -1,6 +1,9 @@
 ﻿{
     "Code": "hisat",
-    "Culture": "hisatsinom",
+    "Culture":[ "hisatsinom"],
+    "Region": [
+        "Africa"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

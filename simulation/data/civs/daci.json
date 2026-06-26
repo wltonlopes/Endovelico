@@ -1,6 +1,7 @@
 ﻿{
     "Code": "daci",
-    "Culture": "Dacians",
+    "Culture":[ "Dacians"],
+    "Region":["Europe", "Balcans"],
     "Music": [
         {
             "File": "Harvest_Festival.ogg",

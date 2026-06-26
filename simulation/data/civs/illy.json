@@ -1,6 +1,9 @@
 ﻿{
     "Code": "illy",
-    "Culture": "illyrians",
+    "Culture":[ "illyrians"],
+    "Region": [
+        "Europe"
+    ],
     "Music": [
         {
             "File": "Harvest_Festival.ogg",

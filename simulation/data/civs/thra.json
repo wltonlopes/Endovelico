@@ -1,6 +1,9 @@
 ﻿{
     "Code": "thra",
-    "Culture": "thra",
+    "Culture":[ "thra"],
+    "Region": [
+        "Europe"
+    ],
     "Music": [
         {
             "File": "Rise_of_Macedon.ogg",

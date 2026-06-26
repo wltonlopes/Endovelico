@@ -1,6 +1,9 @@
 ﻿{
     "Code": "suva",
-    "Culture": "Mon",
+    "Culture":[ "Mon"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "An_old_Warhorse_goes_to_Pasture.ogg",

@@ -1,6 +1,9 @@
 ﻿{
     "Code": "miny",
-    "Culture": "chinese",
+    "Culture":[ "chinese"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

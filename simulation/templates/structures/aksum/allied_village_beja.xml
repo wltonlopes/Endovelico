@@ -14,7 +14,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/merc/beja_camelry_javelliner
+      units/aksum/camelry_javelineer_beja
     </Entities>
   </Trainer>
   <VisualActor>

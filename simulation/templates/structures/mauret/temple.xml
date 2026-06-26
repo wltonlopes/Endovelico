@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Square width="25.0" depth="25.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>mauret</Civ>
+    <SpecificName>Miya</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="24.5" depth="24.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      traditional_rituals
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_infantry_bellringer
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/mauretania/temple.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

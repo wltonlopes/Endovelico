@@ -1,6 +1,9 @@
 ﻿{
     "Code": "naba",
-    "Culture": "Arab",
+    "Culture":[ "Arab"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

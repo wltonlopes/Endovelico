@@ -1,6 +1,7 @@
 ﻿{
     "Code": "dalm",
-    "Culture": "Dalmatae",
+    "Culture":[ "Dalmatae"],
+    "Region":["Europe", "Balcans"],
     "Music": [
         {
             "File": "Harvest_Festival.ogg",

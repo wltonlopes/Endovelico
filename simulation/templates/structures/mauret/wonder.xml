@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint>
+    <Square depth="49.0" width="44.0"/>
+    <Height>14.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>mauret</Civ>
+    <SpecificName>Ituki nö Miya</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static depth="48.5" width="43.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/mauretania/wonder.xml</Actor>
+    <FoundationActor>structures/fndn_11x11.xml</FoundationActor>
+  </VisualActor>
+</Entity>

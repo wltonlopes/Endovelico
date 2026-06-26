@@ -1,6 +1,9 @@
 ﻿{
     "Code": "pamp",
-    "Culture": "Pampidos",
+    "Culture":[ "Pampidos"],
+    "Region": [
+        "America"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

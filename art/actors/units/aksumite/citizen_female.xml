@@ -6,6 +6,7 @@
       <mesh>skeletal/new/f_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_fem_02.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/aksumite/diadema.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/afro_aksum_female.xml" attachpoint="head"/>
       </props>
     </variant>

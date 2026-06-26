@@ -1,6 +1,9 @@
 ﻿{
     "Code": "khoi",
-    "Culture": "khoi",
+    "Culture":[ "khoi"],
+    "Region": [
+        "Africa"
+    ],
     "Music": [
         {
             "File": "Sands_of_Time.ogg",

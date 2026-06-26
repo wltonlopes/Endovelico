@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Numidian Wall Tower" file="structures/defensive_building.xml">
+    <variant frequency="100" name="Mauretania Wall Tower" file="structures/defensive_building.xml">
       <mesh>structural/mauretania/wall_tower.dae</mesh>
       <textures>
         <texture file="structural/mauret/struct.png" name="baseTex"/>

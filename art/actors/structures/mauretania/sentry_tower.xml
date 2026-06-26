@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Numidian Sentry Tower" file="structures/defensive_building.xml">
+    <variant frequency="1" name="Mauretania Sentry Tower" file="structures/defensive_building.xml">
       <mesh>structural/mauretania/sentry_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>

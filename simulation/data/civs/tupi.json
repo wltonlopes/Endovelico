@@ -1,6 +1,10 @@
 ﻿{
     "Code": "tupi",
-    "Culture": "Tupis",
+    "Culture":[ "Tupis"],
+    "Region": [
+        "America",
+        "Amazonia"
+    ],
     "Music": [
         {
             "File": "red_dawn.ogg",

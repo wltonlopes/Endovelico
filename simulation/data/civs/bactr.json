@@ -1,6 +1,6 @@
 ﻿{
 	"Code": "bactr",
-	"Culture": "helenico",
+	"Culture":[ "helenico"],
 	"Music": [
 		{
 			"File": "Harvest_Festival.ogg",

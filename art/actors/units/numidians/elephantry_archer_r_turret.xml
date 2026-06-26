@@ -20,22 +20,22 @@
   <group>
     <variant frequency="1" name="t_ele_01">
       <textures>
-        <texture file="skeletal/numidians/c_ele_01.png" name="baseTex"/>
+        <texture file="skeletal/numidians/c_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="t_ele_02">
       <textures>
-        <texture file="skeletal/numidians/c_ele_02.png" name="baseTex"/>
+        <texture file="skeletal/numidians/c_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="t_ele_03">
       <textures>
-        <texture file="skeletal/numidians/c_ele_03.png" name="baseTex"/>
+        <texture file="skeletal/numidians/c_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="t_ele_04">
       <textures>
-        <texture file="skeletal/numidians/c_ele_04.png" name="baseTex"/>
+        <texture file="skeletal/numidians/c_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

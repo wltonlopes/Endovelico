@@ -1,6 +1,9 @@
 ﻿{
     "Code": "sao",
-    "Culture": "sao",
+    "Culture":[ "sao"],
+    "Region": [
+        "Asia"
+    ],
     "Music": [
         {
             "File": "Ammon-Ra.ogg",

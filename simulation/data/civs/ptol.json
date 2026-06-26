@@ -1,6 +1,9 @@
 {
     "Code": "ptol",
-    "Culture": "ptol",
+    "Culture":[ "ptol"],
+    "Region": [
+        "Africa"
+    ],
     "Music": [
         {
             "File": "Ammon-Ra.ogg",

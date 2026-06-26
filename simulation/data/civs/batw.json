@@ -1,6 +1,7 @@
 ﻿{
     "Code": "batw",
-    "Culture": "Batwa",
+    "Culture":[ "Batwa"],
+    "Region":["Africa"],
     "Music": [
         {
             "File": "red_dawn.ogg",

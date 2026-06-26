@@ -1,6 +1,9 @@
 {
     "Code": "lusi",
-    "Culture": "Lusitani",
+    "Culture":[ "Lusitani"],
+    "Region": [
+        "Europe"
+    ],
     "Music": [
         {
             "File": "An_old_Warhorse_goes_to_Pasture.ogg",
