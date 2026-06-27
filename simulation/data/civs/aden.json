@@ -62,5 +62,5 @@
         "skirmish/units/special_starting_unit": "units/aden/support_civilian",
         "skirmish/units/default_ship_trireme": "units/aden/ship_bireme"
     },
-    "SelectableInGameSetup": true
+    "SelectableInGameSetup": false
 }

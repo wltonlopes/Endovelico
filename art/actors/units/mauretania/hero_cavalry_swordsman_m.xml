@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/horse_persian.dae</mesh>
       <props>
-        <prop actor="units/mauretania/hero_cavalry_spearman_r.xml" attachpoint="rider"/>
+        <prop actor="units/mauretania/hero_cavalry_swordsman_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_peytral_sele.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_kart.xml" attachpoint="root"/>
       </props>
@@ -27,3 +27,4 @@
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>
+

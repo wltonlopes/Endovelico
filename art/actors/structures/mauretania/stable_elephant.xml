@@ -6,10 +6,9 @@
       <mesh>structural/mauretania/stable_elephant.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
-        <!-- <prop actor="props/structures/Mauretanias/stable_elephant_water.xml" attachpoint="root"/>
-        <prop actor="fauna/elephant_african_forest.xml" attachpoint="elephant_01" maxheight="20" minheight="-20"/>
-        <prop actor="fauna/elephant_african_forest.xml" attachpoint="elephant_02" maxheight="20" minheight="-20"/>
-        <prop actor="fauna/elephant_african_forest.xml" attachpoint="elephant_03" maxheight="20" minheight="-20"/> -->
+          <prop actor="fauna/elephant_african_forest.xml" attachpoint="elephant_01" maxheight="20" minheight="-20"/>
+          <prop actor="fauna/elephant_african_forest.xml" attachpoint="elephant_02" maxheight="20" minheight="-20"/>
+          <prop actor="fauna/elephant_african_forest.xml" attachpoint="elephant_03" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/mauret/struct.png" name="baseTex"/>

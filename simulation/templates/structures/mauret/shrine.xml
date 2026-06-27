@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_embassy">
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <Cost>
     <Resources>
       <wood>100</wood>
@@ -14,13 +11,13 @@
     <Height>12.0</Height>
   </Footprint>
   <Health>
-    <Max>1000</Max>
+    <Max>800</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>mauret</Civ>
-    <GenericName>Berber Camp</GenericName>
-    <Tooltip>Train Berber Mercenaries.</Tooltip>
+    <GenericName>Shrine</GenericName>
+    <Tooltip>Shrine.</Tooltip>
     <Classes datatype="tokens">CivSpecific</Classes>
     <Icon>structures/mercenary_camp.png</Icon>
   </Identity>
@@ -31,17 +28,8 @@
   <Obstruction>
     <Static width="27.5" depth="27.5"/>
   </Obstruction>
-  <TerritoryDecay>
-    <DecayRate>1</DecayRate>
-  </TerritoryDecay>
-  <TerritoryInfluence disable=""/>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{native}/cavalry_javelineer_merc_b
-    </Entities>
-  </Trainer>
   <VisualActor>
-    <Actor>structures/mercenaries/camp_berber.xml</Actor>
+    <Actor>structures/mauretania/shrine.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

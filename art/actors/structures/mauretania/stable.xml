@@ -6,10 +6,8 @@
       <mesh>structural/mauretania/stable.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
-        <!-- <prop actor="props/structures/Mauretanias/stable_water.xml" attachpoint="root"/>
-        <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="horse_01"/>
-        <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="horse_02"/>
-        <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse_03"/> -->
+        <prop actor="props/structures/iberians/stable_horse_b.xml" attachpoint="horse_01"/>
+        <prop actor="props/structures/iberians/stable_horse_a.xml" attachpoint="horse_02"/>
       </props>
       <textures>
         <texture file="structural/mauret/struct.png" name="baseTex"/>

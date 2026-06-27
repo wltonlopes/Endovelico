@@ -5,31 +5,21 @@
       <author>Blender User</author>
       <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
     </contributor>
-    <created>2026-04-01T20:09:03</created>
-    <modified>2026-04-01T20:09:03</modified>
+    <created>2026-06-27T18:31:33</created>
+    <modified>2026-06-27T18:31:33</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
     <effect id="Materiais_002-effect">
       <profile_COMMON>
-        <newparam sid="prop_copper_png-surface">
-          <surface type="2D">
-            <init_from>prop_copper_png</init_from>
-          </surface>
-        </newparam>
-        <newparam sid="prop_copper_png-sampler">
-          <sampler2D>
-            <source>prop_copper_png-surface</source>
-          </sampler2D>
-        </newparam>
         <technique sid="common">
           <lambert>
             <emission>
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="prop_copper_png-sampler" texcoord="Cilindro_003-mesh-map-0"/>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -39,11 +29,7 @@
       </profile_COMMON>
     </effect>
   </library_effects>
-  <library_images>
-    <image id="prop_copper_png" name="prop_copper_png">
-      <init_from>/home/welton/Downloads/prop_copper.png</init_from>
-    </image>
-  </library_images>
+  <library_images/>
   <library_materials>
     <material id="Materiais_002-material" name="Materiais.002">
       <instance_effect url="#Materiais_002-effect"/>
@@ -53,7 +39,7 @@
     <geometry id="Cilindro_004-mesh" name="Cilindro.004">
       <mesh>
         <source id="Cilindro_004-mesh-positions">
-          <float_array id="Cilindro_004-mesh-positions-array" count="72">-0.02129524 -0.05491924 0.1825342 0.02129518 -0.05491924 0.1825342 -0.02129518 0.05491924 0.1825342 0.02129518 0.05491924 0.1825342 -0.02129524 -0.05491924 0.143055 0.02129518 -0.05491924 0.143055 -0.02129518 0.05491924 0.143055 0.02129518 0.05491924 0.143055 -0.01320445 -0.02672237 0.1576093 0.01320445 -0.02672237 0.1576093 -0.01320445 0.02672237 0.1576093 0.01320439 0.02672237 0.1576093 -0.01320445 -0.02672243 -0.08303481 0.01320445 -0.02672243 -0.08303481 -0.01320445 0.02672237 -0.08303481 0.01320439 0.02672237 -0.08303481 -0.01604586 -0.04550546 -0.06964409 0.01604586 -0.0455054 -0.06964409 -0.01604586 0.04550534 -0.06964409 0.01604586 0.0455054 -0.06964409 -0.01604586 -0.04550546 -0.1324821 0.01604586 -0.04550546 -0.1324821 -0.01604586 0.04550534 -0.1324821 0.01604586 0.0455054 -0.1324821</float_array>
+          <float_array id="Cilindro_004-mesh-positions-array" count="72">0.04418414 0.09419554 0.2214654 -0.04418402 0.09419554 0.2214654 0.04418402 -0.1002823 0.2214654 -0.04418402 -0.1002823 0.2214654 0.04418414 0.09419554 0.1735661 -0.04418402 0.09419554 0.1735661 0.04418402 -0.1002823 0.1735661 -0.04418402 -0.1002823 0.1735661 0.02739709 0.04427069 0.1912245 -0.02739703 0.04427069 0.1912245 0.02739703 -0.05035746 0.1912245 -0.02739697 -0.05035746 0.1912245 0.02739709 0.04427081 -0.1007446 -0.02739703 0.04427081 -0.1007446 0.02739703 -0.05035746 -0.1007446 -0.02739697 -0.05035746 -0.1007446 0.03329253 0.0775277 -0.08449786 -0.03329253 0.07752758 -0.08449786 0.03329253 -0.08361428 -0.08449786 -0.03329253 -0.08361434 -0.08449786 0.03329253 0.0775277 -0.1607381 -0.03329253 0.0775277 -0.1607381 0.03329253 -0.08361428 -0.1607381 -0.03329253 -0.08361434 -0.1607381</float_array>
           <technique_common>
             <accessor source="#Cilindro_004-mesh-positions-array" count="24" stride="3">
               <param name="X" type="float"/>
@@ -63,9 +49,9 @@
           </technique_common>
         </source>
         <source id="Cilindro_004-mesh-normals">
-          <float_array id="Cilindro_004-mesh-normals-array" count="81">0 0 1 3.6653e-7 0 1 -7.96329e-7 0 -1 4.5347e-7 0 -1 -3.49871e-7 1 0 -1 2.14772e-7 0 1 1.87926e-7 0 2.62403e-7 -1 0 -4.37339e-7 1 0 -1 1.87926e-7 0 1 2.14772e-7 0 4.37338e-7 -1 2.76943e-7 4.23185e-7 -1 0 -4.23186e-7 1 0 -1 4.34481e-7 0 1 2.53447e-7 0 -0.5773556 -0.5773395 0.5773558 0.5773684 -0.5773563 0.5773262 -0.5773684 0.5773563 0.5773262 0.5773555 0.5773396 0.5773558 -0.5773577 -0.5773467 -0.5773465 -0.5773662 0.577349 -0.5773355 0.5773661 -0.5773492 -0.5773355 0.5773577 0.5773466 -0.5773466 2.82123e-7 -1 0 -1 3.98274e-7 0 1 2.1724e-7 0</float_array>
+          <float_array id="Cilindro_004-mesh-normals-array" count="150">-4.33535e-7 0 1 -2.1155e-7 0 1 1.62068e-7 0 1 3.84052e-7 0 1 0 0 -1 0 0 -1 0 0 -1 1.32547e-7 0 -1 -1.68626e-7 -1 0 -1.68626e-7 -1 0 1 -7.99815e-7 0 1 -7.99815e-7 0 -1 1.49965e-7 0 1.68626e-7 1 0 1.68626e-7 1 0 1.35974e-7 1 3.74955e-7 1.35974e-7 1 3.52722e-7 1.35974e-7 1 3.78392e-7 -1.35974e-7 -1 0 1 -1.88802e-7 0 1 -1.48285e-7 0 1 -2.02252e-7 0 -1 -1.1461e-6 0 -1 -1.1461e-6 0 -1 -1.1461e-6 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 -1 1.24373e-7 0 -1 1.4095e-7 0 -1 1.51613e-7 0 -6.26787e-7 1 7.96897e-7 -4.92169e-7 1 6.70775e-7 -1.34275e-6 1 1.46767e-6 1.34275e-6 -1 0 1.34275e-6 -1 0 1.34275e-6 -1 0 1 -1.24373e-7 0 1 -1.4095e-7 0 1 -1.51613e-7 0 1.35974e-7 1 3.49285e-7 1 -1.34835e-7 0 -1 -1.1461e-6 0 -1 0 0 2.23791e-7 1 0 1 0 0</float_array>
           <technique_common>
-            <accessor source="#Cilindro_004-mesh-normals-array" count="27" stride="3">
+            <accessor source="#Cilindro_004-mesh-normals-array" count="50" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
@@ -100,7 +86,7 @@
           <input semantic="NORMAL" source="#Cilindro_004-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cilindro_004-mesh-map-0" offset="2" set="0"/>
           <input semantic="COLOR" source="#Cilindro_004-mesh-colors-Col" offset="3" set="0"/>
-          <p>0 0 0 0 1 0 1 1 2 0 2 2 1 1 3 3 3 1 4 4 2 1 5 5 4 2 6 6 6 2 7 7 5 2 8 8 5 3 9 9 6 3 10 10 7 3 11 11 3 4 12 12 6 4 13 13 2 4 14 14 2 5 15 15 4 5 16 16 0 5 17 17 1 6 18 18 7 6 19 19 3 6 20 20 0 7 21 21 5 7 22 22 1 7 23 23 3 8 24 24 7 8 25 25 6 8 26 26 2 9 27 27 6 9 28 28 4 9 29 29 1 10 30 30 5 10 31 31 7 10 32 32 0 11 33 33 4 11 34 34 5 11 35 35 8 12 36 36 13 12 37 37 9 12 38 38 11 13 39 39 14 13 40 40 10 13 41 41 10 14 42 42 12 14 43 43 8 14 44 44 9 15 45 45 15 15 46 46 11 15 47 47 16 16 48 48 17 17 49 49 18 18 50 50 17 17 51 51 19 19 52 52 18 18 53 53 20 20 54 54 22 21 55 55 21 22 56 56 21 22 57 57 22 21 58 58 23 23 59 59 17 17 60 60 23 23 61 61 19 19 62 62 16 16 63 63 21 22 64 64 17 17 65 65 19 19 66 66 22 21 67 67 18 18 68 68 18 18 69 69 20 20 70 70 16 16 71 71 8 24 72 72 12 24 73 73 13 24 74 74 11 13 75 75 15 13 76 76 14 13 77 77 10 25 78 78 14 25 79 79 12 25 80 80 9 26 81 81 13 26 82 82 15 26 83 83 17 17 84 84 21 22 85 85 23 23 86 86 16 16 87 87 20 20 88 88 21 22 89 89 19 19 90 90 23 23 91 91 22 21 92 92 18 18 93 93 22 21 94 94 20 20 95 95</p>
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 3 3 3 3 4 4 2 2 5 5 4 4 6 6 6 5 7 7 5 6 8 8 5 6 9 9 6 5 10 10 7 7 11 11 3 8 12 12 6 8 13 13 2 9 14 14 2 10 15 15 4 10 16 16 0 11 17 17 1 12 18 18 7 12 19 19 3 12 20 20 0 13 21 21 5 13 22 22 1 14 23 23 3 8 24 24 7 9 25 25 6 8 26 26 2 10 27 27 6 11 28 28 4 10 29 29 1 12 30 30 5 12 31 31 7 12 32 32 0 13 33 33 4 14 34 34 5 13 35 35 8 15 36 36 13 16 37 37 9 17 38 38 11 18 39 39 14 18 40 40 10 18 41 41 10 19 42 42 12 20 43 43 8 21 44 44 9 22 45 45 15 23 46 46 11 24 47 47 16 25 48 48 17 26 49 49 18 27 50 50 17 26 51 51 19 28 52 52 18 27 53 53 20 4 54 54 22 29 55 55 21 30 56 56 21 30 57 57 22 29 58 58 23 31 59 59 17 32 60 60 23 33 61 61 19 34 62 62 16 35 63 63 21 36 64 64 17 37 65 65 19 38 66 66 22 39 67 67 18 40 68 68 18 41 69 69 20 42 70 70 16 43 71 71 8 15 72 72 12 44 73 73 13 16 74 74 11 18 75 75 15 18 76 76 14 18 77 77 10 19 78 78 14 45 79 79 12 20 80 80 9 22 81 81 13 46 82 82 15 23 83 83 17 32 84 84 21 47 85 85 23 33 86 86 16 35 87 87 20 48 88 88 21 36 89 89 19 38 90 90 23 39 91 91 22 39 92 92 18 41 93 93 22 49 94 94 20 42 95 95</p>
         </triangles>
       </mesh>
     </geometry>
@@ -108,18 +94,18 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Cilindro_001_001_003" name="Cilindro_001_001.003" type="NODE">
-        <matrix sid="transform">-2.074838 -2.6735e-7 0 0 3.13292e-7 -1.770581 0 -0.003043383 0 0 1.213282 0 0 0 0 1</matrix>
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Cilindro_004-mesh" name="Cilindro_001_001.003">
           <bind_material>
             <technique_common>
               <instance_material symbol="Materiais_002-material" target="#Materiais_002-material">
-                <bind_vertex_input semantic="Cilindro_003-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Cilindro_004-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
             </technique_common>
           </bind_material>
         </instance_geometry>
         <node id="prop_blade" name="prop_blade" type="NODE">
-          <matrix sid="transform">-0.4819655 7.27747e-8 0 2.21481e-10 -8.52804e-8 -0.5647864 0 -0.001718861 0 0 0.8242107 0.1617858 0 0 0 1</matrix>
+          <matrix sid="transform">1 -1.90247e-9 0 7.77156e-16 1.90247e-9 1 0 -4.65661e-10 0 0 1 0.1962918 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

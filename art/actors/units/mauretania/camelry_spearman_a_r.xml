@@ -16,24 +16,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="c_02_01">
+    <variant frequency="1" name="robes_04_01">
       <textures>
-        <texture file="skeletal/mauretania/c_02_01.png" name="baseTex"/>
+        <texture file="skeletal/mauretania/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="c_02_02">
+    <variant frequency="1" name="i_l_01_02">
       <textures>
-        <texture file="skeletal/mauretania/c_02_02.png" name="baseTex"/>
+        <texture file="skeletal/mauretania/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="c_02_03">
+    <variant frequency="1" name="i_l_01_03">
       <textures>
-        <texture file="skeletal/mauretania/c_02_03.png" name="baseTex"/>
+        <texture file="skeletal/mauretania/i_l_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="c_02_04">
+    <variant frequency="1" name="i_l_01_04">
       <textures>
-        <texture file="skeletal/mauretania/c_02_04.png" name="baseTex"/>
+        <texture file="skeletal/mauretania/i_l_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
