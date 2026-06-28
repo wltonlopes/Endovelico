@@ -4,7 +4,7 @@
     <Civ>naba</Civ>
     <GenericName>Nabataean Kingdom</GenericName>
     <History></History>
-    <Icon>emblems/nabateans.png</Icon>
+    <Icon>emblems/emblem_nabateans.png</Icon>
   </Identity>
     <Player>
     <Formations datatype="tokens">
