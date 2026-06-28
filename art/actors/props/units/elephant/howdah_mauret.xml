@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/elephant/howdah_01.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Carthaginian elephant champion howdah gray">
+      <props>
+        <prop actor="props/units/shields/numidian_round_3.xml" attachpoint="shield1"/>
+        <prop actor="props/units/shields/numidian_round_3.xml" attachpoint="shield2"/>
+      </props>
+      <textures>
+        <texture file="structural/mauret/howdah_a.png" name="baseTex"/>
+        <texture file="props/ptol_howdah_a_norm.png" name="normTex"/>
+        <texture file="props/ptol_howdah_a_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Carthaginian elephant champion howdah white 2">
+      <props>
+        <prop actor="props/units/shields/numidian_round_1.xml" attachpoint="shield1"/>
+        <prop actor="props/units/shields/numidian_round_2.xml" attachpoint="shield2"/>
+      </props>
+      <textures>
+        <texture file="structural/mauret/howdah_a.png" name="baseTex"/>
+        <texture file="props/ptol_howdah_a_norm.png" name="normTex"/>
+        <texture file="props/ptol_howdah_a_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

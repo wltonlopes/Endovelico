@@ -2,10 +2,10 @@
 <Entity parent="elephant_african|template_unit_champion_elephant_melee">
   <Identity>
     <Civ>mauret</Civ>
-    <GenericName>North African War Elephant</GenericName>
+    <GenericName>North African War Elephant Toweret</GenericName>
     <Icon>units/cart/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mauretania/elephantry_c_m.xml</Actor>
+    <Actor>units/mauretania/elephantry_archer_r.xml</Actor>
   </VisualActor>
 </Entity>

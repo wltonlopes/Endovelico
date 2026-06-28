@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
     </contributor>
-    <created>2026-06-27T20:26:08</created>
-    <modified>2026-06-27T20:26:08</modified>
+    <created>2026-06-27T20:47:11</created>
+    <modified>2026-06-27T20:47:11</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -107,7 +107,7 @@
           <matrix sid="transform">1 0 0 -0.1189733 0 1 0 -1.839745 0 0 1 1.531084 0 0 0 1</matrix>
         </node>
         <node id="prop_fire" name="prop_fire" type="NODE">
-          <matrix sid="transform">1 0 0 -0.022442 0 1 0 0.04230531 0 0 1 1.531084 0 0 0 1</matrix>
+          <matrix sid="transform">1 0 0 -0.022442 0 1 0 0.04230531 0 0 1 2.990541 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

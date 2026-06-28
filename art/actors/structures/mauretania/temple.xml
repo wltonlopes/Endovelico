@@ -6,8 +6,8 @@
       <mesh>structural/mauretania/temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
-        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
-        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="flora/trees/palm_date_new.xml" attachpoint="flora_01"/>
+        <prop actor="flora/trees/palm_date_new.xml" attachpoint="flora_02"/>
       </props>
       <textures>
         <texture file="structural/mauret/struct.png" name="baseTex"/>

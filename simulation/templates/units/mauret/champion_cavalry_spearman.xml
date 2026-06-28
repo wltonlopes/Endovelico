@@ -13,6 +13,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/mauretania/cavalry_spearman_c2_m.xml</Actor>
+    <Actor>units/mauretania/champion_cavalry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

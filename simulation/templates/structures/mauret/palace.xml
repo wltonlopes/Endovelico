@@ -52,10 +52,9 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_swordsman
-      units/{civ}/champion_cavalry
-      units/{civ}/champion_cavalry_spearman
-      units/{civ}/champion_chariot
-      units/{civ}/champion_elephant
+      units/{civ}/hero_baga
+      units/{civ}/hero_bocchus
+      units/{civ}/hero_mastanesosus
     </Entities>
   </Trainer>
   <Vision>
