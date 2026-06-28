@@ -5,7 +5,8 @@
     <variant file="biped/trunk_operator_right.xml" frequency="1" name="relax">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_kush_nuba_painted.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

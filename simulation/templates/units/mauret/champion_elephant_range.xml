@@ -6,6 +6,6 @@
     <Icon>units/cart/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mauretania/elephantry_archer_r.xml</Actor>
+    <Actor>units/mauretania/elephantry_archer_m.xml</Actor>
   </VisualActor>
 </Entity>

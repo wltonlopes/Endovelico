@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_cavalry_ranged_javelineer">
+  <Identity>
+    <Civ>sao</Civ>
+    <SelectionGroupName>units/sao/heavy_infantry</SelectionGroupName>
+    <GenericName>Heavy Slinger Warrior</GenericName>
+    <SpecificName>Liwiq</SpecificName>
+    <Icon>units/moch/infantry_scout.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/sao/heavy_infantry_slinger.xml</Actor>
+  </VisualActor>
+</Entity>

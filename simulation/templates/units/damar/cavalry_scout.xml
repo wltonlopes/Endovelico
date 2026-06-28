@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_mount_swordsman">
+  <Identity>
+    <Civ>sao</Civ>
+    <SpecificName>Sao Scout</SpecificName>
+    <GenericName>Scout Cavalry Swordsman</GenericName>
+    <Icon>units/kush/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/sao/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

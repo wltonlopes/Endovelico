@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>sao</Civ>
+    <GenericName>War King</GenericName>
+    <Icon>units/pers/hero_cyrus.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/sao/hero_cavalry_swordsman_m.xml</Actor>
+  </VisualActor>
+</Entity>

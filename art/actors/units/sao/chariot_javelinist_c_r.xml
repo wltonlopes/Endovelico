@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant file="biped/base_archer_chariot_ready.xml">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+        <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="charriot_01">
+      <textures>
+        <texture file="skeletal/sao/c_c_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="charriot_02">
+      <textures>
+        <texture file="skeletal/sao/c_c_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="charriot_03">
+      <textures>
+        <texture file="skeletal/sao/c_c_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="charriot_04">
+      <textures>
+        <texture file="skeletal/sao/c_c_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_javelinist.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
