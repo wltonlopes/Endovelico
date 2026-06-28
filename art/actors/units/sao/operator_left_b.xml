@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/trunk_operator_left.xml" frequency="1" name="relax">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_kush_nuba_painted.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ir_01_01">
+      <textures>
+        <texture file="skeletal/sao/i_sieg_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_02">
+      <textures>
+        <texture file="skeletal/sao/i_sieg_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_03">
+      <textures>
+        <texture file="skeletal/sao/i_sieg_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_04">
+      <textures>
+        <texture file="skeletal/sao/i_sieg_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

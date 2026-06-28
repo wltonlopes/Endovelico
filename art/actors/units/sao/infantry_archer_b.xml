@@ -2,44 +2,41 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_archer_ready.xml">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+    <variant frequency="3" name="Coif">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_lenca_elite.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="weapon_bow"/>
-        <prop actor="props/units/kush_quiver_hip.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="a">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+    <variant frequency="1" name="ir_01_01">
       <textures>
-        <texture file="skeletal/south_america/naked_01_01.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+        <texture file="skeletal/sao/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="b">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+    <variant frequency="1" name="ir_01_02">
       <textures>
-        <texture file="skeletal/south_america/naked_01_01.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+        <texture file="skeletal/sao/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="c">
-      <mesh>skeletal/new/m_naked.dae</mesh>
+    <variant frequency="1" name="ir_01_03">
       <textures>
-        <texture file="skeletal/south_america/naked_01_01.png" name="baseTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="skeletal/south_america/naked_01_01_spec.png" name="specTex"/>
+        <texture file="skeletal/sao/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_04">
+      <textures>
+        <texture file="skeletal/sao/i_l_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_archer_relax.xml"/>
+    <variant file="biped/base_archer_ready.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -56,12 +53,13 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_archer_hip.xml"/>
     <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/attack_ranged_archer.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
     <variant file="biped/gather_grain.xml"/>
-    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_fruit.xml">
+    </variant>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/gather_rock.xml"/>
     <variant file="biped/gather_ore.xml"/>
@@ -69,7 +67,8 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/death_infantry.xml">
+    </variant>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

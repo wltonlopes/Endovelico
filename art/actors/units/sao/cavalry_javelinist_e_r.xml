@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>   
+        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
       </props>
       <textures>
@@ -17,24 +17,24 @@
   </group>
 
     <group>
-    <variant frequency="1" name="ir_01_01">
+    <variant frequency="1" name="ir_03_01">
       <textures>
-        <texture file="skeletal/sao/i_l_01_01.png" name="baseTex"/>
+        <texture file="skeletal/sao/i_l_03_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="ir_01_02">
+    <variant frequency="1" name="ir_03_02">
       <textures>
-        <texture file="skeletal/sao/i_l_01_02.png" name="baseTex"/>
+        <texture file="skeletal/sao/i_l_03_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="ir_01_03">
+    <variant frequency="1" name="ir_03_03">
       <textures>
-        <texture file="skeletal/sao/i_l_01_03.png" name="baseTex"/>
+        <texture file="skeletal/sao/i_l_03_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="ir_01_04">
+    <variant frequency="1" name="ir_03_04">
       <textures>
-        <texture file="skeletal/sao/i_l_01_04.png" name="baseTex"/>
+        <texture file="skeletal/sao/i_l_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

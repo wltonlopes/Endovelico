@@ -5,40 +5,34 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/libian_dread_hair.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>
       </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Gara-Tunic-01-01">
-      <textures>
-        <texture file="skeletal/gara/tunic_light_gara_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-01-02">
-      <textures>
-        <texture file="skeletal/gara/tunic_light_gara_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-01-03">
-      <textures>
-        <texture file="skeletal/gara/tunic_light_gara_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="numidian-shield">
-      <props>
-        <prop actor="props/units/shields/gara_round_large_01_cow.xml" attachpoint="shield"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ir_01_01">
+      <textures>
+        <texture file="skeletal/sao/i_l_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_02">
+      <textures>
+        <texture file="skeletal/sao/i_l_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_03">
+      <textures>
+        <texture file="skeletal/sao/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_04">
+      <textures>
+        <texture file="skeletal/sao/i_l_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
