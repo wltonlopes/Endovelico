@@ -22,6 +22,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/infantry_spearman_c2.xml</Actor>
+    <Actor>units/achaemenids/infantry_spearman_c2.xml</Actor>
   </VisualActor>
 </Entity>

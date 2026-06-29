@@ -15,6 +15,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/chariot_archer_e_m.xml</Actor>
+    <Actor>units/achaemenids/chariot_archer_e_m.xml</Actor>
   </VisualActor>
 </Entity>

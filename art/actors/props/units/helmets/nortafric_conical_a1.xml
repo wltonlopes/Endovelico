@@ -17,8 +17,8 @@
       <mesh>props/helmet/nortafric_a.dae</mesh>
       <textures>
         <texture file="props/helmet/nortafric_conical_01_bronze.png" name="baseTex"/>
-        <texture file="props/helmet/pers_conical_01_norm.png" name="normTex"/>
-        <texture file="props/helmet/pers_conical_01_bronze_spec.png" name="specTex"/>
+        <texture file="props/helmet/achae_conical_01_norm.png" name="normTex"/>
+        <texture file="props/helmet/achae_conical_01_bronze_spec.png" name="specTex"/>
       </textures>
       <props>
         <prop actor="props/units/helmets/props/nortafric_dec.xml" attachpoint="root"/>

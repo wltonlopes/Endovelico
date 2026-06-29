@@ -14,8 +14,8 @@
     <image id="maur_isw_b_png_001" name="maur_isw_b_png_001">
       <init_from>maur_isw_b.png.001.png</init_from>
     </image>
-    <image id="pers_champ_cav_r_2_png" name="pers_champ_cav_r_2_png">
-      <init_from>pers_champ_cav_r_2.png</init_from>
+    <image id="achae_champ_cav_r_2_png" name="achae_champ_cav_r_2_png">
+      <init_from>achae_champ_cav_r_2.png</init_from>
     </image>
     <image id="mace_hero_craterus_png_000" name="mace_hero_craterus_png_000">
       <init_from>mace_hero_craterus.png.000.png</init_from>
@@ -26,8 +26,8 @@
     <image id="ptol_healer_png" name="ptol_healer_png">
       <init_from>ptol_healer.png</init_from>
     </image>
-    <image id="pers_car_b_r_png" name="pers_car_b_r_png">
-      <init_from>pers_car_b_r.png</init_from>
+    <image id="achae_car_b_r_png" name="achae_car_b_r_png">
+      <init_from>achae_car_b_r.png</init_from>
     </image>
     <image id="maur_isw_b_png_002" name="maur_isw_b_png_002">
       <init_from>maur_isw_b.png.002.png</init_from>

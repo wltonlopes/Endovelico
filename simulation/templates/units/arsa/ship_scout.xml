@@ -11,6 +11,6 @@
     <Icon>units/pers/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/persians/bireme_scout.xml</Actor>
+    <Actor>structures/achaemenids/bireme_scout.xml</Actor>
   </VisualActor>
 </Entity>

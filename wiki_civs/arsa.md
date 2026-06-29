@@ -198,7 +198,7 @@ The Parthian Empire, also known as the Arsacid Empire, was a major Iranian polit
 **Nome genérico:** Persian Catafalque
 
 **Auras:**
-- units/catafalques/pers_catafalque
+- units/catafalques/achae_catafalque
 
 ### Aršak
 **Nome genérico:** Arsaces

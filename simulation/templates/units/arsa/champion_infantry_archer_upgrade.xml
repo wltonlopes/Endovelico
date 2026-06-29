@@ -42,6 +42,6 @@
     <WalkSpeed op="mul">0.88</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/persians/infantry_archer_c.xml</Actor>
+    <Actor>units/achaemenids/infantry_archer_c.xml</Actor>
   </VisualActor>
 </Entity>

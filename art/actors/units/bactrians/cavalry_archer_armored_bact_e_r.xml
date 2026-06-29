@@ -5,9 +5,9 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_achae_a.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
-        <prop actor="props/units/pers_quiver_hip.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/achae_quiver_hip.xml" attachpoint="sheath_L"/>
 		<prop actor="props/units/shields/iberian_buckler_elite.xml" attachpoint="shield_arm"/>
       </props>
       <textures>
@@ -40,7 +40,7 @@
     </variant>
 	<variant frequency="1" name="Conical">
       <props>
-       <prop actor="props/units/helmets/pers_conical_a1.xml" attachpoint="helmet"/>
+       <prop actor="props/units/helmets/achae_conical_a1.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

@@ -8,6 +8,6 @@
     <Icon>units/pers/kardakes.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/infantry_spearman_c3.xml</Actor>
+    <Actor>units/achaemenids/infantry_spearman_c3.xml</Actor>
   </VisualActor>
 </Entity>

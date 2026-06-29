@@ -7,7 +7,7 @@
       <props>
         <prop actor="units/bactrians/hero_cavalry_archer_menader_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_peytral_pers_iron.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_peytral_achae_iron.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

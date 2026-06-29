@@ -7,7 +7,7 @@
       <props>
         <prop actor="units/armenia/cavalry_spearman_e_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_peytral_pers_bronze.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_peytral_achae_bronze.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_blanket_pers.xml" attachpoint="root"/>
       </props>
     </variant>

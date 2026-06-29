@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/helmets/arab_helmet_basic.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/arab_coif_archer_ready_e.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_achae_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
@@ -17,7 +17,7 @@
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/arab_helmet_basic.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_achae_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>

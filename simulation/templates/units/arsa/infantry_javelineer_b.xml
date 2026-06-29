@@ -15,6 +15,6 @@
     <Entity>units/arsa/infantry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/infantry_javelinist_b.xml</Actor>
+    <Actor>units/achaemenids/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

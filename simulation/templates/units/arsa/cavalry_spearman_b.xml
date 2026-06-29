@@ -15,6 +15,6 @@
     <Entity>units/arsa/cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/cavalry_spearman_b_m.xml</Actor>
+    <Actor>units/achaemenids/cavalry_spearman_b_m.xml</Actor>
   </VisualActor>
 </Entity>

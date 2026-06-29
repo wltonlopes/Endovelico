@@ -12,6 +12,6 @@
     <Entity>units/arsa/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/infantry_archer_b.xml</Actor>
+    <Actor>units/achaemenids/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_pers_dock</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_achae_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>bedo</Civ>
@@ -15,6 +15,6 @@
     <Static width="23.0" depth="15.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/persians/dock.xml</Actor>
+    <Actor>structures/achaemenids/dock.xml</Actor>
   </VisualActor>
 </Entity>

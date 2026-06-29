@@ -13,9 +13,9 @@
         <animation file="mechanical/chariot_death.dae" name="Death" id="death2" speed="100"/>
         <animation file="mechanical/chariot_idle.dae" name="attack_ranged" speed="80"/>
       </animations>
-      <mesh>structural/pers_chariot_e.dae</mesh>
+      <mesh>structural/achae_chariot_e.dae</mesh>
       <props>
-        <prop actor="props/units/pers_chariot_e_emblem.xml" attachpoint="root"/>
+        <prop actor="props/units/achae_chariot_e_emblem.xml" attachpoint="root"/>
         <prop actor="units/armenia/chariot_archer_e_h1.xml" attachpoint="horse1"/>
         <prop actor="units/armenia/chariot_archer_e_h2.xml" attachpoint="horse2"/>
         <prop actor="units/armenia/chariot_archer_e_h3.xml" attachpoint="horse3"/>
@@ -24,7 +24,7 @@
         <prop actor="units/armenia/chariot_archer_e_d.xml" attachpoint="driver1"/>
       </props>
       <textures>
-        <texture file="structural/pers_chariot_e.png" name="baseTex"/>
+        <texture file="structural/achae_chariot_e.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

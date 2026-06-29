@@ -6,7 +6,7 @@
     <GenericName>Bedouin Scouts</GenericName>
     <SpecificName>Farasîn Bedawi</SpecificName>
     <History>In ancient times, most people settled near rivers but the Bedouin people preferred to live in the open desert. In battle these men provide a highly skilled light cavalry contingent exceedingly capable in the roles of skirmishing, pursuit, and harassment.</History>
-    <Icon>units/pers_cavalry_javelinist.png</Icon>
+    <Icon>units/achae_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/naba/cavalry_javelineer_a</Entity>

@@ -17,8 +17,8 @@
       <props>
         <prop actor="units/malaydwipa/chariot_archer_c_d.xml" attachpoint="driver2"/>
         <prop actor="units/malaydwipa/chariot_archer_c_r.xml" attachpoint="rider2"/>
-        <prop actor="units/persians/chariot_archer_b_h1.xml" attachpoint="horse2"/>
-        <prop actor="units/persians/chariot_archer_b_h2.xml" attachpoint="horse3"/>
+        <prop actor="units/achaemenids/chariot_archer_b_h1.xml" attachpoint="horse2"/>
+        <prop actor="units/achaemenids/chariot_archer_b_h2.xml" attachpoint="horse3"/>
       </props>
     </variant>
   </group>

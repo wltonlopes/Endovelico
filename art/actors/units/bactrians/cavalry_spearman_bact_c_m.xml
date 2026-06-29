@@ -6,7 +6,7 @@
       <mesh>skeletal/horse_persian.dae</mesh>
       <props>
         <prop actor="units/bactrians/cavalry_spearman_bact_c_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/pers_cav_knot.xml" attachpoint="head"/>
+        <prop actor="props/horse/achae_cav_knot.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

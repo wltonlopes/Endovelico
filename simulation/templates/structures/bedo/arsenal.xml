@@ -5,6 +5,6 @@
     <SpecificName></SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/persians/workshop.xml</Actor>
+    <Actor>structures/achaemenids/workshop.xml</Actor>
   </VisualActor>
 </Entity>

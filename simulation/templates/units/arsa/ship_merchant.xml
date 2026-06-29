@@ -12,6 +12,6 @@
     <Icon>units/pers/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/persians/merchant.xml</Actor>
+    <Actor>structures/achaemenids/merchant.xml</Actor>
   </VisualActor>
 </Entity>

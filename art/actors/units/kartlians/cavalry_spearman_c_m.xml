@@ -5,7 +5,7 @@
     <variant>
       <mesh>skeletal/horse_persian.dae</mesh>
       <props>
-        <prop actor="units/persians/cavalry_spearman_c_r.xml" attachpoint="rider"/>
+        <prop actor="units/achaemenids/cavalry_spearman_c_r.xml" attachpoint="rider"/>
       </props>
     </variant>
   </group>

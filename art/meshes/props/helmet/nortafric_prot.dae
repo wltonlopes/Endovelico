@@ -13,14 +13,14 @@
   <library_effects>
     <effect id="Material_002-effect">
       <profile_COMMON>
-        <newparam sid="pers_conical_01_bronze_png-surface">
+        <newparam sid="achae_conical_01_bronze_png-surface">
           <surface type="2D">
-            <init_from>pers_conical_01_bronze_png</init_from>
+            <init_from>achae_conical_01_bronze_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="pers_conical_01_bronze_png-sampler">
+        <newparam sid="achae_conical_01_bronze_png-sampler">
           <sampler2D>
-            <source>pers_conical_01_bronze_png-surface</source>
+            <source>achae_conical_01_bronze_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="pers_conical_01_bronze_png-sampler" texcoord="Cube_018-mesh-map-0"/>
+              <texture texture="achae_conical_01_bronze_png-sampler" texcoord="Cube_018-mesh-map-0"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -40,8 +40,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="pers_conical_01_bronze_png" name="pers_conical_01_bronze_png">
-      <init_from>/home/ton/0ad/binaries/data/mods/public/art/textures/skins/props/helmet/pers_conical_01_bronze.png</init_from>
+    <image id="achae_conical_01_bronze_png" name="achae_conical_01_bronze_png">
+      <init_from>/home/ton/0ad/binaries/data/mods/public/art/textures/skins/props/helmet/achae_conical_01_bronze.png</init_from>
     </image>
   </library_images>
   <library_materials>

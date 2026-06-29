@@ -8,6 +8,6 @@
     <Icon>units/pers/kardakes_skirmisher.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/infantry_javelinist_c.xml</Actor>
+    <Actor>units/achaemenids/infantry_javelinist_c.xml</Actor>
   </VisualActor>
 </Entity>

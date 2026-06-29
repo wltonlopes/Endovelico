@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_armor_dress.dae</mesh>
       <props>
         <prop actor="props/units/helmets/arab_coif_male.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_achae_b.xml" attachpoint="head"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

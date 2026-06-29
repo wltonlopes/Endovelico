@@ -19,6 +19,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/persians/trireme.xml</Actor>
+    <Actor>structures/achaemenids/trireme.xml</Actor>
   </VisualActor>
 </Entity>

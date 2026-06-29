@@ -4,7 +4,7 @@
   <group>
     <variant>
       <props>
-        <prop actor="props/units/heads/new/head_pers_fem_1.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_achae_fem_1.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/mochica_hair_female_01.xml" attachpoint="head"/>       
       </props>
       <textures>
