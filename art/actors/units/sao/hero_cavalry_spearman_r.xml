@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>    
-        <prop actor="props/units/shields/kush_nubian_thureos.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/shields/sao_thureos.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
