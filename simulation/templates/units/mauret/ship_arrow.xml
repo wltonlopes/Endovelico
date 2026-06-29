@@ -7,7 +7,6 @@
   <Identity>
     <Civ>mauret</Civ>
     <GenericName>Bireme</GenericName>
-    <SpecificName>Du-Mašōt</SpecificName>
     <Icon>units/cart/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

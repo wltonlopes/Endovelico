@@ -3,7 +3,6 @@
   <Identity>
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/infantry_swordsman_b</SelectionGroupName>
-    <SpecificName>Aanatim Dorkim</SpecificName>
     <Icon>units/iber/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

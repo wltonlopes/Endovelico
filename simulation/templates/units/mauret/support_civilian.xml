@@ -2,13 +2,12 @@
 <Entity parent="template_unit_support_civilian">
   <Builder>
     <Entities datatype="tokens">
-      structures/numi/camp_berber
+      structures/mauret/shrine
     </Entities>
   </Builder>
   <Identity>
     <Civ>mauret</Civ>
-    <SpecificName>Aštāh</SpecificName>
-    <GenericName>numihaginian Villager</GenericName>
+    <GenericName>Villager</GenericName>
     <Icon>units/cart/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

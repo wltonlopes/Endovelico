@@ -3,8 +3,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Libyan Spearman</GenericName>
-    <SpecificName>Aanatim Mookdamim</SpecificName>
+    <GenericName>Spearman</GenericName>
     <Icon>units/cart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>mauret</Civ>
-    <SpecificName></SpecificName>
     <Icon>units/celt/siege_ram.png</Icon>
   </Identity>
   <VisualActor>

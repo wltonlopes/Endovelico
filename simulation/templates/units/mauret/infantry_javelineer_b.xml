@@ -3,8 +3,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Numidia Skirmisher</GenericName>
-    <SpecificName>Aanatim Bahhur Haneet</SpecificName>
+    <GenericName>Skirmisher</GenericName>
     <Icon>units/gara/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

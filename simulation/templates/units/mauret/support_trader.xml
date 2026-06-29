@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>mauret</Civ>
-    <SpecificName>Mekir</SpecificName>
     <Icon>units/cart/support_trader.png</Icon>
   </Identity>
   <Sound>
