@@ -279,7 +279,7 @@ The Anishinaabe were an indigenous group in North America, primarily in the Grea
 
 - -siege_bolt_accuracy
 - -siege_pack_unpack
-- anishinaabe/hawk_eye
+- anish/hawk_eye
 - archer_attack_spread
 - siege_attack
 - siege_cost_time

@@ -8,7 +8,7 @@
     <Civ>lusi</Civ>
     <GenericName>Lusitanian War Boat</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/pers/ship_scout.png</Icon>
+    <Icon>units/achae/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/lusitanians/war_boat.xml</Actor>

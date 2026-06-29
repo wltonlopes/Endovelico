@@ -5,7 +5,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <GenericName>Bocchus I</GenericName>
-    <Icon>units/pers/hero_cyrus.png</Icon>
+    <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mauretania/hero_cavalry_swordsman_m.xml</Actor>

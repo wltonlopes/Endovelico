@@ -9,7 +9,7 @@
     <Lang>persian</Lang>
     <GenericName>Mitrídates</GenericName>
     <SpecificName>Mihrdāt</SpecificName>
-    <Icon>units/pers/chariot_archer.png</Icon>
+    <Icon>units/achae/chariot_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/achaemenids/chariot_archer_e_m.xml</Actor>

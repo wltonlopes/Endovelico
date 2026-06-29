@@ -5,7 +5,7 @@
     <SelectionGroupName>units/macrob/cavalry_maceman_b</SelectionGroupName>
     <GenericName>Nok Maceman Cavalry</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/pers/cavalry_axeman.png</Icon>
+    <Icon>units/achae/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

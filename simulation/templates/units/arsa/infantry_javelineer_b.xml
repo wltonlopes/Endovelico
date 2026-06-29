@@ -6,7 +6,7 @@
     <SelectionGroupName>units/arsa/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Dahae javelinists</GenericName>
     <SpecificName>seldār gund pahlawīg</SpecificName>
-    <Icon>units/pers/infantry_javelinist.png</Icon>
+    <Icon>units/achae/infantry_javelinist.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

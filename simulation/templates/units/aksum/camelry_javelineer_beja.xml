@@ -2,13 +2,13 @@
 <Entity parent="camelry|merc_inf|template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>aksum</Civ>
-    <SelectionGroupName>units/aksum/camelry_javalineer_b</SelectionGroupName>
+    <SelectionGroupName>units/aksum/camelry_javalineer_beja</SelectionGroupName>
     <GenericName>Beja Javalineer Camelry</GenericName>
-    <SpecificName></SpecificName>
-    <Icon>units/yayo/cavalry_javalineer_merc.png</Icon>
+    <SpecificName/>
+    <Icon>units/merc/beja_camelry_javelineer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/aksumite/camelry_javelineer_beja_m.xml</Actor>
+    <Actor>units/mercenaries/beja/camelry_javelineer_b.xml</Actor>
   </VisualActor>
 </Entity>

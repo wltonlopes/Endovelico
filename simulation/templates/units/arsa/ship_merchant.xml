@@ -9,7 +9,7 @@
     <Lang>persian</Lang>
     <GenericName>Ionian Trade Ship</GenericName>
     <SpecificName>Nauš Yauna</SpecificName>
-    <Icon>units/pers/ship_merchant.png</Icon>
+    <Icon>units/achae/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/achaemenids/merchant.xml</Actor>

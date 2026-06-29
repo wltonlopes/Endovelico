@@ -5,7 +5,7 @@
     <Lang>persian</Lang>
     <SpecificName>Banu Miyanrudani</SpecificName>
     <GenericName>Mesopotamian Villager</GenericName>
-    <Icon>units/pers/support_female_citizen.png</Icon>
+    <Icon>units/achae/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/achaemenids/citizen_{phenotype}.xml</Actor>

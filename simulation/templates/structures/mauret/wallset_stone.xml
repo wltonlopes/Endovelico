@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/numi/wall_tower</Tower>
-      <Gate>structures/numi/wall_gate</Gate>
-      <WallLong>structures/numi/wall_long</WallLong>
-      <WallMedium>structures/numi/wall_medium</WallMedium>
-      <WallShort>structures/numi/wall_short</WallShort>
+      <Tower>structures/mauret/wall_tower</Tower>
+      <Gate>structures/mauret/wall_gate</Gate>
+      <WallLong>structures/mauret/wall_long</WallLong>
+      <WallMedium>structures/mauret/wall_medium</WallMedium>
+      <WallShort>structures/mauret/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

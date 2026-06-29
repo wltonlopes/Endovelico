@@ -6,7 +6,7 @@
     <Civ>gara</Civ>
     <GenericName>King of Garamantes</GenericName>
     <SpecificName>Agueklid</SpecificName>
-    <Icon>units/pers/hero_cyrus.png</Icon>
+    <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/garamantians/chariot_djalla_m.xml</Actor>

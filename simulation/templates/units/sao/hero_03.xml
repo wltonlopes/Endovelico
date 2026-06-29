@@ -5,7 +5,7 @@
   <Identity>
     <Civ>sao</Civ>
     <GenericName>King</GenericName>
-    <Icon>units/pers/hero_cyrus.png</Icon>
+    <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/sao/hero_cavalry_spearman_m.xml</Actor>
