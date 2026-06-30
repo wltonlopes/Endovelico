@@ -24,12 +24,12 @@
     </variant>
     <variant frequency="3" name="tunic-basic-1g">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_07.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_basic_01_07.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="3" name="tunic-basic-1h">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_08.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_basic_01_08.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

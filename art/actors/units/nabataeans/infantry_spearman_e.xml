@@ -11,7 +11,7 @@
         <prop actor="props/units/weapons/spear_ball.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
-        <texture file="skeletal/pers/scale_02_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_02_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>

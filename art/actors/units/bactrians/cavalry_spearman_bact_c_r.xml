@@ -29,8 +29,8 @@
     </variant>
     <variant frequency="1" name="scale-sleeve-full-1b">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_full_1_b.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_full_1_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_1_b.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_1_spec.png" name="specTex"/>
       </textures>
 	  <props>
 	    <prop actor="props/units/helmets/hele_thracian_s2.xml" attachpoint="helmet"/>
@@ -38,8 +38,8 @@
     </variant>
     <variant frequency="1" name="scale-armband-full-1a">
       <textures>
-        <texture file="skeletal/pers/scale_amband_full_01_01.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_amband_full_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_amband_full_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_amband_full_01_spec.png" name="specTex"/>
       </textures>
       <props>
         <prop actor="props/units/armor/achae_neckguard_bronze.xml" attachpoint="root"/>
@@ -47,8 +47,8 @@
     </variant>
     <variant frequency="1" name="scale-armband-full-1b">
       <textures>
-        <texture file="skeletal/pers/scale_amband_full_01_02.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_amband_full_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_amband_full_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_amband_full_01_spec.png" name="specTex"/>
       </textures>
 	  <props>
 	    <prop actor="props/units/helmets/hele_boeotian_s2.xml" attachpoint="helmet"/>

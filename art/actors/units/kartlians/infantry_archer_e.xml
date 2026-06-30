@@ -13,7 +13,7 @@
         <prop actor="props/units/shields/achae_pelta_a_b_reverse.xml" attachpoint="back"/>
       </props>
       <textures>
-        <texture file="skeletal/pers/scale_02_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_02_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
@@ -21,22 +21,22 @@
   <group>
     <variant frequency="1" name="scale-2a">
       <textures>
-        <texture file="skeletal/pers/scale_02_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scale-2b">
       <textures>
-        <texture file="skeletal/pers/scale_02_03.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_02_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scale-2c">
       <textures>
-        <texture file="skeletal/pers/scale_02_04.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_02_04.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="scale-2f">
       <textures>
-        <texture file="skeletal/pers/scale_02_06.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_02_06.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

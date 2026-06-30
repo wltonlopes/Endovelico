@@ -13,7 +13,7 @@
         <prop actor="props/units/achae_quiver_xerxes.xml" attachpoint="back"/>
       </props>
       <textures>
-        <texture file="skeletal/pers/robes_royal_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/robes_royal_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

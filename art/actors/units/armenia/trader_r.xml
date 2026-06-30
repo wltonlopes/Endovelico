@@ -18,12 +18,12 @@
   <group>
     <variant frequency="1" name="tunic_01_01">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_07.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_basic_01_07.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic_01_02">
       <textures>
-        <texture file="skeletal/pers/tunic_basic_01_08.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_basic_01_08.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

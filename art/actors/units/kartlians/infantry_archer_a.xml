@@ -17,37 +17,37 @@
   <group>
     <variant frequency="1" name="tunic-1a">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-1b">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-1c">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_03.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-1d">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_04.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_01_04.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-1e">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_05.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_01_05.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-1f">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_06.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_01_06.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-1g">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_01_07.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_01_07.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -11,7 +11,7 @@
 		<prop actor="props/units/shields/iberian_buckler_elite.xml" attachpoint="shield_arm"/>
       </props>
       <textures>
-        <texture file="skeletal/pers/su1_anusiya_iron.dds" name="baseTex"/>
+        <texture file="skeletal/achae/su1_anusiya_iron.dds" name="baseTex"/>
       </textures>
     </variant>
    </group>

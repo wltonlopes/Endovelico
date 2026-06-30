@@ -21,19 +21,19 @@
         <prop actor="props/units/helmets/achae_kidaris_tied_yellow.xml" attachpoint="helmet"/>
       </props>
       <textures>
-        <texture file="skeletal/pers/linothorax_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/linothorax_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Raja-Texture-1">
       <mesh>skeletal/new/m_pants.dae</mesh>
       <textures>
-        <texture file="skeletal/pers/robes_royal_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/robes_royal_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Raja-Texture-2">
       <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/pers/robes_royal_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/robes_royal_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

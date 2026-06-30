@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Builder>
     <Entities datatype="tokens">
@@ -6,7 +7,7 @@
   <Identity>
     <Civ>sao</Civ>
     <SelectionGroupName>units/sao/infantry_javelineer_b</SelectionGroupName>
-    <Icon>units/moch/infantry_javelinist.png</Icon>
+    <Icon>units/sao/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sao/infantry_javelineer_a</Entity>

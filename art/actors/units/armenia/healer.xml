@@ -10,7 +10,7 @@
         <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
-        <texture file="skeletal/pers/robes_healer_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/robes_healer_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

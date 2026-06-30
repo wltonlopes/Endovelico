@@ -15,27 +15,27 @@
   <group>
     <variant frequency="1" name="tunic_coat_01_01">
       <textures>
-        <texture file="skeletal/pers/tunic_coat_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_coat_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic_coat_01_02">
       <textures>
-        <texture file="skeletal/pers/tunic_coat_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_coat_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic_coat_01_03">
       <textures>
-        <texture file="skeletal/pers/tunic_coat_01_03.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_coat_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic_coat_01_04">
       <textures>
-        <texture file="skeletal/pers/tunic_coat_01_04.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_coat_01_04.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic_coat_01_05">
       <textures>
-        <texture file="skeletal/pers/tunic_coat_01_05.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_coat_01_05.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

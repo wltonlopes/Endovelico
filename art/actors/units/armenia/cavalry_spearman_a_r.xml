@@ -19,22 +19,22 @@
   <group>
     <variant frequency="1" name="achae_isp_a_linothorax_1a">
       <textures>
-        <texture file="skeletal/pers/linothorax_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/linothorax_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="achae_isp_a_linothorax_1d">
       <textures>
-        <texture file="skeletal/pers/linothorax_01_04.png" name="baseTex"/>
+        <texture file="skeletal/achae/linothorax_01_04.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="achae_isp_a_linothorax_1e">
       <textures>
-        <texture file="skeletal/pers/linothorax_01_05.png" name="baseTex"/>
+        <texture file="skeletal/achae/linothorax_01_05.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="achae_isp_a_linothorax_1f">
       <textures>
-        <texture file="skeletal/pers/linothorax_01_06.png" name="baseTex"/>
+        <texture file="skeletal/achae/linothorax_01_06.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

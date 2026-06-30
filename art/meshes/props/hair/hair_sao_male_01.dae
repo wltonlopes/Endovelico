@@ -1,54 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   <asset>
     <contributor>
       <author>Blender User</author>
       <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
     </contributor>
     <created>2026-06-28T14:58:16</created>
-    <modified>2026-06-28T14:58:16</modified>
-    <unit name="meter" meter="1"/>
+    <modified>2026-06-29</modified>
+    <unit name="meter" meter="1" />
     <up_axis>Z_UP</up_axis>
   </asset>
-  <library_effects>
-    <effect id="A-textura_sao_General-effect">
-      <profile_COMMON>
-        <newparam sid="hair_afro_ethiop_png-surface">
-          <surface type="2D">
-            <init_from>hair_afro_ethiop_png</init_from>
-          </surface>
-        </newparam>
-        <newparam sid="hair_afro_ethiop_png-sampler">
-          <sampler2D>
-            <source>hair_afro_ethiop_png-surface</source>
-          </sampler2D>
-        </newparam>
-        <technique sid="common">
-          <lambert>
-            <emission>
-              <color sid="emission">0 0 0 1</color>
-            </emission>
-            <diffuse>
-              <texture texture="hair_afro_ethiop_png-sampler" texcoord="MapaUV"/>
-            </diffuse>
-            <index_of_refraction>
-              <float sid="ior">1.45</float>
-            </index_of_refraction>
-          </lambert>
-        </technique>
-      </profile_COMMON>
-    </effect>
-  </library_effects>
-  <library_images>
-    <image id="hair_afro_ethiop_png" name="hair_afro_ethiop_png">
-      <init_from>/home/welton/snap/0ad/731/.local/share/0ad/mods/Endovelico/art/textures/skins/props/head/hair_afro_ethiop.png</init_from>
-    </image>
-  </library_images>
-  <library_materials>
-    <material id="A-textura_sao_General-material" name="A-textura sao General">
-      <instance_effect url="#A-textura_sao_General-effect"/>
-    </material>
-  </library_materials>
+  <library_effects />
   <library_geometries>
     <geometry id="Cubo_112-mesh" name="Cubo.112">
       <mesh>
@@ -56,9 +17,9 @@
           <float_array id="Cubo_112-mesh-positions-array" count="48">-0.07241457 -0.2248726 0.4141858 -1.4023e-4 -0.2248726 0.5673239 -0.07241457 0.1834608 0.4141858 -1.4023e-4 0.1834608 0.5673239 0.07207351 -0.2248726 0.4141858 -2.00839e-4 -0.2248726 0.5673239 0.07207351 0.1834608 0.4141858 -2.00839e-4 0.1834608 0.5673239 -0.07241457 0.06595212 0.4509146 -1.4023e-4 0.06595212 0.6899197 0.07207351 0.06595212 0.4509146 -2.00839e-4 0.06595212 0.6899197 -0.07241457 -0.08902168 0.4509146 -2.00839e-4 -0.08902168 0.6899197 -1.4023e-4 -0.08902168 0.6899197 0.07207351 -0.08902168 0.4509146</float_array>
           <technique_common>
             <accessor source="#Cubo_112-mesh-positions-array" count="16" stride="3">
-              <param name="X" type="float"/>
-              <param name="Y" type="float"/>
-              <param name="Z" type="float"/>
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
             </accessor>
           </technique_common>
         </source>
@@ -66,9 +27,9 @@
           <float_array id="Cubo_112-mesh-normals-array" count="66">-0.8964005 0.1322326 0.4230613 0 1 0 0.8983804 -0.1146315 0.4239957 0 -1 0 0 0.26099 -0.9653415 0 -0.2983284 -0.9544632 0.8964005 0.1322326 0.4230612 -0.9571926 0 0.2894518 -0.8983804 -0.1146316 0.4239957 0 0 -1 0.9571926 0 0.2894518 -0.9163227 0.2890886 0.2770929 0 -1 0 0.9261191 -0.25273 0.2800553 0 1 0 0 0.26099 -0.9653415 0 -0.2983284 -0.9544632 0.9163227 0.2890886 0.2770929 -0.9571926 0 0.2894518 -0.9261191 -0.25273 0.2800553 0 0 -1 0.9571926 0 0.2894518</float_array>
           <technique_common>
             <accessor source="#Cubo_112-mesh-normals-array" count="22" stride="3">
-              <param name="X" type="float"/>
-              <param name="Y" type="float"/>
-              <param name="Z" type="float"/>
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
             </accessor>
           </technique_common>
         </source>
@@ -76,40 +37,34 @@
           <float_array id="Cubo_112-mesh-map-0-array" count="132">0.5033815 0.9247732 0.7701709 0.07440662 0.7715364 0.9246886 0.3614814 0.07440662 0.5002039 0.92452 0.3618337 0.9246886 0.6213653 0.9243929 0.7714612 0.07406967 0.7728268 0.9243515 0.6382219 0.07406967 0.7769435 0.9241822 0.6385743 0.9243515 0.6213653 0.9243929 0.6382235 0.07782322 0.6036309 0.07786464 0.5002039 0.92452 0.5690385 0.07790702 0.4998531 0.07799166 0.2351471 0.07423812 0.5046709 0.9244354 0.2365125 0.92452 0.3679384 0.07453364 0.5033815 0.9247732 0.3693039 0.9248155 0.2338611 0.07457596 0.3693039 0.9248155 0.2352266 0.9248579 0.5693892 0.9244354 0.6036309 0.07786464 0.5690385 0.07790702 0.5033051 0.07415342 0.6213653 0.9243929 0.5046709 0.9244354 0.5033815 0.9247732 0.5020158 0.07449132 0.7701709 0.07440662 0.3614814 0.07440662 0.4998516 0.07423812 0.5002039 0.92452 0.6213653 0.9243929 0.6373831 0.0741111 0.7714612 0.07406967 0.6382219 0.07406967 0.7765913 0.07390022 0.7769435 0.9241822 0.6213653 0.9243929 0.6385743 0.9243515 0.6382235 0.07782322 0.5002039 0.92452 0.5693892 0.9244354 0.5690385 0.07790702 0.2351471 0.07423812 0.5033051 0.07415342 0.5046709 0.9244354 0.3679384 0.07453364 0.5020158 0.07449132 0.5033815 0.9247732 0.2338611 0.07457596 0.3679384 0.07453364 0.3693039 0.9248155 0.5693892 0.9244354 0.6213653 0.9243929 0.6036309 0.07786464 0.5033051 0.07415342 0.6373831 0.0741111 0.6213653 0.9243929</float_array>
           <technique_common>
             <accessor source="#Cubo_112-mesh-map-0-array" count="66" stride="2">
-              <param name="S" type="float"/>
-              <param name="T" type="float"/>
+              <param name="S" type="float" />
+              <param name="T" type="float" />
             </accessor>
           </technique_common>
         </source>
         <vertices id="Cubo_112-mesh-vertices">
-          <input semantic="POSITION" source="#Cubo_112-mesh-positions"/>
+          <input semantic="POSITION" source="#Cubo_112-mesh-positions" />
         </vertices>
         <triangles material="A-textura_sao_General-material" count="22">
-          <input semantic="VERTEX" source="#Cubo_112-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#Cubo_112-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#Cubo_112-mesh-map-0" offset="2" set="0"/>
+          <input semantic="VERTEX" source="#Cubo_112-mesh-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Cubo_112-mesh-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#Cubo_112-mesh-map-0" offset="2" set="0" />
           <p>8 0 0 3 0 1 2 0 2 3 1 3 6 1 4 2 1 5 15 2 6 5 2 7 4 2 8 5 3 9 0 3 10 4 3 11 15 4 12 0 4 13 12 4 14 6 5 15 8 5 16 2 5 17 7 6 18 10 6 19 6 6 20 14 7 21 8 7 22 12 7 23 1 8 24 12 8 25 0 8 26 10 9 27 12 9 28 8 9 29 11 10 30 15 10 31 10 10 32 8 11 33 9 11 34 3 11 35 3 12 36 7 12 37 6 12 38 15 13 39 13 13 40 5 13 41 5 14 42 1 14 43 0 14 44 15 15 45 4 15 46 0 15 47 6 16 48 10 16 49 8 16 50 7 17 51 11 17 52 10 17 53 14 18 54 9 18 55 8 18 56 1 19 57 14 19 58 12 19 59 10 20 60 15 20 61 12 20 62 11 21 63 13 21 64 15 21 65</p>
         </triangles>
       </mesh>
     </geometry>
   </library_geometries>
+  <library_images />
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="a_hair_male_sao_01" name="a_hair_male_sao_01" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Cubo_112-mesh" name="a_hair_male_sao_01">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="A-textura_sao_General-material" target="#A-textura_sao_General-material">
-                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
-              </instance_material>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
+          </instance_geometry>
       </node>
     </visual_scene>
   </library_visual_scenes>
   <scene>
-    <instance_visual_scene url="#Scene"/>
+    <instance_visual_scene url="#Scene" />
   </scene>
 </COLLADA>

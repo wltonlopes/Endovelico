@@ -16,17 +16,17 @@
   <group>
     <variant frequency="1" name="padded_01_06">
       <textures>
-        <texture file="skeletal/pers/padded_01_06.png" name="baseTex"/>
+        <texture file="skeletal/achae/padded_01_06.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="padded_01_07">
       <textures>
-        <texture file="skeletal/pers/padded_01_07.png" name="baseTex"/>
+        <texture file="skeletal/achae/padded_01_07.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="padded_01_08">
       <textures>
-        <texture file="skeletal/pers/padded_01_08.png" name="baseTex"/>
+        <texture file="skeletal/achae/padded_01_08.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

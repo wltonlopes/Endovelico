@@ -23,8 +23,8 @@
     </variant>
     <variant frequency="3" name="scale_sleeve_top_01_02">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_top_01_02.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_top_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_top_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_top_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>

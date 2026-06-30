@@ -16,17 +16,17 @@
   <group>
     <variant frequency="1" name="tunic_advanced_02_03">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_02_03.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_02_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic_advanced_02_02">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_02_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic_advanced_02_01">
       <textures>
-        <texture file="skeletal/pers/tunic_advanced_02_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/tunic_advanced_02_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -17,7 +17,7 @@
   <group>
     <variant frequency="1" name="scyth-tunic-old">
       <textures>
-        <texture file="skeletal/pers/linothorax_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/linothorax_01_01.png" name="baseTex"/>
       </textures>
 	  <props>
 	    <prop actor="props/units/helmets/hele_thracian_scaled_bact.xml" attachpoint="helmet"/>
@@ -29,7 +29,7 @@
     </variant>
     <variant frequency="2" name="scyth-tunic-2a">
       <textures>
-        <texture file="skeletal/pers/linothorax_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/linothorax_01_02.png" name="baseTex"/>
       </textures>
 	  <props>
         <prop actor="props/units/helmets/achae_kidaris_tied.xml" attachpoint="helmet"/>
@@ -40,7 +40,7 @@
     </variant>
 	<variant frequency="1" name="scyth-tunic-2a">
       <textures>
-        <texture file="skeletal/pers/linothorax_01_03.png" name="baseTex"/>
+        <texture file="skeletal/achae/linothorax_01_03.png" name="baseTex"/>
       </textures>
 	  <props>
         <prop actor="props/units/helmets/hele_thracian_bact.xml" attachpoint="helmet"/>
@@ -51,7 +51,7 @@
     </variant>
     <variant frequency="2" name="scyth-tunic-2b">
       <textures>
-        <texture file="skeletal/pers/padded_01_05.png" name="baseTex"/>
+        <texture file="skeletal/achae/padded_01_05.png" name="baseTex"/>
       </textures>
 	  <props>
         <prop actor="props/units/heads/new/head_achae_b.xml" attachpoint="head"/>
@@ -63,7 +63,7 @@
     </variant>
     <variant frequency="2" name="scyth-tunic-2c">
       <textures>
-        <texture file="skeletal/pers/padded_01_06.png" name="baseTex"/>
+        <texture file="skeletal/achae/padded_01_06.png" name="baseTex"/>
       </textures>
 	  <props>
 	    <prop actor="props/units/helmets/hele_kausia_cap_player.xml" attachpoint="helmet"/>

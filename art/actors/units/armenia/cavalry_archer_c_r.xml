@@ -16,8 +16,8 @@
   <group>
     <variant frequency="1" name="Rider-Armour-Iron">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_full_01_02.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_full_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
@@ -26,8 +26,8 @@
     </variant>
     <variant frequency="1" name="Rider-Armour-Bronze">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_full_01_01.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_full_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
@@ -46,8 +46,8 @@
     </variant>
     <variant frequency="1" name="scale-sleeve-full-1b">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_full_01_02.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_full_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
@@ -56,8 +56,8 @@
     </variant>
     <variant frequency="1" name="scale-armband-full-1a">
       <textures>
-        <texture file="skeletal/pers/scale_armband_full_01_01.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_armband_full_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_armband_full_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_armband_full_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
@@ -66,8 +66,8 @@
     </variant>
     <variant frequency="1" name="scale-armband-full-1b">
       <textures>
-        <texture file="skeletal/pers/scale_armband_full_01_02.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_armband_full_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_armband_full_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_armband_full_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
@@ -76,8 +76,8 @@
     </variant>
     <variant frequency="1" name="scale-sleeve-top-1a">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_top_01_01.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_top_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_top_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_top_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
@@ -86,8 +86,8 @@
     </variant>
     <variant frequency="1" name="scale-sleeve-top-1b">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_top_01_02.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_top_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_top_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_top_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
@@ -96,8 +96,8 @@
     </variant>
     <variant frequency="1" name="scale-sleeve-bottom-1a">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_bottom_01_01.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_full_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_bottom_01_01.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_full_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
@@ -106,8 +106,8 @@
     </variant>
     <variant frequency="1" name="scale-sleeve-bottom-1b">
       <textures>
-        <texture file="skeletal/pers/scale_sleeve_bottom_01_02.png" name="baseTex"/>
-        <texture file="skeletal/pers/scale_sleeve_bottom_01_spec.png" name="specTex"/>
+        <texture file="skeletal/achae/scale_sleeve_bottom_01_02.png" name="baseTex"/>
+        <texture file="skeletal/achae/scale_sleeve_bottom_01_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>

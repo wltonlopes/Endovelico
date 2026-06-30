@@ -15,17 +15,17 @@
   <group>
     <variant frequency="3" name="achae_isp_a_padded_1g">
       <textures>
-        <texture file="skeletal/pers/padded_01_07.png" name="baseTex"/>
+        <texture file="skeletal/achae/padded_01_07.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="achae_isp_a_padded_1h">
       <textures>
-        <texture file="skeletal/pers/padded_01_08.png" name="baseTex"/>
+        <texture file="skeletal/achae/padded_01_08.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="achae_isp_a_padded_1i">
       <textures>
-        <texture file="skeletal/pers/padded_01_09.png" name="baseTex"/>
+        <texture file="skeletal/achae/padded_01_09.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -13,7 +13,7 @@
 		<prop actor="props/units/armor/greave_04_bronze_r.xml" attachpoint="leg_R"/>
       </props>
       <textures>
-        <texture file="skeletal/pers/su1_anusiya.dds" name="baseTex"/>
+        <texture file="skeletal/achae/su1_anusiya.dds" name="baseTex"/>
       </textures>
     </variant>
   </group>
