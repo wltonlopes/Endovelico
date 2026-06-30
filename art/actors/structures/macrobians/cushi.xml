@@ -5,7 +5,9 @@
     <variant frequency="1" name="cushi">
       <mesh>structural/macrobian/cushi.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>
       <textures>
         <texture file="structural/macrob_struct.png" name="baseTex"/>

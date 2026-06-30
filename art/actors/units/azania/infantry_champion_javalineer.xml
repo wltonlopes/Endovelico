@@ -20,22 +20,22 @@
   <group>
     <variant frequency="1" name="ir_03_01">
       <textures>
-        <texture file="skeletal/azania/i_c_01.png" name="baseTex"/>
+        <texture file="skeletal/azania/c_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_03_02">
       <textures>
-        <texture file="skeletal/azania/i_c_02.png" name="baseTex"/>
+        <texture file="skeletal/azania/c_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_03_03">
       <textures>
-        <texture file="skeletal/azania/i_c_03.png" name="baseTex"/>
+        <texture file="skeletal/azania/c_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="ir_03_04">
       <textures>
-        <texture file="skeletal/azania/i_c_04.png" name="baseTex"/>
+        <texture file="skeletal/azania/c_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

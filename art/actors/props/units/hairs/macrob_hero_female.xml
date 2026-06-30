@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="hair_03">
+      <mesh>props/hair/aksum/hair_aksum_female_03.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/macrob_turban_female.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="hair_04">
+      <mesh>props/hair/aksum/hair_aksum_female_04.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/macrob_turban_female.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="face1a">
+      <textures><texture file="props/head/hair_afro_ethiop.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-dark brown">
+      <color>75 61 38</color>
+    </variant>
+    <variant frequency="1" name="hair-brown">
+      <color>99 82 53</color>
+    </variant>
+    <variant frequency="1" name="hair-medium brown">
+      <color>138 110 61</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

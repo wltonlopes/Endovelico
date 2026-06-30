@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_healer_male.xml">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/afro_aksum_male.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/afric_turban_white.xml" attachpoint="helmet"/>
+        <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="h_01">
+      <textures>
+        <texture file="skeletal/macrob/h_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="h_02">
+      <textures>
+        <texture file="skeletal/macrob/h_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="h_03">
+      <textures>
+        <texture file="skeletal/macrob/h_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="h_04">
+      <textures>
+        <texture file="skeletal/macrob/h_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml">
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
