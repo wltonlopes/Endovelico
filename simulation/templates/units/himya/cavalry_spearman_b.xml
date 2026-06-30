@@ -5,7 +5,7 @@
     <SelectionGroupName>units/himya/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Himyar Raiding Cavalry</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/pers/cavalry_spearman.png</Icon>
+    <Icon>units/achae/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

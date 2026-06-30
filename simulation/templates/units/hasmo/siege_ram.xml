@@ -19,7 +19,7 @@
     <Lang>greek</Lang>
     <GenericName>Assyrian Siege Ram</GenericName>
     <SpecificName>Hamaranakuba Aθuriya</SpecificName>
-    <Icon>units/pers/siege_ram.png</Icon>
+    <Icon>units/achae/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/achaemenids/siege_ram.xml</Actor>

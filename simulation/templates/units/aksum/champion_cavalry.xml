@@ -3,7 +3,7 @@
   <Identity>
     <Civ>aksum</Civ>
     <GenericName>Aksumite aristocrat</GenericName>
-    <Icon>units/pers/champion_cavalry.png</Icon>
+    <Icon>units/achae/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/aksumite/cavalry_axeman_m.xml</Actor>

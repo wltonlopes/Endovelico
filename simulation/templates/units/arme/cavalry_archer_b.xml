@@ -3,7 +3,7 @@
     <Civ>arme</Civ>
     <GenericName>Armenia Cavalry Skirmisher</GenericName>
     <SelectionGroupName>units/arme/cavalry_archer_b</SelectionGroupName>
-    <Icon>units/pers/cavalry_archer.png</Icon>
+    <Icon>units/achae/cavalry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/arme/cavalry_archer_a</Entity>

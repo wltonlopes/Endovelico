@@ -16,7 +16,7 @@
     <Lang>persian</Lang>
     <GenericName>Arsacid Aristocrat</GenericName>
     <SpecificName>ērīh grivpanvar</SpecificName>
-    <Icon>units/pers/champion_infantry.png</Icon>
+    <Icon>units/achae/champion_infantry.png</Icon>
     <Requirements>
       <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
     </Requirements>

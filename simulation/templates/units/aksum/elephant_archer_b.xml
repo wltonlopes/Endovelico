@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_elephant_archer">
   <Identity>
-    <Civ>malay</Civ>
+    <Civ>aksum</Civ>
     <GenericName>Elephant Archer</GenericName>
     <SpecificName>Vachii Gaja</SpecificName>
     <SelectionGroupName>units/maur/elephant_archer_b</SelectionGroupName>

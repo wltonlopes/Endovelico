@@ -6,7 +6,7 @@
     <GenericName>Persian Camelry Scout</GenericName>
     <SpecificName>Persian Scout</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <Icon>units/pers/camelry_scout.png</Icon>
+    <Icon>units/achae/camelry_scout.png</Icon>
   </Identity>
   <Sound>
     <SoundGroups>
