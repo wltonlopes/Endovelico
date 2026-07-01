@@ -18,7 +18,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/aksumite/camp_afar.xml</Actor>
+    <Actor>structures/aksumites/camp_afar.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

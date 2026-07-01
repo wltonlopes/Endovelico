@@ -9,8 +9,8 @@
         <prop actor="props/structures/libyans/stable_camel_struct.xml" attachpoint="root" />
         <prop actor="props/structures/libyans/stable_camel_bush.xml" attachpoint="root" />
         <prop actor="props/structures/libyans/stable_camel_palm.xml" attachpoint="root" />
-        <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_01" />
-        <prop actor="props/structures/libyans/camel_02.xml" attachpoint="camel_02" />
+        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_01" />
+        <prop actor="props/structures/camel_stable_02.xml" attachpoint="camel_02" />
       </props>
       <textures>
         <texture file="structural/liby_struct.png" name="baseTex" />

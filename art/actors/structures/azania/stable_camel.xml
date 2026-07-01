@@ -6,9 +6,9 @@
       <mesh>structural/azania/stable_camel.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root" />
-        <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_01" />
-        <prop actor="props/structures/libyans/camel_02.xml" attachpoint="camel_02" />
-        <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_03" />
+        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_01" />
+        <prop actor="props/structures/camel_stable_02.xml" attachpoint="camel_02" />
+        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_03" />
       </props>
       <textures>
         <texture file="structural/azan/struct.png" name="baseTex" />
@@ -22,7 +22,7 @@
     <variant frequency="1" name="ungarrisoned" />
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_axum.xml" attachpoint="garrisoned"
+        <prop actor="props/special/common/garrison_flag_aksum.xml" attachpoint="garrisoned"
           selectable="false" />
       </props>
     </variant>

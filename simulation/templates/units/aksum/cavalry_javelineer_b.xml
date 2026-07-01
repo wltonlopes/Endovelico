@@ -15,6 +15,6 @@
     <Entity>units/aksum/cavalry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/aksumite/cavalry_javelinist_b_m.xml</Actor>
+    <Actor>units/aksumites/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

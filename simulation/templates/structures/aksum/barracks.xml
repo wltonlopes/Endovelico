@@ -21,7 +21,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/aksumite/barracks.xml</Actor>
+    <Actor>structures/aksumites/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

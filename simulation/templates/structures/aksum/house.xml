@@ -12,7 +12,7 @@
     <Static width="13.5" depth="13.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/aksumite/house.xml</Actor>
+    <Actor>structures/aksumites/house.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

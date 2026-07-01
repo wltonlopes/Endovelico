@@ -11,7 +11,7 @@
     <Static width="19.5" depth="19.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/aksumite/stable_camel.xml</Actor>
+    <Actor>structures/aksumites/stable_camel.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

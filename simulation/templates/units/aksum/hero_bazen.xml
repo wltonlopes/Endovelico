@@ -21,6 +21,6 @@
     </Overlay>
   </Selectable>
   <VisualActor>
-    <Actor>units/aksumite/hero_bazen.xml</Actor>
+    <Actor>units/aksumites/hero_bazen_m.xml</Actor>
   </VisualActor>
 </Entity>

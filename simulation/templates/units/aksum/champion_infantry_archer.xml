@@ -6,6 +6,6 @@
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/aksumite/infantry_champion_archer.xml</Actor>
+    <Actor>units/aksumites/infantry_champion_archer.xml</Actor>
   </VisualActor>
 </Entity>

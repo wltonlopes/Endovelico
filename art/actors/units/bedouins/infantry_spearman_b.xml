@@ -86,7 +86,7 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml">
       <props>
-        <prop actor="props/units/helmets/arab_coif_spearman_shield_relax_b.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/arab_coif_spearman_shield_relax.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

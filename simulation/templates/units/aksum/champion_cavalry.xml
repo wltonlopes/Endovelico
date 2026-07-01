@@ -6,6 +6,6 @@
     <Icon>units/achae/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/aksumite/cavalry_axeman_m.xml</Actor>
+    <Actor>units/aksumites/cavalry_axeman_m.xml</Actor>
   </VisualActor>
 </Entity>

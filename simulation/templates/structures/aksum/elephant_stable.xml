@@ -11,7 +11,7 @@
     <Static width="26.5" depth="26.5" />
   </Obstruction>
   <VisualActor>
-    <Actor>structures/aksumite/stable_elephant.xml</Actor>
+    <Actor>structures/aksumites/stable_elephant.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

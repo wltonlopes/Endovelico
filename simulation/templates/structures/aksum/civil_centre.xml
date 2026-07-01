@@ -19,7 +19,7 @@
     <Static width="25.5" depth="24.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/aksumite/civic_center.xml</Actor>
+    <Actor>structures/aksumites/civic_center.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

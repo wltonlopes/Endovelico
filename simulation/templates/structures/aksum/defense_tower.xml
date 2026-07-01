@@ -12,7 +12,7 @@
     <Static width="7.5" depth="7.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/aksumite/defense_tower.xml</Actor>
+    <Actor>structures/aksumites/defense_tower.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

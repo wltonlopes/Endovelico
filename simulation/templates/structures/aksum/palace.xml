@@ -55,7 +55,7 @@
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/aksumite/palace.xml</Actor>
+    <Actor>structures/aksumites/palace.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

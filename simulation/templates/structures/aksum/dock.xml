@@ -17,7 +17,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/aksumite/dock.xml</Actor>
+    <Actor>structures/aksumites/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

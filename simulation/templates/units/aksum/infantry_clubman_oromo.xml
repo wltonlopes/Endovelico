@@ -11,6 +11,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/aksumite/oromo_infantry_clubman.xml</Actor>
+    <Actor>units/aksumites/oromo_infantry_clubman.xml</Actor>
   </VisualActor>
 </Entity>

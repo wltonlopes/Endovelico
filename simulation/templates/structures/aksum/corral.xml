@@ -23,7 +23,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/aksumite/corral.xml</Actor>
+    <Actor>structures/aksumites/corral.xml</Actor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -15,7 +15,7 @@
     <HeightOffset>13.6</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/aksumite/wall_short.xml</Actor>
+    <Actor>structures/aksumites/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>12</Length>

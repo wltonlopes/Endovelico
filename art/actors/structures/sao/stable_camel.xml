@@ -7,9 +7,9 @@
       <props>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
         <prop actor="props/structures/sao/stable_camel_water.xml" attachpoint="root"/>
-        <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_01"/>
-        <prop actor="props/structures/libyans/camel_02.xml" attachpoint="camel_02"/>
-        <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_03"/>
+        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_01"/>
+        <prop actor="props/structures/camel_stable_02.xml" attachpoint="camel_02"/>
+        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_03"/>
       </props>
       <textures>
         <texture file="structural/sao/struct.png" name="baseTex"/>

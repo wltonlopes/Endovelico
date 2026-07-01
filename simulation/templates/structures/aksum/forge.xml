@@ -17,7 +17,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/aksumite/forge.xml</Actor>
+    <Actor>structures/aksumites/forge.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

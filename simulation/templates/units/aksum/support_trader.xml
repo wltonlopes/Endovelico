@@ -12,6 +12,6 @@
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/aksumite/trader.xml</Actor>
+    <Actor>units/aksumites/trader.xml</Actor>
   </VisualActor>
 </Entity>

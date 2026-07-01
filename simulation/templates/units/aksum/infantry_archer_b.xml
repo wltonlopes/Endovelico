@@ -22,6 +22,6 @@
     <Entity>units/aksum/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/aksumite/infantry_archer_b.xml</Actor>
+    <Actor>units/aksumites/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

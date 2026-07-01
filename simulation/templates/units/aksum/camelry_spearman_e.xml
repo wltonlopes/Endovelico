@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/aksumite/camelry_spearman_b_m.xml</Actor>
+    <Actor>units/aksumites/camelry_spearman_b_m.xml</Actor>
   </VisualActor>
 </Entity>

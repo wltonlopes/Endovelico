@@ -11,6 +11,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/aksumite/infantry_slinger_merc.xml</Actor>
+    <Actor>units/aksumites/infantry_slinger_merc.xml</Actor>
   </VisualActor>
 </Entity>

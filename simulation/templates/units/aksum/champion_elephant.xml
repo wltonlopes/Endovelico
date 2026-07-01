@@ -6,6 +6,6 @@
     <Icon>units/maur/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/aksumite/elephantry_c_m.xml</Actor>
+    <Actor>units/aksumites/elephantry_c_m.xml</Actor>
   </VisualActor>
 </Entity>

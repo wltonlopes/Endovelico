@@ -7,11 +7,11 @@
       <props>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/structures/arsacid/parthian/stable_camel_water.xml" attachpoint="root"/>
-        <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_01" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/libyans/camel_02.xml" attachpoint="camel_02" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_03" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/libyans/camel_02.xml" attachpoint="camel_04" maxheight="20" minheight="-20"/>
-        <prop actor="props/structures/libyans/camel_01.xml" attachpoint="camel_05" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/camel_stable_02.xml" attachpoint="camel_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_03" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/camel_stable_02.xml" attachpoint="camel_04" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_05" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/arsa/struct.png" name="baseTex"/>

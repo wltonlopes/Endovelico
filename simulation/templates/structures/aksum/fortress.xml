@@ -12,7 +12,7 @@
     <Static width="25.5" depth="25.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/aksumite/fortress.xml</Actor>
+    <Actor>structures/aksumites/fortress.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
   <Trainer>
