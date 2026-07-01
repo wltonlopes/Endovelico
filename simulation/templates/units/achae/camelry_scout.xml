@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="scout_mount_javelineer">
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>achae</Civ>
     <Lang>persian</Lang>
-    <GenericName>Persian Camelry Scout</GenericName>
-    <SpecificName>Persian Scout</SpecificName>
+    <GenericName>Achaemenid Camelry Scout</GenericName>
+    <SpecificName>Achaemenid Scout</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/achae/camelry_scout.png</Icon>
   </Identity>

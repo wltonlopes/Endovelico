@@ -1,0 +1,88 @@
+{
+    "Code": "achae",
+    "Culture": "achae",
+    "Music": [
+        {
+            "File": "Eastern_Dreams.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [
+        {
+            "Name": "Darics",
+            "History": "",
+            "Description": "Land Traders +25% trade gain."
+        },
+        {
+            "Name": "Large Rams",
+            "History": "",
+            "Description": "Battering Rams +20% attack damage and +2 garrison capacity."
+        },
+        {
+            "Name": "Times of War",
+            "History": "The Achaemenids were known for their large cavalry contingent.",
+            "Description": "The batch training time of units trained in Stables decreases each phase advance."
+        },
+        {
+            "Name": "Satrapy Tribute",
+            "History": "The empire was divided into provinces, called “Satrapies,” that sent yearly tribute to the ruling Achaemenid dynasty in Persepolis as a form of tax.",
+            "Description": "Upgrade the Winter Palace to receive a free trickle of a desired resource."
+        }
+    ],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/achae/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/achae/civil_centre"
+        },
+        {
+            "Template": "units/achae/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/achae/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/achae/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/achae/cavalry_javelineer_b"
+        },
+        {
+            "Template": "units/achae/camelry_scout"
+        }
+    ],
+    "AINames": [
+        "Cambyses II",
+        "Bardiya",
+        "Artaxshacha I",
+        "Darayavahush II",
+        "Darayavahush III",
+        "Artaxshacha II",
+        "Artaxshacha III",
+        "Haxamanish",
+        "Xsayarsa II"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/achae/camelry_scout",
+        "skirmish/units/default_infantry_ranged_b": "units/achae/infantry_archer_b",
+        "skirmish/structures/default_house_10": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
+}

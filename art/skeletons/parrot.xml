@@ -1,84 +1,84 @@
 <?xml version='1.0' encoding='utf-8'?>
 <skeletons>
-  <standard_skeleton title="parrot" id="parrot">
-    <bone name="head"/>
-    <bone name="chest">
-      <bone name="tale1">
-        <bone name="tale2"/>
+  <standard_skeleton title="parrot armature" id="parrot_armature">
+    <bone name="parrot_head" />
+    <bone name="parrot_chest">
+      <bone name="parrot_tale1">
+        <bone name="parrot_tale2" />
       </bone>
     </bone>
-    <bone name="rwing1">
-      <bone name="rwing2">
-        <bone name="rwing3"/>
+    <bone name="parrot_rwing1">
+      <bone name="parrot_rwing2">
+        <bone name="parrot_rwing3" />
       </bone>
     </bone>
-    <bone name="rctrl"/>
-    <bone name="bone.ik"/>
-    <bone name="bone.pole"/>
-    <bone name="lwing1">
-      <bone name="lwing2">
-        <bone name="lwing3"/>
+    <bone name="parrot_lwing1">
+      <bone name="parrot_lwing2">
+        <bone name="parrot_lwing3" />
       </bone>
     </bone>
-    <bone name="lctrl"/>
-    <bone name="bone.ik.001"/>
-    <bone name="bone.pole.001"/>
-    <bone name="Cylinder"/>
+    <bone name="parrot_rctrl" />
+    <bone name="parrot_bone_ik_r" />
+    <bone name="parrot_bone_pole_r" />
+    <bone name="parrot_lctrl" />
+    <bone name="parrot_bone_ik_l" />
+    <bone name="parrot_bone_pole_l" />
+    <bone name="parrot" />
   </standard_skeleton>
-  <skeleton title="parrot" target="parrot">
+  <skeleton title="parrot armature" target="parrot_armature">
     <identifier>
-      <root>head</root>
+      <root>parrot_head</root>
     </identifier>
-    <bone name="head">
-      <target>head</target>
+    <bone name="parrot_head">
+      <target>parrot_head</target>
     </bone>
-    <bone name="chest">
-      <target>chest</target>
-      <bone name="tale1">
-        <target>tale1</target>
-        <bone name="tale2">
-          <target>tale2</target>
+    <bone name="parrot_chest">
+      <target>parrot_chest</target>
+      <bone name="parrot_tale1">
+        <target>parrot_tale1</target>
+        <bone name="parrot_tale2">
+          <target>parrot_tale2</target>
         </bone>
       </bone>
     </bone>
-    <bone name="rwing1">
-      <target>rwing1</target>
-      <bone name="rwing2">
-        <target>rwing2</target>
-        <bone name="rwing3">
-          <target>rwing3</target>
+    <bone name="parrot_rwing1">
+      <target>parrot_rwing1</target>
+      <bone name="parrot_rwing2">
+        <target>parrot_rwing2</target>
+        <bone name="parrot_rwing3">
+          <target>parrot_rwing3</target>
         </bone>
       </bone>
     </bone>
-    <bone name="rctrl">
-      <target>rctrl</target>
-    </bone>
-    <bone name="bone.ik">
-      <target>bone.ik</target>
-    </bone>
-    <bone name="bone.pole">
-      <target>bone.pole</target>
-    </bone>
-    <bone name="lwing1">
-      <target>lwing1</target>
-      <bone name="lwing2">
-        <target>lwing2</target>
-        <bone name="lwing3">
-          <target>lwing3</target>
+    <bone name="parrot_lwing1">
+      <target>parrot_lwing1</target>
+      <bone name="parrot_lwing2">
+        <target>parrot_lwing2</target>
+        <bone name="parrot_lwing3">
+          <target>parrot_lwing3</target>
         </bone>
       </bone>
     </bone>
-    <bone name="lctrl">
-      <target>lctrl</target>
+    <bone name="parrot_rctrl">
+      <target>parrot_rctrl</target>
     </bone>
-    <bone name="bone.ik.001">
-      <target>bone.ik.001</target>
+    <bone name="parrot_bone_ik_r">
+      <target>parrot_bone_ik_r</target>
     </bone>
-    <bone name="bone.pole.001">
-      <target>bone.pole.001</target>
+    <bone name="parrot_bone_pole_r">
+      <target>parrot_bone_pole_r</target>
     </bone>
-    <bone name="Cylinder">
-      <target>Cylinder</target>
+    <bone name="parrot_lctrl">
+      <target>parrot_lctrl</target>
+    </bone>
+    <bone name="parrot_bone_ik_l">
+      <target>parrot_bone_ik_l</target>
+    </bone>
+    <bone name="parrot_bone_pole_l">
+      <target>parrot_bone_pole_l</target>
+    </bone>
+    <bone name="parrot">
+      <target>parrot</target>
     </bone>
   </skeleton>
 </skeletons>
