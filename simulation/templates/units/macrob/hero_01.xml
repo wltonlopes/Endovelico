@@ -3,13 +3,13 @@
   <Auras datatype="tokens">
   </Auras>
   <Identity>
-    <Civ>sao</Civ>
+    <Civ>macrob</Civ>
     <Phenotype>female</Phenotype>
-    <GenericName>Queen</GenericName>
-    <SpecificName>Nyal</SpecificName>
+    <GenericName>Queen Haramaanyo</GenericName>
+    <SpecificName>Haramaanyo</SpecificName>
     <Icon>units/gara/hero_1.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/sao/hero_cavalry_javelineer_m.xml</Actor>
+    <Actor>units/macrobia/hero_cavalry_javelineer_m.xml</Actor>
   </VisualActor>
 </Entity>

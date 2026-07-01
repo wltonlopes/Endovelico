@@ -10,6 +10,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/macrobians/forge.xml</Actor>
+    <Actor>structures/macrobia/forge.xml</Actor>
   </VisualActor>
 </Entity>

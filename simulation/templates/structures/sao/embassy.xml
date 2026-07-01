@@ -27,6 +27,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/camelry_spearman_b
     </Entities>
   </Trainer>
   <VisualActor>

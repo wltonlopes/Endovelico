@@ -10,6 +10,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>structures/macrobians/stable_elephant.xml</Actor>
+    <Actor>structures/macrobia/stable_elephant.xml</Actor>
   </VisualActor>
 </Entity>

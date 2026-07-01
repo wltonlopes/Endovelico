@@ -54,16 +54,12 @@
 			"Count":5
 		},
 		{
-			"Template": "units/macrob/infantry_axeman_b",
+			"Template": "units/macrob/infantry_spearman_b",
 			"Count": 3
 		},
 		{
 			"Template": "units/macrob/infantry_archer_b",
 			"Count": 2
-		},
-		{
-			"Template": "units/macrob/cavalry_maceman_b",
-			"Count": 1
 		},
 		{
 			"Template": "units/macrob/cavalry_javelineer_b",
@@ -74,14 +70,14 @@
 	"AINames":
 	[
 
-    "Oma Idoko",	
-    "Oduduwa",
-	"Shango"
+    "Arawelo",	
+    "Kenadiid",
+	"Haramaanyo"
 	],
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_cavalry": "units/macrob/cavalry_javelineer_b",
-		"skirmish/units/default_infantry_melee_b": "units/macrob/infantry_axeman_b",
+		"skirmish/units/default_infantry_melee_b": "units/macrob/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/macrob/infantry_archer_b",
 	    "skirmish/units/default_ship_trireme":"units/macrob/ship_bireme"
 	},

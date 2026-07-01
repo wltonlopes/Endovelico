@@ -23,7 +23,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/macrobians/range.xml</Actor>
+    <Actor>structures/macrobia/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

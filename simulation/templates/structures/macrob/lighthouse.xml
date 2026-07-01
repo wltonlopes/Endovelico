@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <BuildRestrictions>
+    <Territory>own ally neutral</Territory>
+    <PlacementType>shore</PlacementType>
+    <Category>Lighthouse</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <stone>200</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="14.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>macrob</Civ>
+    <GenericName>Lighthouse</GenericName>
+    <!-- <SpecificName>Pharos</SpecificName> -->
+    <Tooltip>Build upon a shoreline in own, neutral, or allied territory. Very large vision range.</Tooltip>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>
+    <Icon>structures/lighthouse.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>40</stone>
+    <metal>40</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="20.0" depth="25.0"/>
+  </Obstruction>
+  <Position>
+    <Floating>true</Floating>
+    <FloatDepth>0.0</FloatDepth>
+  </Position>
+  <ProductionQueue disable=""/>
+  <Researcher disable=""/>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_temple.xml</select>
+      <constructed>interface/complete/building/complete_temple.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
+  <Trainer disable=""/>
+  <Vision>
+    <Range>325</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/macrobia/farol.xml</Actor>
+    <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -12,6 +12,6 @@
     <Static width="12" depth="12"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/macrobians/defense_tower.xml</Actor>
+    <Actor>structures/macrobia/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

@@ -11,7 +11,7 @@
     <Static width="9.5" depth="9.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/macrobians/wall_tower.xml</Actor>
+    <Actor>structures/macrobia/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>10</Length>

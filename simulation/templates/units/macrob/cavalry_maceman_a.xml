@@ -7,6 +7,6 @@
     <Entity>units/nok/cavalry_maceman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/nok/cavalry_maceman_b_m.xml</Actor>
+    <Actor>units/macrobia/cavalry_maceman_b_m.xml</Actor>
   </VisualActor>
 </Entity>

@@ -12,7 +12,7 @@
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/macrobians/fortress.xml</Actor>
+    <Actor>structures/macrobia/fortress.xml</Actor>
   </VisualActor>
   <Trainer>
     <Entities datatype="tokens">

@@ -20,7 +20,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/macrobians/cushi.xml</Actor>
+    <Actor>structures/macrobia/cushi.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

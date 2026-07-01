@@ -10,7 +10,6 @@
   </Health>
   <Identity>
     <Civ>macrob</Civ>
-    <SpecificName>Ile Idoti</SpecificName> 
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
@@ -30,7 +29,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/macrobians/arsenal.xml</Actor>
+    <Actor>structures/macrobia/arsenal.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

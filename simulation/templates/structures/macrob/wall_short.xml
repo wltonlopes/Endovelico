@@ -13,7 +13,7 @@
     <Static width="9.5" depth="7.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/macrobians/wall_short.xml</Actor>
+    <Actor>structures/macrobia/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>7.0</Length>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>macrob</Civ>
+    <Phenotype>female</Phenotype>
+    <GenericName>Queen Arawelo</GenericName>
+    <Icon>units/kush/hero_amanirenas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macrobia/hero_cavalry_swordsman_m.xml</Actor>
+  </VisualActor>
+</Entity>

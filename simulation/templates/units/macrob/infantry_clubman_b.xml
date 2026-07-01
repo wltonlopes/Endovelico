@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_melee_clubman">
+  <Identity>
+    <Civ>macrob</Civ>
+    <SelectionGroupName>units/macrob/infantry_clubman_b</SelectionGroupName>
+    <SpecificName>Tribal Clubman</SpecificName>
+    <Icon>units/moch/infantry_clubman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/macrobia/infantry_maceman_merc.xml</Actor>
+  </VisualActor>
+</Entity>

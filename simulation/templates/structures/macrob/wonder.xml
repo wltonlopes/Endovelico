@@ -12,6 +12,6 @@
     <Static depth="48.0" width="43.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/macrobians/wonder.xml</Actor>
+    <Actor>structures/macrobia/wonder.xml</Actor>
   </VisualActor>
 </Entity>

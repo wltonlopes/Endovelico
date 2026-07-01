@@ -3,11 +3,11 @@
   <castshadow/>
   <float/>
   <group>
-    <variant frequency="1" name="ship merchant">
-      <mesh>structural/macrobian/ship_merc.dae</mesh>
+    <variant frequency="1" name="ship arrow">
+      <mesh>structural/macrobian/ship_long.dae</mesh>
       <props>
-        <prop actor="structures/macrobians/ship_sail.xml" attachpoint="sail"/>
-        <prop actor="structures/macrobians/merchant_ship_prop.xml" attachpoint="root"/>
+        <prop actor="structures/macrobia/ship_sail.xml" attachpoint="sail"/>
+        <prop actor="structures/macrobia/ship_sail.xml" attachpoint="sail_02"/>
       </props>
       <textures>
         <texture file="structural/ship_macrob.png" name="baseTex"/>

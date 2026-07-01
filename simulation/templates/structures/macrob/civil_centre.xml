@@ -12,6 +12,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/macrobians/civic_center.xml</Actor>
+    <Actor>structures/macrobia/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

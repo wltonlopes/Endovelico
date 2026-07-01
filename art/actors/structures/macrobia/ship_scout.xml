@@ -6,7 +6,7 @@
     <variant frequency="1" name="ship scout">
       <mesh>structural/macrobian/ship_medium.dae</mesh>
       <props>
-      <prop actor="structures/macrobians/ship_sail.xml" attachpoint="sail"/>
+      <prop actor="structures/macrobia/ship_sail.xml" attachpoint="sail"/>
       </props>
       <textures>
         <texture file="structural/ship_macrob.png" name="baseTex"/>

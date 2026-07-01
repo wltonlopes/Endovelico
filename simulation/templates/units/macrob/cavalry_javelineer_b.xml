@@ -33,6 +33,6 @@
   </StatusBars>
   
   <VisualActor>
-    <Actor>units/nok/cavalry_javelinist_b_m.xml</Actor>
+    <Actor>units/macrobia/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

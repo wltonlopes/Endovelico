@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="merc_inf|camelry|template_unit_cavalry_ranged_archer">
+<Entity parent="merc_inf|camelry|template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>sao</Civ>
     <SelectionGroupName>units/sao/camelry_archer_b</SelectionGroupName>
     <GenericName>Sahelian Dromedary Rider</GenericName>
-    <Icon>units/yayo/cavalry_archer_merc.png</Icon>
+    <Icon>units/iber/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/sao/camelry_archer_merc_m.xml</Actor>
+    <Actor>units/sao/camelry_spearman_merc_m.xml</Actor>
   </VisualActor>
 </Entity>

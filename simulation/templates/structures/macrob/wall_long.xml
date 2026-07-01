@@ -60,7 +60,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/macrobians/wall_long.xml</Actor>
+    <Actor>structures/macrobia/wall_long.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>30.0</Length>

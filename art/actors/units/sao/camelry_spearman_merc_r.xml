@@ -2,11 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Helmet">
+    <variant frequency="100" name="Base">
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/heads/head_african_1.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet"/>
       </props>
       <textures>
@@ -38,15 +38,10 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/camelry/base_archer_relax.xml"/>
-    <variant file="biped/rider/camelry/carry_meat.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/camelry/promotion.xml"/>
-    <variant file="biped/rider/camelry/attack_ranged_archer_right.xml"/>
+    <variant file="biped/rider/camelry/base_spearman_relax.xml"/>
+    <variant file="biped/rider/camelry/promotion.xml" name="promotion"/>
     <variant file="biped/rider/camelry/attack_slaughter.xml"/>
     <variant file="biped/rider/camelry/gather_meat.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>
