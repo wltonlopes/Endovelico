@@ -9,6 +9,6 @@
     <Icon>units/kush/hero_amanirenas.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/macrobia/hero_infantry_spearman_m.xml</Actor>
+    <Actor>units/macrobia/hero_infantry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

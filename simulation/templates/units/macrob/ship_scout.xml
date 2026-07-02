@@ -10,6 +10,6 @@
     <Icon>units/hele/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/macrobians/ship_scout.xml</Actor>
+    <Actor>structures/macrobia/ship_scout.xml</Actor>
   </VisualActor>
 </Entity>

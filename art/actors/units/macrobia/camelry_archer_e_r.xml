@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Helmet">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/afro_aksum_male_long.xml" attachpoint="head"/>
@@ -11,7 +11,7 @@
       </props>
     </variant>
     <variant frequency="1" name="Helmet-coif">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/afro_aksum_male_long.xml" attachpoint="head"/>

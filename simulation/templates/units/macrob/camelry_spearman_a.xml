@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/macrob/cavalry_maceman_b">
+<Entity parent="units/macrob/camelry_spearman_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/nok/cavalry_maceman_e</Entity>
+    <Entity>units/macrob/camelry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/macrobia/cavalry_maceman_b_m.xml</Actor>
+    <Actor>units/macrobia/camelry_spearman_a_m.xml</Actor>
   </VisualActor>
 </Entity>

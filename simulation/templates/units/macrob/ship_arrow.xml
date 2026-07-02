@@ -10,6 +10,6 @@
     <Icon>units/mace/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/macrobians/ship_arrow.xml</Actor>
+    <Actor>structures/macrobia/ship_arrow.xml</Actor>
   </VisualActor>
 </Entity>

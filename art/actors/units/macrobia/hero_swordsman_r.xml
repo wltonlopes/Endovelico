@@ -2,13 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="hair_04                                                                                                                                                                                                          j">
+    <variant frequency="1" name="hair_04">
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_fem_02.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/macrob_hero_female.xml" attachpoint="head"/>
         <prop actor="props/units/shields/macrob_round_basic.xml" attachpoint="shield_arm"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>    
+        <prop actor="props/units/weapons/gara_sword.xml" attachpoint="weapon_R"/>    
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -18,15 +18,22 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_spearman_relax_reverse_02.xml" name="Spearman-Relax-Reverse-02" frequency="1"/>
+    <variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml" frequency="1" name="Swordsman-Relax-Shield"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/attack_slaughter_hele.xml"/>
     <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/rider/attack_slaughter_pers.xml"/>
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>

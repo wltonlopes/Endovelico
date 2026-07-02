@@ -17,6 +17,9 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
+     units/macrob/infantry_swordsman_merc
+     units/macrob/infantry_clubman_merc
+     units/macrob/infantry_slinger_merc
     </Entities>
   </Trainer>
   <VisualActor>

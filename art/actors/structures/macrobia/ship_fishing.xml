@@ -11,7 +11,7 @@
         <texture file="structural/ship_macrob_norm.png" name="normTex"/>
       </textures>
       <props>
-        <prop actor="units/mauryas/fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="units/macrobia/navigator.xml" attachpoint="fisherman"/>
       </props>
     </variant>
   </group>

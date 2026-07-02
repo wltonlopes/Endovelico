@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>skeletal/new/m_dress.dae</mesh>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/afro_aksum_male.xml" attachpoint="head"/>

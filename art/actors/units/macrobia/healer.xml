@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/afro_aksum_male.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/afric_turban_white.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/afric_turban_white.xml" attachpoint="head"/>
         <prop actor="props/units/staff.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
