@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skeletons>
+  <standard_skeleton title="GuanacoArmature" id="GuanacoArmature">
+    <bone name="guanaco_root">
+      <bone name="guanaco_pelvis">
+        <bone name="guanaco_spine">
+          <bone name="guanaco_spine1">
+            <bone name="guanaco_spine2">
+              <bone name="guanaco_neck_01">
+                <bone name="guanaco_neck_02">
+                  <bone name="guanaco_neck_03">
+                    <bone name="guanaco_neck_04">
+                      <bone name="guanaco_head">
+                        <bone name="guanaco_bot_jaw_1">
+                          <bone name="guanaco_bot_jaw_2"/>
+                        </bone>
+                        <bone name="guanaco_top_jaw">
+                          <bone name="guanaco_top_jaw_r"/>
+                          <bone name="guanaco_top_jaw_l"/>
+                        </bone>
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+            <bone name="guanaco_shoulder_r">
+              <bone name="guanaco_upperarm_r">
+                <bone name="guanaco_arm_r">
+                  <bone name="guanaco_forearm_r">
+                    <bone name="guanaco_hand_r">
+                      <bone name="guanaco_hoof_r"/>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+            <bone name="guanaco_shoulder_l">
+              <bone name="guanaco_upperarm_l">
+                <bone name="guanaco_arm_l">
+                  <bone name="guanaco_forearm_l">
+                    <bone name="guanaco_hand_l">
+                      <bone name="guanaco_hoof_l"/>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="guanaco_belly"/>
+        </bone>
+        <bone name="guanaco_tail">
+          <bone name="guanaco_tail_01">
+            <bone name="guanaco_tail_02">
+              <bone name="guanaco_tail_03"/>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="guanaco_femur_r">
+          <bone name="guanaco_thigh_r">
+            <bone name="guanaco_leg_r">
+              <bone name="guanaco_foreleg_r">
+                <bone name="guanaco_shin_r">
+                  <bone name="guanaco_foot_r">
+                    <bone name="guanaco_hoof_back_r"/>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="guanaco_femur_l">
+          <bone name="guanaco_thigh_l">
+            <bone name="guanaco_leg_l">
+              <bone name="guanaco_foreleg_l">
+                <bone name="guanaco_shin_l">
+                  <bone name="guanaco_foot_l">
+                    <bone name="guanaco_hoof_back_l"/>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="guanaco_tail_root"/>
+      </bone>
+      <bone name="guanaco_rein"/>
+    </bone>
+  </standard_skeleton>
+  <skeleton title="GuanacoArmature" target="GuanacoArmature">
+    <identifier>
+      <root>guanaco_root</root>
+    </identifier>
+    <bone name="guanaco_root">
+      <target>guanaco_root</target>
+      <bone name="guanaco_pelvis">
+        <target>guanaco_pelvis</target>
+        <bone name="guanaco_spine">
+          <target>guanaco_spine</target>
+          <bone name="guanaco_spine1">
+            <target>guanaco_spine1</target>
+            <bone name="guanaco_spine2">
+              <target>guanaco_spine2</target>
+              <bone name="guanaco_neck_01">
+                <target>guanaco_neck_01</target>
+                <bone name="guanaco_neck_02">
+                  <target>guanaco_neck_02</target>
+                  <bone name="guanaco_neck_03">
+                    <target>guanaco_neck_03</target>
+                    <bone name="guanaco_neck_04">
+                      <target>guanaco_neck_04</target>
+                      <bone name="guanaco_head">
+                        <target>guanaco_head</target>
+                        <bone name="guanaco_bot_jaw_1">
+                          <target>guanaco_bot_jaw_1</target>
+                          <bone name="guanaco_bot_jaw_2">
+                            <target>guanaco_bot_jaw_2</target>
+                          </bone>
+                        </bone>
+                        <bone name="guanaco_top_jaw">
+                          <target>guanaco_top_jaw</target>
+                          <bone name="guanaco_top_jaw_r">
+                            <target>guanaco_top_jaw_r</target>
+                          </bone>
+                          <bone name="guanaco_top_jaw_l">
+                            <target>guanaco_top_jaw_l</target>
+                          </bone>
+                        </bone>
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+            <bone name="guanaco_shoulder_r">
+              <target>guanaco_shoulder_r</target>
+              <bone name="guanaco_upperarm_r">
+                <target>guanaco_upperarm_r</target>
+                <bone name="guanaco_arm_r">
+                  <target>guanaco_arm_r</target>
+                  <bone name="guanaco_forearm_r">
+                    <target>guanaco_forearm_r</target>
+                    <bone name="guanaco_hand_r">
+                      <target>guanaco_hand_r</target>
+                      <bone name="guanaco_hoof_r">
+                        <target>guanaco_hoof_r</target>
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+            <bone name="guanaco_shoulder_l">
+              <target>guanaco_shoulder_l</target>
+              <bone name="guanaco_upperarm_l">
+                <target>guanaco_upperarm_l</target>
+                <bone name="guanaco_arm_l">
+                  <target>guanaco_arm_l</target>
+                  <bone name="guanaco_forearm_l">
+                    <target>guanaco_forearm_l</target>
+                    <bone name="guanaco_hand_l">
+                      <target>guanaco_hand_l</target>
+                      <bone name="guanaco_hoof_l">
+                        <target>guanaco_hoof_l</target>
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="guanaco_belly">
+            <target>guanaco_belly</target>
+          </bone>
+        </bone>
+        <bone name="guanaco_tail">
+          <target>guanaco_tail</target>
+          <bone name="guanaco_tail_01">
+            <target>guanaco_tail_01</target>
+            <bone name="guanaco_tail_02">
+              <target>guanaco_tail_02</target>
+              <bone name="guanaco_tail_03">
+                <target>guanaco_tail_03</target>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="guanaco_femur_r">
+          <target>guanaco_femur_r</target>
+          <bone name="guanaco_thigh_r">
+            <target>guanaco_thigh_r</target>
+            <bone name="guanaco_leg_r">
+              <target>guanaco_leg_r</target>
+              <bone name="guanaco_foreleg_r">
+                <target>guanaco_foreleg_r</target>
+                <bone name="guanaco_shin_r">
+                  <target>guanaco_shin_r</target>
+                  <bone name="guanaco_foot_r">
+                    <target>guanaco_foot_r</target>
+                    <bone name="guanaco_hoof_back_r">
+                      <target>guanaco_hoof_back_r</target>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="guanaco_femur_l">
+          <target>guanaco_femur_l</target>
+          <bone name="guanaco_thigh_l">
+            <target>guanaco_thigh_l</target>
+            <bone name="guanaco_leg_l">
+              <target>guanaco_leg_l</target>
+              <bone name="guanaco_foreleg_l">
+                <target>guanaco_foreleg_l</target>
+                <bone name="guanaco_shin_l">
+                  <target>guanaco_shin_l</target>
+                  <bone name="guanaco_foot_l">
+                    <target>guanaco_foot_l</target>
+                    <bone name="guanaco_hoof_back_l">
+                      <target>guanaco_hoof_back_l</target>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="guanaco_tail_root">
+          <target>guanaco_tail_root</target>
+        </bone>
+      </bone>
+      <bone name="guanaco_rein">
+        <target>guanaco_rein</target>
+      </bone>
+    </bone>
+  </skeleton>
+</skeletons>

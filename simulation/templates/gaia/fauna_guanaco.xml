@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>35</food>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Guanaco</GenericName>
+    <SpecificName>Guanaco</SpecificName>
+    <Icon>gaia/fauna_llama.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>fauna/guanaco.xml</Actor>
+  </VisualActor>
+</Entity>

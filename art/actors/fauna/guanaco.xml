@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/guanaco.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/base_guanaco_fauna.xml"/>
+    <variant file="quadraped/base_guanaco_run.xml"/>
+    <variant file="quadraped/base_guanaco_death.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="skeletal/guanaco.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>
