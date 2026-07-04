@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_civic_temple">
   <Auras datatype="tokens">
     structures/athen_prytaneion_hero_heal
   </Auras>
@@ -22,9 +22,8 @@
   </Health>
   <Identity>
     <Civ>damar</Civ>
-    <GenericName>Big forge</GenericName>
-    <SpecificName> </SpecificName>
-    <Tooltip>Train heroes and research technologies.</Tooltip>
+    <GenericName>Temple</GenericName>
+    <Tooltip>Train.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Council</VisibleClasses>
     <Icon>structures/tholos.png</Icon>
@@ -47,18 +46,11 @@
     <Radius>38</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/hero_01
-      units/{civ}/hero_02
-      units/{civ}/hero_03
-    </Entities>
-  </Trainer>
   <Vision>
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/damara/special_forge.xml</Actor>
+    <Actor>structures/damara/temple_special.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

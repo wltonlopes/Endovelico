@@ -5,6 +5,7 @@
     <variant frequency="1" name="Damara Forge">
       <mesh>structural/damara/forge.dae</mesh>
       <props>
+        <prop actor="props/structures/damara/forge_wall.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>

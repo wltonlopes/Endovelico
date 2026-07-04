@@ -5,6 +5,7 @@
     <variant frequency="1" name="Damara Market">
       <mesh>structural/damara/market.dae</mesh>
       <props>
+        <prop actor="props/structures/damara/market_wall.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_01"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01"/>

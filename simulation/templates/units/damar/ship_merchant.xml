@@ -18,6 +18,6 @@
     </Overlay>
   </Selectable>
   <VisualActor>
-    <Actor>structures/urewe/merchant_ship.xml</Actor>
+    <Actor>structures/damara/merchant_ship.xml</Actor>
   </VisualActor>
 </Entity>

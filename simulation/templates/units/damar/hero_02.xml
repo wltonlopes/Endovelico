@@ -10,6 +10,6 @@
     <Icon>units/urew/hero_02.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/damara/hero_javelinist_m.xml</Actor>
+    <Actor>units/damara/hero_archer_m.xml</Actor>
   </VisualActor>
 </Entity>

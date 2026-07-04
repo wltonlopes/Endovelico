@@ -5,6 +5,7 @@
     <variant frequency="1" name="Damara Range">
       <mesh>structural/damara/range.dae</mesh>
       <props>
+        <prop actor="props/structures/damara/range_wall.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
       </props>
       <textures>

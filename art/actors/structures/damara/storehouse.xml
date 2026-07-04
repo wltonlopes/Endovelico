@@ -5,6 +5,7 @@
     <variant frequency="1" name="Damara Storehouse">
       <mesh>structural/damara/storehouse.dae</mesh>
       <props>
+        <prop actor="props/structures/damara/storehouse_wall.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
       </props>
       <textures>

@@ -5,7 +5,7 @@
     <variant file="quadraped/base_bovidae_attack.xml" name="Base">
       <mesh>skeletal/sanga_cattle_a.dae</mesh>
       <props>
-        <prop actor="units/damara/hero_javelinist_r.xml" attachpoint="root" maxheight="3" minheight="3.2"/>
+        <prop actor="units/damara/hero_archer_r.xml" attachpoint="root" maxheight="3" minheight="3.2"/>
       </props>
     </variant>
   </group>

@@ -6,6 +6,7 @@
       <mesh>structural/damara/farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/damara/farmstead_wall.xml" attachpoint="root"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
       </props>

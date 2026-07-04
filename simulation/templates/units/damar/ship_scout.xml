@@ -54,7 +54,7 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/urewe/raft_war.xml</Actor>
+    <Actor>structures/damara/raft_war.xml</Actor>
   </VisualActor>
   <UnitMotion>
     <PassabilityClass>ship-small</PassabilityClass>
