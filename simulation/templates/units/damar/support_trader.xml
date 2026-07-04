@@ -5,13 +5,13 @@
     <Height>4</Height>
   </Footprint>
   <Identity>
-    <Civ>sao</Civ>
+    <Civ>damar</Civ>
     <Lang>napatan</Lang>
     <GenericName>Nilotic Merchant</GenericName>
     <SpecificName>rmt sbt</SpecificName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/sao/trader.xml</Actor>
+    <Actor>units/damara/trader.xml</Actor>
   </VisualActor>
 </Entity>

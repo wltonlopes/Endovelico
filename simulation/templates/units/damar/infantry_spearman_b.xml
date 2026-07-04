@@ -2,13 +2,12 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-
     </Entities>
   </Builder>
   <Identity>
-    <Civ>sao</Civ>
+    <Civ>damar</Civ>
     <Lang>napatan</Lang>
-    <SelectionGroupName>units/sao/infantry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/damar/infantry_spearman_b</SelectionGroupName>
     <GenericName>Nubian Spearman</GenericName>
     <SpecificName>iry-rdwy Nhsyw</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
@@ -17,9 +16,9 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/sao/infantry_spearman_a</Entity>
+    <Entity>units/damar/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/sao/infantry_spearman_b.xml</Actor>
+    <Actor>units/damara/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

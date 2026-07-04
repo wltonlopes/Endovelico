@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="war_hut|template_structure_military_stable">
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>damar</Civ>
+    <GenericName>War Hut</GenericName>
+    <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="27.5" depth="27.5"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/cavalry_scout_melee
+      units/{civ}/cavalry_scout
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/damara/stable_bull.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

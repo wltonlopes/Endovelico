@@ -9,8 +9,7 @@
       </animations>
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_04.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/zapo_oar.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
@@ -19,25 +18,25 @@
       </textures>
     </variant>
   </group>
- <group>
-    <variant frequency="1" name="robes_04_01">
+  <group>
+    <variant frequency="1" name="ir_01_01">
       <textures>
-        <texture file="skeletal/sao/i_l_01_01.png" name="baseTex"/>
+        <texture file="skeletal/damara/civ_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_01_02">
+    <variant frequency="1" name="ir_01_02">
       <textures>
-        <texture file="skeletal/sao/i_l_01_02.png" name="baseTex"/>
+        <texture file="skeletal/damara/civ_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_01_03">
+    <variant frequency="1" name="ir_01_03">
       <textures>
-        <texture file="skeletal/sao/i_l_01_03.png" name="baseTex"/>
+        <texture file="skeletal/damara/civ_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="im_01_04">
+    <variant frequency="1" name="ir_01_04">
       <textures>
-        <texture file="skeletal/sao/i_l_01_04.png" name="baseTex"/>
+        <texture file="skeletal/damara/civ_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

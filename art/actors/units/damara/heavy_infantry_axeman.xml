@@ -5,8 +5,7 @@
     <variant frequency="100" name="Helmet-coif">
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>    
+        <prop actor="props/units/heads/head_afri_04.xml" attachpoint="head"/>    
         <prop actor="props/units/weapons/axe_twohanded_mauryan.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
@@ -18,22 +17,22 @@
   <group>
     <variant frequency="1" name="Tunic-01-01">
       <textures>
-        <texture file="skeletal/sao/i_h_01_01.png" name="baseTex"/>
+        <texture file="skeletal/damara/i_h_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Tunic-01-02">
       <textures>
-        <texture file="skeletal/sao/i_h_01_02.png" name="baseTex"/>
+        <texture file="skeletal/damara/i_h_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Tunic-01-03">
       <textures>
-        <texture file="skeletal/sao/i_h_01_03.png" name="baseTex"/>
+        <texture file="skeletal/damara/i_h_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Tunic-01-04">
       <textures>
-        <texture file="skeletal/sao/i_h_01_04.png" name="baseTex"/>
+        <texture file="skeletal/damara/i_h_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

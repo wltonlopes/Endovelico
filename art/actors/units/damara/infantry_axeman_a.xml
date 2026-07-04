@@ -5,9 +5,9 @@
     <variant frequency="1" name="Helmet">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_afri_03.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/hair_sao_male_all.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/axe_single.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/head_afri_04.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/axe_sagaris.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/damar_round_large_01_cow.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -18,27 +18,27 @@
   <group>
     <variant frequency="1" name="im_02_01">
       <textures>
-        <texture file="skeletal/sao/i_l_02_01.png" name="baseTex"/>
+        <texture file="skeletal/damara/i_l_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="im_02_02">
       <textures>
-        <texture file="skeletal/sao/i_l_02_02.png" name="baseTex"/>
+        <texture file="skeletal/damara/i_l_02_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="im_02_03">
       <textures>
-        <texture file="skeletal/sao/i_l_02_03.png" name="baseTex"/>
+        <texture file="skeletal/damara/i_l_02_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="im_02_04">
       <textures>
-        <texture file="skeletal/sao/i_l_02_04.png" name="baseTex"/>
+        <texture file="skeletal/damara/i_l_02_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_shield_relax.xml"/>
+    <variant file="biped/base_axeman_shield_fast.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>

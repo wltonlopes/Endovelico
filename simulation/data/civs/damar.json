@@ -1,0 +1,83 @@
+﻿{
+    "Code": "damar",
+    "Name": "Damara",
+    "Culture":[ "damara"],
+    "Region": [
+        "Africa"
+    ],
+    "Music": [
+        {
+            "File": "Ammon-Ra.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sands_of_Time.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Valley_of_the_Nile.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Point_of_No_Return.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/damar/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/damar/civil_centre"
+        },
+        {
+            "Template": "units/damar/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/damar/infantry_maceman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/damar/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "gaia/fauna_cattle_cow_trainable",
+            "Count": 1
+        },
+        {
+            "Template": "units/damar/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Mwami",
+        "Ntare",
+        "Mutota",
+        "Nyaga",
+        "Gihanga"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/damar/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/damar/infantry_maceman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/damar/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
+        "skirmish/units/default_ship_trireme": "units/damar/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

@@ -5,11 +5,11 @@
     <Height>3.0</Height>
   </Footprint>
   <Identity>
-    <Civ>sao</Civ>
+    <Civ>damar</Civ>
     <SpecificName></SpecificName>
     <Icon>units/celt/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/sao/siege_ram.xml</Actor>
+    <Actor>units/subsaara/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

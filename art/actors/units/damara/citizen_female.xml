@@ -5,34 +5,29 @@
     <variant>
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_afri_fem_02.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/hair_sao_female.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_fem_04.xml" attachpoint="head"/>
       </props>
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="f_01_01">
       <textures>
-        <texture file="skeletal/sao/f_01.png" name="baseTex"/>
+        <texture file="skeletal/damara/f_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="f_01_02">
       <textures>
-        <texture file="skeletal/sao/f_02.png" name="baseTex"/>
+        <texture file="skeletal/damara/f_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="f_01_03">
       <textures>
-        <texture file="skeletal/sao/f_03.png" name="baseTex"/>
+        <texture file="skeletal/damara/f_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="f_01_04">
       <textures>
-        <texture file="skeletal/sao/f_04.png" name="baseTex"/>
+        <texture file="skeletal/damara/f_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/shield/round_large_no_boss.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="damar-Shield-Round-Cow-01-01">
+      <textures>
+        <texture file="props/shield/damar_round_cow_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="damar-Shield-Round-Cow-01-02">
+      <textures>
+        <texture file="props/shield/damar_round_cow_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
