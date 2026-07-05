@@ -12,7 +12,7 @@
     <Static depth="33.5" width="44.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/aksum/wonder.xml</Actor>
+    <Actor>structures/azania/wonder.xml</Actor>
     <FoundationActor>structures/fndn_9x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

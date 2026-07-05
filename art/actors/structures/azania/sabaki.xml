@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Azania Palace">
-      <mesh>structural/azania/palace.dae</mesh>
+    <variant frequency="1" name="Azania sabaki">
+      <mesh>structural/azania/sabaki.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
@@ -11,7 +11,7 @@
         <texture file="structural/azan/struct.png" name="baseTex"/>
         <texture file="structural/azan/struct_spec.png" name="specTex"/>
         <texture file="structural/azan/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/azan/palace_ao.png" name="aoTex"/>
+        <texture file="structural/ao/azan/sabaki_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -5,6 +5,9 @@
     <variant frequency="1" name="Azania Wonder">
       <mesh>structural/azania/wonder.dae</mesh>
       <props>
+        <prop actor="structures/azania/wonder_base.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>
       <textures>
@@ -35,5 +38,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax_spec.xml</material>
+  <material>basic_trans_ao_parallax_spec.xml</material>
 </actor>
