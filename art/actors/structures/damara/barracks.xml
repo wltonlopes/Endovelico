@@ -20,7 +20,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_khoi.xml" attachpoint="garrisoned" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_khoi.xml" attachpoint="garrisoned_02" selectable="false"/>
+        <prop actor="props/special/common/garrison_flag_khoi.xml" attachpoint="garrisoned_01" selectable="false"/>
       </props>
     </variant>
   </group>
