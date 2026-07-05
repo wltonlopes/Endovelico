@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-07-04T21:01:58</created>
+    <modified>2026-07-04T21:01:58</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="textura_kwa_General-effect">
+      <profile_COMMON>
+        <newparam sid="units_kwa_png-surface">
+          <surface type="2D">
+            <init_from>units_kwa_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="units_kwa_png-sampler">
+          <sampler2D>
+            <source>units_kwa_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="units_kwa_png-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="units_kwa_png" name="units_kwa_png">
+      <init_from>/home/welton/Downloads/africa_cis/kwa/units_kwa.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="textura_kwa_General-material" name="textura kwa General">
+      <instance_effect url="#textura_kwa_General-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_061-mesh" name="Cubo.061">
+      <mesh>
+        <source id="Cubo_061-mesh-positions">
+          <float_array id="Cubo_061-mesh-positions-array" count="72">-0.9240184 6.110051 -52.47657 -0.9240183 7.553992 -46.54207 -0.7451013 7.892412 -53.15246 -0.7451012 8.130719 -48.80274 0.9240184 6.110051 -52.47657 0.9240183 7.553992 -46.54207 0.7451013 7.892412 -53.15246 0.7451012 8.130719 -48.80274 0 8.215733 -54.01269 0 8.173248 -49.03654 0 5.603893 -52.47657 0 7.072683 -46.75664 -1.118136 7.00507 -52.47657 -1.118136 7.827718 -47.33812 1.118136 7.00507 -52.47657 1.118136 7.827718 -47.33812 -0.9240184 6.443287 -49.6 -0.7451013 7.804852 -50.27845 0.7451013 7.804852 -50.27845 0.9240184 6.443287 -49.6 0 5.937129 -49.6 0 8.016733 -50.27845 1.118136 7.113566 -50.05756 -1.118136 7.113566 -50.05756</float_array>
+          <technique_common>
+            <accessor source="#Cubo_061-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_061-mesh-normals">
+          <float_array id="Cubo_061-mesh-normals-array" count="72">-0.9957045 0.09188669 -0.0113821 -0.6962822 0.6982882 -0.1660866 -0.6412461 0.764873 -0.0614227 -5.82785e-7 0.9817799 -0.1900215 0.6412459 0.7648733 -0.06142276 -3.51313e-7 0.998932 -0.04620504 0.9791725 -0.1888194 0.07462239 0.765413 -0.624187 0.1566319 0.9957045 0.09188646 -0.01138204 -4.35691e-7 -0.9380359 0.3465381 -0.7654131 -0.6241869 0.1566318 0 -0.9717461 0.236029 0.6962823 0.6982881 -0.1660867 -0.9791725 -0.188819 0.07462227 -0.7822588 -0.6195009 0.06549763 -0.9888927 0.1483963 0.008352637 0.9888927 0.1483964 0.008352637 0.5373992 0.8423632 0.04032826 -0.5373996 0.8423629 0.0403282 -2.80484e-7 0.9985831 0.05321562 0.7822588 -0.6195009 0.06549763 0 -0.9933568 0.1150755 0.6355049 -0.7257084 0.2635925 -0.6355055 -0.7257078 0.2635923</float_array>
+          <technique_common>
+            <accessor source="#Cubo_061-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_061-mesh-map-0">
+          <float_array id="Cubo_061-mesh-map-0-array" count="192">0.4390558 0.5034329 0.4449457 0.491306 0.444953 0.503433 0.4508631 0.4913059 0.4567476 0.5034331 0.4508503 0.5034331 0.4626383 0.4913058 0.4685421 0.5034332 0.4626449 0.5034332 0.474447 0.4913058 0.4801903 0.5034334 0.4744393 0.5034333 0.4685421 0.5034332 0.474447 0.4913058 0.4744393 0.5034333 0.444953 0.503433 0.4508631 0.4913059 0.4508503 0.5034331 0.456759 0.4913059 0.4626449 0.5034332 0.4567476 0.5034331 0.4331586 0.5034328 0.4390681 0.491306 0.4390558 0.5034329 0.4331509 0.5034388 0.4390558 0.4913087 0.4390435 0.5034389 0.4567476 0.4913086 0.4626515 0.5034391 0.4567362 0.5034391 0.4449603 0.503439 0.4508503 0.4913086 0.4508373 0.503439 0.4685353 0.5034392 0.4744393 0.4913085 0.4744316 0.5034393 0.4744393 0.4913085 0.4801867 0.5034394 0.4744316 0.5034393 0.4626449 0.4913085 0.4685353 0.5034392 0.4626515 0.5034391 0.4508503 0.4913086 0.4567362 0.5034391 0.4508373 0.503439 0.4390435 0.5034389 0.444953 0.4913086 0.4449603 0.503439 0.4390558 0.5034329 0.4390681 0.491306 0.4449457 0.491306 0.4508631 0.4913059 0.456759 0.4913059 0.4567476 0.5034331 0.4626383 0.4913058 0.468549 0.4913058 0.4685421 0.5034332 0.474447 0.4913058 0.4801939 0.4913057 0.4801903 0.5034334 0.4685421 0.5034332 0.468549 0.4913058 0.474447 0.4913058 0.444953 0.503433 0.4449457 0.491306 0.4508631 0.4913059 0.456759 0.4913059 0.4626383 0.4913058 0.4626449 0.5034332 0.4331586 0.5034328 0.4331663 0.491306 0.4390681 0.491306 0.4331509 0.5034388 0.4331586 0.4913087 0.4390558 0.4913087 0.4567476 0.4913086 0.4626449 0.4913085 0.4626515 0.5034391 0.4449603 0.503439 0.444953 0.4913086 0.4508503 0.4913086 0.4685353 0.5034392 0.4685421 0.4913085 0.4744393 0.4913085 0.4744393 0.4913085 0.4801903 0.4913084 0.4801867 0.5034394 0.4626449 0.4913085 0.4685421 0.4913085 0.4685353 0.5034392 0.4508503 0.4913086 0.4567476 0.4913086 0.4567362 0.5034391 0.4390435 0.5034389 0.4390558 0.4913087 0.444953 0.4913086</float_array>
+          <technique_common>
+            <accessor source="#Cubo_061-mesh-map-0-array" count="96" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_061-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_061-mesh-positions"/>
+        </vertices>
+        <triangles material="textura_kwa_General-material" count="32">
+          <input semantic="VERTEX" source="#Cubo_061-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_061-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_061-mesh-map-0" offset="2" set="0"/>
+          <p>23 0 0 3 1 1 17 2 2 9 3 3 18 4 4 21 5 5 15 6 6 19 7 7 22 8 8 11 9 9 16 10 10 20 11 11 19 7 12 11 9 13 20 11 14 17 2 15 9 3 16 21 5 17 7 12 18 22 8 19 18 4 20 16 10 21 13 13 22 23 0 23 0 14 24 23 0 25 12 15 26 18 4 27 14 16 28 6 17 29 2 18 30 21 5 31 8 19 32 4 20 33 20 11 34 10 21 35 20 11 36 0 14 37 10 21 38 22 8 39 4 20 40 14 16 41 21 5 42 6 17 43 8 19 44 12 15 45 17 2 46 2 18 47 23 0 48 13 13 49 3 1 50 9 3 51 7 12 52 18 4 53 15 6 54 5 22 55 19 7 56 11 9 57 1 23 58 16 10 59 19 7 60 5 22 61 11 9 62 17 2 63 3 1 64 9 3 65 7 12 66 15 6 67 22 8 68 16 10 69 1 23 70 13 13 71 0 14 72 16 10 73 23 0 74 18 4 75 22 8 76 14 16 77 2 18 78 17 2 79 21 5 80 4 20 81 19 7 82 20 11 83 20 11 84 16 10 85 0 14 86 22 8 87 19 7 88 4 20 89 21 5 90 18 4 91 6 17 92 12 15 93 23 0 94 17 2 95</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="a_helmet_kwa_01" name="a_helmet_kwa_01" type="NODE">
+        <matrix sid="transform">0.2344463 0 0 0 0 0.2314413 0.02998249 0 0 -0.1188607 0.05838082 4.218618 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_061-mesh" name="a_helmet_kwa_01">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="textura_kwa_General-material" target="#textura_kwa_General-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
