@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName>Shotel</AttackName>
+    </Melee>
+  </Attack>
+
+  <Identity>
+    <Civ>kwa</Civ>
+    <SelectionGroupName>units/kwa/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Kwa Swordsman</GenericName>
+    <SpecificName>knw hps</SpecificName>
+    <Icon>units/kush/infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/kwa/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/kwa/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

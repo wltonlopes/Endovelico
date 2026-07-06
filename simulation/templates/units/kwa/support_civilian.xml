@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+
+  <Identity>
+    <Civ>kwa</Civ>
+    <GenericName>Kwa Villager</GenericName>
+    <Icon>units/kush/support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kwa/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

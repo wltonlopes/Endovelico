@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_cavalry_ranged_javelineer">
+  <Identity>
+    <Civ>kwa</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/azan/heavy_javelineer</SelectionGroupName>
+    <GenericName>Heavy Warrior Javalinist</GenericName>
+    <Icon>units/south_america/cavalry_javelineer.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/kwa/infantry_heavy_javelineer.xml</Actor>
+  </VisualActor>
+</Entity>

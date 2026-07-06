@@ -6,6 +6,7 @@
       <mesh>structural/kwa/wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+       <prop actor="structures/kwa/wonder_flora.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/kwa/struct.png" name="baseTex"/>

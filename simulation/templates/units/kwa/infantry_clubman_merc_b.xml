@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_melee_maceman">
+  <Identity>
+    <Civ>kwa</Civ>
+    <GenericName>Tribal Maceman Kaskazi</GenericName>
+    <SelectionGroupName>units/azan/infantry_maceman_merc</SelectionGroupName>
+    <Icon>units/maya/mercenary_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/kwa/infantry_clubman_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/kwa/infantry_maceman_merc.xml</Actor>
+  </VisualActor>
+</Entity>

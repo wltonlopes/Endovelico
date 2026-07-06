@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/kush_hero_nastasen_1
+    units/heroes/kush_hero_nastasen_2
+  </Auras>
+  <Identity>
+    <Civ>kwa</Civ>
+	  <Phenotype>female</Phenotype>
+    <GenericName>Queen of Sabaki</GenericName>
+    <Icon>units/kush/hero_amanirenas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kwa/hero_infantry_swordswoman.xml</Actor>
+  </VisualActor>
+</Entity>

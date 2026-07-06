@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>props/shield/spara_a_f.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/achae_tower_back.xml" attachpoint="back"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="shield_tower_kwa_01">
+      <textures>
+        <texture file="props/shield/shield_tower_kwa_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="shield_tower_kwa_02">
+      <textures>
+        <texture file="props/shield/shield_tower_kwa_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
