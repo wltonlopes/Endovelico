@@ -5,7 +5,6 @@
       <AttackName>Shotel</AttackName>
     </Melee>
   </Attack>
-
   <Identity>
     <Civ>kwa</Civ>
     <SelectionGroupName>units/kwa/infantry_swordsman_b</SelectionGroupName>
