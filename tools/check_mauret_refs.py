@@ -17,10 +17,10 @@ import xml.etree.ElementTree as ET
 
 DEFAULT_PUBLIC = Path("/snap/0ad/731/binaries/data/mods/public")
 SCOPES = (
-    Path("simulation/templates/structures/mauret"),
-    Path("simulation/templates/units/mauret"),
-    Path("art/actors/structures/mauretania"),
-    Path("art/actors/units/mauretania"),
+    Path("simulation/templates/structures/damar"),
+    Path("simulation/templates/units/damar"),
+    Path("art/actors/structures/damara"),
+    Path("art/actors/units/damara"),
     Path("art/actors/props/units/elephant"),
 )
 

@@ -2,19 +2,16 @@
 <actor version="1">
   <castshadow />
   <group>
-    <variant frequency="1" name="Kwa Stable Camel">
-      <mesh>structural/kwa/stable_camel.dae</mesh>
+    <variant frequency="1" name="corte">
+      <mesh>structural/kwa/corte.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root" />
-        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_01" />
-        <prop actor="props/structures/camel_stable_02.xml" attachpoint="camel_02" />
-        <prop actor="props/structures/camel_stable_01.xml" attachpoint="camel_03" />
       </props>
       <textures>
         <texture file="structural/kwa/struct.png" name="baseTex" />
         <texture file="structural/kwa/struct_spec.png" name="specTex" />
         <texture file="structural/kwa/struct_norm.png" name="normTex" />
-        <texture file="structural/ao/kwa/stable_camel_ao.png" name="aoTex" />
+        <texture file="structural/ao/kwa/corte_ao.png" name="aoTex" />
       </textures>
     </variant>
   </group>
@@ -22,8 +19,9 @@
     <variant frequency="1" name="ungarrisoned" />
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_aksum.xml" attachpoint="garrisoned"
+        <prop actor="props/special/common/garrison_flag_yayo.xml" attachpoint="garrisoned"
           selectable="false" />
+
       </props>
     </variant>
   </group>
