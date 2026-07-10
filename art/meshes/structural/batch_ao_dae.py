@@ -4,7 +4,7 @@ import math
 from mathutils import Vector
 
 # =====================================================
-# CONFIGURAÇÕES
+# CONFIGURAÇÕES blender --background --python ./batch_ao_dae.py
 # =====================================================
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

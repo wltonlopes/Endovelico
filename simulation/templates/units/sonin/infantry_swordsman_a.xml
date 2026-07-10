@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sonin/infantry_swordsman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/sonin/infantry_swordsman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/soninke/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,85 @@
+﻿{
+	"Code": "sonin",
+	"Culture":[ "sonin" ],
+    "Region": [
+        "Africa"
+    ],
+	"Music": [
+		{
+			"File": "Ammon-Ra.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sands_of_Time.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Valley_of_the_Nile.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Bandit_Country.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Mirage.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Point_of_No_Return.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/sonin/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/sonin/civil_centre"
+		},
+		{
+			"Template":"units/sonin/support_civilian",
+			"Count":5
+		},
+		{
+			"Template": "units/sonin/infantry_swordsman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/sonin/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/sonin/cavalry_javelineer_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+    "Dyabe Sisse",	
+    "Dinga",
+	"Diangana-Boro",
+	"Kantana-Boro"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/sonin/cavalry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/sonin/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/sonin/infantry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/sonin/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}
