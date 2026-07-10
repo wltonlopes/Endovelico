@@ -60,7 +60,7 @@
     </variant>
     <variant name="pers">
       <props>
-        <prop actor="props/units/standards/formation_flag_pers.xml" attachpoint="root"/>
+        <prop actor="props/units/standards/formation_flag_achae.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant name="ptol">

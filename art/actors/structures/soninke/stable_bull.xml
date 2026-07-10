@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Mande Stable Bull">
-      <mesh>structural/mande/stable.dae</mesh>
+      <mesh>structural/soninke/stable.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

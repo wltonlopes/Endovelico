@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/mande/farmstead.dae</mesh>
+      <mesh>structural/soninke/farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/decals/farmstead_mud_medium.xml" attachpoint="root"/>
       </props>

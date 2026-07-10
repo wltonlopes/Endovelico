@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="range">
-      <mesh>structural/mande/range.dae</mesh>
+      <mesh>structural/soninke/range.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

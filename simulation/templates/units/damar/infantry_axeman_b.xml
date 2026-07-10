@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_axeman">
+  <Cost>
+    <Resources>
+      <stone>10</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>damar</Civ>
+    <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
+    <GenericName>Axemen</GenericName>
+    <Icon>units/south_america/infantry_axeman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/damar/infantry_axeman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/damara/infantry_axeman_b.xml</Actor>
+  </VisualActor>
+</Entity>

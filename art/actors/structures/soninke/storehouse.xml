@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Storehouse">
-      <mesh>structural/mande/storehouse.dae</mesh>
+      <mesh>structural/soninke/storehouse.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
       </props>

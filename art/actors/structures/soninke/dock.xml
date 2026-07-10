@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="dock">
-      <mesh>structural/mande/dock.dae</mesh>
+      <mesh>structural/soninke/dock.dae</mesh>
       <props>
       </props>
       <textures>

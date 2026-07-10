@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="infantry_cavalry|template_unit_infantry_melee_axeman">
   <Identity>
-    <Civ>anish</Civ>
+    <Civ>damar</Civ>
     <Rank>Advanced</Rank>
-    <SelectionGroupName>units/anish/cavalry_axeman_b</SelectionGroupName>
-    <GenericName>Jaguar Warrior</GenericName>
-    <SpecificName>Aj Balam B'ate</SpecificName>
+    <SelectionGroupName>units/damar/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Woman Warrior</GenericName>
     <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
@@ -13,7 +12,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/anishinaabe/infantry_heavy_maceman.xml</Actor>
+    <Actor>units/damara/infantry_heavy_axewoman.xml</Actor>
   </VisualActor>
 </Entity>
-infantry_heavy_axewoman

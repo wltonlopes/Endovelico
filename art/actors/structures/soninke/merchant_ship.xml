@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant name="bireme">
-<mesh>structural/mande/ship_merc.dae</mesh>
+<mesh>structural/soninke/ship_merc.dae</mesh>
       <textures>
         <texture file="structural/sonin/struct.png" name="baseTex"/>
         <texture file="structural/sonin/struct_spec.png" name="specTex"/>

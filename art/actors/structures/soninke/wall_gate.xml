@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base">
-      <mesh>structural/mande/wall_gate.dae</mesh>
+      <mesh>structural/soninke/wall_gate.dae</mesh>
       <textures>
         <texture file="structural/sonin/struct.png" name="baseTex"/>
         <texture file="structural/sonin/struct_spec.png" name="specTex"/>

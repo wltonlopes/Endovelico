@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">
-      <mesh>structural/mande/fortress.dae</mesh>
+      <mesh>structural/soninke/fortress.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

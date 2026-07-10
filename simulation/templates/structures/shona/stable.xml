@@ -7,8 +7,6 @@
   <Identity>
     <Civ>shona</Civ>
     <GenericName>Stable</GenericName>
-    <SpecificName>Durosinsin</SpecificName>
-    <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="19.5" depth="19.5"/>
