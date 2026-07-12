@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/horse_lusitano.dae</mesh>
+      <props>
+        <prop actor="units/mande/cavalry_spearman_a_r.xml" attachpoint="rider"/>
+        <prop actor="props/horse/cav_blanket_lusi_avance.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/horse/lusi_horse_1.xml" frequency="1" name="brown"/>
+    <variant file="quadraped/horse/lusi_horse_2.xml" frequency="1" name="beige"/>
+    <variant file="quadraped/horse/lusi_horse_3.xml" frequency="1" name="tan"/>
+    <variant file="quadraped/horse/lusi_horse_4.xml" frequency="1" name="cherrybay"/>
+    <variant file="quadraped/horse/lusi_horse_5.xml" frequency="1" name="white"/>
+    <variant file="quadraped/horse/lusi_horse_6.xml" frequency="1" name="gray"/>
+    <variant file="quadraped/horse/lusi_horse_7.xml" frequency="1" name="halflinger"/>
+    <variant file="quadraped/horse/lusi_horse_8.xml" frequency="1" name="lusitano-01"/>
+  </group>
+  <group>
+    <variant file="quadraped/base_horse_trot.xml" name="Horse-Trot" frequency="1"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
+    <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
+      <props>
+        <prop actor="units/mande/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

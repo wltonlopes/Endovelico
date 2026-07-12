@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_ranged_slinger">
+  <Identity>
+    <Civ>mand</Civ>
+    <SelectionGroupName>Afar Slinger</SelectionGroupName>
+    <SpecificName>Afar Slinger</SpecificName>
+    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/mande/infantry_slinger_merc.xml</Actor>
+  </VisualActor>
+</Entity>

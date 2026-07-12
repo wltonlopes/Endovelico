@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/mand/camelry_spearman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/mand/camelry_spearman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mande/camelry_spearman_b_m.xml</Actor>
+  </VisualActor>
+</Entity>
