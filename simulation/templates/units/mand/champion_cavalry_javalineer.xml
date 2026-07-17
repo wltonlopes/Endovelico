@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_cavalry_archer">
+<Entity parent="template_unit_champion_cavalry_javalineer">
   <Identity>
     <Civ>mand</Civ>
-    <GenericName>Aksumite Aristocrat Cavalry Archer</GenericName>
+    <GenericName>Lord Mande</GenericName>
     <Icon>units/achae/champion_cavalry_archer.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/achaemenids/cavalry_archer_c_m.xml</Actor>
+    <Actor>units/mande/cavalry_javelinist_c_m.xml</Actor>
   </VisualActor>
 </Entity>
