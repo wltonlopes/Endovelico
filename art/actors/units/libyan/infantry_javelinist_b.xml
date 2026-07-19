@@ -3,9 +3,9 @@
   <castshadow />
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+      <mesh>skeletal/new/m_tunic_kho_02.dae</mesh>
+      <props> 
+        <prop actor="props/units/heads/libyan_male_02.xml" attachpoint="head"/>
         <prop actor="props/units/heads/kush_nubian_ostrich_feathers_e.xml" attachpoint="head"/>
         <prop actor="props/units/heads/libian_dread_hair.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
@@ -14,27 +14,25 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-01-01">
+    <variant frequency="1" name="01-01">
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_01.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-01-02">
+    <variant frequency="1" name="01-02">
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_02.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-01-03">
+    <variant frequency="1" name="01-03">
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_03.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="numidian-shield">
-      <props>
-        <prop actor="props/units/shields/gara_round_large_01_cow.xml" attachpoint="shield"/>
-      </props>
+    <variant frequency="1" name="01-04">
+      <textures>
+        <texture file="skeletal/libyan/i_l_01_04.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>

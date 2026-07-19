@@ -4,7 +4,7 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/nok/infantry_spearman_e</Entity>
+    <Entity>units/macrob/infantry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/macrobia/infantry_spearman_a.xml</Actor>

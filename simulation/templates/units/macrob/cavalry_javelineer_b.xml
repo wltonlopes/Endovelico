@@ -19,7 +19,7 @@
     <Icon>units/subsaara/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/nok/cavalry_javelineer_a</Entity>
+    <Entity>units/macrob/cavalry_javelineer_a</Entity>
   </Promotion>
   <Sound>
     <SoundGroups>

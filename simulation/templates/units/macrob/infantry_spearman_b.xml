@@ -17,7 +17,7 @@
     </Requirements>
   </Identity>
   <Promotion>
-    <Entity>units/nok/infantry_spearman_a</Entity>
+    <Entity>units/macrob/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/macrobia/infantry_spearman_b.xml</Actor>

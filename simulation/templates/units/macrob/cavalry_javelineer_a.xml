@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/nok/cavalry_javelineer_e</Entity>
+    <Entity>units/macrob/cavalry_javelineer_e</Entity>
   </Promotion>
 </Entity>
