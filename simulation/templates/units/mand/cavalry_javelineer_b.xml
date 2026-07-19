@@ -2,10 +2,9 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>mand</Civ>
-    <Lang>napatan</Lang>
     <SelectionGroupName>units/aksum/cavalry_javelineer_b</SelectionGroupName>
-    <SpecificName>iry hr ssmwtt</SpecificName>
-    <GenericName>Axum Light Cavalry</GenericName>
+    <GenericName>Mande Light Cavalry</GenericName>
+    <SpecificName>Sofa-Seré</SpecificName>
     <Icon>units/kush/cavalry_javelinist.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

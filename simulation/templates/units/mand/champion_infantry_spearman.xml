@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>mand</Civ>
+    <GenericName>Guardian Spearman</GenericName>
+    <SpecificName>Gbere-Kunu</SpecificName>
+    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mande/infantry_champion_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

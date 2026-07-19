@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_javelineer">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/aksum/allied_village_afar
-      structures/aksum/allied_village_beja
-      structures/aksum/allied_village_oromo
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>mand</Civ>
     <SelectionGroupName>units/aksum/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Tribal Levy Skirmisher</GenericName>
+    <SpecificName>Djenné-Sora</SpecificName>
     <Icon>units/thra/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

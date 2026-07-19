@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mand</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Bazinas</SpecificName>
   </Identity>
   <Obstruction>
     <Static depth="33.5" width="44.5"/>

@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>props/new/capes/cape_hd_hoplite.dae</mesh>
       <textures>
-        <texture file="props/cape_hd_punico.png" name="baseTex"/>
+        <texture file="props/capes/cape_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy">
+	<Footprint replace="">
+		<Circle radius="16.0"/>
+		<Height>18.0</Height>
+	</Footprint>
+	<Identity>
+		<Civ>mand</Civ>
+		<GenericName>Kumbi</GenericName>
+		<Tooltip>Train Mercenaries.</Tooltip>
+		<Classes datatype="tokens">CivSpecific</Classes>
+		<Icon>structures/mercenary_camp.png</Icon>
+	</Identity>
+	<Obstruction>
+		<Static width="24.0" depth="24.0"/>
+	</Obstruction>
+	<Trainer>
+		<Entities datatype="tokens">
+			units/{native}/cavalry_javelineer_merc_b
+		</Entities>
+	</Trainer>
+	<VisualActor>
+		<Actor>structures/mande/kumbi.xml</Actor>
+		<FoundationActor>structures/fndn_7x7_round.xml</FoundationActor>
+	</VisualActor>
+</Entity>

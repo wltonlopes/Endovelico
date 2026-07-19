@@ -2,7 +2,7 @@
 <Entity parent="camelry|template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>mand</Civ>
-    <SelectionGroupName>units/aksum/camelry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/mand/camelry_archer_b</SelectionGroupName>
     <GenericName>Archer Camelry</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>

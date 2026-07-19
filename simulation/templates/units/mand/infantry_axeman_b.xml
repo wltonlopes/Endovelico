@@ -7,10 +7,9 @@
   </Attack>
   <Identity>
     <Civ>mand</Civ>
-    <Lang>napatan</Lang>
     <SelectionGroupName>units/mand/infantry_axeman_b</SelectionGroupName>
     <GenericName>Mande Axeman</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Gao-Sora</SpecificName>
     <Icon>units/kush/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

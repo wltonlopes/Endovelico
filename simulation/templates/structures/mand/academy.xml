@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <BuildRestrictions>
+    <Category>Academy</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>150</stone>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square depth="24.0" width="24.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Minister Cavalry</List>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>mand</Civ>
+    <GenericName>Toguere</GenericName>
+    <SpecificName>Toguere</SpecificName>
+    <SelectionGroupName>structures/mand/academy</SelectionGroupName>
+    <Tooltip>Train Champions.</Tooltip>
+    <VisibleClasses datatype="tokens">-Village City Academy</VisibleClasses>
+    <Icon>structures/embassy_italic.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_village phase_city</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>30</stone>
+    <metal>30</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="22.0" width="22.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -barracks_batch_training
+      -unlock_champion_infantry
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_tholos.xml</select>
+      <constructed>interface/complete/building/complete_tholos.xml</constructed>
+      <upgraded>interface/complete/building/complete_tholos.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities replace="" datatype="tokens">
+      <!-- units/{civ}/champion_infantry_spearman_academy
+      units/{civ}/champion_infantry_crossbowman_academy
+      units/{civ}/champion_cavalry_spearman_academy
+      units/{civ}/champion_chariot_academy -->
+    </Entities>
+  </Trainer>
+	<VisualActor>
+		<Actor>structures/mande/toguere.xml</Actor>
+		<FoundationActor>structures/fndn_7x7_round.xml</FoundationActor>
+	</VisualActor>
+</Entity>
