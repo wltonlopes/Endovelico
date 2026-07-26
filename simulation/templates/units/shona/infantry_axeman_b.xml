@@ -15,13 +15,13 @@
     <Civ>shona</Civ>
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Axeman Warrior</GenericName>
-    <SpecificName>B'aat Bate</SpecificName>
+    <SpecificName>bakatwa</SpecificName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/shona/infantry_axeman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/sao/infantry_axeman_b.xml</Actor>
+    <Actor>units/shona/infantry_axeman_b.xml</Actor>
   </VisualActor>
 </Entity>

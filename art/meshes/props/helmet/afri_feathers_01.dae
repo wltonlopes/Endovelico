@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-07-23T21:41:42</created>
+    <modified>2026-07-23T21:41:42</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="textura_batwa_General_001-effect">
+      <profile_COMMON>
+        <newparam sid="feathers_shona_png-surface">
+          <surface type="2D">
+            <init_from>feathers_shona_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="feathers_shona_png-sampler">
+          <sampler2D>
+            <source>feathers_shona_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="feathers_shona_png-sampler" texcoord="Cubo_032-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="feathers_shona_png" name="feathers_shona_png">
+      <init_from>/home/welton/Downloads/saida/feathers_shona.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="textura_batwa_General_001-material" name="textura batwa General.001">
+      <instance_effect url="#textura_batwa_General_001-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_032-mesh" name="Cubo.032">
+      <mesh>
+        <source id="Cubo_032-mesh-positions">
+          <float_array id="Cubo_032-mesh-positions-array" count="72">0.001036345 -0.2228877 0.2452132 0.001036345 -0.1320672 0.506574 -6.2482e-4 -0.7990921 0.506816 -6.2482e-4 -0.7082717 0.7681768 0.001257836 -0.2584653 0.2918772 0.001257836 -0.004471719 0.4663794 -5.92242e-4 -0.6026635 0.9068973 -5.92242e-4 -0.3486701 1.081399 0.01329332 -0.2472854 0.4395746 0.01329332 0.02640032 0.480243 0.01163214 -0.2825585 1.0714 0.01163214 -0.008872687 1.112068 -0.001167833 -0.2228813 0.2452139 -0.002829015 -0.7990859 0.5068168 -0.002829015 -0.7082655 0.7681776 -0.001167833 -0.132061 0.5065748 -0.00119704 -0.2584615 0.2918772 -0.003047168 -0.6026599 0.9068973 -0.003047168 -0.3486664 1.0814 -0.00119704 -0.004468202 0.4663795 0.01108908 -0.2472875 0.4395728 0.009427905 -0.2825605 1.071398 0.009427905 -0.008874893 1.112067 0.01108908 0.02639824 0.4802412</float_array>
+          <technique_common>
+            <accessor source="#Cubo_032-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_032-mesh-normals">
+          <float_array id="Cubo_032-mesh-normals-array" count="72">0.5737524 0.3214452 -0.7533136 0.5715788 -0.3246847 0.7535765 0.5804532 -0.7486584 -0.3202884 0.583702 0.7907782 -0.1842875 0.5809281 -0.7925817 0.1853026 0.5733701 -0.1871331 -0.7976391 0.5830892 0.6303188 -0.5125476 0.5815634 -0.6300961 0.5145511 0.5739364 -0.5175168 -0.6346443 -0.5715649 0.3247006 -0.7535802 -0.573736 -0.3214681 0.7533162 -0.5804373 0.7486729 0.3202834 -0.583696 -0.7907873 0.1842676 -0.580923 0.7925907 -0.1852797 -0.5720093 -0.185525 -0.7989906 -0.5830636 -0.630326 0.5125681 -0.5815339 0.6301107 -0.5145667 -0.5714395 -0.518198 -0.6363394 -0.5841768 -0.7456719 -0.3204857 0.5841933 0.745656 0.3204922 0.5720803 0.1855348 0.7989376 -0.5732975 0.1871277 0.7976925 -0.5739656 0.5174793 0.6346485 0.571411 0.5182375 0.6363329</float_array>
+          <technique_common>
+            <accessor source="#Cubo_032-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_032-mesh-map-0">
+          <float_array id="Cubo_032-mesh-map-0-array" count="216">0.199805 0.8996682 0.8905481 0.1296457 0.8908683 0.9020208 0.1982322 0.1344709 0.8908683 0.9020208 0.199805 0.8996682 0.1982322 0.1344709 0.8908683 0.9020208 0.199805 0.8996682 0.199805 0.8996682 0.8905481 0.1296457 0.1982322 0.1344709 0.8908683 0.9020208 0.1982322 0.1344709 0.199805 0.8996682 0.8908683 0.9020208 0.1982322 0.1344709 0.199805 0.8996682 0.199805 0.8996682 0.8908683 0.9020208 0.199805 0.8996682 0.199805 0.8996682 0.1982322 0.1344709 0.1982322 0.1344709 0.8908683 0.9020208 0.199805 0.8996682 0.199805 0.8996682 0.1982322 0.1344709 0.8905481 0.1296457 0.8905481 0.1296457 0.199805 0.8996682 0.8908683 0.9020208 0.199805 0.8996682 0.8905481 0.1296457 0.1982322 0.1344709 0.8905481 0.1296457 0.8905481 0.1296457 0.8908683 0.9020208 0.8908683 0.9020208 0.1982322 0.1344709 0.8905481 0.1296457 0.8905481 0.1296457 0.1982322 0.1344709 0.199805 0.8996682 0.1982322 0.1344709 0.8905481 0.1296457 0.8908683 0.9020208 0.8908683 0.9020208 0.1982322 0.1344709 0.199805 0.8996682 0.1982322 0.1344709 0.8908683 0.9020208 0.8905481 0.1296457 0.8908683 0.9020208 0.199805 0.8996682 0.1982322 0.1344709 0.8905481 0.1296457 0.1982322 0.1344709 0.8905481 0.1296457 0.8908683 0.9020208 0.1982322 0.1344709 0.8905481 0.1296457 0.8908683 0.9020208 0.199805 0.8996682 0.8908683 0.9020208 0.8905481 0.1296457 0.8908683 0.9020208 0.8905481 0.1296457 0.1982322 0.1344709 0.8908683 0.9020208 0.8905481 0.1296457 0.1982322 0.1344709 0.199805 0.8996682 0.8908683 0.9020208 0.8908683 0.9020208 0.199805 0.8996682 0.199805 0.8996682 0.1982322 0.1344709 0.8908683 0.9020208 0.8908683 0.9020208 0.199805 0.8996682 0.1982322 0.1344709 0.1982322 0.1344709 0.8905481 0.1296457 0.199805 0.8996682 0.8908683 0.9020208 0.8908683 0.9020208 0.8905481 0.1296457 0.1982322 0.1344709 0.1982322 0.1344709 0.8905481 0.1296457 0.8905481 0.1296457 0.8908683 0.9020208 0.1982322 0.1344709 0.1982322 0.1344709 0.8905481 0.1296457 0.1982322 0.1344709 0.199805 0.8996682 0.199805 0.8996682 0.8905481 0.1296457 0.8905481 0.1296457 0.8908683 0.9020208 0.1982322 0.1344709 0.199805 0.8996682 0.199805 0.8996682 0.8908683 0.9020208 0.8905481 0.1296457 0.8905481 0.1296457</float_array>
+          <technique_common>
+            <accessor source="#Cubo_032-mesh-map-0-array" count="108" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_032-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_032-mesh-positions"/>
+        </vertices>
+        <triangles material="textura_batwa_General_001-material" count="36">
+          <input semantic="VERTEX" source="#Cubo_032-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_032-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_032-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 3 1 1 2 2 2 5 3 3 6 4 4 4 5 5 9 6 6 10 7 7 8 8 8 12 9 9 14 10 10 15 11 11 17 12 12 19 13 13 16 14 14 21 15 15 23 16 16 20 17 17 0 0 18 13 18 19 12 9 20 8 8 21 23 16 22 9 6 23 6 4 24 16 14 25 4 5 26 1 19 27 14 10 28 3 1 29 8 8 30 21 15 31 20 17 32 7 20 33 19 13 34 18 21 35 3 1 36 13 18 37 2 2 38 9 6 39 22 22 40 11 23 41 1 19 42 12 9 43 15 11 44 7 20 45 17 12 46 6 4 47 5 3 48 16 14 49 19 13 50 10 7 51 22 22 52 21 15 53 0 0 54 1 19 55 3 1 56 5 3 57 7 20 58 6 4 59 9 6 60 11 23 61 10 7 62 12 9 63 13 18 64 14 10 65 17 12 66 18 21 67 19 13 68 21 15 69 22 22 70 23 16 71 0 0 72 2 2 73 13 18 74 8 8 75 20 17 76 23 16 77 6 4 78 17 12 79 16 14 80 1 19 81 15 11 82 14 10 83 8 8 84 10 7 85 21 15 86 7 20 87 5 3 88 19 13 89 3 1 90 14 10 91 13 18 92 9 6 93 23 16 94 22 22 95 1 19 96 0 0 97 12 9 98 7 20 99 18 21 100 17 12 101 5 3 102 4 5 103 16 14 104 10 7 105 11 23 106 22 22 107</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="afri_feathers" name="afri_feathers" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_032-mesh" name="afri_feathers">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="textura_batwa_General_001-material" target="#textura_batwa_General_001-material">
+                <bind_vertex_input semantic="Cubo_032-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

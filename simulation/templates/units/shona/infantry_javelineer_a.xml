@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/shona/infantry_axeman_b">
+<Entity parent="units/shona/infantry_javelineer_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/shona/infantry_axeman_e</Entity>
+    <Entity>units/shona/infantry_javelineer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/shona/infantry_axeman_b.xml</Actor>
+    <Actor>units/shona/infantry_javelinist_a.xml</Actor>
   </VisualActor>
 </Entity>

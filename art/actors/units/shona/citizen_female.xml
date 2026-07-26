@@ -10,6 +10,18 @@
     </variant>
   </group>
   <group>
+      <variant frequency="75" name="hair_afro_low">
+      <props>
+        <prop actor="" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="25" name="hair_afro">
+      <props>
+        <prop actor="props/units/hairs/hair_afro.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="f_01_01">
       <textures>
         <texture file="skeletal/shona/f_01.png" name="baseTex"/>

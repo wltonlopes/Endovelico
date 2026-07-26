@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_high_priest">
   <Identity>
     <Civ>hisat</Civ>
-    <GenericName>Priests</GenericName>
+    <GenericName>Champion Priests</GenericName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/champion_spearman.png</Icon>
   </Identity>

@@ -5,10 +5,24 @@
     <variant frequency="3" name="Helmet-coif">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/> 
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/helmet_shona_base.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/capes/cape_archer_adena_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+      <variant frequency="75" name="hair_afro_low">
+      <props>
+        <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="25" name="hair_afro">
+      <props>
+        <prop actor="props/units/heads/head_afri_01.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_afro.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -35,7 +49,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_archer_ready.xml"/>
+    <variant file="biped/base_archer_relax.xml" name="Archer-Relax" frequency="1"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>

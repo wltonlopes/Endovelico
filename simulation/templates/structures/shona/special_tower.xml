@@ -47,7 +47,7 @@
   <TerritoryDecay disable=""/>
   <Trainer disable=""/>
   <VisualActor>
-    <Actor>props/structures/shonas/special.xml</Actor>
+    <Actor>structures/shonas/special.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>
