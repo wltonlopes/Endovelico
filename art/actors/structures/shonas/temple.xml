@@ -5,7 +5,7 @@
     <variant frequency="1" name="Shona Temple">
       <mesh>structural/shonas/temple.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_01"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_02"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke_03"/>

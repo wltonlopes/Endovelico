@@ -3,10 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Shona Wall Short">
-      <mesh>structural/shonas/wall_short.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-      </props>
+      <mesh>structural/shonas/wall_short.dae</mesh>opllllllllllllll
       <textures>
         <texture file="structural/shona_struct.png" name="baseTex"/>
         <texture file="structural/shona_struct_spec.png" name="specTex"/>

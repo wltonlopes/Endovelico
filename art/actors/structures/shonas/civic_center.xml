@@ -5,7 +5,7 @@
     <variant frequency="1" name="Shona Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/shonas/civic_center.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/shonas/civic_center_roof.xml" attachpoint="root"/>
       </props>
       <textures>

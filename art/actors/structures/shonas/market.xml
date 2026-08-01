@@ -5,7 +5,7 @@
     <variant frequency="1" name="Shona Market">
       <mesh>structural/shonas/market.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/shonas/market_roof.xml" attachpoint="root"/>
       </props>
       <textures>

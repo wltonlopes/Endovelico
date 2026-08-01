@@ -2,6 +2,7 @@
 <Entity parent="infantry_cavalry|template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>shona</Civ>
+	<Phenotype>female</Phenotype>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/shona/cavalry_swordsman_b</SelectionGroupName>
     <GenericName>Warrior</GenericName>

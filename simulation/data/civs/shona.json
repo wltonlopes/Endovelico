@@ -62,7 +62,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/shona/cavalry_javelineer_b",
+			"Template": "units/shona/cavalry_scout",
 			"Count": 1
 		},
 		{
@@ -79,7 +79,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/shona/cavalry_javelineer_b",
+		"skirmish/units/default_cavalry": "units/shona/cavalry_scout",
 		"skirmish/units/default_infantry_melee_b": "units/shona/infantry_axeman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/shona/infantry_archer_b",
 		"skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",

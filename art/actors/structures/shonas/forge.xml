@@ -5,7 +5,7 @@
     <variant frequency="1" name="Shona Forge">
       <mesh>structural/shonas/forge.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="props/structures/shonas/forge_roof.xml" attachpoint="root"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
       </props>

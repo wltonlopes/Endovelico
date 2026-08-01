@@ -9,6 +9,6 @@
     <Icon>units/urew/hero_03.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/shona/hero_healer.xml</Actor>
+    <Actor>units/shona/hero_healer_m.xml</Actor>
   </VisualActor>
 </Entity>

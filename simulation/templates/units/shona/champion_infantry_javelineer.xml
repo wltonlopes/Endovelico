@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_archer">
+<Entity parent="template_unit_champion_infantry_javelineer">
   <Identity>
-    <Civ>mand</Civ>
+    <Civ>shona</Civ>
     <GenericName>Champion</GenericName>
-    <SpecificName>Jula-Diali</SpecificName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mande/infantry_champion_javalineer.xml</Actor>
+    <Actor>units/shona/infantry_champion_harpoon.xml</Actor>
   </VisualActor>
 </Entity>
