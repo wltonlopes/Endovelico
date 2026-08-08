@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
-<Entity parent="template_unit_infantry_ranged_slinger">
+<Entity parent="merc_inf|template_unit_infantry_ranged_slinger">
   <Identity>
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Libyan Slinger</GenericName>
-
+    <GenericName>Macae Slinger</GenericName>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/liby/infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/libyan/infantry_slinger_b.xml</Actor>
+    <Actor>units/libyan/infantry_slinger_merc.xml</Actor>
   </VisualActor>
 </Entity>

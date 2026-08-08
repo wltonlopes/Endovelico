@@ -3,11 +3,12 @@
   <castshadow />
   <group>
     <variant frequency="100" name="Base">
-      <mesh>skeletal/new/m_dress.dae</mesh>
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/libyan_male_02.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/lib_feathers_02.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/hair_lib_01.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/shield_round_iron.xml" attachpoint="shield"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -16,28 +17,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-01">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="01-01">
       <textures>
-        <texture file="skeletal/gara/linothorax_dark_01_01.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-02">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="01-02">
       <textures>
-        <texture file="skeletal/gara/linothorax_dark_01_02.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-03">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="01-03">
       <textures>
-        <texture file="skeletal/gara/linothorax_dark_01_03.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="01-04">
+      <textures>
+        <texture file="skeletal/libyan/i_l_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

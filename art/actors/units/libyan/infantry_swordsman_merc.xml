@@ -2,11 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
+  <!-- Aliados Mazyes -->
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_kho_02.dae</mesh>
       <props>
         <prop actor="props/units/heads/libyan_male_02.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/lib_feathers_01.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/lib_feathers_02.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/hair_lib_01.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/gara_sword.xml" attachpoint="weapon_R"/>
       </props>

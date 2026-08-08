@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant file="biped/base_healer_male.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_kho_02.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_arab_old.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/lib_feathers_01.xml" attachpoint="head"/>
