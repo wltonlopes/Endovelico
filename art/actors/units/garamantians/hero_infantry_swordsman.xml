@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/nortafric_conical_b1.xml" attachpoint="helmet"/>
@@ -16,13 +16,7 @@
   <group>
     <variant frequency="1" name="Gara-Linothorax-Medium-01-01">
       <textures>
-        <texture file="skeletal/gara/linothorax_medium_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant>
-      <textures>
+        <texture file="skeletal/garamantes/hero_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

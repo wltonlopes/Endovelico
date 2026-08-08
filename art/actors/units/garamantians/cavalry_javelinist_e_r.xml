@@ -13,19 +13,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Linothorax-Medium-01-01">
+    <variant frequency="1" name="robes_04_01">
       <textures>
-        <texture file="skeletal/gara/linothorax_medium_01_01.png" name="baseTex"/>
+        <texture file="skeletal/garamantes/i_l_03_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Linothorax-Medium-01-02">
+    <variant frequency="1" name="im_01_02">
       <textures>
-        <texture file="skeletal/gara/linothorax_medium_01_02.png" name="baseTex"/>
+        <texture file="skeletal/garamantes/i_l_03_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Linothorax-Medium-01-03">
+    <variant frequency="1" name="im_01_03">
       <textures>
-        <texture file="skeletal/gara/linothorax_medium_01_03.png" name="baseTex"/>
+        <texture file="skeletal/garamantes/i_l_03_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_01_04">
+      <textures>
+        <texture file="skeletal/garamantes/i_l_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

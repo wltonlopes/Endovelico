@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>props/head/head_female_gara.dae.dae</mesh>
+      <mesh>props/new/dude_head.dae</mesh>
       <textures>
-        <texture file="props/head/african_fem_gara_1.png" name="baseTex"/>
+        <texture file="props/head/african_fem_nilotic_1.png" name="baseTex"/>
         <texture file="props/head/maur_fem_b_spec.png" name="specTex"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>

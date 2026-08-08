@@ -15,19 +15,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-Noble-01-01">
+    <variant frequency="1" name="robes_04_01">
       <textures>
-        <texture file="skeletal/gara/tunic_noble_01_01.png" name="baseTex"/>
+        <texture file="skeletal/garamantes/i_l_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-Noble-01-02">
+    <variant frequency="1" name="im_01_02">
       <textures>
-        <texture file="skeletal/gara/tunic_noble_01_02.png" name="baseTex"/>
+        <texture file="skeletal/garamantes/i_l_02_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-Noble-01-03">
+    <variant frequency="1" name="im_01_03">
       <textures>
-        <texture file="skeletal/gara/tunic_noble_01_03.png" name="baseTex"/>
+        <texture file="skeletal/garamantes/i_l_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_01_04">
+      <textures>
+        <texture file="skeletal/garamantes/i_l_02_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
