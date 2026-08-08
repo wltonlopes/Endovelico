@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.1 commit date:2024-12-10, commit time:07:46, hash:33d812126174</authoring_tool>
+    </contributor>
+    <created>2026-08-08T10:50:15</created>
+    <modified>2026-08-08T10:50:15</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="pluma__-effect">
+      <profile_COMMON>
+        <newparam sid="feather_png-surface">
+          <surface type="2D">
+            <init_from>feather_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="feather_png-sampler">
+          <sampler2D>
+            <source>feather_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="feather_png-sampler" texcoord="Circle_028-mesh-map-0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="feather_png" name="feather_png">
+      <init_from>/home/welton/Downloads/feather.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="pluma__-material" name="pluma  ">
+      <instance_effect url="#pluma__-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Circle_025-mesh" name="Circle.025">
+      <mesh>
+        <source id="Circle_025-mesh-positions">
+          <float_array id="Circle_025-mesh-positions-array" count="72">0.4385716 -0.1151663 0.9822888 0.3288007 -0.2324164 1.180065 0.3105359 0.005351781 0.8643813 0.1138834 -0.02935063 0.9457686 0.224161 0.08675861 0.6128266 0.01080793 0.06789392 0.3794398 0.2247893 0.08627623 0.327148 0.01322466 0.06572937 0.6623697 0.006307363 -0.1440261 0.6118085 0.006438016 -0.1450184 0.3316264 0.09166401 -0.2250789 0.866998 0.219382 -0.3475807 0.9830363 -0.210026 -0.3443781 0.9822881 -0.319658 -0.226998 1.180065 -0.08120018 -0.2247051 0.8643808 -0.1026484 -0.02616965 0.9457677 0.005810916 -0.1439789 0.6128261 0.001283943 0.0701586 0.3794389 0.005287528 -0.1445736 0.3271475 -0.001037836 0.06789243 0.6623688 -0.2098582 0.08884823 0.6118078 -0.2108573 0.08878439 0.3316255 -0.2964482 0.009114146 0.8669973 -0.427232 -0.110109 0.9830356</float_array>
+          <technique_common>
+            <accessor source="#Circle_025-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_025-mesh-normals">
+          <float_array id="Circle_025-mesh-normals-array" count="96">0.1529902 0.7936075 0.5888813 0.2059835 0.7873383 0.5810933 0.05676585 0.8819749 0.4678654 0.03675723 0.8875164 0.4593077 -0.06110531 0.9856166 0.1575633 -0.09061062 0.9958838 0.00233525 -0.05647581 0.9826529 0.1766466 -0.08604466 0.9962896 -0.001871466 -0.9879181 -0.002812564 0.1549513 -0.9844087 -0.009868919 0.1756193 -0.9996863 0.02482914 0.00328201 -0.8855051 -0.0884791 0.4561277 -0.9997868 0.0206412 -5.3932e-4 -0.8783344 -0.107824 0.4657284 -0.7830812 -0.2013114 0.5884364 -0.7732357 -0.257074 0.579672 0.7815737 -0.2058197 0.5888811 0.7717677 -0.2582752 0.5810927 0.8761895 -0.1157319 0.4678654 0.8830594 -0.09613901 0.4593077 0.9874958 -0.005070447 0.1575636 0.9997169 0.02367997 0.002335488 0.9842286 -0.009490668 0.1766467 0.999816 0.01909685 -0.001871466 0.06338661 0.9858866 0.1549513 0.05611091 0.9828578 0.1756191 0.09175479 0.9957763 0.00328195 -0.02894878 0.8894435 0.4561275 0.08758312 0.9961571 -5.39302e-4 -0.04873096 0.883585 0.4657284 -0.1483908 0.7948102 0.5884361 -0.2046887 0.7887228 0.5796713</float_array>
+          <technique_common>
+            <accessor source="#Circle_025-mesh-normals-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_025-mesh-map-0">
+          <float_array id="Circle_025-mesh-map-0-array" count="144">0.4961408 0.9516549 0.953041 0.9516549 0.953041 0.6456935 0.4961408 0.9516549 0.953041 0.6456935 0.4961408 0.6456935 0.4961408 0.6456935 0.953041 0.6456935 0.953041 0.3397324 0.4961408 0.03377139 0.4961408 0.3397324 0.953041 0.3397324 0.4961408 0.03377139 0.953041 0.3397324 0.953041 0.03377139 0.4961408 0.6456935 0.953041 0.3397324 0.4961408 0.3397324 0.03923982 0.3397324 0.4961408 0.3397324 0.4961408 0.03377139 0.03923982 0.3397324 0.4961408 0.6456935 0.4961408 0.3397324 0.03923982 0.3397324 0.4961408 0.03377139 0.03923982 0.03377139 0.03923982 0.3397324 0.03923982 0.6456935 0.4961408 0.6456935 0.03923982 0.6456935 0.4961408 0.9516549 0.4961408 0.6456935 0.03923982 0.6456935 0.03923982 0.9516549 0.4961408 0.9516549 0.4961408 0.9516549 0.953041 0.9516549 0.953041 0.6456935 0.4961408 0.9516549 0.953041 0.6456935 0.4961408 0.6456935 0.4961408 0.6456935 0.953041 0.6456935 0.953041 0.3397324 0.4961408 0.03377139 0.4961408 0.3397324 0.953041 0.3397324 0.4961408 0.03377139 0.953041 0.3397324 0.953041 0.03377139 0.4961408 0.6456935 0.953041 0.3397324 0.4961408 0.3397324 0.03923982 0.3397324 0.4961408 0.3397324 0.4961408 0.03377139 0.03923982 0.3397324 0.4961408 0.6456935 0.4961408 0.3397324 0.03923982 0.3397324 0.4961408 0.03377139 0.03923982 0.03377139 0.03923982 0.3397324 0.03923982 0.6456935 0.4961408 0.6456935 0.03923982 0.6456935 0.4961408 0.9516549 0.4961408 0.6456935 0.03923982 0.6456935 0.03923982 0.9516549 0.4961408 0.9516549</float_array>
+          <technique_common>
+            <accessor source="#Circle_025-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Circle_025-mesh-vertices">
+          <input semantic="POSITION" source="#Circle_025-mesh-positions"/>
+        </vertices>
+        <triangles material="pluma__-material" count="24">
+          <input semantic="VERTEX" source="#Circle_025-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Circle_025-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Circle_025-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 0 1 1 2 2 2 1 0 3 2 2 4 3 3 5 3 3 6 2 2 7 4 4 8 5 5 9 7 6 10 4 4 11 5 5 12 4 4 13 6 7 14 3 3 15 4 4 16 7 6 17 8 8 18 7 9 19 5 10 20 8 8 21 3 11 22 7 9 23 8 8 24 5 10 25 9 12 26 8 8 27 10 13 28 3 11 29 10 13 30 1 14 31 3 11 32 10 13 33 11 15 34 1 14 35 13 16 36 12 17 37 14 18 38 13 16 39 14 18 40 15 19 41 15 19 42 14 18 43 16 20 44 17 21 45 19 22 46 16 20 47 17 21 48 16 20 49 18 23 50 15 19 51 16 20 52 19 22 53 20 24 54 19 25 55 17 26 56 20 24 57 15 27 58 19 25 59 20 24 60 17 26 61 21 28 62 20 24 63 22 29 64 15 27 65 22 29 66 13 30 67 15 27 68 22 29 69 23 31 70 13 30 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="a-feathers_lib_02_01" name="a-feathers_lib_02_01" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Circle_025-mesh" name="a-feathers_lib_02_01">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="pluma__-material" target="#pluma__-material">
+                <bind_vertex_input semantic="Circle_028-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
