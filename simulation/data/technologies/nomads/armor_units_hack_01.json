@@ -1,5 +1,5 @@
 {
-	"pair": "nomads/pair_02_01",
+	"pair": ["nomads/armor_units_pierce_01"],
 	"genericName": "Quilted Body Armor",
 	"description": "Quilted linen or leather body armor for protection.",
 	"cost": {

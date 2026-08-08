@@ -1,5 +1,5 @@
 {
-	"pair": "nomads/pair_02_01",
+	"pair": ["nomads/armor_units_hack_01"],
 	"genericName": "Wicker Shields",
 	"specificName": {
 		"pers": "Taka"

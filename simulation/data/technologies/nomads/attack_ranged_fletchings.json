@@ -1,5 +1,5 @@
 {
-	"pair": "nomads/pair_01_01",
+	"pair": ["nomads/attack_melee_akinakah"],
 	"genericName": "Fletchings",
 	"description": "Fletching increases the accuracy and sail time for projectiles, such as arrows and bolts.",
 	"cost": {
