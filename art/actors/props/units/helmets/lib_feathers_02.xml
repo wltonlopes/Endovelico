@@ -11,17 +11,17 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="feathers_01_01">
-      <mesh>props/feathers/feathers_lib_01_01.dae</mesh>
+    <variant frequency="100" name="feathers_02_01">
+      <mesh>props/feathers/feathers_lib_02_01.dae</mesh>
     </variant>
-    <variant frequency="100" name="feathers_01_02">
-      <mesh>props/feathers/feathers_lib_01_02.dae</mesh>
+    <variant frequency="100" name="feathers_02_02">
+      <mesh>props/feathers/feathers_lib_02_02.dae</mesh>
     </variant>
-    <variant frequency="100" name="feathers_01_03">
-      <mesh>props/feathers/feathers_lib_01_03.dae</mesh>
+    <variant frequency="100" name="feathers_02_03">
+      <mesh>props/feathers/feathers_lib_02_03.dae</mesh>
     </variant>
-    <variant frequency="100" name="feathers_01_04">
-      <mesh>props/feathers/feathers_lib_01_04.dae</mesh>
+    <variant frequency="100" name="feathers_02_04">
+      <mesh>props/feathers/feathers_lib_02_04.dae</mesh>
     </variant>
   </group>
   <material>basic_trans_parallax_spec.xml</material>

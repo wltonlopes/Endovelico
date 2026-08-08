@@ -13,19 +13,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-01-01">
+    <variant frequency="1" name="01-01">
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_01.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-01-02">
+    <variant frequency="1" name="01-02">
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_02.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-01-03">
+    <variant frequency="1" name="01-03">
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_03.png" name="baseTex"/>
+        <texture file="skeletal/libyan/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="01-04">
+      <textures>
+        <texture file="skeletal/libyan/i_l_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

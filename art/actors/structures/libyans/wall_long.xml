@@ -5,7 +5,6 @@
     <variant frequency="1" name="Libyan Wall Long">
       <mesh>structural/libyans/wall_long.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root" />
         <prop actor="props/structures/libyans/wall_long_struct.xml" attachpoint="root" />
       </props>
       <textures>
