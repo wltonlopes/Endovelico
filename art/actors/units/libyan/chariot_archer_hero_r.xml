@@ -2,34 +2,21 @@
 <actor version="1">
   <castshadow />
   <group>
-    <variant file="biped/base_driver_chariot_celt.xml">
+    <variant file="biped/base_archer_chariot_ready.xml">
       <mesh>skeletal/new/m_tunic_kho.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
         <prop actor="props/units/heads/kush_nubian_ostrich_feathers_e.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-01">
+    <variant frequency="1" name="c_02_01">
       <textures>
-        <texture file="skeletal/gara/tunic_medium_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-02">
-      <textures>
-        <texture file="skeletal/gara/tunic_medium_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-03">
-      <textures>
-        <texture file="skeletal/gara/tunic_medium_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant>
-      <textures>
+        <texture file="skeletal/libyan/hero_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
@@ -37,6 +24,9 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_archer_hip.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/gather_praise.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>

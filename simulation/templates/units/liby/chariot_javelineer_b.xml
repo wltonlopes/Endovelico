@@ -32,6 +32,6 @@
     </Rates>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>units/garamantians/chariot_javelinist_b_m.xml</Actor>
+    <Actor>units/libyan/chariot_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

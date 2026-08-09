@@ -4,10 +4,10 @@
   </Auras>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>King</GenericName>
+    <GenericName>Mathos</GenericName>
     <Icon>units/achae_hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/garamantians/hero_infantry_swordsman.xml</Actor>
+    <Actor>units/libyan/hero_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

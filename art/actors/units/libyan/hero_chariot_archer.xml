@@ -17,7 +17,7 @@
       <props>
         <prop actor="units/libyan/chariot_javelinist_c_h1.xml" attachpoint="horse5"/>
         <prop actor="units/libyan/chariot_javelinist_c_h2.xml" attachpoint="horse6"/>
-        <prop actor="units/libyan/chariot_javelinist_e_r.xml" attachpoint="rider1"/>
+        <prop actor="units/libyan/chariot_archer_hero_r.xml" attachpoint="rider1"/>
         <prop actor="units/libyan/chariot_javelinist_c_d.xml" attachpoint="driver1"/>
       </props>
       <textures>

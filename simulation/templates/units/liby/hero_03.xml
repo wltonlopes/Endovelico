@@ -4,10 +4,10 @@
   </Auras>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>King Djalla</GenericName>
+    <GenericName>Myttonus</GenericName>
     <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/garamantians/chariot_djalla_m.xml</Actor>
+    <Actor>units/libyan/chariot_djalla_m.xml</Actor>
   </VisualActor>
 </Entity>

@@ -4,10 +4,10 @@
   </Auras>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>King Djalla</GenericName>
+    <GenericName>Inaro</GenericName>
     <Icon>units/gara/hero_1.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/garamantians/chariot_djalla_m.xml</Actor>
+    <Actor>units/libyan/hero_chariot_archer.xml</Actor>
   </VisualActor>
 </Entity>
