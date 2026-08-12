@@ -7,6 +7,6 @@
     <Entity>units/malay/elephant_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/malaydwipa/elephantry_archer_a_m.xml</Actor>
+    <Actor>units/aksumites/elephantry_archer_m.xml</Actor>
   </VisualActor>
 </Entity>

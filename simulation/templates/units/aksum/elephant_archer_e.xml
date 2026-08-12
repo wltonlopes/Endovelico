@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/malaydwipa/elephantry_archer_e_m.xml</Actor>
+    <Actor>units/aksumites/elephantry_archer_m.xml</Actor>
   </VisualActor>
 </Entity>

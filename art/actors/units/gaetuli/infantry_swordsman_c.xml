@@ -3,30 +3,35 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_kho.dae</mesh>
       <props>
-        <prop actor="props/units/kush_meroitic_scabbard.xml" attachpoint="back"/>
-        <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/libyan_male_02.xml" attachpoint="head"/>
+
+
         <prop actor="props/units/weapons/gara_sword.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/shield_round_iron.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/gara_sword.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Linothorax-Noble-Medium-01-01">
-    <props>
-        <prop actor="props/units/heads/new/head_numid_elite.xml" attachpoint="head"/>
-    </props>
+    <variant frequency="1" name="01-01">
       <textures>
-        <texture file="skeletal/gara/linothorax_noble_medium_01_01.png" name="baseTex"/>
+        <texture file="skeletal/gaetuli/c_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Linothorax-Noble-Dark-01-01">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="01-02">
       <textures>
-        <texture file="skeletal/gara/linothorax_noble_dark_01_01.png" name="baseTex"/>
+        <texture file="skeletal/gaetuli/c_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="01-03">
+      <textures>
+        <texture file="skeletal/gaetuli/c_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="01-04">
+      <textures>
+        <texture file="skeletal/gaetuli/c_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

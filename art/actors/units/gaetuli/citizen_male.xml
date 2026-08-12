@@ -6,25 +6,29 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/buckler_small_cart_leather.xml" attachpoint="shield_arm"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/libian_dread_hair.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
-  <group>
-    <variant frequency="1" name="tunic_sleeveless_01_01">
+<group>
+    <variant frequency="1" name="01-01">
       <textures>
-        <texture file="skeletal/cart/tunic_sleeveless_01_01.png" name="baseTex"/>
+        <texture file="skeletal/gaetuli/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_sleeveless_01_02">
+    <variant frequency="1" name="01-02">
       <textures>
-        <texture file="skeletal/cart/tunic_sleeveless_01_02.png" name="baseTex"/>
+        <texture file="skeletal/gaetuli/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic_sleeveless_01_03">
+    <variant frequency="1" name="01-03">
       <textures>
-        <texture file="skeletal/cart/tunic_sleeveless_01_03.png" name="baseTex"/>
+        <texture file="skeletal/gaetuli/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="01-04">
+      <textures>
+        <texture file="skeletal/gaetuli/i_l_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
