@@ -18,7 +18,6 @@
   <Identity>
     <Civ>gara</Civ>
     <GenericName>Garamantian Chariot</GenericName>
-    <SpecificName>Essedon</SpecificName>
     <SelectionGroupName>units/gara/chariot_javelineer_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/cavaly_chariot_javelineer.png</Icon>
@@ -26,11 +25,11 @@
   <Promotion>
     <Entity>units/gara/chariot_javelineer_a</Entity>
   </Promotion>
-  <ResourceGatherer>
+  <!-- <ResourceGatherer>
     <Rates>
       <food.meat disable=""/>
     </Rates>
-  </ResourceGatherer>
+  </ResourceGatherer> -->
   <VisualActor>
     <Actor>units/garamantians/chariot_javelinist_b_m.xml</Actor>
   </VisualActor>

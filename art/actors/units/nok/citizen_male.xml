@@ -8,14 +8,31 @@
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
         <prop actor="props/units/hairs/hair_nok_m.xml" attachpoint="head"/> 
       </props>
+       <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant name="Kushite Basic Clubman 01">
+    <variant frequency="1" name="ir_01_01">
       <textures>
-        <texture file="skeletal/kush/naked_male_nubian_01.png" name="baseTex"/>
-        <texture file="skeletal/kush/naked_male_nubian_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/nok/civ_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_02">
+      <textures>
+        <texture file="skeletal/nok/civ_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_03">
+      <textures>
+        <texture file="skeletal/nok/civ_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="ir_01_04">
+      <textures>
+        <texture file="skeletal/nok/civ_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="1" name="dudette head a">
+        <mesh>props/new/head_ptol_female_2.dae</mesh>
+        </variant>
+    </group>
+    <group>
+        <variant frequency="1" name="color-black">
+            <textures><texture file="props/head/amazigh/female_01_01.png" name="baseTex"/></textures>
+        </variant>
+        <variant frequency="1" name="color-black1">
+            <textures><texture file="props/head/amazigh/female_01_01.png" name="baseTex"/></textures>
+        </variant>
+    </group>
+    <material>objectcolor.xml</material>
+</actor>

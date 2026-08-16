@@ -7,7 +7,7 @@
       <textures>
         <texture file="props/weapon/copper_prop.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_white.dds" name="specTex"/>
+        <texture file="null_orange.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

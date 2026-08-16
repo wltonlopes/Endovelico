@@ -18,7 +18,7 @@
       <textures>
         <texture file="skeletal/garamantes/hero_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_orange.dds" name="specTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

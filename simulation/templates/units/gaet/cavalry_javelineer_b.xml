@@ -11,6 +11,6 @@
     <Entity>units/gaet/cavalry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/carthaginians/cavalry_javelinist_b_m.xml</Actor>
+    <Actor>units/gaetuli/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

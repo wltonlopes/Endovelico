@@ -5,8 +5,8 @@
   <Identity>
     <Civ>gara</Civ>
     <GenericName>King of Garamantes</GenericName>
-    <SpecificName>Agueklid</SpecificName>
-    <Icon>units/achae/hero_cyrus.png</Icon>
+    <SpecificName>Agellid</SpecificName>
+    <Icon>units/gara/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/garamantians/hero_infantry_swordsman.xml</Actor>

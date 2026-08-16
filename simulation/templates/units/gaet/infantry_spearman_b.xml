@@ -15,6 +15,6 @@
     <Entity>units/gaet/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/carthaginians/infantry_spearman_b.xml</Actor>
+    <Actor>units/gaetuli/infantry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

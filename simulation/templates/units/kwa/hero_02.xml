@@ -7,8 +7,8 @@
   <Identity>
     <Civ>kwa</Civ>
 	  <Phenotype>female</Phenotype>
-    <GenericName>Queen of Sabaki</GenericName>
-    <Icon>units/kush/hero_amanirenas.png</Icon>
+    <GenericName>Queen</GenericName>
+    <Icon>units/kwa/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/kwa/hero_infantry_swordswoman.xml</Actor>

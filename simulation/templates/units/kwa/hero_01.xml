@@ -4,8 +4,8 @@
   </Auras>
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>King of Rhapta</GenericName>
-    <Icon>units/kush/hero_nastasen.png</Icon>
+    <GenericName>King</GenericName>
+    <Icon>units/kwa/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/kwa/hero_infantry_javelineer.xml</Actor>

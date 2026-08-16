@@ -4,8 +4,7 @@
     <Civ>anish</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/anish/cavalry_axeman_b</SelectionGroupName>
-    <GenericName>Jaguar Warrior</GenericName>
-    <SpecificName>Aj Balam B'ate</SpecificName>
+    <GenericName>Heavy Warrior</GenericName>
     <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
@@ -16,4 +15,3 @@
     <Actor>units/anishinaabe/infantry_heavy_maceman.xml</Actor>
   </VisualActor>
 </Entity>
-infantry_heavy_axewoman

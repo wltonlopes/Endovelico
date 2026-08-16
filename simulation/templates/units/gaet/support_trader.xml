@@ -20,6 +20,6 @@
     <HeightOffset>7</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>units/carthaginians/trader.xml</Actor>
+    <Actor>units/gaetuli/trader.xml</Actor>
   </VisualActor>
 </Entity>
