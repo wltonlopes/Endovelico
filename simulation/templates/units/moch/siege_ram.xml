@@ -9,6 +9,6 @@
     <Icon>units/iber/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mochicas/siege_ram_pivot.xml</Actor>
+    <Actor>units/mochicas/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>
