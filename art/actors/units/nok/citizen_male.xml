@@ -4,14 +4,24 @@
   <group>
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_naked.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/hair_nok_m.xml" attachpoint="head"/> 
-      </props>
        <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="v1">
+      <props>
+        <prop actor="props/units/helmets/nok/straw_hat.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_afri_04.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="v2">
+      <props>
+        <prop actor="props/units/hairs/hair_nok_m.xml" attachpoint="head"/> 
+        <prop actor="props/units/heads/head_afri_04.xml" attachpoint="head"/>
+      </props>
     </variant>
   </group>
   <group>

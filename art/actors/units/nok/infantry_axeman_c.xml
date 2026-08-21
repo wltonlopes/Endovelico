@@ -5,47 +5,38 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_naked.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-        <prop actor="props/units/hairs/hair_nok_m.xml" attachpoint="head"/> 
+        <prop actor="props/units/heads/head_afri_04.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/afro_nok_male_c.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/nok/headband_02.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/axe_double.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/kush_nubian_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/nok_thureos_01.xml" attachpoint="shield"/>
+        <prop actor="props/units/helmets/nok/necklace_02.xml" attachpoint="helmet"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Painted skin 1">
+    <variant frequency="1" name="c_01">
       <textures>
-        <texture file="skeletal/kush/painted_01_01.png" name="baseTex"/>
-        <texture file="skeletal/kush/painted_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/nok/c_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Painted skin 2">
+    <variant frequency="1" name="c_02">
       <textures>
-        <texture file="skeletal/kush/painted_01_02.png" name="baseTex"/>
-        <texture file="skeletal/kush/painted_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/nok/c_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Painted skin 3">
+    <variant frequency="1" name="c_03">
       <textures>
-        <texture file="skeletal/kush/painted_01_03.png" name="baseTex"/>
-        <texture file="skeletal/kush/painted_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/nok/c_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Painted skin 4 all white">
+    <variant frequency="1" name="c_04">
       <textures>
-        <texture file="skeletal/kush/painted_01_04.png" name="baseTex"/>
-        <texture file="skeletal/kush/painted_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Painted skin 3 Red">
-      <textures>
-        <texture file="skeletal/kush/painted_02_01.png" name="baseTex"/>
-        <texture file="skeletal/kush/painted_01_spec.png" name="specTex"/>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="skeletal/nok/c_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -12,6 +12,6 @@
     <Icon>units/nok/citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/kushites/citizen_{phenotype}.xml</Actor>
+    <Actor>units/nok/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

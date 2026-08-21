@@ -11,6 +11,25 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="v1">
+      <props>
+        <prop actor="props/units/helmets/nok/feather_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/nok/necklace_02.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="v2">
+      <props>
+        <prop actor="props/units/helmets/nok/headband_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/nok/necklace_02.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="v3">
+      <props>
+        <prop actor="props/units/helmets/nok/necklace_02.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="f_01_01">
       <textures>
         <texture file="skeletal/nok/f_01.png" name="baseTex"/>
