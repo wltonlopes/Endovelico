@@ -3,7 +3,7 @@
   <castshadow />
   <group>
     <variant>
-      <mesh>skeletal/new/f_armor_dress.dae</mesh>
+      <mesh>skeletal/new/f_tunic_long.dae</mesh>
     </variant>
   </group>
   <group>
@@ -12,9 +12,6 @@
         <prop actor="props/units/heads/head_kush_fem_dark_nuba.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet"/>
       </props>
-      <textures>
-        <texture file="skeletal/gara/tunic_female_garamantian_01_01.png" name="baseTex"/>
-      </textures>
     </variant>
   </group>
   <group>
@@ -22,6 +19,28 @@
       <textures>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="f_01_01">
+      <textures>
+        <texture file="skeletal/soninke/f_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="f_01_02">
+      <textures>
+        <texture file="skeletal/soninke/f_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="f_01_03">
+      <textures>
+        <texture file="skeletal/soninke/f_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="f_01_04">
+      <textures>
+        <texture file="skeletal/soninke/f_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

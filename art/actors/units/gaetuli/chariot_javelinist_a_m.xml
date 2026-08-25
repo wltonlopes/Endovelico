@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <animations>
+      <!-- <animations>
         <animation file="mechanical/chariot_idle.dae" id="idle1" name="Idle" speed="80"/>
         <animation file="mechanical/chariot_idle.dae" id="idle2" name="Idle" speed="80"/>
         <animation file="mechanical/chariot_idle.dae" id="idle3" name="Idle" speed="80"/>
@@ -12,13 +12,13 @@
         <animation file="mechanical/chariot_death.dae" id="death1" name="Death" speed="100"/>
         <animation file="mechanical/chariot_death.dae" id="death2" name="Death" speed="100"/>
         <animation file="mechanical/chariot_idle.dae" name="attack_ranged" speed="80"/>
-      </animations>
-      <mesh>structural/garamantians/chariot_a.dae</mesh>
+      </animations> -->
+      <mesh>structural/mauretania/chariot_01.dae</mesh>
       <props>
-        <prop actor="units/gaetuli/chariot_javelinist_c_h1.xml" attachpoint="horse2"/>
-        <prop actor="units/gaetuli/chariot_javelinist_c_h2.xml" attachpoint="horse3"/>
-        <prop actor="units/gaetuli/chariot_javelinist_a_d.xml" attachpoint="driver2_mid"/>
-        <prop actor="units/gaetuli/chariot_javelinist_a_r.xml" attachpoint="rider3"/>
+        <prop actor="units/gaetuli/chariot_archer_c_h1.xml" attachpoint="horse2"/>
+        <prop actor="units/gaetuli/chariot_archer_c_h2.xml" attachpoint="horse1"/>
+        <prop actor="units/gaetuli/chariot_javelinist_a_d.xml" attachpoint="drive1"/>
+        <prop actor="units/gaetuli/chariot_javelinist_a_r.xml" attachpoint="rider1"/>
       </props>
       <textures>
         <texture file="structural/celt_chariot_a.dds" name="baseTex"/>
