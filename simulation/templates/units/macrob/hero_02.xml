@@ -6,7 +6,7 @@
     <Civ>macrob</Civ>
     <Phenotype>female</Phenotype>
     <GenericName>Queen Arawelo</GenericName>
-    <Icon>units/kush/hero_amanirenas.png</Icon>
+    <Icon>units/macrob/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/macrobia/hero_swordsman_m.xml</Actor>

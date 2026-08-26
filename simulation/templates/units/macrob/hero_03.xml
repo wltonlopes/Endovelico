@@ -6,7 +6,7 @@
     <Civ>macrob</Civ>
     <GenericName>King Kenadiid</GenericName>
     <SpecificName>Kenadiid</SpecificName>
-    <Icon>units/kush/hero_amanirenas.png</Icon>
+    <Icon>units/macrob/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/macrobia/hero_infantry_spearman.xml</Actor>

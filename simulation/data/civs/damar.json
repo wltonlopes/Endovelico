@@ -50,7 +50,7 @@
             "Count": 4
         },
         {
-            "Template": "units/damar/infantry_maceman_b",
+            "Template": "units/damar/infantry_axeman_b",
             "Count": 3
         },
         {
@@ -74,7 +74,7 @@
     ],
     "SkirmishReplacements": {
         "skirmish/units/default_cavalry": "units/damar/cavalry_scout",
-        "skirmish/units/default_infantry_melee_b": "units/damar/infantry_maceman_b",
+        "skirmish/units/default_infantry_melee_b": "units/damar/infantry_axeman_b",
         "skirmish/units/default_infantry_ranged_b": "units/damar/infantry_archer_b",
         "skirmish/units/special_starting_unit": "gaia/fauna_cattle_cow_trainable",
         "skirmish/units/default_ship_trireme": "units/damar/ship_bireme"

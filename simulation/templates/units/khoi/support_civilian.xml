@@ -13,6 +13,6 @@
     <Icon>units/khoi/citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/subsaara/citizen_{phenotype}.xml</Actor>
+    <Actor>units/khoisan/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,7 +5,7 @@
     <variant file="biped/base_archer_chariot_ready.xml">
       <mesh>skeletal/new/m_tunic_kho.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_gaetuli_01.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_hip.xml" attachpoint="sheath_L"/>
@@ -15,7 +15,7 @@
   <group>
     <variant frequency="1" name="c_02_01">
       <textures>
-        <texture file="skeletal/gaetuli/hero_02.png" name="baseTex"/>
+        <texture file="skeletal/gaetuli/hero_03.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

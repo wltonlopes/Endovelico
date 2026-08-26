@@ -6,7 +6,4 @@
   <Promotion>
     <Entity>units/gaet/infantry_swordsman_e</Entity>
   </Promotion>
-  <VisualActor>
-    <Actor>units/numidia/infantry_swordsman_a.xml</Actor>
-  </VisualActor>
 </Entity>

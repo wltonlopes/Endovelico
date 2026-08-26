@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_cavalry_spearman">
+<Entity parent="rare_units|template_unit_champion_cavalry_spearman">
+  <Auras datatype="tokens">
+      units/inspiration
+  </Auras>
   <Identity>
     <Civ>numi</Civ>
     <SpecificName>Cavalry Banner Stands</SpecificName>

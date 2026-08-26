@@ -7,7 +7,7 @@
     <Phenotype>female</Phenotype>
     <GenericName>Queen Haramaanyo</GenericName>
     <SpecificName>Haramaanyo</SpecificName>
-    <Icon>units/gara/hero_1.png</Icon>
+    <Icon>units/macrob/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/macrobia/hero_javelinist_m.xml</Actor>

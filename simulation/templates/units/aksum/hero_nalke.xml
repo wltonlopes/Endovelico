@@ -8,7 +8,7 @@
     <Civ>aksum</Civ>
     <Lang>napatan</Lang>
     <GenericName>Nālkē of axum</GenericName>
-    <Icon>units/kush/hero_nastasen.png</Icon>
+    <Icon>units/aksum/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/aksumites/hero_spearman_m.xml</Actor>

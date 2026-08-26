@@ -11,6 +11,6 @@
     <Icon>units/gara/chariot_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/garamantians/chariot_scout_m.xml</Actor>
+    <Actor>units/gaetuli/chariot_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>

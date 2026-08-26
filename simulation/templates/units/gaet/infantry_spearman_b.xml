@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="hoplite|template_unit_infantry_melee_spearman">
+<Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
     </Entities>
@@ -7,7 +7,7 @@
   <Identity>
     <Civ>gaet</Civ>
     <SelectionGroupName>units/gaet/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Libyan Spearman</GenericName>
+    <GenericName>Gaetuli Spearman</GenericName>
     <SpecificName>Sǝḫīr Ḥanīt</SpecificName>
     <Icon>units/cart/infantry_spearman.png</Icon>
   </Identity>
