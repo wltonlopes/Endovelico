@@ -6,11 +6,11 @@
   </Identity>
   <WallSet>
     <Templates>
-      <Tower>structures/urew/wall_tower</Tower>
-      <Gate>structures/urew/wall_gate</Gate>
-      <WallLong>structures/urew/wall_long</WallLong>
-      <WallMedium>structures/urew/wall_medium</WallMedium>
-      <WallShort>structures/urew/wall_short</WallShort>
+      <Tower>structures/damar/wall_tower</Tower>
+      <Gate>structures/damar/wall_gate</Gate>
+      <WallLong>structures/damar/wall_long</WallLong>
+      <WallMedium>structures/damar/wall_medium</WallMedium>
+      <WallShort>structures/damar/wall_short</WallShort>
     </Templates>
     <MaxTowerOverlap>0.90</MaxTowerOverlap>
     <MinTowerOverlap>0.05</MinTowerOverlap>

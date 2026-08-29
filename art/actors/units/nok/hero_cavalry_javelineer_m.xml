@@ -5,8 +5,8 @@
     <variant>
       <mesh>skeletal/horse_lusitano.dae</mesh>
       <props>
-        <prop actor="units/mande/cavalry_spearman_a_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/cav_blanket_lusi_elite.xml" attachpoint="root"/>
+        <prop actor="units/nok/hero_cavalry_javelineer_r.xml" attachpoint="rider"/>
+        <prop actor="props/horse/cav_blanket_lusi_avance.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
       </props>
     </variant>
@@ -27,7 +27,7 @@
     <variant file="quadraped/base_horse_run.xml"/>
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="units/mande/cavalry_spearman_e_r.xml" attachpoint="rider_R"/>
+        <prop actor="units/mande/cavalry_spearman_a_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>

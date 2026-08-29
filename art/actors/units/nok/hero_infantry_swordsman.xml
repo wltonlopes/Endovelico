@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_afri_04.xml" attachpoint="head"/>
+        <prop actor="props/units/hairs/afro_nok_male_c.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/nok/feather_01.xml" attachpoint="head"/>
+        <prop actor="props/units/kush_meroitic_scabbard.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/longsword_mauryan.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/nok/headband_05.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/nok_thureos_01.xml" attachpoint="shield"/>
+        <prop actor="props/units/helmets/nok/necklace_05.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="c_01">
+      <textures>
+        <texture file="skeletal/nok/c_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_02">
+      <textures>
+        <texture file="skeletal/nok/c_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_03">
+      <textures>
+        <texture file="skeletal/nok/c_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="c_04">
+      <textures>
+        <texture file="skeletal/nok/c_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_ready.xml" name="Swordsman-Shield-Ready"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml">
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
