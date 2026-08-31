@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Square width="13.0" depth="13.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>bantu</Civ>
+    <SpecificName>Ipe</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="12.5" depth="12.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/southern_bantu/house.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

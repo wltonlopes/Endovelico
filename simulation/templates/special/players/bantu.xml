@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>bantu</Civ>
+    <GenericName>Bantu</GenericName>
+    <History>Bantu-speaking migrants to Zimbabwe plateau (c. 500 BC–900 AD). Early Iron Age settlers
+      practicing millet farming and iron smelting. Ancestors of Great Zimbabwe builders; established
+      hilltop villages and traded Indian Ocean goods.</History>
+    <Icon>emblems/emblem_bantu.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

@@ -1,0 +1,15 @@
+{
+  "genericName": "Uwassiye Vessel",
+  "description": "Merchant ships gain +10% benefit per garrisoned unit, up to 5 units.",
+  "cost": { "wood": 250, "metal": 200 },
+  "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_city" }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "trade.png",
+  "researchTime": 60,
+  "tooltip": "Merchant ships gain up to 50% trade benefit from garrisoned units.",
+  "modifications": [
+    { "value": "ResourceTrickle/Rates/metal", "multiply": 1.5 }
+  ],
+  "affects": ["Merchant Ship"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

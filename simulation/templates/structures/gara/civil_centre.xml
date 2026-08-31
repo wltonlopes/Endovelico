@@ -15,6 +15,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/garamantians/civic_center.xml</Actor>
+    <Actor>structures/garamantes/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

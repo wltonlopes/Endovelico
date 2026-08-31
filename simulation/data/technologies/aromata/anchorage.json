@@ -1,0 +1,15 @@
+{
+  "genericName": "Anchorage",
+  "description": "Each ship provides +5 population capacity, equivalent to a House.",
+  "cost": { "wood": 250, "stone": 100 },
+  "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_city" }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "house.png",
+  "researchTime": 55,
+  "tooltip": "Each ship provides 5 population capacity.",
+  "modifications": [
+    { "value": "Population/Bonus", "add": 5 }
+  ],
+  "affects": ["Ship"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

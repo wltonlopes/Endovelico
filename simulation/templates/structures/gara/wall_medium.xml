@@ -40,7 +40,7 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/garamantians/wall_medium.xml</Actor>
+    <Actor>structures/garamantes/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

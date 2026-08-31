@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sonin/infantry_spearman_b.xml">
+  <Identity>
+    <Civ>sonin</Civ>
+    <GenericName>Spearman</GenericName>
+    <Icon>units/subsaara/infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/soninke/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

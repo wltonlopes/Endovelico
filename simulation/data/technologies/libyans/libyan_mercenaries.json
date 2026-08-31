@@ -1,0 +1,11 @@
+{
+  "genericName": "Libyan Mercenaries",
+  "description": "Warriors entering an allied Civic Center can be converted into allied warriors. The allied player pays 200% of the original cost, and the reverse is also possible.",
+  "cost": { "food": 300, "metal": 150 },
+  "requirements": { "all": [{ "civ": "liby" }, { "tech": "phase_city" }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "mercenary_camp.png",
+  "researchTime": 60,
+  "tooltip": "Allied Civic Centers can convert warriors for twice their original cost.",
+  "modifications": []
+}

@@ -1,0 +1,11 @@
+{
+  "genericName": "Beden Vessel",
+  "description": "The first 20 ships do not consume population while benefiting from the population capacity provided by Anchorage.",
+  "cost": { "wood": 300, "metal": 250 },
+  "requirements": { "all": [{ "civ": "macrob" }, { "tech": "aromata/anchorage" }] },
+  "requirementsTooltip": "Requires Anchorage.",
+  "icon": "ship.png",
+  "researchTime": 60,
+  "tooltip": "The first 20 ships use no population while retaining Anchorage population capacity.",
+  "modifications": []
+}

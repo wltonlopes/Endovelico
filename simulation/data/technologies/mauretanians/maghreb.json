@@ -1,0 +1,11 @@
+{
+  "genericName": "Maghreb",
+  "description": "Units deal +5% damage on steep terrain above 10°.",
+  "cost": { "food": 250, "metal": 100 },
+  "requirements": { "all": [{ "civ": "mauret" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "Units deal 5% more damage on slopes above 10°.",
+  "modifications": []
+}

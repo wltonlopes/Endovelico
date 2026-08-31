@@ -1,0 +1,15 @@
+{
+  "genericName": "Hestiatoria",
+  "description": "Group recruitment is 10% cheaper.",
+  "cost": { "food": 200, "wood": 150 },
+  "requirements": { "all": [{ "civ": "cyre" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "Group recruitment costs 10% less.",
+  "modifications": [
+    { "value": "Cost/Resources/food", "multiply": 0.9 }
+  ],
+  "affects": ["Unit"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -20,7 +20,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/garamantians/fortress.xml</Actor>
+    <Actor>structures/garamantes/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

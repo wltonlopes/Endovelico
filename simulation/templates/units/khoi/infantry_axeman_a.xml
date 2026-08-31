@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/khoi/infantry_axeman_b">
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Axeman</GenericName>
+    <Icon>units/subsaara/infantry_axeman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/khoi/infantry_axeman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/khoisan/infantry_axeman_a.xml</Actor>
+  </VisualActor>
+</Entity>

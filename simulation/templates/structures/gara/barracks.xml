@@ -20,7 +20,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/garamantians/barracks.xml</Actor>
+    <Actor>structures/garamantes/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

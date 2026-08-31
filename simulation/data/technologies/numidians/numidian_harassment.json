@@ -1,0 +1,16 @@
+{
+  "genericName": "Numidian Harassment",
+  "description": "Cavalry is more effective against infantry, merchants, women and priests.",
+  "cost": { "food": 250, "metal": 150 },
+  "requirements": { "all": [{ "civ": "numi" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "cavalry_archers.png",
+  "researchTime": 45,
+  "tooltip": "Cavalry deals 10% more damage against vulnerable units.",
+  "modifications": [
+    { "value": "Attack/Melee/Damage/Hack", "multiply": 1.1 },
+    { "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.1 }
+  ],
+  "affects": ["Cavalry"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

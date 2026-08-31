@@ -1,0 +1,15 @@
+{
+  "genericName": "Cyrenaican School",
+  "description": "Technologies are researched 10% faster.",
+  "cost": { "wood": 200, "metal": 150 },
+  "requirements": { "all": [{ "civ": "cyre" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "academy.png",
+  "researchTime": 45,
+  "tooltip": "Technologies are researched 10% faster.",
+  "modifications": [
+    { "value": "Researcher/TechCostMultiplier/time", "multiply": 0.9 }
+  ],
+  "affects": ["Researcher"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

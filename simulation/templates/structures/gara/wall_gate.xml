@@ -16,6 +16,6 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/garamantians/wall_gate.xml</Actor>
+    <Actor>structures/garamantes/wall_gate.xml</Actor>
   </VisualActor>
 </Entity>

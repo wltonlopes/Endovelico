@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sonin/infantry_javelinist_a.xml">
+  <Identity>
+    <Civ>sonin</Civ>
+    <GenericName>Veteran Skirmisher</GenericName>
+    <Icon>units/subsaara/infantry_javelinist.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/soninke/infantry_javelinist_e.xml</Actor>
+  </VisualActor>
+</Entity>

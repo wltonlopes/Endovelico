@@ -10,6 +10,6 @@
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/garamantians/wonder.xml</Actor>
+    <Actor>structures/garamantes/wonder.xml</Actor>
   </VisualActor>
 </Entity>

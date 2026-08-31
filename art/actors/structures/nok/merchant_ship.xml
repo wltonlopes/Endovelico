@@ -4,17 +4,17 @@
   <float/>
   <group>
     <variant frequency="1" name="raft_01">
-      <mesh>structural/ships/raft_01_01.dae</mesh>
+      <mesh>structural/ships/raft_01_02.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
         <prop actor="units/nok/raft_navigator.xml" attachpoint="01"/>
         <prop actor="structures/nok/merchant_ship_prop.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="props/urewe_props.png" name="baseTex"/>
+        <texture file="structural/raft_01_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
-	 </textures>
+      </textures>
     </variant>
   </group>
   <group>

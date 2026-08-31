@@ -1,0 +1,11 @@
+{
+  "genericName": "Atlantic Trade Hub",
+  "description": "Constructing a Dock automatically creates a fishing raft.",
+  "cost": { "wood": 200, "metal": 100 },
+  "requirements": { "all": [{ "civ": "mauret" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "fishing.png",
+  "researchTime": 40,
+  "tooltip": "Each completed Dock creates a fishing raft.",
+  "modifications": []
+}

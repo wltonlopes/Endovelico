@@ -13,6 +13,6 @@
     <Static width="13.0" depth="6.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/garamantians/wall_short.xml</Actor>
+    <Actor>structures/garamantes/wall_short.xml</Actor>
   </VisualActor>
 </Entity>

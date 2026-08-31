@@ -1,0 +1,15 @@
+{
+  "genericName": "Saharan Pack Tents",
+  "description": "Camels carrying dismantled tents move 25% faster.",
+  "cost": { "food": 150, "wood": 150 },
+  "requirements": { "all": [{ "civ": "liby" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "camel.png",
+  "researchTime": 35,
+  "tooltip": "Camel units move 25% faster while transporting tents.",
+  "modifications": [
+    { "value": "UnitMotion/WalkSpeed", "multiply": 1.25 }
+  ],
+  "affects": ["Camel"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

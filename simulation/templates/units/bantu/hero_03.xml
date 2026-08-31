@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_healer">
+    <Auras datatype="tokens">
+        units/heroes/sub-saharan/kings_council
+    </Auras>
+  <Identity>
+    <Civ>bantu</Civ>
+    <GenericName>Elder Tribal Healer</GenericName>
+    <Icon>units/urew/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/southern_bantu/hero_healer_m.xml</Actor>
+  </VisualActor>
+</Entity>

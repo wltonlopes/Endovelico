@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>sonin</Civ>
+    <GenericName>Priest</GenericName>
+    <Icon>units/kush/support_healer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/soninke/healer.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -11,6 +11,6 @@
     <Icon>units/nok/hero_03.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/nok/hero_infantry_swordswoman.xml</Actor>
+    <Actor>units/nok/hero_cavalry_swordswoman_m.xml</Actor>
   </VisualActor>
 </Entity>

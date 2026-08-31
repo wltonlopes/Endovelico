@@ -1,0 +1,11 @@
+{
+  "genericName": "Equestrian Skill",
+  "description": "When a cavalry unit is defeated, only the horse dies; the rider survives as an infantry unit.",
+  "cost": { "food": 300, "metal": 200 },
+  "requirements": { "all": [{ "civ": "numi" }, { "tech": "phase_city" }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "nisean_war_horses.png",
+  "researchTime": 60,
+  "tooltip": "Defeated cavalry riders survive as infantry units.",
+  "modifications": []
+}

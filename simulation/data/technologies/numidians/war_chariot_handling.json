@@ -1,0 +1,15 @@
+{
+  "genericName": "War Chariot Handling",
+  "description": "War chariots move 15% faster.",
+  "cost": { "food": 200, "wood": 150 },
+  "requirements": { "all": [{ "civ": "numi" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "cavalry_tradition.png",
+  "researchTime": 40,
+  "tooltip": "War chariots move 15% faster.",
+  "modifications": [
+    { "value": "UnitMotion/WalkSpeed", "multiply": 1.15 }
+  ],
+  "affects": ["Chariot"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

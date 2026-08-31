@@ -1,0 +1,8 @@
+{
+  "genericName": "Tribalism",
+  "description": "Allows a light cavalry unit to be recruited from Houses.",
+  "requirements": { "civ": "numi" },
+  "icon": "default.png",
+  "tooltip": "Houses can recruit light cavalry units.",
+  "modifications": []
+}

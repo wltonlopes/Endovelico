@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint>
+    <Square width="20" depth="20"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>bantu</Civ>
+    <GenericName>Stable</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="19.5" depth="19.5"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_elephant
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/southern_bantu/stable_bull.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

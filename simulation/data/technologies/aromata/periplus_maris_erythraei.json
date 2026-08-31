@@ -1,0 +1,15 @@
+{
+  "genericName": "Periplus Maris Erythraei",
+  "description": "Ships gain +5% speed per garrisoned unit, up to 5 units.",
+  "cost": { "wood": 200, "metal": 150 },
+  "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "ship_speed.png",
+  "researchTime": 45,
+  "tooltip": "Ships gain up to 25% speed from garrisoned units.",
+  "modifications": [
+    { "value": "UnitMotion/WalkSpeed", "multiply": 1.25 }
+  ],
+  "affects": ["Ship"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

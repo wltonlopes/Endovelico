@@ -1,0 +1,15 @@
+{
+  "genericName": "Shipyard",
+  "description": "Idle ships automatically repair for free. Garrisoned units increase the repair rate by 1% per unit.",
+  "cost": { "wood": 250, "metal": 150 },
+  "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "shipyard.png",
+  "researchTime": 50,
+  "tooltip": "Idle ships repair for free; garrisoned units increase the repair rate.",
+  "modifications": [
+    { "value": "Health/RegenRate", "add": 1 }
+  ],
+  "affects": ["Ship"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,11 @@
+{
+  "genericName": "Amazigh Federation",
+  "description": "Units fight 5% more effectively while in formation.",
+  "cost": { "food": 250, "metal": 150 },
+  "requirements": { "all": [{ "civ": "mauret" }, { "tech": "phase_city" }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "formations.png",
+  "researchTime": 60,
+  "tooltip": "Units in formation fight 5% more effectively.",
+  "modifications": []
+}

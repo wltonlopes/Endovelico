@@ -1,0 +1,11 @@
+{
+  "genericName": "Thesmophoria",
+  "description": "The first two times a citizen harvests from a farm, the harvest is performed 50% faster.",
+  "cost": { "food": 200, "wood": 100 },
+  "requirements": { "all": [{ "civ": "cyre" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "farming.png",
+  "researchTime": 40,
+  "tooltip": "A citizen's first two farm harvests are 50% faster.",
+  "modifications": []
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="new">
+      <mesh>structural/garamantes/stable.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/hele_corral_mud.xml" attachpoint="root"/>
+        <prop actor="fauna/camel.xml" attachpoint="horse_3" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/camel.xml" attachpoint="horse_1" maxheight="20" minheight="-20"/>
+        <prop actor="fauna/camel.xml" attachpoint="horse_2" maxheight="20" minheight="-20"/>
+      </props>
+      <textures>
+        <texture file="structural/gara/struct.png" name="baseTex"/>
+        <texture file="structural/gara/struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/garamantes/stable_AO.png" name="aoTex"/>
+        <texture file="structural/gara/struct_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_gara.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/spartans/barracks_struct_b.xml" attachpoint="root"/>
+        <prop actor="props/structures/spartans/barracks_props_a.xml" attachpoint="root"/>
+        <prop actor="props/structures/spartans/barracks_props_shields.xml" attachpoint="root"/>
+        <prop actor="props/structures/spartans/barracks_tile_c.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_ao_parallax_spec.xml</material>
+</actor>

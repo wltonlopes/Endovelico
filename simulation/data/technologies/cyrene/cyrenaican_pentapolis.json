@@ -1,0 +1,15 @@
+{
+  "genericName": "Cyrenaican Pentapolis",
+  "description": "Civic Centers can garrison 5 additional units.",
+  "cost": { "wood": 150, "stone": 200 },
+  "requirements": { "all": [{ "civ": "cyre" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "civic_center.png",
+  "researchTime": 40,
+  "tooltip": "Civic Centers can garrison 5 additional units.",
+  "modifications": [
+    { "value": "GarrisonHolder/Max", "add": 5 }
+  ],
+  "affects": ["CivicCentre"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_axeman">
+  <Identity>
+    <Civ>nok</Civ>
+    <GenericName>Axeman Cavalry</GenericName>
+    <Icon>units/subsaara/cavalry_axeman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/nok/cavalry_axeman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

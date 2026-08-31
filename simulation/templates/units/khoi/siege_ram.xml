@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_ram">
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Siege Ram</GenericName>
+    <Icon>units/kush/siege_ram.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/khoisan/siege_ram.xml</Actor>
+  </VisualActor>
+</Entity>

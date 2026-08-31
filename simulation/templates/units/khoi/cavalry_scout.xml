@@ -2,10 +2,10 @@
 <Entity parent="ox_riding|template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>khoi</Civ>
-    <SpecificName>KhoiKhoi Scout</SpecificName>
+    <GenericName>Scout</GenericName>
     <Icon>units/kush/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/urewe/riding_ox_scout_jav_m.xml</Actor>
+    <Actor>units/khoisan/cavalry_scout_r.xml</Actor>
   </VisualActor>
 </Entity>

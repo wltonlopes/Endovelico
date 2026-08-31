@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Identity>
+    <Civ>nok</Civ>
+    <SelectionGroupName>units/nok/infantry_javelinist_b</SelectionGroupName>
+    <GenericName>Skirmisher</GenericName>
+    <Icon>units/subsaara/infantry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/nok/infantry_javelinist_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/nok/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

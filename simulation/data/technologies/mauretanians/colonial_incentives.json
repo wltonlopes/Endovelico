@@ -1,0 +1,11 @@
+{
+  "genericName": "Colonial Incentives",
+  "description": "The first four times the player forms an alliance, technology costs are 5% cheaper.",
+  "cost": { "food": 200, "metal": 150 },
+  "requirements": { "all": [{ "civ": "mauret" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "diplomacy.png",
+  "researchTime": 45,
+  "tooltip": "Each of the first four alliances reduces technology costs by 5%.",
+  "modifications": []
+}

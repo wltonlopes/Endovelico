@@ -9,7 +9,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/garamantians/stable.xml</Actor>
+    <Actor>structures/garamantes/stable.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

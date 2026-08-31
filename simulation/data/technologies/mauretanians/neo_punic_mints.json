@@ -1,0 +1,15 @@
+{
+  "genericName": "Neo-Punic Mints",
+  "description": "Civic Centers, Wonders, cultural buildings and Punic units cost 15% less metal.",
+  "cost": { "wood": 250, "metal": 250 },
+  "requirements": { "all": [{ "civ": "mauret" }, { "tech": "phase_city" }] },
+  "requirementsTooltip": "Unlocked in City Phase.",
+  "icon": "coinage.png",
+  "researchTime": 60,
+  "tooltip": "Civic Centers, Wonders, cultural buildings and Punic units cost 15% less metal.",
+  "modifications": [
+    { "value": "Cost/Resources/metal", "multiply": 0.85 }
+  ],
+  "affects": ["Civic Centre Wonder Cultural Punic"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

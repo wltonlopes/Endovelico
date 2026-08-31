@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>sonin</Civ>
+    <GenericName>Villager</GenericName>
+    <Icon>units/kush/support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/soninke/citizen_female.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Hunter Hero</GenericName>
+    <Icon>units/kush/hero_amanirenas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/khoisan/hero_archer_m.xml</Actor>
+  </VisualActor>
+</Entity>

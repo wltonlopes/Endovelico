@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Entity parent="template_unit_infantry_ranged_slinger">
+  <Identity>
+    <Civ>bantu</Civ>
+    <SelectionGroupName>units/southern_bantu/infantry_slinger_b</SelectionGroupName>
+    <GenericName>Tribal Slinger</GenericName>
+    <Icon>units/gara/infantry_slinger.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/bantu/infantry_slinger_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/southern_bantu/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

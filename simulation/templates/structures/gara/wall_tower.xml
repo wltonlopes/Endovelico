@@ -12,7 +12,7 @@
     <Static width="7.5" depth="7.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/garamantians/wall_tower.xml</Actor>
+    <Actor>structures/garamantes/wall_tower.xml</Actor>
   </VisualActor>
     <WallPiece>
     <Length>11</Length>

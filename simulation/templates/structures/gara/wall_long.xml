@@ -60,6 +60,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/garamantians/wall_long.xml</Actor>
+    <Actor>structures/garamantes/wall_long.xml</Actor>
   </VisualActor>
 </Entity>

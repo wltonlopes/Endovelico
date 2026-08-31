@@ -11,6 +11,6 @@
     <Static width="13.0" depth="14.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/garamantians/storehouse.xml</Actor>
+    <Actor>structures/garamantes/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

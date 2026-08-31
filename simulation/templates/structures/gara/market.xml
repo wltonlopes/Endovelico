@@ -5,6 +5,6 @@
     <SpecificName>Empórios</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/garamantians/market.xml</Actor>
+    <Actor>structures/garamantes/market.xml</Actor>
   </VisualActor>
 </Entity>

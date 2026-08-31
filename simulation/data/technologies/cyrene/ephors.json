@@ -1,0 +1,15 @@
+{
+  "genericName": "Ephors",
+  "description": "Units are recruited 10% faster.",
+  "cost": { "food": 200, "metal": 150 },
+  "requirements": { "all": [{ "civ": "cyre" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "default.png",
+  "researchTime": 45,
+  "tooltip": "Units are recruited 10% faster.",
+  "modifications": [
+    { "value": "Cost/BuildTime", "multiply": 0.9 }
+  ],
+  "affects": ["Unit"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

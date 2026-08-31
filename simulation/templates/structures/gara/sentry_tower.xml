@@ -4,6 +4,6 @@
     <Civ>gara</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/garamantians/sentry_tower.xml</Actor>
+    <Actor>structures/garamantes/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>

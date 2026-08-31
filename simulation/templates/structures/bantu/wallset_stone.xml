@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>bantu</Civ>
+    <SpecificName>Yōng</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/bantu/wall_tower</Tower>
+      <Gate>structures/bantu/wall_gate</Gate>
+      <WallLong>structures/bantu/wall_long</WallLong>
+      <WallMedium>structures/bantu/wall_medium</WallMedium>
+      <WallShort>structures/bantu/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

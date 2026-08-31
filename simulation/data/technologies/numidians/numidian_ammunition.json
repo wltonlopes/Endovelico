@@ -1,0 +1,16 @@
+{
+  "genericName": "Numidian Ammunition",
+  "description": "Projectile firing and reload time is reduced by 15%.",
+  "cost": { "wood": 200, "metal": 100 },
+  "requirements": { "all": [{ "civ": "numi" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "fletching.png",
+  "researchTime": 40,
+  "tooltip": "Ranged cavalry fire and reload 15% faster.",
+  "modifications": [
+    { "value": "Attack/Ranged/PrepareTime", "multiply": 0.85 },
+    { "value": "Attack/Ranged/RepeatTime", "multiply": 0.85 }
+  ],
+  "affects": ["Cavalry Ranged"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

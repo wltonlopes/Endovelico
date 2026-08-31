@@ -1,0 +1,15 @@
+{
+  "genericName": "Landing Stage",
+  "description": "Each ship gains +5 garrison capacity.",
+  "cost": { "wood": 200, "metal": 100 },
+  "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "dock.png",
+  "researchTime": 40,
+  "tooltip": "Each ship gains 5 garrison spaces.",
+  "modifications": [
+    { "value": "GarrisonHolder/Max", "add": 5 }
+  ],
+  "affects": ["Ship"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

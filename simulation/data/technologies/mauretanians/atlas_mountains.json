@@ -1,0 +1,15 @@
+{
+  "genericName": "Atlas Mountains",
+  "description": "Buildings can be constructed on slopes of up to 40° and gain +5% defense.",
+  "cost": { "wood": 200, "stone": 200 },
+  "requirements": { "all": [{ "civ": "mauret" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "stone_wall.png",
+  "researchTime": 45,
+  "tooltip": "Buildings can be placed on slopes up to 40° and gain 5% defense.",
+  "modifications": [
+    { "value": "Health/Max", "multiply": 1.05 }
+  ],
+  "affects": ["Structure"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

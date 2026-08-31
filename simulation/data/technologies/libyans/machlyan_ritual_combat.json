@@ -1,0 +1,11 @@
+{
+  "genericName": "Machlyan Ritual Combat",
+  "description": "Allows Libyan women to fight one another to gain rank.",
+  "cost": { "food": 200, "wood": 100 },
+  "requirements": { "all": [{ "civ": "liby" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "Libyan women can gain rank through ritual combat.",
+  "modifications": []
+}

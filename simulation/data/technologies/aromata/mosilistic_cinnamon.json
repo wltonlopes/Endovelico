@@ -1,0 +1,15 @@
+{
+  "genericName": "Mosilistic Cinnamon",
+  "description": "Docks attack enemies, gaining +5% damage per garrisoned unit, up to 5 units.",
+  "cost": { "wood": 200, "metal": 150 },
+  "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_town" }] },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "default.png",
+  "researchTime": 45,
+  "tooltip": "Docks attack enemies and gain up to 25% damage from garrisoned units.",
+  "modifications": [
+    { "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.25 }
+  ],
+  "affects": ["Dock"],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
