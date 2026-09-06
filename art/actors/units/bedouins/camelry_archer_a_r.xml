@@ -12,7 +12,6 @@
     </variant>
   </group>
   <group>
-  <group>
     <variant frequency="1" name="robes_04_01">
       <textures>
         <texture file="skeletal/arab/robes_04_01.png" name="baseTex"/>
@@ -33,11 +32,6 @@
         <texture file="skeletal/arab/robes_04_04.png" name="baseTex"/>
       </textures>
     </variant>
-    <!-- <variant frequency="1" name="robes_04_05">
-      <textures>
-        <texture file="skeletal/arab/robes_04_05.png" name="baseTex"/>
-      </textures>
-    </variant> -->
     <variant frequency="1" name="robes_04_06">
       <textures>
         <texture file="skeletal/arab/robes_04_06.png" name="baseTex"/>
