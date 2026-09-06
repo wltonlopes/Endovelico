@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/sonin/infantry_slinger_b.xml">
+<Entity parent="units/sonin/infantry_slinger_b">
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Slinger</GenericName>

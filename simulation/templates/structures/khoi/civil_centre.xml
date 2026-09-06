@@ -16,6 +16,9 @@
       units/{civ}/infantry_axeman_b
       units/{civ}/infantry_archer_b
       units/{civ}/cavalry_archer_b
+      units/{civ}/hero_spearman_m
+      units/{civ}/hero_javelinist_m
+      units/{civ}/hero_healer_m
     </Entities>
   </Trainer>
   <VisualActor>

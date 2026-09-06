@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support_healer">
+<Entity parent="template_unit_hero_healer">
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Spirit Healer</GenericName>

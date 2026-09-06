@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/kush_nubian_ostrich_feathers_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/libian_dread_hair.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="robes_04_01">
+      <textures>
+        <texture file="skeletal/garamantes/i_l_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_01_02">
+      <textures>
+        <texture file="skeletal/garamantes/i_l_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_01_03">
+      <textures>
+        <texture file="skeletal/garamantes/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_01_04">
+      <textures>
+        <texture file="skeletal/garamantes/i_l_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/fisher/base_ptol.xml"/>
+    <variant file="biped/fisher/carry_ptol.xml">
+      <props>
+        <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/fisher/gather_fish.xml"/>
+    <variant file="biped/fisher/walk.xml">
+      <props>
+        <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
+      </props>
+    </variant>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

@@ -8,14 +8,15 @@
         <prop actor="props/structures/decals/spart_5x5.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-        <prop actor="flora/trees/palm_date_new_3.xml" attachpoint="dec_1"/>
-        <prop actor="flora/trees/palm_date_new_3.xml" attachpoint="dec_2"/>
+        <prop actor="props/structures/garamantes/cc_palm.xml" attachpoint="root"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="dec_1" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="dec_2" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/gara/struct.png" name="baseTex"/>
         <texture file="structural/gara/struct_spec.png" name="specTex"/>
         <texture file="structural/gara/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/garamantes/cc_AO.png" name="aoTex"/>
+        <texture file="structural/ao/garamantes/cc_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

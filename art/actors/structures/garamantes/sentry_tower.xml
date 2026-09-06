@@ -6,7 +6,7 @@
 	  <animations>
         <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structural/garamantes/tower_wood.dae</mesh>
+      <mesh>structural/garamantes/sentry_tower.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
@@ -16,6 +16,7 @@
 	    <texture file="structural/gara/struct.png" name="baseTex"/>
 	    <texture file="structural/gara/struct_norm.png" name="normTex"/>
 	    <texture file="structural/gara/struct_spec.png" name="specTex"/>
+      <texture file="structural/ao/garamantes/sentry_tower_ao.png" name="aoTex"/>
 	  </textures>
     </variant>
   </group>

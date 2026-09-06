@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+      units/heroes/sub-saharan/kings_council
+  </Auras>
+  <Identity>
+    <Civ>sonin</Civ>
+    <GenericName>Warrior king</GenericName>
+    <Icon>units/urew/hero_01.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/soninke/hero_camelry_spearman_m.xml</Actor>
+  </VisualActor>
+</Entity>

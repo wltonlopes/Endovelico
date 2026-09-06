@@ -13,28 +13,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-01">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="im_01_01">
       <textures>
-        <texture file="skeletal/gara/tunic_dark_01_01.png" name="baseTex"/>
+        <texture file="skeletal/soninke/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-02">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="im_01_02">
       <textures>
-        <texture file="skeletal/gara/tunic_dark_01_02.png" name="baseTex"/>
+        <texture file="skeletal/soninke/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-03">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
+    <variant frequency="1" name="im_01_03">
       <textures>
-        <texture file="skeletal/gara/tunic_dark_01_03.png" name="baseTex"/>
+        <texture file="skeletal/soninke/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="im_01_04">
+      <textures>
+        <texture file="skeletal/soninke/i_l_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

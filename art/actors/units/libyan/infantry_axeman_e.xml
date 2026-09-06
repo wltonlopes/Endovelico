@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="3" name="Helmet">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_kho_02.dae</mesh>
       <props>
         <prop actor="props/units/heads/libyan_male_02.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/lib_feathers_02.xml" attachpoint="head"/>

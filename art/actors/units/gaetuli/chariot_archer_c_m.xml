@@ -13,7 +13,7 @@
         <animation file="mechanical/chariot_death.dae" name="Death" id="death2" speed="100"/>
         <animation file="mechanical/chariot_idle.dae" name="attack_ranged" speed="80"/>
       </animations>
-      <mesh>structural/garamantians/chariot_c.dae</mesh>
+      <mesh>structural/garamantes/chariot_c.dae</mesh>
       <props>
         <prop actor="units/gaetuli/chariot_archer_c_h1.xml" attachpoint="horse1"/>
         <prop actor="units/gaetuli/chariot_archer_c_h2.xml" attachpoint="horse2"/>

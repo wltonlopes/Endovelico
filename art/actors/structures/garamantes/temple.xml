@@ -2,27 +2,19 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="0" name="Spartan temple">
+    <variant frequency="1" name="temple">
       <mesh>structural/garamantes/temple.dae</mesh>
       <props>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_01"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_01"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_02"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_02"/>
       </props>
       <textures>
         <texture file="structural/gara/struct.png" name="baseTex"/>
         <texture file="structural/gara/struct_spec.png" name="specTex"/>
         <texture file="structural/gara/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/gara_temple_ao.png" name="aoTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="new">
-      <mesh>structural/garamantes/temple.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/dirt_3x6.xml" attachpoint="root"/>
-      </props>
-      <textures>
-        <texture file="structural/gara/struct.png" name="baseTex"/>
-        <texture file="structural/gara/struct_spec.png" name="specTex"/>
-        <texture file="structural/gara/struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/gara_temple_ao.png" name="aoTex"/>
+        <texture file="structural/ao/garamantes/temple_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
