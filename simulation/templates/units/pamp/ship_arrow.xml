@@ -14,6 +14,6 @@
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>structures/pampidos/canoe_arrow.xml.xml</Actor>
+    <Actor>structures/pampidos/canoe_arrow.xml</Actor>
   </VisualActor>
 </Entity>

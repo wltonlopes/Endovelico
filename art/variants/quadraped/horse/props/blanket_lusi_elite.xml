@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
  <group>
 <variant frequency="1" name="base">
   <mesh>props/horse/blanket.dae</mesh>
@@ -37,3 +38,5 @@
     </variant>
   </group>
 </variant>
+  <material>player_trans.xml</material>
+</actor>

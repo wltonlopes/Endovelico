@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_medium">
   <Footprint>
-    <Square width="26.0" depth="7.0"/>
-    <Height>9.0</Height>
+    <Square width="17.0" depth="8.0"/>
+    <Height>12.6</Height>
   </Footprint>
   <Identity>
     <Civ>gara</Civ>
     <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
-    <SpecificName></SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="7.0"/>
+    <Static width="16.5" depth="7.5"/>
   </Obstruction>
   <StatusBars>
-    <HeightOffset>14.0</HeightOffset>
+    <HeightOffset>13.6</HeightOffset>
   </StatusBars>
   <TurretHolder>
     <TurretPoints>
       <One>
         <X>1.5</X>
-        <Y>12</Y>
+        <Y>7</Y>
         <Z>0</Z>
       </One>
       <Two>
         <X>-1.5</X>
-        <Y>12</Y>
+        <Y>7</Y>
         <Z>0</Z>
       </Two>
       <Three>
         <X>4.5</X>
-        <Y>12</Y>
+        <Y>7</Y>
         <Z>0</Z>
       </Three>
       <Four>
         <X>-4.5</X>
-        <Y>12</Y>
+        <Y>7</Y>
         <Z>0</Z>
       </Four>
     </TurretPoints>
   </TurretHolder>
+  <WallPiece>
+    <Length>15.0</Length>
+  </WallPiece>
   <VisualActor>
     <Actor>structures/garamantes/wall_medium.xml</Actor>
   </VisualActor>

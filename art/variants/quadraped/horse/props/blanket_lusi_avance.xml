@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
  <group>
 <variant frequency="1" name="base">
   <mesh>props/horse/blanket.dae</mesh>
@@ -20,6 +21,6 @@
         <texture file="props/horse/blanket_lusi_avanc_3.png" name="baseTex"/>
       </textures>
     </variant>
-    </variant>
-
   </group>
+  <material>player_trans.xml</material>
+</actor>

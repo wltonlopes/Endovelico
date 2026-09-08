@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
   <Footprint>
-    <Square width="39.0" depth="8.0"/>
-    <Height>9.0</Height>
+    <Square width="37" depth="9"/>
+    <Height>12.6</Height>
   </Footprint>
   <Identity>
     <Civ>gara</Civ>
@@ -10,11 +10,48 @@
   </Identity>
   <Obstruction>
     <Obstructions>
-      <Right width="12" depth="6.5" x="12.5" z="0"/>
-      <Left width="12" depth="6.5" x="-12.5" z="0"/>
-      <Door width="13" depth="6.5" x="0" z="0"/>
+      <Right width="10" depth="8" x="13" z="0"/>
+      <Left width="10" depth="8" x="-13" z="0"/>
+      <Door width="16" depth="8" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.6</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>10</X>
+        <Y>11.6</Y>
+        <Z>3</Z>
+      </One>
+      <Two>
+        <X>-10</X>
+        <Y>11.6</Y>
+        <Z>3</Z>
+      </Two>
+      <Three>
+        <X>10</X>
+        <Y>11.6</Y>
+        <Z>-3</Z>
+      </Three>
+      <Four>
+        <X>-10</X>
+        <Y>11.6</Y>
+        <Z>-3</Z>
+      </Four>
+      <Five>
+        <X>10</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
+      </Five>
+      <Six>
+        <X>-10</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
+      </Six>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/garamantes/wall_gate.xml</Actor>
   </VisualActor>
