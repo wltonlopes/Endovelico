@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <SelectionGroupName>units/sonin/war_dog_b</SelectionGroupName>
-    <SpecificName>Hunting Dog</SpecificName>
+    <SpecificName>Sloughi Dog</SpecificName>
     <Icon>units/brit/war_dog.png</Icon>
   </Identity>
   <Promotion disable=""/>

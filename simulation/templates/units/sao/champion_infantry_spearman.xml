@@ -3,6 +3,7 @@
   <Identity>
     <Civ>sao</Civ>
     <GenericName>Nobre Spearman</GenericName>
+    <SpecificName>Kolo</SpecificName>
     <SelectionGroupName>units/moch/champion_infantry_spearman</SelectionGroupName>
     <Icon>units/sao/champion_infantry_spearman.png</Icon>
     <Requirements>

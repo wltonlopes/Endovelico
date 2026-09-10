@@ -3,14 +3,13 @@
   <Builder>
     <Entities datatype="tokens">
       structures/gara/camp_caravan
-
     </Entities>
   </Builder>
   <Identity>
     <Civ>gara</Civ>
     <SelectionGroupName>units/kush/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Libyan Swordsman</GenericName>
-    <SpecificName>knw hps</SpecificName>
+    <GenericName>Swordsman</GenericName>
+    <SpecificName></SpecificName>
     <Icon>units/gara/infantry_swordsman_desert.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

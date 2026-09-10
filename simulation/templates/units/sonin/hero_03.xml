@@ -6,6 +6,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Warrior king</GenericName>
+    <SpecificName>Kaya Magan</SpecificName>
     <Icon>units/urew/hero_01.png</Icon>
   </Identity>
   <VisualActor>

@@ -3,6 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Chariot Javelinist</GenericName>
+    <SpecificName>Sofa-Seré</SpecificName>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>
   <VisualActor>

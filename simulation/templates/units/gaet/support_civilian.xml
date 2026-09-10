@@ -2,12 +2,10 @@
 <Entity parent="template_unit_support_civilian">
   <Builder>
     <Entities datatype="tokens">
-
     </Entities>
   </Builder>
   <Identity>
     <Civ>gaet</Civ>
-    <SpecificName>Aštāh</SpecificName>
     <GenericName>Berbere Villager</GenericName>
     <Icon>units/cart/support_female_citizen.png</Icon>
   </Identity>

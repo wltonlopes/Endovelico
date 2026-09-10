@@ -5,6 +5,7 @@
   <Identity>
     <Civ>sao</Civ>
     <GenericName>War King</GenericName>
+    <SpecificName>Gurwa</SpecificName>
     <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>

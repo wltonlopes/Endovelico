@@ -6,6 +6,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Great Queen</GenericName>
+    <SpecificName>Fadimata-Jeli</SpecificName>
 	<Phenotype>female</Phenotype>
     <Icon>units/urew/hero_02.png</Icon>
   </Identity>

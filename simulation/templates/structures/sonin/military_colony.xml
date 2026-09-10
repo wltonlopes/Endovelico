@@ -21,7 +21,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/soninke/djenne.xml</Actor>
+    <Actor>structures/soninke/gao.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

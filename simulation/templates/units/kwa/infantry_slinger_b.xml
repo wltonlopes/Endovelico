@@ -3,8 +3,8 @@
   <Identity>
     <Civ>kwa</Civ>
     <SelectionGroupName>units/kwa/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Levy Judean Slinger</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Tribal Slinger</GenericName>
+    <SpecificName>Akatampo</SpecificName>
     <Icon>units/hasmo/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

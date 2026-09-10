@@ -5,6 +5,7 @@
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/azan/heavy_javelineer</SelectionGroupName>
     <GenericName>Heavy Warrior Javalinist</GenericName>
+    <SpecificName>Kumo</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion disable=""/>

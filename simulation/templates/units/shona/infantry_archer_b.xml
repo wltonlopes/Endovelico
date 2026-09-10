@@ -6,9 +6,9 @@
   </Builder>
   <Identity>
     <Civ>shona</Civ>
-    <Lang>napatan</Lang>
+
     <SelectionGroupName>units/shona/infantry_archer_b</SelectionGroupName>
-    <GenericName>Nubian Archer</GenericName>
+    <GenericName>Archer</GenericName>
     <SpecificName>Pdty Nhsyw</SpecificName>
     <Icon>units/kush/infantry_archer.png</Icon>
     <Requirements>

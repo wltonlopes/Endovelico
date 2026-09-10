@@ -5,7 +5,7 @@
     </Auras>
   <Identity>
     <Civ>pamp</Civ>
-    <GenericName>War Chief</GenericName>
+    <GenericName>War Chief Spearman</GenericName>
     <SpecificName>Macá</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/pamp/hero_jaguar_king</SelectionGroupName>

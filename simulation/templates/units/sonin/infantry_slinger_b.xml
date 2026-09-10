@@ -4,6 +4,7 @@
     <Civ>sonin</Civ>
     <SelectionGroupName>units/sonin/infantry_slinger_b</SelectionGroupName>
     <GenericName>Slinger</GenericName>
+    <SpecificName>Taghaza</SpecificName>
     <Icon>units/subsaara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

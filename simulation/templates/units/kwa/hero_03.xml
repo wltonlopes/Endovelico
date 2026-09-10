@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>King</GenericName>
+    <GenericName>King Spearman</GenericName>
+    <SpecificName>Ọọni</SpecificName>
     <Icon>units/kwa/hero_03.png</Icon>
   </Identity>
   <VisualActor>

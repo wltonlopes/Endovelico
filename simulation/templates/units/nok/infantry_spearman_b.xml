@@ -7,9 +7,9 @@
   </Builder>
   <Identity>
     <Civ>nok</Civ>
-    <Lang>napatan</Lang>
+
     <SelectionGroupName>units/nok/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Nubian Spearman</GenericName>
+    <GenericName>Spearman</GenericName>
     <SpecificName>iry-rdwy Nhsyw</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>

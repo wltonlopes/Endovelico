@@ -5,7 +5,7 @@
   </Auras>
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName>Great Warrior Chief</GenericName>
+    <GenericName>Great Chief Blowgunner</GenericName>
     <SpecificName>Morubixaba</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/tupi/hero_jaguar_king</SelectionGroupName>

@@ -3,6 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Warrior</GenericName>
+    <SpecificName>Jula-Diali</SpecificName>
     <Icon>units/subsaara/infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>

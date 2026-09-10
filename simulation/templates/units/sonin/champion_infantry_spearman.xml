@@ -3,6 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Spearman</GenericName>
+    <SpecificName>Gbere-Kunu</SpecificName>
     <Icon>units/subsaara/infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>

@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>King</GenericName>
+    <GenericName>King Javelineer</GenericName>
+    <SpecificName>Ọọni Ilé-Ifẹ̀</SpecificName>
     <Icon>units/kwa/hero_01.png</Icon>
   </Identity>
   <VisualActor>

@@ -7,7 +7,8 @@
   <Identity>
     <Civ>kwa</Civ>
 	  <Phenotype>female</Phenotype>
-    <GenericName>Queen</GenericName>
+    <GenericName>Queen Swordswoman</GenericName>
+    <SpecificName>Queen Swordswoman</SpecificName>
     <Icon>units/kwa/hero_02.png</Icon>
   </Identity>
   <VisualActor>

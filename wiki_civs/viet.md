@@ -1,249 +1,36 @@
 # Van Lang
 
 ## História
-
 Vietnamese civilization during the late Hong Bang dynasty up to the Trung Sisters' Rebellion.
 
-## Bônus da Civilização
+## Estruturas
+*(Em desenvolvimento)*
 
+## Unidades
+*(Em desenvolvimento)*
+
+## Bônus da Civilização
 *(Nenhum definido)*
 
 ## Bônus de Equipe
-
 *(Nenhum definido)*
 
-## Nomes da IA
-
-- Ai Vương
-- An Dương Vương
-- Hùng Duệ Vương
+## IA Nomes
 - Hùng Nghị Vương
+- Thục Chế
+- Hùng Duệ Vương
+- An Dương Vương
+- Vũ Đế
+- Văn Đế
 - Minh Vương
-- Mỵ Châu
+- Ai Vương
+- Thuật Dương Vương
+- Trưng Trắc
+- Trưng Nhị
+- Mỵ Nương Tiên Dung
 - Mỵ Nương Ngọc Hoa
 - Mỵ Nương Ngọc Nương
-- Mỵ Nương Tiên Dung
-- Thuật Dương Vương
-- Thục Chế
-- Trưng Nhị
-- Trưng Trắc
-- Văn Đế
-- Vũ Đế
-
-## Estruturas
-
-### Bến Thuyền
-
-### Cetiya
-
-### Chuồng Trại
-
-#### Unidades treináveis
-
-- fauna_chicken
-- fauna_goat_trainable
-- fauna_sheep_trainable
-- fauna_cattle_zebu_trainable
-
-### Chòi Canh
-
-### Chợ
-
-### Doanh
-**Nome genérico:** Barracks
-**Descrição:** Train Infantry and research Infantry technologies.
-**Classes:** Barracks, Village
-
-#### Unidades treináveis
-
-- cavalry_javelinist_b
-- **Garamantian Hoplite**
-
-### Kho
-
-### Lò Rèn
-
-### Nhà Sàn
-**Nome genérico:** House
-**Classes:** House, Village
-
-### Pýlai
-
-### Ruộng Lúa
-
-### Stupa
-**Nome genérico:** Temple
-**Descrição:** Train Healers and research healing technologies.
-**Classes:** Temple, Town
-
-### Thành
-**Descrição:** Train Champions and Heroes. Garrison soldiers inside for stout defense.
-
-#### Unidades treináveis
-
-- **Nỏ Thần**
-
-### Thành Cổ Loa
-**Nome genérico:** Palace of An Dương Vương
-
-### Tháp Canh
-
-### Tháp Tiền Tiêu
-**Nome genérico:** Outpost
-**Descrição:** Build in own or neutral territory.
-**Classes:** Outpost
-
-### Trường Bắn
-**Nome genérico:** Range
-**Descrição:** Train Ranged Infantry and research technologies.
-**Classes:** Range, Village
-
-### Trại Ngựa
-**Nome genérico:** Elephant House
-
-### Trại Nông
-
-### Tường Thành
-
-### Xưởng Công Thành
-**Nome genérico:** Arsenal
-**Descrição:** Train Champion Infantry Crossbowmen, construct Siege Engines, and research Siege Engine technologies.
-**Classes:** Arsenal, City
-
-#### Unidades treináveis
-
-- **Nỏ Thần**
-
-### viet/wall_long
-
-### viet/wall_medium
-
-### viet/wall_short
-
-### viet/wall_tower
-
-### Đình Làng
-**Nome genérico:** Civic Center
-**Descrição:** Build in own or neutral territory. Acquire large tracts of territory. Territory root. Train Citizens and research technologies. Garrison Soldiers for additional arrows.
-**Classes:** CivCentre, CivilCentre, Defensive
-
-#### Unidades treináveis
-
-- **Peltastḗs**
-- **Dacian Cavalry Skirmisher**
-- **Xiongnu Spearman**
-
-### Đền
-**Nome genérico:** Temple
-**Descrição:** Train Healers and research healing technologies.
-**Classes:** Temple, Town
-
-
-## Unidades
-
-### Akinapi
-
-### An Dương Vương
-**Nome genérico:** An Dương Vương
-
-### Cavalry
-**Nome genérico:** Cavalry
-
-### Cavalry
-**Nome genérico:** Cavalry
-
-### Cavalry
-**Nome genérico:** Cavalry
-
-### Hùng Duệ Vương
-**Nome genérico:** Hùng Duệ Vương
-
-### Hùng Nghi Vương
-**Nome genérico:** Champion Swordsman
-
-### Hùng Nghị Vương
-**Nome genérico:** Hùng Nghị Vương
-
-### Kỵ Sĩ Trinh Sát
-
-### Miko
-
-### Miko
-
-### Miko
-
-### Nỏ Thần
-
-### Opobune
-**Nome genérico:** Vietnam Warship
-
-### Pokömöti
-**Nome genérico:** Infantry Spearman
-
-### Pokömöti
-**Nome genérico:** Infantry Spearman
-
-### Pokömöti
-**Nome genérico:** Infantry Spearman
-
-### Scout Canoe
-
-### Trưng Nhị
-**Nome genérico:** Trưng Nhị
-
-### Trưng Trắc
-**Nome genérico:** Trưng Trắc
-
-### Tukikömi
-
-### Turibune
-
-### Vachii Gaja
-**Nome genérico:** Elephant Archer
-
-### Vachii Gaja
-**Nome genérico:** Elephant Archer
-
-### Vachii Gaja
-**Nome genérico:** Elephant Archer
-
-### Vietnamese Skirmisher
-**Classes:** Guerilla
-
-### Vietnamese Skirmisher
-**Classes:** Guerilla
-
-### Vietnamese Skirmisher
-**Classes:** Guerilla
-
-### War Elephant
-**Nome genérico:** War Elephant
-
-### Womina
-
-### Womina
-
-### Wonomöti
-**Nome genérico:** Militia Axeman
-
-### Wonomöti
-**Nome genérico:** Militia Axeman
-
-### Wonomöti
-**Nome genérico:** Militia Axeman
-
-### Yumitöri
-**Nome genérico:** Infantry Archer
-
-### Yumitöri
-**Nome genérico:** Infantry Archer
-
-### Yumitöri
-**Nome genérico:** Infantry Archer
-
-### viet/ship_merchant
-
+- Mỵ Châu
 
 ## Tecnologias
-
-*(Nenhuma tecnologia encontrada)*
+*(Em desenvolvimento)*

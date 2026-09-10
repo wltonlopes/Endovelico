@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_melee_axeman">
+  <Identity>
+    <Civ>anish</Civ>
+    <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
+    <GenericName>Auxiliary Maceman</GenericName>
+    <Icon>units/south_america/infantry_maceman.png</Icon>
+  </Identity>
+  <Promotion disabled=""/>
+  <VisualActor>
+    <Actor>units/anishinaabe/infantry_clubman_merc.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>urew</Civ>
-    <Lang>napatan</Lang>
+
     <GenericName>Priest</GenericName>
     <SpecificName>Babalawo</SpecificName>
     <Icon>units/kush/support_healer.png</Icon>

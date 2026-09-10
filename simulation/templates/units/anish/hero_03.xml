@@ -6,8 +6,8 @@
   <Identity>
     <Civ>anish</Civ>
 	  <Phenotype>female</Phenotype>
-    <GenericName>Matriarch</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Matriarch Maceman</GenericName>
+    <SpecificName>Ogichidaa</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/anish/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

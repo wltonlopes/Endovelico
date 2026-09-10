@@ -4,11 +4,12 @@
     <Civ>moch</Civ>
     <GenericName>War House</GenericName>
   </Identity>
-    <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/cavalry_slinger_b
-    </Entities>
-  </Trainer>
+  <Trainer>
+      <Entities datatype="tokens">
+        units/{civ}/cavalry_slinger_b
+        units/moch/cavalry_throwing_b
+      </Entities>
+    </Trainer>
     <Researcher>
     <Technologies datatype="tokens">
      moch/war_dance_ritual

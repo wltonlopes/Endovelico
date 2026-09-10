@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_javelineer">
   <Identity>
     <Civ>ptol</Civ>
-    <Lang>napatan</Lang>
+
     <SpecificName>Ptolomei Camelry Scout</SpecificName>
     <VisibleClasses datatype="tokens">Camel Mercenary</VisibleClasses>
     <Icon>units/kush/merc_cavalry_1.png</Icon>

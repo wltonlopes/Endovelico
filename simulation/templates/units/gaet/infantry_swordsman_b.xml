@@ -7,7 +7,6 @@
   <Identity>
     <Civ>gaet</Civ>
     <SelectionGroupName>units/gaet/infantry_swordsman_b</SelectionGroupName>
-    <SpecificName>Caetranan</SpecificName>
     <Icon>units/iber/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

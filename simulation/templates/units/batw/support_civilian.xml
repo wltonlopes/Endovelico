@@ -6,7 +6,7 @@
   </Builder>
   <Identity>
     <Civ>batw</Civ>
-    <Lang>napatan</Lang>
+
     <GenericName>Batwa Civilian</GenericName>
     <Icon>units/batw/citizen.png</Icon>
   </Identity>

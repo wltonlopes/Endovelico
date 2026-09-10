@@ -2,10 +2,11 @@
 <Entity parent="template_unit_champion_infantry_javelineer">
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>Heavy Warrior Javalineer</GenericName>
+    <GenericName>Champion Archer</GenericName>
+    <SpecificName>Champion Yoruba</SpecificName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/kwa/infantry_champion_javalineer.xml</Actor>
+    <Actor>units/kwa/infantry_archer_c.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,7 +5,7 @@
     <Civ>azan</Civ>
 
     <SelectionGroupName>units/aksum/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Axumite Spearman</GenericName>
+    <GenericName>Spearman</GenericName>
     <SpecificName>iry-rdwy Nhsyw</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>

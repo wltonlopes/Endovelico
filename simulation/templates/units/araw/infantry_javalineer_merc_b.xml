@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_ranged_javelineer">
+  <Identity>
+    <Civ>araw</Civ>
+    <GenericName>Karibe Javelineer</GenericName>
+    <SelectionGroupName>units/araw/infantry_javalineer_merc</SelectionGroupName>
+    <Icon>units/maya/mercenary_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/arawaks/infantry_javelinist_harpoon_merc.xml</Actor>
+  </VisualActor>
+</Entity>

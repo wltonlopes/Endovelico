@@ -8,7 +8,6 @@
     <Civ>gaet</Civ>
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
     <GenericName>Mauritanian Archer</GenericName>
-    <SpecificName>Qešet</SpecificName>
     <Icon>units/cart/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

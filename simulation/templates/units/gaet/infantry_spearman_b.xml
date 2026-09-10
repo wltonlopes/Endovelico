@@ -8,7 +8,6 @@
     <Civ>gaet</Civ>
     <SelectionGroupName>units/gaet/infantry_spearman_b</SelectionGroupName>
     <GenericName>Gaetuli Spearman</GenericName>
-    <SpecificName>Sǝḫīr Ḥanīt</SpecificName>
     <Icon>units/cart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

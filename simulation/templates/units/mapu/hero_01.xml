@@ -5,7 +5,7 @@
     </Auras>
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Great Toqui</GenericName>
+    <GenericName>Great Toqui Maceman</GenericName>
     <History>Great Toqui / Military Bonus</History>
     <SelectionGroupName>units/mapu/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>

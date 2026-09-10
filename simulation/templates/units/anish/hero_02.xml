@@ -6,7 +6,7 @@
   <Identity>
     <Civ>anish</Civ>
     <GenericName>Elder Chief</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Gichi-Ogimaa</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/anish/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>

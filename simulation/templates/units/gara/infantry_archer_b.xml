@@ -9,8 +9,8 @@
   <Identity>
     <Civ>gara</Civ>
     <SelectionGroupName>units/gara/infantry_archer_b</SelectionGroupName>
-    <GenericName>Libyan Archer</GenericName>
-    <SpecificName>Pdty Nhsyw</SpecificName>
+    <GenericName>Archer</GenericName>
+    <SpecificName></SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>

@@ -8,10 +8,8 @@
   </Builder>
   <Identity>
     <Civ>khoi</Civ>
-    <Lang>napatan</Lang>
     <SelectionGroupName>units/khoi/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Nubian Spearman</GenericName>
-    <SpecificName>iry-rdwy Nhsyw</SpecificName>
+    <GenericName>Spearman</GenericName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
