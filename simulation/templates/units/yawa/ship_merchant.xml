@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>yawa</Civ>
-    <SpecificName>Akinapibune</SpecificName>
     <Icon>units/yayo/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>

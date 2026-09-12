@@ -3,7 +3,6 @@
     <Civ>yawa</Civ>
     <SelectionGroupName>units/yawa/infantry_spearman_b</SelectionGroupName>
     <GenericName>Infantry Spearman</GenericName>
-    <SpecificName>Pok&#246;m&#246;ti</SpecificName>
     <Icon>units/yayo/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

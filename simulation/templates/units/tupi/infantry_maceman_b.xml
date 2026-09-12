@@ -3,7 +3,7 @@
   <Identity>
     <Civ>tupi</Civ>
     <SelectionGroupName>units/tupi/infantry_axeman_b</SelectionGroupName>
-    <GenericName>Mayan Maceman</GenericName>
+    <GenericName>Tupi Maceman</GenericName>
     <SpecificName>ibirá-pembé-abá</SpecificName>
     <Icon>units/south_america/infantry_maceman.png</Icon>
   </Identity>

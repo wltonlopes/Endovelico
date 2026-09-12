@@ -8,7 +8,6 @@
   <Identity>
     <Civ>yawa</Civ>
     <GenericName>Champion Axeman</GenericName>
-    <SpecificName>Wono nö Tupamönö</SpecificName>
     <Icon>units/yayo/champion_infantry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

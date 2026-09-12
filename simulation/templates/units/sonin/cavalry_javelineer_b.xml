@@ -21,11 +21,9 @@
   <Promotion>
     <Entity>units/sonin/cavalry_javelineer_a</Entity>
   </Promotion>
-
   <StatusBars>
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
-  
   <VisualActor>
     <Actor>units/soninke/cavalry_javelinist_a_m.xml</Actor>
   </VisualActor>

@@ -4,7 +4,6 @@
     <Civ>yawa</Civ>
     <SelectionGroupName>units/yawa/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Militia Axeman</GenericName>
-    <SpecificName>Wonomöti</SpecificName>
     <Icon>units/yayo/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>

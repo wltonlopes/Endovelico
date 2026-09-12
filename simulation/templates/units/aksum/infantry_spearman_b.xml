@@ -12,7 +12,7 @@
 
     <SelectionGroupName>units/aksum/infantry_spearman_b</SelectionGroupName>
     <GenericName>Axumite Spearman</GenericName>
-    <SpecificName>iry-rdwy Nhsyw</SpecificName>
+    <SpecificName>Aksumite Spearman</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

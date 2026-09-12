@@ -5,6 +5,7 @@
     <GenericName>Camel Spearman</GenericName>
     <Icon>units/subsaara/cavalry_spearman.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/soninke/camelry_spearman_m.xml</Actor>
   </VisualActor>

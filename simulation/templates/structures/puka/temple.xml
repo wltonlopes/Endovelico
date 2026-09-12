@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_temple">
   <Identity>
     <Civ>puka</Civ>
-    <SpecificName>Asklēpieîon</SpecificName>
+    <SpecificName>Wak'a</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/pukara/temple.xml</Actor>

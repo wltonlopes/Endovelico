@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_fishing">
   <Identity>
     <Civ>gara</Civ>
-    <SpecificName>Ploîon Halieutikón</SpecificName>
+    <SpecificName>Garamantian Fishing Boat</SpecificName>
     <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

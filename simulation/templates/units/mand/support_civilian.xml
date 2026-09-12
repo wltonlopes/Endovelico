@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_civilian">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/aksum/allied_village_afar
-      structures/aksum/allied_village_beja
-      structures/aksum/allied_village_oromo
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>mand</Civ>
-
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Aksumite Villager</GenericName>
+    <GenericName>Villager</GenericName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

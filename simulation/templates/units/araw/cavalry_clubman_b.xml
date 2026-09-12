@@ -4,7 +4,7 @@
     <Civ>araw</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/araw/heavy_javelineer</SelectionGroupName>
-    <GenericName>Experienced clubman</GenericName>
+    <GenericName>Experienced Warrior</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>

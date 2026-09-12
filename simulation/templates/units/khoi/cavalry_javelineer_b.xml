@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_javelineer">
+<Entity parent="ox_riding|rare_units|template_unit_cavalry_ranged_javelineer">
   <Attack>
     <Ranged>
       <Projectile>
@@ -13,19 +13,14 @@
   <Identity>
     <Civ>khoi</Civ>
     <SelectionGroupName>units/khoi/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Desert Raider</GenericName>
-    <SpecificName>nhw Bulahau gml</SpecificName>
-    <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/subsaara/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/khoi/cavalry_javelineer_a</Entity>
   </Promotion>
-
   <StatusBars>
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
-
   <VisualActor>
     <Actor>units/khoisan/saga_javelinist_a_m.xml</Actor>
   </VisualActor>

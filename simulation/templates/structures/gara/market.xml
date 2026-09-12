@@ -2,7 +2,7 @@
 <Entity parent="template_structure_economic_market">
   <Identity>
     <Civ>gara</Civ>
-    <SpecificName>Empórios</SpecificName>
+    <SpecificName>Garamantian Market</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/garamantes/market.xml</Actor>

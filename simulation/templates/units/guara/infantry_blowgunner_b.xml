@@ -5,7 +5,7 @@
     <SelectionGroupName>units/guara/blowgunner</SelectionGroupName>
     <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
     <GenericName>Blowgun hunter</GenericName>
-    <SpecificName>Taquara-okaî-abá</SpecificName>
+    <SpecificName>Guarani Blowgun Hunter</SpecificName>
     <Icon>units/south_america/infantry_blowgunner.png</Icon>
   </Identity>
   <Promotion>

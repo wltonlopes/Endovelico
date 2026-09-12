@@ -5,6 +5,7 @@
     <GenericName>Veteran Raider</GenericName>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/soninke/cavalry_javelinist_e_m.xml</Actor>
   </VisualActor>

@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>yawa</Civ>
-    <SpecificName>Tukikömi</SpecificName>
     <Icon>units/mace/siege_ram.png</Icon>
   </Identity>
   <VisualActor>

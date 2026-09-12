@@ -6,7 +6,7 @@
 
     <SelectionGroupName>units/aksum/infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
-    <SpecificName>iry-rdwy Nhsyw</SpecificName>
+    <SpecificName>Azanian Spearman</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

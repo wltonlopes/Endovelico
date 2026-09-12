@@ -6,8 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mand</Civ>
-    <GenericName>Egyptian War Boat</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>War Boat</GenericName>
     <Icon>units/achae/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

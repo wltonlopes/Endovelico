@@ -3,7 +3,7 @@
   <Identity>
     <Civ>aksum</Civ>
     <GenericName>Elephant Archer</GenericName>
-    <SpecificName>Vachii Gaja</SpecificName>
+    <SpecificName>Aksumite Elephant Archer</SpecificName>
     <SelectionGroupName>units/maur/elephant_archer_b</SelectionGroupName>
     <Icon>units/maur/elephant_archer.png</Icon>
     <Requirements>

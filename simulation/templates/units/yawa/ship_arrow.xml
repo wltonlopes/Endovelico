@@ -6,14 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>yawa</Civ>
-    <GenericName>Japanese Warship</GenericName>
-    <SpecificName>Opobune</SpecificName>
-    <Requirements>
-      <Techs datatype="tokens">
-        -phase_town
-        yayoi/unlock_warships
-      </Techs>
-    </Requirements>
+    <GenericName>Warship</GenericName>
     <Icon>units/yayo/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>

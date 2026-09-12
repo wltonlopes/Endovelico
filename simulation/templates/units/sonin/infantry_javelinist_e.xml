@@ -5,6 +5,7 @@
     <GenericName>Veteran Skirmisher</GenericName>
     <Icon>units/subsaara/infantry_javelinist.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/soninke/infantry_javelinist_e.xml</Actor>
   </VisualActor>

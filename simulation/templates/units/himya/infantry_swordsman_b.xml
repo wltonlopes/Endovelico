@@ -9,7 +9,7 @@
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Himyar Swordsman</GenericName>
-    <SpecificName>Khadagdhari</SpecificName>
+    <SpecificName>Himyarite Swordsman</SpecificName>
     <Icon>units/maur/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

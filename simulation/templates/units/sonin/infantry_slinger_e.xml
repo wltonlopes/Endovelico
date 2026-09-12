@@ -5,6 +5,7 @@
     <GenericName>Veteran Slinger</GenericName>
     <Icon>units/subsaara/infantry_slinger.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/soninke/infantry_slinger_e.xml</Actor>
   </VisualActor>

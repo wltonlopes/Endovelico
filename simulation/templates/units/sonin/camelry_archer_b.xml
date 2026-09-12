@@ -5,7 +5,8 @@
     <GenericName>Camel Archer</GenericName>
     <Icon>units/subsaara/cavalry_archer_b.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/soninke/camel_archer_b_r.xml</Actor>
+    <Actor>units/soninke/camel_archer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

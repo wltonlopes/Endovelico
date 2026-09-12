@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/guara/infantry_slinger_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/guara/infantry_slinger_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/guaranis/infantry_slinger_a.xml</Actor>
+  </VisualActor>
+</Entity>

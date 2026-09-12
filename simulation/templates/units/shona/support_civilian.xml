@@ -6,9 +6,7 @@
   </Builder>
   <Identity>
     <Civ>shona</Civ>
-
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Kushite Villager</GenericName>
+    <GenericName>Shona Villager</GenericName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

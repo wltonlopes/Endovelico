@@ -4,7 +4,7 @@
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Himyar Light Cavalry</GenericName>
-    <SpecificName>Ashwarohi</SpecificName>
+    <SpecificName>Himyarite Light Cavalry</SpecificName>
     <Icon>units/maur/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

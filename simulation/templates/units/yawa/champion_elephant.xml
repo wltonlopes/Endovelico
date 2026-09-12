@@ -3,7 +3,6 @@
   <Identity>
     <Civ>yawa</Civ>
     <GenericName>Indian War Elephant</GenericName>
-    <SpecificName>Gajendra</SpecificName>
     <Icon>units/maur/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
