@@ -4,7 +4,7 @@
     <Civ>swcr</Civ>
     <SelectionGroupName>units/adena_infantry_slinger_b</SelectionGroupName>
     <GenericName>Levy Slinger</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Pelleewa</SpecificName>
     <Icon>units/maya/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

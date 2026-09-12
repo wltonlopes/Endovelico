@@ -20,24 +20,24 @@
   <group>
     <variant frequency="1" name="c_01">
       <textures>
-        <texture file="skeletal/southern_bantu/c_01_01.png" name="baseTex"/>
+        <texture file="skeletal/southern_bantu/c_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c_02">
       <textures>
-        <texture file="skeletal/southern_bantu/c_01_02.png" name="baseTex"/>
+        <texture file="skeletal/southern_bantu/c_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c_03">
           <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/southern_bantu/c_01_03.png" name="baseTex"/>
+        <texture file="skeletal/southern_bantu/c_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="c_04">
           <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/southern_bantu/c_01_04.png" name="baseTex"/>
+        <texture file="skeletal/southern_bantu/c_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

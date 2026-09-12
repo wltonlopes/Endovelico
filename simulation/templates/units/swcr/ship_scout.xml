@@ -7,6 +7,7 @@
   <Identity>
     <Civ>swcr</Civ>
     <GenericName>Scout Canoe</GenericName>
+    <SpecificName>Wakola</SpecificName>
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

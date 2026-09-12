@@ -7,7 +7,7 @@
     <Civ>guara</Civ>
     <GenericName>War Chief</GenericName>
     <SelectionGroupName>units/guara/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/guara/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/guaranis/infantry_hero_clubman.xml</Actor>

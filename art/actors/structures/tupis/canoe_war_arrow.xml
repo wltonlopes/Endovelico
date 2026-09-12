@@ -10,10 +10,10 @@
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="root"/>
         <prop actor="units/south_america/canoe_navigator.xml" attachpoint="nav1"/>
         <prop actor="units/south_america/canoe_navigator.xml" attachpoint="nav2"/>
-        <prop actor="units/south_america/canoe_archer.xml" attachpoint="archer4"/>  
-        <prop actor="units/south_america/canoe_archer.xml" attachpoint="archer3"/>  
-        <prop actor="units/south_america/canoe_archer.xml" attachpoint="archer2"/>
-        <prop actor="units/south_america/canoe_archer.xml" attachpoint="archer1"/>  
+        <prop actor="units/tupis/canoe_archer.xml" attachpoint="archer4"/>  
+        <prop actor="units/tupis/canoe_archer.xml" attachpoint="archer3"/>  
+        <prop actor="units/tupis/canoe_archer.xml" attachpoint="archer2"/>
+        <prop actor="units/tupis/canoe_archer.xml" attachpoint="archer1"/>  
       </props>
       <textures>
         <texture file="structural/south_america/canoe_01.png" name="baseTex"/>

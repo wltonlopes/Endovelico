@@ -6,6 +6,6 @@
     <Icon>units/azan/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/batwa/infantry_scout.xml</Actor>
+    <Actor>units/azania/infantry_scout.xml</Actor>
   </VisualActor>
 </Entity>

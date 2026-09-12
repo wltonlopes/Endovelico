@@ -13,7 +13,7 @@
   <Identity>
     <Civ>swcr</Civ>
     <GenericName>Creek High Priest</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Mshome</SpecificName>
     <Icon>units/maya/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>

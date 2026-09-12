@@ -3,7 +3,7 @@
   <Identity>
     <Civ>swcr</Civ>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SpecificName>Chakkoli</SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
