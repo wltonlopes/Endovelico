@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_melee_swordsman">
+  <Identity>
+    <Civ>cyre</Civ>
+    <SelectionGroupName>units/cyre/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Marmaricae Swordsman</GenericName>
+    <SpecificName>Misthophoros Libúē</SpecificName>
+    <Icon>units/thra/infantry_swordsman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/cyre/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/cyrene/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>
