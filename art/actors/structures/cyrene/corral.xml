@@ -8,6 +8,7 @@
         <prop actor="props/structures/decals/celt_corral_mud.xml" attachpoint="root"/>
        <prop actor="props/structures/han/corral_feeding_box.xml" attachpoint="02" maxheight="20" minheight="-20"/>
        <prop actor="props/structures/han/corral_water.xml" attachpoint="02" maxheight="20" minheight="-20"/>
+       <prop actor="props/special/eyecandy/hay_small.xml" attachpoint="01" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/cyre/struct.png" name="baseTex"/>

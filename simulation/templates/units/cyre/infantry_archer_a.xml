@@ -1,4 +1,4 @@
-<Entity parent="units/cyre/infantry_archer_b">
+<Entity parent="units/cyre/infantry_archer_merc_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>

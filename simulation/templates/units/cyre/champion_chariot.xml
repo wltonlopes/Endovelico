@@ -1,4 +1,5 @@
-<Entity parent="merc_inf|template_unit_champion_cavalry_archer">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="chariot|template_unit_champion_cavalry_archer">
   <Footprint replace="">
     <Square width="5.0" depth="10.0"/>
     <Height>6.0</Height>
@@ -12,6 +13,6 @@
     <Icon>units/gara/champion_chariot.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/cyrene/champion_chariot.xml</Actor>
+    <Actor>units/cyrene/chariot_javelinist_c_m.xml</Actor>
   </VisualActor>
 </Entity>

@@ -12,7 +12,7 @@
   </group>
   <group>
     <variant frequency="100" name="Base_1">
-      <mesh>props/special_decorations/anishinaabe/bear_decoration.dae</mesh>
+      <mesh>props/props/anishinaabe/arm_r.dae</mesh>
     </variant>
   </group>
   <material>basic_trans_parallax_spec.xml</material>

@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_kho_02.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_zapo_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_mixtec_b.xml" attachpoint="head"/>
         <prop actor="props/units/heads/zapo_plume_e.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/zapo_tiny.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear_obsidian.xml" attachpoint="weapon_R"/>
@@ -25,16 +25,6 @@
     <variant frequency="1" name="im_01_02">
       <textures>
         <texture file="skeletal/zapotecs/im_03_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="im_01_03">
-      <textures>
-        <texture file="skeletal/zapotecs/im_03_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="im_01_04">
-      <textures>
-        <texture file="skeletal/zapotecs/im_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

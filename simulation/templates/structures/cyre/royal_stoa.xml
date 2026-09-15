@@ -4,6 +4,16 @@
     <Civ>cyre</Civ>
     <SpecificName>Banquet Hall</SpecificName>
   </Identity>
+  <ProductionQueue/>
+  <Trainer>
+    <BatchTimeModifier>0.9</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordsman_merc_b
+      units/{civ}/infantry_archer_merc_b
+      units/{civ}/champion_chariot_merc
+      units/{civ}/infantry_javelineer_merc_b
+    </Entities>
+  </Trainer> 
   <VisualActor>
     <Actor>structures/cyrene/special.xml</Actor>
   </VisualActor>

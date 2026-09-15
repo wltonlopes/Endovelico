@@ -5,7 +5,7 @@
     <variant file="biped/base_skirmisher.xml">
       <mesh>skeletal/new/m_tunic_kho_02.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_zapo_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_mixtec_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/weapons/jav.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
@@ -27,16 +27,6 @@
     <variant frequency="1" name="im_03_02">
       <textures>
         <texture file="skeletal/zapotecs/ij_03_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="im_03_03">
-      <textures>
-        <texture file="skeletal/zapotecs/ij_03_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="im_03_04">
-      <textures>
-        <texture file="skeletal/zapotecs/ij_03_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
