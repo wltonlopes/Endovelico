@@ -4,6 +4,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/athenians/infantry_archer_e.xml</Actor>
+    <Actor>units/cyrene/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

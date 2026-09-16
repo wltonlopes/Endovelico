@@ -14,6 +14,6 @@
     <Entity>units/cyre/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_archer_b.xml</Actor>
+    <Actor>units/cyrene/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

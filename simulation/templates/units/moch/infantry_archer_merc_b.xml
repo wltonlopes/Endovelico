@@ -1,0 +1,15 @@
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+   <Civ>moch</Civ>
+    <SelectionGroupName>units/moch/infantry_archer_merc_b</SelectionGroupName>
+    <GenericName>Recuay Archer</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/yayo/infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/moch/infantry_archer_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mochicas/infantry_archer_recuay_merc_b.xml</Actor>
+  </VisualActor>
+</Entity>

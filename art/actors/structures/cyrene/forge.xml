@@ -6,6 +6,8 @@
       <mesh>structural/cyrene/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/blacksmith_barrels.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/blacksmith_barrels.xml" attachpoint="01"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
         <prop actor="particle/flame.xml" attachpoint="fire"/>
       </props>

@@ -18,22 +18,22 @@
   <group>
     <variant frequency="1" name="robes_04_01">
       <textures>
-        <texture file="skeletal/kwa/i_aux_01.png" name="baseTex"/>
+        <texture file="skeletal/kwa/i_l_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="im_01_02">
       <textures>
-        <texture file="skeletal/kwa/i_aux_02.png" name="baseTex"/>
+        <texture file="skeletal/kwa/i_l_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="im_01_03">
       <textures>
-        <texture file="skeletal/kwa/i_aux_03.png" name="baseTex"/>
+        <texture file="skeletal/kwa/i_l_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="im_01_04">
       <textures>
-        <texture file="skeletal/kwa/i_aux_04.png" name="baseTex"/>
+        <texture file="skeletal/kwa/i_l_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

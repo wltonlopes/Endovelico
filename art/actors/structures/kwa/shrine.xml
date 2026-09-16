@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Kwa shrine">
-      <mesh>structural/kwa/shrine.dae</mesh>
+      <mesh>structural/kwa/shrine.dae</mesh>village
       <props>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="structures/kwa/shrine_flora.xml" attachpoint="root"/>

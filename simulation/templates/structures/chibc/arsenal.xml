@@ -10,13 +10,13 @@
   </Health>
   <Identity>
     <Civ>chibc</Civ>
-    <SpecificName>Takumiya</SpecificName> 
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/siege_ram
       units/{civ}/siege_ram
     </Entities>
   </Trainer>

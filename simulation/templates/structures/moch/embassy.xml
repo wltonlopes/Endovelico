@@ -27,6 +27,8 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
+      units/moch/infantry_clubman_merc_a
+      units/moch/infantry_archer_merc_a
     </Entities>
   </Trainer>
   <VisualActor>

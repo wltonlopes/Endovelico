@@ -1,0 +1,14 @@
+<Entity parent="template_unit_infantry_melee_clubman">
+  <Identity>
+    <Civ>moch</Civ>
+    <SelectionGroupName>units/moch/infantry_clubman_b</SelectionGroupName>
+    <SpecificName>Recuay Clubman</SpecificName>
+    <Icon>units/moch/infantry_clubman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/moch/infantry_clubman_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mochicas/infantry_maceman_recuay_merc_b.xml</Actor>
+  </VisualActor>
+</Entity>

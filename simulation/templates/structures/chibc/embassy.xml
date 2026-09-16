@@ -19,13 +19,12 @@
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
-  <!-- <Trainer>
+  <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_merc_spearman_lenca_b
-      units/{civ}/infantry_swordsman_merc_b
-      units/{civ}/infantry_archer_lenca_b
+      units/{civ}/infantry_blowgunner_merc
+      units/{civ}/infantry_clubman_merc
     </Entities>
-  </Trainer> -->
+  </Trainer>
   <VisualActor>
     <Actor>structures/chibchas/village.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>

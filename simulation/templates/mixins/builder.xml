@@ -48,6 +48,7 @@
       structures/{civ}/bull_stable
       structures/{civ}/camel_stable
       structures/{civ}/shrine
+      structures/{civ}/village
       structures/{civ}/caravan_camp
       structures/{civ}/mercenary_camp
       structures/{civ}/sauna
