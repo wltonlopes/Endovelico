@@ -12,7 +12,7 @@
     <Static width="29.5" depth="29.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/paiutes/market.xml</Actor>
+    <Actor>structures/paiute/market.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

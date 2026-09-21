@@ -11,6 +11,6 @@
     <Entity>units/puka/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/mochicas/healer.xml</Actor>
+    <Actor>units/pukara/healer.xml</Actor>
   </VisualActor>
 </Entity>

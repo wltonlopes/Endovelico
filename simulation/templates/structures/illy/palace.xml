@@ -16,12 +16,11 @@
   </Health>
   <Identity>
     <Civ>illy</Civ>
-    <GenericName>Acropolis</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>acropolis</GenericName>
     <Tooltip>Territory root. Train Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
-    <Icon>structures/maya/palace.png</Icon>
+    <Icon>structures/acropolis.png</Icon>
   </Identity>
   <Loot>
     <stone>40</stone>

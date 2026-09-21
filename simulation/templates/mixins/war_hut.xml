@@ -4,7 +4,7 @@
     <GenericName>War Hut</GenericName>
     <SelectionGroupName>template_structure_military_stable</SelectionGroupName>
     <Tooltip>Train heavy infantry and research technologies.</Tooltip>
-    <Icon>structures/stable_01.png</Icon>
+    <Icon>structures/warhut.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>

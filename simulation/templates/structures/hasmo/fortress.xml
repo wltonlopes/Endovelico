@@ -14,10 +14,6 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_judah
-      units/{civ}/hero_herod
-      units/{civ}/hero_simon
-      units/{civ}/hero_salome
       units/{civ}/hero_john
 	 </Entities>
   </Trainer>

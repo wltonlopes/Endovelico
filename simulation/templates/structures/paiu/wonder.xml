@@ -12,7 +12,7 @@
     <Static width="47.5" depth="45.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/paiutes/wonder.xml</Actor>
+    <Actor>structures/paiute/wonder.xml</Actor>
     <FoundationActor>structures/fndn_11x11.xml</FoundationActor>
   </VisualActor>
 </Entity>

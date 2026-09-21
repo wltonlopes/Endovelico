@@ -12,7 +12,7 @@
     <Static width="13.0" depth="13.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/paiutes/house.xml</Actor>
+    <Actor>structures/paiute/house.xml</Actor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

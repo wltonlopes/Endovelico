@@ -9,7 +9,6 @@
         <prop actor="units/mapuches/canoe_archer.xml" attachpoint="01"/>  
         <prop actor="units/mapuches/canoe_archer.xml" attachpoint="02"/>
         <prop actor="units/mapuches/canoe_archer.xml" attachpoint="03"/>  
-        <prop actor="units/mapuches/canoe_archer.xml" attachpoint="04"/>  
       </props>
       <textures>
         <texture file="structural/mapu/struct.png" name="baseTex"/>

@@ -62,6 +62,6 @@
     <Length>38.0</Length>
   </WallPiece>
   <VisualActor>
-    <Actor>structures/paiutes/wall_long.xml</Actor>
+    <Actor>structures/paiute/wall_long.xml</Actor>
   </VisualActor>
 </Entity>

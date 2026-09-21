@@ -30,7 +30,7 @@
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
-    <Icon>structures/maya/pyramid.png</Icon>
+    <Icon>structures/mount.png</Icon>
   </Identity>
   <Loot>
     <stone>90</stone>

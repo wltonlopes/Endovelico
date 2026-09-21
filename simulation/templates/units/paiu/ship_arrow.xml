@@ -7,13 +7,12 @@
   <Identity>
     <Civ>paiu</Civ>
     <GenericName>War Canoe</GenericName>
-    <SpecificName>ygaraíba</SpecificName>
     <Icon>units/south_america/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
   </Identity>
   <VisualActor>
-    <Actor>structures/paiutes/canoe_arrow.xml</Actor>
+    <Actor>structures/paiute/canoe_arrow.xml</Actor>
   </VisualActor>
 </Entity>

@@ -23,7 +23,7 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/paiutes/range.xml</Actor>
+    <Actor>structures/paiute/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

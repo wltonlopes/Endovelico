@@ -15,7 +15,7 @@
     <Static width="31.5" depth="31.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/paiutes/temple.xml</Actor>
+    <Actor>structures/paiute/temple.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -19,7 +19,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/paiutes/fortress.xml</Actor>
+    <Actor>structures/paiute/fortress.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
   <WallPiece>

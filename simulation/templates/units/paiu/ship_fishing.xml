@@ -6,10 +6,9 @@
   </Footprint>
   <Identity>
     <Civ>paiu</Civ>
-    <SpecificName></SpecificName>
     <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/paiutes/canoe.xml</Actor>
+    <Actor>structures/paiute/canoe.xml</Actor>
   </VisualActor>
 </Entity>

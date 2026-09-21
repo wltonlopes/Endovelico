@@ -17,7 +17,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/paiutes/village.xml</Actor>
+    <Actor>structures/paiute/village.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

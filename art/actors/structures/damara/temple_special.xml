@@ -6,6 +6,8 @@
       <mesh>structural/damara/temple_special.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/damar/struct.png" name="baseTex"/>

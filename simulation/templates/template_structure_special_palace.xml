@@ -19,7 +19,7 @@
     <Tooltip>Territory root. Train Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
-    <Icon>structures/maya/palace.png</Icon>
+    <Icon>structures/palace.png</Icon>
   </Identity>
   <Loot>
     <stone>40</stone>
@@ -45,6 +45,9 @@
       units/{civ}/hero_01
       units/{civ}/hero_02
       units/{civ}/hero_03
+    	units/{civ}/hero_1
+    	units/{civ}/hero_3
+   	  units/{civ}/hero_2
     </Entities>
   </Trainer>
   <Vision>

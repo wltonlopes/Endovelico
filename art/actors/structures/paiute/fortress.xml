@@ -5,8 +5,8 @@
     <variant frequency="1" name="Paiute Fortress" file="structures/defensive_building.xml">
       <mesh>structural/paiutes/fortress.dae</mesh>
       <props>
-        <prop actor="props/structures/paiutes/fortress_bush_01.xml" attachpoint="root"/>
-        <prop actor="props/structures/paiutes/fortress_bush_02.xml" attachpoint="root"/>
+        <prop actor="props/structures/paiute/fortress_bush_01.xml" attachpoint="root"/>
+        <prop actor="props/structures/paiute/fortress_bush_02.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/paiu/struct.png" name="baseTex"/>

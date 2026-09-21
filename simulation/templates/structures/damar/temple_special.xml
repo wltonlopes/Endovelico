@@ -48,9 +48,8 @@
   </TerritoryInfluence>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_01
-      units/{civ}/hero_02
-      units/{civ}/hero_03  
+	    units/damar/champion_infantry_javelinist
+	    units/damar/champion_infantry_maceman
     </Entities>
   </Trainer>
   <Vision>

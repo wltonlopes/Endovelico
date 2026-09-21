@@ -26,7 +26,7 @@
     <SpecificName></SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Monument</VisibleClasses>
-    <Icon>structures/iberian_bull.png</Icon>
+    <Icon>structures/mausoleum.png</Icon>
   </Identity>
   <Loot>
     <stone>20</stone>

@@ -1,9 +1,4 @@
 <Entity parent="template_unit_infantry_ranged_archer">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/gara/camp_caravan
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_archer_b</SelectionGroupName>

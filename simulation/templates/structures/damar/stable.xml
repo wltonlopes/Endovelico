@@ -10,10 +10,16 @@
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static width="27.5" depth="27.5"/>
+    <Static width="26.0" depth="26.0"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      <!-- units/damar/cavalry_throwing_b
+		  units/damar/cavalry_axeman_b -->
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/damara/village.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

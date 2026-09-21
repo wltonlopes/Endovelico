@@ -63,6 +63,9 @@
       structures/{civ}/plaza
       structures/{civ}/stable_camel
       structures/{civ}/elephant_stable
+      structures/{civ}/hippodrome
+      structures/{civ}/arena
+      structures/{civ}/amphitheater
     </Entities>
   </Builder>
   <Identity>

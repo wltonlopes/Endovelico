@@ -28,14 +28,5 @@
       </textures>
     </variant>
   </group>
-  <group>
-    <variant frequency="1" name="alive"/>
-    <variant name="death">
-      <props>
-        <prop attachpoint="garrisoned"/>
-        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
-      </props>
-    </variant>
-  </group>
   <material>no_trans_norm_spec.xml</material>
 </actor>

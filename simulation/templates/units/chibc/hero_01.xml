@@ -13,6 +13,6 @@
     <WalkSpeed op="mul">1.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/chibchas/infantry_champion_spearman.xml</Actor>
+    <Actor>units/chibchas/hero_infantry_spearman.xml</Actor>
   </VisualActor>
 </Entity>
