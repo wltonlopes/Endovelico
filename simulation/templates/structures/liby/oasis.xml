@@ -16,6 +16,7 @@
     <SpecificName>Oasis</SpecificName>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
     <Classes datatype="tokens">RotaryMill Town</Classes>
+    <Icon>structures/oasis.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
         -phase_village

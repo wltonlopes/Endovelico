@@ -2,18 +2,26 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="base">
-      <!-- <animations>
-        <animation file="quadraped/donkey_idle_01.dae" name="idle" speed="10"/>
-        <animation file="quadraped/donkey_death_01.dae" name="death" speed="40"/>
-        <animation file="quadraped/donkey_walk_01.dae" name="walk" speed="25"/>
-      </animations> -->
-      <mesh>gaia/lhama.dae</mesh>
-      <props>
-        <!-- <prop actor="props/units/horse/donkey_pack_01.xml" attachpoint="saddle"/> -->
-      </props>
+    <variant>
+      <mesh>skeletal/guanaco.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/base_guanaco_fauna.xml"/>
+    <variant file="quadraped/base_guanaco_run.xml"/>
+    <variant file="quadraped/base_guanaco_death.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="l1">
       <textures>
-        <texture file="skeletal/llhama_1.png" name="baseTex"/>
+        <texture file="skeletal/llama_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="l2">
+      <textures>
+        <texture file="skeletal/llama_02.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>

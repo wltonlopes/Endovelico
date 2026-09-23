@@ -7,6 +7,6 @@
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/mande/infantry_champion_spearman.xml</Actor>
+    <Actor>units/mande/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

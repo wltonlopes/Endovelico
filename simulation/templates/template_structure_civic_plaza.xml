@@ -30,7 +30,7 @@
     <SelectionGroupName>template_structure_civic_temple</SelectionGroupName>
     <Tooltip>Train mercenaries and chief priest.</Tooltip>
     <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
-    <Icon>structures/temple.png</Icon>
+    <Icon>structures/plaza.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -6,8 +6,8 @@
 	</Footprint>
 	<Identity>
 		<Civ>mand</Civ>
-		<GenericName>Togueré</GenericName>
-		<Tooltip>Train Mercenaries.</Tooltip>
+		<GenericName>Kumbi</GenericName>
+		<Tooltip>Train Mercenaries and champions.</Tooltip>
 		<Classes datatype="tokens">CivSpecific</Classes>
 		<Icon>structures/mercenary_camp.png</Icon>
 	</Identity>
