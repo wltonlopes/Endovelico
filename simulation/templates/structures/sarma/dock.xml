@@ -17,7 +17,6 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/ship_fire
     </Entities>
   </Trainer>
   <VisualActor>

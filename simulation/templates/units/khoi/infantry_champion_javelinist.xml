@@ -3,8 +3,9 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Champion Javelinist</GenericName>
-    <Icon>units/subsaara/infantry_javelinist.png</Icon>
+    <Icon>units/subsaara/infantry_javelineer.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/khoisan/infantry_champion_javelinist.xml</Actor>
   </VisualActor>

@@ -48,6 +48,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/yuezhi/stable.xml</Actor>
-    <FoundationActor>structures/xiongnu/corral_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

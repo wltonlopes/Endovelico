@@ -8,7 +8,7 @@
         <texture file="structural/puka/struct.png" name="baseTex"/>
         <texture file="structural/puka/struct_norm.png" name="normTex"/>
         <texture file="structural/puka/struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/pukara/wall_medium_ao.png" name="aoTex"/>
+        <texture file="structural/ao/pukara/wall_med_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -4,7 +4,7 @@
     <SelectionGroupName>units/kartl/infantry_slinger_b</SelectionGroupName>
     <GenericName>Highland Slinger</GenericName>
 
-    <Icon>units/thra/infantry_slinger.png</Icon>
+    <Icon>units/athen/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/kartl/infantry_slinger_a</Entity>

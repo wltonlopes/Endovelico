@@ -48,6 +48,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/sarmatians/stable.xml</Actor>
-    <FoundationActor>structures/xiongnu/corral_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="moch_fortress">
-      <mesh>props/structures/gara_cc.dae</mesh>
+      <mesh>props/structural/gara_cc.dae</mesh>
 	        <props>
         <prop actor="flora/trees/palm_date_new.xml" attachpoint="1"/>
       </props>

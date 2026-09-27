@@ -6,7 +6,6 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/siege_shoushe
     </Entities>
   </Trainer>
   <VisualActor>

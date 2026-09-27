@@ -5,6 +5,7 @@
     <GenericName>Axewoman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/khoisan/infantry_heavy_axewoman.xml</Actor>
   </VisualActor>

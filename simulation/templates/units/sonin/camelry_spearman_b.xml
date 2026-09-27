@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Camel Spearman</GenericName>
-    <Icon>units/subsaara/cavalry_spearman.png</Icon>
+    <Icon>units/kush/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

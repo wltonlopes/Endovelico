@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Villager</GenericName>
-    <Icon>units/kush/support_male_citizen.png</Icon>
+    <Icon>units/kush/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/soninke/citizen_male.xml</Actor>

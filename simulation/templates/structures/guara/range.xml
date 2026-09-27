@@ -22,10 +22,10 @@
     </Technologies>
   </Researcher>
   <Trainer>
-    <Units datatype="tokens">
+    <Entities datatype="tokens">
       units/guara/infantry_blowgunner_b
       units/guara/infantry_slinger_b
-    </Units>
+    </Entities>
   </Trainer>
   <VisualActor>
     <Actor>structures/guaranis/range.xml</Actor>

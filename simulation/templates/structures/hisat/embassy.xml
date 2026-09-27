@@ -14,7 +14,6 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_swordsman_merc_b
       units/{civ}/infantry_javelineer_merc_b
     </Entities>
   </Trainer>

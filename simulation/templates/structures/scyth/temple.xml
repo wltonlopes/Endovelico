@@ -28,6 +28,5 @@
   <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/scythians/temple.xml</Actor>
-    <FoundationActor>structures/scythians/temple_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

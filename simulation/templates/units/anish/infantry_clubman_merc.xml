@@ -6,7 +6,7 @@
     <GenericName>Auxiliary Maceman</GenericName>
     <Icon>units/south_america/infantry_maceman.png</Icon>
   </Identity>
-  <Promotion disabled=""/>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/anishinaabe/infantry_clubman_merc.xml</Actor>
   </VisualActor>

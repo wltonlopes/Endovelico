@@ -4,7 +4,7 @@
   "cost": { "wood": 200, "metal": 100 },
   "requirements": { "all": [{ "civ": "mauret" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "fishing.png",
+  "icon": "fishing_net.png",
   "researchTime": 40,
   "tooltip": "Each completed Dock creates a fishing raft.",
   "modifications": []

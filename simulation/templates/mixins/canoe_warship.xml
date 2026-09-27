@@ -40,7 +40,7 @@
     <SpecificName>Fishing Canoe</SpecificName>
     <Classes datatype="tokens">Ship Civilian</Classes>
     <VisibleClasses datatype="tokens">Ship Civilian</VisibleClasses>
-    <Icon>units/ship.png</Icon>
+    <Icon>units/zapo/ship_canoe.png</Icon>
     <Tooltip>Simple fishing vessel. Can carry up to 3 units.</Tooltip>
   </Identity>
   <Loot>

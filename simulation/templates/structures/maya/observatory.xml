@@ -56,6 +56,6 @@
   </Sound>
   <VisualActor>
     <Actor>structures/mayas/observatory.xml</Actor>
-    <FoundationActor>structures/fndn_9x10.xml</FoundationActor>
+    <FoundationActor>structures/fndn_10x10.xml</FoundationActor>
   </VisualActor>
 </Entity>

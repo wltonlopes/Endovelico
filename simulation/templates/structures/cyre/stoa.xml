@@ -11,10 +11,9 @@
       units/{civ}/infantry_swordsman_merc_b
       units/{civ}/infantry_archer_merc_b
       units/{civ}/champion_chariot
-      units/{civ}/infantry_javelineer_merc_b
     </Entities>
   </Trainer> 
   <VisualActor>
-    <Actor>structures/cyrene/special.xml</Actor>
+    <Actor>structures/cyrene/stoa.xml</Actor>
   </VisualActor>
 </Entity>

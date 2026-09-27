@@ -5,6 +5,7 @@
     <GenericName>Champion Maceman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/khoisan/infantry_champion_maceman.xml</Actor>
   </VisualActor>

@@ -46,7 +46,7 @@
         <prop actor="props/structures/scythians/pelt_a.xml" attachpoint="pelt_c"/>
         <prop actor="props/structures/scythians/pelt_b.xml" attachpoint="pelt_e"/>
         <prop actor="props/structures/scythians/pelt_a.xml" attachpoint="pelt_f"/> -->
-        <prop actor="props/structures/scythians/royal_yurt_stairs.xml" attachpoint="stairs"/>
+        <prop actor="structures/scythians/royal_yurt_stairs.xml" attachpoint="stairs"/>
       </props>
       <textures>
         <texture file="structural/scyth/struct.png" name="baseTex"/>

@@ -5,7 +5,7 @@
     <variant frequency="1" name="corral">
       <mesh>structural/tamiles/corral.dae</mesh>
       <props>
-        <prop actor="props/structurs/decals/spart_3x3.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
         <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="01" maxheight="20" minheight="-20"/>
         <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="02" maxheight="20" minheight="-20"/>
       </props>

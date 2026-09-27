@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Skirmisher</GenericName>
-    <Icon>units/subsaara/infantry_javelinist.png</Icon>
+    <Icon>units/subsaara/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/khoi/infantry_javelinist_e</Entity>

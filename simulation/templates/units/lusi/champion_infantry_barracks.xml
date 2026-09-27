@@ -2,7 +2,7 @@
 <Entity parent="units/lusi/champion_infantry">
   <Identity>
         <Requirements>
-      <Techs datatype="tokens">unlock_champion_units</Techs>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
     </Requirements>
   </Identity>
 </Entity>

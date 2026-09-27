@@ -31,7 +31,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/shona/colony.xml</Actor>
+    <Actor>structures/shonas/colony.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
   </VisualActor>
 </Entity>

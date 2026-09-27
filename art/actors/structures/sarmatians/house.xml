@@ -17,25 +17,25 @@
     <variant frequency="1" name="house a">
 <mesh>structural/sarmatians/house_1.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/sarmatians/barracks_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/sarma/house_1_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house b">
 <mesh>structural/sarmatians/house_2.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/sarmatians/barracks_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/sarma/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house c">
 <mesh>structural/sarmatians/house_3.dae</mesh>
       <textures>
-      	        <texture file="structural/ao/sarmatians/barracks_AO.png" name="aoTex"/>
+      	        <texture file="structural/ao/sarma/house_3_ao.png" name="aoTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="house d">
 <mesh>structural/sarmatians/house_2.dae</mesh>
       <textures>
-                <texture file="structural/ao/sarmatians/barracks_AO.png" name="aoTex"/>
+                <texture file="structural/ao/sarma/house_2_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -55,10 +55,6 @@
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/hero_eryxo
-      units/{civ}/hero_arcesilaus_iv
-      units/{civ}/hero_magas
-      units/{civ}/champion_infantry
     </Entities>
   </Trainer>
   <Vision>

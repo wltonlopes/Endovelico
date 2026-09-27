@@ -10,6 +10,6 @@
     <Icon>units/maya/hero_ix_muluc.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/maya_protoclassic/hero_ix_muluc.xml</Actor>
+    <Actor>units/mayas/hero_ix_muluc.xml</Actor>
   </VisualActor>
 </Entity>

@@ -4,7 +4,7 @@
     <Civ>mand</Civ>
     <SelectionGroupName>units/mand/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Mande Cavalry</GenericName>
-    <Icon>units/maur/cavalry_spearman.png</Icon>
+    <Icon>units/kush/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

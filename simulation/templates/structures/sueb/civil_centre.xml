@@ -13,7 +13,6 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_clubman
     </Entities>
   </Trainer>
   <VisualActor>

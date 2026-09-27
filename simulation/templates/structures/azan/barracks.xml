@@ -17,7 +17,6 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry_swordsman
     </Entities>
   </Trainer>
   <VisualActor>

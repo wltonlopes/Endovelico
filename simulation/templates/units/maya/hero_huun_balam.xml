@@ -27,6 +27,6 @@
     <Weight op="mul">5.0</Weight>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/maya_protoclassic/litera_a.xml</Actor>
+    <Actor>units/mayas/litera_a.xml</Actor>
   </VisualActor>
 </Entity>

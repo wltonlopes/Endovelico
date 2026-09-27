@@ -27,6 +27,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/yuezhi/temple.xml</Actor>
-    <FoundationActor>structures/xiongnu/temple_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

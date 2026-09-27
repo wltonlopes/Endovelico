@@ -4,7 +4,7 @@
   <group>
     <variant frequency="1" name="Base">
       <textures>
-        <texture file="skeletal/props/weapons/bronze_prop.png" name="baseTex"/>
+        <texture file="props/weapon/bronze_prop.png" name="baseTex"/>
         <texture name="specTex" file="null_white.dds"/>
         <texture file="default_norm.png" name="normTex"/>
       </textures>

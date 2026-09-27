@@ -6,6 +6,7 @@
     <SpecificName>Sofa-Seré</SpecificName>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/soninke/chariot_javelinist_c_m.xml</Actor>
   </VisualActor>

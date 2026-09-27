@@ -10,6 +10,6 @@
     <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/khoie/fishing_ship.xml</Actor>
+    <Actor>structures/khoisan/fishing_ship.xml</Actor>
   </VisualActor>
 </Entity>

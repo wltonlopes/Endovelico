@@ -4,7 +4,7 @@
   "cost": { "food": 150, "wood": 150 },
   "requirements": { "all": [{ "civ": "liby" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "camel.png",
+  "icon": "camels.png",
   "researchTime": 35,
   "tooltip": "Camel units move 25% faster while transporting tents.",
   "modifications": [

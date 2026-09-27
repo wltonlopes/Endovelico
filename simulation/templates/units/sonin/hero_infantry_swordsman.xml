@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>War Leader</GenericName>
-    <Icon>units/subsaara/hero_infantry_swordsman.png</Icon>
+    <Icon>units/illy/hero_infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/soninke/hero_infantry_swordsman.xml</Actor>

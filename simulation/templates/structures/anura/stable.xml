@@ -11,8 +11,7 @@
     <Static width="19.5" depth="19.5"/>
   </Obstruction>
   <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/chariot_javelineer_b   
+    <Entities datatype="tokens">   
     </Entities>
   </Trainer>
   <VisualActor>

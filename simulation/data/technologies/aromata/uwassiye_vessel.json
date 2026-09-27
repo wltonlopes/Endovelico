@@ -4,7 +4,7 @@
   "cost": { "wood": 250, "metal": 200 },
   "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_city" }] },
   "requirementsTooltip": "Unlocked in City Phase.",
-  "icon": "trade.png",
+  "icon": "trade_caravan.png",
   "researchTime": 60,
   "tooltip": "Merchant ships gain up to 50% trade benefit from garrisoned units.",
   "modifications": [

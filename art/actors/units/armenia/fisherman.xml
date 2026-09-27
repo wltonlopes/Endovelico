@@ -52,8 +52,8 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/fisher/base_pers.xml"/>
-    <variant file="biped/fisher/carry_pers.xml"/>
+    <variant file="biped/fisher/base_achae.xml"/>
+    <variant file="biped/fisher/carry_achae.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

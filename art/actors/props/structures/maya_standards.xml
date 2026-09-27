@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Maya Standards">
-      <mesh>props/structural/standards.dae</mesh>
+      <mesh>props/structural/mayas/standards.dae</mesh>
     </variant>
   </group>
   <group>

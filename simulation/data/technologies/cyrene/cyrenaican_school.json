@@ -4,7 +4,7 @@
   "cost": { "wood": 200, "metal": 150 },
   "requirements": { "all": [{ "civ": "cyre" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "academy.png",
+  "icon": "sibylline_books.png",
   "researchTime": 45,
   "tooltip": "Technologies are researched 10% faster.",
   "modifications": [

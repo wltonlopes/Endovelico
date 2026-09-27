@@ -22,6 +22,6 @@
     </Overlay>
   </Selectable>
   <VisualActor>
-    <Actor>units/malaydwipa/hero_chariot_archer_ashoka_m.xml</Actor>
+    <Actor>units/mauryas/hero_chariot_archer_ashoka_m.xml</Actor>
   </VisualActor>
 </Entity>

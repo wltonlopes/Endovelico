@@ -4,7 +4,7 @@
     <Civ>naba</Civ>
     <GenericName>Royal Guard Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/persian/champion_archer.png</Icon>
+    <Icon>units/achae/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/himyar/infantry_champion_archer.xml</Actor>

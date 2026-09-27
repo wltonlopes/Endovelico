@@ -102,7 +102,7 @@
         }
     ],
     "WallSets": [
-        "other/wallset_palisade",
+        "structures/wallset_palisade",
         "structures/maya/wallset_stone"
     ],
     "StartEntities": [

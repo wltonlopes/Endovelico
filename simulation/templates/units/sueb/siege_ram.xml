@@ -43,6 +43,6 @@
     </Overlay>
   </Selectable>
   <VisualActor>
-    <Actor>structures/suebians/siege_ram_pivot.xml</Actor>
+    <Actor>structures/suebians/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

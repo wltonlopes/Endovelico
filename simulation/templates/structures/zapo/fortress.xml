@@ -19,7 +19,6 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_healer
       units/{civ}/champion_infantry_sword
       units/{civ}/champion_infantry_spear
     </Entities>

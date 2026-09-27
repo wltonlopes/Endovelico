@@ -7,7 +7,7 @@
 	"requirements": {
 		"tech": "phase_village"
 	},
-	"icon": "hunting_dogs.png",
+	"icon": "spear.png",
 	"researchTime": 30,
 	"tooltip": "Gatherers +50% meat gathering rate.",
 	"modifications": [

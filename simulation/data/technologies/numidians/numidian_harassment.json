@@ -4,7 +4,7 @@
   "cost": { "food": 250, "metal": 150 },
   "requirements": { "all": [{ "civ": "numi" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "cavalry_archers.png",
+  "icon": "cavalry_speed.png",
   "researchTime": 45,
   "tooltip": "Cavalry deals 10% more damage against vulnerable units.",
   "modifications": [

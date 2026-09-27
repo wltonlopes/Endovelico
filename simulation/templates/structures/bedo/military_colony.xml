@@ -18,7 +18,6 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_pikeman_b
       units/{civ}/hero_01
       units/{civ}/hero_02
       units/{civ}/hero_03  

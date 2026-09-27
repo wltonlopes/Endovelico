@@ -4,6 +4,6 @@
     <Civ>lusi</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/iberians/outpost.xml</Actor>
+    <Actor>structures/hellenes/outpost.xml</Actor>
   </VisualActor>
 </Entity>

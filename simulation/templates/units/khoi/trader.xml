@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Trader</GenericName>
-    <Icon>units/subsaara/support_trader.png</Icon>
+    <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/khoisan/trader.xml</Actor>

@@ -4,6 +4,6 @@
     <Civ>suva</Civ>
   </Identity>
   <VisualActor>
-       <Actor>structures/suvarnabhumi/sentry_tower.xml</Actor>
+       <Actor>structures/suvarnabhumi/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

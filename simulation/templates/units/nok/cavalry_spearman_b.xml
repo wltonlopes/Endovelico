@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Spearman Cavalry</GenericName>
-    <Icon>units/subsaara/cavalry_spearman.png</Icon>
+    <Icon>units/kush/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/nok/cavalry_spearman_a</Entity>

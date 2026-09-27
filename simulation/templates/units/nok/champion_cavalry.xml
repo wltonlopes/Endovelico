@@ -3,8 +3,9 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Axeman Cavalry</GenericName>
-    <Icon>units/subsaara/cavalry_axeman.png</Icon>
+    <Icon>units/kush/champion_cavalry.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/nok/cavalry_axeman_c_m.xml</Actor>
   </VisualActor>

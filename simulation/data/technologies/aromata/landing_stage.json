@@ -4,7 +4,7 @@
   "cost": { "wood": 200, "metal": 100 },
   "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "dock.png",
+  "icon": "anchor.png",
   "researchTime": 40,
   "tooltip": "Each ship gains 5 garrison spaces.",
   "modifications": [

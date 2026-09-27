@@ -4,7 +4,7 @@
   "cost": { "food": 300, "metal": 150 },
   "requirements": { "all": [{ "civ": "liby" }, { "tech": "phase_city" }] },
   "requirementsTooltip": "Unlocked in City Phase.",
-  "icon": "mercenary_camp.png",
+  "icon": "handshake.png",
   "researchTime": 60,
   "tooltip": "Allied Civic Centers can convert warriors for twice their original cost.",
   "modifications": []

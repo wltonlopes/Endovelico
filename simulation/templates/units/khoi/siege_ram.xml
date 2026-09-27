@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Siege Ram</GenericName>
-    <Icon>units/kush/siege_ram.png</Icon>
+    <Icon>units/athen/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/khoisan/siege_ram.xml</Actor>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Defense_Tower" file="structures/defensive_building.xml">
-<mesh>structural/zapotecs/tower_2.dae</mesh>
+<mesh>structural/yayoi/tower_2.dae</mesh>
       <props>
         <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
       </props>

@@ -14,7 +14,6 @@
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_chariot
-      units/{civ}/hero_djalla
     </Entities>
   </Trainer>
   <VisualActor>

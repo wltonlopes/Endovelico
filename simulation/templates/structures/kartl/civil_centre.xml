@@ -10,7 +10,6 @@
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
-      units/{civ}/infantry_javelineer_b
     </Entities>
   </Trainer>
   <VisualActor>

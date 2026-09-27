@@ -16,9 +16,6 @@
   </VisualActor>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_himiko
-      units/{civ}/hero_keiko
-      units/{civ}/hero_wousu
     </Entities>
   </Trainer>
   <WallPiece>

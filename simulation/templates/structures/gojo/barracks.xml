@@ -20,8 +20,6 @@
   </Researcher>-->
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/cavalry_javelinist_b
-      units/{civ}/champion_infantry_spear
     </Entities>
   </Trainer>
   <VisualActor>

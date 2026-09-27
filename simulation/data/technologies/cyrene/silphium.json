@@ -4,7 +4,7 @@
   "cost": { "food": 250, "metal": 100 },
   "requirements": { "all": [{ "civ": "cyre" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "herbal_medicine.png",
+  "icon": "healing_rate.png",
   "researchTime": 40,
   "tooltip": "Units regenerate health 10% faster.",
   "modifications": [

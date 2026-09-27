@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Slinger</GenericName>
-    <Icon>units/subsaara/infantry_slinger.png</Icon>
+    <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sonin/infantry_slinger_e.xml</Entity>

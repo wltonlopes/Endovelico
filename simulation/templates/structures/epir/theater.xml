@@ -6,7 +6,7 @@
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <VisualActor>
-    <Actor>structures/epiro/theater.xml</Actor>
+    <Actor>structures/epiro/theatre.xml</Actor>
     <FoundationActor>structures/fndn_theater.xml</FoundationActor>
   </VisualActor>
 </Entity>

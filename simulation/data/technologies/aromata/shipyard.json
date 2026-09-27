@@ -4,7 +4,7 @@
   "cost": { "wood": 250, "metal": 150 },
   "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "shipyard.png",
+  "icon": "ship_ram.png",
   "researchTime": 50,
   "tooltip": "Idle ships repair for free; garrisoned units increase the repair rate.",
   "modifications": [

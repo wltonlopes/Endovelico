@@ -21,7 +21,7 @@
       units/{civ}/infantry_axeman_b
       units/{civ}/infantry_javelineer_b
       units/{civ}/infantry_spearman_b
-      units/{civ}/infantry_blowgunner
+      units/{civ}/infantry_blowgunner_b
     </Entities>
   </Trainer>
   <VisualActor>

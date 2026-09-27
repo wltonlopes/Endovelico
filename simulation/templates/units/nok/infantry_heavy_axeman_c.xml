@@ -5,6 +5,7 @@
     <GenericName>Heavy Axeman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/nok/infantry_heavy_axeman_c.xml</Actor>
   </VisualActor>

@@ -20,7 +20,7 @@
         <prop actor="props/structures/scythians/crate_large.xml" attachpoint="crate_b"/>
         <prop actor="props/structures/scythians/crate_large.xml" attachpoint="crate_c"/> -->
         <prop actor="props/structures/scythians/royal_yurt_decoration.xml" attachpoint="root"/>
-        <prop actor="props/structures/scythians/royal_yurt_stairs.xml" attachpoint="stairs"/>
+        <prop actor="structures/scythians/royal_yurt_stairs.xml" attachpoint="stairs"/>
       </props>
       <textures>
         <texture file="structural/scyth/struct.png" name="baseTex"/>

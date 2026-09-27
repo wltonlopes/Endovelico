@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="cc">
-      <mesh>structural/damara/field_wall.dae</mesh>
+      <mesh>structural/khoisan/field_wall.dae</mesh>
       <textures>
         <texture file="structural/damar/struct.png" name="baseTex"/>
         <texture file="structural/damar/struct_spec.png" name="specTex"/>

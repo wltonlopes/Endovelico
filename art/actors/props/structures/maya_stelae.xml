@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Maya Stelae">
-      <mesh>props/structural/stelae.dae</mesh>
+      <mesh>props/structural/mayas/stelae.dae</mesh>
       <textures>
         <texture file="structural/maya/struct.png" name="baseTex"/>
         <texture file="structural/maya/struct_norm.png" name="normTex"/>

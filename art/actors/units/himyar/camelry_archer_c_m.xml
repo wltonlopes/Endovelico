@@ -44,7 +44,7 @@
     <variant file="quadraped/base_camel_death.xml"/>
     <variant file="quadraped/base_camel_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="units/himyar/camelry_archer_b_r.xml" attachpoint="rider_L"/>
+        <prop actor="units/himyar/camelry_archer_c_r.xml" attachpoint="rider_L"/>
       </props>
     </variant>
   </group>

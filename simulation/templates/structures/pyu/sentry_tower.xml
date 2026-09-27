@@ -4,6 +4,6 @@
     <Civ>pyu</Civ>
   </Identity>
   <VisualActor>
-       <Actor>structures/pyu/sentry_tower.xml</Actor>
+       <Actor>structures/pyu/scout_tower.xml</Actor>
   </VisualActor>
 </Entity>

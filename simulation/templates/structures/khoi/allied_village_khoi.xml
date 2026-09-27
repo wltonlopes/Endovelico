@@ -14,7 +14,6 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/merc/afar_infantry_slinger
     </Entities>
   </Trainer>
   <VisualActor>

@@ -4,7 +4,7 @@
   "cost": { "food": 200, "wood": 150 },
   "requirements": { "all": [{ "civ": "numi" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "cavalry_tradition.png",
+  "icon": "horse_trainer.png",
   "researchTime": 40,
   "tooltip": "War chariots move 15% faster.",
   "modifications": [

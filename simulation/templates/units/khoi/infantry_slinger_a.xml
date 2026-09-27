@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Slinger</GenericName>
-    <Icon>units/subsaara/infantry_slinger.png</Icon>
+    <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/khoi/infantry_slinger_e</Entity>

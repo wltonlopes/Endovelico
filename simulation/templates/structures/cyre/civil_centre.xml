@@ -9,9 +9,6 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_eryxo
-      units/{civ}/hero_magas
-      units/{civ}/hero_arcesilaus_iv
       units/{civ}/infantry_spearman_b
       units/{civ}/cavalry_spearman_b
     </Entities>

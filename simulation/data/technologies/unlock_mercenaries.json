@@ -11,7 +11,7 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "spears_shield.png",
+	"icon": "spear_buttspike.png",
 	"researchTime": 60,
 	"tooltip": "Unlock Mercenary Infantry at the Barracks.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

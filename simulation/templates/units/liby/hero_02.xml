@@ -5,7 +5,7 @@
   <Identity>
     <Civ>liby</Civ>
     <GenericName>Mathos</GenericName>
-    <Icon>units/achae_hero_cyrus.png</Icon>
+    <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/libyan/hero_infantry_swordsman.xml</Actor>

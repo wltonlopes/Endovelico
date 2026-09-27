@@ -7,7 +7,7 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/hero_jonh
+      units/{civ}/hero_john
       units/{civ}/hero_judah
       units/{civ}/hero_salome
       units/{civ}/hero_simon

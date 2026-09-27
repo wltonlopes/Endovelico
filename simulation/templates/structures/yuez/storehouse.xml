@@ -45,6 +45,5 @@
   <VisualActor>
     <ConstructionPreview disable="" />
     <Actor>structures/yuezhi/storehouse.xml</Actor>
-    <FoundationActor>structures/scythians/storehouse_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

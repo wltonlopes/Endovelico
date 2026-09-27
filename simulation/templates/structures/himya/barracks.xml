@@ -19,7 +19,6 @@
   </Identity>
   <Trainer>
   	<Entities datatype = "tokens">
-  		units/{civ}/infantry_swordsman_merc_b
   	</Entities>
   </Trainer>
   <Obstruction>

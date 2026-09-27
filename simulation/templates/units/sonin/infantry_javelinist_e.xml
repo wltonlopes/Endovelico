@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Veteran Skirmisher</GenericName>
-    <Icon>units/subsaara/infantry_javelinist.png</Icon>
+    <Icon>units/subsaara/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

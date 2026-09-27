@@ -9,7 +9,6 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-  		units/{civ}/cavalry_spearman_merc_b
   	</Entities>
   </Trainer>
   <Researcher>

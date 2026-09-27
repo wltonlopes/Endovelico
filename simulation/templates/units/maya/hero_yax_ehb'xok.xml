@@ -9,6 +9,6 @@
     <Icon>units/maya/hero_yax_ehb_xok.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/maya_protoclassic/hero_yax_ehb'xok_infantry_spearman.xml</Actor>
+    <Actor>units/mayas/hero_yax_ehb'xok_infantry_spearman.xml</Actor>
   </VisualActor>
 </Entity>

@@ -14,7 +14,6 @@
       units/{civ}/hero_03
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_javelineer_b
-      units/{civ}/cavalry_spearman_b
     </Entities>
   </Trainer>
   <VisualActor>

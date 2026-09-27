@@ -5,7 +5,7 @@
     <SelectionGroupName>units/sonin/infantry_javelinist_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Djenné-Sora</SpecificName>
-    <Icon>units/subsaara/infantry_javelinist.png</Icon>
+    <Icon>units/subsaara/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sonin/infantry_javelinist_a.xml</Entity>

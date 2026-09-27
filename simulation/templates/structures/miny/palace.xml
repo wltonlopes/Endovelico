@@ -47,7 +47,7 @@
     <Entities datatype="tokens">
     	units/{civ}/hero_jugu
     	units/{civ}/hero_wuzhu
-   	  units/{civ}/hero_yushar
+   	  units/{civ}/hero_yushan
     </Entities>
   </Trainer>
   <VisualActor>

@@ -13,7 +13,7 @@
   <Identity>
     <GenericName>Priest</GenericName>
     <SelectionGroupName>units/champion_healer</SelectionGroupName>
-    <Icon>units/zapo_champion_healer.png</Icon>
+    <Icon>units/zapo/champion_healer.png</Icon>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>

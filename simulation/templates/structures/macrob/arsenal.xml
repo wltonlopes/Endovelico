@@ -25,7 +25,6 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/siege_ram
     </Entities>
   </Trainer>
   <VisualActor>

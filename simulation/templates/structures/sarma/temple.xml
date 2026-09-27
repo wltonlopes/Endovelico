@@ -27,6 +27,5 @@
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/sarmatians/temple.xml</Actor>
-    <FoundationActor>structures/xiongnu/temple_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

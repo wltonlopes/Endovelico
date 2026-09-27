@@ -4,7 +4,7 @@
   "cost": { "wood": 250, "stone": 100 },
   "requirements": { "all": [{ "civ": "macrob" }, { "tech": "phase_city" }] },
   "requirementsTooltip": "Unlocked in City Phase.",
-  "icon": "house.png",
+  "icon": "anchor.png",
   "researchTime": 55,
   "tooltip": "Each ship provides 5 population capacity.",
   "modifications": [

@@ -5,6 +5,6 @@
     <SpecificName>Staupilaz</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/suebians/outpost.xml</Actor>
+    <Actor>structures/hellenes/outpost.xml</Actor>
   </VisualActor>
 </Entity>

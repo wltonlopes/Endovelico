@@ -16,7 +16,7 @@
           <prop actor="props/units/heads/head_libian_01.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_01.png" name="baseTex"/>
+        <texture file="skeletal/libyan/lib_vest_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="libian-Tunic-Medium-01-02">
@@ -24,7 +24,7 @@
           <prop actor="props/units/heads/head_libian_01.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_01.png" name="baseTex"/>
+        <texture file="skeletal/libyan/lib_vest_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="libian-Tunic-Medium-01-03">
@@ -32,7 +32,7 @@
           <prop actor="props/units/heads/head_libian_01.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_02.png" name="baseTex"/>
+        <texture file="skeletal/libyan/lib_vest_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="libian-Tunic-Dark-01-01">
@@ -40,7 +40,7 @@
         <prop actor="props/units/heads/head_libian_01.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/libian/lib_vest_01_03.png" name="baseTex"/>
+        <texture file="skeletal/libyan/lib_vest_01_03.png" name="baseTex"/>
       </textures>
     </variant>
 

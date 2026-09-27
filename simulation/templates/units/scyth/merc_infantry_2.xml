@@ -12,7 +12,7 @@
         unlock_mercenary_infantry
       </Techs>
     </Requirements>
-    <Icon>units/athen/merc_peltast.png</Icon>
+    <Icon>units/athen/infantry_javelinist.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mercenaries/thrace_peltast_1.xml</Actor>

@@ -4,7 +4,7 @@
   "cost": { "wood": 300, "metal": 250 },
   "requirements": { "all": [{ "civ": "macrob" }, { "tech": "aromata/anchorage" }] },
   "requirementsTooltip": "Requires Anchorage.",
-  "icon": "ship.png",
+  "icon": "ship_cladding.png",
   "researchTime": 60,
   "tooltip": "The first 20 ships use no population while retaining Anchorage population capacity.",
   "modifications": []

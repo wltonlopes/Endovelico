@@ -13,8 +13,6 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_chariot
-      units/{civ}/hero_ugeo
       units/{civ}/hero_wiman
       units/{civ}/hero_jin
     </Entities>

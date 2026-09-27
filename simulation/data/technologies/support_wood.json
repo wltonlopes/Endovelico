@@ -1,7 +1,7 @@
 {
     "genericName": "Wood Bonus",
     "description": "Grants 1000 wood to the player.",
-    "icon": "wood_bonus.png",
+    "icon": "wood_axe.png",
     "researchTime": 1,
     "cost": {
         "food": 20

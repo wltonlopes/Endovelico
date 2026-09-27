@@ -4,7 +4,7 @@
   "cost": { "wood": 200, "stone": 200 },
   "requirements": { "all": [{ "civ": "mauret" }, { "tech": "phase_town" }] },
   "requirementsTooltip": "Unlocked in Town Phase.",
-  "icon": "stone_wall.png",
+  "icon": "wall.png",
   "researchTime": 45,
   "tooltip": "Buildings can be placed on slopes up to 40° and gain 5% defense.",
   "modifications": [

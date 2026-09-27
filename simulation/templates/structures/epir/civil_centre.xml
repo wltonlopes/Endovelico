@@ -12,7 +12,6 @@
       units/{civ}/hero_alexander_I
       units/{civ}/hero_alexander_II
       units/{civ}/hero_pyrrhus
-      units/{civ}/infantry_spearman_b
       units/{civ}/infantry_javelineer_b
       units/{civ}/cavalry_spearman_b
     </Entities>

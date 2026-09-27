@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="cc">
-      <mesh>structural/damara/field_berry.dae</mesh>
+      <mesh>structural/khoisan/field_berry.dae</mesh>
       <textures>
         <texture file="gaia/temperate_bush_01.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>

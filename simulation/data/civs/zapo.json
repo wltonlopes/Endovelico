@@ -4,23 +4,11 @@
 	"Region": ["mesoamerica","America"],
 	"Music": [
 		{
-			"File": "Jaws_of_the_Jaguar.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Lost_World.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Forgotten_Tribe.ogg",
-			"Type": "peace"
-		},
-		{
 			"File": "Cloud_People.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Old_New_World.ogg",
+			"File": "Old New World.ogg",
 			"Type": "peace"
 		}
 	],

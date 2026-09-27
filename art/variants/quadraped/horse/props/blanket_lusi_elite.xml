@@ -37,6 +37,5 @@
       </textures>
     </variant>
   </group>
-</variant>
   <material>player_trans.xml</material>
 </actor>

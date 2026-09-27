@@ -22,6 +22,6 @@
     <HeightOffset>8.5</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>units/khoisan/saga_javelinist_a_m.xml</Actor>
+    <Actor>units/subsaara/saga_javelinist_a_m.xml</Actor>
   </VisualActor>
 </Entity>

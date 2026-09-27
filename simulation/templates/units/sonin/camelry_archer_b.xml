@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Camel Archer</GenericName>
-    <Icon>units/subsaara/cavalry_archer_b.png</Icon>
+    <Icon>units/gara/camel_archer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

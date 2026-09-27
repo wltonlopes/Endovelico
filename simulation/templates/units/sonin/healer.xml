@@ -5,6 +5,7 @@
     <GenericName>Priest</GenericName>
     <Icon>units/kush/support_healer.png</Icon>
   </Identity>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/soninke/healer.xml</Actor>
   </VisualActor>
