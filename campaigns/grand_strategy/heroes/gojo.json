@@ -1,0 +1,17 @@
+{
+	"portraits": [
+		"session/portraits/units/kore/hero_wiman.png",
+		"session/portraits/units/yayo/hero_keiko.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

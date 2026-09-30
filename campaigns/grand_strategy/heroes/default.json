@@ -1,0 +1,14 @@
+{
+	"portraits": [
+		"session/portraits/units/athen/hero_pericles.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/iber/hero_caros.png",
+		"session/portraits/units/iber/hero_indibil.png",
+		"session/portraits/units/iber/hero_viriato.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

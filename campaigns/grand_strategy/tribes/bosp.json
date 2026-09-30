@@ -1,0 +1,9 @@
+{
+	"code": "bosp",
+	"name": "bosp",
+	"civ": "bosp",
+	"color": "109 120 242",
+	"startProvinces": [
+		"crimeia"
+	]
+}

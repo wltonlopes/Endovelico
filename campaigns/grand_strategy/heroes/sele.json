@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/sele/hero_seleucus.png",
+		"session/portraits/units/sele/hero_antiochus_the_great.png",
+		"session/portraits/units/sele/hero_antiochus_the_righteous.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/scyth/hero_tomyris.png",
+		"session/portraits/units/scyth/hero_skilurus.png",
+		"session/portraits/units/scyth/hero_ateas.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

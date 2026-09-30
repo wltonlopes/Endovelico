@@ -1,0 +1,10 @@
+{
+	"code": "tupi",
+	"name": "tupi",
+	"civ": "tupi",
+	"color": "242 109 132",
+	"startProvinces": [
+		"central_plateau",
+		"amazon_eastern"
+	]
+}

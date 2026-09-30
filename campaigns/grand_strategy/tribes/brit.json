@@ -1,0 +1,10 @@
+{
+	"code": "brit",
+	"name": "brit",
+	"civ": "brit",
+	"color": "101 191 47",
+	"startProvinces": [
+		"eire",
+		"britain"
+	]
+}

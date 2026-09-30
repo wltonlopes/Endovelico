@@ -1,0 +1,10 @@
+{
+	"code": "swcr",
+	"name": "swcr",
+	"civ": "swcr",
+	"color": "242 60 190",
+	"startProvinces": [
+		"zacatecas",
+		"caxcanes"
+	]
+}

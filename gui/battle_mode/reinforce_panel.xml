@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Painel de reforços do modo batalha (aberto pela zona de desdobramento). -->
+<objects>
+	<script directory="gui/common/"/>
+	<script file="gui/battle_mode/ReinforcePage.js"/>
+
+	<object type="image" sprite="color: 0 0 0 175"/>
+
+	<object type="image" style="SubmenuPanel" size="50%-460 50%-330 50%+460 50%+330">
+		<object type="text" style="BattleTitle" size="24 14 100%-24 48">
+			<translatableAttribute id="caption">REINFORCEMENTS</translatableAttribute>
+		</object>
+		<object type="image" sprite="BattleAccentLine" ghost="true" size="24 50 84 52"/>
+		<object name="statusText" type="text" style="BattleSmallText" size="24 58 100%-24 100" text_valign="top"/>
+
+		<object size="20 104 100%-20 100%-84">
+			<repeat count="20" var="n">
+				<object name="unitRow[n]" type="image" sprite="color: 255 255 255 10" hidden="true">
+					<object name="unitIcon[n]" type="image" size="3 3 37 37"/>
+					<object name="unitName[n]" type="text" style="BattleSmallText" size="44 1 100%-146 20" font="sans-bold-13"/>
+					<object name="unitInfo[n]" type="text" style="BattleSmallText" size="44 19 100%-146 39"/>
+					<object name="unitCost[n]" type="text" style="BattleSmallText" size="100%-144 2 100%-104 38" text_align="right"/>
+					<object name="unitMinus[n]" type="button" style="StoneButton" size="100%-100 6 100%-72 34">-</object>
+					<object name="unitCount[n]" type="text" style="BattleTitle" size="100%-70 2 100%-34 38" text_align="center" font="sans-bold-18"/>
+					<object name="unitPlus[n]" type="button" style="StoneButton" size="100%-32 6 100%-4 34">+</object>
+				</object>
+			</repeat>
+		</object>
+
+		<object name="summaryText" type="text" style="BattleSmallText" size="24 100%-76 100%-24 100%-52"/>
+		<object name="cancelButton" type="button" style="StoneButton" size="24 100%-44 224 100%-12" hotkey="cancel">
+			<translatableAttribute id="caption">Cancel</translatableAttribute>
+		</object>
+		<object name="deployButton" type="button" style="StoneButtonFancy" size="100%-224 100%-44 100%-24 100%-12">
+			<translatableAttribute id="caption">Call Reinforcements</translatableAttribute>
+		</object>
+	</object>
+</objects>

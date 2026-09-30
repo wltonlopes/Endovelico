@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Battle Mode: escolha do mapa (lista em simulation/data/battle_mode/battle_maps.json)
+	e dos exércitos iniciais dos dois lados, comprados com um saldo de pontos.
+-->
+<objects>
+	<script directory="gui/common/"/>
+	<script directory="gui/maps/"/>
+	<script directory="gamesettings/"/>
+	<script directory="gamesettings/attributes/"/>
+	<script file="gui/battle_mode/BattleModePage.js"/>
+
+	<object name="battleModePage" type="image" sprite="stretched:pregame/backgrounds/hellenes1-1.png">
+		<object type="image" sprite="color: 0 0 0 130" ghost="true"/>
+		<object type="image" sprite="BattleBottomShade" ghost="true" size="0 100%-72 100% 100%"/>
+
+		<!-- Cabeçalho -->
+		<object type="text" style="BattleTitle" size="32 20 60% 56">
+			<translatableAttribute id="caption">BATTLE MODE</translatableAttribute>
+		</object>
+		<object type="text" style="BattleSubtitle" size="32 56 100%-32 92">
+			<translatableAttribute id="caption">Choose the battlefield and spend points on the starting armies; unspent points become reinforcements, which march in from the nearest map edge. Win by destroying every enemy unit or by holding more than half of the control points.</translatableAttribute>
+		</object>
+		<object type="image" sprite="BattleAccentLine" ghost="true" size="32 93 92 95"/>
+
+		<!-- Mapa -->
+		<object type="image" style="SubmenuPanel" size="24 100 32% 100%-76">
+			<object type="text" style="BattleSubtitle" size="14 10 100%-14 30" font="sans-bold-16">
+				<translatableAttribute id="caption">Battlefield</translatableAttribute>
+			</object>
+			<object name="mapList" type="list" style="ModernList" size="14 36 100%-14 38%"/>
+			<object name="mapPreview" type="image" size="14 38%+10 100%-14 100%-184"/>
+			<object name="mapDescription" type="text" style="BattleSmallText" size="14 100%-176 100%-14 100%-82" text_valign="top"
+				scrollbar="true" scrollbar_style="ModernScrollBar"/>
+			<object type="text" style="BattleSmallText" size="14 100%-76 110 100%-48">
+				<translatableAttribute id="caption">Hold points:</translatableAttribute>
+			</object>
+			<object name="holdTime" type="dropdown" style="ModernDropDown" size="112 100%-76 100%-14 100%-48">
+				<translatableAttribute id="tooltip">How long a side must hold more than half of the control points to win.</translatableAttribute>
+			</object>
+			<object type="text" style="BattleSmallText" size="14 100%-42 110 100%-14">
+				<translatableAttribute id="caption">Map size:</translatableAttribute>
+			</object>
+			<object name="mapSize" type="dropdown" style="ModernDropDown" size="112 100%-42 100%-14 100%-14"/>
+		</object>
+
+		<!-- Exércitos -->
+		<object type="image" style="SubmenuPanel" size="32%+14 100 100%-24 100%-76">
+			<object name="tabPlayer" type="button" style="StoneButton" size="14 12 50%-4 44">
+				<translatableAttribute id="caption">Your Army</translatableAttribute>
+			</object>
+			<object name="tabEnemy" type="button" style="StoneButton" size="50%+4 12 100%-14 44">
+				<translatableAttribute id="caption">Enemy Army</translatableAttribute>
+			</object>
+
+			<object type="text" style="BattleSmallText" size="14 56 100 84">
+				<translatableAttribute id="caption">Civilization:</translatableAttribute>
+			</object>
+			<object name="civSelect" type="dropdown" style="ModernDropDown" size="100 56 40% 84"/>
+			<object type="text" style="BattleSmallText" size="40%+16 56 40%+100 84">
+				<translatableAttribute id="caption">Budget:</translatableAttribute>
+			</object>
+			<object name="budgetSelect" type="dropdown" style="ModernDropDown" size="40%+100 56 70% 84"/>
+			<object name="autoFillButton" type="button" style="StoneButton" size="70%+12 56 85%+2 84">
+				<translatableAttribute id="caption">Random</translatableAttribute>
+			</object>
+			<object name="clearButton" type="button" style="StoneButton" size="85%+8 56 100%-14 84">
+				<translatableAttribute id="caption">Clear</translatableAttribute>
+			</object>
+
+			<!-- Pontos gastos -->
+			<object name="budgetText" type="text" style="BattleSmallText" size="14 94 100%-14 114"/>
+			<object type="image" sprite="color: 255 255 255 20" size="14 118 100%-14 124">
+				<object name="budgetBar" type="image" sprite="color: 215 170 80 230" size="0 0 0% 100%"/>
+			</object>
+
+			<!-- Linhas de unidades (duas colunas) -->
+			<object name="unitRows" size="14 136 100%-14 100%-14">
+				<repeat count="20" var="n">
+					<object name="unitRow[n]" type="image" sprite="color: 255 255 255 10" hidden="true">
+						<object name="unitIcon[n]" type="image" size="3 3 37 37"/>
+						<object name="unitName[n]" type="text" style="BattleSmallText" size="44 1 100%-146 20" font="sans-bold-13"/>
+						<object name="unitInfo[n]" type="text" style="BattleSmallText" size="44 19 100%-146 39"/>
+						<object name="unitCost[n]" type="text" style="BattleSmallText" size="100%-144 2 100%-104 38" text_align="right"/>
+						<object name="unitMinus[n]" type="button" style="StoneButton" size="100%-100 6 100%-72 34">-</object>
+						<object name="unitCount[n]" type="text" style="BattleTitle" size="100%-70 2 100%-34 38" text_align="center" font="sans-bold-18"/>
+						<object name="unitPlus[n]" type="button" style="StoneButton" size="100%-32 6 100%-4 34">+</object>
+					</object>
+				</repeat>
+			</object>
+		</object>
+
+		<!-- Barra inferior -->
+		<object name="backButton" type="button" style="StoneButton" size="24 100%-58 224 100%-22">
+			<translatableAttribute id="caption">Back</translatableAttribute>
+		</object>
+		<object type="text" style="BattleSmallText" size="50%-230 100%-58 50%-60 100%-22" text_align="right">
+			<translatableAttribute id="caption">Enemy AI difficulty:</translatableAttribute>
+		</object>
+		<object name="aiDifficulty" type="dropdown" style="ModernDropDown" size="50%-50 100%-54 50%+150 100%-26"/>
+		<object name="statusText" type="text" style="BattleSmallText" size="50%+170 100%-58 100%-250 100%-22" text_align="right"/>
+		<object name="startButton" type="button" style="StoneButtonFancy" size="100%-234 100%-58 100%-24 100%-22">
+			<translatableAttribute id="caption">Start Battle</translatableAttribute>
+		</object>
+	</object>
+</objects>

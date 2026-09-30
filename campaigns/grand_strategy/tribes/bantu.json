@@ -1,0 +1,10 @@
+{
+	"code": "bantu",
+	"name": "bantu",
+	"civ": "bantu",
+	"color": "204 60 242",
+	"startProvinces": [
+		"zambia",
+		"angola"
+	]
+}

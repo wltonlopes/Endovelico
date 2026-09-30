@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Modo batalha: marcador invisível na borda do mapa por onde entram os
+	reforços. Só serve para escolher lugares livres em volta dele
+	(Footprint.PickSpawnPoint).
+-->
+<Entity>
+  <Footprint>
+    <Circle radius="6.0"/>
+    <Height>1.0</Height>
+  </Footprint>
+  <Ownership/>
+  <Position>
+    <Altitude>0</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>false</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>6</TurnRate>
+  </Position>
+</Entity>

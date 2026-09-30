@@ -1,0 +1,10 @@
+{
+	"code": "puka",
+	"name": "puka",
+	"civ": "puka",
+	"color": "60 242 203",
+	"startProvinces": [
+		"andes_southern",
+		"central_andean"
+	]
+}

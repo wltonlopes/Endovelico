@@ -1,0 +1,9 @@
+{
+	"code": "ptol",
+	"name": "ptol",
+	"civ": "ptol",
+	"color": "242 109 232",
+	"startProvinces": [
+		"upper_egypt"
+	]
+}

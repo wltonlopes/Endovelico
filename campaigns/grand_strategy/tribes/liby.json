@@ -1,0 +1,9 @@
+{
+	"code": "liby",
+	"name": "Libyans",
+	"civ": "liby",
+	"color": "152 109 242",
+	"startProvinces": [
+		"libya"
+	]
+}

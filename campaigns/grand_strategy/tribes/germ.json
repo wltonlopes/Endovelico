@@ -1,0 +1,10 @@
+{
+	"code": "germ",
+	"name": "germ",
+	"civ": "germ",
+	"color": "242 164 109",
+	"startProvinces": [
+		"germania",
+		"silesia"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"portraits": [
+		"session/portraits/units/hasmo/hero_john.png",
+		"session/portraits/units/hasmo/hero_judah.png",
+		"session/portraits/units/hasmo/hero_salome.png",
+		"session/portraits/units/hasmo/hero_simon.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/puka/hero_axeman.png",
+		"session/portraits/units/puka/hero_maceman.png",
+		"session/portraits/units/puka/hero_javelinist.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

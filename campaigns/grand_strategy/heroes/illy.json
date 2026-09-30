@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/illy/hero_bardilis_i.png",
+		"session/portraits/units/illy/hero_argon_i.png",
+		"session/portraits/units/illy/hero_teuta.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

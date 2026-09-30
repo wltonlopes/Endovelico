@@ -1,0 +1,19 @@
+{
+	"portraits": [
+		"session/portraits/units/athen/hero_hippocrates.png",
+		"session/portraits/units/athen/hero_themistocles.png",
+		"session/portraits/units/athen/hero_pericles.png",
+		"session/portraits/units/athen/hero_iphicrates.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

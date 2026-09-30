@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/urew/hero_01.png",
+		"session/portraits/units/urew/hero_02.png",
+		"session/portraits/units/urew/hero_03.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

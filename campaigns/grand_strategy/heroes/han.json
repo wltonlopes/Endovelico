@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/han/hero_han_xin.png",
+		"session/portraits/units/han/hero_liu_bang.png",
+		"session/portraits/units/han/hero_wei_qing.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

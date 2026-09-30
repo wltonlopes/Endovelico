@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_battle_deploy_point">
+  <VisualActor>
+    <Actor>structures/battle/deploy_zone.xml</Actor>
+  </VisualActor>
+</Entity>

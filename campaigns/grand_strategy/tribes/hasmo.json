@@ -1,0 +1,9 @@
+{
+	"code": "hasmo",
+	"name": "hasmonean",
+	"civ": "hasmo",
+	"color": "86 165 191",
+	"startProvinces": [
+		"judea"
+	]
+}

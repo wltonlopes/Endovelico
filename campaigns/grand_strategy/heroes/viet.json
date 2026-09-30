@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/viet/hero_an_duong.png",
+		"session/portraits/units/viet/hero_hung_due.png",
+		"session/portraits/units/viet/hero_hung_nghi.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

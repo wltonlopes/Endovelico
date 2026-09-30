@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/gara/hero_01.png",
+		"session/portraits/units/gara/hero_03.png",
+		"session/portraits/units/gara/hero_02.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

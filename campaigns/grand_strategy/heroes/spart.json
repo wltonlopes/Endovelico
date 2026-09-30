@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/spart/hero_leonidas.png",
+		"session/portraits/units/spart/hero_brasidas.png",
+		"session/portraits/units/spart/hero_agis.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"code": "maur",
+	"name": "maur",
+	"civ": "maur",
+	"color": "242 112 60",
+	"startProvinces": [
+		"kuntala",
+		"avanti"
+	]
+}

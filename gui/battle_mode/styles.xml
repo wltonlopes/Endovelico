@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Estilos das telas do modo batalha. -->
+<styles>
+	<style name="BattleTitle"
+		font="sans-bold-24"
+		textcolor="245 240 232"
+		text_align="left"
+		text_valign="center"
+	/>
+	<style name="BattleSubtitle"
+		font="sans-13"
+		textcolor="235 200 130"
+		text_align="left"
+		text_valign="top"
+	/>
+	<style name="BattleSmallText"
+		font="sans-12"
+		textcolor="200 195 185"
+		text_align="left"
+		text_valign="center"
+	/>
+</styles>

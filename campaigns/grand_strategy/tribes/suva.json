@@ -1,0 +1,10 @@
+{
+	"code": "suva",
+	"name": "suva",
+	"civ": "suva",
+	"color": "165 242 109",
+	"startProvinces": [
+		"noongar",
+		"yolngu"
+	]
+}

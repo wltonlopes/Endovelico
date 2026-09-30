@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<sprites>
+
+	<!-- Painéis da campanha: vidro escuro com linha laranja no topo e
+	     cantoneiras, no mesmo visual do menu principal e da sessão. -->
+	<sprite name="panelShader">
+		<image backcolor="10 12 17 180" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 26" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 26" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 255 255 26" size="0 1 1 100%-1"/>
+		<image backcolor="255 255 255 26" size="100%-1 1 100% 100%-1"/>
+		<image backcolor="215 170 80 170" size="0 0 100% 1"/>
+		<image backcolor="215 170 80 230" size="0 0 12 2"/>
+		<image backcolor="215 170 80 230" size="0 0 2 12"/>
+		<image backcolor="215 170 80 230" size="100%-12 100%-2 100% 100%"/>
+		<image backcolor="215 170 80 230" size="100%-2 100%-12 100% 100%"/>
+	</sprite>
+
+	<sprite name="campaignBackground">
+
+		<!-- background -->
+		<image backcolor = "12 12 12"/>
+		<image texture = "global/modern/background.png"
+			texture_size = "0 0 1024 1024"
+			size = "0 0 100% 100%"
+		/>
+
+		<!-- shading -->
+		<!-- we just mirror the same texture on the top and bottom -->
+		<image texture = "global/modern/shadow-high.png"
+			texture_size = "0 0 1024 256"
+			size = "0 100%-256 100% 100%"
+		/>
+		<image texture = "global/modern/shadow-high.png"
+			texture_size = "1024 256 0 0"
+			size = "0 0 100% 256"
+		/>
+	</sprite>
+
+	<!-- Painel semitransparente (detalhes da província): deixa ver o mapa por trás. -->
+	<sprite name="campaignPanelTranslucent">
+		<image backcolor="10 12 17 160" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 26" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 26" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 255 255 26" size="0 1 1 100%-1"/>
+		<image backcolor="255 255 255 26" size="100%-1 1 100% 100%-1"/>
+		<image backcolor="215 170 80 170" size="0 0 100% 1"/>
+		<image backcolor="215 170 80 230" size="0 0 12 2"/>
+		<image backcolor="215 170 80 230" size="0 0 2 12"/>
+		<image backcolor="215 170 80 230" size="100%-12 100%-2 100% 100%"/>
+		<image backcolor="215 170 80 230" size="100%-2 100%-12 100% 100%"/>
+	</sprite>
+
+</sprites>

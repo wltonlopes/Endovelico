@@ -1,0 +1,17 @@
+{
+	"portraits": [
+		"session/portraits/units/achae/champion_cavalry.png",
+		"session/portraits/units/achae/chariot_archer.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

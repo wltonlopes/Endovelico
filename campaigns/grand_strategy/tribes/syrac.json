@@ -1,0 +1,9 @@
+{
+	"code": "syrac",
+	"name": "syrac",
+	"civ": "syrac",
+	"color": "86 191 190",
+	"startProvinces": [
+		"sicilia"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"code": "malay",
+	"name": "malay",
+	"civ": "malay",
+	"color": "220 242 109",
+	"startProvinces": [
+		"borneo",
+		"sumatra"
+	]
+}

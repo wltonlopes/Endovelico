@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/paiu/hero_warrior.png",
+		"session/portraits/units/paiu/hero_elder.png",
+		"session/portraits/units/paiu/hero_matriarch.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

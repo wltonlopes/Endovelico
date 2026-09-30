@@ -1,0 +1,10 @@
+{
+	"code": "gaul",
+	"name": "gaul",
+	"civ": "gaul",
+	"color": "60 242 188",
+	"startProvinces": [
+		"central_gaul",
+		"celtica"
+	]
+}

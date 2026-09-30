@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Ponto de controle (vitória por pontos de controle e modo batalha).
+	Não tem vida: só pode ser capturado. Não gera território.
+-->
+<Entity parent="template_structure">
+  <Footprint>
+    <Square width="4.5" depth="4.5"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="4.0" depth="4.0"/>
+  </Obstruction>
+  <Health disable=""/>
+  <Capturable>
+    <CapturePoints>2000</CapturePoints>
+    <RegenRate>0</RegenRate>
+  </Capturable>
+  <Identity>
+    <GenericName>Control Point</GenericName>
+    <SpecificName>Strategic Objective</SpecificName>
+    <Classes datatype="tokens">ControlPoint</Classes>
+    <VisibleClasses datatype="tokens">ControlPoint</VisibleClasses>
+    <Tooltip>Capture and hold this strategic position.</Tooltip>
+    <Undeletable>true</Undeletable>
+    <Icon>gaia/special_obelisk.png</Icon>
+  </Identity>
+  <ControlPoint>
+    <Weight>1</Weight>
+    <Region>Unknown</Region>
+    <DisplayName>Strategic Point</DisplayName>
+  </ControlPoint>
+  <ProductionQueue disable=""/>
+  <Researcher disable=""/>
+  <Trainer disable=""/>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+</Entity>

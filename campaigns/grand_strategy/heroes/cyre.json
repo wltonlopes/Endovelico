@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/cyrene/hero_arcesilaus_iv.png",
+		"session/portraits/units/cyrene/hero_eryxo.png",
+		"session/portraits/units/cyrene/hero_magas.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

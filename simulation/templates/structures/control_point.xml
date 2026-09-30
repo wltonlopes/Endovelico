@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_control_point">
+  <VisualActor>
+    <Actor>structures/celts/stone_monument.xml</Actor>
+  </VisualActor>
+</Entity>

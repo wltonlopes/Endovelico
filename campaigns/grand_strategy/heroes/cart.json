@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/cart/hero_hamilcar.png",
+		"session/portraits/units/cart/hero_hannibal.png",
+		"session/portraits/units/cart/hero_maharbal.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

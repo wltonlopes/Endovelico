@@ -1,0 +1,9 @@
+{
+	"code": "mace",
+	"name": "mace",
+	"civ": "mace",
+	"color": "191 86 112",
+	"startProvinces": [
+		"thessalia"
+	]
+}

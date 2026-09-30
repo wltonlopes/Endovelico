@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Zona de desdobramento do modo batalha: onde o exército começa.
+	- Dá população ao dono.
+	- Selecionada, mostra o botão de reforços (gui/session/z_battle_reinforce.js).
+	  Os reforços chegam pela borda do mapa mais próxima e marcham até aqui
+	  (ou até o ponto de encontro definido nela).
+	- Não pode ser atacada nem capturada, e as unidades andam por cima.
+-->
+<Entity parent="template_structure">
+  <Capturable disable=""/>
+  <Decay disable=""/>
+  <Guard disable=""/>
+  <Health disable=""/>
+  <Loot disable=""/>
+  <Obstruction disable=""/>
+  <Repairable disable=""/>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <ProductionQueue disable=""/>
+  <Researcher disable=""/>
+  <Trainer disable=""/>
+  <Footprint>
+    <Circle radius="12.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>Deployment Zone</GenericName>
+    <SpecificName>Deployment Zone</SpecificName>
+    <Classes datatype="tokens">DeployPoint</Classes>
+    <VisibleClasses datatype="tokens">DeployPoint</VisibleClasses>
+    <Tooltip>Where your army gathers. Provides 100 population. Select it to call reinforcements, which march in from the nearest map edge, with the points earned by holding control points.</Tooltip>
+    <Icon>structures/military.png</Icon>
+    <Undeletable>true</Undeletable>
+  </Identity>
+  <Population>
+    <Bonus>100</Bonus>
+  </Population>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+</Entity>

@@ -1,0 +1,10 @@
+{
+	"code": "maya",
+	"name": "maya",
+	"civ": "maya",
+	"color": "114 242 60",
+	"startProvinces": [
+		"yucatan",
+		"maya_lowlands"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/germ/hero_boiorix.png",
+		"session/portraits/units/germ/hero_teutobod.png",
+		"session/portraits/units/germ/hero_lugius.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

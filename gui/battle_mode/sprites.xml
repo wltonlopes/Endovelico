@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sprites das telas do modo batalha. -->
+<sprites>
+	<sprite name="BattleAccentLine">
+		<image backcolor="215 170 80 255" size="0 0 100% 100%"/>
+	</sprite>
+	<sprite name="BattleBottomShade">
+		<image backcolor="0 0 0 140" size="0 0 100% 100%"/>
+	</sprite>
+</sprites>

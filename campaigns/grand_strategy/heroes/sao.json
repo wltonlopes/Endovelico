@@ -1,0 +1,17 @@
+{
+	"portraits": [
+		"session/portraits/units/gara/hero_1.png",
+		"session/portraits/units/achae/hero_cyrus.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

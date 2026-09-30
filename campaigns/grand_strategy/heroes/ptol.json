@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/ptol/hero_ptolemy_I.png",
+		"session/portraits/units/ptol/hero_ptolemy_IV.png",
+		"session/portraits/units/ptol/hero_cleopatra.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

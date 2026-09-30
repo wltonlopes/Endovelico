@@ -1,0 +1,17 @@
+{
+	"portraits": [
+		"session/portraits/units/maur/hero_chandragupta.png",
+		"session/portraits/units/maur/hero_chanakya.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

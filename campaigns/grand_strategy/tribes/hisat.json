@@ -1,0 +1,10 @@
+{
+	"code": "hisat",
+	"name": "hisat",
+	"civ": "hisat",
+	"color": "197 109 242",
+	"startProvinces": [
+		"oasisamerica",
+		"california"
+	]
+}

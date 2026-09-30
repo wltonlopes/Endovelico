@@ -1,0 +1,9 @@
+{
+	"code": "bedo",
+	"name": "bedo",
+	"civ": "bedo",
+	"color": "242 98 60",
+	"startProvinces": [
+		"arabia_magna"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"code": "cart",
+	"name": "cart",
+	"civ": "cart",
+	"color": "242 109 198",
+	"startProvinces": [
+		"carthage"
+	]
+}

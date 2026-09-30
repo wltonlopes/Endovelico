@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+	<include>common/modern/setup.xml</include>
+	<include>common/modern/styles.xml</include>
+	<include>common/modern/sprites.xml</include>
+
+	<include>common/setup.xml</include>
+	<include>common/sprites.xml</include>
+	<include>common/styles.xml</include>
+
+	<include>pregame/sprites.xml</include>
+	<include>pregame/styles.xml</include>
+
+	<include>battle_mode/styles.xml</include>
+	<include>battle_mode/sprites.xml</include>
+
+	<include>battle_mode/battle_mode.xml</include>
+</page>

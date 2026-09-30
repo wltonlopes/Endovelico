@@ -1,0 +1,9 @@
+{
+	"code": "moch",
+	"name": "moch",
+	"civ": "moch",
+	"color": "242 219 109",
+	"startProvinces": [
+		"andean_northern_coast"
+	]
+}

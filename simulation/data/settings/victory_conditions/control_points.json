@@ -1,0 +1,14 @@
+{
+    "TranslatedKeys": ["Title", "Description"],
+    "Data":
+    {
+        "Title": "Control Points",
+        "Description": "Capture and hold at least 60% of the Control Points for five minutes to win the game.",
+        "Scripts":
+        [
+            "scripts/TriggerHelper.js",
+            "scripts/ControlPointVictory.js"
+        ],
+        "GUIOrder": 10
+    }
+}

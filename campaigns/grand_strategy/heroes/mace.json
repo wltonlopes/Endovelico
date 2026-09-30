@@ -1,0 +1,18 @@
+{
+	"portraits": [
+		"session/portraits/units/mace/hero_philip.png",
+		"session/portraits/units/mace/hero_alexander.png",
+		"session/portraits/units/mace/hero_demetrius.png"
+	],
+	"traits": [],
+	"bonuses": {
+		"movement": 0,
+		"combat": 0,
+		"command": 0
+	},
+	"titles": [
+		"General",
+		"Warlord",
+		"King"
+	]
+}

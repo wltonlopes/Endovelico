@@ -1,0 +1,9 @@
+{
+	"code": "gara",
+	"name": "Garamantians",
+	"civ": "gara",
+	"color": "190 86 191",
+	"startProvinces": [
+		"fezzan"
+	]
+}

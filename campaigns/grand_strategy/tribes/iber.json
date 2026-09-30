@@ -1,0 +1,10 @@
+{
+	"code": "iber",
+	"name": "iber",
+	"civ": "iber",
+	"color": "47 191 100",
+	"startProvinces": [
+		"numantia",
+		"iberia"
+	]
+}
