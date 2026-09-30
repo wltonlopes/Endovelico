@@ -72,14 +72,17 @@ class BattleModePage
 
 	setupMaps()
 	{
-		const list = Engine.ReadJSONFile(g_BattleMapsList)?.Maps || [];
-		this.maps = list.filter(path => Engine.FileExists(path + ".json")).map(path => {
-			const data = Engine.ReadJSONFile(path + ".json");
+		const mapData = Engine.ReadJSONFile(g_BattleMapsList) || {};
+		const entries = (mapData.Maps || []).map(path => ({ "Map": path })).concat(mapData.Variants || []);
+		this.maps = entries.filter(entry => Engine.FileExists(entry.Map + ".json")).map(entry => {
+			const data = Engine.ReadJSONFile(entry.Map + ".json");
 			return {
-				"path": path,
-				"name": translate(data?.settings?.Name || path.split("/").pop()),
-				"description": translate(data?.settings?.Description || ""),
-				"preview": data?.settings?.Preview
+				"path": entry.Map,
+				"name": translate(entry.Name || data?.settings?.Name || entry.Map.split("/").pop()),
+				"description": translate(entry.Description || data?.settings?.Description || ""),
+				"preview": data?.settings?.Preview,
+				// Variante sem pontos de controle: só o embate dos dois exércitos.
+				"controlPoints": entry.ControlPoints !== false
 			};
 		}).sort((a, b) => a.name.localeCompare(b.name));
 
@@ -110,6 +113,8 @@ class BattleModePage
 	{
 		const map = this.maps[Engine.GetGUIObjectByName("mapList").selected];
 		Engine.GetGUIObjectByName("mapDescription").caption = map ? map.description : "";
+		// Sem pontos de controle não há tempo de posse a escolher.
+		Engine.GetGUIObjectByName("holdTime").enabled = !map || map.controlPoints;
 		Engine.GetGUIObjectByName("mapPreview").sprite = map && map.preview ?
 			"stretched:session/icons/mappreview/" + map.preview : "";
 		this.renderStatus();
@@ -392,10 +397,12 @@ class BattleModePage
 		// remove a base e cria o exército ali.
 		gameSettings.nomad.setEnabled(false);
 		// Duas formas de vencer: eliminar o inimigo ou segurar a maioria dos
-		// pontos de controle.
-		gameSettings.victoryConditions.fromList(["conquest_units", "control_points"]);
+		// pontos de controle. Nas variantes sem pontos de controle, só a
+		// primeira: é o embate dos dois exércitos.
+		gameSettings.victoryConditions.fromList(map.controlPoints ?
+			["conquest_units", "control_points"] : ["conquest_units"]);
 		gameSettings.triggerScripts.customScripts.add(g_BattleTriggerScript);
-		gameSettings.battleMode.setValue({
+		const battleMode = {
 			"armies": {
 				"1": this.armyFor(this.sides[0]),
 				"2": this.armyFor(this.sides[1])
@@ -405,11 +412,13 @@ class BattleModePage
 				"1": this.sides[0].budget - this.spent(this.sides[0]),
 				"2": this.sides[1].budget - this.spent(this.sides[1])
 			},
-			"aiAttack": true,
-			"controlPoints": {
+			"aiAttack": true
+		};
+		if (map.controlPoints)
+			battleMode.controlPoints = {
 				"holdTime": g_BattleHoldTimes[Engine.GetGUIObjectByName("holdTime").selected] || g_BattleDefaultHoldTime
-			}
-		});
+			};
+		gameSettings.battleMode.setValue(battleMode);
 
 		const playerAssignments = {
 			"local": {

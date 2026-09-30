@@ -1,33 +1,20 @@
 class GrandStrategyPage
 {
-    constructor(initData, closePageCallback)
-    {
-        warn("INIT DATA:");
-        warn(uneval(initData));
+	constructor(initData, closePageCallback)
+	{
 		this.closePageCallback = closePageCallback;
 
 		try
 		{
-            let filename =
-                initData?.filename ||
-                CampaignRun.getCurrentRunFilename();
+			const filename =
+				initData?.filename ||
+				CampaignRun.getCurrentRunFilename();
 
-            let run = new CampaignRun(filename).load();
+			const run = new CampaignRun(filename).load();
 
-            warn("RUN LOADED");
-
-            warn("run exists = " + (run !== undefined));
-
-            warn("run.data keys = " + Object.keys(run.data).join(","));
-
-            if ("gameData" in run.data)
-                warn("gameData exists");
-            else
-                warn("gameData missing");
-
+			// Campanha nova (ainda sem dados): abre a tela de escolha da civ.
 			if (!run.data.gameData)
 			{
-                warn("ABRINDO INIT");
 				closePageCallback({
 					[Engine.openRequest]:
 					{
@@ -37,33 +24,16 @@ class GrandStrategyPage
 				return;
 			}
 
-			// this.menu =
-			// 	new CampaignMenu(
-			// 		run,
-			// 		closePageCallback
-			// 	);
+			this.menu = new CampaignMenu(
+				run,
+				closePageCallback
+			);
 
-			// this.menu.initialise();
-            warn("CampaignMenu = " + typeof CampaignMenu);
-
-            this.menu = new CampaignMenu(
-                run,
-                closePageCallback
-            );
-
-            warn("Menu criado");
-
-            this.menu.initialise();
-
-            warn("Inicializado");
+			this.menu.initialise();
 		}
 		catch (err)
 		{
-			error("ERR = " + uneval(err));
-            error("NAME = " + err.name);
-            error("MSG = " + err.message);
-            error("STACK = " + err.stack);
-			error(err.stack);
+			error("Grand Strategy: " + err.message + "\n" + err.stack);
 
 			closePageCallback({
 				[Engine.openRequest]:

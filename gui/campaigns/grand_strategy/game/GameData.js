@@ -87,10 +87,6 @@ class GameData
 
 		if (province)
 		{
-			warn(
-				"MAGNA GRECIA COASTAL = " +
-				province.isCoastal()
-			);
 		}
 		for (const prov in data.provinces)
 			this.provinces[prov].Deserialize(data.provinces[prov]);
@@ -203,23 +199,17 @@ class GameData
 
 	save(run = CampaignRun.getCurrentRun())
 	{
-		warn("=== GameData.save ===");
 
-		warn("run exists = " + (run !== undefined));
 
 		const serialized = this.Serialize();
 
-		warn("Serialize OK");
 
 		run.data.gameData = serialized;
 
-		warn("Assigned gameData");
 
-		warn("Keys: " + Object.keys(run.data).join(","));
 
 		run.save();
 
-		warn("CampaignRun.save OK");
 	}
 
 	initialiseGame(playerData, difficulty)
@@ -385,27 +375,13 @@ class GameData
 				"playerIsAttacker": playerIsAttacker,
 			}
 		};
-		warn("ATTACKER = " + attackerTribe);
-		warn("OWNER = " + province.ownerTribe);
 
-		warn(
-			"ATTACKER TRIBE = " +
-			uneval(this.tribes[attackerTribe])
-		);
 
-		warn(
-			"OWNER TRIBE = " +
-			uneval(this.tribes[province.ownerTribe])
-		);
 		let gameSettings = new GameSettings().init();
 
-		warn("GAME SETTINGS = " + uneval(gameSettings));
 
 		gameSettings.fromInitAttributes(settings);
 
-		warn("PLAYER COUNT OBJ = " + uneval(gameSettings.playerCount));
-		warn("PLAYER AI OBJ = " + uneval(gameSettings.playerAI));
-		warn("PLAYER CIV OBJ = " + uneval(gameSettings.playerCiv));
 		// TODO: pass translated name, description, preview.
 		// gameSettings.mapName.set(`${this.tribes[attackerTribe].data.name} attack on ${province.name}`);
 		
@@ -442,9 +418,6 @@ class GameData
 			return;
 		}
 		//
-		warn("PROVINCE = " + uneval(province));
-		warn("GARRISON = " + province.garrison);
-		warn("PLAYER IS ATTACKER = " + playerIsAttacker);
 		//
 		gameSettings.playerAI.set(aiID, {
 			"bot": "petra",
@@ -471,19 +444,7 @@ class GameData
 			gameSettings.playerCiv.setValue(1, pickRandom(province.getNativeCivs()));
 		}
 		///
-		warn(
-			"P1 CIV = " +
-			this.tribes[attackerTribe].civ
-		);
 
-		warn(
-			"P2 CIV = " +
-			(
-				province.ownerTribe ?
-				this.tribes[province.ownerTribe].civ :
-				pickRandom(province.getNativeCivs())
-			)
-		);
 		//
 		let assignments = {
 			"local": {
@@ -491,9 +452,7 @@ class GameData
 				"name": Engine.ConfigDB_GetValue("user", "playername.singleplayer") || Engine.GetSystemUsername()
 			}
 		};
-		warn("ATTRIBS = " + uneval(gameSettings.toInitAttributes()));
 		gameSettings.launchGame(assignments, false);
-		warn("FINAL ATTRIBS = " + uneval(gameSettings.finalizedAttributes));
 
 		return {
 			"attribs": gameSettings.finalizedAttributes,
@@ -844,10 +803,6 @@ startGeneralBattle(
 			attacker.lastRetreatTurn =
 				this.turn;
 
-			warn(
-				attacker.tribe +
-				" retreated."
-			);
 
 			return false;
 		}
@@ -932,21 +887,17 @@ startGeneralBattle(
 		if (player.generals.length >= player.maxGenerals)
 			return false;
 
-		player.money -= cost;
-		this.statistics?.AddGold?.(-cost);
-		this.statistics?.ArmyRaised?.();
-
+		// Tribo sem território (foi conquistada) não tem onde recrutar.
+		// Checa antes de cobrar, para não gastar o ouro à toa.
 		const capital =
 			player.getCapital();
 
 		if (!capital)
-		{
-			warn(
-				"No capital for tribe " +
-				tribe
-			);
 			return false;
-		}
+
+		player.money -= cost;
+		this.statistics?.AddGold?.(-cost);
+		this.statistics?.ArmyRaised?.();
 
 		// let hero =
 		// 	new Hero(
@@ -1012,10 +963,6 @@ killGeneral(hero)
 
 		this.statistics?.GeneralLost?.(hero.id);
 
-		warn(
-			"General died: " +
-			hero.id
-		);
 	}
 
 	getArmyByGeneral(heroID)

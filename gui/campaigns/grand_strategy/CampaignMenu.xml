@@ -171,6 +171,7 @@
 					<object name="contextPanelButton[2]" type="button" style="StoneButtonFancy"/>
 					<object name="contextPanelButton[3]" type="button" style="StoneButtonFancy"/>
 					<object name="contextPanelButton[4]" type="button" style="StoneButtonFancy"/>
+					<object name="contextPanelButton[5]" type="button" style="StoneButtonFancy"/>
 				</object>
 			</object>
 

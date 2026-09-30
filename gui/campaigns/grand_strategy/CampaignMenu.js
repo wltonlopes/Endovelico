@@ -422,9 +422,9 @@ class CampaignMenu extends AutoWatcher
 					}
 				};
 
-				const portrait =
-					hero.portrait ||
-					"session/portraits/heroes/default.png";
+				// Retrato redondo (campaigns/grand_strategy/heroes/), também
+				// para campanhas salvas com o retrato quadrado.
+				const portrait = getRoundHeroPortrait(hero.portrait);
 
 				if (
 					tribeCode ==

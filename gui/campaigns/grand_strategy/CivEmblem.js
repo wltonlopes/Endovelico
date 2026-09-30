@@ -25,6 +25,22 @@ function getCivEmblem(civ)
 	return g_CivEmblemCache[civ];
 }
 
+/**
+ * Versão redonda (com borda) de um retrato de herói, gerada em
+ * art/textures/ui/campaigns/grand_strategy/heroes/ com o caminho do retrato
+ * original trocando "/" por "_". Sem versão redonda, usa o retrato padrão.
+ */
+function getRoundHeroPortrait(portrait)
+{
+	const dir = "campaigns/grand_strategy/heroes/";
+	if (!portrait)
+		return dir + "default.png";
+	if (portrait.startsWith(dir))
+		return portrait;
+	const round = dir + portrait.replace("session/portraits/", "").replace(/\//g, "_");
+	return Engine.TextureExists("art/textures/ui/" + round) ? round : dir + "default.png";
+}
+
 /** Sprite do emblema, ou do emblema de gaia em cinza quando não há civ. */
 function getCivEmblemSprite(civ)
 {
