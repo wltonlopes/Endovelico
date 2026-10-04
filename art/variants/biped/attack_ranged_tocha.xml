@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <variant name="attack_ranged">
   <animations>
-    <animation event="0.50" file="biped/arr_tocha.dae" load="0.75" name="Attack_ranged" speed="100"/>
+    <animation event="0.42" file="biped/arr_tocha.dae" load="0.75" name="attack_ranged" speed="100"/>
   </animations>
 </variant>

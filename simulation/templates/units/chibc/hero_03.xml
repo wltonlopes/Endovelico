@@ -8,8 +8,8 @@
     <GenericName>Warrior Chief</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <SelectionGroupName>units/chibc/hero_warrior_chief</SelectionGroupName>
+    <Icon>units/chibc/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/chibchas/hero_infantry_clubman.xml</Actor>
