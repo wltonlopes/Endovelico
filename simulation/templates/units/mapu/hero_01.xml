@@ -7,8 +7,8 @@
     <Civ>mapu</Civ>
     <GenericName>Great Toqui Maceman</GenericName>
     <History>Great Toqui / Military Bonus</History>
-    <SelectionGroupName>units/mapu/hero_jaguar_king</SelectionGroupName>
-    <Icon>units/zapo/hero_lord_jaguar.png</Icon>
+    <SelectionGroupName>units/mapu/hero_01</SelectionGroupName>
+    <Icon>units/mapu/hero_01.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.5</WalkSpeed>

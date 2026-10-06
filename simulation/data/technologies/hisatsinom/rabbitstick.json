@@ -12,7 +12,10 @@
   "icon": "default.png",
   "researchTime": 40,
   "tooltip": "[font=\"sans-bold-14\"]\u2022 +15% attack speed[/font]",
-  "modifications": [],
+  "modifications": [
+    { "value": "Attack/Melee/RepeatTime", "multiply": 0.85 },
+    { "value": "Attack/Ranged/RepeatTime", "multiply": 0.85 }
+  ],
   "affects": [
     "Infantry"
   ],

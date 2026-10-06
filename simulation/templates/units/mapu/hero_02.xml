@@ -6,9 +6,9 @@
   <Identity>
     <Civ>mapu</Civ>
     <GenericName>Great Ulmen</GenericName>
-    <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
+    <SelectionGroupName>units/mapu/hero_02</SelectionGroupName>
     <History>Great Ulmen / Administration Bonus</History>
-    <Icon>units/zapo/hero_night_king.png</Icon>
+    <Icon>units/mapu/hero_02.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

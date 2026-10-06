@@ -1,32 +1,22 @@
 # Hisatsinom
 
 ## História
-Ancestral Puebloans (US Southwest, 500 BC–500 AD). Early Basketmaker II phase: semi-sedentary maize farmers in pit-houses. Developed basketry and dry farming
+Hisatsinom aqui representa comunidades ancestrais Pueblo do Sudoeste dos atuais Estados Unidos, aproximadamente entre 500 a.C. e 500 d.C., com foco na fase Basketmaker II. Eram comunidades semissedentárias que cultivavam milho, viviam em casas escavadas e desenvolveram cestaria e agricultura de sequeiro. "Hisatsinom" designa uma continuidade cultural ampla, não um Estado centralizado.
 
 ## Estruturas
-*(Em desenvolvimento)*
+O conjunto jogável inclui estruturas econômicas, militares, defensivas, navais e cerimoniais próprias. A arquitetura deve enfatizar assentamentos de casas escavadas e construções comunitárias, sem projetar sobre essa fase os grandes pueblos de períodos posteriores.
 
 ## Unidades
-*(Em desenvolvimento)*
+O elenco atual inclui lanceiros, arqueiros e fundeiros; mercenários de clava e dardo; campeões arqueiro e lanceiro; cavalaria de machado e de arma de arremesso; cães de guerra; curandeiros; unidades navais; e unidades de cerco incendiárias. O bastão de coelho (rabbitstick) é a referência distintiva para as armas de arremesso.
 
 ## Bônus da Civilização
-*(Nenhum definido)*
+Nenhum bônus passivo definido atualmente.
 
 ## Bônus de Equipe
-*(Nenhum definido)*
+Nenhum bônus de equipe definido atualmente.
 
 ## IA Nomes
-- Jimmu
-- Suizei
-- Annei
-- Itoku
-- Kosho
-- Koan
-- Korei
-- Kogen
-- Kaika
-- Suijin
-- Suinin
+Não há uma lista de lideranças pessoais atestadas para a fase Basketmaker II. Evitar nomes japoneses ou atribuições anacrônicas até que uma lista culturalmente validada seja definida.
 
 ## Tecnologias
-*(Em desenvolvimento)*
+A tecnologia Rabbitstick, disponível na fase Cidade, aumenta em 15% a cadência dos ataques corpo a corpo e à distância da infantaria.

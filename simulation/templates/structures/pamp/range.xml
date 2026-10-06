@@ -14,6 +14,14 @@
   <Obstruction>
     <Static width="24.0" depth="23.0"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_slinger_b
+      units/{civ}/champion_infantry_slinger
+      units/{civ}/infantry_boleador_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/pampas/range.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

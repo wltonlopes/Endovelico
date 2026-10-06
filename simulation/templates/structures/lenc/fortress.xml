@@ -16,6 +16,7 @@
   </VisualActor>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/champion_infantry_jaguar
     </Entities>
   </Trainer>
   <WallPiece>

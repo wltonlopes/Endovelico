@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Health>
+    <Max op="mul">0.85</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.15</WalkSpeed>
+  </UnitMotion>
+  <Attack>
+    <Ranged>
+      <AttackName>Bolas</AttackName>
+      <Damage>
+        <Pierce>7</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+      <MaxRange>22</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+      <PreferredClasses datatype="tokens">Cavalry</PreferredClasses>
+      <Projectile>
+        <Speed>80</Speed>
+        <Spread>3</Spread>
+        <Gravity>45</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>pamp</Civ>
+    <SelectionGroupName>units/pamp/infantry_boleador_b</SelectionGroupName>
+    <GenericName>Boleador</GenericName>
+    <Icon>units/moch/infantry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/pamp/infantry_boleador_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/pampidos/infantry_bolas_b.xml</Actor>
+  </VisualActor>
+</Entity>

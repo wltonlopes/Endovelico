@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Health>
+    <Max op="mul">1.2</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+  </UnitMotion>
+  <Attack>
+    <Ranged>
+      <AttackName>Bolas</AttackName>
+      <Damage>
+        <Pierce>9</Pierce>
+        <Crush>1.1</Crush>
+      </Damage>
+      <MaxRange>25</MaxRange>
+      <RepeatTime>1600</RepeatTime>
+      <PreferredClasses datatype="tokens">Cavalry</PreferredClasses>
+      <Projectile>
+        <Speed>80</Speed>
+        <Spread>3</Spread>
+        <Gravity>45</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <stone op="add">10</stone>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>mapu</Civ>
+    <SelectionGroupName>units/mapu/infantry_boleador_b</SelectionGroupName>
+    <GenericName>Heavy Boleador</GenericName>
+    <Icon>units/moch/infantry_javelinist.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/mapuches/infantry_heavy_bolas.xml</Actor>
+  </VisualActor>
+</Entity>
