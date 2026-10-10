@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>miny</Civ>
-    <SpecificName>Womina</SpecificName>
+    <GenericName>Minyue Villager</GenericName>
+    <SpecificName>Yue Min</SpecificName>
     <Icon>units/yayo/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

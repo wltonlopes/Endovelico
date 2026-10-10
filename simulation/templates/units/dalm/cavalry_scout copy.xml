@@ -3,7 +3,7 @@
   <Identity>
     <Civ>dalm</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Dacian Scout</SpecificName>
+    <GenericName>Dalmatian Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

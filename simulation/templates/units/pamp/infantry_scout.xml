@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_slinger">
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName>Pampido Scout</SpecificName>
+    <GenericName>Pampas Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

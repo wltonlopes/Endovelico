@@ -13,7 +13,8 @@
   </Health>
   <Identity>
     <Civ>bedo</Civ>
-    <SpecificName>Oasis</SpecificName>
+    <GenericName>Oasis</GenericName>
+    <SpecificName>!</SpecificName>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
     <Classes datatype="tokens">RotaryMill Town</Classes>
     <Icon>structures/oasis.png</Icon>

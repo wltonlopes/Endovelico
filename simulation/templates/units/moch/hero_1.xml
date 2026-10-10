@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>moch</Civ>
-    <GenericName>Moche Monarch</GenericName>
-    <SpecificName>Monarch</SpecificName>
+    <GenericName>Lord of Sipán</GenericName>
+    <SpecificName>Çiequich</SpecificName>
     <Icon>units/moch/hero_lord.png</Icon>
   </Identity>
   <VisualActor>

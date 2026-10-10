@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>araw</Civ>
-    <GenericName>Villager</GenericName>
+    <GenericName>Arawak Villager</GenericName>
+    <SpecificName>Naboria</SpecificName>
     <Icon>units/araw/citizen.png</Icon>
     <SelectionGroupName>units/araw/support_female_citizen</SelectionGroupName>
   </Identity>

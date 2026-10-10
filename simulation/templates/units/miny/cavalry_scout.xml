@@ -2,7 +2,8 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>miny</Civ>
-    <SpecificName>Qi Bing</SpecificName>
+    <GenericName>Minyue Scout</GenericName>
+    <SpecificName>Chi Hou</SpecificName>
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

@@ -9,7 +9,8 @@
   </Auras>
   <Identity>
     <Civ>daci</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>Decebalus</GenericName>
+    <SpecificName>Dekebalos</SpecificName>
     <Icon>units/mace/hero_demetrius.png</Icon>
   </Identity>
   <VisualActor>

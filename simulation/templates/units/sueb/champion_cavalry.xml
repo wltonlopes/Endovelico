@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Suebian Noble Cavalry</SpecificName>
+    <GenericName>Suebian Noble Cavalry</GenericName>
     <SelectionGroupName>units/sueb/champion_cavalry</SelectionGroupName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/sueb/champion_cavalry.png</Icon>

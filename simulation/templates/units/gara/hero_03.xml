@@ -4,8 +4,8 @@
   </Auras>
   <Identity>
     <Civ>gara</Civ>
-    <GenericName>King of Garamantes</GenericName>
-    <SpecificName>Amghar</SpecificName>
+    <GenericName>Desert Chieftain</GenericName>
+    <SpecificName>Amɣar</SpecificName>
     <Icon>units/gara/hero_03.png</Icon>
   </Identity>
   <VisualActor>

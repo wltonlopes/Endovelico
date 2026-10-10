@@ -10,7 +10,7 @@
   <Identity>
     <Civ>liby</Civ>
     <GenericName>Range</GenericName>
-    <SpecificName>Sikömiba</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="27.5" depth="27.5" />

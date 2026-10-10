@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_archer">
   <Identity>
     <Civ>azan</Civ>
-    <SpecificName>Azania Scout</SpecificName>
+    <GenericName>Azanian Scout</GenericName>
     <Icon>units/azan/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

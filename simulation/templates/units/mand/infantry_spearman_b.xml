@@ -4,7 +4,7 @@
     <Civ>mand</Civ>
     <SelectionGroupName>units/aksum/infantry_spearman_b</SelectionGroupName>
     <GenericName>Mande Spearman</GenericName>
-    <SpecificName>Djon-Ka </SpecificName>
+    <SpecificName>Sofa</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

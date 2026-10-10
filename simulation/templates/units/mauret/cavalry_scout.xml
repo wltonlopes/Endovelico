@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>mauret</Civ>
-    <SpecificName>Mauretania Scout</SpecificName>
+    <GenericName>Mauretanian Scout</GenericName>
     <Icon>units/cart/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

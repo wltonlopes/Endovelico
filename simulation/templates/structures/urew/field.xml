@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>urew</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Umurima</SpecificName>
     <GenericName>Millet Field</GenericName>
   </Identity>
   <VisualActor>

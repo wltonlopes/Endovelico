@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>tocha</Civ>
-    <SpecificName>Scythian Scout</SpecificName>
+    <GenericName>Tocharian Scout</GenericName>
     <Icon>units/scyth/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

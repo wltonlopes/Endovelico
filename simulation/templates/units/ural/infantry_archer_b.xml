@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>ural</Civ>
+    <GenericName>Uralic Hunter-Archer</GenericName>
     <SelectionGroupName>units/ural/infantry_archer</SelectionGroupName>
     <Icon>units/xion/infantry_archer.png</Icon>
   </Identity>

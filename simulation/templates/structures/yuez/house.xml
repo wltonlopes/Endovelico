@@ -14,7 +14,8 @@
   </Footprint>
   <Identity>
     <Civ>yuez</Civ>
-    <SpecificName>Yurt</SpecificName>
+    <GenericName>Yurt</GenericName>
+    <SpecificName>!</SpecificName>
     <Phenotype datatype="tokens">
       Yurt
     </Phenotype>

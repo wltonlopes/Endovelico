@@ -2,7 +2,7 @@
 <Entity parent="template_unit_siege_ram">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>Siege Ram</GenericName>
+    <GenericName>Battering Ram</GenericName>
     <Icon>units/athen/siege_ram.png</Icon>
   </Identity>
   <VisualActor>

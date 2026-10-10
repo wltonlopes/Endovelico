@@ -6,7 +6,8 @@
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Skilurus</SpecificName>
+    <GenericName>King Skilurus</GenericName>
+    <SpecificName>Skílouros</SpecificName>
     <Icon>units/scyth/hero_skilurus.png</Icon>
   </Identity>
   <VisualActor>

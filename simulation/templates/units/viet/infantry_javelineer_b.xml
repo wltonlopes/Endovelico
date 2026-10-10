@@ -2,8 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>viet</Civ>
+    <GenericName>Lac Viet Skirmisher</GenericName>
     <SelectionGroupName>units/viet/infantry_javelineer_b</SelectionGroupName>
-    <SpecificName>Vietnamese Skirmisher</SpecificName>
+    <SpecificName>Lính Phóng Lao</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/infantry_javelinist.png</Icon>
   </Identity>

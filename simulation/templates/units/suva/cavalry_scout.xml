@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>suva</Civ>
-    <SpecificName>Suvarnabhumi Scout</SpecificName>
+    <GenericName>Suvarnabhumi Scout</GenericName>
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

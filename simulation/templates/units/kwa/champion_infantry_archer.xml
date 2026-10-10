@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_infantry_javelineer">
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>Champion Archer</GenericName>
-    <SpecificName>Champion Yoruba</SpecificName>
+    <GenericName>Yoruba Champion Hunter</GenericName>
+    <SpecificName>Ọdẹ</SpecificName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>

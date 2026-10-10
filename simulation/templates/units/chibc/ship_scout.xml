@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>chibc</Civ>
-    <SpecificName>ygaraíba</SpecificName>
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

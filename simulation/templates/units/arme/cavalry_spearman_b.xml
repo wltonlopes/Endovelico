@@ -3,8 +3,8 @@
   <Identity>
     <Civ>arme</Civ>
     <SelectionGroupName>units/arme/cavalry_spearman_b</SelectionGroupName>
-    <GenericName>Armenian spearman Cavalry</GenericName>
-    <SpecificName>Aśvārohagaṇaḥ</SpecificName>
+    <GenericName>Armenian Lancer</GenericName>
+    <SpecificName>Nizakawor Ayrudzi</SpecificName>
     <Icon>units/maur/cavalry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

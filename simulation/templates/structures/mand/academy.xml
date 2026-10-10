@@ -25,7 +25,7 @@
   <Identity>
     <Civ>mand</Civ>
     <GenericName>Toguere</GenericName>
-    <SpecificName>Toguere</SpecificName>
+    <SpecificName>!</SpecificName>
     <SelectionGroupName>structures/mand/academy</SelectionGroupName>
     <Tooltip>Train Champions.</Tooltip>
     <VisibleClasses datatype="tokens">-Village City Academy</VisibleClasses>

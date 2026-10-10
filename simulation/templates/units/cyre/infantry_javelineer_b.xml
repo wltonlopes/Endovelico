@@ -3,8 +3,8 @@
   <Identity>
     <Civ>cyre</Civ>
     <SelectionGroupName>units/cyre/infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Cyrene Peltast</GenericName>
-    <SpecificName>Peltastēs Kyrēnaïkoí</SpecificName>
+    <GenericName>Cyrenaean Peltast</GenericName>
+    <SpecificName>Peltastḗs Kyrēnaîos</SpecificName>
     <Icon>units/mace/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

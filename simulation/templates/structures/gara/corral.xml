@@ -10,6 +10,7 @@
   <Identity>
     <Civ>gara</Civ>
   <GenericName>Corral</GenericName>
+  <SpecificName>Afrag</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="8.0" depth="14.0"/>

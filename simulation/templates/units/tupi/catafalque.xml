@@ -6,6 +6,6 @@
   </Auras>
   <Identity>
     <Civ>tupi</Civ>
-    <SpecificName>Tupi Funerary Bier</SpecificName>
+    <GenericName>Tupi Funerary Bier</GenericName>
   </Identity>
 </Entity>

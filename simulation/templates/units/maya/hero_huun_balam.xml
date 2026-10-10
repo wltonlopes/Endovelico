@@ -11,7 +11,8 @@
   </Decay>
   <Identity>
     <Civ>maya</Civ>
-    <SpecificName>Huun Balam</SpecificName>
+    <GenericName>Foliated Jaguar</GenericName>
+    <SpecificName>Huun Bahlam</SpecificName>
     <Icon>units/maya/hero_huun_balam.png</Icon>
   </Identity>
   <Position>

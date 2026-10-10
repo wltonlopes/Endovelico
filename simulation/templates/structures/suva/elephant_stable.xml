@@ -2,6 +2,7 @@
 <Entity parent="template_structure_military_elephant_stable">
   <Identity>
     <Civ>suva</Civ>
+    <SpecificName>Hatthisālā</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/suvarnabhumi/stable_elephant.xml</Actor>

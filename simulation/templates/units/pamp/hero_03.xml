@@ -5,8 +5,8 @@
     </Auras>
   <Identity>
     <Civ>pamp</Civ>
-    <GenericName>War Chief Clubman</GenericName>
-    <SpecificName>Macá</SpecificName>
+    <GenericName>Chief Bagual</GenericName>
+    <SpecificName>Bagual</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/pamp/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

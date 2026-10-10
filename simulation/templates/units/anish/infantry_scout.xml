@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_axeman">
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Anishinaabe Scout</SpecificName>
+    <GenericName>Anishinaabe Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

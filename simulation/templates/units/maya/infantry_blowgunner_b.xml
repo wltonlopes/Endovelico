@@ -14,7 +14,7 @@
     <Civ>maya</Civ>
     <SelectionGroupName>units/maya_protoclassic/blowgunner</SelectionGroupName>
     <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
-    <GenericName>Maya Blowgun hunter</GenericName>
+    <GenericName>Maya Blowgun Hunter</GenericName>
     <SpecificName>A'nab</SpecificName>
     <Icon>units/maya/infantry_blowgunner.png</Icon>
   </Identity>

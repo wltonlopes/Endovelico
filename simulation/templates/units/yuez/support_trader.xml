@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>yuez</Civ>
-    <SpecificName>Xiongnu Trader</SpecificName>
+    <GenericName>Yuezhi Trader</GenericName>
     <Icon>units/cart/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,7 +2,8 @@
   <Identity>
     <Civ>kartl</Civ>
     <SelectionGroupName>units/kartl/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Thracian Swordsman</GenericName>
+    <GenericName>Iberian Swordsman</GenericName>
+    <SpecificName>Xmlosani</SpecificName>
 
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>

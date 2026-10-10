@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mixt</Civ>
-    <SpecificName>Mesoamerican Trader</SpecificName>
+    <GenericName>Mixtec Trader</GenericName>
     <Icon>units/zapo/support_trader.png</Icon>
   </Identity>
   <VisualActor>

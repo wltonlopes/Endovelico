@@ -5,8 +5,8 @@
     </Auras>
   <Identity>
     <Civ>araw</Civ>
-    <GenericName>Chief</GenericName>
-    <SpecificName>Kasike</SpecificName>
+    <GenericName>Chief Caonabo</GenericName>
+    <SpecificName>Kasike Caonabó</SpecificName>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>
   </Identity>

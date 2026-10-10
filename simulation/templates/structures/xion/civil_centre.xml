@@ -23,7 +23,8 @@
   <Identity>
     <Civ>xion</Civ>
     <Lang>mandarin</Lang>
-    <SpecificName>Chanyu's Hall</SpecificName>
+    <GenericName>Chanyu's Court</GenericName>
+    <SpecificName>Lóngchéng</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>

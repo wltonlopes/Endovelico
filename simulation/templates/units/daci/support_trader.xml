@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>daci</Civ>
+    <GenericName>Dacian Trader</GenericName>
     <Icon>units/celt/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>numi</Civ>
+    <GenericName>Numidian Swordsman</GenericName>
     <SelectionGroupName>units/numi/infantry_swordsman_b</SelectionGroupName>
-    <SpecificName>Aanatim Dorkim</SpecificName>
     <Icon>units/iber/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

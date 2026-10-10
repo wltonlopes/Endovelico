@@ -3,7 +3,7 @@
   <Identity>
     <Civ>kartl</Civ>
     <GenericName>Kartlian Villager</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Glexi</SpecificName>
     <Icon>units/kartl/citizen.png</Icon>
   </Identity>
   <VisualActor>

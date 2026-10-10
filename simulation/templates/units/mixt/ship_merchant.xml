@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mixt</Civ>
-    <SpecificName>Trade Canoe</SpecificName>
+    <GenericName>Trading Canoe</GenericName>
     <Icon>units/zapo/ship_merchant.png</Icon>
   </Identity>
   <Selectable>

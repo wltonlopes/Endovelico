@@ -6,6 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>kartl</Civ>
+    <GenericName>Iberian Merchant</GenericName>
+    <SpecificName>Vač'ari</SpecificName>
     <Icon>units/celt/support_trader.png</Icon>
   </Identity>
   <VisualActor>

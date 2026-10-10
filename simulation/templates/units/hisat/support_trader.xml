@@ -2,6 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>hisat</Civ>
+    <GenericName>Hisatsinom Trader</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/support_trader.png</Icon>
   </Identity>

@@ -4,7 +4,7 @@
     <Civ>chibc</Civ>
     <SelectionGroupName>units/chibc/blowgunner</SelectionGroupName>
     <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
-    <GenericName>Blowgun hunter</GenericName>
+    <GenericName>Mercenary Blowgun Hunter</GenericName>
     <Icon>units/south_america/infantry_blowgunner.png</Icon>
   </Identity>
   <Promotion disable=""/>

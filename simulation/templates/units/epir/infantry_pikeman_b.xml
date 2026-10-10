@@ -3,8 +3,9 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
+    <GenericName>White Shield Phalangite</GenericName>
     <SelectionGroupName>units/mace/infantry_pikeman_b</SelectionGroupName>
-    <SpecificName>White Shield Phalangite</SpecificName>
+    <SpecificName>Leukáspis Phalangítēs</SpecificName>
     <Icon>units/epir/infantry_pikeman.png</Icon>
   </Identity>
   <Promotion>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Black Sea Fisherman</SpecificName>
+    <GenericName>Black Sea Fisherman</GenericName>
     <Icon>units/celt/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

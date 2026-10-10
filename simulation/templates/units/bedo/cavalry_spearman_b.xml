@@ -3,8 +3,8 @@
     <Civ>bedo</Civ>
     <SelectionGroupName>units/bedo/cavalry_spearman_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <GenericName>Bedouin Spearman Camel</GenericName>
-    <SpecificName>Htr</SpecificName>
+    <GenericName>Bedouin Lancer</GenericName>
+    <SpecificName>Fāris</SpecificName>
     <Icon>units/gara/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

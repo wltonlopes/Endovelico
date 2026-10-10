@@ -3,7 +3,8 @@
   <Identity>
     <Civ>miny</Civ>
     <SelectionGroupName>units/miny/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Cavalry</GenericName>
+    <GenericName>Minyue Cavalry</GenericName>
+    <SpecificName>Qi Bing</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>
   <Promotion>

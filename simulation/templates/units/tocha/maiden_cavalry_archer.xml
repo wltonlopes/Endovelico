@@ -18,8 +18,8 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
+    <GenericName>Tocharian Mounted Maiden Archer</GenericName>
     <SelectionGroupName>units/tocha/cavalry_archer</SelectionGroupName>
-    <SpecificName>Royal Maiden Headhunter</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

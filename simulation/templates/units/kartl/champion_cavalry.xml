@@ -1,7 +1,8 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>kartl</Civ>
-    <GenericName>Thracian Royal Cavalry</GenericName>
+    <GenericName>Iberian Noble Cavalry</GenericName>
+    <SpecificName>Aznauri</SpecificName>
 
     <Icon>units/thra/champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/kartl/champion_cavalry</SelectionGroupName>

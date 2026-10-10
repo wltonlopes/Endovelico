@@ -4,7 +4,7 @@
     <Civ>damar</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/damar/cavalry_throwing_b</SelectionGroupName>
-    <GenericName>Hunter</GenericName>
+    <GenericName>Damara Hunter</GenericName>
     <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

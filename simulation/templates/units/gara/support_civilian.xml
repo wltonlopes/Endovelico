@@ -8,8 +8,8 @@
   </Builder>
   <Identity>
     <Civ>gara</Civ>
-    <SpecificName>Garamantian Villager</SpecificName>
-    <GenericName>gara Villager</GenericName>
+    <SpecificName>Tameṭṭut</SpecificName>
+    <GenericName>Garamantian Villager</GenericName>
     <Icon>units/gara/support_female_citizen.png</Icon>
     <SelectionGroupName>units/gara/support_female_citizen</SelectionGroupName>
   </Identity>

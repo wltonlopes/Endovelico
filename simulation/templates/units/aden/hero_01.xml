@@ -5,7 +5,7 @@
     </Auras>
   <Identity>
     <Civ>aden</Civ>
-    <GenericName>Great Chief</GenericName>
+    <GenericName>Great Mound Chief</GenericName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/aden/hero_jaguar_king</SelectionGroupName>
     <Icon>units/aden/hero_01.png</Icon>

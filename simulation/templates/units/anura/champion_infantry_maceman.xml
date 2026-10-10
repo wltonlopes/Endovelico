@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_infantry_maceman">
   <Identity>
     <Civ>anura</Civ>
-    <GenericName>Warrior</GenericName>
-    <SpecificName>Yōddha</SpecificName>
+    <GenericName>Sinhalese Champion Warrior</GenericName>
+    <SpecificName>Mahāyodha</SpecificName>
     <SelectionGroupName>units/maur/champion_infantry</SelectionGroupName>
     <Icon>units/maur/champion_maceman.png</Icon>
     <Requirements>

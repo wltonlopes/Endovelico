@@ -10,6 +10,7 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Artaxias I</GenericName>
+    <SpecificName>Artašēs</SpecificName>
     <Icon>units/mace/hero_demetrius.png</Icon>
   </Identity>
   <VisualActor>

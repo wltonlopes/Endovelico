@@ -2,7 +2,7 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Alani Cataphract</SpecificName>
+    <GenericName>Alan Cataphract</GenericName>
     <SelectionGroupName>units/sarma/champion_cavalry</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_lancer.png</Icon>
   </Identity>

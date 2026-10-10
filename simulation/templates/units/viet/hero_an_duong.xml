@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Identity>
     <Civ>viet</Civ>
-    <GenericName>An Dương Vương</GenericName>
+    <GenericName>King An Duong</GenericName>
     <SpecificName>An Dương Vương</SpecificName>
     <Icon>units/viet/hero_an_duong.png</Icon>
   </Identity>

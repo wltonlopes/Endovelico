@@ -7,7 +7,7 @@
   <Identity>
     <Civ>suva</Civ>
     <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SpecificName>Pākāra</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="6.0"/>

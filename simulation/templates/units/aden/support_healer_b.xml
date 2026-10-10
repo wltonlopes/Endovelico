@@ -3,7 +3,7 @@
   <Identity>
     <Civ>aden</Civ>
     <SelectionGroupName>units/maya_protoclassic/support_healer_b</SelectionGroupName>
-    <GenericName>Adena Priest</GenericName>
+    <GenericName>Adena Shaman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/support_healer.png</Icon>
   </Identity>

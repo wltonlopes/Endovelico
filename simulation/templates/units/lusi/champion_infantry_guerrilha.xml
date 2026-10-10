@@ -3,7 +3,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Arimo</SpecificName>
-    <GenericName>Javelinist guerrilha</GenericName>
+    <GenericName>Guerrilla Javelineer</GenericName>
     <Icon>units/iber/champion_infantry.png</Icon>
     <SelectionGroupName>units/lusi/champion_guerrilha</SelectionGroupName>
   </Identity>

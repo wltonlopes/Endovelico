@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mand</Civ>
-    <GenericName>Spearman Camelry</GenericName>
+    <GenericName>Mande Camel Lancer</GenericName>
     <SelectionGroupName>units/xion_cavalry_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>

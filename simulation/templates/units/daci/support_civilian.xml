@@ -3,7 +3,7 @@
   <Identity>
     <Civ>daci</Civ>
     <GenericName>Dacian Villager</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Comati</SpecificName>
     <Icon>units/thra/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

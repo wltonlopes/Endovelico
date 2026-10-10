@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>puka</Civ>
-    <GenericName>Nobre Spearman</GenericName>
+    <GenericName>Noble Spearman</GenericName>
     <SpecificName>Akapana Runa</SpecificName>
     <SelectionGroupName>units/moch/champion_infantry</SelectionGroupName>
     <Icon>units/moch/champion_infantry_maceman.png</Icon>

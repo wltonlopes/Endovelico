@@ -4,8 +4,7 @@
     <Civ>chibc</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/chibc/heavy_javelineer</SelectionGroupName>
-    <GenericName>Experienced Javelineer</GenericName>
-    <SpecificName>Aimberê</SpecificName>
+    <GenericName>Veteran Javelineer</GenericName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>

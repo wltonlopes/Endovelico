@@ -6,6 +6,7 @@
   </Builder>
   <Identity>
     <Civ>sao</Civ>
+    <GenericName>Sao Skirmisher</GenericName>
     <SelectionGroupName>units/sao/infantry_javelineer_b</SelectionGroupName>
     <Icon>units/sao/infantry_javelineer.png</Icon>
   </Identity>

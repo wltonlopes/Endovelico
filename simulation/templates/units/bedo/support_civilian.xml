@@ -2,8 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>bedo</Civ>
-    <SpecificName>Nurim</SpecificName>
-    <GenericName>Bedouin Civilian</GenericName>
+    <SpecificName>Badawiyya</SpecificName>
+    <GenericName>Bedouin Tribeswoman</GenericName>
     <Icon>units/bedo/citizen.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,7 +2,6 @@
 <Entity parent="units/sonin/cavalry_javelineer_a">
   <Identity>
     <Civ>sonin</Civ>
-    <GenericName>Veteran Raider</GenericName>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>
   <Promotion disable=""/>

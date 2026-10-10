@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>mauret</Civ>
+    <GenericName>Mauretanian Swordsman</GenericName>
     <SelectionGroupName>units/numi/infantry_swordsman_b</SelectionGroupName>
     <Icon>units/iber/infantry_swordsman.png</Icon>
   </Identity>

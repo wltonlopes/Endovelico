@@ -3,7 +3,6 @@
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Battering Ram</SpecificName>
     <Icon>units/scyth/siege_ram.png</Icon>
   </Identity>
   <VisualActor>

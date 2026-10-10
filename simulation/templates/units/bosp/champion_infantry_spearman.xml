@@ -4,7 +4,7 @@
     <Civ>bosp</Civ>
 	<Lang>greek</Lang>
 	<GenericName>Royal Guard</GenericName>
-    <SpecificName>Somatophylakes</SpecificName>
+    <SpecificName>Sōmatophýlax</SpecificName>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
     <History></History>
     <Requirements>

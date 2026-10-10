@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName>Bireme</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Great War Canoe</GenericName>
+    <SpecificName>Ygarusu</SpecificName>
     <Icon>units/south_america/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>numi</Civ>
-    <SpecificName>Cavalry Banner Stands</SpecificName>
-    <GenericName>Cavalry Banner Stands</GenericName>
+    <SpecificName>Imnayen n Ugellid</SpecificName>
+    <GenericName>Numidian Royal Cavalry</GenericName>
     <Icon>units/rome/champion_cavalry.png</Icon>
     <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
     <Requirements>

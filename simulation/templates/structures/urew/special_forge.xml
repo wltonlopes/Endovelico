@@ -22,7 +22,7 @@
   </Health>
   <Identity>
     <Civ>urew</Civ>
-    <GenericName>Big forge</GenericName>
+    <GenericName>Great Forge</GenericName>
     <SpecificName> </SpecificName>
     <Tooltip>Train heroes and research technologies.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>

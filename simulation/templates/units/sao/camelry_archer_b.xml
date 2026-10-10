@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sao</Civ>
     <SelectionGroupName>units/sao/camelry_archer_b</SelectionGroupName>
-    <GenericName>Sahelian Dromedary Rider</GenericName>
+    <GenericName>Sahelian Camel Archer</GenericName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>
   <Promotion disable=""/>

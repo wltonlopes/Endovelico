@@ -6,7 +6,8 @@
   </Auras>
   <Identity>
     <Civ>yuez</Civ>
-    <SpecificName>Chanyu Modu</SpecificName>
+    <GenericName>Heraios</GenericName>
+    <SpecificName>Ēraos</SpecificName>
     <Icon>units/xion/hero_2.png</Icon>
   </Identity>
   <VisualActor>

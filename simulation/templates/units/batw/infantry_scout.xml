@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_archer">
   <Identity>
     <Civ>batw</Civ>
-    <SpecificName>Batwa Scout</SpecificName>
+    <GenericName>Batwa Scout</GenericName>
     <Icon>units/batw/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

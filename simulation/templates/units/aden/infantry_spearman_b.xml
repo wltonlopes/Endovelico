@@ -3,6 +3,7 @@
 
   <Identity>
     <Civ>aden</Civ>
+    <GenericName>Adena Spearman</GenericName>
     <SelectionGroupName>units/aden/infantry_spearman_b</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>

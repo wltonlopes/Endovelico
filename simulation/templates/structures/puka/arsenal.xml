@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>puka</Civ>
-    <SpecificName>Pucará Armory</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/pukara/arsenal.xml</Actor>

@@ -6,6 +6,6 @@
   </Auras>
   <Identity>
     <Civ>guara</Civ>
-    <SpecificName>Guarani Funerary Bier</SpecificName>
+    <GenericName>Guarani Funerary Bier</GenericName>
   </Identity>
 </Entity>

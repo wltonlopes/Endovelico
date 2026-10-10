@@ -3,8 +3,8 @@
   <Identity>
     <Civ>tami</Civ>
     <SelectionGroupName>units/maur/cavalry_swordsman_b</SelectionGroupName>
-    <GenericName>Indian Raiding Cavalry</GenericName>
-    <SpecificName>Aśvārohagaṇaḥ</SpecificName>
+    <GenericName>Tamil Raiding Cavalry</GenericName>
+    <SpecificName>Kutirai Maṟavar</SpecificName>
     <Icon>units/maur/cavalry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

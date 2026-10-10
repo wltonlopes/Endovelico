@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_elephant">
   <Identity>
     <Civ>malay</Civ>
-    <SpecificName>Karmākara Gaja</SpecificName>
+    <SpecificName>Gajah Kerja</SpecificName>
     <Icon>units/maur/support_elephant.png</Icon>
   </Identity>
   <VisualActor>

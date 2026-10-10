@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <Classes datatype="tokens">Siege</Classes>
-    <GenericName>Cavalry Fire Warrior</GenericName>
+    <GenericName>Mounted Fire Raiser</GenericName>
     <SpecificName></SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

@@ -6,7 +6,8 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Skilurus</SpecificName>
+    <GenericName>Tasius of the Roxolani</GenericName>
+    <SpecificName>Tasios</SpecificName>
     <Icon>units/scyth/hero_skilurus.png</Icon>
   </Identity>
   <VisualActor>

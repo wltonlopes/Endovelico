@@ -9,8 +9,9 @@
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
+    <GenericName>Sagaris Cavalry</GenericName>
     <SelectionGroupName>units/scyth/cavalry_swordsman</SelectionGroupName>
-    <SpecificName>Massagetae Sagaris Cavalry</SpecificName>
+    <SpecificName>Sagaris</SpecificName>
     <Icon>units/scyth/cavalry_swordsman.png</Icon>
   </Identity>
   <Promotion>

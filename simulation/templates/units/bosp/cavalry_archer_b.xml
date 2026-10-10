@@ -4,7 +4,8 @@
     <Civ>bosp</Civ>
     <Lang>persian</Lang>
     <SelectionGroupName>units/bosp/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Sarmatans Horse Archer</GenericName>
+    <GenericName>Sarmatian Horse Archer</GenericName>
+    <SpecificName>Hippotoxótēs Sarmátēs</SpecificName>
     <Icon>units/scyth/cavalry_archer.png</Icon>
   </Identity>
   <Promotion>

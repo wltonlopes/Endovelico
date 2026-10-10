@@ -2,8 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>mauret</Civ>
-    <SpecificName>Cavalry Spearman</SpecificName>
-    <GenericName>Cavalry Spearman</GenericName>
+    <GenericName>Mauretanian Noble Lancer</GenericName>
     <Icon>units/rome/champion_cavalry.png</Icon>
     <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
     <Requirements>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>macrob</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Beer</SpecificName>
     <GenericName>Millet Field</GenericName>
   </Identity>
   <VisualActor>

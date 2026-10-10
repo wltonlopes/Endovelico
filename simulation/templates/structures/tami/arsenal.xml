@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>tami</Civ>
-    <SpecificName>Pr-ỉwn n ms</SpecificName>
+    <SpecificName>Paṭaikkalak Koṭṭil</SpecificName>
   </Identity>
   <VisualActor>
        <Actor>structures/tamiles/arsenal.xml</Actor>

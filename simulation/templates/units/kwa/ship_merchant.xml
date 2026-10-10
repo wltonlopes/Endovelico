@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>Merchant Ship</GenericName>
+    <GenericName>Trading Canoe</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/ptol/ship_merchant.png</Icon>
   </Identity>

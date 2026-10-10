@@ -4,8 +4,8 @@
   </Auras>
   <Identity>
     <Civ>arme</Civ>
-    <GenericName>Hero Chariot Archer</GenericName>
-    <SpecificName>Tigranes II</SpecificName>
+    <GenericName>Tigranes II the Great</GenericName>
+    <SpecificName>Tigran Mets</SpecificName>
     <Icon>units/mace/hero_philip.png</Icon>
   </Identity>
   <VisualActor>

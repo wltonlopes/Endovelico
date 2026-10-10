@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>Heavy Warrior Maceman</GenericName>
-    <SpecificName>Ogbo</SpecificName>
+    <GenericName>Heavy Club Warrior</GenericName>
+    <SpecificName>Kùmọ̀</SpecificName>
     <SelectionGroupName>units/Kwa/heavy_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>

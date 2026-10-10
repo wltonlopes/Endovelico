@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>aksum</Civ>
-    <GenericName>Spearman Camelry</GenericName>
+    <GenericName>Aksumite Camel Lancer</GenericName>
     <SelectionGroupName>units/xion_cavalry_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>

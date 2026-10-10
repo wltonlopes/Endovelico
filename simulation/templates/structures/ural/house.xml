@@ -5,7 +5,7 @@
   </Footprint>
   <Identity>
     <Civ>ural</Civ>
-    <SpecificName>Uralic House</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="12.0"/>

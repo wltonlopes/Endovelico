@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>thra</Civ>
-    <GenericName>Thracian Hoplite</GenericName>
+    <GenericName>Thracian Noble Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
   </Identity>

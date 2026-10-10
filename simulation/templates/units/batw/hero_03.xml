@@ -3,8 +3,8 @@
   <Identity>
     <Civ>batw</Civ>
 	  <Phenotype>female</Phenotype>
-    <GenericName>Matriarch</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Clan Matriarch</GenericName>
+    <SpecificName>Umukecuru</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/batw/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

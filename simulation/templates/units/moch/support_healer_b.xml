@@ -2,6 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>moch</Civ>
+    <GenericName>Moche Healer</GenericName>
     <Phenotype>female</Phenotype>
     <SelectionGroupName>units/moch/support_healer_b</SelectionGroupName>
     <SpecificName>Pillac</SpecificName>

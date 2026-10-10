@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>sonin</Civ>
-    <GenericName>Villager</GenericName>
+    <GenericName>Soninke Villager</GenericName>
     <Icon>units/kush/support_civilian.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_axeman">
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>Champion Axeman Edo</GenericName>
+    <GenericName>Edo Champion Axeman</GenericName>
     <SpecificName>Edo</SpecificName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>

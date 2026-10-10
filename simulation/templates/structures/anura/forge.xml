@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>anura</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
+    <SpecificName>Kammārasālā</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/anuradhapura/forge.xml</Actor>

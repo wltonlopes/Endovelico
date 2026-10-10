@@ -3,7 +3,8 @@
 
   <Identity>
     <Civ>azan</Civ>
-    <GenericName>Azania Villager</GenericName>
+    <GenericName>Azanian Villager</GenericName>
+    <SpecificName>Mwanamke</SpecificName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

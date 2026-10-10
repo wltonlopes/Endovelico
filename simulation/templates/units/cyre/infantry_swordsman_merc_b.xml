@@ -3,8 +3,8 @@
   <Identity>
     <Civ>cyre</Civ>
     <SelectionGroupName>units/cyre/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Marmaricae Swordsman</GenericName>
-    <SpecificName>Misthophoros Libúē</SpecificName>
+    <GenericName>Marmaridae Swordsman</GenericName>
+    <SpecificName>Machairophóros Marmarídēs</SpecificName>
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion disable=""/>

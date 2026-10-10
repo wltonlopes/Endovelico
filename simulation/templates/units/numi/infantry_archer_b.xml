@@ -3,8 +3,7 @@
   <Identity>
     <Civ>numi</Civ>
     <SelectionGroupName>units/numi/infantry_archer_b</SelectionGroupName>
-    <GenericName>Mauritanian Archer</GenericName>
-    <SpecificName>Aanatim Kasatim</SpecificName>
+    <GenericName>Numidian Archer</GenericName>
     <Icon>units/cart/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

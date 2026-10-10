@@ -2,8 +2,9 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>gara</Civ>
+    <GenericName>Garamantian Cavalry</GenericName>
     <SelectionGroupName>units/gara_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SpecificName>Amnay</SpecificName>
     <Icon>units/gara/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>

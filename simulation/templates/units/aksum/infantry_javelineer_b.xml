@@ -10,7 +10,7 @@
   <Identity>
     <Civ>aksum</Civ>
     <SelectionGroupName>units/aksum/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>Tribal Levy Skirmisher</GenericName>
+    <GenericName>Aksumite Levy Skirmisher</GenericName>
     <Icon>units/thra/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

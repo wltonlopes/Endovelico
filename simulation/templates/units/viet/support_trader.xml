@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>viet</Civ>
-    <SpecificName>Akinapi</SpecificName>
+    <SpecificName>Thương Nhân</SpecificName>
     <Icon>units/yayo/support_trader.png</Icon>
   </Identity>
   <VisualActor>

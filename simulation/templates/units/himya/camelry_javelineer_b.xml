@@ -3,8 +3,8 @@
   <Identity>
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/camelry_javelineer_b</SelectionGroupName>
-    <GenericName>Camelry</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Himyarite Camel Skirmisher</GenericName>
+    <SpecificName>Rakb</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>
   <Promotion>

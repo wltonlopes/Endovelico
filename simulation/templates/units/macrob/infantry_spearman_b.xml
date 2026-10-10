@@ -9,8 +9,8 @@
     <Civ>macrob</Civ>
 
     <SelectionGroupName>units/macrob/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
-    <SpecificName>iry-rdwy Nhsyw</SpecificName>
+    <GenericName>Macrobian Spearman</GenericName>
+    <SpecificName>Warmaley</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

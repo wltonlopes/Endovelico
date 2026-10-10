@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>mapu</Civ>
-    <SpecificName>Mapuche Fishing Canoe</SpecificName>
+    <GenericName>Fishing Canoe</GenericName>
+    <SpecificName>Wampo</SpecificName>
     <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

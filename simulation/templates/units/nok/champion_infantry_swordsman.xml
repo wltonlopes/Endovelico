@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>nok</Civ>
-    <GenericName>Warrior</GenericName>
+    <GenericName>Nok Champion Warrior</GenericName>
     <Icon>units/subsaara/infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>

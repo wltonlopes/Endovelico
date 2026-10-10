@@ -5,6 +5,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <GenericName>Bocchus I</GenericName>
+    <SpecificName>Bokkus</SpecificName>
     <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>

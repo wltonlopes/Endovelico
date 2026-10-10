@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>nok</Civ>
-    <SpecificName>Wori</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="13.5" depth="19.5"/>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_special_theater">
   <Identity>
     <Civ>epir</Civ>
-    <SpecificName>Theatron</SpecificName>
+    <SpecificName>Théatron</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <VisualActor>

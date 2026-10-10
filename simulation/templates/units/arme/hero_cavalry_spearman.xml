@@ -5,6 +5,7 @@
   <Identity>
     <Civ>arme</Civ>
     <GenericName>Tiridates I</GenericName>
+    <SpecificName>Trdat</SpecificName>
     <Icon>units/mace/hero_philip.png</Icon>
   </Identity>
   <VisualActor>

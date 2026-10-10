@@ -6,6 +6,7 @@
   </Auras>
   <Identity>
     <Civ>lusi</Civ>
+    <GenericName>Viriathus</GenericName>
     <SpecificName>Viriato</SpecificName>
     <Icon>units/iber/hero_viriato.png</Icon>
   </Identity>

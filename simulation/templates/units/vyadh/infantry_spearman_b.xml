@@ -2,8 +2,8 @@
   <Identity>
     <Civ>vyadh</Civ>
     <SelectionGroupName>units/vyadh/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Infantry Spearman</GenericName>
-    <SpecificName>Pok&#246;m&#246;ti</SpecificName>
+    <GenericName>Funanese Spearman</GenericName>
+    <SpecificName>Kuntadhara</SpecificName>
     <Icon>units/yayo/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

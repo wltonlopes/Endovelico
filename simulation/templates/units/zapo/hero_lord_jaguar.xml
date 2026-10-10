@@ -6,7 +6,7 @@
   <Identity>
     <Civ>zapo</Civ>
     <GenericName>Lord Jaguar</GenericName>
-    <SpecificName>Gayo’ Betzao</SpecificName>
+    <SpecificName>Coqui Beedxe'</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>

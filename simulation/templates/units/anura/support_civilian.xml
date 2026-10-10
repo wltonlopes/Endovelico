@@ -2,8 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>anura</Civ>
-    <SpecificName>Naari</SpecificName>
-    <GenericName>Indian Villager</GenericName>
+    <SpecificName>Itthi</SpecificName>
+    <GenericName>Sinhalese Villager</GenericName>
     <Icon>units/maur/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

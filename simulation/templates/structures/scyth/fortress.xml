@@ -9,8 +9,8 @@
   </Footprint>
   <Identity>
     <Civ>scyth</Civ>
-    <GenericName>Captured Chinese Fortress</GenericName>
-    <SpecificName>Bǎolěi</SpecificName>
+    <GenericName>Fortified Settlement</GenericName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="27.5" depth="27.5"/>

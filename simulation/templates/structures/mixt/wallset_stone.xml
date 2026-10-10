@@ -2,7 +2,7 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>mixt</Civ>
-    <SpecificName>Stone Wall</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <WallSet>
     <Templates>

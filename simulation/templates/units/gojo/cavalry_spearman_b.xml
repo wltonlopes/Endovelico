@@ -2,8 +2,9 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>gojo</Civ>
+    <GenericName>Gojoseon Lancer</GenericName>
     <SelectionGroupName>units/gojo/cavalry_spearman_b</SelectionGroupName>
-    <SpecificName>Gi-byeong</SpecificName>
+    <SpecificName>Chang-gi-byeong</SpecificName>
     <Icon>units/han/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

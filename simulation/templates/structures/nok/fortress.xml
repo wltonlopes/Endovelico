@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>nok</Civ>
-    <SpecificName>Odi</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="29.5" depth="29.5"/>

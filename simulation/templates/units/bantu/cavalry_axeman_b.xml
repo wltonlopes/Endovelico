@@ -4,8 +4,8 @@
     <Civ>bantu</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/southern_bantu/cavalry_axeman_b</SelectionGroupName>
-    <GenericName>Warrior</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Veteran Axe Warrior</GenericName>
+    <SpecificName>Mohlabani</SpecificName>
     <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

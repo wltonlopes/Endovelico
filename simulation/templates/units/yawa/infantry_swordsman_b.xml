@@ -3,7 +3,7 @@
   <Identity>
     <Civ>yawa</Civ>
     <SelectionGroupName>units/yawa/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Militia Axeman</GenericName>
+    <GenericName>Javanese Militia Axeman</GenericName>
     <Icon>units/yayo/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>

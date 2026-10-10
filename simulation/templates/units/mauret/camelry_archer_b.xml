@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/camelry_archer_b</SelectionGroupName>
-    <GenericName>Mauretania  Camelry Archer</GenericName>
+    <GenericName>Mauretanian Camel Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>

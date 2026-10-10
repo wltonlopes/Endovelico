@@ -7,7 +7,7 @@
   <Identity>
     <Civ>malay</Civ>
     <GenericName>Trading Ship</GenericName>
-    <SpecificName>Vanijyik Nauka</SpecificName>
+    <SpecificName>Perahu Dagang</SpecificName>
     <Icon>units/maur/ship_merchant.png</Icon>
   </Identity>
   <Selectable>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>shona</Civ>
 
-    <GenericName>Priest</GenericName>
+    <GenericName>Shona Healer</GenericName>
     <SpecificName>N'anga</SpecificName>
     <Icon>units/kush/support_healer.png</Icon>
   </Identity>

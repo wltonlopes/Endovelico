@@ -3,7 +3,8 @@
   <Identity>
     <Civ>cyre</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Cavalry Archer</SpecificName>
+    <GenericName>Cyrenaean Elite Skirmish Cavalry</GenericName>
+    <SpecificName>Epílektos Hippakontistḗs</SpecificName>
     <SelectionGroupName>units/cyre/champion_cavalry_archer</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_archer.png</Icon>
   </Identity> 

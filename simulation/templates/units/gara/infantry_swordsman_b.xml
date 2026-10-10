@@ -8,7 +8,7 @@
   <Identity>
     <Civ>gara</Civ>
     <SelectionGroupName>units/kush/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Swordsman</GenericName>
+    <GenericName>Garamantian Swordsman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/gara/infantry_swordsman_desert.png</Icon>
     <Requirements>

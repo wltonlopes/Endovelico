@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
-    <SpecificName>Pyrgíon</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="7.0" depth="8.0" />

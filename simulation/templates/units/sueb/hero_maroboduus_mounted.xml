@@ -5,7 +5,8 @@
   </Auras>
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Maroboduus</SpecificName>
+    <GenericName>Maroboduus</GenericName>
+    <SpecificName>Marbod</SpecificName>
     <Icon>units/sueb/hero_maroboduus.png</Icon>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
   </Identity>

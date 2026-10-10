@@ -3,6 +3,7 @@
 
   <Identity>
     <Civ>chibc</Civ>
+    <GenericName>Chibcha Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>

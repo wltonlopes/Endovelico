@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>sao</Civ>
-    <GenericName>King</GenericName>
+    <GenericName>Great King of the Sao</GenericName>
+    <SpecificName>Mey</SpecificName>
     <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>

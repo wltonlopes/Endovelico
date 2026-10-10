@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>illy</Civ>
-    <SpecificName>Illyrian Scout</SpecificName>
+    <GenericName>Illyrian Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

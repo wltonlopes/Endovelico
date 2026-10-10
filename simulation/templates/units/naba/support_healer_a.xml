@@ -1,5 +1,7 @@
 <Entity parent="units/himya/support_healer_b">
   <Identity>
+    <GenericName>Dushara Priest</GenericName>
+    <SpecificName>Kumrā</SpecificName>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>

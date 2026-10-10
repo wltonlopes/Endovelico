@@ -4,8 +4,8 @@
   </Auras>
   <Identity>
     <Civ>illy</Civ>
-    <GenericName>Bardilis I</GenericName>
-    <SpecificName>Bardilis I</SpecificName>
+    <GenericName>Bardylis of the Dardanians</GenericName>
+    <SpecificName>Bárdylis</SpecificName>
     <Icon>units/illy/hero_bardilis_i.png</Icon>
   </Identity>
   <VisualActor>

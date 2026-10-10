@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
   <Civ>guara</Civ>
-    <SpecificName>Guarani Scout Canoe</SpecificName>
+  <GenericName>Scout Canoe</GenericName>
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

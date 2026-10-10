@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>pyu</Civ>
-    <SpecificName>Pyu Scout</SpecificName>
+    <GenericName>Pyu Scout</GenericName>
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

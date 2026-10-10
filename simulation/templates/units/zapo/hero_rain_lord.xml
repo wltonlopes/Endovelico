@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>zapo</Civ>
-    <GenericName>Rain Lord</GenericName>
-    <SpecificName>Chizino Yejo</SpecificName>
+    <GenericName>Lord 11 Rain</GenericName>
+    <SpecificName>Coqui Cocijo</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

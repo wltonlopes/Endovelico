@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>malay</Civ>
-    <SpecificName>Malaydwipa Scout</SpecificName>
+    <GenericName>Malay Scout</GenericName>
     <Icon>units/maur/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

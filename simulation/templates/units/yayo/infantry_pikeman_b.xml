@@ -3,7 +3,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <SelectionGroupName>units/yayo/infantry_pikeman_b</SelectionGroupName>
-    <GenericName>Ainu Hunter Long spear</GenericName>
+    <GenericName>Ainu Long-Spear Hunter</GenericName>
     <SpecificName>Isonbe</SpecificName>
     <Icon>units/yayo/infantry_longspear_merc.png</Icon>
   </Identity>

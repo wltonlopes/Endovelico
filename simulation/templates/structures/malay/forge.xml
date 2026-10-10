@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>malay</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
+    <SpecificName>Bengkel Pandai Besi</SpecificName>
   </Identity>
   <VisualActor>
        <Actor>structures/malaydwipa/forge.xml</Actor>

@@ -2,6 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>illy</Civ>
+    <GenericName>Illyrian Priest</GenericName>
     <SelectionGroupName>units/illy/support_healer_b</SelectionGroupName>
     <Icon>units/hele/support_healer.png</Icon>
   </Identity>

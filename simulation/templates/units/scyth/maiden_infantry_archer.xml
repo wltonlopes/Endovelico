@@ -19,7 +19,8 @@
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Maiden Archer</SpecificName>
+    <GenericName>Maiden Archer</GenericName>
+    <SpecificName>Oiorpata</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_axeman">
   <Identity>
     <Civ>nok</Civ>
-    <GenericName>Axeman Cavalry</GenericName>
+    <GenericName>Nok Axe Cavalry</GenericName>
     <Icon>units/kush/champion_cavalry.png</Icon>
   </Identity>
   <Promotion disable=""/>

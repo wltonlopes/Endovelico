@@ -2,6 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>aden</Civ>
+    <GenericName>Adena Trader</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/support_trader.png</Icon>
   </Identity>

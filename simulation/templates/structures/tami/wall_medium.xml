@@ -7,7 +7,7 @@
   <Identity>
     <Civ>tami</Civ>
     <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SpecificName>Matil</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="7.0"/>

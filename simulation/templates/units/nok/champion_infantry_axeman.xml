@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_axeman">
   <Identity>
     <Civ>nok</Civ>
-    <GenericName>Axeman</GenericName>
+    <GenericName>Nok Champion Axeman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
   <VisualActor>

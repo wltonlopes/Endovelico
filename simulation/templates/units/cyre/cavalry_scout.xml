@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>cyre</Civ>
-    <SpecificName>Cyrene Scout</SpecificName>
+    <GenericName>Cyrenaean Scout</GenericName>
     <Icon>units/cart/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

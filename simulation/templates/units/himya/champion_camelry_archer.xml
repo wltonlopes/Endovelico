@@ -3,7 +3,7 @@
   <Identity>
     <Civ>himya</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Cavalry Archer</SpecificName>
+    <GenericName>Noble Camel Archer</GenericName>
     <SelectionGroupName>units/himya/champion_cavalry_archer</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_archer.png</Icon>
   </Identity>

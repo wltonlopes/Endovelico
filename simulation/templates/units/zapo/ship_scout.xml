@@ -19,7 +19,7 @@
   </GarrisonHolder>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>War Canoe</SpecificName>
+    <GenericName>War Canoe</GenericName>
     <Icon>units/zapo/ship_canoe.png</Icon>
     <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
   </Identity>

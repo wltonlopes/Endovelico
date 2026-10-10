@@ -4,8 +4,7 @@
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/cavalry_spearman_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <GenericName>Libyan Heavy Camel</GenericName>
-    <SpecificName>Htr</SpecificName>
+    <GenericName>Libyan Heavy Camel Rider</GenericName>
     <Icon>units/gara/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

@@ -5,8 +5,8 @@
     </Auras>
   <Identity>
     <Civ>araw</Civ>
-    <GenericName>Chief</GenericName>
-    <SpecificName>Kasike</SpecificName>
+    <GenericName>Chief Agüeybaná</GenericName>
+    <SpecificName>Kasike Agüeybaná</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>

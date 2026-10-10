@@ -3,8 +3,9 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
+    <GenericName>Thesprotian Heavy Skirmisher</GenericName>
     <SelectionGroupName>units/epir/infantry_javelineer_b</SelectionGroupName>
-    <SpecificName>Thesprotian Heavy Skirmisher</SpecificName>
+    <SpecificName>Thyreophóros Thesprōtós</SpecificName>
     <Icon>units/epir/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

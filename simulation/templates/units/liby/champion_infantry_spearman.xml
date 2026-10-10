@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>Garamantian Hoplite</GenericName>
+    <GenericName>Libyan Noble Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/gara/champion_infantry_spearman.png</Icon>
   </Identity>

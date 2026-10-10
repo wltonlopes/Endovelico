@@ -6,7 +6,8 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Skilurus</SpecificName>
+    <GenericName>Angui, King of Kroraina</GenericName>
+    <SpecificName>Walo Angui</SpecificName>
     <Icon>units/scyth/hero_skilurus.png</Icon>
   </Identity>
   <VisualActor>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName/>
+    <SpecificName>Kiihu</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12.5" depth="12.5"/>

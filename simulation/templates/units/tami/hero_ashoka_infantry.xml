@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>tami</Civ>
-    <GenericName>Ashoka the Great</GenericName>
-    <SpecificName>Aśoka Devānāmpriya</SpecificName>
+    <GenericName>Nedunjeliyan II of Pandya</GenericName>
+    <SpecificName>Neṭuñceḻiyaṉ</SpecificName>
     <Icon>units/maur/hero_ashoka.png</Icon>
     <Tooltip>Hero Special: "Edicts of Ashoka" - Edict Pillars of Ashoka can be built during Ashoka's lifetime.</Tooltip>
   </Identity>

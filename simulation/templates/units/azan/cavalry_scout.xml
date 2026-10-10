@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>azan</Civ>
-    <SpecificName>Axumite Scout</SpecificName>
+    <GenericName>Azanian Scout</GenericName>
     <Icon>units/kush/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

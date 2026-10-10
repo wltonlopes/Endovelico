@@ -3,8 +3,9 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
+    <GenericName>Thessalian Lancer</GenericName>
     <SelectionGroupName>units/epir/cavalry_spearman_b</SelectionGroupName>
-    <SpecificName>Thessalian Lancer</SpecificName>
+    <SpecificName>Xystophóros Thessalikós</SpecificName>
     <Icon>units/mace/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>

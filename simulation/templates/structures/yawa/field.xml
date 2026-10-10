@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>yawa</Civ>
-    <SpecificName>Agrós</SpecificName>
+    <SpecificName>Sawah</SpecificName>
   </Identity>
   <Obstruction>
     <Static depth="20.0" width="20.0"/>

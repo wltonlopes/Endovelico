@@ -2,8 +2,9 @@
 <Entity parent="template_unit_dog">
   <Identity>
     <Civ>kwa</Civ>
+    <GenericName>Hunting Dog</GenericName>
     <SelectionGroupName>units/kwa/war_dog_b</SelectionGroupName>
-    <SpecificName>Hunting Dog</SpecificName>
+    <SpecificName>Ajá</SpecificName>
     <Icon>units/brit/war_dog.png</Icon>
   </Identity>
   <Promotion disable=""/>

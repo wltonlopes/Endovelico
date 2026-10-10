@@ -4,8 +4,8 @@
     <Civ>aksum</Civ>
 
     <SelectionGroupName>units/aksum/cavalry_javelineer_b</SelectionGroupName>
-    <SpecificName>iry hr ssmwtt</SpecificName>
-    <GenericName>Axum Light Cavalry</GenericName>
+    <SpecificName>Sab'a Afrās</SpecificName>
+    <GenericName>Aksumite Light Cavalry</GenericName>
     <Icon>units/kush/cavalry_javelinist.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

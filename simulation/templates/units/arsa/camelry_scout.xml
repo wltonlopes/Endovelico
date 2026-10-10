@@ -3,8 +3,7 @@
   <Identity>
     <Civ>arsa</Civ>
     <Lang>persian</Lang>
-    <GenericName>Persian Camelry Scout</GenericName>
-    <SpecificName>Persian Scout</SpecificName>
+    <GenericName>Parthian Camel Scout</GenericName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/achae/camelry_scout.png</Icon>
   </Identity>

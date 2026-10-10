@@ -3,8 +3,8 @@
   <Identity>
     <Civ>suva</Civ>
     <SelectionGroupName>units/korean/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Cavalry Korean</GenericName>
-    <SpecificName>Umanöri Mësikakapë</SpecificName>
+    <GenericName>Mon Horse Archer</GenericName>
+    <SpecificName>Assāroha</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

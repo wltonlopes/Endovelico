@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
+    <GenericName>Mauretanian Spearman</GenericName>
     <Icon>units/cart/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

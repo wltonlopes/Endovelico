@@ -7,7 +7,6 @@
   <Identity>
     <Civ>pamp</Civ>
     <GenericName>War Canoe</GenericName>
-    <SpecificName>ygaraíba</SpecificName>
     <Icon>units/south_america/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

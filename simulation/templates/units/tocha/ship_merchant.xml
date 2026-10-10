@@ -7,7 +7,6 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Nauson</SpecificName>
     <Icon>units/celt/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>

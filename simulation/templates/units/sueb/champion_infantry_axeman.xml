@@ -14,7 +14,8 @@
   </Cost>
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Wolf Warrior</SpecificName>
+    <GenericName>Wolf Warrior</GenericName>
+    <SpecificName>Wulfaz</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/sueb/champion_infantry_axeman.png</Icon>
   </Identity>

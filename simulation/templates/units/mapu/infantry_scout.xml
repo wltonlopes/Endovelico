@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_slinger">
   <Identity>
     <Civ>mapu</Civ>
-    <SpecificName>Mapuche Scout</SpecificName>
+    <GenericName>Mapuche Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

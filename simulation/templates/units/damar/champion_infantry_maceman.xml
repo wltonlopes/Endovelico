@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_maceman">
     <Identity>
         <Civ>damar</Civ>
-        <GenericName>Champion Warrior</GenericName>
+        <GenericName>Damara Champion Clubman</GenericName>
         <SelectionGroupName>units/damar/champion_infantry</SelectionGroupName>
         <Icon>units/moch/champion_infantry_maceman.png</Icon>
         <Requirements>

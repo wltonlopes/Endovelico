@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>sonin</Civ>
-    <GenericName>Spearman</GenericName>
+    <GenericName>Wagadu Royal Spearman</GenericName>
     <SpecificName>Gbere-Kunu</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
   </Identity>

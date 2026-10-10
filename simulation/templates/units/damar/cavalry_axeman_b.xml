@@ -4,7 +4,7 @@
     <Civ>damar</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/damar/cavalry_axeman_b</SelectionGroupName>
-    <GenericName>Woman Warrior</GenericName>
+    <GenericName>Damara Woman Warrior</GenericName>
     <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

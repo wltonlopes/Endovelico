@@ -9,8 +9,8 @@
   </Footprint>
   <Identity>
     <Civ>sarma</Civ>
-    <GenericName>Captured Chinese Fortress</GenericName>
-    <SpecificName>Bǎolěi</SpecificName>
+    <GenericName>Fortified Settlement</GenericName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>

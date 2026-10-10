@@ -41,7 +41,7 @@
   </Cost>
   <Identity>
     <Civ>moch</Civ>
-    <SpecificName>Warrior Bolas</SpecificName>
+    <GenericName>Bolas Warrior</GenericName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/moch/champion_infantry_javelineer.png</Icon>
   </Identity>

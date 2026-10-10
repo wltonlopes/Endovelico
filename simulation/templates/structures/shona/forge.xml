@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>shona</Civ>
-    <SpecificName>Ayederu</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

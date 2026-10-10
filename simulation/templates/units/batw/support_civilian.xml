@@ -7,7 +7,7 @@
   <Identity>
     <Civ>batw</Civ>
 
-    <GenericName>Batwa Civilian</GenericName>
+    <GenericName>Batwa Villager</GenericName>
     <Icon>units/batw/citizen.png</Icon>
   </Identity>
   <VisualActor>

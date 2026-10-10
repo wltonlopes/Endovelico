@@ -17,7 +17,7 @@
   </Health>
   <Identity>
     <Civ>gara</Civ>
-    <GenericName>Garamantian Chariot</GenericName>
+    <GenericName>Garamantian Light Chariot</GenericName>
     <SelectionGroupName>units/gara/chariot_javelineer_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/cavaly_chariot_javelineer.png</Icon>

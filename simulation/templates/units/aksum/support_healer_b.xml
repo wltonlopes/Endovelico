@@ -3,8 +3,8 @@
   <Identity>
     <Civ>aksum</Civ>
 
-    <GenericName>Priest</GenericName>
-    <SpecificName>Aksumite Priest</SpecificName>
+    <GenericName>Aksumite Priest</GenericName>
+    <SpecificName>Kāhən</SpecificName>
     <Icon>units/kush/support_healer.png</Icon>
   </Identity>
   <Promotion>

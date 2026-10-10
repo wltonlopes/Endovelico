@@ -10,7 +10,7 @@
   <Identity>
     <Civ>sao</Civ>
     <GenericName>Stable</GenericName>
-    <SpecificName>Durosinsin</SpecificName>
+    <SpecificName>!</SpecificName>
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
   <Obstruction>

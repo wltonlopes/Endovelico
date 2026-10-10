@@ -6,6 +6,6 @@
   </Auras>
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Anishinaabe Funerary Bier</SpecificName>
+    <GenericName>Anishinaabe Funerary Bier</GenericName>
   </Identity>
 </Entity>

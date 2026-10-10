@@ -9,8 +9,8 @@
   </Footprint>
   <Identity>
     <Civ>tami</Civ>
-    <GenericName>Ashoka the Great</GenericName>
-    <SpecificName>Aśoka Devānāmpriya</SpecificName>
+    <GenericName>Nedunjeliyan II of Pandya</GenericName>
+    <SpecificName>Neṭuñceḻiyaṉ</SpecificName>
     <Classes datatype="tokens">Ashoka</Classes>
     <Icon>units/maur/hero_ashoka.png</Icon>
   </Identity>

@@ -2,6 +2,7 @@
 <Entity parent="template_structure_military_elephant_stable">
   <Identity>
     <Civ>pyu</Civ>
+    <SpecificName>Hatthisālā</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/malaydwipa/stable_elephant.xml</Actor>

@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>mixt</Civ>
-    <GenericName>Night King</GenericName>
-    <SpecificName>Chi’ino Gol</SpecificName>
+    <GenericName>Lord 4 Wind "Fire Serpent"</GenericName>
+    <SpecificName>Yya Qhchi Yahui</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>

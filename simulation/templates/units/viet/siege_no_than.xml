@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>viet</Civ>
+    <GenericName>Magic Crossbow</GenericName>
     <SpecificName>Nỏ Thần</SpecificName>
     <Icon>units/han/siege_boltshooter.png</Icon>
   </Identity>

@@ -21,7 +21,7 @@
   <Identity>
     <Civ>maya</Civ>
     <Classes datatype="tokens">ConquestCritical</Classes>
-    <GenericName>observatory</GenericName>
+    <GenericName>Observatory</GenericName>
     <SpecificName>K inob</SpecificName>
     <Tooltip>Advance your technology.</Tooltip>
     <Icon>structures/maya/observatory.png</Icon>

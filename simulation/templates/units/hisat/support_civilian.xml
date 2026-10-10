@@ -2,8 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName></SpecificName>
-    <GenericName>Villager</GenericName>
+    <SpecificName>Wuuti</SpecificName>
+    <GenericName>Hisatsinom Villager</GenericName>
     <Icon>units/hisat/citizen.png</Icon>
     <SelectionGroupName>units/hisat/support_female_citizen</SelectionGroupName>
   </Identity>

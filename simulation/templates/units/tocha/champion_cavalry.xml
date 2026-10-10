@@ -3,7 +3,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Alani Cataphract</SpecificName>
+    <GenericName>Tocharian Cataphract</GenericName>
     <SelectionGroupName>units/tocha/champion_cavalry</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_lancer.png</Icon>
   </Identity>

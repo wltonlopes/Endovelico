@@ -6,6 +6,7 @@
   </Builder>
   <Identity>
     <Civ>gaet</Civ>
+    <GenericName>Mercenary Swordsman</GenericName>
     <SelectionGroupName>units/gaet/infantry_swordsman_b</SelectionGroupName>
     <Icon>units/iber/infantry_swordsman.png</Icon>
   </Identity>

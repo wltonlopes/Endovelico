@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mapu</Civ>
     <SelectionGroupName>units/cart/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>Mapuche Tribal Hunters</GenericName>
+    <GenericName>Mapuche Hunter</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_javelineer.png</Icon>
   </Identity>

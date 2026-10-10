@@ -9,8 +9,8 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
+    <GenericName>Sarmatian Axe Cavalry</GenericName>
     <SelectionGroupName>units/scyth/cavalry_swordsman</SelectionGroupName>
-    <SpecificName>Massagetae Sagaris Cavalry</SpecificName>
     <Icon>units/scyth/cavalry_swordsman.png</Icon>
   </Identity>
   <Promotion>

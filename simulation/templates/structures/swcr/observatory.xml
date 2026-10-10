@@ -21,8 +21,8 @@
   <Identity>
     <Civ>swcr</Civ>
     <Classes datatype="tokens">ConquestCritical</Classes>
-    <GenericName>observatory</GenericName>
-    <SpecificName>K'inob</SpecificName>
+    <GenericName>Observatory</GenericName>
+    <SpecificName>!</SpecificName>
     <Tooltip>Advance your technology.</Tooltip>
     <Icon>structures/maya/observatory.png</Icon>
     <Requirements>

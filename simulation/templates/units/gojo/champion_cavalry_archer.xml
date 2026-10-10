@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_archer">
   <Identity>
     <Civ>gojo</Civ>
-    <SpecificName>Royal Cavalry Archer</SpecificName>
+    <GenericName>Royal Horse Archer</GenericName>
     <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
     <SelectionGroupName>units/gojo/champion_cavalry_archer</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_archer.png</Icon>

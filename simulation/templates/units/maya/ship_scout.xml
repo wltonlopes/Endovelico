@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>maya</Civ>
-    <SpecificName>War Canoe</SpecificName>
+    <GenericName>Scout Canoe</GenericName>
     <Icon>units/maya/ship_light.png</Icon>
   </Identity>
   <VisualActor>

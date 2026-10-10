@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_spearman">
   <Identity>
     <Civ>paiu</Civ>
-    <SpecificName>Paiute Scout</SpecificName>
+    <GenericName>Paiute Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

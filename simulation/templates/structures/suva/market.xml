@@ -2,7 +2,7 @@
 <Entity parent="template_structure_economic_market">
   <Identity>
     <Civ>suva</Civ>
-    <SpecificName>Empórios</SpecificName>
+    <SpecificName>Āpaṇa</SpecificName>
   </Identity>
   <VisualActor>
        <Actor>structures/suvarnabhumi/market.xml</Actor>

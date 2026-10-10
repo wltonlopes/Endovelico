@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Skeuotheke</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/suebians/workshop.xml</Actor>

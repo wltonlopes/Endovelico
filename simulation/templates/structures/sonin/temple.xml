@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>sonin</Civ>
-    <SpecificName>Ile Olorun</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24" depth="18"/>

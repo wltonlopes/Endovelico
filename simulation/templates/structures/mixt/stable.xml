@@ -20,7 +20,7 @@
   <Identity>
     <Civ>mixt</Civ>
     <GenericName>Ball Court</GenericName>
-    <SpecificName>Ball Court</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Loot>
     <xp>500</xp>

@@ -6,8 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Trading Boat</GenericName>
-    <SpecificName>Mapuche Trading Canoe</SpecificName>
+    <GenericName>Trading Canoe</GenericName>
     <Icon>units/south_america/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>

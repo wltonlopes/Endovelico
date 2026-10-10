@@ -3,7 +3,8 @@
   <Identity>
     <Civ>macrob</Civ>
     <SelectionGroupName>units/macrob/camelry_archer_b</SelectionGroupName>
-    <GenericName>Camelry</GenericName>
+    <GenericName>Macrobian Camel Archer</GenericName>
+    <SpecificName>Geeley</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>
   <Promotion>

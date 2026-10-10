@@ -6,8 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>gara</Civ>
-    <GenericName>Garamantians Chariot</GenericName>
-    <SpecificName>Essedon</SpecificName>
+    <GenericName>Garamantian War Chariot</GenericName>
     <SelectionGroupName>units/gara/champion_chariot</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/champion_chariot.png</Icon>

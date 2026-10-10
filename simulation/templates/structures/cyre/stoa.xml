@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_stoa">
   <Identity>
     <Civ>cyre</Civ>
-    <SpecificName>Stoa</SpecificName>
+    <SpecificName>Stoá</SpecificName>
   </Identity>
   <ProductionQueue/>
   <Trainer>

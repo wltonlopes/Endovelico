@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_javelineer">
   <Identity>
     <Civ>chibc</Civ>
-    <SpecificName>Chibcha Scout</SpecificName>
+    <GenericName>Chibcha Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

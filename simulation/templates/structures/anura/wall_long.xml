@@ -7,7 +7,7 @@
   <Identity>
     <Civ>anura</Civ>
     <SelectionGroupName>structures/anura_wallset_stone</SelectionGroupName>
-    <SpecificName/>
+    <SpecificName>Pākāra</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="33.5" depth="7.5"/>

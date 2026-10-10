@@ -9,8 +9,7 @@
     <Civ>shona</Civ>
 
     <SelectionGroupName>units/shona/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
-    <SpecificName>Shona Spearman</SpecificName>
+    <GenericName>Shona Spearman</GenericName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>damar</Civ>
-    <SpecificName>Ile Olorun</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="23.5" depth="39.5"/>

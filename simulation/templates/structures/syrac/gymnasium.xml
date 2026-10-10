@@ -20,7 +20,7 @@
   <Identity>
     <Civ>syrac</Civ>
     <GenericName>Gymnasium</GenericName>
-    <SpecificName>Gymnasion</SpecificName>
+    <SpecificName>Gymnásion</SpecificName>
     <Tooltip>Train Champions.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Gymnasium -City Town</VisibleClasses>

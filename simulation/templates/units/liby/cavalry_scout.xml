@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>liby</Civ>
-    <SpecificName>Lybian Scout</SpecificName>
+    <GenericName>Libyan Scout</GenericName>
     <Icon>units/cart/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

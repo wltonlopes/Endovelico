@@ -6,9 +6,9 @@
   <Identity>
     <Civ>syrac</Civ>
 	<Lang>greek</Lang>
-	<GenericName>Gorgidas</GenericName>
-    <SpecificName>Gorgidas</SpecificName>
-    <History>Gorgidas was the first known Theban military leader of the Sacred Band of Thebes around 378 BC. Plutarch in his Life of Pelopidas credits Gorgidas with the creation of the Sacred Band, which he dispersed at first throughout the front ranks of the regular infantry, with the idea that they would inspire valour; however they were later arrayed by Pelopidas as a unit in order to make their gallantry more conspicuous.</History>
+	<GenericName>Gelon</GenericName>
+    <SpecificName>Gélōn</SpecificName>
+    <History>Tyrant of Gela and then of Syracuse. In 480 BC Gelon crushed the Carthaginian army of Hamilcar at Himera, securing Greek Sicily for generations.</History>
     <Icon>units/theb/hero_gorgidas.png</Icon>
   </Identity>
   <VisualActor>

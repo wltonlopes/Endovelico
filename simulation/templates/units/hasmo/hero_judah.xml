@@ -6,8 +6,8 @@
   <Identity>
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
-    <GenericName>Judah Maccabbee</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Judah Maccabee</GenericName>
+    <SpecificName>Yehudah ha-Makabi</SpecificName>
     <Icon>units/hasmo/hero_judah.png</Icon>
   </Identity>
   <VisualActor>

@@ -5,8 +5,8 @@
     </Auras>
   <Identity>
     <Civ>chibc</Civ>
-    <GenericName>Warrior Chief</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Saguamanchica the Warrior Zipa</GenericName>
+    <SpecificName>Saguamanchica</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/chibc/hero_warrior_chief</SelectionGroupName>
     <Icon>units/chibc/hero_03.png</Icon>

@@ -3,8 +3,9 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
+    <GenericName>Bactrian Greek Hoplite</GenericName>
     <Lang>greek</Lang>
-    <SpecificName>Bosporan Hoplite</SpecificName>
+    <SpecificName>Hoplī́tēs</SpecificName>
     <Requirements>
       <Techs datatype="tokens">
         -phase_city

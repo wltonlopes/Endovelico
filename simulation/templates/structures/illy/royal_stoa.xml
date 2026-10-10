@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_stoa">
   <Identity>
     <Civ>illy</Civ>
-    <SpecificName>Stoa</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

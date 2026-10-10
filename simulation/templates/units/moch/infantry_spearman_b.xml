@@ -7,8 +7,7 @@
   <Identity>
     <Civ>moch</Civ>
     <SelectionGroupName>units/moch/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Bamboo Spearman</GenericName>
-    <SpecificName>Kauntika</SpecificName>
+    <GenericName>Moche Spearman</GenericName>
     <Icon>units/moch/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

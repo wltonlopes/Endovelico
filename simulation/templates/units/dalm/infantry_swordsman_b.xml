@@ -2,7 +2,7 @@
   <Identity>
     <Civ>dalm</Civ>
     <SelectionGroupName>units/dalm/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Thracian Swordsman</GenericName>
+    <GenericName>Dalmatian Swordsman</GenericName>
 
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/cavalry_spearman</SelectionGroupName>
-   <GenericName>Mauretania  Camelry Spearman</GenericName>
+   <GenericName>Mauretanian Camel Lancer</GenericName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>
   <Promotion>

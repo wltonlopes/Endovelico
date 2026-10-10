@@ -19,8 +19,8 @@
   <Identity>
     <Civ>bactr</Civ>
     <Lang>greek</Lang>
-    <GenericName>Eucratides I of Bactria</GenericName>
-    <SpecificName>Eukratides A' ho Baktria</SpecificName>
+    <GenericName>Eucratides I the Great</GenericName>
+    <SpecificName>Eukratídēs Mégas</SpecificName>
     <Icon>units/bactr/eucratides.png</Icon>
   </Identity>
   <VisualActor>

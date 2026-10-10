@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mixt</Civ>
-    <SpecificName>Farmstead</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="14.0"/>

@@ -6,7 +6,8 @@
   </Auras>
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Kaikainos</SpecificName>
+    <GenericName>Caesarus</GenericName>
+    <SpecificName>Kaisaros</SpecificName>
     <Icon>units/iber/hero_caros.png</Icon>
   </Identity>
   <VisualActor>

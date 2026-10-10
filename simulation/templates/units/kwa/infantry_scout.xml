@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_archer">
   <Identity>
     <Civ>kwa</Civ>
-    <SpecificName>Kwa Scout</SpecificName>
+    <GenericName>Kwa Scout</GenericName>
     <Icon>units/azan/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

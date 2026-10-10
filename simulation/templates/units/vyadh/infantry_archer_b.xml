@@ -2,8 +2,8 @@
   <Identity>
     <Civ>vyadh</Civ>
     <SelectionGroupName>units/vyadh/infantry_archer_b</SelectionGroupName>
-    <GenericName>Infantry Archer</GenericName>
-    <SpecificName>Yumit&#246;ri</SpecificName>
+    <GenericName>Funanese Archer</GenericName>
+    <SpecificName>Dhanurdhara</SpecificName>
     <Icon>units/yayo/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

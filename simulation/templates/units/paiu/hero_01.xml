@@ -5,7 +5,8 @@
   </Auras> -->
   <Identity>
     <Civ>paiu</Civ>
-    <GenericName>Great Warrior Chief</GenericName>
+    <GenericName>Numaga, War Chief</GenericName>
+    <SpecificName>Numaga</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/paiu/hero_warrior</SelectionGroupName>
     <Icon>units/paiu/hero_warrior.png</Icon>

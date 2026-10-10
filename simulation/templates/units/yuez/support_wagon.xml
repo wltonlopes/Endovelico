@@ -2,6 +2,7 @@
 <Entity parent="template_unit_support_wagon">
   <Identity>
     <Civ>yuez</Civ>
+    <GenericName>Yuezhi Cart</GenericName>
     <Phenotype datatype="tokens">
       Yurt
     </Phenotype>

@@ -5,7 +5,8 @@
    </Auras>
   <Identity>
     <Civ>maya</Civ>
-    <SpecificName>Ajaw Huun balam</SpecificName>
+    <GenericName>Foliated Jaguar</GenericName>
+    <SpecificName>Ajaw Huun Bahlam</SpecificName>
     <Icon>units/maya/hero_huun_balam.png</Icon>
   </Identity>
   <VisualActor>

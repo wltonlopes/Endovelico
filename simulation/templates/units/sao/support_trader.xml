@@ -7,8 +7,7 @@
   <Identity>
     <Civ>sao</Civ>
 
-    <GenericName>Nilotic Merchant</GenericName>
-    <SpecificName>rmt sbt</SpecificName>
+    <GenericName>Sao Trader</GenericName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>

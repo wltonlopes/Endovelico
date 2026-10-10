@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>tami</Civ>
-    <SpecificName>Anuradhapuran Scout</SpecificName>
+    <GenericName>Tamil Scout</GenericName>
     <Icon>units/maur/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

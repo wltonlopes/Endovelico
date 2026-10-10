@@ -6,7 +6,7 @@
 
     <SelectionGroupName>units/kwa/infantry_spearman_b</SelectionGroupName>
     <GenericName>Tribal Spearman</GenericName>
-    <SpecificName>iry-rdwy Nhsyw</SpecificName>
+    <SpecificName>Ọ̀kọ̀</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

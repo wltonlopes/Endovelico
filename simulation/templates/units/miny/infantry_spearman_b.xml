@@ -2,7 +2,7 @@
   <Identity>
     <Civ>miny</Civ>  
     <SelectionGroupName>units/miny/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Infantry Spearman</GenericName>
+    <GenericName>Minyue Spearman</GenericName>
     <SpecificName>Biao Shou</SpecificName>
     <Icon>units/yayo/infantry_spearman.png</Icon>
   </Identity>

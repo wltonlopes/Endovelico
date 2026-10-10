@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>vyadh</Civ>
-    <GenericName>Japanese Warship</GenericName>
-    <SpecificName>Opobune</SpecificName>
+    <GenericName>Funanese Warship</GenericName>
+    <SpecificName>Yuddha Nau</SpecificName>
     <Requirements>
       <Techs datatype="tokens">
         -phase_town

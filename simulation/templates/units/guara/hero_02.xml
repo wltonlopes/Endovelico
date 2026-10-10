@@ -5,7 +5,8 @@
   </Auras>
   <Identity>
     <Civ>guara</Civ>
-    <GenericName>Warrior Chief</GenericName>
+    <GenericName>Tumé Arandú the Wise</GenericName>
+    <SpecificName>Karai Tume Arandu</SpecificName>
     <SelectionGroupName>units/guara/hero_night_king</SelectionGroupName>
     <Icon>units/guara/hero_02.png</Icon>
   </Identity>

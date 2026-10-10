@@ -7,8 +7,8 @@
   <Identity>
     <Civ>bantu</Civ>
 
-    <GenericName>Nilotic Merchant</GenericName>
-    <SpecificName>rmt sbt</SpecificName>
+    <GenericName>Bantu Trader</GenericName>
+    <SpecificName>Mohwebi</SpecificName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>

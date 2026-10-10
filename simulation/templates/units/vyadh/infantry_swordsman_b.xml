@@ -3,8 +3,7 @@
   <Identity>
     <Civ>vyadh</Civ>
     <SelectionGroupName>units/yayo/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Militia Axeman</GenericName>
-    <SpecificName>Wonomöti</SpecificName>
+    <GenericName>Funanese Militia Axeman</GenericName>
     <Icon>units/yayo/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>

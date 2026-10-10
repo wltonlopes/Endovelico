@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>bantu</Civ>
-    <SpecificName>Okuta Odi</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="30.1" depth="6.93"/>

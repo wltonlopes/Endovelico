@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>batw</Civ>
-    <SpecificName>Oja</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="25.5" depth="25.5"/>

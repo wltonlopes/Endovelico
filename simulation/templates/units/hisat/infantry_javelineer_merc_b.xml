@@ -3,7 +3,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <SelectionGroupName>units/hisat/infantry_javelinist</SelectionGroupName>
-    <GenericName>Mogollon Allied Javelinist</GenericName>
+    <GenericName>Mogollon Allied Javelineer</GenericName>
     <Icon>units/maya/mercenary_spearman.png</Icon>
   </Identity>
   <Promotion>

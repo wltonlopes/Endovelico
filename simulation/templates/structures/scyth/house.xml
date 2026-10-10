@@ -14,7 +14,8 @@
   </Footprint>
   <Identity>
     <Civ>scyth</Civ>
-    <SpecificName>Yurt</SpecificName>
+    <GenericName>Yurt</GenericName>
+    <SpecificName>!</SpecificName>
     <VisibleClasses datatype="tokens">Village House Yurt</VisibleClasses>
   </Identity>
   <Obstruction>

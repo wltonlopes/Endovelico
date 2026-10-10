@@ -3,7 +3,7 @@
   <Identity>
     <Civ>anish</Civ>
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
-    <GenericName>Auxiliary Maceman</GenericName>
+    <GenericName>Auxiliary Clubman</GenericName>
     <Icon>units/south_america/infantry_maceman.png</Icon>
   </Identity>
   <Promotion disable=""/>

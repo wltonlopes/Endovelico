@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_javelineer">
   <Identity>
   <Civ>damar</Civ>
-    <GenericName>Champion</GenericName>
+    <GenericName>Damara Champion Javelineer</GenericName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>

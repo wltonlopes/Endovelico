@@ -23,7 +23,7 @@
   </Health>
   <Identity>
     <Civ>aden</Civ>
-    <GenericName>Large Pyramid</GenericName>
+    <GenericName>Great Mound</GenericName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>
     <Icon>structures/mount.png</Icon>

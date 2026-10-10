@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>Heavy Warrior Spearman</GenericName>
+    <GenericName>Heavy Spear Warrior</GenericName>
+    <SpecificName>Ọlọ́kọ̀</SpecificName>
     <SelectionGroupName>units/Kwa/heavy_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>

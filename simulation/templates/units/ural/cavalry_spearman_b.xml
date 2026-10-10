@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>ural</Civ>
+    <GenericName>Uralic Lancer</GenericName>
     <SelectionGroupName>units/ural/cavalry_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>

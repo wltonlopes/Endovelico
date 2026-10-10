@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <SelectionGroupName>units/nok/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Warrior</GenericName>
+    <GenericName>Nok Warrior</GenericName>
     <Icon>units/subsaara/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

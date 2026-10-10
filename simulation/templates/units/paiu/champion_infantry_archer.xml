@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
   <Civ>paiu</Civ>
-    <GenericName>Gread Archer</GenericName>
+    <GenericName>Paiute Great Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>

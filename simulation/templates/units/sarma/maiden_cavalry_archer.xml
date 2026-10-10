@@ -18,8 +18,9 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
+    <GenericName>Sarmatian Maiden Headhunter</GenericName>
     <SelectionGroupName>units/scyth/cavalry_archer</SelectionGroupName>
-    <SpecificName>Royal Maiden Headhunter</SpecificName>
+    <SpecificName>Oiorpata</SpecificName>
 	<Requirements><Techs datatype="tokens">phase_town</Techs> </Requirements>
 	<Phenotype>female</Phenotype>
     <Icon>units/scyth/maiden_cavalry.png</Icon>

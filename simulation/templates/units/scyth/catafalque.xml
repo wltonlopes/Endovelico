@@ -2,6 +2,7 @@
 <Entity parent="template_unit_catafalque">
   <Identity>
     <Civ>scyth</Civ>
+    <GenericName>Scythian Catafalque</GenericName>
     <SpecificName>Anacharsis</SpecificName>
   </Identity>
 </Entity>

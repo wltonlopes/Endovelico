@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
   <Civ>araw</Civ>
-    <GenericName>Gread Archer</GenericName>
+    <GenericName>Arawak Great Archer</GenericName>
     <SpecificName> </SpecificName>
     <Icon>units/zapo/infantry_swordsman.png</Icon>
   </Identity>

@@ -9,8 +9,7 @@
     <Civ>bantu</Civ>
 
     <SelectionGroupName>units/southern_bantu/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
-    <SpecificName>iry-rdwy Nhsyw</SpecificName>
+    <GenericName>Bantu Spearman</GenericName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

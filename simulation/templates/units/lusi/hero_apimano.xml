@@ -5,6 +5,7 @@
   </Auras>
   <Identity>
     <Civ>lusi</Civ>
+    <GenericName>Punicus</GenericName>
     <SpecificName>Apimano</SpecificName>
     <Icon>units/iber/hero_indibil.png</Icon>
   </Identity>

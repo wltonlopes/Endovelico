@@ -2,6 +2,7 @@
 <Entity parent="template_unit_catafalque">
   <Identity>
     <Civ>sarma</Civ>
-    <SpecificName>Anacharsis</SpecificName>
+    <GenericName>Sarmatian Catafalque</GenericName>
+    <SpecificName>Medosakkos</SpecificName>
   </Identity>
 </Entity>

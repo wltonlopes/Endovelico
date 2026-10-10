@@ -4,7 +4,8 @@
   <Identity>
     <Civ>azan</Civ>
     <SelectionGroupName>units/aksum/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>Tribal Levy Skirmisher</GenericName>
+    <GenericName>Azanian Levy Skirmisher</GenericName>
+    <SpecificName>Mwindaji</SpecificName>
     <Icon>units/thra/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

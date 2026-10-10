@@ -19,7 +19,8 @@
   </Health>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Ball Court</SpecificName>
+    <GenericName>Ball Court</GenericName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Loot>
     <xp>500</xp>

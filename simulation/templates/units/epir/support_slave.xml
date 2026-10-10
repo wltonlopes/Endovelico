@@ -3,7 +3,8 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Barbarian Slave</SpecificName>
+    <GenericName>Barbarian Slave</GenericName>
+    <SpecificName>Doûlos</SpecificName>
     <Icon>units/global/slave.png</Icon>
   </Identity>
   <VisualActor>

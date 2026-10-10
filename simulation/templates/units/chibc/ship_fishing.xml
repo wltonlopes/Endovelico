@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>chibc</Civ>
-    <SpecificName>Ygara</SpecificName>
     <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

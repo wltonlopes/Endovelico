@@ -2,6 +2,7 @@
   <Identity>
     <Civ>daci</Civ>
     <GenericName>Dacian Royal Cavalry</GenericName>
+    <SpecificName>Tarabostes</SpecificName>
 
     <Icon>units/thra/champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/daci/champion_cavalry</SelectionGroupName>

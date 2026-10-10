@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>illy</Civ>
+    <GenericName>Illyrian Trader</GenericName>
     <Icon>units/celt/support_trader.png</Icon>
   </Identity>
   <VisualActor>

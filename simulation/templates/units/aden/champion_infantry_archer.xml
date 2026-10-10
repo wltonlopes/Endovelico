@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
     <Civ>aden</Civ>
-    <GenericName>Gread Archer</GenericName>
+    <GenericName>Adena Great Archer</GenericName>
     <SpecificName/>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
     <Requirements>

@@ -2,6 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>guara</Civ>
+    <SpecificName>Kokue</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_tropic_mandioca.xml</Actor>

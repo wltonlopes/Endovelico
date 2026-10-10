@@ -5,7 +5,7 @@
   </Footprint>
   <Identity>
     <Civ>araw</Civ>
-    <SpecificName>Archer</SpecificName>
+    <GenericName>Fire Archer</GenericName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
   </Identity>
   <Pack>

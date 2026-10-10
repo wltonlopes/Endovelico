@@ -3,7 +3,7 @@
   <Identity>
     <Civ>naba</Civ>
     <SelectionGroupName>units/naba_cavalry_javelinist_b</SelectionGroupName>
-    <GenericName>Bedouin Scouts</GenericName>
+    <GenericName>Bedouin Scout Cavalry</GenericName>
     <SpecificName>Farasîn Bedawi</SpecificName>
     <History>In ancient times, most people settled near rivers but the Bedouin people preferred to live in the open desert. In battle these men provide a highly skilled light cavalry contingent exceedingly capable in the roles of skirmishing, pursuit, and harassment.</History>
     <Icon>units/achae/cavalry_javelinist.png</Icon>

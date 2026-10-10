@@ -3,7 +3,7 @@
   <Identity>
     <Civ>aden</Civ>
     <SelectionGroupName>units/adena_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Slinger</GenericName>
+    <GenericName>Adena Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/maya/infantry_slinger.png</Icon>
   </Identity>

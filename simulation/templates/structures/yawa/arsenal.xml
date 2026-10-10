@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>yawa</Civ>
-    <SpecificName>Pr-ỉwn n ms</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <VisualActor>
        <Actor>structures/yawadwipa/arsenal.xml</Actor>

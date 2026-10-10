@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>illy</Civ>
-    <GenericName>Illyrian Hoplite</GenericName>
+    <GenericName>Illyrian Noble Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/illy/champion_infantry_spearman.png</Icon>
   </Identity>

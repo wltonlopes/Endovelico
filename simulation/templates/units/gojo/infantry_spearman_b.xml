@@ -3,8 +3,8 @@
   <Identity>
     <Civ>gojo</Civ>
     <SelectionGroupName>units/gojo/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Infantry Spearman</GenericName>
-    <SpecificName>  </SpecificName>
+    <GenericName>Gojoseon Spearman</GenericName>
+    <SpecificName>Chang-byeong</SpecificName>
     <Icon>units/yayo/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

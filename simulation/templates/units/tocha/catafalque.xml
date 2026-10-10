@@ -2,6 +2,6 @@
 <Entity parent="template_unit_catafalque">
   <Identity>
     <Civ>tocha</Civ>
-    <SpecificName>Anacharsis</SpecificName>
+    <GenericName>Tocharian Catafalque</GenericName>
   </Identity>
 </Entity>

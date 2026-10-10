@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>miny</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
+    <SpecificName>Ye Fang</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/minyue/forge.xml</Actor>

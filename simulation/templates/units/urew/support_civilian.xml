@@ -6,7 +6,8 @@
   </Builder>
   <Identity>
     <Civ>urew</Civ>
-    <GenericName>Villager</GenericName>
+    <GenericName>Urewe Villager</GenericName>
+    <SpecificName>Umugore</SpecificName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

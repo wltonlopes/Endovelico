@@ -3,7 +3,7 @@
   <Identity>
     <Civ>aden</Civ>
     <SpecificName></SpecificName>
-    <GenericName>Villager</GenericName>
+    <GenericName>Adena Villager</GenericName>
     <Icon>units/south_america/support_female_citizen.png</Icon>
     <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
   </Identity>

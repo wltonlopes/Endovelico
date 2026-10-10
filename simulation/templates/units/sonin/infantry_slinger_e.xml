@@ -2,7 +2,6 @@
 <Entity parent="units/sonin/infantry_slinger_a">
   <Identity>
     <Civ>sonin</Civ>
-    <GenericName>Veteran Slinger</GenericName>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion disable=""/>

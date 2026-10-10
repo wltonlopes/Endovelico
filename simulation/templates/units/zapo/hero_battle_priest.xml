@@ -8,8 +8,8 @@
   </Heal>
   <Identity>
     <Civ>zapo</Civ>
-    <GenericName>Battle Priest</GenericName>
-    <SpecificName>Ba’ate’e K’iin</SpecificName>
+    <GenericName>High Priest</GenericName>
+    <SpecificName>Uija-tào</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/hero_battle_priest_1.png</Icon>
   </Identity>

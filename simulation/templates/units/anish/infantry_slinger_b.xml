@@ -7,7 +7,7 @@
   <Identity>
     <Civ>anish</Civ>
     <SelectionGroupName>units/anish/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Slinger Allied</GenericName>
+    <GenericName>Allied Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/moch/infantry_slinger.png</Icon>
     <Requirements>

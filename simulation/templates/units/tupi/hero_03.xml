@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName>Great Chief Clubman</GenericName>
-    <SpecificName>Morubixaba</SpecificName>
+    <GenericName>Chief Tibiriçá</GenericName>
+    <SpecificName>Morubixaba Tebyreçá</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/tupi/hero_rain_lord</SelectionGroupName>
     <Icon>units/tupi/hero_clubman.png</Icon>

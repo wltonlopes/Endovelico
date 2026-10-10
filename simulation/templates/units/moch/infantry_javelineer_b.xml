@@ -6,8 +6,8 @@
   </Builder>
   <Identity>
     <Civ>moch</Civ>
+    <GenericName>Moche Javelineer</GenericName>
     <SelectionGroupName>units/moch/infantry_javelineer_b</SelectionGroupName>
-    <SpecificName>Adretos</SpecificName>
     <Icon>units/moch/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

@@ -6,6 +6,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <GenericName>Elder Chief</GenericName>
+    <SpecificName>Kikmongwi</SpecificName>
     <SelectionGroupName>units/hisat/hero_night_king</SelectionGroupName>
     <Icon>units/hisat/hero_elder.png</Icon>
   </Identity>

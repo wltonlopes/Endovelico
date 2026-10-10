@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_infantry_archer">
   <Identity>
     <Civ>viet</Civ>
-    <GenericName>Hùng Nghị Vương</GenericName>
+    <GenericName>King Hung Nghi</GenericName>
     <SpecificName>Hùng Nghị Vương</SpecificName>
     <Icon>units/viet/hero_hung_nghi.png</Icon>
   </Identity>

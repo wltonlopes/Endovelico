@@ -5,8 +5,9 @@
   </Auras>
   <Identity>
     <Civ>sueb</Civ>
+    <GenericName>Germanic Priest</GenericName>
     <SelectionGroupName>units/sueb/support_healer_b</SelectionGroupName>
-    <SpecificName>Priest</SpecificName>
+    <SpecificName>Gudjô</SpecificName>
     <Icon>units/germ/support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>

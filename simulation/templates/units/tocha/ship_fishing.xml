@@ -3,7 +3,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Black Sea Fisherman</SpecificName>
+    <GenericName>Tarim Fisherman</GenericName>
     <Icon>units/celt/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

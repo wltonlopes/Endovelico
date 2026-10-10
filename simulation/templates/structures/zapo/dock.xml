@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Dock</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="24.0"/>

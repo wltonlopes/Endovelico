@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>sonin</Civ>
-    <SpecificName>Ile Iso Okuta</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="12" depth="12"/>

@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>zapo</Civ>
-    <SpecificName>Womina</SpecificName>
+    <GenericName>Zapotec Villager</GenericName>
+    <SpecificName>Gunaa</SpecificName>
     <Icon>units/zapo/citizen.png</Icon>
   </Identity>
   <VisualActor>

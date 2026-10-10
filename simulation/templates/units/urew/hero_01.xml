@@ -5,7 +5,8 @@
   </Auras>
   <Identity>
     <Civ>urew</Civ>
-    <GenericName>Warrior Tribal king</GenericName>
+    <GenericName>Gihanga the Founder</GenericName>
+    <SpecificName>Mwami Gihanga</SpecificName>
     <Icon>units/urew/hero_01.png</Icon>
   </Identity>
   <VisualActor>

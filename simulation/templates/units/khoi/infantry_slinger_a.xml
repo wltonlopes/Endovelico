@@ -2,7 +2,6 @@
 <Entity parent="units/khoi/infantry_slinger_b">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>Slinger</GenericName>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

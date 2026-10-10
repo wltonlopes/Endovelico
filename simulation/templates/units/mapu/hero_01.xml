@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Great Toqui Maceman</GenericName>
+    <GenericName>Caupolicán, Great Toqui</GenericName>
+    <SpecificName>Kallfülikan</SpecificName>
     <History>Great Toqui / Military Bonus</History>
     <SelectionGroupName>units/mapu/hero_01</SelectionGroupName>
     <Icon>units/mapu/hero_01.png</Icon>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>daci</Civ>
-    <GenericName>Triballi Tribesmen</GenericName>
+    <GenericName>Dacian Falx Warrior</GenericName>
 
     <Icon>units/thra/champion_infantry_swordsman.png</Icon>
     <Requirements>

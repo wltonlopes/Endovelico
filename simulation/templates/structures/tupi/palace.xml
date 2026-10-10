@@ -2,7 +2,7 @@
 <Entity parent="template_structure_special_palace">
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName>Cheaf House</GenericName>
+    <GenericName>Chief's House</GenericName>
     <SpecificName>Oka-Ubusu</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>

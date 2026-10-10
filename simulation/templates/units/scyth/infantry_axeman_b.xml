@@ -9,8 +9,8 @@
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
+    <GenericName>Scythian Axeman</GenericName>
     <SelectionGroupName>units/scyth/infantry_swordsman</SelectionGroupName>
-    <SpecificName>Saka Axeman</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

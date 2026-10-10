@@ -5,7 +5,8 @@
    </Auras>
   <Identity>
     <Civ>maya</Civ>
-    <SpecificName>Ajaw Yax Ehb'Xok</SpecificName>
+    <GenericName>Yax Ehb Xook, First Step Shark</GenericName>
+    <SpecificName>Ajaw Yax Ehb Xook</SpecificName>
     <Icon>units/maya/hero_yax_ehb_xok.png</Icon>
   </Identity>
   <VisualActor>

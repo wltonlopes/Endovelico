@@ -2,7 +2,7 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>tupi</Civ>
-    <SpecificName>Tupi Stone Wall</SpecificName>
+    <SpecificName>Kaysá</SpecificName>
   </Identity>
   <WallSet>
     <Templates>

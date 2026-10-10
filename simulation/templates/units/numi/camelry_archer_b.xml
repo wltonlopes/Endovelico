@@ -3,7 +3,7 @@
   <Identity>
     <Civ>numi</Civ>
     <SelectionGroupName>units/numi/camelry_archer_b</SelectionGroupName>
-    <GenericName>Numidian Camelry Archer</GenericName>
+    <GenericName>Numidian Camel Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>

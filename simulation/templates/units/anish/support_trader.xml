@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>anish</Civ>
-    <GenericName>Trader withDog Travois</GenericName>
+    <GenericName>Dog Travois Trader</GenericName>
+    <SpecificName>Adaawewinini</SpecificName>
     <Icon>units/south_america/support_trader.png</Icon>
   </Identity>
   <VisualActor>

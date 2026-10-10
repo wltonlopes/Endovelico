@@ -3,6 +3,7 @@
   <Identity>
     <Civ>gaet</Civ>
     <GenericName>North African War Elephant</GenericName>
+    <SpecificName>Ilu</SpecificName>
     <Icon>units/cart/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>

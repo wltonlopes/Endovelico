@@ -3,6 +3,7 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
+    <GenericName>Sarmatian Wagon</GenericName>
   </Identity>
   <Upgrade>
     <UnPackStorehouse>

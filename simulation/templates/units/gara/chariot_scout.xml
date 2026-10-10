@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>gara</Civ>
-    <SpecificName>Garamantian Scout</SpecificName>
+    <GenericName>Garamantian Chariot Scout</GenericName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/chariot_scout.png</Icon>
   </Identity>

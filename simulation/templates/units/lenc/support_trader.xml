@@ -2,6 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>lenc</Civ>
+    <GenericName>Lenca Trader</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/mesoamerican/support_trader.png</Icon>
   </Identity>

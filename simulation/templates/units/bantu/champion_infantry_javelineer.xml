@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_javelineer">
   <Identity>
     <Civ>bantu</Civ>
-    <GenericName>Champion</GenericName>
+    <GenericName>Bantu Champion Javelineer</GenericName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>

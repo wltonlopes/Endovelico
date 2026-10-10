@@ -2,7 +2,7 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>macrob</Civ>
-    <SpecificName>Yōng</SpecificName>
+    <SpecificName>Derbi</SpecificName>
   </Identity>
   <WallSet>
     <Templates>

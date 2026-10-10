@@ -9,7 +9,7 @@
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
     <SelectionGroupName>units/sarma/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Saka Horse Archer</GenericName>
+    <GenericName>Sarmatian Horse Archer</GenericName>
     <Icon>units/scyth/cavalry_archer.png</Icon>
   </Identity>
   <Promotion>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <SelectionGroupName>units/hisat/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Garamantian Slinger</GenericName>
+    <GenericName>Hisatsinom Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>

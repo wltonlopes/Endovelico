@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>nok</Civ>
-    <SpecificName>Nok Scout</SpecificName>
+    <GenericName>Nok Scout</GenericName>
     <Icon>units/kush/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_fortress|template_structure_military_arsenal">
   <Identity>
     <Civ>gaet</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Iɣrem</SpecificName>
   </Identity>
   <Sound>
     <SoundGroups>

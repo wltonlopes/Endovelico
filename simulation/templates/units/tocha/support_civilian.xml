@@ -25,7 +25,8 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Scythian Villager</SpecificName>
+    <GenericName>Tocharian Villager</GenericName>
+    <SpecificName>Klīye</SpecificName>
     <Icon>units/scyth/support_citizen_female.png</Icon>
     <SelectionGroupName>units/tocha/support_citizen_female</SelectionGroupName>
     <Phenotype>female</Phenotype>

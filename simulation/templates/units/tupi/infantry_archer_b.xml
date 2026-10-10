@@ -3,8 +3,8 @@
   <Identity>
     <Civ>tupi</Civ>
     <SelectionGroupName>units/tupi/infantry_archer_b</SelectionGroupName>
-    <GenericName>Archer</GenericName>
-    <SpecificName>Petym-abá</SpecificName>
+    <GenericName>Tupi Archer</GenericName>
+    <SpecificName>Ybyrapara-abá</SpecificName>
     <Icon>units/south_america/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

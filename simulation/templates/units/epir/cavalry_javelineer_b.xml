@@ -10,8 +10,9 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
+    <GenericName>Tarantine Cavalry</GenericName>
     <SelectionGroupName>units/epir/cavalry_javelineer_b</SelectionGroupName>
-    <SpecificName>Tarantine Cavalry</SpecificName>
+    <SpecificName>Hippeús Tarantînos</SpecificName>
     <Icon>units/epir/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

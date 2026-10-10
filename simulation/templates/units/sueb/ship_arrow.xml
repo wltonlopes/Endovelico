@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Kriegsschiff</SpecificName>
+    <GenericName>Suebian Warship</GenericName>
+    <SpecificName>Skipą</SpecificName>
     <Icon>units/germ/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>

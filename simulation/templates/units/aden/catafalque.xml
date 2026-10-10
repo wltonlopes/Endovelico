@@ -6,6 +6,6 @@
   </Auras>
   <Identity>
     <Civ>aden</Civ>
-    <SpecificName>Adena Funerary Bier</SpecificName>
+    <GenericName>Adena Funerary Bier</GenericName>
   </Identity>
 </Entity>

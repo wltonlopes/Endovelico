@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_blowgunner">
   <Identity>
     <Civ>maya</Civ>
-    <SpecificName>Mayan Scout</SpecificName>
+    <GenericName>Maya Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

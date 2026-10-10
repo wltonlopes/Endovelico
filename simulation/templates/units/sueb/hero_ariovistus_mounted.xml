@@ -5,6 +5,7 @@
   </Auras>
   <Identity>
     <Civ>sueb</Civ>
+    <GenericName>Ariovistus, King of the Suebi</GenericName>
     <SpecificName>Ariovistus</SpecificName>
     <Icon>units/sueb/hero_ariovistus.png</Icon>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>

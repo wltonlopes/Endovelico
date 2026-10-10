@@ -2,8 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>sao</Civ>
-    <SpecificName>Sao Scout</SpecificName>
-    <GenericName>Scout Cavalry Swordsman</GenericName>
+    <GenericName>Sao Scout</GenericName>
     <Icon>units/kush/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

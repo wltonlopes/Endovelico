@@ -7,7 +7,7 @@
   </Attack>
   <Identity>
     <Civ>mixt</Civ>
-    <SpecificName>Zapotec Scout</SpecificName>
+    <GenericName>Mixtec Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

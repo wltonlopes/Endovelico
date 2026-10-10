@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>malay</Civ>
-    <SpecificName>Vaishya</SpecificName>
+    <SpecificName>Pedagang</SpecificName>
     <Icon>units/maur/support_trader.png</Icon>
   </Identity>
   <VisualActor>

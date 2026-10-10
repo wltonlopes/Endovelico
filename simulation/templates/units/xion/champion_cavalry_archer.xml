@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_archer">
   <Identity>
     <Civ>xion</Civ>
-    <GenericName>Xiongnu Warlord</GenericName>
+    <GenericName>Xiongnu Noble Horse Archer</GenericName>
     <SelectionGroupName>units/xion/champion_cavalry</SelectionGroupName>
     <Icon>units/xion/champion_cavalry.png</Icon>
     <Requirements>

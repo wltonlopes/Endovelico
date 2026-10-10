@@ -3,7 +3,8 @@
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Alani Cataphract</SpecificName>
+    <GenericName>Royal Scythian Cataphract</GenericName>
+    <SpecificName>Paralatai</SpecificName>
     <SelectionGroupName>units/scyth/champion_cavalry</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_lancer.png</Icon>
   </Identity>

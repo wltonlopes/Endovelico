@@ -4,7 +4,7 @@
     <Civ>malay</Civ>
     <Phenotype>female</Phenotype>
     <GenericName>Maiden Guard</GenericName>
-    <SpecificName>Visha Kanya</SpecificName>
+    <SpecificName>Dayang Pengawal</SpecificName>
     <SelectionGroupName>units/maur/champion_maiden</SelectionGroupName>
     <Icon>units/maur/champion_maiden.png</Icon>
   </Identity>

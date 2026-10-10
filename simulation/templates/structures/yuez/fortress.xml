@@ -9,8 +9,8 @@
   </Footprint>
   <Identity>
     <Civ>yuez</Civ>
-    <GenericName>Captured Chinese Fortress</GenericName>
-    <SpecificName>Bǎolěi</SpecificName>
+    <GenericName>Walled Citadel</GenericName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>

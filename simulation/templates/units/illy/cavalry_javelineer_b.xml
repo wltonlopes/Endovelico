@@ -3,8 +3,7 @@
   <Identity>
     <Civ>illy</Civ>
     <SelectionGroupName>units/illy/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>illyrians Light Cavalry</GenericName>
-    <SpecificName>Ashwarohi</SpecificName>
+    <GenericName>Illyrian Light Cavalry</GenericName>
     <Icon>units/maur/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

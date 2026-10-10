@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_axeman">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>Axewoman</GenericName>
+    <GenericName>Khoi Axewoman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
   <Promotion disable=""/>

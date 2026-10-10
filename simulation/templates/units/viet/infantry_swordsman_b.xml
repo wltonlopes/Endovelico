@@ -3,8 +3,8 @@
   <Identity>
     <Civ>viet</Civ>
     <SelectionGroupName>units/yayo/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Militia Axeman</GenericName>
-    <SpecificName>Wonomöti</SpecificName>
+    <GenericName>Lac Viet Axeman</GenericName>
+    <SpecificName>Phủ Binh</SpecificName>
     <Icon>units/yayo/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>

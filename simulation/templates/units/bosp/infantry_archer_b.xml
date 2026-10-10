@@ -9,8 +9,9 @@
   <Identity>
     <Civ>bosp</Civ>
     <Lang>persian</Lang>
+    <GenericName>Scythian Archer</GenericName>
     <SelectionGroupName>units/bosp/infantry_archer</SelectionGroupName>
-    <SpecificName>Scythian Archer</SpecificName>
+    <SpecificName>Toxótēs Skýthēs</SpecificName>
     <Icon>units/scyth/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

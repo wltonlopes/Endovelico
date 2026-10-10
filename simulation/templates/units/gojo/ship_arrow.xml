@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>gojo</Civ>
-    <GenericName>Korean Warship</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Gojoseon Warship</GenericName>
+    <SpecificName>Jeon-seon</SpecificName>
     <Icon>units/yayo/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>

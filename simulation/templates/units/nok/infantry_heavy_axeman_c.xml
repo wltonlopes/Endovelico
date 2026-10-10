@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_axeman">
   <Identity>
     <Civ>nok</Civ>
-    <GenericName>Heavy Axeman</GenericName>
+    <GenericName>Nok Heavy Axeman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
   <Promotion disable=""/>

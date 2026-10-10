@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_healer">
   <Identity>
     <Civ>vyadh</Civ>
-    <GenericName>Himiko</GenericName>
-    <SpecificName>Pimiko</SpecificName>
+    <GenericName>Queen Soma</GenericName>
+    <SpecificName>Nāgī Somā</SpecificName>
     <Icon>units/yayo/hero_himiko.png</Icon>
   </Identity>
   <VisualActor>

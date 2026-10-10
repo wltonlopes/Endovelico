@@ -5,8 +5,7 @@
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>Garamantians Chariot</GenericName>
-    <SpecificName>Essedon</SpecificName>
+    <GenericName>Libyan War Chariot</GenericName>
     <SelectionGroupName>units/liby/champion_chariot</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/gara/champion_chariot.png</Icon>

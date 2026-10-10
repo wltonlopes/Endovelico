@@ -10,7 +10,8 @@
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
     <SelectionGroupName>units/scyth/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Saka Horse Archer</GenericName>
+    <GenericName>Scythian Horse Archer</GenericName>
+    <SpecificName>Skoloti</SpecificName>
     <Icon>units/scyth/cavalry_archer.png</Icon>
   </Identity>
   <Promotion>

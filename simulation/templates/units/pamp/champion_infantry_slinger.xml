@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_slinger">
   <Identity>
     <Civ>pamp</Civ>
-    <GenericName>Champion</GenericName>
+    <GenericName>Champion Slinger</GenericName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>

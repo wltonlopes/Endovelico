@@ -2,8 +2,8 @@
 <Entity parent="template_unit_elephant_melee">
   <Identity>
     <Civ>anura</Civ>
-    <GenericName>Elephant Melee</GenericName>
-    <SpecificName>Vachii Gaja</SpecificName>
+    <GenericName>War Elephant</GenericName>
+    <SpecificName>Yuddha Hatthi</SpecificName>
     <SelectionGroupName>units/maur/elephant_melee_b</SelectionGroupName>
     <Icon>units/maur/elephant_archer.png</Icon>
   </Identity>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>w</GenericName>
+    <GenericName>Khoi Champion Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>structures/sentry_tower.png</Icon>
   </Identity>

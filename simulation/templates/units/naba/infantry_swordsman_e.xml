@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/himya/infantry_swordsman_a">
   <Identity>
+    <GenericName>Nabataean Axeman</GenericName>
+    <SpecificName>Muharûbîn Fleqā</SpecificName>
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>

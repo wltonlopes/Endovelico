@@ -12,6 +12,7 @@
   </Footprint>
   <Identity>
     <Civ>khoi</Civ>
+    <GenericName>Khoi Ox-Rider Skirmisher</GenericName>
     <SelectionGroupName>units/khoi/cavalry_javelineer_b</SelectionGroupName>
     <Icon>units/subsaara/cavalry_javelineer.png</Icon>
   </Identity>

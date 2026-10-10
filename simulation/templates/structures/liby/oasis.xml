@@ -13,7 +13,7 @@
   </Health>
   <Identity>
     <Civ>liby</Civ>
-    <SpecificName>Oasis</SpecificName>
+    <SpecificName>!</SpecificName>
     <VisibleClasses datatype="tokens">Town</VisibleClasses>
     <Classes datatype="tokens">RotaryMill Town</Classes>
     <Icon>structures/oasis.png</Icon>

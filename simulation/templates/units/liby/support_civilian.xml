@@ -3,6 +3,7 @@
   <Identity>
     <Civ>liby</Civ>
     <GenericName>Libyan Villager</GenericName>
+    <SpecificName>Tameṭṭut</SpecificName>
     <Icon>units/gara/support_female_citizen.png</Icon>
     <SelectionGroupName>units/liby/support_female_citizen</SelectionGroupName>
   </Identity>

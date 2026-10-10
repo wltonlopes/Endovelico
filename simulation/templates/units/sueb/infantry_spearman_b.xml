@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>sueb</Civ>
+    <GenericName>Suebian Spearman</GenericName>
     <SelectionGroupName>units/sueb/infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Suebian Spearman</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/sueb/infantry_spearman.png</Icon>
   </Identity>

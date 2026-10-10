@@ -2,6 +2,7 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>vyadh</Civ>
+    <SpecificName>Prākāra</SpecificName>
 
   </Identity>
   <WallSet>

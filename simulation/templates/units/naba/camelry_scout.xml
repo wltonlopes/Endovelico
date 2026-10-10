@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_javelineer">
   <Identity>
     <Civ>naba</Civ>
-    <SpecificName>Camelry Scout</SpecificName>
+    <GenericName>Nabataean Camel Scout</GenericName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/kush/merc_cavalry_1.png</Icon>
   </Identity>

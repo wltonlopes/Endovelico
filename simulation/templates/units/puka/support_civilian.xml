@@ -6,7 +6,8 @@
   </Builder>
   <Identity>
     <Civ>puka</Civ>
-    <GenericName>Villager</GenericName>
+    <GenericName>Pukara Villager</GenericName>
+    <SpecificName>Warmi</SpecificName>
     <Icon>units/puka/citizen.png</Icon>
     <SelectionGroupName>units/puka/support_female_citizen</SelectionGroupName>
   </Identity>

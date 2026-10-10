@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>gara</Civ>
-    <SpecificName>Garamantian Watchtower</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="7.0" depth="8.0"/>

@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_melee_clubman">
   <Identity>
     <Civ>moch</Civ>
+    <GenericName>Moche Clubman</GenericName>
     <SelectionGroupName>units/moch/infantry_clubman_b</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/moch/infantry_clubman.png</Icon>

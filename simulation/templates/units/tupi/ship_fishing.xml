@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>tupi</Civ>
+    <GenericName>Fishing Canoe</GenericName>
     <SpecificName>Ygara</SpecificName>
     <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>

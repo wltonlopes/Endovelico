@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>German Scout</SpecificName>
+    <GenericName>Germanic Scout</GenericName>
     <Icon>units/sueb/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

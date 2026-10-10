@@ -6,6 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>arme</Civ>
+    <GenericName>Armenian Merchant</GenericName>
+    <SpecificName>Vačaṙakan</SpecificName>
     <Icon>units/celt/support_trader.png</Icon>
   </Identity>
   <VisualActor>

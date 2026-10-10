@@ -2,6 +2,7 @@
 <Entity parent="rare_units|scout_mount_swordsman">
   <Identity>
     <Civ>viet</Civ>
+    <GenericName>Lac Viet Scout</GenericName>
     <SpecificName>Kỵ Sĩ Trinh Sát</SpecificName>
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>

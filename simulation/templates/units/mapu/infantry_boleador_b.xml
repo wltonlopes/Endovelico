@@ -33,7 +33,8 @@
   <Identity>
     <Civ>mapu</Civ>
     <SelectionGroupName>units/mapu/infantry_boleador_b</SelectionGroupName>
-    <GenericName>Heavy Boleador</GenericName>
+    <GenericName>Heavy Bolas Thrower</GenericName>
+    <SpecificName>Lükay</SpecificName>
     <Icon>units/moch/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion disable=""/>

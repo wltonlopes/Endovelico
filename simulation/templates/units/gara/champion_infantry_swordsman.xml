@@ -8,8 +8,7 @@
   <Identity>
     <Civ>gara</Civ>
     <Lang></Lang>
-    <GenericName>Champion swordsman</GenericName>
-    <SpecificName>Garamantian Champion Swordsman</SpecificName>
+    <GenericName>Garamantian Champion Swordsman</GenericName>
     <Rank>Elite</Rank>
     <Icon>units/gara/champion_infantry_swordsman.png</Icon>
     <Requirements>

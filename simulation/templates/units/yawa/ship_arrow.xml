@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>yawa</Civ>
-    <GenericName>Warship</GenericName>
+    <GenericName>Javanese Warship</GenericName>
+    <SpecificName>Parahu</SpecificName>
     <Icon>units/yayo/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>

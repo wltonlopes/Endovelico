@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>yawa</Civ>
-    <SpecificName>Akinapi</SpecificName>
+    <SpecificName>Banyaga</SpecificName>
     <Icon>units/yayo/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>gaet</Civ>
     <SelectionGroupName>units/cart/infantry_archer_b</SelectionGroupName>
-    <GenericName>Mauritanian Archer</GenericName>
+    <GenericName>Gaetulian Archer</GenericName>
     <Icon>units/cart/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

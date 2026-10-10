@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>paiu</Civ>
-    <SpecificName>Nora</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <ResourceSupply>
     <MaxGatherers>6</MaxGatherers>

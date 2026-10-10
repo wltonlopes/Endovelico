@@ -7,7 +7,7 @@
   <Identity>
     <Civ>macrob</Civ>
     <SelectionGroupName>units/macrob/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Tribal herdsman</GenericName>
+    <GenericName>Tribal Herdsman Slinger</GenericName>
     <Icon>units/moch/infantry_slinger.png</Icon>
   </Identity>
   <Promotion disable=""/>

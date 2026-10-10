@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName>Great Chief Archer</GenericName>
-    <SpecificName>Morubixaba</SpecificName>
+    <GenericName>Chief Aimberê</GenericName>
+    <SpecificName>Morubixaba Aimberé</SpecificName>
     <SelectionGroupName>units/tupi/hero_night_king</SelectionGroupName>
     <Icon>units/tupi/hero_archer.png</Icon>
   </Identity>

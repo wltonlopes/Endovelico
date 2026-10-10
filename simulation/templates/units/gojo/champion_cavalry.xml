@@ -3,7 +3,8 @@
   <Identity>
     <Civ>gojo</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Spearman Cataphract</SpecificName>
+    <GenericName>Armoured Lancer</GenericName>
+    <SpecificName>Gae-ma-mu-sa</SpecificName>
     <SelectionGroupName>units/gojo/champion_cavalry</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_lancer.png</Icon>
   </Identity>

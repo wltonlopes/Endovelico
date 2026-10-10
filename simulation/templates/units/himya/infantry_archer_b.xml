@@ -3,8 +3,7 @@
   <Identity>
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/infantry_archer_b</SelectionGroupName>
-    <GenericName>Longbowman</GenericName>
-    <SpecificName>Himyarite Archer</SpecificName>
+    <GenericName>Himyarite Archer</GenericName>
     <Icon>units/maur/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

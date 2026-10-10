@@ -3,8 +3,8 @@
 
   <Identity>
     <Civ>swcr</Civ>
-    <GenericName>War Chief</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Beloved Elder</GenericName>
+    <SpecificName>Henehv</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

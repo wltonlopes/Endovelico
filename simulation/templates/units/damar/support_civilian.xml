@@ -7,8 +7,8 @@
   <Identity>
     <Civ>damar</Civ>
 
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Kushite Villager</GenericName>
+    <SpecificName>Taras</SpecificName>
+    <GenericName>Damara Villager</GenericName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

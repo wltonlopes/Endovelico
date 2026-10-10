@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>shona</Civ>
-    <GenericName>Elder Tribal Healer</GenericName>
+    <GenericName>Chaminuka the Prophet</GenericName>
+    <SpecificName>Sekuru Chaminuka</SpecificName>
     <Icon>units/urew/hero_03.png</Icon>
   </Identity>
   <VisualActor>

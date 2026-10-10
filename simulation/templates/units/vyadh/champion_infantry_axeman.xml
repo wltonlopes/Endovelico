@@ -7,8 +7,7 @@
   </Attack>
   <Identity>
     <Civ>vyadh</Civ>
-    <GenericName>Champion Axeman</GenericName>
-    <SpecificName>Wono nö Tupamönö</SpecificName>
+    <GenericName>Funanese Champion Axeman</GenericName>
     <Icon>units/yayo/champion_infantry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

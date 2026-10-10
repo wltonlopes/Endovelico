@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>epir</Civ>
-    <SpecificName>Epirote Scout</SpecificName>
+    <GenericName>Epirote Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

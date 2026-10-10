@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
 <Identity>
     <Civ>naba</Civ>
-    <GenericName>nabataeans Elite Infantry</GenericName>
+    <GenericName>Nabataean Elite Infantry</GenericName>
     <SpecificName>Qestûnarîn</SpecificName>
     <History>These are the veterans among the North Arabian tribes - men who have seen and lived through many wars. They rush into battle with what they can afford - axe, helmet, leather armour and leather covered wicker shields - and cut down even heavy infantry.</History>
     <Icon>units/sele/champion_swordsman.png</Icon>

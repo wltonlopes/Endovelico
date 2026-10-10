@@ -5,6 +5,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <GenericName>Mastanesosus</GenericName>
+    <SpecificName>Mastanesosus</SpecificName>
     <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>

@@ -6,7 +6,8 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Alexander II of Epirus</SpecificName>
+    <GenericName>Alexander II of Epirus</GenericName>
+    <SpecificName>Aléxandros ho Ēpeirṓtēs</SpecificName>
     <Icon>units/epir/hero_alexander_epirus.png</Icon>
   </Identity>
   <VisualActor>

@@ -5,6 +5,7 @@
   </Auras>
   <Identity>
     <Civ>sueb</Civ>
+    <GenericName>Ballomar, King of the Marcomanni</GenericName>
     <SpecificName>Ballomar</SpecificName>
     <Icon>units/sueb/hero_ballomar.png</Icon>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>

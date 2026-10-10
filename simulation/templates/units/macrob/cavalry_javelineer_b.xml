@@ -13,8 +13,8 @@
   <Identity>
     <Civ>macrob</Civ>
     <SelectionGroupName>units/macrob/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Desert Raider</GenericName>
-    <SpecificName>nhw Bulahau gml</SpecificName>
+    <GenericName>Macrobian Light Cavalry</GenericName>
+    <SpecificName>Fardooley</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/subsaara/cavalry_javelineer.png</Icon>
   </Identity>

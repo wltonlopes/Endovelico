@@ -2,6 +2,7 @@
 <Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>pyu</Civ>
+    <SpecificName>Assasālā</SpecificName>
   </Identity>
     <Trainer>
     <Entities datatype="tokens">   

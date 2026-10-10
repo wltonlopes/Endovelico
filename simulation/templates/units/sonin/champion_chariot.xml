@@ -2,7 +2,7 @@
 <Entity parent="chariot|template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>sonin</Civ>
-    <GenericName>Chariot Javelinist</GenericName>
+    <GenericName>Chariot Javelineer</GenericName>
     <SpecificName>Sofa-Seré</SpecificName>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>

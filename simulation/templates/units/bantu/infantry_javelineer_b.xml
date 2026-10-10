@@ -3,8 +3,8 @@
   <Identity>
     <Civ>bantu</Civ>
     <SelectionGroupName>units/southern_bantu/infantry_javelineer_b</SelectionGroupName>
-    <GenericName>Shona Skirmisher</GenericName>
-    <SpecificName>Pfumo</SpecificName>
+    <GenericName>Bantu Skirmisher</GenericName>
+    <SpecificName>Lerumo</SpecificName>
     <Icon>units/thra/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

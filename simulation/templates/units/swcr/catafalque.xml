@@ -6,6 +6,6 @@
   </Auras>
   <Identity>
     <Civ>swcr</Civ>
-    <SpecificName>Swift Creek Funerary Bier</SpecificName>
+    <GenericName>Swift Creek Funerary Bier</GenericName>
   </Identity>
 </Entity>

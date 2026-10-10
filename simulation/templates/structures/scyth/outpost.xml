@@ -3,7 +3,7 @@
   <Capturable disable=""/>
   <Identity>
     <Civ>scyth</Civ>
-    <SpecificName>Prophylax</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

@@ -3,8 +3,8 @@
   <Identity>
     <Civ>himya</Civ>
     <SelectionGroupName>units/himya/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Himyar Light Cavalry</GenericName>
-    <SpecificName>Himyarite Light Cavalry</SpecificName>
+    <GenericName>Himyarite Light Cavalry</GenericName>
+    <SpecificName>ʾAfrās</SpecificName>
     <Icon>units/maur/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

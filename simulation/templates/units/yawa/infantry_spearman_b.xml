@@ -2,7 +2,8 @@
   <Identity>
     <Civ>yawa</Civ>
     <SelectionGroupName>units/yawa/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Infantry Spearman</GenericName>
+    <GenericName>Javanese Spearman</GenericName>
+    <SpecificName>Wadwa</SpecificName>
     <Icon>units/yayo/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

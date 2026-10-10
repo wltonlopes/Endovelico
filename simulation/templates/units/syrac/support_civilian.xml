@@ -3,8 +3,8 @@
   <Identity>
     <Civ>syrac</Civ>
 	<Lang>greek</Lang>
-    <SpecificName>Gýnē Thebaïkós</SpecificName>
-    <GenericName>Theban Villager</GenericName>
+    <SpecificName>Gynḗ Syrakosía</SpecificName>
+    <GenericName>Syracusan Villager</GenericName>
     <Icon>units/theb/support_female_citizen.png</Icon>
 	<SelectionGroupName>units/cyre/support_female_citizen</SelectionGroupName>
   </Identity>

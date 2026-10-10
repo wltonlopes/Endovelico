@@ -2,7 +2,8 @@
 <Entity parent="template_unit_ship_warship_scout">
   <Identity>
     <Civ>gojo</Civ>
-    <GenericName>War Ship</GenericName>
+    <GenericName>Gojoseon War Boat</GenericName>
+    <SpecificName>Byeong-seon</SpecificName>
     <History>.</History>
     <Icon>units/hele/ship_scout.png</Icon>
   </Identity>

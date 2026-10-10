@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>Nilotic Merchant</GenericName>
-    <SpecificName>rmt sbt</SpecificName>
+    <GenericName>Kwa Trader</GenericName>
+    <SpecificName>Oníṣòwò</SpecificName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>

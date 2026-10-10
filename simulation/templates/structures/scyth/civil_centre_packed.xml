@@ -21,8 +21,8 @@
   </Health>
   <Identity>
     <Civ>scyth</Civ>
-    <SpecificName>Chanyu's Hall</SpecificName>
-    <GenericName>Packed Civic Center</GenericName>
+    <SpecificName>!</SpecificName>
+    <GenericName>Packed Royal Encampment</GenericName>
     <Classes datatype="tokens">
       ConquestCritical
 	  CivCentre

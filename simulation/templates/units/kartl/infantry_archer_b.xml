@@ -2,7 +2,8 @@
   <Identity>
     <Civ>kartl</Civ>
     <SelectionGroupName>units/kartl/infantry_archer_b</SelectionGroupName>
-    <GenericName>Thracian Archer</GenericName>
+    <GenericName>Iberian Archer</GenericName>
+    <SpecificName>Mšvildosani</SpecificName>
 
     <Icon>units/thra/infantry_archer.png</Icon>
   </Identity>

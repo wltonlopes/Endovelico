@@ -10,7 +10,7 @@
   <Identity>
     <Civ>urew</Civ>
     <GenericName>Barracks</GenericName>
-    <SpecificName>Ahere Ogun</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="27.5" depth="27.5"/>

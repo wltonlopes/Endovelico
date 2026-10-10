@@ -10,6 +10,7 @@
     <Civ>khoi</Civ>
 
     <GenericName>Khoi Villager</GenericName>
+    <SpecificName>Taras</SpecificName>
     <Icon>units/khoi/citizen.png</Icon>
   </Identity>
   <VisualActor>

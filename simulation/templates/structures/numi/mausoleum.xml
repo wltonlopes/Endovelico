@@ -16,7 +16,8 @@
   </Health>
   <Identity>
     <Civ>numi</Civ>
-    <GenericName>Mausoleum</GenericName>
+    <GenericName>Royal Mausoleum</GenericName>
+    <SpecificName>Medracen</SpecificName>
     <Tooltip>Train Heroes and researcher technologies.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>

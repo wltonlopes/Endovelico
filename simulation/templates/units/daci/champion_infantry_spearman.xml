@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>daci</Civ>
-    <GenericName>Dacian Hoplite</GenericName>
+    <GenericName>Dacian Noble Spearman</GenericName>
 
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
     <Requirements>

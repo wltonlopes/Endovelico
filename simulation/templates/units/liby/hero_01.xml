@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>Inaro</GenericName>
+    <GenericName>Inaros, Prince of the Libyans</GenericName>
+    <SpecificName>Inarōs</SpecificName>
     <Icon>units/gara/hero_1.png</Icon>
   </Identity>
   <VisualActor>

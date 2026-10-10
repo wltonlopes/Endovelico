@@ -3,7 +3,7 @@
   <Identity>
     <Civ>bactr</Civ>
     <GenericName>Palace</GenericName>
-    <SpecificName>Palace</SpecificName>
+    <SpecificName>!</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <Trainer>

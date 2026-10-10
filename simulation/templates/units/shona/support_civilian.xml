@@ -7,6 +7,7 @@
   <Identity>
     <Civ>shona</Civ>
     <GenericName>Shona Villager</GenericName>
+    <SpecificName>Mukadzi</SpecificName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

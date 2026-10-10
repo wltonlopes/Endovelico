@@ -6,7 +6,8 @@
   <Identity>
     <Civ>hisat</Civ>
     <Phenotype>female</Phenotype>
-    <GenericName>Great Matriarch</GenericName>
+    <GenericName>Clan Mother</GenericName>
+    <SpecificName>So'wuuti</SpecificName>
     <SelectionGroupName>units/hisat/hero_rain_lord</SelectionGroupName>
     <Icon>units/hisat/hero_matriarch.png</Icon>
   </Identity>

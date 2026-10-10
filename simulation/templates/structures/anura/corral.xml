@@ -10,6 +10,7 @@
   <Identity>
     <Civ>anura</Civ>
     <GenericName>Corral</GenericName>
+    <SpecificName>Vaja</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="11.5" depth="17.5"/>

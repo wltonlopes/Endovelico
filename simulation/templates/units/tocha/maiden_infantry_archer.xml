@@ -19,7 +19,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Maiden Archer</SpecificName>
+    <GenericName>Tocharian Maiden Archer</GenericName>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

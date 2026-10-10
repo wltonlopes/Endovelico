@@ -6,7 +6,8 @@
   </Auras>
   <Identity>
     <Civ>xion</Civ>
-    <SpecificName>Chanyu Laoshang</SpecificName>
+    <GenericName>Laoshang Chanyu</GenericName>
+    <SpecificName>Lǎoshàng Chányú</SpecificName>
     <Icon>units/xion/hero_1.png</Icon>
   </Identity>
   <VisualActor>

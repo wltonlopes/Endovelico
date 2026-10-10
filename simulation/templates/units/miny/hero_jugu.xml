@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>miny</Civ>
-    <GenericName>Jugu</GenericName>
-    <SpecificName>Jugu</SpecificName>
+    <GenericName>Zou Jugu</GenericName>
+    <SpecificName>Zōu Jūgǔ</SpecificName>
     <History>The last king of Minyue. He surrendered to the Han forces after the other Minyue generals killed the rebellious Yushan. He was pardoned and resettled by the Han court, ending the Minyue kingdom.</History>
     <Icon>units/yayo/hero_wousu.png</Icon>
   </Identity>

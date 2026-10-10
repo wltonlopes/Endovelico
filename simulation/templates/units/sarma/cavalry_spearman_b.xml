@@ -9,8 +9,8 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
+    <GenericName>Sarmatian Lancer</GenericName>
     <SelectionGroupName>units/scyth/cavalry_spearman</SelectionGroupName>
-    <SpecificName>Sarmatian Cavalry Lancer</SpecificName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>
   <Promotion>

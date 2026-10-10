@@ -9,7 +9,7 @@
     <Civ>bedo</Civ>
     <SelectionGroupName>units/bedo/infantry_archer_b</SelectionGroupName>
     <GenericName>Bedouin Archer</GenericName>
-    <SpecificName>Pdty Nhsyw</SpecificName>
+    <SpecificName>Rāmī</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>

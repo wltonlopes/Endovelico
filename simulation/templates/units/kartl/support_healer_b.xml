@@ -1,6 +1,8 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>kartl</Civ>
+    <GenericName>Iberian Priest</GenericName>
+    <SpecificName>Kurumi</SpecificName>
     <SelectionGroupName>units/kartl/support_healer_b</SelectionGroupName>
     <Icon>units/hele/support_healer.png</Icon>
   </Identity>

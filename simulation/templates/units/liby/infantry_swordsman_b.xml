@@ -3,7 +3,7 @@
   <Identity>
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Mazyes Swordsman</GenericName>
+    <GenericName>Maxyes Swordsman</GenericName>
     <Icon>units/gara/infantry_swordsman_desert.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

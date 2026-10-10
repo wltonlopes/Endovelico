@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Identity>
     <Civ>suva</Civ>
-    <GenericName>Keikō</GenericName>
-    <SpecificName>Opotarasipiko Osiröwakë</SpecificName>
+    <GenericName>Siharaja of Thaton</GenericName>
+    <SpecificName>Sīharājā</SpecificName>
     <Icon>units/yayo/hero_keiko.png</Icon>
   </Identity>
   <VisualActor>

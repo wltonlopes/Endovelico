@@ -8,7 +8,7 @@
     <Civ>sao</Civ>
 
     <SelectionGroupName>units/sao/infantry_archer_b</SelectionGroupName>
-    <GenericName>Archer</GenericName>
+    <GenericName>Sao Archer</GenericName>
     <SpecificName>Maharba</SpecificName>
     <Icon>units/kush/infantry_archer.png</Icon>
     <Requirements>

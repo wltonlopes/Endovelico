@@ -2,7 +2,7 @@
   <Identity>
    <Civ>miny</Civ>
     <SelectionGroupName>units/miny/infantry_archer_b</SelectionGroupName>
-    <GenericName>Infantry Archer</GenericName>
+    <GenericName>Minyue Archer</GenericName>
     <SpecificName>She Shou</SpecificName>
     <Icon>units/yayo/infantry_archer.png</Icon>
   </Identity>

@@ -14,7 +14,6 @@
     <Civ>gara</Civ>
     <SelectionGroupName>units/gara/cavalry_archer_merc_b</SelectionGroupName>
     <GenericName>Desert Raider</GenericName>
-    <SpecificName>nhw Bulahau gml</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/gara/camel_archer.png</Icon>
     <Requirements>

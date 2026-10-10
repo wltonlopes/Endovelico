@@ -1,5 +1,7 @@
 <Entity parent="units/himya/cavalry_spearman_b">
   <Identity>
+    <GenericName>Nabataean Raiding Cavalry</GenericName>
+    <SpecificName></SpecificName>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>

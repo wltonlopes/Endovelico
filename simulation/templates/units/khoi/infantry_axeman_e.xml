@@ -2,7 +2,6 @@
 <Entity parent="units/khoi/infantry_axeman_a">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>Veteran Axeman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
   <Promotion disable=""/>

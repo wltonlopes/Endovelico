@@ -3,8 +3,8 @@
   <Identity>
     <Civ>tami</Civ>
     <SelectionGroupName>units/maur/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Indian Light Cavalry</GenericName>
-    <SpecificName>Ashwarohi</SpecificName>
+    <GenericName>Tamil Light Cavalry</GenericName>
+    <SpecificName>Kutirai Vīrar</SpecificName>
     <Icon>units/maur/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

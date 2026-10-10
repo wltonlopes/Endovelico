@@ -4,7 +4,8 @@
     <Civ>anish</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/anish/cavalry_axeman_b</SelectionGroupName>
-    <GenericName>Heavy Warrior</GenericName>
+    <GenericName>Anishinaabe Veteran Warrior</GenericName>
+    <SpecificName>Ogichidaa</SpecificName>
     <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

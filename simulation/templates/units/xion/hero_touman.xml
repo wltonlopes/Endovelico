@@ -10,7 +10,8 @@
   </Footprint>
   <Identity>
     <Civ>xion</Civ>
-    <SpecificName>Chanyu Touman</SpecificName>
+    <GenericName>Touman Chanyu</GenericName>
+    <SpecificName>Tóumàn Chányú</SpecificName>
     <Icon>units/xion/hero_3.png</Icon>
   </Identity>
   <Resistance>

@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>Aramaean Merchant</GenericName>
-    <SpecificName>Tamkarum Arami</SpecificName>
+    <GenericName>Libyan Trader</GenericName>
+    <SpecificName>Asebbab</SpecificName>
     <Icon>units/achae/support_trader.png</Icon>
     <Tooltip>Trade resources between your own markets and those of your allies. Persians have a +25% land trading bonus.</Tooltip>
   </Identity>

@@ -4,7 +4,7 @@
   <Civ>cyre</Civ>
 	<Lang>greek</Lang>
 	<GenericName>Royal Guard</GenericName>
-    <SpecificName>Basilikoi Epilektoi Hoplítēs Kyrēnaïkoí</SpecificName>
+    <SpecificName>Basilikòs Hypaspistḗs</SpecificName>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
     <History>.</History>
     <Requirements>

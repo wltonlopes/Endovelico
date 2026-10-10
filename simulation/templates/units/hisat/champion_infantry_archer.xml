@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
   <Civ>hisat</Civ>
-    <GenericName>Gread Archer</GenericName>
+    <GenericName>Hisatsinom Great Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>

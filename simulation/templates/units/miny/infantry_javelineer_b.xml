@@ -2,6 +2,8 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>miny</Civ>
+    <GenericName>Minyue Skirmisher</GenericName>
+    <SpecificName>Tou Mao Shou</SpecificName>
     <SelectionGroupName>units/miny/infantry_javelinist_b</SelectionGroupName>
     <Icon>units/iber/infantry_javelinist.png</Icon>
   </Identity>

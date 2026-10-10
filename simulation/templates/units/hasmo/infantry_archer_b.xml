@@ -5,7 +5,7 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/hasmo/infantry_archer_b</SelectionGroupName>
     <GenericName>Judean Archer</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Qashat</SpecificName>
     <Icon>units/hasmo/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

@@ -6,6 +6,7 @@
   </Auras>
   <Identity>
     <Civ>maya</Civ>
+    <GenericName>Maya Royal Bier</GenericName>
     <SpecificName>Ajaw</SpecificName>
   </Identity>
 </Entity>

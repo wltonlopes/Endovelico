@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>ural</Civ>
-    <GenericName>Spearman</GenericName>
+    <GenericName>Uralic Spearman</GenericName>
     <SelectionGroupName>units/ural/infantry_spearman</SelectionGroupName>
     <Icon>units/xion/infantry_spearman.png</Icon>
   </Identity>

@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>damar</Civ>
-    <GenericName>Great Tribal Queen</GenericName>
+    <GenericName>Great Queen</GenericName>
+    <SpecificName>Gaos</SpecificName>
 	<Phenotype>female</Phenotype>
     <Icon>units/urew/hero_02.png</Icon>
   </Identity>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>miny</Civ>
-    <SpecificName>Akinapi</SpecificName>
+    <SpecificName>Shang Ren</SpecificName>
     <Icon>units/yayo/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -4,7 +4,7 @@
     <Civ>gojo</Civ>
     <SelectionGroupName>units/gojo/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Bronze Dagger Warrior</GenericName>
-    <SpecificName>Bipa Hyeong Geom-sa</SpecificName>
+    <SpecificName>Bipa-hyeong Geom-sa</SpecificName>
     <Icon>units/yayo/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>

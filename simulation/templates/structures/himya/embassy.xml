@@ -16,7 +16,7 @@
   </Health>
   <Identity>
     <Civ>himya</Civ>
-    <GenericName>emporium</GenericName>
+    <GenericName>Emporium</GenericName>
     <Tooltip>Train mercenaries units and market center</Tooltip>
     <Classes datatype="tokens">CampCaravan</Classes>
      <VisibleClasses datatype="tokens">Trade Town Market</VisibleClasses>

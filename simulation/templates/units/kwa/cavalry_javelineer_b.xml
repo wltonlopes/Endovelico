@@ -4,8 +4,8 @@
     <Civ>kwa</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/azan/heavy_javelineer</SelectionGroupName>
-    <GenericName>Heavy Warrior Javalinist</GenericName>
-    <SpecificName>Kumo</SpecificName>
+    <GenericName>Heavy Javelin Warrior</GenericName>
+    <SpecificName>Jagunjagun</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion disable=""/>

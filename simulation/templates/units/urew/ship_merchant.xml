@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>urew</Civ>
-    <SpecificName>Trade Raft</SpecificName>
+    <GenericName>Trading Canoe</GenericName>
+    <SpecificName>Ubwato</SpecificName>
     <Icon>units/zapo/ship_merchant.png</Icon>
   </Identity>
   <Selectable>

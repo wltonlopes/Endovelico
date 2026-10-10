@@ -3,7 +3,7 @@
   <Identity>
     <Civ>viet</Civ>
     <GenericName>War Elephant</GenericName>
-    <SpecificName/>
+    <SpecificName>Tượng Binh</SpecificName>
     <Icon>units/ptol/champion_elephant.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

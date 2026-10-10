@@ -3,6 +3,7 @@
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
+    <GenericName>Scythian Wagon</GenericName>
   </Identity>
   <Upgrade>
     <UnPackStorehouse>

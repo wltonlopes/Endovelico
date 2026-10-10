@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Great Ulmen</GenericName>
+    <GenericName>Colocolo, Wise Ulmen</GenericName>
+    <SpecificName>Kolokolo</SpecificName>
     <SelectionGroupName>units/mapu/hero_02</SelectionGroupName>
     <History>Great Ulmen / Administration Bonus</History>
     <Icon>units/mapu/hero_02.png</Icon>

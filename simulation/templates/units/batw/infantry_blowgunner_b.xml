@@ -6,8 +6,7 @@
     <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <Phenotype>female</Phenotype>
-    <GenericName>Blowgun hunter</GenericName>
-    <SpecificName>Taquara-okaî-abá</SpecificName>
+    <GenericName>Batwa Poison-Dart Hunter</GenericName>
     <Icon>units/south_america/infantry_blowgunner.png</Icon>
   </Identity>
   <Promotion disable=""/>

@@ -5,8 +5,8 @@
     </Auras>
   <Identity>
     <Civ>araw</Civ>
-    <GenericName>Chief</GenericName>
-    <SpecificName>Kasike</SpecificName>
+    <GenericName>Chief Hatuey</GenericName>
+    <SpecificName>Kasike Hatuey</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

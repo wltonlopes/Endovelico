@@ -6,7 +6,7 @@
   <Identity>
     <Civ>aden</Civ>
     <Phenotype>female</Phenotype>
-    <GenericName>Matriarch</GenericName>
+    <GenericName>Clan Matriarch</GenericName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/aden/hero_night_king</SelectionGroupName>
     <Icon>units/aden/hero_02.png</Icon>

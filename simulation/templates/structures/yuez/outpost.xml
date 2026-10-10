@@ -6,7 +6,7 @@
   <Capturable disable=""/>
   <Identity>
     <Civ>yuez</Civ>
-    <SpecificName>Prophylax</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Researcher>
     <Technologies datatype="tokens">

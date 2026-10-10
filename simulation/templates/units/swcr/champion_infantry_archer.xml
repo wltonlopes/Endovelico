@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
   <Civ>swcr</Civ>
-    <GenericName>Gread Archer</GenericName>
+    <GenericName>Swift Creek Great Archer</GenericName>
     <SpecificName>Kowi</SpecificName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>

@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>vyadh</Civ>
-    <SpecificName>Stupa</SpecificName>
+    <GenericName>Stupa</GenericName>
+    <SpecificName>Thūpa</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="17.5" depth="35.5"/>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>nok</Civ>
 	  <Phenotype>female</Phenotype>
-    <GenericName>Queen</GenericName>
+    <GenericName>Queen of Nok</GenericName>
     <Icon>units/nok/hero_03.png</Icon>
   </Identity>
   <VisualActor>

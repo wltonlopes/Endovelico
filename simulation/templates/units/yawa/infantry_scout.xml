@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_archer">
   <Identity>
     <Civ>yawa</Civ>
-    <SpecificName>Javanese Scout</SpecificName>
+    <GenericName>Javanese Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

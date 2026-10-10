@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>yuez</Civ>
+    <GenericName>Yuezhi Sword Cavalry</GenericName>
     <SelectionGroupName>units/yuez/cavalry_swordsman</SelectionGroupName>
     <Icon>units/xion/cav_swordsman.png</Icon>
   </Identity>

@@ -3,7 +3,7 @@
     <Civ>batw</Civ>
 
     <SelectionGroupName>units/batw/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Village Spearman</GenericName>
+    <GenericName>Batwa Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sao</Civ>
     <GenericName>Palace</GenericName>
-    <SpecificName>Otooch</SpecificName>
+    <SpecificName>!</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <Trainer>

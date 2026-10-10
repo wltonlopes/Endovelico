@@ -3,7 +3,7 @@
   <Identity>
     <Civ>daci</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Dacian Scout</SpecificName>
+    <GenericName>Dacian Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

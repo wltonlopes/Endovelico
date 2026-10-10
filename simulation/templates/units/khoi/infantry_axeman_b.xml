@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <SelectionGroupName>units/khoi/infantry_axeman_b</SelectionGroupName>
-    <GenericName>Axeman</GenericName>
+    <GenericName>Khoi Axeman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>

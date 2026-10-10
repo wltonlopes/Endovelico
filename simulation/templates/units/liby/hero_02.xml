@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>Mathos</GenericName>
+    <GenericName>Mathos the Libyan</GenericName>
+    <SpecificName>Máthōs</SpecificName>
     <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>

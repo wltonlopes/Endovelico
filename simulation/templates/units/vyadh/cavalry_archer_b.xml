@@ -3,8 +3,8 @@
   <Identity>
     <Civ>vyadh</Civ>
     <SelectionGroupName>units/korean/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Cavalry Korean</GenericName>
-    <SpecificName>Umanöri Mësikakapë</SpecificName>
+    <GenericName>Funanese Horse Archer</GenericName>
+    <SpecificName>Aśvāroha</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">

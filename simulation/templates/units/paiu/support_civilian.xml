@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>paiu</Civ>
-    <GenericName>Villager</GenericName>
+    <GenericName>Paiute Villager</GenericName>
+    <SpecificName>Nümü</SpecificName>
     <Icon>units/paiu/citizen.png</Icon>
     <SelectionGroupName>units/paiu/support_female_citizen</SelectionGroupName>
   </Identity>

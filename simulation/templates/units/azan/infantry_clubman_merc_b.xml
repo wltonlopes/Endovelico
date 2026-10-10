@@ -2,7 +2,7 @@
 <Entity parent="merc_inf|template_unit_infantry_melee_maceman">
   <Identity>
     <Civ>azan</Civ>
-    <GenericName>Tribal Maceman Kaskazi</GenericName>
+    <GenericName>Northern Tribal Clubman</GenericName>
     <SelectionGroupName>units/azan/infantry_maceman_merc</SelectionGroupName>
     <Icon>units/maya/mercenary_swordsman.png</Icon>
     <Requirements>

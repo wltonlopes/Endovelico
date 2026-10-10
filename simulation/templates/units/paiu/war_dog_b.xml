@@ -2,8 +2,8 @@
 <Entity parent="template_unit_dog">
   <Identity>
     <Civ>paiu</Civ>
+    <GenericName>Hunting Dog</GenericName>
     <SelectionGroupName>units/pauite/war_dog_b</SelectionGroupName>
-    <SpecificName>Hunting Dog</SpecificName>
     <Icon>units/brit/war_dog.png</Icon>
   </Identity>
   <Promotion disable=""/>

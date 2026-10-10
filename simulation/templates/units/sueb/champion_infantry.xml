@@ -2,7 +2,8 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Chieftain's Guard</SpecificName>
+    <GenericName>Chieftain's Guard</GenericName>
+    <SpecificName>Druhtiz</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <History>These men are veteran soldiers who offer their lives in service to their German chieftains.</History>
     <Icon>units/sueb/champion_infantry_swordsman.png</Icon>

@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>War Ulmen</GenericName>
+    <GenericName>Lautaro, War Toqui</GenericName>
+    <SpecificName>Leftraru</SpecificName>
     <History>Great Toqui / Military and Administration basic Bonus</History>
     <SelectionGroupName>units/mapu/hero_03</SelectionGroupName>
     <Icon>units/mapu/hero_03.png</Icon>

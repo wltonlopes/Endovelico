@@ -2,8 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
   <Civ>tupi</Civ>
-    <GenericName>Gread Archer</GenericName>
-    <SpecificName>Porang-abá</SpecificName>
+    <GenericName>Tupi Great Archer</GenericName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>

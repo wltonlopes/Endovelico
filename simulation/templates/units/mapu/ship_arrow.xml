@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Bireme</GenericName>
-    <SpecificName>Mapuche War Canoe</SpecificName>
+    <GenericName>War Canoe</GenericName>
+    <SpecificName>Wampo</SpecificName>
     <Icon>units/south_america/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

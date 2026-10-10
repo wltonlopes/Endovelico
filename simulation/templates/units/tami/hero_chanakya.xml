@@ -6,8 +6,8 @@
   </Auras>
   <Identity>
     <Civ>tami</Civ>
-    <GenericName>Acharya Chanakya</GenericName>
-    <SpecificName>Acharya Chāṇakya</SpecificName>
+    <GenericName>Thiruvalluvar</GenericName>
+    <SpecificName>Tiruvaḷḷuvar</SpecificName>
     <Icon>units/maur/hero_chanakya.png</Icon>
   </Identity>
   <VisualActor>

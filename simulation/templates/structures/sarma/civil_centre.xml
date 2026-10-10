@@ -23,7 +23,8 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>mandarin</Lang>
-    <SpecificName>Chanyu's Hall</SpecificName>
+    <GenericName>Royal Encampment</GenericName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>

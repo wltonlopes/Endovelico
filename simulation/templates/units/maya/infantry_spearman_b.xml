@@ -12,6 +12,7 @@
   </Builder>
   <Identity>
     <Civ>maya</Civ>
+    <GenericName>Maya Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Taj Lom Bate</SpecificName>
     <Icon>units/maya/infantry_spearman.png</Icon>

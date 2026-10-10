@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>vyadh</Civ>
-    <SpecificName>Womina</SpecificName>
+    <GenericName>Funanese Villager</GenericName>
+    <SpecificName>Strī</SpecificName>
     <Icon>units/yayo/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

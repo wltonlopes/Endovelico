@@ -2,7 +2,7 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>mapu</Civ>
-    <SpecificName>Mapuche Stone Wall</SpecificName>
+    <SpecificName>Malal</SpecificName>
   </Identity>
   <WallSet>
     <Templates>

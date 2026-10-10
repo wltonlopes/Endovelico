@@ -6,7 +6,8 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Pyrrhus of Epirus</SpecificName>
+    <GenericName>Pyrrhus of Epirus</GenericName>
+    <SpecificName>Pýrrhos ho Ēpeirṓtēs</SpecificName>
     <Icon>units/epir/hero_pyrrhus.png</Icon>
   </Identity>
   <VisualActor>

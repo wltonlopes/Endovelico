@@ -7,8 +7,9 @@
   </Builder>
   <Identity>
     <Civ>gojo</Civ>
+    <GenericName>Gojoseon Crossbowman</GenericName>
     <SelectionGroupName>units/gojo/infantry_crossbowman_b</SelectionGroupName>
-    <SpecificName>Seok-nu-sa</SpecificName>
+    <SpecificName>No-su</SpecificName>
     <Icon>units/han/infantry_crossbowman.png</Icon>
   </Identity>
   <Promotion>

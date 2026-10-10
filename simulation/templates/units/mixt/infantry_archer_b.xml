@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>mixt</Civ>
+    <GenericName>Mixtec Obsidian Archer</GenericName>
     <SelectionGroupName>units/zapo/infantry_archer_b</SelectionGroupName>
-    <SpecificName>Zapotec Obsidian Archer</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/infantry_archer.png</Icon>
   </Identity>

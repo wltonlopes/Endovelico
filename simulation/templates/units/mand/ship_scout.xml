@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mand</Civ>
-    <GenericName>War Boat</GenericName>
+    <GenericName>Scout Canoe</GenericName>
     <Icon>units/achae/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

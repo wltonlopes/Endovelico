@@ -19,7 +19,7 @@
   </GarrisonHolder>
   <Identity>
     <Civ>khoi</Civ>
-    <SpecificName>War Raft</SpecificName>
+    <GenericName>War Raft</GenericName>
     <Icon>units/zapo/ship_canoe.png</Icon>
     <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
   </Identity>

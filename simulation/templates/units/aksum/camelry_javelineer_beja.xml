@@ -3,7 +3,7 @@
   <Identity>
     <Civ>aksum</Civ>
     <SelectionGroupName>units/aksum/camelry_javalineer_beja</SelectionGroupName>
-    <GenericName>Beja Javalineer Camelry</GenericName>
+    <GenericName>Beja Camel Javelineer</GenericName>
     <SpecificName/>
     <Icon>units/merc/beja_camelry_javelineer.png</Icon>
   </Identity>

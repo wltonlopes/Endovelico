@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <SelectionGroupName>units/nok/cavalry_maceman_b</SelectionGroupName>
-    <GenericName>Nok Maceman Cavalry</GenericName>
+    <GenericName>Nok Mace Cavalry</GenericName>
     <Icon>units/achae/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

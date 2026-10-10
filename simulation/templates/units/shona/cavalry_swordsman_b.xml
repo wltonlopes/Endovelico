@@ -5,8 +5,8 @@
 	<Phenotype>female</Phenotype>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/shona/cavalry_swordsman_b</SelectionGroupName>
-    <GenericName>Warrior</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Veteran Sword Warrior</GenericName>
+    <SpecificName>Bakatwa</SpecificName>
     <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

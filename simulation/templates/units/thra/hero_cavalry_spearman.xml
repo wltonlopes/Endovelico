@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>thra</Civ>
-    <SpecificName>Kotys I</SpecificName>
+    <GenericName>Cotys I</GenericName>
+    <SpecificName>Kótys</SpecificName>
     <Icon>units/thra/hero_kotys_i.png</Icon>
   </Identity>
   <VisualActor>

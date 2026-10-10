@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_fishing">
   <Identity>
     <Civ>moch</Civ>
-    <SpecificName>Ploîon Halieutikón</SpecificName>
+    <GenericName>Reed Fishing Boat</GenericName>
     <Icon>units/moch/ship_canoe.png</Icon>
   </Identity>
   <VisualActor>

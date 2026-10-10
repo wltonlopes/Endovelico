@@ -9,8 +9,8 @@
   </Footprint>
   <Identity>
     <Civ>malay</Civ>
-    <GenericName>Sungai batu</GenericName>
-    <SpecificName>Sungai batu</SpecificName>
+    <GenericName>Merong Mahapudisat of Sungai Batu</GenericName>
+    <SpecificName>Raja Merong Mahapudisat</SpecificName>
     <Classes datatype="tokens">Ashoka</Classes>
     <Icon>units/maur/hero_ashoka.png</Icon>
   </Identity>

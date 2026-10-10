@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>gojo</Civ>
-    <GenericName>Champion Swordsman</GenericName>
+    <GenericName>Ring-Pommel Sword Champion</GenericName>
     <SpecificName>Hwan-du Dae-do-sa</SpecificName>
     <Icon>units/yayo/champion_infantry_swordsman.png</Icon>
     <Requirements>

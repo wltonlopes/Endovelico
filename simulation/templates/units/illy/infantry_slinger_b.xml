@@ -3,8 +3,7 @@
   <Identity>
     <Civ>illy</Civ>
     <SelectionGroupName>units/maya_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Maya Slinger</GenericName>
-    <SpecificName>Yum'Tun Bate</SpecificName>
+    <GenericName>Illyrian Slinger</GenericName>
     <Icon>units/maya/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

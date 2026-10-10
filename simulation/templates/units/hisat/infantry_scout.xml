@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_spearman">
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Hisatsinom Scout</SpecificName>
+    <GenericName>Hisatsinom Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

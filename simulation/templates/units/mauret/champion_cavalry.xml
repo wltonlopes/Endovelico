@@ -2,8 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_swordsman">
   <Identity>
     <Civ>mauret</Civ>
-    <SpecificName>Champion Cavalry Swordsman</SpecificName>
-    <GenericName>Champion Cavalry Swordsman</GenericName>
+    <GenericName>Mauretanian Noble Sword Cavalry</GenericName>
     <Icon>units/rome/champion_cavalry.png</Icon>
     <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
     <Requirements>

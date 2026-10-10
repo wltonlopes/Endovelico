@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>viet</Civ>
-    <GenericName>Vietnam Warship</GenericName>
-    <SpecificName>Opobune</SpecificName>
+    <GenericName>Lac Viet Warship</GenericName>
+    <SpecificName>Thuyền Chiến</SpecificName>
     <Icon>units/yayo/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>

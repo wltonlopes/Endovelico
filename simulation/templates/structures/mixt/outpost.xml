@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defensive_outpost">
   <Identity>
     <Civ>mixt</Civ>
-    <GenericName>Zapotec Outpost</GenericName>
+    <GenericName>Mixtec Outpost</GenericName>
   </Identity>
   <VisualActor>
     <Actor>structures/hellenes/outpost.xml</Actor>

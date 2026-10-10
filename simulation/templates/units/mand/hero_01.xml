@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_cavalry_javelineer">
   <Identity>
     <Civ>mand</Civ>
-    <GenericName></GenericName>
-    <SpecificName>Kaya Magan</SpecificName>
+    <GenericName>Sunjata Keita, the Lion King</GenericName>
+    <SpecificName>Sunjata Keyita</SpecificName>
     <Icon>units/kush/hero_amanirenas.png</Icon>
   </Identity>
   <VisualActor>

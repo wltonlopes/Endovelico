@@ -4,7 +4,7 @@
     <Civ>hasmo</Civ>
     <SelectionGroupName>units/hasmo/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Judean Light Cavalry</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Parash Qal</SpecificName>
     <Icon>units/hasmo/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

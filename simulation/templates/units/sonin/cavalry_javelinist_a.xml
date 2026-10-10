@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <SelectionGroupName>units/sonin/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Desert Raider</GenericName>
+    <GenericName>Soninke Cavalry Skirmisher</GenericName>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>
   <Promotion>

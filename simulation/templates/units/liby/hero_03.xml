@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>liby</Civ>
-    <GenericName>Myttonus</GenericName>
+    <GenericName>Muttines</GenericName>
+    <SpecificName>Myttónēs</SpecificName>
     <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>

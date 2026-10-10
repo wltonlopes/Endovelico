@@ -4,8 +4,7 @@
     <Civ>gara</Civ>
     <SelectionGroupName>units/gara/cavalry_spearman_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <GenericName>Garamantian Heavy Camel</GenericName>
-    <SpecificName>Htr</SpecificName>
+    <GenericName>Garamantian Camel Lancer</GenericName>
     <Icon>units/gara/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

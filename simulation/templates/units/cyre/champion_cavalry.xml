@@ -3,7 +3,8 @@
   <Identity>
     <Civ>cyre</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Kyrēnaïkoí Hiera Ile</SpecificName>
+    <GenericName>Cyrenaean Sacred Squadron</GenericName>
+    <SpecificName>Hierà Ílē</SpecificName>
     <SelectionGroupName>units/cyre/champion_cavalry</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_lancer.png</Icon>
   </Identity>

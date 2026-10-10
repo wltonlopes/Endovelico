@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>chibc</Civ>
-    <GenericName>Chief</GenericName>
+    <GenericName>Hunzahúa, Zaque of Hunza</GenericName>
+    <SpecificName>Hunzahúa</SpecificName>
     <SelectionGroupName>units/chibc/hero_night_king</SelectionGroupName>
     <Icon>units/chibc/hero_02.png</Icon>
   </Identity>

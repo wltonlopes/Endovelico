@@ -3,7 +3,7 @@
   <Identity>
     <Civ>moch</Civ>
     <SelectionGroupName>units/moch/infantry_maceman_b</SelectionGroupName>
-    <GenericName>Maceman</GenericName>
+    <GenericName>Moche Maceman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/moch/infantry_maceman.png</Icon>
   </Identity>

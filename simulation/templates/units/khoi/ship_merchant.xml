@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>khoi</Civ>
-    <SpecificName>Trade Raft</SpecificName>
+    <GenericName>Trading Raft</GenericName>
     <Icon>units/zapo/ship_merchant.png</Icon>
   </Identity>
   <Selectable>

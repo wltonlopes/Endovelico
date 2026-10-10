@@ -6,8 +6,8 @@
   </Builder>
   <Identity>
     <Civ>mand</Civ>
+    <GenericName>Mande Slinger</GenericName>
     <SelectionGroupName>units/mand/infantry_slinger_b</SelectionGroupName>
-    <SpecificName>Taghaza</SpecificName>
     <Icon>units/moch/infantry_slinger.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

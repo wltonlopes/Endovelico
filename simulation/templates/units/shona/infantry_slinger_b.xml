@@ -3,7 +3,7 @@
   <Identity>
     <Civ>shona</Civ>
     <SelectionGroupName>units/shona/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Tribal Slinger</GenericName>
+    <GenericName>Shona Slinger</GenericName>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

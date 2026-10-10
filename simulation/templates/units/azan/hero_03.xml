@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>azan</Civ>
-    <GenericName>King of Rhapta</GenericName>
+    <GenericName>Lord of Menouthias</GenericName>
+    <SpecificName>Mwinyi wa Menouthias</SpecificName>
     <Icon>units/kush/hero_nastasen.png</Icon>
   </Identity>
   <VisualActor>

@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>urew</Civ>
-    <GenericName>Elder Tribal Healer</GenericName>
+    <GenericName>Ryangombe the Diviner</GenericName>
+    <SpecificName>Ryangombe</SpecificName>
     <Icon>units/urew/hero_03.png</Icon>
   </Identity>
   <VisualActor>

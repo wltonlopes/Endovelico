@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>yawa</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
+    <SpecificName>Gusali</SpecificName>
   </Identity>
   <VisualActor>
        <Actor>structures/yawadwipa/forge.xml</Actor>

@@ -18,7 +18,6 @@
   </Footprint>
   <Identity>
     <Civ>anish</Civ>
-    <SpecificName>Battering Ram</SpecificName>
     <Icon>units/maya/siege_ram.png</Icon>
   </Identity>
   <Health>

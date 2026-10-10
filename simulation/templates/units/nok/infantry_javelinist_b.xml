@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <SelectionGroupName>units/nok/infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Skirmisher</GenericName>
+    <GenericName>Nok Skirmisher</GenericName>
     <Icon>units/subsaara/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

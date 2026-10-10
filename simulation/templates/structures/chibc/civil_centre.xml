@@ -2,6 +2,7 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>chibc</Civ>
+    <SpecificName>Quyca</SpecificName>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

@@ -5,6 +5,7 @@
   </Builder>
   <Identity>
     <Civ>puka</Civ>
+    <GenericName>Pukara Slinger</GenericName>
     <SelectionGroupName>units/puka/infantry_slinger_b</SelectionGroupName>
     <SpecificName>Warakaq</SpecificName>
     <Icon>units/moch/infantry_slinger.png</Icon>

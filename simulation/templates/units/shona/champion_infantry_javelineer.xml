@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_javelineer">
   <Identity>
     <Civ>shona</Civ>
-    <GenericName>Champion</GenericName>
+    <GenericName>Shona Champion Javelineer</GenericName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>

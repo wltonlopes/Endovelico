@@ -11,7 +11,7 @@
   <Identity>
     <Civ>lenc</Civ>
     <SelectionGroupName>units/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Levy Swordsman</GenericName>
+    <GenericName>Levy Macana Warrior</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/zapo/infantry_swordsman.png</Icon>
   </Identity>

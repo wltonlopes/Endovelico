@@ -3,7 +3,7 @@
   <Identity>
     <Civ>batw</Civ>
 
-    <GenericName>Priest</GenericName>
+    <GenericName>Batwa Healer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/kush/support_healer.png</Icon>
   </Identity>

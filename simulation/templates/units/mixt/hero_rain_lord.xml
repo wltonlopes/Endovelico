@@ -6,7 +6,7 @@
   <Identity>
     <Civ>mixt</Civ>
     <GenericName>Rain Lord</GenericName>
-    <SpecificName>Chizino Yejo</SpecificName>
+    <SpecificName>Yya Dzahui</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
     <Icon>units/zapo/hero_rain_lord.png</Icon>

@@ -28,7 +28,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <SelectionGroupName>units/pamp/infantry_boleador_b</SelectionGroupName>
-    <GenericName>Boleador</GenericName>
+    <GenericName>Bolas Thrower</GenericName>
     <Icon>units/moch/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

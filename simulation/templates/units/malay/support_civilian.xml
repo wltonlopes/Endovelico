@@ -3,8 +3,8 @@
 
   <Identity>
     <Civ>malay</Civ>
-    <SpecificName>Naari</SpecificName>
-    <GenericName>Indian Villager</GenericName>
+    <SpecificName>Orang Kampung</SpecificName>
+    <GenericName>Malay Villager</GenericName>
     <Icon>units/maur/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

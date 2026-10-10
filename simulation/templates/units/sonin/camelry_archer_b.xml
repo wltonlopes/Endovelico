@@ -2,7 +2,7 @@
 <Entity parent="camelry|template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>sonin</Civ>
-    <GenericName>Camel Archer</GenericName>
+    <GenericName>Soninke Camel Archer</GenericName>
     <Icon>units/gara/camel_archer.png</Icon>
   </Identity>
   <Promotion disable=""/>

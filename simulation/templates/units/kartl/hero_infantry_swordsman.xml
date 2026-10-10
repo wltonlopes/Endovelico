@@ -9,7 +9,8 @@
   </Auras>
   <Identity>
     <Civ>kartl</Civ>
-    <SpecificName></SpecificName>
+    <GenericName>Pharasmanes I</GenericName>
+    <SpecificName>Parsman</SpecificName>
     <Icon>units/mace/hero_demetrius.png</Icon>
   </Identity>
   <VisualActor>

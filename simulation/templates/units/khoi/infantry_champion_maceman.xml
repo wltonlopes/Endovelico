@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_axeman">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>Champion Maceman</GenericName>
+    <GenericName>Khoi Champion Clubman</GenericName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>
   <Promotion disable=""/>

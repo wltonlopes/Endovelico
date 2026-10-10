@@ -6,7 +6,8 @@
   </Auras>
   <Identity>
     <Civ>himya</Civ>
-    <GenericName>Yazil Bayin</GenericName>
+    <GenericName>Yazil Bayyin</GenericName>
+    <SpecificName>Yaʾzil Bayyin</SpecificName>
     <Icon>units/kush/hero_nastasen.png</Icon>
   </Identity>
   <VisualActor>

@@ -4,7 +4,7 @@
     <Civ>bosp</Civ>
     <Lang>greek</Lang>
     <GenericName>Bosporan Phalangite</GenericName>
-    <SpecificName>Phalangitès Bosporanos</SpecificName>
+    <SpecificName>Phalangítēs Bosporanós</SpecificName>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">unlock_champion_infantry</Techs>

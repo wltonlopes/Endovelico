@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>ural</Civ>
+    <GenericName>Uralic Sword Cavalry</GenericName>
     <SelectionGroupName>units/ural/cavalry_swordsman</SelectionGroupName>
     <Icon>units/xion/cav_swordsman.png</Icon>
   </Identity>

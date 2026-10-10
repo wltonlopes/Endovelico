@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>sao</Civ>
-    <SpecificName>Tu</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="11.5" depth="17.5"/>

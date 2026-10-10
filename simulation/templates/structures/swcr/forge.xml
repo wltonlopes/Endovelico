@@ -2,7 +2,7 @@
 <Entity parent="workshop|template_structure_military_forge">
   <Identity>
     <Civ>swcr</Civ>
-    <SpecificName>Kanutiya</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/swcreek/forge.xml</Actor>

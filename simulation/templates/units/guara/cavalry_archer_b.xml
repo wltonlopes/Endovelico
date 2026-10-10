@@ -3,8 +3,7 @@
   <Identity>
     <Civ>guara</Civ>
     <SelectionGroupName>units/guara/fast_archer</SelectionGroupName>
-    <GenericName>Female archer</GenericName>
-    <SpecificName>Guarani Archer</SpecificName>
+    <GenericName>Guarani Huntress</GenericName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>

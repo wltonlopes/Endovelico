@@ -3,7 +3,7 @@
   <Identity>
   <Civ>liby</Civ>
     <Phenotype>female</Phenotype>
-    <GenericName>Gread Archer</GenericName>
+    <GenericName>Libyan Great Archer</GenericName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>

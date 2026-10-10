@@ -7,7 +7,7 @@
   </Attack>
   <Identity>
     <Civ>lenc</Civ>
-    <SpecificName>Lenca Scout</SpecificName>
+    <GenericName>Lenca Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

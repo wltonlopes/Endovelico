@@ -2,7 +2,7 @@
 <Entity parent="workshop|template_structure_military_forge">
   <Identity>
     <Civ>moch</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/mochicas/blacksmith.xml</Actor>

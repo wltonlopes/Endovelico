@@ -5,6 +5,7 @@
   <Identity>
     <Civ>azan</Civ>
     <GenericName>King of Rhapta</GenericName>
+    <SpecificName>Mfalme wa Rhapta</SpecificName>
     <Icon>units/kush/hero_nastasen.png</Icon>
   </Identity>
   <VisualActor>

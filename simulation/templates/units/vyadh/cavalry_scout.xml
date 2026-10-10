@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>vyadh</Civ>
-    <SpecificName>Vyadhapuran Scout</SpecificName>
+    <GenericName>Vyadhapuran Scout</GenericName>
     <Icon>units/han/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

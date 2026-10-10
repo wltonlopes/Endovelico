@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>pamp</Civ>
+    <GenericName>Pampas Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <Icon>units/south_america/infantry_spearman.png</Icon>
   </Identity>

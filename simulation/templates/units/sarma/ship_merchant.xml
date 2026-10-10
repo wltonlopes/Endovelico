@@ -7,7 +7,6 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Nauson</SpecificName>
     <Icon>units/celt/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>

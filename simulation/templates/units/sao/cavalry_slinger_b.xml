@@ -4,7 +4,6 @@
     <Civ>sao</Civ>
     <SelectionGroupName>units/sao/heavy_infantry</SelectionGroupName>
     <GenericName>Heavy Slinger Warrior</GenericName>
-    <SpecificName>Liwiq</SpecificName>
     <Icon>units/moch/infantry_scout.png</Icon>
   </Identity>
   <Promotion disable=""/>

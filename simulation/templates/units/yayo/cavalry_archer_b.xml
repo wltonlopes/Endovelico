@@ -3,7 +3,7 @@
   <Identity>
     <Civ>yayo</Civ>
     <SelectionGroupName>units/korean/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Mercenary Cavalry Korean</GenericName>
+    <GenericName>Korean Mercenary Horse Archer</GenericName>
     <SpecificName>Umanöri Mësikakapë</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
     <Requirements>

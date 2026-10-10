@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Identity>
     <Civ>malay</Civ>
-    <GenericName>Kedah Tua</GenericName>
-    <SpecificName>Kedah Tua</SpecificName>
+    <GenericName>Merong Mahawangsa of Kedah Tua</GenericName>
+    <SpecificName>Raja Merong Mahawangsa</SpecificName>
     <Icon>units/maur/hero_chandragupta.png</Icon>
   </Identity>
   <VisualActor>

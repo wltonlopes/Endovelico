@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>suva</Civ>
-    <SpecificName>Pr-ỉwn n ms</SpecificName>
+    <SpecificName>Āyudhāgāra</SpecificName>
   </Identity>
   <VisualActor>
        <Actor>structures/suvarnabhumi/arsenal.xml</Actor>

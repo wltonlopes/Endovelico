@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>Trader</GenericName>
+    <GenericName>Khoi Cattle Trader</GenericName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>

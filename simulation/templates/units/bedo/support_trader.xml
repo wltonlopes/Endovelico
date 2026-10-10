@@ -6,6 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>bedo</Civ>
+    <GenericName>Caravan Trader</GenericName>
+    <SpecificName>Tājir</SpecificName>
     <Icon>units/maur/support_trader.png</Icon>
   </Identity>
   <VisualActor>

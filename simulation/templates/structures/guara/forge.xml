@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>guara</Civ>
-    <SpecificName>Kanutiya</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/guaranis/forge.xml</Actor>

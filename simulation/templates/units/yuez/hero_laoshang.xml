@@ -6,7 +6,8 @@
   </Auras>
   <Identity>
     <Civ>yuez</Civ>
-    <SpecificName>Chanyu Laoshang</SpecificName>
+    <GenericName>Kujula Kadphises</GenericName>
+    <SpecificName>Kozola Kadaphes</SpecificName>
     <Icon>units/xion/hero_1.png</Icon>
   </Identity>
   <VisualActor>

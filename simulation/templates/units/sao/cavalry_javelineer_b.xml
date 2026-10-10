@@ -13,8 +13,7 @@
   <Identity>
     <Civ>sao</Civ>
     <SelectionGroupName>units/sao/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Desert Raider</GenericName>
-    <SpecificName>nhw Bulahau gml</SpecificName>
+    <GenericName>Sao Light Cavalry</GenericName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/subsaara/cavalry_javelineer.png</Icon>
   </Identity>

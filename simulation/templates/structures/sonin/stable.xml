@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <GenericName>Shrine</GenericName>
-    <SpecificName>Durosinsin</SpecificName>
+    <SpecificName>!</SpecificName>
     <Tooltip>Build in own, neutral, or allied territory.</Tooltip>
   </Identity>
   <Obstruction>

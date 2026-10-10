@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
-    <SpecificName>Empórios</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="27.5" depth="27.5" />

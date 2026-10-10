@@ -9,8 +9,8 @@
   </Health>
   <Identity>
     <Civ>naba</Civ>
-    <GenericName>Ainu Village</GenericName>
-    <SpecificName>Kotan</SpecificName>
+    <GenericName>Desert Encampment</GenericName>
+    <SpecificName>!</SpecificName>
     <Icon>structures/military_settlement.png</Icon>
   </Identity>
   <Obstruction>

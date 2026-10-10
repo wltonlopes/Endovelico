@@ -3,7 +3,7 @@
   <Identity>
     <Civ>paiu</Civ>
     <SelectionGroupName>units/paiu_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Slinger Allied</GenericName>
+    <GenericName>Allied Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/maya/infantry_slinger.png</Icon>
   </Identity>

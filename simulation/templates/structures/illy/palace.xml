@@ -16,7 +16,7 @@
   </Health>
   <Identity>
     <Civ>illy</Civ>
-    <GenericName>acropolis</GenericName>
+    <GenericName>Acropolis</GenericName>
     <Tooltip>Territory root. Train Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>

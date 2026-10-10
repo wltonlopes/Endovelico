@@ -6,6 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>gaet</Civ>
+    <GenericName>Gaetulian Trader</GenericName>
+    <SpecificName>Asebbab</SpecificName>
     <Icon>units/cart/support_trader.png</Icon>
   </Identity>
   <Sound>

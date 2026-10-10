@@ -7,8 +7,8 @@
   <Identity>
     <Civ>sonin</Civ>
 
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Kushite Villager</GenericName>
+    <SpecificName>Yaxare</SpecificName>
+    <GenericName>Soninke Villager</GenericName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

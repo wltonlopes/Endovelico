@@ -5,7 +5,8 @@
   </Auras>
   <Identity>
     <Civ>bantu</Civ>
-    <GenericName>Warrior Tribal king</GenericName>
+    <GenericName>Warrior King</GenericName>
+    <SpecificName>Kgosi</SpecificName>
     <Icon>units/urew/hero_01.png</Icon>
   </Identity>
   <VisualActor>

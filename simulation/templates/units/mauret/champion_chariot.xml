@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mauret</Civ>
-    <GenericName>Mauretania Chariot</GenericName>
+    <GenericName>Mauretanian Chariot</GenericName>
     <SpecificName></SpecificName>
     <SelectionGroupName>units/numi/champion_chariot</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>

@@ -3,6 +3,7 @@
   <Identity>
     <Civ>syrac</Civ>
     <GenericName>Banquet Hall</GenericName>
+    <SpecificName>Hestiatórion</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>special/cyrene/special.xml</Actor>

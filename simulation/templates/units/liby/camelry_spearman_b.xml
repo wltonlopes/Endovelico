@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>liby</Civ>
+    <GenericName>Libyan Camel Lancer</GenericName>
     <SelectionGroupName>units/liby/cavalry_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>

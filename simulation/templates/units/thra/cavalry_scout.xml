@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>thra</Civ>
-    <SpecificName>Thracian Scout</SpecificName>
+    <GenericName>Thracian Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
   <Civ>tupi</Civ>
-    <SpecificName>ygaraíba</SpecificName>
+  <GenericName>War Canoe</GenericName>
+    <SpecificName>Ygara</SpecificName>
     <Icon>units/athen/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

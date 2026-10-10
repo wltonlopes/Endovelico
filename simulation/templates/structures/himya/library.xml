@@ -7,7 +7,7 @@
   <Identity>
     <Civ>himya</Civ>
     <GenericName>Royal Court</GenericName>
-    <SpecificName>Royal Court</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>

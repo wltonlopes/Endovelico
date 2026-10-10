@@ -4,7 +4,7 @@
     <Civ>chibc</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/chibc/heavy_javelineer</SelectionGroupName>
-    <GenericName>Experienced Warrior</GenericName>
+    <GenericName>Veteran Club Warrior</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>

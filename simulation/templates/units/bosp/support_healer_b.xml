@@ -4,8 +4,8 @@
     <Civ>bosp</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/theb/support_healer_b</SelectionGroupName>
-    <GenericName>healer</GenericName>
-    <SpecificName>Iatros</SpecificName>
+    <GenericName>Healer</GenericName>
+    <SpecificName>Iatrós</SpecificName>
     <History>The art of medicine was widely practised in Classical Greece. Hippocrates was the first
       physician to separate religion and superstition from actual medicine, and many others followed
       his lead.</History>

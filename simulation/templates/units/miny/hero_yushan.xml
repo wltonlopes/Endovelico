@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_cavalry_swordsman">
   <Identity>
     <Civ>miny</Civ>
-    <GenericName>Yushan</GenericName>
-    <SpecificName>Yushan</SpecificName>
+    <GenericName>Zou Yushan</GenericName>
+    <SpecificName>Zōu Yúshàn</SpecificName>
     <History>A later king of Minyue. After killing his brother, the king Ying, he was made king by a Han general but later proclaimed himself emperor, directly challenging the Han dynasty. This act led to a massive Han military campaign that crushed and annexed Minyue in 110 BCE.</History>
     <Icon>units/yayo/hero_wousu.png</Icon>
   </Identity>

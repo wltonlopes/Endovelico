@@ -23,7 +23,7 @@
   </Health>
   <Identity>
     <Civ>swcr</Civ>
-    <GenericName>Pyramid</GenericName>
+    <GenericName>Platform Mound</GenericName>
     <SpecificName></SpecificName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">City Pyramid</VisibleClasses>

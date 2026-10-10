@@ -3,8 +3,8 @@
   <Identity>
     <Civ>pyu</Civ>
     <SelectionGroupName>units/maur/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Indian Light Cavalry</GenericName>
-    <SpecificName>Ashwarohi</SpecificName>
+    <GenericName>Pyu Light Cavalry</GenericName>
+    <SpecificName>Assāroha</SpecificName>
     <Icon>units/maur/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

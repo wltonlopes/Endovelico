@@ -13,8 +13,8 @@
   <Identity>
     <Civ>mapu</Civ>
 	  <Phenotype>female</Phenotype>
-    <GenericName>High Priest</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Great Machi</GenericName>
+    <SpecificName>Fütra Machi</SpecificName>
     <Icon>units/maya/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>

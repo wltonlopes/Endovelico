@@ -10,6 +10,7 @@
   <Identity>
     <Civ>liby</Civ>
     <GenericName>Corral</GenericName>
+    <SpecificName>Afrag</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="17.5" depth="17.5" />

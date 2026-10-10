@@ -6,8 +6,8 @@
   </Builder>
   <Identity>
     <Civ>moch</Civ>
+    <GenericName>Moche Slinger</GenericName>
     <SelectionGroupName>units/moch/infantry_slinger_b</SelectionGroupName>
-    <SpecificName>Talmoris</SpecificName>
     <Icon>units/moch/infantry_slinger.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

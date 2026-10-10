@@ -10,7 +10,7 @@
   <Identity>
     <Civ>bantu</Civ>
     <GenericName>Colony</GenericName>
-    <SpecificName>Kotan</SpecificName>
+    <SpecificName>!</SpecificName>
     <Icon>structures/military_settlement.png</Icon>
   </Identity>
   <Obstruction>

@@ -8,6 +8,7 @@
   <Identity>
     <Civ>kwa</Civ>
     <GenericName>Kwa Villager</GenericName>
+    <SpecificName>Obìnrin</SpecificName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

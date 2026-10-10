@@ -3,8 +3,8 @@
   <Identity>
     <Civ>bactr</Civ>
 	<Lang>greek</Lang>
-    <SpecificName>Gýnē Thebaïkós</SpecificName>
-    <GenericName>Theban Villager</GenericName>
+    <SpecificName>Gynḗ Baktrianḗ</SpecificName>
+    <GenericName>Bactrian Villager</GenericName>
     <Icon>units/theb/support_female_citizen.png</Icon>
 	<SelectionGroupName>units/bactr/support_female_citizen</SelectionGroupName>
   </Identity>

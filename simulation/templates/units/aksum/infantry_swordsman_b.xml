@@ -16,8 +16,7 @@
     <Civ>aksum</Civ>
 
     <SelectionGroupName>units/aksum/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Meroitic Swordsman</GenericName>
-    <SpecificName>knw hps</SpecificName>
+    <GenericName>Aksumite Swordsman</GenericName>
     <Icon>units/kush/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

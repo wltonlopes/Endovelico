@@ -3,7 +3,8 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Chaonian Guard</SpecificName>
+    <GenericName>Chaonian Guard</GenericName>
+    <SpecificName>Epílektos Cháōn</SpecificName>
     <Icon>units/epir/champion_infantry.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_temple">
   <Identity>
     <Civ>moch</Civ>
-    <SpecificName>Asklēpieîon</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/mochicas/temple.xml</Actor>

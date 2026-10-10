@@ -3,8 +3,7 @@
   <Identity>
     <Civ>illy</Civ>
     <Rank>Advanced</Rank>
-    <GenericName>Illyrian Allied Pirate</GenericName>
-    <SpecificName>Pirate Mesapio</SpecificName>
+    <GenericName>Messapian Pirate</GenericName>
     <SelectionGroupName>units/illy/infantry_clubman_merc_b</SelectionGroupName>
     <Icon>units/maya/mercenary_swordsman.png</Icon>
     <Requirements>

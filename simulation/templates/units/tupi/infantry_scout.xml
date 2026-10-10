@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_blowgunner">
   <Identity>
     <Civ>tupi</Civ>
-    <SpecificName>Tupi Scout</SpecificName>
+    <GenericName>Tupi Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

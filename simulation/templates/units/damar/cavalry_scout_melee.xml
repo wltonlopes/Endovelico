@@ -2,7 +2,7 @@
 <Entity parent="ox_riding|rare_units|template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>damar</Civ>
-    <SpecificName>Urewe Scout</SpecificName>
+    <GenericName>Damara Ox-Rider Scout</GenericName>
     <Icon>units/kush/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

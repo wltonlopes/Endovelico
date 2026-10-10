@@ -6,7 +6,8 @@
   </Builder>
   <Identity>
     <Civ>gaet</Civ>
-    <GenericName>Berbere Villager</GenericName>
+    <GenericName>Gaetulian Villager</GenericName>
+    <SpecificName>Tameṭṭut</SpecificName>
     <Icon>units/cart/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

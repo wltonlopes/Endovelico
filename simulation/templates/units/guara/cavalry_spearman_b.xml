@@ -2,6 +2,7 @@
 <Entity parent="infantry_cavalry|template_unit_infantry_melee_maceman">
   <Identity>
     <Civ>guara</Civ>
+    <GenericName>Veteran Club Warrior</GenericName>
     <SelectionGroupName>Heavy Maceman</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>

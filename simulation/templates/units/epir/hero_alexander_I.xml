@@ -6,7 +6,8 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Alexander I the Molossian</SpecificName>
+    <GenericName>Alexander I the Molossian</GenericName>
+    <SpecificName>Aléxandros ho Molossós</SpecificName>
     <Icon>units/epir/hero_alexander_molossus.png</Icon>
   </Identity>
   <VisualActor>

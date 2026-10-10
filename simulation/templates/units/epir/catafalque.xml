@@ -6,6 +6,7 @@
   </Auras>
   <Identity>
     <Civ>epir</Civ>
-    <SpecificName>Olympias</SpecificName>
+    <GenericName>Epirote Catafalque</GenericName>
+    <SpecificName>Olympiás</SpecificName>
   </Identity>
 </Entity>

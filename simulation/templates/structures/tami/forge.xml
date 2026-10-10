@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>tami</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
+    <SpecificName>Kollaṉ Paṭṭaṟai</SpecificName>
   </Identity>
   <VisualActor>
        <Actor>structures/tamiles/forge.xml</Actor>

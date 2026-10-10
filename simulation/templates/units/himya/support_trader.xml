@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>himya</Civ>
-    <SpecificName>Himyarite Trader</SpecificName>
+    <GenericName>Himyarite Trader</GenericName>
     <Icon>units/maur/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -13,8 +13,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <SelectionGroupName>units/sonin/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Desert Raider</GenericName>
-    <SpecificName>nhw Bulahau gml</SpecificName>
+    <GenericName>Soninke Light Cavalry</GenericName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
   </Identity>

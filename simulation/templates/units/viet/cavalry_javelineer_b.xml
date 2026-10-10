@@ -3,8 +3,8 @@
   <Identity>
     <Civ>viet</Civ>
     <SelectionGroupName>units/viet/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Cavalry</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Lac Viet Cavalry</GenericName>
+    <SpecificName>Kỵ Binh</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>
   <Promotion>

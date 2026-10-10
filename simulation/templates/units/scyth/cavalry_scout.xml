@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>scyth</Civ>
-    <SpecificName>Scythian Scout</SpecificName>
+    <GenericName>Scythian Scout</GenericName>
     <Icon>units/scyth/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

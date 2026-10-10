@@ -3,8 +3,8 @@
   <Identity>
     <Civ>vyadh</Civ>
     <Phenotype>female</Phenotype>
-    <GenericName>Shrine Priestess</GenericName>
-    <SpecificName>Miko</SpecificName>
+    <GenericName>Brahmin Priest</GenericName>
+    <SpecificName>Brāhmaṇa</SpecificName>
     <Icon>units/yayo/support_healer.png</Icon>
   </Identity>
   <Promotion>

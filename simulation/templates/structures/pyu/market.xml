@@ -2,7 +2,7 @@
 <Entity parent="template_structure_economic_market">
   <Identity>
     <Civ>pyu</Civ>
-    <SpecificName>Empórios</SpecificName>
+    <SpecificName>Āpaṇa</SpecificName>
   </Identity>
   <VisualActor>
        <Actor>structures/pyu/market.xml</Actor>

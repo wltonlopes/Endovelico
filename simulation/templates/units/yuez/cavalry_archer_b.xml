@@ -2,6 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Identity>
     <Civ>yuez</Civ>
+    <GenericName>Yuezhi Horse Archer</GenericName>
     <SelectionGroupName>units/yuez/cavalry_archer_b</SelectionGroupName>
     <Icon>units/xion/cav_archer.png</Icon>
   </Identity>

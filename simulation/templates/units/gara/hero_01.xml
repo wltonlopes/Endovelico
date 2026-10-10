@@ -5,8 +5,8 @@
   <Identity>
     <Civ>gara</Civ>
 	  <Phenotype>female</Phenotype>
-    <GenericName>Prophetess of Garamantes</GenericName>
-    <SpecificName>Dihya</SpecificName>
+    <GenericName>Priestess-Queen of the Garamantes</GenericName>
+    <SpecificName>Tagellidt</SpecificName>
     <Icon>units/gara/hero_01.png</Icon>
   </Identity>
   <VisualActor>

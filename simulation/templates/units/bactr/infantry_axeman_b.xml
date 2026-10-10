@@ -10,7 +10,7 @@
     <Civ>bactr</Civ>
     <SelectionGroupName>units/bact/infantry_hillman_b</SelectionGroupName>
     <GenericName>Bactrian Hillman</GenericName>
-    <SpecificName>Pezos Baktrías</SpecificName>
+    <SpecificName>Pezós Baktrianós</SpecificName>
     <Icon>units/bactr/hillman.png</Icon>
   </Identity>
   <Promotion>

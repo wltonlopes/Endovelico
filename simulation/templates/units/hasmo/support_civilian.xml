@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Ishah</SpecificName>
     <GenericName>Judean Villager</GenericName>
     <Icon>units/hasmo/support_female.png</Icon>
     <SelectionGroupName>units/hasmo/support_female_citizen</SelectionGroupName>

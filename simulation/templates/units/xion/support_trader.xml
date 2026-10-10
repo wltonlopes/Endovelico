@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>xion</Civ>
-    <SpecificName>Xiongnu Trader</SpecificName>
+    <GenericName>Xiongnu Trader</GenericName>
     <Icon>units/cart/support_trader.png</Icon>
   </Identity>
   <VisualActor>

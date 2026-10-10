@@ -3,7 +3,8 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Epirote Citizen</SpecificName>
+    <GenericName>Epirote Citizen</GenericName>
+    <SpecificName>Gynḗ Ēpeirōtikḗ</SpecificName>
     <Icon>units/theb/support_female_citizen.png</Icon>
     <SelectionGroupName>units/{native}/support_civilian</SelectionGroupName>
   </Identity>

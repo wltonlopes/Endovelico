@@ -14,7 +14,7 @@
   </Cost>
   <Identity>
     <Civ>moch</Civ>
-    <SpecificName>Axeman Nobre</SpecificName>
+    <GenericName>Noble Axeman</GenericName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/moch/champion_infantry_axeman.png</Icon>
   </Identity>

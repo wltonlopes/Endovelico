@@ -2,6 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>yawa</Civ>
+    <GenericName>Javanese Villager</GenericName>
+    <SpecificName>Wwang Thani</SpecificName>
     <Icon>units/yawa/citizen.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,7 +2,8 @@
 <Entity parent="canoe_warship|template_unit_ship_warship_siege">
   <Identity>
     <Civ>araw</Civ>
-    <SpecificName>Octērēs</SpecificName>
+    <GenericName>Great War Canoe</GenericName>
+    <SpecificName>Piragua</SpecificName>
     <Icon>units/ptol/ship_siege.png</Icon>
   </Identity>
   <VisualActor>

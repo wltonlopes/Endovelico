@@ -6,7 +6,8 @@
   </Auras>
   <Identity>
     <Civ>xion</Civ>
-    <SpecificName>Chanyu Modu</SpecificName>
+    <GenericName>Modu Chanyu</GenericName>
+    <SpecificName>Mòdú Chányú</SpecificName>
     <Icon>units/xion/hero_2.png</Icon>
   </Identity>
   <VisualActor>

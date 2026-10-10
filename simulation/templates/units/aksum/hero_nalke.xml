@@ -7,7 +7,8 @@
   <Identity>
     <Civ>aksum</Civ>
 
-    <GenericName>Nālkē of axum</GenericName>
+    <GenericName>Nalke of Aksum</GenericName>
+    <SpecificName>Nālkē</SpecificName>
     <Icon>units/aksum/hero_03.png</Icon>
   </Identity>
   <VisualActor>

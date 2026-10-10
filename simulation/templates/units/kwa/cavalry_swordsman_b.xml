@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>kwa</Civ>
-    <GenericName>Heavy Warrior Swordsman</GenericName>
-    <SpecificName>Ogbo</SpecificName>
+    <GenericName>Heavy Sword Warrior</GenericName>
+    <SpecificName>Onídà</SpecificName>
     <SelectionGroupName>units/kwa/heavy_spearman</SelectionGroupName>
     <Icon>units/xion/cav_spearman.png</Icon>
   </Identity>

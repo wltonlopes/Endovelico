@@ -3,7 +3,7 @@
   <Identity>
     <Civ>gaet</Civ>
     <SelectionGroupName>units/gaet/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Gaetuli Slinger</GenericName>
+    <GenericName>Gaetulian Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>

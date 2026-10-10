@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>dalm</Civ>
-    <GenericName>Thracian Hoplite</GenericName>
+    <GenericName>Dalmatian Noble Spearman</GenericName>
 
     <Icon>units/thra/champion_infantry_spearman.png</Icon>
     <Requirements>

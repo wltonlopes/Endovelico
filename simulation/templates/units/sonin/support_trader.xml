@@ -7,8 +7,7 @@
   <Identity>
     <Civ>sonin</Civ>
 
-    <GenericName>Nilotic Merchant</GenericName>
-    <SpecificName>rmt sbt</SpecificName>
+    <GenericName>Soninke Gold Trader</GenericName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_forge">
   <Identity>
     <Civ>gojo</Civ>
-    <SpecificName>Khalkeṓn</SpecificName>
+    <SpecificName>Dae-jang-gan</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/koreans/forge.xml</Actor>

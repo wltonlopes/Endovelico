@@ -7,8 +7,8 @@
   <Identity>
     <Civ>bantu</Civ>
 
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Kushite Villager</GenericName>
+    <SpecificName>Mosadi</SpecificName>
+    <GenericName>Bantu Villager</GenericName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

@@ -4,8 +4,8 @@
     <Civ>hisat</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/hisat/cavalry_axeman_b</SelectionGroupName>
-    <GenericName>Warrior</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Veteran Warrior</GenericName>
+    <SpecificName>Qaleetaqa</SpecificName>
     <Icon>units/maya/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

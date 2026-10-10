@@ -3,7 +3,8 @@
   <Identity>
     <Civ>bosp</Civ>
     <SelectionGroupName>units/bosp/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Bosporan multietnical Swordsman</GenericName>
+    <GenericName>Maeotian Swordsman</GenericName>
+    <SpecificName>Machairophóros Maiṓtēs</SpecificName>
     <Icon>units/iber/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

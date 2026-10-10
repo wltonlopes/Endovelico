@@ -9,7 +9,8 @@
   </Footprint>
   <Identity>
     <Civ>sarma</Civ>
-    <SpecificName>Cosmic Horse</SpecificName>
+    <GenericName>Cosmic Horse</GenericName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="40.0" depth="20.0"/>

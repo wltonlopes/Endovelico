@@ -6,6 +6,6 @@
   </Auras>
   <Identity>
     <Civ>hisat</Civ>
-    <SpecificName>Hisatsinom Funerary Bier</SpecificName>
+    <GenericName>Hisatsinom Funerary Bier</GenericName>
   </Identity>
 </Entity>

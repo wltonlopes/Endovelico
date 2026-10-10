@@ -3,8 +3,8 @@
   <Identity>
     <Civ>tami</Civ>
     <SelectionGroupName>units/maur/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Bamboo Spearman</GenericName>
-    <SpecificName>Kauntika</SpecificName>
+    <GenericName>Tamil Spearman</GenericName>
+    <SpecificName>Vēl Vīrar</SpecificName>
     <Icon>units/maur/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

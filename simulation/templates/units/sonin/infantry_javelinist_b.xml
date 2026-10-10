@@ -3,7 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <SelectionGroupName>units/sonin/infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Skirmisher</GenericName>
+    <GenericName>Soninke Skirmisher</GenericName>
     <SpecificName>Djenné-Sora</SpecificName>
     <Icon>units/subsaara/infantry_javelineer.png</Icon>
   </Identity>

@@ -4,8 +4,8 @@
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/hasmo/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Levy Judean Spearman</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Judean Levy Spearman</GenericName>
+    <SpecificName>Nose' Romaḥ</SpecificName>
     <Icon>units/hasmo/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

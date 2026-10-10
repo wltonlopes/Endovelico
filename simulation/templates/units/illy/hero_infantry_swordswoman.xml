@@ -3,8 +3,8 @@
   <Identity>
     <Civ>illy</Civ>
     <Phenotype>female</Phenotype>
-    <GenericName>Teuta</GenericName>
-    <SpecificName>Teuta</SpecificName>
+    <GenericName>Queen Teuta</GenericName>
+    <SpecificName>Teúta</SpecificName>
     <SelectionGroupName>units/illy/hero_night_king</SelectionGroupName>
     <Icon>units/illy/hero_teuta.png</Icon>
   </Identity>

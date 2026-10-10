@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>mixt</Civ>
-    <GenericName>Lord Jaguar</GenericName>
-    <SpecificName>Gayo’ Betzao</SpecificName>
+    <GenericName>Lord 8 Deer "Jaguar Claw"</GenericName>
+    <SpecificName>Yya Nacuaa Teyusi Ñaña</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
     <Icon>units/zapo/hero_lord_jaguar.png</Icon>

@@ -6,8 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>moch</Civ>
-    <GenericName>Mochica Merchant</GenericName>
-    <SpecificName>Tamkarum Arami</SpecificName>
+    <GenericName>Moche Merchant</GenericName>
     <Icon>units/moch/support_trader.png</Icon>
     <Tooltip>Trade resources between your own markets and those of your allies. Persians have a +25% land trading bonus.</Tooltip>
   </Identity>

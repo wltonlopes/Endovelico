@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_axeman">
   <Identity>
     <Civ>mapu</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Toki</SpecificName>
     <GenericName>Champion Axeman</GenericName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>

@@ -3,6 +3,7 @@
     <Civ>kartl</Civ>
     <SelectionGroupName>units/kartl/infantry_slinger_b</SelectionGroupName>
     <GenericName>Highland Slinger</GenericName>
+    <SpecificName>Šurdulosani</SpecificName>
 
     <Icon>units/athen/infantry_slinger.png</Icon>
   </Identity>

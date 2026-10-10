@@ -10,7 +10,7 @@
   <Identity>
     <Civ>scyth</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Royal Cavalry Archer</SpecificName>
+    <GenericName>Royal Horse Archer</GenericName>
     <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
     <SelectionGroupName>units/scyth/champion_cavalry_archer</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_archer.png</Icon>

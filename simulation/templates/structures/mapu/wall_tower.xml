@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mapu</Civ>
-    <SpecificName>Mapuche Wall Tower</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="8" depth="8"/>

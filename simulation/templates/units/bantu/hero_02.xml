@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>bantu</Civ>
-    <GenericName>Great Tribal Queen</GenericName>
+    <GenericName>Great Queen</GenericName>
+    <SpecificName>Kgosigadi</SpecificName>
 	<Phenotype>female</Phenotype>
     <Icon>units/urew/hero_02.png</Icon>
   </Identity>

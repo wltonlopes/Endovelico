@@ -9,7 +9,7 @@
   <Identity>
     <Civ>anish</Civ>
     <SelectionGroupName>units/infantry_maceman_b</SelectionGroupName>
-    <GenericName>Clubman Allied</GenericName>
+    <GenericName>Allied Clubman</GenericName>
 
     <Icon>units/south_america/infantry_maceman.png</Icon>
   </Identity>

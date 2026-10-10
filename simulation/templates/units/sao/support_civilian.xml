@@ -7,8 +7,7 @@
   <Identity>
     <Civ>sao</Civ>
 
-    <SpecificName>Shmt</SpecificName>
-    <GenericName>Kushite Villager</GenericName>
+    <GenericName>Sao Villager</GenericName>
     <Icon>units/kush/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

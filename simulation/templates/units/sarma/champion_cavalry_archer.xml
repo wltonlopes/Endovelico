@@ -9,7 +9,7 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Royal Cavalry Archer</SpecificName>
+    <GenericName>Roxolani Royal Horse Archer</GenericName>
     <VisibleClasses datatype="tokens">Cataphract</VisibleClasses>
     <SelectionGroupName>units/sarma/champion_cavalry_archer</SelectionGroupName>
     <Icon>units/scyth/champion_cavalry_archer.png</Icon>

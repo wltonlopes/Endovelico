@@ -9,7 +9,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <SelectionGroupName>units/infantry_swordsman_b</SelectionGroupName>
-    <GenericName> Warrior</GenericName>
+    <GenericName>Soninke Warrior</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/subsaara/infantry_axeman.png</Icon>
   </Identity>

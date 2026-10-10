@@ -3,6 +3,7 @@
   <Identity>
     <Civ>tupi</Civ>
     <GenericName>Tupi Villager</GenericName>
+    <SpecificName>Kunhã</SpecificName>
     <Icon>units/tupi/citizen.png</Icon>
     <SelectionGroupName>units/tupi/support_female_citizen</SelectionGroupName>
   </Identity>

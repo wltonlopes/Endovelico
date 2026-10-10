@@ -3,8 +3,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <SelectionGroupName>units/sonin/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Slinger</GenericName>
-    <SpecificName>Taghaza</SpecificName>
+    <GenericName>Soninke Slinger</GenericName>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

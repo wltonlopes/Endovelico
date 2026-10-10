@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>gaet</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Iger</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_temp.xml</Actor>

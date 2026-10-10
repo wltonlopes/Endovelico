@@ -29,7 +29,7 @@
   <Identity>
     <Civ>anura</Civ>
     <GenericName>Monument</GenericName>
-    <SpecificName>Thuparamaya</SpecificName>
+    <SpecificName>Thūpārāma</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Monument Town</VisibleClasses>
     <Icon>structures/iberian_bull.png</Icon>

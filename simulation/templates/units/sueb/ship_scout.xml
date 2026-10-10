@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Skipa</SpecificName>
+    <GenericName>Suebian War Boat</GenericName>
     <Icon>units/germ/ship_scout.png</Icon>
   </Identity>
   <VisualActor>

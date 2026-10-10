@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/malay/elephant_archer_b">
   <Identity>
+    <GenericName>Aksumite Elephant Archer</GenericName>
+    <SpecificName></SpecificName>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>

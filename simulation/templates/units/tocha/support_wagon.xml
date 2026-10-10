@@ -3,6 +3,7 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
+    <GenericName>Tocharian Wagon</GenericName>
   </Identity>
   <Upgrade>
     <UnPackStorehouse>

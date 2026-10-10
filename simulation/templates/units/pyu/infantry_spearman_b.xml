@@ -4,8 +4,8 @@
   <Identity>
     <Civ>pyu</Civ>
     <SelectionGroupName>units/maur/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Bamboo Spearman</GenericName>
-    <SpecificName>Kauntika</SpecificName>
+    <GenericName>Pyu Spearman</GenericName>
+    <SpecificName>Kuntadhara</SpecificName>
     <Icon>units/maur/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

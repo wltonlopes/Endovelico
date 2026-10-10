@@ -1,8 +1,8 @@
 <Entity parent="template_unit_infantry_melee_clubman">
   <Identity>
     <Civ>moch</Civ>
+    <GenericName>Recuay Clubman</GenericName>
     <SelectionGroupName>units/moch/infantry_clubman_b</SelectionGroupName>
-    <SpecificName>Recuay Clubman</SpecificName>
     <Icon>units/moch/infantry_clubman.png</Icon>
   </Identity>
   <Promotion>

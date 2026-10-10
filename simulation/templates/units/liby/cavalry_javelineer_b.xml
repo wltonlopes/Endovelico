@@ -2,6 +2,8 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>liby</Civ>
+    <GenericName>Libyan Cavalry</GenericName>
+    <SpecificName>Amnay</SpecificName>
     <SelectionGroupName>units/liby/cavalry_javelinist_b</SelectionGroupName>
     <Icon>units/gara/cavalry_javelineer.png</Icon>
   </Identity>

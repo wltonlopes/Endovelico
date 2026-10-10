@@ -6,7 +6,8 @@
   <Identity>
     <Civ>paiu</Civ>
     <Phenotype>female</Phenotype>
-    <GenericName>Great Matriarch</GenericName>
+    <GenericName>Thocmetony, Shell Flower</GenericName>
+    <SpecificName>Thocmetony</SpecificName>
     <SelectionGroupName>units/paiu/hero_rain_lord</SelectionGroupName>
     <Icon>units/paiu/hero_matriarch.png</Icon>
   </Identity>

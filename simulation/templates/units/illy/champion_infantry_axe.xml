@@ -2,6 +2,7 @@
 <Entity parent="template_unit_champion_infantry_axeman">
   <Identity>
     <Civ>illy</Civ>
+    <GenericName>Illyrian Axe Champion</GenericName>
     <SelectionGroupName>infantry_axe_c</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/support_female_citizen.png</Icon>

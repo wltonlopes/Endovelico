@@ -17,8 +17,8 @@
   <Identity>
     <Civ>hasmo</Civ>
     <Lang>greek</Lang>
-    <GenericName>Assyrian Siege Ram</GenericName>
-    <SpecificName>Hamaranakuba Aθuriya</SpecificName>
+    <GenericName>Siege Ram</GenericName>
+    <SpecificName>Kar</SpecificName>
     <Icon>units/achae/siege_ram.png</Icon>
   </Identity>
   <VisualActor>

@@ -5,7 +5,8 @@
   </Auras>
   <Identity>
     <Civ>puka</Civ>
-    <GenericName>King-High Priest</GenericName>
+    <GenericName>Sun Priest-King</GenericName>
+    <SpecificName>Apu Mallku</SpecificName>
     <History>Supreme religious ruler of the Pukará ceremonial centers, responsible for solar rituals and spiritual authority over society.</History>
     <Icon>units/puka/hero_javelinist.png</Icon>
   </Identity>

@@ -19,7 +19,7 @@
 	</Health>
 	<Identity>
 		<Civ>aden</Civ>
-		<GenericName>Allied village</GenericName>
+		<GenericName>Allied Village</GenericName>
 		<Tooltip>Train Mercenaries.</Tooltip>
 		<Classes datatype="tokens">CivSpecific</Classes>
 		<Icon>structures/mercenary_camp.png</Icon>

@@ -8,7 +8,7 @@
   <Identity>
     <Civ>sonin</Civ>
     <SelectionGroupName>units/sonin/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
+    <GenericName>Soninke Spearman</GenericName>
     <SpecificName>Djon-Ka</SpecificName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>

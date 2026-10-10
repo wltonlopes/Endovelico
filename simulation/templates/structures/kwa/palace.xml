@@ -3,6 +3,7 @@
   <Identity>
     <Civ>kwa</Civ>
     <GenericName>Palace</GenericName>
+    <SpecificName>Ààfin</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <Trainer>

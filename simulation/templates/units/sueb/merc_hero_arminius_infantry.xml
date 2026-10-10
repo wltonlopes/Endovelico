@@ -8,6 +8,7 @@
   </Cost>
   <Identity>
     <Civ>sueb</Civ>
+    <GenericName>Arminius of the Cherusci</GenericName>
     <SpecificName>Arminius</SpecificName>
     <Icon>units/sueb/hero_arminius.png</Icon>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>

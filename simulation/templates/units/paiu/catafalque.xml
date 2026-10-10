@@ -6,6 +6,6 @@
   </Auras>
   <Identity>
     <Civ>paiu</Civ>
-    <SpecificName>Paiute Funerary Bier</SpecificName>
+    <GenericName>Paiute Funerary Bier</GenericName>
   </Identity>
 </Entity>

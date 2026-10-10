@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>hasmo</Civ>
-    <SpecificName>Hasmonean Scout</SpecificName>
+    <GenericName>Hasmonean Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

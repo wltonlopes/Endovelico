@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>azan</Civ>
-    <GenericName>Nilotic Merchant</GenericName>
-    <SpecificName>rmt sbt</SpecificName>
+    <GenericName>Azanian Ivory Trader</GenericName>
+    <SpecificName>Mfanyabiashara</SpecificName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>

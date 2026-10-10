@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>gara</Civ>
-    <GenericName>Garamantian Hoplite</GenericName>
+    <GenericName>Garamantian Noble Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/gara/champion_infantry_spearman.png</Icon>
   </Identity>

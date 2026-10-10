@@ -6,6 +6,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <GenericName>War Chief</GenericName>
+    <SpecificName>Qaletaqmongwi</SpecificName>
     <SelectionGroupName>units/hisat/hero_jaguar_king</SelectionGroupName>
     <Icon>units/hisat/hero_warrior.png</Icon>
   </Identity>

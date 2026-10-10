@@ -5,7 +5,8 @@
     </Auras>
   <Identity>
     <Civ>bantu</Civ>
-    <GenericName>Elder Tribal Healer</GenericName>
+    <GenericName>Elder Healer</GenericName>
+    <SpecificName>Ngaka</SpecificName>
     <Icon>units/urew/hero_03.png</Icon>
   </Identity>
   <VisualActor>

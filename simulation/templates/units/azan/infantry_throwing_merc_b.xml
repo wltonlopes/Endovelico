@@ -8,7 +8,7 @@
   <Identity>
     <Civ>azan</Civ>
     <SelectionGroupName>units/aksum/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Mashariki warrior</GenericName>
+    <GenericName>Eastern Tribal Warrior</GenericName>
     <Icon>units/kush/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

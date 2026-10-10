@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Skirmisher</GenericName>
+    <GenericName>Mauretanian Skirmisher</GenericName>
     <Icon>units/gara/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

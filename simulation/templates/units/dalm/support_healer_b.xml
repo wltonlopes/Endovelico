@@ -1,6 +1,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>dalm</Civ>
+    <GenericName>Dalmatian Priest</GenericName>
     <SelectionGroupName>units/dalm/support_healer_b</SelectionGroupName>
     <Icon>units/hele/support_healer.png</Icon>
   </Identity>

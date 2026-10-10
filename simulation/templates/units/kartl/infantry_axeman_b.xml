@@ -2,7 +2,8 @@
   <Identity>
     <Civ>kartl</Civ>
     <SelectionGroupName>units/kartl/infantry_axeman_b</SelectionGroupName>
-    <GenericName>Kartli Axeman</GenericName>
+    <GenericName>Kartlian Axeman</GenericName>
+    <SpecificName>Najaxosani</SpecificName>
 
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>

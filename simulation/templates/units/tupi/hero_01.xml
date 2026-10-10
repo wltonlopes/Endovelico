@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>tupi</Civ>
-    <GenericName>Great Chief Blowgunner</GenericName>
-    <SpecificName>Morubixaba</SpecificName>
+    <GenericName>Chief Cunhambebe</GenericName>
+    <SpecificName>Morubixaba Kunhambeba</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/tupi/hero_jaguar_king</SelectionGroupName>
     <Icon>units/tupi/hero_zarabatana.png</Icon>

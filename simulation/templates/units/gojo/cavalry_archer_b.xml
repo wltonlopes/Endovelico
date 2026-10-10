@@ -3,8 +3,8 @@
   <Identity>
     <Civ>gojo</Civ>
     <SelectionGroupName>units/korean/cavalry_archer_b</SelectionGroupName>
-    <GenericName>Cavalry Korean</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Gojoseon Horse Archer</GenericName>
+    <SpecificName>Gung-gi-byeong</SpecificName>
     <Icon>units/yayo/cavalry_archer_merc.png</Icon>
   </Identity>
   <Promotion>

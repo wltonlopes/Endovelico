@@ -3,6 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Spirit Healer</GenericName>
+    <SpecificName>ǃGaiaob</SpecificName>
     <Icon>units/kush/support_healer.png</Icon>
   </Identity>
   <VisualActor>

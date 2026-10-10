@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>azan</Civ>
-    <GenericName>Guardian Axumite</GenericName>
+    <GenericName>Rhapta Guardian</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>

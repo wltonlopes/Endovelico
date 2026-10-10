@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>bosp</Civ>
-    <SpecificName>Bosporan Scout</SpecificName>
+    <GenericName>Bosporan Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

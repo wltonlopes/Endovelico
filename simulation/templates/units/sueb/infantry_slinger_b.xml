@@ -9,8 +9,8 @@
   </Resistance>
   <Identity>
     <Civ>sueb</Civ>
+    <GenericName>Germanic Slinger</GenericName>
     <SelectionGroupName>units/sueb/infantry_slinger_b</SelectionGroupName>
-    <SpecificName>German Slinger</SpecificName>
     <Icon>units/gaul/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mand</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Fan</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="19.5" depth="19.5"/>

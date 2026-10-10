@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>Champion Javelinist</GenericName>
+    <GenericName>Khoi Champion Javelineer</GenericName>
     <Icon>units/subsaara/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion disable=""/>

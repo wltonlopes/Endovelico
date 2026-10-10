@@ -2,8 +2,9 @@
 <Entity parent="template_unit_champion_cavalry_javelineer">
   <Identity>
     <Civ>malay</Civ>
+    <GenericName>Royal Horse Guard</GenericName>
     <SelectionGroupName>units/malay/champion_cavalry</SelectionGroupName>
-    <SpecificName></SpecificName>
+    <SpecificName>Pengawal Berkuda</SpecificName>
     <Icon>units/iber/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>

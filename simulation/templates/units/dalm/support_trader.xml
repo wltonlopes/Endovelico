@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>dalm</Civ>
+    <GenericName>Dalmatian Trader</GenericName>
     <Icon>units/celt/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -5,8 +5,8 @@
     </Auras>
   <Identity>
     <Civ>pamp</Civ>
-    <GenericName>War Chief Laque</GenericName>
-    <SpecificName>Macá</SpecificName>
+    <GenericName>Cangapol the Brave</GenericName>
+    <SpecificName>Cangapol</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/pamp/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>

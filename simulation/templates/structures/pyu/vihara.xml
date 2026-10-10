@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>pyu</Civ>
-    <SpecificName>Vihara</SpecificName>
+    <GenericName>Monastery</GenericName>
+    <SpecificName>Vihāra</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>bosp</Civ>
 	<Lang>greek</Lang>
-    <SpecificName>Gýnē Bosporanas</SpecificName>
+    <SpecificName>Gynḗ Bosporanḗ</SpecificName>
     <GenericName>Bosporan Villager</GenericName>
     <Icon>units/bosp/citizen.png</Icon>
 	<SelectionGroupName>units/bosp/support_citizen</SelectionGroupName>

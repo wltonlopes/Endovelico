@@ -3,8 +3,9 @@
   <Identity>
     <Civ>sarma</Civ>
     <Lang>persian</Lang>
+    <GenericName>Bosporan Hoplite</GenericName>
 	<Lang>greek</Lang>
-    <SpecificName>Bosporan Hoplite</SpecificName>
+    <SpecificName>Hoplī́tēs Bosporanós</SpecificName>
     <Requirements>
       <Techs datatype="tokens">
         unlock_mercenary_infantry

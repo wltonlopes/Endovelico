@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_javelineer">
   <Identity>
     <Civ>araw</Civ>
-    <SpecificName>Scout</SpecificName>
+    <GenericName>Arawak Scout</GenericName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>

@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>malay</Civ>
+    <SpecificName>Kota</SpecificName>
     <Tooltip>Train Champions and Heroes. Garrison soldiers inside for stout defense.</Tooltip>
   </Identity>
   <Obstruction>

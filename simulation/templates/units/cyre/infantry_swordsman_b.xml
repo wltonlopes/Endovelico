@@ -3,7 +3,8 @@
   <Identity>
     <Civ>cyre</Civ>
     <SelectionGroupName>units/cyre/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Cyrene Swordsman</GenericName>
+    <GenericName>Cyrenaean Swordsman</GenericName>
+    <SpecificName>Machairophóros</SpecificName>
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

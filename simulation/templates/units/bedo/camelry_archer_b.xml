@@ -13,8 +13,8 @@
   <Identity>
     <Civ>bedo</Civ>
     <SelectionGroupName>units/bedo/cavalry_archer_merc_b</SelectionGroupName>
-    <GenericName>Desert Raider</GenericName>
-    <SpecificName>nhw Bulahau gml</SpecificName>
+    <GenericName>Bedouin Camel Archer</GenericName>
+    <SpecificName>Rakkāb</SpecificName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <Icon>units/gara/camel_archer.png</Icon>
     <Requirements>

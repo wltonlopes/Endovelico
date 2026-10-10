@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>mixt</Civ>
-    <GenericName>Zapotec Noble Warrior</GenericName>
+    <GenericName>Mixtec Noble Warrior</GenericName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/zapo/champion_spearman.png</Icon>
   </Identity>

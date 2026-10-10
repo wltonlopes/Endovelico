@@ -8,7 +8,7 @@
   <Identity>
     <Civ>anish</Civ>
     <SelectionGroupName>units/anish/infantry_archer_b</SelectionGroupName>
-    <GenericName>Archer Bear clan</GenericName>
+    <GenericName>Bear Clan Archer</GenericName>
     <SpecificName>Makwa</SpecificName>
     <Icon>units/south_america/infantry_archer.png</Icon>
   </Identity>

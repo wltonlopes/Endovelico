@@ -2,7 +2,7 @@
 <Entity parent="template_unit_elephant_archer">
   <Identity>
     <Civ>numi</Civ>
-    <GenericName>Elephant Archer</GenericName>
+    <GenericName>Numidian Elephant Archer</GenericName>
     <SpecificName></SpecificName>
     <SelectionGroupName>units/numi/elephant_archer_b</SelectionGroupName>
     <Icon>units/maur/elephant_archer.png</Icon>

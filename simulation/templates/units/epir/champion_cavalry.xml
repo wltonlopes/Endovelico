@@ -8,7 +8,8 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <SpecificName>Royal Guard Cavalry</SpecificName>
+    <GenericName>Royal Guard Cavalry</GenericName>
+    <SpecificName>Hippeús Basilikós</SpecificName>
     <Icon>units/epir/champion_cavalry.png</Icon>
     <SelectionGroupName>units/epir/champion_cavalry</SelectionGroupName>
   </Identity>

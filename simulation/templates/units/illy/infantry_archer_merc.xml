@@ -4,8 +4,7 @@
     <Civ>illy</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/illy/infantry_javelinist</SelectionGroupName>
-    <GenericName>Illyrian Allied Pirate</GenericName>
-    <SpecificName>Pirate Yapigio</SpecificName>
+    <GenericName>Iapygian Pirate</GenericName>
     <Icon>units/maya/mercenary_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

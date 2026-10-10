@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>nok</Civ>
-    <GenericName>Merchant</GenericName>
+    <GenericName>Nok Trader</GenericName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>

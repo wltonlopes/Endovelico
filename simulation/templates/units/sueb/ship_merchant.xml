@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Rhineland Merchantman</SpecificName>
+    <GenericName>Rhineland Merchantman</GenericName>
     <Icon>units/germ/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>

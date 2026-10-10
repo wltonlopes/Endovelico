@@ -8,8 +8,7 @@
   <Identity>
     <Civ>numi</Civ>
     <Lang></Lang>
-    <GenericName>Legionary Numidian</GenericName>
-    <SpecificName>Dorkim Aloophim</SpecificName>
+    <GenericName>Numidian Legionary</GenericName>
     <Rank>Elite</Rank>
     <Icon>units/gara/champion_infantry_swordsman.png</Icon>
     <Requirements>

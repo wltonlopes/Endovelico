@@ -23,7 +23,7 @@
   <Identity>
     <Civ>macrob</Civ>
     <GenericName>Lighthouse</GenericName>
-    <!-- <SpecificName>Pharos</SpecificName> -->
+    <!-- <SpecificName>!</SpecificName> -->
     <Tooltip>Build upon a shoreline in own, neutral, or allied territory. Very large vision range.</Tooltip>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>

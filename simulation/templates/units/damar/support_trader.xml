@@ -7,8 +7,7 @@
   <Identity>
     <Civ>damar</Civ>
 
-    <GenericName>Nilotic Merchant</GenericName>
-    <SpecificName>rmt sbt</SpecificName>
+    <GenericName>Damara Copper Trader</GenericName>
     <Icon>units/kush/support_trader.png</Icon>
   </Identity>
   <VisualActor>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/himya/camelry_spearman_b">
   <Identity>
+    <GenericName>Nabataean Heavy Cavalry</GenericName>
+    <SpecificName>Farasîn Khabarîn</SpecificName>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>

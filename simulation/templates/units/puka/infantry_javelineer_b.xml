@@ -5,6 +5,7 @@
   </Builder>
   <Identity>
     <Civ>puka</Civ>
+    <GenericName>Pukara Javelineer</GenericName>
     <SelectionGroupName>units/puka/infantry_javelineer_b</SelectionGroupName>
     <SpecificName>Uma Runa</SpecificName>
     <Icon>units/moch/infantry_javelinist.png</Icon>

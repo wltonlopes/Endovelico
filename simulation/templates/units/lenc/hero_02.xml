@@ -3,7 +3,8 @@
 
   <Identity>
     <Civ>lenc</Civ>
-    <GenericName>King</GenericName>
+    <GenericName>Entepica, Lord of Cerquín</GenericName>
+    <SpecificName>Entepica</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>

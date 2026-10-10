@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Covered Battering Ram</SpecificName>
+    <GenericName>Covered Battering Ram</GenericName>
     <Icon>units/sueb/siege_ram.png</Icon>
   </Identity>
   <VisualActor>

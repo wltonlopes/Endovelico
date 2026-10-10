@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>viet</Civ>
-    <SpecificName>Womina</SpecificName>
+    <GenericName>Lac Viet Villager</GenericName>
+    <SpecificName>Lạc Dân</SpecificName>
     <Icon>units/viet/citizen.png</Icon>
   </Identity>
   <VisualActor>

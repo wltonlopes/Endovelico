@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>guara</Civ>
-    <SpecificName>Guarani Fishing Canoe</SpecificName>
+    <GenericName>Fishing Canoe</GenericName>
+    <SpecificName>Ygára</SpecificName>
     <Icon>units/south_america/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

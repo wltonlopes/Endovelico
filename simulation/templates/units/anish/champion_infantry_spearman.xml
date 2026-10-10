@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>anish</Civ>
-    <GenericName>Champion Spearman</GenericName>
+    <GenericName>Anishinaabe Champion Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>

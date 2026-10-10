@@ -12,8 +12,8 @@
   </Health>
   <Identity>
     <Civ>chibc</Civ>
-    <GenericName>Chibcha Shaman</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>High Priest of Sugamuxi</GenericName>
+    <SpecificName>Iraca</SpecificName>
     <Icon>units/maya/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>

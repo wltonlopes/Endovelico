@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>mapu</Civ>
-    <GenericName>Villager</GenericName>
+    <GenericName>Mapuche Villager</GenericName>
+    <SpecificName>Domo</SpecificName>
     <Icon>units/mapu/citizen.png</Icon>
     <SelectionGroupName>units/mapu/support_female_citizen</SelectionGroupName>
   </Identity>

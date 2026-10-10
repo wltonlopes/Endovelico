@@ -5,8 +5,9 @@
   </Auras>
   <Identity>
     <Civ>epir</Civ>
+    <GenericName>Molossian Hound</GenericName>
     <SelectionGroupName>units/epir/war_dog_b</SelectionGroupName>
-    <SpecificName>Molossus Hound</SpecificName>
+    <SpecificName>Kýōn Molossós</SpecificName>
     <Icon>units/brit/war_dog.png</Icon>
   </Identity>
   <Promotion>

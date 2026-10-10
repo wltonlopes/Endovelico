@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>paiu</Civ>
-    <SpecificName>Kaki</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="7.5"/>

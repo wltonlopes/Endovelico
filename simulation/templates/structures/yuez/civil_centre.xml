@@ -22,7 +22,8 @@
   </Health>
   <Identity>
     <Civ>yuez</Civ>
-    <SpecificName>Chanyu's Hall</SpecificName>
+    <GenericName>Royal Encampment</GenericName>
+    <SpecificName>!</SpecificName>
     <Phenotype datatype="tokens">
       Yurt
     </Phenotype>

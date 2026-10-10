@@ -3,8 +3,8 @@
   <Identity>
   <Civ>cyre</Civ>
 	<Lang>greek</Lang>
-	<GenericName>Champions Infantry</GenericName>
-    <SpecificName>Kyrēnaïkoí Hiera Ile</SpecificName>
+	<GenericName>Cyrenaean Picked Hoplite</GenericName>
+    <SpecificName>Epílektos Hoplī́tēs</SpecificName>
     <VisibleClasses datatype="tokens">Hoplite</VisibleClasses>
     <History>.</History>
     <Requirements>

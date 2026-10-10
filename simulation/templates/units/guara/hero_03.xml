@@ -5,7 +5,8 @@
   </Auras>
   <Identity>
     <Civ>guara</Civ>
-    <GenericName>War Chief</GenericName>
+    <GenericName>Japeusá the Defiant</GenericName>
+    <SpecificName>Tuvicha Japeusa</SpecificName>
     <SelectionGroupName>units/guara/hero_rain_lord</SelectionGroupName>
     <Icon>units/guara/hero_03.png</Icon>
   </Identity>

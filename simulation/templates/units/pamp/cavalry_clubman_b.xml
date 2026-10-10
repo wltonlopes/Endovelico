@@ -4,7 +4,7 @@
     <Civ>pamp</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/pamp/heavy_javelineer</SelectionGroupName>
-    <GenericName>Great maceman</GenericName>
+    <GenericName>Great Club Warrior</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>

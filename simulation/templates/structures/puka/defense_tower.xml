@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>puka</Civ>
-    <SpecificName>Pucará Watchtower</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="7.0" depth="8.0"/>

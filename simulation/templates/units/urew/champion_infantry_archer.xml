@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
   <Civ>urew</Civ>
-    <GenericName>Champion Archer</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Urewe Champion Archer</GenericName>
+    <SpecificName>Intore</SpecificName>
     <Icon>units/maya/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>

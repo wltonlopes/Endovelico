@@ -10,7 +10,8 @@
   </Footprint>
   <Identity>
     <Civ>yuez</Civ>
-    <SpecificName>Chanyu Touman</SpecificName>
+    <GenericName>Kanishka the Great</GenericName>
+    <SpecificName>Kanēški</SpecificName>
     <Icon>units/xion/hero_3.png</Icon>
   </Identity>
   <Resistance>

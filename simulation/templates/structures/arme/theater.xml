@@ -2,7 +2,7 @@
 <Entity parent="template_structure_special_theater">
   <Identity>
     <Civ>arme</Civ>
-    <SpecificName>anfitheater</SpecificName>
+    <SpecificName>!</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <VisualActor>

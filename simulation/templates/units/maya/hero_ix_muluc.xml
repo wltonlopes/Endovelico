@@ -5,7 +5,8 @@
   </Auras>
   <Identity>
     <Civ>maya</Civ>
-    <SpecificName>Ix Muluc</SpecificName>
+    <GenericName>Lady Muluc</GenericName>
+    <SpecificName>Ix Muluk</SpecificName>
     <Phenotype>female</Phenotype>
     <Icon>units/maya/hero_ix_muluc.png</Icon>
   </Identity>

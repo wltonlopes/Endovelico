@@ -4,6 +4,7 @@
   </Auras>
   <Identity>
     <Civ>sueb</Civ>
-    <SpecificName>Ganna the Seeress</SpecificName>
+    <GenericName>Suebian Catafalque</GenericName>
+    <SpecificName>Ganna</SpecificName>
   </Identity>
 </Entity>

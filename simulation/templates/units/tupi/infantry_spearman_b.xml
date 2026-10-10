@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>tupi</Civ>
+    <GenericName>Tupi Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Tairu-abá</SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>

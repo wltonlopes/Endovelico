@@ -5,7 +5,7 @@
     </Auras>
   <Identity>
     <Civ>aden</Civ>
-    <GenericName>Warrior Chief</GenericName>
+    <GenericName>War Chief</GenericName>
     <SpecificName></SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/aden/hero_rain_lord</SelectionGroupName>

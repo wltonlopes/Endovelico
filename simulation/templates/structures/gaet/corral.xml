@@ -5,7 +5,7 @@
   </Footprint>
   <Identity>
     <Civ>gaet</Civ>
-    <SpecificName></SpecificName>
+    <SpecificName>Afrag</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="19.0"/>

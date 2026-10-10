@@ -4,6 +4,7 @@
     <Civ>arme</Civ>
     <SelectionGroupName>units/arme/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Armenian Swordsman</GenericName>
+    <SpecificName>Suserawor</SpecificName>
     <Icon>units/thra/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

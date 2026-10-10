@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_elephant_melee">
   <Identity>
     <Civ>viet</Civ>
-    <GenericName>Hùng Duệ Vương </GenericName>
-    <SpecificName>Hùng Duệ Vương </SpecificName>
+    <GenericName>King Hung Due</GenericName>
+    <SpecificName>Hùng Duệ Vương</SpecificName>
     <Icon>units/viet/hero_hung_due.png</Icon>
   </Identity>
   <VisualActor>

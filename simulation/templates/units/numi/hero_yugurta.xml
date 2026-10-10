@@ -4,7 +4,8 @@
   </Auras>
   <Identity>
     <Civ>numi</Civ>
-    <GenericName>Yugurta</GenericName>
+    <GenericName>Jugurtha</GenericName>
+    <SpecificName>Yugurten</SpecificName>
     <Icon>units/achae/hero_cyrus.png</Icon>
   </Identity>
   <VisualActor>

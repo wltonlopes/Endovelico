@@ -7,7 +7,8 @@
   <Identity>
     <Civ>aksum</Civ>
 
-    <GenericName>Luzay of Axum</GenericName>
+    <GenericName>Luzay of Aksum</GenericName>
+    <SpecificName>Lūzay</SpecificName>
     <Icon>units/aksum/hero_02.png</Icon>
   </Identity>
   <VisualActor>

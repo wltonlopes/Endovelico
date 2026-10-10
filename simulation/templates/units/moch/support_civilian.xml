@@ -8,7 +8,7 @@
   <Identity>
     <Civ>moch</Civ>
     <SpecificName>Mecherraec</SpecificName>
-    <GenericName>Moche farmers</GenericName>
+    <GenericName>Moche Farmer</GenericName>
     <Icon>units/moch/citizen.png</Icon>
     <SelectionGroupName>units/moch/support_female_citizen</SelectionGroupName>
   </Identity>

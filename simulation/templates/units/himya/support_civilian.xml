@@ -2,8 +2,7 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>himya</Civ>
-    <SpecificName>Naari</SpecificName>
-    <GenericName>Himyar Villager</GenericName>
+    <GenericName>Himyarite Villager</GenericName>
     <Icon>units/maur/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>

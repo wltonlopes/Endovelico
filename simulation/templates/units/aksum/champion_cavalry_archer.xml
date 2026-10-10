@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_archer">
   <Identity>
     <Civ>aksum</Civ>
-    <GenericName>Aksumite Aristocrat Cavalry Archer</GenericName>
+    <GenericName>Aksumite Noble Horse Archer</GenericName>
     <Icon>units/achae/champion_cavalry_archer.png</Icon>
   </Identity>
   <VisualActor>

@@ -7,8 +7,8 @@
   <Identity>
     <Civ>bactr</Civ>
     <Lang>greek</Lang>
-    <GenericName>Menander I the Savior</GenericName>
-    <SpecificName>Ménandras Sōtḗr</SpecificName>
+    <GenericName>Menander I the Saviour</GenericName>
+    <SpecificName>Ménandros Sōtḗr</SpecificName>
     <Icon>units/bactr/menander.png</Icon>
   </Identity>
   <VisualActor>

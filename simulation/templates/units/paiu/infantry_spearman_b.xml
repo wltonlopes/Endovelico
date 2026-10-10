@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>paiu</Civ>
+    <GenericName>Paiute Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/south_america/infantry_spearman.png</Icon>

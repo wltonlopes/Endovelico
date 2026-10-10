@@ -9,7 +9,7 @@
   </Health>
   <Identity>
     <Civ>pamp</Civ>
-    <SpecificName>Miya</SpecificName>
+    <SpecificName>!</SpecificName>
     <Tooltip>Structure needs Semi-Nomad Lifestyle technology.</Tooltip>
     <!-- <Requirements>
       <Techs datatype="tokens">pampidos/semi-nomad</Techs>

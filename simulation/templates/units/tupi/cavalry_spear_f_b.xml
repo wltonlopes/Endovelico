@@ -2,6 +2,7 @@
 <Entity parent="infantry_cavalry|template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>tupi</Civ>
+    <GenericName>Tupi Spearwoman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Tairu-abá</SpecificName>
     <Icon>units/south_america/support_female_citizen.png</Icon>

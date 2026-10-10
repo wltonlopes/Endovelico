@@ -2,7 +2,7 @@
 <Entity parent="template_unit_siege_stonethrower">
   <Identity>
     <Civ>epir</Civ>
-    <SpecificName>Lithobolos</SpecificName>
+    <SpecificName>Lithobólos</SpecificName>
     <Icon>units/hele/siege_lithobolos.png</Icon>
   </Identity>
   <Pack>

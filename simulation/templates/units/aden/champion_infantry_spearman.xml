@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>aden</Civ>
-    <GenericName>Champion Spearman</GenericName>
+    <GenericName>Adena Champion Spearman</GenericName>
     <SpecificName/>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
     <Requirements>

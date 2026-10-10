@@ -2,7 +2,6 @@
 <Entity parent="units/khoi/infantry_javelinist_b">
   <Identity>
     <Civ>khoi</Civ>
-    <GenericName>Skirmisher</GenericName>
     <Icon>units/subsaara/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>

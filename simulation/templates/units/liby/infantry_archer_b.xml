@@ -3,7 +3,6 @@
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_archer_b</SelectionGroupName>
     <GenericName>Libyan Archer</GenericName>
-    <SpecificName>Pdty Nhsyw</SpecificName>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>

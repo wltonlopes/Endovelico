@@ -3,7 +3,7 @@
   <Identity>
     <Civ>aksum</Civ>
     <SpecificName></SpecificName>
-    <GenericName>Sorgo</GenericName>
+    <GenericName>Sorghum Field</GenericName>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_medit.xml</Actor>

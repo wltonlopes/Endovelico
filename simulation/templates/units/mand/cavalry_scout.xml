@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_javelineer">
   <Identity>
     <Civ>mand</Civ>
-    <SpecificName>Mande Scout</SpecificName>
+    <GenericName>Mande Scout</GenericName>
     <Icon>units/aksum/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

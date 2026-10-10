@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_trader">
   <Identity>
     <Civ>tupi</Civ>
-    <SpecificName>Tupi Trader</SpecificName>
+    <GenericName>Tupi Trader</GenericName>
     <Icon>units/south_america/support_trader.png</Icon>
   </Identity>
   <VisualActor>

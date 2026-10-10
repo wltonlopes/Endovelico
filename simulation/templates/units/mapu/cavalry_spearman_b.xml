@@ -4,8 +4,8 @@
     <Civ>mapu</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/maya/heavy_javelineer</SelectionGroupName>
-    <GenericName>Experienced spearman</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Veteran Spearman</GenericName>
+    <SpecificName>Weichafe</SpecificName>
     <Icon>units/south_america/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>

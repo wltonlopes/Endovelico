@@ -10,7 +10,7 @@
   </Health>
   <Identity>
     <Civ>batw</Civ>
-    <SpecificName>Ile Idoti</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="25.5" depth="25.5"/>

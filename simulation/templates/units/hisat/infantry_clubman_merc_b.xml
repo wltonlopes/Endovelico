@@ -2,7 +2,7 @@
 <Entity parent="merc_inf|template_unit_infantry_melee_maceman">
   <Identity>
     <Civ>hisat</Civ>
-    <GenericName></GenericName>
+    <GenericName>Allied Clubman</GenericName>
     <SelectionGroupName>units/hisat/infantry_maceman_merc</SelectionGroupName>
     <Icon>units/maya/mercenary_swordsman.png</Icon>
     <Requirements>

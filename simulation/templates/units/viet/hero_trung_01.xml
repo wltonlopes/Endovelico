@@ -2,7 +2,7 @@
 <Entity parent="template_unit_hero_elephant_melee">
   <Identity>
     <Civ>viet</Civ>
-    <GenericName>Trưng Trắc</GenericName>
+    <GenericName>Trung Trac</GenericName>
     <SpecificName>Trưng Trắc</SpecificName>
     <Icon>units/yayo/hero_himiko.png</Icon>
   </Identity>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>lenc</Civ>
     <SelectionGroupName>units/lenca/merc_slinger_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Levy Slinger</GenericName>
+    <GenericName>Lenca Levy Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/mesoamerican/infantry_slinger.png</Icon>
   </Identity>

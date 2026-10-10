@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
     <Civ>aksum</Civ>
-    <GenericName>Champion Archer Axumite</GenericName>
+    <GenericName>Aksumite Champion Archer</GenericName>
     <Icon>units/maya/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>

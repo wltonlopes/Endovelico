@@ -5,8 +5,8 @@
   </Auras>
   <Identity>
     <Civ>paiu</Civ>
-    <GenericName>Great Warrior Chief</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Tavibo the Prophet</GenericName>
+    <SpecificName>Tävibo</SpecificName>
     <SelectionGroupName>units/paiu/hero_night_king</SelectionGroupName>
     <Icon>units/paiu/hero_elder.png</Icon>
   </Identity>

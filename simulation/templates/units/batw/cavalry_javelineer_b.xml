@@ -4,7 +4,7 @@
     <Civ>batw</Civ>
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/batw/heavy_javelineer</SelectionGroupName>
-    <GenericName>Warrior with Harpoon</GenericName>
+    <GenericName>Harpoon Hunter</GenericName>
     <SpecificName></SpecificName>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <Phenotype>male</Phenotype>

@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_infantry_maceman">
   <Identity>
   <Civ>araw</Civ>
-    <GenericName>Gread Warrior</GenericName>
-    <SpecificName>Porang-abá</SpecificName>
+    <GenericName>Macana Champion</GenericName>
+    <SpecificName>Guaribo</SpecificName>
     <Icon>units/zapo/infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>

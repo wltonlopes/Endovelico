@@ -4,8 +4,8 @@
     <Civ>bactr</Civ>
 	<Lang>greek</Lang>
     <SelectionGroupName>units/theb/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Theban Light Militia</GenericName>
-    <SpecificName>Gymnites Thebaïkós</SpecificName>
+    <GenericName>Bactrian Slinger</GenericName>
+    <SpecificName>Sphendonḗtēs Baktrianós</SpecificName>
     <History></History>
     <Icon>units/athen/infantry_slinger.png</Icon>
   </Identity>

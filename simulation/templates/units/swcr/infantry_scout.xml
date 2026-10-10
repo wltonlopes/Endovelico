@@ -2,6 +2,7 @@
 <Entity parent="scout_infantry_axeman">
   <Identity>
     <Civ>swcr</Civ>
+    <GenericName>Swift Creek Scout</GenericName>
     <SpecificName>Sakima Haya</SpecificName>
     <Icon>units/zapo/infantry_scout.png</Icon>
   </Identity>

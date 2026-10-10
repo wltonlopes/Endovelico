@@ -3,8 +3,8 @@
   <Identity>
     <Civ>macrob</Civ>
     <SelectionGroupName>units/macrob/infantry_swordsman_merc</SelectionGroupName>
-    <GenericName>Cushiti Swordsman</GenericName>
-    <SpecificName>knw hps</SpecificName>
+    <GenericName>Cushitic Swordsman</GenericName>
+    <SpecificName>Seefley</SpecificName>
     <Icon>units/gara/infantry_swordsman_desert.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>

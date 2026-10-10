@@ -2,7 +2,7 @@
 <Entity parent="scout_infantry_archer">
   <Identity>
     <Civ>yayo</Civ>
-    <SpecificName>Yamatai Scout</SpecificName>
+    <GenericName>Yamatai Scout</GenericName>
     <Icon>units/athen/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

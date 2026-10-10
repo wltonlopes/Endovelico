@@ -3,7 +3,7 @@
   <Identity>
     <Civ>guara</Civ>
     <SelectionGroupName>units/guara/infantry_slinger_b</SelectionGroupName>
-    <GenericName>Garamantian Slinger</GenericName>
+    <GenericName>Guarani Slinger</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/gara/infantry_slinger.png</Icon>
   </Identity>

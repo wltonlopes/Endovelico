@@ -12,7 +12,8 @@
   </Builder>
   <Identity>
     <Civ>anish</Civ>
-    <GenericName>Villager</GenericName>
+    <GenericName>Anishinaabe Villager</GenericName>
+    <SpecificName>Ikwe</SpecificName>
     <Icon>units/anish/citizen.png</Icon>
     <SelectionGroupName>units/anish/support_female_citizen</SelectionGroupName>
   </Identity>

@@ -3,7 +3,8 @@
   <Identity>
     <Civ>gaet</Civ>
     <SelectionGroupName>units/gaet/cavalry_javelineer_b</SelectionGroupName>
-    <GenericName>Numidian Cavalry</GenericName>
+    <GenericName>Gaetulian Cavalry</GenericName>
+    <SpecificName>Amnay</SpecificName>
     <Icon>units/cart/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

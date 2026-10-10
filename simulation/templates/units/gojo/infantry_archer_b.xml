@@ -3,8 +3,8 @@
   <Identity>
     <Civ>gojo</Civ>
     <SelectionGroupName>units/gojo/infantry_archer_b</SelectionGroupName>
-    <GenericName>Bow Archer</GenericName>
-    <SpecificName>Gung-sa</SpecificName>
+    <GenericName>Gojoseon Archer</GenericName>
+    <SpecificName>Gung-su</SpecificName>
     <Icon>units/yayo/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

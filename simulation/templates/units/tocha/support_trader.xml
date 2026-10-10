@@ -3,7 +3,8 @@
   <Identity>
     <Civ>tocha</Civ>
     <Lang>persian</Lang>
-    <SpecificName>Steppe Trader</SpecificName>
+    <GenericName>Silk Road Merchant</GenericName>
+    <SpecificName>Käryorttau</SpecificName>
     <Icon>units/scyth/support_trader.png</Icon>
   </Identity>
   <VisualActor>

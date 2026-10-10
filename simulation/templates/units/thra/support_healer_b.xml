@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>thra</Civ>
-    <GenericName>Thracian</GenericName>
+    <GenericName>Thracian Priest</GenericName>
     <SpecificName>Ktístai</SpecificName>
     <SelectionGroupName>units/thra/support_healer_b</SelectionGroupName>
     <Icon>units/hele/support_healer.png</Icon>

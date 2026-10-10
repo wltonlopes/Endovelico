@@ -3,8 +3,8 @@
   <Identity>
     <Civ>hasmo</Civ>
     <Lang>latin</Lang>
-    <SpecificName>Champion Cavalry</SpecificName>
-    <GenericName>Cavalry Swordsman</GenericName>
+    <SpecificName>Parash Gibbor</SpecificName>
+    <GenericName>Hasmonean Guard Cavalry</GenericName>
     <Icon>units/achae/champion_cavalry.png</Icon>
     <SelectionGroupName>units/hasmo/champion_cavalry</SelectionGroupName>
   </Identity>

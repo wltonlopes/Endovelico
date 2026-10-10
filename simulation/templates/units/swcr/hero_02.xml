@@ -3,8 +3,8 @@
 
   <Identity>
     <Civ>swcr</Civ>
-    <GenericName>War Chief</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Great War Chief</GenericName>
+    <SpecificName>Tvstvnvke Rakko</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
     <Icon>units/zapo/hero_night_king.png</Icon>

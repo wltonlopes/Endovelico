@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_swordsman">
   <Identity>
     <Civ>macrob</Civ>
-    <GenericName>Aristocrat Cavalry</GenericName>
+    <GenericName>Macrobian Noble Cavalry</GenericName>
     <Icon>units/rome/champion_cavalry.png</Icon>
     <SelectionGroupName>units/macrob/champion_cavalry</SelectionGroupName>
   </Identity>

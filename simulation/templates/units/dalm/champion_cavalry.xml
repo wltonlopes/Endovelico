@@ -1,7 +1,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>dalm</Civ>
-    <GenericName>Thracian Royal Cavalry</GenericName>
+    <GenericName>Dalmatian Noble Cavalry</GenericName>
 
     <Icon>units/thra/champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/dalm/champion_cavalry</SelectionGroupName>

@@ -8,6 +8,7 @@
     <Civ>azan</Civ>
 	  <Phenotype>female</Phenotype>
     <GenericName>Queen of Sabaki</GenericName>
+    <SpecificName>Malkia wa Sabaki</SpecificName>
     <Icon>units/kush/hero_amanirenas.png</Icon>
   </Identity>
   <VisualActor>

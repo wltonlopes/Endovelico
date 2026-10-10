@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>batw</Civ>
-    <SpecificName>Yagura</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="8.84" depth="8.81"/>

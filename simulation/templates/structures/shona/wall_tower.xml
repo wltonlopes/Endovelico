@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>shona</Civ>
-    <SpecificName>Shona Wall Tower</SpecificName>
+    <SpecificName>!</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="9.72" depth="9.72"/>

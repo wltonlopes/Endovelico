@@ -6,6 +6,6 @@
   </Auras>
   <Identity>
     <Civ>araw</Civ>
-    <SpecificName>Arawak Funerary Bier</SpecificName>
+    <GenericName>Arawak Funerary Bier</GenericName>
   </Identity>
 </Entity>

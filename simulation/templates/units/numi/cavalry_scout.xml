@@ -2,7 +2,7 @@
 <Entity parent="scout_mount_swordsman">
   <Identity>
     <Civ>numi</Civ>
-    <SpecificName>Numidian Scout</SpecificName>
+    <GenericName>Numidian Scout</GenericName>
     <Icon>units/cart/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

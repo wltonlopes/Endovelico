@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_scout">
   <Identity>
     <Civ>syrac</Civ>
-    <SpecificName>Libyan Scout</SpecificName>
+    <GenericName>Syracusan Scout</GenericName>
     <Icon>units/cart/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>

@@ -5,8 +5,7 @@
     <Civ>azan</Civ>
 
     <SelectionGroupName>units/aksum/infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
-    <SpecificName>Azanian Spearman</SpecificName>
+    <GenericName>Azanian Spearman</GenericName>
     <Icon>units/kush/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>

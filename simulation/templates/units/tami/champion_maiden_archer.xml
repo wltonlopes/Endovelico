@@ -18,7 +18,6 @@
     <Civ>tami</Civ>
     <Phenotype>female</Phenotype>
     <GenericName>Maiden Guard Archer</GenericName>
-    <SpecificName>Visha Kanya</SpecificName>
     <Icon>units/maur/champion_maiden_archer.png</Icon>
   </Identity>
   <VisualActor>

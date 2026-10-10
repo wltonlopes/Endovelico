@@ -2,7 +2,7 @@
 <Entity parent="template_structure_special_palace">
   <Identity>
     <Civ>scyth</Civ>
-    <GenericName>Royal house</GenericName>
+    <GenericName>Royal House</GenericName>
     <Classes datatype="tokens">CivSpecific</Classes>
   </Identity>
   <Trainer>

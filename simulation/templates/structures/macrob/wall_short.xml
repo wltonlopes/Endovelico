@@ -7,7 +7,7 @@
   <Identity>
     <Civ>macrob</Civ>
     <SelectionGroupName>structures/macrob_wallset_stone</SelectionGroupName>
-    <SpecificName/>
+    <SpecificName>Derbi</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="9.5" depth="7.5"/>

@@ -6,8 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>aksum</Civ>
-    <GenericName>War Ship</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Aksumite Warship</GenericName>
+    <SpecificName>Ḥamar</SpecificName>
     <Tooltip>Can ram or capture enemy vessels, shoot arrows and slingstones, and transport soldiers.</Tooltip>
     <Icon>units/cart/ship_arrow.png</Icon>
   </Identity>

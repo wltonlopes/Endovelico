@@ -2,8 +2,9 @@
 <Entity parent="template_unit_infantry_melee_clubman">
   <Identity>
     <Civ>mapu</Civ>
+    <GenericName>Mapuche Clubman</GenericName>
     <SelectionGroupName>units/mapu/infantry_clubman_b</SelectionGroupName>
-    <SpecificName>Mapuche Tribal clubman</SpecificName>
+    <SpecificName>Kona</SpecificName>
     <Icon>units/moch/infantry_clubman.png</Icon>
   </Identity>
   <Promotion>

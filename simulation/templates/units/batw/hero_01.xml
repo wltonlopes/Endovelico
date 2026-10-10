@@ -2,8 +2,8 @@
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Identity>
     <Civ>batw</Civ>
-    <GenericName>Warrior Chief</GenericName>
-    <SpecificName></SpecificName>
+    <GenericName>Elder of the Forest</GenericName>
+    <SpecificName>Umukuru</SpecificName>
     <Tooltip>Hero</Tooltip>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/batw/hero_jaguar_king</SelectionGroupName>

@@ -6,7 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>viet</Civ>
-    <SpecificName>Scout Canoe</SpecificName>
+    <GenericName>Scout Canoe</GenericName>
+    <SpecificName>Thuyền Độc Mộc</SpecificName>
     <Icon>units/zapo/ship_canoe.png</Icon>
   </Identity>
   <VisualActor>

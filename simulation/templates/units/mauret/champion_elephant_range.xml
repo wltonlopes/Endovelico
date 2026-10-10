@@ -2,7 +2,7 @@
 <Entity parent="elephant_african|template_unit_champion_elephant_melee">
   <Identity>
     <Civ>mauret</Civ>
-    <GenericName>North African War Elephant Toweret</GenericName>
+    <GenericName>Towered North African War Elephant</GenericName>
     <Icon>units/cart/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
