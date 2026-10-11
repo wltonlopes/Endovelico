@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer">
+  <Footprint>
+    <Square width="3.1" depth="6.1"/>
+    <Height>6.1</Height>
+  </Footprint>
+  <Health>
+    <Max>60</Max>
+  </Health>
+  <Identity>
+    <GenericName>Moose</GenericName>
+    <SpecificName>Alces alces</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>300</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>7.1</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/moose.xml</Actor>
+  </VisualActor>
+</Entity>

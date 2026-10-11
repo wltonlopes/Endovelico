@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/rabbit_02_100.xml" name="Base">
+      <mesh>skeletal/fauna/tapeti.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="tapeti_1" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/tapeti_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="tapeti_2" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/tapeti_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="tapeti_3" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/tapeti_3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="tapeti_4" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/tapeti_4.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

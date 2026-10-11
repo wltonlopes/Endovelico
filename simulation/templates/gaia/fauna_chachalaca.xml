@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.2" depth="1.6"/>
+    <Height>1.3</Height>
+  </Footprint>
+  <Health>
+    <Max>4</Max>
+  </Health>
+  <Identity>
+    <GenericName>Plain Chachalaca</GenericName>
+    <SpecificName>Ortalis vetula</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>40</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/chachalaca.xml</Actor>
+  </VisualActor>
+</Entity>

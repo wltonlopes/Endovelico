@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>1</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.0" depth="3.1"/>
+    <Height>1.2</Height>
+  </Footprint>
+  <Health>
+    <Max>8</Max>
+  </Health>
+  <Identity>
+    <GenericName>Common Opossum</GenericName>
+    <SpecificName>Didelphis marsupialis</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/opossum.xml</Actor>
+  </VisualActor>
+</Entity>

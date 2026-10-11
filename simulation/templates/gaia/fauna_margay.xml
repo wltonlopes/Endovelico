@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>3</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="0.9" depth="3.7"/>
+    <Height>1.4</Height>
+  </Footprint>
+  <Health>
+    <Max>15</Max>
+  </Health>
+  <Identity>
+    <GenericName>Margay</GenericName>
+    <SpecificName>Leopardus wiedii</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.4</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/margay.xml</Actor>
+  </VisualActor>
+</Entity>

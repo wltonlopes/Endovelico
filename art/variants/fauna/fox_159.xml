@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/fox_159/fox_idle.psa" name="Idle" id="idle1" speed="70"/>
+    <animation file="fauna/fox_159/fox_walk.psa" name="Walk" speed="20"/>
+    <animation file="fauna/fox_159/fox_run.psa" name="Run" speed="8"/>
+    <animation file="fauna/fox_159/fox_feeding.psa" name="feeding" speed="70"/>
+    <animation file="fauna/fox_159/fox_death.psa" name="Death" speed="120"/>
+  </animations>
+</variant>

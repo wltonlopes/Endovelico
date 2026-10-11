@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>6</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.7" depth="7.6"/>
+    <Height>1.5</Height>
+  </Footprint>
+  <Health>
+    <Max>20</Max>
+  </Health>
+  <Identity>
+    <GenericName>Boa Constrictor</GenericName>
+    <SpecificName>Boa imperator</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/boa_constrictor.xml</Actor>
+  </VisualActor>
+</Entity>

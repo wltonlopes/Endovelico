@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>4</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.1" depth="3.6"/>
+    <Height>1.8</Height>
+  </Footprint>
+  <Health>
+    <Max>18</Max>
+  </Health>
+  <Identity>
+    <GenericName>Jaguarundi</GenericName>
+    <SpecificName>Herpailurus yagouaroundi</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/jaguarundi.xml</Actor>
+  </VisualActor>
+</Entity>

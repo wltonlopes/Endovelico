@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer">
+  <Footprint>
+    <Square width="1.2" depth="3.7"/>
+    <Height>3.9</Height>
+  </Footprint>
+  <Health>
+    <Max>35</Max>
+  </Health>
+  <Identity>
+    <GenericName>Caribou Cow</GenericName>
+    <SpecificName>Rangifer tarandus</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>175</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>4.9</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/caribou_female.xml</Actor>
+  </VisualActor>
+</Entity>

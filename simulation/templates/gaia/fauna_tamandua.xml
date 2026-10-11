@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>3</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="0.9" depth="2.7"/>
+    <Height>1.0</Height>
+  </Footprint>
+  <Health>
+    <Max>15</Max>
+  </Health>
+  <Identity>
+    <GenericName>Northern Tamandua</GenericName>
+    <SpecificName>Tamandua mexicana</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/tamandua.xml</Actor>
+  </VisualActor>
+</Entity>

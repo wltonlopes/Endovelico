@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="quadraped/rabbit_idle_01.dae" name="Idle" speed="100"/>
+    <animation file="quadraped/rabbit_idle_02.dae" name="Idle" speed="100"/>
+    <animation file="quadraped/rabbit_idle_03.dae" name="Idle" speed="100"/>
+    <animation file="quadraped/rabbit_walk.dae" name="walk" speed="20"/>
+    <animation file="quadraped/rabbit_walk.dae" name="run" speed="40"/>
+    <animation file="quadraped/rabbit_death.dae" name="Death" speed="100"/>
+  </animations>
+</variant>

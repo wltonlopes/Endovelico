@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/wolfhound_083/wolfhound_idle1.psa" name="Idle" speed="100"/>
+    <animation file="fauna/wolfhound_083/wolfhound_idle_laydown.psa" name="Idle" speed="100"/>
+    <animation file="fauna/wolfhound_083/wolfhound_idle_long.psa" name="Idle" speed="100"/>
+    <animation file="fauna/wolfhound_083/wolfhound_idle_sit.psa" name="Idle" speed="100"/>
+    <animation file="fauna/wolfhound_083/wolfhound_walk.psa" name="Walk" speed="10"/>
+    <animation file="fauna/wolfhound_083/wolfhound_walk.psa" name="run" speed="10"/>
+    <animation file="fauna/wolfhound_083/wolfhound_death.psa" name="death" speed="100"/>
+    <animation file="fauna/wolfhound_083/wolfhound_attack.psa" name="attack_melee" speed="100"/>
+  </animations>
+</variant>

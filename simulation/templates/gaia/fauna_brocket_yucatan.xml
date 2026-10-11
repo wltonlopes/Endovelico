@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer">
+  <Footprint>
+    <Square width="0.9" depth="2.5"/>
+    <Height>2.7</Height>
+  </Footprint>
+  <Health>
+    <Max>15</Max>
+  </Health>
+  <Identity>
+    <GenericName>Yucatan Brown Brocket</GenericName>
+    <SpecificName>Odocoileus pandora</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>75</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>3.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/brocket_yucatan.xml</Actor>
+  </VisualActor>
+</Entity>

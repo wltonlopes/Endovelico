@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.4" depth="2.0"/>
+    <Height>1.8</Height>
+  </Footprint>
+  <Health>
+    <Max>5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Crested Guan</GenericName>
+    <SpecificName>Penelope purpurascens</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/guan_crested.xml</Actor>
+  </VisualActor>
+</Entity>

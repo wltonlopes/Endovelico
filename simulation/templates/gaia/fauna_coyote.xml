@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_wolf">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>7</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.1" depth="2.8"/>
+    <Height>2.5</Height>
+  </Footprint>
+  <Health>
+    <Max>30</Max>
+  </Health>
+  <Identity>
+    <GenericName>Coyote</GenericName>
+    <SpecificName>Canis latrans</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/coyote.xml</Actor>
+  </VisualActor>
+</Entity>

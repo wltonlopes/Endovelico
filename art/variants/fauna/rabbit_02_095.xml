@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/rabbit_02_095/rabbit_idle_01.psa" name="Idle" speed="100"/>
+    <animation file="fauna/rabbit_02_095/rabbit_idle_02.psa" name="Idle" speed="100"/>
+    <animation file="fauna/rabbit_02_095/rabbit_idle_03.psa" name="Idle" speed="100"/>
+    <animation file="fauna/rabbit_02_095/rabbit_walk.psa" name="walk" speed="20"/>
+    <animation file="fauna/rabbit_02_095/rabbit_walk.psa" name="run" speed="40"/>
+    <animation file="fauna/rabbit_02_095/rabbit_death.psa" name="Death" speed="100"/>
+  </animations>
+</variant>

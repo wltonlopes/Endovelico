@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.2" depth="1.1"/>
+    <Height>0.5</Height>
+  </Footprint>
+  <Health>
+    <Max>3</Max>
+  </Health>
+  <Identity>
+    <GenericName>Cane Toad</GenericName>
+    <SpecificName>Rhinella horribilis</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>10</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>1.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/toad_cane.xml</Actor>
+  </VisualActor>
+</Entity>

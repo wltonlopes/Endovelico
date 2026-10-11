@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_shark">
+  <Footprint>
+    <Square width="2.5" depth="5.9"/>
+    <Height>1.2</Height>
+  </Footprint>
+  <Health>
+    <Max>80</Max>
+  </Health>
+  <Identity>
+    <GenericName>Bottlenose Dolphin</GenericName>
+    <SpecificName>Tursiops truncatus</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/dolphin.xml</Actor>
+  </VisualActor>
+</Entity>

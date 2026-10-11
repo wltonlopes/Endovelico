@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/bear_polar_043.xml" name="Base">
+      <mesh>skeletal/fauna/coati.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="coati" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/coati.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

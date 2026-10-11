@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_shark">
+  <Footprint>
+    <Square width="5.8" depth="12.6"/>
+    <Height>3.6</Height>
+  </Footprint>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <GenericName>Orca</GenericName>
+    <SpecificName>Orcinus orca</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>4.6</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/orca.xml</Actor>
+  </VisualActor>
+</Entity>

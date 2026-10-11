@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.0" depth="1.8"/>
+    <Height>1.6</Height>
+  </Footprint>
+  <Health>
+    <Max>6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Great Curassow</GenericName>
+    <SpecificName>Crax rubra</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>80</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.6</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/curassow.xml</Actor>
+  </VisualActor>
+</Entity>

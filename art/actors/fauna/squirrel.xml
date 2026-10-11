@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/rabbit_02_095.xml" name="Base">
+      <mesh>skeletal/fauna/squirrel.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="squirrel_1" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/squirrel_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="squirrel_4" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/squirrel_4.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

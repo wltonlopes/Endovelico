@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/whale_fin_064/whale_fin_idle_a.psa" name="Idle" speed="2"/>
+    <animation file="fauna/whale_fin_064/whale_fin_idle_b.psa" name="Idle" speed="2"/>
+    <animation file="fauna/whale_fin_064/whale_fin_idle_c.psa" name="Idle" speed="2"/>
+    <animation file="fauna/whale_fin_064/whale_fin_idle_d.psa" name="Idle" speed="3"/>
+  </animations>
+</variant>

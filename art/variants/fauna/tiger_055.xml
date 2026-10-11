@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/tiger_055/feline_idle_01.psa" name="Idle" speed="100"/>
+    <animation file="fauna/tiger_055/feline_idle_02.psa" name="Idle" speed="100"/>
+    <animation file="fauna/tiger_055/feline_idle_03.psa" name="Idle" speed="100"/>
+    <animation file="fauna/tiger_055/feline_idle_04.psa" name="Idle" speed="100"/>
+    <animation file="fauna/tiger_055/feline_attack.psa" name="attack_melee" speed="100"/>
+    <animation file="fauna/tiger_055/feline_attack_02.psa" name="attack_melee" speed="100"/>
+    <animation file="fauna/tiger_055/feline_walk.psa" name="walk" speed="40"/>
+    <animation file="fauna/tiger_055/feline_run.psa" name="run" speed="20"/>
+    <animation file="fauna/tiger_055/feline_death.psa" name="Death" speed="100"/>
+  </animations>
+</variant>

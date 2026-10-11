@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer">
+  <Footprint>
+    <Square width="1.5" depth="3.4"/>
+    <Height>1.7</Height>
+  </Footprint>
+  <Health>
+    <Max>14</Max>
+  </Health>
+  <Identity>
+    <GenericName>Mantled Howler Monkey</GenericName>
+    <SpecificName>Alouatta palliata</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>70</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/monkey_howler.xml</Actor>
+  </VisualActor>
+</Entity>

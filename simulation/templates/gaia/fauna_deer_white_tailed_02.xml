@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer_white_tailed">
+  <Footprint>
+    <Square width="1.2" depth="3.7"/>
+    <Height>4.6</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>White-Tailed Stag</GenericName>
+    <SpecificName>Odocoileus virginianus</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>5.6</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/deer_white_tailed_02.xml</Actor>
+  </VisualActor>
+</Entity>

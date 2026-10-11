@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_bovidae_attack.xml" name="Base">
-      <mesh>skeletal/sanga_cattle_a.dae</mesh>
+    <variant file="quadraped/base_sanga_mount.xml" name="Base">
+      <mesh>skeletal/sanga_cattle_mount.dae</mesh>
       <props>
-          <prop actor="units/urewe/hero_healer_r.xml" attachpoint="root" maxheight="3" minheight="3.2"/>
+          <prop actor="units/urewe/hero_healer_r.xml" attachpoint="rider"/>
       </props>
     </variant>
   </group>
@@ -38,7 +38,8 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="quadraped/base_bovidae_death.xml" name="death"/>
+    <variant file="quadraped/base_sanga_mount_run.xml"/>
+    <variant file="quadraped/base_sanga_mount_death.xml"/>
   </group>
   <group>
     <variant>

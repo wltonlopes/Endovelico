@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.6" depth="5.3"/>
+    <Height>1.3</Height>
+  </Footprint>
+  <Health>
+    <Max>8</Max>
+  </Health>
+  <Identity>
+    <GenericName>Green Iguana</GenericName>
+    <SpecificName>Iguana iguana</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>50</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/iguana_green.xml</Actor>
+  </VisualActor>
+</Entity>

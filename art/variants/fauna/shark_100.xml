@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="other/shark_idle.dae" name="idle" speed="10"/>
+    <animation file="other/shark_walk.dae" name="walk" speed="10"/>
+    <animation file="other/shark_run.dae" name="run" speed="12"/>
+  </animations>
+</variant>

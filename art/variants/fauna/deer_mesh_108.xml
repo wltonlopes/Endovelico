@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/deer_mesh_108/deer_idle_01.psa" name="idle" speed="20"/>
+    <animation file="fauna/deer_mesh_108/deer_idle_02.psa" name="idle" speed="20"/>
+    <animation file="fauna/deer_mesh_108/deer_idle_03.psa" name="idle" speed="20"/>
+    <animation file="fauna/deer_mesh_108/deer_walk_01.psa" name="walk" speed="25"/>
+    <animation file="fauna/deer_mesh_108/deer_run_01.psa" name="run" speed="15"/>
+    <animation file="fauna/deer_mesh_108/deer_attack_01.psa" name="attack_melee" speed="20"/>
+    <animation file="fauna/deer_mesh_108/deer_death_01.psa" name="death" speed="40"/>
+    <animation file="fauna/deer_mesh_108/deer_death_02.psa" name="death" speed="40"/>
+    <animation file="fauna/deer_mesh_108/deer_idle_04.psa" name="idle" speed="20"/>
+    <animation file="fauna/deer_mesh_108/deer_walk_02.psa" name="walk" speed="20"/>
+  </animations>
+</variant>

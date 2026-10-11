@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="0.9" depth="1.3"/>
+    <Height>1.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Tapeti</GenericName>
+    <SpecificName>Sylvilagus brasiliensis</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>50</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/tapeti.xml</Actor>
+  </VisualActor>
+</Entity>

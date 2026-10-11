@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_crocodile_nile">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>18</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="2.0" depth="7.2"/>
+    <Height>1.3</Height>
+  </Footprint>
+  <Health>
+    <Max>60</Max>
+  </Health>
+  <Identity>
+    <GenericName>Spectacled Caiman</GenericName>
+    <SpecificName>Caiman crocodilus</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/caiman.xml</Actor>
+  </VisualActor>
+</Entity>

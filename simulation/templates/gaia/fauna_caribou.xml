@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer">
+  <Footprint>
+    <Square width="2.4" depth="4.2"/>
+    <Height>5.7</Height>
+  </Footprint>
+  <Health>
+    <Max>40</Max>
+  </Health>
+  <Identity>
+    <GenericName>Caribou</GenericName>
+    <SpecificName>Rangifer tarandus</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>200</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>6.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/caribou.xml</Actor>
+  </VisualActor>
+</Entity>

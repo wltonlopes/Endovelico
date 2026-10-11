@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/croc_083/Croc_idle1.psa" name="idle" speed="11"/>
+    <animation file="fauna/croc_083/Croc_idle2.psa" name="idle" speed="11"/>
+    <animation file="fauna/croc_083/Croc_idle3.psa" name="idle" speed="25"/>
+    <animation file="fauna/croc_083/Croc_walk.psa" name="Walk" speed="20"/>
+    <animation file="fauna/croc_083/Croc_run.psa" name="Run" speed="15"/>
+    <animation event="0.47" file="fauna/croc_083/Croc_attack.psa" name="attack_melee" speed="80"/>
+    <animation file="fauna/croc_083/Croc_death.psa" name="Death" speed="120"/>
+  </animations>
+</variant>

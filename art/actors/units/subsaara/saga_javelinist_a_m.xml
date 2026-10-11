@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="quadraped/base_bovidae_attack.xml" name="Base">
-      <mesh>skeletal/sanga_cattle_a.dae</mesh>
+    <variant file="quadraped/base_sanga_mount.xml" name="Base">
+      <mesh>skeletal/sanga_cattle_mount.dae</mesh>
       <props>
-        <prop actor="units/subsaara/base_bovidae.xml" attachpoint="root"/>
+        <prop actor="units/subsaara/base_bovidae.xml" attachpoint="gear"/>
       </props>
     </variant>
   </group>
@@ -38,7 +38,8 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="quadraped/base_bovidae_death.xml" name="death"/>
+    <variant file="quadraped/base_sanga_mount_run.xml"/>
+    <variant file="quadraped/base_sanga_mount_death.xml"/>
   </group>
   <group>
     <variant>

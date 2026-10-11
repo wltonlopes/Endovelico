@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>6</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.1" depth="3.3"/>
+    <Height>1.9</Height>
+  </Footprint>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <GenericName>Ocelot</GenericName>
+    <SpecificName>Leopardus pardalis</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.9</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/ocelot.xml</Actor>
+  </VisualActor>
+</Entity>

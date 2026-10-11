@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="0.8" depth="2.4"/>
+    <Height>1.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3</Max>
+  </Health>
+  <Identity>
+    <GenericName>Mexican Gray Squirrel</GenericName>
+    <SpecificName>Sciurus aureogaster</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>25</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/squirrel.xml</Actor>
+  </VisualActor>
+</Entity>

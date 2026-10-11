@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/animal_boar_078/animal_boar_idle_02.psa" name="Idle" speed="10"/>
+    <animation file="fauna/animal_boar_078/animal_boar_attack_01.psa" name="attack_melee" speed="120"/>
+    <animation file="fauna/animal_boar_078/animal_boar_walk_01.psa" name="Walk" speed="10"/>
+    <animation file="fauna/animal_boar_078/animal_boar_run_01.psa" name="Run" speed="8"/>
+    <animation file="fauna/animal_boar_078/animal_boar_death_01.psa" name="Death" speed="50"/>
+    <animation file="fauna/animal_boar_078/animal_boar_idle_01.psa" name="Idle" speed="10"/>
+  </animations>
+</variant>

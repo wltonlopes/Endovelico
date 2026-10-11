@@ -6,7 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>bantu</Civ>
-    <GenericName>Stable</GenericName>
   </Identity>
   <Obstruction>
     <Static width="19.5" depth="19.5"/>
@@ -16,7 +15,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/southern_bantu/stable_bull.xml</Actor>
+    <Actor>structures/southern_bantu/kraal.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/shark_073/shark_idle.psa" name="idle" speed="10"/>
+    <animation file="fauna/shark_073/shark_walk.psa" name="walk" speed="10"/>
+    <animation file="fauna/shark_073/shark_run.psa" name="run" speed="12"/>
+  </animations>
+</variant>

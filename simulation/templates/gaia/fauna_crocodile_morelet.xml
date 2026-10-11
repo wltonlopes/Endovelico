@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_crocodile_nile">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>24</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="3.5" depth="9.1"/>
+    <Height>1.8</Height>
+  </Footprint>
+  <Health>
+    <Max>80</Max>
+  </Health>
+  <Identity>
+    <GenericName>Morelet's Crocodile</GenericName>
+    <SpecificName>Crocodylus moreletii</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/crocodile_morelet.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/bear_polar_064/bear_idle_01.psa" name="Idle" id="idle1" frequency="10" speed="80"/>
+    <animation file="fauna/bear_polar_064/bear_idle_02.psa" name="Idle" id="idle2" frequency="5" speed="80"/>
+    <animation file="fauna/bear_polar_064/bear_idle_03.psa" name="Idle" id="idle3" frequency="1" speed="80"/>
+    <animation file="fauna/bear_polar_064/bear_idle_04.psa" name="Idle" id="idle4" frequency="5" speed="80"/>
+    <animation file="fauna/bear_polar_064/bear_attack_01.psa" name="Attack_Melee" id="attack1" speed="100"/>
+    <animation file="fauna/bear_polar_064/bear_attack_02.psa" name="Attack_Melee" id="attack2" speed="100"/>
+    <animation file="fauna/bear_polar_064/bear_attack_03.psa" name="Attack_Melee" id="attack3" speed="100"/>
+    <animation file="fauna/bear_polar_064/bear_death_01.psa" name="Death" speed="120"/>
+    <animation file="fauna/bear_polar_064/bear_walk.psa" name="Walk" speed="35"/>
+    <animation file="fauna/bear_polar_064/bear_run.psa" name="Run" speed="5"/>
+  </animations>
+</variant>

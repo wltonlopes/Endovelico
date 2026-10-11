@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>10</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.5" depth="5.0"/>
+    <Height>2.2</Height>
+  </Footprint>
+  <Health>
+    <Max>40</Max>
+  </Health>
+  <Identity>
+    <GenericName>Giant Anteater</GenericName>
+    <SpecificName>Myrmecophaga tridactyla</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/anteater_02.xml</Actor>
+  </VisualActor>
+</Entity>

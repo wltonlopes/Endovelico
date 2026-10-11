@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_jaguar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>30</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.4" depth="5.5"/>
+    <Height>2.6</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <GenericName>Black Jaguar</GenericName>
+    <SpecificName>Panthera onca</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.6</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/panther_black.xml</Actor>
+  </VisualActor>
+</Entity>

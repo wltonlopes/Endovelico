@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer">
+  <Footprint>
+    <Square width="1.3" depth="3.1"/>
+    <Height>2.8</Height>
+  </Footprint>
+  <Health>
+    <Max>12</Max>
+  </Health>
+  <Identity>
+    <GenericName>Geoffroy's Spider Monkey</GenericName>
+    <SpecificName>Ateles geoffroyi</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>3.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/monkey_spider.xml</Actor>
+  </VisualActor>
+</Entity>

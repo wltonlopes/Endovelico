@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_dog_wolfhound">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>5</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.0" depth="2.5"/>
+    <Height>2.2</Height>
+  </Footprint>
+  <Health>
+    <Max>30</Max>
+  </Health>
+  <Identity>
+    <GenericName>Village Dog</GenericName>
+    <SpecificName>Canis familiaris</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/dog_native_american_02.xml</Actor>
+  </VisualActor>
+</Entity>

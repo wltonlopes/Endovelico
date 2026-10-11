@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.0" depth="1.1"/>
+    <Height>1.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4</Max>
+  </Health>
+  <Identity>
+    <GenericName>Great Tinamou</GenericName>
+    <SpecificName>Tinamus major</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>40</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/tinamou.xml</Actor>
+  </VisualActor>
+</Entity>

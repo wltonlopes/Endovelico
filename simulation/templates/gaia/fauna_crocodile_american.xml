@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_crocodile_nile">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>30</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="2.9" depth="10.4"/>
+    <Height>2.1</Height>
+  </Footprint>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <GenericName>American Crocodile</GenericName>
+    <SpecificName>Crocodylus acutus</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.1</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/crocodile_american.xml</Actor>
+  </VisualActor>
+</Entity>
