@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/auroch_b_087/bovidae_idle_a.psa" name="Idle" id="idle1" speed="80"/>
+    <animation file="fauna/auroch_b_087/bovidae_idle_b.psa" name="Idle" id="idle2" speed="80"/>
+    <animation file="fauna/auroch_b_087/bovidae_idle_c.psa" name="Idle" id="idle3" speed="80"/>
+    <animation file="fauna/auroch_b_087/bovidae_idle_d.psa" name="Idle" id="idle4" speed="80"/>
+    <animation file="fauna/auroch_b_087/bovidae_attack.psa" name="Attack_melee" speed="100"/>
+    <animation file="fauna/auroch_b_087/bovidae_feeding.psa" name="Feeding" speed="80"/>
+    <animation file="fauna/auroch_b_087/bovidae_walk_relax.psa" name="Walk" speed="60"/>
+    <animation file="fauna/auroch_b_087/bovidae_run.psa" name="Run" speed="8"/>
+    <animation file="fauna/auroch_b_087/bovidae_death_a.psa" name="Death" id="death1" speed="90"/>
+    <animation file="fauna/auroch_b_087/bovidae_death_b.psa" name="Death" id="death2" speed="90"/>
+  </animations>
+</variant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer">
+  <Footprint>
+    <Square width="0.8" depth="2.1"/>
+    <Height>2.5</Height>
+  </Footprint>
+  <Health>
+    <Max>12</Max>
+  </Health>
+  <Identity>
+    <GenericName>Roe Deer Buck</GenericName>
+    <SpecificName>Capreolus capreolus</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>3.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/deer_roe.xml</Actor>
+  </VisualActor>
+</Entity>

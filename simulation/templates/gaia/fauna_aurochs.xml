@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>20</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="2.4" depth="6.8"/>
+    <Height>4.8</Height>
+  </Footprint>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <GenericName>Aurochs Bull</GenericName>
+    <SpecificName>Bos primigenius</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>400</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>5.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/aurochs.xml</Actor>
+  </VisualActor>
+</Entity>

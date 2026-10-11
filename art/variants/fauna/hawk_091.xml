@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/hawk_091/hawk_flight.psa" name="Walk" speed="10"/>
+    <animation file="fauna/hawk_091/hawk_glide.psa" name="Walk" speed="3"/>
+    <animation file="fauna/hawk_091/hawk_flight.psa" name="Idle" speed="40"/>
+    <animation file="fauna/hawk_091/hawk_glide.psa" name="Idle" speed="3"/>
+  </animations>
+</variant>

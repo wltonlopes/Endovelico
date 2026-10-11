@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/hawk_091.xml" name="Base">
+      <mesh>skeletal/fauna/mallard_flying.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="mallard_flying" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/mallard_flying.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

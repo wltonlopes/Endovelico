@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>3</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.1" depth="2.3"/>
+    <Height>1.3</Height>
+  </Footprint>
+  <Health>
+    <Max>15</Max>
+  </Health>
+  <Identity>
+    <GenericName>European Badger</GenericName>
+    <SpecificName>Meles meles</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/badger.xml</Actor>
+  </VisualActor>
+</Entity>

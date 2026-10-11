@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>2</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.0" depth="2.9"/>
+    <Height>1.2</Height>
+  </Footprint>
+  <Health>
+    <Max>12</Max>
+  </Health>
+  <Identity>
+    <GenericName>Neotropical Otter</GenericName>
+    <SpecificName>Lontra longicaudis</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/otter_tropical.xml</Actor>
+  </VisualActor>
+</Entity>

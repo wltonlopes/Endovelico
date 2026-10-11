@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/auroch_b_087.xml" name="Base">
+      <mesh>skeletal/fauna/aurochs_female.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="aurochs_female_1" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/aurochs_female_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="aurochs_female_2" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/aurochs_female_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -15,8 +15,8 @@
     <Max>12</Max>
   </Health>
   <Identity>
-    <GenericName>Neotropical Otter</GenericName>
-    <SpecificName>Lontra longicaudis</SpecificName>
+    <GenericName>River Otter</GenericName>
+    <SpecificName>Lontra canadensis</SpecificName>
   </Identity>
   <StatusBars>
     <HeightOffset>2.2</HeightOffset>

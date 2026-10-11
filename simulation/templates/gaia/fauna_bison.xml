@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>20</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="2.6" depth="6.9"/>
+    <Height>5.4</Height>
+  </Footprint>
+  <Health>
+    <Max>160</Max>
+  </Health>
+  <Identity>
+    <GenericName>European Bison Bull</GenericName>
+    <SpecificName>Bison bonasus</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>400</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>6.4</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/bison.xml</Actor>
+  </VisualActor>
+</Entity>

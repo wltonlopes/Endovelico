@@ -52,6 +52,10 @@ BASE_ACTORS = {
 	"shark": "fauna/shark.xml",
 	"whale_fin": "fauna/whale_fin.xml",
 	"chicken": "fauna/chicken.xml",
+	"horse_celtic": "fauna/horse.xml",
+	"auroch_a": "fauna/sanga_cattle.xml", "auroch_b": "fauna/sanga_cattle.xml",
+	"bull_a": "fauna/sanga_cattle.xml", "cattle_female_a": "fauna/sanga_cattle.xml",
+	"sanga_cattle_a": "fauna/sanga_cattle.xml", "zebu": "fauna/sanga_cattle.xml",
 	"fox": "fauna/fox_red.xml",
 	"wolfhound": "units/britons/wolfhound.xml",
 	"animal_boar": "fauna/boar.xml",
@@ -69,11 +73,14 @@ NAMES = {
 	"caiman": "caiman", "cocodrilo_narigudo": "crocodile_american", "cocodrilo_pantano": "crocodile_morelet",
 	"iguana_comun": "iguana_green", "iguana_motagua": "iguana_motagua", "boa_constrictor": "boa_constrictor",
 	"sapo_de_cana": "toad_cane", "basilisco": "basilisk", "mapache": "raccoon", "coati": "coati",
-	"grison": "grison", "mofeta": "skunk", "nutria": "otter", "oso_hormiguero_gigante": "anteater",
+	"grison": "grison", "mofeta": "skunk", "nutria": "otter", "nutria_tropical": "otter_tropical", "oso_hormiguero_gigante": "anteater",
 	"tamandua": "tamandua", "zarigueya": "opossum", "delfin": "dolphin", "orca": "orca",
 	"mono_arana": "monkey_spider", "mono_aullador": "monkey_howler", "mono_de_berberia": "macaque_barbary",
 	"chacalaca": "chachalaca", "cojolite": "guan_crested", "pajuil_macho": "curassow",
 	"pajuil_hembra": "curassow_female", "tinamu": "tinamou",
+	"ciervos_rojos_machos": "deer_red", "ciervos_rojos_hembras": "deer_red_female", "ciervos_corzos": "deer_roe",
+	"ciervos_gamo": "deer_fallow", "tejon": "badger", "uro": "aurochs", "bisontes": "bison",
+	"caballo_sorraia": "horse_sorraia",
 	"tiburon_martillo": "shark_hammerhead", "tiburon_sarda": "shark_bull", "ardilla": "squirrel",
 }
 
@@ -182,7 +189,9 @@ def slug(text):
 def species_key(image):
 	"""'textura iguana común 2-CREACIÓN+.png' -> ('iguana_comun', '2')"""
 	tokens = slug(os.path.splitext(image)[0]).replace("creacion", "_").split("_")
-	tokens = [t for t in tokens if t and t not in ("textura", "nuevo", "png", "001")]
+	tokens = [t for t in tokens if t and t not in ("textura", "nuevo", "png", "001", "copia")]
+	# Colour variants of one animal.
+	tokens = [t for t in tokens if t not in ("negro", "pardo", "claro", "oscuro")] if tokens[:1] in (["uro"], ["tejon"]) else tokens
 	numbers = [t for t in tokens if t.isdigit()]
 	return "_".join(t for t in tokens if not t.isdigit()), (numbers[0] if numbers else "")
 
@@ -208,10 +217,20 @@ class Vanilla:
 				root = ET.fromstring(data)
 			except ET.ParseError:
 				continue
+			# Different files reuse an id (the old and the new horse rig are both "Horse").
+			local = {}
 			for standard in root.findall("standard_skeleton"):
-				self.skeletons.setdefault(standard.get("id"), {})["std"] = [b.get("name") for b in standard.iter("bone")]
+				sid = standard.get("id")
+				while sid in self.skeletons:
+					sid += "'"
+				local[standard.get("id")] = sid
+				bones = list(standard.iter("bone"))
+				parent = {child: bone for bone in bones for child in bone.findall("bone")}
+				self.skeletons[sid] = {"std": [b.get("name") for b in bones],
+					"parents": [bones.index(parent[b]) if b in parent else None for b in bones]}
 			for skeleton in root.findall("skeleton"):
-				entry = self.skeletons.setdefault(skeleton.get("target"), {}).setdefault("maps", {})
+				sid = local.get(skeleton.get("target"), skeleton.get("target"))
+				entry = self.skeletons.setdefault(sid, {}).setdefault("maps", {})
 				for bone in skeleton.iter("bone"):
 					target = bone.find("target")
 					if target is not None and target.text:
@@ -398,6 +417,10 @@ def dump_blend(path):
 	return pickle.load(open(cache, "rb"))
 
 
+# Catalog image name -> file name used on the forum, where they differ too much to match.
+TEXTURE_ALIASES = {"texturabisontescreacin": "texturabisontenueva"}
+
+
 class Textures:
 	def __init__(self, directories):
 		self.files = {}
@@ -410,6 +433,7 @@ class Textures:
 	def find(self, image):
 		# The forum drops accented letters from file names instead of transliterating them.
 		key = re.sub(r"[^a-z0-9]", "", os.path.splitext(image)[0].encode("ascii", "ignore").decode().lower())
+		key = TEXTURE_ALIASES.get(key, key)
 		if key in self.files:
 			return self.files[key]
 		close = difflib.get_close_matches(key, list(self.files), n=1, cutoff=0.86)
@@ -420,11 +444,22 @@ def power_of_two(value):
 	return int(min(1024, max(16, 2 ** round(np.log2(value)))))
 
 
-def build_mesh(body, parts, fit, base, bone_index, scale):
+def build_mesh(body, parts, fit, base, bone_index, scale, parents):
 	"""Merge the body and its rigid parts into PMD vertex and face arrays in skeleton space."""
 	num_bones = len(base["bones"])
 	inverse = fit["rotation"].T
 	factor = scale / fit["scale"]
+	# A bone no vertex of the base mesh uses may rest somewhere else than its animations expect
+	# (the hip helpers of the cattle do): give its weights to the closest used ancestor.
+	used = np.zeros(num_bones, dtype=bool)
+	for k in range(4):
+		column = base["indices"][:, k]
+		used[column[(column < num_bones) & (base["weights"][:, k] > 0)]] = True
+
+	def deforming(bone):
+		while not used[bone] and parents[bone] is not None:
+			bone = parents[bone]
+		return bone
 
 	def place(points):
 		return ((to_engine(points) - fit["offset"]) @ inverse.T) * factor
@@ -436,6 +471,7 @@ def build_mesh(body, parts, fit, base, bone_index, scale):
 			for name, weight in row:
 				bone = bone_index.get(bone_alias(name))
 				if bone is not None and bone < num_bones:
+					bone = deforming(bone)
 					mapped[bone] = mapped.get(bone, 0) + weight
 			top = sorted(mapped.items(), key=lambda item: -item[1])[:4]
 			total = sum(w for _, w in top)
@@ -577,7 +613,7 @@ def main():
 				continue
 			base_name, fit = best
 			scale = 1.0 if abs(fit["scale"] - 1) <= 0.03 else round(float(fit["scale"]), 2)
-			mesh = build_mesh(body, body["parts"], fit, vanilla.bases[base_name], index, scale)
+			mesh = build_mesh(body, body["parts"], fit, vanilla.bases[base_name], index, scale, vanilla.skeletons[sid]["parents"])
 			key, number = species_key(body["img"])
 			# Copies of one animal differ only in texture or in small parts such as whiskers; antlers
 			# (large parts) make a separate variant.
@@ -605,11 +641,13 @@ def main():
 		if os.path.exists(target("art", "actors", "fauna", name + ".xml")) and not args.force:
 			skipped.append("%s: art/actors/fauna/%s.xml already exists" % (species[key][0]["source"], name))
 			continue
-		variants = sorted(species[key], key=lambda v: (-v["antlers"], -v["scale"]))
+		# Deer and cattle come as a male and a smaller female; the male is the one with antlers.
+		paired = len(species[key]) == 2 and BASE_ACTORS[species[key][0]["base"]] in ("fauna/deer.xml", "fauna/sanga_cattle.xml")
+		variants = sorted(species[key], key=lambda v: (-v["antlers"] if v["base"] == "deer_mesh" else 0, -v["scale"]))
 		for position, variant in enumerate(variants):
 			if position == 0:
 				actor = name
-			elif variants[0]["antlers"] and not variant["antlers"] and not any(v is not variant and not v["antlers"] for v in variants):
+			elif paired:
 				actor = name + "_female"
 			else:
 				actor = name + "_" + "bcdefgh"[position - 1]
