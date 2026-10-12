@@ -7,7 +7,7 @@
     <Phenotype>female</Phenotype>
     <GenericName>Queen of the Sao</GenericName>
     <SpecificName>Nyal</SpecificName>
-    <Icon>units/gara/hero_1.png</Icon>
+    <Icon>units/sao/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/sao/hero_cavalry_javelineer_m.xml</Actor>

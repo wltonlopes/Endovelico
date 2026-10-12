@@ -6,7 +6,7 @@
     <Civ>azan</Civ>
     <GenericName>Lord of Menouthias</GenericName>
     <SpecificName>Mwinyi wa Menouthias</SpecificName>
-    <Icon>units/kush/hero_nastasen.png</Icon>
+    <Icon>units/azan/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/azania/hero_infantry_spearman.xml</Actor>

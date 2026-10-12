@@ -3,7 +3,7 @@
     <Civ>chibc</Civ>
     <SelectionGroupName>units/chibc/infantry_maceman_b</SelectionGroupName>
     <GenericName>Auxiliary Clubman</GenericName>
-    <Icon>units/moch/infantry_maceman.png</Icon>
+    <Icon>units/chibc/infantry_clubman_merc.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/chibc/infantry_maceman_a</Entity>

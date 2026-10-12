@@ -3,7 +3,7 @@
   <Identity>
     <Civ>macrob</Civ>
     <GenericName>Macrobian Noble Cavalry</GenericName>
-    <Icon>units/rome/champion_cavalry.png</Icon>
+    <Icon>units/macrob/champion_cavalry.png</Icon>
     <SelectionGroupName>units/macrob/champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>

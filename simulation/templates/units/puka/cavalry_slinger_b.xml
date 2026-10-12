@@ -5,7 +5,7 @@
     <SelectionGroupName>units/puka/heavy_infantry</SelectionGroupName>
     <GenericName>Raider Bolas</GenericName>
     <SpecificName>Liwiq</SpecificName>
-    <Icon>units/moch/infantry_scout.png</Icon>
+    <Icon>units/puka/cavalry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/puka/cavalry_slinger_a</Entity>

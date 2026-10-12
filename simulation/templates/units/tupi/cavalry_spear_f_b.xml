@@ -5,7 +5,7 @@
     <GenericName>Tupi Spearwoman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Tairu-abá</SpecificName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
+    <Icon>units/tupi/cavalry_spear_f.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

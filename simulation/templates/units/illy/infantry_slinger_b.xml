@@ -4,7 +4,7 @@
     <Civ>illy</Civ>
     <SelectionGroupName>units/maya_infantry_slinger_b</SelectionGroupName>
     <GenericName>Illyrian Slinger</GenericName>
-    <Icon>units/maya/infantry_slinger.png</Icon>
+    <Icon>units/illy/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/illy/infantry_slinger_a</Entity>

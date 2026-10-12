@@ -5,7 +5,7 @@
     <SelectionGroupName>units/gaet/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Gaetulian Cavalry</GenericName>
     <SpecificName>Amnay</SpecificName>
-    <Icon>units/cart/cavalry_javelinist.png</Icon>
+    <Icon>units/gaet/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gaet/cavalry_javelineer_a</Entity>

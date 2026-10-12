@@ -4,7 +4,7 @@
     <Civ>swcr</Civ>
     <GenericName>Swift Creek Trader</GenericName>
     <SpecificName>Hushi</SpecificName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/swcr/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/swcreek/trader.xml</Actor>

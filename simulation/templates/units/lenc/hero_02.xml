@@ -7,7 +7,7 @@
     <SpecificName>Entepica</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
-    <Icon>units/zapo/hero_night_king.png</Icon>
+    <Icon>units/lenc/hero_02.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

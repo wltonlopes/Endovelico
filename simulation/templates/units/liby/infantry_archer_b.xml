@@ -6,7 +6,7 @@
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>
-    <Icon>units/gara/infantry_archer.png</Icon>
+    <Icon>units/liby/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/liby/infantry_archer_a</Entity>

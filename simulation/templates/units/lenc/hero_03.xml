@@ -6,7 +6,7 @@
     <SpecificName>Mota</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/lenc/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lencas/hero_infantry_maceman.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>hasmo</Civ>
     <GenericName>Hasmonean Scout</GenericName>
-    <Icon>units/athen/cavalry_scout.png</Icon>
+    <Icon>units/hasmo/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hasmoneans/cavalry_scout.xml</Actor>

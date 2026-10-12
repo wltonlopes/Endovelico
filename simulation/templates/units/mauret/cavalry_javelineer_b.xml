@@ -5,7 +5,7 @@
     <SelectionGroupName>units/numi/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Mauretanian Cavalry</GenericName>
     <SpecificName>Amnay</SpecificName>
-    <Icon>units/cart/cavalry_javelinist.png</Icon>
+    <Icon>units/mauret/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mauret/cavalry_javelineer_a</Entity>

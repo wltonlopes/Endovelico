@@ -17,7 +17,7 @@
 
     <SelectionGroupName>units/aksum/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Aksumite Swordsman</GenericName>
-    <Icon>units/kush/infantry_swordsman.png</Icon>
+    <Icon>units/aksum/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

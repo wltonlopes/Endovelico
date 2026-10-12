@@ -15,7 +15,7 @@
     <SelectionGroupName>units/sao/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Sao Light Cavalry</GenericName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <Icon>units/subsaara/cavalry_javelineer.png</Icon>
+    <Icon>units/sao/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sao/cavalry_javelineer_a</Entity>

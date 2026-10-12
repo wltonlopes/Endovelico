@@ -6,7 +6,7 @@
     <SpecificName>Umuhigi</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/batw/hero_night_king</SelectionGroupName>
-    <Icon>units/zapo/hero_night_king.png</Icon>
+    <Icon>units/batw/hero_02.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

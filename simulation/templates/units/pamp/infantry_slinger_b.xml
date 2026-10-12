@@ -10,7 +10,7 @@
     <SelectionGroupName>units/pamp/infantry_slinger_b</SelectionGroupName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <Tooltip>Levy Slinger</Tooltip>
-    <Icon>units/moch/infantry_slinger.png</Icon>
+    <Icon>units/pamp/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pamp/infantry_slinger_a</Entity>

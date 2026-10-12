@@ -4,7 +4,7 @@
     <Civ>numi</Civ>
     <SelectionGroupName>units/numi/infantry_archer_b</SelectionGroupName>
     <GenericName>Numidian Archer</GenericName>
-    <Icon>units/cart/infantry_archer.png</Icon>
+    <Icon>units/numi/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/numi/infantry_archer_a</Entity>

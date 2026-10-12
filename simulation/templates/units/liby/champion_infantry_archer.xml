@@ -4,7 +4,7 @@
   <Civ>liby</Civ>
     <Phenotype>female</Phenotype>
     <GenericName>Libyan Great Archer</GenericName>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/liby/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/libyan/champion_archer_female.xml</Actor>

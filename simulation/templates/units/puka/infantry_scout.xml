@@ -3,7 +3,7 @@
   <Identity>
     <Civ>puka</Civ>
     <GenericName>Pukara Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/puka/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pukara/infantry_scout.xml</Actor>

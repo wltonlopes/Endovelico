@@ -4,7 +4,7 @@
     <Civ>bantu</Civ>
     <SelectionGroupName>units/southern_bantu/infantry_slinger_b</SelectionGroupName>
     <GenericName>Tribal Slinger</GenericName>
-    <Icon>units/gara/infantry_slinger.png</Icon>
+    <Icon>units/bantu/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/bantu/infantry_slinger_a</Entity>

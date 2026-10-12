@@ -4,7 +4,7 @@
     <Civ>kwa</Civ>
     <GenericName>Edo Champion Axeman</GenericName>
     <SpecificName>Edo</SpecificName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/kwa/champion_infantry_axeman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/kwa/infantry_champion_axeman.xml</Actor>

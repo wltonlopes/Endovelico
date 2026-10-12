@@ -5,7 +5,7 @@
     <SelectionGroupName>units/southern_bantu/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Bantu Skirmisher</GenericName>
     <SpecificName>Lerumo</SpecificName>
-    <Icon>units/thra/infantry_javelineer.png</Icon>
+    <Icon>units/bantu/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/bantu/infantry_javelineer_a</Entity>

@@ -6,7 +6,7 @@
     <SelectionGroupName>units/swcr/cavalry_axeman_b</SelectionGroupName>
     <GenericName>Heavy Warrior</GenericName>
     <SpecificName>Ahkiiwiikwa</SpecificName>
-    <Icon>units/maya/cavalry_axeman.png</Icon>
+    <Icon>units/swcr/cavalry_throwing.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

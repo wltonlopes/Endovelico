@@ -3,7 +3,7 @@
   <Identity>
     <Civ>shona</Civ>
     <GenericName>Shona Ox-Rider Scout</GenericName>
-    <Icon>units/kush/cavalry_scout.png</Icon>
+    <Icon>units/shona/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/shona/riding_ox_scout_jav_m.xml</Actor>

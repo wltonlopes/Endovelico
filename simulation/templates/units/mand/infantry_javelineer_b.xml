@@ -5,7 +5,7 @@
     <SelectionGroupName>units/aksum/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Tribal Levy Skirmisher</GenericName>
     <SpecificName>Djenné-Sora</SpecificName>
-    <Icon>units/thra/infantry_javelineer.png</Icon>
+    <Icon>units/mand/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mand/infantry_javelineer_a</Entity>

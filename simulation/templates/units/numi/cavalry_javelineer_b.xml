@@ -5,7 +5,7 @@
     <SelectionGroupName>units/numi/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Numidian Cavalry</GenericName>
     <SpecificName>Ḥayyāl Raḫūv Masili</SpecificName>
-    <Icon>units/cart/cavalry_javelinist.png</Icon>
+    <Icon>units/numi/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/numi/cavalry_javelineer_a</Entity>

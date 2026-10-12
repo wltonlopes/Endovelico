@@ -6,7 +6,7 @@
     <SelectionGroupName>units/anish/heavy_javelineer</SelectionGroupName>
     <GenericName>Harpoon Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/cavalry_javelineer.png</Icon>
+    <Icon>units/anish/cavalry_javelineer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <Phenotype>male</Phenotype>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>

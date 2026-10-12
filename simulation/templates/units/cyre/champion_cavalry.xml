@@ -6,7 +6,7 @@
     <GenericName>Cyrenaean Sacred Squadron</GenericName>
     <SpecificName>Hierà Ílē</SpecificName>
     <SelectionGroupName>units/cyre/champion_cavalry</SelectionGroupName>
-    <Icon>units/scyth/champion_cavalry_lancer.png</Icon>
+    <Icon>units/cyre/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/cyrene/cavalry_spearman_c_m.xml</Actor>

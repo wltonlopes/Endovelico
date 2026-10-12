@@ -10,7 +10,7 @@
     <Civ>araw</Civ>
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Arawak Axeman</GenericName>
-    <Icon>units/maya/infantry_axeman.png</Icon>
+    <Icon>units/araw/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/araw/infantry_axeman_a</Entity>

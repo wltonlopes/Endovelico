@@ -6,7 +6,7 @@
     <SelectionGroupName>units/pamp/heavy_javelineer</SelectionGroupName>
     <GenericName>Great Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/cavalry_javelineer.png</Icon>
+    <Icon>units/pamp/cavalry_spearman.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>

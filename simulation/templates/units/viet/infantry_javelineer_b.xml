@@ -6,7 +6,7 @@
     <SelectionGroupName>units/viet/infantry_javelineer_b</SelectionGroupName>
     <SpecificName>Lính Phóng Lao</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <Icon>units/zapo/infantry_javelinist.png</Icon>
+    <Icon>units/viet/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/viet/infantry_javelineer_a</Entity>

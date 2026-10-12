@@ -9,7 +9,7 @@
     <Civ>bedo</Civ>
     <SelectionGroupName>units/bedo/infantry_javelinist_b</SelectionGroupName>
     <GenericName>Bedouin Skirmisher</GenericName>
-    <Icon>units/gara/infantry_javelineer.png</Icon>
+    <Icon>units/bedo/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/bedo/infantry_javelineer_a</Entity>

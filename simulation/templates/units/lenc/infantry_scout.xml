@@ -8,7 +8,7 @@
   <Identity>
     <Civ>lenc</Civ>
     <GenericName>Lenca Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/lenc/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lencas/infantry_scout.xml</Actor>

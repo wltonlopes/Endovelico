@@ -4,7 +4,7 @@
     <SelectionGroupName>units/hongb/infantry_spearman_b</SelectionGroupName>
     <GenericName>Lac Viet Spearman</GenericName>
     <SpecificName>Giáo Binh</SpecificName>
-    <Icon>units/yayo/infantry_spearman.png</Icon>
+    <Icon>units/viet/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/viet/infantry_spearman_a</Entity>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Nok Lancer</GenericName>
-    <Icon>units/kush/cavalry_spearman.png</Icon>
+    <Icon>units/nok/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/nok/cavalry_spearman_a</Entity>

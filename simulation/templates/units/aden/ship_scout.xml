@@ -7,7 +7,7 @@
   <Identity>
     <Civ>aden</Civ>
     <GenericName>Scout Canoe</GenericName>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/aden/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/adena/canoe_war.xml</Actor>

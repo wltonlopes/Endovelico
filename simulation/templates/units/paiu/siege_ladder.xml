@@ -7,7 +7,7 @@
   <Identity>
     <Civ>paiu</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/hele/siege_tower.png</Icon>
+    <Icon>units/paiu/siege_ladder.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/paiute/siege_ladder.xml</Actor>

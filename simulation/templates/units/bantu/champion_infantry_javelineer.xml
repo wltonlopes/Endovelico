@@ -3,7 +3,7 @@
   <Identity>
     <Civ>bantu</Civ>
     <GenericName>Bantu Champion Javelineer</GenericName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/bantu/champion_infantry_javelineer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/southern_bantu/infantry_champion_harpoon.xml</Actor>

@@ -4,7 +4,7 @@
         <Civ>damar</Civ>
         <GenericName>Damara Champion Clubman</GenericName>
         <SelectionGroupName>units/damar/champion_infantry</SelectionGroupName>
-        <Icon>units/moch/champion_infantry_maceman.png</Icon>
+        <Icon>units/damar/champion_infantry_maceman.png</Icon>
         <Requirements>
             <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
         </Requirements>

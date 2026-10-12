@@ -5,7 +5,7 @@
     <SelectionGroupName>units/adena_infantry_slinger_b</SelectionGroupName>
     <GenericName>Adena Slinger</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/infantry_slinger.png</Icon>
+    <Icon>units/aden/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/aden/infantry_slinger_a</Entity>

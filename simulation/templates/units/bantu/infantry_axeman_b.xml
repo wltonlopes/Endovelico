@@ -15,7 +15,7 @@
     <Civ>bantu</Civ>
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Bantu Axeman</GenericName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/bantu/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/bantu/infantry_axeman_a</Entity>

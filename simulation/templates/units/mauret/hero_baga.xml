@@ -6,7 +6,7 @@
     <Civ>mauret</Civ>
     <GenericName>Baga of the Mauri</GenericName>
     <SpecificName>Baga</SpecificName>
-    <Icon>units/gara/hero_1.png</Icon>
+    <Icon>units/mauret/hero_baga.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mauretania/hero_cavalry_javelineer_m.xml</Actor>

@@ -5,7 +5,7 @@
     <SelectionGroupName>units/guara/blowgunner</SelectionGroupName>
     <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
     <GenericName>Blowgun Hunter</GenericName>
-    <Icon>units/south_america/infantry_blowgunner.png</Icon>
+    <Icon>units/guara/infantry_blowgunner.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/tupi/infantry_blowgunner_a</Entity>

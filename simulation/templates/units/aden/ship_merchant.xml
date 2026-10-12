@@ -7,7 +7,7 @@
   <Identity>
     <Civ>aden</Civ>
     <GenericName>Trading Canoe</GenericName>
-    <Icon>units/south_america/ship_merchant.png</Icon>
+    <Icon>units/aden/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/adena/canoe_merchant.xml</Actor>

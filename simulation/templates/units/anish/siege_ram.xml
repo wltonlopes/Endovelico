@@ -18,7 +18,7 @@
   </Footprint>
   <Identity>
     <Civ>anish</Civ>
-    <Icon>units/maya/siege_ram.png</Icon>
+    <Icon>units/anish/siege_ram.png</Icon>
   </Identity>
   <Health>
     <Max>300</Max>

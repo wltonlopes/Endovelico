@@ -8,7 +8,7 @@
     <Civ>gaet</Civ>
     <GenericName>Gaetulian Villager</GenericName>
     <SpecificName>Tameṭṭut</SpecificName>
-    <Icon>units/cart/support_female_citizen.png</Icon>
+    <Icon>units/gaet/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/gaetuli/citizen_{phenotype}.xml</Actor>

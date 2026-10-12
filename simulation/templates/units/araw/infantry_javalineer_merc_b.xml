@@ -5,7 +5,7 @@
     <GenericName>Carib Javelineer</GenericName>
     <SpecificName>Kalinago</SpecificName>
     <SelectionGroupName>units/araw/infantry_javalineer_merc</SelectionGroupName>
-    <Icon>units/maya/mercenary_swordsman.png</Icon>
+    <Icon>units/araw/infantry_javalineer_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

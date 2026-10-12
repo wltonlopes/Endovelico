@@ -4,7 +4,7 @@
   <Civ>paiu</Civ>
     <GenericName>Paiute Great Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/paiu/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/paiute/infantry_champion_archer.xml</Actor>

@@ -8,7 +8,7 @@
     <SpecificName></SpecificName>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <Phenotype>male</Phenotype>
-    <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
+    <Icon>units/batw/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion disable="true"/>
   <StatusBars>

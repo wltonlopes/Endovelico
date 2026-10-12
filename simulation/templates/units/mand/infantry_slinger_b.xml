@@ -8,7 +8,7 @@
     <Civ>mand</Civ>
     <GenericName>Mande Slinger</GenericName>
     <SelectionGroupName>units/mand/infantry_slinger_b</SelectionGroupName>
-    <Icon>units/moch/infantry_slinger.png</Icon>
+    <Icon>units/mand/infantry_slinger.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

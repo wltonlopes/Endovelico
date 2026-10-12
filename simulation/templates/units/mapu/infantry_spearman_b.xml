@@ -6,7 +6,7 @@
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <GenericName>Mapuche Levy Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/mapu/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

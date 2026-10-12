@@ -4,7 +4,7 @@
     <Civ>liby</Civ>
     <SelectionGroupName>units/liby/infantry_javelinist_b</SelectionGroupName>
     <GenericName>Libyan Skirmisher</GenericName>
-    <Icon>units/gara/infantry_javelineer.png</Icon>
+    <Icon>units/liby/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/liby/infantry_javelineer_a</Entity>

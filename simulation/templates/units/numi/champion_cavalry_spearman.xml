@@ -3,7 +3,7 @@
   <Identity>
     <Civ>numi</Civ>
     <GenericName>Numidian Noble Lancer</GenericName>
-    <Icon>units/rome/champion_cavalry.png</Icon>
+    <Icon>units/numi/champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
     <Requirements>
       <Techs datatype="tokens">

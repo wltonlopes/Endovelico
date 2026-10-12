@@ -4,7 +4,7 @@
   <Civ>tupi</Civ>
     <GenericName>Tacape Champion</GenericName>
     <SpecificName>Abá-eté</SpecificName>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/tupi/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/tupis/infantry_champion_clubman.xml</Actor>

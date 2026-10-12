@@ -10,7 +10,7 @@
     <SelectionGroupName>units/mand/infantry_axeman_b</SelectionGroupName>
     <GenericName>Mande Axeman</GenericName>
     <SpecificName>Gao-Sora</SpecificName>
-    <Icon>units/kush/infantry_swordsman.png</Icon>
+    <Icon>units/mand/infantry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

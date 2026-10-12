@@ -8,7 +8,7 @@
   <Civ>tupi</Civ>
   <GenericName>War Canoe</GenericName>
     <SpecificName>Ygara</SpecificName>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/tupi/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/tupis/canoe_war.xml</Actor>

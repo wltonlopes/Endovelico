@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Khoi Ox-Rider Scout</GenericName>
-    <Icon>units/kush/cavalry_scout.png</Icon>
+    <Icon>units/khoi/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/khoisan/cavalry_scout_r.xml</Actor>

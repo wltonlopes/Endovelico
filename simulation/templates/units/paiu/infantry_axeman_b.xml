@@ -11,7 +11,7 @@
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Paiute Axeman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/infantry_axeman.png</Icon>
+    <Icon>units/paiu/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/paiu/infantry_axeman_a</Entity>

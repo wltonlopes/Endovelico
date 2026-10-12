@@ -7,7 +7,7 @@
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <Phenotype>female</Phenotype>
     <GenericName>Batwa Poison-Dart Hunter</GenericName>
-    <Icon>units/south_america/infantry_blowgunner.png</Icon>
+    <Icon>units/batw/infantry_blowgunner.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

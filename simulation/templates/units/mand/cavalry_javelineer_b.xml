@@ -5,7 +5,7 @@
     <SelectionGroupName>units/aksum/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Mande Light Cavalry</GenericName>
     <SpecificName>Sofa-Seré</SpecificName>
-    <Icon>units/kush/cavalry_javelinist.png</Icon>
+    <Icon>units/mand/cavalry_javelineer.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>

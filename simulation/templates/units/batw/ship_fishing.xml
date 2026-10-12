@@ -7,7 +7,7 @@
   <Identity>
     <Civ>batw</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/ship_fishing.png</Icon>
+    <Icon>units/batw/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/batwa/fishing_ship.xml</Actor>

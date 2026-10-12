@@ -4,7 +4,7 @@
     <Civ>numi</Civ>
     <SelectionGroupName>units/numi/infantry_javelinist_b</SelectionGroupName>
     <GenericName>Numidian Skirmisher</GenericName>
-    <Icon>units/gara/infantry_javelineer.png</Icon>
+    <Icon>units/numi/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/numi/infantry_javelineer_a</Entity>

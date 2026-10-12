@@ -4,7 +4,7 @@
     <Civ>bedo</Civ>
     <GenericName>Dhu-Samawi Priest</GenericName>
     <SpecificName>Kāhin</SpecificName>
-    <Icon>units/maur/support_healer.png</Icon>
+    <Icon>units/bedo/support_healer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/bedo/support_healer_a</Entity>

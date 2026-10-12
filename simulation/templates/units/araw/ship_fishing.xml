@@ -8,7 +8,7 @@
     <Civ>araw</Civ>
     <GenericName>Fishing Canoe</GenericName>
     <SpecificName>Canoa</SpecificName>
-    <Icon>units/south_america/ship_fishing.png</Icon>
+    <Icon>units/araw/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/arawaks/canoe.xml</Actor>

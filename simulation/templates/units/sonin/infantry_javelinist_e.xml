@@ -2,7 +2,7 @@
 <Entity parent="units/sonin/infantry_javelinist_a">
   <Identity>
     <Civ>sonin</Civ>
-    <Icon>units/subsaara/infantry_javelineer.png</Icon>
+    <Icon>units/sonin/infantry_javelinist_e.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

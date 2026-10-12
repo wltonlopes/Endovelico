@@ -4,7 +4,7 @@
     <Civ>anish</Civ>
     <GenericName>Dog Travois Trader</GenericName>
     <SpecificName>Adaawewinini</SpecificName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/anish/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/anishinaabe/trader_h.xml</Actor>

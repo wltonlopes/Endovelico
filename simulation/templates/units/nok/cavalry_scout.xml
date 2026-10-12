@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Nok Scout</GenericName>
-    <Icon>units/kush/cavalry_scout.png</Icon>
+    <Icon>units/nok/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/nok/cavalry_scout.xml</Actor>

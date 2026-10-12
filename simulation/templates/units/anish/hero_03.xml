@@ -10,7 +10,7 @@
     <SpecificName>Ogimaakwe</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/anish/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/anish/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/anishinaabe/hero_03_f.xml</Actor>

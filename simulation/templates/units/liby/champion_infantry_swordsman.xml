@@ -10,7 +10,7 @@
     <Lang></Lang>
     <GenericName>Libyan Champion Swordsman</GenericName>
     <Rank>Elite</Rank>
-    <Icon>units/gara/champion_infantry_swordsman.png</Icon>
+    <Icon>units/liby/champion_infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

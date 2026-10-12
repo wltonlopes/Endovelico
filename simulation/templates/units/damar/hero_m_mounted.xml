@@ -4,7 +4,7 @@
     <Civ>damar</Civ>
     <GenericName>Mounted War Chief</GenericName>
     <SpecificName>ǃKhamaob</SpecificName>
-    <Icon>units/scyth/hero_skilurus.png</Icon>
+    <Icon>units/damar/hero_m_mounted.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/damara/hero_spearman_m.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Nok Champion Warrior</GenericName>
-    <Icon>units/subsaara/infantry_swordsman.png</Icon>
+    <Icon>units/nok/champion_infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/nok/infantry_swordsman_c.xml</Actor>

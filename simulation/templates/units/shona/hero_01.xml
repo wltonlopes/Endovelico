@@ -7,7 +7,7 @@
     <Civ>shona</Civ>
     <GenericName>Nyatsimba Mutota</GenericName>
     <SpecificName>Mwene Mutapa Mutota</SpecificName>
-    <Icon>units/urew/hero_01.png</Icon>
+    <Icon>units/shona/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/shona/hero_spearman_m.xml</Actor>

@@ -8,7 +8,7 @@
     <Civ>araw</Civ>
     <GenericName>Trading Canoe</GenericName>
     <SpecificName>Canoa</SpecificName>
-    <Icon>units/south_america/ship_merchant.png</Icon>
+    <Icon>units/araw/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/arawaks/canoe_merchant.xml</Actor>

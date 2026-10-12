@@ -8,7 +8,7 @@
     <Civ>illy</Civ>
     <GenericName>Illyrian War Chariot</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/achae/chariot_archer.png</Icon>
+    <Icon>units/illy/champion_chariot.png</Icon>
     <Requirements>
       <Techs datatype="tokens">-unlock_champion_cavalry unlock_champion_chariots</Techs>
     </Requirements>

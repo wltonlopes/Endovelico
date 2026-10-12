@@ -6,7 +6,7 @@
     <GenericName>Adena Spearman</GenericName>
     <SelectionGroupName>units/aden/infantry_spearman_b</SelectionGroupName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/aden/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

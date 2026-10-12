@@ -5,7 +5,7 @@
     <SelectionGroupName>units/cyre/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Marmaridae Swordsman</GenericName>
     <SpecificName>Machairophóros Marmarídēs</SpecificName>
-    <Icon>units/thra/infantry_swordsman.png</Icon>
+    <Icon>units/cyre/infantry_swordsman_merc.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

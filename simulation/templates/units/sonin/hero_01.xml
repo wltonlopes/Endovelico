@@ -7,7 +7,7 @@
     <Civ>sonin</Civ>
     <GenericName>Soumaoro Kanté, the Sorcerer King</GenericName>
     <SpecificName>Sumaworo Kante</SpecificName>
-    <Icon>units/urew/hero_01.png</Icon>
+    <Icon>units/sonin/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/soninke/hero_camelry_spearman_m.xml</Actor>

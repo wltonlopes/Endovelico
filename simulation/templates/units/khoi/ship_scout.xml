@@ -20,7 +20,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>War Raft</GenericName>
-    <Icon>units/zapo/ship_canoe.png</Icon>
+    <Icon>units/khoi/ship_scout.png</Icon>
     <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
   </Identity>
   <Loot>

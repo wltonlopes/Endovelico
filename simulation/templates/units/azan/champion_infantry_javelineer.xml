@@ -3,7 +3,7 @@
   <Identity>
     <Civ>azan</Civ>
     <GenericName>Heavy Javelin Champion</GenericName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/azan/champion_infantry_javelineer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/azania/infantry_champion_javalineer.xml</Actor>

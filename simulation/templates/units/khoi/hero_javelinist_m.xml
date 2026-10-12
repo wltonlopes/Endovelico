@@ -4,7 +4,7 @@
     <Civ>khoi</Civ>
     <GenericName>Heitsi-eibib the Hunter</GenericName>
     <SpecificName>Heitsi-eibib</SpecificName>
-    <Icon>units/kush/hero_amanirenas.png</Icon>
+    <Icon>units/khoi/hero_javelinist_m.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/khoisan/hero_archer_m.xml</Actor>

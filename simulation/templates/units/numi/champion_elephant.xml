@@ -4,7 +4,7 @@
     <Civ>numi</Civ>
     <GenericName>North African War Elephant</GenericName>
     <SpecificName>Pil Malḥamit</SpecificName>
-    <Icon>units/cart/champion_elephant.png</Icon>
+    <Icon>units/numi/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/numidians/elephantry_c_m.xml</Actor>

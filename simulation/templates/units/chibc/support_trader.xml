@@ -4,7 +4,7 @@
     <Civ>chibc</Civ>
     <GenericName>Chibcha Trader</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/chibc/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/chibchas/trader.xml</Actor>

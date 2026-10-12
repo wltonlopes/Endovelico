@@ -4,7 +4,7 @@
     <Civ>chibc</Civ>
     <SpecificName>Fucha</SpecificName>
     <GenericName>Chibcha Villager</GenericName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
+    <Icon>units/chibc/support_civilian.png</Icon>
     <SelectionGroupName>units/chibc/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

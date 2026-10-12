@@ -5,7 +5,7 @@
     <SelectionGroupName>units/cart/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Mapuche Hunter</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/infantry_javelineer.png</Icon>
+    <Icon>units/mapu/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mapu/infantry_javelineer_a</Entity>

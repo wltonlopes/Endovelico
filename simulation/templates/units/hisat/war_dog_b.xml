@@ -5,7 +5,7 @@
     <GenericName>Hunting Dog</GenericName>
     <SelectionGroupName>units/pauite/war_dog_b</SelectionGroupName>
     <SpecificName>Pooko</SpecificName>
-    <Icon>units/brit/war_dog.png</Icon>
+    <Icon>units/hisat/war_dog.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <TrainingRestrictions>

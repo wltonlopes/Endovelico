@@ -44,7 +44,7 @@
     <GenericName>Headhunter Warrior</GenericName>
     <SpecificName>Waqcha Runa</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <Icon>units/moch/champion_infantry_javelineer.png</Icon>
+    <Icon>units/puka/champion_infantry_bolas.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

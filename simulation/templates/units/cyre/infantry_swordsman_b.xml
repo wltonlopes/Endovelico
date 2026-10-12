@@ -5,7 +5,7 @@
     <SelectionGroupName>units/cyre/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Cyrenaean Swordsman</GenericName>
     <SpecificName>Machairophóros</SpecificName>
-    <Icon>units/thra/infantry_swordsman.png</Icon>
+    <Icon>units/cyre/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/cyre/infantry_swordsman_a</Entity>

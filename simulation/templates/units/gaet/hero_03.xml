@@ -6,7 +6,7 @@
     <Civ>gaet</Civ>
     <GenericName>Isalcas</GenericName>
     <SpecificName>Isalka</SpecificName>
-    <Icon>units/gara/hero_03.png</Icon>
+    <Icon>units/gaet/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/gaetuli/hero_cavalry_swordsman_m.xml</Actor>

@@ -5,7 +5,7 @@
     <GenericName>Veteran Club Warrior</GenericName>
     <SelectionGroupName>Heavy Maceman</SelectionGroupName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/guara/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

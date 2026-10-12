@@ -4,7 +4,7 @@
     <Civ>swcr</Civ>
     <GenericName>Champion Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/swcr/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/swcreek/infantry_champion_spearman.xml</Actor>

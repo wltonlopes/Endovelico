@@ -7,7 +7,7 @@
     <SpecificName>Henehv</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/swcr/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/swcreek/hero_03.xml</Actor>

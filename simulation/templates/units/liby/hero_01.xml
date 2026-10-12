@@ -6,7 +6,7 @@
     <Civ>liby</Civ>
     <GenericName>Inaros, Prince of the Libyans</GenericName>
     <SpecificName>Inarōs</SpecificName>
-    <Icon>units/gara/hero_1.png</Icon>
+    <Icon>units/liby/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/libyan/hero_chariot_archer.xml</Actor>

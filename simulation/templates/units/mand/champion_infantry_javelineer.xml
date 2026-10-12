@@ -4,7 +4,7 @@
     <Civ>mand</Civ>
     <GenericName>Mande Hunter Champion</GenericName>
     <SpecificName>Donso</SpecificName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/mand/champion_infantry_javelineer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mande/infantry_champion_javalineer.xml</Actor>

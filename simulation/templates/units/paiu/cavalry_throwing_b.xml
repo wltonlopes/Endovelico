@@ -6,7 +6,7 @@
     <SelectionGroupName>units/paiute/cavalry_axeman_b</SelectionGroupName>
     <GenericName>Rabbit Stick Thrower</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/cavalry_axeman.png</Icon>
+    <Icon>units/paiu/cavalry_throwing.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -3,7 +3,7 @@
   <Identity>
   <Civ>tupi</Civ>
     <GenericName>Tupi Great Archer</GenericName>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/tupi/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/tupis/infantry_champion_archer.xml</Actor>

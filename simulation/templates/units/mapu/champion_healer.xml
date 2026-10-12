@@ -15,7 +15,7 @@
 	  <Phenotype>female</Phenotype>
     <GenericName>Great Machi</GenericName>
     <SpecificName>Fütra Machi</SpecificName>
-    <Icon>units/maya/champion_healer.png</Icon>
+    <Icon>units/mapu/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

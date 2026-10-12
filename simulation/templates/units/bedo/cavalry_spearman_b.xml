@@ -5,7 +5,7 @@
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
     <GenericName>Bedouin Lancer</GenericName>
     <SpecificName>Fāris</SpecificName>
-    <Icon>units/gara/cavalry_spearman.png</Icon>
+    <Icon>units/bedo/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

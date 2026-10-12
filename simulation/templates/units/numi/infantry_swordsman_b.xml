@@ -4,7 +4,7 @@
     <Civ>numi</Civ>
     <GenericName>Numidian Swordsman</GenericName>
     <SelectionGroupName>units/numi/infantry_swordsman_b</SelectionGroupName>
-    <Icon>units/iber/infantry_swordsman.png</Icon>
+    <Icon>units/numi/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/numi/infantry_swordsman_a</Entity>

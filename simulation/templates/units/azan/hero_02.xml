@@ -9,7 +9,7 @@
 	  <Phenotype>female</Phenotype>
     <GenericName>Queen of Sabaki</GenericName>
     <SpecificName>Malkia wa Sabaki</SpecificName>
-    <Icon>units/kush/hero_amanirenas.png</Icon>
+    <Icon>units/azan/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/azania/hero_infantry_swordswoman.xml</Actor>

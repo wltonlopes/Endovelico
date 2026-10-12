@@ -4,7 +4,7 @@
     <Civ>mand</Civ>
     <GenericName>Sunjata Keita, the Lion King</GenericName>
     <SpecificName>Sunjata Keyita</SpecificName>
-    <Icon>units/kush/hero_amanirenas.png</Icon>
+    <Icon>units/mand/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mande/hero_cavalry_javelineer_m.xml</Actor>

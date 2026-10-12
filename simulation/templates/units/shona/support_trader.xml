@@ -9,7 +9,7 @@
 
     <GenericName>Shona Gold Trader</GenericName>
     <SpecificName>Mutengesi</SpecificName>
-    <Icon>units/kush/support_trader.png</Icon>
+    <Icon>units/shona/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/shona/trader.xml</Actor>

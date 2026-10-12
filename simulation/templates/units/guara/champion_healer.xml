@@ -14,7 +14,7 @@
     <Civ>guara</Civ>
     <GenericName>Great Shaman</GenericName>
     <SpecificName>Karai Guasu</SpecificName>
-    <Icon>units/maya/champion_healer.png</Icon>
+    <Icon>units/guara/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

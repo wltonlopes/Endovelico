@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <GenericName>Pampas Villager</GenericName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
+    <Icon>units/pamp/support_civilian.png</Icon>
     <SelectionGroupName>units/south_america/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

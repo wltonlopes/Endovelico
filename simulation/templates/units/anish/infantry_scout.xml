@@ -3,7 +3,7 @@
   <Identity>
     <Civ>anish</Civ>
     <GenericName>Anishinaabe Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/anish/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/anishinaabe/infantry_scout.xml</Actor>

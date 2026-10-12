@@ -13,7 +13,7 @@
     <SelectionGroupName>units/maya_infantry_javelineer_b</SelectionGroupName>
     <GenericName>Lenca Javelineer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/mesoamerican/infantry_javelineer.png</Icon>
+    <Icon>units/lenc/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/lenc/infantry_javelineer_a</Entity>

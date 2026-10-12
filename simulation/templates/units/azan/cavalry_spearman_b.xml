@@ -8,7 +8,7 @@
     <Civ>azan</Civ>
     <GenericName>Heavy Spear Warrior</GenericName>
     <SelectionGroupName>units/azania/heavy_spearman</SelectionGroupName>
-    <Icon>units/xion/cav_spearman.png</Icon>
+    <Icon>units/azan/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

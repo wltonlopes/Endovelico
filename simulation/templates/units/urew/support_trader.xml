@@ -9,7 +9,7 @@
 
     <GenericName>Urewe Iron Trader</GenericName>
     <SpecificName>Umucuruzi</SpecificName>
-    <Icon>units/kush/support_trader.png</Icon>
+    <Icon>units/urew/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/urewe/trader.xml</Actor>

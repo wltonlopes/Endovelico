@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Nok Heavy Axeman</GenericName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/nok/infantry_heavy_axeman_c.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

@@ -9,7 +9,7 @@
     <GenericName>Heavy Club Warrior</GenericName>
     <SpecificName>Kùmọ̀</SpecificName>
     <SelectionGroupName>units/Kwa/heavy_spearman</SelectionGroupName>
-    <Icon>units/xion/cav_spearman.png</Icon>
+    <Icon>units/kwa/cavalry_maceman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

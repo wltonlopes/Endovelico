@@ -8,7 +8,7 @@
     <Civ>liby</Civ>
     <GenericName>Libyan Camel Lancer</GenericName>
     <SelectionGroupName>units/liby/cavalry_spearman</SelectionGroupName>
-    <Icon>units/xion/cav_spearman.png</Icon>
+    <Icon>units/liby/camelry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/liby/camelry_spearman_a</Entity>

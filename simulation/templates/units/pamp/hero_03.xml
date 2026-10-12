@@ -9,7 +9,7 @@
     <SpecificName>Bagual</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/pamp/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/pamp/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pampidos/infantry_hero_clubman.xml</Actor>

@@ -10,7 +10,7 @@
     <Civ>khoi</Civ>
     <SelectionGroupName>units/khoi/infantry_spearman_b</SelectionGroupName>
     <GenericName>Khoi Spearman</GenericName>
-    <Icon>units/kush/infantry_spearman.png</Icon>
+    <Icon>units/khoi/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>

@@ -5,7 +5,7 @@
     <Civ>azan</Civ>
     <GenericName>Azanian Villager</GenericName>
     <SpecificName>Mwanamke</SpecificName>
-    <Icon>units/kush/support_female_citizen.png</Icon>
+    <Icon>units/azan/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/azania/citizen_{phenotype}.xml</Actor>

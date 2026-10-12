@@ -13,7 +13,7 @@
     <SelectionGroupName>units/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Levy Macana Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/zapo/infantry_swordsman.png</Icon>
+    <Icon>units/lenc/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/lenc/infantry_swordsman_a</Entity>

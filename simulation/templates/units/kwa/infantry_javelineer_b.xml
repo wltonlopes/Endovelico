@@ -5,7 +5,7 @@
     <Civ>kwa</Civ>
     <SelectionGroupName>units/kwa/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Tribal Levy Skirmisher</GenericName>
-    <Icon>units/thra/infantry_javelineer.png</Icon>
+    <Icon>units/kwa/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/kwa/infantry_javelineer_a</Entity>

@@ -8,7 +8,7 @@
     <GenericName>Sia Yatabaré, Maiden of Wagadu</GenericName>
     <SpecificName>Siya Yatabare</SpecificName>
 	<Phenotype>female</Phenotype>
-    <Icon>units/urew/hero_02.png</Icon>
+    <Icon>units/sonin/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/soninke/hero_cavalry_javelinist_m.xml</Actor>

@@ -10,7 +10,7 @@
     <SelectionGroupName>units/urew/infantry_spearman_b</SelectionGroupName>
     <GenericName>Urewe Spearman</GenericName>
     <SpecificName>Ingabo</SpecificName>
-    <Icon>units/kush/infantry_spearman.png</Icon>
+    <Icon>units/urew/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>

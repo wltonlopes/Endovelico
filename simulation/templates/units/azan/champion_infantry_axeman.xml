@@ -4,7 +4,7 @@
     <Civ>azan</Civ>
     <GenericName>Rhapta Guardian</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/azan/champion_infantry_axeman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/azania/infantry_champion_axeman.xml</Actor>

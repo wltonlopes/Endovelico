@@ -9,7 +9,7 @@
 
     <SelectionGroupName>units/damar/infantry_spearman_b</SelectionGroupName>
     <GenericName>Damara Spearman</GenericName>
-    <Icon>units/kush/infantry_spearman.png</Icon>
+    <Icon>units/damar/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>puka</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/puka/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/pukara/ship_scout.xml</Actor>

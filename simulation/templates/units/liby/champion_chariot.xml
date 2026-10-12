@@ -8,7 +8,7 @@
     <GenericName>Libyan War Chariot</GenericName>
     <SelectionGroupName>units/liby/champion_chariot</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
-    <Icon>units/gara/champion_chariot.png</Icon>
+    <Icon>units/liby/champion_chariot.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/libyan/chariot_javelinist_c_m.xml</Actor>

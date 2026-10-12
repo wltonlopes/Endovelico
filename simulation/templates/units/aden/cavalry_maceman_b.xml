@@ -6,7 +6,7 @@
     <SelectionGroupName>units/maya/heavy_infantry</SelectionGroupName>
     <GenericName>Bison Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/cavalry_spearman.png</Icon>
+    <Icon>units/aden/cavalry_maceman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

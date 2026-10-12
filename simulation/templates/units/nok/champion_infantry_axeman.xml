@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Nok Champion Axeman</GenericName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/nok/champion_infantry_axeman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/nok/infantry_axeman_c.xml</Actor>

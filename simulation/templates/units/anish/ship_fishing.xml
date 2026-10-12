@@ -8,7 +8,7 @@
     <Civ>anish</Civ>
     <GenericName>Fishing Canoe</GenericName>
     <SpecificName>Jiimaan</SpecificName>
-    <Icon>units/south_america/ship_fishing.png</Icon>
+    <Icon>units/anish/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/anishinaabe/canoe_fishing.xml</Actor>

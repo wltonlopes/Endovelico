@@ -4,7 +4,7 @@
     <Civ>sonin</Civ>
     <SelectionGroupName>units/sonin/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Soninke Cavalry Skirmisher</GenericName>
-    <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
+    <Icon>units/sonin/cavalry_javelinist_b.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sonin/cavalry_javelineer_a</Entity>

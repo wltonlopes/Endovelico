@@ -4,7 +4,7 @@
     <Civ>damar</Civ>
     <GenericName>Damara Slinger</GenericName>
     <SelectionGroupName>units/damar/infantry_slinger_b</SelectionGroupName>
-    <Icon>units/iber/infantry_slinger.png</Icon>
+    <Icon>units/damar/infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/damar/infantry_slinger_a</Entity>

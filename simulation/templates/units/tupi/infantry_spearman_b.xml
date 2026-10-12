@@ -5,7 +5,7 @@
     <GenericName>Tupi Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Tairu-abá</SpecificName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/tupi/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

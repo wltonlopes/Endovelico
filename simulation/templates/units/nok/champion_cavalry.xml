@@ -3,7 +3,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Nok Axe Cavalry</GenericName>
-    <Icon>units/kush/champion_cavalry.png</Icon>
+    <Icon>units/nok/champion_cavalry.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

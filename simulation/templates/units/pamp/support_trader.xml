@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <GenericName>Pampas Trader</GenericName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/pamp/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pampidos/trader.xml</Actor>

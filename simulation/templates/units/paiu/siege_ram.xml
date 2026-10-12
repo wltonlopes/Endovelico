@@ -7,7 +7,7 @@
   <Identity>
     <Civ>paiu</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/mace/siege_ram.png</Icon>
+    <Icon>units/paiu/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/paiute/siege_ram.xml</Actor>

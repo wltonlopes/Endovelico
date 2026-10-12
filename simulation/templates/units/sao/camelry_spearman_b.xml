@@ -4,7 +4,7 @@
     <Civ>sao</Civ>
     <SelectionGroupName>units/sao/camelry_archer_b</SelectionGroupName>
     <GenericName>Sahelian Camel Lancer</GenericName>
-    <Icon>units/iber/cavalry_spearman.png</Icon>
+    <Icon>units/sao/camelry_spearman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

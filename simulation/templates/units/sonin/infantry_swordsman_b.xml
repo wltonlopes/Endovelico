@@ -11,7 +11,7 @@
     <SelectionGroupName>units/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Soninke Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/sonin/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sonin/infantry_swordsman_a</Entity>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/celt/siege_ram.png</Icon>
+    <Icon>units/pamp/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pampidos/siege_ram.xml</Actor>

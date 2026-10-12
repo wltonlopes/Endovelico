@@ -5,7 +5,7 @@
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/maya/heavy_javelineer</SelectionGroupName>
     <GenericName>Tupi Huntress</GenericName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
+    <Icon>units/tupi/cavalry_archer.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <Phenotype>female</Phenotype>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>

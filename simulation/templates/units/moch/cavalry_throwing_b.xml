@@ -6,7 +6,7 @@
     <SelectionGroupName>units/moch/cavalry_throwing_b</SelectionGroupName>
     <GenericName>Harpoon Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/cavalry_axeman.png</Icon>
+    <Icon>units/moch/cavalry_throwing.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

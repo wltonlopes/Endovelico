@@ -7,7 +7,7 @@
     <Civ>damar</Civ>
     <GenericName>Elder Healer</GenericName>
     <SpecificName>ǃGaiaob</SpecificName>
-    <Icon>units/urew/hero_03.png</Icon>
+    <Icon>units/damar/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/damara/hero_healer.xml</Actor>

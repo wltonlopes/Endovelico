@@ -4,7 +4,7 @@
     <Civ>gaet</Civ>
     <GenericName>North African War Elephant</GenericName>
     <SpecificName>Ilu</SpecificName>
-    <Icon>units/cart/champion_elephant.png</Icon>
+    <Icon>units/gaet/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/gaetuli/elephantry_c_m.xml</Actor>

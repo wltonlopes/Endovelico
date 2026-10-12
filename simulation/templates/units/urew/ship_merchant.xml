@@ -8,7 +8,7 @@
     <Civ>urew</Civ>
     <GenericName>Trading Canoe</GenericName>
     <SpecificName>Ubwato</SpecificName>
-    <Icon>units/zapo/ship_merchant.png</Icon>
+    <Icon>units/urew/ship_merchant.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>

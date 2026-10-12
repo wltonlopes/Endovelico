@@ -5,7 +5,7 @@
     <Rank>Advanced</Rank>
     <GenericName>Messapian Pirate</GenericName>
     <SelectionGroupName>units/illy/infantry_clubman_merc_b</SelectionGroupName>
-    <Icon>units/maya/mercenary_swordsman.png</Icon>
+    <Icon>units/illy/infantry_swordsman_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

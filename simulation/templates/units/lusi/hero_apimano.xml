@@ -7,7 +7,7 @@
     <Civ>lusi</Civ>
     <GenericName>Punicus</GenericName>
     <SpecificName>Apimano</SpecificName>
-    <Icon>units/iber/hero_indibil.png</Icon>
+    <Icon>units/lusi/hero_apimano.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lusitanians/hero_cavalry_spearman_punico_h.xml</Actor>

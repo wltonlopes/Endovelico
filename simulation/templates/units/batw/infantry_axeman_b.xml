@@ -11,7 +11,7 @@
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Batwa Axeman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/batw/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/batw/infantry_axeman_a</Entity>

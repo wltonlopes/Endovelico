@@ -4,7 +4,7 @@
     <Civ>hisat</Civ>
     <GenericName>Kiva High Priest</GenericName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
-    <Icon>units/zapo/champion_spearman.png</Icon>
+    <Icon>units/hisat/champion_hearler.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hisatsinom/infantry_champion_support_healer_male.xml</Actor>

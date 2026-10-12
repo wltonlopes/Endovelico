@@ -4,7 +4,7 @@
     <Civ>pamp</Civ>
     <GenericName>Pampas Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/pamp/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pamp/infantry_spearman_a</Entity>

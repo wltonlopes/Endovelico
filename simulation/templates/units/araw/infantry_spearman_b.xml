@@ -5,7 +5,7 @@
     <GenericName>Arawak Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/araw/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

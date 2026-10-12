@@ -8,7 +8,7 @@
     <Civ>viet</Civ>
     <GenericName>Lac Viet Warship</GenericName>
     <SpecificName>Thuyền Chiến</SpecificName>
-    <Icon>units/yayo/ship_bireme.png</Icon>
+    <Icon>units/viet/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/vietnamese/war_ship.xml</Actor>

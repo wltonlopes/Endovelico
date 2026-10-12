@@ -4,7 +4,7 @@
     <Civ>swcr</Civ>
     <GenericName>Swift Creek Scout</GenericName>
     <SpecificName>Sakima Haya</SpecificName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/swcr/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/swcreek/infantry_scout.xml</Actor>

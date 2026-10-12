@@ -7,7 +7,7 @@
   <Identity>
     <Civ>mapu</Civ>
     <GenericName>Trading Canoe</GenericName>
-    <Icon>units/south_america/ship_merchant.png</Icon>
+    <Icon>units/mapu/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/mapuches/canoe_merchant.xml</Actor>

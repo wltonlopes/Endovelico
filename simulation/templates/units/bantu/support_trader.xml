@@ -9,7 +9,7 @@
 
     <GenericName>Bantu Trader</GenericName>
     <SpecificName>Mohwebi</SpecificName>
-    <Icon>units/kush/support_trader.png</Icon>
+    <Icon>units/bantu/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/southern_bantu/trader.xml</Actor>

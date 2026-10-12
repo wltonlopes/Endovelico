@@ -8,7 +8,7 @@
     <Civ>swcr</Civ>
     <GenericName>Scout Canoe</GenericName>
     <SpecificName>Wakola</SpecificName>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/swcr/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/swcreek/canoe_war.xml</Actor>

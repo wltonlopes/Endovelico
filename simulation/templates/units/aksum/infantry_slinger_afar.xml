@@ -4,7 +4,7 @@
     <Civ>aksum</Civ>
     <GenericName>Afar Slinger</GenericName>
     <SelectionGroupName>Afar Slinger</SelectionGroupName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/aksum/infantry_slinger_afar.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

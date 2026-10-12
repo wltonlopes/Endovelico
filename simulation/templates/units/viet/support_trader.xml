@@ -3,7 +3,7 @@
   <Identity>
     <Civ>viet</Civ>
     <SpecificName>Thương Nhân</SpecificName>
-    <Icon>units/yayo/support_trader.png</Icon>
+    <Icon>units/viet/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/vietnamese/trader.xml</Actor>

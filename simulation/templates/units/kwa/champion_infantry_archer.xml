@@ -4,7 +4,7 @@
     <Civ>kwa</Civ>
     <GenericName>Yoruba Champion Hunter</GenericName>
     <SpecificName>Ọdẹ</SpecificName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/kwa/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/kwa/infantry_archer_c.xml</Actor>

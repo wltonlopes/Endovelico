@@ -7,7 +7,7 @@
     <Civ>bantu</Civ>
     <GenericName>Elder Healer</GenericName>
     <SpecificName>Ngaka</SpecificName>
-    <Icon>units/urew/hero_03.png</Icon>
+    <Icon>units/bantu/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/southern_bantu/hero_healer_m.xml</Actor>

@@ -8,7 +8,7 @@
     <Civ>tupi</Civ>
     <GenericName>Trading Canoe</GenericName>
     <SpecificName>Ygara</SpecificName>
-    <Icon>units/south_america/ship_merchant.png</Icon>
+    <Icon>units/tupi/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/tupis/canoe_merchant.xml</Actor>

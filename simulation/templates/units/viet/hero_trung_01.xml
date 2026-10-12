@@ -4,7 +4,7 @@
     <Civ>viet</Civ>
     <GenericName>Trung Trac</GenericName>
     <SpecificName>Trưng Trắc</SpecificName>
-    <Icon>units/yayo/hero_himiko.png</Icon>
+    <Icon>units/viet/hero_trung_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/vietnamese/hero_elephant_princess_trung_01_m.xml</Actor>

@@ -4,7 +4,7 @@
     <Civ>araw</Civ>
     <GenericName>Great War Canoe</GenericName>
     <SpecificName>Piragua</SpecificName>
-    <Icon>units/ptol/ship_siege.png</Icon>
+    <Icon>units/araw/ship_siege.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/arawaks/canoe_war_archer_fire.xml</Actor>

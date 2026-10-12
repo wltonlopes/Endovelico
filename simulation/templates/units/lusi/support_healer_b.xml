@@ -5,7 +5,7 @@
     <Phenotype>female</Phenotype>
     <GenericName>Ampiula</GenericName>
     <SpecificName>Emakumezko Apaiz de Ataekina</SpecificName>
-    <Icon>units/iber/support_healer.png</Icon>
+    <Icon>units/lusi/support_healer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/lusi/support_healer_a</Entity>

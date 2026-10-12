@@ -15,7 +15,7 @@
     <SelectionGroupName>units/nok/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Nok Light Cavalry</GenericName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <Icon>units/subsaara/cavalry_javelineer.png</Icon>
+    <Icon>units/nok/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/nok/cavalry_javelineer_a</Entity>

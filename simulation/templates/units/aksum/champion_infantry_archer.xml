@@ -3,7 +3,7 @@
   <Identity>
     <Civ>aksum</Civ>
     <GenericName>Aksumite Champion Archer</GenericName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/aksum/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/aksumites/infantry_champion_archer.xml</Actor>

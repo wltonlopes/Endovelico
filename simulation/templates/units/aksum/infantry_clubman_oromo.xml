@@ -4,7 +4,7 @@
     <Civ>aksum</Civ>
     <GenericName>Oromo Clubman</GenericName>
     <SelectionGroupName>Oromo Clubman</SelectionGroupName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/aksum/infantry_clubman_oromo.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

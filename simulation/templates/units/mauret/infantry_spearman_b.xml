@@ -4,7 +4,7 @@
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/infantry_spearman_b</SelectionGroupName>
     <GenericName>Mauretanian Spearman</GenericName>
-    <Icon>units/cart/infantry_spearman.png</Icon>
+    <Icon>units/mauret/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mauret/infantry_spearman_a</Entity>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Khoi Axewoman</GenericName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/khoi/infantry_heavy_axewoman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

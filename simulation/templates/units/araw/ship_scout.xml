@@ -8,7 +8,7 @@
   <Civ>araw</Civ>
   <GenericName>Scout Canoe</GenericName>
     <SpecificName>Canoa</SpecificName>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/araw/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/arawaks/canoe_scout.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>bantu</Civ>
     <GenericName>Ox-Rider Scout</GenericName>
-    <Icon>units/kush/cavalry_scout.png</Icon>
+    <Icon>units/bantu/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/southern_bantu/riding_ox_scout_jav_m.xml</Actor>

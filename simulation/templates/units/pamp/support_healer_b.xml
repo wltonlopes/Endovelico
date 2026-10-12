@@ -4,7 +4,7 @@
     <Civ>pamp</Civ>
     <SelectionGroupName>units/pamp/support_healer_b</SelectionGroupName>
     <GenericName>Pampas Shaman</GenericName>
-    <Icon>units/south_america/support_healer.png</Icon>
+    <Icon>units/pamp/support_healer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pamp/support_healer_a</Entity>

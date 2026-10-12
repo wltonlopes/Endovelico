@@ -35,7 +35,7 @@
     <SelectionGroupName>units/mapu/infantry_boleador_b</SelectionGroupName>
     <GenericName>Heavy Bolas Thrower</GenericName>
     <SpecificName>Lükay</SpecificName>
-    <Icon>units/moch/infantry_javelinist.png</Icon>
+    <Icon>units/mapu/infantry_boleador.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

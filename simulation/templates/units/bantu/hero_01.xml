@@ -7,7 +7,7 @@
     <Civ>bantu</Civ>
     <GenericName>Warrior King</GenericName>
     <SpecificName>Kgosi</SpecificName>
-    <Icon>units/urew/hero_01.png</Icon>
+    <Icon>units/bantu/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/southern_bantu/hero_spearman_m.xml</Actor>

@@ -8,7 +8,7 @@
     <Civ>aksum</Civ>
     <GenericName>Aksumite Camel Lancer</GenericName>
     <SelectionGroupName>units/xion_cavalry_spearman</SelectionGroupName>
-    <Icon>units/xion/cav_spearman.png</Icon>
+    <Icon>units/aksum/camelry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/aksum/camelry_spearman_a</Entity>

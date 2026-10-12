@@ -4,7 +4,7 @@
   <Civ>araw</Civ>
     <GenericName>Macana Champion</GenericName>
     <SpecificName>Guaribo</SpecificName>
-    <Icon>units/zapo/infantry_swordsman.png</Icon>
+    <Icon>units/araw/champion_infantry_maceman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/arawaks/infantry_champion_clubman.xml</Actor>

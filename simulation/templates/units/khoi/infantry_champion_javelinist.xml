@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Khoi Champion Javelineer</GenericName>
-    <Icon>units/subsaara/infantry_javelineer.png</Icon>
+    <Icon>units/khoi/infantry_champion_javelinist.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

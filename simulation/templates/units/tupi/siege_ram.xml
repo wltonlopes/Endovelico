@@ -7,7 +7,7 @@
   <Identity>
     <Civ>tupi</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/celt/siege_ram.png</Icon>
+    <Icon>units/tupi/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/tupis/siege_ram.xml</Actor>

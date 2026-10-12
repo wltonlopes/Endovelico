@@ -7,7 +7,7 @@
   <Identity>
     <Civ>anish</Civ>
     <GenericName>War Canoe</GenericName>
-    <Icon>units/south_america/ship_arrow.png</Icon>
+    <Icon>units/anish/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

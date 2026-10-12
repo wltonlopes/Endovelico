@@ -5,7 +5,7 @@
     <GenericName>Mapuche Clubman</GenericName>
     <SelectionGroupName>units/mapu/infantry_clubman_b</SelectionGroupName>
     <SpecificName>Kona</SpecificName>
-    <Icon>units/moch/infantry_clubman.png</Icon>
+    <Icon>units/mapu/infantry_clubman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mapu/infantry_clubman_a</Entity>

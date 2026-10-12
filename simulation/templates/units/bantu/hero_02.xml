@@ -8,7 +8,7 @@
     <GenericName>Great Queen</GenericName>
     <SpecificName>Kgosigadi</SpecificName>
 	<Phenotype>female</Phenotype>
-    <Icon>units/urew/hero_02.png</Icon>
+    <Icon>units/bantu/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/southern_bantu/hero_javelinist_m.xml</Actor>

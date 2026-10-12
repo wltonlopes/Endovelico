@@ -20,7 +20,7 @@
   <Identity>
     <Civ>urew</Civ>
     <GenericName>War Canoe</GenericName>
-    <Icon>units/zapo/ship_canoe.png</Icon>
+    <Icon>units/urew/ship_scout.png</Icon>
     <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
   </Identity>
   <Loot>

@@ -5,7 +5,7 @@
     <GenericName>Illyrian Axe Champion</GenericName>
     <SelectionGroupName>infantry_axe_c</SelectionGroupName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/support_female_citizen.png</Icon>
+    <Icon>units/illy/champion_infantry_axe.png</Icon>
     <Phenotype>female</Phenotype>
   </Identity>
   <Upgrade>

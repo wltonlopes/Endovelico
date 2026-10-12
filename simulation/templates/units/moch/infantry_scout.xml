@@ -3,7 +3,7 @@
   <Identity>
     <Civ>moch</Civ>
     <GenericName>Moche Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/moch/infantry_scout_2.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mochicas/infantry_scout.xml</Actor>

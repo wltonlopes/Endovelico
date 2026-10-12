@@ -8,7 +8,7 @@
     <GenericName>Pukara Javelineer</GenericName>
     <SelectionGroupName>units/puka/infantry_javelineer_b</SelectionGroupName>
     <SpecificName>Uma Runa</SpecificName>
-    <Icon>units/moch/infantry_javelinist.png</Icon>
+    <Icon>units/puka/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/puka/infantry_javelineer_a</Entity>

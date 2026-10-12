@@ -7,7 +7,7 @@
     <Civ>shona</Civ>
     <GenericName>Chaminuka the Prophet</GenericName>
     <SpecificName>Sekuru Chaminuka</SpecificName>
-    <Icon>units/urew/hero_03.png</Icon>
+    <Icon>units/shona/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/shona/hero_healer_m.xml</Actor>

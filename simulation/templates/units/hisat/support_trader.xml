@@ -4,7 +4,7 @@
     <Civ>hisat</Civ>
     <GenericName>Hisatsinom Trader</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/hisat/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hisatsinom/trader.xml</Actor>

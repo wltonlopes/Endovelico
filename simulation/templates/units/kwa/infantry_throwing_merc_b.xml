@@ -9,7 +9,7 @@
     <Civ>kwa</Civ>
     <SelectionGroupName>units/kwa/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Eastern Tribal Warrior</GenericName>
-    <Icon>units/kush/infantry_swordsman.png</Icon>
+    <Icon>units/kwa/infantry_throwing_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

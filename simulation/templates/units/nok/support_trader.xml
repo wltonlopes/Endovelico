@@ -7,7 +7,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Nok Trader</GenericName>
-    <Icon>units/kush/support_trader.png</Icon>
+    <Icon>units/nok/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/nok/trader.xml</Actor>

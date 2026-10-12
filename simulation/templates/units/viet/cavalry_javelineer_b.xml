@@ -5,7 +5,7 @@
     <SelectionGroupName>units/viet/cavalry_archer_b</SelectionGroupName>
     <GenericName>Lac Viet Cavalry</GenericName>
     <SpecificName>Kỵ Binh</SpecificName>
-    <Icon>units/yayo/cavalry_archer_merc.png</Icon>
+    <Icon>units/viet/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/viet/cavalry_javelineer_a</Entity>

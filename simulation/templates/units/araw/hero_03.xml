@@ -9,7 +9,7 @@
     <SpecificName>Kasike Hatuey</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
-    <Icon>units/zapo/hero_rain_lord.png</Icon>
+    <Icon>units/araw/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/arawaks/hero_infantry_clubman.xml</Actor>

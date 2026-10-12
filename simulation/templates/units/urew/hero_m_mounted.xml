@@ -4,7 +4,7 @@
     <Civ>urew</Civ>
     <GenericName>Ntare Rushatsi</GenericName>
     <SpecificName>Mwami Ntare Rushatsi</SpecificName>
-    <Icon>units/scyth/hero_skilurus.png</Icon>
+    <Icon>units/urew/hero_m_mounted.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/urewe/hero_spearman_m.xml</Actor>

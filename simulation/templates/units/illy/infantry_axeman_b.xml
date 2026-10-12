@@ -5,7 +5,7 @@
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Illyrian Axeman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/infantry_axeman.png</Icon>
+    <Icon>units/illy/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/illy/infantry_axeman_a</Entity>

@@ -18,7 +18,7 @@
       female
       male
     </Phenotype>
-    <Icon>units/maya/champion_healer.png</Icon>
+    <Icon>units/moch/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

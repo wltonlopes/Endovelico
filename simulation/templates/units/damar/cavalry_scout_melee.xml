@@ -3,7 +3,7 @@
   <Identity>
     <Civ>damar</Civ>
     <GenericName>Damara Ox-Rider Scout</GenericName>
-    <Icon>units/kush/cavalry_scout.png</Icon>
+    <Icon>units/damar/cavalry_scout_melee.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/damara/riding_ox_scout_spear_m.xml</Actor>

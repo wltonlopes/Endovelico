@@ -3,7 +3,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <GenericName>Hisatsinom Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/hisat/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/hisatsinom/infantry_scout.xml</Actor>

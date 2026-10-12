@@ -4,7 +4,7 @@
     <Civ>macrob</Civ>
     <GenericName>Tribal Clubman</GenericName>
     <SelectionGroupName>units/macrob/infantry_clubman_b</SelectionGroupName>
-    <Icon>units/moch/infantry_clubman.png</Icon>
+    <Icon>units/macrob/infantry_clubman_merc.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

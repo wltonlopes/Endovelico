@@ -3,7 +3,7 @@
   <Identity>
     <Civ>araw</Civ>
     <GenericName>Arawak Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/araw/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/arawaks/infantry_scout.xml</Actor>

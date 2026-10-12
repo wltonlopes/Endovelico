@@ -6,7 +6,7 @@
   <Identity>
     <Civ>tupi</Civ>
     <GenericName>Fire Archer</GenericName>
-    <Icon>units/south_america/cavalry_javelineer.png</Icon>
+    <Icon>units/tupi/siege_incediary_archer_packed.png</Icon>
   </Identity>
   <Pack>
     <Entity>units/tupi/siege_incediary_archer_unpacked</Entity>

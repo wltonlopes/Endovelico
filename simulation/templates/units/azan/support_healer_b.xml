@@ -5,7 +5,7 @@
 
     <GenericName>Azanian Healer</GenericName>
     <SpecificName>Mganga</SpecificName>
-    <Icon>units/kush/support_healer.png</Icon>
+    <Icon>units/azan/support_healer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/azan/support_healer_a</Entity>

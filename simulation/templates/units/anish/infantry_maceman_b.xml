@@ -11,7 +11,7 @@
     <SelectionGroupName>units/infantry_maceman_b</SelectionGroupName>
     <GenericName>Allied Clubman</GenericName>
 
-    <Icon>units/south_america/infantry_maceman.png</Icon>
+    <Icon>units/anish/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/anish/infantry_maceman_a</Entity>

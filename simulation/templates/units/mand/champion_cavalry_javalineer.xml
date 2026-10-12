@@ -4,7 +4,7 @@
     <Civ>mand</Civ>
     <GenericName>Mande Lord</GenericName>
     <SpecificName>Tontigi</SpecificName>
-    <Icon>units/achae/champion_cavalry_archer.png</Icon>
+    <Icon>units/mand/champion_cavalry_javalineer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mande/cavalry_javelinist_c_m.xml</Actor>

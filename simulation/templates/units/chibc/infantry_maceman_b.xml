@@ -3,7 +3,7 @@
     <Civ>chibc</Civ>
     <SelectionGroupName>units/chibc/infantry_maceman_b</SelectionGroupName>
     <GenericName>Levy Maceman</GenericName>
-    <Icon>units/moch/infantry_maceman.png</Icon>
+    <Icon>units/chibc/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/chibc/infantry_maceman_a</Entity>

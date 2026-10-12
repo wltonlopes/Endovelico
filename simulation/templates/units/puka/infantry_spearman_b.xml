@@ -8,7 +8,7 @@
     <SelectionGroupName>units/puka/infantry_spearman_b</SelectionGroupName>
     <GenericName>Levy Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/moch/infantry_spearman.png</Icon>
+    <Icon>units/puka/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/puka/infantry_spearman_a</Entity>

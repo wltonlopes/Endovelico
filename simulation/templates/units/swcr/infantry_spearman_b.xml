@@ -5,7 +5,7 @@
     <GenericName>Swift Creek Spearman</GenericName>
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <SpecificName>Chakkoli</SpecificName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/swcr/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -9,7 +9,7 @@
     <GenericName>Pampas Javelineer</GenericName>
     <SelectionGroupName>units/pamp/infantry_javelineer_b</SelectionGroupName>
     <SelectionGroupName>Hunters</SelectionGroupName>
-    <Icon>units/moch/infantry_javelinist.png</Icon>
+    <Icon>units/pamp/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pamp/infantry_javelineer_a</Entity>

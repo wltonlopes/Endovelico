@@ -6,7 +6,7 @@
     <SelectionGroupName>units/batw/cavalry_axeman_b</SelectionGroupName>
     <GenericName>Leopard Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/cavalry_axeman.png</Icon>
+    <Icon>units/batw/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -5,7 +5,7 @@
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/damar/cavalry_axeman_b</SelectionGroupName>
     <GenericName>Damara Woman Warrior</GenericName>
-    <Icon>units/maya/cavalry_axeman.png</Icon>
+    <Icon>units/damar/cavalry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -6,7 +6,7 @@
     <Civ>liby</Civ>
     <GenericName>Muttines</GenericName>
     <SpecificName>Myttónēs</SpecificName>
-    <Icon>units/achae/hero_cyrus.png</Icon>
+    <Icon>units/liby/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/libyan/chariot_javelinist_c_m.xml</Actor>

@@ -7,7 +7,7 @@
     <Civ>sonin</Civ>
     <GenericName>Kaya Magan Cissé</GenericName>
     <SpecificName>Kaya Maxan Sise</SpecificName>
-    <Icon>units/urew/hero_01.png</Icon>
+    <Icon>units/sonin/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/soninke/hero_camelry_spearman_m.xml</Actor>

@@ -6,7 +6,7 @@
     <Civ>gaet</Civ>
     <GenericName>Iarbas of the Gaetuli</GenericName>
     <SpecificName>Yarbas</SpecificName>
-    <Icon>units/gara/hero_01.png</Icon>
+    <Icon>units/gaet/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/gaetuli/hero_chariot_javelinist_m.xml</Actor>

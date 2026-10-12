@@ -8,7 +8,7 @@
     <Civ>mapu</Civ>
     <GenericName>Fishing Canoe</GenericName>
     <SpecificName>Wampo</SpecificName>
-    <Icon>units/hele/ship_fishing.png</Icon>
+    <Icon>units/mapu/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/mapuches/canoe.xml</Actor>

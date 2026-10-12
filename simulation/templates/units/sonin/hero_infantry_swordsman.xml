@@ -4,7 +4,7 @@
     <Civ>sonin</Civ>
     <GenericName>Dyabé Cissé, Founder of Wagadu</GenericName>
     <SpecificName>Jaabe Sise</SpecificName>
-    <Icon>units/illy/hero_infantry_swordsman.png</Icon>
+    <Icon>units/sonin/hero_infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/soninke/hero_infantry_swordsman.xml</Actor>

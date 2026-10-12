@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mand</Civ>
     <GenericName>Mande Scout</GenericName>
-    <Icon>units/aksum/cavalry_scout.png</Icon>
+    <Icon>units/mand/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mande/cavalry_scout.xml</Actor>

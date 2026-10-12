@@ -5,7 +5,7 @@
     <SelectionGroupName>units/numi/camelry_archer_b</SelectionGroupName>
     <GenericName>Numidian Camel Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/yayo/cavalry_archer_merc.png</Icon>
+    <Icon>units/numi/camelry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/numi/camelry_archer_a</Entity>

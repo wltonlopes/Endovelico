@@ -16,7 +16,7 @@
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Sao Axeman</GenericName>
     <SpecificName>Ngol</SpecificName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/sao/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sao/infantry_axeman_a</Entity>

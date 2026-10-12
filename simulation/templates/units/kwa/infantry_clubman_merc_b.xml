@@ -4,7 +4,7 @@
     <Civ>kwa</Civ>
     <GenericName>Northern Tribal Clubman</GenericName>
     <SelectionGroupName>units/azan/infantry_maceman_merc</SelectionGroupName>
-    <Icon>units/maya/mercenary_swordsman.png</Icon>
+    <Icon>units/kwa/infantry_clubman_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

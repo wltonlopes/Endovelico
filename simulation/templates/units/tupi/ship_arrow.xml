@@ -8,7 +8,7 @@
     <Civ>tupi</Civ>
     <GenericName>Great War Canoe</GenericName>
     <SpecificName>Ygarusu</SpecificName>
-    <Icon>units/south_america/ship_arrow.png</Icon>
+    <Icon>units/tupi/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -11,7 +11,7 @@
     <SelectionGroupName>units/infantry_axeman_b</SelectionGroupName>
     <GenericName>Shona Axeman</GenericName>
     <SpecificName>Demo</SpecificName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/shona/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/shona/infantry_axeman_a</Entity>

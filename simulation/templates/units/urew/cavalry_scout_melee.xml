@@ -3,7 +3,7 @@
   <Identity>
     <Civ>urew</Civ>
     <GenericName>Urewe Ox-Rider Scout</GenericName>
-    <Icon>units/kush/cavalry_scout.png</Icon>
+    <Icon>units/urew/cavalry_scout_melee.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/urewe/riding_ox_scout_spear_m.xml</Actor>

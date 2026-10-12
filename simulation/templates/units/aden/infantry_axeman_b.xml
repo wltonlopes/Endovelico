@@ -11,7 +11,7 @@
     <SelectionGroupName>units/aden/infantry_axeman_b</SelectionGroupName>
     <GenericName>Adena Axeman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/infantry_axeman.png</Icon>
+    <Icon>units/aden/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/aden/infantry_axeman_a</Entity>

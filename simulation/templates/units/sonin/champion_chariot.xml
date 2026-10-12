@@ -4,7 +4,7 @@
     <Civ>sonin</Civ>
     <GenericName>Chariot Javelineer</GenericName>
     <SpecificName>Sofa-Seré</SpecificName>
-    <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
+    <Icon>units/sonin/champion_chariot.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

@@ -8,7 +8,7 @@
     <Civ>urew</Civ>
     <GenericName>Urewe Villager</GenericName>
     <SpecificName>Umugore</SpecificName>
-    <Icon>units/kush/support_female_citizen.png</Icon>
+    <Icon>units/urew/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/urewe/citizen_{phenotype}.xml</Actor>

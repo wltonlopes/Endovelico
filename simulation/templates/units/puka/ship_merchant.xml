@@ -8,7 +8,7 @@
     <Civ>puka</Civ>
     <GenericName>Reed Trading Raft</GenericName>
     <Tooltip>Trade between docks. Garrison a Trader aboard for additional profit (+20% for each garrisoned). Gather profitable aquatic treasures. Carthaginians have +25% sea trading bonus.</Tooltip>
-    <Icon>units/moch/ship_merchant.png</Icon>
+    <Icon>units/puka/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/pukara/ship_merchant.xml</Actor>

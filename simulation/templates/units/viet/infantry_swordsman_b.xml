@@ -5,7 +5,7 @@
     <SelectionGroupName>units/yayo/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Lac Viet Axeman</GenericName>
     <SpecificName>Phủ Binh</SpecificName>
-    <Icon>units/yayo/infantry_axeman.png</Icon>
+    <Icon>units/viet/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gojo/infantry_swordsman_a</Entity>

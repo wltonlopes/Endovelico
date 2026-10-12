@@ -4,7 +4,7 @@
     <Civ>aden</Civ>
     <GenericName>Adena Trader</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/aden/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/adena/trader.xml</Actor>

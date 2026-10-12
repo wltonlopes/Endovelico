@@ -8,7 +8,7 @@
     <Civ>mand</Civ>
     <GenericName>Mande Camel Lancer</GenericName>
     <SelectionGroupName>units/xion_cavalry_spearman</SelectionGroupName>
-    <Icon>units/xion/cav_spearman.png</Icon>
+    <Icon>units/mand/camelry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mand/camelry_spearman_a</Entity>

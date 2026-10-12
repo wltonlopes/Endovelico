@@ -8,7 +8,7 @@
     <Civ>pamp</Civ>
     <GenericName>Trading Canoe</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/ship_merchant.png</Icon>
+    <Icon>units/pamp/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/pampidos/canoe_merchant.xml</Actor>

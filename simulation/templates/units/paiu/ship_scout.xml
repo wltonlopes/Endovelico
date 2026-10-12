@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>paiu</Civ>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/paiu/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/paiute/canoe_scout.xml</Actor>

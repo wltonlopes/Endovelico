@@ -4,7 +4,7 @@
     <Civ>khoi</Civ>
     <GenericName>Gonnema of the Cochoqua</GenericName>
     <SpecificName>Gonnema</SpecificName>
-    <Icon>units/kush/hero_amanirenas.png</Icon>
+    <Icon>units/khoi/hero_spearman_m.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/khoisan/hero_spearman_m.xml</Actor>

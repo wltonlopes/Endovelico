@@ -3,7 +3,7 @@
   <Identity>
     <Civ>yayo</Civ>
     <GenericName>Yamatai Scout</GenericName>
-    <Icon>units/athen/cavalry_scout.png</Icon>
+    <Icon>units/yayo/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/yayoi/infantry_scout.xml</Actor>

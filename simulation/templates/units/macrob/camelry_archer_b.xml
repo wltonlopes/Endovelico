@@ -5,7 +5,7 @@
     <SelectionGroupName>units/macrob/camelry_archer_b</SelectionGroupName>
     <GenericName>Macrobian Camel Archer</GenericName>
     <SpecificName>Geeley</SpecificName>
-    <Icon>units/yayo/cavalry_archer_merc.png</Icon>
+    <Icon>units/macrob/camelry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/macrob/camelry_archer_a</Entity>

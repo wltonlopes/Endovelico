@@ -10,7 +10,7 @@
     <SelectionGroupName>units/anish/infantry_archer_b</SelectionGroupName>
     <GenericName>Bear Clan Archer</GenericName>
     <SpecificName>Makwa</SpecificName>
-    <Icon>units/south_america/infantry_archer.png</Icon>
+    <Icon>units/anish/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/anish/infantry_archer_a</Entity>

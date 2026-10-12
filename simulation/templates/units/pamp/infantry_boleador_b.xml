@@ -29,7 +29,7 @@
     <Civ>pamp</Civ>
     <SelectionGroupName>units/pamp/infantry_boleador_b</SelectionGroupName>
     <GenericName>Bolas Thrower</GenericName>
-    <Icon>units/moch/infantry_javelinist.png</Icon>
+    <Icon>units/pamp/infantry_boleador.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pamp/infantry_boleador_a</Entity>

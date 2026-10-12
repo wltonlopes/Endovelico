@@ -3,7 +3,7 @@
   <Identity>
     <Civ>puka</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/moch/ship_canoe.png</Icon>
+    <Icon>units/puka/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/pukara/ship_fishing.xml</Actor>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>mapu</Civ>
     <GenericName>Scout Canoe</GenericName>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/mapu/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/mapuches/canoe_scout.xml</Actor>

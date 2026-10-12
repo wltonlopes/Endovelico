@@ -4,7 +4,7 @@
     <Civ>mapu</Civ>
     <GenericName>Mapuche Trader</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/mapu/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mapuches/trader.xml</Actor>

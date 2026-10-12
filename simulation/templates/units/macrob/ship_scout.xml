@@ -7,7 +7,7 @@
   <Identity>
     <Civ>macrob</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/hele/ship_scout.png</Icon>
+    <Icon>units/macrob/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/macrobia/ship_scout.xml</Actor>

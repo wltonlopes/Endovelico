@@ -6,7 +6,7 @@
     <SelectionGroupName>units/hasmo/cavalry_spearman_merc_b</SelectionGroupName>
     <GenericName>Mercenary Cavalry</GenericName>
     <SpecificName>Parash Sakhir</SpecificName>
-    <Icon>units/mace/cavalry_spearman_merc.png</Icon>
+    <Icon>units/hasmo/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>chibc</Civ>
     <GenericName>Chibcha Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/chibc/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/chibchas/infantry_scout.xml</Actor>

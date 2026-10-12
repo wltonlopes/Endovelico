@@ -6,7 +6,7 @@
     <Civ>azan</Civ>
     <GenericName>King of Rhapta</GenericName>
     <SpecificName>Mfalme wa Rhapta</SpecificName>
-    <Icon>units/kush/hero_nastasen.png</Icon>
+    <Icon>units/azan/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/azania/hero_infantry_javelineer.xml</Actor>

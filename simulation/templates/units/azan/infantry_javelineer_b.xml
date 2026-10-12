@@ -6,7 +6,7 @@
     <SelectionGroupName>units/aksum/infantry_javelineer_b</SelectionGroupName>
     <GenericName>Azanian Levy Skirmisher</GenericName>
     <SpecificName>Mwindaji</SpecificName>
-    <Icon>units/thra/infantry_javelineer.png</Icon>
+    <Icon>units/azan/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/azan/infantry_javelineer_a</Entity>

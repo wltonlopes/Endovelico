@@ -9,7 +9,7 @@
     <GenericName>Sogolon Kondé, the Buffalo Woman</GenericName>
     <SpecificName>Sogolon Kɔnde</SpecificName>
 	  <Phenotype>female</Phenotype>
-    <Icon>units/kush/hero_nastasen.png</Icon>
+    <Icon>units/mand/hero_03.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mande/hero_infantry_swordswoman.xml</Actor>

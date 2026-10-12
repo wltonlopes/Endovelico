@@ -8,7 +8,7 @@
     <Civ>puka</Civ>
     <GenericName>Assault Raft</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/moch/ship_bireme.png</Icon>
+    <Icon>units/puka/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/pukara/ship_arrow.xml</Actor>

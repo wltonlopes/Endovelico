@@ -4,7 +4,7 @@
     <Civ>aden</Civ>
     <GenericName>Adena Great Archer</GenericName>
     <SpecificName/>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/aden/champion_infantry_archer.png</Icon>
     <Requirements>
       <Techs datatype="tokens">
         -phase_city

@@ -4,7 +4,7 @@
     <Civ>mapu</Civ>
     <SpecificName></SpecificName>
     <GenericName>Champion Slinger</GenericName>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/mapu/champion_infantry_slinger.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mapuches/infantry_champion_slinger.xml</Actor>

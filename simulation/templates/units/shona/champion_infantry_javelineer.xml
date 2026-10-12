@@ -3,7 +3,7 @@
   <Identity>
     <Civ>shona</Civ>
     <GenericName>Shona Champion Javelineer</GenericName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/shona/champion_infantry_javelineer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/shona/infantry_champion_harpoon.xml</Actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>lenc</Civ>
     <GenericName>Jaguar Warrior</GenericName>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/lenc/champion_infantry_jaguar.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lencas/hero_infantry_maceman.xml</Actor>

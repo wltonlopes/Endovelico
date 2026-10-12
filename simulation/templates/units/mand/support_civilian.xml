@@ -4,7 +4,7 @@
     <Civ>mand</Civ>
     <GenericName>Mande Villager</GenericName>
     <SpecificName>Muso</SpecificName>
-    <Icon>units/kush/support_female_citizen.png</Icon>
+    <Icon>units/mand/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mande/citizen_{phenotype}.xml</Actor>

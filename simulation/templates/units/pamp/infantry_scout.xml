@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <GenericName>Pampas Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/pamp/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/pampidos/infantry_scout.xml</Actor>

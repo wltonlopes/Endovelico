@@ -8,7 +8,7 @@
     <GenericName>Great Queen</GenericName>
     <SpecificName>Gaos</SpecificName>
 	<Phenotype>female</Phenotype>
-    <Icon>units/urew/hero_02.png</Icon>
+    <Icon>units/damar/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/damara/hero_archer_m.xml</Actor>

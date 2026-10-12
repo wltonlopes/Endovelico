@@ -20,7 +20,7 @@
     <GenericName>Libyan Chariot</GenericName>
     <SelectionGroupName>units/liby/chariot_javelineer_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
-    <Icon>units/gara/cavaly_chariot_javelineer.png</Icon>
+    <Icon>units/liby/chariot_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/liby/chariot_javelineer_a</Entity>

@@ -6,7 +6,7 @@
     <Civ>gaet</Civ>
     <GenericName>Tacfarinas</GenericName>
     <SpecificName>Takfarinas</SpecificName>
-    <Icon>units/gara/hero_02.png</Icon>
+    <Icon>units/gaet/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/gaetuli/hero_cavalry_javelinist_m.xml</Actor>

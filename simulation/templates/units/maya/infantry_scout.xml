@@ -3,7 +3,7 @@
   <Identity>
     <Civ>maya</Civ>
     <GenericName>Maya Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/maya/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mayas/infantry_scout.xml</Actor>

@@ -9,7 +9,7 @@
     <SpecificName>Kasike Agüeybaná</SpecificName>
     <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <SelectionGroupName>units/zapo/hero_jaguar_king</SelectionGroupName>
-    <Icon>units/zapo/hero_lord_jaguar.png</Icon>
+    <Icon>units/araw/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/arawaks/hero_infantry_blowgunner.xml</Actor>

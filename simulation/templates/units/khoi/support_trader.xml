@@ -8,7 +8,7 @@
     <Civ>khoi</Civ>
 
     <GenericName>Khoi Trader</GenericName>
-    <Icon>units/kush/support_trader.png</Icon>
+    <Icon>units/khoi/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/khoisan/trader.xml</Actor>

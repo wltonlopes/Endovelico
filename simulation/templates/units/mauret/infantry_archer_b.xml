@@ -4,7 +4,7 @@
     <Civ>mauret</Civ>
     <SelectionGroupName>units/numi/infantry_archer_b</SelectionGroupName>
     <GenericName>Mauretanian Archer</GenericName>
-    <Icon>units/cart/infantry_archer.png</Icon>
+    <Icon>units/mauret/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mauret/infantry_archer_a</Entity>

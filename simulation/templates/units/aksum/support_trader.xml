@@ -9,7 +9,7 @@
 
     <GenericName>Aksumite Merchant</GenericName>
     <SpecificName>Nagādi</SpecificName>
-    <Icon>units/kush/support_trader.png</Icon>
+    <Icon>units/aksum/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/aksumites/trader.xml</Actor>

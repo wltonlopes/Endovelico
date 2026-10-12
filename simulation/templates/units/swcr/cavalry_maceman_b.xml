@@ -6,7 +6,7 @@
     <SelectionGroupName>units/swcr/heavy_infantry</SelectionGroupName>
     <GenericName>Heavy Warrior Clubman</GenericName>
    <SpecificName>Paapakwahi</SpecificName>
-    <Icon>units/maya/cavalry_spearman.png</Icon>
+    <Icon>units/swcr/cavalry_maceman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

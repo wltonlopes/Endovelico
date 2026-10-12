@@ -9,7 +9,7 @@
     <SelectionGroupName>units/mapu/infantry_slinger_b</SelectionGroupName>
     <GenericName>Mapuche Herdsman Slinger</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/moch/infantry_slinger.png</Icon>
+    <Icon>units/mapu/infantry_slinger.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

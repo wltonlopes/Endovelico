@@ -4,7 +4,7 @@
     <Civ>hisat</Civ>
     <SelectionGroupName>units/hisat/infantry_javelinist</SelectionGroupName>
     <GenericName>Mogollon Allied Javelineer</GenericName>
-    <Icon>units/maya/mercenary_spearman.png</Icon>
+    <Icon>units/hisat/infantry_javelineer_merc.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/hisat/infantry_javelineer_merc_a</Entity>

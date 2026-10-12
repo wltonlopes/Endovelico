@@ -4,7 +4,7 @@
     <Civ>gaet</Civ>
     <SelectionGroupName>units/gaet/infantry_javelinist_b</SelectionGroupName>
     <GenericName>Gaetulian Skirmisher</GenericName>
-    <Icon>units/gara/infantry_javelineer.png</Icon>
+    <Icon>units/gaet/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gaet/infantry_javelineer_a</Entity>

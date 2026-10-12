@@ -14,7 +14,7 @@
     <Civ>chibc</Civ>
     <GenericName>High Priest of Sugamuxi</GenericName>
     <SpecificName>Iraca</SpecificName>
-    <Icon>units/maya/champion_healer.png</Icon>
+    <Icon>units/chibc/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

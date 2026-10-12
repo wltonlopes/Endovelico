@@ -9,7 +9,7 @@
 
     <SpecificName>Yaxare</SpecificName>
     <GenericName>Soninke Villager</GenericName>
-    <Icon>units/kush/support_female_citizen.png</Icon>
+    <Icon>units/sonin/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/soninke/citizen_{phenotype}.xml</Actor>

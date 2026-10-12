@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Khoi Champion Clubman</GenericName>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/khoi/infantry_champion_maceman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

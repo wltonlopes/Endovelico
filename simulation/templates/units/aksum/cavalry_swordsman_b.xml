@@ -4,7 +4,7 @@
     <Civ>aksum</Civ>
     <SelectionGroupName>units/aksum/cavalry_swordsman_b</SelectionGroupName>
     <GenericName>Aksumite Cavalry</GenericName>
-    <Icon>units/maur/cavalry_swordsman.png</Icon>
+    <Icon>units/aksum/cavalry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

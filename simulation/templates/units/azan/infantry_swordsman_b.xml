@@ -10,7 +10,7 @@
     <Civ>azan</Civ>
     <SelectionGroupName>units/aksum/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Azanian Swordsman</GenericName>
-    <Icon>units/kush/infantry_swordsman.png</Icon>
+    <Icon>units/azan/infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

@@ -7,7 +7,7 @@
     <Civ>damar</Civ>
     <GenericName>Warrior King</GenericName>
     <SpecificName>Gaob</SpecificName>
-    <Icon>units/urew/hero_01.png</Icon>
+    <Icon>units/damar/hero_01.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/damara/hero_spearman_m.xml</Actor>

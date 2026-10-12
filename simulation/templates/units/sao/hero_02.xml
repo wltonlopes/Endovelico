@@ -6,7 +6,7 @@
     <Civ>sao</Civ>
     <GenericName>Giant War King</GenericName>
     <SpecificName>Gurwa</SpecificName>
-    <Icon>units/achae/hero_cyrus.png</Icon>
+    <Icon>units/sao/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/sao/hero_cavalry_swordsman_m.xml</Actor>

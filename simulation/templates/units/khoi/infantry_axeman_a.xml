@@ -2,7 +2,7 @@
 <Entity parent="units/khoi/infantry_axeman_b">
   <Identity>
     <Civ>khoi</Civ>
-    <Icon>units/subsaara/infantry_axeman.png</Icon>
+    <Icon>units/khoi/infantry_axeman_a.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/khoi/infantry_axeman_e</Entity>

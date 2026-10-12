@@ -4,7 +4,7 @@
     <Civ>mauret</Civ>
     <GenericName>Mauretanian Swordsman</GenericName>
     <SelectionGroupName>units/numi/infantry_swordsman_b</SelectionGroupName>
-    <Icon>units/iber/infantry_swordsman.png</Icon>
+    <Icon>units/mauret/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mauret/infantry_swordsman_a</Entity>

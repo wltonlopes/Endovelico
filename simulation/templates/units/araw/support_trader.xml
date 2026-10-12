@@ -3,7 +3,7 @@
   <Identity>
     <Civ>araw</Civ>
     <GenericName>Arawak Trader</GenericName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/araw/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/arawaks/trader.xml</Actor>

@@ -7,7 +7,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Ahariburu</SpecificName>
-    <Icon>units/iber/siege_ram.png</Icon>
+    <Icon>units/lusi/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/lusitanians/siege_ram_pivot.xml</Actor>

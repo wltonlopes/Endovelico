@@ -4,7 +4,7 @@
     <Civ>chibc</Civ>
     <SelectionGroupName>units/chibc/infantry_javelinist_b</SelectionGroupName>
     <GenericName>Chibcha Skirmisher</GenericName>
-    <Icon>units/gara/infantry_javelineer.png</Icon>
+    <Icon>units/chibc/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/chibc/infantry_javelineer_a</Entity>

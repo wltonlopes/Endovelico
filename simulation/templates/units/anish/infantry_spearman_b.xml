@@ -11,7 +11,7 @@
     <SelectionGroupName>Levy Spearman</SelectionGroupName>
     <GenericName>Turtle Clan Spearman</GenericName>
     <SpecificName>Mikinaak</SpecificName>
-    <Icon>units/south_america/infantry_spearman.png</Icon>
+    <Icon>units/anish/infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

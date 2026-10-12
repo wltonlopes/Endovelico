@@ -9,7 +9,7 @@
     <GenericName>Heavy Sword Warrior</GenericName>
     <SpecificName>Onídà</SpecificName>
     <SelectionGroupName>units/kwa/heavy_spearman</SelectionGroupName>
-    <Icon>units/xion/cav_spearman.png</Icon>
+    <Icon>units/kwa/cavalry_swordsman.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

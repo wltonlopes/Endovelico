@@ -4,7 +4,7 @@
     <Civ>gara</Civ>
     <GenericName>North African War Elephant</GenericName>
     <SpecificName>Pil Malḥamit</SpecificName>
-    <Icon>units/cart/champion_elephant.png</Icon>
+    <Icon>units/gara/champion_elephant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/garamantians/elephantry_c_m.xml</Actor>

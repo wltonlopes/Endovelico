@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mapu</Civ>
     <GenericName>Mapuche Scout</GenericName>
-    <Icon>units/zapo/infantry_scout.png</Icon>
+    <Icon>units/mapu/infantry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mapuches/infantry_scout.xml</Actor>

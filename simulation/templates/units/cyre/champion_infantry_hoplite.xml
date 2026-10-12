@@ -10,7 +10,7 @@
     <Requirements>
       <Techs datatype="tokens">unlock_champion_infantry</Techs>
     </Requirements>
-    <Icon>units/theb/champion_infantry_hoplite.png</Icon>
+    <Icon>units/cyre/champion_infantry_hoplite.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/cyrene/infantry_spearman_c.xml</Actor>

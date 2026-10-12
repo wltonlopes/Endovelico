@@ -3,7 +3,7 @@
   <Identity>
     <Civ>cyre</Civ>
     <GenericName>Cyrenaean Scout</GenericName>
-    <Icon>units/cart/cavalry_scout.png</Icon>
+    <Icon>units/cyre/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/cyrene/cavalry_scout.xml</Actor>

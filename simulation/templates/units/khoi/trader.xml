@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Khoi Cattle Trader</GenericName>
-    <Icon>units/kush/support_trader.png</Icon>
+    <Icon>units/khoi/trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/khoisan/trader.xml</Actor>

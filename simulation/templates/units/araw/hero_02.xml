@@ -8,7 +8,7 @@
     <GenericName>Chief Caonabo</GenericName>
     <SpecificName>Kasike Caonabó</SpecificName>
     <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
-    <Icon>units/zapo/hero_night_king.png</Icon>
+    <Icon>units/araw/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/arawaks/hero_infantry_archer.xml</Actor>

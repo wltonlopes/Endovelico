@@ -7,7 +7,7 @@
   <Identity>
     <Civ>damar</Civ>
     <GenericName>Trading Raft</GenericName>
-    <Icon>units/zapo/ship_merchant.png</Icon>
+    <Icon>units/damar/ship_merchant.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>

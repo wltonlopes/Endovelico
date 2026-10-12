@@ -3,7 +3,7 @@
   <Identity>
     <Civ>paiu</Civ>
     <GenericName>Paiute Trader</GenericName>
-    <Icon>units/south_america/support_trader.png</Icon>
+    <Icon>units/paiu/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/paiute/trader.xml</Actor>

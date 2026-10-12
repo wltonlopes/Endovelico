@@ -11,7 +11,7 @@
     <SelectionGroupName>units/infantry_maceman_b</SelectionGroupName>
     <GenericName>Urewe Clubman</GenericName>
 
-    <Icon>units/south_america/infantry_maceman.png</Icon>
+    <Icon>units/urew/infantry_maceman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/urew/infantry_maceman_a</Entity>

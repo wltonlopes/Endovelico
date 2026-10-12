@@ -7,7 +7,7 @@
   <Identity>
     <Civ>anish</Civ>
     <GenericName>Trading Canoe</GenericName>
-    <Icon>units/south_america/ship_merchant.png</Icon>
+    <Icon>units/anish/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/anishinaabe/canoe_merchant.xml</Actor>

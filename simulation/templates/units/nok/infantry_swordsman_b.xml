@@ -4,7 +4,7 @@
     <Civ>nok</Civ>
     <SelectionGroupName>units/nok/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Nok Warrior</GenericName>
-    <Icon>units/subsaara/infantry_swordsman.png</Icon>
+    <Icon>units/nok/infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/nok/infantry_swordsman_a</Entity>

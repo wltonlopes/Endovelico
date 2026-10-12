@@ -4,7 +4,7 @@
     <Civ>sao</Civ>
     <SelectionGroupName>units/sao/camelry_archer_b</SelectionGroupName>
     <GenericName>Sahelian Camel Archer</GenericName>
-    <Icon>units/yayo/cavalry_archer_merc.png</Icon>
+    <Icon>units/sao/camelry_archer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

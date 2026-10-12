@@ -6,7 +6,7 @@
     <Civ>mauret</Civ>
     <GenericName>Mastanesosus</GenericName>
     <SpecificName>Mastanesosus</SpecificName>
-    <Icon>units/achae/hero_cyrus.png</Icon>
+    <Icon>units/mauret/hero_mastanesosus.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mauretania/hero_cavalry_spearman_m.xml</Actor>

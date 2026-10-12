@@ -8,7 +8,7 @@
     <Civ>macrob</Civ>
     <GenericName>Macrobian Camel Lancer</GenericName>
     <SelectionGroupName>units/macrob/cavalry_spearman</SelectionGroupName>
-    <Icon>units/xion/cav_spearman.png</Icon>
+    <Icon>units/macrob/camelry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/macrob/camelry_spearman_a</Entity>

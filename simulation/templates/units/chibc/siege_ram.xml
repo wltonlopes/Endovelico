@@ -7,7 +7,7 @@
   <Identity>
     <Civ>chibc</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/celt/siege_ram.png</Icon>
+    <Icon>units/chibc/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/chibchas/siege_ram.xml</Actor>

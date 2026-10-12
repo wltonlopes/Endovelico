@@ -6,7 +6,7 @@
     <SelectionGroupName>units/maya/heavy_infantry</SelectionGroupName>
     <GenericName>Eagle Warrior</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/cavalry_spearman.png</Icon>
+    <Icon>units/paiu/cavalry_clubman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

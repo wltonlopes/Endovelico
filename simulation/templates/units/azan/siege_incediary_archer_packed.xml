@@ -6,7 +6,7 @@
   <Identity>
     <Civ>azan</Civ>
     <GenericName>Fire Archer</GenericName>
-    <Icon>units/south_america/cavalry_javelineer.png</Icon>
+    <Icon>units/azan/siege_incediary_archer_packed.png</Icon>
   </Identity>
   <Pack>
     <Entity>units/azan/siege_incediary_archer_unpacked</Entity>

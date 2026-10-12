@@ -4,7 +4,7 @@
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/champion_cavalry</SelectionGroupName>
     <SpecificName>Leial Zalduneria</SpecificName>
-    <Icon>units/iber/champion_cavalry.png</Icon>
+    <Icon>units/lusi/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lusitanians/cavalry_spearman_c_m.xml</Actor>

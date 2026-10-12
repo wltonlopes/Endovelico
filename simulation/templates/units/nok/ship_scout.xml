@@ -20,7 +20,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>War Canoe</GenericName>
-    <Icon>units/zapo/ship_canoe.png</Icon>
+    <Icon>units/nok/ship_scout.png</Icon>
     <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
   </Identity>
   <Loot>

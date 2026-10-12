@@ -8,7 +8,7 @@
     <Civ>mapu</Civ>
     <GenericName>War Canoe</GenericName>
     <SpecificName>Wampo</SpecificName>
-    <Icon>units/south_america/ship_arrow.png</Icon>
+    <Icon>units/mapu/ship_arrow.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

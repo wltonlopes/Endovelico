@@ -3,7 +3,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <GenericName>Battering Ram</GenericName>
-    <Icon>units/athen/siege_ram.png</Icon>
+    <Icon>units/khoi/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/khoisan/siege_ram.xml</Actor>

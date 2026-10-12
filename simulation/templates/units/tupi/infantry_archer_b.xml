@@ -5,7 +5,7 @@
     <SelectionGroupName>units/tupi/infantry_archer_b</SelectionGroupName>
     <GenericName>Tupi Archer</GenericName>
     <SpecificName>Ybyrapara-abá</SpecificName>
-    <Icon>units/south_america/infantry_archer.png</Icon>
+    <Icon>units/tupi/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/tupi/infantry_archer_a</Entity>

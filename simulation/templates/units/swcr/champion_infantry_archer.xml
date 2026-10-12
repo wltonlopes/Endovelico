@@ -4,7 +4,7 @@
   <Civ>swcr</Civ>
     <GenericName>Swift Creek Great Archer</GenericName>
     <SpecificName>Kowi</SpecificName>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/swcr/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/swcreek/infantry_champion_archer.xml</Actor>

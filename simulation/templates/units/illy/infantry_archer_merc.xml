@@ -5,7 +5,7 @@
     <Rank>Advanced</Rank>
     <SelectionGroupName>units/illy/infantry_javelinist</SelectionGroupName>
     <GenericName>Iapygian Pirate</GenericName>
-    <Icon>units/maya/mercenary_spearman.png</Icon>
+    <Icon>units/illy/infantry_archer_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

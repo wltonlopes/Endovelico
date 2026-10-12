@@ -6,7 +6,7 @@
     <Civ>numi</Civ>
     <GenericName>Jugurtha</GenericName>
     <SpecificName>Yugurten</SpecificName>
-    <Icon>units/achae/hero_cyrus.png</Icon>
+    <Icon>units/numi/hero_yugurta.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/numidians/hero_cavalry_spearman_m.xml</Actor>

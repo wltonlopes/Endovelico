@@ -5,7 +5,7 @@
     <SelectionGroupName>units/aden/infantry_archer_b</SelectionGroupName>
     <GenericName>Adena Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/infantry_archer.png</Icon>
+    <Icon>units/aden/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/aden/infantry_archer_a</Entity>

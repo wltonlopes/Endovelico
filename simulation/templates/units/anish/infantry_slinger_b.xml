@@ -9,7 +9,7 @@
     <SelectionGroupName>units/anish/infantry_slinger_b</SelectionGroupName>
     <GenericName>Allied Slinger</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/moch/infantry_slinger.png</Icon>
+    <Icon>units/anish/infantry_slinger.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

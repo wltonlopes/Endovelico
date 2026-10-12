@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mauret</Civ>
     <GenericName>Towered North African War Elephant</GenericName>
-    <Icon>units/cart/champion_elephant.png</Icon>
+    <Icon>units/mauret/champion_elephant_range.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mauretania/elephantry_archer_m.xml</Actor>

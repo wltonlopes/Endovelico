@@ -7,7 +7,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Arrantza Ontzi</SpecificName>
-    <Icon>units/iber/ship_fishing.png</Icon>
+    <Icon>units/lusi/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/lusitanians/fishing_boat.xml</Actor>

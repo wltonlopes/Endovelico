@@ -4,7 +4,7 @@
     <Civ>aksum</Civ>
     <GenericName>Aksumite Royal Guard</GenericName>
     <SpecificName>ʿAqābe Nəguś</SpecificName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/aksum/champion_infantry_axeman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/aksumites/infantry_champion_axeman.xml</Actor>

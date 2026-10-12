@@ -6,7 +6,7 @@
     <Civ>liby</Civ>
     <GenericName>Mathos the Libyan</GenericName>
     <SpecificName>Máthōs</SpecificName>
-    <Icon>units/achae/hero_cyrus.png</Icon>
+    <Icon>units/liby/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/libyan/hero_infantry_swordsman.xml</Actor>

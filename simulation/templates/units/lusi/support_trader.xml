@@ -7,7 +7,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Doentim</SpecificName>
-    <Icon>units/iber/support_trader.png</Icon>
+    <Icon>units/lusi/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lusitanians/trader.xml</Actor>

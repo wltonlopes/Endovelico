@@ -15,7 +15,7 @@
     <SelectionGroupName>units/sonin/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Soninke Light Cavalry</GenericName>
     <VisibleClasses datatype="tokens">Camel</VisibleClasses>
-    <Icon>units/subsaara/cavalry_javelineer_b.png</Icon>
+    <Icon>units/sonin/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sonin/cavalry_javelineer_a</Entity>

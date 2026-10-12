@@ -9,7 +9,7 @@
     <Civ>numi</Civ>
     <SpecificName>Tameṭṭut</SpecificName>
     <GenericName>Numidian Villager</GenericName>
-    <Icon>units/cart/support_female_citizen.png</Icon>
+    <Icon>units/numi/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/numidians/citizen_{phenotype}.xml</Actor>

@@ -8,7 +8,7 @@
     <Civ>mand</Civ>
     <GenericName>Tiramakhan Traoré</GenericName>
     <SpecificName>Tiramakan Tarawele</SpecificName>
-    <Icon>units/kush/hero_nastasen.png</Icon>
+    <Icon>units/mand/hero_02.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/mande/hero_infantry_spearman.xml</Actor>

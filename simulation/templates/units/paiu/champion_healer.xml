@@ -14,7 +14,7 @@
     <Civ>paiu</Civ>
     <GenericName>Great Shaman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/champion_healer.png</Icon>
+    <Icon>units/paiu/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

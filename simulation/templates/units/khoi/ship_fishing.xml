@@ -7,7 +7,7 @@
   <Identity>
     <Civ>khoi</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/south_america/ship_fishing.png</Icon>
+    <Icon>units/khoi/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/khoisan/fishing_ship.xml</Actor>

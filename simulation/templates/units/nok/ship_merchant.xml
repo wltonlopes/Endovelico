@@ -7,7 +7,7 @@
   <Identity>
     <Civ>nok</Civ>
     <GenericName>Trading Canoe</GenericName>
-    <Icon>units/zapo/ship_merchant.png</Icon>
+    <Icon>units/nok/ship_merchant.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>

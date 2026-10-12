@@ -4,7 +4,7 @@
     <Civ>paiu</Civ>
     <GenericName>Paiute Champion Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/champion_infantry_spearman.png</Icon>
+    <Icon>units/paiu/champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/paiute/infantry_champion_spearman.xml</Actor>

@@ -4,7 +4,7 @@
     <Civ>viet</Civ>
     <GenericName>Lac Viet Scout</GenericName>
     <SpecificName>Kỵ Sĩ Trinh Sát</SpecificName>
-    <Icon>units/han/cavalry_scout.png</Icon>
+    <Icon>units/viet/cavalry_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/vietnamese/cavalry_scout.xml</Actor>

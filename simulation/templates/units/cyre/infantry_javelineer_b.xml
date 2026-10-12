@@ -5,7 +5,7 @@
     <SelectionGroupName>units/cyre/infantry_javelinist_b</SelectionGroupName>
     <GenericName>Cyrenaean Peltast</GenericName>
     <SpecificName>Peltastḗs Kyrēnaîos</SpecificName>
-    <Icon>units/mace/infantry_javelinist.png</Icon>
+    <Icon>units/cyre/infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/cyre/infantry_javelineer_a</Entity>

@@ -3,7 +3,7 @@
   <Identity>
   <Civ>damar</Civ>
     <GenericName>Damara Champion Javelineer</GenericName>
-    <Icon>units/maya/champion_infantry_maceman.png</Icon>
+    <Icon>units/damar/champion_infantry_javelinist.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/damara/infantry_champion_javelinist.xml</Actor>

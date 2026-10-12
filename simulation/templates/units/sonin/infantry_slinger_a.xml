@@ -2,7 +2,7 @@
 <Entity parent="units/sonin/infantry_slinger_b">
   <Identity>
     <Civ>sonin</Civ>
-    <Icon>units/gara/infantry_slinger.png</Icon>
+    <Icon>units/sonin/infantry_slinger_a.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sonin/infantry_slinger_e.xml</Entity>

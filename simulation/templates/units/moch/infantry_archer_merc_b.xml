@@ -4,7 +4,7 @@
     <SelectionGroupName>units/moch/infantry_archer_merc_b</SelectionGroupName>
     <GenericName>Recuay Archer</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/yayo/infantry_archer.png</Icon>
+    <Icon>units/moch/infantry_archer_merc.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/moch/infantry_archer_merc_a</Entity>

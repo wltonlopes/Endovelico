@@ -6,7 +6,7 @@
     <SelectionGroupName>units/araw/heavy_javelineer</SelectionGroupName>
     <GenericName>Nitaíno Club Warrior</GenericName>
     <SpecificName>Nitaíno</SpecificName>
-    <Icon>units/south_america/cavalry_javelineer.png</Icon>
+    <Icon>units/araw/cavalry_clubman.png</Icon>
     <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
   </Identity>

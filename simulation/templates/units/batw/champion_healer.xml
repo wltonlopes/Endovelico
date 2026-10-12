@@ -14,7 +14,7 @@
     <Civ>batw</Civ>
     <GenericName>Forest Diviner</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/maya/champion_healer.png</Icon>
+    <Icon>units/batw/champion_healer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

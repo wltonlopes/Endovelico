@@ -12,7 +12,7 @@
 
     <SpecificName>ʾAnəst</SpecificName>
     <GenericName>Aksumite Villager</GenericName>
-    <Icon>units/kush/support_female_citizen.png</Icon>
+    <Icon>units/aksum/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/aksumites/citizen_{phenotype}.xml</Actor>

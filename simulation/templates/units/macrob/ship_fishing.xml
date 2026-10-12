@@ -7,7 +7,7 @@
   <Identity>
     <Civ>macrob</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/hele/ship_fishing.png</Icon>
+    <Icon>units/macrob/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/macrobia/ship_fishing.xml</Actor>

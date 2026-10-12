@@ -5,7 +5,7 @@
     <SelectionGroupName>units/cyre/infantry_marine_archer_b</SelectionGroupName>
     <GenericName>Nasamones Mercenary Archer</GenericName>
     <SpecificName>Toxótēs Nasamṓn</SpecificName>
-    <Icon>units/mace/infantry_archer.png</Icon>
+    <Icon>units/cyre/infantry_archer_merc.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

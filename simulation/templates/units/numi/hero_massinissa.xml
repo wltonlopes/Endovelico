@@ -6,7 +6,7 @@
     <Civ>numi</Civ>
     <GenericName>Massinissa</GenericName>
     <SpecificName>Masensen</SpecificName>
-    <Icon>units/gara/hero_1.png</Icon>
+    <Icon>units/numi/hero_massinissa.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/numidians/hero_chariot_archer_m.xml</Actor>

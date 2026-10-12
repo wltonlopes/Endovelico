@@ -7,7 +7,7 @@
   <Identity>
     <Civ>pamp</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/pamp/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/pampidos/canoe_scout.xml</Actor>

@@ -4,7 +4,7 @@
   <Civ>araw</Civ>
     <GenericName>Arawak Great Archer</GenericName>
     <SpecificName> </SpecificName>
-    <Icon>units/zapo/infantry_swordsman.png</Icon>
+    <Icon>units/araw/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/arawaks/infantry_champion_archer.xml</Actor>

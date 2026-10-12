@@ -7,7 +7,7 @@
   <Identity>
     <Civ>hisat</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/athen/ship_scout.png</Icon>
+    <Icon>units/hisat/ship_scout.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/hisatsinom/canoe_scout.xml</Actor>
