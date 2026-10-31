@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint>
+    <Square width="28.5" depth="28.5" />
+    <Height>7.7</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SpecificName>Šūq</SpecificName>
+    <GenericName>Market</GenericName>
+  </Identity>
+  <Market>
+    <InternationalBonus op="add">0.1</InternationalBonus>
+  </Market>
+  <Obstruction>
+    <Static width="27.5" depth="27.5" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/carthaginian_empire/market.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

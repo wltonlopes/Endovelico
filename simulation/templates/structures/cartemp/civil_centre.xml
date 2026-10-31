@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="26.5" depth="28.5" />
+    <Height>15.3</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_kart_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SpecificName>Merkāz</SpecificName>
+    <GenericName>Civic Center</GenericName>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      colonization
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/cavalry_javelineer_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/carthaginian_empire/civil_centre.xml</Actor>
+    <SelectionShape>
+      <Footprint />
+    </SelectionShape>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+  <Obstruction>
+    <Static width="25.5" depth="27.5" />
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>17.3</HeightOffset>
+  </StatusBars>
+</Entity>

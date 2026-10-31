@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/cart/infantry_archer_b">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SelectionGroupName>units/cartemp/infantry_archer_b</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/cartemp/infantry_archer_a</Entity>
+  </Promotion>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/cart/super_dock
+      -structures/cart/embassy_celtic
+      -structures/cart/embassy_iberian
+      -structures/cart/embassy_italic
+      structures/cartemp/palace
+      structures/cartemp/temple_big
+      structures/cartemp/tophet
+      structures/cartemp/range
+      structures/cartemp/embassy
+    </Entities>
+  </Builder>
+</Entity>

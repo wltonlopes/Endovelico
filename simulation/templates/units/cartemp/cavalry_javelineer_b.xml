@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/cart/cavalry_javelineer_b">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SelectionGroupName>units/cartemp/cavalry_javelineer_b</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/cartemp/cavalry_javelineer_a</Entity>
+  </Promotion>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras>
+  <Identity>
+    <Civ>cartemp</Civ>
+    <GenericName>Carthaginian Empire</GenericName>
+    <History>At the height of its power in the 3rd century BC, Carthage ruled an empire stretching from the Libyan coast to Iberia, Sardinia and western Sicily. Governed by elected Suffetes and a merchant aristocracy, the Punic capital built its might on the great circular military harbour, the Kothon, on vast mercenary armies, and on generals such as Hamilcar and Hannibal Barca, who carried the war against Rome across the Alps.</History>
+    <Icon>emblems/emblem_carthaginians.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations>
+  </Player>
+</Entity>

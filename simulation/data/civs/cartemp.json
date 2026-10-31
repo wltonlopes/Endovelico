@@ -1,0 +1,83 @@
+{
+	"Code": "cartemp",
+	"Culture": "cart",
+	"Music": [
+		{
+			"File": "Mediterranean_Waves.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harsh_Lands_Rugged_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Peaks_of_Atlas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "From_Every_Corner.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Thalassocracy",
+			"History": "From the Kothon of Carthage the Punic fleets ruled the trade routes of the western Mediterranean.",
+			"Description": "Trade ships are available in the Village Phase."
+		},
+		{
+			"Name": "Mercenary Armies",
+			"History": "Carthage paid Libyan, Iberian, Celtic and Italic warriors to fight its wars, led by Punic generals.",
+			"Description": "Mercenaries are trained at the Mercenary Stoa."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/cartemp/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/cartemp/civil_centre"
+		},
+		{
+			"Template": "units/cartemp/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/cartemp/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/cartemp/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/cartemp/cavalry_javelineer_b"
+		}
+	],
+	"AINames": [
+		"Hamilcar Barca",
+		"Hannibal Barca",
+		"Hasdrubal the Fair",
+		"Mago Barca",
+		"Hanno the Great",
+		"Himilco",
+		"Maharbal",
+		"Bomilcar",
+		"Gisco",
+		"Hasdrubal Gisco"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "units/cartemp/infantry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/cartemp/infantry_spearman_b",
+		"skirmish/units/default_cavalry": "units/cartemp/cavalry_javelineer_b",
+		"skirmish/structures/default_house_10": "structures/cartemp/house",
+		"skirmish/structures/default_house_5": "structures/cartemp/house",
+		"skirmish/structures/default_wall_tower": "structures/cartemp/wall_tower",
+		"skirmish/structures/default_wall_gate": "structures/cartemp/wall_gate",
+		"skirmish/structures/default_wall_short": "structures/cartemp/wall_short",
+		"skirmish/structures/default_wall_medium": "structures/cartemp/wall_medium",
+		"skirmish/structures/default_wall_long": "structures/cartemp/wall_long"
+	},
+	"SelectableInGameSetup": true
+}

@@ -21,36 +21,11 @@ Engine.LoadLibrary("rmgen-common");
 Engine.LoadLibrary("rmgen2");
 Engine.LoadLibrary("rmbiome");
 
-setBiome("generic/tropic");
+setBiome("generic/pampas");
 
-g_Terrains.mainTerrain = "new_alpine_grass_d";
-g_Terrains.forestFloor1 = "tropic_grass_d";
-g_Terrains.forestFloor2 = "tropic_grass_c";
-g_Terrains.tier1Terrain = "new_alpine_grass_c";
-g_Terrains.tier2Terrain = "new_alpine_grass_b";
-g_Terrains.tier3Terrain = "tropic_grass_a";
-g_Terrains.tier4Terrain = "new_alpine_grass_e";
-
-g_Gaia.mainHuntableAnimal = "gaia/fauna_tapir";
-g_Gaia.secondaryHuntableAnimal = "gaia/fauna_deer_white_tailed";
-g_Gaia.fish = "gaia/fish/tilapia";
-g_Gaia.chicken = "gaia/fauna_turkey";
-g_Gaia.tree1 = "gaia/tree/banyan";
-g_Gaia.tree2 = "gaia/tree/tropic_rainforest";
-g_Gaia.tree3 = "gaia/fruit/date";
-g_Gaia.tree4 = "gaia/tree/strangler";
-g_Gaia.tree5 = "gaia/tree/palm_tropical";
+g_Gaia.chicken = g_Gaia.startingAnimal;
 g_Gaia.woodTreasure = "gaia/treasure/wood";
 g_Gaia.foodTreasure = "gaia/treasure/food_bin";
-
-g_Decoratives.grass = "actor|props/flora/grass_soft_large.xml";
-g_Decoratives.grassShort = "actor|props/flora/grass_tufts_a.xml";
-g_Decoratives.rockLarge = "actor|geology/stone_granite_med.xml";
-g_Decoratives.rockMedium = "actor|geology/stone_granite_small.xml";
-g_Decoratives.bushMedium = "actor|flora/trees/tropic_bush_biome.xml";
-g_Decoratives.bushSmall = "actor|props/flora/bush_tropic_b.xml";
-g_Decoratives.reeds = "actor|props/flora/reeds_pond_lush_a.xml";
-g_Decoratives.lillies = "actor|props/flora/water_lillies.xml";
 
 const heightScale = num => num * g_MapSettings.Size / 320;
 
@@ -60,9 +35,9 @@ const heightWaterLevel = heightScale(0,5);
 const heightShoreline = heightScale(1,5);
 const heightPlayer = heightScale(7);
 
-const oTiger = "gaia/fauna_jaguar";
-const oBoar = "gaia/fauna_boar";
-const oFox = "gaia/fauna_fox_gray";
+const oTiger = g_Gaia.predator;
+const oBoar = g_Gaia.secondaryHuntableAnimal;
+const oFox = g_Gaia.smallAnimal;
 const oBuzzard = "birds/fauna_parrot";
 
 

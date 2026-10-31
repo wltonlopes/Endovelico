@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Footprint>
+    <Square width="8.0" depth="8.0" />
+    <Height>14.8</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SpecificName>Migdal</SpecificName>
+    <GenericName>Wall Tower</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="7.5" depth="7.5" />
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>15.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/carthaginian_empire/wall_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>7.3</Length>
+  </WallPiece>
+</Entity>

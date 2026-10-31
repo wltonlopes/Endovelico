@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_sentry">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <GenericName>Sentry Tower</GenericName>
+    <SpecificName>Mispeh</SpecificName>
+  </Identity>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+    <Actor>structures/carthaginian_empire/sentry_tower.xml</Actor>
+  </VisualActor>
+  <Footprint>
+    <Square width="6.5" depth="7.0" />
+    <Height>12.6</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="6.0" depth="6.5" />
+  </Obstruction>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <StatusBars>
+    <HeightOffset>14.6</HeightOffset>
+  </StatusBars>
+</Entity>

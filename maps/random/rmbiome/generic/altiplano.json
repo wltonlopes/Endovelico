@@ -1,0 +1,119 @@
+{
+	"Description": {
+		"Title": "Andean Plateau",
+		"Description": "The high, cold plateau of the central Andes. Thin air, hard light and tough bunch-grass between rocky ridges and salt-rimmed lakes. Llamas and guanacos are the wealth of this land, and trees are few and stunted."
+	},
+	"Environment": {
+		"SkySet": "sunny",
+		"SunColor": {
+			"r": 1.2,
+			"g": 1.12,
+			"b": 1.0
+		},
+		"SunElevation": 0.7,
+		"SunRotation": -0.6,
+		"AmbientColor": {
+			"r": 0.36,
+			"g": 0.42,
+			"b": 0.52
+		},
+		"Water": {
+			"WaterBody": {
+				"Color": {
+					"r": 0.22,
+					"g": 0.38,
+					"b": 0.46
+				},
+				"Tint": {
+					"r": 0.3,
+					"g": 0.48,
+					"b": 0.5
+				},
+				"Murkiness": 0.75,
+				"Waviness": 3.0
+			}
+		},
+		"Fog": {
+			"FogThickness": 0.0,
+			"FogFactor": 0.0012,
+			"FogColor": {
+				"r": 0.8,
+				"g": 0.86,
+				"b": 0.94
+			}
+		},
+		"Postproc": {
+			"PostprocEffect": "hdr",
+			"Saturation": 0.9,
+			"Contrast": 1.08,
+			"Bloom": 0.12
+		}
+	},
+	"Terrains": {
+		"mainTerrain": [
+			"alpine_grass_d",
+			"steppe_grass_d",
+			"alpine_grass_rocky"
+		],
+		"forestFloor1": "alpine_dirt_grass_50",
+		"forestFloor2": "steppe_grass_dirt_66",
+		"cliff": [
+			"alpine_rock_01",
+			"alpine_rock_02",
+			"alpine_mountainside"
+		],
+		"tier1Terrain": "alpine_grass_d_wild",
+		"tier2Terrain": "steppe_grass_dirt_33",
+		"tier3Terrain": "alpine_grass_e",
+		"tier4Terrain": "steppe_dirt_rocks_a",
+		"hill": [
+			"alpine_rocks_dirt_01",
+			"steppe_rocks_dirt_01"
+		],
+		"dirt": [
+			"alpine_dirt",
+			"steppe_dirt_b"
+		],
+		"road": "alpine_paving_stones_01",
+		"roadWild": "alpine_paving_stones_02",
+		"shoreBlend": "alpine_shore_rocks_grass_50",
+		"shore": "alpine_shore_rocks",
+		"water": "alpine_shore_rocks"
+	},
+	"Gaia": {
+		"tree1": "gaia/tree/bush_badlands",
+		"tree2": "gaia/tree/bush_steppe_03",
+		"tree3": "gaia/tree/flora_cactus_stenocerus_large",
+		"tree4": "gaia/tree/juniper_prickly",
+		"tree5": "gaia/tree/bush_steppe_01",
+		"fruitBush": "gaia/fruit/berry_05",
+		"startingAnimal": "gaia/fauna_tinamou",
+		"mainHuntableAnimal": "gaia/fauna_llama",
+		"secondaryHuntableAnimal": "gaia/fauna_guanaco",
+		"fish": "gaia/fish/generic",
+		"stoneLarge": "gaia/rock/alpine_large",
+		"stoneSmall": "gaia/rock/alpine_small",
+		"metalLarge": "gaia/ore/alpine_large",
+		"metalSmall": "gaia/ore/alpine_small",
+		"smallAnimal": "gaia/fauna_tapeti",
+		"predator": "gaia/fauna_puma"
+	},
+	"Decoratives": {
+		"grass": "actor|props/flora/grass_soft_dry_large_tall.xml",
+		"grassShort": "actor|props/flora/grass_soft_dry_tuft_a.xml",
+		"reeds": "actor|props/flora/reeds_pond_dry.xml",
+		"lillies": "actor|props/flora/reeds_pond_dry.xml",
+		"rockLarge": "actor|geology/stone_granite_large.xml",
+		"rockMedium": "actor|geology/stone_granite_med.xml",
+		"bushMedium": "actor|props/flora/bush_highlands.xml",
+		"bushSmall": "actor|props/flora/bush_dry_a.xml",
+		"tree": "actor|flora/trees/cactus_stenocerus_small.xml"
+	},
+	"ResourceCounts": {
+		"trees": {
+			"min": 300,
+			"max": 800,
+			"forestProbability": 0.25
+		}
+	}
+}

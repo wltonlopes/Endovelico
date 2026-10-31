@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/cart/ship_merchant">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SelectionGroupName>units/cartemp/ship_merchant</SelectionGroupName>
+  </Identity>
+</Entity>

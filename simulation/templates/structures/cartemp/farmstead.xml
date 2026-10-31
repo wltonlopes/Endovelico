@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Footprint>
+    <Square width="10.0" depth="18.0" />
+    <Height>6.2</Height>
+  </Footprint>
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SpecificName>Ḥaṣer</SpecificName>
+    <GenericName>Farmstead</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="9.5" depth="17.5" />
+  </Obstruction>
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
+    <Actor>structures/carthaginian_empire/farmstead.xml</Actor>
+  </VisualActor>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
+  </Health>
+</Entity>

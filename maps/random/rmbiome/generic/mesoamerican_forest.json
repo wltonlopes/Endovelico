@@ -1,0 +1,121 @@
+{
+	"Description": {
+		"Title": "Mesoamerican Forest",
+		"Description": "The lowland jungles of the Maya and their neighbours. Limestone outcrops break through a seasonal tropical forest of tall hardwoods and palms. White-tailed deer and peccaries are hunted in the clearings and turkeys are kept close to home."
+	},
+	"Environment": {
+		"SkySet": "cumulus",
+		"SunColor": {
+			"r": 1.08,
+			"g": 1.0,
+			"b": 0.84
+		},
+		"SunElevation": 0.9,
+		"SunRotation": -0.6,
+		"AmbientColor": {
+			"r": 0.38,
+			"g": 0.41,
+			"b": 0.42
+		},
+		"Water": {
+			"WaterBody": {
+				"Color": {
+					"r": 0.16,
+					"g": 0.28,
+					"b": 0.24
+				},
+				"Tint": {
+					"r": 0.3,
+					"g": 0.42,
+					"b": 0.26
+				},
+				"Murkiness": 0.85,
+				"Waviness": 2.0
+			}
+		},
+		"Fog": {
+			"FogThickness": 0.0,
+			"FogFactor": 0.003,
+			"FogColor": {
+				"r": 0.84,
+				"g": 0.87,
+				"b": 0.8
+			}
+		},
+		"Postproc": {
+			"PostprocEffect": "hdr",
+			"Saturation": 1.0,
+			"Contrast": 1.02,
+			"Bloom": 0.15
+		}
+	},
+	"Terrains": {
+		"mainTerrain": [
+			"tropic_grass_a",
+			"tropic_grass_b",
+			"tropic_grass_c",
+			"india_grass_01"
+		],
+		"forestFloor1": "tropic_forestfloor_a",
+		"forestFloor2": "india_forestfloor_02",
+		"cliff": [
+			"tropic_cliff_a",
+			"tropic_cliff_b",
+			"tropic_cliff_a_plants"
+		],
+		"tier1Terrain": "tropic_grass_plants",
+		"tier2Terrain": "india_grass_dirt_01",
+		"tier3Terrain": "tropic_grass_f",
+		"tier4Terrain": "tropic_plants_b",
+		"hill": [
+			"tropic_dirt_a_plants",
+			"india_rocks_dirt_01"
+		],
+		"dirt": [
+			"tropic_dirt_a",
+			"tropic_dirt_b",
+			"india_dirt_02"
+		],
+		"road": "tropic_citytile_a",
+		"roadWild": "tropic_citytile_plants",
+		"shoreBlend": "tropic_grass_plants",
+		"shore": "tropic_beach_dry_plants",
+		"water": "tropic_mud_a"
+	},
+	"Gaia": {
+		"tree1": "gaia/tree/tropic_rainforest",
+		"tree2": "gaia/tree/strangler",
+		"tree3": "gaia/tree/toona",
+		"tree4": "gaia/tree/palm_royal",
+		"tree5": "gaia/tree/palm_tropical",
+		"fruitBush": "gaia/fruit/fig",
+		"startingAnimal": "gaia/fauna_turkey",
+		"mainHuntableAnimal": "gaia/fauna_deer_white_tailed_02",
+		"secondaryHuntableAnimal": "gaia/fauna_peccary",
+		"fish": "gaia/fish/generic",
+		"stoneLarge": "gaia/rock/tropical_large",
+		"stoneSmall": "gaia/rock/tropical_small",
+		"metalLarge": "gaia/ore/tropical_large",
+		"metalSmall": "gaia/ore/tropical_small",
+		"smallAnimal": "gaia/fauna_paca",
+		"predator": "gaia/fauna_jaguar_02"
+	},
+	"Decoratives": {
+		"grass": "actor|props/flora/grass_tropic_field.xml",
+		"grassShort": "actor|props/flora/plant_tropic_a.xml",
+		"reeds": "actor|props/flora/reeds_pond_lush_a.xml",
+		"lillies": "actor|props/flora/water_lillies.xml",
+		"rockLarge": "actor|geology/stones_tropic_large.xml",
+		"rockMedium": "actor|geology/stone_tropic_cubic_weathered.xml",
+		"bushMedium": "actor|flora/trees/tropic_bush_biome.xml",
+		"bushSmall": "actor|props/flora/shrub_tropic_plant_flower.xml",
+		"tree": "actor|flora/trees/palm_tropical_tall.xml"
+	},
+	"ResourceCounts": {
+		"trees": {
+			"min": 1500,
+			"max": 5000,
+			"forestProbability": 0.8
+		}
+	}
+}

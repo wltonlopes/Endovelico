@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_gazelle">
+  <Footprint>
+    <Square width="1.4" depth="3.4"/>
+    <Height>4.2</Height>
+  </Footprint>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <GenericName>Arabian Oryx</GenericName>
+    <SpecificName>Oryx leucoryx</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>120</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>5.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/oryx_arabian.xml</Actor>
+  </VisualActor>
+</Entity>

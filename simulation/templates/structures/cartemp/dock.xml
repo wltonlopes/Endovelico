@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Cost>
+    <Resources>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="32.0" depth="26.5" />
+    <Height>10.9</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_kart_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cartemp</Civ>
+    <GenericName>Military Harbour</GenericName>
+    <SpecificName>Kōtōn</SpecificName>
+  </Identity>
+  <Loot>
+    <wood>30</wood>
+  </Loot>
+  <Market>
+    <InternationalBonus op="add">0.1</InternationalBonus>
+  </Market>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -ship_movement_speed
+      -warship_health
+    </Technologies>
+  </Researcher>
+  <Obstruction>
+    <Static width="31.0" depth="25.5" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/carthaginian_empire/dock.xml</Actor>
+    <FoundationActor>structures/fndn_8x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

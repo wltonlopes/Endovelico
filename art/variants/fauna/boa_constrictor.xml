@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/boa_constrictor/snake_walk.psa" name="Walk" speed="49"/>
+    <animation file="fauna/boa_constrictor/snake_run.psa" name="Run" speed="33"/>
+    <animation file="fauna/boa_constrictor/snake_idle_01.psa" name="Idle" speed="100"/>
+    <animation file="fauna/boa_constrictor/snake_idle_02.psa" name="Idle" speed="100"/>
+    <animation file="fauna/boa_constrictor/snake_attack.psa" name="attack_melee" speed="100" event="0.55"/>
+    <animation file="fauna/boa_constrictor/snake_death.psa" name="Death" speed="100"/>
+  </animations>
+</variant>

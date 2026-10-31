@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/cart/infantry_javelineer_iber_b">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SelectionGroupName>units/cartemp/infantry_javelineer_iber_b</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/cartemp/infantry_javelineer_iber_a</Entity>
+  </Promotion>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/cartemp/palace
+      structures/cartemp/temple_big
+      structures/cartemp/tophet
+      structures/cartemp/range
+      structures/cartemp/embassy
+    </Entities>
+  </Builder>
+</Entity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <GenericName>Stable</GenericName>
+    <SpecificName>Urwat Sūsīm</SpecificName>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/{civ}/champion_cavalry
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/carthaginian_empire/stable.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+  <Footprint>
+    <Square width="22.0" depth="22.0" />
+    <Height>11.2</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="21.0" depth="21.0" />
+  </Obstruction>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+</Entity>

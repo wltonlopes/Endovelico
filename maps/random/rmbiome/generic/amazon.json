@@ -1,97 +1,121 @@
 {
 	"Description": {
 		"Title": "Amazon",
-		"Description": "Explore the mysterious tropics. An extremely green, but also extremely humid environment awaits. The tall Toona trees look on disapprovingly at this invasion of their privacy and ferocious tigers are determined to defend their territory at all costs."
+		"Description": "The largest rainforest on Earth. A dense, humid canopy of towering trees and palms closes over muddy ground and dark rivers. Peccaries, tapirs and brocket deer move through the undergrowth, while curassows and tinamous forage near the villages."
 	},
 	"Environment": {
-		"SunColor": { "r": 1.03162, "g": 0.99521, "b": 0.865752, "a": 0 },
-		"SunElevation": 1.95,
-		"SunRotation": 0.0,
-		"AmbientColor": { "r": 0.364706, "g": 0.376471, "b": 0.419608 },
+		"SkySet": "cumulus",
+		"SunColor": {
+			"r": 1.03,
+			"g": 0.99,
+			"b": 0.86
+		},
+		"SunElevation": 0.95,
+		"SunRotation": -0.6,
+		"AmbientColor": {
+			"r": 0.4,
+			"g": 0.44,
+			"b": 0.44
+		},
 		"Water": {
 			"WaterBody": {
-				"Color": { "r": 0.584, "g": 0.824, "b": 0.929 },
-				"Tint": { "r": 0.569, "g": 0.965, "b": 0.945 },
-				"Murkiness": 0.45,
+				"Color": {
+					"r": 0.2,
+					"g": 0.17,
+					"b": 0.1
+				},
+				"Tint": {
+					"r": 0.34,
+					"g": 0.3,
+					"b": 0.16
+				},
+				"Murkiness": 0.93,
 				"Waviness": 1.5
 			}
 		},
 		"Fog": {
 			"FogThickness": 0.0,
-			"FogFactor": 0.0040,
-			"FogColor": { "r": 0.87451, "g": 0.87451, "b": 0.87451 }
+			"FogFactor": 0.0045,
+			"FogColor": {
+				"r": 0.8,
+				"g": 0.86,
+				"b": 0.82
+			}
 		},
 		"Postproc": {
 			"PostprocEffect": "hdr",
-			"Contrast": 1,
-			"Saturation": 1,
+			"Saturation": 1.05,
+			"Contrast": 1.0,
 			"Bloom": 0.16
 		}
 	},
 	"Terrains": {
 		"mainTerrain": [
-			"india_grass_01",
-			"india_grass_02",
-			"india_grass_dirt_01",
-			"india_grass_dirt_02"
+			"tropic_grass_c",
+			"tropic_grass_d",
+			"tropic_grass_plants",
+			"tropic_plants_b"
 		],
-		"forestFloor1": "india_forestfloor_01",
-		"forestFloor2": "india_forestfloor_02",
+		"forestFloor1": "tropic_forestfloor_a",
+		"forestFloor2": "tropic_plants_c",
 		"cliff": [
-			"india_cliff_02",
-			"india_cliff_03"
+			"tropic_cliff_a_plants",
+			"tropic_cliff_b_plants",
+			"tropic_cliff_grass"
 		],
-		"tier1Terrain": "india_grass_02",
-		"tier2Terrain": "india_mud_01",
-		"tier3Terrain": "india_grass_dirt_01",
-		"tier4Terrain": "india_grass_dirt_02",
+		"tier1Terrain": "tropic_grass_plants",
+		"tier2Terrain": "tropic_plants",
+		"tier3Terrain": "tropic_grass_e",
+		"tier4Terrain": "tropic_dirt_a_plants",
 		"hill": [
-			"india_dirt_01",
-			"india_dirt_02"
+			"tropic_dirt_b_plants",
+			"tropic_cliff_mud"
 		],
 		"dirt": [
-			"india_dirt_01",
-			"india_dirt_02",
-			"india_dirt_03"
+			"tropic_dirt_a",
+			"tropic_dirt_b",
+			"tropic_mud_a"
 		],
-		"road": "india_paving_02",
-		"roadWild": "india_paving_02",
-		"shoreBlend": "india_grass_dirt_01",
-		"shore": "india_sand_01",
-		"water": "india_mud_01"
+		"road": "tropic_citytile_a",
+		"roadWild": "tropic_citytile_plants",
+		"shoreBlend": "tropic_swamp_a",
+		"shore": "tropic_mud_a",
+		"water": "tropic_mud_a"
 	},
 	"Gaia": {
-		"tree1": "gaia/tree/banyan",
+		"tree1": "gaia/tree/tropic_rainforest",
 		"tree2": "gaia/tree/strangler",
-		"tree3": "gaia/tree/teak",
-		"tree4": "gaia/tree/palm_palmyra",
+		"tree3": "gaia/tree/toona",
+		"tree4": "gaia/tree/palm_tropic",
 		"tree5": "gaia/tree/palm_tropical",
-		"fruitBush": "gaia/fruit/date",
-		"startingAnimal": "gaia/fauna_turkey",
-		"mainHuntableAnimal": "gaia/fauna_turkey",
-		"fish": "gaia/fish/generic",
+		"fruitBush": "gaia/fruit/banana",
+		"startingAnimal": "gaia/fauna_curassow",
+		"mainHuntableAnimal": "gaia/fauna_peccary",
 		"secondaryHuntableAnimal": "gaia/fauna_tapir",
-		"stoneLarge": "gaia/rock/temperate_large_02",
+		"fish": "gaia/fish/generic",
+		"stoneLarge": "gaia/rock/tropical_large",
 		"stoneSmall": "gaia/rock/tropical_small",
-		"metalLarge": "gaia/ore/india_01",
-		"metalSmall": "gaia/ore/alpine_small"
+		"metalLarge": "gaia/ore/tropical_large",
+		"metalSmall": "gaia/ore/tropical_small",
+		"smallAnimal": "gaia/fauna_paca",
+		"predator": "gaia/fauna_jaguar_02"
 	},
 	"Decoratives": {
-		"grass": "actor|props/flora/grass_tropic_field.xml",
+		"grass": "actor|props/flora/grass_tropic_field_tall.xml",
 		"grassShort": "actor|props/flora/plant_tropic_a.xml",
-		"reeds": "actor|flora/trees/palm_nipa.xml",
+		"reeds": "actor|props/flora/reeds_pond_lush_b.xml",
 		"lillies": "actor|props/flora/water_lillies.xml",
-		"rockLarge": "actor|geology/stone_india_small.xml",
-		"rockMedium": "actor|geology/stone_india_small.xml",
+		"rockLarge": "actor|geology/stones_tropic_large.xml",
+		"rockMedium": "actor|geology/stone_tropic_cubic_weathered.xml",
 		"bushMedium": "actor|flora/trees/tropic_bush_biome.xml",
 		"bushSmall": "actor|props/flora/plant_tropic_large.xml",
 		"tree": "actor|flora/trees/palm_nipa.xml"
 	},
 	"ResourceCounts": {
 		"trees": {
-			"min": 1000,
+			"min": 2000,
 			"max": 6000,
-			"forestProbability": 0.8
+			"forestProbability": 0.85
 		}
 	}
 }

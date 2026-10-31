@@ -1,0 +1,118 @@
+{
+	"Description": {
+		"Title": "Pampas",
+		"Description": "Endless, windswept grasslands stretching to the horizon, broken only by scattered thickets and shallow lagoons. Herds of guanacos graze the open plain alongside pampas deer, and timber is a scarce and precious resource."
+	},
+	"Environment": {
+		"SkySet": "cirrus",
+		"SunColor": {
+			"r": 1.1,
+			"g": 1.04,
+			"b": 0.92
+		},
+		"SunElevation": 0.75,
+		"SunRotation": -0.6,
+		"AmbientColor": {
+			"r": 0.37,
+			"g": 0.4,
+			"b": 0.46
+		},
+		"Water": {
+			"WaterBody": {
+				"Color": {
+					"r": 0.3,
+					"g": 0.33,
+					"b": 0.3
+				},
+				"Tint": {
+					"r": 0.42,
+					"g": 0.44,
+					"b": 0.3
+				},
+				"Murkiness": 0.9,
+				"Waviness": 4.0
+			}
+		},
+		"Fog": {
+			"FogThickness": 0.0,
+			"FogFactor": 0.0018,
+			"FogColor": {
+				"r": 0.88,
+				"g": 0.9,
+				"b": 0.92
+			}
+		},
+		"Postproc": {
+			"PostprocEffect": "hdr",
+			"Saturation": 0.95,
+			"Contrast": 1.03,
+			"Bloom": 0.14
+		}
+	},
+	"Terrains": {
+		"mainTerrain": [
+			"steppe_grass_green_a",
+			"temperate_grass_04",
+			"steppe_grass_c"
+		],
+		"forestFloor1": "temperate_grass_dirt_02",
+		"forestFloor2": "steppe_grass_dirt_33",
+		"cliff": [
+			"temperate_cliff_01",
+			"steppe_rocks_dirt_01"
+		],
+		"tier1Terrain": "steppe_grass_a",
+		"tier2Terrain": "temperate_grass_03",
+		"tier3Terrain": "steppe_grass_b",
+		"tier4Terrain": "steppe_grass_d",
+		"hill": [
+			"steppe_grass_rocks_01",
+			"steppe_dirt_rocks_a"
+		],
+		"dirt": [
+			"steppe_grass_dirt_66",
+			"steppe_dirt_a"
+		],
+		"road": "temperate_paving_03",
+		"roadWild": "temperate_paving_01",
+		"shoreBlend": "steppe_grass_mud_01",
+		"shore": "steppe_river_rocks_dirt",
+		"water": "steppe_river_rocks_wet"
+	},
+	"Gaia": {
+		"tree1": "gaia/tree/bush_temperate",
+		"tree2": "gaia/tree/temperate",
+		"tree3": "gaia/tree/bush_steppe_02",
+		"tree4": "gaia/tree/poplar",
+		"tree5": "gaia/tree/bush_steppe_01",
+		"fruitBush": "gaia/fruit/berry_02",
+		"startingAnimal": "gaia/fauna_tinamou",
+		"mainHuntableAnimal": "gaia/fauna_guanaco",
+		"secondaryHuntableAnimal": "gaia/fauna_deer_white_tailed",
+		"fish": "gaia/fish/generic",
+		"stoneLarge": "gaia/rock/temperate_large",
+		"stoneSmall": "gaia/rock/temperate_small",
+		"metalLarge": "gaia/ore/temperate_large",
+		"metalSmall": "gaia/ore/temperate_small",
+		"smallAnimal": "gaia/fauna_tapeti",
+		"predator": "gaia/fauna_puma"
+	},
+	"Decoratives": {
+		"grass": "actor|props/flora/grass_steppe_field_tall.xml",
+		"grassShort": "actor|props/flora/grass_soft_large.xml",
+		"reeds": "actor|props/flora/reeds_pond_lush_a.xml",
+		"lillies": "actor|props/flora/water_lillies.xml",
+		"rockLarge": "actor|geology/stone_granite_med.xml",
+		"rockMedium": "actor|geology/stone_granite_small.xml",
+		"bushMedium": "actor|props/flora/bush_tempe_me.xml",
+		"bushSmall": "actor|props/flora/grass_field_flowering_tall.xml",
+		"tree": "actor|flora/trees/temperate_bush_biome.xml"
+	},
+	"ResourceCounts": {
+		"trees": {
+			"min": 300,
+			"max": 900,
+			"forestProbability": 0.3
+		}
+	}
+}

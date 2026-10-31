@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/okapi/giraffe_adult_walk.psa" name="Walk" speed="50"/>
+    <animation file="fauna/okapi/giraffe_adult_idle_01.psa" name="Idle" speed="75"/>
+    <animation file="fauna/okapi/giraffe_adult_idle_02.psa" name="Idle" speed="75"/>
+    <animation file="fauna/okapi/giraffe_adult_idle_03.psa" name="Idle" speed="75"/>
+    <animation file="fauna/okapi/giraffe_adult_run.psa" name="Run" speed="25"/>
+    <animation file="fauna/okapi/giraffe_adult_death.psa" name="Death" speed="130"/>
+  </animations>
+</variant>

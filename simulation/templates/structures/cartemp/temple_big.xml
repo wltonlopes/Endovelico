@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Square width="26.5" depth="28.0" />
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SpecificName>Bet Melqart</SpecificName>
+    <Tooltip>Train Champions and Healers. Heals garrisoned units.</Tooltip>
+    <GenericName>Temple of Melqart</GenericName>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
+    <Classes datatype="tokens">CivSpecific</Classes>
+  </Identity>
+  <Obstruction>
+    <Static width="25.5" depth="27.0" />
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_infantry
+      units/{civ}/champion_pikeman
+      units/{civ}/champion_cavalry
+      units/{civ}/support_healer_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/carthaginian_empire/temple_big.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Cost>
+    <Resources>
+      <stone>400</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+</Entity>

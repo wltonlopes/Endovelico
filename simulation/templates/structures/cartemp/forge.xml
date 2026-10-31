@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <GenericName>Forge</GenericName>
+    <SpecificName>Bet Ḥaraš</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/carthaginian_empire/forge.xml</Actor>
+    <FoundationActor>structures/fndn_5x6.xml</FoundationActor>
+  </VisualActor>
+  <Footprint>
+    <Square width="21.5" depth="22.0" />
+    <Height>13.2</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="20.5" depth="21.0" />
+  </Obstruction>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+</Entity>

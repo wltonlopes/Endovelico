@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="22.5" depth="22.5" />
+    <Height>17.4</Height>
+  </Footprint>
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SpecificName>Ḥamet</SpecificName>
+    <Tooltip>Train Heroes. Garrison Soldiers for additional arrows.</Tooltip>
+    <GenericName>Fortress</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="21.5" depth="21.5" />
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_elephant
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+    <Actor>structures/carthaginian_empire/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>18.5</Length>
+    <Indent>6.4</Indent>
+  </WallPiece>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <StatusBars>
+    <HeightOffset>19.4</HeightOffset>
+  </StatusBars>
+</Entity>

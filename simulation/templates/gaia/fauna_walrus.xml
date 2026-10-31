@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Overrides the vanilla gaia/fauna_walrus (new mesh), so it cannot inherit from it. -->
+<Entity parent="template_unit_fauna_hunt_passive-defensive">
+  <Attack>
+    <Melee>
+      <AttackName>Tusks</AttackName>
+      <Damage>
+        <Hack>15</Hack>
+        <Pierce>10</Pierce>
+      </Damage>
+      <MaxRange>5</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Structure Ship Siege</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="5.0" depth="6.3"/>
+    <Height>3.1</Height>
+  </Footprint>
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <Identity>
+    <GenericName>Walrus</GenericName>
+    <SpecificName>Odobenus rosmarus</SpecificName>
+    <Icon>gaia/fauna_walrus.png</Icon>
+  </Identity>
+  <Loot>
+    <xp>24</xp>
+  </Loot>
+  <ResourceSupply>
+    <Max>300</Max>
+  </ResourceSupply>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>256x256/ellipse.png</MainTexture>
+        <MainTextureMask>256x256/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <StatusBars>
+    <HeightOffset>4.1</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/walrus.xml</Actor>
+  </VisualActor>
+</Entity>

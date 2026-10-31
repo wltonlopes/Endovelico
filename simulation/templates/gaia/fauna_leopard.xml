@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_jaguar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>18</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.4" depth="3.4"/>
+    <Height>2.2</Height>
+  </Footprint>
+  <Health>
+    <Max>45</Max>
+  </Health>
+  <Identity>
+    <GenericName>Leopard</GenericName>
+    <SpecificName>Panthera pardus</SpecificName>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/leopard.xml</Actor>
+  </VisualActor>
+</Entity>

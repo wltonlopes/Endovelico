@@ -1,0 +1,496 @@
+{
+ "house_a": {
+  "width": 13.27,
+  "depth": 13.99,
+  "height": 8.92,
+  "cx": 0.02,
+  "cy": 0.01,
+  "props": {
+   "prop_garrisoned": [
+    0.02,
+    0.01,
+    7.7
+   ]
+  },
+  "extra": []
+ },
+ "dock": {
+  "width": 31.57,
+  "depth": 26.38,
+  "height": 10.87,
+  "cx": 0.2,
+  "cy": 0.59,
+  "props": {
+   "prop_garrisoned": [
+    0.2,
+    0.59,
+    0.46
+   ]
+  },
+  "extra": [
+   "dock_ship"
+  ]
+ },
+ "civil_centre": {
+  "width": 26.21,
+  "depth": 28.27,
+  "height": 15.26,
+  "cx": -0.1,
+  "cy": 0.0,
+  "props": {
+   "prop_garrisoned": [
+    -0.1,
+    0.0,
+    6.47
+   ],
+   "prop_projectile": [
+    -0.1,
+    0.0,
+    16.26
+   ]
+  },
+  "extra": [
+   "civil_centre_palms"
+  ]
+ },
+ "wall_medium": {
+  "width": 19.48,
+  "depth": 5.89,
+  "height": 12.51,
+  "cx": -0.02,
+  "cy": 0.17,
+  "props": {
+   "prop_garrisoned": [
+    0,
+    0,
+    9.51
+   ]
+  },
+  "extra": []
+ },
+ "temple": {
+  "width": 27.87,
+  "depth": 24.98,
+  "height": 16.93,
+  "cx": 0.0,
+  "cy": 0.0,
+  "props": {
+   "prop_garrisoned": [
+    0.0,
+    0.0,
+    0.31
+   ]
+  },
+  "extra": [
+   "temple_palms"
+  ]
+ },
+ "embassy": {
+  "width": 27.6,
+  "depth": 26.25,
+  "height": 13.77,
+  "cx": -0.15,
+  "cy": 0.7,
+  "props": {
+   "prop_garrisoned": [
+    -0.15,
+    0.7,
+    9.79
+   ]
+  },
+  "extra": [
+   "embassy_palms"
+  ]
+ },
+ "sentry_tower": {
+  "width": 6.21,
+  "depth": 6.6,
+  "height": 12.56,
+  "cx": -0.02,
+  "cy": -0.4,
+  "props": {
+   "prop_garrisoned": [
+    -0.02,
+    -0.4,
+    11.29
+   ],
+   "prop_projectile": [
+    -0.02,
+    -0.4,
+    13.56
+   ]
+  },
+  "extra": []
+ },
+ "stable": {
+  "width": 21.75,
+  "depth": 21.54,
+  "height": 11.23,
+  "cx": -0.39,
+  "cy": 0.53,
+  "props": {
+   "prop_garrisoned": [
+    -0.39,
+    0.53,
+    5.46
+   ]
+  },
+  "extra": []
+ },
+ "range": {
+  "width": 27.01,
+  "depth": 25.0,
+  "height": 13.25,
+  "cx": 0.36,
+  "cy": -0.32,
+  "props": {
+   "prop_garrisoned": [
+    0.36,
+    -0.32,
+    10.7
+   ]
+  },
+  "extra": []
+ },
+ "corral": {
+  "width": 27.47,
+  "depth": 23.83,
+  "height": 10.82,
+  "cx": -0.0,
+  "cy": -0.25,
+  "props": {
+   "prop_garrisoned": [
+    -0.0,
+    -0.25,
+    8.76
+   ]
+  },
+  "extra": []
+ },
+ "temple_big": {
+  "width": 26.06,
+  "depth": 27.76,
+  "height": 11.99,
+  "cx": 0.57,
+  "cy": 0.02,
+  "props": {
+   "prop_garrisoned": [
+    0.57,
+    0.02,
+    0.31
+   ]
+  },
+  "extra": [
+   "temple_big_palms"
+  ]
+ },
+ "barracks": {
+  "width": 21.36,
+  "depth": 21.49,
+  "height": 13.16,
+  "cx": 0.21,
+  "cy": 0.61,
+  "props": {
+   "prop_garrisoned": [
+    0.21,
+    0.61,
+    4.55
+   ]
+  },
+  "extra": []
+ },
+ "farmstead": {
+  "width": 9.62,
+  "depth": 17.61,
+  "height": 6.21,
+  "cx": 0.26,
+  "cy": 0.26,
+  "props": {
+   "prop_garrisoned": [
+    0.26,
+    0.26,
+    5.07
+   ]
+  },
+  "extra": []
+ },
+ "house_d": {
+  "width": 13.3,
+  "depth": 13.53,
+  "height": 10.18,
+  "cx": 0.01,
+  "cy": 0.19,
+  "props": {
+   "prop_garrisoned": [
+    0.01,
+    0.19,
+    9.79
+   ]
+  },
+  "extra": []
+ },
+ "fortress": {
+  "width": 22.41,
+  "depth": 22.14,
+  "height": 17.44,
+  "cx": 0.11,
+  "cy": 0.12,
+  "props": {
+   "prop_garrisoned": [
+    0.11,
+    0.12,
+    1.8
+   ],
+   "prop_projectile": [
+    0.11,
+    0.12,
+    18.44
+   ]
+  },
+  "extra": []
+ },
+ "house_b": {
+  "width": 14.03,
+  "depth": 13.91,
+  "height": 8.92,
+  "cx": -0.0,
+  "cy": 0.03,
+  "props": {
+   "prop_garrisoned": [
+    -0.0,
+    0.03,
+    7.85
+   ]
+  },
+  "extra": []
+ },
+ "defense_tower": {
+  "width": 7.07,
+  "depth": 5.13,
+  "height": 15.42,
+  "cx": 0.14,
+  "cy": -0.06,
+  "props": {
+   "prop_garrisoned": [
+    0.14,
+    -0.06,
+    10.69
+   ],
+   "prop_projectile": [
+    0.14,
+    -0.06,
+    16.42
+   ]
+  },
+  "extra": []
+ },
+ "tophet": {
+  "width": 15.96,
+  "depth": 31.3,
+  "height": 15.68,
+  "cx": 0.27,
+  "cy": 0.04,
+  "props": {
+   "prop_garrisoned": [
+    0.27,
+    0.04,
+    13.45
+   ]
+  },
+  "extra": []
+ },
+ "wonder": {
+  "width": 22.6,
+  "depth": 45.04,
+  "height": 19.27,
+  "cx": 0.0,
+  "cy": 0.0,
+  "props": {
+   "prop_garrisoned": [
+    0.0,
+    0.0,
+    17.58
+   ]
+  },
+  "extra": [
+   "wonder_palms"
+  ]
+ },
+ "house_c": {
+  "width": 13.99,
+  "depth": 13.28,
+  "height": 10.18,
+  "cx": 0.01,
+  "cy": -0.35,
+  "props": {
+   "prop_garrisoned": [
+    0.01,
+    -0.35,
+    10.04
+   ]
+  },
+  "extra": []
+ },
+ "arsenal": {
+  "width": 26.83,
+  "depth": 27.52,
+  "height": 10.72,
+  "cx": -0.41,
+  "cy": -0.35,
+  "props": {
+   "prop_garrisoned": [
+    -0.41,
+    -0.35,
+    1.27
+   ]
+  },
+  "extra": []
+ },
+ "market": {
+  "width": 28.01,
+  "depth": 28.06,
+  "height": 7.67,
+  "cx": 0.0,
+  "cy": -0.0,
+  "props": {
+   "prop_garrisoned": [
+    0.0,
+    -0.0,
+    1.09
+   ]
+  },
+  "extra": []
+ },
+ "palace": {
+  "width": 27.87,
+  "depth": 28.12,
+  "height": 18.38,
+  "cx": -0.02,
+  "cy": 0.02,
+  "props": {
+   "prop_garrisoned": [
+    -0.02,
+    0.02,
+    9.86
+   ],
+   "prop_projectile": [
+    -0.02,
+    0.02,
+    19.38
+   ]
+  },
+  "extra": [
+   "palace_palms"
+  ]
+ },
+ "storehouse": {
+  "width": 14.1,
+  "depth": 13.7,
+  "height": 9.06,
+  "cx": -0.13,
+  "cy": 0.06,
+  "props": {
+   "prop_garrisoned": [
+    -0.13,
+    0.06,
+    4.36
+   ]
+  },
+  "extra": []
+ },
+ "house_e": {
+  "width": 13.88,
+  "depth": 13.97,
+  "height": 9.06,
+  "cx": 0.01,
+  "cy": -0.01,
+  "props": {
+   "prop_garrisoned": [
+    0.01,
+    -0.01,
+    4.98
+   ]
+  },
+  "extra": []
+ },
+ "forge": {
+  "width": 21.42,
+  "depth": 21.73,
+  "height": 13.15,
+  "cx": 0.18,
+  "cy": 0.53,
+  "props": {
+   "prop_garrisoned": [
+    0.18,
+    0.53,
+    0.83
+   ]
+  },
+  "extra": []
+ },
+ "wall_long": {
+  "width": 29.52,
+  "depth": 5.89,
+  "height": 12.51,
+  "cx": -0.03,
+  "cy": 0.17,
+  "props": {
+   "prop_garrisoned": [
+    0,
+    0,
+    9.51
+   ]
+  },
+  "extra": []
+ },
+ "wall_tower": {
+  "width": 7.84,
+  "depth": 7.96,
+  "height": 14.75,
+  "cx": -0.43,
+  "cy": 0.24,
+  "props": {
+   "prop_garrisoned": [
+    -0.43,
+    0.24,
+    12.8
+   ],
+   "prop_projectile": [
+    -0.43,
+    0.24,
+    15.75
+   ]
+  },
+  "extra": []
+ },
+ "wall_gate": {
+  "width": 26.83,
+  "depth": 5.39,
+  "height": 13.57,
+  "cx": 0.15,
+  "cy": 0.02,
+  "props": {
+   "prop_garrisoned": [
+    0,
+    0,
+    11.24
+   ]
+  },
+  "extra": []
+ },
+ "wall_short": {
+  "width": 11.81,
+  "depth": 5.89,
+  "height": 12.51,
+  "cx": -0.01,
+  "cy": 0.17,
+  "props": {
+   "prop_garrisoned": [
+    0,
+    0,
+    9.51
+   ]
+  },
+  "extra": []
+ }
+}

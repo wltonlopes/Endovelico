@@ -1,0 +1,118 @@
+{
+	"Description": {
+		"Title": "Cerrado",
+		"Description": "The great tropical savanna of the South American interior. Red earth, golden grass and gnarled, fire-hardened trees, cut by palm-lined streams. Brocket deer, tapirs and peccaries roam between the groves under a wide, dry-season sky."
+	},
+	"Environment": {
+		"SkySet": "sunny",
+		"SunColor": {
+			"r": 1.22,
+			"g": 1.08,
+			"b": 0.9
+		},
+		"SunElevation": 0.8,
+		"SunRotation": -0.6,
+		"AmbientColor": {
+			"r": 0.38,
+			"g": 0.4,
+			"b": 0.44
+		},
+		"Water": {
+			"WaterBody": {
+				"Color": {
+					"r": 0.24,
+					"g": 0.26,
+					"b": 0.16
+				},
+				"Tint": {
+					"r": 0.4,
+					"g": 0.38,
+					"b": 0.2
+				},
+				"Murkiness": 0.9,
+				"Waviness": 2.0
+			}
+		},
+		"Fog": {
+			"FogThickness": 0.0,
+			"FogFactor": 0.002,
+			"FogColor": {
+				"r": 0.9,
+				"g": 0.82,
+				"b": 0.68
+			}
+		},
+		"Postproc": {
+			"PostprocEffect": "hdr",
+			"Saturation": 1.0,
+			"Contrast": 1.04,
+			"Bloom": 0.14
+		}
+	},
+	"Terrains": {
+		"mainTerrain": [
+			"savanna_grass_a_wetseason",
+			"savanna_grass_b_wetseason",
+			"savanna_shrubs_a_wetseason"
+		],
+		"forestFloor1": "savanna_forestfloor_b_red",
+		"forestFloor2": "savanna_forestfloor_a",
+		"cliff": [
+			"savanna_cliff_a_red",
+			"savanna_cliff_b_red"
+		],
+		"tier1Terrain": "savanna_grass_a",
+		"tier2Terrain": "savanna_shrubs_a",
+		"tier3Terrain": "savanna_grass_b",
+		"tier4Terrain": "savanna_dirt_plants_a",
+		"hill": [
+			"savanna_dirt_rocks_a_red",
+			"savanna_dirt_rocks_b_red"
+		],
+		"dirt": [
+			"savanna_dirt_a_red",
+			"savanna_dirt_b_red"
+		],
+		"road": "savanna_tile_a_red",
+		"roadWild": "savanna_tile_a_dirt_red",
+		"shoreBlend": "savanna_riparian_bank_red",
+		"shore": "savanna_riparian_wet_red",
+		"water": "savanna_mud_a"
+	},
+	"Gaia": {
+		"tree1": "gaia/tree/acacia",
+		"tree2": "gaia/tree/bush_tropic",
+		"tree3": "gaia/tree/palm_tropic",
+		"tree4": "gaia/tree/acacia_large",
+		"tree5": "gaia/tree/dead",
+		"fruitBush": "gaia/fruit/berry_04",
+		"startingAnimal": "gaia/fauna_tinamou",
+		"mainHuntableAnimal": "gaia/fauna_brocket_red",
+		"secondaryHuntableAnimal": "gaia/fauna_tapir",
+		"fish": "gaia/fish/generic",
+		"stoneLarge": "gaia/rock/savanna_large",
+		"stoneSmall": "gaia/rock/savanna_small",
+		"metalLarge": "gaia/ore/savanna_large",
+		"metalSmall": "gaia/ore/savanna_small_01",
+		"smallAnimal": "gaia/fauna_tapeti",
+		"predator": "gaia/fauna_jaguar_02"
+	},
+	"Decoratives": {
+		"grass": "actor|props/flora/grass_savanna_field_tall.xml",
+		"grassShort": "actor|props/flora/grass_savanna.xml",
+		"reeds": "actor|props/flora/reeds_pond_lush_a.xml",
+		"lillies": "actor|props/flora/water_lillies.xml",
+		"rockLarge": "actor|geology/stone_savanna_med_red.xml",
+		"rockMedium": "actor|geology/stone_savanna_med_brown.xml",
+		"bushMedium": "actor|flora/trees/acacia_bush_small.xml",
+		"bushSmall": "actor|props/flora/bush_dry_a.xml",
+		"tree": "actor|flora/trees/palm_tropical.xml"
+	},
+	"ResourceCounts": {
+		"trees": {
+			"min": 700,
+			"max": 2200,
+			"forestProbability": 0.5
+		}
+	}
+}

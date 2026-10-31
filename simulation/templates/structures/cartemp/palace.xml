@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <stone>300</stone>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_kart_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Palace</VisibleClasses>
+    <Icon>structures/palace.png</Icon>
+    <Tooltip>Seat of the Suffetes. Train Heroes. Territory root.</Tooltip>
+    <Civ>cartemp</Civ>
+    <GenericName>Palace of the Suffetes</GenericName>
+    <SpecificName>Bet Šōpṭīm</SpecificName>
+  </Identity>
+  <Loot>
+    <stone>60</stone>
+    <metal>60</metal>
+  </Loot>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>40</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/hero_hamilcar
+      units/{civ}/hero_hannibal
+      units/{civ}/hero_maharbal
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <ProductionQueue />
+  <Footprint>
+    <Square width="28.0" depth="28.5" />
+    <Height>18.4</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="27.0" depth="27.5" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/carthaginian_empire/palace.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

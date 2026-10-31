@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/cart/infantry_spearman_ital_a">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SelectionGroupName>units/cartemp/infantry_spearman_ital_b</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/cartemp/infantry_spearman_ital_e</Entity>
+  </Promotion>
+</Entity>

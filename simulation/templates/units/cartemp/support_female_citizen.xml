@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/cart/support_female_citizen">
+  <Identity>
+    <Civ>cartemp</Civ>
+    <SelectionGroupName>units/cartemp/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/cart/super_dock
+      -structures/cart/embassy_celtic
+      -structures/cart/embassy_iberian
+      -structures/cart/embassy_italic
+    </Entities>
+  </Builder>
+</Entity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_gazelle">
+  <Footprint>
+    <Square width="1.9" depth="4.5"/>
+    <Height>4.7</Height>
+  </Footprint>
+  <Health>
+    <Max>35</Max>
+  </Health>
+  <Identity>
+    <GenericName>Okapi</GenericName>
+    <SpecificName>Okapia johnstoni</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>180</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>5.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/okapi.xml</Actor>
+  </VisualActor>
+</Entity>

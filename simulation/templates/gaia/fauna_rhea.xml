@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_gazelle">
+  <Footprint>
+    <Square width="1.8" depth="3.0"/>
+    <Height>3.5</Height>
+  </Footprint>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <GenericName>Greater Rhea</GenericName>
+    <SpecificName>Rhea americana</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>120</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>4.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/rhea.xml</Actor>
+  </VisualActor>
+</Entity>

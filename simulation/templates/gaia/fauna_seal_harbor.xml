@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_walrus">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>5</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="2.0" depth="2.3"/>
+    <Height>1.2</Height>
+  </Footprint>
+  <Health>
+    <Max>40</Max>
+  </Health>
+  <Identity>
+    <GenericName>Harbor Seal</GenericName>
+    <SpecificName>Phoca vitulina</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>200</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/seal_harbor.xml</Actor>
+  </VisualActor>
+</Entity>

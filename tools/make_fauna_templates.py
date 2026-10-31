@@ -77,6 +77,28 @@ ANIMALS = {
 	"orca": ("gaia/fauna_shark", "Orca", "Orcinus orca", 200, None, None),
 	"shark_hammerhead": ("gaia/fauna_shark", "Scalloped Hammerhead", "Sphyrna lewini", 120, None, None),
 	"shark_bull": ("gaia/fauna_shark", "Bull Shark", "Carcharhinus leucas", 120, None, None),
+	# Imported by import_fauna_transfer.py (skeletons of other animals, fitted to these meshes).
+	"ostrich": ("gaia/fauna_gazelle", "Common Ostrich", "Struthio camelus", 40, 200, None),
+	"ostrich_female": ("gaia/fauna_gazelle", "Common Ostrich Hen", "Struthio camelus", 35, 180, None),
+	"rhea": ("gaia/fauna_gazelle", "Greater Rhea", "Rhea americana", 25, 120, None),
+	"partridge": ("gaia/fauna_rabbit", "Red-Legged Partridge", "Alectoris rufa", 3, 30, None),
+	"bongo": ("gaia/fauna_gazelle", "Bongo", "Tragelaphus eurycerus", 30, 150, None),
+	"oryx": ("gaia/fauna_gazelle", "Gemsbok", "Oryx gazella", 30, 150, None),
+	"oryx_arabian": ("gaia/fauna_gazelle", "Arabian Oryx", "Oryx leucoryx", 25, 120, None),
+	"saiga": ("gaia/fauna_gazelle", "Saiga Antelope", "Saiga tatarica", 18, 90, None),
+	"okapi": ("gaia/fauna_gazelle", "Okapi", "Okapia johnstoni", 35, 180, None),
+	"hyena": ("gaia/fauna_wolf", "Spotted Hyena", "Crocuta crocuta", 40, None, 8),
+	"buffalo_cape": ("gaia/fauna_boar", "African Buffalo", "Syncerus caffer", 180, 400, 22),
+	"cheetah": ("gaia/fauna_jaguar", "Cheetah", "Acinonyx jubatus", 35, None, 12),
+	"leopard": ("gaia/fauna_jaguar", "Leopard", "Panthera pardus", 45, None, 18),
+	"leopard_snow": ("gaia/fauna_jaguar", "Snow Leopard", "Panthera uncia", 40, None, 15),
+	"tapir_lowland": ("gaia/fauna_deer", "South American Tapir", "Tapirus terrestris", 60, 250, None),
+	"tapir_malayan": ("gaia/fauna_deer", "Malayan Tapir", "Tapirus indicus", 70, 300, None),
+	"gorilla": ("gaia/fauna_boar", "Western Gorilla", "Gorilla gorilla", 150, 300, 20),
+	"chimpanzee": ("gaia/fauna_boar", "Chimpanzee", "Pan troglodytes", 50, 150, 8),
+	"seal_harbor": ("gaia/fauna_walrus", "Harbor Seal", "Phoca vitulina", 40, 200, 5),
+	# The walrus overrides the vanilla template of the same path: it must not use itself as parent.
+	"walrus": ("template_unit_fauna_hunt_passive-defensive", "Walrus", "Odobenus rosmarus", 120, 300, 15),
 }
 
 

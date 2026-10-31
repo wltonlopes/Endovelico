@@ -3,36 +3,11 @@ Engine.LoadLibrary("rmgen-common");
 Engine.LoadLibrary("rmgen2");
 Engine.LoadLibrary("rmbiome");
 
-setBiome("generic/temperate");
+setBiome("generic/pampas");
 
-// Configurações de terreno (usando arrays para cada camada)
-g_Terrains.mainTerrain = "temperate_grass";
-g_Terrains.forestFloor1 = "temperate_grass_aut";
-g_Terrains.forestFloor2 = "temperate_grass_c";
-g_Terrains.tier1Terrain = "temperate_grass_dry";
-g_Terrains.tier2Terrain = "temperate_grass_b";
-g_Terrains.tier3Terrain = "temperate_grass_a";
-g_Terrains.tier4Terrain = "temperate_grass_e";
-
-// Configurações de Gaia
-g_Gaia.mainHuntableAnimal = "gaia/fauna_llama";          // Guanacos
-g_Gaia.secondaryHuntableAnimal = "gaia/fauna_deer";      // Veados-campeiros
-g_Gaia.chicken = "gaia/fauna_rabbit";                    // Maras
-g_Gaia.tree1 = "gaia/flora_tree_oak";                    // Carvalhos
-g_Gaia.tree2 = "gaia/flora_tree_poplar_lombardy";        // Álamos
-g_Gaia.tree3 = "gaia/flora_tree_pine";                   // Pinheiros
-g_Gaia.tree4 = "gaia/flora_tree_apple";                  // Macieiras
-g_Gaia.tree5 = "gaia/flora_tree_elm";                    // Olmos
+g_Gaia.chicken = g_Gaia.startingAnimal;
 g_Gaia.woodTreasure = "gaia/treasure/wood";
 g_Gaia.foodTreasure = "gaia/treasure/food_bin";
-
-// Decorativos
-g_Decoratives.grass = "actor|props/flora/grass_soft_large_temperate.xml";
-g_Decoratives.grassShort = "actor|props/flora/grass_soft_small_temperate.xml";
-g_Decoratives.rockLarge = "actor|geology/stone_granite_med.xml";
-g_Decoratives.rockMedium = "actor|geology/stone_granite_small.xml";
-g_Decoratives.bushMedium = "actor|flora/bushes/temperate_bush_biome.xml";
-g_Decoratives.bushSmall = "actor|props/flora/bush_temperate.xml";
 
 const heightScale = num => num * g_MapSettings.Size / 320;
 

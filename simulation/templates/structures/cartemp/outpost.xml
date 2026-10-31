@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_outpost">
+  <Identity>
+    <Civ>cartemp</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/carthaginians/outpost.xml</Actor>
+  </VisualActor>
+</Entity>

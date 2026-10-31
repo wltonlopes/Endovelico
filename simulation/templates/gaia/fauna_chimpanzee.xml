@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>8</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.8" depth="2.0"/>
+    <Height>2.3</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <GenericName>Chimpanzee</GenericName>
+    <SpecificName>Pan troglodytes</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>150</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>3.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/chimpanzee.xml</Actor>
+  </VisualActor>
+</Entity>

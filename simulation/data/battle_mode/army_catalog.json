@@ -286,6 +286,20 @@
 			{ "Template": "units/cart/hero_maharbal", "Category": "hero", "Cost": 75, "Max": 1 },
 			{ "Template": "units/cart/hero_hannibal", "Category": "hero", "Cost": 100, "Max": 1 }
 		],
+		"cartemp": [
+			{ "Template": "units/cartemp/infantry_spearman_b", "Category": "infantry", "Cost": 10, "Max": 30 },
+			{ "Template": "units/cartemp/infantry_archer_b", "Category": "ranged", "Cost": 10, "Max": 30 },
+			{ "Template": "units/cartemp/cavalry_javelineer_b", "Category": "cavalry", "Cost": 15, "Max": 20 },
+			{ "Template": "units/cartemp/champion_infantry", "Category": "champion", "Cost": 22, "Max": 10 },
+			{ "Template": "units/cartemp/champion_cavalry", "Category": "champion", "Cost": 33, "Max": 10 },
+			{ "Template": "units/cartemp/champion_elephant", "Category": "champion", "Cost": 45, "Max": 10 },
+			{ "Template": "units/cartemp/siege_ram", "Category": "siege", "Cost": 45, "Max": 4 },
+			{ "Template": "units/cartemp/siege_oxybeles_packed", "Category": "siege", "Cost": 50, "Max": 4 },
+			{ "Template": "units/cartemp/siege_ballista_packed", "Category": "siege", "Cost": 65, "Max": 4 },
+			{ "Template": "units/cartemp/hero_hamilcar", "Category": "hero", "Cost": 75, "Max": 1 },
+			{ "Template": "units/cartemp/hero_maharbal", "Category": "hero", "Cost": 75, "Max": 1 },
+			{ "Template": "units/cartemp/hero_hannibal", "Category": "hero", "Cost": 100, "Max": 1 }
+		],
 		"chibc": [
 			{ "Template": "units/chibc/infantry_clubman_merc", "Category": "infantry", "Cost": 10, "Max": 30 },
 			{ "Template": "units/chibc/infantry_maceman_b", "Category": "infantry", "Cost": 10, "Max": 30 },

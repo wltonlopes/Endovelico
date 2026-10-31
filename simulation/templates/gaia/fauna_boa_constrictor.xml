@@ -9,7 +9,7 @@
   </Attack>
   <Footprint>
     <Square width="1.7" depth="7.6"/>
-    <Height>1.5</Height>
+    <Height>0.8</Height>
   </Footprint>
   <Health>
     <Max>20</Max>
@@ -19,7 +19,7 @@
     <SpecificName>Boa imperator</SpecificName>
   </Identity>
   <StatusBars>
-    <HeightOffset>2.5</HeightOffset>
+    <HeightOffset>1.5</HeightOffset>
   </StatusBars>
   <VisualActor>
     <Actor>fauna/boa_constrictor.xml</Actor>
