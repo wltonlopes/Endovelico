@@ -615,8 +615,11 @@ def main():
 			write_pmd(mesh_path, positions, normals, uvs, indices, weight_values, faces, bones, props)
 			written.append(os.path.relpath(mesh_path, MOD))
 
+		if actor in BIRD_LEGS:
+			# The ratites have their own animations: tools/make_ratite_animations.py.
+			print("  %s: animations and variant left to make_ratite_animations.py" % actor)
 		lines = []
-		for animation in vanilla.actor_animations(BASE_ACTORS[base_name]):
+		for animation in ([] if actor in BIRD_LEGS else vanilla.actor_animations(BASE_ACTORS[base_name])):
 			path = os.path.splitext(animation["file"])[0]
 			data = vanilla.animation(path)
 			if data is None:
@@ -637,8 +640,9 @@ def main():
 			attributes["file"] = "fauna/%s/%s.psa" % (actor, os.path.basename(path))
 			save(target("art", "animation", "fauna", actor, os.path.basename(path) + ".psa"), moved)
 			lines.append("    <animation " + " ".join('%s="%s"' % item for item in attributes.items()) + "/>")
-		save(target("art", "variants", "fauna", actor + ".xml"),
-			'<?xml version="1.0" encoding="utf-8"?>\n<variant name="Base">\n  <animations>\n%s\n  </animations>\n</variant>\n' % "\n".join(lines), "w")
+		if actor not in BIRD_LEGS:
+			save(target("art", "variants", "fauna", actor + ".xml"),
+				'<?xml version="1.0" encoding="utf-8"?>\n<variant name="Base">\n  <animations>\n%s\n  </animations>\n</variant>\n' % "\n".join(lines), "w")
 
 		texture_entries = []
 		for number, name in enumerate(texture_objects, 1):

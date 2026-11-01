@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant name="Base">
   <animations>
-    <animation file="fauna/ostrich_female/chicken_idle_01.psa" name="Idle" speed="15"/>
-    <animation file="fauna/ostrich_female/chicken_idle_02.psa" name="Idle" speed="35"/>
-    <animation file="fauna/ostrich_female/chicken_idle_03.psa" name="Idle" speed="20"/>
-    <animation file="fauna/ostrich_female/chicken_walk.psa" name="Walk" speed="50"/>
-    <animation file="fauna/ostrich_female/chicken_run_01.psa" name="Run" speed="80"/>
-    <animation file="fauna/ostrich_female/chicken_run_02.psa" name="Run" speed="80"/>
-    <animation file="fauna/ostrich_female/chicken_attack.psa" name="attack_melee" speed="100"/>
-    <animation file="fauna/ostrich_female/chicken_death.psa" name="Death" speed="55"/>
+    <animation file="fauna/ostrich_female/ratite_idle_look.psa" name="Idle" speed="100"/>
+    <animation file="fauna/ostrich_female/ratite_idle_graze.psa" name="Idle" speed="100"/>
+    <animation file="fauna/ostrich_female/ratite_idle_alert.psa" name="Idle" speed="100"/>
+    <animation file="fauna/ostrich_female/ratite_walk.psa" name="Walk" speed="33"/>
+    <animation file="fauna/ostrich_female/ratite_run_01.psa" name="Run" speed="17"/>
+    <animation file="fauna/ostrich_female/ratite_run_02.psa" name="Run" speed="17"/>
+    <animation file="fauna/ostrich_female/ratite_attack.psa" name="attack_melee" speed="100"/>
+    <animation file="fauna/ostrich_female/ratite_death.psa" name="Death" speed="100"/>
   </animations>
 </variant>
