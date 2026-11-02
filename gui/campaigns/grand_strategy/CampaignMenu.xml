@@ -565,8 +565,8 @@
 
 		<!-- GFX -->
 		<object z="10">
-			<!-- Provinces -->
-			<repeat count="300">
+			<!-- Provinces (353 with the sea provinces; keep this above the number of provinces) -->
+			<repeat count="420">
 				<object name="mapProvince[n]" hidden="true">
 					<object z="10" type="button" name="mapProvinceSprite[n]" sprite="" size="200 200 300 300"/>
 					<object z="20" type="button" name="mapProvinceCity[n]" ghost="true" sprite="color:0 0 0 50:textureAsMask:stretched:session/icons/construction.png" hidden="true" size="0 0 16 16"/>
