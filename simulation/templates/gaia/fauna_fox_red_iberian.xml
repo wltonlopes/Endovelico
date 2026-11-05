@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Footprint>
+    <Square width="0.9" depth="2.8"/>
+    <Height>1.9</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>Iberian Red Fox</GenericName>
+    <SpecificName>Vulpes vulpes silacea</SpecificName>
+    <Icon>gaia/fauna_fox_red_iberian.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.9</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/fox_red_iberian.xml</Actor>
+  </VisualActor>
+</Entity>

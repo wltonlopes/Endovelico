@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.8" depth="2.2"/>
+    <Height>4.0</Height>
+  </Footprint>
+  <Health>
+    <Max>8</Max>
+  </Health>
+  <Identity>
+    <GenericName>Greater Flamingo</GenericName>
+    <SpecificName>Phoenicopterus roseus</SpecificName>
+    <Icon>gaia/fauna_flamingo_greater.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>5.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/flamingo_greater.xml</Actor>
+  </VisualActor>
+</Entity>

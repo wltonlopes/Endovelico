@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/rabbit_02_138.xml" name="Base">
+      <mesh>skeletal/fauna/hare_iberian.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="hare_iberian_1" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/hare_iberian_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="hare_iberian_2" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/hare_iberian_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="hare_iberian_3" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/hare_iberian_3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="hare_iberian_4" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/hare_iberian_4.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>2</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="0.8" depth="1.9"/>
+    <Height>0.9</Height>
+  </Footprint>
+  <Health>
+    <Max>8</Max>
+  </Health>
+  <Identity>
+    <GenericName>European Polecat</GenericName>
+    <SpecificName>Mustela putorius</SpecificName>
+    <Icon>gaia/fauna_polecat_european.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>1.9</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/polecat_european.xml</Actor>
+  </VisualActor>
+</Entity>

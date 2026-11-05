@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>8</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.2" depth="3.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>30</Max>
+  </Health>
+  <Identity>
+    <GenericName>Iberian Lynx</GenericName>
+    <SpecificName>Lynx pardinus</SpecificName>
+    <Icon>gaia/fauna_lynx_iberian.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/lynx_iberian.xml</Actor>
+  </VisualActor>
+</Entity>

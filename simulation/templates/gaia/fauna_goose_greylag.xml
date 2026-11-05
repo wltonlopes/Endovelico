@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_mallard">
+  <Footprint>
+    <Square width="1.2" depth="1.9"/>
+    <Height>1.7</Height>
+  </Footprint>
+  <Health>
+    <Max>6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Greylag Goose</GenericName>
+    <SpecificName>Anser anser</SpecificName>
+    <Icon>gaia/fauna_goose_greylag.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/goose_greylag.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="0.9" depth="1.8"/>
+    <Height>1.6</Height>
+  </Footprint>
+  <Health>
+    <Max>6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Iberian Hare</GenericName>
+    <SpecificName>Lepus granatensis</SpecificName>
+    <Icon>gaia/fauna_hare_iberian.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.6</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/hare_iberian.xml</Actor>
+  </VisualActor>
+</Entity>

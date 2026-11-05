@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>2</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="0.8" depth="1.6"/>
+    <Height>1.2</Height>
+  </Footprint>
+  <Health>
+    <Max>15</Max>
+  </Health>
+  <Identity>
+    <GenericName>Wild Boar Piglet</GenericName>
+    <SpecificName>Sus scrofa castilianus</SpecificName>
+    <Icon>gaia/fauna_boar_iberian_piglet.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>50</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/boar_iberian_piglet.xml</Actor>
+  </VisualActor>
+</Entity>

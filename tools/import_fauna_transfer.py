@@ -39,7 +39,8 @@ BASE_ACTORS.update({"wolf": "fauna/wolf.xml", "giraffe_adult": "fauna/giraffe_ad
 
 # Base mesh -> its skeleton.
 SKELETONS = {"chicken": "BlenderChicken", "wolf": "Wolf", "giraffe_adult": "giraffe", "bull_a": "Bovidae_Skeleton",
-	"tiger": "BlenderFeline", "animal_boar": "Boar_Armature", "bear": "Ursidae_Armature", "Croc": "Crocodile"}
+	"tiger": "BlenderFeline", "animal_boar": "Boar_Armature", "bear": "Ursidae_Armature", "Croc": "Crocodile",
+	"donkey": "Horse'"}
 
 # Catalog rig -> bones of the target skeleton.
 BONE_MAPS = {
@@ -83,6 +84,16 @@ ANIMALS = {
 	"chimpanzee": ("chimpancé", [], "bear", "transfer", ["chimpancé"]),
 	"seal_harbor": ("foca común", [], "Croc", "transfer", ["foca común"]),
 	"walrus": ("walrus", [], "Croc", "transfer", ["walrus"]),
+	# Lusitania catalog
+	"wolf_iberian": ("lobo", [], "wolf", "own", ["lobo"]),
+	"boar_iberian_piglet": ("jabato", [], "animal_boar", "transfer", ["jabato"]),
+	"wild_ass_european": ("zebro ibérico", [], "donkey", "transfer", ["zebro ibérico", "zebro ibérico.001"]),
+	"stork_white": ("cigüeña", [], "chicken", "turkey_to_chicken", ["cigüeña"]),
+	"flamingo_greater": ("flamenco.001", [], "chicken", "turkey_to_chicken", ["flamenco.001"]),
+	"egret_little": ("garza blanca", [], "chicken", "turkey_to_chicken", ["garza blanca"]),
+	"heron_gray": ("garza real", [], "chicken", "turkey_to_chicken", ["garza real"]),
+	"goose_greylag": ("ganso.002", [], "chicken", "turkey_to_chicken", ["ganso.002"]),
+	"mallard_02": ("ánade", [], "chicken", "turkey_to_chicken", ["ánade"]),
 }
 
 
@@ -109,7 +120,8 @@ ANATOMY_WARP = {"cheetah": "belly", "leopard": "belly", "leopard_snow": "belly",
 
 # Birds weighted on the turkey rig carry the whole visible leg on one bone; the leg is re-weighted by
 # height so that it bends at the ankle (the joint halfway down an ostrich's leg).
-BIRD_LEGS = {"ostrich", "ostrich_female", "rhea"}
+BIRD_LEGS = {"ostrich", "ostrich_female", "rhea", "stork_white", "flamingo_greater", "egret_little", "heron_gray",
+	"goose_greylag", "mallard_02"}
 
 # Animations kept on the ground frame by frame (actor: regex on the animation file name): the
 # crocodile's death rolls onto its side and jumps, which on the tall, heavy walrus would put half the

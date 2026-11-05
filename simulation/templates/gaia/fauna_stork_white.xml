@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.3" depth="2.2"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Health>
+    <Max>8</Max>
+  </Health>
+  <Identity>
+    <GenericName>White Stork</GenericName>
+    <SpecificName>Ciconia ciconia</SpecificName>
+    <Icon>gaia/fauna_stork_white.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>4.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/stork_white.xml</Actor>
+  </VisualActor>
+</Entity>

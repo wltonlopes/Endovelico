@@ -99,6 +99,43 @@ ANIMALS = {
 	"seal_harbor": ("gaia/fauna_walrus", "Harbor Seal", "Phoca vitulina", 40, 200, 5),
 	# The walrus overrides the vanilla template of the same path: it must not use itself as parent.
 	"walrus": ("template_unit_fauna_hunt_passive-defensive", "Walrus", "Odobenus rosmarus", 120, 300, 15),
+	# Lusitania catalog (import_fauna_catalog.py and import_fauna_transfer.py).
+	"goat_lusitanian": ("gaia/fauna_deer", "Portuguese Ibex", "Capra pyrenaica lusitanica", 30, 120, None),
+	"goat_lusitanian_female": ("gaia/fauna_deer", "Portuguese Ibex Nanny", "Capra pyrenaica lusitanica", 25, 100, None),
+	"donkey_iberian": ("gaia/fauna_donkey", "Iberian Donkey", "Equus asinus", None, None, None),
+	"wild_ass_european": ("gaia/fauna_zebra", "Zebro", "Equus hydruntinus", 60, 200, None),
+	"wolf_iberian": ("gaia/fauna_wolf", "Iberian Wolf", "Canis lupus signatus", None, None, None),
+	"bear_cantabrian": ("gaia/fauna_bear_brown", "Cantabrian Brown Bear", "Ursus arctos pyrenaicus", None, None, None),
+	"bear_cantabrian_cub": ("gaia/fauna_bear_brown", "Brown Bear Cub", "Ursus arctos pyrenaicus", 60, 150, 6),
+	"boar_iberian": ("gaia/fauna_boar", "Iberian Wild Boar", "Sus scrofa castilianus", None, None, None),
+	"boar_iberian_piglet": ("gaia/fauna_boar", "Wild Boar Piglet", "Sus scrofa castilianus", 15, 50, 2),
+	"lynx_iberian": ("gaia/fauna_fox_red", "Iberian Lynx", "Lynx pardinus", 30, None, 8),
+	"wildcat_european": ("gaia/fauna_fox_red", "European Wildcat", "Felis silvestris", 15, None, 4),
+	"fox_red_iberian": ("gaia/fauna_fox_red", "Iberian Red Fox", "Vulpes vulpes silacea", None, None, None),
+	"beaver_eurasian": ("gaia/fauna_rabbit", "Eurasian Beaver", "Castor fiber", 15, 80, None),
+	"marmot_alpine": ("gaia/fauna_rabbit", "Alpine Marmot", "Marmota marmota", 8, 50, None),
+	"polecat_european": ("gaia/fauna_fox_red", "European Polecat", "Mustela putorius", 8, None, 2),
+	"weasel_least": ("gaia/fauna_fox_red", "Least Weasel", "Mustela nivalis", 4, None, 1),
+	"hedgehog_european": ("gaia/fauna_rabbit", "European Hedgehog", "Erinaceus europaeus", 3, 10, None),
+	"mouse_wood": ("gaia/fauna_rabbit", "Wood Mouse", "Apodemus sylvaticus", 1, 5, None),
+	"hare_iberian": ("gaia/fauna_rabbit", "Iberian Hare", "Lepus granatensis", 6, 60, None),
+	"rabbit_european": ("gaia/fauna_rabbit", "European Rabbit", "Oryctolagus cuniculus", None, None, None),
+	"lizard_ocellated": ("gaia/fauna_rabbit", "Ocellated Lizard", "Timon lepidus", 3, 15, None),
+	"frog_iberian": ("gaia/fauna_rabbit", "Iberian Frog", "Rana iberica", 1, 5, None),
+	"frog_perez": ("gaia/fauna_rabbit", "Perez's Frog", "Pelophylax perezi", 1, 5, None),
+	"turtle_spanish_pond": ("gaia/fauna_rabbit", "Spanish Pond Turtle", "Mauremys leprosa", 5, 20, None),
+	"snake_montpellier": ("gaia/fauna_fox_red", "Montpellier Snake", "Malpolon monspessulanus", 6, None, 2),
+	"rooster_iberian": ("gaia/fauna_chicken", "Iberian Rooster", "Gallus gallus domesticus", None, None, None),
+	"hen_iberian": ("gaia/fauna_chicken", "Iberian Hen", "Gallus gallus domesticus", None, None, None),
+	"capercaillie": ("gaia/fauna_rabbit", "Western Capercaillie", "Tetrao urogallus", 6, 60, None),
+	"capercaillie_female": ("gaia/fauna_rabbit", "Western Capercaillie Hen", "Tetrao urogallus", 5, 50, None),
+	"stork_white": ("gaia/fauna_rabbit", "White Stork", "Ciconia ciconia", 8, 60, None),
+	"flamingo_greater": ("gaia/fauna_rabbit", "Greater Flamingo", "Phoenicopterus roseus", 8, 60, None),
+	"egret_little": ("gaia/fauna_rabbit", "Little Egret", "Egretta garzetta", 5, 40, None),
+	"heron_gray": ("gaia/fauna_rabbit", "Gray Heron", "Ardea cinerea", 6, 50, None),
+	# Water birds float and cross water like the mallard.
+	"goose_greylag": ("gaia/fauna_mallard", "Greylag Goose", "Anser anser", 6, 60, None),
+	"mallard_02": ("gaia/fauna_mallard", "Mallard", "Anas platyrhynchos", None, None, None),
 }
 
 
@@ -132,7 +169,11 @@ def main():
 			max(0.8, width + 0.3), max(1.0, 0.85 * length), max(0.5, height)))
 		if health is not None:
 			text += block("Health", "    <Max>%d</Max>" % health)
-		text += block("Identity", "    <GenericName>%s</GenericName>\n    <SpecificName>%s</SpecificName>" % (generic, specific))
+		identity = "    <GenericName>%s</GenericName>\n    <SpecificName>%s</SpecificName>" % (generic, specific)
+		# Portraits rendered from the mesh (tools/render_fauna_icons.py).
+		if os.path.exists(os.path.join(MOD, "art", "textures", "ui", "session", "portraits", "gaia", "fauna_%s.png" % actor)):
+			identity += "\n    <Icon>gaia/fauna_%s.png</Icon>" % actor
+		text += block("Identity", identity)
 		if food is not None:
 			text += block("ResourceSupply", "    <Max>%d</Max>" % food)
 		text += block("StatusBars", "    <HeightOffset>%.1f</HeightOffset>" % (max(0.5, height) + 1.0))

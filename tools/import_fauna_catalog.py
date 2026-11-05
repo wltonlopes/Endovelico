@@ -61,6 +61,8 @@ BASE_ACTORS = {
 	"animal_boar": "fauna/boar.xml",
 	"mastiff": "fauna/mastiff.xml",
 	"mastiff_no_spikes": "fauna/mastiff.xml",
+	"goat": "fauna/goat.xml", "goat_male": "fauna/goat.xml",
+	"donkey": "fauna/donkey.xml",
 }
 
 # Catalog species (key derived from the texture name) -> actor name.
@@ -82,11 +84,33 @@ NAMES = {
 	"ciervos_gamo": "deer_fallow", "tejon": "badger", "uro": "aurochs", "bisontes": "bison",
 	"caballo_sorraia": "horse_sorraia",
 	"tiburon_martillo": "shark_hammerhead", "tiburon_sarda": "shark_bull", "ardilla": "squirrel",
+	# Lusitania catalog
+	"bisonte_nueva": "bison", "castor": "beaver_eurasian", "marmota": "marmot_alpine", "oso": "bear_cantabrian",
+	"turon": "polecat_european", "camadreja": "weasel_least", "erizo": "hedgehog_european",
+	"gato_montes": "wildcat_european", "lagarto_ocelado": "lizard_ocellated", "rana_iber": "frog_iberian",
+	"rana_verde_iber": "frog_perez", "raton": "mouse_wood", "tortuga": "turtle_spanish_pond",
+	"culebra": "snake_montpellier", "jabali": "boar_iberian", "liebre": "hare_iberian",
+	"lince_iberico": "lynx_iberian", "zorro": "fox_red_iberian", "x_gallo_e_gallina": "rooster_iberian",
+	"urogallo_macho": "capercaillie", "urogallo_hembra": "capercaillie_female", "conejo": "rabbit_european",
+	"burro": "donkey_iberian", "cabra_lusitana": "goat_lusitanian",
 }
+
+# Texture keys of colour variants of one animal -> the key they share.
+SPECIES_ALIASES = {
+	"castor_claro": "castor", "castor_oscuro": "castor", "marmota_cabeza_gris": "marmota",
+	"oso_oscuro": "oso", "oso_pardo_pg": "oso", "turon_mas_blanco": "turon", "jabali_pgn": "jabali",
+	"culebra_gris": "culebra", "tortuga_remodelada": "tortuga", "tortuga_remodelada_oscura": "tortuga",
+	"tortuga_remodelada_verde": "tortuga", "tortuga_remodelada_oscura_verde": "tortuga",
+	"zorro_naranjado": "zorro", "lince_iberico_nueva": "lince_iberico",
+}
+
+# Names of the second and later variants of an actor where "<name>_b" says too little.
+VARIANT_NAMES = {"bear_cantabrian_b": "bear_cantabrian_cub", "rooster_iberian_b": "hen_iberian",
+	"goat_lusitanian_b": "goat_lusitanian_female"}
 
 # Posed on skeletons whose animations cannot fit them (monkeys on the human rig, ground birds on the
 # hawk rig), or already integrated in the mod from other sources.
-SKIP_SKELETONS = {"Camelus": "already in the mod"}
+SKIP_SKELETONS = {"Camelus": "already in the mod", "Turkey": "imported by import_fauna_transfer.py"}
 EXCLUDE_OBJECTS = re.compile(r"^(f_armor|m_cotton|head_)", re.I)
 
 # Animals the mod already has from another source: the catalog version is added beside them.
@@ -189,11 +213,12 @@ def slug(text):
 def species_key(image):
 	"""'textura iguana común 2-CREACIÓN+.png' -> ('iguana_comun', '2')"""
 	tokens = slug(os.path.splitext(image)[0]).replace("creacion", "_").split("_")
-	tokens = [t for t in tokens if t and t not in ("textura", "nuevo", "png", "001", "copia")]
+	tokens = [t for t in tokens if t and t not in ("textura", "text", "nuevo", "png", "001", "copia")]
 	# Colour variants of one animal.
 	tokens = [t for t in tokens if t not in ("negro", "pardo", "claro", "oscuro")] if tokens[:1] in (["uro"], ["tejon"]) else tokens
 	numbers = [t for t in tokens if t.isdigit()]
-	return "_".join(t for t in tokens if not t.isdigit()), (numbers[0] if numbers else "")
+	key = "_".join(t for t in tokens if not t.isdigit())
+	return SPECIES_ALIASES.get(key, key), (numbers[0] if numbers else "")
 
 
 def bone_alias(name):
@@ -525,6 +550,33 @@ def build_mesh(body, parts, fit, base, bone_index, scale, parents):
 	return positions, normals, uvs, indices, weights, faces
 
 
+def fix_far_weights(positions, indices, weights):
+	"""Vertices weighted to a bone whose other vertices are at the far end of the body (a beard painted
+	to the tail) take the weights of the nearest vertex that is not."""
+	length = np.ptp(positions, axis=0).max()
+	dominant = indices[np.arange(len(indices)), weights.argmax(1)]
+	stray = np.zeros(len(positions), dtype=bool)
+	for bone in np.unique(dominant):
+		own = dominant == bone
+		centre = np.median(positions[own], axis=0)
+		stray |= own & (np.linalg.norm(positions - centre, axis=1) > 0.45 * length)
+	if stray.any() and (~stray).any():
+		good = np.flatnonzero(~stray)
+		_, nearest = cKDTree(positions[good]).query(positions[stray])
+		indices[stray] = indices[good[nearest]]
+		weights[stray] = weights[good[nearest]]
+	return int(stray.sum())
+
+
+# Actors with such slips (other animals have long bones, a tail fan or a shell, that look the same).
+FAR_WEIGHT_FIX = {"goat_lusitanian"}
+
+
+# Actor names by catalog object, where the size order would name them wrongly (the horned goat is the
+# smaller model).
+SOURCE_NAMES = {"cabra lusitana": "goat_lusitanian", "cabra lusitana.040": "goat_lusitanian_female"}
+
+
 def main():
 	parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 	parser.add_argument("--textures", required=True, nargs="+", help="directories holding the catalog texture PNGs")
@@ -562,7 +614,7 @@ def main():
 			if EXCLUDE_OBJECTS.match(name) or not obj["img"] or len(obj["verts"]) < 3:
 				continue
 			used = {n for row in obj["weights"] for n, _ in row}
-			count, sid = vanilla.skeleton_for(used) if len(obj["verts"]) >= 90 else (0, None)
+			count, sid = vanilla.skeleton_for(used) if len(obj["verts"]) >= 80 else (0, None)
 			# A body is weighted to most of its skeleton; pieces such as the monkey heads (bear head
 			# bones only) are parts of the body next to them.
 			if count >= 5 and count >= 0.4 * len(vanilla.skeletons[sid]["std"]):
@@ -651,6 +703,8 @@ def main():
 				actor = name + "_female"
 			else:
 				actor = name + "_" + "bcdefgh"[position - 1]
+				actor = VARIANT_NAMES.get(actor, actor)
+			actor = SOURCE_NAMES.get(variant["source"], actor)
 			if only and actor not in only:
 				continue
 			actor_path = target("art", "actors", "fauna", actor + ".xml")
@@ -676,6 +730,9 @@ def main():
 
 			# Mesh
 			positions, normals, uvs, indices, weights, faces = variant["mesh"]
+			fixed = fix_far_weights(positions, indices, weights) if actor in FAR_WEIGHT_FIX else 0
+			if fixed:
+				print("  %s: %d vertices weighted to a bone at the other end of the body, re-weighted" % (actor, fixed))
 			bones = [tuple(np.array(b[:3]) * scale) + tuple(b[3:]) for b in base_mesh["bones"]]
 			props = [(n, tuple(np.array(t) * scale), r, b) for n, t, r, b in base_mesh["props"]]
 			mesh_path = target("art", "meshes", "skeletal", "fauna", actor + ".pmd")

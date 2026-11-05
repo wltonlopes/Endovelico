@@ -17,6 +17,7 @@
   <Identity>
     <GenericName>European Bison Cow</GenericName>
     <SpecificName>Bison bonasus</SpecificName>
+    <Icon>gaia/fauna_bison_female.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>350</Max>

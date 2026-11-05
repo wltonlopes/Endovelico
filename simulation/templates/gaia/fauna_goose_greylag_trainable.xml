@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_chicken">
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>30</food>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="1.2" depth="1.9"/>
+    <Height>1.7</Height>
+  </Footprint>
+  <Health>
+    <Max>8</Max>
+  </Health>
+  <Identity>
+    <GenericName>Domestic Goose</GenericName>
+    <SpecificName>Anser anser domesticus</SpecificName>
+    <Icon>gaia/fauna_goose_greylag.png</Icon>
+  </Identity>
+  <Loot disable=""/>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.7</HeightOffset>
+  </StatusBars>
+  <Visibility>
+    <RetainInFog>false</RetainInFog>
+  </Visibility>
+  <VisualActor>
+    <Actor>fauna/goose_greylag.xml</Actor>
+  </VisualActor>
+</Entity>

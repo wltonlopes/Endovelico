@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.5" depth="2.9"/>
+    <Height>0.6</Height>
+  </Footprint>
+  <Health>
+    <Max>3</Max>
+  </Health>
+  <Identity>
+    <GenericName>Ocellated Lizard</GenericName>
+    <SpecificName>Timon lepidus</SpecificName>
+    <Icon>gaia/fauna_lizard_ocellated.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>15</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>1.6</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/lizard_ocellated.xml</Actor>
+  </VisualActor>
+</Entity>

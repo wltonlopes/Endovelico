@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/goat_male_090/goat_walk.psa" name="Walk" speed="75"/>
+    <animation file="fauna/goat_male_090/goat_walk.psa" name="Run" speed="75"/>
+    <animation file="fauna/goat_male_090/goat_idle_01.psa" name="Idle" speed="100"/>
+    <animation file="fauna/goat_male_090/goat_idle_02.psa" name="Idle" speed="100"/>
+    <animation file="fauna/goat_male_090/goat_death.psa" name="Death" speed="100"/>
+  </animations>
+</variant>

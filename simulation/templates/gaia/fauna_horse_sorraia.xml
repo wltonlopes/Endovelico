@@ -7,6 +7,7 @@
   <Identity>
     <GenericName>Sorraia Horse</GenericName>
     <SpecificName>Equus ferus caballus</SpecificName>
+    <Icon>gaia/fauna_horse_sorraia.png</Icon>
   </Identity>
   <StatusBars>
     <HeightOffset>5.7</HeightOffset>

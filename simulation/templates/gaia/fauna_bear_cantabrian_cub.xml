@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_bear_brown">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>6</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.3" depth="2.3"/>
+    <Height>1.7</Height>
+  </Footprint>
+  <Health>
+    <Max>60</Max>
+  </Health>
+  <Identity>
+    <GenericName>Brown Bear Cub</GenericName>
+    <SpecificName>Ursus arctos pyrenaicus</SpecificName>
+    <Icon>gaia/fauna_bear_cantabrian_cub.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>150</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/bear_cantabrian_cub.xml</Actor>
+  </VisualActor>
+</Entity>

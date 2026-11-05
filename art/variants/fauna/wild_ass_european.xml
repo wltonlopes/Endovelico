@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/wild_ass_european/donkey_idle_01.psa" name="idle" speed="10"/>
+    <animation file="fauna/wild_ass_european/donkey_death_01.psa" name="death" speed="40"/>
+    <animation file="fauna/wild_ass_european/donkey_walk_01.psa" name="walk" speed="25"/>
+    <animation file="fauna/wild_ass_european/donkey_walk_01.psa" name="Run" speed="25"/>
+  </animations>
+</variant>

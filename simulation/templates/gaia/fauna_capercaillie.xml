@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.5" depth="2.5"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Western Capercaillie</GenericName>
+    <SpecificName>Tetrao urogallus</SpecificName>
+    <Icon>gaia/fauna_capercaillie.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>3.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/capercaillie.xml</Actor>
+  </VisualActor>
+</Entity>

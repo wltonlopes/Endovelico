@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/flamingo_greater/ratite_idle_look.psa" name="Idle" speed="100"/>
+    <animation file="fauna/flamingo_greater/ratite_idle_graze.psa" name="Idle" speed="100"/>
+    <animation file="fauna/flamingo_greater/ratite_idle_alert.psa" name="Idle" speed="100"/>
+    <animation file="fauna/flamingo_greater/ratite_walk.psa" name="Walk" speed="45"/>
+    <animation file="fauna/flamingo_greater/ratite_run_01.psa" name="Run" speed="23"/>
+    <animation file="fauna/flamingo_greater/ratite_run_02.psa" name="Run" speed="23"/>
+    <animation file="fauna/flamingo_greater/ratite_attack.psa" name="attack_melee" speed="100"/>
+    <animation file="fauna/flamingo_greater/ratite_death.psa" name="Death" speed="100"/>
+  </animations>
+</variant>

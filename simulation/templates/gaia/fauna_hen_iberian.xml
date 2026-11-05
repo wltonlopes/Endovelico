@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_chicken">
+  <Footprint>
+    <Square width="0.9" depth="1.1"/>
+    <Height>1.4</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>Iberian Hen</GenericName>
+    <SpecificName>Gallus gallus domesticus</SpecificName>
+    <Icon>gaia/fauna_hen_iberian.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.4</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/hen_iberian.xml</Actor>
+  </VisualActor>
+</Entity>

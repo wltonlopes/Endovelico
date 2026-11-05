@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/boar_iberian_piglet.xml" name="Base">
+      <mesh>skeletal/fauna/boar_iberian_piglet.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="boar_iberian_piglet" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/boar_iberian_piglet.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

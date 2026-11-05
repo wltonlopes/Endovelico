@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/goose_greylag.xml" name="Base">
+      <mesh>skeletal/fauna/goose_greylag.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="goose_greylag" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/goose_greylag.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

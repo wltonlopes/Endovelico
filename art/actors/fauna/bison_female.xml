@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="fauna/bull_a_131.xml" name="Base">
+    <variant file="fauna/bull_a_132.xml" name="Base">
       <mesh>skeletal/fauna/bison_female.pmd</mesh>
     </variant>
   </group>

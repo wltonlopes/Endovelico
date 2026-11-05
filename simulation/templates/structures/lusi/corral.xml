@@ -10,12 +10,17 @@
   <Obstruction>
     <Static width="15.0" depth="17.0"/>
   </Obstruction>
-<!--   <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
-      -gaia/fauna_sheep_trainable
-      gaia/fauna_pig_trainable
+      -gaia/fauna_goat_trainable
+      gaia/fauna_goat_lusitanian_trainable
+      gaia/fauna_goat_lusitanian_female_trainable
+      gaia/fauna_donkey_iberian_trainable
+      gaia/fauna_rooster_iberian_trainable
+      gaia/fauna_hen_iberian_trainable
+      gaia/fauna_goose_greylag_trainable
     </Entities>
-  </ProductionQueue> -->
+  </Trainer>
   <VisualActor>
     <Actor>structures/lusitanians/corral.xml</Actor>
   </VisualActor>

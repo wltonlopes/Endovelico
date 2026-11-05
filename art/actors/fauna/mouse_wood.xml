@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/rabbit_02_051.xml" name="Base">
+      <mesh>skeletal/fauna/mouse_wood.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="mouse_wood" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/mouse_wood.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

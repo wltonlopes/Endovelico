@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>2</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="0.9" depth="3.3"/>
+    <Height>0.7</Height>
+  </Footprint>
+  <Health>
+    <Max>6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Montpellier Snake</GenericName>
+    <SpecificName>Malpolon monspessulanus</SpecificName>
+    <Icon>gaia/fauna_snake_montpellier.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>1.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/snake_montpellier.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.5" depth="2.5"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Western Capercaillie Hen</GenericName>
+    <SpecificName>Tetrao urogallus</SpecificName>
+    <Icon>gaia/fauna_capercaillie_female.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>50</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>3.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/capercaillie_female.xml</Actor>
+  </VisualActor>
+</Entity>

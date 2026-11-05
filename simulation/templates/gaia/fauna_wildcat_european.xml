@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>4</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="0.9" depth="3.0"/>
+    <Height>1.5</Height>
+  </Footprint>
+  <Health>
+    <Max>15</Max>
+  </Health>
+  <Identity>
+    <GenericName>European Wildcat</GenericName>
+    <SpecificName>Felis silvestris</SpecificName>
+    <Icon>gaia/fauna_wildcat_european.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>2.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/wildcat_european.xml</Actor>
+  </VisualActor>
+</Entity>

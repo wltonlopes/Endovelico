@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="0.8" depth="1.0"/>
+    <Height>0.5</Height>
+  </Footprint>
+  <Health>
+    <Max>1</Max>
+  </Health>
+  <Identity>
+    <GenericName>Iberian Frog</GenericName>
+    <SpecificName>Rana iberica</SpecificName>
+    <Icon>gaia/fauna_frog_iberian.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>5</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>1.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/frog_iberian.xml</Actor>
+  </VisualActor>
+</Entity>

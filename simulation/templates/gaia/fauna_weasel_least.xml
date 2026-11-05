@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>1</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="0.8" depth="1.6"/>
+    <Height>0.7</Height>
+  </Footprint>
+  <Health>
+    <Max>4</Max>
+  </Health>
+  <Identity>
+    <GenericName>Least Weasel</GenericName>
+    <SpecificName>Mustela nivalis</SpecificName>
+    <Icon>gaia/fauna_weasel_least.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>1.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/weasel_least.xml</Actor>
+  </VisualActor>
+</Entity>

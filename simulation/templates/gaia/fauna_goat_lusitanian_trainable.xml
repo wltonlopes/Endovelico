@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_goat_trainable">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>35</food>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="1.2" depth="2.7"/>
+    <Height>2.9</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>Lusitanian Goat</GenericName>
+    <SpecificName>Capra hircus</SpecificName>
+    <Tooltip>Hardy mountain goat of Lusitania.</Tooltip>
+    <Icon>gaia/fauna_goat_lusitanian.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.9</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/goat_lusitanian.xml</Actor>
+  </VisualActor>
+</Entity>

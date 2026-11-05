@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_goat_trainable">
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <food>60</food>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="1.6" depth="4.5"/>
+    <Height>4.2</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <GenericName>Iberian Donkey</GenericName>
+    <SpecificName>Equus asinus</SpecificName>
+    <Tooltip>Sturdy Iberian donkey.</Tooltip>
+    <Icon>gaia/fauna_donkey_iberian.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>150</Max>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/horse_select.xml</select>
+      <order_walk>actor/fauna/animal/horse_order.xml</order_walk>
+      <death>actor/fauna/animal/horse_death.xml</death>
+      <trained>actor/fauna/animal/horse_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>5.2</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/donkey_iberian.xml</Actor>
+  </VisualActor>
+</Entity>

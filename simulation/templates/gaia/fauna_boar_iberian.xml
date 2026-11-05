@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Footprint>
+    <Square width="1.5" depth="3.1"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>Iberian Wild Boar</GenericName>
+    <SpecificName>Sus scrofa castilianus</SpecificName>
+    <Icon>gaia/fauna_boar_iberian.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/boar_iberian.xml</Actor>
+  </VisualActor>
+</Entity>

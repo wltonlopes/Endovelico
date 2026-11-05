@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/egret_little.xml" name="Base">
+      <mesh>skeletal/fauna/egret_little.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="egret_little" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/egret_little.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

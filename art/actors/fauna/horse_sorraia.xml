@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="fauna/horse_celtic_084.xml" name="Base">
+    <variant file="fauna/horse_celtic_083.xml" name="Base">
       <mesh>skeletal/fauna/horse_sorraia.pmd</mesh>
     </variant>
   </group>

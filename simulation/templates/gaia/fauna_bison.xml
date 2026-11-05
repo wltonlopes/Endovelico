@@ -17,6 +17,7 @@
   <Identity>
     <GenericName>European Bison Bull</GenericName>
     <SpecificName>Bison bonasus</SpecificName>
+    <Icon>gaia/fauna_bison.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>400</Max>

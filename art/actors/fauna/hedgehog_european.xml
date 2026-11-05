@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/rabbit_02_047.xml" name="Base">
+      <mesh>skeletal/fauna/hedgehog_european.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="hedgehog_european" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/hedgehog_european.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
