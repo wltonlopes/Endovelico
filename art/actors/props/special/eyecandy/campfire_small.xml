@@ -4,6 +4,7 @@
   <group>
     <variant name="Campfire Small">
       <props>
+        <prop actor="particle/fire_light/pool_small.xml" attachpoint="root"/>
         <prop actor="particle/smoke_light_delay.xml" attachpoint="root"/>
         <prop actor="particle/flame.xml" attachpoint="root"/>
         <prop actor="props/special/eyecandy/campfire_decal_small.xml" attachpoint="root"/>

@@ -18,6 +18,11 @@
   <StatusBars>
     <HeightOffset>1.6</HeightOffset>
   </StatusBars>
+  <UnitMotion>
+    <!-- 6.3 m/s from the rabbit: about 0.57 m/s. The walk animation's stride matches it. -->
+    <WalkSpeed op="mul">0.09</WalkSpeed>
+    <RunMultiplier>1.6</RunMultiplier>
+  </UnitMotion>
   <VisualActor>
     <Actor>fauna/turtle_spanish_pond.xml</Actor>
   </VisualActor>

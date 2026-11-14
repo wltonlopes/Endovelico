@@ -2,43 +2,43 @@
   "buildings": [
     {
       "id": "watchtower",
-      "name": "Torre de Vigia",
+      "name": "Watchtower",
       "cost": 220,
       "buildTime": 3,
       "damageBonus": 3,
-      "description": "Melhora a vigilância e aumenta o dano de defesa da província."
+      "description": "Improves vigilance and raises the province's defensive damage."
     },
     {
       "id": "market",
-      "name": "Mercado",
+      "name": "Market",
       "cost": 180,
       "buildTime": 2,
       "damageBonus": 2,
-      "description": "Aumenta o comércio local e o impacto militar da província."
+      "description": "Boosts local trade and the province's military impact."
     },
     {
       "id": "philosopher_academy",
-      "name": "Academia de Filósofos",
+      "name": "Philosophers' Academy",
       "cost": 260,
       "buildTime": 4,
       "damageBonus": 2,
-      "description": "Fortalece o moral das tropas e eleva o dano bônus da província."
+      "description": "Strengthens troop morale and raises the province's bonus damage. Also produces research."
     },
     {
       "id": "port",
-      "name": "Porto",
+      "name": "Port",
       "cost": 300,
       "buildTime": 4,
       "damageBonus": 4,
-      "description": "Aumenta o poder naval e o dano ofensivo da província costeira."
+      "description": "Increases naval power and the offensive damage of a coastal province."
     },
     {
       "id": "fortress",
-      "name": "Fortaleza",
+      "name": "Fortress",
       "cost": 400,
       "buildTime": 5,
       "damageBonus": 6,
-      "description": "Uma fortaleza imponente que multiplica o dano defensivo da província."
+      "description": "An imposing fortress that multiplies the province's defensive damage."
     }
   ]
 }

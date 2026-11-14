@@ -17,6 +17,7 @@
   <Identity>
     <GenericName>Aurochs Bull</GenericName>
     <SpecificName>Bos primigenius</SpecificName>
+    <Icon>gaia/fauna_aurochs.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>400</Max>

@@ -10,6 +10,7 @@
   <Identity>
     <GenericName>Roe Deer Buck</GenericName>
     <SpecificName>Capreolus capreolus</SpecificName>
+    <Icon>gaia/fauna_deer_roe.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>60</Max>

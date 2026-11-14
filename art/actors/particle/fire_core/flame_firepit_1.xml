@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chama original do jogo base (sem o brilho). -->
+<actor version="1">
+  <group>
+    <variant name="Base">
+      <particles file="flame_firepit_1.xml"/>
+    </variant>
+  </group>
+</actor>

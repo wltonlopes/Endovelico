@@ -17,6 +17,7 @@
   <Identity>
     <GenericName>Aurochs Cow</GenericName>
     <SpecificName>Bos primigenius</SpecificName>
+    <Icon>gaia/fauna_aurochs_female.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>350</Max>

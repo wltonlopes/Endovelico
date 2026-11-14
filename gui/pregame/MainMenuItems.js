@@ -106,6 +106,69 @@ export const mainMenuItems = [
 		"enabled": () => CampaignRun.hasCurrentRun()
 	},
 	{
+		// Endovelico: atalho direto para a campanha do mapa mundial.
+		"caption": translate("Grand Strategy"),
+		"tooltip": translate("Take control of a nation on the world map, conquer your neighbors and rule the world."),
+		"submenu": [
+			{
+				"caption": translate("New Grand Strategy"),
+				"tooltip": translate("Start a new Grand Strategy campaign on the world map."),
+				"onPress": async(closePageCallback) =>
+				{
+					const template = CampaignTemplate.getTemplate("grand_strategy");
+					if (!template)
+					{
+						error("Campaign template grand_strategy.json not found.");
+						return;
+					}
+					const ret = await Engine.OpenChildPage("campaigns/new_modal/page.xml", template);
+					if (ret !== undefined)
+						closePageCallback({ [Engine.openRequest]: ret });
+				}
+			},
+			{
+				"caption": translate("Continue Grand Strategy"),
+				"tooltip": translate("Return to your current Grand Strategy campaign."),
+				"onPress": closePageCallback =>
+				{
+					try
+					{
+						closePageCallback({ [Engine.openRequest]: {
+							"page": CampaignRun.getCurrentRun().getMenuPath()
+						} });
+					}
+					catch(err)
+					{
+						error("Error opening campaign run:");
+						error(err.toString());
+					}
+				},
+				"enabled": () =>
+				{
+					try
+					{
+						return CampaignRun.hasCurrentRun() &&
+							CampaignRun.getCurrentRun().template?.identifier == "grand_strategy";
+					}
+					catch(err)
+					{
+						return false;
+					}
+				}
+			},
+			{
+				"caption": translate("Load Grand Strategy"),
+				"tooltip": translate("Load a saved campaign."),
+				"onPress": closePageCallback =>
+				{
+					closePageCallback({ [Engine.openRequest]: {
+						"page": "campaigns/load_modal/page.xml"
+					} });
+				}
+			}
+		]
+	},
+	{
 		"caption": translate("Single-player"),
 		"tooltip": translate("Start, load, or replay a single-player game."),
 		"submenu": [

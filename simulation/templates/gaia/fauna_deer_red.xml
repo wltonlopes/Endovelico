@@ -10,6 +10,7 @@
   <Identity>
     <GenericName>Red Deer Stag</GenericName>
     <SpecificName>Cervus elaphus</SpecificName>
+    <Icon>gaia/fauna_deer_red.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>150</Max>

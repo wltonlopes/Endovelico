@@ -80,6 +80,9 @@ ANIMALS = {
 	"leopard_snow": ("leopardo de las nieves", [], "tiger", "transfer", ["leopardo de las nieves"]),
 	"tapir_lowland": ("tapir americano.002", [], "animal_boar", "transfer", ["tapir americano.002"]),
 	"tapir_malayan": ("tapir malayo.001", [], "animal_boar", "transfer", ["tapir malayo.001"]),
+	# The map tapir (fauna_tapir): tapir.dae had bones but no weights. Made from a .blend of that
+	# mesh scaled to 3.2 m (the length of the other tapirs); its texture stays the actor's own.
+	"tapir": ("tapir", [], "animal_boar", "transfer", []),
 	"gorilla": ("gorila", [], "bear", "transfer", ["gorila"]),
 	"chimpanzee": ("chimpancé", [], "bear", "transfer", ["chimpancé"]),
 	"seal_harbor": ("foca común", [], "Croc", "transfer", ["foca común"]),

@@ -43,7 +43,7 @@ class ProvinceDetailsWindow
 		{
 			const definition = g_GameData.getProvinceBuildingData(province.buildQueue[0]);
 			if (definition)
-				lines.push(`Construction: ${definition.name} (${province.buildProgress}/${definition.buildTime})`);
+				lines.push(`Construction: ${definition.name} (${province.buildProgress}/${province.getBuildingTime(definition.id)})`);
 		}
 		else
 			lines.push("Construction: None");
@@ -72,7 +72,7 @@ class ProvinceDetailsWindow
 			{
 				const def = defs[i];
 				button.hidden = false;
-				button.caption = `${def.name} (${def.cost} gold / ${def.buildTime} turns)`;
+				button.caption = `${def.name} (${province.getBuildingCost(def.id)} gold / ${province.getBuildingTime(def.id)} turns)`;
 				button.sprite = "stretched:session/icons/construction.png";
 				button.enabled = true;
 				button.onPress = () =>
@@ -130,7 +130,7 @@ class ProvinceDetailsWindow
 				str += `Construction: ${province.getConstructionStatusText()}\n`;
 		}
 
-		str += `\nGenerals: ${tribe.generals.length}/${tribe.maxGenerals}\n`;
+		str += `\nGenerals: ${tribe.generals.length}/${tribe.getMaxGenerals()}\n`;
 		str += `\n\n` + coloredText("Right-click the province to make actions", "green");
 
 		Engine.GetGUIObjectByName("provinceDetailsText").caption = str;
@@ -196,13 +196,13 @@ class ProvinceDetailsWindow
 			return;
 
 		trainBtn.hidden = true;
-		const GENERAL_COST = 500;
+		const GENERAL_COST = tribe.techs.getRecruitCost();
 
 		if (this.menu.selectedProvince === tribe.getCapital())
 		{
 			trainBtn.hidden = false;
 			trainBtn.caption = `Train General (${GENERAL_COST})`;
-			trainBtn.enabled = tribe.money >= GENERAL_COST && tribe.generals.length < tribe.maxGenerals;
+			trainBtn.enabled = tribe.money >= GENERAL_COST && tribe.generals.length < tribe.getMaxGenerals();
 			trainBtn.onPress = () =>
 			{
 				let hero = g_GameData.recruitGeneral(g_GameData.playerTribe);

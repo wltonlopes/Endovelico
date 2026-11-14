@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tracajá (Podocnemis unifilis): the Spanish pond turtle mesh and animations
+     (tools/make_turtle_animations.py) with its own textures. -->
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/turtle.xml" name="Base">
+      <mesh>skeletal/fauna/turtle_spanish_pond.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="turtle_tracaja_1" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/turtle_tracaja_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="turtle_tracaja_2" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/turtle_tracaja_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

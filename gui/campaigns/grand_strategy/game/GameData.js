@@ -88,8 +88,10 @@ class GameData
 		if (province)
 		{
 		}
+		// Saves antigos podem ter províncias que não existem mais no mapa.
 		for (const prov in data.provinces)
-			this.provinces[prov].Deserialize(data.provinces[prov]);
+			if (this.provinces[prov])
+				this.provinces[prov].Deserialize(data.provinces[prov]);
 
 		for (const code in data.tribes)
 		{
@@ -469,8 +471,9 @@ class GameData
 
 	changeGarrison(provinceCode, delta)
 	{
-		this.provinces[provinceCode].garrison = Math.max(0, Math.min(10,
-			this.provinces[provinceCode].garrison + delta));
+		const province = this.provinces[provinceCode];
+		const cap = this.tribes[province.ownerTribe]?.techs.getGarrisonCap() ?? 10;
+		province.garrison = Math.max(0, Math.min(cap, province.garrison + delta));
 	}
 
 	/**
@@ -503,12 +506,16 @@ class GameData
 					// Apply happiness tax rate modifier
 					totalBalance += province.getBalance() * province.getTaxRate();
 				}
+				// Tecnologias aumentam a arrecadação.
+				totalBalance = Math.round(totalBalance * tribe.techs.getTaxMultiplier());
 				// Clamp to avoid weirdness.
 				tribe.money = Math.max(-999999, Math.min(tribe.money + totalBalance, 999999999));
 				tribe.lastBalance = totalBalance;
-				this.processTradeIncome();
 				// TODO: nasty events if in debt, possibly losing the game.
 			}
+			// Uma vez por turno (antes era chamado uma vez por tribo).
+			this.processTradeIncome();
+			this.processResearch();
 
 			// Process happiness and revolts
 			this.processProvinceHappiness();
@@ -608,7 +615,9 @@ class GameData
 
 						if (
 							province.ownerTribe !=
-							code
+							code &&
+							tribe.techs.canNavigate(hero.location, neighbour) &&
+							hero.actionsLeft >= hero.getMoveCost(neighbour)
 						)
 						{
 							targets.push(
@@ -620,20 +629,26 @@ class GameData
 					if (!targets.length)
 						continue;
 
+					// Prefere terra; o mar serve para alcançar outras costas.
+					const landTargets = targets.filter(t => !this.provinces[t].isSea());
 					const target =
 						pickRandom(
-							targets
+							landTargets.length && randBool(0.8) ? landTargets : targets
 						);
+
+					hero.actionsLeft -= hero.getMoveCost(target);
 
 					hero.location =
 						target;
-
-					hero.actionsLeft--;
 
 					const province =
 						this.provinces[
 							target
 						];
+
+					// No mar só navega; não há o que conquistar.
+					if (province.isSea())
+						continue;
 
 					if (
 						province.ownerTribe ==
@@ -678,9 +693,10 @@ class GameData
 			for (const general of
 				this.tribes[tribeCode].generals)
 			{
+				const techs = this.tribes[tribeCode].techs;
 				general.actionsLeft =
-					Math.min(2,
-						general.actionsLeft + 1);
+					Math.min(techs.getMoveCap(),
+						general.actionsLeft + techs.getMoveRegen());
 			}
 		}
 
@@ -696,9 +712,9 @@ class GameData
 				this.tribes[code];
 
 			if (
-				tribe.money >= 500 &&
+				tribe.money >= tribe.techs.getRecruitCost() &&
 				tribe.generals.length <
-				tribe.maxGenerals
+				tribe.getMaxGenerals()
 			)
 			{
 				this.recruitGeneral(
@@ -879,12 +895,12 @@ startGeneralBattle(
 	recruitGeneral(tribe)
 	{
 		const player = this.tribes[tribe];
-		const cost = 500;
+		const cost = player.techs.getRecruitCost();
 
 		if (player.money < cost)
 			return false;
 
-		if (player.generals.length >= player.maxGenerals)
+		if (player.generals.length >= player.getMaxGenerals())
 			return false;
 
 		// Tribo sem território (foi conquistada) não tem onde recrutar.
@@ -1101,6 +1117,25 @@ killGeneral(hero)
 			province.processConstruction();
 	}
 
+	/**
+	 * Avança a pesquisa de todas as tribos. A IA escolhe sozinha;
+	 * o jogador recebe um aviso no registro.
+	 */
+	processResearch()
+	{
+		for (const code in this.tribes)
+		{
+			const tribe = this.tribes[code];
+			const isPlayer = code === this.playerTribe;
+			const tech = tribe.techs.processTurn(!isPlayer);
+			if (!tech || !isPlayer)
+				continue;
+
+			this.turnEvents.push(new GSTechResearched({ "tribe": code, "tech": tech.id }));
+			this.statistics?.TechnologyResearched?.();
+		}
+	}
+
 	processTradeIncome()
 	{
 		for (const code in this.tribes)
@@ -1117,7 +1152,7 @@ killGeneral(hero)
 				if (!this.canTrade(code, other))
 					continue;
 
-				tribe.money += 10;
+				tribe.money += tribe.techs.getTradeIncome();
 			}
 		}
 	}
@@ -1182,6 +1217,9 @@ killGeneral(hero)
 					tradePartners++;
 			}
 			happinessChange += tradePartners * 1; // Each trade partner +1 happiness
+
+			// Tecnologias (leis, aquedutos...).
+			happinessChange += tribe.techs.get("happiness");
 
 			// Apply the change
 			province.changeHappiness(happinessChange);

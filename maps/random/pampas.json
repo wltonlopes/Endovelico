@@ -1,11 +1,17 @@
 {
-	"settings" : {
-		"Name" : "Pampas",
-		"Script" : "pampas.js",
-		"Description" : "Vastas planícies com vegetação rasteira, bosques esparsos e vida selvagem característica",
+	"settings": {
+		"Name": "Pampas",
+		"Script": "pampas.js",
+		"Description": "Open grassland of southern South America, broken by groves of Paraná pine (araucaria), pinheiro-bravo and scrub. Guanacos and deer graze the field while pumas lurk at the edge of the groves.",
+		"Preview": "peten.png",
 		"Keywords": [],
-		"Preview" : "Peten.png",
-		"CircularMap" : true
+		"CircularMap": true,
+		"PlayerPlacements": [
+			"circle",
+			"river",
+			"groupedLines",
+			"randomGroup",
+			"stronghold"
+		]
 	}
 }
-

@@ -10,6 +10,7 @@
   <Identity>
     <GenericName>Red-Legged Partridge</GenericName>
     <SpecificName>Alectoris rufa</SpecificName>
+    <Icon>gaia/fauna_partridge.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>30</Max>

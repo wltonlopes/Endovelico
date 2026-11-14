@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.7" depth="1.3"/>
+    <Height>0.6</Height>
+  </Footprint>
+  <Health>
+    <Max>5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Yellow-Spotted River Turtle</GenericName>
+    <SpecificName>Podocnemis unifilis</SpecificName>
+    <Icon>gaia/fauna_turtle_tracaja.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>30</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>1.6</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <!-- 6.3 m/s from the rabbit: about 0.57 m/s. The walk animation's stride matches it. -->
+    <WalkSpeed op="mul">0.09</WalkSpeed>
+    <RunMultiplier>1.6</RunMultiplier>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/turtle_tracaja.xml</Actor>
+  </VisualActor>
+</Entity>

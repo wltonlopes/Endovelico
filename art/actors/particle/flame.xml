@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sobrescreve o ator do jogo base: a chama original mais um brilho que
+     imita a luz do fogo. Partículas não aceitam props, por isso há um
+     suporte invisível (anchor) segurando os dois efeitos. -->
+<actor version="1">
+  <group>
+    <variant name="Base">
+      <mesh>props/fire_light/anchor.dae</mesh>
+      <props>
+        <prop actor="particle/fire_core/flame.xml" attachpoint="root"/>
+        <prop actor="particle/fire_light/glow_small.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="props/fire_light/invisible.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

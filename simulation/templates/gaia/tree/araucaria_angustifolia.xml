@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_tree">
+  <Footprint>
+    <Circle radius="2.4"/>
+    <Height>24.0</Height>
+  </Footprint>
+  <Identity>
+    <SpecificName>Paraná Pine</SpecificName>
+    <History>Araucaria angustifolia, the tall candelabra-shaped conifer of the southern Brazilian highlands, whose seeds (pinhões) fed the peoples of the region.</History>
+  </Identity>
+  <ResourceSupply>
+    <Max>250</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>17.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>flora/trees/araucaria_angustifolia.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,158 +1,236 @@
 Engine.LoadLibrary("rmgen");
 Engine.LoadLibrary("rmgen-common");
-Engine.LoadLibrary("rmgen2");
 Engine.LoadLibrary("rmbiome");
 
-setBiome("generic/pampas");
+/**
+ * Pampas: open grassland broken by "capões", the groves of Paraná pine (Araucaria angustifolia),
+ * pinheiro-bravo (Podocarpus lambertii) and scrub that dot the southern Brazilian fields, with lone
+ * araucarias on the plain.
+ * Layout from the vanilla Mainland map; biome generic/pampas.
+ */
+export function* generateMap(mapSettings)
+{
+	setBiome("generic/pampas");
 
-g_Gaia.chicken = g_Gaia.startingAnimal;
-g_Gaia.woodTreasure = "gaia/treasure/wood";
-g_Gaia.foodTreasure = "gaia/treasure/food_bin";
+	const tMainTerrain = g_Terrains.mainTerrain;
+	const tForestFloor1 = g_Terrains.forestFloor1;
+	const tForestFloor2 = g_Terrains.forestFloor2;
+	const tCliff = g_Terrains.cliff;
+	const tTier1Terrain = g_Terrains.tier1Terrain;
+	const tTier2Terrain = g_Terrains.tier2Terrain;
+	const tTier3Terrain = g_Terrains.tier3Terrain;
+	const tHill = g_Terrains.hill;
+	const tRoad = g_Terrains.road;
+	const tRoadWild = g_Terrains.roadWild;
+	const tTier4Terrain = g_Terrains.tier4Terrain;
 
-const heightScale = num => num * g_MapSettings.Size / 320;
+	const oAraucaria = "gaia/tree/araucaria_angustifolia";
+	const oPodocarpus = "gaia/tree/podocarpus_lambertii";
+	const oBush = g_Gaia.tree1;
+	const oTree2 = g_Gaia.tree2;
+	const oBushSteppe = g_Gaia.tree3;
+	const oFruitBush = g_Gaia.fruitBush;
+	const oMainHuntableAnimal = g_Gaia.mainHuntableAnimal;
+	const oSecondaryHuntableAnimal = g_Gaia.secondaryHuntableAnimal;
+	const oSmallAnimal = g_Gaia.smallAnimal;
+	const oPredator = g_Gaia.predator;
+	const oStoneLarge = g_Gaia.stoneLarge;
+	const oStoneSmall = g_Gaia.stoneSmall;
+	const oMetalLarge = g_Gaia.metalLarge;
+	const oMetalSmall = g_Gaia.metalSmall;
 
-const g_Map = new RandomMap(0, g_Terrains.mainTerrain);
-const mapBounds = g_Map.getBounds();
-const mapCenter = g_Map.getCenter();
+	const aGrass = g_Decoratives.grass;
+	const aGrassShort = g_Decoratives.grassShort;
+	const aRockLarge = g_Decoratives.rockLarge;
+	const aRockMedium = g_Decoratives.rockMedium;
+	const aBushMedium = g_Decoratives.bushMedium;
+	const aBushSmall = g_Decoratives.bushSmall;
 
-// Classes de tiles
-var clForest = g_Map.createTileClass();
-var clPlayer = g_Map.createTileClass();
-var clBaseResource = g_Map.createTileClass();
+	// Capões: araucarias standing over pinheiros-bravos and scrub; the second kind mixes in the
+	// biome's broadleaf tree.
+	const pForest1 = [
+		tForestFloor2 + TERRAIN_SEPARATOR + oAraucaria,
+		tForestFloor2 + TERRAIN_SEPARATOR + oAraucaria,
+		tForestFloor2 + TERRAIN_SEPARATOR + oPodocarpus,
+		tForestFloor2 + TERRAIN_SEPARATOR + oBush,
+		tForestFloor2
+	];
+	const pForest2 = [
+		tForestFloor1 + TERRAIN_SEPARATOR + oAraucaria,
+		tForestFloor1 + TERRAIN_SEPARATOR + oPodocarpus,
+		tForestFloor1 + TERRAIN_SEPARATOR + oTree2,
+		tForestFloor1 + TERRAIN_SEPARATOR + oBushSteppe,
+		tForestFloor1
+	];
 
-initTileClasses();
+	const heightLand = 3;
 
-g_Map.log("Criando terreno base");
-createArea(
-  new MapBoundsPlacer(),
-  new TerrainPainter(g_Terrains.mainTerrain)
-);
-Engine.SetProgress(10);
+	globalThis.g_Map = new RandomMap(heightLand, tMainTerrain);
 
-g_Map.log("Criando colinas suaves");
-// CORREÇÃO: Usar TerrainPainter com array de terrenos
-createLayeredPatches(
-  [scaleByMapSize(4, 8), scaleByMapSize(6, 12)],
-  [
-    [
-      new TerrainPainter(g_Terrains.tier1Terrain),
-      new SmoothElevationPainter(ELEVATION_SET, 5, 3)
-    ],
-    [
-      new TerrainPainter(g_Terrains.tier2Terrain),
-      new SmoothElevationPainter(ELEVATION_SET, 10, 5)
-    ]
-  ],
-  avoidClasses(clPlayer, 20, clForest, 10),
-  50
-);
+	const numPlayers = getNumPlayers();
 
-g_Map.log("Adicionando vegetação rasteira");
-// Arbustos
-createGrassPatches(
-  [new SimpleObject(g_Decoratives.bushMedium, 1, 3, 0, 1)],
-  avoidClasses(clPlayer, 15, clForest, 5),
-  scaleByMapSize(300, 600),
-  40
-);
+	const clPlayer = g_Map.createTileClass();
+	const clHill = g_Map.createTileClass();
+	const clForest = g_Map.createTileClass();
+	const clDirt = g_Map.createTileClass();
+	const clRock = g_Map.createTileClass();
+	const clMetal = g_Map.createTileClass();
+	const clFood = g_Map.createTileClass();
+	const clBaseResource = g_Map.createTileClass();
 
-// Grama
-createGrassPatches(
-  [new SimpleObject(g_Decoratives.grass, 1, 2, 0, 1)],
-  avoidClasses(clPlayer, 10),
-  scaleByMapSize(500, 1000),
-  20
-);
+	const { playerIDs, playerPosition } =
+		playerPlacementByPattern(
+			mapSettings.PlayerPlacement,
+			fractionToTiles(0.35),
+			fractionToTiles(0.1),
+			randomAngle(),
+			undefined);
 
-g_Map.log("Criando bosques esparsos");
-// CORREÇÃO: Usar createForest com sintaxe correta
-createForest(
-  [
-    new SimpleObject(g_Gaia.tree1, 1, 3, 0, 2),
-    new SimpleObject(g_Gaia.tree2, 1, 2, 0, 2),
-    new SimpleObject(g_Decoratives.bushSmall, 2, 4, 0, 1)
-  ],
-  avoidClasses(clPlayer, 20),
-  scaleByMapSize(15, 30),
-  scaleByMapSize(8, 15),
-  scaleByMapSize(5, 10)
-);
+	placePlayerBases({
+		"PlayerPlacement": [playerIDs, playerPosition],
+		"PlayerTileClass": clPlayer,
+		"BaseResourceClass": clBaseResource,
+		"CityPatch": {
+			"outerTerrain": tRoadWild,
+			"innerTerrain": tRoad
+		},
+		"StartingAnimal": {
+		},
+		"Berries": {
+			"template": oFruitBush
+		},
+		"Mines": {
+			"types": [
+				{ "template": oMetalLarge },
+				{ "template": oStoneLarge }
+			]
+		},
+		"Trees": {
+			"template": oAraucaria,
+			"count": 5
+		}
+	});
+	yield 20;
 
-g_Map.log("Adicionando recursos minerais");
-// Pedras
-placeObjectGroups(
-  new SimpleObject("gaia/geology_stone_pile", 3, 5, 0, 15),
-  avoidClasses(clPlayer, 20, clForest, 5),
-  scaleByMapSize(15, 30)
-);
+	// Gently rolling fields: bumps and a few low hills, no mountains.
+	createBumps(avoidClasses(clPlayer, 20));
+	createHills([tCliff, tHill, tHill],
+		avoidClasses(clPlayer, 20, clHill, 20), clHill, scaleByMapSize(2, 8));
 
-// Metais
-placeObjectGroups(
-  new SimpleObject("gaia/geology_metal_pile", 2, 4, 0, 20),
-  avoidClasses(clPlayer, 25, clForest, 5),
-  scaleByMapSize(10, 20)
-);
+	g_Map.log("Creating araucaria groves");
+	const [forestTrees, stragglerTrees] = getTreeCounts(...rBiomeTreeCount(1));
+	createDefaultForests(
+		[tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
+		avoidClasses(clPlayer, 20, clForest, 22, clHill, 0),
+		clForest,
+		forestTrees);
 
-g_Map.log("Adicionando fauna característica");
-// Animais
-const animals = [
-  { template: g_Gaia.mainHuntableAnimal, min: 8, max: 12, dist: 20 },
-  { template: g_Gaia.secondaryHuntableAnimal, min: 6, max: 10, dist: 20 },
-  { template: g_Gaia.chicken, min: 15, max: 20, dist: 10 },
-  { template: "gaia/fauna_boar", min: 4, max: 6, dist: 25 }
-];
+	yield 50;
 
-animals.forEach(animal => {
-  placeObjectGroups(
-    new SimpleObject(animal.template, animal.min, animal.max, 0, animal.dist),
-    avoidClasses(clPlayer, 30, clForest, 10),
-    scaleByMapSize(animal.min * 2, animal.max * 3)
-  );
-});
+	g_Map.log("Creating dirt patches");
+	createLayeredPatches(
+		[scaleByMapSize(3, 6), scaleByMapSize(5, 10), scaleByMapSize(8, 21)],
+		[[tMainTerrain, tTier1Terrain], [tTier1Terrain, tTier2Terrain], [tTier2Terrain, tTier3Terrain]],
+		[1, 1],
+		avoidClasses(clForest, 0, clHill, 0, clDirt, 5, clPlayer, 12),
+		scaleByMapSize(15, 45),
+		clDirt);
 
-// Anta (representada por rinoceronte)
-placeObjectGroups(
-  new SimpleObject("gaia/fauna_rhino", 1, 1, 0, 30),
-  avoidClasses(clPlayer, 40, clForest, 15),
-  1
-);
+	g_Map.log("Creating grass patches");
+	createPatches(
+		[scaleByMapSize(2, 4), scaleByMapSize(3, 7), scaleByMapSize(5, 15)],
+		tTier4Terrain,
+		avoidClasses(clForest, 0, clHill, 0, clDirt, 5, clPlayer, 12),
+		scaleByMapSize(15, 45),
+		clDirt);
+	yield 55;
 
-g_Map.log("Colocando bases dos jogadores");
-// CORREÇÃO: Sintaxe atualizada para placePlayerBases
-placePlayerBases({
-  "PlayerPlacement": [1, 6, 0, 0, 5, 9],
-  "PlayerTileClass": clPlayer,
-  "BaseResourceClass": clBaseResource,
-  "CityPatch": {
-    "outerTerrain": g_Terrains.tier1Terrain,
-    "innerTerrain": g_Terrains.tier2Terrain
-  },
-  "Chicken": {
-    "template": g_Gaia.chicken
-  },
-  "Berries": {
-    "template": "gaia/flora_bush_berry"
-  },
-  "Mines": [
-    { "template": "gaia/geology_metal_iberia" },
-    { "template": "gaia/geology_stone_granite" }
-  ],
-  "Trees": [
-    { "template": g_Gaia.tree1, "count": 3 }
-  ],
-  "Decoratives": [
-    { "template": g_Decoratives.rockMedium }
-  ]
-});
+	g_Map.log("Creating metal mines");
+	createBalancedMetalMines(
+		oMetalSmall,
+		oMetalLarge,
+		clMetal,
+		avoidClasses(clForest, 1, clPlayer, scaleByMapSize(20, 35), clHill, 1)
+	);
 
-// Configurações de ambiente
-setSunRotation(-Math.PI * 0.75);
-setSunElevation(Math.PI / 4);
+	g_Map.log("Creating stone mines");
+	createBalancedStoneMines(
+		oStoneSmall,
+		oStoneLarge,
+		clRock,
+		avoidClasses(clForest, 1, clPlayer, scaleByMapSize(20, 35), clHill, 1, clMetal, 10)
+	);
 
-setWaterHeight(0);
-setWaterTint(0.5, 0.5, 0.5);
-setWaterColor(0.5, 0.5, 0.5);
+	yield 65;
 
-setAmbientColor(0.6, 0.6, 0.5);
+	// Tall grass everywhere: it is the pampa.
+	createDecoration(
+		[
+			[new SimpleObject(aRockMedium, 1, 3, 0, 1)],
+			[new SimpleObject(aRockLarge, 1, 2, 0, 1), new SimpleObject(aRockMedium, 1, 3, 0, 2)],
+			[new SimpleObject(aGrassShort, 1, 2, 0, 1)],
+			[new SimpleObject(aGrass, 2, 4, 0, 1.8), new SimpleObject(aGrassShort, 3, 6, 1.2, 2.5)],
+			[new SimpleObject(aBushMedium, 1, 2, 0, 2), new SimpleObject(aBushSmall, 2, 4, 0, 2)]
+		],
+		[
+			scaleByMapAreaAbsolute(8),
+			scaleByMapAreaAbsolute(4),
+			3 * scaleByMapAreaAbsolute(13),
+			3 * scaleByMapAreaAbsolute(13),
+			scaleByMapAreaAbsolute(13)
+		],
+		avoidClasses(clForest, 0, clPlayer, 10, clHill, 0));
 
-g_Map.ExportMap();
+	yield 70;
+
+	// Herds graze the open field, away from the groves.
+	createFood(
+		[
+			[new SimpleObject(oMainHuntableAnimal, 5, 8, 0, 4)],
+			[new SimpleObject(oSecondaryHuntableAnimal, 2, 4, 0, 2)],
+			[new SimpleObject(oSmallAnimal, 1, 3, 0, 2)]
+		],
+		[
+			4 * numPlayers,
+			3 * numPlayers,
+			2 * numPlayers
+		],
+		avoidClasses(clForest, 2, clPlayer, 20, clHill, 1, clMetal, 4, clRock, 4, clFood, 20),
+		clFood);
+
+	// Predators keep to the edge of the groves.
+	createFood(
+		[
+			[new SimpleObject(oPredator, 1, 2, 0, 2)]
+		],
+		[
+			numPlayers
+		],
+		[avoidClasses(clPlayer, 30, clFood, 10, clHill, 1), borderClasses(clForest, 4, 6)],
+		clFood);
+
+	yield 75;
+
+	createFood(
+		[
+			[new SimpleObject(oFruitBush, 5, 7, 0, 4)]
+		],
+		[
+			3 * numPlayers
+		],
+		avoidClasses(clForest, 0, clPlayer, 20, clHill, 1, clMetal, 4, clRock, 4, clFood, 10),
+		clFood);
+
+	yield 85;
+
+	// Lone araucarias standing over the field, the landmark of the region.
+	createStragglerTrees(
+		[oAraucaria, oAraucaria, oPodocarpus, oBush, oBushSteppe],
+		avoidClasses(clForest, 8, clHill, 1, clPlayer, 12, clMetal, 6, clRock, 6, clFood, 1),
+		clForest,
+		stragglerTrees);
+
+	placePlayersNomad(clPlayer, avoidClasses(clForest, 1, clMetal, 4, clRock, 4, clHill, 4, clFood, 2));
+
+	return g_Map;
+}

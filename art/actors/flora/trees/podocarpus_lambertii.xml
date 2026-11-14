@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pinheiro-bravo (Podocarpus lambertii). Meshes from tools/make_podocarpus.py. -->
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="gaia/podocarpus_lambertii.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="a">
+      <mesh>gaia/podocarpus_lambertii_1.dae</mesh>
+    </variant>
+    <variant frequency="2" name="b-tall">
+      <mesh>gaia/podocarpus_lambertii_2.dae</mesh>
+    </variant>
+    <variant frequency="2" name="c-young">
+      <mesh>gaia/podocarpus_lambertii_3.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_wind_norm_spec.xml</material>
+</actor>

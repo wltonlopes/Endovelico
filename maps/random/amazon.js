@@ -48,6 +48,7 @@ const fauna = {
 	"forestDwellers": ["gaia/fauna_coati", "gaia/fauna_tamandua", "gaia/fauna_opossum", "gaia/fauna_iguana_green"],
 	"anteater": "gaia/fauna_anteater_02",
 	"riverbank": ["gaia/fauna_caiman", "gaia/fauna_otter_tropical", "gaia/fauna_boa_constrictor", "gaia/fauna_toad_cane"],
+	"turtles": "gaia/fauna_turtle_tracaja",
 	"bigCats": ["gaia/fauna_jaguar_02", "gaia/fauna_panther_black"],
 	"smallCats": ["gaia/fauna_ocelot", "gaia/fauna_margay", "gaia/fauna_jaguarundi"],
 	"flyingBird": "birds/fauna_parrot"
@@ -383,6 +384,8 @@ function placeAmazonFauna()
 
 	// Caimans, otters, boas and cane toads along the rivers.
 	placeFaunaGroups(fauna.riverbank, 1, 2, 2, riverbank, scaleByMapSize(8, 28));
+	// Yellow-spotted river turtles (tracajá) basking in small groups on the banks.
+	placeFaunaGroups([fauna.turtles], 2, 4, 2, riverbank, scaleByMapSize(4, 14));
 
 	// Predators keep away from the starting bases.
 	placeFaunaGroups(fauna.bigCats, 1, 1, 1, awayFromPlayers(40), scaleByMapSize(2, 7));

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_geometries>
+    <geometry id="pool_large-mesh" name="pool_large">
+      <mesh>
+        <source id="pool_large-pos">
+          <float_array id="pool_large-pos-array" count="12">-8 -8 0.15 -8 8 0.15 8 -8 0.15 8 8 0.15</float_array>
+          <technique_common>
+            <accessor source="#pool_large-pos-array" count="4" stride="3">
+              <param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pool_large-nrm">
+          <float_array id="pool_large-nrm-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pool_large-nrm-array" count="1" stride="3">
+              <param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pool_large-uv">
+          <float_array id="pool_large-uv-array" count="8">0 0 0 1 1 0 1 1</float_array>
+          <technique_common>
+            <accessor source="#pool_large-uv-array" count="4" stride="2">
+              <param name="S" type="float"/><param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pool_large-vtx">
+          <input semantic="POSITION" source="#pool_large-pos"/>
+        </vertices>
+        <triangles count="2">
+          <input semantic="VERTEX" source="#pool_large-vtx" offset="0"/>
+          <input semantic="NORMAL" source="#pool_large-nrm" offset="1"/>
+          <input semantic="TEXCOORD" source="#pool_large-uv" offset="2" set="1"/>
+          <p>0 0 0 2 0 2 1 0 1 1 0 1 2 0 2 3 0 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="pool_large" name="pool_large" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#pool_large-mesh" name="pool_large"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -93957,89 +93957,11 @@
 			<Position x="487.405" z="772.699"/>
 			<Orientation y="5.0927"/>
 		</Entity>
-		<Entity uid="15748">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="602.000" z="202.000"/>
-			<Orientation y="4.8999"/>
-		</Entity>
-		<Entity uid="15749">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1426.000" z="390.000"/>
-			<Orientation y="2.6733"/>
-		</Entity>
-		<Entity uid="15750">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1450.000" z="342.000"/>
-			<Orientation y="2.1606"/>
-		</Entity>
-		<Entity uid="15751">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1170.000" z="958.000"/>
-			<Orientation y="6.1508"/>
-		</Entity>
-		<Entity uid="15752">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="162.000" z="938.000"/>
-			<Orientation y="3.5191"/>
-		</Entity>
-		<Entity uid="15753">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1486.000" z="1150.000"/>
-			<Orientation y="3.7440"/>
-		</Entity>
 		<Entity uid="15754">
 			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="442.000" z="934.000"/>
 			<Orientation y="5.9118"/>
-		</Entity>
-		<Entity uid="15755">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1322.000" z="1054.000"/>
-			<Orientation y="4.7765"/>
-		</Entity>
-		<Entity uid="15756">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1154.000" z="1022.000"/>
-			<Orientation y="1.9965"/>
-		</Entity>
-		<Entity uid="15757">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1494.000" z="1070.000"/>
-			<Orientation y="0.7458"/>
-		</Entity>
-		<Entity uid="15758">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="938.000" z="1314.000"/>
-			<Orientation y="2.4396"/>
-		</Entity>
-		<Entity uid="15759">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1310.000" z="666.000"/>
-			<Orientation y="5.8414"/>
-		</Entity>
-		<Entity uid="15760">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1082.000" z="1138.000"/>
-			<Orientation y="0.1554"/>
-		</Entity>
-		<Entity uid="15761">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1210.000" z="46.000"/>
-			<Orientation y="3.5495"/>
 		</Entity>
 		<Entity uid="15762">
 			<Template>gaia/rock/tropical_large</Template>
@@ -94047,53 +93969,11 @@
 			<Position x="542.000" z="1550.000"/>
 			<Orientation y="0.1319"/>
 		</Entity>
-		<Entity uid="15763">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1346.000" z="1122.000"/>
-			<Orientation y="0.4854"/>
-		</Entity>
 		<Entity uid="15764">
 			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="642.000" z="158.000"/>
 			<Orientation y="2.1939"/>
-		</Entity>
-		<Entity uid="15765">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="630.000" z="230.000"/>
-			<Orientation y="4.9666"/>
-		</Entity>
-		<Entity uid="15766">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1226.000" z="630.000"/>
-			<Orientation y="4.9193"/>
-		</Entity>
-		<Entity uid="15767">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1298.000" z="1054.000"/>
-			<Orientation y="2.5501"/>
-		</Entity>
-		<Entity uid="15768">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1226.000" z="666.000"/>
-			<Orientation y="1.9481"/>
-		</Entity>
-		<Entity uid="15769">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="734.000" z="502.000"/>
-			<Orientation y="5.7233"/>
-		</Entity>
-		<Entity uid="15770">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="462.000" z="570.000"/>
-			<Orientation y="5.6016"/>
 		</Entity>
 		<Entity uid="15771">
 			<Template>gaia/rock/tropical_large</Template>
@@ -94107,53 +93987,17 @@
 			<Position x="230.000" z="1074.000"/>
 			<Orientation y="0.8035"/>
 		</Entity>
-		<Entity uid="15773">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1542.000" z="214.000"/>
-			<Orientation y="0.9397"/>
-		</Entity>
-		<Entity uid="15774">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="538.000" z="330.000"/>
-			<Orientation y="5.5308"/>
-		</Entity>
 		<Entity uid="15775">
 			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="682.000" z="1742.000"/>
 			<Orientation y="5.9939"/>
 		</Entity>
-		<Entity uid="15776">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1774.000" z="566.000"/>
-			<Orientation y="3.9732"/>
-		</Entity>
-		<Entity uid="15777">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="242.000" z="666.000"/>
-			<Orientation y="2.5951"/>
-		</Entity>
 		<Entity uid="15778">
 			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="662.000" z="434.000"/>
 			<Orientation y="1.2130"/>
-		</Entity>
-		<Entity uid="15779">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1262.000" z="870.000"/>
-			<Orientation y="3.1734"/>
-		</Entity>
-		<Entity uid="15780">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1122.000" z="1050.000"/>
-			<Orientation y="2.0072"/>
 		</Entity>
 		<Entity uid="15781">
 			<Template>gaia/rock/tropical_large</Template>
@@ -94167,59 +94011,17 @@
 			<Position x="1266.000" z="918.000"/>
 			<Orientation y="1.8131"/>
 		</Entity>
-		<Entity uid="15783">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1842.000" z="654.000"/>
-			<Orientation y="0.1431"/>
-		</Entity>
 		<Entity uid="15784">
 			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="886.000" z="1486.000"/>
 			<Orientation y="1.0469"/>
 		</Entity>
-		<Entity uid="15785">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1102.000" z="986.000"/>
-			<Orientation y="1.5104"/>
-		</Entity>
-		<Entity uid="15786">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="550.000" z="1710.000"/>
-			<Orientation y="1.4731"/>
-		</Entity>
-		<Entity uid="15787">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="814.000" z="1078.000"/>
-			<Orientation y="4.6935"/>
-		</Entity>
-		<Entity uid="15788">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="854.000" z="1058.000"/>
-			<Orientation y="1.6301"/>
-		</Entity>
 		<Entity uid="15789">
 			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="1482.000" z="1182.000"/>
 			<Orientation y="5.4732"/>
-		</Entity>
-		<Entity uid="15790">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1558.000" z="1086.000"/>
-			<Orientation y="1.8464"/>
-		</Entity>
-		<Entity uid="15791">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="510.000" z="990.000"/>
-			<Orientation y="1.1345"/>
 		</Entity>
 		<Entity uid="15792">
 			<Template>gaia/rock/tropical_large</Template>
@@ -94239,119 +94041,11 @@
 			<Position x="1410.000" z="718.000"/>
 			<Orientation y="0.8020"/>
 		</Entity>
-		<Entity uid="15795">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1530.000" z="1126.000"/>
-			<Orientation y="4.2709"/>
-		</Entity>
-		<Entity uid="15796">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="722.000" z="1726.000"/>
-			<Orientation y="4.7871"/>
-		</Entity>
-		<Entity uid="15797">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1194.000" z="1034.000"/>
-			<Orientation y="6.1666"/>
-		</Entity>
-		<Entity uid="15798">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1578.000" z="1166.000"/>
-			<Orientation y="3.8563"/>
-		</Entity>
-		<Entity uid="15799">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1462.000" z="502.000"/>
-			<Orientation y="0.7623"/>
-		</Entity>
-		<Entity uid="15800">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1318.000" z="810.000"/>
-			<Orientation y="4.4914"/>
-		</Entity>
-		<Entity uid="15801">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="522.000" z="1118.000"/>
-			<Orientation y="1.8138"/>
-		</Entity>
-		<Entity uid="15802">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="418.000" z="494.000"/>
-			<Orientation y="4.7325"/>
-		</Entity>
-		<Entity uid="15803">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1358.000" z="1058.000"/>
-			<Orientation y="5.0638"/>
-		</Entity>
 		<Entity uid="15804">
 			<Template>gaia/rock/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="526.000" z="1154.000"/>
 			<Orientation y="2.4279"/>
-		</Entity>
-		<Entity uid="15805">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="446.000" z="1090.000"/>
-			<Orientation y="5.1215"/>
-		</Entity>
-		<Entity uid="15806">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="358.000" z="598.000"/>
-			<Orientation y="6.1663"/>
-		</Entity>
-		<Entity uid="15807">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1498.000" z="206.000"/>
-			<Orientation y="3.5397"/>
-		</Entity>
-		<Entity uid="15808">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="646.000" z="1690.000"/>
-			<Orientation y="0.5371"/>
-		</Entity>
-		<Entity uid="15809">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1042.000" z="322.000"/>
-			<Orientation y="4.1053"/>
-		</Entity>
-		<Entity uid="15810">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1530.000" z="1038.000"/>
-			<Orientation y="2.7715"/>
-		</Entity>
-		<Entity uid="15811">
-			<Template>gaia/rock/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1222.000" z="590.000"/>
-			<Orientation y="2.9309"/>
-		</Entity>
-		<Entity uid="15812">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="610.000" z="1658.000"/>
-			<Orientation y="4.0456"/>
-		</Entity>
-		<Entity uid="15813">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1126.000" z="330.000"/>
-			<Orientation y="4.0629"/>
 		</Entity>
 		<Entity uid="15814">
 			<Template>gaia/ore/tropical_large</Template>
@@ -94364,54 +94058,6 @@
 			<Player>0</Player>
 			<Position x="1114.000" z="358.000"/>
 			<Orientation y="4.2133"/>
-		</Entity>
-		<Entity uid="15816">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="974.000" z="1070.000"/>
-			<Orientation y="1.9410"/>
-		</Entity>
-		<Entity uid="15817">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1010.000" z="1098.000"/>
-			<Orientation y="0.6518"/>
-		</Entity>
-		<Entity uid="15818">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="758.000" z="54.000"/>
-			<Orientation y="3.6101"/>
-		</Entity>
-		<Entity uid="15819">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1018.000" z="582.000"/>
-			<Orientation y="2.6186"/>
-		</Entity>
-		<Entity uid="15820">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1534.000" z="290.000"/>
-			<Orientation y="4.9456"/>
-		</Entity>
-		<Entity uid="15821">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="246.000" z="1162.000"/>
-			<Orientation y="5.8196"/>
-		</Entity>
-		<Entity uid="15822">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1342.000" z="794.000"/>
-			<Orientation y="1.7377"/>
-		</Entity>
-		<Entity uid="15823">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="790.000" z="1438.000"/>
-			<Orientation y="0.9640"/>
 		</Entity>
 		<Entity uid="15824">
 			<Template>gaia/ore/tropical_large</Template>
@@ -94431,71 +94077,11 @@
 			<Position x="1978.000" z="1050.000"/>
 			<Orientation y="2.2551"/>
 		</Entity>
-		<Entity uid="15827">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1314.000" z="1006.000"/>
-			<Orientation y="4.8690"/>
-		</Entity>
-		<Entity uid="15828">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1078.000" z="1354.000"/>
-			<Orientation y="2.6904"/>
-		</Entity>
-		<Entity uid="15829">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1366.000" z="882.000"/>
-			<Orientation y="5.6806"/>
-		</Entity>
-		<Entity uid="15830">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1290.000" z="862.000"/>
-			<Orientation y="0.3285"/>
-		</Entity>
 		<Entity uid="15831">
 			<Template>gaia/ore/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="166.000" z="1106.000"/>
 			<Orientation y="0.4219"/>
-		</Entity>
-		<Entity uid="15832">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1130.000" z="950.000"/>
-			<Orientation y="0.9999"/>
-		</Entity>
-		<Entity uid="15833">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1342.000" z="446.000"/>
-			<Orientation y="2.2648"/>
-		</Entity>
-		<Entity uid="15834">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="826.000" z="266.000"/>
-			<Orientation y="5.2493"/>
-		</Entity>
-		<Entity uid="15835">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1578.000" z="1042.000"/>
-			<Orientation y="5.4170"/>
-		</Entity>
-		<Entity uid="15836">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1242.000" z="918.000"/>
-			<Orientation y="5.7195"/>
-		</Entity>
-		<Entity uid="15837">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1090.000" z="1014.000"/>
-			<Orientation y="4.4535"/>
 		</Entity>
 		<Entity uid="15838">
 			<Template>gaia/ore/tropical_large</Template>
@@ -94503,113 +94089,11 @@
 			<Position x="670.000" z="1702.000"/>
 			<Orientation y="4.5419"/>
 		</Entity>
-		<Entity uid="15839">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="882.000" z="1150.000"/>
-			<Orientation y="2.8118"/>
-		</Entity>
-		<Entity uid="15840">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1802.000" z="554.000"/>
-			<Orientation y="0.3708"/>
-		</Entity>
 		<Entity uid="15841">
 			<Template>gaia/ore/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="1074.000" z="1530.000"/>
 			<Orientation y="5.7222"/>
-		</Entity>
-		<Entity uid="15842">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1674.000" z="522.000"/>
-			<Orientation y="0.0936"/>
-		</Entity>
-		<Entity uid="15843">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="922.000" z="1134.000"/>
-			<Orientation y="3.5827"/>
-		</Entity>
-		<Entity uid="15844">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="730.000" z="998.000"/>
-			<Orientation y="5.8960"/>
-		</Entity>
-		<Entity uid="15845">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="578.000" z="1542.000"/>
-			<Orientation y="2.7144"/>
-		</Entity>
-		<Entity uid="15846">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="174.000" z="990.000"/>
-			<Orientation y="2.6772"/>
-		</Entity>
-		<Entity uid="15847">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1170.000" z="674.000"/>
-			<Orientation y="6.1224"/>
-		</Entity>
-		<Entity uid="15848">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="202.000" z="910.000"/>
-			<Orientation y="4.9559"/>
-		</Entity>
-		<Entity uid="15849">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1510.000" z="318.000"/>
-			<Orientation y="5.4569"/>
-		</Entity>
-		<Entity uid="15850">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1018.000" z="442.000"/>
-			<Orientation y="2.2220"/>
-		</Entity>
-		<Entity uid="15851">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="562.000" z="1778.000"/>
-			<Orientation y="3.9127"/>
-		</Entity>
-		<Entity uid="15852">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1330.000" z="982.000"/>
-			<Orientation y="5.4707"/>
-		</Entity>
-		<Entity uid="15853">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="738.000" z="1110.000"/>
-			<Orientation y="0.4905"/>
-		</Entity>
-		<Entity uid="15854">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="590.000" z="1758.000"/>
-			<Orientation y="3.7121"/>
-		</Entity>
-		<Entity uid="15855">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1114.000" z="1074.000"/>
-			<Orientation y="4.7068"/>
-		</Entity>
-		<Entity uid="15856">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="542.000" z="482.000"/>
-			<Orientation y="0.8953"/>
 		</Entity>
 		<Entity uid="15857">
 			<Template>gaia/ore/tropical_large</Template>
@@ -94623,77 +94107,17 @@
 			<Position x="1258.000" z="1038.000"/>
 			<Orientation y="2.1742"/>
 		</Entity>
-		<Entity uid="15859">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1618.000" z="242.000"/>
-			<Orientation y="2.1475"/>
-		</Entity>
-		<Entity uid="15860">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="942.000" z="446.000"/>
-			<Orientation y="2.3731"/>
-		</Entity>
-		<Entity uid="15861">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="202.000" z="678.000"/>
-			<Orientation y="3.8518"/>
-		</Entity>
-		<Entity uid="15862">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1118.000" z="1334.000"/>
-			<Orientation y="1.0748"/>
-		</Entity>
 		<Entity uid="15863">
 			<Template>gaia/ore/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="922.000" z="574.000"/>
 			<Orientation y="1.2719"/>
 		</Entity>
-		<Entity uid="15864">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="990.000" z="114.000"/>
-			<Orientation y="3.4036"/>
-		</Entity>
-		<Entity uid="15865">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1106.000" z="942.000"/>
-			<Orientation y="3.1831"/>
-		</Entity>
-		<Entity uid="15866">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="406.000" z="266.000"/>
-			<Orientation y="0.7323"/>
-		</Entity>
-		<Entity uid="15867">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1318.000" z="394.000"/>
-			<Orientation y="4.3220"/>
-		</Entity>
 		<Entity uid="15868">
 			<Template>gaia/ore/tropical_large</Template>
 			<Player>0</Player>
 			<Position x="1258.000" z="630.000"/>
 			<Orientation y="0.3189"/>
-		</Entity>
-		<Entity uid="15869">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="550.000" z="558.000"/>
-			<Orientation y="3.1637"/>
-		</Entity>
-		<Entity uid="15870">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="958.000" z="1122.000"/>
-			<Orientation y="0.4788"/>
 		</Entity>
 		<Entity uid="15871">
 			<Template>gaia/ore/tropical_large</Template>
@@ -94712,18 +94136,6 @@
 			<Player>0</Player>
 			<Position x="822.000" z="1354.000"/>
 			<Orientation y="4.6904"/>
-		</Entity>
-		<Entity uid="15874">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="1214.000" z="958.000"/>
-			<Orientation y="5.8755"/>
-		</Entity>
-		<Entity uid="15875">
-			<Template>gaia/ore/tropical_large</Template>
-			<Player>0</Player>
-			<Position x="654.000" z="1746.000"/>
-			<Orientation y="5.0390"/>
 		</Entity>
 		<Entity uid="15876">
 			<Template>gaia/fauna_caiman</Template>

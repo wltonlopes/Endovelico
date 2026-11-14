@@ -52,4 +52,170 @@
 		<image backcolor="215 170 80 230" size="100%-2 100%-12 100% 100%"/>
 	</sprite>
 
+	<!-- ===================== Layout moderno (mapa mundial) ===================== -->
+
+	<!-- Barra superior: vidro escuro com linha dourada embaixo. -->
+	<sprite name="gsTopBar">
+		<image backcolor="8 10 14 215" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 14" size="0 0 100% 50%"/>
+		<image backcolor="215 170 80 200" size="0 100%-2 100% 100%"/>
+	</sprite>
+
+	<!-- Separador vertical entre os itens da barra superior. -->
+	<sprite name="gsDivider">
+		<image backcolor="255 255 255 40" size="0 20% 1 80%"/>
+	</sprite>
+
+	<!-- Janela grande (árvore de tecnologias, eventos). -->
+	<sprite name="gsWindow">
+		<image backcolor="12 14 20 245" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 30" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 30" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 255 255 30" size="0 1 1 100%-1"/>
+		<image backcolor="255 255 255 30" size="100%-1 1 100% 100%-1"/>
+		<image backcolor="215 170 80 200" size="0 0 100% 2"/>
+		<image backcolor="215 170 80 240" size="0 0 10 2"/>
+		<image backcolor="215 170 80 240" size="0 0 2 10"/>
+		<image backcolor="215 170 80 240" size="100%-10 100%-2 100% 100%"/>
+		<image backcolor="215 170 80 240" size="100%-2 100%-10 100% 100%"/>
+	</sprite>
+
+	<!-- Faixas das eras na árvore de tecnologias. -->
+	<sprite name="gsEraBandA">
+		<image backcolor="255 255 255 10" size="0 0 100% 100%"/>
+		<image backcolor="215 170 80 70" size="0 0 100% 1"/>
+	</sprite>
+	<sprite name="gsEraBandB">
+		<image backcolor="0 0 0 60" size="0 0 100% 100%"/>
+		<image backcolor="215 170 80 70" size="0 0 100% 1"/>
+	</sprite>
+	<sprite name="gsEraLabel">
+		<image backcolor="215 170 80 30" size="0 0 100% 100%"/>
+		<image backcolor="215 170 80 160" size="100%-2 0 100% 100%"/>
+	</sprite>
+
+	<!-- Cartões de tecnologia, um por estado. -->
+	<sprite name="gsCardResearched">
+		<image backcolor="70 58 28 235" size="0 0 100% 100%"/>
+		<image backcolor="230 190 90 255" size="0 0 100% 1"/>
+		<image backcolor="230 190 90 255" size="0 100%-1 100% 100%"/>
+		<image backcolor="230 190 90 255" size="0 1 1 100%-1"/>
+		<image backcolor="230 190 90 255" size="100%-1 1 100% 100%-1"/>
+		<image backcolor="230 190 90 255" size="0 0 100% 2"/>
+	</sprite>
+	<sprite name="gsCardResearching">
+		<image backcolor="20 52 70 235" size="0 0 100% 100%"/>
+		<image backcolor="90 200 255 255" size="0 0 100% 1"/>
+		<image backcolor="90 200 255 255" size="0 100%-1 100% 100%"/>
+		<image backcolor="90 200 255 255" size="0 1 1 100%-1"/>
+		<image backcolor="90 200 255 255" size="100%-1 1 100% 100%-1"/>
+		<image backcolor="90 200 255 255" size="0 0 100% 2"/>
+	</sprite>
+	<sprite name="gsCardAvailable">
+		<image backcolor="28 32 40 235" size="0 0 100% 100%"/>
+		<image backcolor="200 200 200 110" size="0 0 100% 1"/>
+		<image backcolor="200 200 200 110" size="0 100%-1 100% 100%"/>
+		<image backcolor="200 200 200 110" size="0 1 1 100%-1"/>
+		<image backcolor="200 200 200 110" size="100%-1 1 100% 100%-1"/>
+	</sprite>
+	<sprite name="gsCardLocked">
+		<image backcolor="16 17 20 220" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 30" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 30" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 255 255 30" size="0 1 1 100%-1"/>
+		<image backcolor="255 255 255 30" size="100%-1 1 100% 100%-1"/>
+	</sprite>
+	<sprite name="gsCardHover">
+		<image backcolor="44 50 62 240" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 200" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 200" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 255 255 200" size="0 1 1 100%-1"/>
+		<image backcolor="255 255 255 200" size="100%-1 1 100% 100%-1"/>
+	</sprite>
+	<sprite name="gsCardSelected">
+		<image backcolor="40 46 58 245" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 255" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 255" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 255 255 255" size="0 1 1 100%-1"/>
+		<image backcolor="255 255 255 255" size="100%-1 1 100% 100%-1"/>
+		<image backcolor="255 255 255 255" size="0 0 10 2"/>
+		<image backcolor="255 255 255 255" size="0 0 2 10"/>
+		<image backcolor="255 255 255 255" size="100%-10 100%-2 100% 100%"/>
+		<image backcolor="255 255 255 255" size="100%-2 100%-10 100% 100%"/>
+	</sprite>
+
+	<!-- Barras de progresso. -->
+	<sprite name="gsBarBg">
+		<image backcolor="0 0 0 170" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 40" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 40" size="0 100%-1 100% 100%"/>
+	</sprite>
+	<sprite name="gsBarFill">
+		<image backcolor="70 170 230 255" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 50" size="0 0 100% 40%"/>
+	</sprite>
+	<sprite name="gsBarFillGold">
+		<image backcolor="215 165 60 255" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 50" size="0 0 100% 40%"/>
+	</sprite>
+
+	<!-- Botões. -->
+	<sprite name="gsButton">
+		<image backcolor="28 32 42 230" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 50" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 50" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 255 255 50" size="0 1 1 100%-1"/>
+		<image backcolor="255 255 255 50" size="100%-1 1 100% 100%-1"/>
+	</sprite>
+	<sprite name="gsButtonOver">
+		<image backcolor="48 54 70 240" size="0 0 100% 100%"/>
+		<image backcolor="215 170 80 220" size="0 0 100% 1"/>
+		<image backcolor="215 170 80 220" size="0 100%-1 100% 100%"/>
+		<image backcolor="215 170 80 220" size="0 1 1 100%-1"/>
+		<image backcolor="215 170 80 220" size="100%-1 1 100% 100%-1"/>
+	</sprite>
+	<sprite name="gsButtonPressed">
+		<image backcolor="18 20 26 240" size="0 0 100% 100%"/>
+		<image backcolor="215 170 80 255" size="0 0 100% 1"/>
+		<image backcolor="215 170 80 255" size="0 100%-1 100% 100%"/>
+		<image backcolor="215 170 80 255" size="0 1 1 100%-1"/>
+		<image backcolor="215 170 80 255" size="100%-1 1 100% 100%-1"/>
+	</sprite>
+	<sprite name="gsButtonDisabled">
+		<image backcolor="22 23 26 200" size="0 0 100% 100%"/>
+		<image backcolor="255 255 255 20" size="0 0 100% 1"/>
+		<image backcolor="255 255 255 20" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 255 255 20" size="0 1 1 100%-1"/>
+		<image backcolor="255 255 255 20" size="100%-1 1 100% 100%-1"/>
+	</sprite>
+	<sprite name="gsButtonGold">
+		<image backcolor="150 105 35 240" size="0 0 100% 100%"/>
+		<image backcolor="240 200 110 255" size="0 0 100% 1"/>
+		<image backcolor="240 200 110 255" size="0 100%-1 100% 100%"/>
+		<image backcolor="240 200 110 255" size="0 1 1 100%-1"/>
+		<image backcolor="240 200 110 255" size="100%-1 1 100% 100%-1"/>
+		<image backcolor="255 225 150 255" size="0 0 100% 2"/>
+	</sprite>
+	<sprite name="gsButtonGoldOver">
+		<image backcolor="185 135 50 245" size="0 0 100% 100%"/>
+		<image backcolor="255 230 150 255" size="0 0 100% 1"/>
+		<image backcolor="255 230 150 255" size="0 100%-1 100% 100%"/>
+		<image backcolor="255 230 150 255" size="0 1 1 100%-1"/>
+		<image backcolor="255 230 150 255" size="100%-1 1 100% 100%-1"/>
+		<image backcolor="255 240 190 255" size="0 0 100% 2"/>
+	</sprite>
+	<sprite name="gsButtonGoldPressed">
+		<image backcolor="120 82 25 245" size="0 0 100% 100%"/>
+		<image backcolor="240 200 110 255" size="0 0 100% 1"/>
+		<image backcolor="240 200 110 255" size="0 100%-1 100% 100%"/>
+		<image backcolor="240 200 110 255" size="0 1 1 100%-1"/>
+		<image backcolor="240 200 110 255" size="100%-1 1 100% 100%-1"/>
+	</sprite>
+
+	<!-- Item clicável da barra superior (pesquisa atual). -->
+	<sprite name="gsChipOver">
+		<image backcolor="255 255 255 22" size="0 0 100% 100%"/>
+		<image backcolor="215 170 80 200" size="0 100%-2 100% 100%"/>
+	</sprite>
+
 </sprites>

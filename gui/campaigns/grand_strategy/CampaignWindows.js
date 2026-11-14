@@ -6,6 +6,7 @@ class CampaignWindows
         this.Province = new ProvinceDetailsWindow(menu);
         this.Tribe = new TribeDetailsWindow(menu);
         this.Hero = new HeroDetailsWindow(menu);
+        this.TechTree = new TechTreeWindow(menu);
         this.Diplomacy = typeof DiplomacyWindow !== "undefined" ? new DiplomacyWindow(menu) : null;
         this.Event = typeof EventWindow !== "undefined" ? new EventWindow(menu) : null;
         this.GameOver = typeof GameOverWindow !== "undefined" ? new GameOverWindow(menu) : null;

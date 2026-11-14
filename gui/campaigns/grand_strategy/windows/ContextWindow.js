@@ -27,11 +27,11 @@ class ContextMenu
 		}
 		this.menu.selectedProvince = code;
 
-		const pos = [
-			(this.menu.mouseX || 0) / this.menu.zoom + this.menu.cameraX,
-			(this.menu.mouseY || 0) / this.menu.zoom + this.menu.cameraZ
-		];
-		Engine.GetGUIObjectByName("contextPanel").size = this.menu.toGUISize(...pos, pos[0] + 175, pos[1] + 140);
+		// Tamanho fixo em pixels de tela (não acompanha o zoom), sem sair da tela.
+		const screen = this.menu.window.getComputedSize();
+		const screenX = Math.min(this.menu.mouseX || 0, screen.right - 234);
+		const screenY = Math.min(this.menu.mouseY || 0, screen.bottom - 200);
+		Engine.GetGUIObjectByName("contextPanel").size = `${screenX} ${screenY} ${screenX + 230} ${screenY + 6 * 30 + 16}`;
 		Engine.GetGUIObjectByName("contextPanel").hidden = false;
 
 		Engine.GetGUIObjectByName("contextPanelButton[0]").hidden = false;
@@ -42,7 +42,14 @@ class ContextMenu
 			g_GameData.playerHero.doMove(code);
 			this.menu.displayContextualPanel(-1);
 		};
-		Engine.GetGUIObjectByName("contextPanelButton[0]").caption = "Move there";
+		// Sem a tecnologia de navegação, mostra qual falta.
+		const blockReason = g_GameData.tribes[g_GameData.playerTribe].techs
+			.getNavigationBlockReason(g_GameData.playerHero.location, code);
+		const linked = g_GameData.provinces[code].canTravel(g_GameData.playerHero.location);
+		Engine.GetGUIObjectByName("contextPanelButton[0]").caption =
+			linked && blockReason ? blockReason : "Move there";
+		Engine.GetGUIObjectByName("contextPanelButton[0]").tooltip =
+			linked && blockReason ? "Research it in the technology tree." : "";
 
 		if (!g_GameData.provinces[code].ownerTribe || g_GameData.provinces[code].ownerTribe === g_GameData.playerTribe)
 		{
@@ -85,6 +92,6 @@ class ContextMenu
 		}
 
 		for (let i = 0; i < 6; ++i)
-			Engine.GetGUIObjectByName(`contextPanelButton[${i}]`).size = `0 ${i * 20} 100% ${(i + 1) * 20}`;
+			Engine.GetGUIObjectByName(`contextPanelButton[${i}]`).size = `0 ${i * 30} 100% ${i * 30 + 27}`;
 	}
 }

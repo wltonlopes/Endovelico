@@ -28,6 +28,7 @@
 	<script file="gui/campaigns/grand_strategy/windows/TribeWindow.js"/>
 	<script file="gui/campaigns/grand_strategy/windows/HeroWindow.js"/>
 	<script file="gui/campaigns/grand_strategy/windows/DiplomacyWindow.js"/>
+	<script file="gui/campaigns/grand_strategy/windows/TechTreeWindow.js"/>
 	<script file="gui/campaigns/grand_strategy/CampaignWindows.js"/>
 	<script file="gui/campaigns/grand_strategy/CampaignMenu.js"/>
 
@@ -70,136 +71,223 @@
 
 		<!-- UI -->
 		<object z="100">
-			<!-- Top panel -->
-			<object name="topPanel" type="image" sprite="panelShader" size="0 0 600 50">
-				<object name="topPanelText" type="text" style="ModernLabelText" size="0 0 100% 100%" />
+			<!-- ============ Barra superior ============ -->
+			<object name="topPanel" type="image" sprite="gsTopBar" size="0 0 100% 46">
+				<object name="playerEmblem" type="image" size="8 4 46 42" ghost="true"/>
+				<object name="playerTribeName" type="text" style="GSTitle" text_align="left" size="54 0 200 100%"/>
+
+				<object type="image" sprite="gsDivider" size="204 0 205 100%"/>
+				<object type="image" sprite="stretched:session/icons/resources/time_small.png" size="214 13 234 33" ghost="true"/>
+				<object name="topTurn" type="text" style="GSBarText" size="240 0 314 100%">
+					<translatableAttribute id="tooltip">Current turn</translatableAttribute>
+				</object>
+
+				<object type="image" sprite="gsDivider" size="314 0 315 100%"/>
+				<object type="image" sprite="stretched:session/icons/resources/metal.png" size="322 11 346 35" ghost="true"/>
+				<object name="topGold" type="text" style="GSBarText" size="352 0 474 100%"/>
+
+				<object type="image" sprite="gsDivider" size="474 0 475 100%"/>
+				<object name="topResearch" type="button" size="476 2 700 44" sprite_over="gsChipOver">
+					<object type="image" sprite="stretched:session/portraits/technologies/sibylline_books.png" size="8 9 32 33" ghost="true"/>
+					<object name="topResearchText" type="text" style="GSBarText" size="38 2 100%-4 28" ghost="true"/>
+					<object type="image" sprite="gsBarBg" size="38 30 100%-8 36" ghost="true">
+						<object name="topResearchBar" type="image" sprite="gsBarFill" size="0 0 0% 100%" ghost="true"/>
+					</object>
+				</object>
+
+				<object type="image" sprite="gsDivider" size="700 0 701 100%"/>
+				<object type="image" sprite="stretched:session/icons/resources/population.png" size="708 11 732 35" ghost="true"/>
+				<object name="topTerritory" type="text" style="GSBarText" size="738 0 800 100%">
+					<translatableAttribute id="tooltip">Share of world territory</translatableAttribute>
+				</object>
+
+				<object type="image" sprite="gsDivider" size="800 0 801 100%"/>
+				<object name="topZoom" type="text" style="GSBarText" size="810 0 880 100%" textcolor="170 170 170"/>
+
+				<!-- Menu à direita -->
+				<object name="techTreeButton" type="button" style="GSButtonGold" size="100%-388 7 100%-262 39">
+					<translatableAttribute id="caption">Technologies</translatableAttribute>
+				</object>
+				<object name="loadSaveButton" type="button" style="GSButton" size="100%-256 7 100%-134 39">
+					<translatableAttribute id="caption">Load / Save</translatableAttribute>
+				</object>
+				<object name="backToMain" type="button" style="GSButton" size="100%-128 7 100%-8 39">
+					<translatableAttribute id="caption">Save and Exit</translatableAttribute>
+				</object>
 			</object>
 
-			<!-- Hero panel -->
-			<object name="heroDetails" size="0 100 300 300" type="image" sprite="panelShader">
-				<object style="ModernLabelText" type="text" size="50%-128 4 50%+128 36">
-					<translatableAttribute id="caption">Hero Details</translatableAttribute>
+			<!-- ============ General selecionado ============ -->
+			<object name="heroDetails" size="10 54 310 244" type="image" sprite="panelShader">
+				<object name="heroPortrait" type="image" size="10 12 74 76" ghost="true"/>
+				<object name="heroTitle" type="text" style="GSTitle" text_align="left" size="84 8 100%-8 30"/>
+				<object name="heroDetailsText" type="text" style="GSText" size="80 30 100%-6 110"/>
+				<object type="image" sprite="gsBarBg" size="10 82 74 90" ghost="true">
+					<object name="heroMovesBar" type="image" sprite="gsBarFillGold" size="0 0 0% 100%" ghost="true"/>
 				</object>
-				<object name="heroDetailsText" type="text" style="ModernLabelText" size="0 40 100% 100" />
 
-				<object name="strengthenGarrison" type="button" style="StoneButtonFancy" size="20 100%-96 100%-20 100%-68" enabled="false">
-					<translatableAttribute id="caption">Strengthen Garrison</translatableAttribute>
+				<object name="strengthenGarrison" type="button" style="GSButton" size="10 100%-74 50%-3 100%-44" enabled="false">
+					<translatableAttribute id="caption">+ Garrison</translatableAttribute>
+					<translatableAttribute id="tooltip">Strengthen Garrison</translatableAttribute>
 				</object>
-				<object name="weakenGarrison" type="button" style="StoneButtonFancy" size="20 100%-68 100%-20 100%-40" enabled="false">
-					<translatableAttribute id="caption">Weaken Garrison</translatableAttribute>
+				<object name="weakenGarrison" type="button" style="GSButton" size="50%+3 100%-74 100%-10 100%-44" enabled="false">
+					<translatableAttribute id="caption">- Garrison</translatableAttribute>
+					<translatableAttribute id="tooltip">Weaken Garrison</translatableAttribute>
 				</object>
-				<object name="doAttack" type="button" style="StoneButtonFancy" size="20 100%-40 100%-20 100%-12" enabled="false">
+				<object name="doAttack" type="button" style="GSButtonGold" size="10 100%-38 100%-10 100%-8" enabled="false">
 					<translatableAttribute id="caption">Attack Province</translatableAttribute>
 				</object>
 			</object>
 
-			<!-- Province detail panel -->
-			<object name="provinceDetails" size="0 350 300 650" type="image" sprite="campaignPanelTranslucent">
-				<object style="ModernLabelText" type="text" size="50%-128 4 50%+128 36">
+			<!-- ============ Província ============ -->
+			<object name="provinceDetails" size="10 252 310 582" type="image" sprite="campaignPanelTranslucent">
+				<object type="text" style="GSTitle" size="10 6 100%-36 32">
 					<translatableAttribute id="caption">Province Details</translatableAttribute>
 				</object>
 				<!-- Fecha o painel; clicar numa província abre de novo. -->
-				<object name="provinceDetailsClose" type="button" z="20" size="100%-30 6 100%-6 30"
+				<object name="provinceDetailsClose" type="button" z="20" size="100%-30 8 100%-8 30"
 					sprite="stretched:session/icons/cancel.png">
 					<translatableAttribute id="tooltip">Close</translatableAttribute>
 				</object>
-				<object name="provinceDetailsText" type="text" style="ModernLabelText" size="0 40 100% 100%" />
-				<object type="button" name="provinceOwnerButton" sprite="stretched:session/portraits/emblems/emblem_achaemenids.png" size="100%-96 34 100%-36 94"/>
-				<object name="provinceBuildButton" type="button" style="StoneButtonFancy" size="20 100%-120 100%-20 100%-92" hidden="true">
+				<object name="provinceDetailsText" type="text" style="GSText" size="8 36 100%-72 100%-110" />
+				<object type="button" name="provinceOwnerButton" sprite="stretched:session/portraits/emblems/emblem_achaemenids.png" size="100%-66 40 100%-10 96"/>
+				<object name="provinceBuildButton" type="button" style="GSButton" size="10 100%-104 50%-3 100%-74" hidden="true">
 					<translatableAttribute id="caption">Build</translatableAttribute>
 				</object>
-				<object name="provinceConstructionButton" type="button" style="StoneButtonFancy" size="20 100%-90 100%-20 100%-62" hidden="true">
+				<object name="provinceConstructionButton" type="button" style="GSButton" size="50%+3 100%-104 100%-10 100%-74" hidden="true">
 					<translatableAttribute id="caption">Construction</translatableAttribute>
 				</object>
-				<object name="provinceBuildPanel" hidden="true" size="20 100%-150 100%-20 100%-12" type="image" sprite="campaignBackground">
-					<object name="provinceBuildOption[0]" type="button" style="StoneButtonFancy" size="0 0 100% 28" hidden="true" sprite="stretched:session/icons/construction.png"/>
-					<object name="provinceBuildOption[1]" type="button" style="StoneButtonFancy" size="0 30 100% 58" hidden="true" sprite="stretched:session/icons/construction.png"/>
-					<object name="provinceBuildOption[2]" type="button" style="StoneButtonFancy" size="0 60 100% 88" hidden="true" sprite="stretched:session/icons/construction.png"/>
-					<object name="provinceBuildOption[3]" type="button" style="StoneButtonFancy" size="0 90 100% 118" hidden="true" sprite="stretched:session/icons/construction.png"/>
-					<object name="provinceBuildOption[4]" type="button" style="StoneButtonFancy" size="0 120 100% 148" hidden="true" sprite="stretched:session/icons/construction.png"/>
+				<object name="provinceBuildPanel" hidden="true" size="8 36 100%-8 100%-108" type="image" sprite="gsWindow">
+					<object name="provinceBuildOption[0]" type="button" style="GSButton" size="6 6 100%-6 34" hidden="true"/>
+					<object name="provinceBuildOption[1]" type="button" style="GSButton" size="6 38 100%-6 66" hidden="true"/>
+					<object name="provinceBuildOption[2]" type="button" style="GSButton" size="6 70 100%-6 98" hidden="true"/>
+					<object name="provinceBuildOption[3]" type="button" style="GSButton" size="6 102 100%-6 130" hidden="true"/>
+					<object name="provinceBuildOption[4]" type="button" style="GSButton" size="6 134 100%-6 162" hidden="true"/>
 				</object>
 
-				<object name="provinceConstructionPanel" hidden="true" size="50%-175 120 50%+175 420" z="1000" type="image" sprite="campaignBackground">
-					<object style="ModernLabelText" type="text" size="0 0 100% 32">Construction</object>
-					<object name="provinceConstructionPanelText" type="text" style="ModernLabelText" size="10 36 100%-10 100%-40" />
-					<object name="provinceConstructionCloseButton" type="button" style="StoneButtonFancy" size="20 100%-34 100%-20 100%-10">
+				<object name="provinceConstructionPanel" hidden="true" size="50%-175 120 50%+175 420" z="1000" type="image" sprite="gsWindow">
+					<object style="GSTitle" type="text" size="0 4 100% 32">Construction</object>
+					<object name="provinceConstructionPanelText" type="text" style="GSText" size="10 36 100%-10 100%-40" />
+					<object name="provinceConstructionCloseButton" type="button" style="GSButton" size="20 100%-38 100%-20 100%-10">
 						<translatableAttribute id="caption">Close</translatableAttribute>
 					</object>
 				</object>
-			
-			<object
-				name="trainGeneral"
-				type="button"
-				style="StoneButtonFancy"
-				size="20 100%-40 100%-20 100%-12"
-				hidden="true">
 
-				<translatableAttribute id="caption">
-					Train General
-				</translatableAttribute>
-
+				<object name="trainGeneral" type="button" style="GSButtonGold" size="10 100%-68 100%-10 100%-38" hidden="true">
+					<translatableAttribute id="caption">Train General</translatableAttribute>
+				</object>
 			</object>
 
-			</object>
-
-			<!-- Tribe detail panel -->
-			<object name="tribeDetails" size="0 350 300 650" hidden="true" type="image" sprite="campaignBackground">
-				<object style="ModernLabelText" type="text" size="50%-128 4 50%+128 36">
+			<!-- ============ Tribo ============ -->
+			<object name="tribeDetails" size="10 252 310 582" hidden="true" type="image" sprite="panelShader">
+				<object style="GSTitle" type="text" size="10 6 100%-76 32">
 					<translatableAttribute id="caption">Tribe Details</translatableAttribute>
 				</object>
-				<object name="tribeDetailsText" type="text" style="ModernLabelText" size="0 40 100% 100%" />
-				<object type="button" name="goToProvinceButton" sprite="stretched:session/portraits/emblems/emblem_athenians.png" size="100%-70 10 100%-10 70"/>
+				<object name="tribeDetailsText" type="text" style="GSText" size="8 36 100%-8 100%-8" />
+				<object type="button" name="goToProvinceButton" sprite="stretched:session/portraits/emblems/emblem_athenians.png" size="100%-66 10 100%-10 66"/>
 			</object>
 
-			<!-- Info ticker -->
-			<object name="infoTicker" size="50%-300 100%-140 50%+300 100%" type="image" sprite="panelShader">
-				<object name="infoTickerData" type="list" style="InfoTickerList" size = "0 0 100% 100%"/>
+			<!-- ============ Registro (centro, embaixo) ============ -->
+			<object name="infoTicker" size="10 100%-130 50%+100 100%-10" type="image" sprite="panelShader">
+				<object name="infoTickerData" type="list" style="InfoTickerList" size="4 4 100%-4 100%-4"/>
 			</object>
 
-			<object name="campaignStatsPanel" size="100%-320 100%-140 100%-20 100%" type="image" sprite="panelShader">
-				<object type="text" style="ModernLabelText" size="10 8 100%-10 34">
+			<!-- ============ Histórico + Fim de turno (direita, embaixo) ============ -->
+			<object name="campaignStatsPanel" size="100%-330 100%-196 100%-10 100%-66" type="image" sprite="panelShader">
+				<object type="text" style="GSTitle" size="10 4 100%-10 28">
 					<translatableAttribute id="caption">Campaign History</translatableAttribute>
 				</object>
-				<object name="campaignStatsList" type="list" style="InfoTickerList" size="10 40 100%-10 100%-10"/>
+				<object name="campaignStatsList" type="list" style="InfoTickerList" size="6 30 100%-6 100%-6"/>
+			</object>
+
+			<object name="finishTurn" type="button" style="GSButtonGold" size="100%-330 100%-58 100%-10 100%-10" font="sans-bold-stroke-20" enabled="false">
+				<translatableAttribute id="caption">Finish Turn</translatableAttribute>
 			</object>
 
 			<!-- Contextual panel -->
-			<object name="contextPanel" size="0 0 250 200" hidden="true" type="image" sprite="campaignBackground">
-				<object size="10 10 100%-10 100%-10">
-					<object name="contextPanelButton[0]" type="button" style="StoneButtonFancy"/>
-					<object name="contextPanelButton[1]" type="button" style="StoneButtonFancy"/>
-					<object name="contextPanelButton[2]" type="button" style="StoneButtonFancy"/>
-					<object name="contextPanelButton[3]" type="button" style="StoneButtonFancy"/>
-					<object name="contextPanelButton[4]" type="button" style="StoneButtonFancy"/>
-					<object name="contextPanelButton[5]" type="button" style="StoneButtonFancy"/>
+			<object name="contextPanel" size="0 0 250 200" hidden="true" type="image" sprite="gsWindow">
+				<object size="8 8 100%-8 100%-8">
+					<object name="contextPanelButton[0]" type="button" style="GSButton"/>
+					<object name="contextPanelButton[1]" type="button" style="GSButton"/>
+					<object name="contextPanelButton[2]" type="button" style="GSButton"/>
+					<object name="contextPanelButton[3]" type="button" style="GSButton"/>
+					<object name="contextPanelButton[4]" type="button" style="GSButton"/>
+					<object name="contextPanelButton[5]" type="button" style="GSButton"/>
 				</object>
 			</object>
 
 			<!-- Event panel -->
-			<object z="400" name="eventPanel" hidden="false" size="20% 20% 80% 80%" type="image" sprite="campaignBackground">
-				<object name="eventPanelTitle" style="ModernLabelText" type="text" size="50%-128 4 50%+128 36">
+			<object z="400" name="eventPanel" hidden="false" size="50%-360 50%-220 50%+360 50%+220" type="image" sprite="gsWindow">
+				<object name="eventPanelTitle" style="GSTitle" type="text" size="20 8 100%-20 40" font="sans-bold-stroke-20">
 					<translatableAttribute id="caption">Event!</translatableAttribute>
 				</object>
-				<object name="eventPanelDesc" type="text" style="ModernLabelText" size="0 40 100% 100%-40" />
-				<object size="20 100%-40 100%-20 100%-12">
-					<object name="eventPanelButton[0]" type="button" style="StoneButtonFancy" size="0 0 50% 100%"/>
-					<object name="eventPanelButton[1]" type="button" style="StoneButtonFancy" size="50% 0 100% 100%"/>
+				<object name="eventPanelDesc" type="text" style="ModernLabelText" size="20 44 100%-20 100%-56" />
+				<object size="20 100%-48 100%-20 100%-14">
+					<object name="eventPanelButton[0]" type="button" style="GSButtonGold" size="0 0 50% 100%"/>
+					<object name="eventPanelButton[1]" type="button" style="GSButton" size="50% 0 100% 100%"/>
 				</object>
 			</object>
 
-			<object name="menuBar" size="100%-200 0 100% 120">
-				<!-- Exit & Back to Main Menu -->
-				<object name="backToMain" type="button" style="StoneButtonFancy" size="0 8 100%-8 36">
-					<translatableAttribute id="caption">Autosave and Exit</translatableAttribute>
-				</object>
-				<object name="loadSaveButton" type="button" style="StoneButtonFancy" size="0 44 100%-8 72">
-					<translatableAttribute id="caption">Load / Save</translatableAttribute>
-				</object>
-			</object>
+			<!-- ============ Árvore de tecnologias ============ -->
+			<object name="techTreeWindow" hidden="true" z="300" type="image" sprite="color:0 0 0 170" size="0 0 100% 100%">
+				<object name="techTreePanel" type="image" sprite="gsWindow" size="16 16 100%-16 100%-16">
+					<object type="text" style="GSTitle" text_align="left" font="sans-bold-stroke-22" size="20 8 50% 44">
+						<translatableAttribute id="caption">Technology Tree</translatableAttribute>
+					</object>
+					<object name="techTreeRate" type="text" style="GSBarText" text_align="right" size="40% 8 100%-60 44"/>
+					<object name="techTreeClose" type="button" hotkey="cancel" size="100%-44 12 100%-14 42" sprite="stretched:session/icons/cancel.png">
+						<translatableAttribute id="tooltip">Close</translatableAttribute>
+					</object>
 
-			<object name="bottomPanel" size="30 100%-55 100%-5 100%-25" >
-				<object name="finishTurn" type="button" style="StoneButtonFancy" size="83%-25 0 100%-25 100%" enabled="false">
-					<translatableAttribute id="caption">Finish Turn</translatableAttribute>
+					<!-- Pesquisa atual -->
+					<object type="image" sprite="panelShader" size="20 50 100%-20 86">
+						<object name="techCurrentText" type="text" style="GSBarText" size="12 0 40% 100%"/>
+						<object type="image" sprite="gsBarBg" size="40% 10 100%-12 100%-10">
+							<object name="techCurrentBar" type="image" sprite="gsBarFill" size="0 0 0% 100%"/>
+							<object name="techCurrentBarText" type="text" style="GSSmall" size="0 0 100% 100%"/>
+						</object>
+					</object>
+
+					<!-- Grade: eras (linhas) x ramos (colunas). Posicionada pelo TechTreeWindow.js -->
+					<object name="techGrid" size="20 96 100%-320 100%-16">
+						<repeat count="4">
+							<object name="techEra[n]" type="image" sprite="gsEraBandA" ghost="true">
+								<object name="techEraLabel[n]" type="image" sprite="gsEraLabel" size="0 0 70 100%">
+									<object name="techEraNumeral[n]" type="text" style="GSTitle" font="sans-bold-stroke-24" size="0 50%-26 100% 50%+4"/>
+									<object name="techEraName[n]" type="text" style="GSSmall" size="2 50%+4 100%-4 50%+40"/>
+								</object>
+							</object>
+						</repeat>
+						<repeat count="4">
+							<object name="techBranch[n]" type="text" style="GSTitle" ghost="true">
+								<object name="techBranchLine[n]" type="image" size="10 100%-3 100%-10 100%" ghost="true"/>
+							</object>
+						</repeat>
+						<repeat count="100">
+							<object name="techLine[n]" type="image" ghost="true" hidden="true"/>
+						</repeat>
+						<repeat count="40">
+							<object name="techCard[n]" type="button" hidden="true">
+								<object name="techCardAccent[n]" type="image" size="0 0 4 100%" ghost="true"/>
+								<object name="techCardIcon[n]" type="image" size="50%-22 6 50%+22 50" ghost="true"/>
+								<object name="techCardName[n]" type="text" style="GSSmall" font="sans-bold-stroke-12" textcolor="240 240 240" size="4 50 100%-4 76" ghost="true"/>
+								<object name="techCardStatus[n]" type="text" style="GSSmall" size="4 100%-20 100%-4 100%-4" ghost="true"/>
+								<object name="techCardProgressBg[n]" type="image" sprite="gsBarBg" size="6 100%-5 100%-6 100%-2" ghost="true">
+									<object name="techCardProgress[n]" type="image" sprite="gsBarFill" size="0 0 0% 100%" ghost="true"/>
+								</object>
+							</object>
+						</repeat>
+					</object>
+
+					<!-- Detalhes da tecnologia selecionada -->
+					<object name="techDetail" type="image" sprite="panelShader" size="100%-308 96 100%-20 100%-16">
+						<object name="techDetailIcon" type="image" size="50%-40 16 50%+40 96"/>
+						<object name="techDetailName" type="text" style="GSTitle" font="sans-bold-stroke-18" size="10 102 100%-10 130"/>
+						<object name="techDetailSub" type="text" style="GSSmall" size="10 130 100%-10 150"/>
+						<object name="techDetailText" type="text" style="GSText" size="12 158 100%-12 100%-62"/>
+						<object name="techDetailButton" type="button" style="GSButtonGold" size="14 100%-52 100%-14 100%-14">
+							<translatableAttribute id="caption">Research</translatableAttribute>
+						</object>
+					</object>
 				</object>
 			</object>
 		</object>

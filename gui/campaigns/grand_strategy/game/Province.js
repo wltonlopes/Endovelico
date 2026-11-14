@@ -181,7 +181,19 @@ class Province
 		if (this.data.provinceType === "sea")
 			return 0;
 
-		let balance = 100 - this.garrison * 50;
+		// Bônus e custo de guarnição vêm das tecnologias do dono.
+		const techs = g_GameData.tribes[this.ownerTribe]?.techs;
+		let balance = 100;
+		if (techs)
+		{
+			balance += techs.get("provinceIncome");
+			if (this.isCoastal())
+				balance += techs.get("coastalIncome");
+			balance -= this.garrison * techs.getGarrisonUpkeep();
+		}
+		else
+			balance -= this.garrison * 50;
+		balance = Math.round(balance);
 		for (const buildingId of this.buildings)
 		{
 			const data = g_GameData.getProvinceBuildingData(buildingId);
@@ -220,12 +232,32 @@ class Province
 		if (!definition)
 			return "";
 
-		return `${definition.name} (${this.buildProgress}/${definition.buildTime})`;
+		return `${definition.name} (${this.buildProgress}/${this.getBuildingTime(definition.id)})`;
 	}
 
 	getBuildableStructures()
 	{
 		return g_GameData.getProvinceBuildingDefinitions();
+	}
+
+	/** Custo de uma construção, com o desconto das tecnologias do dono. */
+	getBuildingCost(buildingId)
+	{
+		const data = g_GameData.getProvinceBuildingData(buildingId);
+		if (!data)
+			return 0;
+		const techs = g_GameData.tribes[this.ownerTribe]?.techs;
+		return Math.round(data.cost * (techs ? techs.getBuildCostMultiplier() : 1));
+	}
+
+	/** Turnos de uma construção, com a redução das tecnologias do dono. */
+	getBuildingTime(buildingId)
+	{
+		const data = g_GameData.getProvinceBuildingData(buildingId);
+		if (!data)
+			return 0;
+		const techs = g_GameData.tribes[this.ownerTribe]?.techs;
+		return Math.max(1, data.buildTime - (techs ? techs.get("buildTime") : 0));
 	}
 
 	startBuilding(buildingId)
@@ -235,9 +267,9 @@ class Province
 		if (this.buildQueue.length >= 1)
 			return false;
 		const tribe = g_GameData.tribes[this.ownerTribe];
-		if (!tribe || tribe.money < g_GameData.getProvinceBuildingData(buildingId).cost)
+		if (!tribe || tribe.money < this.getBuildingCost(buildingId))
 			return false;
-		tribe.money -= g_GameData.getProvinceBuildingData(buildingId).cost;
+		tribe.money -= this.getBuildingCost(buildingId);
 		this.buildQueue = [buildingId];
 		this.buildProgress = 0;
 		this.buildingOwner = this.ownerTribe;
@@ -252,7 +284,7 @@ class Province
 		const definition = g_GameData.getProvinceBuildingData(this.buildQueue[0]);
 		if (!definition)
 			return false;
-		if (this.buildProgress >= definition.buildTime)
+		if (this.buildProgress >= this.getBuildingTime(definition.id))
 		{
 			this.buildings.push(this.buildQueue.shift());
 			this.buildProgress = 0;

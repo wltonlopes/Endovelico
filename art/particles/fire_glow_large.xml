@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Brilho do fogo (luz falsa): halo aditivo grande que pisca em volta da chama.
+     O motor não tem luzes dinâmicas; isto imita a iluminação. -->
+<particles>
+
+    <texture>art/textures/particles/fire_glow.png</texture>
+    <blend mode="add"/>
+
+    <start_full/>
+
+    <constant name="emissionrate" value="6.0"/>
+    <uniform name="lifetime" min="0.7" max="1.1"/>
+
+    <uniform name="angle" min="-3.14" max="3.14"/>
+
+    <uniform name="velocity.x" min="-0.05" max="0.05"/>
+    <uniform name="velocity.y" min="0.05" max="0.25"/>
+    <uniform name="velocity.z" min="-0.05" max="0.05"/>
+
+    <uniform name="size" min="20" max="28"/>
+
+    <uniform name="color.r" min="0.052" max="0.084"/>
+    <uniform name="color.g" min="0.025" max="0.042"/>
+    <uniform name="color.b" min="0.006" max="0.011"/>
+
+</particles>

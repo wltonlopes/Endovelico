@@ -104,6 +104,11 @@ SPECIES_ALIASES = {
 	"zorro_naranjado": "zorro", "lince_iberico_nueva": "lince_iberico",
 }
 
+# Species keys that mean another animal in one catalog: the Lusitania squirrel is the European red
+# squirrel, while the American catalog's "ardilla" is the Mexican gray squirrel.
+CATALOG_SPECIES = {("lusitania", "ardilla"): "ardilla_europea"}
+NAMES["ardilla_europea"] = "squirrel_red"
+
 # Names of the second and later variants of an actor where "<name>_b" says too little.
 VARIANT_NAMES = {"bear_cantabrian_b": "bear_cantabrian_cub", "rooster_iberian_b": "hen_iberian",
 	"goat_lusitanian_b": "goat_lusitanian_female"}
@@ -667,6 +672,9 @@ def main():
 			scale = 1.0 if abs(fit["scale"] - 1) <= 0.03 else round(float(fit["scale"]), 2)
 			mesh = build_mesh(body, body["parts"], fit, vanilla.bases[base_name], index, scale, vanilla.skeletons[sid]["parents"])
 			key, number = species_key(body["img"])
+			for (catalog, old), new in CATALOG_SPECIES.items():
+				if key == old and catalog in os.path.basename(blend).lower():
+					key = new
 			# Copies of one animal differ only in texture or in small parts such as whiskers; antlers
 			# (large parts) make a separate variant.
 			antlers = sum(1 for part in body["parts"] if len(part["verts"]) >= 30)

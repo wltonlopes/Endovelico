@@ -10,6 +10,7 @@
   <Identity>
     <GenericName>Red Deer Hind</GenericName>
     <SpecificName>Cervus elaphus</SpecificName>
+    <Icon>gaia/fauna_deer_red_female.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>100</Max>

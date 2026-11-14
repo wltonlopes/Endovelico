@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Tapir dos mapas (gaia/fauna_tapir). A malha tapir.dae tinha ossos mas nenhum peso;
+     tapir.pmd é a mesma malha (3,2 m) no esqueleto do javali, com as animações dele
+     (tools/import_fauna_transfer.py, entrada "tapir"). -->
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="tapir">
-<!--       <animations>
-        <animation file="quadraped/animal_tapir_idle_01.dae" name="run" speed="10"/>
-        <animation file="quadraped/animal_tapir_walk_01.dae" name="Walk" speed="3"/>
-        <animation file="quadraped/animal_tapir_idle_01.dae" name="Idle" speed="30"/>
-      </animations>
- -->       <mesh>skeletal/tapir.dae</mesh>
+    <variant file="fauna/tapir.xml" name="Base">
+      <mesh>skeletal/fauna/tapir.pmd</mesh>
     </variant>
   </group>
   <group>
@@ -16,7 +14,7 @@
       <textures>
         <texture file="skeletal/animal_tapir_black_and_white.png" name="baseTex"/>
         <texture file="default_norm.png" name="normTex"/>
-	    <texture file="null_black.dds" name="specTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

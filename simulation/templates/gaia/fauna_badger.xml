@@ -17,6 +17,7 @@
   <Identity>
     <GenericName>European Badger</GenericName>
     <SpecificName>Meles meles</SpecificName>
+    <Icon>gaia/fauna_badger.png</Icon>
   </Identity>
   <StatusBars>
     <HeightOffset>2.3</HeightOffset>

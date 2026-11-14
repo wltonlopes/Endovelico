@@ -25,6 +25,9 @@ class Tribe
 
 		this.diplo = {};
 
+		// Tecnologias do mapa mundial (game/TechTree.js).
+		this.techs = new TribeTechs(this);
+
 		this.statistics =
 		{
 			economy: 0,
@@ -46,6 +49,7 @@ class Tribe
 			"statistics": this.statistics,
 			"generals": this.generals.map(g => g.Serialize()),
 			"maxGenerals": this.maxGenerals,
+			"techs": this.techs.Serialize(),
 
 			"diplo": Object.keys(this.diplo)
 				.map(x => [x, this.diplo[x].serialize()]),
@@ -74,6 +78,8 @@ class Tribe
 		};
 		this.generals = [];
 		this.maxGenerals = data.maxGenerals || 1;
+		this.techs = new TribeTechs(this);
+		this.techs.Deserialize(data.techs);
 
 		if (data.generals)
 		{
@@ -93,6 +99,12 @@ class Tribe
 		for (const [key, diplo] of data.diplo)
 			this.diplo[key] =
 				new GSDiplomacy(this.code, key).deserialize(diplo);
+	}
+
+	/** Limite de generais, já com o bônus das tecnologias. */
+	getMaxGenerals()
+	{
+		return this.maxGenerals + this.techs.getMaxGeneralsBonus();
 	}
 
 	getName()

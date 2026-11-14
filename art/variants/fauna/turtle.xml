@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base">
+  <animations>
+    <animation file="fauna/turtle/turtle_idle_look.psa" name="Idle" speed="100"/>
+    <animation file="fauna/turtle/turtle_idle_hide.psa" name="Idle" speed="100"/>
+    <animation file="fauna/turtle/turtle_idle_bask.psa" name="Idle" speed="100"/>
+    <animation file="fauna/turtle/turtle_walk.psa" name="Walk" speed="268"/>
+    <animation file="fauna/turtle/turtle_run.psa" name="Run" speed="120"/>
+    <animation file="fauna/turtle/turtle_death.psa" name="Death" speed="100"/>
+  </animations>
+</variant>

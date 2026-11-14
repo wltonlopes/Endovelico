@@ -15,4 +15,56 @@
 		sound_selected="audio/interface/ui/ui_button_click.ogg"
 		scroll_bottom="true"
 	/>
+
+	<!-- Layout moderno do mapa mundial -->
+	<style name="GSButton"
+		sprite="gsButton"
+		sprite_over="gsButtonOver"
+		sprite_pressed="gsButtonPressed"
+		sprite_disabled="gsButtonDisabled"
+		font="sans-bold-14"
+		textcolor="235 230 215"
+		textcolor_over="255 225 150"
+		textcolor_disabled="120 120 120"
+		text_align="center"
+		text_valign="center"
+		sound_pressed="audio/interface/ui/ui_button_click.ogg"
+	/>
+	<style name="GSButtonGold"
+		sprite="gsButtonGold"
+		sprite_over="gsButtonGoldOver"
+		sprite_pressed="gsButtonGoldPressed"
+		sprite_disabled="gsButtonDisabled"
+		font="sans-bold-stroke-16"
+		textcolor="255 250 235"
+		textcolor_disabled="120 120 120"
+		text_align="center"
+		text_valign="center"
+		sound_pressed="audio/interface/ui/ui_button_click.ogg"
+	/>
+	<style name="GSTitle"
+		font="sans-bold-stroke-16"
+		textcolor="235 200 120"
+		text_align="center"
+		text_valign="center"
+	/>
+	<style name="GSText"
+		font="sans-stroke-14"
+		textcolor="230 230 230"
+		text_align="left"
+		text_valign="top"
+		buffer_zone="4"
+	/>
+	<style name="GSBarText"
+		font="sans-bold-stroke-14"
+		textcolor="255 255 255"
+		text_align="left"
+		text_valign="center"
+	/>
+	<style name="GSSmall"
+		font="sans-stroke-12"
+		textcolor="200 200 200"
+		text_align="center"
+		text_valign="center"
+	/>
 </styles>

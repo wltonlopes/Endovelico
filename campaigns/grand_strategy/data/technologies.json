@@ -1,0 +1,118 @@
+{
+	"_comment": "World map technology tree. Each branch takes 2 columns (slot 0 and 1); 'era' is the row. Effects stack - see TECH_EFFECT_INFO in gui/campaigns/grand_strategy/game/TechTree.js.",
+	"eras": [
+		{
+			"id": 1,
+			"numeral": "I",
+			"name": "Tribal Age",
+			"cost": 20
+		},
+		{
+			"id": 2,
+			"numeral": "II",
+			"name": "Age of Cities",
+			"cost": 45
+		},
+		{
+			"id": 3,
+			"numeral": "III",
+			"name": "Age of Kingdoms",
+			"cost": 90
+		},
+		{
+			"id": 4,
+			"numeral": "IV",
+			"name": "Imperial Age",
+			"cost": 160
+		}
+	],
+	"branches": [
+		{
+			"id": "logistics",
+			"name": "Logistics",
+			"color": "215 150 70"
+		},
+		{
+			"id": "naval",
+			"name": "Navigation",
+			"color": "70 150 215"
+		},
+		{
+			"id": "economy",
+			"name": "Economy",
+			"color": "215 190 60"
+		},
+		{
+			"id": "admin",
+			"name": "Administration",
+			"color": "165 115 215"
+		}
+	],
+	"research": {
+		"_comment": "Points per turn = base + perProvinceSqrt * sqrt(provinces) + perAcademy * academies, times (1 + research bonus).",
+		"base": 3,
+		"perProvinceSqrt": 2,
+		"perAcademy": 3,
+		"academyBuilding": "philosopher_academy"
+	},
+	"_oceanComment": "Open-ocean sea provinces: require Ocean Navigation. All other seas are coastal (Shipbuilding).",
+	"oceanProvinces": [
+		"north_atlantic_ocean_02",
+		"north_atlantic_central",
+		"western_atlantic",
+		"sargasso_sea",
+		"equatorial_atlantic",
+		"south_atlantic",
+		"south_atlantic_southwest",
+		"labrador_sea",
+		"greenland_sea",
+		"indian_ocean",
+		"southern_indian_ocean",
+		"eastern_indian_ocean",
+		"ocean_pacific_austral",
+		"eastern_pacific",
+		"eastern_pacific_tropical",
+		"southeast_pacific",
+		"northwest_pacific",
+		"western_pacific",
+		"south_pacific_west",
+		"southern_ocean",
+		"drake_passage",
+		"beaufort_sea",
+		"arctic_archipelago"
+	],
+	"technologies": [
+		{"id": "trilhas", "name": "Beaten Paths", "branch": "logistics", "era": 1, "slot": 0, "icon": "walk", "description": "Trails between villages let armies store more movement.", "effects": {"moveCap": 1}},
+		{"id": "animais_carga", "name": "Pack Animals", "branch": "logistics", "era": 1, "slot": 1, "icon": "husbandry_horses", "description": "Mules and oxen carry supplies, speeding up the march.", "effects": {"moveRegen": 0.5}},
+		{"id": "estradas", "name": "Paved Roads", "branch": "logistics", "era": 2, "slot": 0, "icon": "wheel", "requires": ["trilhas"], "description": "Stone roads link the cities of the realm.", "effects": {"moveRegen": 0.5}},
+		{"id": "intendencia", "name": "Quartermasters", "branch": "logistics", "era": 2, "slot": 1, "icon": "grain_bag", "requires": ["animais_carga"], "description": "Supply depots sustain more than one army in the field.", "effects": {"maxGenerals": 1, "recruitCost": 0.15}},
+		{"id": "estradas_imperiais", "name": "Imperial Roads", "branch": "logistics", "era": 3, "slot": 0, "icon": "caligae", "requires": ["estradas"], "description": "A road network with relay stations crosses the whole territory.", "effects": {"moveRegen": 0.5, "moveCap": 1}},
+		{"id": "exercito_profissional", "name": "Professional Army", "branch": "logistics", "era": 3, "slot": 1, "icon": "standard", "requires": ["intendencia"], "description": "Paid soldiers trained full-time.", "effects": {"maxGenerals": 1, "recruitCost": 0.2}},
+		{"id": "marchas_forcadas", "name": "Forced Marches", "branch": "logistics", "era": 4, "slot": 0, "icon": "leather_boots", "requires": ["estradas_imperiais"], "description": "Disciplined legions march day and night.", "effects": {"moveRegen": 0.5}},
+		{"id": "engenharia_militar", "name": "Military Engineering", "branch": "logistics", "era": 4, "slot": 1, "icon": "military_engineers", "requires": ["exercito_profissional"], "description": "Field fortifications and permanent garrisons.", "effects": {"garrisonCap": 5, "upkeepReduction": 0.15}},
+		{"id": "construcao_naval", "name": "Shipbuilding", "branch": "naval", "era": 1, "slot": 0, "icon": "anchor", "description": "Boats able to follow the coast. Allows entering coastal seas.", "effects": {"coastalNavigation": 1}},
+		{"id": "pesca", "name": "Fishing", "branch": "naval", "era": 1, "slot": 1, "icon": "fishing_net", "description": "Nets and fishing boats enrich the coastal provinces.", "effects": {"coastalIncome": 15}},
+		{"id": "desembarque", "name": "Amphibious Landing", "branch": "naval", "era": 2, "slot": 0, "icon": "ship_ram", "requires": ["construcao_naval"], "description": "Troops trained to land under enemy fire. Allows invading enemy land from the sea.", "effects": {"amphibious": 1}},
+		{"id": "portos_mercantes", "name": "Merchant Ports", "branch": "naval", "era": 2, "slot": 1, "icon": "amphore", "requires": ["pesca"], "description": "Amphorae and merchants fill the harbours.", "effects": {"tradeIncome": 1, "coastalIncome": 10}},
+		{"id": "navegacao_oceanica", "name": "Ocean Navigation", "branch": "naval", "era": 3, "slot": 0, "icon": "trihemiolia", "requires": ["desembarque"], "description": "High-hulled ships brave the open sea. Allows entering oceans.", "effects": {"oceanNavigation": 1}},
+		{"id": "cartografia", "name": "Cartography", "branch": "naval", "era": 3, "slot": 1, "icon": "cartography", "requires": ["portos_mercantes"], "description": "Accurate maps reveal more distant lands.", "effects": {"visionRange": 1, "research": 0.15}},
+		{"id": "moncoes", "name": "Winds and Monsoons", "branch": "naval", "era": 4, "slot": 0, "icon": "ship_cladding", "requires": ["navegacao_oceanica"], "description": "Knowing the seasonal winds makes sea voyages faster.", "effects": {"seaMoveDiscount": 0.5}},
+		{"id": "rotas_globais", "name": "Global Trade Routes", "branch": "naval", "era": 4, "slot": 1, "icon": "trade_routes", "requires": ["cartografia", "navegacao_oceanica"], "description": "Merchant fleets link distant continents.", "effects": {"tradeIncome": 1, "taxRate": 0.1}},
+		{"id": "irrigacao", "name": "Irrigation", "branch": "economy", "era": 1, "slot": 0, "icon": "irrigation", "description": "Canals bring water to the fields.", "effects": {"taxRate": 0.1}},
+		{"id": "cunhagem", "name": "Coinage", "branch": "economy", "era": 1, "slot": 1, "icon": "coinage", "description": "Coins make collecting taxes easier.", "effects": {"provinceIncome": 10}},
+		{"id": "rotacao", "name": "Crop Rotation", "branch": "economy", "era": 2, "slot": 0, "icon": "crop_rotation", "requires": ["irrigacao"], "description": "Rested fields yield larger harvests.", "effects": {"taxRate": 0.1, "happiness": 1}},
+		{"id": "mineracao", "name": "Mining", "branch": "economy", "era": 2, "slot": 1, "icon": "mining_metal", "requires": ["cunhagem"], "description": "Metal mines and quarries make construction cheaper.", "effects": {"buildCost": 0.15}},
+		{"id": "aquedutos", "name": "Aqueducts", "branch": "economy", "era": 3, "slot": 0, "icon": "aqueducts", "requires": ["rotacao"], "description": "Clean water for the cities.", "effects": {"happiness": 2}},
+		{"id": "contabilidade", "name": "Accounting", "branch": "economy", "era": 3, "slot": 1, "icon": "scales", "requires": ["mineracao"], "description": "Accurate records lower the cost of keeping garrisons.", "effects": {"upkeepReduction": 0.25}},
+		{"id": "economia_monetaria", "name": "Monetary Economy", "branch": "economy", "era": 4, "slot": 0, "icon": "currency", "requires": ["aquedutos", "contabilidade"], "description": "Banks and credit multiply the wealth of the empire.", "effects": {"taxRate": 0.2}},
+		{"id": "grandes_obras", "name": "Great Works", "branch": "economy", "era": 4, "slot": 1, "icon": "monumental_architecture", "requires": ["contabilidade"], "description": "Master builders raise structures in record time.", "effects": {"buildCost": 0.2, "buildTime": 1}},
+		{"id": "escrita", "name": "Writing", "branch": "admin", "era": 1, "slot": 0, "icon": "sibylline_books", "description": "The written record preserves knowledge.", "effects": {"research": 0.25}},
+		{"id": "codigo_leis", "name": "Code of Laws", "branch": "admin", "era": 1, "slot": 1, "icon": "political_face", "description": "Clear laws keep the people calm.", "effects": {"happiness": 1}},
+		{"id": "filosofia", "name": "Philosophy", "branch": "admin", "era": 2, "slot": 0, "icon": "ionic_column", "requires": ["escrita"], "description": "Schools of thought speed up discoveries.", "effects": {"research": 0.25}},
+		{"id": "burocracia", "name": "Bureaucracy", "branch": "admin", "era": 2, "slot": 1, "icon": "chinese_bureaucracy_01", "requires": ["codigo_leis", "escrita"], "description": "Officials and tax collectors administer the provinces.", "effects": {"taxRate": 0.1, "upkeepReduction": 0.1}},
+		{"id": "censo", "name": "Census", "branch": "admin", "era": 3, "slot": 0, "icon": "population", "requires": ["filosofia"], "description": "Counting the people means knowing how much they can pay.", "effects": {"provinceIncome": 15}},
+		{"id": "patriotismo", "name": "Patriotism", "branch": "admin", "era": 3, "slot": 1, "icon": "patriotism", "requires": ["burocracia"], "description": "National pride attracts volunteers and keeps order.", "effects": {"happiness": 2, "recruitCost": 0.15}},
+		{"id": "grande_biblioteca", "name": "Great Library", "branch": "admin", "era": 4, "slot": 0, "icon": "architecture", "requires": ["censo"], "description": "All the world's knowledge gathered in one place.", "effects": {"research": 0.5}},
+		{"id": "imperio_centralizado", "name": "Centralized Empire", "branch": "admin", "era": 4, "slot": 1, "icon": "imperial_phase", "requires": ["patriotismo"], "description": "A strong government controls every corner of the empire.", "effects": {"taxRate": 0.15, "maxGenerals": 1, "happiness": 1}}
+	]
+}

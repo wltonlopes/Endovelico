@@ -40,6 +40,15 @@ function setupBiome_pampas()
 		[
 			"gaia/tree/elm",
 			"gaia/tree/tamarix"
+		],
+		// Paraná pine groves (capões de araucária).
+		[
+			"gaia/tree/araucaria_angustifolia",
+			"gaia/tree/temperate"
+		],
+		[
+			"gaia/tree/araucaria_angustifolia",
+			"gaia/tree/podocarpus_lambertii"
 		]
 	]);
 }

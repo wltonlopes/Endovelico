@@ -24,6 +24,9 @@ class CampaignMenu extends AutoWatcher
 		this.eventPanel = new EventPanel();
 		this.windows = new CampaignWindows(this);
 
+		Engine.GetGUIObjectByName("techTreeButton").onPress = () => this.windows.TechTree.toggle();
+		Engine.GetGUIObjectByName("topResearch").onPress = () => this.windows.TechTree.open();
+
 		Engine.GetGUIObjectByName("campaignMenuWindow").onMouseLeftPress = () => this.onBlur();
 		Engine.GetGUIObjectByName("campaignMenuWindow").onMouseRightPress = () => this.onBlur();
 
@@ -148,6 +151,7 @@ class CampaignMenu extends AutoWatcher
 	{
 		Engine.GetGUIObjectByName("computingTurn").hidden = true;
 		this.infoTicker.onTurnEnd();
+		this.windows.TechTree.refresh();
 
 		if (!g_GameData.checkGameOver())
 			g_GameData.checkVictory();
@@ -205,6 +209,10 @@ class CampaignMenu extends AutoWatcher
 	 */
 	zoomBy(factor, atScreenCenter = false)
 	{
+		// Com a árvore de tecnologias aberta o mapa fica parado.
+		if (this.windows?.TechTree?.isOpen())
+			return;
+
 		const size = this.window.getComputedSize();
 		const anchorX = atScreenCenter || this.mouseX === null ? size.right / 2 : this.mouseX;
 		const anchorY = atScreenCenter || this.mouseY === null ? size.bottom / 2 : this.mouseY;
@@ -293,14 +301,7 @@ class CampaignMenu extends AutoWatcher
             2048
         );
 
-		Engine.GetGUIObjectByName("topPanelText").caption = `` +
-		`Turn ${g_GameData.turn}` +
-		` Zoom ${Math.round(this.zoom * 100)}%` +
-		` Tribe "${g_GameData.playerTribe}"` +
-		` Money ${g_GameData.tribes[g_GameData.playerTribe].money}` +
-		` Balance ${g_GameData.tribes[g_GameData.playerTribe].lastBalance}` +
-		` Territory ${Math.floor(g_GameData.getVictoryStatus().territoryShare * 100)}%` +
-		``;
+		this.renderTopBar();
 
 		this.windows.render();
 
@@ -313,21 +314,28 @@ class CampaignMenu extends AutoWatcher
 				historyList.list.push(`${entry.turn} - ${entry.text}`);
 		}
 
+		// Visão: província do general e vizinhas; a Cartografia aumenta o alcance.
 		const visible = new Set();
+		const visionRange = g_GameData.tribes[g_GameData.playerTribe].techs.getVisionRange();
 
 		for (const hero of
 			g_GameData.tribes[
 				g_GameData.playerTribe
 			].generals)
 		{
+			let frontier = [hero.location];
 			visible.add(hero.location);
-
-			for (const p of
-				g_GameData.provinces[
-					hero.location
-				].getLinks())
+			for (let step = 0; step < visionRange; ++step)
 			{
-				visible.add(p);
+				const next = [];
+				for (const code of frontier)
+					for (const p of g_GameData.provinces[code]?.getLinks() || [])
+						if (!visible.has(p))
+						{
+							visible.add(p);
+							next.push(p);
+						}
+				frontier = next;
 			}
 		}
 		// Update heros
@@ -547,7 +555,7 @@ class CampaignMenu extends AutoWatcher
 
 	const BORDER = 40;
 
-	if (this.mouseX !== null && this.mouseY !== null)
+	if (this.mouseX !== null && this.mouseY !== null && !this.windows.TechTree.isOpen())
 	{
 		if (this.mouseX <= BORDER)
 			this.cameraX -= SCROLL_SPEED;
@@ -565,6 +573,37 @@ class CampaignMenu extends AutoWatcher
 
 		this.clampCamera();
 	}
+	}
+
+	/** Barra superior: tribo, turno, ouro, pesquisa, território e zoom. */
+	renderTopBar()
+	{
+		const tribe = g_GameData.tribes[g_GameData.playerTribe];
+		const techs = tribe.techs;
+
+		Engine.GetGUIObjectByName("playerEmblem").sprite = getCivEmblemSprite(tribe.civ);
+		Engine.GetGUIObjectByName("playerTribeName").caption = tribe.getName() || g_GameData.playerTribe;
+		Engine.GetGUIObjectByName("topTurn").caption = `Turn ${g_GameData.turn}`;
+
+		const balance = Math.round(tribe.lastBalance || 0);
+		Engine.GetGUIObjectByName("topGold").caption = `${Math.floor(tribe.money)}  ` +
+			coloredText((balance >= 0 ? "+" : "") + balance, balance >= 0 ? "140 220 120" : "230 110 100");
+		Engine.GetGUIObjectByName("topGold").tooltip =
+			`Gold: ${Math.floor(tribe.money)}\nLast turn balance: ${balance}\n` +
+			`Tax bonus: +${Math.round((techs.getTaxMultiplier() - 1) * 100)}% (technologies)`;
+
+		const tech = getTechData().byId[techs.current];
+		Engine.GetGUIObjectByName("topResearchText").caption = tech ?
+			`${tech.name}  ` + coloredText(`${techs.getTurnsLeft()}t`, "170 170 170") :
+			coloredText("Choose research", "255 170 90");
+		Engine.GetGUIObjectByName("topResearchBar").size =
+			`0 0 ${tech ? Math.min(100, Math.round(100 * techs.progress / getTechCost(tech))) : 0}% 100%`;
+		Engine.GetGUIObjectByName("topResearch").tooltip =
+			`Research: ${techs.getResearchRate()} points/turn\nClick to open the technology tree.`;
+
+		Engine.GetGUIObjectByName("topTerritory").caption =
+			`${Math.floor(g_GameData.getVictoryStatus().territoryShare * 100)}%`;
+		Engine.GetGUIObjectByName("topZoom").caption = `Zoom ${Math.round(this.zoom * 100)}%`;
 	}
 
 	handleInputAfterGui(ev)

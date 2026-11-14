@@ -17,6 +17,7 @@
   <Identity>
     <GenericName>River Otter</GenericName>
     <SpecificName>Lontra canadensis</SpecificName>
+    <Icon>gaia/fauna_otter.png</Icon>
   </Identity>
   <StatusBars>
     <HeightOffset>2.2</HeightOffset>

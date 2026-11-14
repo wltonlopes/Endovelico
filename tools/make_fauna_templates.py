@@ -109,6 +109,7 @@ ANIMALS = {
 	"bear_cantabrian_cub": ("gaia/fauna_bear_brown", "Brown Bear Cub", "Ursus arctos pyrenaicus", 60, 150, 6),
 	"boar_iberian": ("gaia/fauna_boar", "Iberian Wild Boar", "Sus scrofa castilianus", None, None, None),
 	"boar_iberian_piglet": ("gaia/fauna_boar", "Wild Boar Piglet", "Sus scrofa castilianus", 15, 50, 2),
+	"squirrel_red": ("gaia/fauna_rabbit", "Red Squirrel", "Sciurus vulgaris", 3, 25, None),
 	"lynx_iberian": ("gaia/fauna_fox_red", "Iberian Lynx", "Lynx pardinus", 30, None, 8),
 	"wildcat_european": ("gaia/fauna_fox_red", "European Wildcat", "Felis silvestris", 15, None, 4),
 	"fox_red_iberian": ("gaia/fauna_fox_red", "Iberian Red Fox", "Vulpes vulpes silacea", None, None, None),

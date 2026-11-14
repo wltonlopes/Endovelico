@@ -29,7 +29,8 @@ function setupBiome_amazon()
 		"gaia/fauna_toad_cane",
 		"gaia/fauna_opossum",
 		"gaia/fauna_tamandua",
-		"gaia/fauna_otter_tropical"
+		"gaia/fauna_otter_tropical",
+		"gaia/fauna_turtle_tracaja"
 	]);
 
 	g_Gaia.predator = pickRandom([

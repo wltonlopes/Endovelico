@@ -80,15 +80,27 @@ class Hero
 	}
 
 
+	/** Movimentos gastos para entrar em `code` (mar pode custar menos). */
+	getMoveCost(code)
+	{
+		const target = g_GameData.provinces[code];
+		if (target?.isSea())
+			return g_GameData.tribes[this.tribe].techs.getSeaMoveCost();
+		return 1;
+	}
+
 	canMove(code)
 	{
 		const target = g_GameData.provinces[code];
 		if (!target.canTravel(this.location))
 			return false;
+		// Navegação: mar costeiro, oceano e desembarque dependem de tecnologia.
+		if (!g_GameData.tribes[this.tribe].techs.canNavigate(this.location, code))
+			return false;
 		if (target.ownerTribe && !this.ownsProvince(code) &&
 			g_GameData.tribes[this.tribe].getDiplomacy(target.ownerTribe).status !== GSDiplomacy.prototype.WAR)
 			return false;
-		return this.actionsLeft >= 1;
+		return this.actionsLeft >= this.getMoveCost(code);
 	}
 
 	doMove(targetProvince)
@@ -113,7 +125,7 @@ class Hero
 					)
 					{
 						warn(
-							"Já existe um general aliado nesta província."
+							"There is already an allied general in this province."
 						);
 
 						return false;
@@ -130,10 +142,10 @@ class Hero
 
 			if (enemy)
 			{
+				this.actionsLeft -= this.getMoveCost(targetProvince);
+
 				this.location =
 					targetProvince;
-
-				this.actionsLeft--;
 
 				g_GameData.startGeneralBattle(
 					this,
@@ -143,8 +155,8 @@ class Hero
 				return true;
 			}
 
+			this.actionsLeft -= this.getMoveCost(targetProvince);
 			this.location = targetProvince;
-			this.actionsLeft--;
 
 			return true;
 		}
@@ -183,7 +195,8 @@ class Hero
 
 	canStrengthen(code)
 	{
-		return this.ownsProvince(code) && this.actionsLeft >= 0.5 && g_GameData.provinces[code].garrison < 10;
+		return this.ownsProvince(code) && this.actionsLeft >= 0.5 &&
+			g_GameData.provinces[code].garrison < g_GameData.tribes[this.tribe].techs.getGarrisonCap();
 	}
 
 	doStrengthen(code)

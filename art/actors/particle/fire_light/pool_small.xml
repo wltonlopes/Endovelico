@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Luz do fogo no chão: disco emissivo (não escurece à noite nem na sombra).
+     Use só em fogo que fica no chão; em pontos altos o disco flutuaria. -->
+<actor version="1">
+  <group>
+    <variant name="Base">
+      <mesh>props/fire_light/pool_small.dae</mesh>
+      <textures>
+        <texture file="props/fire_light/light_pool.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="props/fire_light/emissive_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_glow_norm_spec.xml</material>
+</actor>

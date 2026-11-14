@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_tree">
+  <Footprint>
+    <Circle radius="2.4"/>
+    <Height>18.0</Height>
+  </Footprint>
+  <Identity>
+    <SpecificName>Lambert's Podocarp</SpecificName>
+    <History>Podocarpus lambertii, the "pinheiro-bravo", a dense evergreen conifer that grows beside the araucaria in the forests and groves of southern Brazil.</History>
+  </Identity>
+  <ResourceSupply>
+    <Max>200</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>13.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>flora/trees/podocarpus_lambertii.xml</Actor>
+  </VisualActor>
+</Entity>

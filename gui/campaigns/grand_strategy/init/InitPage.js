@@ -8,7 +8,7 @@ const REGION_DEFINITIONS = [
 		"arabia_felix", "arabia_magna", "assyria", "catar", "cyprus", "ionia", "judea", "kapadocia", "karmania", "lidia", "mazun", "media", "mesopotamia", "nabatean", "parthia", "persia", "siria", "yemen"
 	] },
 	{ id: "africa", label: "Africa", provinceCodes: [
-		"aksum", "angola", "azania", "benin", "cameroon", "cape", "carthage", "congo_basin", "cyrenaica", "fezzan", "gaetuli", "ghana", "great_lakes_africa", "kalahari", "kenya", "kush", "lake_chad", "libya", "lower_egypt", "madagascar", "mali", "mauretania", "mozambique", "namibia", "niger", "nigeria", "nile_delta", "numidia", "punt", "senegambia", "somalia", "tanzania", "tripolitania", "uganda", "upper_egypt", "upper_niger", "upper_volta", "zambia", "zimbabwe"
+		"adrar", "aksum", "angola", "azania", "benin", "borgu", "cameroon", "cape", "carthage", "congo_basin", "cyrenaica", "djenne", "fezzan", "futa_jallon", "gaetuli", "ghana", "great_lakes_africa", "hausaland", "igbo", "kalahari", "kenya", "kong", "kru_coast", "kush", "lake_chad", "libya", "lower_egypt", "madagascar", "mali", "mauretania", "mozambique", "namibia", "niger", "nigeria", "nile_delta", "numidia", "punt", "senegambia", "sierra_leone", "somalia", "tanzania", "tripolitania", "uganda", "upper_egypt", "upper_niger", "upper_volta", "wagadu", "yorubaland", "zambia", "zimbabwe"
 	] },
 	{ id: "central_asia", label: "Central Asia and the Steppe", provinceCodes: [
 		"arachosia", "arctic_russia", "bactria", "karelia", "massagetae", "northwest_russia", "sogdia", "tibet", "transoxiana", "ural", "western_siberia", "wushu"
@@ -26,7 +26,7 @@ const REGION_DEFINITIONS = [
 		"alaska", "antilles", "apalaches", "arisona", "ayiti", "baja_california_peninsula", "boriken", "california", "canada", "caxcanes", "central_mexican_plateau", "cubanacan", "florida", "great_lakes", "great_plains", "greenland_interior", "iceland", "inside_passage", "kalaallit_nunaat", "karankawa", "kebec", "maya_highlands", "maya_lowlands", "michoacan", "mississippi_delta", "mississippi_northern", "mississippi_southern", "mixteca", "nunavut", "oasisamerica", "oaxaca", "olmecatl", "plains_central", "rocky_mountains", "sonora", "taqamkuk", "totonacapan", "tovaangar", "west_coast_na", "xaymaca", "yarumela", "yucatan", "zacatecas"
 	] },
 	{ id: "south_america", label: "South America", provinceCodes: [
-		"amazon_eastern", "amazon_western", "andean_central_coast", "andean_northern_coast", "andes_northern", "andes_southern", "andes_southern_coast", "caatinga", "central_andean", "central_plateau", "colombia", "far_northern_andes", "guianas", "marajo", "maranhao", "mojos", "nicaragua", "orinoco", "pampas", "pampas_southern", "panama", "paraguai", "pindorama", "puna", "quitu", "rapa_nui", "ushuaia", "wallmapu"
+		"amazon_eastern", "amazon_western", "andean_central_coast", "andean_northern_coast", "andes_northern", "andes_southern", "andes_southern_coast", "caatinga", "central_andean", "central_plateau", "far_northern_andes", "guianas", "marajo", "maranhao", "mojos", "nicaragua", "orinoco", "pampas", "pampas_southern", "panama", "paraguai", "pindorama", "puna", "quitu", "rapa_nui", "ushuaia", "wallmapu"
 	] },
 ];
 

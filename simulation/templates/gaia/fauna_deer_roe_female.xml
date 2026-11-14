@@ -10,6 +10,7 @@
   <Identity>
     <GenericName>Roe Deer Doe</GenericName>
     <SpecificName>Capreolus capreolus</SpecificName>
+    <Icon>gaia/fauna_deer_roe_female.png</Icon>
   </Identity>
   <ResourceSupply>
     <Max>50</Max>
