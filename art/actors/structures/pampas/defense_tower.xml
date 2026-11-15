@@ -5,6 +5,7 @@
     <variant frequency="1" name="Pampas Defense Tower" file="structures/defensive_building.xml">
       <mesh>structural/pampas/stone_tower.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_01"/>
         <prop actor="props/flora/bush_desert_dry_a.xml" attachpoint="grass_02"/>

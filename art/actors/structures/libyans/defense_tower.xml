@@ -5,6 +5,7 @@
     <variant frequency="1" name="Libyan Defense Tower" file="structures/defensive_building.xml">
       <mesh>structural/libyans/stone_tower.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root" />
         <prop actor="props/structures/libyans/stone_tower_struct.xml" attachpoint="root" />
       </props>

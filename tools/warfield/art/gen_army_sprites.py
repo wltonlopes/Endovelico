@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 
 from actor_render import Triangles, pose_actor, rasterize, resolve_actor, rotation_y  # noqa: E402
 from tw_templates import TemplateLoader, find_public_zip  # noqa: E402
-from zeroad_formats import PublicArchive  # noqa: E402
+from zeroad_formats import ModArchive, PublicArchive  # noqa: E402
 
 CELL = 64          # tamanho final de cada quadro
 SUPER = 4          # supersampling
@@ -64,11 +64,51 @@ OUT_JSON = os.path.join(MOD, "campaigns/grand_strategy/data/army_sprites.json")
 _archive = None
 
 
+def cache_dir():
+    """Cache do jogo para este mod (~/.cache/0ad/<mod> ou o do snap)."""
+    mods = os.sep + os.path.join(".local", "share", "0ad", "mods") + os.sep
+    if mods in MOD + os.sep:
+        base, name = MOD.split(mods)[0], os.path.basename(MOD)
+        return os.path.join(base, ".cache", "0ad", name)
+    return os.path.join(os.path.expanduser("~"), ".cache", "0ad", os.path.basename(MOD))
+
+
 def archive():
     global _archive
     if _archive is None:
-        _archive = PublicArchive(find_public_zip())
+        # Mod com arte própria (ex.: Endovelico): soltos + cache do jogo + public.zip.
+        if os.path.isdir(os.path.join(MOD, "art", "actors")):
+            _archive = ModArchive(find_public_zip(), MOD, cache_dir())
+        else:
+            _archive = PublicArchive(find_public_zip())
     return _archive
+
+
+def missing_art(part, out, depth=0):
+    """Malhas e animações (walk/idle) do ator que ainda não dá para ler."""
+    if part is None or depth > 6:
+        return out
+    if part.mesh:
+        try:
+            mesh = archive().mesh(part.mesh)
+        except (KeyError, ValueError) as err:
+            out.append("malha " + part.mesh)
+            mesh = None
+        if mesh is not None and mesh["bind"]:
+            for name in ("walk", "idle"):
+                file = part.animations.get(name)
+                if not file:
+                    # Só o corpo precisa andar; acessórios sem animação ficam na pose de base.
+                    if name == "walk" and depth == 0:
+                        out.append("sem animação walk")
+                    continue
+                try:
+                    archive().animation(file)
+                except (KeyError, ValueError):
+                    out.append("animação " + file)
+    for _, child in part.props:
+        missing_art(child, out, depth + 1)
+    return out
 
 
 def pick_units(civ, loader):
@@ -148,7 +188,7 @@ def render_sheet(job):
     for d in range(DIRECTIONS):
         for f in range(WALK_FRAMES):
             sheet[d * CELL:(d + 1) * CELL, f * CELL:(f + 1) * CELL] = render_frame(part, "walk", f / WALK_FRAMES, d, color, scale)
-        sheet[d * CELL:(d + 1) * CELL, WALK_FRAMES * CELL:] = render_frame(part, "idle", 0.0, d, color, scale)
+        sheet[d * CELL:(d + 1) * CELL, WALK_FRAMES * CELL:(WALK_FRAMES + 1) * CELL] = render_frame(part, "idle", 0.0, d, color, scale)
     os.makedirs(OUT_TEX, exist_ok=True)
     # Paleta de 256 cores com alfa: o atlas fica umas 4x menor.
     Image.fromarray(sheet, "RGBA").quantize(256, method=Image.Quantize.FASTOCTREE, dither=Image.Dither.NONE).save(
@@ -182,11 +222,69 @@ def write_outputs(done):
         fh.write("\n")
 
 
+def warm_cache(civs, loader, seconds):
+    """
+    O jogo converte .dae em .pmd/.psa (no cache) ao criar as unidades. Abre
+    uma partida curta (com janela: sem ela não há atores) que cria várias
+    cópias das unidades de cada civ, e fecha depois de `seconds` s.
+    """
+    import shutil
+    import subprocess
+    templates = set()
+    roster_dir = os.path.join(MOD, "simulation/data/total_warfield/rosters")
+    for civ in civs:
+        roster = json.load(open(os.path.join(roster_dir, civ + ".json")))
+        for unit in roster["units"]:
+            if not unit.get("siege"):
+                templates.add(unit["baseTemplate"])
+    script = os.path.join(MOD, "maps/scripts/zz_twwarm.js")
+    mapjson = os.path.join(MOD, "maps/random/zz_twwarm.json")
+    with open(os.path.join(MOD, "maps/random/tw_battlefield.json")) as handle:
+        settings = json.load(handle)
+    settings["settings"]["Name"] = "zz warm cache"
+    settings["settings"]["TriggerScripts"] = ["scripts/TriggerHelper.js", "scripts/zz_twwarm.js"]
+    with open(mapjson, "w") as handle:
+        json.dump(settings, handle)
+    with open(script, "w") as handle:
+        handle.write("var TW_WARM = %s;\n" % json.dumps(sorted(templates)) + """
+Trigger.prototype.TWWarm = function()
+{
+	let i = 0;
+	for (const template of TW_WARM)
+		for (let k = 0; k < 6; ++k, ++i)
+		{
+			const ent = Engine.AddEntity(template);
+			if (ent == INVALID_ENTITY)
+				continue;
+			Engine.QueryInterface(ent, IID_Position)?.JumpTo(40 + (i % 60) * 4, 40 + Math.floor(i / 60) * 4);
+			Engine.QueryInterface(ent, IID_Ownership)?.SetOwner(1);
+		}
+	warn("[twwarm] " + i + " unidades criadas");
+};
+Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger).DoAfterDelay(500, "TWWarm", {});
+""")
+    print(f"aquecendo o cache: {len(templates)} modelos de {len(civs)} civs, {seconds} s (com janela)", flush=True)
+    try:
+        subprocess.run(["timeout", str(seconds), "snap", "run", "0ad", "-mod=public", "-mod=" + os.path.basename(MOD),
+                        "-autostart=random/zz_twwarm", "-autostart-biome=generic/temperate", "-autostart-size=256", "-autostart-players=2",
+                        "-autostart-victory=endless", "-autostart-disable-replay", "-xres=800", "-yres=600"],
+                       cwd="/tmp", stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    finally:
+        for path in (script, mapjson):
+            if os.path.exists(path):
+                os.remove(path)
+    print("pronto; rode com --check para ver o que ainda falta", flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("civs", nargs="*")
     parser.add_argument("--extras", action="store_true", help="só o navio e a caravana")
     parser.add_argument("--jobs", type=int, default=max(1, (os.cpu_count() or 2) - 1))
+    parser.add_argument("--check", action="store_true", help="só lista o que falta (malhas/animações não convertidas)")
+    parser.add_argument("--warm-cache", type=int, metavar="SEGUNDOS", default=0,
+                        help="abre o jogo (com janela) com essas unidades para ele converter a arte COLLADA no cache")
+    parser.add_argument("--complete-only", action="store_true", help="só gera as civs com as três classes completas")
     args = parser.parse_args()
 
     roster_dir = os.path.join(MOD, "simulation/data/total_warfield/rosters")
@@ -197,10 +295,32 @@ def main():
         civs = []
         for cls, (actor, _) in EXTRAS.items():
             jobs.append(("extra", cls, actor, [0.85, 0.82, 0.75]))
+    if args.warm_cache:
+        warm_cache(civs, loader, args.warm_cache)
+        return
+    complete = []
     for civ in civs:
         color = tribe_color(civ)
-        for cls, actor in pick_units(civ, loader).items():
-            jobs.append((civ, cls, actor, color))
+        picks = pick_units(civ, loader)
+        report = {cls: missing_art(resolve_actor(archive(), actor), []) for cls, actor in picks.items()}
+        # Sem cavalaria (ex.: Américas antes do cavalo) também vale: o mapa
+        # usa a infantaria no lugar dela.
+        # Cavalaria com arte quebrada também fica de fora (o mapa usa a infantaria).
+        ok = "inf" in picks and "rng" in picks and not report["inf"] and not report["rng"]
+        if args.check or not ok:
+            print(f"{civ:8} {'completa' if ok else 'incompleta'}: " + "; ".join(
+                f"{cls} {'ok' if not report.get(cls) else ', '.join(sorted(set(report[cls])))[:160]}" if cls in picks else f"{cls} sem unidade"
+                for cls in CLASSES))
+        if ok:
+            complete.append(civ)
+        if args.check or args.complete_only and not ok:
+            continue
+        for cls, actor in picks.items():
+            if not report[cls]:
+                jobs.append((civ, cls, actor, color))
+    if args.check:
+        print(f"{len(complete)} de {len(civs)} civs completas: " + " ".join(complete))
+        return
 
     # Mantém no manifesto as civs já geradas antes (regerar só algumas).
     done = {}

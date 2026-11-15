@@ -105,7 +105,8 @@
 			"level": "town",
 			"income": 30,
 			"coastal": true,
-			"description": "Sea trade for a coastal province."
+			"recruits": "port",
+			"description": "Sea trade for a coastal province, and a shipyard for war fleets (squadrons of warships and transports)."
 		},
 		{
 			"id": "walls",

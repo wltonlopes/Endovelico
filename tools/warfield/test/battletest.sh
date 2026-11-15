@@ -25,24 +25,60 @@ code = open(sys.argv[2]).read()
 open(sys.argv[2], "w").write("Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger).twTestSettings = " + json.dumps(settings) + ";\n" + code)
 PY
 fi
-sed -e 's|"scripts/TWFieldBattle.js"|"scripts/TWFieldBattle.js", "scripts/zz_twtest.js"|' \
-	-e 's|"Name" : "Field Battle"|"Name" : "zz test"|' \
-	"$MOD/maps/random/tw_battlefield.json" > "$MOD/maps/random/zz_twtest.json"
+# TW_MAP=tw_naval: batalha naval (o script de teste entra por último).
+python3 - "$MOD/maps/random/${TW_MAP:-tw_battlefield}.json" "$MOD/maps/random/zz_twtest.json" <<'PY'
+import json, sys
+data = json.load(open(sys.argv[1]))
+data["settings"]["Name"] = "zz test"
+data["settings"]["TriggerScripts"].append("scripts/zz_twtest.js")
+json.dump(data, open(sys.argv[2], "w"), indent="\t")
+PY
 if [ -n "$TW_TERRAIN" ]; then
-	sed -i "s|tw.terrain) != -1 ? tw.terrain|tw.terrain) != -1 ? tw.terrain : \"$TW_TERRAIN\"; const _x = 0 ? 0|" "$MOD/maps/random/zz_twtest.json"
+	echo "TW_TERRAIN: use TW_SETTINGS com \"terrain\" (o mapa lê settings.TotalWarfield.terrain)" >&2
 fi
-sed -i 's|"Script" : "tw_battlefield.js"|"Script" : "tw_battlefield.js"|' "$MOD/maps/random/zz_twtest.json"
+
 if [ -n "$TW_STEALTH" ]; then
 	sed -i "s|^var TW_STEALTH_TEST = false;|var TW_STEALTH_TEST = true;|" "$MOD/maps/scripts/zz_twtest.js"
+fi
+if [ -n "$TW_CRUSH" ]; then
+	sed -i "s|^var TW_CRUSH_TEST = false;|var TW_CRUSH_TEST = true;|" "$MOD/maps/scripts/zz_twtest.js"
 fi
 if [ -n "$TW_CHOICE" ]; then
 	sed -i "s|^var TW_TEST_CHOICE = \"\";|var TW_TEST_CHOICE = \"$TW_CHOICE\";|" "$MOD/maps/scripts/zz_twtest.js"
 fi
-trap 'rm -f "$MOD/maps/scripts/zz_twtest.js" "$MOD/maps/random/zz_twtest.json"' EXIT
+# TW_CAMPAIGN_RUN=<nome>: partida de campanha de verdade (campaignData com o
+# save <nome>.0adcampaign), como a campanha lança: no fim a sessão roda a
+# página endgame da campanha, que grava o resultado no save.
+CUR_RUN=""
+if [ -n "$TW_CAMPAIGN_RUN" ]; then
+	# A página endgame grava na campanha "atual" (user.cfg): guarda uma
+	# cópia dela e devolve no fim.
+	CFG="$HOME/snap/0ad/$REV/.config/0ad/config/user.cfg"
+	CUR_RUN=$(sed -n 's/^currentcampaign = "\(.*\)"/\1/p' "$CFG" 2>/dev/null)
+	SAVES="$HOME/snap/0ad/$REV/.local/share/0ad/saves/campaigns"
+	[ -n "$CUR_RUN" ] && cp "$SAVES/$CUR_RUN.0adcampaign" "/tmp/tw_current_run_backup.0adcampaign"
+	mkdir -p "$MOD/autostart"
+	python3 - "$TW_CAMPAIGN_RUN" "$MOD/autostart/autostart.js" <<'PY'
+import json, sys
+open(sys.argv[2], "w").write("""async function autoStart(cmdLineArgs)
+{
+	const playerAssignments = { "local": { "player": 1, "name": "tester" } };
+	const settings = new GameSettings().init();
+	settings.cheats.setEnabled(true);
+	parseCmdLineArgs(settings, cmdLineArgs);
+	settings.victoryConditions.fromList([]);
+	settings.campaignData.value = { "run": %s, "province": "test", "totalWarfield": true };
+	settings.launchGame(playerAssignments, false);
+	return ["page_loading.xml", { "attribs": settings.finalizedAttributes, "playerAssignments": playerAssignments }];
+}
+""" % json.dumps(sys.argv[1]))
+PY
+fi
+trap 'rm -f "$MOD/maps/scripts/zz_twtest.js" "$MOD/maps/random/zz_twtest.json" "$MOD/autostart/autostart.js"; rmdir "$MOD/autostart" 2>/dev/null; if [ -n "$CUR_RUN" ]; then cp "$SAVES/$CUR_RUN.0adcampaign" "/tmp/tw_endgame_result.0adcampaign"; mv "/tmp/tw_current_run_backup.0adcampaign" "$SAVES/$CUR_RUN.0adcampaign"; fi' EXIT
 
 (cd /tmp && timeout "$WAIT" snap run 0ad -mod=public -mod="$NAME" \
 	-autostart="random/zz_twtest" -autostart-biome=generic/temperate -autostart-size=${TW_SIZE:-192} -autostart-players=2 \
-	-autostart-civ=1:${TW_CIV1:-rome} -autostart-civ=2:${TW_CIV2:-mace} -autostart-ai=1:petra -autostart-ai=2:petra \
-	-autostart-victory=endless -autostart-nonvisual -autostart-disable-replay > /dev/null 2>&1)
+	-autostart-civ=1:${TW_CIV1:-rome} -autostart-civ=2:${TW_CIV2:-mace} ${TW_VISUAL:+-autostart-player=1} -autostart-ai=1:petra -autostart-ai=2:petra \
+	-autostart-victory=endless ${TW_VISUAL:+-xres=1024 -yres=700}${TW_VISUAL:--autostart-nonvisual} -autostart-disable-replay > /dev/null 2>&1)
 
 sed 's/<[^>]*>//g' "$LOG" | grep -E 'twtest|ERROR|WARNING|JavaScript' | grep -v "Petra error: it does not know" | sed 's/^WARNING: \[twtest\] /  /' | cut -c1-700

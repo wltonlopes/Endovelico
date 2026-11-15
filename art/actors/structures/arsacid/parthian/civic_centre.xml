@@ -5,6 +5,7 @@
     <variant frequency="1" name="Parthian Civic Centre">
       <mesh>structural/arsacid/parthian/civic_centre.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
       </props>
       <textures>

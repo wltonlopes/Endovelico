@@ -215,6 +215,58 @@
 				"range": 0.0,
 				"speed": 7.2
 			}
+		},
+		{
+			"key": "ship_arrow",
+			"template": "units/vyadh/tw/ship_arrow",
+			"baseTemplate": "units/vyadh/ship_arrow",
+			"naval": true,
+			"transport": false,
+			"role": "arrow",
+			"name": "Funanese Warship",
+			"specificName": "Yuddha Nau",
+			"icon": "units/yayo/ship_bireme.png",
+			"category": "ship",
+			"size": 3,
+			"cost": 150,
+			"upkeep": 8,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 3000.0,
+				"armor": 4.0,
+				"melee": 0.0,
+				"ranged": 32.0,
+				"range": 56.25,
+				"speed": 14.0,
+				"capacity": 30.0
+			}
+		},
+		{
+			"key": "ship_merchant",
+			"template": "units/vyadh/tw/ship_merchant",
+			"baseTemplate": "units/vyadh/ship_merchant",
+			"naval": true,
+			"transport": true,
+			"role": "transport",
+			"name": "Merchantman",
+			"specificName": "Vaṇij Nau",
+			"icon": "units/yayo/ship_merchant.png",
+			"category": "ship",
+			"size": 2,
+			"cost": 100,
+			"upkeep": 6,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 720.0,
+				"armor": 7.5,
+				"melee": 0,
+				"ranged": 0,
+				"range": 0,
+				"speed": 12.15,
+				"capacity": 15.0
+			}
 		}
 	],
 	"heroes": [],

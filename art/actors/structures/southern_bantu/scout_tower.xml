@@ -5,6 +5,7 @@
     <variant frequency="1" name="Azania Sentry Tower" file="structures/defensive_building.xml">
       <mesh>structural/azania/sently_tower.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
       </props>
       <textures>

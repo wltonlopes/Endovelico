@@ -5,6 +5,7 @@
     <variant frequency="1" name="Khoisan Fortress" file="structures/defensive_building.xml">
       <mesh>structural/khoisan/fortress.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
         <prop actor="props/flora/berry_bush.xml" attachpoint="bush_01"/>
         <prop actor="props/flora/berry_bush.xml" attachpoint="bush_02"/>

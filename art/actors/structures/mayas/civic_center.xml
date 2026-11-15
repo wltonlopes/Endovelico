@@ -5,6 +5,7 @@
     <variant frequency="100" name="Maya Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/mayas/civic_center.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
       </props>
       <textures>

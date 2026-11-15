@@ -45,7 +45,11 @@ class BattleWindow
 		const wallsText = !battle.walls ? "" : "\n" + (battle.walls == "stone" ? "Stone walls" : "Palisade") +
 			(engines ? " — " + engines + " siege engines to breach them" : coloredText(" — no siege engines: lay siege to build rams, or assault the gate by hand", "255 160 110"));
 		Engine.GetGUIObjectByName("battleOdds").caption = sprintf("Chance of victory if auto-resolved: %(chance)s%%", { "chance": chance }) +
-			wallsText + "\nTerrain: " + (province.data.terrain || "open ground");
+			wallsText + (battle.naval ? "\nNaval battle: only the squadrons fight; troops aboard drown with the ships that sink." +
+				(TWBattle.getTransports(TWBattle.getHero(battle.attacker), TWBattle.getForces(battle).attacker.battalions).length ||
+				 TWBattle.getTransports(TWBattle.getHero(battle.defender), TWBattle.getForces(battle).defender.battalions).length ?
+					" An army without warships sails on merchantmen." : "") :
+				"\nTerrain: " + (province.data.terrain || "open ground"));
 		Engine.GetGUIObjectByName("battleRetreat").hidden = battle.playerSide != "attacker";
 		const siegeButton = Engine.GetGUIObjectByName("battleSiege");
 		siegeButton.hidden = !(battle.playerSide == "attacker" && battle.walls && !province.siege);

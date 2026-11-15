@@ -16,6 +16,9 @@
   <group>
     <variant frequency="1" name="defense_tower">
       <mesh>structural/carthaginian_empire/defense_tower.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
       <textures>
         <texture file="structural/ao/cartemp/defense_tower_ao.png" name="aoTex" />
       </textures>

@@ -5,6 +5,7 @@
     <variant frequency="1" name="Damara Defense Tower" file="structures/defensive_building.xml">
       <mesh>structural/damara/defense_tower.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_2x2.xml" attachpoint="root"/>
       </props>
       <textures>

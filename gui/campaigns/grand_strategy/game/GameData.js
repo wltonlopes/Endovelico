@@ -767,7 +767,10 @@ class GameData
 			if (here && here.ownerTribe == code)
 				for (let tries = 0; tries < 3 && hero.battalions.length < TW_MAX_BATTALIONS; ++tries)
 				{
-					const options = twRecruitOptions(here, tribe).filter(o => !o.unavailable && o.cost < tribe.money - 250);
+					// Esquadras: no máximo duas por exército, só navios de guerra.
+					const fleet = twFleet(hero.battalions).length;
+					const options = twRecruitOptions(here, tribe).filter(o => !o.unavailable && o.cost < tribe.money - 250 &&
+						(!o.unit.naval || !o.unit.transport && fleet < 2 && randBool(0.3)));
 					if (!options.length)
 						break;
 					twRecruit(hero, pickRandom(options.slice(0, 4)).unit.key);
@@ -877,8 +880,8 @@ class GameData
 			}
 			const forces = TWBattle.getForces(battle);
 			// Só ataca com chance razoável.
-			const power = twArmyPower(forces.attacker.battalions) * twSideMultiplier(forces.attacker);
-			const enemyPower = twArmyPower(forces.defender.battalions) * twSideMultiplier(forces.defender);
+			const power = twArmyPower(forces.attacker.battalions, !!battle.naval) * twSideMultiplier(forces.attacker);
+			const enemyPower = twArmyPower(forces.defender.battalions, !!battle.naval) * twSideMultiplier(forces.defender);
 			if (power < enemyPower * 0.9)
 			{
 				hero.actionsLeft += hero.getMoveCost(target);

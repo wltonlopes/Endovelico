@@ -16,7 +16,41 @@
 			"inf",
 			"rng"
 		],
+		"aden": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"aksum": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"anish": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"araw": [
+			"inf",
+			"rng"
+		],
 		"athen": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"azan": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"bantu": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"batw": [
 			"cav",
 			"inf",
 			"rng"
@@ -31,9 +65,29 @@
 			"inf",
 			"rng"
 		],
+		"chibc": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"damar": [
+			"cav",
+			"inf",
+			"rng"
+		],
 		"extra": [
 			"ship",
 			"trader"
+		],
+		"gaet": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"gara": [
+			"cav",
+			"inf",
+			"rng"
 		],
 		"gaul": [
 			"cav",
@@ -45,7 +99,17 @@
 			"inf",
 			"rng"
 		],
+		"guara": [
+			"cav",
+			"inf",
+			"rng"
+		],
 		"han": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"hisat": [
 			"cav",
 			"inf",
 			"rng"
@@ -55,7 +119,26 @@
 			"inf",
 			"rng"
 		],
+		"khoi": [
+			"inf",
+			"rng"
+		],
 		"kush": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"kwa": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"lenc": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"liby": [
 			"cav",
 			"inf",
 			"rng"
@@ -65,7 +148,61 @@
 			"inf",
 			"rng"
 		],
+		"macrob": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"mand": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"mapu": [
+			"cav",
+			"inf",
+			"rng"
+		],
 		"maur": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"mauret": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"maya": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"mixt": [
+			"inf",
+			"rng"
+		],
+		"moch": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"nok": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"numi": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"paiu": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"pamp": [
 			"cav",
 			"inf",
 			"rng"
@@ -75,7 +212,17 @@
 			"inf",
 			"rng"
 		],
+		"puka": [
+			"cav",
+			"inf",
+			"rng"
+		],
 		"rome": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"sao": [
 			"cav",
 			"inf",
 			"rng"
@@ -85,8 +232,36 @@
 			"inf",
 			"rng"
 		],
+		"shona": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"sonin": [
+			"cav",
+			"inf",
+			"rng"
+		],
 		"spart": [
 			"cav",
+			"inf",
+			"rng"
+		],
+		"swcr": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"tupi": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"urew": [
+			"inf",
+			"rng"
+		],
+		"zapo": [
 			"inf",
 			"rng"
 		]

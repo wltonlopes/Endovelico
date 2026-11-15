@@ -5,6 +5,7 @@
     <variant frequency="1" name="Arsacid Civic Centre" file="structures/defensive_building.xml">
       <mesh>structural/arsacid/civic_centre.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
         <prop actor="props/structures/arsacid/civic_centre_struct.xml" attachpoint="root"/>
         <prop actor="props/structures/arsacid/civic_centre_bush.xml" attachpoint="root"/>

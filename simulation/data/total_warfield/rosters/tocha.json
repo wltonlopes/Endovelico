@@ -304,6 +304,32 @@
 				"range": 40.0,
 				"speed": 8.24
 			}
+		},
+		{
+			"key": "ship_merchant",
+			"template": "units/tocha/tw/ship_merchant",
+			"baseTemplate": "units/tocha/ship_merchant",
+			"naval": true,
+			"transport": true,
+			"role": "transport",
+			"name": "Merchantman",
+			"specificName": "",
+			"icon": "units/celt/ship_merchant.png",
+			"category": "ship",
+			"size": 2,
+			"cost": 100,
+			"upkeep": 6,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 720.0,
+				"armor": 7.5,
+				"melee": 0,
+				"ranged": 0,
+				"range": 0,
+				"speed": 12.15,
+				"capacity": 15.0
+			}
 		}
 	],
 	"heroes": [],

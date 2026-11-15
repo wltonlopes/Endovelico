@@ -3,56 +3,17 @@
  * da tela: soldados vivos e batalhões em fuga de cada lado.
  */
 var g_TWBattleChoiceAsked = false;
-var g_TWConquestAsked = false;
 
 /**
- * O exército inimigo se desfez. Se a batalha é pela posse de uma província
- * (o jogador ataca), pergunta primeiro o destino dela: ocupar, saquear ou
- * fazer vassalo. Depois, se a batalha acaba aqui (os fugitivos escapam e
- * parte volta ao exército deles) ou se as tropas perseguem os que fogem.
- * As respostas vão para o trigger (comando "tw-battle-choice").
+ * O exército inimigo se desfez: pergunta se a batalha acaba aqui (os
+ * fugitivos escapam e parte volta ao exército deles) ou se as tropas
+ * perseguem os que fogem. A resposta vai para o trigger (comando
+ * "tw-battle-choice"). O destino da província tomada (ocupar, saquear,
+ * vassalo) é decidido no mapa da campanha, depois da batalha.
  */
-function TWAskBattleChoice(status)
+function TWAskBattleChoice()
 {
 	g_TWBattleChoiceAsked = true;
-	if (status && status.conquest && !status.conquestChoice && !g_TWConquestAsked)
-	{
-		g_TWConquestAsked = true;
-		TWAskConquest(status.conquest).then(conquest => TWAskEndOrPursue(conquest));
-		return;
-	}
-	TWAskEndOrPursue(undefined);
-}
-
-/** Ocupar, saquear ou vassalo (mesmas regras da janela da campanha). */
-function TWAskConquest(conquest)
-{
-	const vassalText = conquest.vassal == "nation" ?
-		sprintf(translate("Make vassal: return it to %(name)s, which swears fealty and pays you tribute."), { "name": conquest.vassalName }) :
-		sprintf(translate("Make vassal: install a local ruler, the %(name)s, as your tributary client state."), { "name": conquest.vassalName });
-	const choices = ["occupy", "sack", "vassal"];
-	return messageBox(
-		560, 280,
-		sprintf(translate("The enemy army is broken! %(province)s lies open before us."), { "province": conquest.province }) + "\n\n" +
-		sprintf(translate("Occupy: annex the province and govern it (+%(gold)s gold)."), { "gold": conquest.occupyGold }) + "\n" +
-		sprintf(translate("Sack: plunder it (+%(gold)s gold); it loses people and buildings and is close to revolt."), { "gold": conquest.sackGold }) + "\n" +
-		vassalText + "\n\n" +
-		translate("The choice is applied when you return to the campaign map."),
-		sprintf(translate("Victory — the fate of %(province)s"), { "province": conquest.province }),
-		[translate("Occupy"), translate("Sack"), translate("Make Vassal")]
-	).then(button => {
-		const choice = choices[button] || "occupy";
-		// Já manda a escolha: vale mesmo que a batalha acabe antes da próxima pergunta.
-		Engine.PostNetworkCommand({ "type": "tw-battle-choice", "choice": "none", "conquest": choice });
-		return choice;
-	});
-}
-
-function TWAskEndOrPursue(conquest)
-{
-	const status = Engine.GuiInterfaceCall("TWGetBattleStatus", g_ViewedPlayer);
-	if (!status || status.finished || status.awaitingChoice != Engine.GetPlayerID())
-		return;
 	messageBox(
 		500, 240,
 		translate("The enemy army is broken and fleeing the field!") + "\n\n" +
@@ -61,9 +22,44 @@ function TWAskEndOrPursue(conquest)
 		translate("Victory"),
 		[translate("End the battle"), translate("Pursue")]
 	).then(button => {
-		Engine.PostNetworkCommand({ "type": "tw-battle-choice", "choice": button == 0 ? "end" : "pursue", "conquest": conquest });
+		const status = Engine.GuiInterfaceCall("TWGetBattleStatus", g_ViewedPlayer);
+		// A batalha pode ter acabado enquanto a caixa estava aberta.
+		if (status && !status.finished)
+			Engine.PostNetworkCommand({ "type": "tw-battle-choice", "choice": button == 0 ? "end" : "pursue" });
 	});
 }
+
+/**
+ * Fim da batalha da campanha: no lugar do "Do you want to quit?" do jogo
+ * (Stay / Summary / Quit), uma caixa só, que fecha a partida e volta ao
+ * mapa da campanha (lá aparecem o relatório e o destino da província).
+ * QuitConfirmationDefeat é carregada depois deste arquivo: o patch entra
+ * na inicialização dos jogadores.
+ */
+function TWPatchBattleEnd()
+{
+	if (typeof QuitConfirmationDefeat == "undefined" || QuitConfirmationDefeat.prototype.twPatched ||
+		!g_InitAttributes?.campaignData?.totalWarfield)
+		return;
+	QuitConfirmationDefeat.prototype.twPatched = true;
+	QuitConfirmationDefeat.prototype.confirmExit = function(won, closeSession)
+	{
+		if (g_IsNetworked && !g_IsNetworkedActive)
+			return;
+		unregisterSimulationUpdateHandler(this.confirmHandler);
+		this.Title = won ? this.TitleVictory : this.TitleDefeated;
+		this.Caption = (won ? translate("The battle is won!") : translate("The battle is lost.")) + "\n\n" +
+			(won ? translate("Return to the campaign map to see the outcome and decide the fate of the province.") :
+				translate("Return to the campaign map to see the outcome."));
+		this.Buttons = [{
+			"caption": translate("Return to Campaign Map"),
+			"onPress": function() { this.closeSession(false); }
+		}];
+		this.ResumeOnClose = false;
+		this.display(closeSession);
+	};
+}
+registerPlayersInitHandler(TWPatchBattleEnd);
 
 {
 	const twRebuild = TimeNotificationOverlay.prototype.rebuild;
@@ -73,14 +69,8 @@ function TWAskEndOrPursue(conquest)
 		const status = Engine.GuiInterfaceCall("TWGetBattleStatus", g_ViewedPlayer);
 		if (!status || !status.sides)
 			return;
-		if (status.awaitingChoice !== undefined && status.awaitingChoice == Engine.GetPlayerID() && !g_TWBattleChoiceAsked)
-			TWAskBattleChoice(status);
-		// Batalha vencida sem fuga (inimigo aniquilado): pergunta o destino no fim.
-		else if (status.finished && status.winner == Engine.GetPlayerID() && status.conquest && !status.conquestChoice && !g_TWConquestAsked)
-		{
-			g_TWConquestAsked = true;
-			TWAskConquest(status.conquest);
-		}
+		if (status.awaitingChoice !== undefined && status.awaitingChoice == Engine.GetPlayerID() && !g_TWBattleChoiceAsked && !status.finished)
+			TWAskBattleChoice();
 		const lines = [];
 		for (const playerID in status.sides)
 		{
@@ -88,7 +78,8 @@ function TWAskEndOrPursue(conquest)
 			const player = g_Players[playerID];
 			if (!player)
 				continue;
-			let line = sprintf(translate("%(player)s: %(alive)s / %(initial)s soldiers, %(battalions)s battalions"), {
+			let line = sprintf(status.naval ? translate("%(player)s: %(alive)s / %(initial)s ships, %(battalions)s squadrons") :
+				translate("%(player)s: %(alive)s / %(initial)s soldiers, %(battalions)s battalions"), {
 				"player": coloredText(player.name, rgbToGuiColor(player.color)),
 				"alive": side.alive,
 				"initial": side.initial,
@@ -99,7 +90,7 @@ function TWAskEndOrPursue(conquest)
 			if (side.escaped)
 				line += " " + coloredText(sprintf(translate("%(escaped)s fled the field"), { "escaped": side.escaped }), "200 170 110");
 			if (status.flight == playerID)
-				line += " " + coloredText(translate("— ARMY BROKEN, FLEEING"), "255 90 70");
+				line += " " + coloredText(status.naval ? translate("— FLEET BROKEN, FLEEING") : translate("— ARMY BROKEN, FLEEING"), "255 90 70");
 			lines.push(line);
 		}
 		this.notificationText.caption = lines.join("\n") + "\n" + this.notificationText.caption;

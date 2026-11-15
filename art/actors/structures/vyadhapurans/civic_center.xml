@@ -5,6 +5,7 @@
     <variant frequency="1" name="Vyadhapuran Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/vyadhapurans/civic_centre.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/structures/flag_normal.xml" attachpoint="flag_01"/>
         <prop actor="props/structures/flag_normal.xml" attachpoint="flag_02"/>

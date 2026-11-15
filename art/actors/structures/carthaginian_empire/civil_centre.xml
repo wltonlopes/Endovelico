@@ -17,6 +17,7 @@
     <variant frequency="1" name="civil_centre">
       <mesh>structural/carthaginian_empire/civil_centre.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/carthaginian_empire/civil_centre_palms.xml" attachpoint="root" />
       </props>
       <textures>

@@ -243,6 +243,84 @@
 				"range": 0.0,
 				"speed": 9.5
 			}
+		},
+		{
+			"key": "ship_arrow",
+			"template": "units/mand/tw/ship_arrow",
+			"baseTemplate": "units/mand/ship_arrow",
+			"naval": true,
+			"transport": false,
+			"role": "arrow",
+			"name": "War Canoe",
+			"specificName": "",
+			"icon": "units/cart/ship_arrow.png",
+			"category": "ship",
+			"size": 3,
+			"cost": 150,
+			"upkeep": 8,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 3000.0,
+				"armor": 4.0,
+				"melee": 0.0,
+				"ranged": 32.0,
+				"range": 56.25,
+				"speed": 14.0,
+				"capacity": 30.0
+			}
+		},
+		{
+			"key": "ship_merchant",
+			"template": "units/mand/tw/ship_merchant",
+			"baseTemplate": "units/mand/ship_merchant",
+			"naval": true,
+			"transport": true,
+			"role": "transport",
+			"name": "Trading Canoe",
+			"specificName": "",
+			"icon": "units/ptol/ship_merchant.png",
+			"category": "ship",
+			"size": 2,
+			"cost": 100,
+			"upkeep": 6,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 720.0,
+				"armor": 7.5,
+				"melee": 0,
+				"ranged": 0,
+				"range": 0,
+				"speed": 12.15,
+				"capacity": 15.0
+			}
+		},
+		{
+			"key": "ship_scout",
+			"template": "units/mand/tw/ship_scout",
+			"baseTemplate": "units/mand/ship_scout",
+			"naval": true,
+			"transport": false,
+			"role": "scout",
+			"name": "Scout Canoe",
+			"specificName": "",
+			"icon": "units/achae/ship_scout.png",
+			"category": "ship",
+			"size": 3,
+			"cost": 150,
+			"upkeep": 6,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 1500.0,
+				"armor": 3.5,
+				"melee": 0.0,
+				"ranged": 14.0,
+				"range": 37.0,
+				"speed": 17.0,
+				"capacity": 10.0
+			}
 		}
 	],
 	"heroes": [

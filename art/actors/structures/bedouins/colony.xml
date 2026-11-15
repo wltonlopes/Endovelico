@@ -5,6 +5,7 @@
     <variant frequency="1" name="Bedouin Military Colony">
       <mesh>structural/bedouins/colony.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/bedouins/colony_struct.xml" attachpoint="root"/>
       </props>
       <textures>

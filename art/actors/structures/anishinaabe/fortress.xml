@@ -5,6 +5,7 @@
     <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">
       <mesh>structural/anishinaabe/fortress.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_9x9_round.xml" attachpoint="root"/>
         <prop actor="props/structures/anishinaabe/fortress_bush.xml" attachpoint="root"/>
       </props>

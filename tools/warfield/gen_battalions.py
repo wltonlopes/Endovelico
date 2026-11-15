@@ -49,6 +49,17 @@ CATEGORIES = {
     "siege":            {"size": 2, "columns": 2, "spacing": 10.0, "mixin": None},
 }
 
+# Esquadras: cada "batalhão" naval são N navios do mesmo tipo, avulsos na
+# batalha naval (maps/scripts/TWNavalBattle.js). Navios de guerra e o
+# mercante (transporte). Barcos de pesca ficam de fora.
+SQUADRON_SIZE = {"warship": 3, "transport": 2}
+SHIP_ROLES = [("Fireship", "fire"), ("NavalSiege", "siege"), ("NavalRam", "ram"), ("ArrowShip", "arrow"),
+              ("ScoutShip", "scout"), ("Warship", "warship"), ("Trader", "transport")]
+SHIP_XML = """<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: navio de esquadra a partir de {base}. -->
+<Entity parent="tw_ship|{base}"/>
+"""
+
 # Construção da campanha que libera cada estrutura do jogo. As que não
 # estão aqui (templos especiais, ginásios...) liberam campeões: "fortress".
 STRUCTURE_TO_BUILDING = {
@@ -310,6 +321,7 @@ ATTACHMENT_XML = """<?xml version="1.0" encoding="utf-8"?>
 def generate_civ(loader, civ, writer):
     trainable = collect_trainable(loader, civ)
     units = {}
+    ships = {}
     heroes = []
     for template, structures in sorted(trainable.items()):
         t = loader.get(template)
@@ -323,6 +335,10 @@ def generate_civ(loader, civ, writer):
                 "icon": t.text("Identity/Icon"),
                 "cavalry": "Cavalry" in cls
             })
+            continue
+        if "Ship" in cls:
+            if "Warship" in cls or "Trader" in cls:
+                ships[template.split("/")[-1]] = (template, t, cls)
             continue
         if "Siege" in cls and "Ship" not in cls:
             pass
@@ -443,6 +459,43 @@ def generate_civ(loader, civ, writer):
         attachments[kind] = dict(ATTACHMENTS[kind], template=member, baseTemplate=template,
                                  unitName=t.text("Identity/GenericName"), icon=t.text("Identity/Icon"))
     roster["attachments"] = attachments
+
+    # Esquadras (Porto da campanha).
+    for key, (template, t, cls) in sorted(ships.items()):
+        role = next((r for c, r in SHIP_ROLES if c in cls), "warship")
+        transport = role == "transport"
+        size = SQUADRON_SIZE["transport" if transport else "warship"]
+        resources = sum(max(0.0, t.number("Cost/Resources/" + r)) for r in ("food", "wood", "stone", "metal"))
+        gold = int(round(resources * size / 4.0 / 10.0) * 10)
+        attack = attack_stats(t) if t.has("Attack") else {"melee": 0, "ranged": 0, "range": 0}
+        wrapper = "units/%s/tw/%s" % (civ, key)
+        writer.write("simulation/templates/%s.xml" % wrapper, SHIP_XML.format(base=template))
+        roster["units"].append({
+            "key": key,
+            "template": wrapper,
+            "baseTemplate": template,
+            "naval": True,
+            "transport": transport,
+            "role": role,
+            "name": t.text("Identity/GenericName"),
+            "specificName": t.text("Identity/SpecificName"),
+            "icon": t.text("Identity/Icon"),
+            "category": "ship",
+            "size": size,
+            "cost": max(100 if transport else 150, gold),
+            "upkeep": max(6, int(round(gold * 0.05))),
+            "building": "port",
+            "level": "city" if role == "siege" else "town",
+            "stats": {
+                "hp": t.number("Health/Max") * 3,
+                "armor": armor(t),
+                "melee": attack["melee"],
+                "ranged": attack["ranged"],
+                "range": attack["range"],
+                "speed": t.number("UnitMotion/WalkSpeed"),
+                "capacity": t.number("GarrisonHolder/Max"),
+            },
+        })
     writer.write("simulation/data/total_warfield/rosters/%s.json" % civ,
                  json.dumps(roster, indent="\t", ensure_ascii=False) + "\n")
     return roster

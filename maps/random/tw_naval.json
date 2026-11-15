@@ -1,0 +1,17 @@
+{
+	"settings" : {
+		"Name" : "Naval Battle",
+		"Script" : "tw_naval.js",
+		"Description" : "Total Warfield: two fleets of squadrons meet on the open sea. Sink or rout every enemy squadron to win. Without a campaign, each side gets a random fleet of its civilisation.",
+		"Preview" : "mainland.png",
+		"Keywords": ["naval"],
+		"SupportedBiomes": "generic/",
+		"CircularMap" : false,
+		"PlayerPlacements": ["circle"],
+		"TriggerScripts": [
+			"scripts/TriggerHelper.js",
+			"scripts/TWFieldBattle.js",
+			"scripts/TWNavalBattle.js"
+		]
+	}
+}

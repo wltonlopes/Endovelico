@@ -462,6 +462,32 @@
 				"range": 0.0,
 				"speed": 7.2
 			}
+		},
+		{
+			"key": "ship_merchant",
+			"template": "units/liby/tw/ship_merchant",
+			"baseTemplate": "units/liby/ship_merchant",
+			"naval": true,
+			"transport": true,
+			"role": "transport",
+			"name": "Merchantman",
+			"specificName": "Seḥer",
+			"icon": "units/cart/ship_merchant.png",
+			"category": "ship",
+			"size": 2,
+			"cost": 100,
+			"upkeep": 6,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 720.0,
+				"armor": 7.5,
+				"melee": 0,
+				"ranged": 0,
+				"range": 0,
+				"speed": 12.15,
+				"capacity": 15.0
+			}
 		}
 	],
 	"heroes": [

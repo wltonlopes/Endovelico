@@ -5,6 +5,7 @@
     <variant frequency="1" name="Adena Defense Tower" file="structures/defensive_building.xml">
       <mesh>structural/adena/stone_tower.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_2x2_round.xml" attachpoint="root"/>
       </props>
       <textures>

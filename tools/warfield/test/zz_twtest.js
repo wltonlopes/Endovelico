@@ -128,7 +128,16 @@ Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger).DoAfterDelay(500, "TWTestTown"
 	Trigger.prototype.TWStartFlight = function(playerID)
 	{
 		twStartFlight.call(this, playerID);
-		if (TW_TEST_CHOICE)
+		if (TW_TEST_CHOICE == "human")
+		{
+			// Teste com interface: o vencedor vira humano e a sessão pergunta.
+			const winner = playerID == 1 ? 2 : 1;
+			this.twFlight.awaiting = winner;
+			if (this.twAI)
+				this.twAI = this.twAI.filter(p => p != winner);
+			warn("[twtest] fuga de P" + playerID + ", aguardando a escolha na interface de P" + winner);
+		}
+		else if (TW_TEST_CHOICE)
 		{
 			this.twFlight.awaiting = playerID == 1 ? 2 : 1;
 			warn("[twtest] fuga de P" + playerID + ", escolha simulada: " + TW_TEST_CHOICE);
@@ -149,7 +158,13 @@ Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger).DoAfterDelay(500, "TWTestTown"
 			this.TWBattleChoice(this.twFlight.awaiting, "none", conquest);
 			warn("[twtest] destino escolhido: " + this.TWGetBattleStatus().conquestChoice + ", fuga ainda aguardando: " + this.twFlight.awaiting);
 		}
-		this.TWBattleChoice(this.twFlight.awaiting, choice);
+		// Pelo mesmo caminho do jogo: o comando que a sessão manda.
+		const player = this.twFlight.awaiting;
+		// O vencedor faz papel de humano: os comandos dele não passam pelo filtro da IA.
+		if (this.twAI)
+			this.twAI = this.twAI.filter(p => p != player);
+		ProcessCommand(player, { "type": "tw-battle-choice", "choice": choice });
+		warn("[twtest] comando tw-battle-choice enviado por P" + player + "; fim=" + this.twFinished + " aguardando=" + (this.twFlight && this.twFlight.awaiting));
 	};
 }
 
@@ -228,3 +243,24 @@ if (TW_STEALTH_TEST)
 	Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger).DoAfterDelay(2000, "TWTestStealthPlace", {});
 	Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger).DoAfterDelay(8000, "TWTestStealthCheck", { "n": 0 });
 }
+
+// TW_CRUSH_TEST: aos 40 s mata 80% dos soldados do jogador 2 (regra do
+// exército esmagado: ele deve debandar logo em seguida).
+var TW_CRUSH_TEST = false;
+Trigger.prototype.TWTestCrush = function()
+{
+	let killed = 0;
+	for (const leader of this.TWLeadersOf(2))
+	{
+		const cmpLeader = Engine.QueryInterface(leader, IID_BattalionLeader);
+		const members = cmpLeader.GetBattalionEntities().filter(e => e != leader);
+		for (const ent of members.slice(0, Math.ceil(members.length * 0.85)))
+		{
+			Engine.QueryInterface(ent, IID_Health)?.Kill();
+			++killed;
+		}
+	}
+	warn("[twtest] esmagamento: " + killed + " soldados de P2 mortos; status " + uneval(this.TWGetBattleStatus().sides));
+};
+if (TW_CRUSH_TEST)
+	Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger).DoAfterDelay(40000, "TWTestCrush", {});

@@ -4,6 +4,9 @@
   <group>
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/sarmatians/cc.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
       <textures>
         <texture file="structural/sarma_struct.png" name="baseTex"/>
         <texture file="structural/sarma_struct_spec.png" name="specTex"/>

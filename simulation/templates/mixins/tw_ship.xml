@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Navio de esquadra do Total Warfield (batalha naval). Vida 3x para as
+  batalhas durarem mais; sem pesca, comércio nem treino a bordo. A classe
+  TWShip identifica os navios das esquadras (maps/scripts/TWNavalBattle.js).
+-->
+<Entity>
+  <Identity>
+    <Classes datatype="tokens">TWShip</Classes>
+  </Identity>
+  <Health>
+    <Max op="mul">3</Max>
+  </Health>
+  <ResourceGatherer disable=""/>
+  <Trader disable=""/>
+  <Trainer disable=""/>
+</Entity>

@@ -5,6 +5,7 @@
     <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">
       <mesh>structural/guara/fortress.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="particle/flame.xml" attachpoint="fire" />
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>

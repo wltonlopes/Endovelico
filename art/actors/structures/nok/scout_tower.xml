@@ -5,6 +5,7 @@
     <variant frequency="1" name="Nok Scout Tower" file="structures/defensive_building.xml">
       <mesh>structural/nok/wood_tower.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_3x3_round.xml" attachpoint="root"/>
         <prop actor="props/structures/nok/scout_tower_carpet.xml" attachpoint="root"/>
       </props>

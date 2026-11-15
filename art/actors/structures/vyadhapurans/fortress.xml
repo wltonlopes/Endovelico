@@ -5,6 +5,7 @@
     <variant frequency="1" name="Vyadhapuran Fortress" file="structures/defensive_building.xml">
       <mesh>structural/vyadhapurans/fortress.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
         <prop actor="props/structures/flag_small.xml" attachpoint="flag_01"/>
         <prop actor="props/structures/flag_small.xml" attachpoint="flag_02"/>

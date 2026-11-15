@@ -48,11 +48,22 @@ def _variant_frequency(archive, variant):
     return float(value or 0)
 
 
+def _variant_mesh(archive, variant):
+    for element in _variant_elements(archive, variant):
+        if element.tag == "mesh" and element.text:
+            return element.text.strip()
+    return None
+
+
 def _choose_variant(archive, group, selections, rng):
     """Como o jogo: nome selecionado primeiro; senão sorteio pela frequência."""
     variants = group.findall("variant")
     if not variants:
         return None
+    # Arte de mod: só as variantes cuja malha existe já convertida.
+    if hasattr(archive, "has_mesh"):
+        usable = [v for v in variants if (lambda m: m is None or archive.has_mesh(m))(_variant_mesh(archive, v))]
+        variants = usable or variants
     for variant in variants:
         if variant.get("name", "").lower() in selections:
             return variant

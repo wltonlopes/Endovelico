@@ -5,6 +5,7 @@
     <variant frequency="1" name="Urewe Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/urewe/civic_center.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/structures/urewe/civic_center_carpet.xml" attachpoint="root"/>
       </props>

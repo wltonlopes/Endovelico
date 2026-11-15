@@ -5,6 +5,7 @@
     <variant frequency="1" name="Hasmoneans Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/hasmoneans/civic_center.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/civic_center_water.xml" attachpoint="root"/>
         <prop actor="props/structures/hasmoneans/civic_center_struct.xml" attachpoint="root"/>

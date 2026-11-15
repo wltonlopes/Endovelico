@@ -190,6 +190,58 @@
 				"range": 0.0,
 				"speed": 6.0
 			}
+		},
+		{
+			"key": "ship_merchant",
+			"template": "units/urew/tw/ship_merchant",
+			"baseTemplate": "units/urew/ship_merchant",
+			"naval": true,
+			"transport": true,
+			"role": "transport",
+			"name": "Trading Canoe",
+			"specificName": "Ubwato",
+			"icon": "units/urew/ship_merchant.png",
+			"category": "ship",
+			"size": 2,
+			"cost": 100,
+			"upkeep": 6,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 720.0,
+				"armor": 7.5,
+				"melee": 0,
+				"ranged": 0,
+				"range": 0,
+				"speed": 12.15,
+				"capacity": 15.0
+			}
+		},
+		{
+			"key": "ship_scout",
+			"template": "units/urew/tw/ship_scout",
+			"baseTemplate": "units/urew/ship_scout",
+			"naval": true,
+			"transport": false,
+			"role": "scout",
+			"name": "War Canoe",
+			"specificName": "",
+			"icon": "units/urew/ship_scout.png",
+			"category": "ship",
+			"size": 3,
+			"cost": 150,
+			"upkeep": 6,
+			"building": "port",
+			"level": "town",
+			"stats": {
+				"hp": 1500.0,
+				"armor": 3.5,
+				"melee": 0.0,
+				"ranged": 14.0,
+				"range": 37.0,
+				"speed": 10.0,
+				"capacity": 1.0
+			}
 		}
 	],
 	"heroes": [

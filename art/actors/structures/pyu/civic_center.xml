@@ -5,6 +5,7 @@
     <variant frequency="1" name="Pyu Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/pyu/cc.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="structures/pyu/cc_f.xml" attachpoint="root" />
         <prop actor="particle/smoke_small_light.xml" attachpoint="smoke_1" />
         <prop actor="particle/smoke_small_light.xml" attachpoint="smoke_2" />

@@ -31,8 +31,15 @@ class TWBattle
 			// Sem general defendendo, a guarnição (ou os nativos) luta.
 			"garrison": defenderHero ? [] : twGarrisonArmy(province),
 			// Guarnição junto do general quando é a província dele.
-			"siege": !!province.ownerTribe && (!defenderHero || defenderHero.tribe == province.ownerTribe)
+			"siege": !!province.ownerTribe && (!defenderHero || defenderHero.tribe == province.ownerTribe),
+			// No mar: batalha naval entre as esquadras (maps/random/tw_naval.js).
+			"naval": province.isSea()
 		};
+		if (battle.naval)
+		{
+			battle.garrison = [];
+			battle.siege = false;
+		}
 		if (defenderHero && province.ownerTribe == defenderHero.tribe)
 			battle.garrison = twGarrisonArmy(province).slice(0, Math.max(0, province.garrison));
 		// Cerco: muralha do assentamento e aríetes já construídos no sítio.
@@ -81,19 +88,67 @@ class TWBattle
 		const province = g_GameData.provinces[battle.province];
 		const difficulty = { "easy": 0.85, "medium": 1, "hard": 1.15 }[g_GameData.difficulty] || 1;
 		const aiBonus = tribe => tribe && tribe != g_GameData.playerTribe ? difficulty : 1;
+		const withFleet = (battalions, hero) => battle.naval ? battalions.concat(this.getTransports(hero, battalions)) : battalions;
 		return {
 			"attacker": {
-				"battalions": attackerHero ? attackerHero.battalions : battle.attackerArmy || [],
+				"battalions": withFleet(attackerHero ? attackerHero.battalions : battle.attackerArmy || [], attackerHero),
 				"hero": attackerHero,
 				"difficulty": aiBonus(battle.attacker.tribe)
 			},
 			"defender": {
-				"battalions": (defenderHero ? defenderHero.battalions : []).concat(battle.garrison),
+				"battalions": withFleet((defenderHero ? defenderHero.battalions : []).concat(battle.garrison), defenderHero),
 				"hero": defenderHero,
 				"defenseBonus": battle.siege ? this.getDefenseBonus(battle, province, attackerHero) : 0,
 				"difficulty": aiBonus(battle.defender.tribe)
 			}
 		};
+	}
+
+	/**
+	 * Quem vai ao mar sem esquadra de guerra viaja em navios mercantes
+	 * (fracos): um "batalhão" virtual de transportes, um navio para cada
+	 * 4 batalhões. Não fica no exército; só entra na batalha naval.
+	 */
+	static getTransports(hero, battalions)
+	{
+		if (twFleet(battalions).some(b => !twUnit(b.civ, b.key)?.transport))
+			return [];
+		const land = twLandBattalions(battalions);
+		const transport = twTransportFor(land[0]?.civ || twResolveCiv(g_GameData.tribes[hero?.tribe]?.civ));
+		if (!transport || !land.length)
+			return [];
+		return [{ "id": "transports_" + (hero ? hero.id : "x"), "civ": transport.civ, "key": transport.unit.key,
+			"strength": Math.max(1, Math.ceil(land.length / 4)), "xp": 0, "virtual": true }];
+	}
+
+	/**
+	 * Tropas embarcadas afundam com os navios: cada lado perde soldados na
+	 * proporção dos navios perdidos (mais quem perdeu a batalha).
+	 */
+	static applyNavalLosses(battle, fleetBefore, result, lines)
+	{
+		for (const [side, hero] of [["attacker", this.getHero(battle.attacker)], ["defender", this.getHero(battle.defender)]])
+		{
+			const before = fleetBefore[side];
+			if (!hero || !before.ships)
+				continue;
+			const after = before.ids.reduce((sum, id) => sum + (result.battalions[id] !== undefined ? Math.max(0, result.battalions[id]) : before.strength[id]), 0);
+			const sunk = Math.max(0, before.ships - after);
+			const lostShare = sunk / before.ships;
+			const won = result.winner == side;
+			const drown = Math.min(0.9, lostShare * (won ? 0.5 : 0.8));
+			let drowned = 0;
+			for (const battalion of twLandBattalions(hero.battalions))
+			{
+				const lost = Math.round(battalion.strength * drown);
+				battalion.strength -= lost;
+				drowned += lost;
+			}
+			hero.battalions = hero.battalions.filter(b => b.strength >= (twUnit(b.civ, b.key)?.naval ? 1 : 2));
+			if (sunk || drowned)
+				lines.push((g_GameData.tribes[hero.tribe]?.getName() || hero.tribe) + ": " + sunk + " ship" + (sunk == 1 ? "" : "s") + " sunk" +
+					(drowned ? ", " + drowned + " soldiers drowned" : "") + ".");
+		}
 	}
 
 	/** Máquinas de cerco do atacante (do exército e construídas no sítio). */
@@ -134,8 +189,8 @@ class TWBattle
 	static getPlayerChance(battle)
 	{
 		const forces = this.getForces(battle);
-		const powerA = twArmyPower(forces.attacker.battalions) * twSideMultiplier(forces.attacker);
-		const powerD = twArmyPower(forces.defender.battalions) * twSideMultiplier(forces.defender);
+		const powerA = twArmyPower(forces.attacker.battalions, !!battle.naval) * twSideMultiplier(forces.attacker);
+		const powerD = twArmyPower(forces.defender.battalions, !!battle.naval) * twSideMultiplier(forces.defender);
 		const chance = powerA / Math.max(1, powerA + powerD);
 		const odds = Math.pow(chance, 1.6) / (Math.pow(chance, 1.6) + Math.pow(1 - chance, 1.6));
 		return battle.playerSide == "defender" ? 1 - odds : odds;
@@ -144,7 +199,7 @@ class TWBattle
 	static autoResolve(battle)
 	{
 		const forces = this.getForces(battle);
-		const result = twAutoResolve(forces.attacker, forces.defender);
+		const result = twAutoResolve(forces.attacker, forces.defender, !!battle.naval);
 		result.generals = {};
 		return this.apply(battle, result);
 	}
@@ -161,6 +216,19 @@ class TWBattle
 		const defenderHero = this.getHero(battle.defender);
 		const attackerWon = result.winner == "attacker";
 
+		// Batalha naval: navios de cada lado antes (esquadras e transportes).
+		const fleetBefore = {};
+		if (battle.naval)
+		{
+			const forces = this.getForces(battle);
+			for (const side of ["attacker", "defender"])
+			{
+				const fleet = twFleet(forces[side].battalions);
+				fleetBefore[side] = { "ids": fleet.map(b => b.id), "strength": Object.fromEntries(fleet.map(b => [b.id, b.strength])),
+					"ships": fleet.reduce((sum, b) => sum + b.strength, 0) };
+			}
+		}
+
 		const lostA = attackerHero ? twApplyCasualties(attackerHero.battalions, result.battalions, result.xp, result.attachments) :
 			twApplyCasualties(battle.attackerArmy || [], result.battalions, result.xp);
 		const lostD = (defenderHero ? twApplyCasualties(defenderHero.battalions, result.battalions, result.xp, result.attachments) : 0) +
@@ -175,6 +243,8 @@ class TWBattle
 		// Generais mortos na batalha (só nas partidas jogadas) ou com o
 		// exército aniquilado.
 		const lines = [];
+		if (battle.naval)
+			this.applyNavalLosses(battle, fleetBefore, result, lines);
 		for (const [hero, side] of [[attackerHero, "attacker"], [defenderHero, "defender"]])
 		{
 			if (!hero)
@@ -384,12 +454,14 @@ class TWBattle
 		const playerCiv = twResolveCiv(playerTribe.civ);
 		const enemyCiv = enemy.battalions.length ? enemy.battalions[0].civ : twResolveCiv(enemyTribe ? enemyTribe.civ : pickRandom(province.getNativeCivs()));
 
-		const armyOf = battalions => battalions.map(battalion => ({
+		// Em terra lutam os batalhões; no mar, só as esquadras (com os transportes).
+		const armyOf = battalions => battalions.filter(b => !!twUnit(b.civ, b.key)?.naval == !!battle.naval).map(battalion => ({
 			"id": battalion.id,
 			"template": twUnit(battalion.civ, battalion.key)?.template,
 			"strength": battalion.strength,
 			"xp": battalion.xp || 0,
 			"siege": !!twUnit(battalion.civ, battalion.key)?.siege,
+			"naval": !!twUnit(battalion.civ, battalion.key)?.naval,
 			// Acompanhantes (sacerdote, músico...) entram no fundo do batalhão.
 			"attachments": (battalion.upgrades || []).map(kind => ({
 				"kind": kind,
@@ -422,10 +494,10 @@ class TWBattle
 
 		const gameSettings = new GameSettings().init();
 		gameSettings.map.setType("random");
-		gameSettings.map.selectMap("maps/random/tw_battlefield");
+		gameSettings.map.selectMap(battle.naval ? "maps/random/tw_naval" : "maps/random/tw_battlefield");
 		const soldiers = twArmySoldiers(player.battalions) + twArmySoldiers(enemy.battalions);
-		// Cidade (com muralha) pede mais espaço entre ela e a borda.
-		gameSettings.mapSize.setSize(soldiers > 400 || battle.siege ? 256 : 192);
+		// Cidade (com muralha) pede mais espaço entre ela e a borda; navios também.
+		gameSettings.mapSize.setSize(soldiers > 400 || battle.siege || battle.naval ? 256 : 192);
 
 		const mapTypes = (province.data.mapTypes || []).map(type => g_GameData.mapTypes.parse(type)).filter(Boolean);
 		const biomes = [].concat(...mapTypes.map(t => t.biomes || [])).filter(biome => gameSettings.biome.available.has(biome));
@@ -465,7 +537,8 @@ class TWBattle
 			};
 		}
 		gameSettings.totalWarfield.setValue({
-			"terrain": battle.terrain,
+			"terrain": battle.naval ? "sea" : battle.terrain,
+			"naval": !!battle.naval,
 			"conquest": conquest,
 			"armies": { "1": playerArmy, "2": enemyArmy },
 			"generals": {

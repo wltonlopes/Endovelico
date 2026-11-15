@@ -5,6 +5,7 @@
     <variant frequency="1" name="Aksumite Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/aksumites/civic_center.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
       </props>
       <textures>

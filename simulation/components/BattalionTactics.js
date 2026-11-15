@@ -138,6 +138,9 @@ BattalionTactics.prototype.SUPPORT_EFFECTS = {
 /** Furtividade (tropa leve parada em bosque ou no alto). */
 BattalionTactics.prototype.STEALTH_DELAY = 3000;
 BattalionTactics.prototype.STEALTH_REVEAL_DISTANCE = 30;
+/** Tempo máximo escondido de uma vez e a espera antes de se esconder de novo. */
+BattalionTactics.prototype.STEALTH_MAX_TIME = 90000;
+BattalionTactics.prototype.STEALTH_COOLDOWN = 45000;
 BattalionTactics.prototype.STEALTH_TREES = 3;
 BattalionTactics.prototype.STEALTH_HIGH_GROUND = 6;
 
@@ -474,7 +477,10 @@ BattalionTactics.prototype.UpdateStealth = function(cmpLeader, pos, owner)
 	else if (this.stillSince === undefined)
 		this.stillSince = time;
 
-	let concealed = !busy && time - this.stillSince >= this.STEALTH_DELAY && this.IsGoodCover(pos);
+	// Escondido tempo demais: aparece e espera antes de sumir de novo.
+	if (this.hidden && this.hiddenSince !== undefined && time - this.hiddenSince > this.STEALTH_MAX_TIME)
+		this.stillSince = time + this.STEALTH_COOLDOWN;
+	let concealed = !busy && time - this.stillSince >= this.STEALTH_DELAY && !this.IsLastStand(owner) && this.IsGoodCover(pos);
 	const hiddenFrom = [];
 	if (concealed)
 	{
@@ -500,6 +506,8 @@ BattalionTactics.prototype.UpdateStealth = function(cmpLeader, pos, owner)
 			cmpLeaderAI.SwitchToStance(this.stanceBeforeHiding);
 		this.stanceBeforeHiding = undefined;
 	}
+	if (concealed && !this.hidden)
+		this.hiddenSince = time;
 	this.hidden = concealed;
 	for (const ent of cmpLeader.GetBattalionEntities())
 	{
@@ -508,6 +516,23 @@ BattalionTactics.prototype.UpdateStealth = function(cmpLeader, pos, owner)
 			continue;
 		cmpVisibility.SetTWHiddenFrom(concealed ? hiddenFrom : []);
 	}
+};
+
+/**
+ * Sem esconderijo quando o exército está em fuga ou quando só restam
+ * batalhões furtivos: a batalha precisa poder acabar.
+ */
+BattalionTactics.prototype.IsLastStand = function(owner)
+{
+	const cmpTrigger = Engine.QueryInterface(SYSTEM_ENTITY, IID_Trigger);
+	if (!cmpTrigger || typeof cmpTrigger.TWLeadersOf != "function")
+		return false;
+	if (cmpTrigger.twFlight && cmpTrigger.twFlight.player == owner)
+		return true;
+	return cmpTrigger.TWLeadersOf(owner).every(ent => {
+		const cmpTactics = Engine.QueryInterface(ent, IID_BattalionTactics);
+		return Engine.QueryInterface(ent, IID_Identity)?.HasClass("TWStealth") && (!cmpTactics || !cmpTactics.routing);
+	});
 };
 
 /** Bosque (árvores perto) ou ponto alto em relação ao entorno. */

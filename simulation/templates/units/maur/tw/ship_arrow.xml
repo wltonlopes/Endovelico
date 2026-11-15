@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: navio de esquadra a partir de units/maur/ship_arrow. -->
+<Entity parent="tw_ship|units/maur/ship_arrow"/>

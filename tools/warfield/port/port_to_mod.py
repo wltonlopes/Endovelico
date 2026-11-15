@@ -33,7 +33,6 @@ TREES = [
 	("gui/campaigns/grand_strategy", "gui/campaigns/grand_strategy", True),
 	("art/textures/ui/campaigns/grand_strategy/map", "art/textures/ui/campaigns/grand_strategy/map", True),
 	("art/textures/ui/campaigns/grand_strategy/general", "art/textures/ui/campaigns/grand_strategy/general", True),
-	("art/textures/ui/campaigns/grand_strategy/army", "art/textures/ui/campaigns/grand_strategy/army", True),
 	("art/textures/ui/campaigns/grand_strategy/fx", "art/textures/ui/campaigns/grand_strategy/fx", True),
 	("art/textures/ui/campaigns/grand_strategy/provinces", "art/textures/ui/campaigns/grand_strategy/provinces", True),
 	("tools/map", "tools/warfield/map", False),
@@ -46,7 +45,6 @@ FILES = [
 	("campaigns/grand_strategy/data/civ_fallback.json", "campaigns/grand_strategy/data/civ_fallback.json"),
 	("campaigns/grand_strategy/data/map_tiles.json", "campaigns/grand_strategy/data/map_tiles.json"),
 	("campaigns/grand_strategy/data/technologies.json", "campaigns/grand_strategy/data/technologies.json"),
-	("campaigns/grand_strategy/data/army_sprites.json", "campaigns/grand_strategy/data/army_sprites.json"),
 	# simulação: batalhões
 	("simulation/components/BattalionLeader.js", None),
 	("simulation/components/BattalionMember.js", None),
@@ -62,6 +60,9 @@ FILES = [
 	("maps/random/tw_battlefield.js", None),
 	("maps/random/tw_battlefield.json", None),
 	("maps/scripts/TWFieldBattle.js", None),
+	("maps/scripts/TWNavalBattle.js", None),
+	("maps/random/tw_naval.js", None),
+	("maps/random/tw_naval.json", None),
 	("gamesettings/attributes/TotalWarfield.js", None),
 	("gui/session/tw_battalion_selection.js", None),
 	("gui/session/tw_battalion_tactics.js", None),
@@ -72,6 +73,11 @@ FILES = [
 	("tools/port/port_to_mod.py", "tools/warfield/port/port_to_mod.py"),
 	("README.md", "tools/warfield/README_total_warfield.md"),
 ]
+# Gerados por mod (tools/warfield/art/gen_army_sprites.py no destino, com
+# as civs e a arte dele): nem copiados nem apagados. A pasta dos sprites
+# (art/.../army) e o army_sprites.json também ficam fora (TREES e FILES).
+KEEP = {"army_sprites.xml"}
+
 # Mixins dos batalhões (todos os tw_*.xml).
 MIXINS = "simulation/templates/mixins"
 
@@ -147,6 +153,8 @@ class Copier:
 			for name in files:
 				rel = os.path.relpath(os.path.join(root, name), base)
 				seen.add(rel)
+				if name in KEEP:
+					continue
 				self.copy(os.path.join(rel_src, rel), os.path.join(rel_dest, rel))
 		if not mirror:
 			return
@@ -154,7 +162,7 @@ class Copier:
 		for root, dirs, files in os.walk(dest_base):
 			for name in files:
 				rel = os.path.relpath(os.path.join(root, name), dest_base)
-				if rel not in seen:
+				if rel not in seen and name not in KEEP:
 					self.removed += 1
 					print("  remove (não existe mais na origem):", os.path.join(rel_dest, rel))
 					if not self.dry_run:

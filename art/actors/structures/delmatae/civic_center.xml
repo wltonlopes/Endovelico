@@ -5,6 +5,7 @@
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/dalmatae/cc.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="flora/trees/cypress_med_branches.xml" attachpoint="cc_f_1"/>
         <prop actor="flora/trees/cypress_med_branches.xml" attachpoint="cc_f_2"/>

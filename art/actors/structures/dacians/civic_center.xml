@@ -5,6 +5,7 @@
     <variant frequency="1" name="Civic Center" file="structures/defensive_building.xml">
       <mesh>structural/dacians/cc.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
       </props>

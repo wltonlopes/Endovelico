@@ -5,6 +5,7 @@
     <variant frequency="1" name="Paiute Military Colony" file="structures/defensive_building.xml">
       <mesh>structural/paiutes/military_colony.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="particle/flame.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
         <prop actor="structures/mayas/maize_clump.xml" attachpoint="bush_01"/>

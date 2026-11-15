@@ -5,6 +5,7 @@
     <variant frequency="1" name="Maya Fortress" file="structures/defensive_building.xml">
       <mesh>structural/mayas/fortress.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_10x10.xml" attachpoint="root"/>
       </props>
       <textures>

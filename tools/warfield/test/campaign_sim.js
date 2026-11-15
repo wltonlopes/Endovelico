@@ -371,6 +371,80 @@ catch (e)
 	print("RUNTIME ERROR (conquista): " + e + "\n" + e.stack);
 }
 
+// ------------------------------------------------ batalha naval
+try
+{
+	const hero = g_GameData.playerHero;
+	const sea = hero && Object.keys(g_GameData.provinces).find(code => g_GameData.provinces[code].isSea());
+	const enemyTribe = Object.values(g_GameData.tribes).find(t => t.code != "player" && t.generals.length && !t.vassalOf);
+	if (hero && sea && enemyTribe)
+	{
+		const civ = twResolveCiv(g_GameData.tribes.player.civ);
+		const ships = (twRoster(civ)?.units || []).filter(u => u.naval);
+		print("Navios da civ " + civ + ": " + ships.map(u => u.key + "(" + u.role + ", " + u.size + ", " + u.cost + "g, " + u.building + ")").join(" "));
+		// Porto recruta esquadras.
+		const home = g_GameData.provinces[g_GameData.tribes.player.getCapital()];
+		if (home)
+		{
+			home.buildings = home.buildings.concat(["port"]);
+			const options = twRecruitOptions(home, g_GameData.tribes.player).filter(o => o.unit.naval);
+			print("Recrutar no porto: " + options.map(o => o.unit.key + (o.unavailable ? "(" + o.unavailable + ")" : "")).join(", "));
+		}
+		const enemy = enemyTribe.generals[0];
+		g_GameData.tribes.player.getDiplomacy(enemyTribe.code).declareWar();
+		enemyTribe.getDiplomacy("player").declareWar();
+		const warship = ships.find(u => !u.transport);
+		if (warship && hero.battalions.length)
+		{
+			hero.battalions.push(twNewBattalion(civ, warship.key), twNewBattalion(civ, warship.key));
+			hero.location = sea;
+			enemy.location = sea;
+			hero.actionsLeft = 3;
+			const landBefore = twArmySoldiers(twLandBattalions(hero.battalions));
+			const enemyLand = twArmySoldiers(twLandBattalions(enemy.battalions));
+			const battle = TWBattle.create(hero, sea);
+			const forces = TWBattle.getForces(battle);
+			print("Batalha naval em " + sea + ": naval=" + battle.naval + " chance " + Math.round(100 * TWBattle.getPlayerChance(battle)) + "%; frota jogador " +
+				twFleet(forces.attacker.battalions).map(b => b.key + "x" + b.strength).join(",") + " / inimigo " + twFleet(forces.defender.battalions).map(b => b.key + "x" + b.strength + (b.virtual ? "(transporte)" : "")).join(","));
+			// Lançamento da batalha jogável (configurações falsas).
+			const savedSettings = globalThis.GameSettings;
+			let launchedNaval;
+			globalThis.GameSettings = class {
+				init() {
+					const value = () => ({ "value": undefined, "setValue": function(v) { this.value = v; } });
+					this.map = { "setType": () => {}, "selectMap": m => { this.mapPath = m; } };
+					this.mapSize = { "setSize": z => { this.size = z; } };
+					this.biome = { "available": new Set(["generic/temperate"]), "setBiome": () => {} };
+					this.playerCount = { "setNb": () => {} };
+					this.playerCiv = { "civs": [], "setValue": (i, c) => { this.playerCiv.civs[i] = c; } };
+					this.nomad = { "setEnabled": () => {} };
+					this.victoryConditions = { "fromList": () => {} };
+					this.totalWarfield = value();
+					this.campaignData = value();
+					return this;
+				}
+				launchGame() { launchedNaval = this; this.finalizedAttributes = {}; }
+			};
+			const savedRun = JSON.stringify(runData.data);
+			Engine.openRequest = Engine.openRequest || "openRequest";
+			TWBattle.launch(Object.assign({}, battle, { "playerSide": "attacker" }), () => {});
+			const tw = launchedNaval.totalWarfield.value;
+			print("  lançada: " + launchedNaval.mapPath + " tamanho " + launchedNaval.size + " naval=" + tw.naval + " frotas " +
+				tw.armies[1].map(e => e.template.split("/").pop() + "x" + e.strength).join(",") + " / " + tw.armies[2].map(e => e.template.split("/").pop() + "x" + e.strength).join(","));
+			runData.data = JSON.parse(savedRun);
+			globalThis.GameSettings = savedSettings;
+			const outcome = TWBattle.autoResolve(battle);
+			print("  " + outcome.report.replace(/\n/g, " / ").slice(0, 400));
+			print("  tropas embarcadas do jogador " + landBefore + " -> " + twArmySoldiers(twLandBattalions(hero.battalions)) + "; inimigo " + enemyLand + " -> " +
+				(enemyTribe.generals.indexOf(enemy) != -1 ? twArmySoldiers(twLandBattalions(enemy.battalions)) : "general caído"));
+		}
+	}
+}
+catch (e)
+{
+	print("RUNTIME ERROR (naval): " + e + "\n" + e.stack);
+}
+
 // ------------------------------------------------ modo gui: janelas da campanha
 if (ARGV[5] == "gui")
 {

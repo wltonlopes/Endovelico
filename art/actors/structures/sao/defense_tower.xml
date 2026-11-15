@@ -5,6 +5,7 @@
     <variant frequency="1" name="Sao Defense Tower" file="structures/defensive_building.xml">
       <mesh>structural/sao/defense_tower.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_3x3_round.xml" attachpoint="root"/>
       </props>
       <textures>

@@ -37,6 +37,19 @@ var TW_VICTORY_INTERVAL = 2000;
 var TW_ROUT_DEFEAT_TIME = 8;
 /** Fuga do exército derrotado: tempo máximo até o fim da batalha (s). */
 var TW_FLIGHT_TIME = 60;
+/**
+ * Fim decisivo: um lado reduzido a TW_CRUSHED_FRACTION dos soldados, diante
+ * de um inimigo com TW_CRUSHED_ODDS vezes mais, debanda. Sem nenhum golpe
+ * por TW_STALEMATE_TIME s depois de já ter havido combate, o lado que
+ * perdeu TW_STALEMATE_LOSS dos soldados e tem TW_STALEMATE_ODDS vezes
+ * menos também debanda: a batalha não fica parada esperando o último
+ * batalhão (atrás dos muros, no acampamento ou longe da luta).
+ */
+var TW_CRUSHED_FRACTION = 0.25;
+var TW_CRUSHED_ODDS = 2;
+var TW_STALEMATE_TIME = 45;
+var TW_STALEMATE_LOSS = 0.3;
+var TW_STALEMATE_ODDS = 1.5;
 /** Parte dos soldados que escaparam pela borda e voltam ao exército. */
 var TW_ESCAPE_RETURN_MIN = 0.6;
 var TW_ESCAPE_RETURN_MAX = 0.9;
@@ -825,7 +838,7 @@ Trigger.prototype.TWCheckVictory = function()
 		{
 			this.twFinalResult = this.TWResult(alive[0]);
 			this.twFinished = true;
-			QueryPlayerIDInterface(alive[0])?.Win(undefined);
+			QueryPlayerIDInterface(alive[0])?.Win(markForTranslation("%(player)s has won the battle."));
 		}
 		return;
 	}
@@ -853,6 +866,13 @@ Trigger.prototype.TWCheckVictory = function()
 		return;
 	}
 
+	const broken = this.TWDecisiveLoser(alive);
+	if (broken !== undefined)
+	{
+		this.TWStartFlight(broken);
+		return;
+	}
+
 	for (const playerID of alive)
 	{
 		// O general sozinho não segura o campo.
@@ -869,6 +889,35 @@ Trigger.prototype.TWCheckVictory = function()
 			return;
 		}
 	}
+};
+
+/** Lado que perdeu de forma decisiva (TW_CRUSHED_*, TW_STALEMATE_*), ou undefined. */
+Trigger.prototype.TWDecisiveLoser = function(alive)
+{
+	if (alive.length != 2)
+		return undefined;
+	const sides = this.TWGetBattleStatus()?.sides || {};
+	const [a, b] = alive;
+	if (!sides[a] || !sides[b] || !sides[a].initial || !sides[b].initial)
+		return undefined;
+	const now = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer).GetTime();
+	let lastHit = -Infinity;
+	for (const p of alive)
+		for (const ent of this.TWLeadersOf(p))
+			lastHit = Math.max(lastHit, Engine.QueryInterface(ent, IID_BattalionTactics)?.lastHitTime ?? -Infinity);
+	if (lastHit > -Infinity)
+		this.twHadCombat = true;
+	const quiet = this.twHadCombat && (now - lastHit) / 1000 >= TW_STALEMATE_TIME;
+	for (const [loser, winner] of [[a, b], [b, a]])
+	{
+		const mine = Math.max(0, sides[loser].alive);
+		const theirs = Math.max(0, sides[winner].alive);
+		if (mine <= sides[loser].initial * TW_CRUSHED_FRACTION && theirs >= mine * TW_CRUSHED_ODDS)
+			return loser;
+		if (quiet && mine <= sides[loser].initial * (1 - TW_STALEMATE_LOSS) && theirs >= mine * TW_STALEMATE_ODDS)
+			return loser;
+	}
+	return undefined;
 };
 
 /**
@@ -996,7 +1045,7 @@ Trigger.prototype.TWDefeat = function(playerID, reason)
 	this.twFinalResult = this.TWResult(winners[0]);
 	// Máquinas de cerco do vencido ficam no campo (perdidas).
 	for (const id in this.twSiege || {})
-		if (this.twSiege[id].player == playerID)
+		if (this.twSiege[id].player == playerID && !this.twSiege[id].naval)
 			this.twFinalResult.battalions[id] = 0;
 	// Batalhões do vencido que não conseguiram sair do campo: a maioria é
 	// morta ou capturada na perseguição.
@@ -1015,7 +1064,7 @@ Trigger.prototype.TWDefeat = function(playerID, reason)
 	{
 		const cmpWinner = QueryPlayerIDInterface(winner);
 		if (cmpWinner && cmpWinner.GetState() == "active")
-			cmpWinner.Win(undefined);
+			cmpWinner.Win(markForTranslation("%(player)s has won the battle."));
 	}
 };
 

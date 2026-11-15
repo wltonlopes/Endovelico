@@ -129,7 +129,7 @@ function twBattalionLabel(battalion)
 {
 	const unit = twUnit(battalion.civ, battalion.key);
 	const level = twBattalionLevel(battalion);
-	return (unit ? unit.name : battalion.key) + "  " + battalion.strength + "/" + (unit ? unit.size : "?") + (unit?.siege ? " engines" : "") +
+	return (unit ? unit.name : battalion.key) + "  " + battalion.strength + "/" + (unit ? unit.size : "?") + (unit?.siege ? " engines" : unit?.naval ? " ships" : "") +
 		(level ? "  " + "*".repeat(level) : "");
 }
 
@@ -146,11 +146,19 @@ function twUnitPower(unit)
 	return Math.sqrt(Math.max(1, damage) * durability) * mobility;
 }
 
-function twBattalionPower(battalion)
+/**
+ * @param naval - batalha no mar: valem as esquadras; as tropas embarcadas
+ *   só ajudam na abordagem (TW_MARINE_SHARE). Em terra os navios não lutam.
+ */
+function twBattalionPower(battalion, naval = false)
 {
 	const unit = twUnit(battalion.civ, battalion.key);
 	if (!unit)
 		return 0;
+	if (!!unit.naval != naval)
+		return naval ? battalion.strength * twUnitPower(unit) * TW_MARINE_SHARE : 0;
+	if (unit.naval)
+		return battalion.strength * twUnitPower(unit) * (unit.transport ? 0.25 : 1) * (1 + 0.1 * twBattalionLevel(battalion));
 	// Máquinas de cerco valem pouco em campo aberto (contra muralhas,
 	// valem pelo bônus de defesa que anulam: twSiegeEngines).
 	return battalion.strength * twUnitPower(unit) * (1 + 0.1 * twBattalionLevel(battalion)) * (unit.siege ? 0.25 : 1) *
@@ -177,9 +185,43 @@ function twSiegeRams(hero, provinceCode)
 	return siege && siege.heroId == hero.id ? siege.rams : 0;
 }
 
-function twArmyPower(battalions)
+/** Abordagem: parte da força das tropas embarcadas numa batalha naval. */
+var TW_MARINE_SHARE = 0.1;
+
+function twArmyPower(battalions, naval = false)
 {
-	return battalions.reduce((sum, battalion) => sum + twBattalionPower(battalion), 0);
+	return battalions.reduce((sum, battalion) => sum + twBattalionPower(battalion, naval), 0);
+}
+
+/** Esquadras (batalhões navais) de um exército. */
+function twFleet(battalions)
+{
+	return battalions.filter(battalion => twUnit(battalion.civ, battalion.key)?.naval);
+}
+
+/** Batalhões que lutam em terra (sem as esquadras). */
+function twLandBattalions(battalions)
+{
+	return battalions.filter(battalion => !twUnit(battalion.civ, battalion.key)?.naval);
+}
+
+/** Navio mercante da civ (transporte de quem vai ao mar sem esquadra). */
+function twTransportUnit(civ)
+{
+	const units = twRoster(civ)?.units || [];
+	return units.find(u => u.naval && u.transport) || units.find(u => u.naval);
+}
+
+/** Civ e navio de transporte; povos sem porto (do interior) alugam mercantes. */
+function twTransportFor(civ)
+{
+	for (const candidate of [civ, "athen", "cart", "rome"])
+	{
+		const unit = twTransportUnit(candidate);
+		if (unit)
+			return { "civ": candidate, "unit": unit };
+	}
+	return undefined;
 }
 
 function twArmySoldiers(battalions)
@@ -216,8 +258,8 @@ function twAttachmentOptions(hero, battalion)
 	return Object.keys(attachments).map(kind => {
 		const data = attachments[kind];
 		let unavailable;
-		if (unit?.siege)
-			unavailable = "Not for siege engines";
+		if (unit?.siege || unit?.naval)
+			unavailable = unit.naval ? "Not for ships" : "Not for siege engines";
 		else if ((battalion.upgrades || []).indexOf(kind) != -1)
 			unavailable = "Already has one";
 		else if (province?.ownerTribe != hero.tribe)
@@ -331,7 +373,7 @@ function twStartingArmy(civ, size = 4)
 	const roster = twRoster(civ);
 	if (!roster)
 		return [];
-	const basic = roster.units.filter(u => !u.siege && (u.building == "none" || u.level == "village"));
+	const basic = roster.units.filter(u => !u.siege && !u.naval && (u.building == "none" || u.level == "village"));
 	const pickOf = category => basic.find(u => u.category == category) || roster.units.find(u => u.category == category);
 	const plan = ["infantry_melee", "infantry_melee", "infantry_ranged", "cavalry_melee", "infantry_melee", "cavalry_ranged", "infantry_ranged", "infantry_melee"];
 	const army = [];
@@ -364,7 +406,7 @@ function twGarrisonArmy(province)
 		++count;
 	count = Math.max(1, Math.min(10, count));
 	const level = province.getSettlementLevel();
-	const allowed = roster.units.filter(u => TW_LEVELS.indexOf(u.level) <= TW_LEVELS.indexOf(level) && u.category.indexOf("champion") == -1 && !u.siege);
+	const allowed = roster.units.filter(u => TW_LEVELS.indexOf(u.level) <= TW_LEVELS.indexOf(level) && u.category.indexOf("champion") == -1 && !u.siege && !u.naval);
 	const of = category => allowed.filter(u => u.category == category);
 	const melee = of("infantry_melee");
 	const ranged = of("infantry_ranged");
@@ -486,10 +528,10 @@ function twSideMultiplier(side)
  * @param attacker/defender - { battalions, hero, defenseBonus, difficulty }
  * @return { winner: "attacker"|"defender", chance, battalions: {id: força}, xp: {id: xp} }
  */
-function twAutoResolve(attacker, defender)
+function twAutoResolve(attacker, defender, naval = false)
 {
-	const powerA = twArmyPower(attacker.battalions) * twSideMultiplier(attacker);
-	const powerD = twArmyPower(defender.battalions) * twSideMultiplier(defender);
+	const powerA = twArmyPower(attacker.battalions, naval) * twSideMultiplier(attacker);
+	const powerD = twArmyPower(defender.battalions, naval) * twSideMultiplier(defender);
 	const total = Math.max(1, powerA + powerD);
 	const chance = powerA / total;
 	const attackerWins = !defender.battalions.length || Math.random() < Math.pow(chance, 1.6) / (Math.pow(chance, 1.6) + Math.pow(1 - chance, 1.6));
@@ -502,6 +544,10 @@ function twAutoResolve(attacker, defender)
 	const apply = (battalions, loss, won) => {
 		for (const battalion of battalions)
 		{
+			// No mar quem sofre são os navios; os embarcados afundam com eles
+			// depois (TWBattle.applyNavalLosses). Em terra os navios ficam de fora.
+			if (!!twUnit(battalion.civ, battalion.key)?.naval != naval)
+				continue;
 			const lost = loss * (0.7 + Math.random() * 0.6);
 			result.battalions[battalion.id] = Math.max(0, Math.round(battalion.strength * (1 - lost)));
 			result.xp[battalion.id] = (battalion.xp || 0) + (won ? 120 : 50) + Math.round(80 * Math.random());
@@ -532,7 +578,9 @@ function twApplyCasualties(battalions, survivors, xp, attachments)
 		// Acompanhantes que morreram na batalha se perdem.
 		if (attachments && attachments[battalion.id] && battalion.upgrades)
 			battalion.upgrades = battalion.upgrades.filter(kind => attachments[battalion.id].indexOf(kind) != -1);
-		if (battalion.strength < 2)
+		// Navios e máquinas contam um a um: basta um para continuar.
+		const unit = twUnit(battalion.civ, battalion.key);
+		if (battalion.strength < (unit?.naval || unit?.siege ? 1 : 2))
 			battalions.splice(i, 1);
 	}
 	return lost;

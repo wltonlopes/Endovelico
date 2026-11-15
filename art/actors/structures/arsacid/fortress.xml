@@ -5,6 +5,7 @@
     <variant frequency="1" name="Arsacid Fortress" file="structures/defensive_building.xml">
       <mesh>structural/arsacid/fortress.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/dirt_8x8.xml" attachpoint="root"/>
         <prop actor="props/structures/arsacid/fortress_struct.xml" attachpoint="root"/>
       </props>

@@ -4,6 +4,7 @@
   <group>
     <variant frequency="1" name="Fortress" file="structures/defensive_building.xml">      <mesh>structural/swcreek/fortress.dae</mesh>
       <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
         <prop actor="props/structures/player_prop_carpet.xml" attachpoint="01"/>
         <prop actor="props/structures/player_prop_carpet.xml" attachpoint="02"/>      

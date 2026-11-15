@@ -44,7 +44,7 @@ Campanha estratégica por turnos no mapa-múndi (províncias, cidades que cresce
   
   Sobreviventes, experiência, morte de generais e a conquista voltam para a campanha.
 - **Cerco:** contra uma cidade murada, a janela de batalha oferece *Lay siege*. A cada turno o exército constrói um aríete (até 4); a partir do 3º turno a cidade passa fome e perde um batalhão da guarnição por turno; sem guarnição nem general, ela se rende. Atacar de novo assalta com os aríetes já feitos. Sem máquinas de cerco, a muralha de pedra dá +60% ao defensor na resolução automática.
-- **Destino da conquista** (`game/Conquest.js`): toda vitória do jogador como atacante entrega a província (os generais inimigos que estavam nela recuam; sem terra para onde ir, o exército deles se dispersa). As três opções aparecem sempre: já na batalha, quando o exército inimigo debanda (ou no fim, se ele foi aniquilado), e, se não foram escolhidas lá, na campanha depois do relatório. O turno só avança depois da escolha.
+- **Destino da conquista** (`game/Conquest.js`): toda vitória do jogador como atacante entrega a província (os generais inimigos que estavam nela recuam; sem terra para onde ir, o exército deles se dispersa). As três opções aparecem sempre, no mapa da campanha, logo depois do relatório da batalha (nunca dentro da batalha). O turno só avança depois da escolha.
   - *Ocupar*: anexa a província, com um saque pequeno.
   - *Saquear*: fica com ela e leva muito ouro, mas a cidade perde 40% da população e cerca de metade das construções, fica à beira da revolta, e as outras nações passam a gostar menos de você.
   - *Vassalo*:
@@ -89,7 +89,7 @@ Campanha estratégica por turnos no mapa-múndi (províncias, cidades que cresce
   
   Os níveis de experiência dão ataque, armadura e firmeza.
 - **Vitória:** um lado sem nenhuma tropa viva (batalhões, general, máquinas, soldados soltos) perde na hora. Quando um lado fica alguns segundos sem nenhum batalhão em condição de lutar, o exército dele inteiro (general incluído) foge para a borda. O vencedor pode persegui-lo. Quem sai do campo volta em parte; quem é alcançado morre, e os que continuam no campo após 60 s são pegos (só 25% sobrevivem). Só então a batalha acaba. A campanha joga sem as condições de vitória do jogo: o trigger declara vencedor e vencido.
-- **Fim da batalha:** quando todos os batalhões inimigos desistem, aparece a mensagem de vitória com duas opções: **End the battle** (os que fogem escapam e voltam em parte) ou **Pursue** (persegue por mais 60 s; sem resposta, persegue). Se o jogador ataca uma província, antes dessa pergunta vem a do destino dela: **Occupy**, **Sack** ou **Make Vassal**. A escolha é aplicada ao voltar para a campanha.
+- **Fim da batalha:** quando todos os batalhões inimigos desistem, aparece a mensagem de vitória com duas opções: **End the battle** (os que fogem escapam e voltam em parte) ou **Pursue** (persegue por mais 60 s; sem resposta, persegue). Quando a batalha acaba, uma caixa só (**Return to Campaign Map**) fecha a partida e volta ao mapa, onde vêm o relatório e o destino da província.
 - **Moral dobrado:** `MORALE_RESILIENCE = 2` em `BattalionTactics.js` divide toda perda de moral; as batalhas ficam bem mais longas.
 - **Acompanhantes** (`mixins/tw_battalion_attachment.xml`, `units/<civ>/tw/att_<tipo>`): comprados na janela do exército por batalhão, entram na batalha junto dele e mudam o moral:
   - **Priest** (curandeiro/sacerdote da civ, precisa de Templo na província): perde menos moral e se recupera mais rápido;
@@ -108,8 +108,20 @@ Campanha estratégica por turnos no mapa-múndi (províncias, cidades que cresce
   - **Crane Wing**, **Fish Scale**, **Volley Ranks**: Han, Goguryeo e Minyue (cavalaria em asa de grou, infantaria em escamas de peixe, besteiros em fileiras de salva).
   
   A IA escolhe a formação da cultura ao desdobrar e passa para a testudo sob projéteis.
-- **Furtividade** (`mixins/tw_stealth.xml`, `components/ZZ_TWStealth.js`): atiradores a pé e guerrilheiros (ex.: os lusitanos) parados sob a copa das árvores (3 ou mais árvores a até 14 m) ou num ponto alto (6 m acima do entorno) somem da vista do inimigo. Reaparecem ao atacar, ao se mover ou com um inimigo a menos de 30 m. Escondidos, não atacam sozinhos (ficam em "standground"), e a IA não os vê nem mira neles.
+- **Furtividade** (`mixins/tw_stealth.xml`, `components/ZZ_TWStealth.js`): atiradores a pé e guerrilheiros (ex.: os lusitanos) parados sob a copa das árvores (3 ou mais árvores a até 14 m) ou num ponto alto (6 m acima do entorno) somem da vista do inimigo. Reaparecem ao atacar, ao se mover, com um inimigo a menos de 30 m ou depois de 90 s escondidos (e só voltam a sumir 45 s depois). Ninguém se esconde com o exército em fuga ou quando só restam tropas furtivas, para a batalha sempre poder acabar. Escondidos, não atacam sozinhos (ficam em "standground"), e a IA não os vê nem mira neles.
+- **Fim decisivo:** um lado com 25% dos soldados ou menos, diante de pelo menos o dobro, debanda. Depois de já ter havido luta, 45 s sem nenhum golpe fazem debandar o lado que perdeu 30% e tem 1,5x menos soldados. Assim a batalha não fica parada esperando o último batalhão (atrás dos muros, no acampamento ou longe).
 - **IA (diretor):** espera o desdobramento, avança em linha, carrega de perto, mantém os atiradores atrás e flanqueia com a cavalaria. A IA Petra fica sem efeito nos lados do diretor (`simulation/helpers/ZZ_TWCommands.js`), porque sem base ela dá ordens sem sentido.
+
+**Combate naval** (`maps/random/tw_naval.js` + `maps/scripts/TWNavalBattle.js`):
+- **Esquadras:** cada civ recruta no **Porto** os seus navios de guerra (flecheiro, aríete, batedor, incendiário; de cerco só em Cidade) e o mercante, que serve de transporte. Cada esquadra tem 3 navios de guerra ou 2 transportes, e entra no exército como um batalhão (força = navios). Os navios têm 3x a vida normal (`mixins/tw_ship.xml`). Em terra as esquadras não lutam.
+- **Encontros no mar:** quando generais em guerra se encontram numa província de mar, a batalha é naval:
+  - só as esquadras lutam;
+  - as tropas embarcadas ajudam um pouco na abordagem e afogam com os navios afundados (até 50% da proporção perdida para o vencedor e 80% para o vencido);
+  - quem vai ao mar sem navios de guerra viaja em mercantes (um para cada 4 batalhões); os povos sem porto alugam os de outra civ.
+- **Batalha jogada:** mar aberto com ilhotas e rochedos. As esquadras desdobram em fileiras, com os transportes atrás. A IA ataca com cada navio o inimigo mais próximo.
+  - Um lado sem navios perde.
+  - Uma frota reduzida a 35% diante de 1,5x mais navios debanda e foge para a borda do seu lado. Também debanda, depois de 50 s sem dano, a frota que perdeu 30% e tem menos navios.
+  - O vencedor escolhe encerrar ou perseguir, como em terra. Os navios que escapam pela borda voltam à campanha.
 
 ## Estrutura
 
@@ -136,6 +148,13 @@ Todos os caminhos da campanha usam `total_warfield` (e não `grand_strategy`), p
   - `TW_SETTINGS=<json>` usa uma configuração de batalha montada pela campanha.
   
   O censo mostra fugas, quem escapou, quantos estão de faca, cargas (feitas, choques, seguradas), peças de muralha de pé e máquinas de cerco. Para cercos e cargas, monte um `TW_SETTINGS` à mão (exércitos, `settlement` com `walls`). Nunca rode dois testes ao mesmo tempo (o log é o mesmo).
+- Batalha de um save de verdade: `gjs tools/test/campaign_pending.js tools/test/campaign_sim.js "$PWD" <public extraído> <save>.0adcampaign saida.json` monta a batalha pendente do save; depois `TW_SETTINGS=` (só a chave `settings`) no `battletest.sh`. Outras variáveis do `battletest.sh`:
+  - `TW_VISUAL=1` abre a janela (a interface da sessão roda);
+  - `TW_CHOICE=human` deixa a escolha de fim para a interface;
+  - `TW_CRUSH=1` mata 85% do lado 2 aos 40 s;
+  - `TW_CAMPAIGN_RUN=<save>` joga como partida de campanha (a página endgame grava o resultado; o save atual é guardado e devolvido, e o que foi gravado fica em `/tmp/tw_endgame_result.0adcampaign`).
+- Batalha naval: `TW_MAP=tw_naval TW_SIZE=256 sh tools/test/battletest.sh` (frotas de demonstração ou `TW_SETTINGS` com `"naval": true`).
+- Sprites de mods com arte própria (COLLADA): `gen_army_sprites.py --check <civs>` lista o que falta. `--warm-cache SEGUNDOS <civs>` abre o jogo um instante para ele converter os `.dae` no cache. Depois disso, gere normalmente. O leitor (`ModArchive`) procura nos arquivos soltos do mod, no cache do jogo e no `public.zip`.
 - `sh tools/test/campaign_sim.sh [turnos] [civ] [província] [gui]`: simula a campanha no `gjs` com os scripts reais (regras, IA, batalhas automáticas, salvar e recarregar). Com `gui`, abre também as janelas com objetos falsos e monta o lançamento da batalha. `TW_SAVE_BATTLE=<arquivo>` grava essa configuração, para usar em `TW_SETTINGS`.
 - Templates: `cd /tmp && snap run 0ad -mod=public -mod=0ad_total_warfield -autostart="random/tw_battlefield" -autostart-nonvisual -autostart-biome=generic/temperate -autostart-size=192 -autostart-players=2 -autostart-civ=1:rome -autostart-civ=2:mace`. O log fica em `~/snap/0ad/751/.local/state/0ad/log/interestinglog.html`.
 
