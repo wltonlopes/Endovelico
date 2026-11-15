@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Acompanhante de batalhão (Total Warfield): sacerdote, sacerdote
+     especial, músico ou porta-estandarte comprado na campanha. Anda no fundo
+     da formação, não entra na contagem de soldados e reforça o moral do
+     batalhão enquanto vive (BattalionTactics.GetSupportEffects). -->
+<Entity>
+  <BattalionMember/>
+  <Identity>
+    <Classes datatype="tokens">BattalionMember TWAttachment</Classes>
+  </Identity>
+  <Builder disable=""/>
+  <ResourceGatherer disable=""/>
+  <UnitAI>
+    <DefaultStance>defensive</DefaultStance>
+    <Formations disable=""/>
+  </UnitAI>
+  <Promotion replace="">
+    <Entity/>
+    <RequiredXp>150</RequiredXp>
+  </Promotion>
+  <Health>
+    <Max op="mul">1.6</Max>
+  </Health>
+</Entity>

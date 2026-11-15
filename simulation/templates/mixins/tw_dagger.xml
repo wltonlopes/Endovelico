@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Punhal dos atiradores de infantaria (Total Warfield): com um inimigo
+     colado, o soldado troca o arco/funda/dardo pela faca. Usa o ataque
+     Slaughter (que tem a animação de faca em todos os atores) com dano de
+     combate fraco; simulation/components/ZZ_TWDagger.js liga e desliga. -->
+<Entity>
+  <Attack>
+    <Slaughter replace="">
+      <AttackName>Dagger</AttackName>
+      <Damage>
+        <Hack>2.5</Hack>
+        <Pierce>1</Pierce>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Structure Ship Siege</RestrictedClasses>
+    </Slaughter>
+  </Attack>
+  <Identity>
+    <Classes datatype="tokens">TWDagger</Classes>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_slaughter>attack/weapon/knife_attack.xml</attack_slaughter>
+    </SoundGroups>
+  </Sound>
+</Entity>

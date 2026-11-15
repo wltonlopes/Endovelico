@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/nok/cavalry_maceman_b. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_member|units/nok/cavalry_maceman_b">
+  <Identity>
+    <SelectionGroupName>units/nok/tw/cavalry_maceman</SelectionGroupName>
+  </Identity>
+</Entity>

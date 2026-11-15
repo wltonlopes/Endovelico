@@ -8,6 +8,7 @@ function loadTreaties(controller)
 	const nonAggression = [];
 	const wars = [];
 	const trades = [];
+	const access = [];
 
 	for (const tribeCode in game.tribes)
 	{
@@ -25,6 +26,8 @@ function loadTreaties(controller)
 			nonAggression.push(name);
 		if (diplo.treaties.trade)
 			trades.push(name);
+		if (diplo.treaties.militaryAccess)
+			access.push(name);
 	}
 
 	const list = [];
@@ -35,6 +38,8 @@ function loadTreaties(controller)
 		list.push("Non-Aggression Pacts: " + nonAggression.join(", "));
 	if (trades.length)
 		list.push("Trade Agreements: " + trades.join(", "));
+	if (access.length)
+		list.push("Military Access: " + access.join(", "));
 	if (wars.length)
 		list.push("At War: " + wars.join(", "));
 

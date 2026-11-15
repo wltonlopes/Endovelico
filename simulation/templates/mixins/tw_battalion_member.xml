@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Soldado de batalhão (Total Warfield). Clicar nele seleciona o batalhão
+     inteiro (gui/session/tw_battalion_selection.js). -->
+<Entity>
+  <BattalionMember/>
+  <Identity>
+    <Classes datatype="tokens">BattalionMember</Classes>
+  </Identity>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+    <Formations disable=""/>
+  </UnitAI>
+  <!-- Na batalha de campo ninguém constrói nem coleta recursos. -->
+  <Builder disable=""/>
+  <ResourceGatherer disable=""/>
+  <Promotion replace="">
+    <Entity/>
+    <RequiredXp>150</RequiredXp>
+  </Promotion>
+</Entity>

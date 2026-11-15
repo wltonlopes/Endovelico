@@ -1,0 +1,493 @@
+{
+	"civ": "scyth",
+	"units": [
+		{
+			"key": "cavalry_archer",
+			"template": "units/scyth/tw/cavalry_archer",
+			"memberTemplate": "units/scyth/tw/m_cavalry_archer",
+			"baseTemplate": "units/scyth/cavalry_archer_b",
+			"name": "Scythian Horse Archer",
+			"specificName": "Skoloti",
+			"icon": "units/scyth/cavalry_archer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 6.0,
+				"range": 60.0,
+				"speed": 15.3
+			}
+		},
+		{
+			"key": "cavalry_axeman",
+			"template": "units/scyth/tw/cavalry_axeman",
+			"memberTemplate": "units/scyth/tw/m_cavalry_axeman",
+			"baseTemplate": "units/scyth/cavalry_axeman_b",
+			"name": "Sagaris Cavalry",
+			"specificName": "Sagaris",
+			"icon": "units/scyth/cavalry_swordsman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 2.5,
+				"melee": 13.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/scyth/tw/cavalry_scout",
+			"memberTemplate": "units/scyth/tw/m_cavalry_scout",
+			"baseTemplate": "units/scyth/cavalry_scout",
+			"name": "Scythian Scout",
+			"specificName": "",
+			"icon": "units/scyth/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/scyth/tw/cavalry_spearman",
+			"memberTemplate": "units/scyth/tw/m_cavalry_spearman",
+			"baseTemplate": "units/scyth/cavalry_spearman_b",
+			"name": "Scythian Lancer",
+			"specificName": "",
+			"icon": "units/xion/cav_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/scyth/tw/champion_cavalry",
+			"memberTemplate": "units/scyth/tw/m_champion_cavalry",
+			"baseTemplate": "units/scyth/champion_cavalry",
+			"name": "Royal Scythian Cataphract",
+			"specificName": "Paralatai",
+			"icon": "units/scyth/champion_cavalry_lancer.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry_archer",
+			"template": "units/scyth/tw/champion_cavalry_archer",
+			"memberTemplate": "units/scyth/tw/m_champion_cavalry_archer",
+			"baseTemplate": "units/scyth/champion_cavalry_archer",
+			"name": "Royal Horse Archer",
+			"specificName": "",
+			"icon": "units/scyth/champion_cavalry_archer.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 240.0,
+				"armor": 5.0,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 60.0,
+				"speed": 13.005
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/scyth/tw/infantry_archer",
+			"memberTemplate": "units/scyth/tw/m_infantry_archer",
+			"baseTemplate": "units/scyth/infantry_archer_b",
+			"name": "Scythian Archer",
+			"specificName": "",
+			"icon": "units/scyth/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_axeman",
+			"template": "units/scyth/tw/infantry_axeman",
+			"memberTemplate": "units/scyth/tw/m_infantry_axeman",
+			"baseTemplate": "units/scyth/infantry_axeman_b",
+			"name": "Scythian Axeman",
+			"specificName": "",
+			"icon": "units/scyth/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/scyth/tw/infantry_spearman",
+			"memberTemplate": "units/scyth/tw/m_infantry_spearman",
+			"baseTemplate": "units/scyth/infantry_spearman_b",
+			"name": "Scythian Levy Spearman",
+			"specificName": "",
+			"icon": "units/scyth/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "maiden_cavalry_archer",
+			"template": "units/scyth/tw/maiden_cavalry_archer",
+			"memberTemplate": "units/scyth/tw/m_maiden_cavalry_archer",
+			"baseTemplate": "units/scyth/maiden_cavalry_archer",
+			"name": "Maiden Headhunter",
+			"specificName": "Oiorpata",
+			"icon": "units/scyth/maiden_cavalry.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 60,
+			"upkeep": 5,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 0.5,
+				"melee": 0.0,
+				"ranged": 9.6,
+				"range": 36.0,
+				"speed": 18.36
+			}
+		},
+		{
+			"key": "maiden_infantry_archer",
+			"template": "units/scyth/tw/maiden_infantry_archer",
+			"memberTemplate": "units/scyth/tw/m_maiden_infantry_archer",
+			"baseTemplate": "units/scyth/maiden_infantry_archer",
+			"name": "Maiden Archer",
+			"specificName": "Oiorpata",
+			"icon": "units/scyth/maiden_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 60,
+			"upkeep": 5,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 9.6,
+				"range": 32.0,
+				"speed": 12.36
+			}
+		},
+		{
+			"key": "merc_infantry_1",
+			"template": "units/scyth/tw/merc_infantry_1",
+			"memberTemplate": "units/scyth/tw/m_merc_infantry_1",
+			"baseTemplate": "units/scyth/merc_infantry_1",
+			"name": "Bosporan Hoplite",
+			"specificName": "Hoplī́tēs Bosporanós",
+			"icon": "units/scyth/merc_hoplite.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 270,
+			"upkeep": 22,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "merc_infantry_2",
+			"template": "units/scyth/tw/merc_infantry_2",
+			"memberTemplate": "units/scyth/tw/m_merc_infantry_2",
+			"baseTemplate": "units/scyth/merc_infantry_2",
+			"name": "Thracian Peltast",
+			"specificName": "Peltastḗs Thrâix",
+			"icon": "units/athen/infantry_javelinist.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 270,
+			"upkeep": 22,
+			"building": "range",
+			"level": "town",
+			"stats": {
+				"hp": 120.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 21.33,
+				"range": 30.0,
+				"speed": 10.45
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/scyth/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/scyth/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "",
+			"icon": "units/scyth/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "support_civilian",
+			"template": "units/scyth/tw/support_civilian",
+			"memberTemplate": "units/scyth/tw/m_support_civilian",
+			"baseTemplate": "units/scyth/support_civilian",
+			"name": "Scythian Villager",
+			"specificName": "",
+			"icon": "units/scyth/citizen.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 100,
+			"upkeep": 8,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 25.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 4.0,
+				"range": 40.0,
+				"speed": 8.24
+			}
+		},
+		{
+			"key": "support_civilian_house",
+			"template": "units/scyth/tw/support_civilian_house",
+			"memberTemplate": "units/scyth/tw/m_support_civilian_house",
+			"baseTemplate": "units/scyth/support_civilian_house",
+			"name": "Scythian Villager",
+			"specificName": "",
+			"icon": "units/scyth/citizen.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 100,
+			"upkeep": 8,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 25.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 4.0,
+				"range": 40.0,
+				"speed": 8.24
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/scyth/hero_ateas_infantry",
+			"name": "Atéas",
+			"icon": "units/scyth/hero_ateas.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/scyth/hero_ateas_mounted",
+			"name": "Atéas",
+			"icon": "units/scyth/hero_ateas.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/scyth/hero_skilurus_infantry",
+			"name": "Skílouros",
+			"icon": "units/scyth/hero_skilurus.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/scyth/hero_skilurus_mounted",
+			"name": "Skílouros",
+			"icon": "units/scyth/hero_skilurus.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/scyth/hero_tomyris_infantry",
+			"name": "Tómyris",
+			"icon": "units/scyth/hero_tomyris.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/scyth/hero_tomyris_mounted",
+			"name": "Tómyris",
+			"icon": "units/scyth/hero_tomyris.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/scyth/tw/att_priest",
+			"baseTemplate": "units/scyth/support_healer_b",
+			"unitName": "Enaree Shaman",
+			"icon": "units/scyth/support_healer.png"
+		}
+	}
+}

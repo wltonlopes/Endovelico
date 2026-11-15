@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/maya/infantry_merc_spearman_lenca_b. -->
+<Entity parent="tw_brace|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/maya/infantry_merc_spearman_lenca_b">
+  <BattalionLeader>
+    <Size>24</Size>
+    <Columns>8</Columns>
+    <Spacing>2.2</Spacing>
+    <MemberTemplate>units/maya/tw/m_infantry_merc_spearman_lenca</MemberTemplate>
+    <Category>infantry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/maya/tw/infantry_merc_spearman_lenca</SelectionGroupName>
+  </Identity>
+</Entity>

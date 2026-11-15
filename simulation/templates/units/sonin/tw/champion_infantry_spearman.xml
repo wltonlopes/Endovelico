@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/sonin/champion_infantry_spearman. -->
+<Entity parent="tw_brace|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/sonin/champion_infantry_spearman">
+  <BattalionLeader>
+    <Size>16</Size>
+    <Columns>8</Columns>
+    <Spacing>2.4</Spacing>
+    <MemberTemplate>units/sonin/tw/m_champion_infantry_spearman</MemberTemplate>
+    <Category>champion_infantry</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/sonin/tw/champion_infantry_spearman</SelectionGroupName>
+  </Identity>
+</Entity>

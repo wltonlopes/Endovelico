@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/kush/champion_elephant. -->
+<Entity parent="tw_charge_cavalry|tw_tough_cavalry|tw_battalion_leader_cavalry|tw_battalion_leader|units/kush/champion_elephant">
+  <BattalionLeader>
+    <Size>4</Size>
+    <Columns>4</Columns>
+    <Spacing>8.0</Spacing>
+    <MemberTemplate>units/kush/tw/m_champion_elephant</MemberTemplate>
+    <Category>elephant</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/kush/tw/champion_elephant</SelectionGroupName>
+  </Identity>
+</Entity>

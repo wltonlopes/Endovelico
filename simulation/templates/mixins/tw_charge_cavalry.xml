@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Carga de cavalaria (Total Warfield, BattalionTactics): avançando a
+     galope contra um batalhão, o primeiro choque bate com dano extra e
+     abala o moral do alvo. Lanceiros firmes de frente anulam a carga. -->
+<Entity>
+  <BattalionTactics>
+    <ChargeDamage>1.8</ChargeDamage>
+    <ChargeMoraleLoss>22</ChargeMoraleLoss>
+    <ChargeSpeed>1.35</ChargeSpeed>
+  </BattalionTactics>
+  <Identity>
+    <Classes datatype="tokens">TWCharger</Classes>
+  </Identity>
+</Entity>

@@ -19,7 +19,7 @@ function init(endGameData)
 	}
 	catch (err)
 	{
-		error("Grand Strategy endgame: " + err + "\n" + err.stack);
+		error("Total Warfield endgame: " + err + "\n" + err.stack);
 	}
 
 	return Promise.resolve();

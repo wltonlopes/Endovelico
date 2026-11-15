@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/tocha/support_civilian_house. -->
+<Entity parent="tw_dagger|tw_stealth|tw_tough_infantry|tw_battalion_member|units/tocha/support_civilian_house">
+  <Identity>
+    <SelectionGroupName>units/tocha/tw/support_civilian_house</SelectionGroupName>
+  </Identity>
+</Entity>

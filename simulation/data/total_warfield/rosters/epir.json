@@ -1,0 +1,333 @@
+{
+	"civ": "epir",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/epir/tw/cavalry_javelineer",
+			"memberTemplate": "units/epir/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/epir/cavalry_javelineer_b",
+			"name": "Tarantine Cavalry",
+			"specificName": "Hippeús Tarantînos",
+			"icon": "units/epir/cavalry_javelinist.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.0,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/epir/tw/cavalry_scout",
+			"memberTemplate": "units/epir/tw/m_cavalry_scout",
+			"baseTemplate": "units/epir/cavalry_scout",
+			"name": "Epirote Scout",
+			"specificName": "",
+			"icon": "units/athen/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/epir/tw/cavalry_spearman",
+			"memberTemplate": "units/epir/tw/m_cavalry_spearman",
+			"baseTemplate": "units/epir/cavalry_spearman_b",
+			"name": "Thessalian Lancer",
+			"specificName": "Xystophóros Thessalikós",
+			"icon": "units/mace/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/epir/tw/champion_cavalry",
+			"memberTemplate": "units/epir/tw/m_champion_cavalry",
+			"baseTemplate": "units/epir/champion_cavalry",
+			"name": "Royal Guard Cavalry",
+			"specificName": "Hippeús Basilikós",
+			"icon": "units/epir/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_elephant",
+			"template": "units/epir/tw/champion_elephant",
+			"memberTemplate": "units/epir/tw/m_champion_elephant",
+			"baseTemplate": "units/epir/champion_elephant",
+			"name": "Towered War Elephant",
+			"specificName": "Pyrgophóros Eléphas",
+			"icon": "units/ptol/champion_elephant.png",
+			"category": "elephant",
+			"size": 4,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "elephant_stable",
+			"level": "city",
+			"stats": {
+				"hp": 1000.0,
+				"armor": 6.0,
+				"melee": 50.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.0
+			}
+		},
+		{
+			"key": "champion_infantry_crossbowman",
+			"template": "units/epir/tw/champion_infantry_crossbowman",
+			"memberTemplate": "units/epir/tw/m_champion_infantry_crossbowman",
+			"baseTemplate": "units/epir/champion_infantry_crossbowman",
+			"name": "Molossian Belly Bowman",
+			"specificName": "Gastraphétēs Molossós",
+			"icon": "units/epir/champion_infantry_ranged_gastraphetes.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "siege_workshop",
+			"level": "city",
+			"stats": {
+				"hp": 120.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 10.0,
+				"range": 60.0,
+				"speed": 9.6
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/epir/tw/infantry_javelineer",
+			"memberTemplate": "units/epir/tw/m_infantry_javelineer",
+			"baseTemplate": "units/epir/infantry_javelineer_b",
+			"name": "Thesprotian Heavy Skirmisher",
+			"specificName": "Thyreophóros Thesprōtós",
+			"icon": "units/epir/infantry_javelinist.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_pikeman",
+			"template": "units/epir/tw/infantry_pikeman",
+			"memberTemplate": "units/epir/tw/m_infantry_pikeman",
+			"baseTemplate": "units/epir/infantry_pikeman_b",
+			"name": "White Shield Phalangite",
+			"specificName": "Leukáspis Phalangítēs",
+			"icon": "units/epir/infantry_pikeman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx",
+				"syntagma"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 5.0,
+				"melee": 5.75,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 8.55
+			}
+		},
+		{
+			"key": "siege_lithobolos",
+			"template": "units/epir/siege_lithobolos_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/epir/siege_lithobolos_packed",
+			"name": "Siege Catapult",
+			"specificName": "Lithobólos",
+			"icon": "units/hele/siege_lithobolos_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 160,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 375.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 32.86,
+				"range": 85.0,
+				"speed": 6.0
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/epir/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/epir/siege_ram",
+			"name": "Epirote Covered Ram",
+			"specificName": "Kriós",
+			"icon": "units/mace/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_tower",
+			"template": "units/epir/siege_tower",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/epir/siege_tower",
+			"name": "Siege Tower",
+			"specificName": "Helépolis",
+			"icon": "units/hele/siege_tower.png",
+			"category": "siege",
+			"size": 1,
+			"cost": 200,
+			"upkeep": 12,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 500.0,
+				"armor": 28.0,
+				"melee": 0.0,
+				"ranged": 5.0,
+				"range": 55.0,
+				"speed": 6.3
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/epir/hero_alexander_I",
+			"name": "Aléxandros ho Molossós",
+			"icon": "units/epir/hero_alexander_molossus.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/epir/hero_alexander_II",
+			"name": "Aléxandros ho Ēpeirṓtēs",
+			"icon": "units/epir/hero_alexander_epirus.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/epir/hero_pyrrhus",
+			"name": "Pýrrhos ho Ēpeirṓtēs",
+			"icon": "units/epir/hero_pyrrhus.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/epir/tw/att_priest",
+			"baseTemplate": "units/epir/support_healer_b",
+			"unitName": "Healer",
+			"icon": "units/hele/support_healer.png"
+		}
+	}
+}

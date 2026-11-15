@@ -1,0 +1,306 @@
+{
+	"civ": "bactr",
+	"units": [
+		{
+			"key": "cavalry_axeman",
+			"template": "units/bactr/tw/cavalry_axeman",
+			"memberTemplate": "units/bactr/tw/m_cavalry_axeman",
+			"baseTemplate": "units/bactr/cavalry_axeman_b",
+			"name": "Dahae Axe Raider",
+			"specificName": "Hippikon Dahae",
+			"icon": "units/bactr/raider.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 130.0,
+				"armor": 2.5,
+				"melee": 13.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/bactr/tw/cavalry_javelineer",
+			"memberTemplate": "units/bactr/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/bactr/cavalry_javelineer_b",
+			"name": "Bactrian Light Cavalry",
+			"specificName": "Hippakontistḗs Baktrianós",
+			"icon": "units/bactr/cavalry_javelineer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/bactr/tw/cavalry_spearman",
+			"memberTemplate": "units/bactr/tw/m_cavalry_spearman",
+			"baseTemplate": "units/bactr/cavalry_spearman_b",
+			"name": "Bactrian Greek Cavalry",
+			"specificName": "Hippeús Baktrianós",
+			"icon": "units/theb/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/bactr/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/bactr/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/bactr/champion_infantry_swordsman",
+			"name": "Thorakites Swordsman",
+			"specificName": "Thōrakítēs",
+			"icon": "units/theb/champion_infantry_swordsman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_axeman",
+			"template": "units/bactr/tw/infantry_axeman",
+			"memberTemplate": "units/bactr/tw/m_infantry_axeman",
+			"baseTemplate": "units/bactr/infantry_axeman_b",
+			"name": "Bactrian Hillman",
+			"specificName": "Pezós Baktrianós",
+			"icon": "units/bactr/hillman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/bactr/tw/infantry_javelineer",
+			"memberTemplate": "units/bactr/tw/m_infantry_javelineer",
+			"baseTemplate": "units/bactr/infantry_javelineer_b",
+			"name": "Bactrian Peltast",
+			"specificName": "Peltastḗs Baktrianós",
+			"icon": "units/theb/infantry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/bactr/tw/infantry_slinger",
+			"memberTemplate": "units/bactr/tw/m_infantry_slinger",
+			"baseTemplate": "units/bactr/infantry_slinger_b",
+			"name": "Bactrian Slinger",
+			"specificName": "Sphendonḗtēs Baktrianós",
+			"icon": "units/athen/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/bactr/tw/infantry_spearman",
+			"memberTemplate": "units/bactr/tw/m_infantry_spearman",
+			"baseTemplate": "units/bactr/infantry_spearman_b",
+			"name": "Greek Settler Hoplite",
+			"specificName": "Hoplī́tēs Kátoikos",
+			"icon": "units/theb/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_lithobolos",
+			"template": "units/bactr/siege_lithobolos_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/bactr/siege_lithobolos_packed",
+			"name": "Siege Catapult",
+			"specificName": "Lithobólos",
+			"icon": "units/hele/siege_lithobolos_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 160,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 375.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 32.86,
+				"range": 85.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_oxybeles",
+			"template": "units/bactr/siege_oxybeles_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/bactr/siege_oxybeles_packed",
+			"name": "Bolt Shooter",
+			"specificName": "Oxybelḗs",
+			"icon": "units/hele/siege_oxybeles_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 40.0,
+				"range": 80.0,
+				"speed": 6.75
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/bactr/hero_demetrius_i",
+			"name": "Dēmḗtrios Aníkētos",
+			"icon": "units/bactr/demetrius.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/bactr/hero_eucratides_i",
+			"name": "Eukratídēs Mégas",
+			"icon": "units/bactr/eucratides.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/bactr/hero_menander_i",
+			"name": "Ménandros Sōtḗr",
+			"icon": "units/bactr/menander.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/bactr/tw/att_priest",
+			"baseTemplate": "units/bactr/support_healer_b",
+			"unitName": "Priest",
+			"icon": "units/hele/support_healer.png"
+		}
+	}
+}

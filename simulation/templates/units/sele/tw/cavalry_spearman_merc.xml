@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/sele/cavalry_spearman_merc_b. -->
+<Entity parent="tw_charge_cavalry|tw_tough_cavalry|tw_battalion_leader_cavalry|tw_battalion_leader|units/sele/cavalry_spearman_merc_b">
+  <BattalionLeader>
+    <Size>12</Size>
+    <Columns>6</Columns>
+    <Spacing>3.6</Spacing>
+    <MemberTemplate>units/sele/tw/m_cavalry_spearman_merc</MemberTemplate>
+    <Category>cavalry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">wedge</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/sele/tw/cavalry_spearman_merc</SelectionGroupName>
+  </Identity>
+</Entity>

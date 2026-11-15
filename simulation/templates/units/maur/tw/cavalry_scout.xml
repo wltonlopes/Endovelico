@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/maur/cavalry_scout. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_leader_cavalry|tw_battalion_leader|units/maur/cavalry_scout">
+  <BattalionLeader>
+    <Size>12</Size>
+    <Columns>6</Columns>
+    <Spacing>3.6</Spacing>
+    <MemberTemplate>units/maur/tw/m_cavalry_scout</MemberTemplate>
+    <Category>cavalry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">wedge</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/maur/tw/cavalry_scout</SelectionGroupName>
+  </Identity>
+</Entity>

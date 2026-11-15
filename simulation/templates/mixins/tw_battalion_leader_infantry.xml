@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Batalhão de infantaria: moral padrão. -->
+<Entity>
+  <BattalionTactics>
+    <MoraleRecoveryRate>4</MoraleRecoveryRate>
+    <HitMoraleLoss>0.6</HitMoraleLoss>
+    <CasualtyMoraleLoss>2.5</CasualtyMoraleLoss>
+    <LeaderLossMoraleLoss>15</LeaderLossMoraleLoss>
+    <ChargeMoraleLoss>18</ChargeMoraleLoss>
+    <ShakenThreshold>50</ShakenThreshold>
+    <BrokenThreshold>20</BrokenThreshold>
+  </BattalionTactics>
+</Entity>

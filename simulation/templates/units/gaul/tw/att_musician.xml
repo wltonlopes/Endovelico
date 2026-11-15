@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: acompanhante de batalhão (musician) a partir de units/gaul/champion_infantry_trumpeter. -->
+<Entity parent="tw_battalion_attachment|units/gaul/champion_infantry_trumpeter">
+  <Identity>
+    <Classes datatype="tokens">TWAttachment_musician</Classes>
+  </Identity>
+</Entity>

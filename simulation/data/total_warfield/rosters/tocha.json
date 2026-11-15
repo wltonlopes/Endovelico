@@ -1,0 +1,321 @@
+{
+	"civ": "tocha",
+	"units": [
+		{
+			"key": "cavalry_archer",
+			"template": "units/tocha/tw/cavalry_archer",
+			"memberTemplate": "units/tocha/tw/m_cavalry_archer",
+			"baseTemplate": "units/tocha/cavalry_archer_b",
+			"name": "Tocharian Horse Archer",
+			"specificName": "",
+			"icon": "units/scyth/cavalry_archer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 6.0,
+				"range": 60.0,
+				"speed": 15.3
+			}
+		},
+		{
+			"key": "cavalry_axeman",
+			"template": "units/tocha/tw/cavalry_axeman",
+			"memberTemplate": "units/tocha/tw/m_cavalry_axeman",
+			"baseTemplate": "units/tocha/cavalry_axeman_b",
+			"name": "Tocharian Axe Cavalry",
+			"specificName": "",
+			"icon": "units/scyth/cavalry_swordsman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 2.5,
+				"melee": 13.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/tocha/tw/cavalry_scout",
+			"memberTemplate": "units/tocha/tw/m_cavalry_scout",
+			"baseTemplate": "units/tocha/cavalry_scout",
+			"name": "Tocharian Scout",
+			"specificName": "",
+			"icon": "units/scyth/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/tocha/tw/cavalry_spearman",
+			"memberTemplate": "units/tocha/tw/m_cavalry_spearman",
+			"baseTemplate": "units/tocha/cavalry_spearman_b",
+			"name": "Tocharian Lancer",
+			"specificName": "",
+			"icon": "units/theb/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/tocha/tw/champion_cavalry",
+			"memberTemplate": "units/tocha/tw/m_champion_cavalry",
+			"baseTemplate": "units/tocha/champion_cavalry",
+			"name": "Tocharian Cataphract",
+			"specificName": "",
+			"icon": "units/scyth/champion_cavalry_lancer.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry_archer",
+			"template": "units/tocha/tw/champion_cavalry_archer",
+			"memberTemplate": "units/tocha/tw/m_champion_cavalry_archer",
+			"baseTemplate": "units/tocha/champion_cavalry_archer",
+			"name": "Royal Horse Archer",
+			"specificName": "",
+			"icon": "units/scyth/champion_cavalry_archer.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 240.0,
+				"armor": 5.0,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 60.0,
+				"speed": 13.005
+			}
+		},
+		{
+			"key": "infantry_axeman",
+			"template": "units/tocha/tw/infantry_axeman",
+			"memberTemplate": "units/tocha/tw/m_infantry_axeman",
+			"baseTemplate": "units/tocha/infantry_axeman_b",
+			"name": "Tocharian Axeman",
+			"specificName": "",
+			"icon": "units/scyth/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/tocha/tw/infantry_spearman",
+			"memberTemplate": "units/tocha/tw/m_infantry_spearman",
+			"baseTemplate": "units/tocha/infantry_spearman_b",
+			"name": "Tocharian Levy Spearman",
+			"specificName": "",
+			"icon": "units/scyth/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/tocha/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/tocha/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "",
+			"icon": "units/scyth/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "support_civilian",
+			"template": "units/tocha/tw/support_civilian",
+			"memberTemplate": "units/tocha/tw/m_support_civilian",
+			"baseTemplate": "units/tocha/support_civilian",
+			"name": "Tocharian Villager",
+			"specificName": "Klīye",
+			"icon": "units/scyth/support_citizen_female.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 100,
+			"upkeep": 8,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 25.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 4.0,
+				"range": 40.0,
+				"speed": 8.24
+			}
+		},
+		{
+			"key": "support_civilian_house",
+			"template": "units/tocha/tw/support_civilian_house",
+			"memberTemplate": "units/tocha/tw/m_support_civilian_house",
+			"baseTemplate": "units/tocha/support_civilian_house",
+			"name": "Tocharian Villager",
+			"specificName": "Klīye",
+			"icon": "units/scyth/support_citizen_female.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 100,
+			"upkeep": 8,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 25.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 4.0,
+				"range": 40.0,
+				"speed": 8.24
+			}
+		}
+	],
+	"heroes": [],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/tocha/tw/att_priest",
+			"baseTemplate": "units/tocha/support_healer_b",
+			"unitName": "Buddhist Monk",
+			"icon": "units/scyth/support_healer.png"
+		}
+	}
+}

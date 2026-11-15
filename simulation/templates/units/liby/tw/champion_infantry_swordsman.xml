@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/liby/champion_infantry_swordsman. -->
+<Entity parent="tw_charge_infantry|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/liby/champion_infantry_swordsman">
+  <BattalionLeader>
+    <Size>24</Size>
+    <Columns>8</Columns>
+    <Spacing>2.2</Spacing>
+    <MemberTemplate>units/liby/tw/m_champion_infantry_swordsman</MemberTemplate>
+    <Category>infantry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/liby/tw/champion_infantry_swordsman</SelectionGroupName>
+  </Identity>
+</Entity>

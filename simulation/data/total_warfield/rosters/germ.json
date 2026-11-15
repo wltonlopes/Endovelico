@@ -1,0 +1,377 @@
+{
+	"civ": "germ",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/germ/tw/cavalry_javelineer",
+			"memberTemplate": "units/germ/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/germ/cavalry_javelineer_b",
+			"name": "Tigurinian Light Cavalry",
+			"specificName": "Skeutazridjô",
+			"icon": "units/germ/cavalry_javelineer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/germ/tw/cavalry_scout",
+			"memberTemplate": "units/germ/tw/m_cavalry_scout",
+			"baseTemplate": "units/germ/cavalry_scout",
+			"name": "Scout Mount Swordsman",
+			"specificName": "German Scout",
+			"icon": "units/germ/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/germ/tw/cavalry_spearman",
+			"memberTemplate": "units/germ/tw/m_cavalry_spearman",
+			"baseTemplate": "units/germ/cavalry_spearman_b",
+			"name": "Cimbrian Spear Cavalry",
+			"specificName": "Gaizazridjô",
+			"icon": "units/germ/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/germ/tw/champion_cavalry",
+			"memberTemplate": "units/germ/tw/m_champion_cavalry",
+			"baseTemplate": "units/germ/champion_cavalry",
+			"name": "Cimbrian Noble Cavalry",
+			"specificName": "Aþalazridjô",
+			"icon": "units/germ/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 24.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_infantry_axeman",
+			"template": "units/germ/tw/champion_infantry_axeman",
+			"memberTemplate": "units/germ/tw/m_champion_infantry_axeman",
+			"baseTemplate": "units/germ/champion_infantry_axeman",
+			"name": "Cimbri Raider",
+			"specificName": "Slōgijanōz",
+			"icon": "units/germ/champion_infantry_axeman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 5.5,
+				"melee": 24.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "champion_infantry_maceman",
+			"template": "units/germ/tw/champion_infantry_maceman",
+			"memberTemplate": "units/germ/tw/m_champion_infantry_maceman",
+			"baseTemplate": "units/germ/champion_infantry_maceman",
+			"name": "Cimbrian Clubman",
+			"specificName": "Kulbawigô",
+			"icon": "units/germ/infantry_clubman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 130,
+			"upkeep": 10,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/germ/tw/infantry_javelineer",
+			"memberTemplate": "units/germ/tw/m_infantry_javelineer",
+			"baseTemplate": "units/germ/infantry_javelineer_b",
+			"name": "Ambronian Skirmisher",
+			"specificName": "Gaizawerpanaz",
+			"icon": "units/germ/infantry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/germ/tw/infantry_slinger",
+			"memberTemplate": "units/germ/tw/m_infantry_slinger",
+			"baseTemplate": "units/germ/infantry_slinger_b",
+			"name": "Celto-Germanic Slinger",
+			"specificName": "Slingwanaz",
+			"icon": "units/germ/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/germ/tw/infantry_spearman",
+			"memberTemplate": "units/germ/tw/m_infantry_spearman",
+			"baseTemplate": "units/germ/infantry_spearman_b",
+			"name": "Cimbrian Spearman",
+			"specificName": "Gaizamann",
+			"icon": "units/germ/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/germ/tw/infantry_swordsman",
+			"memberTemplate": "units/germ/tw/m_infantry_swordsman",
+			"baseTemplate": "units/germ/infantry_swordsman_b",
+			"name": "Teutonic Swordsman",
+			"specificName": "Swerdamann",
+			"icon": "units/germ/infantry_axeman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/germ/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/germ/siege_ram",
+			"name": "Log Ram",
+			"specificName": "Rammabagmaz",
+			"icon": "units/germ/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 300.0,
+				"armor": 5.5,
+				"melee": 60.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 8.64
+			}
+		},
+		{
+			"key": "siege_ram_covered",
+			"template": "units/germ/siege_ram_covered",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/germ/siege_ram_covered",
+			"name": "Covered Gate Smasher",
+			"specificName": "Gataslahanaz",
+			"icon": "units/germ/siege_ram_covered.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/germ/hero_boiorix",
+			"name": "Bajārīks",
+			"icon": "units/germ/hero_boiorix.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/germ/hero_lugius",
+			"name": "Lugijaz",
+			"icon": "units/germ/hero_lugius.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/germ/hero_teutobod",
+			"name": "Þeudōbudô",
+			"icon": "units/germ/hero_teutobod.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"high_priest": {
+			"name": "High Priest",
+			"cost": 160,
+			"upkeep": 8,
+			"template": "units/germ/tw/att_high_priest",
+			"baseTemplate": "units/germ/champion_healer",
+			"unitName": "Seeress",
+			"icon": "units/germ/champion_healer.png"
+		},
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/germ/tw/att_priest",
+			"baseTemplate": "units/germ/support_healer_b",
+			"unitName": "Germanic Priest",
+			"icon": "units/germ/support_healer.png"
+		}
+	}
+}

@@ -46,9 +46,18 @@ class GSRevolt extends GSEvent
 		);
 	}
 
+	/** Resultado da revolta: linha do tempo e, se a província era do jogador, o relatório. */
+	report(province, text)
+	{
+		g_GameData.statistics?.RegisterEvent?.(text);
+		if (this.data.owner == g_GameData.playerTribe || province.ownerTribe == g_GameData.playerTribe)
+			g_GameData.lastBattleReport = { "title": "Revolt in " + province.getName(), "report": "\n" + text };
+	}
+
 	autoResolve()
 	{
 		const province = g_GameData.provinces[this.data.province];
+		this.data.owner = this.data.owner || province.ownerTribe;
 		const tribe = g_GameData.tribes[province.ownerTribe];
 
 		let chance = this.getAutoresolveChance();
@@ -61,14 +70,14 @@ class GSRevolt extends GSEvent
 			province.garrison = Math.max(1, province.garrison - 1); // Garrison takes casualties
 			province.inRevolt = false;
 
-			warn("Your forces have crushed the rebellion in " + province.getName() + "!");
+			this.report(province, "The rebellion in " + province.getName() + " has been crushed.");
 			this.processed = true;
 			return;
 		}
 
 		// Rebels win - they take over
 		this.loseProvince();
-		warn("The rebels have defeated your forces and taken " + province.getName() + "!");
+		this.report(province, "The rebels have defeated the garrison and taken " + province.getName() + "!");
 		this.processed = true;
 	}
 
@@ -141,20 +150,9 @@ class GSRevolt extends GSEvent
 				playerOwnedCount++;
 		}
 
+		// Sem províncias: a campanha mostra a tela de derrota.
 		if (playerOwnedCount === 0)
-		{
-			SwitchGuiPage(
-				"campaigns/grand_strategy/gameover/page.xml",
-				{
-					"title": "Defeat",
-					"message":
-						"Your kingdom has fallen to rebellion.\n\n" +
-						"You survived " +
-						g_GameData.turn +
-						" turns."
-				}
-			);
-		}
+			g_GameData.checkGameOver();
 	}
 
 	playOutRevolt()
@@ -179,10 +177,10 @@ class GSRevolt extends GSEvent
 
 		// Simplified: defer to playOutAttack-like mechanism
 		// For now, we'll just call the simpler autoResolve with modified settings
-		warn("Revolt battle started for " + province.getName());
 
-		// Create an attack-like event where owner defends against rebels
-		g_GameData.playOutAttack(rebelTribeCode, province.code);
+		// Batalha de campo contra os rebeldes (Total Warfield).
+		const battle = TWBattle.createRevolt(province.code, rebelTribeCode);
+		TWBattle.launch(battle, g_CampaignMenu.closePageCallback);
 	}
 
 	createRebelTribe(province, parentTribe)

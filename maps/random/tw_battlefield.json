@@ -1,0 +1,16 @@
+{
+	"settings" : {
+		"Name" : "Field Battle",
+		"Script" : "tw_battlefield.js",
+		"Description" : "Total Warfield: two armies of battalions face each other, without bases or economy. Rout or destroy every enemy battalion to win. Without a campaign, each side gets a random army of its civilisation.",
+		"Preview" : "mainland.png",
+		"Keywords": ["multiplayer"],
+		"SupportedBiomes": "generic/",
+		"CircularMap" : false,
+		"PlayerPlacements": ["circle"],
+		"TriggerScripts": [
+			"scripts/TriggerHelper.js",
+			"scripts/TWFieldBattle.js"
+		]
+	}
+}

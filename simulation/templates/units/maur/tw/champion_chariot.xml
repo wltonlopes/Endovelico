@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/maur/champion_chariot. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_leader_cavalry|tw_battalion_leader|units/maur/champion_chariot">
+  <BattalionLeader>
+    <Size>6</Size>
+    <Columns>3</Columns>
+    <Spacing>6.0</Spacing>
+    <MemberTemplate>units/maur/tw/m_champion_chariot</MemberTemplate>
+    <Category>chariot</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/maur/tw/champion_chariot</SelectionGroupName>
+  </Identity>
+</Entity>

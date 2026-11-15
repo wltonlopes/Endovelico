@@ -1,0 +1,94 @@
+{
+	"directions": 8,
+	"walkFrames": 8,
+	"idleFrame": 8,
+	"cell": 64,
+	"scale": {
+		"inf": 12.0,
+		"rng": 12.0,
+		"cav": 8.5,
+		"ship": 2.4,
+		"trader": 8.0
+	},
+	"civs": {
+		"achae": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"athen": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"brit": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"cart": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"extra": [
+			"ship",
+			"trader"
+		],
+		"gaul": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"germ": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"han": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"iber": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"kush": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"mace": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"maur": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"ptol": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"rome": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"sele": [
+			"cav",
+			"inf",
+			"rng"
+		],
+		"spart": [
+			"cav",
+			"inf",
+			"rng"
+		]
+	}
+}

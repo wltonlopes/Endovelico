@@ -1,0 +1,284 @@
+{
+	"civ": "brit",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/brit/tw/cavalry_javelineer",
+			"memberTemplate": "units/brit/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/brit/cavalry_javelineer_b",
+			"name": "Raiding Cavalry",
+			"specificName": "Marcacos",
+			"icon": "units/brit/cavalry_javelinist.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/brit/tw/cavalry_scout",
+			"memberTemplate": "units/brit/tw/m_cavalry_scout",
+			"baseTemplate": "units/brit/cavalry_scout",
+			"name": "Scout Mount Swordsman",
+			"specificName": "Breton Scout",
+			"icon": "units/celt/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_swordsman",
+			"template": "units/brit/tw/cavalry_swordsman",
+			"memberTemplate": "units/brit/tw/m_cavalry_swordsman",
+			"baseTemplate": "units/brit/cavalry_swordsman_b",
+			"name": "Celtic Cavalry",
+			"specificName": "Eporedos",
+			"icon": "units/brit/cavalry_swordsman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_chariot",
+			"template": "units/brit/tw/champion_chariot",
+			"memberTemplate": "units/brit/tw/m_champion_chariot",
+			"baseTemplate": "units/brit/champion_chariot",
+			"name": "Celtic Chariot",
+			"specificName": "Essedon",
+			"icon": "units/brit/champion_chariot.png",
+			"category": "chariot",
+			"size": 6,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 300.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 24.0,
+				"range": 30.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/brit/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/brit/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/brit/champion_infantry_swordsman",
+			"name": "Brythonic Champion",
+			"specificName": "Argos",
+			"icon": "units/brit/champion_infantry.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/brit/tw/infantry_javelineer",
+			"memberTemplate": "units/brit/tw/m_infantry_javelineer",
+			"baseTemplate": "units/brit/infantry_javelineer_b",
+			"name": "Infantry Javelineer",
+			"specificName": "Adretos",
+			"icon": "units/brit/infantry_javelinist.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/brit/tw/infantry_slinger",
+			"memberTemplate": "units/brit/tw/m_infantry_slinger",
+			"baseTemplate": "units/brit/infantry_slinger_b",
+			"name": "Celtic Slinger",
+			"specificName": "Talmoris",
+			"icon": "units/gaul/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/brit/tw/infantry_spearman",
+			"memberTemplate": "units/brit/tw/m_infantry_spearman",
+			"baseTemplate": "units/brit/infantry_spearman_b",
+			"name": "Celtic Spearman",
+			"specificName": "Catucos",
+			"icon": "units/brit/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/brit/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/brit/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Molton",
+			"icon": "units/celt/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/brit/hero_boudicca",
+			"name": "Boudica",
+			"icon": "units/brit/hero_boudicca.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/brit/hero_caratacos",
+			"name": "Caratacos",
+			"icon": "units/brit/hero_caratacos.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/brit/hero_cunobelin",
+			"name": "Cunobelinos",
+			"icon": "units/brit/hero_cunobelin.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/brit/tw/att_priest",
+			"baseTemplate": "units/brit/support_healer_b",
+			"unitName": "Druid",
+			"icon": "units/celt/support_healer.png"
+		}
+	}
+}

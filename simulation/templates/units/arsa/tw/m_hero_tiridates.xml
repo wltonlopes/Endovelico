@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/arsa/hero_tiridates. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_member|units/arsa/hero_tiridates">
+  <Identity>
+    <SelectionGroupName>units/arsa/tw/hero_tiridates</SelectionGroupName>
+  </Identity>
+</Entity>

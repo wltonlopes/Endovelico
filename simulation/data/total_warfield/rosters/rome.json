@@ -1,0 +1,497 @@
+{
+	"civ": "rome",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/rome/tw/cavalry_javelineer",
+			"memberTemplate": "units/rome/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/rome/cavalry_javelineer_b",
+			"name": "Allied Cavalry",
+			"specificName": "Eques Socius",
+			"icon": "units/rome/cavalry_javelinist.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/rome/tw/cavalry_scout",
+			"memberTemplate": "units/rome/tw/m_cavalry_scout",
+			"baseTemplate": "units/rome/cavalry_scout",
+			"name": "Scout Cavalry",
+			"specificName": "Latin Scout",
+			"icon": "units/athen/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 22.5
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/rome/tw/cavalry_spearman",
+			"memberTemplate": "units/rome/tw/m_cavalry_spearman",
+			"baseTemplate": "units/rome/cavalry_spearman_b",
+			"name": "Roman Cavalry",
+			"specificName": "Eques Rōmānus",
+			"icon": "units/rome/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/rome/tw/champion_cavalry",
+			"memberTemplate": "units/rome/tw/m_champion_cavalry",
+			"baseTemplate": "units/rome/champion_cavalry",
+			"name": "Consular Bodyguard",
+			"specificName": "Eques Cōnsulāris",
+			"icon": "units/rome/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 24.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_infantry_spear_gladiator",
+			"template": "units/rome/tw/champion_infantry_spear_gladiator",
+			"memberTemplate": "units/rome/tw/m_champion_infantry_spear_gladiator",
+			"baseTemplate": "units/rome/champion_infantry_spear_gladiator",
+			"name": "Gladiator Spearman",
+			"specificName": "Hoplomachus",
+			"icon": "units/rome/champion_infantry_gladiator_spear.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 220,
+			"upkeep": 18,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 14.25
+			}
+		},
+		{
+			"key": "champion_infantry_sword_gladiator",
+			"template": "units/rome/tw/champion_infantry_sword_gladiator",
+			"memberTemplate": "units/rome/tw/m_champion_infantry_sword_gladiator",
+			"baseTemplate": "units/rome/champion_infantry_sword_gladiator",
+			"name": "Gladiator Swordsman",
+			"specificName": "Murmillo",
+			"icon": "units/rome/champion_infantry_gladiator_sword.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"testudo"
+			],
+			"cost": 220,
+			"upkeep": 18,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 13.3
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/rome/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/rome/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/rome/champion_infantry_swordsman",
+			"name": "Italic Heavy Infantry",
+			"specificName": "Extrāōrdinārius",
+			"icon": "units/rome/champion_infantry.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"testudo"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman_centurion",
+			"template": "units/rome/tw/champion_infantry_swordsman_centurion",
+			"memberTemplate": "units/rome/tw/m_champion_infantry_swordsman_centurion",
+			"baseTemplate": "units/rome/champion_infantry_swordsman_centurion",
+			"name": "Roman Centurion",
+			"specificName": "Centuriō",
+			"icon": "units/rome/champion_infantry_centurion.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"testudo"
+			],
+			"cost": 370,
+			"upkeep": 30,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_antesignanus",
+			"template": "units/rome/tw/infantry_antesignanus",
+			"memberTemplate": "units/rome/tw/m_infantry_antesignanus",
+			"baseTemplate": "units/rome/infantry_antesignanus",
+			"name": "Legionary Skirmisher",
+			"specificName": "Antesignānus",
+			"icon": "units/rome/infantry_antesignanus.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 190,
+			"upkeep": 15,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/rome/tw/infantry_javelineer",
+			"memberTemplate": "units/rome/tw/m_infantry_javelineer",
+			"baseTemplate": "units/rome/infantry_javelineer_b",
+			"name": "Roman Skirmisher",
+			"specificName": "Vēles",
+			"icon": "units/rome/infantry_javelinist.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/rome/tw/infantry_spearman",
+			"memberTemplate": "units/rome/tw/m_infantry_spearman",
+			"baseTemplate": "units/rome/infantry_spearman_b",
+			"name": "Veteran Spearman",
+			"specificName": "Triārius",
+			"icon": "units/rome/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_spearman_conscript",
+			"template": "units/rome/tw/infantry_spearman_conscript",
+			"memberTemplate": "units/rome/tw/m_infantry_spearman_conscript",
+			"baseTemplate": "units/rome/infantry_spearman_conscript",
+			"name": "Levy Auxiliary Spearman",
+			"specificName": "Peditatus Auxilia",
+			"icon": "units/rome/infantry_spearman_conscript.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/rome/tw/infantry_swordsman",
+			"memberTemplate": "units/rome/tw/m_infantry_swordsman",
+			"baseTemplate": "units/rome/infantry_swordsman_b",
+			"name": "Roman Swordsman",
+			"specificName": "Hastātus",
+			"icon": "units/rome/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"testudo"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ballista",
+			"template": "units/rome/siege_ballista_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/rome/siege_ballista_packed",
+			"name": "Siege Catapult",
+			"specificName": "Ballista",
+			"icon": "units/rome/siege_ballista_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 160,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 375.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 32.86,
+				"range": 85.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_onager",
+			"template": "units/rome/siege_onager_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/rome/siege_onager_packed",
+			"name": "Siege Catapult",
+			"specificName": "Onager",
+			"icon": "units/rome/siege_onager.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 250.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 2.0,
+				"range": 60.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/rome/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/rome/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Ariēs",
+			"icon": "units/rome/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_scorpio",
+			"template": "units/rome/siege_scorpio_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/rome/siege_scorpio_packed",
+			"name": "Bolt Shooter",
+			"specificName": "Scorpiō",
+			"icon": "units/rome/siege_scorpio_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 40.0,
+				"range": 80.0,
+				"speed": 6.75
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/rome/hero_marcellus",
+			"name": "Mārcus Claudius Mārcellus",
+			"icon": "units/rome/hero_marcellus.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/rome/hero_maximus",
+			"name": "Quīntus Fabius Maximus Verrūcōsus Cūnctātor",
+			"icon": "units/rome/hero_maximus.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/rome/hero_scipio",
+			"name": "Pūblius Cornēlius Scīpiō Āfricānus",
+			"icon": "units/rome/hero_scipio.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/rome/tw/att_priest",
+			"baseTemplate": "units/rome/support_healer_b",
+			"unitName": "Doctor",
+			"icon": "units/rome/support_healer.png"
+		}
+	}
+}

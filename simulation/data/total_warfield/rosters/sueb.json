@@ -1,0 +1,325 @@
+{
+	"civ": "sueb",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/sueb/tw/cavalry_javelineer",
+			"memberTemplate": "units/sueb/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/sueb/cavalry_javelineer_b",
+			"name": "Quadi Light Cavalry",
+			"specificName": "",
+			"icon": "units/sueb/cavalry_javelineer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/sueb/tw/cavalry_scout",
+			"memberTemplate": "units/sueb/tw/m_cavalry_scout",
+			"baseTemplate": "units/sueb/cavalry_scout",
+			"name": "Germanic Scout",
+			"specificName": "",
+			"icon": "units/sueb/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/sueb/tw/cavalry_spearman",
+			"memberTemplate": "units/sueb/tw/m_cavalry_spearman",
+			"baseTemplate": "units/sueb/cavalry_spearman_b",
+			"name": "Germanic Spear Cavalry",
+			"specificName": "",
+			"icon": "units/sueb/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/sueb/tw/champion_cavalry",
+			"memberTemplate": "units/sueb/tw/m_champion_cavalry",
+			"baseTemplate": "units/sueb/champion_cavalry",
+			"name": "Suebian Noble Cavalry",
+			"specificName": "",
+			"icon": "units/sueb/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_infantry",
+			"template": "units/sueb/tw/champion_infantry",
+			"memberTemplate": "units/sueb/tw/m_champion_infantry",
+			"baseTemplate": "units/sueb/champion_infantry",
+			"name": "Chieftain's Guard",
+			"specificName": "Druhtiz",
+			"icon": "units/sueb/champion_infantry_swordsman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "champion_infantry_axeman",
+			"template": "units/sueb/tw/champion_infantry_axeman",
+			"memberTemplate": "units/sueb/tw/m_champion_infantry_axeman",
+			"baseTemplate": "units/sueb/champion_infantry_axeman",
+			"name": "Wolf Warrior",
+			"specificName": "Wulfaz",
+			"icon": "units/sueb/champion_infantry_axeman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 310,
+			"upkeep": 25,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 5.0,
+				"melee": 24.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_axeman",
+			"template": "units/sueb/tw/infantry_axeman",
+			"memberTemplate": "units/sueb/tw/m_infantry_axeman",
+			"baseTemplate": "units/sueb/infantry_axeman_b",
+			"name": "Marcomanni Axeman",
+			"specificName": "",
+			"icon": "units/gaul/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.0,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/sueb/tw/infantry_javelineer",
+			"memberTemplate": "units/sueb/tw/m_infantry_javelineer",
+			"baseTemplate": "units/sueb/infantry_javelineer_b",
+			"name": "Suebian Skirmisher",
+			"specificName": "",
+			"icon": "units/sueb/infantry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 0.5,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 12.54
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/sueb/tw/infantry_slinger",
+			"memberTemplate": "units/sueb/tw/m_infantry_slinger",
+			"baseTemplate": "units/sueb/infantry_slinger_b",
+			"name": "Germanic Slinger",
+			"specificName": "",
+			"icon": "units/gaul/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 0.5,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 11.88
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/sueb/tw/infantry_spearman",
+			"memberTemplate": "units/sueb/tw/m_infantry_spearman",
+			"baseTemplate": "units/sueb/infantry_spearman_b",
+			"name": "Suebian Spearman",
+			"specificName": "",
+			"icon": "units/sueb/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/sueb/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/sueb/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "",
+			"icon": "units/sueb/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 7.0,
+				"melee": 37.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/sueb/tw/att_priest",
+			"baseTemplate": "units/sueb/support_healer_b",
+			"unitName": "Germanic Priest",
+			"icon": "units/germ/support_healer.png"
+		}
+	}
+}

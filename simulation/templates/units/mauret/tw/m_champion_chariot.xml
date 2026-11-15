@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/mauret/champion_chariot. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_member|units/mauret/champion_chariot">
+  <Identity>
+    <SelectionGroupName>units/mauret/tw/champion_chariot</SelectionGroupName>
+  </Identity>
+</Entity>

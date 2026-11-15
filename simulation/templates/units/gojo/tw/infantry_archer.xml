@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/gojo/infantry_archer_b. -->
+<Entity parent="tw_dagger|tw_stealth|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/gojo/infantry_archer_b">
+  <BattalionLeader>
+    <Size>20</Size>
+    <Columns>10</Columns>
+    <Spacing>2.6</Spacing>
+    <MemberTemplate>units/gojo/tw/m_infantry_archer</MemberTemplate>
+    <Category>infantry_ranged</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">volley_ranks</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/gojo/tw/infantry_archer</SelectionGroupName>
+  </Identity>
+</Entity>

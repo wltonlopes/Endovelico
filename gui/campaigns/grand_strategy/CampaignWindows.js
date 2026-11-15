@@ -7,6 +7,8 @@ class CampaignWindows
         this.Tribe = new TribeDetailsWindow(menu);
         this.Hero = new HeroDetailsWindow(menu);
         this.TechTree = new TechTreeWindow(menu);
+        this.Army = new ArmyWindow(menu);
+        this.Battle = new BattleWindow(menu);
         this.Diplomacy = typeof DiplomacyWindow !== "undefined" ? new DiplomacyWindow(menu) : null;
         this.Event = typeof EventWindow !== "undefined" ? new EventWindow(menu) : null;
         this.GameOver = typeof GameOverWindow !== "undefined" ? new GameOverWindow(menu) : null;
@@ -16,6 +18,9 @@ class CampaignWindows
     {
         if (this.Hero?.render)
             this.Hero.render();
+
+        if (this.Army?.isOpen())
+            this.Army.refresh();
 
         if (this.Province?.render)
             this.Province.render();

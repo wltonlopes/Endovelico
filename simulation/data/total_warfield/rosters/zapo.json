@@ -1,0 +1,282 @@
+{
+	"civ": "zapo",
+	"units": [
+		{
+			"key": "champion_infantry_spear",
+			"template": "units/zapo/tw/champion_infantry_spear",
+			"memberTemplate": "units/zapo/tw/m_champion_infantry_spear",
+			"baseTemplate": "units/zapo/champion_infantry_spear",
+			"name": "Zapotec Noble Warrior",
+			"specificName": "",
+			"icon": "units/zapo/champion_spearman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "champion_infantry_sword",
+			"template": "units/zapo/tw/champion_infantry_sword",
+			"memberTemplate": "units/zapo/tw/m_champion_infantry_sword",
+			"baseTemplate": "units/zapo/champion_infantry_sword",
+			"name": "Champion Macuahuitl Warrior",
+			"specificName": "",
+			"icon": "units/zapo/champion_swordsman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/zapo/tw/infantry_archer",
+			"memberTemplate": "units/zapo/tw/m_infantry_archer",
+			"baseTemplate": "units/zapo/infantry_archer_b",
+			"name": "Zapotec Obsidian Archer",
+			"specificName": "",
+			"icon": "units/zapo/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/zapo/tw/infantry_javelineer",
+			"memberTemplate": "units/zapo/tw/m_infantry_javelineer",
+			"baseTemplate": "units/zapo/infantry_javelineer_b",
+			"name": "Zapotec Skirmisher",
+			"specificName": "",
+			"icon": "units/zapo/infantry_javelinist.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_scout",
+			"template": "units/zapo/tw/infantry_scout",
+			"memberTemplate": "units/zapo/tw/m_infantry_scout",
+			"baseTemplate": "units/zapo/infantry_scout",
+			"name": "Zapotec Scout",
+			"specificName": "",
+			"icon": "units/zapo/infantry_scout.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 300,
+			"upkeep": 24,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 7.47,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 15.0
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/zapo/tw/infantry_slinger",
+			"memberTemplate": "units/zapo/tw/m_infantry_slinger",
+			"baseTemplate": "units/zapo/infantry_slinger_b",
+			"name": "Zapotec Slinger",
+			"specificName": "",
+			"icon": "units/zapo/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/zapo/tw/infantry_spearman",
+			"memberTemplate": "units/zapo/tw/m_infantry_spearman",
+			"baseTemplate": "units/zapo/infantry_spearman_b",
+			"name": "Zapotec Spearman",
+			"specificName": "",
+			"icon": "units/zapo/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/zapo/tw/infantry_swordsman",
+			"memberTemplate": "units/zapo/tw/m_infantry_swordsman",
+			"baseTemplate": "units/zapo/infantry_swordsman_b",
+			"name": "Macuahuitl Infantry",
+			"specificName": "",
+			"icon": "units/zapo/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/zapo/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/zapo/siege_ram",
+			"name": "Covered Battering Ram",
+			"specificName": "",
+			"icon": "units/zapo/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/zapo/hero_battle_priest",
+			"name": "Uija-tào",
+			"icon": "units/zapo/hero_battle_priest_1.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/zapo/hero_lord_jaguar",
+			"name": "Coqui Beedxe'",
+			"icon": "units/zapo/hero_lord_jaguar.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/zapo/hero_night_king",
+			"name": "Coqui Guela",
+			"icon": "units/zapo/hero_night_king.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/zapo/hero_rain_lord",
+			"name": "Coqui Cocijo",
+			"icon": "units/zapo/hero_rain_lord.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/zapo/tw/att_priest",
+			"baseTemplate": "units/zapo/support_healer_b",
+			"unitName": "Zapotec Priest",
+			"icon": "units/zapo/support_healer.png"
+		}
+	}
+}

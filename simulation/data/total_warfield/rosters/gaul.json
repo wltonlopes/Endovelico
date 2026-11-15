@@ -1,0 +1,353 @@
+{
+	"civ": "gaul",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/gaul/tw/cavalry_javelineer",
+			"memberTemplate": "units/gaul/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/gaul/cavalry_javelineer_b",
+			"name": "Cavalry Javelineer",
+			"specificName": "Marcacos",
+			"icon": "units/gaul/cavalry_javelinist.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/gaul/tw/cavalry_scout",
+			"memberTemplate": "units/gaul/tw/m_cavalry_scout",
+			"baseTemplate": "units/gaul/cavalry_scout",
+			"name": "Scout Mount Swordsman",
+			"specificName": "Gallic Scout",
+			"icon": "units/celt/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_swordsman",
+			"template": "units/gaul/tw/cavalry_swordsman",
+			"memberTemplate": "units/gaul/tw/m_cavalry_swordsman",
+			"baseTemplate": "units/gaul/cavalry_swordsman_b",
+			"name": "Cavalry Swordsman",
+			"specificName": "Eporedos",
+			"icon": "units/gaul/cavalry_swordsman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/gaul/tw/champion_cavalry",
+			"memberTemplate": "units/gaul/tw/m_champion_cavalry",
+			"baseTemplate": "units/gaul/champion_cavalry",
+			"name": "Gallic Noble Cavalry",
+			"specificName": "Uerouicos",
+			"icon": "units/gaul/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_fanatic",
+			"template": "units/gaul/tw/champion_fanatic",
+			"memberTemplate": "units/gaul/tw/m_champion_fanatic",
+			"baseTemplate": "units/gaul/champion_fanatic",
+			"name": "Naked Fanatic",
+			"specificName": "Bariogaisatos",
+			"icon": "units/gaul/champion_fanatic.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 2.5,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 13.3
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/gaul/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/gaul/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/gaul/champion_infantry_swordsman",
+			"name": "Champion Swordsman",
+			"specificName": "Soliduros",
+			"icon": "units/gaul/champion_infantry.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "champion_infantry_trumpeter",
+			"template": "units/gaul/tw/champion_infantry_trumpeter",
+			"memberTemplate": "units/gaul/tw/m_champion_infantry_trumpeter",
+			"baseTemplate": "units/gaul/champion_infantry_trumpeter",
+			"name": "Champion Infantry Trumpeter",
+			"specificName": "Carnucos",
+			"icon": "units/gaul/champion_swordsman_carnyx.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 400,
+			"upkeep": 32,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 5.0,
+				"melee": 18.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/gaul/tw/infantry_javelineer",
+			"memberTemplate": "units/gaul/tw/m_infantry_javelineer",
+			"baseTemplate": "units/gaul/infantry_javelineer_b",
+			"name": "Infantry Javelineer",
+			"specificName": "Adretos",
+			"icon": "units/gaul/infantry_javelinist.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/gaul/tw/infantry_slinger",
+			"memberTemplate": "units/gaul/tw/m_infantry_slinger",
+			"baseTemplate": "units/gaul/infantry_slinger_b",
+			"name": "Slinger",
+			"specificName": "Talmoris",
+			"icon": "units/gaul/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/gaul/tw/infantry_spearman",
+			"memberTemplate": "units/gaul/tw/m_infantry_spearman",
+			"baseTemplate": "units/gaul/infantry_spearman_b",
+			"name": "Spearman",
+			"specificName": "Catucos",
+			"icon": "units/gaul/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"shield_wall"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/gaul/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/gaul/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Molton",
+			"icon": "units/celt/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/gaul/hero_brennus",
+			"name": "Brennos",
+			"icon": "units/gaul/hero_brennus.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/gaul/hero_vercingetorix",
+			"name": "Uercingetorix",
+			"icon": "units/gaul/hero_vercingetorix.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/gaul/hero_viridomarus",
+			"name": "Britomaros",
+			"icon": "units/gaul/hero_viridomarus.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"musician": {
+			"name": "War Musician",
+			"cost": 100,
+			"upkeep": 5,
+			"template": "units/gaul/tw/att_musician",
+			"baseTemplate": "units/gaul/champion_infantry_trumpeter",
+			"unitName": "Champion Infantry Trumpeter",
+			"icon": "units/gaul/champion_swordsman_carnyx.png"
+		},
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/gaul/tw/att_priest",
+			"baseTemplate": "units/gaul/support_healer_b",
+			"unitName": "Druid",
+			"icon": "units/celt/support_healer.png"
+		}
+	}
+}

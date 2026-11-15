@@ -1,0 +1,396 @@
+{
+	"civ": "cyre",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/cyre/tw/cavalry_javelineer",
+			"memberTemplate": "units/cyre/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/cyre/cavalry_javelineer_b",
+			"name": "Cyrenaean Skirmish Cavalry",
+			"specificName": "Hippakontistḗs Kyrēnaîos",
+			"icon": "units/theb/cavalry_javelineer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/cyre/tw/cavalry_scout",
+			"memberTemplate": "units/cyre/tw/m_cavalry_scout",
+			"baseTemplate": "units/cyre/cavalry_scout",
+			"name": "Cyrenaean Scout",
+			"specificName": "",
+			"icon": "units/cyre/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 22.5
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/cyre/tw/cavalry_spearman",
+			"memberTemplate": "units/cyre/tw/m_cavalry_spearman",
+			"baseTemplate": "units/cyre/cavalry_spearman_b",
+			"name": "Cyrenaean Cavalry",
+			"specificName": "Hippeús Kyrēnaîos",
+			"icon": "units/cyre/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/cyre/tw/champion_cavalry",
+			"memberTemplate": "units/cyre/tw/m_champion_cavalry",
+			"baseTemplate": "units/cyre/champion_cavalry",
+			"name": "Cyrenaean Sacred Squadron",
+			"specificName": "Hierà Ílē",
+			"icon": "units/cyre/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry_javelineer",
+			"template": "units/cyre/tw/champion_cavalry_javelineer",
+			"memberTemplate": "units/cyre/tw/m_champion_cavalry_javelineer",
+			"baseTemplate": "units/cyre/champion_cavalry_javelineer",
+			"name": "Cyrenaean Elite Skirmish Cavalry",
+			"specificName": "Epílektos Hippakontistḗs",
+			"icon": "units/cyre/champion_cavalry_javelineer.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 240.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 24.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "champion_chariot",
+			"template": "units/cyre/tw/champion_chariot",
+			"memberTemplate": "units/cyre/tw/m_champion_chariot",
+			"baseTemplate": "units/cyre/champion_chariot",
+			"name": "Asbystae Chariot",
+			"specificName": "Hēníochos Asbýstēs",
+			"icon": "units/cyre/champion_chariot.png",
+			"category": "chariot",
+			"size": 6,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 300.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 60.0,
+				"speed": 17.0
+			}
+		},
+		{
+			"key": "champion_infantry_pikeman",
+			"template": "units/cyre/tw/champion_infantry_pikeman",
+			"memberTemplate": "units/cyre/tw/m_champion_infantry_pikeman",
+			"baseTemplate": "units/cyre/champion_infantry_pikeman",
+			"name": "Royal Guard",
+			"specificName": "Basilikòs Hypaspistḗs",
+			"icon": "units/cyre/champion_infantry_pikeman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_archer_merc",
+			"template": "units/cyre/tw/infantry_archer_merc",
+			"memberTemplate": "units/cyre/tw/m_infantry_archer_merc",
+			"baseTemplate": "units/cyre/infantry_archer_merc_b",
+			"name": "Nasamones Mercenary Archer",
+			"specificName": "Toxótēs Nasamṓn",
+			"icon": "units/cyre/infantry_archer_merc.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 270,
+			"upkeep": 22,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/cyre/tw/infantry_javelineer",
+			"memberTemplate": "units/cyre/tw/m_infantry_javelineer",
+			"baseTemplate": "units/cyre/infantry_javelineer_b",
+			"name": "Cyrenaean Peltast",
+			"specificName": "Peltastḗs Kyrēnaîos",
+			"icon": "units/cyre/infantry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 270,
+			"upkeep": 22,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/cyre/tw/infantry_spearman",
+			"memberTemplate": "units/cyre/tw/m_infantry_spearman",
+			"baseTemplate": "units/cyre/infantry_spearman_b",
+			"name": "Cyrenaean Hoplite",
+			"specificName": "Hoplī́tēs Kyrēnaîos",
+			"icon": "units/cyre/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/cyre/tw/infantry_swordsman",
+			"memberTemplate": "units/cyre/tw/m_infantry_swordsman",
+			"baseTemplate": "units/cyre/infantry_swordsman_b",
+			"name": "Cyrenaean Swordsman",
+			"specificName": "Machairophóros",
+			"icon": "units/cyre/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman_merc",
+			"template": "units/cyre/tw/infantry_swordsman_merc",
+			"memberTemplate": "units/cyre/tw/m_infantry_swordsman_merc",
+			"baseTemplate": "units/cyre/infantry_swordsman_merc_b",
+			"name": "Marmaridae Swordsman",
+			"specificName": "Machairophóros Marmarídēs",
+			"icon": "units/cyre/infantry_swordsman_merc.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 300,
+			"upkeep": 24,
+			"building": "fortress",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_oxybeles",
+			"template": "units/cyre/siege_oxybeles_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/cyre/siege_oxybeles_packed",
+			"name": "Bolt Shooter",
+			"specificName": "Oxybelḗs",
+			"icon": "units/hele/siege_oxybeles_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 40.0,
+				"range": 80.0,
+				"speed": 6.75
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/cyre/hero_arcesilaus_iv",
+			"name": "Arkesílaos",
+			"icon": "units/cyrene/hero_arcesilaus_iv.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/cyre/hero_eryxo",
+			"name": "Eryxṓ",
+			"icon": "units/cyrene/hero_eryxo.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/cyre/hero_magas",
+			"name": "Mágas ho Kyrēnaîos",
+			"icon": "units/cyrene/hero_magas.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/cyre/tw/att_priest",
+			"baseTemplate": "units/cyre/support_healer_b",
+			"unitName": "Priest",
+			"icon": "units/hele/support_healer.png"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: acompanhante de batalhão (priest) a partir de units/spart/support_healer_b. -->
+<Entity parent="tw_battalion_attachment|units/spart/support_healer_b">
+  <Identity>
+    <Classes datatype="tokens">TWAttachment_priest</Classes>
+  </Identity>
+</Entity>

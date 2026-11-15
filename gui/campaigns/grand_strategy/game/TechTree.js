@@ -30,8 +30,8 @@ const TECH_EFFECT_INFO = {
 const TECH_BASE_VALUES = {
 	"moveCap": 2,
 	"moveRegen": 1,
-	"garrisonCap": 10,
-	"garrisonUpkeep": 50,
+	"garrisonCap": 6,
+	"garrisonUpkeep": 15,
 	"tradeIncome": 10,
 	"generalCost": 500
 };
@@ -151,6 +151,10 @@ class TribeTechs
 	getTradeIncome() { return Math.round(TECH_BASE_VALUES.tradeIncome * (1 + this.get("tradeIncome"))); }
 	getGarrisonUpkeep() { return TECH_BASE_VALUES.garrisonUpkeep * Math.max(0, 1 - this.get("upkeepReduction")); }
 	getBuildCostMultiplier() { return Math.max(0.2, 1 - this.get("buildCost")); }
+	/** Desconto no recrutamento de batalhões (Total Warfield). */
+	getRecruitCostMultiplier() { return Math.max(0.5, 1 - this.get("recruitCost")); }
+	/** Desconto na manutenção dos exércitos (Total Warfield). */
+	getArmyUpkeepMultiplier() { return Math.max(0.5, 1 - this.get("upkeepReduction")); }
 	getRecruitCost() { return Math.round(TECH_BASE_VALUES.generalCost * Math.max(0.2, 1 - this.get("recruitCost"))); }
 	getMaxGeneralsBonus() { return this.get("maxGenerals"); }
 	getVisionRange() { return 1 + this.get("visionRange"); }

@@ -1,0 +1,18 @@
+{
+	"_comment": "Civ do jogo base usada no lugar de uma cultura nativa do mapa (campo civs das províncias) cuja civ não está carregada. Com o Endovelico ativo as civs dele são usadas direto.",
+	"aden": "ptol", "aksum": "kush", "anish": "brit", "anura": "maur", "araw": "iber",
+	"arme": "sele", "arsa": "achae", "azan": "kush", "bactr": "sele", "bantu": "kush",
+	"batw": "kush", "bedo": "ptol", "bosp": "athen", "cartemp": "cart", "chibc": "iber",
+	"cyre": "ptol", "daci": "gaul", "dalm": "mace", "damar": "kush", "epir": "mace",
+	"gaet": "cart", "gara": "cart", "gojo": "han", "guara": "iber", "hasmo": "sele",
+	"himya": "ptol", "hisat": "iber", "illy": "mace", "kartl": "achae", "khoi": "kush",
+	"kwa": "kush", "lenc": "iber", "liby": "cart", "lusi": "iber", "macrob": "kush",
+	"malay": "maur", "mand": "kush", "mapu": "iber", "mauret": "cart", "maya": "ptol",
+	"miny": "han", "mixt": "ptol", "moch": "ptol", "naba": "ptol", "nok": "kush",
+	"numi": "cart", "paiu": "brit", "pamp": "brit", "puka": "iber", "pyu": "maur",
+	"sao": "kush", "sarma": "achae", "scyth": "achae", "shona": "kush", "sonin": "kush",
+	"sueb": "germ", "suva": "maur", "swcr": "brit", "syrac": "athen", "tami": "maur",
+	"thra": "mace", "tocha": "han", "tupi": "brit", "ural": "germ", "urew": "kush",
+	"viet": "han", "vyadh": "maur", "xion": "han", "yawa": "brit", "yayo": "han",
+	"yuez": "han", "zapo": "ptol", "pers": "achae"
+}

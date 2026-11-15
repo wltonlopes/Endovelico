@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/damar/cavalry_scout_melee. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_leader_cavalry|tw_battalion_leader|units/damar/cavalry_scout_melee">
+  <BattalionLeader>
+    <Size>12</Size>
+    <Columns>6</Columns>
+    <Spacing>3.6</Spacing>
+    <MemberTemplate>units/damar/tw/m_cavalry_scout_melee</MemberTemplate>
+    <Category>cavalry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">wedge</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/damar/tw/cavalry_scout_melee</SelectionGroupName>
+  </Identity>
+</Entity>

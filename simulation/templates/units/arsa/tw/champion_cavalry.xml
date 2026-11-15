@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/arsa/champion_cavalry. -->
+<Entity parent="tw_charge_cavalry|tw_tough_cavalry|tw_battalion_leader_cavalry|tw_battalion_leader|units/arsa/champion_cavalry">
+  <BattalionLeader>
+    <Size>10</Size>
+    <Columns>5</Columns>
+    <Spacing>3.8</Spacing>
+    <MemberTemplate>units/arsa/tw/m_champion_cavalry</MemberTemplate>
+    <Category>champion_cavalry</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">wedge</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/arsa/tw/champion_cavalry</SelectionGroupName>
+  </Identity>
+</Entity>

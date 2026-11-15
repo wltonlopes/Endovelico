@@ -1,0 +1,483 @@
+{
+	"civ": "han",
+	"units": [
+		{
+			"key": "cavalry_archer",
+			"template": "units/han/tw/cavalry_archer",
+			"memberTemplate": "units/han/tw/m_cavalry_archer",
+			"baseTemplate": "units/han/cavalry_archer_b",
+			"name": "Cavalry Archer",
+			"specificName": "Gōng Qíbīng",
+			"icon": "units/han/cavalry_archer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 6.0,
+				"range": 60.0,
+				"speed": 15.3
+			}
+		},
+		{
+			"key": "cavalry_crossbowman",
+			"template": "units/han/tw/cavalry_crossbowman",
+			"memberTemplate": "units/han/tw/m_cavalry_crossbowman",
+			"baseTemplate": "units/han/cavalry_crossbowman_b",
+			"name": "Cavalry Crossbowman",
+			"specificName": "Han Cavalry Crossbowman",
+			"icon": "units/han/cavalry_crossbowman.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 8.33,
+				"range": 45.0,
+				"speed": 14.4
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/han/tw/cavalry_scout",
+			"memberTemplate": "units/han/tw/m_cavalry_scout",
+			"baseTemplate": "units/han/cavalry_scout",
+			"name": "Scout Cavalry",
+			"specificName": "Chinese Scout",
+			"icon": "units/han/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 22.5
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/han/tw/cavalry_spearman",
+			"memberTemplate": "units/han/tw/m_cavalry_spearman",
+			"baseTemplate": "units/han/cavalry_spearman_b",
+			"name": "Cavalry Spearman",
+			"specificName": "Máo Qíbīng",
+			"icon": "units/han/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "cavalry_swordsman",
+			"template": "units/han/tw/cavalry_swordsman",
+			"memberTemplate": "units/han/tw/m_cavalry_swordsman",
+			"baseTemplate": "units/han/cavalry_swordsman_b",
+			"name": "Cavalry Swordsman",
+			"specificName": "Dāo Qíbīng",
+			"icon": "units/han/cavalry_swordsman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry_spearman_academy",
+			"template": "units/han/tw/champion_cavalry_spearman_academy",
+			"memberTemplate": "units/han/tw/m_champion_cavalry_spearman_academy",
+			"baseTemplate": "units/han/champion_cavalry_spearman_academy",
+			"name": "Youzhou Cavalry",
+			"specificName": "Yōuzhōu Tūqí",
+			"icon": "units/han/champion_cavalry_spearman.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_chariot_academy",
+			"template": "units/han/tw/champion_chariot_academy",
+			"memberTemplate": "units/han/tw/m_champion_chariot_academy",
+			"baseTemplate": "units/han/champion_chariot_academy",
+			"name": "Han War Chariot",
+			"specificName": "Zhanche",
+			"icon": "units/han/chariot.png",
+			"category": "chariot",
+			"size": 6,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 300.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 60.0,
+				"speed": 17.0
+			}
+		},
+		{
+			"key": "champion_infantry_crossbowman_academy",
+			"template": "units/han/tw/champion_infantry_crossbowman_academy",
+			"memberTemplate": "units/han/tw/m_champion_infantry_crossbowman_academy",
+			"baseTemplate": "units/han/champion_infantry_crossbowman_academy",
+			"name": "Champion Infantry Crossbowman",
+			"specificName": "Juezhang",
+			"icon": "units/han/champion_infantry_crossbowman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"volley_ranks"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 120.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 10.0,
+				"range": 60.0,
+				"speed": 9.6
+			}
+		},
+		{
+			"key": "champion_infantry_spearman_academy",
+			"template": "units/han/tw/champion_infantry_spearman_academy",
+			"memberTemplate": "units/han/tw/m_champion_infantry_spearman_academy",
+			"baseTemplate": "units/han/champion_infantry_spearman_academy",
+			"name": "Tiger Guard Spearman",
+			"specificName": "Hǔ Bēn",
+			"icon": "units/han/champion_infantry_swordsman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/han/tw/infantry_archer",
+			"memberTemplate": "units/han/tw/m_infantry_archer",
+			"baseTemplate": "units/han/infantry_archer_b",
+			"name": "Archer",
+			"specificName": "Shè Shǒu",
+			"icon": "units/han/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [
+				"volley_ranks"
+			],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_crossbowman",
+			"template": "units/han/tw/infantry_crossbowman",
+			"memberTemplate": "units/han/tw/m_infantry_crossbowman",
+			"baseTemplate": "units/han/infantry_crossbowman_b",
+			"name": "Infantry Crossbowman",
+			"specificName": "Nǔ Shǒu",
+			"icon": "units/han/infantry_crossbowman.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [
+				"volley_ranks"
+			],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.0,
+				"range": 45.0,
+				"speed": 10.0
+			}
+		},
+		{
+			"key": "infantry_pikeman",
+			"template": "units/han/tw/infantry_pikeman",
+			"memberTemplate": "units/han/tw/m_infantry_pikeman",
+			"baseTemplate": "units/han/infantry_pikeman_b",
+			"name": "Halberdier",
+			"specificName": "Jǐ Bīng",
+			"icon": "units/han/infantry_halberdman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.5,
+				"melee": 6.75,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.05
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/han/tw/infantry_spearman",
+			"memberTemplate": "units/han/tw/m_infantry_spearman",
+			"baseTemplate": "units/han/infantry_spearman_b",
+			"name": "Spearman",
+			"specificName": "Máo Bīng",
+			"icon": "units/han/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_mangonel",
+			"template": "units/han/siege_mangonel_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/han/siege_mangonel_packed",
+			"name": "Mangonel",
+			"specificName": "Pào",
+			"icon": "units/han/siege_mangonel_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 160,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 375.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 32.86,
+				"range": 85.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/han/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/han/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Gōngchéng Chuí",
+			"icon": "units/athen/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_tower",
+			"template": "units/han/siege_tower",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/han/siege_tower",
+			"name": "Siege Tower",
+			"specificName": "Gōngchéng Tǎ",
+			"icon": "units/han/siege_tower.png",
+			"category": "siege",
+			"size": 1,
+			"cost": 200,
+			"upkeep": 12,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 500.0,
+				"armor": 28.0,
+				"melee": 0.0,
+				"ranged": 5.0,
+				"range": 55.0,
+				"speed": 6.3
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/han/hero_han_xin_horse",
+			"name": "Hán Xìn",
+			"icon": "units/han/hero_han_xin.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/han/hero_liu_bang_horse",
+			"name": "Liú Bāng",
+			"icon": "units/han/hero_liu_bang.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/han/hero_wei_qing_chariot",
+			"name": "Wèi Qīng",
+			"icon": "units/han/hero_wei_qing.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/han/tw/att_priest",
+			"baseTemplate": "units/han/support_healer_b",
+			"unitName": "Healer",
+			"icon": "units/han/support_healer.png"
+		}
+	}
+}

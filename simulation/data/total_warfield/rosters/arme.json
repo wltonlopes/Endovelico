@@ -1,0 +1,306 @@
+{
+	"civ": "arme",
+	"units": [
+		{
+			"key": "cavalry_archer",
+			"template": "units/arme/tw/cavalry_archer",
+			"memberTemplate": "units/arme/tw/m_cavalry_archer",
+			"baseTemplate": "units/arme/cavalry_archer_b",
+			"name": "Armenian Horse Archer",
+			"specificName": "Ałełnawor Ayrudzi",
+			"icon": "units/achae/cavalry_archer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 6.0,
+				"range": 60.0,
+				"speed": 15.3
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/arme/tw/cavalry_scout",
+			"memberTemplate": "units/arme/tw/m_cavalry_scout",
+			"baseTemplate": "units/arme/cavalry_scout",
+			"name": "Armenian Scout",
+			"specificName": "",
+			"icon": "units/achae/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/arme/tw/cavalry_spearman",
+			"memberTemplate": "units/arme/tw/m_cavalry_spearman",
+			"baseTemplate": "units/arme/cavalry_spearman_b",
+			"name": "Armenian Lancer",
+			"specificName": "Nizakawor Ayrudzi",
+			"icon": "units/maur/cavalry_swordsman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/arme/tw/champion_cavalry",
+			"memberTemplate": "units/arme/tw/m_champion_cavalry",
+			"baseTemplate": "units/arme/champion_cavalry",
+			"name": "Royal Cataphract",
+			"specificName": "Azat Ayrudzi",
+			"icon": "units/achae/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 8.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 14.4
+			}
+		},
+		{
+			"key": "champion_infantry_spearman",
+			"template": "units/arme/tw/champion_infantry_spearman",
+			"memberTemplate": "units/arme/tw/m_champion_infantry_spearman",
+			"baseTemplate": "units/arme/champion_infantry_spearman",
+			"name": "Royal Guard Spearman",
+			"specificName": "Matean Gund",
+			"icon": "units/thra/champion_infantry_spearman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/arme/tw/infantry_javelineer",
+			"memberTemplate": "units/arme/tw/m_infantry_javelineer",
+			"baseTemplate": "units/arme/infantry_javelineer_b",
+			"name": "Armenian Skirmisher",
+			"specificName": "",
+			"icon": "units/thra/infantry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/arme/tw/infantry_spearman",
+			"memberTemplate": "units/arme/tw/m_infantry_spearman",
+			"baseTemplate": "units/arme/infantry_spearman_b",
+			"name": "Armenian Spearman",
+			"specificName": "Nizakawor",
+			"icon": "units/thra/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/arme/tw/infantry_swordsman",
+			"memberTemplate": "units/arme/tw/m_infantry_swordsman",
+			"baseTemplate": "units/arme/infantry_swordsman_b",
+			"name": "Armenian Swordsman",
+			"specificName": "Suserawor",
+			"icon": "units/thra/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_lithobolos",
+			"template": "units/arme/siege_lithobolos_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/arme/siege_lithobolos_packed",
+			"name": "Siege Catapult",
+			"specificName": "Lithobólos",
+			"icon": "units/hele/siege_lithobolos_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 160,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 375.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 32.86,
+				"range": 85.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/arme/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/arme/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "",
+			"icon": "units/celt/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/arme/hero_cavalry_archer",
+			"name": "Tigran Mets",
+			"icon": "units/mace/hero_philip.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/arme/hero_cavalry_spearman",
+			"name": "Trdat",
+			"icon": "units/mace/hero_philip.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/arme/hero_infantry_swordsman",
+			"name": "Artašēs",
+			"icon": "units/mace/hero_demetrius.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/arme/tw/att_priest",
+			"baseTemplate": "units/arme/support_healer_b",
+			"unitName": "Armenian Priest",
+			"icon": "units/hele/support_healer.png"
+		}
+	}
+}

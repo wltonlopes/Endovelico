@@ -1,0 +1,440 @@
+{
+	"civ": "mace",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/mace/tw/cavalry_javelineer",
+			"memberTemplate": "units/mace/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/mace/cavalry_javelineer_b",
+			"name": "Odrysian Skirmish Cavalry",
+			"specificName": "Hippakontistēs Odrysos",
+			"icon": "units/mace/cavalry_javelinist.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 160,
+			"upkeep": 13,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/mace/tw/cavalry_scout",
+			"memberTemplate": "units/mace/tw/m_cavalry_scout",
+			"baseTemplate": "units/mace/cavalry_scout",
+			"name": "Scout Cavalry",
+			"specificName": "Macedonian Scout",
+			"icon": "units/mace/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 22.5
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/mace/tw/cavalry_spearman",
+			"memberTemplate": "units/mace/tw/m_cavalry_spearman",
+			"baseTemplate": "units/mace/cavalry_spearman_b",
+			"name": "Thessalian Lancer",
+			"specificName": "Xystophoros Thessalikos",
+			"icon": "units/mace/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/mace/tw/champion_cavalry",
+			"memberTemplate": "units/mace/tw/m_champion_cavalry",
+			"baseTemplate": "units/mace/champion_cavalry",
+			"name": "Companion Cavalry",
+			"specificName": "Hetairos",
+			"icon": "units/mace/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_infantry_crossbowman",
+			"template": "units/mace/tw/champion_infantry_crossbowman",
+			"memberTemplate": "units/mace/tw/m_champion_infantry_crossbowman",
+			"baseTemplate": "units/mace/champion_infantry_crossbowman",
+			"name": "Champion Infantry Crossbowman",
+			"specificName": "Gastraphetophoros",
+			"icon": "units/mace/champion_infantry_crossbowman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "range",
+			"level": "city",
+			"stats": {
+				"hp": 120.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 10.0,
+				"range": 60.0,
+				"speed": 9.6
+			}
+		},
+		{
+			"key": "champion_infantry_spearman",
+			"template": "units/mace/tw/champion_infantry_spearman",
+			"memberTemplate": "units/mace/tw/m_champion_infantry_spearman",
+			"baseTemplate": "units/mace/champion_infantry_spearman",
+			"name": "Macedonian Shield Bearer",
+			"specificName": "Hypaspistēs",
+			"icon": "units/mace/hypaspist.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/mace/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/mace/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/mace/champion_infantry_swordsman",
+			"name": "Thracian Black Cloak",
+			"specificName": "Rhomphaiaphoros",
+			"icon": "units/thrac/champion_infantry_swordsman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 10.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/mace/tw/infantry_archer",
+			"memberTemplate": "units/mace/tw/m_infantry_archer",
+			"baseTemplate": "units/mace/infantry_archer_b",
+			"name": "Cretan Mercenary Archer",
+			"specificName": "Toxotēs Krētikos",
+			"icon": "units/mace/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 270,
+			"upkeep": 22,
+			"building": "range",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/mace/tw/infantry_javelineer",
+			"memberTemplate": "units/mace/tw/m_infantry_javelineer",
+			"baseTemplate": "units/mace/infantry_javelineer_b",
+			"name": "Agrianian Peltast",
+			"specificName": "Peltastēs Agrias",
+			"icon": "units/mace/infantry_javelinist.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_pikeman",
+			"template": "units/mace/tw/infantry_pikeman",
+			"memberTemplate": "units/mace/tw/m_infantry_pikeman",
+			"baseTemplate": "units/mace/infantry_pikeman_b",
+			"name": "Foot Companion",
+			"specificName": "Pezetairos",
+			"icon": "units/mace/infantry_pikeman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx",
+				"syntagma"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 5.0,
+				"melee": 5.75,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 8.55
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/mace/tw/infantry_slinger",
+			"memberTemplate": "units/mace/tw/m_infantry_slinger",
+			"baseTemplate": "units/mace/infantry_slinger_b",
+			"name": "Rhodian Slinger",
+			"specificName": "Sphendonētēs Rhodios",
+			"icon": "units/mace/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 270,
+			"upkeep": 22,
+			"building": "range",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "siege_lithobolos",
+			"template": "units/mace/siege_lithobolos_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/mace/siege_lithobolos_packed",
+			"name": "Siege Catapult",
+			"specificName": "Lithobolos",
+			"icon": "units/hele/siege_lithobolos_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 160,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 375.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 32.86,
+				"range": 85.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_oxybeles",
+			"template": "units/mace/siege_oxybeles_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/mace/siege_oxybeles_packed",
+			"name": "Bolt Shooter",
+			"specificName": "Oxybelēs",
+			"icon": "units/hele/siege_oxybeles_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 40.0,
+				"range": 80.0,
+				"speed": 6.75
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/mace/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/mace/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Krios",
+			"icon": "units/mace/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_tower",
+			"template": "units/mace/siege_tower",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/mace/siege_tower",
+			"name": "Siege Tower",
+			"specificName": "Helepolis",
+			"icon": "units/hele/siege_tower.png",
+			"category": "siege",
+			"size": 1,
+			"cost": 200,
+			"upkeep": 12,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 500.0,
+				"armor": 28.0,
+				"melee": 0.0,
+				"ranged": 5.0,
+				"range": 55.0,
+				"speed": 6.3
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/mace/hero_alexander_iii",
+			"name": "Alexandros ho Megas",
+			"icon": "units/mace/hero_alexander.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/mace/hero_demetrius_i",
+			"name": "Dēmētrios Poliorkētēs",
+			"icon": "units/mace/hero_demetrius.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/mace/hero_philip_ii",
+			"name": "Philippos B' ho Makedōn",
+			"icon": "units/mace/hero_philip.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/mace/tw/att_priest",
+			"baseTemplate": "units/mace/support_healer_b",
+			"unitName": "Surgeon",
+			"icon": "units/hele/support_healer.png"
+		}
+	}
+}

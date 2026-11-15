@@ -1,0 +1,292 @@
+{
+	"civ": "dalm",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/dalm/tw/cavalry_javelineer",
+			"memberTemplate": "units/dalm/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/dalm/cavalry_javelineer_b",
+			"name": "Dalmatian Cavalry Skirmisher",
+			"specificName": "",
+			"icon": "units/thra/cavalry_javelineer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/dalm/tw/cavalry_scout",
+			"memberTemplate": "units/dalm/tw/m_cavalry_scout",
+			"baseTemplate": "units/dalm/cavalry_scout",
+			"name": "Dalmatian Scout",
+			"specificName": "",
+			"icon": "units/athen/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/dalm/tw/champion_cavalry",
+			"memberTemplate": "units/dalm/tw/m_champion_cavalry",
+			"baseTemplate": "units/dalm/champion_cavalry",
+			"name": "Dalmatian Noble Cavalry",
+			"specificName": "",
+			"icon": "units/thra/champion_cavalry_spearman.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_infantry_spearman",
+			"template": "units/dalm/tw/champion_infantry_spearman",
+			"memberTemplate": "units/dalm/tw/m_champion_infantry_spearman",
+			"baseTemplate": "units/dalm/champion_infantry_spearman",
+			"name": "Dalmatian Noble Spearman",
+			"specificName": "",
+			"icon": "units/thra/champion_infantry_spearman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/dalm/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/dalm/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/dalm/champion_infantry_swordsman",
+			"name": "Dalmatian Sica Warrior",
+			"specificName": "",
+			"icon": "units/thra/champion_infantry_swordsman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/dalm/tw/infantry_javelineer",
+			"memberTemplate": "units/dalm/tw/m_infantry_javelineer",
+			"baseTemplate": "units/dalm/infantry_javelineer_b",
+			"name": "Dalmatian Skirmisher",
+			"specificName": "",
+			"icon": "units/thra/infantry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/dalm/tw/infantry_spearman",
+			"memberTemplate": "units/dalm/tw/m_infantry_spearman",
+			"baseTemplate": "units/dalm/infantry_spearman_b",
+			"name": "Dalmatian Spearman",
+			"specificName": "",
+			"icon": "units/thra/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/dalm/tw/infantry_swordsman",
+			"memberTemplate": "units/dalm/tw/m_infantry_swordsman",
+			"baseTemplate": "units/dalm/infantry_swordsman_b",
+			"name": "Dalmatian Swordsman",
+			"specificName": "",
+			"icon": "units/thra/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_lithobolos",
+			"template": "units/dalm/siege_lithobolos_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/dalm/siege_lithobolos_packed",
+			"name": "Siege Catapult",
+			"specificName": "Lithobólos",
+			"icon": "units/hele/siege_lithobolos_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 160,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 375.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 32.86,
+				"range": 85.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/dalm/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/dalm/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "",
+			"icon": "units/celt/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/dalm/hero_infantry_swordsman",
+			"name": "Verzo",
+			"icon": "units/mace/hero_demetrius.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/dalm/tw/att_priest",
+			"baseTemplate": "units/dalm/support_healer_b",
+			"unitName": "Dalmatian Priest",
+			"icon": "units/hele/support_healer.png"
+		}
+	}
+}

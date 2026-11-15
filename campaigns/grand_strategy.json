@@ -1,6 +1,6 @@
 {
 	"Name": "Grand Strategy",
-    "Image": "campaigns/grand_strategy/art/banner-alt.png",
-	"Description": "Take control of a nation, conquer your neighbors, rule the world.",
+	"Image": "campaigns/grand_strategy/art/banner-alt.png",
+	"Description": "Take control of a nation and rule the world: grow your cities, build and research, deal with your neighbours, and raise armies of battalions. When armies clash, command the field battle yourself (charges, sieges, walls and siege engines) or let your generals decide it; then occupy, sack or vassalise what you conquer.",
 	"Interface": "grand_strategy"
 }

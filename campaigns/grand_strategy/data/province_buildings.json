@@ -1,44 +1,144 @@
 {
-  "buildings": [
-    {
-      "id": "watchtower",
-      "name": "Watchtower",
-      "cost": 220,
-      "buildTime": 3,
-      "damageBonus": 3,
-      "description": "Improves vigilance and raises the province's defensive damage."
-    },
-    {
-      "id": "market",
-      "name": "Market",
-      "cost": 180,
-      "buildTime": 2,
-      "damageBonus": 2,
-      "description": "Boosts local trade and the province's military impact."
-    },
-    {
-      "id": "philosopher_academy",
-      "name": "Philosophers' Academy",
-      "cost": 260,
-      "buildTime": 4,
-      "damageBonus": 2,
-      "description": "Strengthens troop morale and raises the province's bonus damage. Also produces research."
-    },
-    {
-      "id": "port",
-      "name": "Port",
-      "cost": 300,
-      "buildTime": 4,
-      "damageBonus": 4,
-      "description": "Increases naval power and the offensive damage of a coastal province."
-    },
-    {
-      "id": "fortress",
-      "name": "Fortress",
-      "cost": 400,
-      "buildTime": 5,
-      "damageBonus": 6,
-      "description": "An imposing fortress that multiplies the province's defensive damage."
-    }
-  ]
+	"_comment": "Construções de província. level: nível de assentamento exigido (village, town, city). income: ouro por turno. growth: crescimento da população (%/turno). happiness: ordem pública. research: pesquisa por turno. defense: bônus do defensor na batalha (%). garrison: batalhões de guarnição a mais. recruits: libera batalhões (construção do jogo: barracks, range, stable, elephant_stable, market, fortress). xp: experiência inicial dos recrutados. walls: muralha na batalha (stone ou palisade).",
+	"buildings": [
+		{
+			"id": "farmland",
+			"name": "Farmland",
+			"cost": 150,
+			"buildTime": 2,
+			"level": "village",
+			"income": 10,
+			"growth": 1.5,
+			"description": "Fields and granaries: faster population growth and a little income."
+		},
+		{
+			"id": "barracks",
+			"name": "Barracks",
+			"cost": 200,
+			"buildTime": 2,
+			"level": "village",
+			"recruits": "barracks",
+			"xp": 50,
+			"description": "Trains the civilisation's regular infantry battalions."
+		},
+		{
+			"id": "range",
+			"name": "Archery Range",
+			"cost": 180,
+			"buildTime": 2,
+			"level": "village",
+			"recruits": "range",
+			"description": "Trains archers, slingers and skirmishers."
+		},
+		{
+			"id": "market",
+			"name": "Market",
+			"cost": 180,
+			"buildTime": 2,
+			"level": "village",
+			"income": 25,
+			"recruits": "market",
+			"description": "Trade income. Mercenary battalions can be hired here."
+		},
+		{
+			"id": "palisade",
+			"name": "Palisade",
+			"cost": 120,
+			"buildTime": 2,
+			"level": "village",
+			"defense": 8,
+			"walls": "palisade",
+			"description": "A wooden palisade with a gate around the settlement."
+		},
+		{
+			"id": "watchtower",
+			"name": "Watchtower",
+			"cost": 220,
+			"buildTime": 3,
+			"level": "village",
+			"defense": 10,
+			"garrison": 1,
+			"description": "Vigilance: one more garrison battalion and a defensive bonus."
+		},
+		{
+			"id": "stable",
+			"name": "Stables",
+			"cost": 260,
+			"buildTime": 3,
+			"level": "town",
+			"recruits": "stable",
+			"description": "Trains cavalry battalions."
+		},
+		{
+			"id": "temple",
+			"name": "Temple",
+			"cost": 240,
+			"buildTime": 3,
+			"level": "town",
+			"happiness": 4,
+			"description": "Public order and morale."
+		},
+		{
+			"id": "philosopher_academy",
+			"name": "Philosophers' Academy",
+			"cost": 260,
+			"buildTime": 4,
+			"level": "town",
+			"research": 3,
+			"happiness": 1,
+			"description": "Scholars: more research every turn."
+		},
+		{
+			"id": "siege_workshop",
+			"name": "Siege Workshop",
+			"cost": 280,
+			"buildTime": 3,
+			"level": "town",
+			"recruits": "siege_workshop",
+			"description": "Builds rams, catapults and bolt shooters for the army."
+		},
+		{
+			"id": "port",
+			"name": "Port",
+			"cost": 300,
+			"buildTime": 4,
+			"level": "town",
+			"income": 30,
+			"coastal": true,
+			"description": "Sea trade for a coastal province."
+		},
+		{
+			"id": "walls",
+			"name": "Stone Walls",
+			"cost": 350,
+			"buildTime": 4,
+			"level": "town",
+			"defense": 25,
+			"garrison": 1,
+			"description": "Stone walls with towers and gates: assaults need siege engines (or a long siege), and the defenders hold the town much better.",
+			"walls": "stone",
+			"requires": "palisade"
+		},
+		{
+			"id": "elephant_stable",
+			"name": "Elephant Stables",
+			"cost": 400,
+			"buildTime": 4,
+			"level": "city",
+			"recruits": "elephant_stable",
+			"description": "War elephants, for the civilisations that have them."
+		},
+		{
+			"id": "fortress",
+			"name": "Fortress",
+			"cost": 450,
+			"buildTime": 5,
+			"level": "city",
+			"recruits": "fortress",
+			"defense": 25,
+			"garrison": 2,
+			"xp": 150,
+			"description": "Champions, elite guards and a mighty garrison."
+		}
+	]
 }

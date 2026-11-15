@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/illy/champion_infantry_javalineer. -->
+<Entity parent="tw_dagger|tw_tough_infantry|tw_battalion_member|units/illy/champion_infantry_javalineer">
+  <Identity>
+    <SelectionGroupName>units/illy/tw/champion_infantry_javalineer</SelectionGroupName>
+  </Identity>
+</Entity>

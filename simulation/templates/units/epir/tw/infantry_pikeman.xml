@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/epir/infantry_pikeman_b. -->
+<Entity parent="tw_brace|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/epir/infantry_pikeman_b">
+  <BattalionLeader>
+    <Size>24</Size>
+    <Columns>8</Columns>
+    <Spacing>2.2</Spacing>
+    <MemberTemplate>units/epir/tw/m_infantry_pikeman</MemberTemplate>
+    <Category>infantry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">phalanx syntagma</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/epir/tw/infantry_pikeman</SelectionGroupName>
+  </Identity>
+</Entity>

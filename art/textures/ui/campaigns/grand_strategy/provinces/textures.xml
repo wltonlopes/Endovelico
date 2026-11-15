@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Textures>
-  <File pattern="*" format="rgba" mipmap="false"/>
+  <File pattern="*" format="rgba" mipmap="true"/>
 </Textures>

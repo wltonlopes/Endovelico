@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/ptol/camelry_scout. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_leader_cavalry|tw_battalion_leader|units/ptol/camelry_scout">
+  <BattalionLeader>
+    <Size>12</Size>
+    <Columns>6</Columns>
+    <Spacing>4.0</Spacing>
+    <MemberTemplate>units/ptol/tw/m_camelry_scout</MemberTemplate>
+    <Category>cavalry_ranged</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/ptol/tw/camelry_scout</SelectionGroupName>
+  </Identity>
+</Entity>

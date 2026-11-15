@@ -55,7 +55,7 @@ class InitPage
 
 		Engine.GetGUIObjectByName("campaignTitle").caption = "Grand Strategy";
 		let desc = "Destined for glory? Ever since you were young, you've had the spirit of a warrior. A strong soul, and the right combination of will, luck and destiny to wield it effectively. Now your people look to you to guide them into the future, whatever may come.";
-		desc += "\nWelcome to 0 A.D.'s Grand Strategy campaign, where you will take control of a country through the eyes of a Hero character. Fortify your lands, conquer your neighbors, and lead your civilization to victory.";
+		desc += "\nWelcome to Grand Strategy. Grow your cities from villages into great capitals, build and research, deal with your neighbours, and raise armies of battalions led by your generals. When armies clash you can command the field battle yourself: every soldier lost or saved there counts in the campaign.";
 		Engine.GetGUIObjectByName("campaignDescription").caption = desc;
 
 		Engine.GetGUIObjectByName("campaignImage").sprite = "stretched:campaigns/grand_strategy/art/banner.png";

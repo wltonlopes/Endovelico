@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/mace/infantry_archer_b. -->
+<Entity parent="tw_dagger|tw_stealth|tw_tough_infantry|tw_battalion_member|units/mace/infantry_archer_b">
+  <Identity>
+    <SelectionGroupName>units/mace/tw/infantry_archer</SelectionGroupName>
+  </Identity>
+</Entity>

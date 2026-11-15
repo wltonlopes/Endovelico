@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/lusi/champion_infantry_guerrilha. -->
+<Entity parent="tw_dagger|tw_stealth|tw_tough_infantry|tw_battalion_member|units/lusi/champion_infantry_guerrilha">
+  <Identity>
+    <SelectionGroupName>units/lusi/tw/champion_infantry_guerrilha</SelectionGroupName>
+  </Identity>
+</Entity>

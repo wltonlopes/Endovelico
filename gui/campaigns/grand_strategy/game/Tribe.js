@@ -50,6 +50,7 @@ class Tribe
 			"generals": this.generals.map(g => g.Serialize()),
 			"maxGenerals": this.maxGenerals,
 			"techs": this.techs.Serialize(),
+			"vassalOf": this.vassalOf,
 
 			"diplo": Object.keys(this.diplo)
 				.map(x => [x, this.diplo[x].serialize()]),
@@ -80,6 +81,7 @@ class Tribe
 		this.maxGenerals = data.maxGenerals || 1;
 		this.techs = new TribeTechs(this);
 		this.techs.Deserialize(data.techs);
+		this.vassalOf = data.vassalOf;
 
 		if (data.generals)
 		{

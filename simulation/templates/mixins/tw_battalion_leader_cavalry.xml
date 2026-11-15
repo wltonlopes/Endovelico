@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Batalhão montado (cavalaria, bigas, elefantes): cada baixa pesa mais,
+     mas o moral volta mais rápido e a carga abala o inimigo. -->
+<Entity>
+  <BattalionTactics>
+    <MoraleRecoveryRate>6</MoraleRecoveryRate>
+    <HitMoraleLoss>0.5</HitMoraleLoss>
+    <CasualtyMoraleLoss>4.5</CasualtyMoraleLoss>
+    <LeaderLossMoraleLoss>15</LeaderLossMoraleLoss>
+    <ChargeMoraleLoss>8</ChargeMoraleLoss>
+    <ShakenThreshold>50</ShakenThreshold>
+    <BrokenThreshold>20</BrokenThreshold>
+  </BattalionTactics>
+</Entity>

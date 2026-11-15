@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Batalhas mais longas (Total Warfield): soldados de batalhão (líder e
+     membros) de montados (cavalaria, bigas, elefantes) aguentam muito mais antes de cair. -->
+<Entity>
+  <Health>
+    <Max op="mul">2</Max>
+  </Health>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">1</Hack>
+        <Pierce op="add">1</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+</Entity>

@@ -63,18 +63,25 @@ class ProvinceDetailsWindow
 			return;
 
 		const defs = province.getBuildableStructures();
-		for (let i = 0; i < 5; ++i)
+		const tribe = g_GameData.tribes[province.ownerTribe];
+		for (let i = 0; i < 16; ++i)
 		{
 			const button = Engine.TryGetGUIObjectByName(`provinceBuildOption[${i}]`);
 			if (!button)
 				continue;
+			button.size = `6 ${4 + i * 22} 100%-6 ${24 + i * 22}`;
 			if (i < defs.length)
 			{
 				const def = defs[i];
+				const cost = province.getBuildingCost(def.id);
+				const allowed = province.canBuild(def.id);
 				button.hidden = false;
-				button.caption = `${def.name} (${province.getBuildingCost(def.id)} gold / ${province.getBuildingTime(def.id)} turns)`;
-				button.sprite = "stretched:session/icons/construction.png";
-				button.enabled = true;
+				const needs = TW_LEVELS.indexOf(def.level || "village") > TW_LEVELS.indexOf(province.getSettlementLevel()) ?
+					`a ${TW_LEVEL_NAMES[def.level]}` : g_GameData.getProvinceBuildingData(def.requires)?.name;
+				button.caption = allowed ? `${def.name} (${cost} gold, ${province.getBuildingTime(def.id)} turns)` :
+					coloredText(`${def.name} — needs ${needs}`, "150 150 150");
+				button.tooltip = def.description || "";
+				button.enabled = allowed && !province.buildQueue.length && !!tribe && tribe.money >= cost;
 				button.onPress = () =>
 				{
 					if (province.startBuilding(def.id))
@@ -87,9 +94,7 @@ class ProvinceDetailsWindow
 				};
 			}
 			else
-			{
 				button.hidden = true;
-			}
 		}
 		panel.hidden = false;
 		this.buildOptionsOpen = true;
@@ -115,16 +120,27 @@ class ProvinceDetailsWindow
 		Engine.GetGUIObjectByName("provinceDetails").hidden = false;
 
 		let str = `Name: ${province.name}\n` +
-			`Owner: ${g_GameData.tribes?.[province.ownerTribe]?.getName() || "No-one"}\n`;
+			`Owner: ${g_GameData.tribes?.[province.ownerTribe]?.getName() || "No-one"}` +
+			(g_GameData.tribes?.[province.ownerTribe]?.vassalOf ? ` (vassal of ${g_GameData.tribes[g_GameData.tribes[province.ownerTribe].vassalOf]?.getName()})` : "") + `\n`;
 
+		if (!province.isSea())
+			str += `${TW_LEVEL_NAMES[province.getSettlementLevel()]}, population ${Math.round(province.population)}` +
+				(province.ownerTribe ? ` (${province.getGrowthRate() >= 0 ? "+" : ""}${province.getGrowthRate().toFixed(1)}%/turn)` : "") + "\n";
+		if (!province.ownerTribe && !province.isSea())
+			str += `Natives: ${province.getNativeCivs().map(civ => twCivName(civ)).join(", ")}\n`;
+		const walls = province.getWallType();
+		if (walls)
+			str += `Walls: ${walls == "stone" ? "stone walls" : "palisade"}\n`;
+		if (province.siege)
+			str += coloredText(`Besieged by ${g_GameData.tribes[province.siege.tribe]?.getName() || province.siege.tribe} (turn ${province.siege.turns}, ${province.siege.rams} rams)`, "255 140 100") + "\n";
 		if (infoLevel >= 1)
-			str += `Garrison strength: ${province.garrison}\n`;
+			str += `Garrison: ${province.garrison} battalions` + (province.getBuildingBonus("defense") ? `, defences +${province.getBuildingBonus("defense")}%` : "") + "\n";
 
 		if (infoLevel >= 2)
 		{
 			const structures = province.getBuildingNames();
 			str += `Balance: ${province.getBalance()}\n`;
-			str += `Damage Bonus: ${province.getDamageBonus()}\n`;
+			str += `Happiness: ${Math.round(province.getHappiness())}\n`;
 			str += `Structures: ${structures.length ? structures.join(", ") : "None"}\n`;
 			if (province.buildQueue.length)
 				str += `Construction: ${province.getConstructionStatusText()}\n`;

@@ -1,0 +1,262 @@
+{
+	"civ": "miny",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/miny/tw/cavalry_javelineer",
+			"memberTemplate": "units/miny/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/miny/cavalry_javelineer_b",
+			"name": "Minyue Cavalry",
+			"specificName": "Qi Bing",
+			"icon": "units/yayo/cavalry_archer_merc.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/miny/tw/cavalry_scout",
+			"memberTemplate": "units/miny/tw/m_cavalry_scout",
+			"baseTemplate": "units/miny/cavalry_scout",
+			"name": "Minyue Scout",
+			"specificName": "Chi Hou",
+			"icon": "units/han/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/miny/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/miny/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/miny/champion_infantry_swordsman",
+			"name": "Yue Sword Champion",
+			"specificName": "Jian Shi",
+			"icon": "units/yayo/champion_infantry_swordsman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/miny/tw/infantry_archer",
+			"memberTemplate": "units/miny/tw/m_infantry_archer",
+			"baseTemplate": "units/miny/infantry_archer_b",
+			"name": "Minyue Archer",
+			"specificName": "She Shou",
+			"icon": "units/yayo/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [
+				"volley_ranks"
+			],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/miny/tw/infantry_javelineer",
+			"memberTemplate": "units/miny/tw/m_infantry_javelineer",
+			"baseTemplate": "units/miny/infantry_javelineer_b",
+			"name": "Minyue Skirmisher",
+			"specificName": "Tou Mao Shou",
+			"icon": "units/iber/infantry_javelinist.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [
+				"volley_ranks"
+			],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/miny/tw/infantry_spearman",
+			"memberTemplate": "units/miny/tw/m_infantry_spearman",
+			"baseTemplate": "units/miny/infantry_spearman_b",
+			"name": "Minyue Spearman",
+			"specificName": "Biao Shou",
+			"icon": "units/yayo/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/miny/tw/infantry_swordsman",
+			"memberTemplate": "units/miny/tw/m_infantry_swordsman",
+			"baseTemplate": "units/miny/infantry_swordsman_b",
+			"name": "Mountain Yue Warrior",
+			"specificName": "Shanyue",
+			"icon": "units/yayo/infantry_axeman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/miny/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/miny/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Chong Che",
+			"icon": "units/mace/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/miny/hero_jugu",
+			"name": "Zōu Jūgǔ",
+			"icon": "units/yayo/hero_wousu.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/miny/hero_wuzhu",
+			"name": "Zōu Wúzhū",
+			"icon": "units/yayo/hero_wousu.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/miny/hero_yushan",
+			"name": "Zōu Yúshàn",
+			"icon": "units/yayo/hero_wousu.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/miny/tw/att_priest",
+			"baseTemplate": "units/miny/support_healer_b",
+			"unitName": "Yue Shamaness",
+			"icon": "units/yayo/support_healer.png"
+		}
+	}
+}

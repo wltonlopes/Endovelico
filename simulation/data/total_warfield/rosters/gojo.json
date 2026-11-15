@@ -1,0 +1,379 @@
+{
+	"civ": "gojo",
+	"units": [
+		{
+			"key": "cavalry_archer",
+			"template": "units/gojo/tw/cavalry_archer",
+			"memberTemplate": "units/gojo/tw/m_cavalry_archer",
+			"baseTemplate": "units/gojo/cavalry_archer_b",
+			"name": "Gojoseon Horse Archer",
+			"specificName": "Gung-gi-byeong",
+			"icon": "units/yayo/cavalry_archer_merc.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 6.0,
+				"range": 60.0,
+				"speed": 15.3
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/gojo/tw/cavalry_scout",
+			"memberTemplate": "units/gojo/tw/m_cavalry_scout",
+			"baseTemplate": "units/gojo/cavalry_scout",
+			"name": "Gojoseon Scout",
+			"specificName": "Cheok-hu",
+			"icon": "units/han/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/gojo/tw/cavalry_spearman",
+			"memberTemplate": "units/gojo/tw/m_cavalry_spearman",
+			"baseTemplate": "units/gojo/cavalry_spearman_b",
+			"name": "Gojoseon Lancer",
+			"specificName": "Chang-gi-byeong",
+			"icon": "units/han/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/gojo/tw/champion_cavalry",
+			"memberTemplate": "units/gojo/tw/m_champion_cavalry",
+			"baseTemplate": "units/gojo/champion_cavalry",
+			"name": "Armoured Lancer",
+			"specificName": "Gae-ma-mu-sa",
+			"icon": "units/scyth/champion_cavalry_lancer.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry_archer",
+			"template": "units/gojo/tw/champion_cavalry_archer",
+			"memberTemplate": "units/gojo/tw/m_champion_cavalry_archer",
+			"baseTemplate": "units/gojo/champion_cavalry_archer",
+			"name": "Royal Horse Archer",
+			"specificName": "",
+			"icon": "units/scyth/champion_cavalry_archer.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge",
+				"crane_wing"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 240.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 60.0,
+				"speed": 13.005
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/gojo/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/gojo/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/gojo/champion_infantry_swordsman",
+			"name": "Ring-Pommel Sword Champion",
+			"specificName": "Hwan-du Dae-do-sa",
+			"icon": "units/yayo/champion_infantry_swordsman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/gojo/tw/infantry_archer",
+			"memberTemplate": "units/gojo/tw/m_infantry_archer",
+			"baseTemplate": "units/gojo/infantry_archer_b",
+			"name": "Gojoseon Archer",
+			"specificName": "Gung-su",
+			"icon": "units/yayo/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [
+				"volley_ranks"
+			],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_crossbowman",
+			"template": "units/gojo/tw/infantry_crossbowman",
+			"memberTemplate": "units/gojo/tw/m_infantry_crossbowman",
+			"baseTemplate": "units/gojo/infantry_crossbowman_b",
+			"name": "Gojoseon Crossbowman",
+			"specificName": "No-su",
+			"icon": "units/han/infantry_crossbowman.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [
+				"volley_ranks"
+			],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.0,
+				"range": 45.0,
+				"speed": 10.0
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/gojo/tw/infantry_spearman",
+			"memberTemplate": "units/gojo/tw/m_infantry_spearman",
+			"baseTemplate": "units/gojo/infantry_spearman_b",
+			"name": "Gojoseon Spearman",
+			"specificName": "Chang-byeong",
+			"icon": "units/yayo/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/gojo/tw/infantry_swordsman",
+			"memberTemplate": "units/gojo/tw/m_infantry_swordsman",
+			"baseTemplate": "units/gojo/infantry_swordsman_b",
+			"name": "Bronze Dagger Warrior",
+			"specificName": "Bipa-hyeong Geom-sa",
+			"icon": "units/yayo/infantry_axeman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"fish_scale"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/gojo/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/gojo/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Chung-cha",
+			"icon": "units/mace/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		},
+		{
+			"key": "siege_tower",
+			"template": "units/gojo/siege_tower",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/gojo/siege_tower",
+			"name": "Siege Tower",
+			"specificName": "Gong-seong-tap",
+			"icon": "units/han/siege_tower.png",
+			"category": "siege",
+			"size": 1,
+			"cost": 200,
+			"upkeep": 12,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 500.0,
+				"armor": 28.0,
+				"melee": 0.0,
+				"ranged": 5.0,
+				"range": 55.0,
+				"speed": 6.3
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/gojo/hero_jin",
+			"name": "Jin-wang",
+			"icon": "units/yayo/hero_keiko.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/gojo/hero_wiman",
+			"name": "Wi Man",
+			"icon": "units/kore/hero_wiman.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"high_priest": {
+			"name": "High Priest",
+			"cost": 160,
+			"upkeep": 8,
+			"template": "units/gojo/tw/att_high_priest",
+			"baseTemplate": "units/gojo/champion_healer",
+			"unitName": "High Shaman",
+			"icon": "units/maya/champion_healer.png"
+		},
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/gojo/tw/att_priest",
+			"baseTemplate": "units/gojo/support_healer_b",
+			"unitName": "Shamaness",
+			"icon": "units/yayo/support_healer.png"
+		}
+	}
+}

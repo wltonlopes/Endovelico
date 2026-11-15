@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Carga de infantaria pesada de choque (Total Warfield): corrida curta
+     antes do contato, choque com dano extra e moral abalado no alvo. -->
+<Entity>
+  <BattalionTactics>
+    <ChargeDamage>1.45</ChargeDamage>
+    <ChargeMoraleLoss>14</ChargeMoraleLoss>
+    <ChargeSpeed>1.25</ChargeSpeed>
+  </BattalionTactics>
+  <Identity>
+    <Classes datatype="tokens">TWCharger</Classes>
+  </Identity>
+</Entity>

@@ -15,7 +15,7 @@
 	<!-- Load events after event.js is loaded-->
 	<script directory="gui/campaigns/grand_strategy/game/events/"/>
 	<!-- UI stuff - z_init is last. -->
-	<script file="gui/common/CompatGui.js"/>
+	<script file="gui/campaigns/grand_strategy/CompatGui.js"/>
 	<script file="gui/campaigns/grand_strategy/CivEmblem.js"/>
 	<script file="gui/campaigns/grand_strategy/GrandStrategyPage.js"/>
 	
@@ -29,7 +29,10 @@
 	<script file="gui/campaigns/grand_strategy/windows/HeroWindow.js"/>
 	<script file="gui/campaigns/grand_strategy/windows/DiplomacyWindow.js"/>
 	<script file="gui/campaigns/grand_strategy/windows/TechTreeWindow.js"/>
+	<script file="gui/campaigns/grand_strategy/windows/ArmyWindow.js"/>
+	<script file="gui/campaigns/grand_strategy/windows/BattleWindow.js"/>
 	<script file="gui/campaigns/grand_strategy/CampaignWindows.js"/>
+	<script file="gui/campaigns/grand_strategy/MapAnimator.js"/>
 	<script file="gui/campaigns/grand_strategy/CampaignMenu.js"/>
 
 	<script file="gui/campaigns/grand_strategy/diplomacy/DiplomacyController.js"/>
@@ -49,18 +52,20 @@
 	<script file="gui/campaigns/grand_strategy/z_init.js"/>
 
 	<object z="0" type="image" sprite="stretched:campaigns/grand_strategy/art/background_final.png" size="0 0 100% 100%" name="campaignMenuWindow">
+	<!-- Mapa: visão geral (uma textura de 4096, zoom afastado) e, por cima,
+	     blocos de alta resolução, dos quais só os visíveis aparecem
+	     (CampaignMenu.renderMapTiles; gerados por tools/map/build_campaign_map.py). -->
 	<object
 		name="worldMap"
 		z="1"
 		type="image"
-		sprite="stretched:campaigns/grand_strategy/art/world_map.png"
+		sprite="stretched:campaigns/grand_strategy/map/overview.png"
 	/>
-	<object
-		name="campaignBaseMap"
-		z="2"
-		type="image"
-		sprite="stretched:campaigns/grand_strategy/art/campaign_map.png"
-	/>
+	<object name="campaignBaseMap" z="2" ghost="true">
+		<repeat count="64">
+			<object name="mapTile[n]" type="image" ghost="true" hidden="true"/>
+		</repeat>
+	</object>
 		<!-- Computing Turn -->
 		<object name="computingTurn" hidden="true"
 			z="500" type="image" size="0 0 100% 100%" sprite="panelShader">
@@ -116,30 +121,39 @@
 				</object>
 			</object>
 
+			<!-- ============ Estação do ano (MapAnimator.renderSeason) ============ -->
+			<object name="seasonPanel" type="image" sprite="panelShader" size="100%-190 52 100%-10 80">
+				<object name="seasonText" type="text" style="GSBarText" size="0 0 100% 100%"/>
+			</object>
+
 			<!-- ============ General selecionado ============ -->
-			<object name="heroDetails" size="10 54 310 244" type="image" sprite="panelShader">
+			<object name="heroDetails" size="10 54 310 284" type="image" sprite="panelShader">
 				<object name="heroPortrait" type="image" size="10 12 74 76" ghost="true"/>
 				<object name="heroTitle" type="text" style="GSTitle" text_align="left" size="84 8 100%-8 30"/>
 				<object name="heroDetailsText" type="text" style="GSText" size="80 30 100%-6 110"/>
 				<object type="image" sprite="gsBarBg" size="10 82 74 90" ghost="true">
 					<object name="heroMovesBar" type="image" sprite="gsBarFillGold" size="0 0 0% 100%" ghost="true"/>
 				</object>
+				<object name="heroArmyText" type="text" style="GSText" size="10 108 100%-10 136"/>
 
-				<object name="strengthenGarrison" type="button" style="GSButton" size="10 100%-74 50%-3 100%-44" enabled="false">
+				<object name="heroArmyButton" type="button" style="GSButton" size="10 100%-112 100%-10 100%-82">
+					<translatableAttribute id="caption">Army and Recruitment</translatableAttribute>
+				</object>
+				<object name="strengthenGarrison" type="button" style="GSButton" size="10 100%-76 50%-3 100%-46" enabled="false">
 					<translatableAttribute id="caption">+ Garrison</translatableAttribute>
 					<translatableAttribute id="tooltip">Strengthen Garrison</translatableAttribute>
 				</object>
-				<object name="weakenGarrison" type="button" style="GSButton" size="50%+3 100%-74 100%-10 100%-44" enabled="false">
+				<object name="weakenGarrison" type="button" style="GSButton" size="50%+3 100%-76 100%-10 100%-46" enabled="false">
 					<translatableAttribute id="caption">- Garrison</translatableAttribute>
 					<translatableAttribute id="tooltip">Weaken Garrison</translatableAttribute>
 				</object>
-				<object name="doAttack" type="button" style="GSButtonGold" size="10 100%-38 100%-10 100%-8" enabled="false">
+				<object name="doAttack" type="button" style="GSButtonGold" size="10 100%-40 100%-10 100%-8" enabled="false">
 					<translatableAttribute id="caption">Attack Province</translatableAttribute>
 				</object>
 			</object>
 
 			<!-- ============ Província ============ -->
-			<object name="provinceDetails" size="10 252 310 582" type="image" sprite="campaignPanelTranslucent">
+			<object name="provinceDetails" size="10 292 310 662" type="image" sprite="campaignPanelTranslucent">
 				<object type="text" style="GSTitle" size="10 6 100%-36 32">
 					<translatableAttribute id="caption">Province Details</translatableAttribute>
 				</object>
@@ -156,12 +170,10 @@
 				<object name="provinceConstructionButton" type="button" style="GSButton" size="50%+3 100%-104 100%-10 100%-74" hidden="true">
 					<translatableAttribute id="caption">Construction</translatableAttribute>
 				</object>
-				<object name="provinceBuildPanel" hidden="true" size="8 36 100%-8 100%-108" type="image" sprite="gsWindow">
-					<object name="provinceBuildOption[0]" type="button" style="GSButton" size="6 6 100%-6 34" hidden="true"/>
-					<object name="provinceBuildOption[1]" type="button" style="GSButton" size="6 38 100%-6 66" hidden="true"/>
-					<object name="provinceBuildOption[2]" type="button" style="GSButton" size="6 70 100%-6 98" hidden="true"/>
-					<object name="provinceBuildOption[3]" type="button" style="GSButton" size="6 102 100%-6 130" hidden="true"/>
-					<object name="provinceBuildOption[4]" type="button" style="GSButton" size="6 134 100%-6 162" hidden="true"/>
+				<object name="provinceBuildPanel" hidden="true" z="500" size="100%+6 0 100%+336 370" type="image" sprite="gsWindow">
+					<repeat count="16">
+						<object name="provinceBuildOption[n]" type="button" style="GSButton" size="6 0 100%-6 24" hidden="true"/>
+					</repeat>
 				</object>
 
 				<object name="provinceConstructionPanel" hidden="true" size="50%-175 120 50%+175 420" z="1000" type="image" sprite="gsWindow">
@@ -178,7 +190,7 @@
 			</object>
 
 			<!-- ============ Tribo ============ -->
-			<object name="tribeDetails" size="10 252 310 582" hidden="true" type="image" sprite="panelShader">
+			<object name="tribeDetails" size="10 292 310 662" hidden="true" type="image" sprite="panelShader">
 				<object style="GSTitle" type="text" size="10 6 100%-76 32">
 					<translatableAttribute id="caption">Tribe Details</translatableAttribute>
 				</object>
@@ -212,6 +224,7 @@
 					<object name="contextPanelButton[3]" type="button" style="GSButton"/>
 					<object name="contextPanelButton[4]" type="button" style="GSButton"/>
 					<object name="contextPanelButton[5]" type="button" style="GSButton"/>
+					<object name="contextPanelButton[6]" type="button" style="GSButton"/>
 				</object>
 			</object>
 
@@ -224,6 +237,112 @@
 				<object size="20 100%-48 100%-20 100%-14">
 					<object name="eventPanelButton[0]" type="button" style="GSButtonGold" size="0 0 50% 100%"/>
 					<object name="eventPanelButton[1]" type="button" style="GSButton" size="50% 0 100% 100%"/>
+				</object>
+			</object>
+
+			<!-- ============ Exército (Total Warfield) ============ -->
+			<!-- Ícones dos batalhões do general e das unidades recrutáveis na
+			     província (windows/ArmyWindow.js posiciona as grades). -->
+			<object name="armyWindow" hidden="true" z="320" type="image" sprite="color:0 0 0 150" size="0 0 100% 100%">
+				<object type="image" sprite="gsWindow" size="50%-460 50%-300 50%+460 50%+300">
+					<object name="armyTitle" type="text" style="GSTitle" font="sans-bold-stroke-20" size="20 8 100%-60 42"/>
+					<object name="armyClose" type="button" hotkey="cancel" size="100%-44 12 100%-14 42" sprite="stretched:session/icons/cancel.png">
+						<translatableAttribute id="tooltip">Close</translatableAttribute>
+					</object>
+					<object name="armySummary" type="text" style="GSText" size="20 44 100%-20 70"/>
+
+					<object type="text" style="GSTitle" size="20 74 50%-10 98">
+						<translatableAttribute id="caption">Battalions</translatableAttribute>
+					</object>
+					<object name="armyBattalionGrid" size="20 102 50%-10 100%-176">
+						<repeat count="12">
+						<object name="armyBattalionSlot[n]" type="button" hidden="true" size="0 0 76 92" sprite="ModernDarkBox" sprite_over="ModernDarkBoxWhite">
+							<object name="armyBattalionIcon[n]" type="image" ghost="true" size="4 4 72 72"/>
+							<object name="armyBattalionSelected[n]" type="image" ghost="true" hidden="true" sprite="ModernDarkBoxGoldBorder" size="0 0 100% 100%"/>
+							<object name="armyBattalionStars[n]" type="text" ghost="true" font="sans-bold-stroke-14" textcolor="255 215 90" text_align="right" text_valign="top" size="4 2 72 20"/>
+							<object type="image" sprite="gsBarBg" ghost="true" size="4 74 72 79">
+								<object name="armyBattalionBar[n]" type="image" sprite="gsBarFill" ghost="true" size="0 0 100% 100%"/>
+							</object>
+							<object name="armyBattalionText[n]" type="text" ghost="true" font="sans-bold-stroke-12" textcolor="235 235 235" text_align="center" text_valign="center" size="0 78 100% 92"/>
+						</object>
+						</repeat>
+					</object>
+
+					<object name="armyRecruitTitle" type="text" style="GSTitle" size="50%+10 74 100%-20 98"/>
+					<object name="armyRecruitGrid" size="50%+10 102 100%-20 100%-176">
+						<repeat count="20">
+						<object name="armyRecruitSlot[n]" type="button" hidden="true" size="0 0 76 92" sprite="ModernDarkBox" sprite_over="ModernDarkBoxWhite">
+							<object name="armyRecruitIcon[n]" type="image" ghost="true" size="4 4 72 72"/>
+							<object name="armyRecruitSelected[n]" type="image" ghost="true" hidden="true" sprite="ModernDarkBoxGoldBorder" size="0 0 100% 100%"/>
+							<object name="armyRecruitLock[n]" type="image" ghost="true" hidden="true" sprite="color:0 0 0 140" size="4 4 72 72"/>
+							<object name="armyRecruitCost[n]" type="text" ghost="true" font="sans-bold-stroke-12" textcolor="255 220 120" text_align="center" text_valign="center" size="0 74 100% 92"/>
+						</object>
+						</repeat>
+					</object>
+
+					<object name="armyDetail" type="text" style="GSText" size="20 100%-170 100%-20 100%-88"/>
+					<!-- Melhoramentos do batalhão selecionado (acompanhantes). -->
+					<repeat count="4">
+						<object name="armyUpgrade[n]" type="button" style="GSButton" hidden="true" size="0 100%-84 200 100%-54"/>
+					</repeat>
+
+					<object name="armyDisband" type="button" style="GSButton" size="20 100%-46 220 100%-12">
+						<translatableAttribute id="caption">Disband battalion</translatableAttribute>
+					</object>
+					<object name="armyRecruit" type="button" style="GSButtonGold" size="100%-260 100%-46 100%-20 100%-12">
+						<translatableAttribute id="caption">Recruit battalion</translatableAttribute>
+					</object>
+				</object>
+			</object>
+
+			<!-- ============ Batalha (Total Warfield) ============ -->
+			<object name="battleWindow" hidden="true" z="420" type="image" sprite="color:0 0 0 150" size="0 0 100% 100%">
+				<object type="image" sprite="gsWindow" size="50%-400 50%-230 50%+400 50%+230">
+					<object name="battleTitle" type="text" style="GSTitle" font="sans-bold-stroke-20" size="20 8 100%-20 42"/>
+					<object name="battleAttacker" type="text" style="GSText" size="20 50 50%-10 100%-120"/>
+					<object name="battleDefender" type="text" style="GSText" size="50%+10 50 100%-20 100%-120"/>
+					<object name="battleOdds" type="text" style="GSTitle" size="20 100%-116 100%-20 100%-60"/>
+					<object name="battleRetreat" type="button" style="GSButton" size="20 100%-48 190 100%-12">
+						<translatableAttribute id="caption">Withdraw</translatableAttribute>
+					</object>
+					<object name="battleSiege" type="button" style="GSButton" size="200 100%-48 390 100%-12" hidden="true">
+						<translatableAttribute id="caption">Lay siege</translatableAttribute>
+					</object>
+					<object name="battleAuto" type="button" style="GSButton" size="400 100%-48 590 100%-12">
+						<translatableAttribute id="caption">Auto-resolve</translatableAttribute>
+					</object>
+					<object name="battleFight" type="button" style="GSButtonGold" size="100%-200 100%-48 100%-20 100%-12">
+						<translatableAttribute id="caption">Command the battle</translatableAttribute>
+					</object>
+				</object>
+			</object>
+
+			<!-- ============ Relatório de batalha ============ -->
+			<object name="battleReport" hidden="true" z="430" type="image" sprite="gsWindow" size="50%-300 50%-130 50%+300 50%+130">
+				<object name="battleReportTitle" type="text" style="GSTitle" font="sans-bold-stroke-20" size="20 8 100%-20 42"/>
+				<object name="battleReportText" type="text" style="GSText" size="20 48 100%-20 100%-56"/>
+				<object name="battleReportClose" type="button" style="GSButtonGold" size="50%-100 100%-46 50%+100 100%-12">
+					<translatableAttribute id="caption">Continue</translatableAttribute>
+				</object>
+			</object>
+
+			<!-- ============ Destino da província conquistada ============ -->
+			<object name="captureWindow" hidden="true" z="440" type="image" sprite="color:0 0 0 150" size="0 0 100% 100%">
+				<object type="image" sprite="gsWindow" size="50%-380 50%-200 50%+380 50%+200">
+					<object name="captureTitle" type="text" style="GSTitle" font="sans-bold-stroke-20" size="20 8 100%-20 42"/>
+					<object name="captureText" type="text" style="GSText" size="20 48 100%-20 120"/>
+					<object name="captureOccupyText" type="text" style="GSText" size="20 124 33%-6 100%-60"/>
+					<object name="captureSackText" type="text" style="GSText" size="33%+6 124 66%-6 100%-60"/>
+					<object name="captureVassalText" type="text" style="GSText" size="66%+6 124 100%-20 100%-60"/>
+					<object name="captureOccupy" type="button" style="GSButtonGold" size="20 100%-48 33%-6 100%-12">
+						<translatableAttribute id="caption">Occupy</translatableAttribute>
+					</object>
+					<object name="captureSack" type="button" style="GSButton" size="33%+6 100%-48 66%-6 100%-12">
+						<translatableAttribute id="caption">Sack</translatableAttribute>
+					</object>
+					<object name="captureVassal" type="button" style="GSButton" size="66%+6 100%-48 100%-20 100%-12">
+						<translatableAttribute id="caption">Make vassal</translatableAttribute>
+					</object>
 				</object>
 			</object>
 
@@ -661,16 +780,71 @@
 				</object>
 			</repeat>
 
-			<!-- Hero -->
-			<!-- Generals -->
+			<!-- ============ Mapa animado (MapAnimator.js) ============ -->
+			<!-- Cor da estação sobre o mapa. -->
+			<object name="seasonTint[0]" type="image" ghost="true" hidden="true" z="12"/>
+			<repeat count="12">
+				<object name="siegeFire[n]" type="image" ghost="true" hidden="true" z="21"/>
+			</repeat>
+			<repeat count="48">
+				<object name="siegeTent[n]" type="image" hidden="true" z="22"/>
+			</repeat>
+			<repeat count="16">
+				<object name="caravan[n]" type="image" ghost="true" hidden="true" z="22"/>
+			</repeat>
+			<repeat count="24">
+				<object name="mapRing[n]" type="image" ghost="true" hidden="true" z="23"/>
+			</repeat>
+			<repeat count="240">
+				<object name="routeDotShadow[n]" type="image" ghost="true" hidden="true" z="24"/>
+			</repeat>
+			<repeat count="240">
+				<object name="routeDot[n]" type="image" ghost="true" hidden="true" z="25"/>
+			</repeat>
+			<repeat count="16">
+				<object name="routeTurn[n]" type="image" ghost="true" hidden="true" z="25"/>
+			</repeat>
+			<repeat count="16">
+				<object name="routeTurnText[n]" type="text" ghost="true" hidden="true" z="26" font="sans-bold-stroke-12" textcolor="255 255 255" text_align="center" text_valign="center"/>
+			</repeat>
+			<object name="routeEnd[0]" type="image" ghost="true" hidden="true" z="25"/>
+			<object name="routeEndText[0]" type="text" ghost="true" hidden="true" z="26" font="sans-bold-stroke-14" text_align="center" text_valign="center"/>
+			<repeat count="120">
+				<object name="armyFlagPole[n]" type="image" ghost="true" hidden="true" z="26"/>
+			</repeat>
+			<repeat count="120">
+				<object name="armyFlagCloth[n]" type="image" ghost="true" hidden="true" z="26"/>
+			</repeat>
+			<repeat count="120">
+				<object name="armyFlagShade[n]" type="image" ghost="true" hidden="true" z="26"/>
+			</repeat>
+			<repeat count="500">
+				<object name="armyFigure[n]" type="image" ghost="true" hidden="true" z="27"/>
+			</repeat>
+			<repeat count="10">
+				<object name="mapCloud[n]" type="image" ghost="true" hidden="true" z="28"/>
+			</repeat>
+			<repeat count="30">
+				<object name="battleMarker[n]" type="image" hidden="true" z="32"/>
+			</repeat>
+			<repeat count="140">
+				<object name="mapSmoke[n]" type="image" ghost="true" hidden="true" z="33"/>
+			</repeat>
+
+			<!-- Generais: estandarte da facção (CampaignMenu.renderGenerals).
+			     Sombra, halo do selecionado, retrato, anel na cor da tribo,
+			     selo com os soldados e estrelas de experiência. -->
 			<repeat count="300">
-				<object
-					type="button"
-					z="30"
-					name="heroButton[n]"
-					hidden="true"
-	                sprite=""
-					size="0 0 45 45"/>
+				<object name="heroToken[n]" hidden="true" z="30" size="0 0 45 45">
+					<object name="heroShadow[n]" type="image" ghost="true" size="0 85% 100% 115%"/>
+					<object name="heroGlow[n]" type="image" ghost="true" hidden="true" size="-18% -18% 118% 118%"/>
+					<object name="heroButton[n]" type="button" sprite="" size="10% 10% 90% 90%"/>
+					<object name="heroRing[n]" type="image" ghost="true" size="0 0 100% 100%"/>
+					<object name="heroBadge[n]" type="image" ghost="true" size="8% 82% 92% 112%">
+						<object name="heroBadgeText[n]" type="text" ghost="true" font="sans-bold-stroke-12" textcolor="255 255 255" text_align="center" text_valign="center" size="0 0 100% 100%"/>
+					</object>
+					<object name="heroStars[n]" type="text" ghost="true" font="sans-bold-stroke-14" textcolor="255 215 90" text_align="center" text_valign="bottom" size="0 -18 100% 4"/>
+				</object>
 			</repeat>
 		</object>
 	</object>

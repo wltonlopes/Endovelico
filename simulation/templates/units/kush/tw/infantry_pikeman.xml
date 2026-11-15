@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/kush/infantry_pikeman_b. -->
+<Entity parent="tw_brace|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/kush/infantry_pikeman_b">
+  <BattalionLeader>
+    <Size>24</Size>
+    <Columns>8</Columns>
+    <Spacing>2.2</Spacing>
+    <MemberTemplate>units/kush/tw/m_infantry_pikeman</MemberTemplate>
+    <Category>infantry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/kush/tw/infantry_pikeman</SelectionGroupName>
+  </Identity>
+</Entity>

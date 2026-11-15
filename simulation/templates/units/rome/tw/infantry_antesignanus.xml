@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/rome/infantry_antesignanus. -->
+<Entity parent="tw_dagger|tw_stealth|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/rome/infantry_antesignanus">
+  <BattalionLeader>
+    <Size>20</Size>
+    <Columns>10</Columns>
+    <Spacing>2.6</Spacing>
+    <MemberTemplate>units/rome/tw/m_infantry_antesignanus</MemberTemplate>
+    <Category>infantry_ranged</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/rome/tw/infantry_antesignanus</SelectionGroupName>
+  </Identity>
+</Entity>

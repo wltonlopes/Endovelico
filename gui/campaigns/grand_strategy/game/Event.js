@@ -46,6 +46,10 @@ class GSEvent
 			return new GSTradeProposal();
 		else if (data.type === "nonAggressionProposal")
 			return new GSNonAggressionProposal();
+		else if (data.type === "accessProposal")
+			return new GSAccessProposal();
+		else if (data.type === "treatyChange")
+			return new GSTreatyChange();
 		else if (data.type === "techResearched")
 			return new GSTechResearched();
 		error("Unknown event type " + data.type);

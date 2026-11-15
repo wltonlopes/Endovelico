@@ -62,6 +62,16 @@ class Province
 		this.buildQueue = [];
 		this.buildProgress = 0;
 		this.buildingOwner = undefined;
+		// População (Total Warfield): cresce a cada turno, define o nível do
+		// assentamento e é gasta ao recrutar batalhões.
+		this.population = this.getStartingPopulation();
+	}
+
+	getStartingPopulation()
+	{
+		if (this.data.provinceType === "sea")
+			return 0;
+		return { "low": 900, "medium": 1800, "high": 3000 }[this.data.population] || 1200;
 	}
 
 	Serialize()
@@ -74,7 +84,9 @@ class Province
 			"buildings": this.buildings,
 			"buildQueue": this.buildQueue,
 			"buildProgress": this.buildProgress,
-			"buildingOwner": this.buildingOwner
+			"buildingOwner": this.buildingOwner,
+			"population": Math.round(this.population),
+			"siege": this.siege
 		};
 	}
 
@@ -88,6 +100,8 @@ class Province
 		this.buildQueue = data.buildQueue || [];
 		this.buildProgress = data.buildProgress || 0;
 		this.buildingOwner = data.buildingOwner;
+		this.population = data.population !== undefined ? data.population : this.getStartingPopulation();
+		this.siege = data.siege;
 	}
 
 	// UI
@@ -133,15 +147,18 @@ class Province
 			);
 	}
 
+	/**
+	 * Civs nativas, já trocadas por civs carregadas quando preciso
+	 * (campaigns/grand_strategy/data/civ_fallback.json).
+	 */
 	getNativeCivs()
 	{
-		if (!this.data.civs)
-			return ["random"];
-
-		if (typeof this.data.civs === "string")
-			return [this.data.civs];
-
-		return this.data.civs;
+		let civs = this.data.civs || [];
+		if (typeof civs === "string")
+			civs = [civs];
+		if (!civs.length)
+			civs = ["athen"];
+		return [...new Set(civs.map(civ => twResolveCiv(civ)))];
 	}
 
 	getInfoLevel(tribe)
@@ -183,7 +200,8 @@ class Province
 
 		// Bônus e custo de guarnição vêm das tecnologias do dono.
 		const techs = g_GameData.tribes[this.ownerTribe]?.techs;
-		let balance = 100;
+		// Impostos crescem com a população (1 de ouro por 60 habitantes).
+		let balance = 40 + this.population / 60;
 		if (techs)
 		{
 			balance += techs.get("provinceIncome");
@@ -193,26 +211,71 @@ class Province
 		}
 		else
 			balance -= this.garrison * 50;
-		balance = Math.round(balance);
-		for (const buildingId of this.buildings)
-		{
-			const data = g_GameData.getProvinceBuildingData(buildingId);
-			if (data)
-				balance += data.damageBonus;
-		}
-		return balance;
+		balance += this.getBuildingBonus("income");
+		return Math.round(balance);
 	}
 
-	getDamageBonus()
+	/** Soma de um efeito (income, growth, defense...) das construções. */
+	getBuildingBonus(effect)
 	{
 		let bonus = 0;
 		for (const buildingId of this.buildings)
-		{
-			const data = g_GameData.getProvinceBuildingData(buildingId);
-			if (data)
-				bonus += data.damageBonus;
-		}
+			bonus += +(g_GameData.getProvinceBuildingData(buildingId)?.[effect] || 0);
 		return bonus;
+	}
+
+	/** Antigo "bônus de dano": hoje é a defesa (%) da província. */
+	getDamageBonus()
+	{
+		return this.getBuildingBonus("defense");
+	}
+
+	/** Muralha do assentamento na batalha: "stone", "palisade" ou undefined. */
+	getWallType()
+	{
+		const types = this.buildings.map(id => g_GameData.getProvinceBuildingData(id)?.walls).filter(Boolean);
+		return types.indexOf("stone") != -1 ? "stone" : types[0];
+	}
+
+	hasRecruitBuilding()
+	{
+		return this.buildings.some(id => !!g_GameData.getProvinceBuildingData(id)?.recruits);
+	}
+
+	// ------------------------------------------------ assentamento
+
+	/** village, town ou city, pela população (como as fases do 0 A.D.). */
+	getSettlementLevel()
+	{
+		if (this.population >= TW_LEVEL_POPULATION.city)
+			return "city";
+		if (this.population >= TW_LEVEL_POPULATION.town)
+			return "town";
+		return "village";
+	}
+
+	/**
+	 * Crescimento por turno (%): base pela felicidade, mais fazendas e
+	 * tecnologias, menos guerra. Teto de 10.000 habitantes.
+	 */
+	getGrowthRate()
+	{
+		if (this.isSea() || !this.ownerTribe)
+			return 0;
+		let rate = 1 + (this.getHappiness() - 50) / 40 + this.getBuildingBonus("growth");
+		if (g_GameData.tribes[this.ownerTribe]?.getCapital?.() == this.code)
+			rate += 1;
+		rate += g_GameData.tribes[this.ownerTribe]?.techs?.get?.("growth") || 0;
+		if (this.inRevolt)
+			rate -= 2;
+		return Math.max(-3, Math.min(6, rate));
+	}
+
+	processGrowth()
+	{
+		const before = this.getSettlementLevel();
+		this.population = Math.max(200, Math.min(10000, this.population * (1 + this.getGrowthRate() / 100) + (this.ownerTribe ? 20 : 0)));
+		return this.getSettlementLevel() != before ? this.getSettlementLevel() : undefined;
 	}
 
 	getBuildingNames()
@@ -235,7 +298,22 @@ class Province
 		return `${definition.name} (${this.buildProgress}/${this.getBuildingTime(definition.id)})`;
 	}
 
+	/** Construções ainda não feitas, com o nível pedido (portos só na costa). */
 	getBuildableStructures()
+	{
+		return g_GameData.getProvinceBuildingDefinitions().filter(def =>
+			this.buildings.indexOf(def.id) == -1 && this.buildQueue.indexOf(def.id) == -1 &&
+			(!def.coastal || this.isCoastal()));
+	}
+
+	canBuild(buildingId)
+	{
+		const def = g_GameData.getProvinceBuildingData(buildingId);
+		return !!def && TW_LEVELS.indexOf(def.level || "village") <= TW_LEVELS.indexOf(this.getSettlementLevel()) &&
+			(!def.requires || this.buildings.indexOf(def.requires) != -1);
+	}
+
+	getAllStructures()
 	{
 		return g_GameData.getProvinceBuildingDefinitions();
 	}
@@ -262,7 +340,7 @@ class Province
 
 	startBuilding(buildingId)
 	{
-		if (!g_GameData.getProvinceBuildingData(buildingId))
+		if (!g_GameData.getProvinceBuildingData(buildingId) || !this.canBuild(buildingId))
 			return false;
 		if (this.buildQueue.length >= 1)
 			return false;

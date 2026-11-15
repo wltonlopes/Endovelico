@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/anish/infantry_axeman_b. -->
+<Entity parent="tw_charge_infantry|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/anish/infantry_axeman_b">
+  <BattalionLeader>
+    <Size>24</Size>
+    <Columns>8</Columns>
+    <Spacing>2.2</Spacing>
+    <MemberTemplate>units/anish/tw/m_infantry_axeman</MemberTemplate>
+    <Category>infantry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/anish/tw/infantry_axeman</SelectionGroupName>
+  </Identity>
+</Entity>

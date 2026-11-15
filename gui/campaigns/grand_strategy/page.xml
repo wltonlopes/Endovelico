@@ -9,6 +9,8 @@
 	<include>common/styles.xml</include>
 
 	<include>campaigns/grand_strategy/sprites.xml</include>
+	<!-- Mini-exércitos animados (tools/art/gen_army_sprites.py). -->
+	<include>campaigns/grand_strategy/army_sprites.xml</include>
 	<include>campaigns/grand_strategy/styles.xml</include>
 
 	<include>campaigns/common_scripts.xml</include>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/ural/cavalry_swordsman_b. -->
+<Entity parent="tw_charge_cavalry|tw_tough_cavalry|tw_battalion_leader_cavalry|tw_battalion_leader|units/ural/cavalry_swordsman_b">
+  <BattalionLeader>
+    <Size>12</Size>
+    <Columns>6</Columns>
+    <Spacing>3.6</Spacing>
+    <MemberTemplate>units/ural/tw/m_cavalry_swordsman</MemberTemplate>
+    <Category>cavalry_melee</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">wedge</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/ural/tw/cavalry_swordsman</SelectionGroupName>
+  </Identity>
+</Entity>

@@ -70,6 +70,8 @@ class CampaignMenu extends AutoWatcher
 		this.closePageCallback =
 			closePageCallback;
 
+		// Marcha animada, rotas, batalhas, cercos, estações (MapAnimator.js).
+		this.animator = new TWMapAnimator(this);
 	}
 
 	// initialise()
@@ -86,27 +88,36 @@ class CampaignMenu extends AutoWatcher
 
 	initialise()
 	{
-		warn("initialise()");
 
 		if (this.run.data.gameData)
 			GameData.loadRun();
 
-		warn("GameData carregado");
+
 
 		this.centerScrollOnHero();
 
-		warn("Hero centralizado");
+
 
 		this.infoTicker.initialise();
 
-		warn("Ticker");
+
 
 		this.render();
 
-		warn("Render");
+
+
+		// Relatório da batalha de campo que acabou de ser jogada (e, depois
+		// dele, o destino da província tomada).
+		if (g_GameData.lastBattleReport)
+		{
+			this.windows.Battle.showReport(g_GameData.lastBattleReport);
+			g_GameData.lastBattleReport = undefined;
+		}
+		else
+			this.windows.Battle.showCapture();
 
 		// Ao voltar de uma batalha a conquista pode ter completado uma condição.
-		if (this.run.data.gameData)
+		if (this.run.data.gameData && !g_GameData.checkGameOver())
 			g_GameData.checkVictory();
 	}
 
@@ -150,7 +161,16 @@ class CampaignMenu extends AutoWatcher
 	onTurnComputationEnd()
 	{
 		Engine.GetGUIObjectByName("computingTurn").hidden = true;
+		// Relatórios do turno (sítios, rendições).
+		if (g_GameData.lastBattleReport)
+		{
+			this.windows.Battle.showReport(g_GameData.lastBattleReport);
+			g_GameData.lastBattleReport = undefined;
+		}
 		this.infoTicker.onTurnEnd();
+		// Generais com ordem de marcha seguem andando (game/Routes.js).
+		for (const message of twAdvancePlayerRoutes())
+			this.infoTicker.panelData.addItem(sprintf("• Turn %s: ", g_GameData.turn) + message);
 		this.windows.TechTree.refresh();
 
 		if (!g_GameData.checkGameOver())
@@ -285,21 +305,11 @@ class CampaignMenu extends AutoWatcher
 		const SCROLL_SPEED =
 			delta * 0.8 / this.zoom;
 
-    this.worldMap.size =
-        this.toGUISize(
-            0,
-            0,
-            4096,
-            2048
-        );
+		this.animator.beginFrame();
 
-    this.baseMap.size =
-        this.toGUISize(
-            0,
-            0,
-            4096,
-            2048
-        );
+		this.worldMap.size = this.toGUISize(0, 0, this.MAP_WIDTH, this.MAP_HEIGHT);
+		this.baseMap.size = "0 0 100% 100%";
+		this.renderMapTiles();
 
 		this.renderTopBar();
 
@@ -344,131 +354,8 @@ class CampaignMenu extends AutoWatcher
 				g_GameData.playerTribe
 			].generals;
 
-// Esconde todos os ícones primeiro
-		for (let i = 0; i < 100; ++i)
-		{
-			let icon =
-				Engine.TryGetGUIObjectByName(
-					`heroButton[${i}]`
-				);
+		this.renderGenerals();
 
-			if (icon)
-				icon.hidden = true;
-		}
-
-		let heroIndex = 0;
-
-		for (const tribeCode in g_GameData.tribes)
-		{
-			const tribe =
-				g_GameData.tribes[tribeCode];
-
-			for (const hero of tribe.generals)
-			{
-				// Fog of war
-				// if (
-				// 	tribeCode !=
-				// 		g_GameData.playerTribe &&
-				// 	!visible.has(hero.location)
-				// )
-				// 	continue;
-
-				let icon =
-					Engine.TryGetGUIObjectByName(
-						`heroButton[${heroIndex}]`
-					);
-
-				if (!icon)
-					continue;
-
-				heroIndex++;
-
-			let province =
-				g_GameData.provinces[
-					hero.location
-				];
-
-			if (!province)
-			{
-				warn(
-					"General without province: " +
-					hero.id
-				);
-				continue;
-			}
-
-			let pos =
-				province.getHeroPos();
-
-				icon.hidden = false;
-
-				icon.size =
-					this.toGUISize(
-						...this.centeredSizeAt(
-							this.iconSize(16),
-							pos
-						)
-					);
-
-				icon.onPress = () =>
-				{
-					if (
-						tribeCode ==
-						g_GameData.playerTribe
-					)
-					{
-						g_GameData.selectHero(hero.id);
-
-						this.centerScrollOnHero();
-						this.render();
-					}
-					else
-					{
-						this.displayEnemyGeneral(
-							hero
-						);
-					}
-				};
-
-				// Retrato redondo (campaigns/grand_strategy/heroes/), também
-				// para campanhas salvas com o retrato quadrado.
-				const portrait = getRoundHeroPortrait(hero.portrait);
-
-				if (
-					tribeCode ==
-					g_GameData.playerTribe
-				)
-				{
-					icon.sprite =
-						hero ==
-						g_GameData.playerHero ?
-						"stretched:" + portrait :
-						"grayscale:stretched:" + portrait;
-				}
-				else
-				{
-					icon.sprite =
-						"stretched:" + portrait;
-				}
-
-				// if (
-				// 	tribeCode ==
-				// 	g_GameData.playerTribe
-				// )
-				// {
-				// 	icon.sprite =
-				// 		hero ==
-				// 		g_GameData.playerHero ?
-				// 		"stretched:session/portraits/units/gaul_hero_viridomarus.png" :
-				// 		"grayscale:stretched:session/portraits/units/gaul_hero_viridomarus.png";
-				// }
-				// else
-				// {
-				// 	icon.sprite =
-				// 		"stretched:session/portraits/units/gaul_hero_viridomarus.png";
-				// }
-			}
-		}
 		// Update provinces
 		let i = 0;
 		for (let code in g_GameData.provinces)
@@ -482,6 +369,8 @@ class CampaignMenu extends AutoWatcher
 				icon.parent.hidden = false;
 				icon.onPress = () => { this.displayTribeDetails(-1); this.selectedProvince = province.code; };
 				icon.onMouseRightPress = () => { this.displayContextualPanel(province.code); };
+				icon.onMouseEnter = () => this.animator.setHover(province.code);
+				icon.onMouseLeave = () => this.animator.clearHover(province.code);
 				province.icon = icon;
 				province.icon.z = province.data.provinceType == "sea" ? 1 : 10;
 				province.icon.mouse_event_mask ="texture:campaigns/grand_strategy/provinces/" + province.code + ".png";
@@ -542,16 +431,20 @@ class CampaignMenu extends AutoWatcher
 			}
 			if (province.code === this.selectedProvince)
 				color[3] = 100;
+			color = this.animator.provinceColor(province, color, inLos);
 			let colorString = color.join(" ");
 			let sprite =`color:${colorString}:textureAsMask:campaigns/grand_strategy/provinces/${province.code}.png`;
 			province.icon.sprite = sprite;
 		}
 
 
+		this.animator.endFrame(visible);
+
 		// Render event
 		const didRenderEvent = this.eventPanel.renderEvents(g_GameData.turnEvents);
 
-		Engine.GetGUIObjectByName("finishTurn").enabled = !didRenderEvent && g_GameData?.canAdvanceTurn();
+		// Sem fim de turno enquanto o destino de uma conquista não for decidido.
+		Engine.GetGUIObjectByName("finishTurn").enabled = !didRenderEvent && g_GameData?.canAdvanceTurn() && !g_GameData.pendingCapture;
 
 	const BORDER = 40;
 
@@ -573,6 +466,156 @@ class CampaignMenu extends AutoWatcher
 
 		this.clampCamera();
 	}
+	}
+
+	/**
+	 * Generais no mapa como estandartes da facção: retrato redondo num
+	 * anel da cor da tribo, sombra, halo dourado no general selecionado,
+	 * selo com os soldados e estrelas pela experiência média do exército.
+	 * O estandarte cresce com o exército. Exércitos inimigos longe dos seus
+	 * generais mostram só uma estimativa. Vários generais na mesma
+	 * província ficam lado a lado.
+	 */
+	renderGenerals()
+	{
+		const playerTribe = g_GameData.playerTribe;
+		const near = new Set();
+		for (const hero of g_GameData.tribes[playerTribe]?.generals || [])
+		{
+			near.add(hero.location);
+			for (const link of g_GameData.provinces[hero.location]?.getLinks() || [])
+				near.add(link);
+		}
+
+		const byProvince = {};
+		for (const tribeCode in g_GameData.tribes)
+			for (const hero of g_GameData.tribes[tribeCode].generals)
+				(byProvince[hero.location] = byProvince[hero.location] || []).push(hero);
+
+		const dir = "campaigns/grand_strategy/general/";
+		let index = 0;
+		for (const code in byProvince)
+		{
+			const province = g_GameData.provinces[code];
+			if (!province)
+				continue;
+			const heroes = byProvince[code];
+			const center = province.getHeroPos();
+			heroes.forEach((hero, k) => {
+				const token = Engine.TryGetGUIObjectByName(`heroToken[${index}]`);
+				if (!token)
+					return;
+				const id = index++;
+				const tribe = g_GameData.tribes[hero.tribe];
+				const isPlayer = hero.tribe == playerTribe;
+				const selected = hero == g_GameData.playerHero;
+				const soldiers = twArmySoldiers(hero.battalions);
+				const visible = isPlayer || near.has(hero.location);
+
+				// Tamanho: de 85% (exército pequeno) a 125% (250+ soldados).
+				const scale = 0.85 + 0.4 * Math.min(1, soldiers / 250) + (selected ? 0.1 : 0);
+				const offset = (k - (heroes.length - 1) / 2) * this.iconSize(17)[0] * 2.6;
+				// Posição animada (marcha) e mini-exército. Com as tropas desenhadas
+				// o retrato sai do mapa (fica só no painel do general): o
+				// estandarte vira uma área de clique invisível sobre elas. Sem
+				// sprites para a civ, volta o estandarte com retrato.
+				const placement = this.animator.placeHero(hero, [center[0] + offset, center[1]]);
+				const half = this.iconSize(17 * scale * (0.3 + 0.7 * placement.grow));
+				const base = this.iconSize(17)[0];
+				const army = this.animator.drawArmy(hero, placement, base, visible, selected);
+				token.size = army ?
+					this.toGUISize(...this.centeredSizeAt([base * 1.5, base * 0.8], [placement.pos[0], placement.pos[1] - base * 0.45])) :
+					this.toGUISize(...this.centeredSizeAt(half, placement.pos));
+				token.hidden = false;
+				for (const part of ["heroShadow", "heroRing", "heroBadge", "heroStars"])
+					Engine.GetGUIObjectByName(`${part}[${id}]`).hidden = army;
+
+				const color = (tribe?.color || "200 200 200").split(/\s+/).slice(0, 3).join(" ");
+				Engine.GetGUIObjectByName(`heroShadow[${id}]`).sprite = "color:0 0 0 160:textureAsMask:" + dir + "shadow.png";
+				Engine.GetGUIObjectByName(`heroRing[${id}]`).sprite = "color:" + color + " 255:textureAsMask:" + dir + "ring.png";
+				const glow = Engine.GetGUIObjectByName(`heroGlow[${id}]`);
+				glow.hidden = !selected || army;
+				glow.sprite = "color:255 215 90 230:textureAsMask:" + dir + "glow.png";
+
+				const portrait = getRoundHeroPortrait(hero.portrait);
+				const button = Engine.GetGUIObjectByName(`heroButton[${id}]`);
+				button.sprite = army ? "" : "stretched:" + portrait;
+				button.onPress = () => {
+					if (isPlayer)
+					{
+						g_GameData.selectHero(hero.id);
+						this.centerScrollOnHero();
+						this.render();
+					}
+					else
+						this.displayEnemyGeneral(hero);
+				};
+
+				const badge = Engine.GetGUIObjectByName(`heroBadge[${id}]`);
+				badge.sprite = "color:20 18 14 220:textureAsMask:" + dir + "badge.png";
+				Engine.GetGUIObjectByName(`heroBadgeText[${id}]`).caption = visible ? String(soldiers) :
+					"~" + Math.max(10, Math.round(soldiers / 50) * 50);
+
+				const levels = hero.battalions.map(b => twBattalionLevel(b));
+				const average = levels.length ? levels.reduce((a, b) => a + b, 0) / levels.length : 0;
+				Engine.GetGUIObjectByName(`heroStars[${id}]`).caption = visible && average >= 0.5 ? "*".repeat(Math.round(average)) : "";
+
+				const sieging = Object.keys(g_GameData.provinces).find(c => g_GameData.provinces[c].siege?.heroId == hero.id);
+				button.tooltip = coloredText((hero.title || "General") + " of " + (tribe?.getName() || hero.tribe), "235 200 120") + "\n" +
+					(visible ? hero.getArmySummary() + (average >= 0.5 ? ", veteran" : "") : "About " + Math.max(10, Math.round(soldiers / 50) * 50) + " soldiers") +
+					(sieging ? "\nBesieging " + g_GameData.provinces[sieging].getName() : "") +
+					(isPlayer ? "\nMoves: " + hero.actionsLeft : "");
+			});
+		}
+		for (; index < 300; ++index)
+		{
+			const token = Engine.TryGetGUIObjectByName(`heroToken[${index}]`);
+			if (!token || token.hidden)
+				break;
+			token.hidden = true;
+		}
+	}
+
+	/**
+	 * Blocos de alta resolução do mapa (campaigns/grand_strategy/data/map_tiles.json):
+	 * a partir de TILE_ZOOM, mostra só os que cortam a tela; o resto fica
+	 * escondido (o motor não desenha nem carrega o que nunca foi visto).
+	 */
+	renderMapTiles()
+	{
+		if (this.mapTiles === undefined)
+			this.mapTiles = Engine.FileExists(this.MAP_TILES_FILE) ? Engine.ReadJSONFile(this.MAP_TILES_FILE) : null;
+		const tiles = this.mapTiles;
+		const useTiles = !!tiles && this.zoom >= this.TILE_ZOOM;
+		const screen = this.window.getComputedSize();
+		const left = this.cameraX;
+		const top = this.cameraZ;
+		const right = this.cameraX + screen.right / this.zoom;
+		const bottom = this.cameraZ + screen.bottom / this.zoom;
+		const count = tiles ? tiles.columns * tiles.rows : 0;
+		for (let i = 0; i < 64; ++i)
+		{
+			const object = Engine.TryGetGUIObjectByName(`mapTile[${i}]`);
+			if (!object)
+				break;
+			if (!useTiles || i >= count)
+			{
+				object.hidden = true;
+				continue;
+			}
+			const column = i % tiles.columns;
+			const row = Math.floor(i / tiles.columns);
+			const x0 = column * tiles.size;
+			const y0 = row * tiles.size;
+			const visible = x0 < right && x0 + tiles.size > left && y0 < bottom && y0 + tiles.size > top;
+			object.hidden = !visible;
+			if (!visible)
+				continue;
+			object.size = this.toGUISize(x0, y0, x0 + tiles.size, y0 + tiles.size);
+			const sprite = "stretched:campaigns/grand_strategy/map/tile_" + column + "_" + row + ".png";
+			if (object.sprite != sprite)
+				object.sprite = sprite;
+		}
 	}
 
 	/** Barra superior: tribo, turno, ouro, pesquisa, território e zoom. */
@@ -655,23 +698,17 @@ class CampaignMenu extends AutoWatcher
 	// }
 displayEnemyGeneral(hero)
 	{
-		const tribe =
-			g_GameData.tribes[
-				hero.tribe
-			];
-
-		const province =
-			g_GameData.provinces[
-				hero.location
-			];
-
-		let text =
-			`General: ${hero.id}\n` +
-			`Tribe: ${tribe?.data?.name || hero.tribe}\n` +
-			`Province: ${province?.name || hero.location}\n` +
-			`Actions Left: ${hero.actionsLeft}`;
-
-		warn(text);
+		const tribe = g_GameData.tribes[hero.tribe];
+		const province = g_GameData.provinces[hero.location];
+		const near = g_GameData.playerHero && (hero.location == g_GameData.playerHero.location ||
+			province.getLinks().indexOf(g_GameData.playerHero.location) != -1);
+		// Só se vê a composição de exércitos vizinhos ao seu general.
+		const army = near ? hero.battalions.map(b => "  " + twBattalionLabel(b)).join("\n") :
+			"  " + hero.battalions.length + " battalions (move closer to see them).";
+		this.windows.Battle.showReport({
+			"title": (hero.title || "General") + " of " + (tribe?.getName() || hero.tribe),
+			"report": "\nIn " + province.getName() + ", " + hero.getArmySummary() + "\n" + army
+		});
 	}
 	showGameOver(title, message)
 	{
@@ -770,8 +807,11 @@ displayEnemyGeneral(hero)
 /** Tamanho do mapa de campanha, em pixels da imagem base. */
 CampaignMenu.prototype.MAP_WIDTH = 4096;
 CampaignMenu.prototype.MAP_HEIGHT = 2048;
-/** Zoom máximo (o mínimo é o que faz o mapa cobrir a tela). */
-CampaignMenu.prototype.MAX_ZOOM = 3.0;
+/** Zoom máximo (o mínimo é o que faz o mapa cobrir a tela). Com os blocos 2x, dá para chegar mais perto. */
+CampaignMenu.prototype.MAX_ZOOM = 4.0;
+/** A partir deste zoom os blocos de alta resolução substituem a visão geral. */
+CampaignMenu.prototype.TILE_ZOOM = 1.1;
+CampaignMenu.prototype.MAP_TILES_FILE = "campaigns/grand_strategy/data/map_tiles.json";
 /** Passo do zoom por clique da roda do mouse e por toque em +/-. */
 CampaignMenu.prototype.WHEEL_ZOOM_STEP = 1.15;
 CampaignMenu.prototype.KEY_ZOOM_STEP = 1.25;

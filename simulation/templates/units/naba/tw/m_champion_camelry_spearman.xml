@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/naba/champion_camelry_spearman. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_member|units/naba/champion_camelry_spearman">
+  <Identity>
+    <SelectionGroupName>units/naba/tw/champion_camelry_spearman</SelectionGroupName>
+  </Identity>
+</Entity>

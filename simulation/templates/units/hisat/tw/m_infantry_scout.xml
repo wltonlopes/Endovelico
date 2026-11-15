@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/hisat/infantry_scout. -->
+<Entity parent="tw_brace|tw_stealth|tw_tough_infantry|tw_battalion_member|units/hisat/infantry_scout">
+  <Identity>
+    <SelectionGroupName>units/hisat/tw/infantry_scout</SelectionGroupName>
+  </Identity>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lanceiros e piqueiros (Total Warfield): seguram a carga inimiga que
+     chega pela frente (o atacante perde o bônus e o moral). -->
+<Entity>
+  <Identity>
+    <Classes datatype="tokens">TWBrace</Classes>
+  </Identity>
+</Entity>

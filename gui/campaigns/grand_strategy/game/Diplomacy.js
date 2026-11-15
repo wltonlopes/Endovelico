@@ -77,6 +77,15 @@ class GSDiplomacy
 		return !this.treaties.nonAggression && this.status !== this.WAR && this.status !== this.HOSTILE && this.opinion >= 10 && this.trust >= 50;
 	}
 
+	/** Acesso militar: aceita quem não é hostil e confia o bastante (aliados e pactos ajudam). */
+	shouldAcceptAccessProposal()
+	{
+		if (this.treaties.militaryAccess || this.status === this.WAR || this.status === this.HOSTILE)
+			return false;
+		const bonus = (this.treaties.alliance ? 30 : 0) + (this.treaties.nonAggression ? 10 : 0) + (this.treaties.trade ? 5 : 0);
+		return this.opinion + bonus >= 10 && this.trust >= 40;
+	}
+
 	shouldAcceptAllianceProposal()
 	{
 		if (this.treaties.alliance || this.status === this.WAR || this.status === this.HOSTILE)
@@ -203,6 +212,28 @@ class GSDiplomacy
 				ev.data.resolved = true;
 			}, "Non-aggression pact refused")];
 		}
+		else if (ev.type === "accessProposal")
+		{
+			const accept = () => {
+				this.acceptAccess();
+				ev.data.accepted = true;
+				ev.data.resolved = true;
+				g_GameData.tribes[ev.data.from].getDiplomacy(ev.data.target)?.acceptAccess();
+			};
+			const refuse = () => {
+				this.opinion -= 5;
+				ev.data.accepted = false;
+				ev.data.resolved = true;
+			};
+			if (this.from === g_GameData.playerTribe)
+				return [
+					this.makeResponse(ev, "refuse", refuse, "Military access refused"),
+					this.makeResponse(ev, "accept_access", accept, "Both armies may now cross each other's provinces.")
+				];
+			return [this.shouldAcceptAccessProposal() ?
+				this.makeResponse(ev, "accept_access", accept, "Both armies may now cross each other's provinces.") :
+				this.makeResponse(ev, "refuse", refuse, "Military access refused")];
+		}
 		else if (ev.type === "allianceProposal")
 		{
 			const shouldAccept = this.shouldAcceptAllianceProposal();
@@ -276,6 +307,12 @@ class GSDiplomacy
 			cancelNAP:
 				this.treaties.nonAggression,
 
+			proposeAccess:
+				!this.treaties.militaryAccess && this.status !== this.WAR,
+
+			cancelAccess:
+				this.treaties.militaryAccess,
+
 			declareWar:
 				this.status !== this.WAR,
 
@@ -314,6 +351,11 @@ class GSDiplomacy
 		this.treaties.trade = false;
 		this.treaties.nonAggression = false;
 		this.treaties.militaryAccess = false;
+		// Os tratados valem para os dois lados: a guerra desfaz também os do outro.
+		const other = typeof g_GameData != "undefined" && g_GameData?.tribes[this.target]?.getDiplomacy(this.from);
+		if (other)
+			for (const treaty of ["alliance", "trade", "nonAggression", "militaryAccess"])
+				other.treaties[treaty] = false;
 		return new GSDiploStatusChange({
 			"from": this.from,
 			"target": this.target,
@@ -388,6 +430,76 @@ class GSDiplomacy
 		});
 	}
 
+	/** Atalho usado pelo menu de contexto. */
+	proposeNAP()
+	{
+		return this.proposeNonAggression();
+	}
+
+	proposeAccess()
+	{
+		return new GSAccessProposal({
+			"from": this.from,
+			"target": this.target,
+			"accepted": null,
+			"resolved": false
+		});
+	}
+
+	acceptAccess()
+	{
+		this.treaties.militaryAccess = true;
+		this.opinion += 5;
+		return this;
+	}
+
+	/**
+	 * Desfaz um tratado dos dois lados; o outro povo fica ressentido
+	 * (romper aliança dói mais).
+	 */
+	endTreaty(treaty, opinionLoss)
+	{
+		this.treaties[treaty] = false;
+		const other = g_GameData.tribes[this.target]?.getDiplomacy(this.from);
+		if (other)
+		{
+			other.treaties[treaty] = false;
+			other.opinion -= opinionLoss;
+			other.trust = Math.max(0, (other.trust ?? 50) - Math.round(opinionLoss / 2));
+		}
+		return new GSTreatyChange({
+			"from": this.from,
+			"target": this.target,
+			"treaty": treaty,
+			"active": false
+		});
+	}
+
+	breakAlliance()
+	{
+		return this.endTreaty("alliance", 40);
+	}
+
+	cancelTrade()
+	{
+		return this.endTreaty("trade", 10);
+	}
+
+	cancelNAP()
+	{
+		return this.endTreaty("nonAggression", 20);
+	}
+
+	cancelAccess()
+	{
+		return this.endTreaty("militaryAccess", 10);
+	}
+
+	hasMilitaryAccess()
+	{
+		return !!this.treaties.militaryAccess;
+	}
+
 	isAllied()
 	{
 		return this.treaties.alliance;
@@ -408,3 +520,4 @@ GSDiplomacy.prototype.NEUTRAL = 0;
 GSDiplomacy.prototype.HOSTILE = 100;
 GSDiplomacy.prototype.WAR = 200;
 GSDiplomacy.prototype.ALLY = 300;
+GSDiplomacy.prototype.PEACE = GSDiplomacy.prototype.NEUTRAL; // usado pela IA de diplomacia (faltava)

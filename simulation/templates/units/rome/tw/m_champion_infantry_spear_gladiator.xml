@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/rome/champion_infantry_spear_gladiator. -->
+<Entity parent="tw_brace|tw_tough_infantry|tw_battalion_member|units/rome/champion_infantry_spear_gladiator">
+  <Identity>
+    <SelectionGroupName>units/rome/tw/champion_infantry_spear_gladiator</SelectionGroupName>
+  </Identity>
+</Entity>

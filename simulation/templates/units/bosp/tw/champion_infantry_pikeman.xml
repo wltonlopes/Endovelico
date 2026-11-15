@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/bosp/champion_infantry_pikeman. -->
+<Entity parent="tw_brace|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/bosp/champion_infantry_pikeman">
+  <BattalionLeader>
+    <Size>16</Size>
+    <Columns>8</Columns>
+    <Spacing>2.4</Spacing>
+    <MemberTemplate>units/bosp/tw/m_champion_infantry_pikeman</MemberTemplate>
+    <Category>champion_infantry</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">phalanx syntagma</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/bosp/tw/champion_infantry_pikeman</SelectionGroupName>
+  </Identity>
+</Entity>

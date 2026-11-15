@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tropa leve (Total Warfield): parada sob a copa das árvores ou num
+     ponto alto, fica oculta dos inimigos que não estejam perto
+     (BattalionTactics.UpdateStealth). -->
+<Entity>
+  <Identity>
+    <Classes datatype="tokens">TWStealth</Classes>
+  </Identity>
+</Entity>

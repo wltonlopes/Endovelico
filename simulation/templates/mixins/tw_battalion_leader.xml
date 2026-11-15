@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Líder de batalhão (Total Warfield): comanda e mantém a formação dos
+     soldados (BattalionLeader), moral, posturas e níveis (BattalionTactics).
+     A experiência dos soldados vai para o batalhão; ninguém é promovido
+     individualmente (simulation/components/ZZ_TWPromotion.js). -->
+<Entity>
+  <BattalionLeader>
+    <Size>20</Size>
+    <Columns>5</Columns>
+    <Spacing>2.2</Spacing>
+  </BattalionLeader>
+  <BattalionTactics/>
+  <Identity>
+    <Classes datatype="tokens">BattalionLeader Battalion</Classes>
+  </Identity>
+  <UnitAI>
+    <DefaultStance>defensive</DefaultStance>
+    <Formations disable=""/>
+  </UnitAI>
+  <!-- Na batalha de campo ninguém constrói nem coleta recursos. -->
+  <Builder disable=""/>
+  <ResourceGatherer disable=""/>
+  <Promotion replace="">
+    <Entity/>
+    <RequiredXp>150</RequiredXp>
+  </Promotion>
+</Entity>

@@ -11,17 +11,31 @@ class Hero
 		this.location = province;
 		this.actionsLeft = 1;
 		this.lastRetreatTurn = -999;
-		this.army = {
-			spearmen: 0,
-			swordsmen: 0,
-			archers: 0,
-			cavalry: 0
-		};
+		// Batalhões do exército (game/Warfield.js).
+		this.battalions = [];
 			// NOVO
 		this.portrait = "";
 		this.traits = [];
 		this.bonuses = {};
 		this.title = "General";
+		// Marcha de vários turnos (game/Routes.js): províncias que faltam.
+		this.route = [];
+	}
+
+	/**
+	 * A localização registra cada passo (g_TWMapMoves), para o mapa animar
+	 * a marcha mesmo quando o general anda várias províncias de uma vez.
+	 */
+	get location()
+	{
+		return this._location;
+	}
+
+	set location(code)
+	{
+		if (this._location !== undefined && code !== this._location && typeof twNoteMove == "function")
+			twNoteMove(this, this._location, code);
+		this._location = code;
 	}
 
 	Serialize()
@@ -32,14 +46,18 @@ class Hero
 			"loc": this.location,
 			"moves": this.actionsLeft,
 			"lastRetreatTurn":this.lastRetreatTurn,
-			"army": this.army,
+			"battalions": this.battalions,
+			"battleTemplate": this.battleTemplate,
+			"lastTurnLocation": this.lastTurnLocation,
+			"drilling": this.drilling,
 
 
 			// NOVO
 			"portrait": this.portrait,
 			"traits": this.traits,
 			"bonuses": this.bonuses,
-			"title": this.title
+			"title": this.title,
+			"route": this.route
 
 		};
 	}
@@ -54,12 +72,10 @@ class Hero
 		this.lastRetreatTurn =
 			data.lastRetreatTurn ??
 			-999;
-		this.army = data.army || {
-			spearmen: 0,
-			swordsmen: 0,
-			archers: 0,
-			cavalry: 0
-		};
+		this.battalions = data.battalions || [];
+		this.battleTemplate = data.battleTemplate;
+		this.lastTurnLocation = data.lastTurnLocation;
+		this.drilling = data.drilling || 0;
 
 			// NOVO
 		this.portrait =
@@ -73,6 +89,8 @@ class Hero
 
 		this.title =
 			data.title || "General";
+
+		this.route = data.route || [];
 	}
 	ownsProvince(code)
 	{
@@ -97,8 +115,8 @@ class Hero
 		// Navegação: mar costeiro, oceano e desembarque dependem de tecnologia.
 		if (!g_GameData.tribes[this.tribe].techs.canNavigate(this.location, code))
 			return false;
-		if (target.ownerTribe && !this.ownsProvince(code) &&
-			g_GameData.tribes[this.tribe].getDiplomacy(target.ownerTribe).status !== GSDiplomacy.prototype.WAR)
+		// Terra alheia: só em guerra (para lutar) ou com passagem (acesso militar, aliança, vassalagem).
+		if (!twCanEnterTerritory(this.tribe, target.ownerTribe))
 			return false;
 		return this.actionsLeft >= this.getMoveCost(code);
 	}
@@ -124,34 +142,19 @@ class Hero
 						hero.tribe == this.tribe
 					)
 					{
-						warn(
-							"There is already an allied general in this province."
-						);
 
 						return false;
 					}
 				}
 			}
 
-			// Procurar general inimigo
-			let enemy =
-				g_GameData.getGeneralAtProvince(
-					targetProvince,
-					this.tribe
-				);
-
+			// General inimigo na província: batalha (o general só entra se vencer).
+			// Só luta contra general em guerra; os demais apenas dividem a província.
+			const enemy = g_GameData.getHostileGeneralAtProvince(targetProvince, this.tribe);
 			if (enemy)
 			{
 				this.actionsLeft -= this.getMoveCost(targetProvince);
-
-				this.location =
-					targetProvince;
-
-				g_GameData.startGeneralBattle(
-					this,
-					enemy
-				);
-
+				g_GameData.startGeneralBattle(this, targetProvince);
 				return true;
 			}
 
@@ -161,36 +164,35 @@ class Hero
 			return true;
 		}
 
-	
-	// canAttack(code)
-	// {
-	// 	return !this.ownsProvince(code) && this.actionsLeft >= 1;
-	// }
-
+	/**
+	 * Atacar a província onde o general está ou uma vizinha: precisa de
+	 * tropas, de um movimento e de guerra com o dono (sem dono = nativos).
+	 */
 	canAttack(code)
 	{
 		const province = g_GameData.provinces[code];
-
-		if (province.isSea())
+		if (!province || province.isSea() || this.ownsProvince(code) || this.actionsLeft < 1 || !this.battalions.length)
 			return false;
-
-		return !this.ownsProvince(code) &&
-			this.actionsLeft >= 1;
+		if (code != this.location && !province.canTravel(this.location))
+			return false;
+		if (!province.ownerTribe)
+			return true;
+		const diplomacy = g_GameData.tribes[this.tribe].getDiplomacy(province.ownerTribe);
+		return diplomacy.status === GSDiplomacy.prototype.WAR;
 	}
 
+	/** Monta a batalha (TWBattle); quem chama decide como resolvê-la. */
 	doAttack(code)
 	{
-		const province = g_GameData.provinces[code];
+		if (!this.canAttack(code))
+			return undefined;
+		this.actionsLeft -= 1;
+		return TWBattle.create(this, code);
+	}
 
-		if (province.isSea())
-			return false;
-
-		this.actionsLeft--;
-
-		return g_GameData.playOutAttack(
-			this.tribe,
-			code
-		);
+	getArmySummary()
+	{
+		return this.battalions.length + " battalions, " + twArmySoldiers(this.battalions) + " soldiers";
 	}
 
 	canStrengthen(code)

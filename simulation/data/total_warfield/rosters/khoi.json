@@ -1,0 +1,245 @@
+{
+	"civ": "khoi",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/khoi/tw/cavalry_javelineer",
+			"memberTemplate": "units/khoi/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/khoi/cavalry_javelineer_b",
+			"name": "Khoi Ox-Rider Skirmisher",
+			"specificName": "",
+			"icon": "units/subsaara/cavalry_javelineer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 125.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 12.96
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/khoi/tw/cavalry_scout",
+			"memberTemplate": "units/khoi/tw/m_cavalry_scout",
+			"baseTemplate": "units/khoi/cavalry_scout",
+			"name": "Khoi Ox-Rider Scout",
+			"specificName": "",
+			"icon": "units/khoi/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 125.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/khoi/tw/infantry_archer",
+			"memberTemplate": "units/khoi/tw/m_infantry_archer",
+			"baseTemplate": "units/khoi/infantry_archer_b",
+			"name": "Khoi Archer",
+			"specificName": "",
+			"icon": "units/khoi/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_axeman",
+			"template": "units/khoi/tw/infantry_axeman",
+			"memberTemplate": "units/khoi/tw/m_infantry_axeman",
+			"baseTemplate": "units/khoi/infantry_axeman_b",
+			"name": "Khoi Axeman",
+			"specificName": "",
+			"icon": "units/khoi/infantry_axeman_b.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_javelinist",
+			"template": "units/khoi/tw/infantry_javelinist",
+			"memberTemplate": "units/khoi/tw/m_infantry_javelinist",
+			"baseTemplate": "units/khoi/infantry_javelinist_b",
+			"name": "Khoi Skirmisher",
+			"specificName": "",
+			"icon": "units/khoi/infantry_javelinist_b.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/khoi/tw/infantry_slinger",
+			"memberTemplate": "units/khoi/tw/m_infantry_slinger",
+			"baseTemplate": "units/khoi/infantry_slinger_b",
+			"name": "Khoi Slinger",
+			"specificName": "",
+			"icon": "units/khoi/infantry_slinger_b.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/khoi/tw/infantry_spearman",
+			"memberTemplate": "units/khoi/tw/m_infantry_spearman",
+			"baseTemplate": "units/khoi/infantry_spearman_b",
+			"name": "Khoi Spearman",
+			"specificName": "",
+			"icon": "units/khoi/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/khoi/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/khoi/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "",
+			"icon": "units/khoi/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/khoi/hero_javelinist_m",
+			"name": "Heitsi-eibib",
+			"icon": "units/khoi/hero_javelinist_m.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/khoi/hero_spearman_m",
+			"name": "Gonnema",
+			"icon": "units/khoi/hero_spearman_m.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/khoi/tw/att_priest",
+			"baseTemplate": "units/khoi/support_healer_b",
+			"unitName": "Khoi Healer",
+			"icon": "units/khoi/support_healer.png"
+		}
+	}
+}

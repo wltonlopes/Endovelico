@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/cartemp/champion_infantry. -->
+<Entity parent="tw_brace|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/cartemp/champion_infantry">
+  <BattalionLeader>
+    <Size>16</Size>
+    <Columns>8</Columns>
+    <Spacing>2.4</Spacing>
+    <MemberTemplate>units/cartemp/tw/m_champion_infantry</MemberTemplate>
+    <Category>champion_infantry</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens">phalanx</Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/cartemp/tw/champion_infantry</SelectionGroupName>
+  </Identity>
+</Entity>

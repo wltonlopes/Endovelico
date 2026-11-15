@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/bosp/champion_infantry_pikeman. -->
+<Entity parent="tw_brace|tw_tough_infantry|tw_battalion_member|units/bosp/champion_infantry_pikeman">
+  <Identity>
+    <SelectionGroupName>units/bosp/tw/champion_infantry_pikeman</SelectionGroupName>
+  </Identity>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/aksum/infantry_clubman_oromo. -->
+<Entity parent="tw_tough_infantry|tw_battalion_member|units/aksum/infantry_clubman_oromo">
+  <Identity>
+    <SelectionGroupName>units/aksum/tw/infantry_clubman_oromo</SelectionGroupName>
+  </Identity>
+</Entity>

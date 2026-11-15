@@ -33,7 +33,7 @@ class GrandStrategyPage
 		}
 		catch (err)
 		{
-			error("Grand Strategy: " + err.message + "\n" + err.stack);
+			error("Total Warfield: " + err.message + "\n" + err.stack);
 
 			closePageCallback({
 				[Engine.openRequest]:

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: líder do batalhão de units/naba/infantry_archer_b. -->
+<Entity parent="tw_dagger|tw_stealth|tw_tough_infantry|tw_battalion_leader_infantry|tw_battalion_leader|units/naba/infantry_archer_b">
+  <BattalionLeader>
+    <Size>20</Size>
+    <Columns>10</Columns>
+    <Spacing>2.6</Spacing>
+    <MemberTemplate>units/naba/tw/m_infantry_archer</MemberTemplate>
+    <Category>infantry_ranged</Category>
+  </BattalionLeader>
+  <BattalionTactics>
+    <Formations datatype="tokens"></Formations>
+  </BattalionTactics>
+  <Identity>
+    <SelectionGroupName>units/naba/tw/infantry_archer</SelectionGroupName>
+  </Identity>
+</Entity>

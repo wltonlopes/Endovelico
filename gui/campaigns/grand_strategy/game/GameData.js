@@ -72,6 +72,7 @@ class GameData
 			"events": pastEvents,
 			"lastEventID": GSEvent.GetStartEventID(),
 			"victory": this.victory,
+			"pendingCapture": this.pendingCapture,
 		};
 	}
 
@@ -142,6 +143,7 @@ class GameData
 			this.difficulty = data.difficulty;
 
 		this.victory = Object.assign(this.newVictoryState(), data.victory || {});
+		this.pendingCapture = data.pendingCapture;
 
 		this.statistics = new CampaignStatisticsManager();
 		this.statistics.Deserialize(data.statistics);
@@ -232,6 +234,8 @@ class GameData
 		this.applyHeroData(this.playerHero, [playerData.civ]);
 
 		this.tribes.player.generals.push(this.playerHero);
+		this.playerHero.battalions = twStartingArmy(playerData.civ, 5);
+		this.tribes.player.money = 1200;
 
 		let army =
 			new Army(
@@ -513,6 +517,24 @@ class GameData
 				tribe.lastBalance = totalBalance;
 				// TODO: nasty events if in debt, possibly losing the game.
 			}
+			// Exércitos: manutenção e reposição de baixas (Total Warfield).
+			for (const tribeCode in this.tribes)
+			{
+				const tribe = this.tribes[tribeCode];
+				let upkeep = 0;
+				for (const hero of tribe.generals)
+					upkeep += twProcessArmyTurn(hero);
+				tribe.lastUpkeep = upkeep;
+				tribe.lastBalance -= upkeep;
+			}
+			this.processProvinceGrowth();
+			this.processSieges();
+			for (const text of TWConquest.processVassals())
+			{
+				this.statistics?.RegisterEvent?.(text);
+				this.lastBattleReport = { "title": "Vassal uprising", "report": "\n" + text };
+			}
+
 			// Uma vez por turno (antes era chamado uma vez por tribo).
 			this.processTradeIncome();
 			this.processResearch();
@@ -542,6 +564,9 @@ class GameData
 				}
 				for (const neighb of neighbors)
 				{
+					// Vassalo e senhor não brigam pela diplomacia comum.
+					if (TWConquest.isVassalPair(code, neighb))
+						continue;
 					const diplo = tribe.getDiplomacy(neighb);
 					let ev;
 					if (diplo.treaties?.alliance && !diplo.treaties?.trade)
@@ -562,6 +587,8 @@ class GameData
 							ev = diplo.proposeTrade();
 						else if (!diplo.treaties.nonAggression && diplo.opinion >= 10 && randBool(0.1))
 							ev = diplo.proposeNonAggression();
+						else if (!diplo.treaties.militaryAccess && diplo.opinion >= 5 && randBool(0.06))
+							ev = diplo.proposeAccess();
 						else if (diplo.opinion < -30 && randBool(0.33))
 							ev = diplo.goHostile();
 						else if (diplo.opinion > -30 && randBool(0.2))
@@ -586,97 +613,8 @@ class GameData
 		else if (this.turnI === 1)
 		{
 			for (const code in this.tribes)
-			{
-				if (code === this.playerTribe)
-					continue;
-
-				const tribe =
-					this.tribes[code];
-
-				for (const hero of tribe.generals)
-				{
-					if (hero.actionsLeft <= 0)
-						continue;
-
-					let current =
-						this.provinces[
-							hero.location
-						];
-
-					let targets = [];
-
-					for (const neighbour of
-						current.getLinks())
-					{
-						let province =
-							this.provinces[
-								neighbour
-							];
-
-						if (
-							province.ownerTribe !=
-							code &&
-							tribe.techs.canNavigate(hero.location, neighbour) &&
-							hero.actionsLeft >= hero.getMoveCost(neighbour)
-						)
-						{
-							targets.push(
-								neighbour
-							);
-						}
-					}
-
-					if (!targets.length)
-						continue;
-
-					// Prefere terra; o mar serve para alcançar outras costas.
-					const landTargets = targets.filter(t => !this.provinces[t].isSea());
-					const target =
-						pickRandom(
-							landTargets.length && randBool(0.8) ? landTargets : targets
-						);
-
-					hero.actionsLeft -= hero.getMoveCost(target);
-
-					hero.location =
-						target;
-
-					const province =
-						this.provinces[
-							target
-						];
-
-					// No mar só navega; não há o que conquistar.
-					if (province.isSea())
-						continue;
-
-					if (
-						province.ownerTribe ==
-						this.playerTribe
-					)
-					{
-						this.turnEvents.push(
-							new GSAttack({
-								"attacker": code,
-								"target": target
-							})
-						);
-					}
-					else
-					{
-						province.setOwner(
-							code
-						);
-
-						this.turnEvents.push(
-							new GSConquest({
-								"attacker": code,
-								"target": target
-							})
-						);
-					}
-				}
-			}
+				if (code !== this.playerTribe)
+					this.runGeneralAI(code);
 		}
 		else if (this.turnI === 0)
 		{
@@ -734,6 +672,16 @@ class GameData
 
 	processEndedGame(endGameData)
 	{
+		// Batalha de campo do Total Warfield: aplica baixas e conquista.
+		const run = CampaignRun.getCurrentRun();
+		const battle = run.data.pendingBattle;
+		if (battle)
+		{
+			const outcome = TWBattle.applyPlayedBattle(battle, endGameData);
+			this.lastBattleReport = outcome;
+			delete run.data.pendingBattle;
+			return true;
+		}
 		if ((endGameData.won && endGameData.initData.playerIsAttacker) ||
 			(!endGameData.won && !endGameData.initData.playerIsAttacker))
 			this.provinces[endGameData.initData.province].setOwner(endGameData.initData.attacker);
@@ -785,75 +733,262 @@ class GameData
 		return true;
 	}
 
-startGeneralBattle(
-		attacker,
-		defender
-	)
+/**
+	 * General entra numa província com general inimigo (ou ataca): com o
+	 * jogador envolvido, abre a janela de batalha; entre IAs, resolve na hora.
+	 */
+	startGeneralBattle(attacker, provinceCode)
 	{
-		const attackerTribe =
-			this.tribes[attacker.tribe];
-
-		const defenderTribe =
-			this.tribes[defender.tribe];
-
-		// Fuga: 1 vez a cada 5 turnos
-		if (
-			attacker.lastRetreatTurn !== undefined &&
-			this.turn -
-			attacker.lastRetreatTurn < 5
-		)
+		const battle = TWBattle.create(attacker, provinceCode);
+		if (battle.playerSide && typeof g_CampaignMenu != "undefined" && g_CampaignMenu?.windows?.Battle)
 		{
-			attacker.canRetreat = false;
+			g_CampaignMenu.windows.Battle.open(battle);
+			return battle;
 		}
-		else
+		TWBattle.autoResolve(battle);
+		return battle;
+	}
+
+	/**
+	 * IA de uma tribo: recruta onde pode, repõe tropas e avança contra
+	 * vizinhos em guerra ou terras sem dono. Ataques ao jogador viram um
+	 * evento de batalha (o jogador decide como lutar).
+	 */
+	runGeneralAI(code)
+	{
+		const tribe = this.tribes[code];
+		this.runBuildingAI(code);
+		for (const hero of tribe.generals.slice())
 		{
-			attacker.canRetreat = true;
-		}
+			if (tribe.generals.indexOf(hero) == -1)
+				continue;
+			const here = this.provinces[hero.location];
+			// Recruta em casa, guardando dinheiro para manutenção.
+			if (here && here.ownerTribe == code)
+				for (let tries = 0; tries < 3 && hero.battalions.length < TW_MAX_BATTALIONS; ++tries)
+				{
+					const options = twRecruitOptions(here, tribe).filter(o => !o.unavailable && o.cost < tribe.money - 250);
+					if (!options.length)
+						break;
+					twRecruit(hero, pickRandom(options.slice(0, 4)).unit.key);
+				}
 
-		// IA foge automaticamente se estiver fraca
-		if (
-			attacker.canRetreat &&
-			randBool(0.2)
-		)
+			// Sítio em andamento: assalta com aríetes suficientes (ou guarnição
+			// vencida pela fome); senão segue cercando.
+			const sieged = Object.keys(this.provinces).find(c => this.provinces[c].siege?.heroId == hero.id);
+			if (sieged)
+			{
+				const siege = this.provinces[sieged].siege;
+				if (siege.rams >= 2 || this.provinces[sieged].garrison == 0 && siege.turns >= 2)
+				{
+					hero.actionsLeft = Math.max(1, hero.actionsLeft);
+					const battle = TWBattle.create(hero, sieged);
+					if (battle.playerSide)
+						this.turnEvents.push(new GSAttack({ "attacker": code, "target": sieged, "battle": battle }));
+					else
+						TWBattle.autoResolve(battle);
+				}
+				continue;
+			}
+
+			// Às vezes compra um acompanhante (sacerdote...) para um batalhão.
+			if (here && here.ownerTribe == code && randBool(0.35) && hero.battalions.length >= 4)
+			{
+				const battalion = pickRandom(hero.battalions);
+				const option = twAttachmentOptions(hero, battalion).find(o => !o.unavailable && tribe.money > o.cost + 120);
+				if (option)
+					twBuyAttachment(hero, battalion, option.kind);
+			}
+
+			if (hero.actionsLeft <= 0 || !here)
+				continue;
+			// Exército fraco fica em casa repondo.
+			if (hero.battalions.length < 3 || twArmySoldiers(hero.battalions) < 50)
+				continue;
+
+			// Oportunismo: exército forte na fronteira de um vizinho fraco
+			// (sem aliança nem pacto) pode virar declaração de guerra.
+			if (hero.battalions.length >= 6 && randBool(0.12))
+				for (const neighbour of here.getLinks())
+				{
+					const owner = this.provinces[neighbour]?.ownerTribe;
+					if (!owner || owner == code || !this.tribes[owner])
+						continue;
+					const diplo = tribe.getDiplomacy(owner);
+					if (diplo.status === GSDiplomacy.prototype.WAR || diplo.treaties?.alliance || diplo.treaties?.nonAggression ||
+						TWConquest.isVassalPair(code, owner))
+						continue;
+					const defenders = twGarrisonArmy(this.provinces[neighbour]).concat(this.getGeneralAtProvince(neighbour, code)?.battalions || []);
+					if (twArmyPower(hero.battalions) > 1.6 * twArmyPower(defenders))
+					{
+						this.pushTurnEvent(diplo.declareWar());
+						break;
+					}
+				}
+
+			const targets = [];
+			for (const neighbour of here.getLinks())
+			{
+				const province = this.provinces[neighbour];
+				if (!province || province.ownerTribe == code || !tribe.techs.canNavigate(hero.location, neighbour) ||
+					hero.actionsLeft < hero.getMoveCost(neighbour))
+					continue;
+				const owner = province.ownerTribe;
+				const enemyHero = this.getHostileGeneralAtProvince(neighbour, code);
+				const hostile = tribeCode => !tribeCode || !TWConquest.isVassalPair(code, tribeCode) &&
+					tribe.getDiplomacy(tribeCode).status === GSDiplomacy.prototype.WAR;
+				if (!hostile(owner) || enemyHero && !hostile(enemyHero.tribe))
+					continue;
+				targets.push(neighbour);
+			}
+			if (!targets.length)
+			{
+				// Nada a atacar aqui: anda pelo próprio território até a frente.
+				const step = this.findFrontierStep(hero, code);
+				if (step && hero.actionsLeft >= hero.getMoveCost(step))
+				{
+					hero.actionsLeft -= hero.getMoveCost(step);
+					hero.location = step;
+				}
+				continue;
+			}
+
+			// Prefere terra a mar e alvos mais fracos.
+			const land = targets.filter(t => !this.provinces[t].isSea());
+			const target = pickRandom(land.length && randBool(0.8) ? land : targets);
+			const province = this.provinces[target];
+			hero.actionsLeft -= hero.getMoveCost(target);
+			if (province.isSea() && !this.getHostileGeneralAtProvince(target, code))
+			{
+				hero.location = target;
+				continue;
+			}
+
+			const battle = TWBattle.create(hero, target);
+			// Muralha de pedra sem máquinas de cerco: cerca em vez de assaltar.
+			if (battle.walls == "stone" && !TWBattle.getAttackerEngines(battle, hero) && province.ownerTribe && !province.siege)
+			{
+				hero.actionsLeft += hero.getMoveCost(target);
+				TWBattle.laySiege(battle);
+				if (province.ownerTribe == this.playerTribe)
+					this.lastBattleReport = { "title": "Siege of " + province.getName(),
+						"report": "\n" + tribe.getName() + " has laid siege to " + province.getName() + ". Starving defenders lose a garrison battalion every turn from the third; relieve the city or sally out to break the siege." };
+				continue;
+			}
+			const forces = TWBattle.getForces(battle);
+			// Só ataca com chance razoável.
+			const power = twArmyPower(forces.attacker.battalions) * twSideMultiplier(forces.attacker);
+			const enemyPower = twArmyPower(forces.defender.battalions) * twSideMultiplier(forces.defender);
+			if (power < enemyPower * 0.9)
+			{
+				hero.actionsLeft += hero.getMoveCost(target);
+				continue;
+			}
+			if (battle.playerSide)
+			{
+				this.turnEvents.push(new GSAttack({ "attacker": code, "target": target, "battle": battle }));
+				continue;
+			}
+			const result = TWBattle.autoResolve(battle);
+			if (province.ownerTribe == code && !battle.siege)
+				this.turnEvents.push(new GSConquest({ "attacker": code, "target": target }));
+		}
+	}
+
+	/**
+	 * Próximo passo do general rumo à província hostil mais próxima (sem
+	 * dono ou de quem está em guerra com a tribo), andando só pelo próprio
+	 * território e pelo mar. Evita parar onde já há outro general da tribo.
+	 */
+	findFrontierStep(hero, code)
+	{
+		const tribe = this.tribes[code];
+		const isHostile = province => !province.isSea() && province.ownerTribe != code &&
+			(!province.ownerTribe || !TWConquest.isVassalPair(code, province.ownerTribe) &&
+				tribe.getDiplomacy(province.ownerTribe).status === GSDiplomacy.prototype.WAR);
+		// Atravessa o próprio território, o mar e as terras com passagem (acesso, aliança, vassalagem).
+		const passable = province => province.ownerTribe == code || province.isSea() ||
+			!!province.ownerTribe && !twAtWar(code, province.ownerTribe) && twHasPassage(code, province.ownerTribe);
+		const previous = { [hero.location]: null };
+		const queue = [hero.location];
+		while (queue.length)
 		{
-			attacker.lastRetreatTurn =
-				this.turn;
-
-
-			return false;
+			const current = queue.shift();
+			for (const next of this.provinces[current].getLinks())
+			{
+				const province = this.provinces[next];
+				if (!province || previous[next] !== undefined || !tribe.techs.canNavigate(current, next))
+					continue;
+				previous[next] = current;
+				if (isHostile(province))
+				{
+					// Volta até o primeiro passo.
+					let step = current;
+					if (step == hero.location)
+						return undefined;
+					while (previous[step] != hero.location)
+						step = previous[step];
+					const blocked = this.tribes[code].generals.some(other => other !== hero && other.location == step) ||
+						this.getHostileGeneralAtProvince(step, code);
+					return blocked ? undefined : step;
+				}
+				if (passable(province))
+					queue.push(next);
+			}
 		}
+		return undefined;
+	}
 
-		// 90% chance de morte do perdedor
-		let attackerWins =
-			randBool(0.5);
-
-		let loser =
-			attackerWins ?
-			defender :
-			attacker;
-
-		if (randBool(0.9))
+	/**
+	 * IA constrói: primeiro o que dá renda e libera tropas, depois defesa e
+	 * o resto, sempre guardando uma reserva para os exércitos.
+	 */
+	runBuildingAI(code)
+	{
+		const tribe = this.tribes[code];
+		const priority = ["farmland", "barracks", "market", "range", "stable", "walls", "temple", "philosopher_academy", "port", "watchtower", "fortress", "elephant_stable"];
+		for (const provinceCode of tribe.controlledProvinces)
 		{
-			this.killGeneral(
-				loser
-			);
+			const province = this.provinces[provinceCode];
+			if (province.buildQueue.length || tribe.money < 700)
+				continue;
+			const options = province.getBuildableStructures().filter(def => province.canBuild(def.id) &&
+				province.getBuildingCost(def.id) < tribe.money - 500);
+			options.sort((a, b) => (priority.indexOf(a.id) + 99) % 99 - (priority.indexOf(b.id) + 99) % 99);
+			if (options.length)
+				province.startBuilding(options[0].id);
 		}
+	}
 
-		let winner =
-			attackerWins ?
-			attacker :
-			defender;
+	/** Sítios em andamento (Battle.js): aríetes, fome, rendição. */
+	processSieges()
+	{
+		for (const code in this.provinces)
+		{
+			const province = this.provinces[code];
+			if (!province.siege)
+				continue;
+			const owner = province.ownerTribe;
+			const besieger = province.siege.tribe;
+			const text = TWBattle.processSiege(code);
+			if (!text)
+				continue;
+			this.statistics?.RegisterEvent?.(text);
+			if (owner == this.playerTribe || besieger == this.playerTribe)
+				this.lastBattleReport = { "title": "Siege of " + province.getName(), "report": "\n" + text };
+		}
+	}
 
-		this.provinces[
-			defender.location
-		].setOwner(
-			winner.tribe
-		);
-
-		winner.location =
-			defender.location;
-
-		return attackerWins;
+	/** Crescimento das cidades; avisa o jogador quando uma sobe de nível. */
+	processProvinceGrowth()
+	{
+		for (const code in this.provinces)
+		{
+			const province = this.provinces[code];
+			const level = province.processGrowth();
+			if (level && province.ownerTribe == this.playerTribe)
+				this.statistics?.RegisterEvent?.(province.getName() + " has grown into a " + TW_LEVEL_NAMES[level] + ".");
+		}
 	}
 
 	/**
@@ -932,7 +1067,9 @@ startGeneralBattle(
 		// Retrato, traços, bônus e título: primeiro os da própria facção
 		// (ex.: pirates, swarm), depois os da civilização.
 		this.applyHeroData(hero, [tribe, player.civ]);
-			
+		// Um general novo já vem com alguns batalhões (os da IA, um a mais).
+		hero.battalions = twStartingArmy(player.civ, tribe == this.playerTribe ? 2 : 3);
+
 		player.generals.push(hero);
 
 		// NOVO
@@ -986,6 +1123,17 @@ killGeneral(hero)
 		return this.armies.find(
 			a => a.general == heroID
 		);
+	}
+
+	/** General de uma tribo em guerra com `tribe` na província (quem está só de passagem não conta). */
+	getHostileGeneralAtProvince(provinceCode, tribe)
+	{
+		for (const tribeCode in this.tribes)
+			if (twAtWar(tribe, tribeCode))
+				for (const hero of this.tribes[tribeCode].generals)
+					if (hero.location == provinceCode)
+						return hero;
+		return null;
 	}
 
 	getGeneralAtProvince(

@@ -1,0 +1,310 @@
+{
+	"civ": "spart",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/spart/tw/cavalry_javelineer",
+			"memberTemplate": "units/spart/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/spart/cavalry_javelineer_b",
+			"name": "Perioikos Cavalryman",
+			"specificName": "Prodromos Perioikos",
+			"icon": "units/spart/cavalry_javelinist.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/spart/tw/cavalry_scout",
+			"memberTemplate": "units/spart/tw/m_cavalry_scout",
+			"baseTemplate": "units/spart/cavalry_scout",
+			"name": "Scout Cavalry",
+			"specificName": "Spartan Scout",
+			"icon": "units/athen/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 22.5
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/spart/tw/cavalry_spearman",
+			"memberTemplate": "units/spart/tw/m_cavalry_spearman",
+			"baseTemplate": "units/spart/cavalry_spearman_b",
+			"name": "Greek Allied Cavalry",
+			"specificName": "Hippeus Symmakhikos",
+			"icon": "units/spart/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_infantry_spear",
+			"template": "units/spart/tw/champion_infantry_spear",
+			"memberTemplate": "units/spart/tw/m_champion_infantry_spear",
+			"baseTemplate": "units/spart/champion_infantry_spear",
+			"name": "Spartan Hoplite",
+			"specificName": "Spartiatēs",
+			"icon": "units/spart/champion_infantry_spear.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx"
+			],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 20.56,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "champion_infantry_swordsman",
+			"template": "units/spart/tw/champion_infantry_swordsman",
+			"memberTemplate": "units/spart/tw/m_champion_infantry_swordsman",
+			"baseTemplate": "units/spart/champion_infantry_swordsman",
+			"name": "Skirites Commando",
+			"specificName": "Ekdromos Skiritēs",
+			"icon": "units/spart/champion_infantry_sword.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 250,
+			"upkeep": 20,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 5.0,
+				"melee": 12.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/spart/tw/infantry_javelineer",
+			"memberTemplate": "units/spart/tw/m_infantry_javelineer",
+			"baseTemplate": "units/spart/infantry_javelineer_b",
+			"name": "Helot Skirmisher",
+			"specificName": "Akontistēs Heilōs",
+			"icon": "units/spart/infantry_javelinist.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/spart/tw/infantry_spearman",
+			"memberTemplate": "units/spart/tw/m_infantry_spearman",
+			"baseTemplate": "units/spart/infantry_spearman_b",
+			"name": "Perioikos Hoplite",
+			"specificName": "Hoplitēs Perioikos",
+			"icon": "units/spart/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx"
+			],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_spearman_neodamodes",
+			"template": "units/spart/tw/infantry_spearman_neodamodes",
+			"memberTemplate": "units/spart/tw/m_infantry_spearman_neodamodes",
+			"baseTemplate": "units/spart/infantry_spearman_neodamodes",
+			"name": "Neodamodes Hoplite",
+			"specificName": "Neodamōdeis",
+			"icon": "units/spart/infantry_spearman_neodamodes.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [
+				"phalanx"
+			],
+			"cost": 100,
+			"upkeep": 8,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_oxybeles",
+			"template": "units/spart/siege_oxybeles_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/spart/siege_oxybeles_packed",
+			"name": "Bolt Shooter",
+			"specificName": "Oxybelēs",
+			"icon": "units/hele/siege_oxybeles_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 200.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 40.0,
+				"range": 80.0,
+				"speed": 6.75
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/spart/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/spart/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Krios",
+			"icon": "units/spart/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/spart/hero_agis",
+			"name": "Agis",
+			"icon": "units/spart/hero_agis.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/spart/hero_brasidas",
+			"name": "Brasidas",
+			"icon": "units/spart/hero_brasidas.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/spart/hero_leonidas",
+			"name": "Leōnidēs",
+			"icon": "units/spart/hero_leonidas.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/spart/tw/att_priest",
+			"baseTemplate": "units/spart/support_healer_b",
+			"unitName": "Surgeon",
+			"icon": "units/hele/support_healer.png"
+		}
+	}
+}

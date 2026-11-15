@@ -1,0 +1,311 @@
+{
+	"civ": "guara",
+	"units": [
+		{
+			"key": "cavalry_archer",
+			"template": "units/guara/tw/cavalry_archer",
+			"memberTemplate": "units/guara/tw/m_cavalry_archer",
+			"baseTemplate": "units/guara/cavalry_archer_b",
+			"name": "Guarani Huntress",
+			"specificName": "",
+			"icon": "units/guara/cavalry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 7.21
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/guara/tw/cavalry_spearman",
+			"memberTemplate": "units/guara/tw/m_cavalry_spearman",
+			"baseTemplate": "units/guara/cavalry_spearman_b",
+			"name": "Veteran Club Warrior",
+			"specificName": "",
+			"icon": "units/guara/cavalry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 6.65
+			}
+		},
+		{
+			"key": "champion_infantry_spearman",
+			"template": "units/guara/tw/champion_infantry_spearman",
+			"memberTemplate": "units/guara/tw/m_champion_infantry_spearman",
+			"baseTemplate": "units/guara/champion_infantry_spearman",
+			"name": "Guarani Great Warrior",
+			"specificName": "Guarinihára",
+			"icon": "units/guara/champion_infantry_spearman.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "barracks",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 18.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/guara/tw/infantry_archer",
+			"memberTemplate": "units/guara/tw/m_infantry_archer",
+			"baseTemplate": "units/guara/infantry_archer_b",
+			"name": "Guarani Archer",
+			"specificName": "",
+			"icon": "units/guara/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_blowgunner",
+			"template": "units/guara/tw/infantry_blowgunner",
+			"memberTemplate": "units/guara/tw/m_infantry_blowgunner",
+			"baseTemplate": "units/guara/infantry_blowgunner_b",
+			"name": "Blowgun Hunter",
+			"specificName": "",
+			"icon": "units/guara/infantry_blowgunner.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 4.91,
+				"range": 25.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_scout",
+			"template": "units/guara/tw/infantry_scout",
+			"memberTemplate": "units/guara/tw/m_infantry_scout",
+			"baseTemplate": "units/guara/infantry_scout",
+			"name": "Guarani Scout",
+			"specificName": "",
+			"icon": "units/zapo/infantry_scout.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 250,
+			"upkeep": 20,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 3.44,
+				"range": 25.0,
+				"speed": 15.0
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/guara/tw/infantry_slinger",
+			"memberTemplate": "units/guara/tw/m_infantry_slinger",
+			"baseTemplate": "units/guara/infantry_slinger_b",
+			"name": "Guarani Slinger",
+			"specificName": "",
+			"icon": "units/gara/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/guara/tw/infantry_spearman",
+			"memberTemplate": "units/guara/tw/m_infantry_spearman",
+			"baseTemplate": "units/guara/infantry_spearman_b",
+			"name": "Guarani Spearman",
+			"specificName": "",
+			"icon": "units/guara/infantry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "siege_incediary_archer",
+			"template": "units/guara/siege_incediary_archer_packed",
+			"siege": true,
+			"ram": false,
+			"baseTemplate": "units/guara/siege_incediary_archer_packed",
+			"name": "Fire Archer",
+			"specificName": "",
+			"icon": "units/guara/siege_incediary_archer_packed.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 110.0,
+				"armor": 15.5,
+				"melee": 0.0,
+				"ranged": 3.33,
+				"range": 70.0,
+				"speed": 12.0
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/guara/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/guara/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "",
+			"icon": "units/guara/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 300.0,
+				"armor": 12.5,
+				"melee": 40.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 6.0
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/guara/hero_01",
+			"name": "Mburuvicha Marangatu",
+			"icon": "units/guara/hero_01.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/guara/hero_02",
+			"name": "Karai Tume Arandu",
+			"icon": "units/guara/hero_02.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/guara/hero_03",
+			"name": "Tuvicha Japeusa",
+			"icon": "units/guara/hero_03.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"high_priest": {
+			"name": "High Priest",
+			"cost": 160,
+			"upkeep": 8,
+			"template": "units/guara/tw/att_high_priest",
+			"baseTemplate": "units/guara/champion_healer",
+			"unitName": "Great Shaman",
+			"icon": "units/guara/champion_healer.png"
+		},
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/guara/tw/att_priest",
+			"baseTemplate": "units/guara/support_healer_b",
+			"unitName": "Guarani Shaman",
+			"icon": "units/guara/support_healer.png"
+		}
+	}
+}

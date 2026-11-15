@@ -1,0 +1,421 @@
+{
+	"civ": "lusi",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/lusi/tw/cavalry_javelineer",
+			"memberTemplate": "units/lusi/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/lusi/cavalry_javelineer_b",
+			"name": "Cavalry Javelineer",
+			"specificName": "Epones Aieste",
+			"icon": "units/lusi/cavalry_javelineer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "cavalry_scout",
+			"template": "units/lusi/tw/cavalry_scout",
+			"memberTemplate": "units/lusi/tw/m_cavalry_scout",
+			"baseTemplate": "units/lusi/cavalry_scout",
+			"name": "Scout Mount Swordsman",
+			"specificName": "Lusitanians Scout",
+			"icon": "units/lusi/cavalry_scout.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 8.4,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 20.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/lusi/tw/cavalry_spearman",
+			"memberTemplate": "units/lusi/tw/m_cavalry_spearman",
+			"baseTemplate": "units/lusi/cavalry_spearman_b",
+			"name": "Cavalry Spearman",
+			"specificName": "Epones Pretre",
+			"icon": "units/lusi/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "cavalry_swordsman_merc",
+			"template": "units/lusi/tw/cavalry_swordsman_merc",
+			"memberTemplate": "units/lusi/tw/m_cavalry_swordsman_merc",
+			"baseTemplate": "units/lusi/veton/cavalry_swordsman_merc_b",
+			"name": "Veton Mercenary Cavalry",
+			"specificName": "Epones Secias",
+			"icon": "units/cart/cavalry_swordsman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/lusi/tw/champion_cavalry",
+			"memberTemplate": "units/lusi/tw/m_champion_cavalry",
+			"baseTemplate": "units/lusi/champion_cavalry",
+			"name": "Champion Cavalry Spearman",
+			"specificName": "Leial Zalduneria",
+			"icon": "units/lusi/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 17.6,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "champion_cavalry_bandoleiro",
+			"template": "units/lusi/tw/champion_cavalry_bandoleiro",
+			"memberTemplate": "units/lusi/tw/m_champion_cavalry_bandoleiro",
+			"baseTemplate": "units/lusi/champion_cavalry_bandoleiro",
+			"name": "Champion Cavalry Javelineer",
+			"specificName": "Bandoleiro",
+			"icon": "units/iber/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 240.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 13.33,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "champion_infantry",
+			"template": "units/lusi/tw/champion_infantry",
+			"memberTemplate": "units/lusi/tw/m_champion_infantry",
+			"baseTemplate": "units/lusi/champion_infantry",
+			"name": "Noble Infantry",
+			"specificName": "Arimo",
+			"icon": "units/lusi/champion_infantry.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 200.0,
+				"armor": 6.0,
+				"melee": 21.33,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "champion_infantry_guerrilha",
+			"template": "units/lusi/tw/champion_infantry_guerrilha",
+			"memberTemplate": "units/lusi/tw/m_champion_infantry_guerrilha",
+			"baseTemplate": "units/lusi/champion_infantry_guerrilha",
+			"name": "Guerrilla Javelineer",
+			"specificName": "Arimo",
+			"icon": "units/lusi/champion_infantry_guerrilha.png",
+			"category": "champion_infantry",
+			"size": 16,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 290,
+			"upkeep": 23,
+			"building": "fortress",
+			"level": "city",
+			"stats": {
+				"hp": 120.0,
+				"armor": 3.0,
+				"melee": 0.0,
+				"ranged": 21.33,
+				"range": 30.0,
+				"speed": 10.45
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/lusi/tw/infantry_javelineer",
+			"memberTemplate": "units/lusi/tw/m_infantry_javelineer",
+			"baseTemplate": "units/lusi/infantry_javelineer_b",
+			"name": "Infantry Javelineer",
+			"specificName": "Iovanan",
+			"icon": "units/lusi/infantry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_slinger",
+			"template": "units/lusi/tw/infantry_slinger",
+			"memberTemplate": "units/lusi/tw/m_infantry_slinger",
+			"baseTemplate": "units/lusi/infantry_slinger_b",
+			"name": "Slinger",
+			"specificName": "Trokalobutiam",
+			"icon": "units/lusi/infantry_slinger.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/lusi/tw/infantry_spearman",
+			"memberTemplate": "units/lusi/tw/m_infantry_spearman",
+			"baseTemplate": "units/lusi/infantry_spearman_b",
+			"name": "Spearman",
+			"specificName": "Scortamareva",
+			"icon": "units/lusi/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman",
+			"template": "units/lusi/tw/infantry_swordsman",
+			"memberTemplate": "units/lusi/tw/m_infantry_swordsman",
+			"baseTemplate": "units/lusi/infantry_swordsman_b",
+			"name": "Swordsman",
+			"specificName": "Caetranan",
+			"icon": "units/lusi/infantry_swordsman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordswoman",
+			"template": "units/lusi/tw/infantry_swordswoman",
+			"memberTemplate": "units/lusi/tw/m_infantry_swordswoman",
+			"baseTemplate": "units/lusi/infantry_swordswoman",
+			"name": "Swordsman",
+			"specificName": "Petanim Cori",
+			"icon": "units/lusi/swordwoman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "fortress",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "siege_ram",
+			"template": "units/lusi/siege_ram",
+			"siege": true,
+			"ram": true,
+			"baseTemplate": "units/lusi/siege_ram",
+			"name": "Battering Ram",
+			"specificName": "Ahariburu",
+			"icon": "units/lusi/siege_ram.png",
+			"category": "siege",
+			"size": 2,
+			"cost": 120,
+			"upkeep": 10,
+			"building": "siege_workshop",
+			"level": "town",
+			"stats": {
+				"hp": 400.0,
+				"armor": 21.0,
+				"melee": 100.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 7.2
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/lusi/hero_apimano",
+			"name": "Apimano",
+			"icon": "units/lusi/hero_apimano.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/lusi/hero_kaisaros",
+			"name": "Kaisaros",
+			"icon": "units/lusi/hero_kaisaros.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/lusi/hero_viriato",
+			"name": "Viriato",
+			"icon": "units/lusi/hero_viriato.png",
+			"cavalry": true
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/lusi/tw/att_priest",
+			"baseTemplate": "units/lusi/support_healer_b",
+			"unitName": "Ampiula",
+			"icon": "units/lusi/support_healer.png"
+		}
+	}
+}

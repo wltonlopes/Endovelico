@@ -1,0 +1,227 @@
+{
+	"civ": "macrob",
+	"units": [
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/macrob/tw/cavalry_javelineer",
+			"memberTemplate": "units/macrob/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/macrob/cavalry_javelineer_b",
+			"name": "Macrobian Light Cavalry",
+			"specificName": "Fardooley",
+			"icon": "units/macrob/cavalry_javelineer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 12.0,
+				"range": 30.0,
+				"speed": 16.2
+			}
+		},
+		{
+			"key": "champion_cavalry",
+			"template": "units/macrob/tw/champion_cavalry",
+			"memberTemplate": "units/macrob/tw/m_champion_cavalry",
+			"baseTemplate": "units/macrob/champion_cavalry",
+			"name": "Macrobian Noble Cavalry",
+			"specificName": "",
+			"icon": "units/macrob/champion_cavalry.png",
+			"category": "champion_cavalry",
+			"size": 10,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "stable",
+			"level": "city",
+			"stats": {
+				"hp": 260.0,
+				"armor": 5.5,
+				"melee": 24.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/macrob/tw/infantry_archer",
+			"memberTemplate": "units/macrob/tw/m_infantry_archer",
+			"baseTemplate": "units/macrob/infantry_archer_b",
+			"name": "Macrobian Archer",
+			"specificName": "Qaansoley",
+			"icon": "units/macrob/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_clubman_merc",
+			"template": "units/macrob/tw/infantry_clubman_merc",
+			"memberTemplate": "units/macrob/tw/m_infantry_clubman_merc",
+			"baseTemplate": "units/macrob/infantry_clubman_merc",
+			"name": "Tribal Clubman",
+			"specificName": "",
+			"icon": "units/macrob/infantry_clubman_merc.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 280,
+			"upkeep": 22,
+			"building": "market",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 4.5,
+				"melee": 10.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_slinger_merc",
+			"template": "units/macrob/tw/infantry_slinger_merc",
+			"memberTemplate": "units/macrob/tw/m_infantry_slinger_merc",
+			"baseTemplate": "units/macrob/infantry_slinger_merc",
+			"name": "Tribal Herdsman Slinger",
+			"specificName": "",
+			"icon": "units/macrob/infantry_slinger_merc.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 270,
+			"upkeep": 22,
+			"building": "market",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 45.0,
+				"speed": 10.8
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/macrob/tw/infantry_spearman",
+			"memberTemplate": "units/macrob/tw/m_infantry_spearman",
+			"baseTemplate": "units/macrob/infantry_spearman_b",
+			"name": "Macrobian Spearman",
+			"specificName": "Warmaley",
+			"icon": "units/macrob/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_swordsman_merc",
+			"template": "units/macrob/tw/infantry_swordsman_merc",
+			"memberTemplate": "units/macrob/tw/m_infantry_swordsman_merc",
+			"baseTemplate": "units/macrob/infantry_swordsman_merc",
+			"name": "Cushitic Swordsman",
+			"specificName": "Seefley",
+			"icon": "units/macrob/infantry_swordsman_merc.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "market",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 10.67,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/macrob/hero_01",
+			"name": "Boqorad Haramaanyo",
+			"icon": "units/macrob/hero_01.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/macrob/hero_02",
+			"name": "Boqorad Caraweelo",
+			"icon": "units/macrob/hero_02.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/macrob/hero_03",
+			"name": "Boqor Keenadiid",
+			"icon": "units/macrob/hero_03.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/macrob/tw/att_priest",
+			"baseTemplate": "units/macrob/support_healer_b",
+			"unitName": "Waaq Priest",
+			"icon": "units/macrob/support_healer.png"
+		}
+	}
+}

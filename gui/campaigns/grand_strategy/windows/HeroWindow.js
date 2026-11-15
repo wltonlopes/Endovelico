@@ -28,20 +28,27 @@ class HeroDetailsWindow
 		Engine.GetGUIObjectByName("heroMovesBar").size =
 			`0 0 ${Math.max(0, Math.min(100, Math.round(100 * hero.actionsLeft / cap)))}% 100%`;
 
-		Engine.GetGUIObjectByName("doAttack").enabled = hero.canAttack(province.code);
-		Engine.GetGUIObjectByName("doAttack").onPress = () =>
-		{
-			const battle = hero.doAttack(province.code);
-			if (!battle)
-				return;
+		const sieged = Object.keys(g_GameData.provinces).find(code => g_GameData.provinces[code].siege?.heroId == hero.id);
+		Engine.GetGUIObjectByName("heroArmyText").caption = coloredText("Army: ", "235 200 120") + hero.getArmySummary() +
+			(twSiegeEngines(hero.battalions) ? ", " + twSiegeEngines(hero.battalions) + " siege engines" : "") + "\n" +
+			(sieged ? coloredText("Besieging " + g_GameData.provinces[sieged].getName() + ": turn " + g_GameData.provinces[sieged].siege.turns +
+				", " + g_GameData.provinces[sieged].siege.rams + " rams built", "255 170 100") :
+				coloredText("Upkeep: ", "235 200 120") + twArmyUpkeep(hero.battalions) + " gold/turn");
+		Engine.GetGUIObjectByName("heroArmyButton").onPress = () => this.menu.windows.Army.open();
 
-			this.menu.closePageCallback({
-				[Engine.openRequest]:
-				{
-					page: "page_loading.xml",
-					argument: battle
-				}
-			});
+		// Atacar: a província onde está (se não for dele) ou a selecionada, se vizinha.
+		const selected = this.menu.selectedProvince;
+		const target = hero.canAttack(province.code) ? province.code :
+			selected !== -1 && hero.canAttack(selected) ? selected : undefined;
+		const attackButton = Engine.GetGUIObjectByName("doAttack");
+		attackButton.enabled = target !== undefined;
+		attackButton.caption = target !== undefined ? "Attack " + g_GameData.provinces[target].getName() : "Attack Province";
+		attackButton.tooltip = "Select a neighbouring province you are at war with (or unclaimed land) and attack it with this army.";
+		attackButton.onPress = () =>
+		{
+			const battle = hero.doAttack(target);
+			if (battle)
+				this.menu.windows.Battle.open(battle);
 		};
 
 		Engine.GetGUIObjectByName("strengthenGarrison").enabled = hero.canStrengthen(province.code);

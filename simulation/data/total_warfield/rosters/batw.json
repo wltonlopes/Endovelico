@@ -1,0 +1,234 @@
+{
+	"civ": "batw",
+	"units": [
+		{
+			"key": "cavalry_axeman",
+			"template": "units/batw/tw/cavalry_axeman",
+			"memberTemplate": "units/batw/tw/m_cavalry_axeman",
+			"baseTemplate": "units/batw/cavalry_axeman_b",
+			"name": "Leopard Warrior",
+			"specificName": "",
+			"icon": "units/batw/cavalry_axeman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "stable",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 6.65
+			}
+		},
+		{
+			"key": "cavalry_javelineer",
+			"template": "units/batw/tw/cavalry_javelineer",
+			"memberTemplate": "units/batw/tw/m_cavalry_javelineer",
+			"baseTemplate": "units/batw/cavalry_javelineer_b",
+			"name": "Harpoon Hunter",
+			"specificName": "",
+			"icon": "units/batw/cavalry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "stable",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 7.98
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/batw/tw/infantry_archer",
+			"memberTemplate": "units/batw/tw/m_infantry_archer",
+			"baseTemplate": "units/batw/infantry_archer_b",
+			"name": "Batwa Archer",
+			"specificName": "",
+			"icon": "units/batw/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_axeman",
+			"template": "units/batw/tw/infantry_axeman",
+			"memberTemplate": "units/batw/tw/m_infantry_axeman",
+			"baseTemplate": "units/batw/infantry_axeman_b",
+			"name": "Batwa Axeman",
+			"specificName": "",
+			"icon": "units/batw/infantry_axeman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_maceman",
+			"template": "units/batw/tw/infantry_maceman",
+			"memberTemplate": "units/batw/tw/m_infantry_maceman",
+			"baseTemplate": "units/batw/infantry_maceman_b",
+			"name": "Batwa Clubman",
+			"specificName": "",
+			"icon": "units/batw/infantry_maceman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 140,
+			"upkeep": 11,
+			"building": "barracks",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 2.5,
+				"melee": 12.0,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		},
+		{
+			"key": "infantry_scout",
+			"template": "units/batw/tw/infantry_scout",
+			"memberTemplate": "units/batw/tw/m_infantry_scout",
+			"baseTemplate": "units/batw/infantry_scout",
+			"name": "Batwa Scout",
+			"specificName": "",
+			"icon": "units/batw/infantry_scout.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 250,
+			"upkeep": 20,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 4.0,
+				"range": 60.0,
+				"speed": 15.0
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/batw/tw/infantry_spearman",
+			"memberTemplate": "units/batw/tw/m_infantry_spearman",
+			"baseTemplate": "units/batw/infantry_spearman_b",
+			"name": "Batwa Spearman",
+			"specificName": "",
+			"icon": "units/batw/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "barracks",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/batw/hero_01",
+			"name": "Umukuru",
+			"icon": "units/batw/hero_01.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/batw/hero_02",
+			"name": "Umuhigi",
+			"icon": "units/batw/hero_02.png",
+			"cavalry": false
+		},
+		{
+			"template": "units/batw/hero_03",
+			"name": "Umukecuru",
+			"icon": "units/batw/hero_03.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"high_priest": {
+			"name": "High Priest",
+			"cost": 160,
+			"upkeep": 8,
+			"template": "units/batw/tw/att_high_priest",
+			"baseTemplate": "units/batw/champion_healer",
+			"unitName": "Forest Diviner",
+			"icon": "units/batw/champion_healer.png"
+		},
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/batw/tw/att_priest",
+			"baseTemplate": "units/batw/support_healer_b",
+			"unitName": "Batwa Healer",
+			"icon": "units/batw/support_healer.png"
+		}
+	}
+}

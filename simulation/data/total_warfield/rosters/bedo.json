@@ -1,0 +1,200 @@
+{
+	"civ": "bedo",
+	"units": [
+		{
+			"key": "camelry_archer",
+			"template": "units/bedo/tw/camelry_archer",
+			"memberTemplate": "units/bedo/tw/m_camelry_archer",
+			"baseTemplate": "units/bedo/camelry_archer_b",
+			"name": "Bedouin Camel Archer",
+			"specificName": "Rakkāb",
+			"icon": "units/bedo/camelry_archer.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "fortress",
+			"level": "town",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 6.0,
+				"range": 60.0,
+				"speed": 13.005
+			}
+		},
+		{
+			"key": "camelry_scout",
+			"template": "units/bedo/tw/camelry_scout",
+			"memberTemplate": "units/bedo/tw/m_camelry_scout",
+			"baseTemplate": "units/bedo/camelry_scout",
+			"name": "Bedouin Camel Scout",
+			"specificName": "",
+			"icon": "units/kush/merc_cavalry_1.png",
+			"category": "cavalry_ranged",
+			"size": 12,
+			"charge": false,
+			"brace": false,
+			"stealth": false,
+			"formations": [],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 1.5,
+				"melee": 0.0,
+				"ranged": 8.4,
+				"range": 30.0,
+				"speed": 17.0
+			}
+		},
+		{
+			"key": "cavalry_spearman",
+			"template": "units/bedo/tw/cavalry_spearman",
+			"memberTemplate": "units/bedo/tw/m_cavalry_spearman",
+			"baseTemplate": "units/bedo/cavalry_spearman_b",
+			"name": "Bedouin Lancer",
+			"specificName": "Fāris",
+			"icon": "units/bedo/cavalry_spearman.png",
+			"category": "cavalry_melee",
+			"size": 12,
+			"charge": true,
+			"brace": false,
+			"stealth": false,
+			"formations": [
+				"wedge"
+			],
+			"cost": 150,
+			"upkeep": 12,
+			"building": "none",
+			"level": "town",
+			"stats": {
+				"hp": 160.0,
+				"armor": 3.0,
+				"melee": 9.2,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 18.0
+			}
+		},
+		{
+			"key": "infantry_archer",
+			"template": "units/bedo/tw/infantry_archer",
+			"memberTemplate": "units/bedo/tw/m_infantry_archer",
+			"baseTemplate": "units/bedo/infantry_archer_b",
+			"name": "Bedouin Archer",
+			"specificName": "Rāmī",
+			"icon": "units/bedo/infantry_archer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "range",
+			"level": "town",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 5.76,
+				"range": 60.0,
+				"speed": 10.3
+			}
+		},
+		{
+			"key": "infantry_javelineer",
+			"template": "units/bedo/tw/infantry_javelineer",
+			"memberTemplate": "units/bedo/tw/m_infantry_javelineer",
+			"baseTemplate": "units/bedo/infantry_javelineer_b",
+			"name": "Bedouin Skirmisher",
+			"specificName": "",
+			"icon": "units/bedo/infantry_javelineer.png",
+			"category": "infantry_ranged",
+			"size": 20,
+			"charge": false,
+			"brace": false,
+			"stealth": true,
+			"formations": [],
+			"cost": 170,
+			"upkeep": 14,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 50.0,
+				"armor": 1.0,
+				"melee": 0.0,
+				"ranged": 10.67,
+				"range": 30.0,
+				"speed": 11.4
+			}
+		},
+		{
+			"key": "infantry_spearman",
+			"template": "units/bedo/tw/infantry_spearman",
+			"memberTemplate": "units/bedo/tw/m_infantry_spearman",
+			"baseTemplate": "units/bedo/infantry_spearman_b",
+			"name": "Bedouin Spearman",
+			"specificName": "Rammāḥ",
+			"icon": "units/bedo/infantry_spearman.png",
+			"category": "infantry_melee",
+			"size": 24,
+			"charge": false,
+			"brace": true,
+			"stealth": false,
+			"formations": [],
+			"cost": 200,
+			"upkeep": 16,
+			"building": "none",
+			"level": "village",
+			"stats": {
+				"hp": 100.0,
+				"armor": 3.0,
+				"melee": 8.5,
+				"ranged": 0.0,
+				"range": 0.0,
+				"speed": 9.5
+			}
+		}
+	],
+	"heroes": [
+		{
+			"template": "units/bedo/hero_01",
+			"name": "Hudād",
+			"icon": "units/kush/hero_nastasen.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/bedo/hero_02",
+			"name": "Ḥāritat",
+			"icon": "units/kush/hero_nastasen.png",
+			"cavalry": true
+		},
+		{
+			"template": "units/bedo/hero_03",
+			"name": "ʿObodat",
+			"icon": "units/kush/hero_amanirenas.png",
+			"cavalry": false
+		}
+	],
+	"attachments": {
+		"priest": {
+			"name": "Priest",
+			"cost": 80,
+			"upkeep": 4,
+			"template": "units/bedo/tw/att_priest",
+			"baseTemplate": "units/bedo/support_healer_b",
+			"unitName": "Dhu-Samawi Priest",
+			"icon": "units/bedo/support_healer.png"
+		}
+	}
+}

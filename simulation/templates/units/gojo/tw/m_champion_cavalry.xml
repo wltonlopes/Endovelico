@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/gojo/champion_cavalry. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_member|units/gojo/champion_cavalry">
+  <Identity>
+    <SelectionGroupName>units/gojo/tw/champion_cavalry</SelectionGroupName>
+  </Identity>
+</Entity>

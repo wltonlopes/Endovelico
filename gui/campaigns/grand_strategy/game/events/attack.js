@@ -1,6 +1,8 @@
 /**
- * 'attack' is a special event that requires user interaction,
- * and happens when the player gets attacked by external forces.
+ * 'attack': um general inimigo ataca uma província (ou um general) do
+ * jogador. O jogador escolhe resolver na hora ou comandar a batalha de
+ * campo (Total Warfield, game/Battle.js). data.battle é a descrição da
+ * batalha (TWBattle.create).
  */
 class GSAttack extends GSEvent
 {
@@ -14,100 +16,82 @@ class GSAttack extends GSEvent
 	{
 		return true;
 	}
-//
-	getAutoresolveChance() {
-		let province =
-			g_GameData.provinces[this.data.target];
 
-		// Base chance: 50%
-		let chance = 50;
-
-		// Each garrison level adds 4.5%
-		chance += province.garrison * 4.5;
-
-		// Future expansion:
-		// if (province.isCapital)
-		//     chance += 5;
-		
-		if (g_GameData.playerHero.location == province.code)
-		    chance += 5;
-
-		return Math.min(chance, 95);
-
-	}
-
-	getAutoresolveTooltip() {
-		return sprintf(
-			"Current chance of victory: %(chance)s%%",
-			{
-				"chance":
-					Math.round(
-						this.getAutoresolveChance()
-					)
-			}
-		);
-	}
-
-autoResolve()
-{
-	let province =
-		g_GameData.provinces[this.data.target];
-
-	let attacker =
-		g_GameData.tribes[this.data.attacker];
-
-	let chance =
-		this.getAutoresolveChance();
-
-	let roll =
-		randIntInclusive(1, 100);
-
-	// Defensores vencem
-	if (roll <= chance)
+	getBattle()
 	{
-		warn(
-			"The defenders of " +
-			province.getName() +
-			" successfully repelled an attack."
-		);
-
-		this.processed = true;
-		return;
+		// Eventos antigos (sem batalha): o atacante é o primeiro general dele.
+		if (!this.data.battle)
+		{
+			const hero = g_GameData.tribes[this.data.attacker]?.generals[0];
+			if (hero)
+				this.data.battle = TWBattle.create(hero, this.data.target);
+		}
+		return this.data.battle;
 	}
 
-	let defender = province.ownerTribe;
-
-	province.setOwner(this.data.attacker);
-
-	let stillAlive = false;
-
-	province.setOwner(this.data.attacker);
-	
-	if (g_GameData.checkGameOver())
+	getAutoresolveTooltip()
 	{
-		this.processed = true;
-		return;
+		const battle = this.getBattle();
+		if (!battle)
+			return "";
+		return sprintf("Chance of victory: %(chance)s%%", { "chance": Math.round(100 * TWBattle.getPlayerChance(battle)) });
 	}
 
-	this.processed = true;
-}
-//
+	autoResolve()
+	{
+		const battle = this.getBattle();
+		this.processed = true;
+		if (!battle || !TWBattle.getHero(battle.attacker))
+			return;
+		const outcome = TWBattle.autoResolve(battle);
+		g_GameData.lastBattleReport = outcome;
+		g_GameData.save();
+		g_GameData.checkGameOver();
+	}
+
+	fight()
+	{
+		const battle = this.getBattle();
+		this.processed = true;
+		if (!battle || !TWBattle.getHero(battle.attacker))
+			return;
+		TWBattle.launch(battle, g_CampaignMenu.closePageCallback);
+	}
 
 	setupPanel(descObj, buttons)
 	{
-		let str = "My Lord! The enemy is at our gates!";
-		str += "\n%(attacker)s is attacking our lovely province of %(prov)s. What should we do?";
-		descObj.caption = sprintf(str, {
-			"attacker": g_GameData.tribes[this.data.attacker].getName(),
-			"prov": g_GameData.provinces[this.data.target].getName(),
+		const battle = this.getBattle();
+		const province = g_GameData.provinces[this.data.target];
+		let text = sprintf("My Lord! The enemy is at our gates!\n%(attacker)s is attacking %(prov)s.", {
+			"attacker": g_GameData.tribes[this.data.attacker]?.getName() || this.data.attacker,
+			"prov": province.getName()
 		});
-	return [ { "caption": "Auto-resolve", "tooltip": this.getAutoresolveTooltip(), "action": () => this.autoResolve(), }, { "caption": "Take Control", "tooltip": "This will start a Skirmish where you must win to defend your land.", "action": () => g_GameData.playOutAttack( this.data.attacker, this.data.target ), } ];
+		if (battle && TWBattle.getHero(battle.attacker))
+		{
+			const forces = TWBattle.getForces(battle);
+			text += "\n\n" + TWBattle.describeSide(battle.attacker, forces.attacker, battle) +
+				"\n\n" + TWBattle.describeSide(battle.defender, forces.defender, battle) +
+				"\n\n" + this.getAutoresolveTooltip();
+		}
+		descObj.caption = text;
+		return [
+			{
+				"caption": "Auto-resolve",
+				"tooltip": this.getAutoresolveTooltip(),
+				"action": () => this.autoResolve()
+			},
+			{
+				"caption": "Command the battle",
+				"tooltip": "Fight a field battle with your battalions. Survivors and losses carry over to the campaign.",
+				"action": () => this.fight()
+			}
+		];
 	}
 
 	getTickerText()
 	{
 		return sprintf("%(attacker)s attacked our province of %(prov)s", {
-			"attacker": g_GameData.tribes[this.data.attacker].getName(),
+			"attacker": g_GameData.tribes[this.data.attacker]?.getName() || this.data.attacker,
 			"prov": g_GameData.provinces[this.data.target].getName(),
 		});
 	}
