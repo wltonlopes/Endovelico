@@ -784,6 +784,62 @@ Trigger.prototype.TWResult = function(winner)
 	};
 };
 
+/**
+ * Fração dos soldados que o exército de `playerID` já perdeu (moral do
+ * exército, BattalionTactics.UpdateSlow). Guardada por 2 s.
+ */
+Trigger.prototype.TWArmyLossFraction = function(playerID)
+{
+	const time = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer).GetTime();
+	if (!this.twLossCache || time - this.twLossCache.time > 2000)
+	{
+		const status = this.TWGetBattleStatus();
+		const losses = {};
+		for (const player in status && status.sides || {})
+		{
+			const side = status.sides[player];
+			losses[player] = side.initial > 0 ? Math.max(0, 1 - (side.alive + side.escaped) / side.initial) : 0;
+		}
+		this.twLossCache = { "time": time, "losses": losses };
+	}
+	return this.twLossCache.losses[playerID] || 0;
+};
+
+/**
+ * Relatório por batalhão (fim da batalha): nome, abates, soldados no início
+ * e agora. As linhas nascem em BattalionTactics.GetStatsEntry.
+ */
+Trigger.prototype.TWBattleReport = function()
+{
+	const live = {};
+	const numPlayers = Engine.QueryInterface(SYSTEM_ENTITY, IID_PlayerManager).GetNumPlayers();
+	for (let playerID = 1; playerID < numPlayers; ++playerID)
+		for (const ent of this.TWLeadersOf(playerID))
+		{
+			// Só lê (a interface chama isto): as linhas já existem desde o primeiro tick.
+			const cmpTactics = Engine.QueryInterface(ent, IID_BattalionTactics);
+			if (cmpTactics && cmpTactics.statKey !== undefined)
+				live[cmpTactics.statKey] = { "strength": Engine.QueryInterface(ent, IID_BattalionLeader).GetStrength(), "routing": cmpTactics.IsRouting() };
+		}
+	const report = {};
+	for (const key in this.twStats || {})
+	{
+		const entry = this.twStats[key];
+		const now = live[key];
+		const escaped = this.twEscaped && this.twEscaped[key];
+		(report[entry.player] || (report[entry.player] = [])).push({
+			"name": entry.name,
+			"kills": entry.kills,
+			"initial": entry.initial,
+			"strength": now ? now.strength : 0,
+			"state": now ? now.routing ? "routing" : "field" : escaped ? "fled" : "destroyed"
+		});
+	}
+	for (const player in report)
+		report[player].sort((a, b) => b.kills - a.kills);
+	return report;
+};
+
 /** Placar para a interface. */
 Trigger.prototype.TWGetBattleStatus = function()
 {
@@ -814,7 +870,9 @@ Trigger.prototype.TWGetBattleStatus = function()
 		// destino que ele já escolheu para ela.
 		"conquest": this.twSettings && this.twSettings.conquest,
 		"conquestChoice": this.twConquestChoice,
-		"winner": this.twFinalResult && this.twFinalResult.winner };
+		"winner": this.twFinalResult && this.twFinalResult.winner,
+		// Relatório só no fim (é caro para cada atualização da interface).
+		"report": this.twFinished ? this.TWBattleReport() : undefined };
 };
 
 /**
@@ -1218,9 +1276,32 @@ Trigger.prototype.TWDirectorTick = function()
 		};
 		const ranged = mine.filter(isRangedUnit);
 		const cavalry = mine.filter(ent => !isRangedUnit(ent) && ["cavalry_melee", "champion_cavalry"].indexOf(category(ent)) != -1);
-		const infantry = mine.filter(ent => ranged.indexOf(ent) == -1 && cavalry.indexOf(ent) == -1);
+		let infantry = mine.filter(ent => ranged.indexOf(ent) == -1 && cavalry.indexOf(ent) == -1);
 		// Exércitos já misturados (centros próximos): cada um caça o seu.
 		const engaged = gap < 100;
+
+		this.TWDirectorOptions(playerID, mine, waiting && defending, order);
+		this.TWDirectorAbilities(playerID, mine, targets, order);
+
+		// Reserva: um quarto da infantaria fica atrás até a linha precisar
+		// (batalhão abalado ou em fuga, inimigo perto, ou depois de 2 min).
+		const reserve = this.TWDirectorReserve(playerID, infantry, enemyCenter, time);
+		if (reserve.length)
+		{
+			infantry = infantry.filter(ent => reserve.indexOf(ent) == -1);
+			const front = infantry.length ? this.TWCenterOf(infantry) : myCenter;
+			const goal = Vector2D.sub(front, Vector2D.mult(toEnemy, 35));
+			for (const ent of reserve)
+			{
+				if (this.TWIsBusy(ent))
+					continue;
+				const nearest = this.TWNearest(this.TWPosition(ent), targets);
+				if (nearest.ent && nearest.distance < 40)
+					attack(ent, nearest.ent);
+				else if (!waiting && this.TWPosition(ent).distanceTo(goal) > 20)
+					order([ent], { "type": "walk", "x": goal.x, "z": goal.y, "queued": false, "pushFront": false });
+			}
+		}
 
 		// Infantaria: carga quando perto; senão avança em linha (ou, com os
 		// exércitos misturados, vai atrás do inimigo mais próximo).
@@ -1293,7 +1374,18 @@ Trigger.prototype.TWDirectorTick = function()
 				continue;
 			}
 			const isRanged = e => ["infantry_ranged", "cavalry_ranged"].indexOf(Engine.QueryInterface(e, IID_BattalionLeader)?.GetCategory()) != -1;
-			let target = this.TWNearest(pos, enemies, isRanged);
+			// General inimigo sozinho (sem batalhão perto): alvo da cavalaria.
+			let target = { "ent": undefined, "distance": Infinity };
+			for (const hero of enemyHeroes)
+			{
+				const heroPos = this.TWPosition(hero);
+				if (!heroPos || pos.distanceTo(heroPos) > 250 || enemies.some(e => this.TWPosition(e)?.distanceTo(heroPos) < 30))
+					continue;
+				if (pos.distanceTo(heroPos) < target.distance)
+					target = { "ent": hero, "distance": pos.distanceTo(heroPos) };
+			}
+			if (!target.ent)
+				target = this.TWNearest(pos, enemies, isRanged);
 			if (!target.ent)
 				target = this.TWNearest(pos, enemies, e => this.TWIsBusy(e));
 			if (!target.ent)
@@ -1328,6 +1420,93 @@ Trigger.prototype.TWDirectorTick = function()
 			}
 		}
 	}
+};
+
+/**
+ * Opções dos batalhões da IA: carga em ciclo na cavalaria; o defensor que
+ * espera fica em guarda (não sai da linha atrás de quem passa perto).
+ */
+Trigger.prototype.TWDirectorOptions = function(playerID, mine, holding, order)
+{
+	if (!this.twAIConfigured)
+		this.twAIConfigured = {};
+	for (const ent of mine)
+	{
+		const cmpTactics = Engine.QueryInterface(ent, IID_BattalionTactics);
+		if (!cmpTactics)
+			continue;
+		const available = cmpTactics.GetAvailableOptions();
+		if (!this.twAIConfigured[ent])
+		{
+			this.twAIConfigured[ent] = true;
+			if (available.indexOf("cycleCharge") != -1)
+				order([ent], { "type": "battalion-option", "option": "cycleCharge", "value": true });
+		}
+		if (!!cmpTactics.options.guard != holding && !cmpTactics.IsRangedBattalion())
+			order([ent], { "type": "battalion-option", "option": "guard", "value": holding });
+	}
+};
+
+/**
+ * Habilidades da IA: o general reagrupa quem foge perto dele e inspira
+ * quando dois ou mais batalhões lutam por perto; a infantaria de choque
+ * dá o grito de guerra quando o inimigo chega a 30 m.
+ */
+Trigger.prototype.TWDirectorAbilities = function(playerID, mine, targets, order)
+{
+	const general = this.twGenerals && this.twGenerals[playerID];
+	if (general && this.TWGeneralAlive(playerID))
+	{
+		const pos = this.TWPosition(general.ent);
+		const near = mine.filter(ent => this.TWPosition(ent)?.distanceTo(pos) < 60);
+		const all = this.TWLeadersOf(playerID).filter(ent => this.TWPosition(ent)?.distanceTo(pos) < 60);
+		if (all.some(ent => this.TWIsRouting(ent) && !Engine.QueryInterface(ent, IID_BattalionTactics).IsShattered()) &&
+			!TWGeneralAbilityCooldown(general.ent, "rally"))
+			order([general.ent], { "type": "battalion-ability", "ability": "rally" });
+		else if (near.filter(ent => Engine.QueryInterface(ent, IID_BattalionTactics)?.IsEngaged()).length >= 2 &&
+			!TWGeneralAbilityCooldown(general.ent, "inspire"))
+			order([general.ent], { "type": "battalion-ability", "ability": "inspire" });
+	}
+	for (const ent of mine)
+	{
+		const cmpTactics = Engine.QueryInterface(ent, IID_BattalionTactics);
+		if (!cmpTactics || !cmpTactics.CanWarCry())
+			continue;
+		const nearest = this.TWNearest(this.TWPosition(ent), targets);
+		if (nearest.ent && nearest.distance < 30)
+			order([ent], { "type": "battalion-ability", "ability": "warCry" });
+	}
+};
+
+/** Batalhões de infantaria guardados como reserva (vazio depois de liberados). */
+Trigger.prototype.TWDirectorReserve = function(playerID, infantry, enemyCenter, time)
+{
+	if (!this.twReserve)
+		this.twReserve = {};
+	let state = this.twReserve[playerID];
+	if (!state)
+	{
+		if (time < TW_AI_DEPLOY_TIME || infantry.length < 4)
+			return [];
+		const byDistance = infantry.slice().sort((a, b) =>
+			this.TWPosition(b).distanceTo(enemyCenter) - this.TWPosition(a).distanceTo(enemyCenter));
+		state = this.twReserve[playerID] = { "ents": byDistance.slice(0, Math.floor(infantry.length / 4)), "since": time, "released": false };
+	}
+	if (state.released)
+		return [];
+	const reserve = state.ents.filter(ent => infantry.indexOf(ent) != -1);
+	const line = this.TWLeadersOf(playerID).filter(ent => reserve.indexOf(ent) == -1);
+	const trouble = line.some(ent => {
+		const cmpTactics = Engine.QueryInterface(ent, IID_BattalionTactics);
+		return cmpTactics && (cmpTactics.IsRouting() || cmpTactics.GetMoraleState() != "steady");
+	});
+	const close = reserve.some(ent => this.TWPosition(ent)?.distanceTo(enemyCenter) < 60);
+	if (!reserve.length || trouble || close || time - state.since > 120)
+	{
+		state.released = true;
+		return [];
+	}
+	return reserve;
 };
 
 /**

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>6</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="0.9" depth="2.5"/>
+    <Height>2.1</Height>
+  </Footprint>
+  <Health>
+    <Max>20</Max>
+  </Health>
+  <Identity>
+    <GenericName>Caracal</GenericName>
+    <SpecificName>Caracal caracal</SpecificName>
+    <Icon>gaia/fauna_caracal.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.1</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/caracal.xml</Actor>
+  </VisualActor>
+</Entity>

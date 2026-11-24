@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.1" depth="2.0"/>
+    <Height>1.7</Height>
+  </Footprint>
+  <Health>
+    <Max>6</Max>
+  </Health>
+  <Identity>
+    <GenericName>Southern Ground Hornbill</GenericName>
+    <SpecificName>Bucorvus leadbeateri</SpecificName>
+    <Icon>gaia/fauna_hornbill_ground.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>50</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/hornbill_ground.xml</Actor>
+  </VisualActor>
+</Entity>

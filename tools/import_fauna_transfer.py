@@ -97,6 +97,34 @@ ANIMALS = {
 	"heron_gray": ("garza real", [], "chicken", "turkey_to_chicken", ["garza real"]),
 	"goose_greylag": ("ganso.002", [], "chicken", "turkey_to_chicken", ["ganso.002"]),
 	"mallard_02": ("ánade", [], "chicken", "turkey_to_chicken", ["ánade"]),
+	# African catalog ("NOVO-fauna actualizada 2.blend")
+	"addax": ("Adax MACHO", [], "wolf", "own", ["Adax MACHO"]),
+	"addax_female": ("Adax HEMBRA", [], "wolf", "own", ["Adax HEMBRA"]),
+	"eland": ("Eland MACHO", [], "wolf", "own", ["Eland MACHO"]),
+	"eland_female": ("Eland HEMBRA", [], "wolf", "own", ["Eland HEMBRA"]),
+	"kudu": ("Kudus MACHO", [], "wolf", "own", ["Kudus MACHO"]),
+	"kudu_female": ("Kudus hembra", [], "wolf", "own", ["Kudus hembra"]),
+	"topi": ("topi", [], "wolf", "own", ["topi"]),
+	"warthog": ("facoquero", ["facoquero colmillo"], "animal_boar", "own", ["facoquero"]),
+	"aardvark": ("Cerdo hormiguero", [], "animal_boar", "transfer", ["Cerdo hormiguero"]),
+	"caracal": ("caracal", [], "tiger", "own", ["caracal"]),
+	"wild_dog_african": ("licaon", [], "wolf", "hyena_to_wolf", ["licaon"]),
+	"meerkat": ("suricata", [], "wolf", "hyena_to_wolf", ["suricata"]),
+	"monitor_nile": ("Varano.003", [], "Croc", "own", ["Varano.003"]),
+	"porcupine_crested": ("puerco espin", [], "bear", "own", ["puerco espin"]),
+	"baboon": ("babuino MACHO", [], "bear", "transfer", ["babuino MACHO"]),
+	"baboon_female": ("babuino HEMBRA", [], "bear", "transfer", ["babuino HEMBRA"]),
+	"mandrill": ("Mandrill MACHO", [], "bear", "transfer", ["Mandrill MACHO"]),
+	"mandrill_female": ("Mandrill HEMBRA", [], "bear", "transfer", ["Mandrill HEMBRA"]),
+	"vervet": ("Vervet", [], "bear", "transfer", ["Vervet"]),
+	"bonobo": ("bonovo", [], "bear", "transfer", ["bonovo"]),
+	"gorilla_female": ("gorila HEMBRA", [], "bear", "transfer", ["gorila HEMBRA"]),
+	"guineafowl": ("Gallina de Guinea", [], "chicken", "transfer", ["Gallina de Guinea"]),
+	"peafowl_congo": ("afropavo MACHO", [], "chicken", "transfer", ["afropavo MACHO"]),
+	"peafowl_congo_female": ("afropavo HEMBRA", [], "chicken", "transfer", ["afropavo HEMBRA"]),
+	"crane_crowned": ("grulla coronada", [], "chicken", "turkey_to_chicken", ["grulla coronada"]),
+	"marabou": ("marabú", [], "chicken", "turkey_to_chicken", ["marabú"]),
+	"hornbill_ground": ("Cálao terrestre", [], "chicken", "turkey_to_chicken", ["Cálao terrestre"]),
 }
 
 
@@ -119,12 +147,14 @@ TRANSFER_WARP = {
 # the animal's, otherwise the top of long legs would get the weights of the base animal's chest.
 # "profile" also matches the height of the shoulders and chest apart from the hips and groin, for
 # animals whose back slopes (a gorilla stands high in front on its long arms).
-ANATOMY_WARP = {"cheetah": "belly", "leopard": "belly", "leopard_snow": "belly", "gorilla": "profile"}
+ANATOMY_WARP = {"cheetah": "belly", "leopard": "belly", "leopard_snow": "belly", "gorilla": "profile",
+	"baboon": "profile", "baboon_female": "profile", "mandrill": "profile", "mandrill_female": "profile",
+	"vervet": "profile", "bonobo": "profile", "gorilla_female": "profile"}
 
 # Birds weighted on the turkey rig carry the whole visible leg on one bone; the leg is re-weighted by
 # height so that it bends at the ankle (the joint halfway down an ostrich's leg).
 BIRD_LEGS = {"ostrich", "ostrich_female", "rhea", "stork_white", "flamingo_greater", "egret_little", "heron_gray",
-	"goose_greylag", "mallard_02"}
+	"goose_greylag", "mallard_02", "crane_crowned", "marabou", "hornbill_ground"}
 
 # Animations kept on the ground frame by frame (actor: regex on the animation file name): the
 # crocodile's death rolls onto its side and jumps, which on the tall, heavy walrus would put half the

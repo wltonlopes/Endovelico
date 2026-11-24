@@ -31,7 +31,9 @@ from import_fauna_catalog import MOD, read_pmd  # noqa: E402
 
 ACTORS = ["ostrich", "ostrich_female", "rhea",
 	# Lusitania catalog: wading and water birds on the same chicken skeleton.
-	"stork_white", "flamingo_greater", "egret_little", "heron_gray", "goose_greylag", "mallard_02"]
+	"stork_white", "flamingo_greater", "egret_little", "heron_gray", "goose_greylag", "mallard_02",
+	# African catalog.
+	"crane_crowned", "marabou", "hornbill_ground"]
 BONES = ["Body", "Neck_Low", "Neck_High", "Head", "Leg_L", "Shin_L", "Foot_L", "Leg_R", "Shin_R", "Foot_R",
 	"Rear", "Tail", "Wing_R", "WingTip_R", "Wing_L", "WingTip_L"]
 B = {name: i for i, name in enumerate(BONES)}

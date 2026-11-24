@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="0.8" depth="1.0"/>
+    <Height>1.8</Height>
+  </Footprint>
+  <Health>
+    <Max>2</Max>
+  </Health>
+  <Identity>
+    <GenericName>Meerkat</GenericName>
+    <SpecificName>Suricata suricatta</SpecificName>
+    <Icon>gaia/fauna_meerkat.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>10</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/meerkat.xml</Actor>
+  </VisualActor>
+</Entity>

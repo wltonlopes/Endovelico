@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_gazelle">
+  <Footprint>
+    <Square width="1.5" depth="4.3"/>
+    <Height>4.3</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <GenericName>Common Eland Cow</GenericName>
+    <SpecificName>Taurotragus oryx</SpecificName>
+    <Icon>gaia/fauna_eland_female.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>250</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>5.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/eland_female.xml</Actor>
+  </VisualActor>
+</Entity>

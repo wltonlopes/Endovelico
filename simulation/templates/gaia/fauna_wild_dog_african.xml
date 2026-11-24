@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_wolf">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>7</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.0" depth="2.8"/>
+    <Height>2.5</Height>
+  </Footprint>
+  <Health>
+    <Max>30</Max>
+  </Health>
+  <Identity>
+    <GenericName>African Wild Dog</GenericName>
+    <SpecificName>Lycaon pictus</SpecificName>
+    <Icon>gaia/fauna_wild_dog_african.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>3.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/wild_dog_african.xml</Actor>
+  </VisualActor>
+</Entity>

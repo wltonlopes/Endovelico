@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>6</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.3" depth="2.0"/>
+    <Height>2.1</Height>
+  </Footprint>
+  <Health>
+    <Max>30</Max>
+  </Health>
+  <Identity>
+    <GenericName>Mandrill</GenericName>
+    <SpecificName>Mandrillus sphinx</SpecificName>
+    <Icon>gaia/fauna_mandrill.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>80</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>3.1</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/mandrill.xml</Actor>
+  </VisualActor>
+</Entity>

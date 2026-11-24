@@ -30,6 +30,18 @@ BattalionLeader.prototype.UPDATE_INTERVAL = 500;
 BattalionLeader.prototype.CATCH_UP_DISTANCE = 5;
 /** Tolerância para não reenviar a mesma ordem de andar (m). */
 BattalionLeader.prototype.REORDER_TOLERANCE = 1.0;
+/**
+ * Luta em formação: soldado das fileiras da frente só ataca inimigo a até
+ * REACH m dele (atirador: alcance da arma); em combate, quem se afasta mais
+ * que LEASH m do seu lugar volta para a formação (não persegue sozinho).
+ */
+BattalionLeader.prototype.MELEE_REACH = 12;
+BattalionLeader.prototype.GUARD_REACH = 5;
+BattalionLeader.prototype.MELEE_LEASH = 18;
+BattalionLeader.prototype.GUARD_LEASH = 6;
+BattalionLeader.prototype.CAVALRY_LEASH = 35;
+/** Largura mínima da frente (soldados) ao formar por linha arrastada. */
+BattalionLeader.prototype.MIN_FRONTAGE = 2;
 
 BattalionLeader.prototype.Init = function()
 {
@@ -51,6 +63,10 @@ BattalionLeader.prototype.Init = function()
 	this.pendingAttachments = [];
 	// Última direção conhecida (radianos, como Position.GetRotation().y).
 	this.facing = undefined;
+	// Soldados por fileira escolhidos pelo jogador (linha arrastada).
+	this.frontage = undefined;
+	this.pendingFacing = undefined;
+	this.nextSkirmish = 0;
 
 	Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer).SetInterval(this.entity, IID_BattalionLeader,
 		"UpdateBattalion", this.UPDATE_INTERVAL, this.UPDATE_INTERVAL, null);
@@ -194,11 +210,19 @@ BattalionLeader.prototype.GetAttachmentSlot = function(leaderPos, angle, k, memb
 	return { "x": leaderPos.x + localX * cos + localY * sin, "y": leaderPos.y - localX * sin + localY * cos };
 };
 
-/** Tipos de acompanhante ainda vivos. */
+/**
+ * Tipos de acompanhante ainda vivos. Só lê (a interface também chama):
+ * quem arruma a formação é o tick do batalhão (CleanupMembers).
+ */
 BattalionLeader.prototype.GetAttachmentKinds = function()
 {
-	this.CleanupMembers();
-	return this.attachments.map(a => a.kind);
+	return (this.attachments || []).filter(a => this.IsAlive(a.ent)).map(a => a.kind);
+};
+
+BattalionLeader.prototype.IsAlive = function(ent)
+{
+	const cmpHealth = Engine.QueryInterface(ent, IID_Health);
+	return !!cmpHealth && cmpHealth.GetHitpoints() > 0;
 };
 
 // ------------------------------------------------ formação
@@ -211,7 +235,7 @@ BattalionLeader.prototype.GetFormationShape = function(memberCount)
 	const cmpTactics = Engine.QueryInterface(this.entity, IID_BattalionTactics);
 	const override = cmpTactics ? cmpTactics.GetFormationOverride(memberCount) : { "columns": null, "spacingScale": 1 };
 	return {
-		"columns": Math.max(1, Math.min(memberCount, override.columns || this.columns)),
+		"columns": Math.max(1, Math.min(memberCount, override.columns || this.frontage || this.columns)),
 		"spacing": this.spacing * (override.spacingScale || 1),
 		"shape": override.shape
 	};
@@ -262,6 +286,23 @@ BattalionLeader.prototype.GetSlotPosition = function(leaderPos, angle, index, me
 	};
 };
 
+/** Soldados por fileira pedidos para uma frente de `width` m (linha arrastada). */
+BattalionLeader.prototype.SetFrontageWidth = function(width)
+{
+	const count = Math.max(1, this.members.length);
+	const columns = Math.round(width / this.spacing);
+	this.frontage = Math.max(Math.min(this.MIN_FRONTAGE, count), Math.min(count, columns));
+};
+
+/** Fileira (0 = a da frente) do soldado no lugar `slotIndex`. */
+BattalionLeader.prototype.GetRank = function(slotIndex, memberCount)
+{
+	const shape = this.GetFormationShape(memberCount);
+	if (shape.shape == "wedge" || shape.shape == "staggered")
+		return Math.floor(Math.sqrt(slotIndex + 1)) - 1;
+	return Math.floor(slotIndex / shape.columns);
+};
+
 /** Largura da frente do batalhão (m), para espalhar grupos em linha. */
 BattalionLeader.prototype.GetFrontWidth = function()
 {
@@ -302,15 +343,29 @@ BattalionLeader.prototype.UpdateFacing = function(cmpPosition)
 {
 	const cmpUnitAI = Engine.QueryInterface(this.entity, IID_UnitAI);
 	const cmpUnitMotion = Engine.QueryInterface(this.entity, IID_UnitMotion);
-	if (this.facing === undefined || cmpUnitMotion && cmpUnitMotion.IsMoveRequested() || cmpUnitAI && this.IsInCombat(cmpUnitAI))
+	const moving = cmpUnitMotion && cmpUnitMotion.IsMoveRequested();
+	const fighting = cmpUnitAI && this.IsInCombat(cmpUnitAI);
+	if (this.facing === undefined || moving || fighting)
 		this.facing = cmpPosition.GetRotation().y;
+	// Chegou: vira para a direção pedida (linha arrastada, escaramuça).
+	if (!moving && !fighting && this.pendingFacing !== undefined)
+	{
+		this.facing = this.pendingFacing;
+		this.pendingFacing = undefined;
+		cmpPosition.TurnTo(this.facing);
+	}
+	else if (fighting)
+		this.pendingFacing = undefined;
 	return this.facing;
 };
 
-/** Direção final pedida por um comando de movimento em linha. */
+/** Direção final pedida por um comando de movimento em linha (vale ao chegar). */
 BattalionLeader.prototype.SetFacing = function(angle)
 {
-	this.facing = angle;
+	this.pendingFacing = angle;
+	const cmpUnitMotion = Engine.QueryInterface(this.entity, IID_UnitMotion);
+	if (!cmpUnitMotion || !cmpUnitMotion.IsMoveRequested())
+		this.facing = angle;
 };
 
 BattalionLeader.prototype.UpdateBattalion = function()
@@ -326,10 +381,13 @@ BattalionLeader.prototype.UpdateBattalion = function()
 
 	this.Engage();
 	this.UpdateDaggers(cmpPosition.GetPosition2D());
+	this.UpdateSkirmish(cmpPosition.GetPosition2D());
 
 	const leaderPos = cmpPosition.GetPosition2D();
 	const angle = this.UpdateFacing(cmpPosition);
-	const charging = !!Engine.QueryInterface(this.entity, IID_BattalionTactics)?.IsRunningIn();
+	const cmpTactics = Engine.QueryInterface(this.entity, IID_BattalionTactics);
+	const charging = !!cmpTactics?.IsRunningIn();
+	const leash = this.GetLeash(cmpTactics);
 	Engine.QueryInterface(this.entity, IID_UnitMotion)?.SetSpeedMultiplier(charging ?
 		Engine.QueryInterface(this.entity, IID_UnitMotion).GetRunMultiplier() : 1);
 	const count = this.members.length;
@@ -343,15 +401,20 @@ BattalionLeader.prototype.UpdateBattalion = function()
 		if (!cmpMemberPosition || !cmpMemberPosition.IsInWorld() || !cmpUnitAI)
 			continue;
 
+		const target = this.GetSlotPosition(leaderPos, angle, slotIndex, count);
+
 		// Combate é do próprio soldado; a formação espera ele terminar.
-		// Na carga, todos vêm correndo.
+		// Na carga, todos vêm correndo. Quem se afasta demais do seu lugar
+		// (perseguindo alguém) larga o alvo e volta para a formação.
 		if (this.IsInCombat(cmpUnitAI))
 		{
 			cmpUnitMotion?.SetSpeedMultiplier(charging ? cmpUnitMotion.GetRunMultiplier() : 1);
+			const away = cmpMemberPosition.GetPosition2D().distanceTo(new Vector2D(target.x, target.y));
+			if (!charging && cmpUnitAI.order.type == "Attack" && away > leash && !this.IsRangedAttack(cmpUnitAI))
+				cmpUnitAI.Stop(false);
 			continue;
 		}
 
-		const target = this.GetSlotPosition(leaderPos, angle, slotIndex, count);
 		const distance = cmpMemberPosition.GetPosition2D().distanceTo(new Vector2D(target.x, target.y));
 		if (cmpUnitMotion)
 			cmpUnitMotion.SetSpeedMultiplier(distance > this.CATCH_UP_DISTANCE ? cmpUnitMotion.GetRunMultiplier() : 1);
@@ -387,6 +450,80 @@ BattalionLeader.prototype.UpdateBattalion = function()
 
 // ------------------------------------------------ combate
 
+BattalionLeader.prototype.IsRangedAttack = function(cmpUnitAI)
+{
+	return !!cmpUnitAI && !!cmpUnitAI.order && !!cmpUnitAI.order.data && cmpUnitAI.order.data.attackType == "Ranged";
+};
+
+/** Até onde um soldado em combate pode se afastar do seu lugar (m). */
+BattalionLeader.prototype.GetLeash = function(cmpTactics)
+{
+	if (cmpTactics && cmpTactics.options.guard)
+		return this.GUARD_LEASH;
+	const cmpIdentity = Engine.QueryInterface(this.entity, IID_Identity);
+	if (cmpIdentity && (cmpIdentity.HasClass("Cavalry") || cmpIdentity.HasClass("Elephant")))
+		return this.CAVALRY_LEASH;
+	return this.MELEE_LEASH;
+};
+
+/**
+ * Escaramuça (atiradores com munição): inimigo corpo a corpo chegando perto
+ * faz o batalhão recuar, para continuar atirando de longe.
+ */
+BattalionLeader.prototype.UpdateSkirmish = function(pos)
+{
+	const cmpTactics = Engine.QueryInterface(this.entity, IID_BattalionTactics);
+	if (!cmpTactics || !cmpTactics.options.skirmish || !cmpTactics.HasAmmo() || cmpTactics.IsRouting() || cmpTactics.IsEngaged())
+		return;
+	const time = cmpTactics.GetTime();
+	if (time < this.nextSkirmish)
+		return;
+	const owner = Engine.QueryInterface(this.entity, IID_Ownership)?.GetOwner();
+	const cmpDiplomacy = owner > 0 && QueryPlayerIDInterface(owner, IID_Diplomacy);
+	if (!cmpDiplomacy)
+		return;
+	const cmpRangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
+	const radius = cmpTactics.SKIRMISH_RANGE + this.GetDepth() + this.GetFrontWidth() / 2;
+	const away = new Vector2D(0, 0);
+	let threats = 0;
+	for (const ent of cmpRangeManager.ExecuteQueryAroundPos(pos, 0, radius, cmpDiplomacy.GetEnemies().filter(p => p > 0), IID_UnitAI, false))
+	{
+		const leader = GetBattalionLeaderEntity(ent);
+		if (leader == INVALID_ENTITY)
+			continue;
+		const cmpOther = Engine.QueryInterface(leader, IID_BattalionTactics);
+		// Só foge de quem vem para o corpo a corpo: não está fugindo nem
+		// já preso lutando com outro batalhão.
+		if (!cmpOther || cmpOther.IsRouting() || cmpOther.IsRangedBattalion() || cmpOther.IsEngaged())
+			continue;
+		const enemyPos = Engine.QueryInterface(ent, IID_Position)?.GetPosition2D();
+		if (!enemyPos)
+			continue;
+		const d = Vector2D.sub(pos, enemyPos);
+		if (d.length() > 0.01)
+		{
+			away.add(d.normalize());
+			++threats;
+		}
+	}
+	if (!threats || away.length() < 0.01)
+		return;
+	this.nextSkirmish = time + cmpTactics.SKIRMISH_INTERVAL;
+	away.normalize();
+	const mapSize = Engine.QueryInterface(SYSTEM_ENTITY, IID_Terrain).GetMapSize();
+	const x = Math.max(4, Math.min(mapSize - 4, pos.x + away.x * cmpTactics.SKIRMISH_STEP));
+	const z = Math.max(4, Math.min(mapSize - 4, pos.y + away.y * cmpTactics.SKIRMISH_STEP));
+	for (const ent of this.members)
+	{
+		const cmpUnitAI = Engine.QueryInterface(ent, IID_UnitAI);
+		if (cmpUnitAI && this.IsInCombat(cmpUnitAI))
+			cmpUnitAI.Stop(false);
+	}
+	Engine.QueryInterface(this.entity, IID_UnitAI)?.Walk(x, z, false, false);
+	// Ao parar, vira de novo para o inimigo.
+	this.SetFacing(Math.atan2(-away.x, -away.y));
+};
+
 /** Alvo de ataque atual de uma UnitAI, se for um ataque. */
 BattalionLeader.prototype.GetAttackTarget = function(cmpUnitAI)
 {
@@ -398,10 +535,14 @@ BattalionLeader.prototype.GetAttackTarget = function(cmpUnitAI)
 };
 
 /**
- * O batalhão luta junto: quando o líder ou um soldado está atacando, quem
- * estiver parado ou andando em formação ataca o mesmo batalhão inimigo,
- * cada um o soldado inimigo mais próximo ainda pouco visado. Batalhões em
- * fuga não se engajam, nem em postura passiva.
+ * O batalhão luta junto e em formação (como no Total War): quando o líder
+ * ou um soldado está atacando, o batalhão vai contra o mesmo batalhão
+ * inimigo, mas só os soldados das fileiras da frente (BattalionTactics.
+ * GetFightingRanks) entram no corpo a corpo, cada um contra o inimigo mais
+ * próximo ao seu alcance ainda pouco visado. Os de trás esperam no lugar
+ * (lutam só com quem chegar neles) e sobem quando alguém da frente cai.
+ * Batalhões em fuga não se engajam; em guarda, ninguém sai do lugar; sem
+ * fogo à vontade (passivo), só com ordem de ataque do jogador.
  */
 BattalionLeader.prototype.Engage = function()
 {
@@ -409,11 +550,15 @@ BattalionLeader.prototype.Engage = function()
 	if (cmpTactics && cmpTactics.IsRouting())
 		return;
 	const cmpLeaderAI = Engine.QueryInterface(this.entity, IID_UnitAI);
-	if (!cmpLeaderAI || cmpLeaderAI.GetStanceName() == "passive")
+	if (!cmpLeaderAI)
+		return;
+	const ordered = this.GetAttackTarget(cmpLeaderAI) != INVALID_ENTITY;
+	if (cmpLeaderAI.GetStanceName() == "passive" && !ordered)
 		return;
 	// Ordem de andar (do jogador, recuo): ninguém volta para a luta.
 	if (cmpLeaderAI.order && cmpLeaderAI.order.type == "Walk")
 		return;
+	const guard = !!cmpTactics && cmpTactics.options.guard;
 
 	let target = this.GetAttackTarget(cmpLeaderAI);
 	if (target == INVALID_ENTITY)
@@ -426,8 +571,9 @@ BattalionLeader.prototype.Engage = function()
 	if (target == INVALID_ENTITY)
 		return;
 
-	// Líder parado enquanto os soldados lutam: entra também.
-	if (cmpLeaderAI.IsIdle() && cmpLeaderAI.CanAttack(target))
+	// Líder parado enquanto os soldados lutam: entra também (puxando a
+	// formação). Em guarda ele segura a posição.
+	if (!guard && cmpLeaderAI.IsIdle() && cmpLeaderAI.CanAttack(target))
 		cmpLeaderAI.Attack(target, false, false, false);
 
 	// Carga: batalhão com carga indo contra outro batalhão a uma distância
@@ -457,19 +603,31 @@ BattalionLeader.prototype.Engage = function()
 			load.set(current, load.get(current) + 1);
 	}
 	const positions = new Map(targets.map(ent => [ent, Engine.QueryInterface(ent, IID_Position).GetPosition2D()]));
-	for (const ent of this.members)
-	{
+	const ranks = cmpTactics ? cmpTactics.GetFightingRanks() : Infinity;
+	const charging = !!cmpTactics && cmpTactics.IsRunningIn();
+	const count = this.members.length;
+	this.members.forEach((ent, slotIndex) => {
 		const cmpUnitAI = Engine.QueryInterface(ent, IID_UnitAI);
 		const cmpPosition = Engine.QueryInterface(ent, IID_Position);
 		if (!cmpUnitAI || !cmpPosition || !cmpPosition.IsInWorld() || this.IsInCombat(cmpUnitAI))
-			continue;
+			return;
+		// Fileiras de trás esperam (na carga, todos vêm juntos).
+		if (!charging && this.GetRank(slotIndex, count) >= ranks)
+			return;
 		const pos = cmpPosition.GetPosition2D();
+		const cmpAttack = Engine.QueryInterface(ent, IID_Attack);
+		const ranged = !!cmpAttack && cmpAttack.GetAttackTypes().indexOf("Ranged") != -1;
+		const reach = ranged ? (cmpAttack.GetRange("Ranged")?.max || 30) + 2 :
+			guard ? this.GUARD_REACH : charging ? Infinity : this.MELEE_REACH;
 		let best = INVALID_ENTITY;
 		let bestScore = Infinity;
 		for (const candidate of targets)
 		{
+			const distance = pos.distanceTo(positions.get(candidate));
+			if (distance > reach)
+				continue;
 			// Cada soldado já visando o alvo vale 6 m a mais de distância.
-			const score = pos.distanceTo(positions.get(candidate)) + 6 * load.get(candidate);
+			const score = distance + 6 * load.get(candidate);
 			if (score < bestScore && cmpUnitAI.CanAttack(candidate))
 			{
 				bestScore = score;
@@ -477,10 +635,10 @@ BattalionLeader.prototype.Engage = function()
 			}
 		}
 		if (best == INVALID_ENTITY)
-			continue;
+			return;
 		load.set(best, load.get(best) + 1);
 		cmpUnitAI.Attack(best, false, false, false);
-	}
+	});
 };
 
 /** Distância (m) em que o atirador saca a faca, e em que volta ao arco. */
@@ -535,7 +693,9 @@ BattalionLeader.prototype.UpdateDaggers = function(leaderPos)
 			if (cmpUnitAI && nearest != INVALID_ENTITY)
 				cmpUnitAI.Attack(nearest, false, false, false);
 		}
-		else if (cmpAttack.IsDaggerMode() && best > this.DAGGER_SHEATHE_RANGE)
+		// Sem munição a faca fica na mão.
+		else if (cmpAttack.IsDaggerMode() && best > this.DAGGER_SHEATHE_RANGE &&
+			(Engine.QueryInterface(this.entity, IID_BattalionTactics)?.HasAmmo() ?? true))
 		{
 			cmpAttack.SetDaggerMode(false);
 			// A ordem de faca não vale mais: volta a escolher alvo (atirando).
@@ -575,13 +735,30 @@ BattalionLeader.prototype.StopAll = function()
 
 // ------------------------------------------------ soldados
 
+/**
+ * Tira os mortos. O lugar de quem caiu é ocupado pelo soldado da última
+ * fileira (a frente se refaz com quem está atrás, como no Total War), sem
+ * embaralhar o resto da formação.
+ */
 BattalionLeader.prototype.CleanupMembers = function()
 {
 	const alive = ent => {
 		const cmpHealth = Engine.QueryInterface(ent, IID_Health);
 		return cmpHealth && cmpHealth.GetHitpoints() > 0;
 	};
-	this.members = this.members.filter(alive);
+	const members = this.members.slice();
+	for (let i = 0; i < members.length; ++i)
+	{
+		if (alive(members[i]))
+			continue;
+		while (members.length - 1 > i && !alive(members[members.length - 1]))
+			members.pop();
+		if (members.length - 1 > i)
+			members[i] = members.pop();
+		else
+			members.length = i;
+	}
+	this.members = members;
 	this.attachments = (this.attachments || []).filter(a => alive(a.ent));
 };
 
@@ -594,9 +771,7 @@ BattalionLeader.prototype.GetBattalionEntities = function()
 /** Soldados vivos, contando o líder. */
 BattalionLeader.prototype.GetStrength = function()
 {
-	this.CleanupMembers();
-	const cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
-	return this.members.length + (cmpHealth && cmpHealth.GetHitpoints() > 0 ? 1 : 0);
+	return this.members.filter(ent => this.IsAlive(ent)).length + (this.IsAlive(this.entity) ? 1 : 0);
 };
 
 BattalionLeader.prototype.GetMaxStrength = function()
@@ -661,6 +836,8 @@ BattalionLeader.prototype.OnDestroy = function()
 	cmpNewLeader.currentXp = this.currentXp;
 	cmpNewLeader.campaignId = this.campaignId;
 	cmpNewLeader.facing = this.facing;
+	cmpNewLeader.frontage = this.frontage;
+	cmpNewLeader.pendingFacing = this.pendingFacing;
 	cmpNewLeader.members = this.members.filter(ent => ent != successor);
 	cmpNewLeader.attachments = this.attachments;
 

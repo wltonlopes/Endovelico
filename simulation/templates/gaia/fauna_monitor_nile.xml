@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_fox_red">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>5</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.5" depth="3.6"/>
+    <Height>0.8</Height>
+  </Footprint>
+  <Health>
+    <Max>20</Max>
+  </Health>
+  <Identity>
+    <GenericName>Nile Monitor</GenericName>
+    <SpecificName>Varanus niloticus</SpecificName>
+    <Icon>gaia/fauna_monitor_nile.png</Icon>
+  </Identity>
+  <StatusBars>
+    <HeightOffset>1.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/monitor_nile.xml</Actor>
+  </VisualActor>
+</Entity>

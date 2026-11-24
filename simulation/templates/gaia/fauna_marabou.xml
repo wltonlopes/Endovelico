@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.3" depth="2.4"/>
+    <Height>2.9</Height>
+  </Footprint>
+  <Health>
+    <Max>8</Max>
+  </Health>
+  <Identity>
+    <GenericName>Marabou Stork</GenericName>
+    <SpecificName>Leptoptilos crumenifer</SpecificName>
+    <Icon>gaia/fauna_marabou.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>3.9</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/marabou.xml</Actor>
+  </VisualActor>
+</Entity>

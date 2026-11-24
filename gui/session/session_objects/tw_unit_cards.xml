@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cartões de unidade (Total Warfield): um por batalhão do jogador, acima do
+     painel de baixo, com retrato, soldados, moral, vigor e munição.
+     Clique seleciona, Shift+clique soma, duplo clique leva a câmera.
+     gui/session/tw_unit_cards.js preenche. -->
+<object name="twUnitCards" size="50%-484 100%-262 50%+484 100%-208" hidden="true">
+	<repeat count="22">
+		<object name="twCard[n]" size="0 0 40 54" type="button" style="iconButton" tooltip_style="sessionToolTipBottom" hidden="true">
+			<object name="twCardIcon[n]" size="1 1 39 37" type="image" ghost="true"/>
+			<object name="twCardSelected[n]" size="0 0 40 38" type="image" ghost="true" sprite="color: 255 255 255 70" hidden="true"/>
+			<object name="twCardEngaged[n]" size="28 2 38 12" type="image" ghost="true" sprite="color: 230 60 50 230" hidden="true"/>
+			<object name="twCardStrength[n]" size="0 22 40 38" type="text" ghost="true" font="sans-stroke-12" text_align="center" textcolor="white"/>
+			<object name="twCardMoraleBg[n]" size="1 39 39 43" type="image" ghost="true" sprite="color: 20 20 20 220"/>
+			<object name="twCardMorale[n]" size="1 39 39 43" type="image" ghost="true"/>
+			<object name="twCardVigorBg[n]" size="1 44 39 48" type="image" ghost="true" sprite="color: 20 20 20 220"/>
+			<object name="twCardVigor[n]" size="1 44 39 48" type="image" ghost="true" sprite="color: 225 200 60 255"/>
+			<object name="twCardAmmoBg[n]" size="1 49 39 53" type="image" ghost="true" sprite="color: 20 20 20 220"/>
+			<object name="twCardAmmo[n]" size="1 49 39 53" type="image" ghost="true" sprite="color: 200 130 70 255"/>
+		</object>
+	</repeat>
+	<object name="twSlowMotion" size="100%-44 8 100% 46" type="button" style="iconButton" tooltip_style="sessionToolTipBottom" hidden="true">
+		<object name="twSlowMotionLabel" type="text" ghost="true" font="sans-bold-stroke-14" text_align="center" text_valign="center" textcolor="white"/>
+	</object>
+</object>

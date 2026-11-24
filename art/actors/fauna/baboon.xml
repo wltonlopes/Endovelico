@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/baboon.xml" name="Base">
+      <mesh>skeletal/fauna/baboon.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="baboon" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/baboon.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

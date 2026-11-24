@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>4</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.0" depth="2.2"/>
+    <Height>1.7</Height>
+  </Footprint>
+  <Health>
+    <Max>22</Max>
+  </Health>
+  <Identity>
+    <GenericName>Olive Baboon Female</GenericName>
+    <SpecificName>Papio anubis</SpecificName>
+    <Icon>gaia/fauna_baboon_female.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>60</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/baboon_female.xml</Actor>
+  </VisualActor>
+</Entity>

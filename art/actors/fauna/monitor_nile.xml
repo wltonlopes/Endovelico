@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="fauna/monitor_nile.xml" name="Base">
+      <mesh>skeletal/fauna/monitor_nile.pmd</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="monitor_nile" frequency="1">
+      <textures>
+        <texture file="skeletal/fauna/monitor_nile.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

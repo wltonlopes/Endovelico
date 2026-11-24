@@ -83,6 +83,53 @@ function TWLinePositions(leaders, x, z, facingAngle)
 	});
 }
 
+/**
+ * Linha arrastada com vários batalhões: do primeiro ao último ponto, cada
+ * batalhão recebe um trecho de largura igual (menos os vãos), com a frente
+ * ajustada a esse trecho, virado para o lado em que o grupo avança.
+ * @return {Map} líder -> { "x", "z", "angle" }
+ */
+function TWDraggedLine(entities, targets)
+{
+	const result = new Map();
+	const entries = [];
+	entities.forEach((ent, i) => {
+		if (Engine.QueryInterface(ent, IID_BattalionLeader) && targets[i] && Engine.QueryInterface(ent, IID_Position)?.IsInWorld())
+			entries.push({ "ent": ent, "p": new Vector2D(+targets[i].x, +targets[i].y) });
+	});
+	if (entries.length < 2)
+		return result;
+	const start = entries[0].p;
+	const end = entries[entries.length - 1].p;
+	const along = Vector2D.sub(end, start);
+	const length = along.length();
+	if (length < 1)
+		return result;
+	along.div(length);
+	// Batalhões ocupam a linha toda: as pontas são as bordas, não os centros.
+	const slot = length / (entries.length - 1);
+	const total = length + slot;
+	const width = Math.max(2, (total - TW_LINE_GAP * (entries.length - 1)) / entries.length);
+	const from = Vector2D.sub(start, Vector2D.mult(along, slot / 2));
+
+	const center = entries.reduce((sum, e) => sum.add(Engine.QueryInterface(e.ent, IID_Position).GetPosition2D()), new Vector2D(0, 0)).div(entries.length);
+	const middle = Vector2D.add(start, end).div(2);
+	let normal = new Vector2D(along.y, -along.x);
+	if (Vector2D.sub(middle, center).dot(normal) < 0)
+		normal = normal.mult(-1);
+	const angle = Math.atan2(normal.x, normal.y);
+
+	entries.forEach((entry, k) => {
+		const cmpLeader = Engine.QueryInterface(entry.ent, IID_BattalionLeader);
+		cmpLeader.SetFrontageWidth(width);
+		const offset = k * (width + TW_LINE_GAP) + width / 2;
+		// O líder fica à frente das fileiras: o ponto é o meio da frente.
+		const spot = Vector2D.add(from, Vector2D.mult(along, offset));
+		result.set(entry.ent, { "x": spot.x, "z": spot.y, "angle": angle });
+	});
+	return result;
+}
+
 {
 	const twWalk = g_Commands.walk;
 	g_Commands.walk = function(player, cmd, data)
@@ -168,19 +215,25 @@ function TWLinePositions(leaders, x, z, facingAngle)
 			const split = TWSplitBattalions(data.entities);
 			if (type == "walk-custom" || type == "attack-walk-custom")
 			{
-				// Arrastar linha: cada batalhão vai para o seu ponto.
+				// Arrastar linha (como no Total War): os batalhões cobrem a
+				// linha inteira, lado a lado; o comprimento da linha decide a
+				// largura de cada frente (e o número de fileiras).
 				const targets = cmd.targetPositions || [];
+				const line = TWDraggedLine(data.entities || [], targets);
 				(data.entities || []).forEach((ent, i) => {
 					if (!Engine.QueryInterface(ent, IID_BattalionLeader) || !targets[i])
 						return;
+					const spot = line.get(ent) || { "x": targets[i].x, "z": targets[i].y };
 					const cmpUnitAI = Engine.QueryInterface(ent, IID_UnitAI);
 					if (type == "walk-custom")
 					{
 						TWDisengage(ent);
-						cmpUnitAI?.Walk(targets[i].x, targets[i].y, cmd.queued, cmd.pushFront);
+						cmpUnitAI?.Walk(spot.x, spot.z, cmd.queued, cmd.pushFront);
 					}
 					else
-						cmpUnitAI?.WalkAndFight(targets[i].x, targets[i].y, cmd.targetClasses, cmd.allowCapture, cmd.queued, cmd.pushFront);
+						cmpUnitAI?.WalkAndFight(spot.x, spot.z, cmd.targetClasses, cmd.allowCapture, cmd.queued, cmd.pushFront);
+					if (spot.angle !== undefined)
+						Engine.QueryInterface(ent, IID_BattalionLeader).SetFacing(spot.angle);
 				});
 				const others = (data.entities || []).filter(ent => !Engine.QueryInterface(ent, IID_BattalionLeader));
 				if (others.length)
@@ -225,6 +278,25 @@ function TWLinePositions(leaders, x, z, facingAngle)
 	{
 		for (const ent of TWSplitBattalions(data.entities).leaders)
 			Engine.QueryInterface(ent, IID_BattalionTactics)?.SetPosture(cmd.posture);
+	};
+
+	// Opções do batalhão: guard, skirmish, fireAtWill, fireArrows, cycleCharge.
+	g_Commands["battalion-option"] = function(player, cmd, data)
+	{
+		for (const ent of TWSplitBattalions(data.entities).leaders)
+			Engine.QueryInterface(ent, IID_BattalionTactics)?.SetOption(cmd.option, !!cmd.value);
+	};
+
+	// Habilidades: warCry (batalhões com TWWarCry), rally e inspire (general).
+	g_Commands["battalion-ability"] = function(player, cmd, data)
+	{
+		const split = TWSplitBattalions(data.entities);
+		if (cmd.ability == "warCry")
+			for (const ent of split.leaders)
+				Engine.QueryInterface(ent, IID_BattalionTactics)?.WarCry();
+		else
+			for (const ent of split.others)
+				TWUseGeneralAbility(ent, cmd.ability);
 	};
 }
 

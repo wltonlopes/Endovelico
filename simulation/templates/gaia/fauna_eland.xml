@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_gazelle">
+  <Footprint>
+    <Square width="1.7" depth="4.9"/>
+    <Height>4.9</Height>
+  </Footprint>
+  <Health>
+    <Max>60</Max>
+  </Health>
+  <Identity>
+    <GenericName>Common Eland Bull</GenericName>
+    <SpecificName>Taurotragus oryx</SpecificName>
+    <Icon>gaia/fauna_eland.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>300</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>5.9</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/eland.xml</Actor>
+  </VisualActor>
+</Entity>

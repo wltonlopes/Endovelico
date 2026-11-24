@@ -29,6 +29,45 @@ function TWAskBattleChoice()
 	});
 }
 
+var g_TWReportStates = {
+	"field": markForTranslation("on the field"),
+	"routing": markForTranslation("routing"),
+	"fled": markForTranslation("fled"),
+	"destroyed": markForTranslation("destroyed")
+};
+
+/**
+ * Relatório da batalha (Total War): os batalhões do jogador com mais abates,
+ * baixas de cada um e o total de abates de cada lado.
+ */
+function TWBattleReportText()
+{
+	const status = Engine.GuiInterfaceCall("TWGetBattleStatus", g_ViewedPlayer);
+	const report = status && status.report;
+	if (!report)
+		return "";
+	const lines = [];
+	const mine = report[Engine.GetPlayerID()] || [];
+	for (const row of mine.slice(0, 6))
+		lines.push(sprintf(translate("%(name)s: %(kills)s kills, %(strength)s / %(initial)s soldiers (%(state)s)"), {
+			"name": row.name,
+			"kills": row.kills,
+			"strength": row.strength,
+			"initial": row.initial,
+			"state": translate(g_TWReportStates[row.state])
+		}));
+	for (const player in report)
+	{
+		const kills = report[player].reduce((sum, row) => sum + row.kills, 0);
+		if (g_Players[player])
+			lines.push(sprintf(translate("%(player)s: %(kills)s kills in total"), {
+				"player": g_Players[player].name,
+				"kills": kills
+			}));
+	}
+	return lines.length ? lines.join("\n") + "\n\n" : "";
+}
+
 /**
  * Fim da batalha da campanha: no lugar do "Do you want to quit?" do jogo
  * (Stay / Summary / Quit), uma caixa só, que fecha a partida e volta ao
@@ -49,6 +88,7 @@ function TWPatchBattleEnd()
 		unregisterSimulationUpdateHandler(this.confirmHandler);
 		this.Title = won ? this.TitleVictory : this.TitleDefeated;
 		this.Caption = (won ? translate("The battle is won!") : translate("The battle is lost.")) + "\n\n" +
+			TWBattleReportText() +
 			(won ? translate("Return to the campaign map to see the outcome and decide the fate of the province.") :
 				translate("Return to the campaign map to see the outcome."));
 		this.Buttons = [{

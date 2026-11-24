@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>14</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="2.1" depth="2.3"/>
+    <Height>3.3</Height>
+  </Footprint>
+  <Health>
+    <Max>110</Max>
+  </Health>
+  <Identity>
+    <GenericName>Western Gorilla Female</GenericName>
+    <SpecificName>Gorilla gorilla</SpecificName>
+    <Icon>gaia/fauna_gorilla_female.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>250</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>4.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/gorilla_female.xml</Actor>
+  </VisualActor>
+</Entity>

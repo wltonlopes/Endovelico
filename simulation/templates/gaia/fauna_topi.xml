@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_gazelle">
+  <Footprint>
+    <Square width="1.3" depth="3.7"/>
+    <Height>3.7</Height>
+  </Footprint>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <GenericName>Topi</GenericName>
+    <SpecificName>Damaliscus lunatus jimela</SpecificName>
+    <Icon>gaia/fauna_topi.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>120</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>4.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/topi.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_rabbit">
+  <Footprint>
+    <Square width="1.1" depth="2.8"/>
+    <Height>1.4</Height>
+  </Footprint>
+  <Health>
+    <Max>15</Max>
+  </Health>
+  <Identity>
+    <GenericName>Aardvark</GenericName>
+    <SpecificName>Orycteropus afer</SpecificName>
+    <Icon>gaia/fauna_aardvark.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>80</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.4</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/aardvark.xml</Actor>
+  </VisualActor>
+</Entity>

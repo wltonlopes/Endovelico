@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Carga de infantaria pesada de choque (Total Warfield): corrida curta
-     antes do contato, choque com dano extra e moral abalado no alvo. -->
+     antes do contato, choque com dano extra e moral abalado no alvo.
+     Grito de guerra (TWWarCry): habilidade que abala os inimigos perto. -->
 <Entity>
   <BattalionTactics>
     <ChargeDamage>1.45</ChargeDamage>
@@ -8,6 +9,6 @@
     <ChargeSpeed>1.25</ChargeSpeed>
   </BattalionTactics>
   <Identity>
-    <Classes datatype="tokens">TWCharger</Classes>
+    <Classes datatype="tokens">TWCharger TWWarCry</Classes>
   </Identity>
 </Entity>

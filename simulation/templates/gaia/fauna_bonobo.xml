@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_boar">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>6</Hack>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Square width="1.2" depth="1.4"/>
+    <Height>1.7</Height>
+  </Footprint>
+  <Health>
+    <Max>45</Max>
+  </Health>
+  <Identity>
+    <GenericName>Bonobo</GenericName>
+    <SpecificName>Pan paniscus</SpecificName>
+    <Icon>gaia/fauna_bonobo.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>130</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.7</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/bonobo.xml</Actor>
+  </VisualActor>
+</Entity>

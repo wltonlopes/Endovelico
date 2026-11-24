@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_deer">
+  <Footprint>
+    <Square width="1.0" depth="2.1"/>
+    <Height>1.3</Height>
+  </Footprint>
+  <Health>
+    <Max>10</Max>
+  </Health>
+  <Identity>
+    <GenericName>Vervet Monkey</GenericName>
+    <SpecificName>Chlorocebus pygerythrus</SpecificName>
+    <Icon>gaia/fauna_vervet.png</Icon>
+  </Identity>
+  <ResourceSupply>
+    <Max>40</Max>
+  </ResourceSupply>
+  <StatusBars>
+    <HeightOffset>2.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>fauna/vervet.xml</Actor>
+  </VisualActor>
+</Entity>
