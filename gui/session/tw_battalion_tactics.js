@@ -75,27 +75,27 @@ var g_TWPostureOrder = ["normal", "line", "column", "loose", "wedge", "crane_win
 var g_TWOptions = {
 	"guard": {
 		"name": markForTranslation("Guard Mode"),
-		"sprite": "stretched:session/icons/stances/standground.png",
+		"sprite": "session/icons/stances/standground.png",
 		"description": markForTranslation("Hold the line: soldiers keep their places and do not chase the enemy.")
 	},
 	"skirmish": {
 		"name": markForTranslation("Skirmish Mode"),
-		"sprite": "stretched:session/icons/formations/skirmish.png",
+		"sprite": "session/icons/formations/skirmish.png",
 		"description": markForTranslation("Fall back when enemy melee troops come close, to keep shooting from a distance.")
 	},
 	"fireAtWill": {
 		"name": markForTranslation("Fire at Will"),
-		"sprite": "stretched:session/icons/stances/aggressive.png",
+		"sprite": "session/icons/stances/aggressive.png",
 		"description": markForTranslation("Shoot at any enemy in range. Off: hold fire until ordered to attack.")
 	},
 	"fireArrows": {
 		"name": markForTranslation("Fire Arrows"),
-		"sprite": "stretched:session/portraits/technologies/fire_arrows.png",
+		"sprite": "session/portraits/technologies/fire_arrows.png",
 		"description": markForTranslation("Burning arrows: triple damage against buildings and they frighten the enemy, but they are slower to shoot and a little weaker against troops.")
 	},
 	"cycleCharge": {
 		"name": markForTranslation("Cycle Charge"),
-		"sprite": "stretched:session/icons/formations/wedge.png",
+		"sprite": "session/icons/formations/wedge.png",
 		"description": markForTranslation("After the impact, the cavalry pulls back and charges again as soon as it can.")
 	}
 };
@@ -105,17 +105,17 @@ var g_TWOptionOrder = ["guard", "fireAtWill", "skirmish", "fireArrows", "cycleCh
 var g_TWAbilities = {
 	"warCry": {
 		"name": markForTranslation("War Cry"),
-		"sprite": "stretched:session/portraits/technologies/woad_warriors.png",
+		"sprite": "session/portraits/technologies/woad_warriors.png",
 		"description": markForTranslation("Shakes nearby enemy battalions and gives this battalion more attack and steadier morale for a while.")
 	},
 	"rally": {
 		"name": markForTranslation("Rally"),
-		"sprite": "stretched:session/icons/focus-rally.png",
+		"sprite": "session/icons/focus-rally.png",
 		"description": markForTranslation("The general rallies routing battalions nearby (if they can still rally) and restores the morale of the others.")
 	},
 	"inspire": {
 		"name": markForTranslation("Inspire"),
-		"sprite": "stretched:session/icons/promote.png",
+		"sprite": "session/icons/promote.png",
 		"description": markForTranslation("Battalions near the general lose half as much morale and hit harder for a while.")
 	}
 };
@@ -167,12 +167,12 @@ function TWSetupOptionButton(data)
 	data.button.enabled = controlsPlayer(data.player);
 	data.guiSelection.hidden = !on;
 	data.countDisplay.hidden = true;
-	data.icon.sprite = (on ? "" : "grayscale:") + info.sprite;
+	data.icon.sprite = "stretched:" + (on ? "" : "grayscale:") + info.sprite;
 	setPanelObjectPosition(data.button, data.i, data.rowLength);
 	return true;
 }
 
-/** Botão de habilidade, com a recarga (segundos) no contador. */
+/** Botão de habilidade (cinza e com a recarga na dica enquanto não está pronta). */
 function TWSetupAbilityButton(data)
 {
 	const ability = data.item.twAbility;
@@ -205,9 +205,9 @@ function TWSetupAbilityButton(data)
 		(ready ? "" : "\n" + objectionFont(sprintf(translate("Ready in %(seconds)s s."), { "seconds": cooldown })));
 	data.button.enabled = ready && controlsPlayer(data.player);
 	data.guiSelection.hidden = true;
-	data.countDisplay.hidden = ready;
-	data.countDisplay.caption = ready ? "" : String(cooldown);
-	data.icon.sprite = (ready ? "" : "grayscale:") + info.sprite;
+	// O contador deste painel é uma imagem (estrela): a recarga fica na dica.
+	data.countDisplay.hidden = true;
+	data.icon.sprite = "stretched:" + (ready ? "" : "grayscale:") + info.sprite;
 	setPanelObjectPosition(data.button, data.i, data.rowLength);
 	return true;
 }
