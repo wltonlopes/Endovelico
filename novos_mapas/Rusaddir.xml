@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>desert</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.298039" g="0.34902" b="0.698039"/>
+				<Tint r="0.278431" g="0.298039" b="0.588235"/>
+				<Height>15.8609</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="1090.88" y="2085.56" z="-167.404"/>
+		<Rotation angle="-0.10342"/>
+		<Declination angle="1.08339"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "Name": "Unnamed map",
+  "Description": "Give an interesting description of your map.",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "han"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "gaul"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "ptol"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ],
+  "CircularMap": true,
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/cart/civil_centre</Template>
+			<Player>1</Player>
+			<Position x="1648.91175" z="553.74244"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6963"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/cart/civil_centre</Template>
+			<Player>2</Player>
+			<Position x="920.8979" z="205.31525"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25273"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/cart/civil_centre</Template>
+			<Player>3</Player>
+			<Position x="299.0973" z="611.53431"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64277"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/cart/civil_centre</Template>
+			<Player>4</Player>
+			<Position x="494.70173" z="1381.3064"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38393"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

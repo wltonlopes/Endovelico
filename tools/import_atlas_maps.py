@@ -536,12 +536,79 @@ class Placer:
 		self.entities.append((template, player, x, z, self.rng.uniform(0, 2 * math.pi) if angle is None else angle))
 
 
+PREDATORS = ("puma", "jaguar", "wolf", "bear", "tiger", "leopard", "lion", "panther", "hyena", "wild_dog", "cheetah",
+	"crocodile", "caiman", "hippopotamus", "elephant", "buffalo_cape", "rhinoceros", "snake", "boa")
+
+
+def _flat_land(height, water, radius_tiles):
+	"""Tiles that can hold a base: land around, gentle slope, not a mountain top, inside the circle."""
+	n = height.shape[0] - 1
+	tile_h = 0.25 * (height[:-1, :-1] + height[1:, :-1] + height[:-1, 1:] + height[1:, 1:])
+	e = tile_h - water
+	gy, gx = np.gradient(tile_h, TILE)
+	slope = ndimage.maximum_filter(np.hypot(gx, gy), size=9)
+	land = ndimage.uniform_filter((e > 0.8).astype(float), size=2 * radius_tiles + 1) > 0.97
+	zz, xx = np.mgrid[0:n, 0:n]
+	inside = (xx - n / 2) ** 2 + (zz - n / 2) ** 2 < (n / 2 - radius_tiles - 6) ** 2
+	low = e <= np.percentile(e[e > 0], 80) if (e > 0).any() else True
+	return land & inside & (slope < 0.45) & low, e
+
+
+def auto_bases(height, water, count, rng):
+	"""Civil centres for a map drawn without them: flat land, as far from each other as possible."""
+	ok, e = _flat_land(height, water, 12)
+	cand = np.argwhere(ok)
+	if len(cand) < count:
+		raise SystemExit("not enough room for %d bases" % count)
+	n = ok.shape[0]
+	chosen = [cand[np.argmax(((cand - n / 2) ** 2).sum(1))]]
+	while len(chosen) < count:
+		d = np.min([((cand - c) ** 2).sum(1) for c in chosen], axis=0)
+		chosen.append(cand[np.argmax(d)])
+	bases = []
+	for k, (i, j) in enumerate(chosen):
+		x, z = (j + 0.5) * TILE, (i + 0.5) * TILE
+		angle = math.atan2(n * TILE / 2 - x, n * TILE / 2 - z) + math.pi
+		bases.append(dict(template="structures/maur/civil_centre", player=k + 1, x=x, z=z, angle=angle))
+	return bases
+
+
+def fix_bases(entities, height, water):
+	"""Players numbered 1..n; civil centres drawn in the water or on a slope moved to the nearest flat land."""
+	ccs = [entity for entity in entities if "civil_centre" in entity["template"] and entity["player"] > 0]
+	order = {p: k + 1 for k, p in enumerate(sorted({entity["player"] for entity in ccs}))}
+	for entity in entities:
+		if entity["player"] in order:
+			entity["player"] = order[entity["player"]]
+	ok, _ = _flat_land(height, water, 9)
+	cand = np.argwhere(ok)
+	for entity in ccs:
+		i, j = int(entity["z"] / TILE), int(entity["x"] / TILE)
+		if 0 <= i < ok.shape[0] and 0 <= j < ok.shape[1] and ok[i, j]:
+			continue
+		d = ((cand - (i, j)) ** 2).sum(1)
+		k = np.argmin(d)
+		if d[k] > 60 ** 2:
+			continue
+		entity["z"], entity["x"] = (cand[k][0] + 0.5) * TILE, (cand[k][1] + 0.5) * TILE
+		print("  moved the civil centre of player %d by %.0f m" % (entity["player"], math.sqrt(d[k]) * TILE))
+
+
 def build(key, config, src, data, rng_seed=7):
 	rng = np.random.default_rng(rng_seed)
 	pmp = read_pmp(os.path.join(src, config["pmp"]))
 	scenario = read_scenario(os.path.join(src, config["xml"]))
 	water = scenario["water"]
 	height = reshape_shores(pmp["height"], water)
+	if config.get("auto_bases"):
+		scenario["entities"] = [entity for entity in scenario["entities"] if "civil_centre" not in entity["template"]]
+		scenario["entities"] += auto_bases(height, water, config["auto_bases"], rng)
+	if config.get("unique_bases"):
+		# Every civil centre of the skeleton is a player of its own (gaia or repeated numbers in Atlas).
+		ccs = [entity for entity in scenario["entities"] if "civil_centre" in entity["template"]]
+		for k, entity in enumerate(sorted(ccs, key=lambda entity: entity["player"] or 99)):
+			entity["player"] = k + 1
+	fix_bases(scenario["entities"], height, water)
 	n = height.shape[0] - 1
 	tile_h = 0.25 * (height[:-1, :-1] + height[1:, :-1] + height[:-1, 1:] + height[1:, 1:])
 	gy, gx = np.gradient(height, TILE)
@@ -563,10 +630,12 @@ def build(key, config, src, data, rng_seed=7):
 	open_sea = ndimage.binary_dilation(labels == sizes.argmax(), iterations=6)
 	ctx = dict(land_distance=land_distance, sea_distance=sea_distance, n=n, open_sea=open_sea)
 	regions = config["regions"](rx, rz, crest, e, ctx)
+	present = {name: REGIONS[name] for name in np.unique(regions)}
 	snow_n, snow_s = config["snow"]
 	snow_line = snow_s + (snow_n - snow_s) * (zz / n)
 	snow_line = snow_line + 4 * noise((n, n), 6, rng_seed + 1)
-	dry = np.isin(regions, ["chile_north", "cuyo", "patagonian_steppe", "meseta"])
+	dry = np.isin(regions, ["chile_north", "cuyo", "patagonian_steppe", "meseta"] +
+		[name for name, region in REGIONS.items() if region.get("dry")])
 	sea = config.get("sea", SEA)
 
 	textures = []
@@ -582,7 +651,7 @@ def build(key, config, src, data, rng_seed=7):
 
 	tiles = np.zeros((n, n), dtype=np.int32)
 	variety = noise((n, n), 3, rng_seed + 2)
-	for name, region in REGIONS.items():
+	for name, region in present.items():
 		mask = regions == name
 		if not mask.any():
 			continue
@@ -593,7 +662,7 @@ def build(key, config, src, data, rng_seed=7):
 	forest_field = noise((n, n), 5, rng_seed + 3) + 0.6 * noise((n, n), 18, rng_seed + 4)
 	density = np.vectorize(lambda r: REGIONS[r]["forest_density"])(regions)
 	forest = (forest_field > 1.25 - 1.6 * density) & (e > 0.3) & (slope < 0.8) & (e < snow_line - 22)
-	for name, region in REGIONS.items():
+	for name, region in present.items():
 		tiles[(regions == name) & forest] = tex(region["forest"])
 	# Mountain tiers.
 	high = e > snow_line - 26
@@ -617,14 +686,14 @@ def build(key, config, src, data, rng_seed=7):
 		tiles[ice & (choice == k)] = tex(t)
 	# Cliffs.
 	cliff = slope > 1.0
-	for name, region in REGIONS.items():
+	for name, region in present.items():
 		tiles[(regions == name) & cliff & ~high] = tex(region["cliff"])
 	tiles[cliff & high & ~snow] = tex(HIGHLAND["cliff"])
 	tiles[cliff & snow] = tex(HIGHLAND["snow_cliff"])
 	# Shores and the bottom of the water.
 	shore = (~wet) & (land_distance <= 6) & (e < 2.5) & ~cliff
 	beach = wet & (sea_distance <= 8)
-	for name, region in REGIONS.items():
+	for name, region in present.items():
 		tiles[(regions == name) & shore] = tex(region["shore"])
 		tiles[(regions == name) & beach] = tex(region["beach"])
 	tiles[wet & ~beach] = tex(sea["deep"])
@@ -814,7 +883,7 @@ def build(key, config, src, data, rng_seed=7):
 		weights = np.array([w for _, w, _ in fauna], float)
 		template, _, kind = fauna[rng.choice(len(fauna), p=weights / weights.sum())]
 		size = {3: rng.integers(4, 9), 1: rng.integers(1, 3), 2: rng.integers(2, 4)}[kind]
-		predator = any(k in template for k in ("puma", "jaguar", "wolf", "bear"))
+		predator = any(k in template for k in PREDATORS)
 		distance = 110 if predator else 60
 		cx, cz = (j + 0.5) * TILE, (i + 0.5) * TILE
 		if not placer.ok(cx, cz, 2, base_distance=distance):
@@ -824,9 +893,10 @@ def build(key, config, src, data, rng_seed=7):
 			if placer.ok(x, z, 1.2, base_distance=distance):
 				placer.add(data.check(template), x, z, 1.2, block=False)
 	# Seals on the coasts; fish near the land; whales, orcas and dolphins offshore.
-	for _ in range(int(40 * area) if sea.get("seal") else 0):
+	for _ in range(int(40 * area * sea.get("density", 1)) if sea.get("seal") else 0):
 		i, j = rng.integers(0, n, 2)
-		if not (beach[i, j] or shore[i, j]) or regions[i, j] in ("cuyo", "litoral", "chile_north"):
+		if not (beach[i, j] or shore[i, j]) or regions[i, j] in ("cuyo", "litoral", "chile_north") or \
+				REGIONS[regions[i, j]].get("no_seal"):
 			continue
 		cx, cz = (j + 0.5) * TILE, (i + 0.5) * TILE
 		for _ in range(rng.integers(2, 6)):
@@ -840,7 +910,7 @@ def build(key, config, src, data, rng_seed=7):
 		x, z = (j + 0.5) * TILE, (i + 0.5) * TILE
 		if placer.ok(x, z, 6, kind="fish"):
 			placer.add(data.check(sea["fish"][int(sea_distance[i, j] > 30)]), x, z, 6)
-	for _ in range(int(60 * area) if sea["fauna"] else 0):
+	for _ in range(int(60 * area * sea.get("density", 1)) if sea["fauna"] else 0):
 		i, j = rng.integers(0, n, 2)
 		if not (wet[i, j] and sea_distance[i, j] > sea.get("offshore", 40)):
 			continue
