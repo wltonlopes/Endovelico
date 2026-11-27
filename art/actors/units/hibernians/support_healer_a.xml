@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant file="biped/base_healer_male.xml">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/hiber/head_priest.xml" attachpoint="head" />
+        <prop actor="props/units/staff.xml" attachpoint="weapon_R" />
+        <prop actor="props/units/weapons/csword.xml" attachpoint="weapon_L" />
+        <prop actor="props/units/capes/hiber/cape_priest.xml" attachpoint="root" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="priest_1">
+      <textures>
+        <texture file="skeletal/hiber/priest_1.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="priest_2">
+      <textures>
+        <texture file="skeletal/hiber/priest_2.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="priest_3">
+      <textures>
+        <texture file="skeletal/hiber/priest_3.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle" />
+    <variant file="biped/attack_capture.xml" />
+    <variant file="biped/attack_slaughter.xml" />
+    <variant file="biped/gather_praise.xml" />
+    <variant file="biped/death_infantry.xml" />
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

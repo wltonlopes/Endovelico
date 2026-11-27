@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_pants.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/hiber/head_male.xml" attachpoint="head" />
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R" />
+        <prop actor="props/units/capes/rider/cape_long_gaul.xml" attachpoint="root" />
+      </props>
+      <textures>
+        <texture file="null_black.dds" name="specTex" />
+        <texture file="default_norm.png" name="normTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hiber_shield_light_b">
+      <props>
+        <prop actor="props/units/shields/hiber_shield_light_b.xml" attachpoint="shield" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Celt-Shield-01">
+      <props>
+        <prop actor="props/units/shields/gaul_shield_spear_hex_a_03.xml" attachpoint="shield_arm" />
+      </props>
+    </variant>
+    <variant frequency="1" name="Celt-Shield-02">
+      <props>
+        <prop actor="props/units/shields/gaul_shield_jav_oval_h_03.xml" attachpoint="shield_arm" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="light_melee_a_1">
+      <textures>
+        <texture file="skeletal/hiber/light_melee_a_1.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="light_melee_a_2">
+      <textures>
+        <texture file="skeletal/hiber/light_melee_a_2.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="light_melee_a_3">
+      <textures>
+        <texture file="skeletal/hiber/light_melee_a_3.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="light_melee_a_4">
+      <textures>
+        <texture file="skeletal/hiber/light_melee_a_4.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_fast_shield_01.xml" frequency="1" name="Spearman-Fast-Shield-01" />
+    <variant file="biped/rider/death_shield.xml" />
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

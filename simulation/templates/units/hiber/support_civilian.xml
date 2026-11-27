@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit/support_civilian">
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Hibernian Freeman</GenericName>
+    <SpecificName>Īwernī Wiros</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hibernians/citizen_male.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: soldado do batalhão de units/hiber/cavalry_swordsman_b. -->
+<Entity parent="tw_tough_cavalry|tw_battalion_member|units/hiber/cavalry_swordsman_b">
+  <Identity>
+    <SelectionGroupName>units/hiber/tw/cavalry_swordsman</SelectionGroupName>
+  </Identity>
+</Entity>

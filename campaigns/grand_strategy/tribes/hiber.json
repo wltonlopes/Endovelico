@@ -1,0 +1,9 @@
+{
+	"code": "hiber",
+	"name": "Hibernians",
+	"civ": "hiber",
+	"color": "30 150 95",
+	"startProvinces": [
+		"eire"
+	]
+}

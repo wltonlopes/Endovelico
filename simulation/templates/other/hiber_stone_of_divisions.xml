@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Footprint replace="">
+    <Square width="21.5" depth="22.0" />
+    <Height>10.5</Height>
+  </Footprint>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Stone of Divisions</GenericName>
+    <SpecificName>Aill na Míreann</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/hibernians/editor_stone_of_divisions.xml</Actor>
+  </VisualActor>
+  <Cost disable="" />
+  <Trainer disable="" />
+  <ProductionQueue disable="" />
+  <Capturable disable="" />
+  <TerritoryInfluence disable="" />
+  <BuildRestrictions>
+    <Territory>own neutral enemy</Territory>
+  </BuildRestrictions>
+  <Health>
+    <Max>5000</Max>
+  </Health>
+</Entity>

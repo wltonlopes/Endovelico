@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gerado por tools/gen_battalions.py: acompanhante de batalhão (high_priest) a partir de units/hiber/champion_healer. -->
+<Entity parent="tw_battalion_attachment|units/hiber/champion_healer">
+  <Identity>
+    <Classes datatype="tokens">TWAttachment_high_priest</Classes>
+  </Identity>
+</Entity>

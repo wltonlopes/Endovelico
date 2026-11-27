@@ -231,9 +231,12 @@ class TechTreeWindow
 	renderHeader(techs)
 	{
 		const total = getTechData().technologies.length;
-		Engine.GetGUIObjectByName("techTreeRate").caption = sprintf(
+		const rate = Engine.GetGUIObjectByName("techTreeRate");
+		const civBonuses = typeof twCivBonusTooltip == "function" ? twCivBonusTooltip(techs.tribe) : "";
+		rate.caption = sprintf(
 			"Research: %s pts/turn   ·   %s / %s researched",
-			techs.getResearchRate(), techs.researched.length, total);
+			techs.getResearchRate(), techs.researched.length, total) + (civBonuses ? "   ·   Civilization bonuses (hover)" : "");
+		rate.tooltip = civBonuses;
 
 		const tech = getTechData().byId[techs.current];
 		const bar = Engine.GetGUIObjectByName("techCurrentBar");

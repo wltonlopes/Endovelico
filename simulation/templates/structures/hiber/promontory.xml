@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>250</wood>
+      <stone>200</stone>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Promontory</VisibleClasses>
+    <Icon>structures/fortress.png</Icon>
+    <Tooltip>Train the warband (Wēnyos) and ships. Coastal stronghold of a chieftain.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Civ>hiber</Civ>
+    <GenericName>Coastal Promontory Fort</GenericName>
+    <SpecificName>Trebā Enisīs</SpecificName>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/infantry_maceman_b
+      units/{civ}/cavalry_swordsman_b
+      units/{civ}/ship_fishing
+      units/{civ}/ship_merchant
+      units/{civ}/ship_arrow
+    </Entities>
+  </Trainer>
+  <ProductionQueue />
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <BuildRestrictions>
+    <PlacementType>shore</PlacementType>
+    <Category>Dock</Category>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Square width="28.5" depth="28.0" />
+    <Height>13.8</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="27.5" depth="27.0" />
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>15.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/hibernians/promontory.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">units/heroes/brit_hero_cunobelin</Auras>
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Fíachu Finnolach</GenericName>
+    <SpecificName>Fiacha Finnfolaidh</SpecificName>
+    <Icon>units/brit/hero_cunobelin.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hibernians/hero_fiachu_m.xml</Actor>
+  </VisualActor>
+</Entity>

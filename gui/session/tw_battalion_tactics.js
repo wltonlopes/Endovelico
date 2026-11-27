@@ -108,6 +108,11 @@ var g_TWAbilities = {
 		"sprite": "session/portraits/technologies/woad_warriors.png",
 		"description": markForTranslation("Shakes nearby enemy battalions and gives this battalion more attack and steadier morale for a while.")
 	},
+	"stakes": {
+		"name": markForTranslation("Plant Stakes"),
+		"sprite": "session/portraits/technologies/spear_buttspike.png",
+		"description": markForTranslation("Plant a row of sharpened stakes in front of the battalion, once per battle. Enemy cavalry and elephants touching them are hurt and lose their charge; infantry can walk between them. The battalion must be standing still, with no enemy within 40 metres.")
+	},
 	"rally": {
 		"name": markForTranslation("Rally"),
 		"sprite": "session/icons/focus-rally.png",
@@ -184,6 +189,12 @@ function TWSetupAbilityButton(data)
 		users = TWBattalionLeaders(data.unitEntStates).filter(entState => entState.battalion.tactics.warCry !== undefined);
 		cooldown = Math.min(...users.map(entState => entState.battalion.tactics.warCry));
 	}
+	else if (ability == "stakes")
+	{
+		// 0 = pronto, 1 = não agora (andando, lutando, inimigo perto), -1 = já cravou.
+		users = TWBattalionLeaders(data.unitEntStates).filter(entState => entState.battalion.tactics.stakes === 0);
+		cooldown = users.length ? 0 : 1;
+	}
 	else
 	{
 		users = data.unitEntStates.filter(entState => entState.twGeneral);
@@ -202,7 +213,8 @@ function TWSetupAbilityButton(data)
 	};
 	data.button.onMouseRightPress = function() {};
 	data.button.tooltip = translate(info.name) + "\n" + bodyFont(translate(info.description)) +
-		(ready ? "" : "\n" + objectionFont(sprintf(translate("Ready in %(seconds)s s."), { "seconds": cooldown })));
+		(ready ? "" : "\n" + objectionFont(ability == "stakes" ? translate("Not now: stop the battalion away from the enemy (or the stakes were already planted).") :
+			sprintf(translate("Ready in %(seconds)s s."), { "seconds": cooldown })));
 	data.button.enabled = ready && controlsPlayer(data.player);
 	data.guiSelection.hidden = true;
 	// O contador deste painel é uma imagem (estrela): a recarga fica na dica.
@@ -267,10 +279,21 @@ function TWBattalionSummary(battalion)
 		text += "\n" + translate("Charges when attacking an enemy battalion from 15–90 m.");
 	if (tactics.brace)
 		text += "\n" + translate("Braces against charges from the front.");
+	if (tactics.height == "high")
+		text += "\n" + coloredText(sprintf(translate("High ground (%(m)s m above the enemy): steadier morale, better aim, stronger downhill charge."),
+			{ "m": tactics.heightAdvantage }), "150 220 150");
+	else if (tactics.height == "low")
+		text += "\n" + coloredText(sprintf(translate("Low ground (%(m)s m below the enemy): shakier morale, worse aim, weaker uphill charge."),
+			{ "m": -tactics.heightAdvantage }), "230 170 90");
+	if (tactics.ambushing)
+		text += "\n" + coloredText(translate("Ambush! Striking from hiding: more damage, enemies hit are shaken."), "255 210 90");
 	if (tactics.hidden)
-		text += "\n" + coloredText(translate("Hidden from distant enemies."), "150 220 150");
+		text += "\n" + coloredText(translate("Hidden from distant enemies: attack to spring an ambush."), "150 220 150");
 	else if (tactics.canHide)
-		text += "\n" + translate("Hides when standing still among trees or on high ground.");
+		text += "\n" + (tactics.hideAnywhere ? translate("Hides when standing still among trees or on high ground.") :
+			translate("Hides when standing still among trees."));
+	if (tactics.stakes === -1)
+		text += "\n" + translate("Stakes planted.");
 	if (battalion.attachments && battalion.attachments.length)
 		text += "\n" + sprintf(translate("With: %(attachments)s"), { "attachments": battalion.attachments.join(", ") });
 	text += "\n" + (tactics.nextLevelXp !== undefined ?
@@ -302,6 +325,8 @@ function TWBattalionSummary(battalion)
 				items.push({ "twOption": option });
 		if (leaders.some(entState => entState.battalion.tactics.warCry !== undefined))
 			items.push({ "twAbility": "warCry" });
+		if (leaders.some(entState => entState.battalion.tactics.stakes !== undefined && entState.battalion.tactics.stakes >= 0))
+			items.push({ "twAbility": "stakes" });
 		if (generals.length)
 			items.push({ "twAbility": "rally" }, { "twAbility": "inspire" });
 		return items.slice(0, this.getMaxNumberOfItems());

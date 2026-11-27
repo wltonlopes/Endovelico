@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit/ship_fishing">
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Fishing Boat</GenericName>
+    <SpecificName>Korukos Eiskos</SpecificName>
+  </Identity>
+</Entity>

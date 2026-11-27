@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit/champion_chariot">
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Hibernian War Chariot</GenericName>
+    <SpecificName>Īwernī Uɸorēdos</SpecificName>
+  </Identity>
+  <GarrisonHolder>
+    <Max>3</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Infantry</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>3</LoadingRange>
+  </GarrisonHolder>
+  <VisualActor>
+    <Actor>units/hibernians/chariot_javelinist_m.xml</Actor>
+  </VisualActor>
+</Entity>

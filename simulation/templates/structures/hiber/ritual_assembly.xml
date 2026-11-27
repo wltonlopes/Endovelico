@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>200</wood>
+      <stone>300</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">RitualAssembly</VisibleClasses>
+    <Icon>structures/monument.png</Icon>
+    <Tooltip>Assembly place of Dún Ailinne. Train champions, chariots and war hounds.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
+    <Civ>hiber</Civ>
+    <GenericName>Ritual Assembly</GenericName>
+    <SpecificName>Datlā</SpecificName>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/champion_infantry_spearman
+      units/{civ}/champion_infantry_javelineer
+      units/{civ}/champion_infantry_trumpeter
+      units/{civ}/champion_chariot
+      units/{civ}/war_dog
+    </Entities>
+  </Trainer>
+  <ProductionQueue />
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <Footprint replace="">
+    <Square width="22.0" depth="28.5" />
+    <Height>11.1</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="21.0" depth="27.5" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/hibernians/ritual_assembly.xml</Actor>
+    <FoundationActor>structures/fndn_6x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

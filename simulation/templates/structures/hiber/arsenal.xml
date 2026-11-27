@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Gnīmus</SpecificName>
+    <GenericName>Siege Workshop</GenericName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/hibernians/arsenal.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+  <Footprint replace="">
+    <Square width="22.0" depth="22.0" />
+    <Height>12.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="21.0" depth="21.0" />
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/siege_ram
+    </Entities>
+  </Trainer>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Gobanns</SpecificName>
+    <GenericName>Forge</GenericName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/hibernians/forge.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+  <Footprint replace="">
+    <Square width="22.0" depth="22.0" />
+    <Height>11.9</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="21.0" depth="21.0" />
+  </Obstruction>
+</Entity>

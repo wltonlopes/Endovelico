@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_range">
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Légokoros</SpecificName>
+    <GenericName>Practice Range</GenericName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/hibernians/range.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+  <Footprint replace="">
+    <Square width="28.0" depth="28.0" />
+    <Height>22.3</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="27.0" depth="27.0" />
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_slinger_b
+    </Entities>
+  </Trainer>
+</Entity>

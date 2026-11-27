@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Footprint replace="">
+    <Square width="13.5" depth="18.5" />
+    <Height>11.2</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_celt_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Kawnos</SpecificName>
+    <GenericName>Dock</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="18.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/hibernians/dock.xml</Actor>
+    <FoundationActor>structures/fndn_3x5.xml</FoundationActor>
+  </VisualActor>
+  <Trainer>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/ship_fishing
+      units/{civ}/ship_merchant
+      units/{civ}/ship_arrow
+    </Entities>
+  </Trainer>
+</Entity>

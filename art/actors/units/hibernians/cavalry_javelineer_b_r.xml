@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_pants.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/hiber/head_male.xml" attachpoint="head" />
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hiber_shield_light_a">
+      <props>
+        <prop actor="props/units/shields/hiber_shield_light_a.xml" attachpoint="shield" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="light_ranged_b_1">
+      <textures>
+        <texture file="skeletal/hiber/light_ranged_b_1.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="light_ranged_b_2">
+      <textures>
+        <texture file="skeletal/hiber/light_ranged_b_2.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="light_ranged_b_3">
+      <textures>
+        <texture file="skeletal/hiber/light_ranged_b_3.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="light_ranged_b_4">
+      <textures>
+        <texture file="skeletal/hiber/light_ranged_b_4.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_javelin_relax.xml" name="Javelinist-Relax" frequency="1" />
+    <variant file="biped/rider/carry_meat.xml" />
+  </group>
+  <group>
+    <variant frequency="1" name="Idle" />
+    <variant file="biped/rider/cavalry/attack_ranged_javelin.xml" />
+    <variant file="biped/rider/promotion_shield.xml" />
+    <variant file="biped/rider/attack_slaughter_shield_celt.xml" />
+    <variant file="biped/gather_meat.xml" />
+    <variant file="biped/rider/death_ranged.xml" />
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

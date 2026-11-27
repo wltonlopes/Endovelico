@@ -55,8 +55,21 @@ var TW_ESCAPE_RETURN_MIN = 0.6;
 var TW_ESCAPE_RETURN_MAX = 0.9;
 /** Batalhão derrotado ainda no campo quando a batalha acaba: sobreviventes capturados/dispersos. */
 var TW_CAUGHT_SURVIVAL = 0.25;
-/** Tempo até a IA avançar (s), para o jogador poder se posicionar. */
+/** Tempo até a IA avançar (s) quando não há fase de posicionamento (IA contra IA). */
 var TW_AI_DEPLOY_TIME = 20;
+/**
+ * Fase de posicionamento (Total War): antes do combate, cada jogador humano
+ * arruma o exército dentro da sua zona (ordens de andar levam o batalhão
+ * direto ao lugar, já em formação); a IA espera. Acaba quando todos os
+ * humanos clicam em "Iniciar batalha" ou depois de TW_DEPLOY_MAX_TIME s.
+ * Zona: retângulo de 2 x TW_DEPLOY_ZONE_HALF_WIDTH por 2 x TW_DEPLOY_ZONE_HALF_DEPTH
+ * (frações do mapa) em volta do centro de desdobramento.
+ */
+var TW_DEPLOY_MAX_TIME = 120;
+var TW_DEPLOY_ZONE_HALF_WIDTH = 0.34;
+var TW_DEPLOY_ZONE_HALF_DEPTH = 0.15;
+/** Depois do posicionamento, a IA ainda espera um pouco (s). */
+var TW_AI_AFTER_DEPLOY = 5;
 var TW_ROSTER_PATH = "simulation/data/total_warfield/rosters/";
 
 Trigger.prototype.TWSetup = function()
@@ -103,8 +116,81 @@ Trigger.prototype.TWSetup = function()
 	// simulation/helpers/ZZ_TWCommands.js).
 	this.twDirectorActive = false;
 
+	// Fase de posicionamento, se houver jogador humano.
+	const humans = [];
+	for (let playerID = 1; playerID < numPlayers; ++playerID)
+		if (this.twAI.indexOf(playerID) == -1 && this.TWLeadersOf(playerID).length)
+			humans.push(playerID);
+	this.twDeployEnd = undefined;
+	this.twDeploy = humans.length ? {
+		"humans": humans,
+		"ready": [],
+		"until": Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer).GetTime() + TW_DEPLOY_MAX_TIME * 1000
+	} : undefined;
+	if (this.twDeploy)
+		this.DoRepeatedly(1000, "TWDeployActive", {});
+
 	this.DoRepeatedly(TW_VICTORY_INTERVAL, "TWCheckVictory", {});
 	this.DoRepeatedly(TW_DIRECTOR_INTERVAL, "TWDirector", {});
+};
+
+// ------------------------------------------------ fase de posicionamento
+
+/** A fase de posicionamento ainda está valendo? (encerra quando é hora) */
+Trigger.prototype.TWDeployActive = function()
+{
+	if (!this.twDeploy)
+		return false;
+	const time = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer).GetTime();
+	const allReady = this.twDeploy.humans.every(p => this.twDeploy.ready.indexOf(p) != -1 ||
+		QueryPlayerIDInterface(p)?.GetState() != "active");
+	if (time < this.twDeploy.until && !allReady)
+		return true;
+	this.twDeploy = undefined;
+	this.twDeployEnd = time;
+	Engine.QueryInterface(SYSTEM_ENTITY, IID_GuiInterface).PushNotification({
+		"type": "text",
+		"players": Array.from({ "length": Engine.QueryInterface(SYSTEM_ENTITY, IID_PlayerManager).GetNumPlayers() }, (_, i) => i),
+		"message": markForTranslation("The battle begins!"), "translateMessage": true
+	});
+	return false;
+};
+
+/** O jogador terminou de se posicionar (comando "tw-start-battle"). */
+Trigger.prototype.TWDeployReady = function(playerID)
+{
+	if (this.twDeploy && this.twDeploy.ready.indexOf(playerID) == -1)
+		this.twDeploy.ready.push(playerID);
+	this.TWDeployActive();
+};
+
+/** A IA ainda espera? (posicionamento, ou o começo da batalha sem ele) */
+Trigger.prototype.TWDeployWaiting = function(time)
+{
+	if (this.TWDeployActive())
+		return true;
+	if (this.twDeployEnd !== undefined)
+		return time < this.twDeployEnd / 1000 + TW_AI_AFTER_DEPLOY;
+	return time < TW_AI_DEPLOY_TIME;
+};
+
+/** Zona de posicionamento do jogador: { "x0", "x1", "z0", "z1" }. */
+Trigger.prototype.TWDeployZone = function(playerID)
+{
+	const mapSize = Engine.QueryInterface(SYSTEM_ENTITY, IID_Terrain).GetMapSize();
+	const center = this.TWGetDeployCenter(playerID);
+	const hw = mapSize * TW_DEPLOY_ZONE_HALF_WIDTH;
+	const hd = mapSize * TW_DEPLOY_ZONE_HALF_DEPTH;
+	return {
+		"x0": Math.max(8, center.x - hw), "x1": Math.min(mapSize - 8, center.x + hw),
+		"z0": Math.max(8, center.y - hd), "z1": Math.min(mapSize - 8, center.y + hd)
+	};
+};
+
+Trigger.prototype.TWClampToDeployZone = function(playerID, x, z)
+{
+	const zone = this.TWDeployZone(playerID);
+	return { "x": Math.max(zone.x0, Math.min(zone.x1, x)), "z": Math.max(zone.z0, Math.min(zone.z1, z)) };
 };
 
 // ------------------------------------------------ desdobramento
@@ -359,7 +445,7 @@ Trigger.prototype.TWSpawnBattalion = function(playerID, unit, pos, angle)
 	const cmpLeader = Engine.QueryInterface(ent, IID_BattalionLeader);
 	if (cmpLeader)
 	{
-		cmpLeader.SetCampaignData({ "id": unit.id, "strength": unit.strength, "xp": unit.xp, "attachments": unit.attachments });
+		cmpLeader.SetCampaignData({ "id": unit.id, "strength": unit.strength, "xp": unit.xp, "attachments": unit.attachments, "vigor": unit.vigor });
 		this.twInitial[unit.id] = { "player": playerID, "strength": Math.min(unit.strength || cmpLeader.GetMaxStrength(), cmpLeader.GetMaxStrength()) };
 	}
 	// Receber o dono cria os soldados em volta do líder.
@@ -872,7 +958,14 @@ Trigger.prototype.TWGetBattleStatus = function()
 		"conquestChoice": this.twConquestChoice,
 		"winner": this.twFinalResult && this.twFinalResult.winner,
 		// Relatório só no fim (é caro para cada atualização da interface).
-		"report": this.twFinished ? this.TWBattleReport() : undefined };
+		"report": this.twFinished ? this.TWBattleReport() : undefined,
+		// Fase de posicionamento: quem já está pronto e quanto falta (s).
+		"deploy": this.twDeploy ? {
+			"ready": this.twDeploy.ready,
+			"humans": this.twDeploy.humans,
+			"remaining": Math.max(0, Math.ceil((this.twDeploy.until - Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer).GetTime()) / 1000)),
+			"zones": Object.fromEntries(this.twDeploy.humans.map(p => [p, this.TWDeployZone(p)]))
+		} : undefined };
 };
 
 /**
@@ -881,7 +974,7 @@ Trigger.prototype.TWGetBattleStatus = function()
  */
 Trigger.prototype.TWCheckVictory = function()
 {
-	if (this.twFinished)
+	if (this.twFinished || this.twDeploy)
 		return;
 	// Todos os jogadores ativos (não só os que trouxeram batalhões).
 	const numPlayers = Engine.QueryInterface(SYSTEM_ENTITY, IID_PlayerManager).GetNumPlayers();
@@ -1260,8 +1353,8 @@ Trigger.prototype.TWDirectorTick = function()
 		const enemyWalls = enemyWallsOwner !== undefined ? this.twWalls[enemyWallsOwner] : undefined;
 		const besieging = !!enemyWalls && !this.TWIsBreached(enemyWallsOwner);
 		const enemiesInside = myWalls && targets.some(ent => this.TWPosition(ent).distanceTo(myWalls.center) < myWalls.radius + 5);
-		const waiting = time < TW_AI_DEPLOY_TIME || defending && (myWalls ? !enemiesInside : gap > 140);
-		if (besieging && time >= TW_AI_DEPLOY_TIME)
+		const waiting = this.TWDeployWaiting(time) || defending && (myWalls ? !enemiesInside : gap > 140);
+		if (besieging && !this.TWDeployWaiting(time))
 		{
 			this.TWDirectSiege(playerID, enemyWallsOwner, mine, targets, order, attack);
 			continue;
@@ -1470,7 +1563,17 @@ Trigger.prototype.TWDirectorAbilities = function(playerID, mine, targets, order)
 	for (const ent of mine)
 	{
 		const cmpTactics = Engine.QueryInterface(ent, IID_BattalionTactics);
-		if (!cmpTactics || !cmpTactics.CanWarCry())
+		if (!cmpTactics)
+			continue;
+		// Arqueiros parados cravam estacas quando a cavalaria inimiga se aproxima.
+		if (cmpTactics.CanPlantStakes())
+		{
+			const pos = this.TWPosition(ent);
+			const horse = this.TWNearest(pos, targets, t => Engine.QueryInterface(t, IID_Identity)?.HasClass("Cavalry"));
+			if (horse.ent && horse.distance < 110)
+				order([ent], { "type": "battalion-ability", "ability": "stakes" });
+		}
+		if (!cmpTactics.CanWarCry())
 			continue;
 		const nearest = this.TWNearest(this.TWPosition(ent), targets);
 		if (nearest.ent && nearest.distance < 30)
@@ -1486,7 +1589,7 @@ Trigger.prototype.TWDirectorReserve = function(playerID, infantry, enemyCenter, 
 	let state = this.twReserve[playerID];
 	if (!state)
 	{
-		if (time < TW_AI_DEPLOY_TIME || infantry.length < 4)
+		if (this.TWDeployWaiting(time) || infantry.length < 4)
 			return [];
 		const byDistance = infantry.slice().sort((a, b) =>
 			this.TWPosition(b).distanceTo(enemyCenter) - this.TWPosition(a).distanceTo(enemyCenter));

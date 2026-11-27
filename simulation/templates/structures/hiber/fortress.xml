@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint replace="">
+    <Square width="27.5" depth="28.0" />
+    <Height>12.5</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Dūnom</SpecificName>
+    <Tooltip>Train Heroes. Garrison Soldiers for additional arrows.</Tooltip>
+    <GenericName>Fortress</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="26.5" depth="27.0" />
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/hibernians/fortress.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>28</Length>
+  </WallPiece>
+  <Trainer disable="" />
+  <StatusBars>
+    <HeightOffset>14.5</HeightOffset>
+  </StatusBars>
+</Entity>

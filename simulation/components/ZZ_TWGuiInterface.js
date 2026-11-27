@@ -72,3 +72,82 @@
 	};
 	GuiInterface.prototype.exposedFunctions.TWGetBattleStatus = 1;
 }
+
+/**
+ * Prévia do posicionamento (Total War): enquanto o jogador arrasta a linha,
+ * marcadores locais no terreno mostram onde cada soldado vai ficar e para
+ * onde o batalhão vai olhar. Só lê a simulação (usa o mesmo cálculo da
+ * ordem, TWPlanDraggedLine e BattalionLeader.PreviewSlots); os marcadores são
+ * entidades locais (não sincronizadas), como a prévia de construção.
+ */
+{
+	const TW_PREVIEW_TEMPLATES = { "slot": "special/tw_slot_marker", "front": "special/tw_front_marker", "zone": "special/tw_zone_marker" };
+	const TW_PREVIEW_MAX = 2000;
+
+	/** Põe `positions` ([{ x, z, angle }]) num conjunto de marcadores locais do tipo `kind`. */
+	GuiInterface.prototype.TWPlaceMarkers = function(kind, positions)
+	{
+		if (!this.twMarkers)
+			this.twMarkers = {};
+		const pool = this.twMarkers[kind] || (this.twMarkers[kind] = []);
+		positions = positions.slice(0, TW_PREVIEW_MAX);
+		while (pool.length < positions.length)
+		{
+			const ent = Engine.AddLocalEntity(TW_PREVIEW_TEMPLATES[kind]);
+			if (ent == INVALID_ENTITY)
+				break;
+			pool.push(ent);
+		}
+		while (pool.length > positions.length)
+			Engine.DestroyEntity(pool.pop());
+		pool.forEach((ent, i) => {
+			const cmpPosition = Engine.QueryInterface(ent, IID_Position);
+			if (!cmpPosition)
+				return;
+			cmpPosition.JumpTo(positions[i].x, positions[i].z);
+			cmpPosition.SetYRotation(positions[i].angle || 0);
+		});
+	};
+
+	/**
+	 * data: { "entities", "targetPositions": [{ x, y }] } como na ordem
+	 * "walk-custom"; sem data (ou vazio), apaga a prévia.
+	 */
+	GuiInterface.prototype.TWSetFormationPreview = function(player, data)
+	{
+		const slots = [];
+		const fronts = [];
+		if (data && data.entities && data.targetPositions && typeof TWPlanDraggedLine == "function")
+		{
+			const entities = data.entities.map(ent => Engine.QueryInterface(ent, IID_Ownership)?.GetOwner() == player ? ent : INVALID_ENTITY);
+			const plan = TWPlanDraggedLine(entities, data.targetPositions, data.line);
+			for (const [ent, spot] of plan)
+			{
+				const preview = Engine.QueryInterface(ent, IID_BattalionLeader).PreviewSlots(spot.x, spot.z, spot.angle, spot.width);
+				for (const slot of preview.slots)
+					slots.push({ "x": slot.x, "z": slot.y, "angle": spot.angle });
+				// Seta da frente um pouco à frente do líder.
+				fronts.push({ "x": spot.x + Math.sin(spot.angle) * 3, "z": spot.z + Math.cos(spot.angle) * 3, "angle": spot.angle });
+			}
+		}
+		this.TWPlaceMarkers("slot", slots);
+		this.TWPlaceMarkers("front", fronts);
+	};
+	GuiInterface.prototype.exposedFunctions.TWSetFormationPreview = 1;
+
+	/** Borda da zona de posicionamento (zone = { x0, x1, z0, z1 }), ou nada para apagar. */
+	GuiInterface.prototype.TWSetDeployZonePreview = function(player, zone)
+	{
+		const marks = [];
+		if (zone)
+		{
+			const step = 10;
+			for (let x = zone.x0; x <= zone.x1; x += step)
+				marks.push({ "x": x, "z": zone.z0, "angle": 0 }, { "x": x, "z": zone.z1, "angle": 0 });
+			for (let z = zone.z0; z <= zone.z1; z += step)
+				marks.push({ "x": zone.x0, "z": z, "angle": Math.PI / 2 }, { "x": zone.x1, "z": z, "angle": Math.PI / 2 });
+		}
+		this.TWPlaceMarkers("zone", marks);
+	};
+	GuiInterface.prototype.exposedFunctions.TWSetDeployZonePreview = 1;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit/support_healer_e">
+  <Auras datatype="tokens">units/hiber/bards</Auras>
+  <Identity>
+    <Civ>hiber</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hibernians/support_healer_e.xml</Actor>
+  </VisualActor>
+</Entity>

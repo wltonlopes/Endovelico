@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant frequency="1" name="mesh_1">
+      <mesh>props/new/head_longhair.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="male_1">
+      <textures>
+        <texture file="props/head/hiber/male_1.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_2">
+      <textures>
+        <texture file="props/head/hiber/male_2.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_3">
+      <textures>
+        <texture file="props/head/hiber/male_3.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_4">
+      <textures>
+        <texture file="props/head/hiber/male_4.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_5">
+      <textures>
+        <texture file="props/head/hiber/male_5.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_6">
+      <textures>
+        <texture file="props/head/hiber/male_6.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_7">
+      <textures>
+        <texture file="props/head/hiber/male_7.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_8">
+      <textures>
+        <texture file="props/head/hiber/male_8.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_9">
+      <textures>
+        <texture file="props/head/hiber/male_9.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_10">
+      <textures>
+        <texture file="props/head/hiber/male_10.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_11">
+      <textures>
+        <texture file="props/head/hiber/male_11.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_12">
+      <textures>
+        <texture file="props/head/hiber/male_12.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_13">
+      <textures>
+        <texture file="props/head/hiber/male_13.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_14">
+      <textures>
+        <texture file="props/head/hiber/male_14.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_15">
+      <textures>
+        <texture file="props/head/hiber/male_15.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_16">
+      <textures>
+        <texture file="props/head/hiber/male_16.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_17">
+      <textures>
+        <texture file="props/head/hiber/male_17.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="male_18">
+      <textures>
+        <texture file="props/head/hiber/male_18.png" name="baseTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Cost>
+    <Resources>
+      <wood>250</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Krāfo</SpecificName>
+    <GenericName>Stable</GenericName>
+  </Identity>
+  <Loot>
+    <wood>50</wood>
+    <stone>0</stone>
+  </Loot>
+  <VisualActor>
+    <Actor>structures/hibernians/stable.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+  <Footprint replace="">
+    <Square width="22.0" depth="22.0" />
+    <Height>11.9</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="21.0" depth="21.0" />
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/cavalry_javelineer_b
+      units/{civ}/cavalry_spearman_b
+      units/{civ}/war_dog
+    </Entities>
+  </Trainer>
+</Entity>

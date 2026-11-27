@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>300</wood>
+      <stone>100</stone>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">RingFort</VisibleClasses>
+    <Icon>structures/military_settlement.png</Icon>
+    <Tooltip>Train the auxiliary warriors of the Ulaid, the Laigin and the Nagnatae.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Civ>hiber</Civ>
+    <GenericName>Ring Fort</GenericName>
+    <SpecificName>Rātis</SpecificName>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/infantry_axeman_b
+      units/{civ}/infantry_swordsman_b
+      units/{civ}/infantry_pikeman_b
+    </Entities>
+  </Trainer>
+  <ProductionQueue />
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <Footprint replace="">
+    <Square width="28.0" depth="28.5" />
+    <Height>13.3</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="27.0" depth="27.5" />
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>15.3</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/hibernians/ring_fort.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

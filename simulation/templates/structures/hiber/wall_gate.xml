@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <Footprint replace="">
+    <Square width="27.5" depth="10.0" />
+    <Height>16.6</Height>
+  </Footprint>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Dwer Dūn</SpecificName>
+    <GenericName>Gate</GenericName>
+  </Identity>
+  <Obstruction>
+    <Obstructions>
+      <Right width="7.4" depth="9.0" x="10.05" z="0" />
+      <Left width="7.4" depth="9.0" x="-10.05" z="0" />
+      <Door width="12.7" depth="9.0" x="0" z="0" />
+    </Obstructions>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>17.6</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>11.1</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>11.1</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>11.1</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>11.1</Y>
+        <Z>0</Z>
+      </Four>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/hibernians/wall_gate.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>27.1</Length>
+  </WallPiece>
+</Entity>

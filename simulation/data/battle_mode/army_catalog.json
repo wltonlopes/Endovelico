@@ -300,6 +300,22 @@
 			{ "Template": "units/cartemp/hero_maharbal", "Category": "hero", "Cost": 75, "Max": 1 },
 			{ "Template": "units/cartemp/hero_hannibal", "Category": "hero", "Cost": 100, "Max": 1 }
 		],
+		"hiber": [
+			{ "Template": "units/hiber/infantry_spearman_b", "Category": "infantry", "Cost": 10, "Max": 30 },
+			{ "Template": "units/hiber/infantry_javelineer_b", "Category": "ranged", "Cost": 10, "Max": 30 },
+			{ "Template": "units/hiber/infantry_slinger_b", "Category": "ranged", "Cost": 10, "Max": 30 },
+			{ "Template": "units/hiber/infantry_maceman_b", "Category": "infantry", "Cost": 12, "Max": 20 },
+			{ "Template": "units/hiber/infantry_swordsman_b", "Category": "infantry", "Cost": 12, "Max": 20 },
+			{ "Template": "units/hiber/cavalry_javelineer_b", "Category": "cavalry", "Cost": 15, "Max": 20 },
+			{ "Template": "units/hiber/cavalry_swordsman_b", "Category": "cavalry", "Cost": 16, "Max": 15 },
+			{ "Template": "units/hiber/champion_infantry_spearman", "Category": "champion", "Cost": 22, "Max": 10 },
+			{ "Template": "units/hiber/champion_infantry_javelineer", "Category": "champion", "Cost": 22, "Max": 10 },
+			{ "Template": "units/hiber/champion_chariot", "Category": "champion", "Cost": 33, "Max": 8 },
+			{ "Template": "units/hiber/siege_ram", "Category": "siege", "Cost": 45, "Max": 4 },
+			{ "Template": "units/hiber/hero_tuathal", "Category": "hero", "Cost": 75, "Max": 1 },
+			{ "Template": "units/hiber/hero_fiachu", "Category": "hero", "Cost": 75, "Max": 1 },
+			{ "Template": "units/hiber/hero_elim", "Category": "hero", "Cost": 100, "Max": 1 }
+		],
 		"chibc": [
 			{ "Template": "units/chibc/infantry_clubman_merc", "Category": "infantry", "Cost": 10, "Max": 30 },
 			{ "Template": "units/chibc/infantry_maceman_b", "Category": "infantry", "Cost": 10, "Max": 30 },

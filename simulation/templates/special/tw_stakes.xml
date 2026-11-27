@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Estacas defensivas (Total Warfield): cravadas pelos arqueiros, ferem a cavalaria (TWStakes). -->
+<Entity parent="structures/palisades_spike_angle">
+  <BuildRestrictions disable=""/>
+  <Capturable disable=""/>
+  <Cost disable=""/>
+  <Footprint replace="">
+    <Square width="2.5" depth="1.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>250</Max>
+    <SpawnEntityOnDeath disable=""/>
+  </Health>
+  <Identity>
+    <GenericName>Defensive Stakes</GenericName>
+    <Tooltip>Hurts enemy cavalry and elephants that touch them and breaks their charge. Infantry can walk between them.</Tooltip>
+    <Classes datatype="tokens" replace="">TWStakes</Classes>
+    <VisibleClasses datatype="tokens" replace="">Stakes</VisibleClasses>
+  </Identity>
+  <Loot disable=""/>
+  <Obstruction disable=""/>
+  <RallyPoint disable=""/>
+  <RallyPointRenderer disable=""/>
+  <Repairable disable=""/>
+  <TerritoryDecay disable=""/>
+  <TWStakes>
+    <Radius>3</Radius>
+    <Damage>14</Damage>
+    <SelfDamage>8</SelfDamage>
+    <Interval>400</Interval>
+  </TWStakes>
+  <WallPiece disable=""/>
+</Entity>

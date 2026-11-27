@@ -1,0 +1,39 @@
+{
+	"genericName": "Brehon Laws",
+	"specificName": "Brehonacht",
+	"description": "The oral law of the Brehons, judges and keepers of the customs of Ériu, settled every dispute by compensation instead of feud.",
+	"cost": {
+		"food": 300,
+		"metal": 300
+	},
+	"requirements": {
+		"tech": "phase_town"
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sibylline_books.png",
+	"researchTime": 60,
+	"tooltip": "All technologies −20% resource costs.",
+	"modifications": [
+		{
+			"value": "Researcher/TechCostMultiplier/food",
+			"multiply": 0.8,
+			"affects": "Structure"
+		},
+		{
+			"value": "Researcher/TechCostMultiplier/wood",
+			"multiply": 0.8,
+			"affects": "Structure"
+		},
+		{
+			"value": "Researcher/TechCostMultiplier/stone",
+			"multiply": 0.8,
+			"affects": "Structure"
+		},
+		{
+			"value": "Researcher/TechCostMultiplier/metal",
+			"multiply": 0.8,
+			"affects": "Structure"
+		}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

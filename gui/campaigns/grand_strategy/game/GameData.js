@@ -512,6 +512,9 @@ class GameData
 				}
 				// Tecnologias aumentam a arrecadação.
 				totalBalance = Math.round(totalBalance * tribe.techs.getTaxMultiplier());
+				// Bônus da civilização (game/CivBonuses.js), como as redadas de gado dos hibérnios.
+				if (typeof twCivIncome == "function")
+					totalBalance += twCivIncome(tribe);
 				// Clamp to avoid weirdness.
 				tribe.money = Math.max(-999999, Math.min(tribe.money + totalBalance, 999999999));
 				tribe.lastBalance = totalBalance;

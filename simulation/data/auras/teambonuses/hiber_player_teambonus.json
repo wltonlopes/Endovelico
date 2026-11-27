@@ -1,0 +1,17 @@
+{
+	"type": "global",
+	"affects": [
+		"CitizenSoldier"
+	],
+	"affectedPlayers": [
+		"MutualAlly"
+	],
+	"modifications": [
+		{
+			"value": "Promotion/RequiredXp",
+			"multiply": 0.9
+		}
+	],
+	"auraName": "Martial Training Bands",
+	"auraDescription": "Citizen soldiers gain ranks 10% faster."
+}

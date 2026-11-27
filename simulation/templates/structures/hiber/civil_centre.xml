@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint replace="">
+    <Square width="28.5" depth="28.0" />
+    <Height>17.9</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_brit_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Rígdún</SpecificName>
+    <GenericName>Civic Center</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="27.5" depth="27.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/hibernians/civil_centre.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+    <SelectionShape>
+      <Footprint />
+    </SelectionShape>
+  </VisualActor>
+  <Trainer>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/support_female_citizen
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/cavalry_javelineer_b
+      units/{civ}/war_dog
+    </Entities>
+  </Trainer>
+  <StatusBars>
+    <HeightOffset>19.9</HeightOffset>
+  </StatusBars>
+</Entity>

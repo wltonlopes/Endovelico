@@ -1,0 +1,542 @@
+{
+ "civil_centre": {
+  "width": 28.08,
+  "depth": 27.87,
+  "height": 17.92,
+  "cx": 0.03,
+  "cy": -0.02,
+  "props": {
+   "prop_garrisoned": [
+    0.03,
+    -0.02,
+    17.77
+   ],
+   "prop_projectile": [
+    0.03,
+    -0.02,
+    18.92
+   ]
+  },
+  "extra": []
+ },
+ "house_a": {
+  "width": 12.64,
+  "depth": 13.33,
+  "height": 11.9,
+  "cx": 0.17,
+  "cy": -0.29,
+  "props": {
+   "prop_garrisoned": [
+    0.17,
+    -0.29,
+    11.71
+   ]
+  },
+  "extra": []
+ },
+ "house_b": {
+  "width": 13.56,
+  "depth": 13.08,
+  "height": 11.9,
+  "cx": 0.15,
+  "cy": -0.39,
+  "props": {
+   "prop_garrisoned": [
+    0.15,
+    -0.39,
+    11.78
+   ]
+  },
+  "extra": []
+ },
+ "house_c": {
+  "width": 12.62,
+  "depth": 12.62,
+  "height": 10.96,
+  "cx": -0.04,
+  "cy": 0.03,
+  "props": {
+   "prop_garrisoned": [
+    -0.04,
+    0.03,
+    -0.18
+   ]
+  },
+  "extra": []
+ },
+ "house_d": {
+  "width": 13.03,
+  "depth": 12.27,
+  "height": 10.96,
+  "cx": -0.44,
+  "cy": 0.2,
+  "props": {
+   "prop_garrisoned": [
+    -0.44,
+    0.2,
+    10.85
+   ]
+  },
+  "extra": []
+ },
+ "storehouse": {
+  "width": 14.0,
+  "depth": 13.99,
+  "height": 9.78,
+  "cx": -0.03,
+  "cy": 0.03,
+  "props": {
+   "prop_garrisoned": [
+    -0.03,
+    0.03,
+    7.4
+   ]
+  },
+  "extra": []
+ },
+ "farmstead": {
+  "width": 12.98,
+  "depth": 13.1,
+  "height": 5.77,
+  "cx": 0.32,
+  "cy": 0.25,
+  "props": {
+   "prop_garrisoned": [
+    0.32,
+    0.25,
+    -0.18
+   ]
+  },
+  "extra": []
+ },
+ "corral": {
+  "width": 13.89,
+  "depth": 19.9,
+  "height": 9.78,
+  "cx": 0.04,
+  "cy": -0.01,
+  "props": {
+   "prop_garrisoned": [
+    0.04,
+    -0.01,
+    3.7
+   ]
+  },
+  "extra": []
+ },
+ "dock": {
+  "width": 13.14,
+  "depth": 18.29,
+  "height": 11.16,
+  "cx": -0.14,
+  "cy": 0.0,
+  "props": {
+   "prop_garrisoned": [
+    -0.14,
+    0.0,
+    8.98
+   ]
+  },
+  "extra": []
+ },
+ "barracks": {
+  "width": 27.89,
+  "depth": 28.18,
+  "height": 16.2,
+  "cx": 0.01,
+  "cy": -0.05,
+  "props": {
+   "prop_garrisoned": [
+    0.01,
+    -0.05,
+    10.2
+   ]
+  },
+  "extra": []
+ },
+ "range": {
+  "width": 28.0,
+  "depth": 27.52,
+  "height": 22.29,
+  "cx": -0.03,
+  "cy": 0.37,
+  "props": {
+   "prop_garrisoned": [
+    -0.03,
+    0.37,
+    17.94
+   ]
+  },
+  "extra": []
+ },
+ "stable": {
+  "width": 21.51,
+  "depth": 21.72,
+  "height": 11.9,
+  "cx": -0.0,
+  "cy": -0.02,
+  "props": {
+   "prop_garrisoned": [
+    -0.0,
+    -0.02,
+    8.28
+   ]
+  },
+  "extra": []
+ },
+ "forge": {
+  "width": 21.54,
+  "depth": 21.77,
+  "height": 11.9,
+  "cx": 0.09,
+  "cy": -0.02,
+  "props": {
+   "prop_garrisoned": [
+    0.09,
+    -0.02,
+    4.86
+   ]
+  },
+  "extra": []
+ },
+ "temple": {
+  "width": 24.31,
+  "depth": 25.86,
+  "height": 17.88,
+  "cx": 0.17,
+  "cy": 0.85,
+  "props": {
+   "prop_garrisoned": [
+    0.17,
+    0.85,
+    17.29
+   ]
+  },
+  "extra": []
+ },
+ "market": {
+  "width": 27.78,
+  "depth": 28.1,
+  "height": 14.22,
+  "cx": -0.06,
+  "cy": -0.07,
+  "props": {
+   "prop_garrisoned": [
+    -0.06,
+    -0.07,
+    11.47
+   ]
+  },
+  "extra": []
+ },
+ "sentry_tower": {
+  "width": 9.14,
+  "depth": 9.14,
+  "height": 18.22,
+  "cx": 0.01,
+  "cy": -0.06,
+  "props": {
+   "prop_garrisoned": [
+    0.01,
+    -0.06,
+    1.23
+   ],
+   "prop_projectile": [
+    0.01,
+    -0.06,
+    19.22
+   ]
+  },
+  "extra": []
+ },
+ "defense_tower": {
+  "width": 9.14,
+  "depth": 9.14,
+  "height": 24.26,
+  "cx": 0.03,
+  "cy": -0.0,
+  "props": {
+   "prop_garrisoned": [
+    0.03,
+    -0.0,
+    1.23
+   ],
+   "prop_projectile": [
+    0.03,
+    -0.0,
+    25.26
+   ]
+  },
+  "extra": []
+ },
+ "fortress": {
+  "width": 27.08,
+  "depth": 27.69,
+  "height": 12.49,
+  "cx": -0.04,
+  "cy": -0.16,
+  "props": {
+   "prop_garrisoned": [
+    -0.04,
+    -0.16,
+    3.8
+   ],
+   "prop_projectile": [
+    -0.04,
+    -0.16,
+    13.49
+   ]
+  },
+  "extra": []
+ },
+ "arsenal": {
+  "width": 21.52,
+  "depth": 21.65,
+  "height": 12.03,
+  "cx": 0.02,
+  "cy": -0.02,
+  "props": {
+   "prop_garrisoned": [
+    0.02,
+    -0.02,
+    6.96
+   ]
+  },
+  "extra": []
+ },
+ "wall_long": {
+  "width": 24.51,
+  "depth": 6.3,
+  "height": 16.61,
+  "cx": 0.01,
+  "cy": -0.01,
+  "props": {
+   "prop_garrisoned": [
+    0,
+    0,
+    11.07
+   ]
+  },
+  "extra": []
+ },
+ "wall_tower": {
+  "width": 9.13,
+  "depth": 9.76,
+  "height": 16.78,
+  "cx": 0.06,
+  "cy": -0.12,
+  "props": {
+   "prop_garrisoned": [
+    0.06,
+    -0.12,
+    14.87
+   ],
+   "prop_projectile": [
+    0.06,
+    -0.12,
+    17.78
+   ]
+  },
+  "extra": []
+ },
+ "wall_gate": {
+  "width": 27.09,
+  "depth": 9.76,
+  "height": 16.61,
+  "cx": 0.1,
+  "cy": -0.12,
+  "props": {
+   "prop_garrisoned": [
+    0,
+    0,
+    11.13
+   ]
+  },
+  "extra": []
+ },
+ "promontory": {
+  "width": 28.01,
+  "depth": 27.99,
+  "height": 13.85,
+  "cx": -0.06,
+  "cy": 0.12,
+  "props": {
+   "prop_garrisoned": [
+    -0.06,
+    0.12,
+    -0.18
+   ],
+   "prop_projectile": [
+    -0.06,
+    0.12,
+    14.85
+   ]
+  },
+  "extra": []
+ },
+ "royal_enclosure": {
+  "width": 24.21,
+  "depth": 28.13,
+  "height": 17.8,
+  "cx": -0.26,
+  "cy": -0.01,
+  "props": {
+   "prop_garrisoned": [
+    -0.26,
+    -0.01,
+    2.6
+   ],
+   "prop_projectile": [
+    -0.26,
+    -0.01,
+    18.8
+   ]
+  },
+  "extra": []
+ },
+ "ritual_assembly": {
+  "width": 21.73,
+  "depth": 28.24,
+  "height": 11.13,
+  "cx": -0.3,
+  "cy": 0.02,
+  "props": {
+   "prop_garrisoned": [
+    -0.3,
+    0.02,
+    0.29
+   ]
+  },
+  "extra": []
+ },
+ "ring_fort": {
+  "width": 27.83,
+  "depth": 28.07,
+  "height": 13.32,
+  "cx": -0.05,
+  "cy": -0.0,
+  "props": {
+   "prop_garrisoned": [
+    -0.05,
+    -0.0,
+    6.94
+   ],
+   "prop_projectile": [
+    -0.05,
+    -0.0,
+    14.32
+   ]
+  },
+  "extra": []
+ },
+ "wonder": {
+  "width": 47.84,
+  "depth": 45.77,
+  "height": 17.12,
+  "cx": 0.0,
+  "cy": 0.0,
+  "props": {
+   "prop_garrisoned": [
+    0.0,
+    0.0,
+    3.13
+   ],
+   "prop_projectile": [
+    0.0,
+    0.0,
+    18.12
+   ]
+  },
+  "extra": []
+ },
+ "wall_medium": {
+  "width": 16.18,
+  "depth": 6.3,
+  "height": 16.61,
+  "cx": 0.0,
+  "cy": -0.01,
+  "props": {
+   "prop_garrisoned": [
+    0,
+    0,
+    11.07
+   ]
+  },
+  "extra": []
+ },
+ "wall_short": {
+  "width": 9.81,
+  "depth": 6.3,
+  "height": 16.61,
+  "cx": 0.0,
+  "cy": -0.01,
+  "props": {
+   "prop_garrisoned": [
+    0,
+    0,
+    11.07
+   ]
+  },
+  "extra": []
+ },
+ "editor_stone_of_divisions": {
+  "width": 21.46,
+  "depth": 21.65,
+  "height": 10.52,
+  "cx": -0.06,
+  "cy": -0.04,
+  "props": {
+   "prop_garrisoned": [
+    -0.06,
+    -0.04,
+    6.19
+   ]
+  },
+  "extra": []
+ },
+ "editor_stone_ring": {
+  "width": 27.83,
+  "depth": 28.25,
+  "height": 7.09,
+  "cx": -0.05,
+  "cy": 0.0,
+  "props": {
+   "prop_garrisoned": [
+    -0.05,
+    0.0,
+    2.57
+   ]
+  },
+  "extra": []
+ },
+ "editor_burial_mound": {
+  "width": 24.54,
+  "depth": 27.56,
+  "height": 8.3,
+  "cx": 0.83,
+  "cy": 0.01,
+  "props": {
+   "prop_garrisoned": [
+    0.83,
+    0.01,
+    8.1
+   ]
+  },
+  "extra": []
+ },
+ "editor_wooden_ring": {
+  "width": 27.83,
+  "depth": 28.18,
+  "height": 7.09,
+  "cx": 0.04,
+  "cy": 0.03,
+  "props": {
+   "prop_garrisoned": [
+    0.04,
+    0.03,
+    0.42
+   ]
+  },
+  "extra": []
+ }
+}

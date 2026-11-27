@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant frequency="1" name="mesh_1">
+      <mesh>props/new/dudette_head_a.dae</mesh>
+    </variant>
+    <variant frequency="1" name="mesh_2">
+      <mesh>props/new/head_female_d.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="female_1">
+      <textures>
+        <texture file="props/head/hiber/female_1.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="female_2">
+      <textures>
+        <texture file="props/head/hiber/female_2.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="female_3">
+      <textures>
+        <texture file="props/head/hiber/female_3.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="female_4">
+      <textures>
+        <texture file="props/head/hiber/female_4.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="female_5">
+      <textures>
+        <texture file="props/head/hiber/female_5.png" name="baseTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="female_6">
+      <textures>
+        <texture file="props/head/hiber/female_6.png" name="baseTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

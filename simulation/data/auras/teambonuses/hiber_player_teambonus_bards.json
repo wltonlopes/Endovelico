@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": [
+		"Hero"
+	],
+	"affectedPlayers": [
+		"MutualAlly"
+	],
+	"modifications": [],
+	"auraName": "Bards",
+	"auraDescription": "Heroes +10 health and +10% attack when within 30 metres of a Hibernian druid or bard."
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_javelineer">
+  <Auras datatype="tokens">units/heroes/brit_hero_caratacos</Auras>
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Túathal Techtmar</GenericName>
+    <SpecificName>Tuathal Teachtmhar</SpecificName>
+    <Icon>units/brit/hero_caratacos.png</Icon>
+  </Identity>
+  <Attack>
+    <Ranged>
+      <AttackName>Sling</AttackName>
+      <Projectile>
+        <ActorName disable="" />
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <VisualActor>
+    <Actor>units/hibernians/hero_tuathal.xml</Actor>
+  </VisualActor>
+</Entity>

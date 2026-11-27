@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit/support_trader">
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Trader</GenericName>
+    <SpecificName>Kwennāios</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hibernians/trader.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -234,6 +234,13 @@ class TWBattle
 		const lostD = (defenderHero ? twApplyCasualties(defenderHero.battalions, result.battalions, result.xp, result.attachments) : 0) +
 			twApplyCasualties(battle.garrison, result.battalions, result.xp);
 
+		// Bônus de civilização dos generais pelos inimigos abatidos (game/CivBonuses.js).
+		if (typeof twCivAfterBattle == "function")
+		{
+			twCivAfterBattle(attackerHero, lostD);
+			twCivAfterBattle(defenderHero, lostA);
+		}
+
 		// Perseguição: quem perde e ainda tem tropas recua com mais baixas.
 		const loserHero = attackerWon ? defenderHero : attackerHero;
 		if (loserHero && result.pursuit !== false)
@@ -454,12 +461,19 @@ class TWBattle
 		const playerCiv = twResolveCiv(playerTribe.civ);
 		const enemyCiv = enemy.battalions.length ? enemy.battalions[0].civ : twResolveCiv(enemyTribe ? enemyTribe.civ : pickRandom(province.getNativeCivs()));
 
+		// Suprimentos (game/zz_CampaignMechanics.js): exército longe de casa chega cansado.
+		const vigorOf = {};
+		for (const side of [forces.attacker, forces.defender])
+			if (side && side.hero && typeof twSupplyVigor == "function")
+				for (const battalion of side.battalions || [])
+					vigorOf[battalion.id] = twSupplyVigor(side.hero);
 		// Em terra lutam os batalhões; no mar, só as esquadras (com os transportes).
 		const armyOf = battalions => battalions.filter(b => !!twUnit(b.civ, b.key)?.naval == !!battle.naval).map(battalion => ({
 			"id": battalion.id,
 			"template": twUnit(battalion.civ, battalion.key)?.template,
 			"strength": battalion.strength,
 			"xp": battalion.xp || 0,
+			"vigor": vigorOf[battalion.id],
 			"siege": !!twUnit(battalion.civ, battalion.key)?.siege,
 			"naval": !!twUnit(battalion.civ, battalion.key)?.naval,
 			// Acompanhantes (sacerdote, músico...) entram no fundo do batalhão.

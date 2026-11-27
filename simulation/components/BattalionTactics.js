@@ -33,6 +33,14 @@
  *   incendiárias, guarda e carga em ciclo (opções do jogador).
  * - Terreno: bosque desorganiza formações cerradas e cavalaria, água
  *   atrasa e expõe, golpe de cima vale mais (ZZ_TWCombat.js).
+ * - Terreno elevado (Shogun 2): acima do inimigo mais próximo, moral mais
+ *   firme e tiro mais preciso; abaixo, o contrário; carga morro abaixo mais
+ *   forte, morro acima mais fraca; subir cansa (HIGH_GROUND_*, CHARGE_SLOPE_*).
+ * - Esconderijo e emboscada (Rome II): parado no bosque, qualquer infantaria
+ *   ou cavalaria some da vista dos inimigos distantes (tropa leve também em
+ *   ponto alto); atacar escondido é uma emboscada (AMBUSH_*).
+ * - Estacas (Medieval II): arqueiros e besteiros cravam, uma vez por
+ *   batalha, uma fileira de estacas que fere a cavalaria (TWStakes.js).
  * - Moral do exército, medo de elefantes e carros, elite (campeões),
  *   inquebráveis (TWUnbreakable), inimigo fugindo anima.
  * - Habilidades: grito de guerra (TWWarCry); o general reagrupa e inspira
@@ -227,6 +235,48 @@ BattalionTactics.prototype.FIRE_ARROW_REPEAT = 1.2;
 BattalionTactics.prototype.HEIGHT_DAMAGE_PER_M = 0.015;
 BattalionTactics.prototype.HEIGHT_DAMAGE_MIN = 0.85;
 BattalionTactics.prototype.HEIGHT_DAMAGE_MAX = 1.2;
+/**
+ * Terreno elevado (Shogun 2): altura em relação ao batalhão inimigo mais
+ * próximo (até HEIGHT_COMPARE_RADIUS m). A partir de HIGH_GROUND m acima:
+ * moral mais firme e tiro mais preciso; abaixo, o contrário. A carga ganha
+ * (ou perde) CHARGE_SLOPE_PER_M por metro de descida (subida), com limites.
+ */
+BattalionTactics.prototype.HEIGHT_COMPARE_RADIUS = 90;
+BattalionTactics.prototype.HIGH_GROUND = 3;
+BattalionTactics.prototype.HIGH_GROUND_EFFECTS = {
+	"high": { "moraleLoss": 0.8, "spread": 0.85, "recovery": 1.2 },
+	"level": { "moraleLoss": 1, "spread": 1, "recovery": 1 },
+	"low": { "moraleLoss": 1.15, "spread": 1.1, "recovery": 0.9 }
+};
+BattalionTactics.prototype.CHARGE_SLOPE_PER_M = 0.025;
+BattalionTactics.prototype.CHARGE_SLOPE_MIN = 0.75;
+BattalionTactics.prototype.CHARGE_SLOPE_MAX = 1.3;
+/**
+ * Emboscada (Rome II): batalhão escondido que abre o ataque ganha
+ * AMBUSH_ATTACK de dano por AMBUSH_TIME ms, e cada batalhão atingido por ele
+ * nesse tempo perde AMBUSH_MORALE de moral de uma vez (surpresa).
+ */
+BattalionTactics.prototype.AMBUSH_TIME = 10000;
+BattalionTactics.prototype.AMBUSH_ATTACK = 1.25;
+BattalionTactics.prototype.AMBUSH_MORALE = 22;
+/** Quem não se esconde nem no bosque. */
+BattalionTactics.prototype.NO_HIDE_CLASSES = ["Elephant", "Siege", "Chariot", "Ship"];
+/**
+ * Estacas (Medieval II): arqueiros e besteiros parados, sem inimigo a menos
+ * de STAKES_ENEMY_DISTANCE m, cravam uma vez por batalha uma fileira de
+ * estacas STAKES_DISTANCE m à frente, a cada STAKES_SPACING m (special/tw_stakes).
+ */
+BattalionTactics.prototype.STAKES_CLASSES = ["Archer", "Crossbowman"];
+BattalionTactics.prototype.STAKES_TEMPLATE = "special/tw_stakes";
+BattalionTactics.prototype.STAKES_DISTANCE = 4;
+BattalionTactics.prototype.STAKES_SPACING = 2.6;
+BattalionTactics.prototype.STAKES_ENEMY_DISTANCE = 40;
+/**
+ * Fadiga: subir cansa (CLIMB_FATIGUE de vigor por metro subido) e tropas
+ * pesadas cansam mais (HEAVY_FATIGUE em correr, andar e lutar).
+ */
+BattalionTactics.prototype.CLIMB_FATIGUE = 0.6;
+BattalionTactics.prototype.HEAVY_FATIGUE = { "Champion": 1.25, "Elephant": 1.3 };
 BattalionTactics.prototype.FOREST_TREES = 4;
 BattalionTactics.prototype.FOREST_RADIUS = 12;
 /** Formações cerradas que o bosque desfaz. */
@@ -310,6 +360,11 @@ BattalionTactics.prototype.Init = function()
 	this.cycle = undefined;
 	this.lastImpact = undefined;
 	this.kills = 0;
+	this.heightAdvantage = 0;
+	this.lastGround = undefined;
+	this.ambushUntil = -Infinity;
+	this.ambushedBy = {};
+	this.stakesUsed = false;
 	this.statKey = undefined;
 	this.barKey = "";
 };
@@ -481,6 +536,24 @@ BattalionTactics.prototype.UpdateVigor = function(cmpLeader, dt)
 	else
 		rate = (moving && !activity.melee ? this.VIGOR_RATES.walk : 0) +
 			this.VIGOR_RATES.melee * Math.min(1, activity.melee * 2) + this.VIGOR_RATES.shoot * Math.min(1, activity.shoot * 2);
+	// Peso: campeões e elefantes cansam mais (o descanso não muda).
+	if (rate < 0 || moving)
+		for (const cls in this.HEAVY_FATIGUE)
+			if (this.HasClass(cls))
+			{
+				rate = rate < 0 ? rate * this.HEAVY_FATIGUE[cls] : rate / this.HEAVY_FATIGUE[cls];
+				break;
+			}
+	// Subida: cada metro subido custa vigor (descer não descansa).
+	const cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
+	if (cmpPosition && cmpPosition.IsInWorld())
+	{
+		const p = cmpPosition.GetPosition2D();
+		const ground = Engine.QueryInterface(SYSTEM_ENTITY, IID_Terrain).GetGroundLevel(p.x, p.y);
+		if (this.lastGround !== undefined && moving && ground > this.lastGround)
+			rate -= this.CLIMB_FATIGUE * (ground - this.lastGround) / Math.max(dt, 0.001) * (this.HasClass("Cavalry") ? 0.6 : 1);
+		this.lastGround = ground;
+	}
 	this.vigor = Math.max(0, Math.min(100, this.vigor + rate * dt));
 };
 
@@ -660,6 +733,17 @@ BattalionTactics.prototype.GetHeightMultiplier = function(attacker, victim)
 	return Math.max(this.HEIGHT_DAMAGE_MIN, Math.min(this.HEIGHT_DAMAGE_MAX, 1 + diff * this.HEIGHT_DAMAGE_PER_M));
 };
 
+/** "high", "low" ou "level": altura em relação ao inimigo mais próximo (UpdateSlow). */
+BattalionTactics.prototype.GetHeightState = function()
+{
+	return this.heightAdvantage >= this.HIGH_GROUND ? "high" : this.heightAdvantage <= -this.HIGH_GROUND ? "low" : "level";
+};
+
+BattalionTactics.prototype.GetHeightEffects = function()
+{
+	return this.HIGH_GROUND_EFFECTS[this.GetHeightState()];
+};
+
 /** Abate feito por um soldado deste batalhão (relatório da batalha). */
 BattalionTactics.prototype.AddKill = function()
 {
@@ -722,6 +806,63 @@ BattalionTactics.prototype.WarCry = function()
 	PlaySound("order_attack", this.entity);
 	this.Flash("charge");
 	this.ApplyModifiers();
+	return true;
+};
+
+// ------------------------------------------------ estacas
+
+BattalionTactics.prototype.CanEverPlantStakes = function()
+{
+	return this.STAKES_CLASSES.some(cls => this.HasClass(cls)) && !this.HasClass("Cavalry");
+};
+
+/** Parado, fora de combate, sem inimigo perto e sem ter cravado ainda. */
+BattalionTactics.prototype.CanPlantStakes = function()
+{
+	if (!this.CanEverPlantStakes() || this.stakesUsed || this.routing || this.IsEngaged())
+		return false;
+	if (Engine.QueryInterface(this.entity, IID_UnitMotion)?.IsMoveRequested())
+		return false;
+	const cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
+	const owner = Engine.QueryInterface(this.entity, IID_Ownership)?.GetOwner();
+	const cmpDiplomacy = owner !== undefined && QueryPlayerIDInterface(owner, IID_Diplomacy);
+	if (!cmpPosition || !cmpPosition.IsInWorld() || !cmpDiplomacy)
+		return false;
+	const enemies = cmpDiplomacy.GetEnemies().filter(p => p > 0);
+	return !enemies.length || !Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager).ExecuteQueryAroundPos(
+		cmpPosition.GetPosition2D(), 0, this.STAKES_ENEMY_DISTANCE, enemies, IID_UnitAI, false).length;
+};
+
+/** Crava a fileira de estacas à frente do batalhão (uma vez por batalha). */
+BattalionTactics.prototype.PlantStakes = function()
+{
+	if (!this.CanPlantStakes())
+		return false;
+	const cmpLeader = Engine.QueryInterface(this.entity, IID_BattalionLeader);
+	const cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
+	const owner = Engine.QueryInterface(this.entity, IID_Ownership).GetOwner();
+	const angle = cmpLeader.facing !== undefined ? cmpLeader.facing : cmpPosition.GetRotation().y;
+	const pos = cmpPosition.GetPosition2D();
+	const front = new Vector2D(Math.sin(angle), Math.cos(angle));
+	const right = new Vector2D(Math.cos(angle), -Math.sin(angle));
+	const width = Math.max(this.STAKES_SPACING * 2, cmpLeader.GetFrontWidth() + this.STAKES_SPACING);
+	const count = Math.max(2, Math.round(width / this.STAKES_SPACING));
+	const center = Vector2D.add(pos, Vector2D.mult(front, this.STAKES_DISTANCE));
+	for (let k = 0; k < count; ++k)
+	{
+		const offset = (k - (count - 1) / 2) * this.STAKES_SPACING;
+		const spot = Vector2D.add(center, Vector2D.mult(right, offset));
+		const ent = Engine.AddEntity(this.STAKES_TEMPLATE);
+		if (ent == INVALID_ENTITY)
+			return false;
+		const cmpStakePosition = Engine.QueryInterface(ent, IID_Position);
+		cmpStakePosition.JumpTo(spot.x, spot.y);
+		// A ponta das estacas (lado do modelo) para o inimigo.
+		cmpStakePosition.SetYRotation(angle + Math.PI);
+		Engine.QueryInterface(ent, IID_Ownership)?.SetOwner(owner);
+	}
+	this.stakesUsed = true;
+	PlaySound("order_repair", this.entity);
 	return true;
 };
 
@@ -794,8 +935,19 @@ BattalionTactics.prototype.SoldierAttacked = function(msg, victim = this.entity)
 		loss *= this.FIRE_ARROW_MORALE;
 	if (this.GetHeightMultiplier(msg.attacker, victim) > 1.05)
 		loss *= 1.15;
+	loss *= this.GetHeightEffects().moraleLoss;
 
 	const time = this.GetTime();
+
+	// Emboscada: o primeiro golpe de um batalhão que saiu do esconderijo.
+	if (cmpAttackerSide && cmpAttackerSide.ambushUntil > time &&
+		!(time - (this.ambushedBy[attackerBattalion] || -Infinity) < this.AMBUSH_TIME))
+	{
+		this.ambushedBy[attackerBattalion] = time;
+		loss += this.AMBUSH_MORALE;
+		this.Flash("impact");
+		this.Notify("Your troops have been ambushed!");
+	}
 
 	// Choque de uma carga: o primeiro golpe corpo a corpo do batalhão que
 	// carregou. Lanceiros firmes, atingidos pela frente, seguram a carga.
@@ -926,7 +1078,19 @@ BattalionTactics.prototype.IsRunningIn = function()
 /** Começa a carga contra o batalhão de `targetLeader` (BattalionLeader.Engage). */
 BattalionTactics.prototype.StartCharge = function(targetLeader)
 {
-	this.charge = { "target": targetLeader, "start": this.GetTime(), "impact": undefined, "braced": false };
+	// Morro abaixo a carga bate mais forte; morro acima, mais fraca.
+	let slope = 1;
+	const from = Engine.QueryInterface(this.entity, IID_Position);
+	const to = Engine.QueryInterface(targetLeader, IID_Position);
+	if (from && to && from.IsInWorld() && to.IsInWorld())
+	{
+		const cmpTerrain = Engine.QueryInterface(SYSTEM_ENTITY, IID_Terrain);
+		const a = from.GetPosition2D();
+		const b = to.GetPosition2D();
+		slope = Math.max(this.CHARGE_SLOPE_MIN, Math.min(this.CHARGE_SLOPE_MAX,
+			1 + this.CHARGE_SLOPE_PER_M * (cmpTerrain.GetGroundLevel(a.x, a.y) - cmpTerrain.GetGroundLevel(b.x, b.y))));
+	}
+	this.charge = { "target": targetLeader, "start": this.GetTime(), "impact": undefined, "braced": false, "slope": slope };
 	// Grito de guerra.
 	PlaySound("order_attack", this.entity);
 	this.ApplyModifiers();
@@ -969,22 +1133,50 @@ BattalionTactics.prototype.UpdateCharge = function()
 // ------------------------------------------------ furtividade
 
 /**
- * Tropa leve (classe TWStealth) parada há STEALTH_DELAY, sem lutar nem
- * fugir, sob a copa das árvores (STEALTH_TREES árvores perto) ou num ponto
- * alto (STEALTH_HIGH_GROUND m acima dos arredores): fica oculta dos
- * inimigos que não tenham unidade a menos de STEALTH_REVEAL_DISTANCE m.
- * Atacar (ou ser atingido) revela; ZZ_TWStealth.js aplica a visibilidade.
+ * Esconderijo e emboscada (Rome II): batalhão parado há STEALTH_DELAY, sem
+ * lutar nem fugir, sob a copa das árvores (STEALTH_TREES árvores perto) fica
+ * oculto dos inimigos que não tenham unidade a menos de
+ * STEALTH_REVEAL_DISTANCE m. Tropa leve (classe TWStealth) também se esconde
+ * num ponto alto (STEALTH_HIGH_GROUND m acima dos arredores). Elefantes,
+ * carros e máquinas não se escondem. Atacar (ou ser atingido) revela; quem
+ * abre o ataque escondido faz uma emboscada (AMBUSH_*).
+ * ZZ_TWStealth.js aplica a visibilidade.
  */
+BattalionTactics.prototype.CanHide = function()
+{
+	const cmpIdentity = Engine.QueryInterface(this.entity, IID_Identity);
+	if (!cmpIdentity || this.NO_HIDE_CLASSES.some(cls => cmpIdentity.HasClass(cls)))
+		return false;
+	return cmpIdentity.HasClass("TWStealth") || cmpIdentity.HasClass("Infantry") || cmpIdentity.HasClass("Cavalry");
+};
+
+BattalionTactics.prototype.IsAmbushing = function()
+{
+	return this.GetTime() < this.ambushUntil;
+};
+
 BattalionTactics.prototype.UpdateStealth = function(cmpLeader, pos, owner)
 {
-	if (!Engine.QueryInterface(this.entity, IID_Identity)?.HasClass("TWStealth"))
+	if (!this.CanHide())
 		return;
 	const time = this.GetTime();
+	// Saiu do esconderijo atacando: emboscada.
+	if (this.hidden && cmpLeader.GetBattalionEntities().some(ent => {
+		const order = Engine.QueryInterface(ent, IID_UnitAI)?.order;
+		return order && order.type == "Attack";
+	}))
+	{
+		this.ambushUntil = time + this.AMBUSH_TIME;
+		this.Notify("Ambush! Your hidden troops strike first.");
+		this.Flash("charge");
+	}
+	// Parado = o líder parado e ninguém lutando. Soldados se ajeitando entre as
+	// árvores (os lugares da formação caem em troncos) não contam.
 	const busy = this.routing || this.charge || time - this.lastHitTime < this.STEALTH_DELAY ||
+		!!Engine.QueryInterface(this.entity, IID_UnitMotion)?.IsMoveRequested() ||
 		cmpLeader.GetBattalionEntities().some(ent => {
 			const cmpUnitAI = Engine.QueryInterface(ent, IID_UnitAI);
-			const cmpMotion = Engine.QueryInterface(ent, IID_UnitMotion);
-			return cmpUnitAI && cmpLeader.IsInCombat(cmpUnitAI) || cmpMotion && cmpMotion.IsMoveRequested();
+			return cmpUnitAI && cmpLeader.IsInCombat(cmpUnitAI);
 		});
 	if (busy)
 		this.stillSince = time;
@@ -994,7 +1186,8 @@ BattalionTactics.prototype.UpdateStealth = function(cmpLeader, pos, owner)
 	// Escondido tempo demais: aparece e espera antes de sumir de novo.
 	if (this.hidden && this.hiddenSince !== undefined && time - this.hiddenSince > this.STEALTH_MAX_TIME)
 		this.stillSince = time + this.STEALTH_COOLDOWN;
-	let concealed = !busy && time - this.stillSince >= this.STEALTH_DELAY && !this.IsLastStand(owner) && this.IsGoodCover(pos);
+	let concealed = !busy && time - this.stillSince >= this.STEALTH_DELAY && !this.IsLastStand(owner) &&
+		this.IsGoodCover(pos, Engine.QueryInterface(this.entity, IID_Identity).HasClass("TWStealth"));
 	const hiddenFrom = [];
 	if (concealed)
 	{
@@ -1033,8 +1226,8 @@ BattalionTactics.prototype.UpdateStealth = function(cmpLeader, pos, owner)
 };
 
 /**
- * Sem esconderijo quando o exército está em fuga ou quando só restam
- * batalhões furtivos: a batalha precisa poder acabar.
+ * Sem esconderijo quando o exército está em fuga ou só resta um batalhão
+ * lutando: a batalha precisa poder acabar.
  */
 BattalionTactics.prototype.IsLastStand = function(owner)
 {
@@ -1043,20 +1236,21 @@ BattalionTactics.prototype.IsLastStand = function(owner)
 		return false;
 	if (cmpTrigger.twFlight && cmpTrigger.twFlight.player == owner)
 		return true;
-	return cmpTrigger.TWLeadersOf(owner).every(ent => {
-		const cmpTactics = Engine.QueryInterface(ent, IID_BattalionTactics);
-		return Engine.QueryInterface(ent, IID_Identity)?.HasClass("TWStealth") && (!cmpTactics || !cmpTactics.routing);
-	});
+	// O último batalhão em pé não se esconde (e ninguém fica oculto mais
+	// que STEALTH_MAX_TIME seguidos, ver UpdateStealth).
+	return cmpTrigger.TWLeadersOf(owner).filter(ent => !Engine.QueryInterface(ent, IID_BattalionTactics)?.routing).length < 2;
 };
 
-/** Bosque (árvores perto) ou ponto alto em relação ao entorno. */
-BattalionTactics.prototype.IsGoodCover = function(pos)
+/** Bosque (árvores perto) ou, para tropa leve (`highGround`), ponto alto em relação ao entorno. */
+BattalionTactics.prototype.IsGoodCover = function(pos, highGround = true)
 {
 	const cmpRangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
 	const trees = cmpRangeManager.ExecuteQueryAroundPos(pos, 0, 14, [0], IID_ResourceSupply, false).filter(ent =>
 		Engine.QueryInterface(ent, IID_ResourceSupply).GetType().generic == "wood").length;
 	if (trees >= this.STEALTH_TREES)
 		return true;
+	if (!highGround)
+		return false;
 	const cmpTerrain = Engine.QueryInterface(SYSTEM_ENTITY, IID_Terrain);
 	const here = cmpTerrain.GetGroundLevel(pos.x, pos.y);
 	let around = 0;
@@ -1160,7 +1354,8 @@ BattalionTactics.prototype.Update = function(dt)
 	{
 		const support = this.GetSupportEffects();
 		this.morale = Math.min(this.maxMorale + support.maxMorale,
-			this.morale + this.Get("MoraleRecoveryRate", 4) * this.GetRecoveryMultiplier(pos, owner) * support.recovery * dt);
+			this.morale + this.Get("MoraleRecoveryRate", 4) * this.GetRecoveryMultiplier(pos, owner) * support.recovery *
+				this.GetHeightEffects().recovery * dt);
 	}
 	// Inquebráveis (classe TWUnbreakable) lutam até o fim.
 	if (this.HasClass("TWUnbreakable") && !this.noRally)
@@ -1247,7 +1442,25 @@ BattalionTactics.prototype.UpdateSlow = function(cmpLeader, pos, owner)
 	this.winning = enemies.length > 0 && cmpRangeManager.ExecuteQueryAroundPos(pos, 0, this.WINNING_RADIUS, enemies, IID_BattalionTactics, false)
 		.some(ent => Engine.QueryInterface(ent, IID_BattalionTactics).IsRouting());
 
-	if (changed)
+	// Terreno elevado: altura em relação ao batalhão inimigo mais próximo.
+	const heightBefore = this.GetHeightState();
+	let nearest;
+	let nearestDistance = Infinity;
+	for (const ent of enemies.length ? cmpRangeManager.ExecuteQueryAroundPos(pos, 0, this.HEIGHT_COMPARE_RADIUS, enemies, IID_BattalionTactics, false) : [])
+	{
+		const other = Engine.QueryInterface(ent, IID_Position);
+		if (!other || !other.IsInWorld())
+			continue;
+		const d = other.GetPosition2D().distanceToSquared(pos);
+		if (d < nearestDistance)
+		{
+			nearestDistance = d;
+			nearest = other.GetPosition2D();
+		}
+	}
+	this.heightAdvantage = nearest ? cmpTerrain.GetGroundLevel(pos.x, pos.y) - cmpTerrain.GetGroundLevel(nearest.x, nearest.y) : 0;
+
+	if (changed || heightBefore != this.GetHeightState())
 		this.ApplyModifiers();
 };
 
@@ -1556,16 +1769,18 @@ BattalionTactics.prototype.ApplyModifiers = function(onlyIfChanged = false)
 
 	const vigor = this.GetVigorEffects();
 	const ground = this.terrain.water ? this.WATER_EFFECTS : this.IsDisordered() ? this.DISORDER_EFFECTS : { "walk": 1, "attack": 1 };
-	const spread = posture.spread * morale.spread * (1 - 0.08 * level);
+	const height = this.GetHeightEffects();
+	const spread = posture.spread * morale.spread * (1 - 0.08 * level) * height.spread;
 	const repeat = posture.repeat * morale.repeat * (1 - 0.04 * level) * vigor.repeat;
 	const rangedRepeat = repeat * (this.options.fireArrows ? this.FIRE_ARROW_REPEAT : 1);
 	const walk = posture.walk * morale.walk * this.GetEngagedWalk() * vigor.walk * ground.walk;
 	const attack = morale.attack * (1 + this.LEVEL_ATTACK_BONUS * level) * (posture.attack || 1) * vigor.attack * ground.attack *
-		(this.IsWarCrying() ? this.WAR_CRY_ATTACK : 1) * (this.IsInspired() ? this.INSPIRE_ATTACK : 1);
+		(this.IsWarCrying() ? this.WAR_CRY_ATTACK : 1) * (this.IsInspired() ? this.INSPIRE_ATTACK : 1) *
+		(this.IsAmbushing() ? this.AMBUSH_ATTACK : 1);
 	const armor = this.LEVEL_ARMOR_BONUS * level + (posture.armor || 0);
 	const pierce = posture.pierce || 0;
 	// Carga: dano corpo a corpo maior até pouco depois do choque, e corrida.
-	const charge = this.IsCharging() ? this.Get("ChargeDamage", 1) * (posture.charge || 1) : 1;
+	const charge = this.IsCharging() ? this.Get("ChargeDamage", 1) * (posture.charge || 1) * (this.charge.slope || 1) : 1;
 	const chargeSpeed = this.IsRunningIn() ? this.Get("ChargeSpeed", 1) : 1;
 	const key = [spread, repeat, rangedRepeat, walk * chargeSpeed, attack, armor, pierce, charge].map(v => v.toFixed(3)).join("|");
 
@@ -1680,7 +1895,12 @@ BattalionTactics.prototype.GetStatus = function()
 		"fightingRanks": isFinite(this.GetFightingRanks()) ? this.GetFightingRanks() : 0,
 		"kills": this.kills,
 		"hidden": !!this.hidden,
-		"canHide": !!Engine.QueryInterface(this.entity, IID_Identity)?.HasClass("TWStealth"),
+		"canHide": this.CanHide(),
+		"hideAnywhere": !!Engine.QueryInterface(this.entity, IID_Identity)?.HasClass("TWStealth"),
+		"ambushing": this.IsAmbushing(),
+		"height": this.GetHeightState(),
+		"heightAdvantage": Math.round(this.heightAdvantage),
+		"stakes": this.CanEverPlantStakes() ? (this.stakesUsed ? -1 : this.CanPlantStakes() ? 0 : 1) : undefined,
 		"canCharge": !!Engine.QueryInterface(this.entity, IID_Identity)?.HasClass("TWCharger"),
 		"brace": !!Engine.QueryInterface(this.entity, IID_Identity)?.HasClass("TWBrace"),
 		"posture": this.posture,

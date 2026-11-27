@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant frequency="1" name="Base">
+      <animations>
+        <animation file="quadraped/wolfhound_idle1.dae" name="Idle" speed="100" />
+        <animation file="quadraped/wolfhound_idle_laydown.dae" name="Idle" speed="100" />
+        <animation file="quadraped/wolfhound_idle_long.dae" name="Idle" speed="100" />
+        <animation file="quadraped/wolfhound_idle_sit.dae" name="Idle" speed="100" />
+        <animation file="quadraped/wolfhound_walk.dae" name="Walk" speed="10" />
+        <animation file="quadraped/wolfhound_walk.dae" name="run" speed="10" />
+        <animation file="quadraped/wolfhound_death.dae" name="death" speed="100" />
+        <animation file="quadraped/wolfhound_attack.dae" name="attack_melee" speed="100" />
+      </animations>
+      <mesh>skeletal/wolfhound.dae</mesh>
+      <props>
+        <prop actor="props/units/wolfhound_collar.xml" attachpoint="collar" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="war_dog_1">
+      <textures>
+        <texture file="skeletal/hiber/war_dog_1.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="war_dog_2">
+      <textures>
+        <texture file="skeletal/hiber/war_dog_2.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="war_dog_3">
+      <textures>
+        <texture file="skeletal/hiber/war_dog_3.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

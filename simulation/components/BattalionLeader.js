@@ -86,6 +86,10 @@ BattalionLeader.prototype.SetCampaignData = function(data)
 		this.currentXp = Math.max(0, +data.xp);
 	if (data.attachments)
 		this.pendingAttachments = data.attachments.filter(a => a && a.kind && a.template);
+	// Suprimentos da campanha: exército longe de casa chega cansado.
+	const cmpTactics = Engine.QueryInterface(this.entity, IID_BattalionTactics);
+	if (cmpTactics && data.vigor !== undefined && data.vigor !== null)
+		cmpTactics.vigor = Math.max(0, Math.min(100, +data.vigor));
 };
 
 BattalionLeader.prototype.GetCampaignId = function()
@@ -170,8 +174,8 @@ BattalionLeader.prototype.SpawnMembers = function()
 		this.members.push(ent);
 	}
 	this.SpawnAttachments(leaderPos, angle, owner);
-	// Tropa leve: visibilidade por script desde já (ZZ_TWStealth.js).
-	if (Engine.QueryInterface(this.entity, IID_Identity)?.HasClass("TWStealth"))
+	// Quem pode se esconder (bosque, emboscada): visibilidade por script desde já (ZZ_TWStealth.js).
+	if (Engine.QueryInterface(this.entity, IID_BattalionTactics)?.CanHide())
 		for (const ent of this.GetBattalionEntities())
 			Engine.QueryInterface(ent, IID_Visibility)?.EnableTWStealth?.();
 	Engine.QueryInterface(this.entity, IID_BattalionTactics)?.ApplyModifiers();
@@ -230,12 +234,12 @@ BattalionLeader.prototype.IsAlive = function(ent)
 /**
  * Colunas e espaçamento atuais (a postura do batalhão pode mudar).
  */
-BattalionLeader.prototype.GetFormationShape = function(memberCount)
+BattalionLeader.prototype.GetFormationShape = function(memberCount, frontage = this.frontage)
 {
 	const cmpTactics = Engine.QueryInterface(this.entity, IID_BattalionTactics);
 	const override = cmpTactics ? cmpTactics.GetFormationOverride(memberCount) : { "columns": null, "spacingScale": 1 };
 	return {
-		"columns": Math.max(1, Math.min(memberCount, override.columns || this.frontage || this.columns)),
+		"columns": Math.max(1, Math.min(memberCount, override.columns || frontage || this.columns)),
 		"spacing": this.spacing * (override.spacingScale || 1),
 		"shape": override.shape
 	};
@@ -245,9 +249,9 @@ BattalionLeader.prototype.GetFormationShape = function(memberCount)
  * Posição do soldado `index` (0 = primeiro da primeira fileira). As
  * fileiras ficam atrás do líder, centradas, viradas para `angle`.
  */
-BattalionLeader.prototype.GetSlotPosition = function(leaderPos, angle, index, memberCount)
+BattalionLeader.prototype.GetSlotPosition = function(leaderPos, angle, index, memberCount, frontage = this.frontage)
 {
-	const shape = this.GetFormationShape(memberCount);
+	const shape = this.GetFormationShape(memberCount, frontage);
 	let localX;
 	let localY;
 	if (shape.shape == "wedge" || shape.shape == "staggered")
@@ -289,9 +293,56 @@ BattalionLeader.prototype.GetSlotPosition = function(leaderPos, angle, index, me
 /** Soldados por fileira pedidos para uma frente de `width` m (linha arrastada). */
 BattalionLeader.prototype.SetFrontageWidth = function(width)
 {
+	this.frontage = this.FrontageForWidth(width);
+};
+
+/** Soldados por fileira para uma frente de `width` m, sem mudar nada. */
+BattalionLeader.prototype.FrontageForWidth = function(width)
+{
 	const count = Math.max(1, this.members.length);
 	const columns = Math.round(width / this.spacing);
-	this.frontage = Math.max(Math.min(this.MIN_FRONTAGE, count), Math.min(count, columns));
+	return Math.max(Math.min(this.MIN_FRONTAGE, count), Math.min(count, columns));
+};
+
+/**
+ * Prévia (só leitura): onde o batalhão ficaria com o líder em (x, z),
+ * virado para `angle`, com uma frente de `width` m (ou a atual).
+ * @return {Object} { "leader": {x, y}, "slots": [{x, y}], "angle" }
+ */
+BattalionLeader.prototype.PreviewSlots = function(x, z, angle, width)
+{
+	const count = this.members.length;
+	const frontage = width ? this.FrontageForWidth(width) : this.frontage;
+	const leaderPos = new Vector2D(x, z);
+	const slots = [];
+	for (let i = 0; i < count; ++i)
+		slots.push(this.GetSlotPosition(leaderPos, angle, i, count, frontage));
+	return { "leader": { "x": x, "y": z }, "slots": slots, "angle": angle };
+};
+
+/**
+ * Fase de desdobramento: o batalhão vai direto ao lugar (sem andar), já em
+ * formação, virado para `angle`; `width` (m) muda a frente.
+ */
+BattalionLeader.prototype.Teleport = function(x, z, angle, width)
+{
+	if (width)
+		this.SetFrontageWidth(width);
+	const count = this.members.length;
+	const leaderPos = new Vector2D(x, z);
+	const place = (ent, pos) => {
+		Engine.QueryInterface(ent, IID_UnitAI)?.Stop(false);
+		const cmpPosition = Engine.QueryInterface(ent, IID_Position);
+		if (!cmpPosition || !cmpPosition.IsInWorld())
+			return;
+		cmpPosition.JumpTo(pos.x, pos.y);
+		cmpPosition.SetYRotation(angle);
+	};
+	place(this.entity, leaderPos);
+	this.members.forEach((ent, i) => place(ent, this.GetSlotPosition(leaderPos, angle, i, count)));
+	this.attachments.forEach((attachment, k) => place(attachment.ent, this.GetAttachmentSlot(leaderPos, angle, k, count)));
+	this.facing = angle;
+	this.pendingFacing = undefined;
 };
 
 /** Fileira (0 = a da frente) do soldado no lugar `slotIndex`. */

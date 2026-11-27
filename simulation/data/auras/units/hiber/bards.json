@@ -1,0 +1,43 @@
+{
+	"type": "range",
+	"radius": 30,
+	"affects": [
+		"Hero"
+	],
+	"affectedPlayers": [
+		"MutualAlly"
+	],
+	"modifications": [
+		{
+			"value": "Health/Max",
+			"add": 10
+		},
+		{
+			"value": "Attack/Melee/Damage/Hack",
+			"multiply": 1.1
+		},
+		{
+			"value": "Attack/Melee/Damage/Pierce",
+			"multiply": 1.1
+		},
+		{
+			"value": "Attack/Melee/Damage/Crush",
+			"multiply": 1.1
+		},
+		{
+			"value": "Attack/Ranged/Damage/Hack",
+			"multiply": 1.1
+		},
+		{
+			"value": "Attack/Ranged/Damage/Pierce",
+			"multiply": 1.1
+		},
+		{
+			"value": "Attack/Ranged/Damage/Crush",
+			"multiply": 1.1
+		}
+	],
+	"auraName": "Bardic Praise",
+	"auraDescription": "Heroes +10 health and +10% attack.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

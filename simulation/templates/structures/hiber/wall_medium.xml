@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_medium">
+  <Footprint replace="">
+    <Square width="16.5" depth="6.5" />
+    <Height>16.6</Height>
+  </Footprint>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Dūn</SpecificName>
+    <GenericName>Stone Wall</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="15.5" depth="5.5" />
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>17.6</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>11.1</Y>
+        <Z>0.75</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>11.1</Y>
+        <Z>0.75</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>11.1</Y>
+        <Z>0.75</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>11.1</Y>
+        <Z>0.75</Z>
+      </Four>
+      <Five>
+        <X>1.5</X>
+        <Y>11.1</Y>
+        <Z>-0.75</Z>
+      </Five>
+      <Six>
+        <X>-1.5</X>
+        <Y>11.1</Y>
+        <Z>-0.75</Z>
+      </Six>
+      <Seven>
+        <X>4.5</X>
+        <Y>11.1</Y>
+        <Z>-0.75</Z>
+      </Seven>
+      <Eight>
+        <X>-4.5</X>
+        <Y>11.1</Y>
+        <Z>-0.75</Z>
+      </Eight>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/hibernians/wall_medium.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>16.2</Length>
+  </WallPiece>
+</Entity>

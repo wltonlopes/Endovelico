@@ -140,7 +140,9 @@ class ProvinceDetailsWindow
 		{
 			const structures = province.getBuildingNames();
 			str += `Balance: ${province.getBalance()}\n`;
-			str += `Happiness: ${Math.round(province.getHappiness())}\n`;
+			str += `Public order: ${Math.round(province.getHappiness())}\n`;
+			if (typeof twProvinceMechanicsText == "function")
+				str += twProvinceMechanicsText(province);
 			str += `Structures: ${structures.length ? structures.join(", ") : "None"}\n`;
 			if (province.buildQueue.length)
 				str += `Construction: ${province.getConstructionStatusText()}\n`;
@@ -205,6 +207,33 @@ class ProvinceDetailsWindow
 				this.showConstructionPanel(province, constructionPanel, constructionText, true);
 			else
 				constructionPanel.hidden = true;
+		}
+
+		// Especialização (game/zz_CampaignMechanics.js): cada clique passa para a próxima.
+		const specBtn = Engine.TryGetGUIObjectByName("provinceSpecializeButton");
+		if (specBtn)
+		{
+			const mine = province.ownerTribe === g_GameData.playerTribe && !province.isSea() && typeof twSpecialization == "function";
+			specBtn.hidden = !mine;
+			if (mine)
+			{
+				const current = twSpecialization(province);
+				const next = TW_SPECIALIZATION_ORDER[(TW_SPECIALIZATION_ORDER.indexOf(current) + 1) % TW_SPECIALIZATION_ORDER.length];
+				const block = twSpecializationBlock(province, tribe);
+				specBtn.caption = `Specialization: ${TW_SPECIALIZATIONS[current].name}` + (block ? "" : ` → ${TW_SPECIALIZATIONS[next].name}`);
+				specBtn.enabled = !block;
+				specBtn.tooltip = TW_SPECIALIZATION_ORDER.map(id => (id == current ? "▶ " : "   ") + TW_SPECIALIZATIONS[id].name + ": " + TW_SPECIALIZATIONS[id].help).join("\n") +
+					"\n\n" + (block ? coloredText(block, "230 130 110") : `Click to change to ${TW_SPECIALIZATIONS[next].name} (${TW_SPECIALIZATION_COST} gold).`);
+				specBtn.onPress = () =>
+				{
+					if (twSetSpecialization(province, tribe, next) === true)
+					{
+						g_GameData.save();
+						this.display();
+						this.menu.render?.();
+					}
+				};
+			}
 		}
 
 		const trainBtn = Engine.TryGetGUIObjectByName("trainGeneral");

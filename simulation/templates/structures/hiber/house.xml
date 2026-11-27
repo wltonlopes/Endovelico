@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Footprint replace="">
+    <Square width="14.0" depth="13.5" />
+    <Height>11.9</Height>
+  </Footprint>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Tegos</SpecificName>
+    <GenericName>House</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.5" depth="13.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/hibernians/house.xml</Actor>
+    <FoundationActor>structures/fndn_4x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

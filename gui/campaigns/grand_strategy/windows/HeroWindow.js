@@ -23,7 +23,11 @@ class HeroDetailsWindow
 			`Moves: ${hero.actionsLeft} / ${cap}  (+${techs.getMoveRegen()}/turn)\n` +
 			`Location: ${province.name}\n` +
 			`Owner: ${g_GameData.tribes[province.ownerTribe]?.getName() || "No-one"}\n` +
-			`Navigation: ${navigation}`;
+			`Navigation: ${navigation}` +
+			(typeof twSupplyShortText == "function" ? `\nSupply: ${twSupplyShortText(hero)}` : "");
+		if (typeof twSupplyText == "function")
+			Engine.GetGUIObjectByName("heroDetailsText").tooltip = "Supply: " + twSupplyText(hero) +
+				"\nArmies more than one province away from your lands (or lands that grant you passage) lose soldiers, fight worse and reach the battlefield tired.";
 
 		Engine.GetGUIObjectByName("heroMovesBar").size =
 			`0 0 ${Math.max(0, Math.min(100, Math.round(100 * hero.actionsLeft / cap)))}% 100%`;

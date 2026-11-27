@@ -1,0 +1,104 @@
+{
+	"Code": "hiber",
+	"Culture": "celt",
+	"Music": [
+		{
+			"File": "The_Fledgling_Kingdom.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Highland_Mist.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Celtica.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Albian_Nocturne.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Whistler.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Curadmír (The Hero's Portion)",
+			"History": "At the feast the best cut of the pig went to the greatest warrior, and heroes fought for the honour.",
+			"Description": "Heroes +0.5% attack for each enemy unit they kill, up to 40 kills (+20%)."
+		},
+		{
+			"Name": "Crech (Cattle Raids)",
+			"History": "Wealth and status in Ériu were counted in cattle, won and lost in endless raids.",
+			"Description": "Each head of cattle you own yields 1 metal per minute, up to 50 heads."
+		},
+		{
+			"Name": "Karpaton (War Chariots)",
+			"History": "Irish heroes rode to battle in chariots and leapt down to fight on foot.",
+			"Description": "War chariots carry up to 3 infantry, which can dismount at any time."
+		},
+		{
+			"Name": "Deas Celtica",
+			"History": "The druids, keepers of law, lore and sacrifice, stood beside the warriors of Ériu.",
+			"Description": "Druids increase attack rates of soldiers near them by 5%."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/hiber/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/hiber/civil_centre"
+		},
+		{
+			"Template": "units/hiber/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/hiber/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/hiber/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/hiber/cavalry_javelineer_b"
+		},
+		{
+			"Template": "units/hiber/war_dog"
+		}
+	],
+	"AINames": [
+		"Eochaid Feidlech",
+		"Eochaid Airem",
+		"Eterscél",
+		"Nuadu Necht",
+		"Conaire Mór",
+		"Lugaid Riab nDerg",
+		"Conchobar Abradruad",
+		"Crimthann Nia Náir",
+		"Cairbre Cinnchait",
+		"Feradach Finnfechtnach",
+		"Fíatach Finn",
+		"Fiacha Finnfolaidh",
+		"Elim mac Conrach",
+		"Tuathal Teachtmhar"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "units/hiber/infantry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/hiber/infantry_spearman_b",
+		"skirmish/units/default_cavalry": "units/hiber/cavalry_javelineer_b",
+		"skirmish/structures/default_house_10": "structures/hiber/house",
+		"skirmish/structures/default_house_5": "structures/hiber/house",
+		"skirmish/structures/default_wall_tower": "structures/hiber/wall_tower",
+		"skirmish/structures/default_wall_gate": "structures/hiber/wall_gate",
+		"skirmish/structures/default_wall_short": "structures/hiber/wall_short",
+		"skirmish/structures/default_wall_medium": "structures/hiber/wall_medium",
+		"skirmish/structures/default_wall_long": "structures/hiber/wall_long"
+	},
+	"SelectableInGameSetup": true
+}

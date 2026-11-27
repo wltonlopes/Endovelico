@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit/support_female_citizen">
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Hibernian Woman</GenericName>
+    <SpecificName>Īwernī Benā</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hibernians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

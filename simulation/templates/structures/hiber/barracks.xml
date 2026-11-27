@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <Resources>
+      <wood>300</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="28.0" depth="28.5" />
+    <Height>16.2</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Koryotegos</SpecificName>
+    <GenericName>Barracks</GenericName>
+  </Identity>
+  <Loot>
+    <wood>60</wood>
+    <stone>0</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="27.0" depth="27.5" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/hibernians/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+  <Trainer>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_slinger_b
+    </Entities>
+  </Trainer>
+</Entity>

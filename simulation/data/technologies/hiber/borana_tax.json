@@ -1,0 +1,18 @@
+{
+	"genericName": "Bórana Tax",
+	"specificName": "Bórama",
+	"description": "The tribute in cattle that the kings of Tara exacted from Leinster paid for warriors and their keep.",
+	"cost": {
+		"food": 250,
+		"metal": 150
+	},
+	"requirements": {
+		"tech": "phase_town"
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "coins.png",
+	"researchTime": 45,
+	"tooltip": "Units −0.5% resource costs for each head of cattle you own (up to 50 heads, −25%).",
+	"modifications": [],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -134,7 +134,8 @@ class TribeTechs
 	/** Soma do efeito em todas as tecnologias pesquisadas. */
 	get(key)
 	{
-		return this.effects[key] || 0;
+		const civ = typeof twCivTechBonus == "function" ? twCivTechBonus(this.tribe, key) : 0;
+		return (this.effects[key] || 0) + civ;
 	}
 
 	has(id)

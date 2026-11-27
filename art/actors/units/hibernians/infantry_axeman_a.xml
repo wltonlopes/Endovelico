@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_pants_loose_02.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/hiber/head_male.xml" attachpoint="head" />
+        <prop actor="props/units/weapons/axe_nomad.xml" attachpoint="weapon_R" />
+        <prop actor="props/units/capes/cape_med_pelt.xml" attachpoint="root" />
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hiber_shield_light_b">
+      <props>
+        <prop actor="props/units/shields/hiber_shield_light_b.xml" attachpoint="shield" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="no_wolf_hat">
+    </variant>
+    <variant frequency="1" name="wolf_hat">
+      <props>
+        </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="auxiliary_a_1">
+      <textures>
+        <texture file="skeletal/hiber/auxiliary_a_1.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="auxiliary_a_2">
+      <textures>
+        <texture file="skeletal/hiber/auxiliary_a_2.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="auxiliary_a_3">
+      <textures>
+        <texture file="skeletal/hiber/auxiliary_a_3.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="auxiliary_a_4">
+      <textures>
+        <texture file="skeletal/hiber/auxiliary_a_4.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_axeman_shield_fast_ready.xml" name="Axeman-Shield-Fast-Ready" frequency="1" />
+    <variant file="biped/carry_food.xml" />
+    <variant file="biped/carry_meat.xml" />
+    <variant file="biped/carry_wood.xml" />
+    <variant file="biped/carry_stone.xml" />
+    <variant file="biped/carry_metal.xml" />
+  </group>
+  <group>
+    <variant frequency="1" name="Idle" />
+    <variant file="biped/attack_capture.xml" />
+    <variant file="biped/attack_slaughter.xml" />
+    <variant file="biped/gather_tree.xml" />
+    <variant file="biped/gather_grain.xml" />
+    <variant file="biped/gather_fruit.xml" />
+    <variant file="biped/gather_meat.xml" />
+    <variant file="biped/gather_rock.xml" />
+    <variant file="biped/gather_ore.xml" />
+    <variant file="biped/gather_ruins.xml" />
+    <variant file="biped/gather_praise.xml" />
+    <variant file="biped/build.xml" />
+    <variant file="biped/build_farm.xml" />
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/capes/cape_med_pelt.xml" attachpoint="root" />
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

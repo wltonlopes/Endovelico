@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">
+    teambonuses/hiber_player_teambonus
+    teambonuses/hiber_player_teambonus_duel
+    teambonuses/hiber_player_teambonus_bards
+  </Auras>
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Hibernians</GenericName>
+    <SpecificName>Īwernī</SpecificName>
+    <History>Ériu, the Hibernia of the Romans, was never conquered by Rome. Between 100 BC and AD 100 the island was a patchwork of small kingdoms (túatha) under the high kings of Tara, cattle-raiding warrior aristocracies bound by the oral Brehon laws, the poetry of the bards and the rites of the druids at royal sites such as Emain Macha, Rathcroghan, Uisnech and Dún Ailinne. Ring forts, crannogs and coastal promontory forts guarded its farms and herds.</History>
+    <Icon>emblems/emblem_britons.png</Icon>
+  </Identity>
+</Entity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Marcador local (só na tela do jogador) da prévia de posicionamento (Total Warfield, ZZ_TWGuiInterface.js). -->
+<Entity parent="special/actor">
+  <Visibility>
+    <AlwaysVisible>true</AlwaysVisible>
+  </Visibility>
+  <VisualActor>
+    <Actor>props/special/tw/zone_marker.xml</Actor>
+  </VisualActor>
+</Entity>

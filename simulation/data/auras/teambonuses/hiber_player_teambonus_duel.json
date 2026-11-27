@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": [
+		"Champion"
+	],
+	"affectedPlayers": [
+		"MutualAlly"
+	],
+	"modifications": [],
+	"auraName": "Single Combat (Fer Comrac)",
+	"auraDescription": "Champions take −10% damage from enemy champions."
+}

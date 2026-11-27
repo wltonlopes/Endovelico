@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelineer">
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Hibernian Aristocrat</GenericName>
+    <SpecificName>Aryos</SpecificName>
+    <Icon>units/brit/champion_javelineer.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hibernians/champion_infantry_javelineer.xml</Actor>
+  </VisualActor>
+</Entity>

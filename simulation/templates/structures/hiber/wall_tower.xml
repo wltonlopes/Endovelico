@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Footprint replace="">
+    <Square width="9.5" depth="10.0" />
+    <Height>16.8</Height>
+  </Footprint>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Brixs Dūn</SpecificName>
+    <GenericName>Wall Tower</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="9.0" depth="9.5" />
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>17.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/hibernians/wall_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>8.6</Length>
+  </WallPiece>
+</Entity>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant file="biped/base_jav_chariot_ready.xml">
+      <mesh>skeletal/new/m_pants.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/hiber/head_hero_elim.xml" attachpoint="head" />
+        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R" />
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo" />
+        <prop actor="props/units/capes/hiber/rider_cape_hero_3.xml" attachpoint="root" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hiber_shield_champion">
+      <props>
+        <prop actor="props/units/shields/hiber_shield_champion.xml" attachpoint="shield" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hero_3">
+      <textures>
+        <texture file="skeletal/hiber/hero_3.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle" />
+    <variant file="biped/attack_ranged_javelinist.xml" />
+    <variant file="biped/attack_capture.xml" />
+    <variant file="biped/death_infantry.xml" />
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

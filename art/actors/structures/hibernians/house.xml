@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow />
+  <group>
+    <variant frequency="1" name="Base">
+      <props>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root" />
+      </props>
+      <textures>
+        <texture file="structural/hiber/struct.png" name="baseTex" />
+        <texture file="default_norm.png" name="normTex" />
+        <texture file="null_black.dds" name="specTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="house_a">
+      <mesh>structural/hibernians/house_a.dae</mesh>
+      <textures>
+        <texture file="structural/ao/hiber/house_a_ao.png" name="aoTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="house_b">
+      <mesh>structural/hibernians/house_b.dae</mesh>
+      <textures>
+        <texture file="structural/ao/hiber/house_b_ao.png" name="aoTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="house_c">
+      <mesh>structural/hibernians/house_c.dae</mesh>
+      <textures>
+        <texture file="structural/ao/hiber/house_c_ao.png" name="aoTex" />
+      </textures>
+    </variant>
+    <variant frequency="1" name="house_d">
+      <mesh>structural/hibernians/house_d.dae</mesh>
+      <textures>
+        <texture file="structural/ao/hiber/house_d_ao.png" name="aoTex" />
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned" />
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_hiber.xml" attachpoint="garrisoned" selectable="false" />
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1" />
+    <variant file="structures/destruction_small.xml" />
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

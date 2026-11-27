@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fase de posicionamento da batalha de campo (Total Warfield): aviso,
+     contagem e o botão de começar. gui/session/tw_deploy.js preenche. -->
+<object name="twDeployPanel" size="50%-230 72 50%+230 150" hidden="true">
+	<object type="image" sprite="color: 0 0 0 150" ghost="true"/>
+	<object name="twDeployText" size="10 4 100%-10 44" type="text" ghost="true" font="sans-bold-stroke-14" text_align="center" text_valign="center" textcolor="255 235 180"/>
+	<object name="twDeployStart" size="50%-90 46 50%+90 74" type="button" style="StoneButton" tooltip_style="sessionToolTipBottom">
+		<translatableAttribute id="caption">Start Battle</translatableAttribute>
+		<translatableAttribute id="tooltip">End the deployment and start the battle. The enemy waits until then.</translatableAttribute>
+	</object>
+</object>

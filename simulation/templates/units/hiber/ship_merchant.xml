@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit/ship_merchant">
+  <Identity>
+    <Civ>hiber</Civ>
+    <GenericName>Merchant Ship</GenericName>
+    <SpecificName>Longāwreikos</SpecificName>
+  </Identity>
+</Entity>

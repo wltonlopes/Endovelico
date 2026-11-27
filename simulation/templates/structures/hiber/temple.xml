@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Cost>
+    <Resources>
+      <wood>300</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="24.5" depth="26.0" />
+    <Height>17.9</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hiber</Civ>
+    <SpecificName>Nemed</SpecificName>
+    <GenericName>Temple</GenericName>
+  </Identity>
+  <Loot>
+    <wood>60</wood>
+    <stone>0</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="23.5" depth="25.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/hibernians/temple.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+  <Trainer>
+    <Entities datatype="tokens" replace="">
+      units/{civ}/support_healer_b
+    </Entities>
+  </Trainer>
+  <Researcher>
+    <Technologies datatype="tokens">
+      hiber/brehon_laws
+    </Technologies>
+  </Researcher>
+</Entity>
